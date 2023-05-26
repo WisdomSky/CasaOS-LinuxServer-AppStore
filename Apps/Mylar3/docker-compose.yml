@@ -1,0 +1,65 @@
+name: Mylar3
+services:
+  app:
+    image: linuxserver/mylar3@sha256:191f3e5d280336cba7f679d4914865522586df813ae2f64b0db314e73a95a0b7
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+        - container: /comics
+          description:
+            en_us: Path to comics
+        - container: /downloads
+          description:
+            en_us: Path to downloads
+      ports:
+        - container: 8090
+          description:
+            en_us: Webui
+    ports:
+      - target: 8090
+        published: 8090
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mylar3/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/mylar3/comics
+        target: /comics
+      - type: bind
+        source: /DATA/AppData/mylar3/downloads
+        target: /downloads
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mylar3/'
+  tagline:
+    en_us: An automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png
+  title:
+    en_us: Mylar3
+  port_map: '8090'

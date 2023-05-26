@@ -1,0 +1,67 @@
+name: Booksonic-air
+services:
+  app:
+    image: linuxserver/booksonic-air@sha256:13f8172d6573e410d744dd6050d88ade6a65cd43ed5eef289d2b910efbfdd160
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONTEXT_PATH: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: CONTEXT_PATH
+          description:
+            en_us: Base url for use with reverse proxies etc.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 4040
+          description:
+            en_us: Webui Port
+    ports:
+      - target: 4040
+        published: 4040
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/booksonic-air/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/booksonic-air/audiobooks
+        target: /audiobooks
+      - type: bind
+        source: /DATA/AppData/booksonic-air/podcasts
+        target: /podcasts
+      - type: bind
+        source: /DATA/AppData/booksonic-air/othermedia
+        target: /othermedia
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
+  tagline:
+    en_us: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
+  title:
+    en_us: Booksonic-air
+  category: Audio
+  port_map: '4040'

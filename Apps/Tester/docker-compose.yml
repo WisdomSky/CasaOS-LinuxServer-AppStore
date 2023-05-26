@@ -1,0 +1,32 @@
+name: Tester
+services:
+  app:
+    image: linuxserver/tester@sha256:976ed6115060a646cf9e427b003d048d1a5aecfa4ded89b9bb7a2d5a5db9e839
+    restart: unless-stopped
+    environment:
+      URL: ''
+    x-casaos:
+      envs:
+        - container: URL
+          description:
+            en_us: Specify an endpoint, the container will automatically determine the correct protocol and program to use
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
+  tagline:
+    en_us: This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://avatars3.githubusercontent.com/u/12324908?s=200&v=4
+  thumbnail: https://avatars3.githubusercontent.com/u/12324908?s=200&v=4
+  title:
+    en_us: Tester

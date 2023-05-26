@@ -1,0 +1,53 @@
+name: Embystat
+services:
+  app:
+    image: linuxserver/embystat@sha256:c059c2355b8d9e028d50f9c19b590cf38d84d6ae895d525047c453d051684917
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 6555
+          description:
+            en_us: Webui Port
+    ports:
+      - target: 6555
+        published: 6555
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/embystat/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/embystat/'
+  tagline:
+    en_us: A personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/embystat-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/embystat-logo.png
+  title:
+    en_us: Embystat
+  port_map: '6555'

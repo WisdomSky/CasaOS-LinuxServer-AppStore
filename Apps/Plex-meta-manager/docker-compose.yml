@@ -1,0 +1,61 @@
+name: Plex-meta-manager
+services:
+  app:
+    image: linuxserver/plex-meta-manager@sha256:d997837dc5a9435dd6182180f972afe4ec23b38822b042992d1c8768d0248aea
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PMM_CONFIG: ''
+      PMM_TIME: ''
+      PMM_RUN: ''
+      PMM_TEST: ''
+      PMM_NO_MISSING: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PMM_CONFIG
+          description:
+            en_us: Specify a custom config file to use.
+        - container: PMM_TIME
+          description:
+            en_us: 'Comma-separated list of times to update each day. Format: HH:MM.'
+        - container: PMM_RUN
+          description:
+            en_us: Set to True to run without the scheduler.
+        - container: PMM_TEST
+          description:
+            en_us: 'Set to True to run in debug mode with only collections that have test: true.'
+        - container: PMM_NO_MISSING
+          description:
+            en_us: Set to True to run without any of the missing movie/show functions.
+    volumes:
+      - type: bind
+        source: /DATA/AppData/plex-meta-manager/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Plex-meta-manager is a Python 3 script that can be continuously run using YAML configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
+  tagline:
+    en_us: A Python 3 script that can be continuously run using YAML configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-meta-manager-banner.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-meta-manager-banner.png
+  title:
+    en_us: Plex-meta-manager
+  category: Media Management

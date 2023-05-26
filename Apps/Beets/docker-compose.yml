@@ -1,0 +1,52 @@
+name: Beets
+services:
+  app:
+    image: linuxserver/beets@sha256:636a97749a5c9ed96053277a4fcfacf1c9ff932d836164a6ad5f5de62e343ede
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 8337
+        published: 8337
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/beets/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/beets/music
+        target: /music
+      - type: bind
+        source: /DATA/AppData/beets/downloads
+        target: /downloads
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/beets/'
+  tagline:
+    en_us: A music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png
+  title:
+    en_us: Beets
+  category: Media
+  port_map: '8337'

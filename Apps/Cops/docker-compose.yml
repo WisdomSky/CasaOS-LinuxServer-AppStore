@@ -1,0 +1,49 @@
+name: Cops
+services:
+  app:
+    image: linuxserver/cops@sha256:2f784ca4ad2ab8b2074b0d9385f369622f28880fcc73909b194125d7b2e1d553
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/cops/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/cops/books
+        target: /books
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/cops/'
+  tagline:
+    en_us: 'By Sébastien Lucas, stands for Calibre OPDS (and HTML) Php Server. COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices. Changes in your Calibre library are reflected immediately in your COPS pages. See : COPS''s home for more details. Don''t forget to check the Wiki. ## Why? (taken from the author''s site) In my opinion Calibre is a marvelous tool but is too big and has too much dependencies to be used for its content server. That''s the main reason why I coded this OPDS server. I needed a simple tool to be installed on a small server (Seagate Dockstar in my case). I initially thought of Calibre2OPDS but as it generate static file no search was possible. Later I added an simple HTML catalog that should be usable on my Kobo. So COPS''s main advantages are : * No need for many dependencies. * No need for a lot of CPU or RAM. * Not much code. * Search is available. * With Dropbox / owncloud it''s very easy to have an up to date OPDS server. * It was fun to code. If you want to use the OPDS feed don''t forget to specify feed.php at the end of your URL.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cops-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cops-icon.png
+  title:
+    en_us: Cops
+  category: Books
+  port_map: '80'

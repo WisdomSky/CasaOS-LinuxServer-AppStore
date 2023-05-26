@@ -1,0 +1,81 @@
+name: Transmission
+services:
+  app:
+    image: linuxserver/transmission@sha256:0bdb4d5de255e92326b9b5c126d0c0ed62423611f029c6a894d032dfc525d71a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      TRANSMISSION_WEB_HOME: ''
+      USER: ''
+      PASS: ''
+      WHITELIST: ''
+      PEERPORT: ''
+      HOST_WHITELIST: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: TRANSMISSION_WEB_HOME
+          description:
+            en_us: Specify the path to an alternative UI folder.
+        - container: USER
+          description:
+            en_us: Specify an optional username for the interface
+        - container: PASS
+          description:
+            en_us: Specify an optional password for the interface
+        - container: WHITELIST
+          description:
+            en_us: Specify an optional list of comma separated ip whitelist. Fills rpc-whitelist setting.
+        - container: PEERPORT
+          description:
+            en_us: Specify an optional port for torrent TCP/UDP connections. Fills peer-port setting.
+        - container: HOST_WHITELIST
+          description:
+            en_us: Specify an optional list of comma separated dns name whitelist. Fills rpc-host-whitelist setting.
+    ports:
+      - target: 9091
+        published: 9091
+        protocol: tcp
+      - target: 51413
+        published: 51413
+        protocol: tcp
+      - target: 51413
+        published: 51413
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/transmission/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/transmission/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/transmission/watch
+        target: /watch
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/transmission/'
+  tagline:
+    en_us: 'Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
+  title:
+    en_us: Transmission
+  port_map: '9091'

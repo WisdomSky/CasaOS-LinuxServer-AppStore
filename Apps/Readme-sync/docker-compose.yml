@@ -1,0 +1,45 @@
+name: Readme-sync
+services:
+  app:
+    image: linuxserver/readme-sync@sha256:5aa96d6af678a331c915c44ee9139be0457633ba0409235157079a699a0c9c16
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/readme-sync/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/readme-sync for details.
+  tagline:
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/readme-sync for details.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: ''
+  thumbnail: ''
+  title:
+    en_us: Readme-sync
+  port_map: '80'

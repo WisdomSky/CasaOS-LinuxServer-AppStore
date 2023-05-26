@@ -1,0 +1,51 @@
+name: Quassel-core
+services:
+  app:
+    image: linuxserver/quassel-core@sha256:866e58c6a65d1e372089bdf430f6a2771dfdb7f8118f10c86bee3c1ce1a9c31d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      RUN_OPTS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: RUN_OPTS
+          description:
+            en_us: Custom CLI options for Quassel
+    ports:
+      - target: 4242
+        published: 4242
+        protocol: tcp
+      - target: 113
+        published: 10113
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/quassel-core/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/quassel-core/'
+  tagline:
+    en_us: A modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core. This container handles the IRC connection (quasselcore) and requires a desktop client (quasselclient) to be used and configured. It is designed to be always on and will keep your identity present in IRC even when your clients cannot be online. Backlog (history) is downloaded by your client upon reconnection allowing infinite scrollback through time.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-icon.png
+  thumbnail: http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Apps-quassel-icon.png
+  title:
+    en_us: Quassel-core

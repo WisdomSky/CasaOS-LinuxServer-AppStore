@@ -1,0 +1,79 @@
+name: Wireguard
+services:
+  app:
+    image: linuxserver/wireguard@sha256:aef7fa3769a4865fbff5a342a12cecd51900b96eeca8bf09c0abfe13cd443f66
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SERVERURL: ''
+      SERVERPORT: ''
+      PEERS: ''
+      PEERDNS: ''
+      INTERNAL_SUBNET: ''
+      ALLOWEDIPS: ''
+      PERSISTENTKEEPALIVE_PEERS: ''
+      LOG_CONFS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: SERVERURL
+          description:
+            en_us: External IP or domain name for docker host. Used in server mode. If set to auto, the container will try to determine and set the external IP automatically
+        - container: SERVERPORT
+          description:
+            en_us: External port for docker host. Used in server mode.
+        - container: PEERS
+          description:
+            en_us: 'Number of peers to create confs for. Required for server mode. Can also be a list of names: myPC,myPhone,myTablet (alphanumeric only)'
+        - container: PEERDNS
+          description:
+            en_us: DNS server set in peer/client configs (can be set as 8.8.8.8). Used in server mode. Defaults to auto, which uses wireguard docker host's DNS via included CoreDNS forward.
+        - container: INTERNAL_SUBNET
+          description:
+            en_us: Internal subnet for the wireguard and server and peers (only change if it clashes). Used in server mode.
+        - container: ALLOWEDIPS
+          description:
+            en_us: 'The IPs/Ranges that the peers will be able to reach using the VPN connection. If not specified the default value is: ''0.0.0.0/0, ::0/0'' This will cause ALL traffic to route through the VPN, if you want split tunneling, set this to only the IPs you would like to use the tunnel AND the ip of the server''s WG ip, such as 10.13.13.1.'
+        - container: PERSISTENTKEEPALIVE_PEERS
+          description:
+            en_us: Set to all or a list of comma separated peers (ie. 1,4,laptop) for the wireguard server to send keepalive packets to listed peers every 25 seconds. Useful if server is accessed via domain name and has dynamic IP. Used only in server mode.
+        - container: LOG_CONFS
+          description:
+            en_us: Generated QR codes will be displayed in the docker log. Set to false to skip log output.
+    ports:
+      - target: 51820
+        published: 51820
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/wireguard/config
+        target: /config
+      - type: bind
+        source: /lib/modules
+        target: /lib/modules
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.
+  tagline:
+    en_us: An extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://www.wireguard.com/img/wireguard.svg
+  thumbnail: https://www.wireguard.com/img/wireguard.svg
+  title:
+    en_us: Wireguard

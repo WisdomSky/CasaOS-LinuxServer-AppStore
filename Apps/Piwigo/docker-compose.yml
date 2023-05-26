@@ -1,0 +1,48 @@
+name: Piwigo
+services:
+  app:
+    image: linuxserver/piwigo@sha256:dcdfb1cd57b139a8dcdc6392b34db69cd9fa628577a16fda33bc189d1d481b59
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/piwigo/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/piwigo/gallery
+        target: /gallery
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/piwigo/'
+  tagline:
+    en_us: A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
+  title:
+    en_us: Piwigo
+  port_map: '80'

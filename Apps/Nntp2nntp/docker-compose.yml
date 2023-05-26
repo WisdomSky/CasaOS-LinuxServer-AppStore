@@ -1,0 +1,58 @@
+name: Nntp2nntp
+services:
+  app:
+    image: linuxserver/nntp2nntp@sha256:4b47a4ffa93cecd0ce468cafa1132eb7169afd475f34a36f20c9adfeb86175ea
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PUID
+          description:
+            en_us: specify your UID
+        - container: PGID
+          description:
+            en_us: specify your GID
+      volumes:
+        - container: /config
+          description:
+            en_us: appdata
+      ports:
+        - container: 1563
+          description:
+            en_us: Proxy Port
+    ports:
+      - target: 1563
+        published: 1563
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nntp2nntp/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/nntp2nntp/'
+  tagline:
+    en_us: 'Proxy allow you to use your NNTP Account from multiple systems, each with own user name and password. It fully supports SSL and you can also limit the access to proxy with SSL certificates. nntp2nntp proxy is very simple and pretty fast. ## Warning Whilst we know of no nntp2nntp security issues the upstream code for this project has received no changes since 06.08.15 and is likely abandoned permanently. For this reason we strongly recommend you do not make this application public facing and if you must do so other layers of security and SSL should be considered an absolute bare minimum requirement. We see this proxy being used primarily on a LAN so that all the users NNTP applications can share a common set of internal credentials allowing for central managment of the upstream account e.g change provider, server, thread limits for all applications with one global config change.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nntp2nntp.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nntp2nntp.png
+  title:
+    en_us: Nntp2nntp

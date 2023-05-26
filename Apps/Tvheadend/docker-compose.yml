@@ -1,0 +1,69 @@
+name: Tvheadend
+services:
+  app:
+    image: linuxserver/tvheadend@sha256:36d745f9616bd00982ace2d0fb1af64b743548fc3adcfaca47ce8355d890454c
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      RUN_OPTS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: RUN_OPTS
+          description:
+            en_us: Optionally specify additional arguments to be passed. See Additional runtime parameters.
+      volumes:
+        - container: /config
+          description:
+            en_us: Config
+        - container: /recordings
+          description:
+            en_us: Recordings
+      ports:
+        - container: 9981
+          description:
+            en_us: Webgui
+        - container: 9982
+          description:
+            en_us: HTSP
+    ports:
+      - target: 9981
+        published: 9981
+        protocol: tcp
+      - target: 9982
+        published: 9982
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/tvheadend/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/tvheadend/recordings
+        target: /recordings
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/tvheadend/'
+  tagline:
+    en_us: 'Works as a proxy server: is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP and HDHomeRun as input sources. Tvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT>IP streaming. Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML).'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tvheadend-big.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tvheadend-big.png
+  title:
+    en_us: Tvheadend
+  port_map: '9981'

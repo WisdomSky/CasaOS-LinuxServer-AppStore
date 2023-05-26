@@ -1,0 +1,45 @@
+name: Hishtory-server
+services:
+  app:
+    image: linuxserver/hishtory-server@sha256:9e55c3ac17de15e98a73c3d631168fec449439a8d2c45f75c77bd3fa148e3d69
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      HISHTORY_POSTGRES_DB: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: HISHTORY_POSTGRES_DB
+          description:
+            en_us: Postgres DB Connection URI. Special characters must be URL encoded.
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: hiSHtory is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.
+  tagline:
+    en_us: A better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png
+  title:
+    en_us: Hishtory-server
+  port_map: '8080'

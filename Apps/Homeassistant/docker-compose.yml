@@ -1,0 +1,51 @@
+name: Homeassistant
+services:
+  app:
+    image: linuxserver/homeassistant@sha256:d4faa67abad26ac56ff41db497afdf41f8105a82199871b211d97afd1a3fb9eb
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Home Assistant config storage path.
+      ports: []
+    ports:
+      - target: 8123
+        published: 8123
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/homeassistant/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/homeassistant'
+  tagline:
+    en_us: Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png
+  thumbnail: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
+  title:
+    en_us: Homeassistant
+  category: Home Automation
+  port_map: '8123'

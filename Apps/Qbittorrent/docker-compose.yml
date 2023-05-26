@@ -1,0 +1,58 @@
+name: Qbittorrent
+services:
+  app:
+    image: linuxserver/qbittorrent@sha256:cd75ae74f83232b23a27ffef5d98f4bee41f247a2b626dcaf0b429b699c6b6a5
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      WEBUI_PORT: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: WEBUI_PORT
+          description:
+            en_us: for changing the port of the webui, see below for explanation
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 6881
+        published: 6881
+        protocol: tcp
+      - target: 6881
+        published: 6881
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/qbittorrent/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/qbittorrent/downloads
+        target: /downloads
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/qbittorrent/'
+  tagline:
+    en_us: The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
+  thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
+  title:
+    en_us: Qbittorrent
+  port_map: '8080'

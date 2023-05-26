@@ -1,0 +1,56 @@
+name: Jackett
+services:
+  app:
+    image: linuxserver/jackett@sha256:15aa11c8be6b1c104ba808ba4657e607616f9e7ec92ffb84689c3a61b68f6c89
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      AUTO_UPDATE: ''
+      RUN_OPTS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: AUTO_UPDATE
+          description:
+            en_us: Allow Jackett to update inside of the container (currently recommended by Jackett and enabled by default)
+        - container: RUN_OPTS
+          description:
+            en_us: Optionally specify additional arguments to be passed.
+    ports:
+      - target: 9117
+        published: 9117
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/jackett/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/jackett/downloads
+        target: /downloads
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/jackett/'
+  tagline:
+    en_us: 'Works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jacket-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png
+  title:
+    en_us: Jackett
+  port_map: '9117'

@@ -1,0 +1,53 @@
+name: Grocy
+services:
+  app:
+    image: linuxserver/grocy@sha256:49f6eb5ae0b41af329f4d00cd627023a06a99b5df69a1f0e16f6487d25673dce
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 9283
+          description:
+            en_us: Webui Port
+    ports:
+      - target: 9283
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/grocy/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/grocy/'
+  tagline:
+    en_us: 'An ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy.info'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-icon.png
+  thumbnail: https://grocy.info/img/grocy_logo.svg
+  title:
+    en_us: Grocy
+  port_map: '80'

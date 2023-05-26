@@ -1,0 +1,88 @@
+name: Openssh-server
+services:
+  app:
+    image: linuxserver/openssh-server@sha256:d2b2bd1948745bf4936220a9799d54a3ffc3dcf61cd5ac4ac41845f030ea1a03
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PUBLIC_KEY: ''
+      PUBLIC_KEY_FILE: ''
+      PUBLIC_KEY_DIR: ''
+      PUBLIC_KEY_URL: ''
+      SUDO_ACCESS: ''
+      PASSWORD_ACCESS: ''
+      USER_PASSWORD: ''
+      USER_PASSWORD_FILE: ''
+      USER_NAME: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PUBLIC_KEY
+          description:
+            en_us: Optional ssh public key, which will automatically be added to authorized_keys.
+        - container: PUBLIC_KEY_FILE
+          description:
+            en_us: Optionally specify a file containing the public key (works with docker secrets).
+        - container: PUBLIC_KEY_DIR
+          description:
+            en_us: Optionally specify a directory containing the public keys (works with docker secrets).
+        - container: PUBLIC_KEY_URL
+          description:
+            en_us: Optionally specify a URL containing the public key.
+        - container: SUDO_ACCESS
+          description:
+            en_us: Set to true to allow linuxserver.io, the ssh user, sudo access. Without USER_PASSWORD set, this will allow passwordless sudo access.
+        - container: PASSWORD_ACCESS
+          description:
+            en_us: Set to true to allow user/password ssh access. You will want to set USER_PASSWORD or USER_PASSWORD_FILE as well.
+        - container: USER_PASSWORD
+          description:
+            en_us: Optionally set a sudo password for linuxserver.io, the ssh user. If this or USER_PASSWORD_FILE are not set but SUDO_ACCESS is set to true, the user will have passwordless sudo access.
+        - container: USER_PASSWORD_FILE
+          description:
+            en_us: Optionally specify a file that contains the password. This setting supersedes the USER_PASSWORD option (works with docker secrets).
+        - container: USER_NAME
+          description:
+            en_us: Optionally specify a user name (Default:linuxserver.io)
+      volumes:
+        - container: /config
+          description:
+            en_us: 'Container Path: /config'
+      ports:
+        - container: 2222
+          description:
+            en_us: 'Container Port: 2222'
+    ports:
+      - target: 2222
+        published: 2222
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/openssh-server/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/openssh-server/'
+  tagline:
+    en_us: A sandboxed environment that allows ssh access without giving keys to the entire server. Giving ssh access via private key often means giving full access to the server. This container creates a limited and sandboxed environment that others can ssh into. The users only have access to the folders mapped and the processes running inside this container.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openssh-server-icon.png
+  thumbnail: https://upload.wikimedia.org/wikipedia/en/6/65/OpenSSH_logo.png
+  title:
+    en_us: Openssh-server

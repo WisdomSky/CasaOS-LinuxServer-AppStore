@@ -1,0 +1,58 @@
+name: Emulatorjs
+services:
+  app:
+    image: linuxserver/emulatorjs@sha256:f72ae86c37fafaa87c61b09e30bb493b60a395a993e2f84fe3e47d050a2bd87a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SUBFOLDER: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: SUBFOLDER
+          description:
+            en_us: Specify a subfolder for reverse proxies IE '/FOLDER/'
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 4001
+        published: 4001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/emulatorjs/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/emulatorjs/data
+        target: /data
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Emulatorjs - In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS.
+  tagline:
+    en_us: In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png
+  title:
+    en_us: Emulatorjs
+  port_map: '80'

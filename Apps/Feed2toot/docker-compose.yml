@@ -1,0 +1,44 @@
+name: Feed2toot
+services:
+  app:
+    image: linuxserver/feed2toot@sha256:c3a250f7bd97b82e95d9597eea2c4214640a3151a12fc18d8d9f009d5afac3b1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      FEED_LIMIT: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: FEED_LIMIT
+          description:
+            en_us: Limit number of RSS entries published at each execution.
+    volumes:
+      - type: bind
+        source: /DATA/AppData/feed2toot/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
+  tagline:
+    en_us: Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
+  title:
+    en_us: Feed2toot

@@ -1,0 +1,133 @@
+name: Netbox
+services:
+  app:
+    image: linuxserver/netbox@sha256:7b5d29c8c8a16fcdbe99643011aaa57694bc4fb5225e2bdbef87bddd3e5fc123
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SUPERUSER_EMAIL: ''
+      SUPERUSER_PASSWORD: ''
+      ALLOWED_HOST: ''
+      DB_NAME: ''
+      DB_USER: ''
+      DB_PASSWORD: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      REDIS_HOST: ''
+      REDIS_PORT: ''
+      REDIS_PASSWORD: ''
+      REDIS_DB_TASK: ''
+      REDIS_DB_CACHE: ''
+      BASE_PATH: ''
+      REMOTE_AUTH_ENABLED: ''
+      REMOTE_AUTH_BACKEND: ''
+      REMOTE_AUTH_HEADER: ''
+      REMOTE_AUTH_AUTO_CREATE_USER: ''
+      REMOTE_AUTH_DEFAULT_GROUPS: ''
+      REMOTE_AUTH_DEFAULT_PERMISSIONS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: SUPERUSER_EMAIL
+          description:
+            en_us: Email address for admin account
+        - container: SUPERUSER_PASSWORD
+          description:
+            en_us: Password for admin account
+        - container: ALLOWED_HOST
+          description:
+            en_us: The hostname you will use to access the app (i.e., netbox.example.com)
+        - container: DB_NAME
+          description:
+            en_us: 'Database name (default: netbox)'
+        - container: DB_USER
+          description:
+            en_us: Database user
+        - container: DB_PASSWORD
+          description:
+            en_us: Database password
+        - container: DB_HOST
+          description:
+            en_us: 'Database host (default: postgres)'
+        - container: DB_PORT
+          description:
+            en_us: 'Database port (defaul: 5432)'
+        - container: REDIS_HOST
+          description:
+            en_us: 'Redis host (default: redis)'
+        - container: REDIS_PORT
+          description:
+            en_us: 'Redis port number (default: 6379)'
+        - container: REDIS_PASSWORD
+          description:
+            en_us: 'Redis password (default: none)'
+        - container: REDIS_DB_TASK
+          description:
+            en_us: 'Redis database ID for tasks (default: 0)'
+        - container: REDIS_DB_CACHE
+          description:
+            en_us: 'Redis database ID for caching (default: 1)'
+        - container: BASE_PATH
+          description:
+            en_us: 'The path you will use to access the app (i.e., /netbox, optional, default: none)'
+        - container: REMOTE_AUTH_ENABLED
+          description:
+            en_us: 'Enable remote authentication (optional, default: False)'
+        - container: REMOTE_AUTH_BACKEND
+          description:
+            en_us: 'Python path to the custom Django authentication backend to use for external user authentication (optional, default: netbox.authentication.RemoteUserBackend)'
+        - container: REMOTE_AUTH_HEADER
+          description:
+            en_us: 'Name of the HTTP header which informs NetBox of the currently authenticated user. (optional, default: HTTP_REMOTE_USER)'
+        - container: REMOTE_AUTH_AUTO_CREATE_USER
+          description:
+            en_us: 'If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False)'
+        - container: REMOTE_AUTH_DEFAULT_GROUPS
+          description:
+            en_us: 'The list of groups to assign a new user account when created using remote authentication (optional, default: [])'
+        - container: REMOTE_AUTH_DEFAULT_PERMISSIONS
+          description:
+            en_us: 'A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {})'
+      volumes:
+        - container: /config
+          description:
+            en_us: 'Container Path: /config'
+      ports:
+        - container: 8000
+          description:
+            en_us: 'Container Port: 8000'
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/netbox/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/netbox/'
+  tagline:
+    en_us: An IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/netbox-icon.png
+  thumbnail: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.svg
+  title:
+    en_us: Netbox
+  port_map: '8000'

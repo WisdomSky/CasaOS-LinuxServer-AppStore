@@ -1,0 +1,50 @@
+name: Webgrabplus
+services:
+  app:
+    image: linuxserver/webgrabplus@sha256:0d887c7fa5d169f222ecc0f5332621e96f75fd22929d752c93eb3b4a547f5189
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Webgrabplus's config folder
+        - container: /data
+          description:
+            en_us: Where webgrabplus saves the XML files
+    volumes:
+      - type: bind
+        source: /DATA/AppData/webgrabplus/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/webgrabplus/data
+        target: /data
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/webgrabplus/'
+  tagline:
+    en_us: A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webgrabplus.png
+  thumbnail: http://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg
+  title:
+    en_us: Webgrabplus

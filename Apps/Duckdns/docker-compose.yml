@@ -1,0 +1,53 @@
+name: Duckdns
+services:
+  app:
+    image: linuxserver/duckdns@sha256:c4d5040fddfee02655e7fc4642404b114f6163328a1b89d5a01bb2b10c1ca818
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SUBDOMAINS: ''
+      TOKEN: ''
+      LOG_FILE: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: SUBDOMAINS
+          description:
+            en_us: multiple subdomains allowed, comma separated, no spaces
+        - container: TOKEN
+          description:
+            en_us: DuckDNS token
+        - container: LOG_FILE
+          description:
+            en_us: Set to true to log to file (also need to map /config).
+      volumes: []
+    volumes:
+      - type: bind
+        source: /DATA/AppData/duckdns/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/duckdns/'
+  tagline:
+    en_us: A free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png
+  title:
+    en_us: Duckdns

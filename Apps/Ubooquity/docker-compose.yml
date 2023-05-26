@@ -1,0 +1,60 @@
+name: Ubooquity
+services:
+  app:
+    image: linuxserver/ubooquity@sha256:74b58ead79982c5c21ffb31f4b12e92e95e1b2032fed40b75fd550bff0c57245
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MAXMEM: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: MAXMEM
+          description:
+            en_us: 'To set the maximum memory. ( ex: set ''1024'' for 1GB )'
+    ports:
+      - target: 2202
+        published: 2202
+        protocol: tcp
+      - target: 2203
+        published: 2203
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ubooquity/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/ubooquity/books
+        target: /books
+      - type: bind
+        source: /DATA/AppData/ubooquity/comics
+        target: /comics
+      - type: bind
+        source: /DATA/AppData/ubooquity/files
+        target: /files
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/ubooquity/'
+  tagline:
+    en_us: A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png
+  title:
+    en_us: Ubooquity

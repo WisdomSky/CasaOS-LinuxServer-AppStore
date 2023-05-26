@@ -1,0 +1,60 @@
+name: Openvscode-server
+services:
+  app:
+    image: linuxserver/openvscode-server@sha256:efa6ba61da32fa0798d0fe860b3b7f2bd964816f1581ae7a1a268ad1d08242be
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONNECTION_TOKEN: ''
+      CONNECTION_SECRET: ''
+      SUDO_PASSWORD: ''
+      SUDO_PASSWORD_HASH: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: CONNECTION_TOKEN
+          description:
+            en_us: Optional security token for accessing the Web UI (ie. supersecrettoken).
+        - container: CONNECTION_SECRET
+          description:
+            en_us: Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. /path/to/file). Overrides CONNECTION_TOKEN.
+        - container: SUDO_PASSWORD
+          description:
+            en_us: If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password.
+        - container: SUDO_PASSWORD_HASH
+          description:
+            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed.
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/openvscode-server/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Openvscode-server provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
+  tagline:
+    en_us: Provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
+  title:
+    en_us: Openvscode-server

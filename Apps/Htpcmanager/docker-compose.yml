@@ -1,0 +1,45 @@
+name: Htpcmanager
+services:
+  app:
+    image: linuxserver/htpcmanager@sha256:667e6875e192145c555f4721d205b5d53e9ad89cce4259ef4531b867be55b428
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 8085
+        published: 8085
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/htpcmanager/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/htpcmanager/'
+  tagline:
+    en_us: A front end for many htpc related applications.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png
+  title:
+    en_us: Htpcmanager
+  port_map: '8085'

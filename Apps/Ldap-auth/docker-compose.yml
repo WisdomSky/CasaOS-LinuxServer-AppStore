@@ -1,0 +1,50 @@
+name: Ldap-auth
+services:
+  app:
+    image: linuxserver/ldap-auth@sha256:059f0e923e97c867fd2f1b9d3b8dc8783e2097f550cc3e25d74f7b5fdd523857
+    restart: unless-stopped
+    environment:
+      FERNETKEY: ''
+      CERTFILE: ''
+      KEYFILE: ''
+    x-casaos:
+      envs:
+        - container: FERNETKEY
+          description:
+            en_us: Optionally define a custom valid fernet key (only needed if container is frequently recreated, or if using multi-node setups, invalidating previous authentications)
+        - container: CERTFILE
+          description:
+            en_us: Optionally point this to a certificate file to enable HTTP over SSL (HTTPS) for the ldap auth daemon
+        - container: KEYFILE
+          description:
+            en_us: Optionally point this to the private key file, matching the certificate file referred to in CERTFILE
+      ports:
+        - container: 8888
+          description:
+            en_us: LDAP auth daemon port
+        - container: 9000
+          description:
+            en_us: LDAP login page port
+    ports:
+      - target: 8888
+        published: 8888
+        protocol: tcp
+      - target: 9000
+        published: 9000
+        protocol: tcp
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/ldap-auth/'
+  tagline:
+    en_us: Software is for authenticating users who request protected resources from servers proxied by nginx. It includes a daemon (ldap-auth) that communicates with an authentication server, and a webserver daemon that generates an authentication cookie based on the user’s credentials. The daemons are written in Python for use with a Lightweight Directory Access Protocol (LDAP) authentication server (OpenLDAP or Microsoft Windows Active Directory 2003 and 2012).
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ldap-auth-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ldap-auth-logo.png
+  title:
+    en_us: Ldap-auth

@@ -1,0 +1,66 @@
+name: Minisatip
+services:
+  app:
+    image: linuxserver/minisatip@sha256:5fbcc7f393bdd7afa5069827390eff45359de5b6aea1c9a31fa5d37a061a129b
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      RUN_OPTS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: RUN_OPTS
+          description:
+            en_us: Specify specific run params for minisatip
+      volumes: []
+      ports:
+        - container: 8875
+          description:
+            en_us: ''
+        - container: 554
+          description:
+            en_us: ''
+        - container: 1900
+          description:
+            en_us: ''
+    ports:
+      - target: 8875
+        published: 8875
+        protocol: tcp
+      - target: 554
+        published: 554
+        protocol: tcp
+      - target: 1900
+        published: 1900
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/minisatip/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/minisatip/'
+  tagline:
+    en_us: A multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png
+  title:
+    en_us: Minisatip
+  port_map: '8875'

@@ -1,0 +1,29 @@
+name: Nano-wallet
+services:
+  app:
+    image: linuxserver/nano-wallet@undefined
+    restart: unless-stopped
+    environment: {}
+    x-casaos:
+      envs: []
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Nano-wallet is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.
+  tagline:
+    en_us: A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
+  title:
+    en_us: Nano-wallet
+  port_map: '80'

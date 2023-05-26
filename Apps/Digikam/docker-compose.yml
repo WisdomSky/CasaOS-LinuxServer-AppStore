@@ -1,0 +1,61 @@
+name: Digikam
+services:
+  app:
+    image: linuxserver/digikam@sha256:20e167e3e436eb6506c626812ebc4e90b3d2f0b51f20d76e0266d5fc0c6bfaba
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SUBFOLDER: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: SUBFOLDER
+          description:
+            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 3000
+          description:
+            en_us: 'Container Port: 3000'
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/digikam/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/digikam/'
+  tagline:
+    en_us: 'digiKam: Professional Photo Management with the Power of Open Source'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
+  title:
+    en_us: Digikam
+  category: Photography
+  port_map: '3000'

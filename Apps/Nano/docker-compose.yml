@@ -1,0 +1,78 @@
+name: Nano
+services:
+  app:
+    image: linuxserver/nano@undefined
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PEER_HOST: ''
+      LIVE_GENESIS_PUB: ''
+      LIVE_GENESIS_ACCOUNT: ''
+      LIVE_GENESIS_WORK: ''
+      LIVE_GENESIS_SIG: ''
+      CLI_OPTIONS: ''
+      LMDB_BOOTSTRAP_URL: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PEER_HOST
+          description:
+            en_us: Default peer host (can be overidden with an array by command line options)
+        - container: LIVE_GENESIS_PUB
+          description:
+            en_us: Genesis block public key
+        - container: LIVE_GENESIS_ACCOUNT
+          description:
+            en_us: Genesis block account
+        - container: LIVE_GENESIS_WORK
+          description:
+            en_us: Genesis block proof of work
+        - container: LIVE_GENESIS_SIG
+          description:
+            en_us: Genesis block signature
+        - container: CLI_OPTIONS
+          description:
+            en_us: Node run command cli args
+        - container: LMDB_BOOTSTRAP_URL
+          description:
+            en_us: HTTP/HTTPS endpoint to download a 7z file with the data.ldb to bootstrap to this node
+    ports:
+      - target: 8075
+        published: 8075
+        protocol: tcp
+      - target: 7076
+        published: 3000
+        protocol: tcp
+      - target: 7077
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nano/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Nano is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
+  tagline:
+    en_us: A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
+  title:
+    en_us: Nano

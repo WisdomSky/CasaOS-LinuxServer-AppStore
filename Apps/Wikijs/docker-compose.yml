@@ -1,0 +1,83 @@
+name: Wikijs
+services:
+  app:
+    image: linuxserver/wikijs@sha256:8d3cb0bea9f0352b851af6e620bb157412bc6fddfa197abc31b883f8dc135e07
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_TYPE: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_NAME: ''
+      DB_USER: ''
+      DB_PASS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: DB_TYPE
+          description:
+            en_us: Set to sqlite (default) or postgres depending on the database engine you wish to use
+        - container: DB_HOST
+          description:
+            en_us: DB hostname (postgres only)
+        - container: DB_PORT
+          description:
+            en_us: DB port (postgres only)
+        - container: DB_NAME
+          description:
+            en_us: DB name (postgres only)
+        - container: DB_USER
+          description:
+            en_us: DB username (postgres only)
+        - container: DB_PASS
+          description:
+            en_us: DB password (postgres only)
+      volumes:
+        - container: /config
+          description:
+            en_us: appdata
+        - container: /data
+          description:
+            en_us: Where to store wiki data sqlite database
+      ports:
+        - container: 3000
+          description:
+            en_us: 'Container Port: 3000'
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/wikijs/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/wikijs/data
+        target: /data
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/wikijs/'
+  tagline:
+    en_us: A modern, lightweight and powerful wiki app built on NodeJS.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wikijs-logo.png
+  thumbnail: https://static.requarks.io/logo/wikijs-full.svg
+  title:
+    en_us: Wikijs
+  port_map: '3000'

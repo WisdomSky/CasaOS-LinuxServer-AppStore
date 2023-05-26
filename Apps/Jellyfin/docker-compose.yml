@@ -1,0 +1,78 @@
+name: Jellyfin
+services:
+  app:
+    image: linuxserver/jellyfin@sha256:addc7c55a7817b800666fa1bfcf74b9ee585bda87d7d25462b3fa4740d578db5
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      JELLYFIN_PublishedServerUrl: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: JELLYFIN_PublishedServerUrl
+          description:
+            en_us: Set the autodiscovery response domain or IP address.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 8096
+          description:
+            en_us: Webui - Default 8096 (HTTP)
+        - container: 8920
+          description:
+            en_us: Webui - Default 8920 (HTTPS) (Optional)
+        - container: 1900
+          description:
+            en_us: Service Discovery (Optional)
+    ports:
+      - target: 8096
+        published: 8096
+        protocol: tcp
+      - target: 8920
+        published: 8920
+        protocol: tcp
+      - target: 7359
+        published: 7359
+        protocol: udp
+      - target: 1900
+        published: 1900
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/jellyfin/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/jellyfin/data/tvshows
+        target: /data/tvshows
+      - type: bind
+        source: /DATA/AppData/jellyfin/data/movies
+        target: /data/movies
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/jellyfin/'
+  tagline:
+    en_us: 'A Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby''s 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
+  thumbnail: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true
+  title:
+    en_us: Jellyfin
+  port_map: '8096'

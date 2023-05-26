@@ -1,0 +1,77 @@
+name: Snipe-it
+services:
+  app:
+    image: linuxserver/snipe-it@sha256:43f7017030e6f8ff467c6937251fc180154129824d49f2210775b46a733968c3
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      APP_URL: ''
+      MYSQL_PORT_3306_TCP_ADDR: ''
+      MYSQL_PORT_3306_TCP_PORT: ''
+      MYSQL_DATABASE: ''
+      MYSQL_USER: ''
+      MYSQL_PASSWORD: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: APP_URL
+          description:
+            en_us: Hostname or IP and port if applicable, be sure to define https/http
+        - container: MYSQL_PORT_3306_TCP_ADDR
+          description:
+            en_us: Mysql hostname or IP to use
+        - container: MYSQL_PORT_3306_TCP_PORT
+          description:
+            en_us: Mysql port to use
+        - container: MYSQL_DATABASE
+          description:
+            en_us: Mysql database to use
+        - container: MYSQL_USER
+          description:
+            en_us: Mysql user to use
+        - container: MYSQL_PASSWORD
+          description:
+            en_us: Mysql password to use
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 8080
+          description:
+            en_us: Port
+    ports:
+      - target: 8080
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/snipe-it/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/'
+  tagline:
+    en_us: Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-icon.png
+  thumbnail: https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/snipe-it-logo500x500.png
+  title:
+    en_us: Snipe-it
+  port_map: '80'

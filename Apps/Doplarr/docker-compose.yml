@@ -1,0 +1,112 @@
+name: Doplarr
+services:
+  app:
+    image: linuxserver/doplarr@sha256:13a39232047f9259c693a86bc9173bcfc76e6c64533753b37dd30f35f0d5ca1c
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DISCORD__TOKEN: ''
+      OVERSEERR__API: ''
+      OVERSEERR__URL: ''
+      RADARR__API: ''
+      RADARR__URL: ''
+      SONARR__API: ''
+      SONARR__URL: ''
+      DISCORD__MAX_RESULTS: ''
+      DISCORD__REQUESTED_MSG_STYLE: ''
+      SONARR__QUALITY_PROFILE: ''
+      RADARR__QUALITY_PROFILE: ''
+      SONARR__ROOTFOLDER: ''
+      RADARR__ROOTFOLDER: ''
+      SONARR__LANGUAGE_PROFILE: ''
+      OVERSEERR__DEFAULT_ID: ''
+      PARTIAL_SEASONS: ''
+      LOG_LEVEL: ''
+      JAVA_OPTS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: DISCORD__TOKEN
+          description:
+            en_us: Specify your discord bot token.
+        - container: OVERSEERR__API
+          description:
+            en_us: Specify your Overseerr API key. Leave blank if using Radarr/Sonarr.
+        - container: OVERSEERR__URL
+          description:
+            en_us: Specify your Overseerr URL. Leave blank if using Radarr/Sonarr.
+        - container: RADARR__API
+          description:
+            en_us: Specify your Radarr API key. Leave blank if using Overseerr.
+        - container: RADARR__URL
+          description:
+            en_us: Specify your Radarr URL. Leave blank if using Overseerr.
+        - container: SONARR__API
+          description:
+            en_us: Specify your Sonarr API key. Leave blank if using Overseerr.
+        - container: SONARR__URL
+          description:
+            en_us: Specify your Sonarr URL. Leave blank if using Overseerr.
+        - container: DISCORD__MAX_RESULTS
+          description:
+            en_us: Sets the maximum size of the search results selection
+        - container: DISCORD__REQUESTED_MSG_STYLE
+          description:
+            en_us: Sets the style of the request alert message. One of :plain :embed :none
+        - container: SONARR__QUALITY_PROFILE
+          description:
+            en_us: The name of the quality profile to use by default for Sonarr
+        - container: RADARR__QUALITY_PROFILE
+          description:
+            en_us: The name of the quality profile to use by default for Radarr
+        - container: SONARR__ROOTFOLDER
+          description:
+            en_us: The root folder to use by default for Sonarr
+        - container: RADARR__ROOTFOLDER
+          description:
+            en_us: The root folder to use by default for Radarr
+        - container: SONARR__LANGUAGE_PROFILE
+          description:
+            en_us: The name of the language profile to use by default for Sonarr
+        - container: OVERSEERR__DEFAULT_ID
+          description:
+            en_us: The Overseerr user id to use by default if there is no associated discord account for the requester
+        - container: PARTIAL_SEASONS
+          description:
+            en_us: Sets whether users can request partial seasons.
+        - container: LOG_LEVEL
+          description:
+            en_us: The log level for the logging backend. This can be changed for debugging purposes. One of trace :debug :info :warn :error :fatal :report
+        - container: JAVA_OPTS
+          description:
+            en_us: For passing additional java options.
+    volumes:
+      - type: bind
+        source: /DATA/AppData/doplarr/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Doplarr is an *arr request bot for Discord.'
+  tagline:
+    en_us: An *arr request bot for Discord.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
+  title:
+    en_us: Doplarr

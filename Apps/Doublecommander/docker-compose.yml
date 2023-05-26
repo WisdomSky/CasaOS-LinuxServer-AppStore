@@ -1,0 +1,63 @@
+name: Doublecommander
+services:
+  app:
+    image: linuxserver/doublecommander@sha256:d20560ff19a867c7e799260aff1f68cc988775aac4c9dc6b0c8c6be55bb6515a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+        - container: /data
+          description:
+            en_us: Host data directory
+      ports:
+        - container: 3000
+          description:
+            en_us: 'Container Port: 3000'
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/doublecommander/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/doublecommander/data
+        target: /data
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/doublecommander/'
+  tagline:
+    en_us: A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png
+  title:
+    en_us: Doublecommander
+  category: File Management
+  port_map: '3000'

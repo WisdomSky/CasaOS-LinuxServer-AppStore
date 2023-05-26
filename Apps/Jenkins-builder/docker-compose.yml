@@ -1,0 +1,45 @@
+name: Jenkins-builder
+services:
+  app:
+    image: linuxserver/jenkins-builder@sha256:7a1ceb9e067035d3d39343016a64b5d47118c62558ad12377bdb47aeae462bd3
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/jenkins-builder/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
+  tagline:
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: ''
+  thumbnail: ''
+  title:
+    en_us: Jenkins-builder
+  port_map: '80'

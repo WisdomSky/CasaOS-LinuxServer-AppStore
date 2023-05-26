@@ -1,0 +1,78 @@
+name: Code-server
+services:
+  app:
+    image: linuxserver/code-server@sha256:d68c08d4b3fdc81b9b8dcd7ba5c69ceceac728ac97487cb8c3612d31db433546
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PASSWORD: ''
+      HASHED_PASSWORD: ''
+      SUDO_PASSWORD: ''
+      SUDO_PASSWORD_HASH: ''
+      PROXY_DOMAIN: ''
+      DEFAULT_WORKSPACE: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PASSWORD
+          description:
+            en_us: Optional web gui password, if PASSWORD or HASHED_PASSWORD is not provided, there will be no auth.
+        - container: HASHED_PASSWORD
+          description:
+            en_us: Optional web gui password, overrides PASSWORD, instructions on how to create it is below.
+        - container: SUDO_PASSWORD
+          description:
+            en_us: If this optional variable is set, user will have sudo access in the code-server terminal with the specified password.
+        - container: SUDO_PASSWORD_HASH
+          description:
+            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed.
+        - container: PROXY_DOMAIN
+          description:
+            en_us: If this optional variable is set, this domain will be proxied for subdomain proxying. See Documentation
+        - container: DEFAULT_WORKSPACE
+          description:
+            en_us: If this optional variable is set, code-server will open this directory by default
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata - /config
+      ports:
+        - container: 8443
+          description:
+            en_us: Webui Port - Default 8443
+    ports:
+      - target: 8443
+        published: 8443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/code-server/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/code-server/'
+  tagline:
+    en_us: VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png
+  title:
+    en_us: Code-server
+  category: Development
+  port_map: '8443'

@@ -1,0 +1,63 @@
+name: Habridge
+services:
+  app:
+    image: linuxserver/habridge@sha256:9f0a39c53f7048e7dde6b40e5748832c3f4bed5dc38712d2f9123be280fda96e
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SEC_KEY: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: SEC_KEY
+          description:
+            en_us: Key used to secure communication.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 8080
+          description:
+            en_us: Webui - Default 8080
+        - container: 50000
+          description:
+            en_us: HABridge communication port - Default 50000
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 50000
+        published: 50000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/habridge/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/habridge/'
+  tagline:
+    en_us: Emulates Philips Hue API to other home automation gateways such as an Amazon Echo/Dot Gen 1 (gen 2 has issues discovering ha-bridge) or other systems that support Philips Hue. The Bridge handles basic commands such as 'On', 'Off' and 'brightness' commands of the hue protocol. This bridge can control most devices that have a distinct API. In the cases of systems that require authorization and/or have APIs that cannot be handled in the current method, a module may need to be built. The Harmony Hub is such a module and so is the Nest module. The Bridge has helpers to build devices for the gateway for the Logitech Harmony Hub, Vera, Vera Lite or Vera Edge, Nest, Somfy Tahoma, Home Assistant, Domoticz, MQTT, HAL, Fibaro, HomeWizard, LIFX, OpenHAB, FHEM, Broadlink and the ability to proxy all of your real Hue bridges behind this bridge. This bridge was built to help put the Internet of Things together. For more information about how to use this software have a look at their Wiki https://github.com/bwssytems/ha-bridge/wiki
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/habridge-icon.png
+  thumbnail: https://raw.githubusercontent.com/bwssytems/ha-bridge/master/src/main/resources/public/img/favicon.ico
+  title:
+    en_us: Habridge
+  port_map: '8080'

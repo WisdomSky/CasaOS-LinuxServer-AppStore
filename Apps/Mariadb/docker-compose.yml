@@ -1,0 +1,64 @@
+name: Mariadb
+services:
+  app:
+    image: linuxserver/mariadb@sha256:c1d778dc18cc4d46bd27d11bf516eef0ebcff831e865a474fb588e15134c2629
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MYSQL_ROOT_PASSWORD: ''
+      MYSQL_DATABASE: ''
+      MYSQL_USER: ''
+      MYSQL_PASSWORD: ''
+      REMOTE_SQL: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: MYSQL_ROOT_PASSWORD
+          description:
+            en_us: Set this to root password for installation (minimum 4 characters & non-alphanumeric passwords must be properly escaped).
+        - container: MYSQL_DATABASE
+          description:
+            en_us: Specify the name of a database to be created on image startup.
+        - container: MYSQL_USER
+          description:
+            en_us: This user will have superuser access to the database specified by MYSQL_DATABASE (do not use root here).
+        - container: MYSQL_PASSWORD
+          description:
+            en_us: Set this to the password you want to use for you MYSQL_USER (minimum 4 characters & non-alphanumeric passwords must be properly escaped).
+        - container: REMOTE_SQL
+          description:
+            en_us: Set this to ingest sql files from an http/https endpoint (comma seperated array).
+    ports:
+      - target: 3306
+        published: 3306
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mariadb/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mariadb/'
+  tagline:
+    en_us: One of the most popular database servers. Made by the original developers of MySQL.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
+  title:
+    en_us: Mariadb

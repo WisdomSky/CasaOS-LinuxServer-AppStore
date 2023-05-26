@@ -1,0 +1,56 @@
+name: Minetest
+services:
+  app:
+    image: linuxserver/minetest@sha256:5621e85952059ca31d88e7198cd07094143d89b0e431226580ca630b054de945
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CLI_ARGS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: CLI_ARGS
+          description:
+            en_us: Optionally specify any CLI variables you want to launch the app with
+      volumes:
+        - container: /config/.minetest
+          description:
+            en_us: 'Container Path: /config/.minetest'
+      ports:
+        - container: 30000
+          description:
+            en_us: 'Container Port: 30000'
+    ports:
+      - target: 30000
+        published: 30000
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/minetest/config/.minetest
+        target: /config/.minetest
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/minetest/'
+  tagline:
+    en_us: (server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png
+  title:
+    en_us: Minetest

@@ -1,0 +1,51 @@
+name: Lidarr
+services:
+  app:
+    image: linuxserver/lidarr@sha256:d191c7b466eb0cb33b750e113f7ff60bf0bf525ee514f558b97263f1b590c2f5
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 8686
+        published: 8686
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lidarr/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/lidarr/music
+        target: /music
+      - type: bind
+        source: /DATA/AppData/lidarr/downloads
+        target: /downloads
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/lidarr/'
+  tagline:
+    en_us: A music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lidarr.png
+  thumbnail: https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png
+  title:
+    en_us: Lidarr
+  port_map: '8686'

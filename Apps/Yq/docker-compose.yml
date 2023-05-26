@@ -1,0 +1,45 @@
+name: Yq
+services:
+  app:
+    image: linuxserver/yq@sha256:07e7eed6f58942a12dfd0f765307947170be6366f8285e8dec773b0ae05010cc
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/yq/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/yq for details.
+  tagline:
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/yq for details.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: ''
+  thumbnail: ''
+  title:
+    en_us: Yq
+  port_map: '80'

@@ -1,0 +1,65 @@
+name: Fleet
+services:
+  app:
+    image: linuxserver/fleet@sha256:ad2ef90a4305b46451132f1754963868826ac37c06c17f3f7b1821824a9e48e6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      fleet_admin_authentication_type: ''
+      fleet_database_url: ''
+      fleet_database_username: ''
+      fleet_database_password: ''
+      fleet_admin_secret: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: fleet_admin_authentication_type
+          description:
+            en_us: A switch to define how Fleet manages user logins. If set to DATABASE, see the related optional params. Can be set to either DATABASE or PROPERTIES.
+        - container: fleet_database_url
+          description:
+            en_us: The full JDBC connection string to the Fleet database
+        - container: fleet_database_username
+          description:
+            en_us: The username with the relevant GRANT permissions for the database
+        - container: fleet_database_password
+          description:
+            en_us: The database user's password.
+        - container: fleet_admin_secret
+          description:
+            en_us: A string used as part of the password key derivation process.
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/fleet/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
+  tagline:
+    en_us: Provides an online web interface which displays a set of maintained images from one or more owned repositories.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: ''
+  thumbnail: ''
+  title:
+    en_us: Fleet
+  port_map: '8080'

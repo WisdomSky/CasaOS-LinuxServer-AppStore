@@ -1,0 +1,119 @@
+name: Healthchecks
+services:
+  app:
+    image: linuxserver/healthchecks@sha256:d55dce702305951666ec879b6b4d7f6655e96af31600452957ccd5f09313dd2a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SITE_ROOT: ''
+      SITE_NAME: ''
+      DEFAULT_FROM_EMAIL: ''
+      EMAIL_HOST: ''
+      EMAIL_PORT: ''
+      EMAIL_HOST_USER: ''
+      EMAIL_HOST_PASSWORD: ''
+      EMAIL_USE_TLS: ''
+      SUPERUSER_EMAIL: ''
+      SUPERUSER_PASSWORD: ''
+      REGENERATE_SETTINGS: ''
+      ALLOWED_HOSTS: ''
+      APPRISE_ENABLED: ''
+      DEBUG: ''
+      INTEGRATIONS_ALLOW_PRIVATE_IPS: ''
+      PING_EMAIL_DOMAIN: ''
+      SECRET_KEY: ''
+      SITE_LOGO_URL: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: SITE_ROOT
+          description:
+            en_us: The site's top-level URL and the port it listens to if differrent than 80 or 443 (e.g., https://healthchecks.example.com:8000)
+        - container: SITE_NAME
+          description:
+            en_us: The site's name (e.g., 'Example Corp HealthChecks')
+        - container: DEFAULT_FROM_EMAIL
+          description:
+            en_us: From email for alerts
+        - container: EMAIL_HOST
+          description:
+            en_us: SMTP host
+        - container: EMAIL_PORT
+          description:
+            en_us: SMTP port
+        - container: EMAIL_HOST_USER
+          description:
+            en_us: SMTP user
+        - container: EMAIL_HOST_PASSWORD
+          description:
+            en_us: SMTP password
+        - container: EMAIL_USE_TLS
+          description:
+            en_us: Use TLS for SMTP (True or False)
+        - container: SUPERUSER_EMAIL
+          description:
+            en_us: Superuser email
+        - container: SUPERUSER_PASSWORD
+          description:
+            en_us: Superuser password
+        - container: REGENERATE_SETTINGS
+          description:
+            en_us: Defaults to False. Set to True to always override the local_settings.py file with values from environment variables. Do not set to True if you have made manual modifications to this file.
+        - container: ALLOWED_HOSTS
+          description:
+            en_us: 'Array of valid hostnames for the server [''test.com'',''test2.com''] (default: [''*''])'
+        - container: APPRISE_ENABLED
+          description:
+            en_us: Defaults to False. A boolean that turns on/off the Apprise integration (https://github.com/caronc/apprise)
+        - container: DEBUG
+          description:
+            en_us: Defaults to True. Debug mode relaxes CSRF protections and increases logging verbosity but should be disabled for production instances as it will impact performance and security.
+        - container: INTEGRATIONS_ALLOW_PRIVATE_IPS
+          description:
+            en_us: Defaults to False. Set to True to allow integrations to connect to private IP addresses.
+        - container: PING_EMAIL_DOMAIN
+          description:
+            en_us: The domain to use for generating ping email addresses.
+        - container: SECRET_KEY
+          description:
+            en_us: A secret key used for cryptographic signing. Will generate a secure value if one is not supplied
+        - container: SITE_LOGO_URL
+          description:
+            en_us: Full URL to custom site logo
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+      - target: 2525
+        published: 2525
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/healthchecks/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+  tagline:
+    en_us: A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/healthchecks/healthchecks/master/static/img/welcome.png
+  thumbnail: https://raw.githubusercontent.com/healthchecks/healthchecks/master/static/img/welcome.png
+  title:
+    en_us: Healthchecks

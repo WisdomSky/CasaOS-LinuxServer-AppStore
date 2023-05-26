@@ -1,0 +1,83 @@
+name: Netbootxyz
+services:
+  app:
+    image: linuxserver/netbootxyz@sha256:ef6c2593e62bd0e3874dbeeec4559f2848f5c0ed0e968cca14420a24c9f5f1ce
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MENU_VERSION: ''
+      PORT_RANGE: ''
+      SUBFOLDER: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: MENU_VERSION
+          description:
+            en_us: Specify a specific version of boot files you want to use from NETBOOT.XYZ (unset pulls latest)
+        - container: PORT_RANGE
+          description:
+            en_us: Specify the port range tftp will use for data transfers (see Wikipedia)
+        - container: SUBFOLDER
+          description:
+            en_us: Specify a sobfolder if running this behind a reverse proxy (IE /proxy/)
+      volumes:
+        - container: /config
+          description:
+            en_us: appdata
+        - container: /assets
+          description:
+            en_us: Path to mirrored assets (optional)
+      ports:
+        - container: 3000
+          description:
+            en_us: Web Application (Default 3000)
+        - container: 69
+          description:
+            en_us: TFTP server
+        - container: 8080
+          description:
+            en_us: Webserver for local asset hosting (Default 8080)
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 69
+        published: 69
+        protocol: udp
+      - target: 8080
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/netbootxyz/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/netbootxyz/assets
+        target: /assets
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/netbootxyz/'
+  tagline:
+    en_us: A way to PXE boot various operating system installers or utilities from one place within the BIOS without the need of having to go retrieve the media to run the tool. iPXE is used to provide a user friendly menu from within the BIOS that lets you easily choose the operating system you want along with any specific types of versions or bootable flags.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/netbootxyz.png
+  thumbnail: https://netboot.xyz/images/netboot.xyz.gif
+  title:
+    en_us: Netbootxyz
+  port_map: '3000'

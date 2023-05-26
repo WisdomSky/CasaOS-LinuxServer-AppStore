@@ -1,0 +1,50 @@
+name: Pyload-ng
+services:
+  app:
+    image: linuxserver/pyload-ng@sha256:d97e92d401151480ba76c67ae1f95413cad061cc27dbe2f0c122c2b49c3da664
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+      - target: 9666
+        published: 9666
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pyload-ng/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/pyload-ng/downloads
+        target: /downloads
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+  tagline:
+    en_us: A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://pyload.net/img/banner.png
+  thumbnail: https://pyload.net/img/banner.png
+  title:
+    en_us: Pyload-ng

@@ -1,0 +1,76 @@
+name: Diskover
+services:
+  app:
+    image: linuxserver/diskover@sha256:f61b77f740865d8e24bdd515befc68f93ff6e1442172921c2e412cac52f1919f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      ES_HOST: ''
+      ES_PORT: ''
+      ES_USER: ''
+      ES_PASS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: ES_HOST
+          description:
+            en_us: ElasticSearch host (optional)
+        - container: ES_PORT
+          description:
+            en_us: ElasticSearch port (optional)
+        - container: ES_USER
+          description:
+            en_us: ElasticSearch username (optional)
+        - container: ES_PASS
+          description:
+            en_us: ElasticSearch password (optional)
+      volumes:
+        - container: /config
+          description:
+            en_us: Specify the exact disk.  DO NOT USE /mnt/user/appdata either use /mnt/cache/appdata/ or /mnt/disk$/appdata/
+        - container: /data
+          description:
+            en_us: 'Container Path: /data'
+      ports:
+        - container: 80
+          description:
+            en_us: 'Container Port: 80'
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/diskover/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/diskover/data
+        target: /data
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/diskover'
+  tagline:
+    en_us: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/shirosaidev/diskover/master/docs/diskover.png
+  thumbnail: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
+  title:
+    en_us: Diskover
+  category: Productivity
+  port_map: '80'

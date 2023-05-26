@@ -1,0 +1,57 @@
+name: Adguardhome-sync
+services:
+  app:
+    image: linuxserver/adguardhome-sync@sha256:0ef404d7d4e5501986fea619b09e6bbe28aec918fb7780e3648cec75243ad49a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONFIGFILE: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: CONFIGFILE
+          description:
+            en_us: Set a custom config file.
+      volumes:
+        - container: /config
+          description:
+            en_us: Contains all relevant configuration files.
+      ports:
+        - container: 8080
+          description:
+            en_us: Port for AdGuardHome Sync's web API.
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/adguardhome-sync/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/adguardhome-sync'
+  tagline:
+    en_us: A tool to synchronize AdGuardHome config to replica instances.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
+  title:
+    en_us: Adguardhome-sync
+  port_map: '8080'

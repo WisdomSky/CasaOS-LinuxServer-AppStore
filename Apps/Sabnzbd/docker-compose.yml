@@ -1,0 +1,51 @@
+name: Sabnzbd
+services:
+  app:
+    image: linuxserver/sabnzbd@sha256:0b7771836c2f31959e6cd340f77c12e38e74e1342a52157db93809258f506670
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sabnzbd/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/sabnzbd/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/sabnzbd/incomplete-downloads
+        target: /incomplete-downloads
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sabnzbd/'
+  tagline:
+    en_us: Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png
+  title:
+    en_us: Sabnzbd
+  port_map: '8080'

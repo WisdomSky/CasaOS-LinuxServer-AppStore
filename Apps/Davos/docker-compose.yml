@@ -1,0 +1,60 @@
+name: Davos
+services:
+  app:
+    image: linuxserver/davos@sha256:7c6846adb8788ace15ee5477774f386611ac827411caef2c10480262a6967848
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: 'Container Path: /config'
+        - container: /download
+          description:
+            en_us: 'Container Path: /download'
+      ports:
+        - container: 8080
+          description:
+            en_us: 'Container Port: 8080'
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/davos/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/davos/download
+        target: /download
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/davos/'
+  tagline:
+    en_us: An FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/davos.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG
+  title:
+    en_us: Davos
+  category: Productivity
+  port_map: '8080'

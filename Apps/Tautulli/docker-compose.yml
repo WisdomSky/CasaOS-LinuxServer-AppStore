@@ -1,0 +1,53 @@
+name: Tautulli
+services:
+  app:
+    image: linuxserver/tautulli@sha256:6172554eee04e409bf434668a136fa884c54134ce7f7437d96c770578ce87367
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: 'Container Path: /config'
+      ports:
+        - container: 8181
+          description:
+            en_us: 'Container Port: 8181'
+    ports:
+      - target: 8181
+        published: 8181
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/tautulli/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/tautulli/'
+  tagline:
+    en_us: A python based web application for monitoring, analytics and notifications for Plex Media Server.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
+  title:
+    en_us: Tautulli
+  port_map: '8181'

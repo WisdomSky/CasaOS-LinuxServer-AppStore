@@ -1,0 +1,44 @@
+name: Znc
+services:
+  app:
+    image: linuxserver/znc@sha256:af1a2b53dd6bd7fa1c5960011ff285471a41d9927a18068e427ce67d8e440024
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 6501
+        published: 6501
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/znc/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/znc/'
+  tagline:
+    en_us: An IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-icon.png
+  thumbnail: http://wiki.znc.in/resources/assets/wiki.png
+  title:
+    en_us: Znc

@@ -1,0 +1,71 @@
+name: Calibre
+services:
+  app:
+    image: linuxserver/calibre@sha256:de348e01d35c346e7ffc6f0efbcc6fff5075587cded26510e65321fd666b2644
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PASSWORD: ''
+      CLI_ARGS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PASSWORD
+          description:
+            en_us: Optionally set a password for the gui.
+        - container: CLI_ARGS
+          description:
+            en_us: Optionally pass cli start arguments to calibre.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 8080
+          description:
+            en_us: GUI Port - Default 8080
+        - container: 8081
+          description:
+            en_us: Webserver Port - Default 8081
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 8181
+        published: 8181
+        protocol: tcp
+      - target: 8081
+        published: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/calibre/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/calibre/'
+  tagline:
+    en_us: A powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-icon.png
+  thumbnail: https://github.com/kovidgoyal/calibre/raw/master/resources/images/lt.png
+  title:
+    en_us: Calibre
+  category: Media
+  port_map: '8080'

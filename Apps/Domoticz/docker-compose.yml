@@ -1,0 +1,60 @@
+name: Domoticz
+services:
+  app:
+    image: linuxserver/domoticz@sha256:d38d0c156922ea60b7edfc62b27c48b93822b76b2e03f65ad9dbdc094aeed9fe
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      WEBROOT: ''
+      DBASE: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: WEBROOT
+          description:
+            en_us: Sets webroot to domoticz for usage with subfolder reverse proxy. Not needed unless reverse proxying.
+        - container: DBASE
+          description:
+            en_us: Sets path to database. Do not set unless you know what this does.
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 6144
+        published: 6144
+        protocol: tcp
+      - target: 1443
+        published: 1443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/domoticz/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/domoticz/'
+  tagline:
+    en_us: 'A Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.'
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://github.com/domoticz/domoticz/raw/master/www/images/logo.png
+  thumbnail: https://github.com/domoticz/domoticz/raw/master/www/images/logo.png
+  title:
+    en_us: Domoticz
+  category: Automation
+  port_map: '8080'

@@ -1,0 +1,54 @@
+name: Syslog-ng
+services:
+  app:
+    image: linuxserver/syslog-ng@sha256:650819be1808f01a87f946ee8435c17bfc574be55e626bf3600bddea782ce3bf
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 514
+        published: 5514
+        protocol: udp
+      - target: 601
+        published: 6601
+        protocol: tcp
+      - target: 6514
+        published: 6514
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/syslog-ng/config
+        target: /config
+      - type: bind
+        source: /var/log
+        target: /var/log
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: syslog-ng allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+  tagline:
+    en_us: Allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
+  title:
+    en_us: Syslog-ng
+  category: System Tools

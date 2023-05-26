@@ -1,0 +1,48 @@
+name: Changedetection.io
+services:
+  app:
+    image: linuxserver/changedetection.io@sha256:6bc457c2523007d7297c065357ba412002c27bcfd95928846e8030fa2ac60bb6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      BASE_URL: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: BASE_URL
+          description:
+            en_us: Specify the full URL (including protocol) when running behind a reverse proxy
+    ports:
+      - target: 5000
+        published: 5000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/changedetection.io/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
+  tagline:
+    en_us: Provides free, open-source web page monitoring, notification and change detection.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
+  thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
+  title:
+    en_us: Changedetection.io

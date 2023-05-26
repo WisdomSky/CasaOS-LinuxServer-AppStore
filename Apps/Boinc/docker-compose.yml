@@ -1,0 +1,61 @@
+name: Boinc
+services:
+  app:
+    image: linuxserver/boinc@sha256:df0469ddf221d4dcb0e4a894f958a44bdbd520f368ee3b924306779a46cb66b8
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PASSWORD: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PASSWORD
+          description:
+            en_us: Optionally set a password for the gui.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 8080
+          description:
+            en_us: GUI Port - Default 8080
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 8181
+        published: 8181
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/boinc/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/boinc/'
+  tagline:
+    en_us: A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boinc-icon.png
+  thumbnail: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
+  title:
+    en_us: Boinc
+  category: Research
+  port_map: '8080'

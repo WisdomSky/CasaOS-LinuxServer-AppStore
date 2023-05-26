@@ -1,0 +1,54 @@
+name: Dillinger
+services:
+  app:
+    image: linuxserver/dillinger@sha256:1f130532c8c3cb9a12f7283e4ac070ed4ab55eda9a1412d5e346b9408111a6ca
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: 8080
+          description:
+            en_us: Webui - Default port 8080
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/dillinger/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/dillinger/'
+  tagline:
+    en_us: A cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
+  title:
+    en_us: Dillinger
+  category: Development
+  port_map: '8080'

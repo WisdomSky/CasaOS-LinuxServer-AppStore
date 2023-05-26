@@ -1,0 +1,69 @@
+name: Emby
+services:
+  app:
+    image: linuxserver/emby@sha256:6eef949bb2997bce9d6f9518ad789904f5b88ab29e415d9fdbac2c7efb73ac07
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: 'Container Path: /config'
+      ports:
+        - container: 8096
+          description:
+            en_us: HTTP - Default 8096
+        - container: 8920
+          description:
+            en_us: HTTPS - Default 8920 (Optional)
+    ports:
+      - target: 8096
+        published: 8096
+        protocol: tcp
+      - target: 8920
+        published: 8920
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/emby/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/emby/data/tvshows
+        target: /data/tvshows
+      - type: bind
+        source: /DATA/AppData/emby/data/movies
+        target: /data/movies
+      - type: bind
+        source: /opt/vc/lib
+        target: /opt/vc/lib
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/emby/'
+  tagline:
+    en_us: Organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
+  title:
+    en_us: Emby
+  category: Home Media
+  port_map: '8096'

@@ -1,0 +1,94 @@
+name: Hedgedoc
+services:
+  app:
+    image: linuxserver/hedgedoc@sha256:4748adfc836a9c25be7252a0ea9b4772856e301c9df497d2454b5b7c3412d3f7
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_USER: ''
+      DB_PASS: ''
+      DB_NAME: ''
+      CMD_DOMAIN: ''
+      CMD_URL_ADDPORT: ''
+      CMD_PROTOCOL_USESSL: ''
+      CMD_PORT: ''
+      CMD_ALLOW_ORIGIN: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: DB_HOST
+          description:
+            en_us: Host address of mysql database
+        - container: DB_PORT
+          description:
+            en_us: Port to access mysql database default is 3306
+        - container: DB_USER
+          description:
+            en_us: Database user
+        - container: DB_PASS
+          description:
+            en_us: Database password
+        - container: DB_NAME
+          description:
+            en_us: Database name
+        - container: CMD_DOMAIN
+          description:
+            en_us: The address the gui will be accessed at (ie. 192.168.1.1 or hedgedoc.domain.com).
+        - container: CMD_URL_ADDPORT
+          description:
+            en_us: Set to true if using a port other than 80 or 443.
+        - container: CMD_PROTOCOL_USESSL
+          description:
+            en_us: Set to true if accessing over https via reverse proxy.
+        - container: CMD_PORT
+          description:
+            en_us: If you wish to access hedgedoc at a port different than 80, 443 or 3000, you need to set this to that port (ie. CMD_PORT=5000) and change the port mapping accordingly (5000:5000).
+        - container: CMD_ALLOW_ORIGIN
+          description:
+            en_us: Comma-separated list of allowed hostnames
+      volumes:
+        - container: /config
+          description:
+            en_us: HedgeDoc config and configurable files
+      ports:
+        - container: 3000
+          description:
+            en_us: If you wish to access this container from http://{IP}:${PORT}` this *must* be left unchanged.
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/hedgedoc/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/hedgedoc'
+  tagline:
+    en_us: Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
+  title:
+    en_us: Hedgedoc
+  category: Documentation
+  port_map: '3000'
