@@ -166,4 +166,6 @@ casaos-cli app-management register app-store https://paodayag.dev/casaos-appstor
 * [Yq](https://github.com/linuxserver/docker-yq)
 * [Znc](https://github.com/linuxserver/docker-znc)
 
+---
 
+Generated with ❤️ using [CasaOS-Balhin](https://github.com/WisdomSky/CasaOS-Balhin/tree/linuxserver)
