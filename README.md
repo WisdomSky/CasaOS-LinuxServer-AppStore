@@ -159,7 +159,7 @@ casaos-cli app-management register app-store https://paodayag.dev/casaos-appstor
 * [Webtop](https://github.com/linuxserver/docker-webtop)
 * [Wikijs](https://github.com/linuxserver/docker-wikijs)
 * [Wireguard](https://github.com/linuxserver/docker-wireguard)
-Wireshark](https://github.com/linuxserver/docker-wireshark)
+* [Wireshark](https://github.com/linuxserver/docker-wireshark)
 * [Wps-office](https://github.com/linuxserver/docker-wps-office)
 * [Xbackbone](https://github.com/linuxserver/docker-xbackbone)
 * [Your_spotify](https://github.com/linuxserver/docker-your_spotify)
