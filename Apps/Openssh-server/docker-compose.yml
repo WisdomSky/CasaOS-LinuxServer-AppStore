@@ -59,7 +59,7 @@ services:
           description:
             en_us: 'Container Path: /config'
       ports:
-        - container: 2222
+        - container: '2222'
           description:
             en_us: 'Container Port: 2222'
     ports:

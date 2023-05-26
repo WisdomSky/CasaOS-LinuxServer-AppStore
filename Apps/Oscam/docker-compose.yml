@@ -23,7 +23,7 @@ services:
           description:
             en_us: Config
       ports:
-        - container: 8888
+        - container: '8888'
           description:
             en_us: Webgui
     ports:

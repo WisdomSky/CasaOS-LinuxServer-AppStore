@@ -47,7 +47,7 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 8080
+        - container: '8080'
           description:
             en_us: Port
     ports:

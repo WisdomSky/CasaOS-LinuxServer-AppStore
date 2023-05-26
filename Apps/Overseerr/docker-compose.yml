@@ -23,7 +23,7 @@ services:
           description:
             en_us: Contains all relevant configuration files.
       ports:
-        - container: 5055
+        - container: '5055'
           description:
             en_us: Port for Overseerr's web interface.
     ports:

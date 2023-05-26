@@ -43,7 +43,7 @@ services:
           description:
             en_us: Required if `LOGFILE` is set to `true`.
       ports:
-        - container: 22
+        - container: '22'
           description:
             en_us: ssh port
     ports:

@@ -27,7 +27,7 @@ services:
           description:
             en_us: 'Container Path: /config/.minetest'
       ports:
-        - container: 30000
+        - container: '30000'
           description:
             en_us: 'Container Port: 30000'
     ports:

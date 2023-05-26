@@ -23,7 +23,7 @@ services:
           description:
             en_us: Where config is stored.
       ports:
-        - container: 8000
+        - container: '8000'
           description:
             en_us: Port for apprise's interface and API.
     ports:

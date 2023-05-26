@@ -29,7 +29,7 @@ services:
           description:
             en_us: Path to downloads
       ports:
-        - container: 8090
+        - container: '8090'
           description:
             en_us: Webui
     ports:

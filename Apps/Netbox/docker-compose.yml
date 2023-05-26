@@ -103,7 +103,7 @@ services:
           description:
             en_us: 'Container Path: /config'
       ports:
-        - container: 8000
+        - container: '8000'
           description:
             en_us: 'Container Port: 8000'
     ports:

@@ -26,7 +26,7 @@ services:
           description:
             en_us: Path to music library
       ports:
-        - container: 3000
+        - container: '3000'
           description:
             en_us: Webui Port
     ports:

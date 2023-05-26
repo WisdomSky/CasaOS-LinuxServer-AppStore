@@ -23,7 +23,7 @@ services:
           description:
             en_us: 'Container Path: /config'
       ports:
-        - container: 8181
+        - container: '8181'
           description:
             en_us: 'Container Port: 8181'
     ports:

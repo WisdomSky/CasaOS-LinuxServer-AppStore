@@ -30,10 +30,10 @@ services:
           description:
             en_us: Recordings
       ports:
-        - container: 9981
+        - container: '9981'
           description:
             en_us: Webgui
-        - container: 9982
+        - container: '9982'
           description:
             en_us: HTSP
     ports:

@@ -23,7 +23,7 @@ services:
           description:
             en_us: Contains all relevant configuration files.
       ports:
-        - container: 4545
+        - container: '4545'
           description:
             en_us: web gui
     ports:

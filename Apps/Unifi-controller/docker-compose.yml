@@ -31,22 +31,22 @@ services:
           description:
             en_us: 'Container Path: /config'
       ports:
-        - container: 8443
+        - container: '8443'
           description:
             en_us: Port used for controller GUI/API as seen in a web browser
-        - container: 3478
+        - container: '3478'
           description:
             en_us: Port used for STUN.
-        - container: 10001
+        - container: '10001'
           description:
             en_us: Port used for AP discovery
-        - container: 8080
+        - container: '8080'
           description:
             en_us: Port used for device and controller communication.
-        - container: 8843
+        - container: '8843'
           description:
             en_us: '8843'
-        - container: 8880
+        - container: '8880'
           description:
             en_us: Port used for HTTP portal redirection.
     ports:

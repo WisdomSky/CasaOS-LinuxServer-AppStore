@@ -23,7 +23,7 @@ services:
           description:
             en_us: Users home directory in the container, stores program settings and images
       ports:
-        - container: 3000
+        - container: '3000'
           description:
             en_us: Audacity desktop gui.
     ports:

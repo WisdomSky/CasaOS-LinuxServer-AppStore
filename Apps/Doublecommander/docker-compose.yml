@@ -26,7 +26,7 @@ services:
           description:
             en_us: Host data directory
       ports:
-        - container: 3000
+        - container: '3000'
           description:
             en_us: 'Container Port: 3000'
     ports:

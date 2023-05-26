@@ -27,13 +27,13 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 8096
+        - container: '8096'
           description:
             en_us: Webui - Default 8096 (HTTP)
-        - container: 8920
+        - container: '8920'
           description:
             en_us: Webui - Default 8920 (HTTPS) (Optional)
-        - container: 1900
+        - container: '1900'
           description:
             en_us: Service Discovery (Optional)
     ports:

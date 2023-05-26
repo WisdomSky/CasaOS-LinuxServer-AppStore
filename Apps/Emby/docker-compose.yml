@@ -23,10 +23,10 @@ services:
           description:
             en_us: 'Container Path: /config'
       ports:
-        - container: 8096
+        - container: '8096'
           description:
             en_us: HTTP - Default 8096
-        - container: 8920
+        - container: '8920'
           description:
             en_us: HTTPS - Default 8920 (Optional)
     ports:

@@ -23,7 +23,7 @@ services:
           description:
             en_us: Database and xbackbone configs
       ports:
-        - container: 80
+        - container: '80'
           description:
             en_us: The port for the xbackbone webinterface
     ports:

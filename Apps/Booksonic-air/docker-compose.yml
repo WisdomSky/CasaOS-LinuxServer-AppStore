@@ -27,7 +27,7 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 4040
+        - container: '4040'
           description:
             en_us: Webui Port
     ports:

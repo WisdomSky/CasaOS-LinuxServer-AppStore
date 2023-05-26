@@ -19,7 +19,7 @@ services:
           description:
             en_us: DEPRECATED - (Still works but will be removed in the future in favor of the built-in var autojoin__room) - Set the room name for auto joining (requires AUTOJOIN_ENABLED set to true).
       ports:
-        - container: 8088
+        - container: '8088'
           description:
             en_us: 'Container Port: 8088'
     ports:

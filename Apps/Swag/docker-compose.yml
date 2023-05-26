@@ -63,10 +63,10 @@ services:
           description:
             en_us: 'Container Path: /config'
       ports:
-        - container: 443
+        - container: '443'
           description:
             en_us: 'Container Port: 443'
-        - container: 80
+        - container: '80'
           description:
             en_us: 'Container Port: 80'
     ports:

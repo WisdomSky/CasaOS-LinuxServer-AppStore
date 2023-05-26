@@ -24,13 +24,13 @@ services:
             en_us: Specify specific run params for minisatip
       volumes: []
       ports:
-        - container: 8875
+        - container: '8875'
           description:
             en_us: ''
-        - container: 554
+        - container: '554'
           description:
             en_us: ''
-        - container: 1900
+        - container: '1900'
           description:
             en_us: ''
     ports:

@@ -23,7 +23,7 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 9283
+        - container: '9283'
           description:
             en_us: Webui Port
     ports:

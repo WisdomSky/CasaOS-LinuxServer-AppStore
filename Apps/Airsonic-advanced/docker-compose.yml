@@ -43,7 +43,7 @@ services:
           description:
             en_us: 'Container Path: /media'
       ports:
-        - container: 4040
+        - container: '4040'
           description:
             en_us: 'Container Port: 4040'
     ports:

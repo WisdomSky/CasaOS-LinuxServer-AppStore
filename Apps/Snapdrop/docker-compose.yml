@@ -23,10 +23,10 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 80
+        - container: '80'
           description:
             en_us: 'Container Port: 80'
-        - container: 443
+        - container: '443'
           description:
             en_us: 'Container Port: 443'
     ports:

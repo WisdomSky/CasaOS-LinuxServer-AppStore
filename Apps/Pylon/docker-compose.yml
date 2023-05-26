@@ -35,7 +35,7 @@ services:
           description:
             en_us: if you want to mount up a local folder of code instead of checking out a Git URL specify its location here.  Find it at /code
       ports:
-        - container: 3131
+        - container: '3131'
           description:
             en_us: Webui - Default 3131
     ports:

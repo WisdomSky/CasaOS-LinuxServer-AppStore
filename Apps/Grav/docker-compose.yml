@@ -23,7 +23,7 @@ services:
           description:
             en_us: Contains all relevant configuration files.
       ports:
-        - container: 80
+        - container: '80'
           description:
             en_us: Port for web frontend
     ports:

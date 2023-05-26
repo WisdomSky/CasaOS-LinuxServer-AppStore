@@ -23,7 +23,7 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 6667
+        - container: '6667'
           description:
             en_us: 'Container Port: 6667'
     ports:

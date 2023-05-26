@@ -37,31 +37,31 @@ services:
           description:
             en_us: Movies - /movies
       ports:
-        - container: 32400
+        - container: '32400'
           description:
             en_us: For access to the Plex Media Server Webui (No effect in host mode - reference only)
-        - container: 3005
+        - container: '3005'
           description:
             en_us: For controlling Plex Home Theater via Plex Companion (No effect in host mode - reference only)
-        - container: 8324
+        - container: '8324'
           description:
             en_us: For controlling Plex for Roku via Plex Companion (No effect in host mode - reference only)
-        - container: 32469
+        - container: '32469'
           description:
             en_us: For access to the Plex DLNA Server (No effect in host mode - reference only)
-        - container: 1900
+        - container: '1900'
           description:
             en_us: For access to the Plex DLNA Server (No effect in host mode - reference only)
-        - container: 32410
+        - container: '32410'
           description:
             en_us: For current GDM network discovery (No effect in host mode - reference only)
-        - container: 32412
+        - container: '32412'
           description:
             en_us: For current GDM network discovery (No effect in host mode - reference only)
-        - container: 32413
+        - container: '32413'
           description:
             en_us: For current GDM network discovery (No effect in host mode - reference only)
-        - container: 32414
+        - container: '32414'
           description:
             en_us: For current GDM network discovery (No effect in host mode - reference only)
     volumes:

@@ -29,7 +29,7 @@ services:
           description:
             en_us: 'Container Path: /tv'
       ports:
-        - container: 8081
+        - container: '8081'
           description:
             en_us: 'Container Port: 8081'
     ports:

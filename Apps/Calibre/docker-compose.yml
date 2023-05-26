@@ -31,10 +31,10 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 8080
+        - container: '8080'
           description:
             en_us: GUI Port - Default 8080
-        - container: 8081
+        - container: '8081'
           description:
             en_us: Webserver Port - Default 8081
     ports:

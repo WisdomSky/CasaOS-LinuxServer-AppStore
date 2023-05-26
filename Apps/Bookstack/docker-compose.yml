@@ -47,7 +47,7 @@ services:
           description:
             en_us: 'Container Path: /config'
       ports:
-        - container: 6875
+        - container: '6875'
           description:
             en_us: 'Container Port: 80'
     ports:

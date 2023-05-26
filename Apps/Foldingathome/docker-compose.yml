@@ -23,10 +23,10 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 7396
+        - container: '7396'
           description:
             en_us: GUI Port - Default 7396
-        - container: 36330
+        - container: '36330'
           description:
             en_us: FAHControl Port - Default 36330
     ports:

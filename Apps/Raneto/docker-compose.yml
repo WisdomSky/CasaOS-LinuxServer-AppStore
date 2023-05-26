@@ -23,7 +23,7 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 3000
+        - container: '3000'
           description:
             en_us: Webui - Default port 3000
     ports:

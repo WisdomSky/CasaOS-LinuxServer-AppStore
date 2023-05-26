@@ -23,7 +23,7 @@ services:
           description:
             en_us: Database and Prowlarr configs
       ports:
-        - container: 9696
+        - container: '9696'
           description:
             en_us: The port for the Prowlarr webinterface
     ports:

@@ -34,7 +34,7 @@ services:
           description:
             en_us: Location of Calibre library
       ports:
-        - container: 8083
+        - container: '8083'
           description:
             en_us: Webui - Default 8083
     ports:

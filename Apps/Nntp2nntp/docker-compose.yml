@@ -29,7 +29,7 @@ services:
           description:
             en_us: appdata
       ports:
-        - container: 1563
+        - container: '1563'
           description:
             en_us: Proxy Port
     ports:

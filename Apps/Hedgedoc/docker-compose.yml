@@ -63,7 +63,7 @@ services:
           description:
             en_us: HedgeDoc config and configurable files
       ports:
-        - container: 3000
+        - container: '3000'
           description:
             en_us: If you wish to access this container from http://{IP}:${PORT}` this *must* be left unchanged.
     ports:

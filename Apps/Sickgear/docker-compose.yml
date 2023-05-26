@@ -29,7 +29,7 @@ services:
           description:
             en_us: Path to downloads - /downloads
       ports:
-        - container: 8081
+        - container: '8081'
           description:
             en_us: Webui - Default 8081
     ports:

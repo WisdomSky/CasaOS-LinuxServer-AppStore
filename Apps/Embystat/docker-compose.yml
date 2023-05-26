@@ -23,7 +23,7 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 6555
+        - container: '6555'
           description:
             en_us: Webui Port
     ports:

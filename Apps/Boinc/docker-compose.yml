@@ -27,7 +27,7 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 8080
+        - container: '8080'
           description:
             en_us: GUI Port - Default 8080
     ports:

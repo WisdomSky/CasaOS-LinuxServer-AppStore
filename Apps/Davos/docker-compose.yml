@@ -26,7 +26,7 @@ services:
           description:
             en_us: 'Container Path: /download'
       ports:
-        - container: 8080
+        - container: '8080'
           description:
             en_us: 'Container Port: 8080'
     ports:

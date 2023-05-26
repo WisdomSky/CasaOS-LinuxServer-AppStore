@@ -19,10 +19,10 @@ services:
           description:
             en_us: Optionally point this to the private key file, matching the certificate file referred to in CERTFILE
       ports:
-        - container: 8888
+        - container: '8888'
           description:
             en_us: LDAP auth daemon port
-        - container: 9000
+        - container: '9000'
           description:
             en_us: LDAP login page port
     ports:

@@ -29,7 +29,7 @@ services:
           description:
             en_us: TV
       ports:
-        - container: 6767
+        - container: '6767'
           description:
             en_us: 'Container Port: 6767'
     ports:

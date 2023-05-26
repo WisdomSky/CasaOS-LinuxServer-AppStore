@@ -38,13 +38,13 @@ services:
           description:
             en_us: Path to mirrored assets (optional)
       ports:
-        - container: 3000
+        - container: '3000'
           description:
             en_us: Web Application (Default 3000)
-        - container: 69
+        - container: '69'
           description:
             en_us: TFTP server
-        - container: 8080
+        - container: '8080'
           description:
             en_us: Webserver for local asset hosting (Default 8080)
     ports:

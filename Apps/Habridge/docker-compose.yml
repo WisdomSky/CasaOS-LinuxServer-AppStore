@@ -27,10 +27,10 @@ services:
           description:
             en_us: Appdata
       ports:
-        - container: 8080
+        - container: '8080'
           description:
             en_us: Webui - Default 8080
-        - container: 50000
+        - container: '50000'
           description:
             en_us: HABridge communication port - Default 50000
     ports:

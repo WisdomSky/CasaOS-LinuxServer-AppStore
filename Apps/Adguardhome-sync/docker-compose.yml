@@ -27,7 +27,7 @@ services:
           description:
             en_us: Contains all relevant configuration files.
       ports:
-        - container: 8080
+        - container: '8080'
           description:
             en_us: Port for AdGuardHome Sync's web API.
     ports:
