@@ -1,3 +1,6 @@
+
+![CasaOS LinuxServer AppStore](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/banner.png)
+
 # CasaOS LinuxServer AppStore
 
 A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linuxserver.io/) images.
