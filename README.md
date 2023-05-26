@@ -10,7 +10,7 @@ A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linux
 ## Install AppStore
 
 ```bash
-casaos-cli app-management register app-store https://paodayag.dev/casaos-appstore.zip
+casaos-cli app-management register app-store https://paodayag.dev/linuxserver-appstore.zip
 ```
 
 ## Apps
