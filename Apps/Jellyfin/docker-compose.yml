@@ -1,7 +1,7 @@
 name: Jellyfin
 services:
   app:
-    image: linuxserver/jellyfin@sha256:addc7c55a7817b800666fa1bfcf74b9ee585bda87d7d25462b3fa4740d578db5
+    image: linuxserver/jellyfin@sha256:7152ed8868fc6caeb83fa2269347e7db1db0ef3153fc9686d6f882bdf9f2d824
     restart: unless-stopped
     environment:
       PUID: $PUID

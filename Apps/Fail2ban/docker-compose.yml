@@ -1,7 +1,7 @@
 name: Fail2ban
 services:
   app:
-    image: linuxserver/fail2ban@sha256:4a54ab488d01fda73617f8cfb52a1fd4d6d04aa9c7452c0fe2210eb73a557618
+    image: linuxserver/fail2ban@sha256:f9e0fe700b1dfb39341adb8708e809d0856b73892c41e23d9329d6b121fe65f1
     restart: unless-stopped
     environment:
       PUID: $PUID

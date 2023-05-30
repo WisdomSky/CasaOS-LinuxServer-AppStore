@@ -1,7 +1,7 @@
 name: Doplarr
 services:
   app:
-    image: linuxserver/doplarr@sha256:13a39232047f9259c693a86bc9173bcfc76e6c64533753b37dd30f35f0d5ca1c
+    image: linuxserver/doplarr@sha256:484fd2eb7e8607cfd0a0135f1094ae22b6e772bc308c61628d8c3dd677b756ca
     restart: unless-stopped
     environment:
       PUID: $PUID

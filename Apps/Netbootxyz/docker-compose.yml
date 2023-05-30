@@ -1,7 +1,7 @@
 name: Netbootxyz
 services:
   app:
-    image: linuxserver/netbootxyz@sha256:ef6c2593e62bd0e3874dbeeec4559f2848f5c0ed0e968cca14420a24c9f5f1ce
+    image: linuxserver/netbootxyz@sha256:fea3c733204ca025722134af27c2a54d5ed19b7f686609537bd1c9c95a92c6fb
     restart: unless-stopped
     environment:
       PUID: $PUID

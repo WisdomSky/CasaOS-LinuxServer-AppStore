@@ -1,7 +1,7 @@
 name: Yq
 services:
   app:
-    image: linuxserver/yq@sha256:07e7eed6f58942a12dfd0f765307947170be6366f8285e8dec773b0ae05010cc
+    image: linuxserver/yq@sha256:e28c8a69812eab8b10e3fb98ba090622a8e206d2911d670cfa1466b865b11a16
     restart: unless-stopped
     environment:
       PUID: $PUID

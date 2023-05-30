@@ -1,7 +1,7 @@
 name: Nextcloud
 services:
   app:
-    image: linuxserver/nextcloud@sha256:1536c010a4c69c8acb4af007b23cd93b118fcffe9ade591340be289d200a189d
+    image: linuxserver/nextcloud@sha256:0d989d23bedda93677c5b2a627c6505bf4e2bee4c4fad28ba791a31ab07320e3
     restart: unless-stopped
     environment:
       PUID: $PUID

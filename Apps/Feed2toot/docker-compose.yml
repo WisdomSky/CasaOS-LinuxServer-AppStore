@@ -1,7 +1,7 @@
 name: Feed2toot
 services:
   app:
-    image: linuxserver/feed2toot@sha256:c3a250f7bd97b82e95d9597eea2c4214640a3151a12fc18d8d9f009d5afac3b1
+    image: linuxserver/feed2toot@sha256:19f57a78fb6123bcfa29f0014e276e99e194d8587618c1ca3962dc71b4c8098d
     restart: unless-stopped
     environment:
       PUID: $PUID

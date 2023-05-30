@@ -1,7 +1,7 @@
 name: Sickchill
 services:
   app:
-    image: linuxserver/sickchill@sha256:2e87b5ef0d2e6487c02e909442688a2e865a6270d217fcc8a9a58cb7de3664b2
+    image: linuxserver/sickchill@sha256:7f95c672e983d403c228274bdd5e700b2ea30fcb25f3ac271c82e4456abb5007
     restart: unless-stopped
     environment:
       PUID: $PUID

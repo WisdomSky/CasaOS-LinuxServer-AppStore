@@ -1,7 +1,7 @@
 name: Mariadb
 services:
   app:
-    image: linuxserver/mariadb@sha256:c1d778dc18cc4d46bd27d11bf516eef0ebcff831e865a474fb588e15134c2629
+    image: linuxserver/mariadb@sha256:59aa05aae63c56e12603abd2a828a888687e329625e92453f311305ab1f49cb4
     restart: unless-stopped
     environment:
       PUID: $PUID

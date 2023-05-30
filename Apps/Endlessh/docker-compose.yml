@@ -1,7 +1,7 @@
 name: Endlessh
 services:
   app:
-    image: linuxserver/endlessh@sha256:8569650083bb52131b61dc753b8fc29aaf38866d29fa10d7bc8e7b94bdc8174b
+    image: linuxserver/endlessh@sha256:f15af42c8fc7efc82acff7a0e88820512b4a4603db20ba37d920a4dc62f95974
     restart: unless-stopped
     environment:
       PUID: $PUID

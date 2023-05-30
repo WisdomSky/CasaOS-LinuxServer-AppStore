@@ -1,7 +1,7 @@
 name: Pylon
 services:
   app:
-    image: linuxserver/pylon@sha256:adcb6dc14c0516c0dbb51d332b51ccf89ea83f35ed953ff2093818cc0ed2963d
+    image: linuxserver/pylon@sha256:30a02b58ca481f8cebb02866ee50b1934ef2bf47d1b2bbe2fd7816e92af07867
     restart: unless-stopped
     environment:
       PUID: $PUID

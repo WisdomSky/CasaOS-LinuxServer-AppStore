@@ -1,7 +1,7 @@
 name: Readme-sync
 services:
   app:
-    image: linuxserver/readme-sync@sha256:5aa96d6af678a331c915c44ee9139be0457633ba0409235157079a699a0c9c16
+    image: linuxserver/readme-sync@sha256:2936d30f0837aad9c0df305a5a6fbb115f21a131089736c80696992bfe99c114
     restart: unless-stopped
     environment:
       PUID: $PUID

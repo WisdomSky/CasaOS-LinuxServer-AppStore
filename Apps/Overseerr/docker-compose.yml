@@ -1,7 +1,7 @@
 name: Overseerr
 services:
   app:
-    image: linuxserver/overseerr@sha256:19c38eb9a800c97377d1e3245a5bfbf368861f9a4b98b3cbffc7a0e45c173793
+    image: linuxserver/overseerr@sha256:623fff8d307b3911bde3abc9e104b4337717d92944ce5754fd865472f0f0b561
     restart: unless-stopped
     environment:
       PUID: $PUID
