@@ -170,5 +170,10 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Znc](https://github.com/linuxserver/docker-znc)
 
 ---
+## Additional Information
+
+📝 The LinuxServer Appstore will automatically update the list once every day.  
+
+---
 
 Generated with ❤️ using [CasaOS-Balhin](https://github.com/WisdomSky/CasaOS-Balhin/tree/linuxserver)
