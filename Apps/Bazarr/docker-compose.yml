@@ -1,7 +1,7 @@
 name: Bazarr
 services:
   app:
-    image: linuxserver/bazarr@sha256:dbc3c7e9ba92becf5450bdb4ea377ffddda6ce7a08e40a81b9344de27db9e52d
+    image: linuxserver/bazarr@sha256:8acff4e4555ea7f0a86abd6fbfb689485ee8d98374c46540720a997a4bcd187a
     restart: unless-stopped
     environment:
       PUID: $PUID

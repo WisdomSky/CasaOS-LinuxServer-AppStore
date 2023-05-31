@@ -1,7 +1,7 @@
 name: Diskover
 services:
   app:
-    image: linuxserver/diskover@sha256:f61b77f740865d8e24bdd515befc68f93ff6e1442172921c2e412cac52f1919f
+    image: linuxserver/diskover@sha256:bac67746690547cd8c8ba81d488d93adbd5f30d9e16b06b3b44e8023504f0c06
     restart: unless-stopped
     environment:
       PUID: $PUID

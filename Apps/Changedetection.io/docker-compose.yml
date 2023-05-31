@@ -1,7 +1,7 @@
 name: Changedetection.io
 services:
   app:
-    image: linuxserver/changedetection.io@sha256:6bc457c2523007d7297c065357ba412002c27bcfd95928846e8030fa2ac60bb6
+    image: linuxserver/changedetection.io@sha256:9d4b4005fc55164256bc1e4b79116fa22f4adea4c2ae14c9060a7082f4f90786
     restart: unless-stopped
     environment:
       PUID: $PUID

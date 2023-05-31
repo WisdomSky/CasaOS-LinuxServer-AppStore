@@ -1,7 +1,7 @@
 name: Daapd
 services:
   app:
-    image: linuxserver/daapd@sha256:6fe228674d709c48f12b37ad5b1057096a643a8126172c4a61d19a3f3671f594
+    image: linuxserver/daapd@sha256:8b2a91017b0e3e6eb724955509693d7faafae13a7411eeb1423c0a8154d287e6
     restart: unless-stopped
     environment:
       PUID: $PUID

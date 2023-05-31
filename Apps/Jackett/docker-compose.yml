@@ -1,7 +1,7 @@
 name: Jackett
 services:
   app:
-    image: linuxserver/jackett@sha256:abbd37a5b047a733a5bef37995587715f0ebb7b8e1f49c669114af01df217bb2
+    image: linuxserver/jackett@sha256:7ab86a6faba505abfcff1a263d41421fb5a91cbef56188a15302866c651ec9e5
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: Booksonic-air
 services:
   app:
-    image: linuxserver/booksonic-air@sha256:13f8172d6573e410d744dd6050d88ade6a65cd43ed5eef289d2b910efbfdd160
+    image: linuxserver/booksonic-air@sha256:e70a4ec5da89f1ceeb05eada9c2ce94dd49649df7b276b1521cf1602abdf985a
     restart: unless-stopped
     environment:
       PUID: $PUID
