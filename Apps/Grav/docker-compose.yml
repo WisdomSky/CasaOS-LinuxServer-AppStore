@@ -1,4 +1,4 @@
-name: Grav
+name: LinuxServer-Grav
 services:
   app:
     image: linuxserver/grav:1.7.41
@@ -43,12 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/grav'
   tagline:
-    en_us: A Fast, Simple, and Flexible, file-based Web-platform.
+    en_us: A Fast, Simple, And Flexible, File-based Web-platform.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   title:
     en_us: Grav
-  category: Web Platform
+  category: LinuxServer.io
   port_map: '80'

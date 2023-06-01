@@ -1,4 +1,4 @@
-name: Netbox
+name: LinuxServer-Netbox
 services:
   app:
     image: linuxserver/netbox:3.5.2
@@ -123,11 +123,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/netbox/'
   tagline:
-    en_us: An IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
+    en_us: An Ip Address Management (ipam) And Data Center Infrastructure Management (dcim) Tool. Initially Conceived By The Network Engineering Team At Digitalocean, Netbox Was Developed Specifically To Address The Needs Of Network And Infrastructure Engineers. It Is Intended To Function As A Domain-specific Source Of Truth For Network Operations.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/netbox-icon.png
   thumbnail: https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.svg
   title:
     en_us: Netbox
+  category: LinuxServer.io
   port_map: '8000'

@@ -1,3 +1,7 @@
-# Adguardhome-sync
+# Adguardhome Sync
+
 ---
-Homepage: https://github.com/orgs/linuxserver/packages/container/package/adguardhome-sync
+
+**Homepage:** https://hub.docker.com/r/linuxserver/adguardhome-sync
+
+**WebUI Port:** `8080`

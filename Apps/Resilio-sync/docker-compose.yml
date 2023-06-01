@@ -1,4 +1,4 @@
-name: Resilio-sync
+name: LinuxServer-Resilio-sync
 services:
   app:
     image: linuxserver/resilio-sync:2.7.3
@@ -44,11 +44,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/resilio-sync/'
   tagline:
-    en_us: (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes.
+    en_us: (formerly Bittorrent Sync) Uses The Bittorrent Protocol To Sync Files And Folders Between All Of Your Devices. There Are Both Free And Paid Versions, This Container Supports Both. There Is An Official Sync Image But We Created This One As It Supports User Mapping To Simplify Permissions For Volumes.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/resilio.png
   thumbnail: https://www.resilio.com/img/individual/freeproduct.jpg
   title:
-    en_us: Resilio-sync
+    en_us: Resilio Sync
+  category: LinuxServer.io
   port_map: '8888'

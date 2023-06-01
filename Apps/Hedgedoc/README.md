@@ -1,3 +1,7 @@
 # Hedgedoc
+
 ---
-Homepage: https://github.com/orgs/linuxserver/packages/container/package/hedgedoc
+
+**Homepage:** https://hub.docker.com/r/linuxserver/hedgedoc
+
+**WebUI Port:** `3000`

@@ -1,4 +1,4 @@
-name: Emby
+name: LinuxServer-Emby
 services:
   app:
     image: linuxserver/emby:4.7.12
@@ -58,12 +58,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/emby/'
   tagline:
-    en_us: Organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
+    en_us: Organizes Video, Music, Live Tv, And Photos From Personal Media Libraries And Streams Them To Smart Tvs, Streaming Boxes And Mobile Devices. This Container Is Packaged As A Standalone Emby Media Server.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   title:
     en_us: Emby
-  category: Home Media
+  category: LinuxServer.io
   port_map: '8096'

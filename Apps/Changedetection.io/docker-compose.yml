@@ -1,4 +1,4 @@
-name: Changedetection.io
+name: LinuxServer-Changedetection.io
 services:
   app:
     image: linuxserver/changedetection.io:0.42.2
@@ -39,10 +39,11 @@ x-casaos:
   description:
     en_us: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
   tagline:
-    en_us: Provides free, open-source web page monitoring, notification and change detection.
+    en_us: Provides Free, Open-source Web Page Monitoring, Notification And Change Detection.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   title:
     en_us: Changedetection.io
+  category: LinuxServer.io

@@ -1,4 +1,4 @@
-name: Babybuddy
+name: LinuxServer-Babybuddy
 services:
   app:
     image: linuxserver/babybuddy:1.16.0
@@ -39,10 +39,11 @@ x-casaos:
   description:
     en_us: Babybuddy is a buddy for babies! Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
   tagline:
-    en_us: A buddy for babies! Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
+    en_us: A Buddy For Babies! Helps Caregivers Track Sleep, Feedings, Diaper Changes, Tummy Time And More To Learn About And Predict Baby's Needs Without (as Much) Guess Work.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   title:
     en_us: Babybuddy
+  category: LinuxServer.io

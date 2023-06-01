@@ -1,4 +1,4 @@
-name: Firefox
+name: LinuxServer-Firefox
 services:
   app:
     image: linuxserver/firefox:113.0.2
@@ -46,11 +46,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/firefox/'
   tagline:
-    en_us: Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    en_us: Browser, Also Known As Mozilla Firefox Or Simply Firefox, Is A Free And Open-source Web Browser Developed By The Mozilla Foundation And Its Subsidiary, The Mozilla Corporation. Firefox Uses The Gecko Layout Engine To Render Web Pages, Which Implements Current And Anticipated Web Standards.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png
   title:
     en_us: Firefox
+  category: LinuxServer.io
   port_map: '3000'

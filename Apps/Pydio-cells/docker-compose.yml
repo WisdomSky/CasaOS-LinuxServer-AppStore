@@ -1,4 +1,4 @@
-name: Pydio-cells
+name: LinuxServer-Pydio-cells
 services:
   app:
     image: linuxserver/pydio-cells:4.2.1
@@ -57,11 +57,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/pydio-cells/'
   tagline:
-    en_us: The nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
+    en_us: The Nextgen File Sharing Platform For Organizations. It Is A Full Rewrite Of The Pydio Project Using The Go Language Following A Micro-service Architecture.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pydio-cells-icon.png
   thumbnail: https://raw.githubusercontent.com/wiki/pydio/cells/images/PydioCellsColor.png
   title:
-    en_us: Pydio-cells
+    en_us: Pydio Cells
+  category: LinuxServer.io
   port_map: '8080'

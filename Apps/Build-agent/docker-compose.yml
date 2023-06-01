@@ -1,4 +1,4 @@
-name: Build-agent
+name: LinuxServer-Build-agent
 services:
   app:
     image: linuxserver/build-agent:version-9a6874bc
@@ -35,11 +35,12 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/build-agent for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/build-agent for details.
+    en_us: This Container Needs Special Attention. Please Check Https://hub.docker.com/r/linuxserver/build-agent For Details.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: Build-agent
+    en_us: Build Agent
+  category: LinuxServer.io
   port_map: '80'

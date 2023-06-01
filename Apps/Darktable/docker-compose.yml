@@ -1,4 +1,4 @@
-name: Darktable
+name: LinuxServer-Darktable
 services:
   app:
     image: linuxserver/darktable:4.0.1
@@ -46,12 +46,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/darktable/'
   tagline:
-    en_us: An open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.
+    en_us: An Open Source Photography Workflow Application And Raw Developer. A Virtual Lighttable And Darkroom For Photographers. It Manages Your Digital Negatives In A Database, Lets You View Them Through A Zoomable Lighttable And Enables You To Develop Raw Images And Enhance Them.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png
   title:
     en_us: Darktable
-  category: Productivity
+  category: LinuxServer.io
   port_map: '3000'

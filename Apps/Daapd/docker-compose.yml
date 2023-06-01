@@ -1,4 +1,4 @@
-name: Daapd
+name: LinuxServer-Daapd
 services:
   app:
     image: linuxserver/daapd:28.6.20230531
@@ -34,12 +34,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/daapd/'
   tagline:
-    en_us: (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), Chromecast, MPD and internet radio.
+    en_us: (itunes) Media Server With Support For Airplay Devices, Apple Remote (and Compatibles), Chromecast, Mpd And Internet Radio.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-git.png
   title:
     en_us: Daapd
-  category: Media
+  category: LinuxServer.io
   port_map: '3689'

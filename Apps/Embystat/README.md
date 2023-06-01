@@ -1,3 +1,7 @@
 # Embystat
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/embystat/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/embystat
+
+**WebUI Port:** `6555`

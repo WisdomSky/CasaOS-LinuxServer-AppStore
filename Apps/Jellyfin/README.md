@@ -1,3 +1,7 @@
 # Jellyfin
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/jellyfin/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/jellyfin
+
+**WebUI Port:** `8096`

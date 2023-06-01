@@ -1,4 +1,4 @@
-name: Budge
+name: LinuxServer-Budge
 services:
   app:
     image: linuxserver/budge:0.0.9
@@ -38,11 +38,12 @@ x-casaos:
   description:
     en_us: Budge is an open source 'budgeting with envelopes' personal finance app.
   tagline:
-    en_us: An open source 'budgeting with envelopes' personal finance app.
+    en_us: An Open Source 'budgeting With Envelopes' Personal Finance App.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
     en_us: Budge
+  category: LinuxServer.io
   port_map: '80'

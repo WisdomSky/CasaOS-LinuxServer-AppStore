@@ -1,4 +1,4 @@
-name: Chromium
+name: LinuxServer-Chromium
 services:
   app:
     image: linuxserver/chromium:version-c836addb
@@ -42,10 +42,11 @@ x-casaos:
   description:
     en_us: Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
   tagline:
-    en_us: An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
+    en_us: An Open-source Browser Project That Aims To Build A Safer, Faster, And More Stable Way For All Users To Experience The Web.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chromium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chromium-logo.png
   title:
     en_us: Chromium
+  category: LinuxServer.io

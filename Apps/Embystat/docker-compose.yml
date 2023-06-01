@@ -1,4 +1,4 @@
-name: Embystat
+name: LinuxServer-Embystat
 services:
   app:
     image: linuxserver/embystat:0.2.0
@@ -43,11 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/embystat/'
   tagline:
-    en_us: A personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.
+    en_us: A Personal Web Server That Can Calculate All Kinds Of Statistics From Your (local) Emby Server. Just Install This On Your Server And Let Him Calculate All Kinds Of Fun Stuff.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/embystat-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/embystat-logo.png
   title:
     en_us: Embystat
+  category: LinuxServer.io
   port_map: '6555'

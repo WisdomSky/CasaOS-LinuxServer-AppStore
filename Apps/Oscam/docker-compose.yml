@@ -1,4 +1,4 @@
-name: Oscam
+name: LinuxServer-Oscam
 services:
   app:
     image: linuxserver/oscam:version-11718
@@ -43,11 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/oscam/'
   tagline:
-    en_us: An Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.
+    en_us: An Open Source Conditional Access Module Software Used For Descrambling Dvb Transmissions Using Smart Cards. It's Both A Server And A Client.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   title:
     en_us: Oscam
+  category: LinuxServer.io
   port_map: '8888'

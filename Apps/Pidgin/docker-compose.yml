@@ -1,4 +1,4 @@
-name: Pidgin
+name: LinuxServer-Pidgin
 services:
   app:
     image: linuxserver/pidgin:2.14.12
@@ -38,10 +38,11 @@ x-casaos:
   description:
     en_us: Pidgin is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
   tagline:
-    en_us: A chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
+    en_us: A Chat Program Which Lets You Log Into Accounts On Multiple Chat Networks Simultaneously. This Means That You Can Be Chatting With Friends On Xmpp And Sitting In An Irc Channel At The Same Time.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   title:
     en_us: Pidgin
+  category: LinuxServer.io

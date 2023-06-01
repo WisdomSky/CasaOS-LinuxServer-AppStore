@@ -1,4 +1,4 @@
-name: Openvscode-server
+name: LinuxServer-Openvscode-server
 services:
   app:
     image: linuxserver/openvscode-server:1.79.0-insiders
@@ -51,10 +51,11 @@ x-casaos:
   description:
     en_us: Openvscode-server provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
   tagline:
-    en_us: Provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
+    en_us: Provides A Version Of Vs Code That Runs A Server On A Remote Machine And Allows Access Through A Modern Web Browser.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
   title:
-    en_us: Openvscode-server
+    en_us: Openvscode Server
+  category: LinuxServer.io

@@ -1,4 +1,4 @@
-name: Snapdrop
+name: LinuxServer-Snapdrop
 services:
   app:
     image: linuxserver/snapdrop:version-eac78009
@@ -49,11 +49,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
   tagline:
-    en_us: A local file sharing in your browser. Inspired by Apple's Airdrop.
+    en_us: A Local File Sharing In Your Browser. Inspired By Apple's Airdrop.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snapdrop-icon.png
   thumbnail: https://raw.githubusercontent.com/RobinLinus/snapdrop/master/client/images/logo_transparent_512x512.png
   title:
     en_us: Snapdrop
+  category: LinuxServer.io
   port_map: '80'

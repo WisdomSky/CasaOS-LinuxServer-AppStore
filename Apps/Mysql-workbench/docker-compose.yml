@@ -1,4 +1,4 @@
-name: Mysql-workbench
+name: LinuxServer-Mysql-workbench
 services:
   app:
     image: linuxserver/mysql-workbench:8.0.33
@@ -46,11 +46,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mysql-workbench/'
   tagline:
-    en_us: A unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
+    en_us: A Unified Visual Tool For Database Architects, Developers, And Dbas. Mysql Workbench Provides Data Modeling, Sql Development, And Comprehensive Administration Tools For Server Configuration, User Administration, Backup, And Much More.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   title:
-    en_us: Mysql-workbench
+    en_us: Mysql Workbench
+  category: LinuxServer.io
   port_map: '3000'

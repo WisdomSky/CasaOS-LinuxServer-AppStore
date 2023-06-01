@@ -1,4 +1,4 @@
-name: Calibre-web
+name: LinuxServer-Calibre-web
 services:
   app:
     image: linuxserver/calibre-web:nightly-version-33e35eeb
@@ -57,12 +57,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/calibre-web/'
   tagline:
-    en_us: A web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.
+    en_us: A Web App Providing A Clean Interface For Browsing, Reading And Downloading Ebooks Using An Existing Calibre Database. It Is Also Possible To Integrate Google Drive And Edit Metadata And Your Calibre Library Through The App Itself. This Software Is A Fork Of Library And Licensed Under The Gpl V3 License.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
   title:
-    en_us: Calibre-web
-  category: Books
+    en_us: Calibre Web
+  category: LinuxServer.io
   port_map: '8083'

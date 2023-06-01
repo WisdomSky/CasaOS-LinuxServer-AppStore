@@ -1,3 +1,7 @@
-# Resilio-sync
+# Resilio Sync
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/resilio-sync/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/resilio-sync
+
+**WebUI Port:** `8888`

@@ -1,4 +1,4 @@
-name: Sqlitebrowser
+name: LinuxServer-Sqlitebrowser
 services:
   app:
     image: linuxserver/sqlitebrowser:3.12.2
@@ -46,11 +46,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sqlitebrowser/'
   tagline:
-    en_us: A high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+    en_us: A High Quality, Visual, Open Source Tool To Create, Design, And Edit Database Files Compatible With Sqlite.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sqlitebrowser-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sqlitebrowser-banner.png
   title:
     en_us: Sqlitebrowser
+  category: LinuxServer.io
   port_map: '3000'

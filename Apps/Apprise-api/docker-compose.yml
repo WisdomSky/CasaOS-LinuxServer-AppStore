@@ -1,4 +1,4 @@
-name: Apprise-api
+name: LinuxServer-Apprise-api
 services:
   app:
     image: linuxserver/apprise-api:0.9.2
@@ -43,12 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/apprise-api'
   tagline:
-    en_us: Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more then 65+ services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.
+    en_us: Takes Advantage Of apprise Through Your Network With A User-friendly Api. * Send Notifications To More Then 65+ Services. * An Incredibly Lightweight Gateway To Apprise. * A Production Ready Micro-service At Your Disposal. Apprise Api Was Designed To Easily Fit Into Existing (and New) Eco-systems That Are Looking For A Simple Notification Solution.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apprise-api.png
   thumbnail: https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png
   title:
-    en_us: Apprise-api
-  category: Notifications
+    en_us: Apprise Api
+  category: LinuxServer.io
   port_map: '8000'

@@ -1,4 +1,4 @@
-name: Emulatorjs
+name: LinuxServer-Emulatorjs
 services:
   app:
     image: linuxserver/emulatorjs:1.7.2
@@ -48,11 +48,12 @@ x-casaos:
   description:
     en_us: Emulatorjs - In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS.
   tagline:
-    en_us: In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS.
+    en_us: In Browser Web Based Emulation Portable To Nearly Any Device For Many Retro Consoles. A Mix Of Emulators Is Used Between Libretro And Emulatorjs.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png
   title:
     en_us: Emulatorjs
+  category: LinuxServer.io
   port_map: '80'

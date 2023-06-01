@@ -1,4 +1,4 @@
-name: Raneto
+name: LinuxServer-Raneto
 services:
   app:
     image: linuxserver/raneto:0.17.3
@@ -43,11 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/raneto/'
   tagline:
-    en_us: is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
+    en_us: Is An Open Source Knowledgebase Platform That Uses Static Markdown Files To Power Your Knowledgebase.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/raneto.png
   thumbnail: https://raw.githubusercontent.com/gilbitron/Raneto/master/logo/logo_readme.png
   title:
     en_us: Raneto
+  category: LinuxServer.io
   port_map: '3000'

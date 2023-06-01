@@ -1,4 +1,4 @@
-name: Syncthing
+name: LinuxServer-Syncthing
 services:
   app:
     image: linuxserver/syncthing:1.23.4
@@ -50,11 +50,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/syncthing'
   tagline:
-    en_us: Replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+    en_us: Replaces Proprietary Sync And Cloud Services With Something Open, Trustworthy And Decentralized. Your Data Is Your Data Alone And You Deserve To Choose Where It Is Stored, If It Is Shared With Some Third Party And How It's Transmitted Over The Internet.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png
   title:
     en_us: Syncthing
+  category: LinuxServer.io
   port_map: '8384'

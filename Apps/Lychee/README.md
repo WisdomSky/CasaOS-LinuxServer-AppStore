@@ -1,3 +1,7 @@
 # Lychee
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/lychee/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/lychee
+
+**WebUI Port:** `80`

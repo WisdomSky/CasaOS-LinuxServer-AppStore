@@ -1,3 +1,7 @@
 # Homeassistant
+
 ---
-Homepage: https://github.com/orgs/linuxserver/packages/container/package/homeassistant
+
+**Homepage:** https://hub.docker.com/r/linuxserver/homeassistant
+
+**WebUI Port:** `8123`

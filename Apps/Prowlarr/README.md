@@ -1,3 +1,7 @@
 # Prowlarr
+
 ---
-Homepage: https://github.com/orgs/linuxserver/packages/container/package/prowlarr
+
+**Homepage:** https://hub.docker.com/r/linuxserver/prowlarr
+
+**WebUI Port:** `9696`

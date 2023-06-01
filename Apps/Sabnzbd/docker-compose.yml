@@ -1,4 +1,4 @@
-name: Sabnzbd
+name: LinuxServer-Sabnzbd
 services:
   app:
     image: linuxserver/sabnzbd:4.0.1
@@ -41,11 +41,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sabnzbd/'
   tagline:
-    en_us: Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+    en_us: Makes Usenet As Simple And Streamlined As Possible By Automating Everything We Can. All You Have To Do Is Add An .nzb. Sabnzbd Takes Over From There, Where It Will Be Automatically Downloaded, Verified, Repaired, Extracted And Filed Away With Zero Human Interaction.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png
   title:
     en_us: Sabnzbd
+  category: LinuxServer.io
   port_map: '8080'

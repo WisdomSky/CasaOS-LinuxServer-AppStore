@@ -1,4 +1,4 @@
-name: Wikijs
+name: LinuxServer-Wikijs
 services:
   app:
     image: linuxserver/wikijs:2.5.298
@@ -73,11 +73,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/wikijs/'
   tagline:
-    en_us: A modern, lightweight and powerful wiki app built on NodeJS.
+    en_us: A Modern, Lightweight And Powerful Wiki App Built On Nodejs.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wikijs-logo.png
   thumbnail: https://static.requarks.io/logo/wikijs-full.svg
   title:
     en_us: Wikijs
+  category: LinuxServer.io
   port_map: '3000'

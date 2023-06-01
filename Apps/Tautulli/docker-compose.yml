@@ -1,4 +1,4 @@
-name: Tautulli
+name: LinuxServer-Tautulli
 services:
   app:
     image: linuxserver/tautulli:develop-version-ea6c6078
@@ -43,11 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/tautulli/'
   tagline:
-    en_us: A python based web application for monitoring, analytics and notifications for Plex Media Server.
+    en_us: A Python Based Web Application For Monitoring, Analytics And Notifications For Plex Media Server.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
   title:
     en_us: Tautulli
+  category: LinuxServer.io
   port_map: '8181'

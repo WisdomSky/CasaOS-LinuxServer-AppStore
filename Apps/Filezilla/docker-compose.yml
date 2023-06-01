@@ -1,4 +1,4 @@
-name: Filezilla
+name: LinuxServer-Filezilla
 services:
   app:
     image: linuxserver/filezilla:3.64.0
@@ -46,11 +46,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/filezilla/'
   tagline:
-    en_us: Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
+    en_us: Client Is A Fast And Reliable Cross-platform Ftp, Ftps And Sftp Client With Lots Of Useful Features And An Intuitive Graphical User Interface.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   title:
     en_us: Filezilla
+  category: LinuxServer.io
   port_map: '3000'

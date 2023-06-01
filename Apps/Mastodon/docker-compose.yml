@@ -1,4 +1,4 @@
-name: Mastodon
+name: LinuxServer-Mastodon
 services:
   app:
     image: linuxserver/mastodon:4.1.0-develop
@@ -170,12 +170,12 @@ x-casaos:
   description:
     en_us: Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
   tagline:
-    en_us: A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
+    en_us: A Free, Open-source Social Network Server Based On Activitypub Where Users Can Follow Friends And Discover New Ones..
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   title:
     en_us: Mastodon
-  category: Social
+  category: LinuxServer.io
   port_map: '80'

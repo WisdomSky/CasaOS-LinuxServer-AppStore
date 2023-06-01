@@ -1,4 +1,4 @@
-name: Fleet
+name: LinuxServer-Fleet
 services:
   app:
     image: linuxserver/fleet:2.3.3
@@ -55,11 +55,12 @@ x-casaos:
   description:
     en_us: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
   tagline:
-    en_us: Provides an online web interface which displays a set of maintained images from one or more owned repositories.
+    en_us: Provides An Online Web Interface Which Displays A Set Of Maintained Images From One Or More Owned Repositories.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
     en_us: Fleet
+  category: LinuxServer.io
   port_map: '8080'

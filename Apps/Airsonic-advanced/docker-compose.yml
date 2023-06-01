@@ -1,4 +1,4 @@
-name: Airsonic-advanced
+name: LinuxServer-Airsonic-advanced
 services:
   app:
     image: linuxserver/airsonic-advanced:11.0.0
@@ -75,12 +75,13 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/airsonic/'
   tagline:
-    en_us: A free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.
+    en_us: A Free, Web-based Media Streamer, Providing Ubiquitious Access To Your Music. Use It To Share Your Music With Friends, Or To Listen To Your Own Music While At Work. You Can Stream To Multiple Players Simultaneously, For Instance To One Player In Your Kitchen And Another In Your Living Room.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png
   title:
-    en_us: Airsonic-advanced
+    en_us: Airsonic Advanced
+  category: LinuxServer.io
   port_map: '4040'
   index: /airsonic

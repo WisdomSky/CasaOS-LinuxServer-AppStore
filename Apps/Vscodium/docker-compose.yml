@@ -1,4 +1,4 @@
-name: Vscodium
+name: LinuxServer-Vscodium
 services:
   app:
     image: linuxserver/vscodium:1.78.2
@@ -38,10 +38,11 @@ x-casaos:
   description:
     en_us: VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
   tagline:
-    en_us: A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+    en_us: A Community-driven, Freely-licensed Binary Distribution Of Microsoft’s Editor Vs Code.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   title:
     en_us: Vscodium
+  category: LinuxServer.io

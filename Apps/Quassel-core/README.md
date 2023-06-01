@@ -1,3 +1,5 @@
-# Quassel-core
+# Quassel Core
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/quassel-core/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/quassel-core

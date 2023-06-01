@@ -1,4 +1,4 @@
-name: Piwigo
+name: LinuxServer-Piwigo
 services:
   app:
     image: linuxserver/piwigo:13.7.0
@@ -38,11 +38,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/piwigo/'
   tagline:
-    en_us: A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    en_us: A Photo Gallery Software For The Web That Comes With Powerful Features To Publish And Manage Your Collection Of Pictures.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
   title:
     en_us: Piwigo
+  category: LinuxServer.io
   port_map: '80'

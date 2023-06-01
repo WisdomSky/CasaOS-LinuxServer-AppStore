@@ -1,4 +1,4 @@
-name: Transmission
+name: LinuxServer-Transmission
 services:
   app:
     image: linuxserver/transmission:4.0.3
@@ -71,11 +71,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/transmission/'
   tagline:
-    en_us: 'Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
+    en_us: 'Designed For Easy, Powerful Use. Transmission Has The Features You Want From A Bittorrent Client: Encryption, A Web Interface, Peer Exchange, Magnet Links, Dht, Μtp, Upnp And Nat-pmp Port Forwarding, Webseed Support, Watch Directories, Tracker Editing, Global And Per-torrent Speed Limits, And More.'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   title:
     en_us: Transmission
+  category: LinuxServer.io
   port_map: '9091'

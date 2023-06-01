@@ -1,4 +1,4 @@
-name: Requestrr
+name: LinuxServer-Requestrr
 services:
   app:
     image: linuxserver/requestrr:2.1.2
@@ -43,12 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/requestrr'
   tagline:
-    en_us: A chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.
+    en_us: A Chatbot Used To Simplify Using Services Like Sonarr/radarr/ombi Via The Use Of Chat.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/requestrr.png
   thumbnail: https://github.com/darkalfx/requestrr/raw/master/Logos/requestrr_discord_Icon_512.png
   title:
     en_us: Requestrr
-  category: Media
+  category: LinuxServer.io
   port_map: '4545'

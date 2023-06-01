@@ -1,4 +1,4 @@
-name: Lollypop
+name: LinuxServer-Lollypop
 services:
   app:
     image: linuxserver/lollypop:1.4.35
@@ -38,10 +38,11 @@ x-casaos:
   description:
     en_us: Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.
   tagline:
-    en_us: A lightweight modern music player designed to work excellently on the GNOME desktop environment.
+    en_us: A Lightweight Modern Music Player Designed To Work Excellently On The Gnome Desktop Environment.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   title:
     en_us: Lollypop
+  category: LinuxServer.io

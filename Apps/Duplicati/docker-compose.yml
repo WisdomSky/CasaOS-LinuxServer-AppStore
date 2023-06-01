@@ -1,4 +1,4 @@
-name: Duplicati
+name: LinuxServer-Duplicati
 services:
   app:
     image: linuxserver/duplicati:2.0.7-development
@@ -45,11 +45,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/duplicati/'
   tagline:
-    en_us: Works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others.
+    en_us: Works With Standard Protocols Like Ftp, Ssh, Webdav As Well As Popular Services Like Microsoft Onedrive, Amazon Cloud Drive & S3, Google Drive, Box.com, Mega, Hubic And Many Others.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png
   title:
     en_us: Duplicati
+  category: LinuxServer.io
   port_map: '8200'

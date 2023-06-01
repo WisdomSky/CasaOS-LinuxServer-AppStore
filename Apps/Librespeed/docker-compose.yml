@@ -1,4 +1,4 @@
-name: Librespeed
+name: LinuxServer-Librespeed
 services:
   app:
     image: linuxserver/librespeed:5.2.5
@@ -79,11 +79,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/librespeed/'
   tagline:
-    en_us: A very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
+    en_us: A Very Lightweight Speedtest Implemented In Javascript, Using Xmlhttprequest And Web Workers. No Flash, No Java, No Websocket, No Bullshit.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/librespeed-icon.png
   thumbnail: https://raw.githubusercontent.com/librespeed/speedtest/master/.logo/logo3.png
   title:
     en_us: Librespeed
+  category: LinuxServer.io
   port_map: '80'

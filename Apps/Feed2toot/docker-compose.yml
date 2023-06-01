@@ -1,4 +1,4 @@
-name: Feed2toot
+name: LinuxServer-Feed2toot
 services:
   app:
     image: linuxserver/feed2toot:0.17.20230528
@@ -35,10 +35,11 @@ x-casaos:
   description:
     en_us: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
   tagline:
-    en_us: Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
+    en_us: Automatically Parses Rss Feeds, Identifies New Posts And Posts Them On The Mastodon Social Network.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
   title:
     en_us: Feed2toot
+  category: LinuxServer.io

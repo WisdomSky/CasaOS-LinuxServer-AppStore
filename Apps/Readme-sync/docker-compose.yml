@@ -1,4 +1,4 @@
-name: Readme-sync
+name: LinuxServer-Readme-sync
 services:
   app:
     image: linuxserver/readme-sync:version-40c31d57
@@ -35,11 +35,12 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/readme-sync for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/readme-sync for details.
+    en_us: This Container Needs Special Attention. Please Check Https://hub.docker.com/r/linuxserver/readme-sync For Details.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: Readme-sync
+    en_us: Readme Sync
+  category: LinuxServer.io
   port_map: '80'

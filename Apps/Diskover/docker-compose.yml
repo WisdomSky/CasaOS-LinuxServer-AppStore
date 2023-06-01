@@ -1,4 +1,4 @@
-name: Diskover
+name: LinuxServer-Diskover
 services:
   app:
     image: linuxserver/diskover:2.1.0
@@ -65,12 +65,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/diskover'
   tagline:
-    en_us: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    en_us: An Open Source File System Indexer That Uses Elasticsearch To Index And Manage Data Across Heterogeneous Storage Systems.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/shirosaidev/diskover/master/docs/diskover.png
   thumbnail: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   title:
     en_us: Diskover
-  category: Productivity
+  category: LinuxServer.io
   port_map: '80'

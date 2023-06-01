@@ -1,3 +1,5 @@
 # Mariadb
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/mariadb/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/mariadb

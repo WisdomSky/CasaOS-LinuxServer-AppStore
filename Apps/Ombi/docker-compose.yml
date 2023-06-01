@@ -1,4 +1,4 @@
-name: Ombi
+name: LinuxServer-Ombi
 services:
   app:
     image: linuxserver/ombi:4.39.1
@@ -39,11 +39,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/ombi/'
   tagline:
-    en_us: Allows you to host your own Plex Request and user management system. If you are sharing your Plex server with other users, allow them to request new content using an easy to manage interface! Manage all your requests for Movies and TV with ease, leave notes for the user and get notification when a user requests something. Allow your users to post issues against their requests so you know there is a problem with the audio etc. Even automatically send them weekly newsletters of new content that has been added to your Plex server!
+    en_us: Allows You To Host Your Own Plex Request And User Management System. If You Are Sharing Your Plex Server With Other Users, Allow Them To Request New Content Using An Easy To Manage Interface! Manage All Your Requests For Movies And Tv With Ease, Leave Notes For The User And Get Notification When A User Requests Something. Allow Your Users To Post Issues Against Their Requests So You Know There Is A Problem With The Audio Etc. Even Automatically Send Them Weekly Newsletters Of New Content That Has Been Added To Your Plex Server!
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ombi.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ombi.png
   title:
     en_us: Ombi
+  category: LinuxServer.io
   port_map: '3579'

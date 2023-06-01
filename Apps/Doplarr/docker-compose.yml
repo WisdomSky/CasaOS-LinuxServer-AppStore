@@ -1,4 +1,4 @@
-name: Doplarr
+name: LinuxServer-Doplarr
 services:
   app:
     image: linuxserver/doplarr:3.6.2
@@ -103,10 +103,11 @@ x-casaos:
   description:
     en_us: Doplarr is an *arr request bot for Discord.'
   tagline:
-    en_us: An *arr request bot for Discord.'
+    en_us: An *arr Request Bot For Discord.'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
   title:
     en_us: Doplarr
+  category: LinuxServer.io

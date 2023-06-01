@@ -1,3 +1,7 @@
 # Endlessh
+
 ---
-Homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh
+
+**Homepage:** https://hub.docker.com/r/linuxserver/endlessh
+
+**WebUI Port:** `8080`

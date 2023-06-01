@@ -1,4 +1,4 @@
-name: Adguardhome-sync
+name: LinuxServer-Adguardhome-sync
 services:
   app:
     image: linuxserver/adguardhome-sync:0.4.14
@@ -47,11 +47,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/adguardhome-sync'
   tagline:
-    en_us: A tool to synchronize AdGuardHome config to replica instances.
+    en_us: A Tool To Synchronize Adguardhome Config To Replica Instances.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   title:
-    en_us: Adguardhome-sync
+    en_us: Adguardhome Sync
+  category: LinuxServer.io
   port_map: '8080'

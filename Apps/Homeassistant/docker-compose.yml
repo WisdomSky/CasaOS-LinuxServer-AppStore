@@ -1,4 +1,4 @@
-name: Homeassistant
+name: LinuxServer-Homeassistant
 services:
   app:
     image: linuxserver/homeassistant:2023.5.4
@@ -40,12 +40,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/homeassistant'
   tagline:
-    en_us: Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+    en_us: Open Source Home Automation That Puts Local Control And Privacy First. Powered By A Worldwide Community Of Tinkerers And Diy Enthusiasts. Perfect To Run On A Raspberry Pi Or A Local Server.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png
   thumbnail: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
   title:
     en_us: Homeassistant
-  category: Home Automation
+  category: LinuxServer.io
   port_map: '8123'

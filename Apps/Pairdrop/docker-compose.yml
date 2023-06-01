@@ -1,4 +1,4 @@
-name: Pairdrop
+name: LinuxServer-Pairdrop
 services:
   app:
     image: linuxserver/pairdrop:1.7.6
@@ -47,10 +47,11 @@ x-casaos:
   description:
     en_us: PairDrop is a sublime alternative to AirDrop that works on all platforms. Send images, documents or text via peer to peer connection to devices in the same local network/Wi-Fi or to paired devices.
   tagline:
-    en_us: A sublime alternative to AirDrop that works on all platforms. Send images, documents or text via peer to peer connection to devices in the same local network/Wi-Fi or to paired devices.
+    en_us: A Sublime Alternative To Airdrop That Works On All Platforms. Send Images, Documents Or Text Via Peer To Peer Connection To Devices In The Same Local Network/wi-fi Or To Paired Devices.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
   thumbnail: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
   title:
     en_us: Pairdrop
+  category: LinuxServer.io

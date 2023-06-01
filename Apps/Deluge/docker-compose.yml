@@ -1,4 +1,4 @@
-name: Deluge
+name: LinuxServer-Deluge
 services:
   app:
     image: linuxserver/deluge:2.1.1
@@ -48,12 +48,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/deluge/'
   tagline:
-    en_us: A lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more...
+    en_us: A Lightweight, Free Software, Cross-platform Bittorrent Client. * Full Encryption * Webui * Plugin System * Much More...
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-icon.png
   thumbnail: https://avatars2.githubusercontent.com/u/6733935?v=3&s=200
   title:
     en_us: Deluge
-  category: File Management
+  category: LinuxServer.io
   port_map: '8112'

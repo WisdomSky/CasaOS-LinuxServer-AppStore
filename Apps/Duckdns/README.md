@@ -1,3 +1,5 @@
 # Duckdns
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/duckdns/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/duckdns

@@ -1,4 +1,4 @@
-name: Mariadb
+name: LinuxServer-Mariadb
 services:
   app:
     image: linuxserver/mariadb:10.11.3
@@ -55,10 +55,11 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mariadb/'
   tagline:
-    en_us: One of the most popular database servers. Made by the original developers of MySQL.
+    en_us: One Of The Most Popular Database Servers. Made By The Original Developers Of Mysql.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   title:
     en_us: Mariadb
+  category: LinuxServer.io

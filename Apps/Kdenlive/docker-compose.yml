@@ -1,4 +1,4 @@
-name: Kdenlive
+name: LinuxServer-Kdenlive
 services:
   app:
     image: linuxserver/kdenlive:421.12.3
@@ -42,10 +42,11 @@ x-casaos:
   description:
     en_us: Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
   tagline:
-    en_us: A powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
+    en_us: A Powerful Free And Open Source Cross-platform Video Editing Program Made By The Kde Community. Feature Rich And Production Ready.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   title:
     en_us: Kdenlive
+  category: LinuxServer.io

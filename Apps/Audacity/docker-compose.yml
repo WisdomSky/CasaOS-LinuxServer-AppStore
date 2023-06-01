@@ -1,4 +1,4 @@
-name: Audacity
+name: LinuxServer-Audacity
 services:
   app:
     image: linuxserver/audacity:3.3.2
@@ -46,11 +46,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/audacity'
   tagline:
-    en_us: An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+    en_us: An Easy-to-use, Multi-track Audio Editor And Recorder. Developed By A Group Of Volunteers As Open Source.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   title:
     en_us: Audacity
+  category: LinuxServer.io
   port_map: '3000'

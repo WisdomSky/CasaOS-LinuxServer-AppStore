@@ -1,4 +1,4 @@
-name: Digikam
+name: LinuxServer-Digikam
 services:
   app:
     image: linuxserver/digikam:version-2023-04-21
@@ -50,12 +50,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/digikam/'
   tagline:
-    en_us: 'digiKam: Professional Photo Management with the Power of Open Source'
+    en_us: 'digikam: Professional Photo Management With The Power Of Open Source'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   title:
     en_us: Digikam
-  category: Photography
+  category: LinuxServer.io
   port_map: '3000'

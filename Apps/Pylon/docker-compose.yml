@@ -1,4 +1,4 @@
-name: Pylon
+name: LinuxServer-Pylon
 services:
   app:
     image: linuxserver/pylon:2.9.0
@@ -58,11 +58,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/pylon/'
   tagline:
-    en_us: A web based integrated development environment built with Node.js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project.
+    en_us: A Web Based Integrated Development Environment Built With Node.js As A Backend And With A Supercharged Javascript/html5 Frontend, Licensed Under Gpl Version 3. This Project Originates From Cloud9 V2 Project.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9-logo.png
   thumbnail: https://raw.githubusercontent.com/pylonide/pylon/master/doc/screenshot02.png
   title:
     en_us: Pylon
+  category: LinuxServer.io
   port_map: '3131'

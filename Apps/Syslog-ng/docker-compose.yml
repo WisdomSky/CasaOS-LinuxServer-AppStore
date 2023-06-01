@@ -1,4 +1,4 @@
-name: Syslog-ng
+name: LinuxServer-Syslog-ng
 services:
   app:
     image: linuxserver/syslog-ng:3.38.1
@@ -44,11 +44,11 @@ x-casaos:
   description:
     en_us: syslog-ng allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
   tagline:
-    en_us: Allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+    en_us: Allows You To Flexibly Collect, Parse, Classify, Rewrite And Correlate Logs From Across Your Infrastructure And Store Or Route Them To Log Analysis Tools.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
   title:
-    en_us: Syslog-ng
-  category: System Tools
+    en_us: Syslog Ng
+  category: LinuxServer.io

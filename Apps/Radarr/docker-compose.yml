@@ -1,4 +1,4 @@
-name: Radarr
+name: LinuxServer-Radarr
 services:
   app:
     image: linuxserver/radarr:4.6.0-nightly
@@ -41,11 +41,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/radarr/'
   tagline:
-    en_us: A fork of Sonarr to work with movies à la Couchpotato.
+    en_us: A Fork Of Sonarr To Work With Movies À La Couchpotato.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png
   title:
     en_us: Radarr
+  category: LinuxServer.io
   port_map: '7878'

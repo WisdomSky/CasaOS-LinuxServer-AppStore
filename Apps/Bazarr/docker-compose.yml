@@ -1,4 +1,4 @@
-name: Bazarr
+name: LinuxServer-Bazarr
 services:
   app:
     image: linuxserver/bazarr:1.2.1
@@ -55,12 +55,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/bazarr/'
   tagline:
-    en_us: A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
+    en_us: A Companion Application To Sonarr And Radarr. It Can Manage And Download Subtitles Based On Your Requirements. You Define Your Preferences By Tv Show Or Movie And Bazarr Takes Care Of Everything For You.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
   title:
     en_us: Bazarr
-  category: Media
+  category: LinuxServer.io
   port_map: '6767'

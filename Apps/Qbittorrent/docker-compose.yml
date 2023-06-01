@@ -1,4 +1,4 @@
-name: Qbittorrent
+name: LinuxServer-Qbittorrent
 services:
   app:
     image: linuxserver/qbittorrent:4.5.3
@@ -48,11 +48,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/qbittorrent/'
   tagline:
-    en_us: The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.
+    en_us: The qbittorrent Project Aims To Provide An Open-source Software Alternative To Μtorrent. Qbittorrent Is Based On The Qt Toolkit And Libtorrent-rasterbar Library.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   title:
     en_us: Qbittorrent
+  category: LinuxServer.io
   port_map: '8080'

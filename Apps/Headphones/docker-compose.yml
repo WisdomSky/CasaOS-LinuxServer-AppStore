@@ -1,4 +1,4 @@
-name: Headphones
+name: LinuxServer-Headphones
 services:
   app:
     image: linuxserver/headphones:version-a78f38c1
@@ -41,11 +41,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/headphones/'
   tagline:
-    en_us: An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.
+    en_us: An Automated Music Downloader For Nzb And Torrent, Written In Python. It Supports Sabnzbd, Nzbget, Transmission, Μtorrent And Blackhole.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-banner.png
   title:
     en_us: Headphones
+  category: LinuxServer.io
   port_map: '8181'

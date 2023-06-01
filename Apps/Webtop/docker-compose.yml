@@ -1,4 +1,4 @@
-name: Webtop
+name: LinuxServer-Webtop
 services:
   app:
     image: linuxserver/webtop:ubuntu-xfce-version-d6e208a8
@@ -57,12 +57,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/webtop/'
   tagline:
-    en_us: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
+    en_us: Alpine, Ubuntu, Fedora, And Arch Based Containers Containing Full Desktop Environments In Officially Supported Flavors Accessible Via Any Modern Web Browser.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
   title:
     en_us: Webtop
-  category: Utilities
+  category: LinuxServer.io
   port_map: '3000'

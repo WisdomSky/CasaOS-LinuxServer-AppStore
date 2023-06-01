@@ -1,3 +1,5 @@
 # Minetest
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/minetest/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/minetest

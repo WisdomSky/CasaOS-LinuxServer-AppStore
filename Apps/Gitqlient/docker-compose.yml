@@ -1,4 +1,4 @@
-name: Gitqlient
+name: LinuxServer-Gitqlient
 services:
   app:
     image: linuxserver/gitqlient:1.6.1
@@ -38,10 +38,11 @@ x-casaos:
   description:
     en_us: GitQlient is a multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
   tagline:
-    en_us: A multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
+    en_us: A Multi-platform Git Client Originally Forked From Qgit. Nowadays It Goes Beyond Of Just A Fork And Adds A Lot Of New Functionality.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gitqlient-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gitqlient-icon.png
   title:
     en_us: Gitqlient
+  category: LinuxServer.io

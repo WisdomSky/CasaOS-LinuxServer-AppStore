@@ -1,4 +1,4 @@
-name: Dillinger
+name: LinuxServer-Dillinger
 services:
   app:
     image: linuxserver/dillinger:3.39.1
@@ -43,12 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/dillinger/'
   tagline:
-    en_us: A cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+    en_us: A Cloud-enabled, Mobile-ready, Offline-storage, Angularjs Powered Html5 Markdown Editor.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
   title:
     en_us: Dillinger
-  category: Development
+  category: LinuxServer.io
   port_map: '8080'

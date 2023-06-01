@@ -1,4 +1,4 @@
-name: Ci
+name: LinuxServer-Ci
 services:
   app:
     image: linuxserver/ci:version-da63cc62
@@ -35,11 +35,12 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci for details.
+    en_us: This Container Needs Special Attention. Please Check Https://hub.docker.com/r/linuxserver/ci For Details.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
     en_us: Ci
+  category: LinuxServer.io
   port_map: '80'

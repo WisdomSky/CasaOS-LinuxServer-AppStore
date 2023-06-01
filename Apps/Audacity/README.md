@@ -1,3 +1,7 @@
 # Audacity
+
 ---
-Homepage: https://github.com/orgs/linuxserver/packages/container/package/audacity
+
+**Homepage:** https://hub.docker.com/r/linuxserver/audacity
+
+**WebUI Port:** `3000`

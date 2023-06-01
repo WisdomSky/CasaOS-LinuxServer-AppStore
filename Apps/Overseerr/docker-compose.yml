@@ -1,4 +1,4 @@
-name: Overseerr
+name: LinuxServer-Overseerr
 services:
   app:
     image: linuxserver/overseerr:develop-version-df332cec84f31e7a5152d9ad80f3f7839c0f3329
@@ -43,12 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/overseerr'
   tagline:
-    en_us: A request management and media discovery tool built to work with your existing Plex ecosystem.
+    en_us: A Request Management And Media Discovery Tool Built To Work With Your Existing Plex Ecosystem.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
   title:
     en_us: Overseerr
-  category: Media
+  category: LinuxServer.io
   port_map: '5055'

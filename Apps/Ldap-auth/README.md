@@ -1,3 +1,5 @@
-# Ldap-auth
+# Ldap Auth
+
 ---
-Homepage: https://hub.docker.com/r/linuxserver/ldap-auth/
+
+**Homepage:** https://hub.docker.com/r/linuxserver/ldap-auth

@@ -1,7 +1,7 @@
-name: Jenkins-builder
+name: LinuxServer-Jenkins-builder
 services:
   app:
-    image: linuxserver/jenkins-builder:version-ec6ef8c9
+    image: linuxserver/jenkins-builder:version-5f7cc21c
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -35,11 +35,12 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
+    en_us: This Container Needs Special Attention. Please Check Https://hub.docker.com/r/linuxserver/jenkins-builder For Details.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: Jenkins-builder
+    en_us: Jenkins Builder
+  category: LinuxServer.io
   port_map: '80'

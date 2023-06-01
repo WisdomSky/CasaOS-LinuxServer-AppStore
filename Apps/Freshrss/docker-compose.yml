@@ -1,4 +1,4 @@
-name: Freshrss
+name: LinuxServer-Freshrss
 services:
   app:
     image: linuxserver/freshrss:1.21.0
@@ -35,11 +35,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/freshrss/'
   tagline:
-    en_us: A free, self-hostable aggregator for rss feeds.
+    en_us: A Free, Self-hostable Aggregator For Rss Feeds.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-banner.png
   title:
     en_us: Freshrss
+  category: LinuxServer.io
   port_map: '80'

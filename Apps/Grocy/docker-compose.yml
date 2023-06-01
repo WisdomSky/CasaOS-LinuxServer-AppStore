@@ -1,4 +1,4 @@
-name: Grocy
+name: LinuxServer-Grocy
 services:
   app:
     image: linuxserver/grocy:3.3.2
@@ -43,11 +43,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/grocy/'
   tagline:
-    en_us: 'An ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy.info'
+    en_us: 'An Erp System For Your Kitchen! Cut Down On Food Waste, And Manage Your Chores With This Brilliant Utility. Keep Track Of Your Purchases, How Much Food You Are Wasting, What Chores Need Doing And What Batteries Need Charging With This Proudly Open Source Tool For More Information On Grocy Visit Their Website And Check It Out: Https://grocy.info'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-icon.png
   thumbnail: https://grocy.info/img/grocy_logo.svg
   title:
     en_us: Grocy
+  category: LinuxServer.io
   port_map: '80'

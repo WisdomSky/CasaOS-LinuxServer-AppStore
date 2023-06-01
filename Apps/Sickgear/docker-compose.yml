@@ -1,4 +1,4 @@
-name: Sickgear
+name: LinuxServer-Sickgear
 services:
   app:
     image: linuxserver/sickgear:develop-version-c88b808a
@@ -55,11 +55,12 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sickgear/'
   tagline:
-    en_us: 'Provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear'
+    en_us: 'Provides Management Of Tv Shows And/or Anime, It Detects New Episodes, Links Downloader Apps, And More.. For More Information On Sickgear Visit Their Website And Check It Out: Https://github.com/sickgear/sickgear'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickgear-logo.png
   thumbnail: https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png
   title:
     en_us: Sickgear
+  category: LinuxServer.io
   port_map: '8081'
