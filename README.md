@@ -173,7 +173,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 ---
 ## Additional Information
 
-📝 The LinuxServer Appstore will automatically update the list once every day.  
+📝 The LinuxServer Appstore automatically updates the list every 24 hours. 
 
 ---
 
