@@ -1,7 +1,7 @@
 name: Netbox
 services:
   app:
-    image: linuxserver/netbox@sha256:7b5d29c8c8a16fcdbe99643011aaa57694bc4fb5225e2bdbef87bddd3e5fc123
+    image: linuxserver/netbox:3.5.2
     restart: unless-stopped
     environment:
       PUID: $PUID

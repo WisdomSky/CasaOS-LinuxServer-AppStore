@@ -1,7 +1,7 @@
 name: Lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian@sha256:30dff28126346f3d094328ad9581cabd833968e98a7ef8d67268ce2b9d0a31a3
+    image: linuxserver/lazylibrarian:version-946f20f1
     restart: unless-stopped
     environment:
       PUID: $PUID

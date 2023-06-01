@@ -1,7 +1,7 @@
 name: Libreoffice
 services:
   app:
-    image: linuxserver/libreoffice@sha256:7afaef6450316e3545dd96be9b793f0ff181b0049943eabe0f9f003ca6cee369
+    image: linuxserver/libreoffice:7.5.3
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: Snapdrop
 services:
   app:
-    image: linuxserver/snapdrop@sha256:089f7c0c74d3517a6b2b1a9129a83fce6b670c34ad7953be38c9230fac516b63
+    image: linuxserver/snapdrop:version-eac78009
     restart: unless-stopped
     environment:
       PUID: $PUID

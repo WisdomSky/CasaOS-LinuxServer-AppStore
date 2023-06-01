@@ -1,7 +1,7 @@
 name: Doublecommander
 services:
   app:
-    image: linuxserver/doublecommander@sha256:d20560ff19a867c7e799260aff1f68cc988775aac4c9dc6b0c8c6be55bb6515a
+    image: linuxserver/doublecommander:version-0ad61135
     restart: unless-stopped
     environment:
       PUID: $PUID

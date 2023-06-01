@@ -1,7 +1,7 @@
 name: Oscam
 services:
   app:
-    image: linuxserver/oscam@sha256:f5e8dbece49cf1a74887c2478cd82b62f065d9be8d31c54503f366d0ec4a234c
+    image: linuxserver/oscam:version-11718
     restart: unless-stopped
     environment:
       PUID: $PUID

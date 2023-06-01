@@ -1,7 +1,7 @@
 name: Rdesktop
 services:
   app:
-    image: linuxserver/rdesktop@sha256:91fac35d354ef1aa5ced11dba6bbcb1fb856bb4033d3beb793c3870c097df7fc
+    image: linuxserver/rdesktop:ubuntu-mate-version-5145e1b9
     restart: unless-stopped
     environment:
       PUID: $PUID

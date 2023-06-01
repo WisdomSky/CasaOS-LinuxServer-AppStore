@@ -1,7 +1,7 @@
 name: Embystat
 services:
   app:
-    image: linuxserver/embystat@sha256:79ae09c1c4f00ed19f58ab8d35617bc13c6cd26a5a3ee455bc22670e6f8d8ef5
+    image: linuxserver/embystat:0.2.0
     restart: unless-stopped
     environment:
       PUID: $PUID

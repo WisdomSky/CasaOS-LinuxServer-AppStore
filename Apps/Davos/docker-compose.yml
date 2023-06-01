@@ -1,7 +1,7 @@
 name: Davos
 services:
   app:
-    image: linuxserver/davos@sha256:7c6846adb8788ace15ee5477774f386611ac827411caef2c10480262a6967848
+    image: linuxserver/davos:2.2.2
     restart: unless-stopped
     environment:
       PUID: $PUID

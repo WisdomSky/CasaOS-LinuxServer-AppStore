@@ -1,7 +1,7 @@
 name: Minetest
 services:
   app:
-    image: linuxserver/minetest@sha256:5621e85952059ca31d88e7198cd07094143d89b0e431226580ca630b054de945
+    image: linuxserver/minetest:5.7.0
     restart: unless-stopped
     environment:
       PUID: $PUID

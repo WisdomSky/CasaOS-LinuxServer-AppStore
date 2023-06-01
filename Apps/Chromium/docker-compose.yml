@@ -1,7 +1,7 @@
 name: Chromium
 services:
   app:
-    image: linuxserver/chromium@sha256:c67a966215985c8a15e19c9cc8a7f0a0ee192bdae94cb06abe72b331c55c1b6e
+    image: linuxserver/chromium:version-c836addb
     restart: unless-stopped
     environment:
       PUID: $PUID

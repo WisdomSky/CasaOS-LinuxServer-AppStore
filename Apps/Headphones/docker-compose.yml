@@ -1,7 +1,7 @@
 name: Headphones
 services:
   app:
-    image: linuxserver/headphones@sha256:10d55a2413283a3a1f7c1909fcd0159999bc93c4b686a3fe9a99c6d74e6cc8e6
+    image: linuxserver/headphones:version-a78f38c1
     restart: unless-stopped
     environment:
       PUID: $PUID

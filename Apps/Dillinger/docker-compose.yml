@@ -1,7 +1,7 @@
 name: Dillinger
 services:
   app:
-    image: linuxserver/dillinger@sha256:76c333c0577519d91e71f1caec3ff8e2c4f2c835cfbeb33279718aaadf953a81
+    image: linuxserver/dillinger:3.39.1
     restart: unless-stopped
     environment:
       PUID: $PUID

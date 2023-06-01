@@ -1,7 +1,7 @@
 name: Htpcmanager
 services:
   app:
-    image: linuxserver/htpcmanager@sha256:667e6875e192145c555f4721d205b5d53e9ad89cce4259ef4531b867be55b428
+    image: linuxserver/htpcmanager:version-1614d863
     restart: unless-stopped
     environment:
       PUID: $PUID

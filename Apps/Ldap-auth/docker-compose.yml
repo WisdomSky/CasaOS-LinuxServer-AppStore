@@ -1,7 +1,7 @@
 name: Ldap-auth
 services:
   app:
-    image: linuxserver/ldap-auth@sha256:8a24482410d670ce174e7d5fde928e2563bef4faea4bd93c58dd754ff7831368
+    image: linuxserver/ldap-auth:3.4.3
     restart: unless-stopped
     environment:
       FERNETKEY: ''

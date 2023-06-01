@@ -1,7 +1,7 @@
 name: Github-desktop
 services:
   app:
-    image: linuxserver/github-desktop@sha256:7f8b02d368fda87403e77debf2e07881c973df1fd4c7e206660b027f0a51354e
+    image: linuxserver/github-desktop:3.2.1
     restart: unless-stopped
     environment:
       PUID: $PUID

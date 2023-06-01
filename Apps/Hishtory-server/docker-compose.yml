@@ -1,7 +1,7 @@
 name: Hishtory-server
 services:
   app:
-    image: linuxserver/hishtory-server@sha256:9e55c3ac17de15e98a73c3d631168fec449439a8d2c45f75c77bd3fa148e3d69
+    image: linuxserver/hishtory-server:0.208.20230526
     restart: unless-stopped
     environment:
       PUID: $PUID

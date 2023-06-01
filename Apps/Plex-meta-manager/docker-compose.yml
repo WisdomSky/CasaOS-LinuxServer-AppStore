@@ -1,7 +1,7 @@
 name: Plex-meta-manager
 services:
   app:
-    image: linuxserver/plex-meta-manager@sha256:3bb26f5d34e41ae158a473bb72ad4ad687fa9d0a43bf35b12eb3291f82a99d7d
+    image: linuxserver/plex-meta-manager:1.19.0
     restart: unless-stopped
     environment:
       PUID: $PUID

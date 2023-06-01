@@ -1,7 +1,7 @@
 name: Nntp2nntp
 services:
   app:
-    image: linuxserver/nntp2nntp@sha256:4b47a4ffa93cecd0ce468cafa1132eb7169afd475f34a36f20c9adfeb86175ea
+    image: linuxserver/nntp2nntp:0.3.20221013
     restart: unless-stopped
     environment:
       PUID: $PUID

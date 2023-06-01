@@ -1,7 +1,7 @@
 name: Blender
 services:
   app:
-    image: linuxserver/blender@sha256:e5d27b15858abe1985a8969b66acb5e9ad482862e666234a4aa637bec8a7be69
+    image: linuxserver/blender:3.5.1
     restart: unless-stopped
     environment:
       PUID: $PUID

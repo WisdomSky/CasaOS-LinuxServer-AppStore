@@ -1,7 +1,7 @@
 name: Webtop
 services:
   app:
-    image: linuxserver/webtop@sha256:73ff5caed8c7822cc27e60e5972bc51ec677548628335b413a7ccf5df05f4ce1
+    image: linuxserver/webtop:ubuntu-xfce-version-d6e208a8
     restart: unless-stopped
     environment:
       PUID: $PUID

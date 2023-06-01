@@ -1,7 +1,7 @@
 name: Quassel-core
 services:
   app:
-    image: linuxserver/quassel-core@sha256:ba0a2795d73d68ba8bab400662216695d3a5a2895dde3d5728f2a08d3a736157
+    image: linuxserver/quassel-core:0.14.0
     restart: unless-stopped
     environment:
       PUID: $PUID

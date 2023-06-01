@@ -1,7 +1,7 @@
 name: Radarr
 services:
   app:
-    image: linuxserver/radarr@sha256:8271e9a95379c05a293fd428de0c617fddde124e3ec460b705660fb1cd4a92b3
+    image: linuxserver/radarr:4.6.0-nightly
     restart: unless-stopped
     environment:
       PUID: $PUID

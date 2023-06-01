@@ -1,7 +1,7 @@
 name: Requestrr
 services:
   app:
-    image: linuxserver/requestrr@undefined
+    image: linuxserver/requestrr:2.1.2
     restart: unless-stopped
     environment:
       PUID: $PUID

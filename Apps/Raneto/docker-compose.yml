@@ -1,7 +1,7 @@
 name: Raneto
 services:
   app:
-    image: linuxserver/raneto@sha256:029f5b3cb26cc3cee49723d9fdf271175d436dd05904f8d6dc2785de7667ca1a
+    image: linuxserver/raneto:0.17.3
     restart: unless-stopped
     environment:
       PUID: $PUID

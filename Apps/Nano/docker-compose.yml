@@ -1,7 +1,7 @@
 name: Nano
 services:
   app:
-    image: linuxserver/nano@undefined
+    image: linuxserver/nano:21.2.20220522
     restart: unless-stopped
     environment:
       PUID: $PUID

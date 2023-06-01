@@ -1,7 +1,7 @@
 name: Emulatorjs
 services:
   app:
-    image: linuxserver/emulatorjs@sha256:f72ae86c37fafaa87c61b09e30bb493b60a395a993e2f84fe3e47d050a2bd87a
+    image: linuxserver/emulatorjs:1.7.2
     restart: unless-stopped
     environment:
       PUID: $PUID

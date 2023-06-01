@@ -1,7 +1,7 @@
 name: Tester
 services:
   app:
-    image: linuxserver/tester@sha256:976ed6115060a646cf9e427b003d048d1a5aecfa4ded89b9bb7a2d5a5db9e839
+    image: linuxserver/tester:version-66f677b0
     restart: unless-stopped
     environment:
       URL: ''

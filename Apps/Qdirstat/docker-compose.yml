@@ -1,7 +1,7 @@
 name: Qdirstat
 services:
   app:
-    image: linuxserver/qdirstat@sha256:b619536a49bb8256689f40757c8c83e7626ee686ac61e11868b3af1a1972dab2
+    image: linuxserver/qdirstat:1.8.1
     restart: unless-stopped
     environment:
       PUID: $PUID

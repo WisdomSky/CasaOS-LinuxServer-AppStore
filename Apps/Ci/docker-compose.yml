@@ -1,7 +1,7 @@
 name: Ci
 services:
   app:
-    image: linuxserver/ci@sha256:7a6779980748db6b9d36550255391ee673ba9c57f00149d8a67826780220d62f
+    image: linuxserver/ci:version-da63cc62
     restart: unless-stopped
     environment:
       PUID: $PUID

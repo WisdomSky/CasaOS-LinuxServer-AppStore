@@ -1,7 +1,7 @@
 name: Minisatip
 services:
   app:
-    image: linuxserver/minisatip@sha256:44e05a31ca41ca69f4a7ae40613a1ee539a142bff5452c0bf7591138fd1a98c1
+    image: linuxserver/minisatip:arm64v8-version-964dd4ab
     restart: unless-stopped
     environment:
       PUID: $PUID

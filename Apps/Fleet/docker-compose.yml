@@ -1,7 +1,7 @@
 name: Fleet
 services:
   app:
-    image: linuxserver/fleet@sha256:ad2ef90a4305b46451132f1754963868826ac37c06c17f3f7b1821824a9e48e6
+    image: linuxserver/fleet:2.3.3
     restart: unless-stopped
     environment:
       PUID: $PUID

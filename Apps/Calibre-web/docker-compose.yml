@@ -1,7 +1,7 @@
 name: Calibre-web
 services:
   app:
-    image: linuxserver/calibre-web@sha256:1b85184cdf81bcf64ac04e806176dac12ff535c461ee61cfecb1a9cc3984f186
+    image: linuxserver/calibre-web:nightly-version-33e35eeb
     restart: unless-stopped
     environment:
       PUID: $PUID
