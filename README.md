@@ -93,7 +93,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Mastodon](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mastodon) v4.1.0-develop
 * [Medusa](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Medusa) v1.0.16
 * [Minetest](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minetest) v5.7.0
-* [Minisatip](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minisatip) varm64v8-version-964dd4ab
+* [Minisatip](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minisatip) vversion-964dd4ab
 * [Mstream](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mstream) v5.11.4
 * [Mullvad-browser](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mullvad-browser) v12.0.6
 * [Mylar3](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mylar3) vnightly-version-f1fa8952
