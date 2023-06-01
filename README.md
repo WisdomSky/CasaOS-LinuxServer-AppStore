@@ -171,6 +171,12 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 
 
 ---
+
+## Acknowledgements
+* [technorabilia](https://github.com/technorabilia/portainer-templates/)
+
+---
+
 ## Additional Information
 
 📝 The LinuxServer Appstore automatically updates the list every 24 hours.  
