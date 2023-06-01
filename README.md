@@ -52,7 +52,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) vversion-0ad61135
 * [Duckdns](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duckdns) vversion-ed8cf37d
 * [Duplicati](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duplicati) v2.0.7-development
-* [Emby](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emby) v4.7.12
+* [Emby](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emby) v4.7.13
 * [Embystat](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Embystat) v0.2.0
 * [Emulatorjs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emulatorjs) v1.7.2
 * [Endlessh](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Endlessh) vversion-dfe44eb2
