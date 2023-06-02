@@ -1,7 +1,7 @@
 name: LinuxServer-Rdesktop
 services:
   app:
-    image: linuxserver/rdesktop:ubuntu-mate-version-5145e1b9
+    image: linuxserver/rdesktop:arch-xfce-version-2023-06-02
     restart: unless-stopped
     environment:
       PUID: $PUID
