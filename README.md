@@ -23,7 +23,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Apprise-api](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Apprise-api) 0.9.2
 * [Audacity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Audacity) 3.3.2
 * [Babybuddy](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Babybuddy) 1.16.0
-* [Bazarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bazarr) 1.2.1
+* [Bazarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bazarr) 1.2.2-development
 * [Beets](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Beets) 1.6.0
 * [Blender](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Blender) 3.5.1
 * [Boinc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Boinc) 7.20.5
@@ -51,7 +51,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Doplarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doplarr) 3.6.2
 * [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) version-0ad61135
 * [Duckdns](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duckdns) version-ed8cf37d
-* [Duplicati](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duplicati) 2.0.7-development
+* [Duplicati](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duplicati) 2.0.7
 * [Emby](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emby) 4.8.0-beta
 * [Embystat](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Embystat) 0.2.0
 * [Emulatorjs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emulatorjs) 1.7.2
@@ -76,7 +76,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230602
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.5.4
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.97
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.114
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) nightly-version-20230530.6-unstable
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-5f7cc21c
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0-develop
@@ -107,9 +107,9 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Ngircd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ngircd) version-26.1-r3
 * [Nntp2nntp](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nntp2nntp) 0.3.20221013
 * [Nzbhydra2](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nzbhydra2) 5.1.8
-* [Ombi](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ombi) 4.39.1
+* [Ombi](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ombi) 4.42.0-development
 * [Openssh-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openssh-server) version-9.1_p1-r3
-* [Openvscode-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openvscode-server) 1.80.0-insiders
+* [Openvscode-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openvscode-server) 1.78.2
 * [Opera](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Opera) 99.0.4788
 * [Oscam](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Oscam) version-11718
 * [Overseerr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Overseerr) develop-version-df332cec84f31e7a5152d9ad80f3f7839c0f3329
@@ -137,13 +137,13 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Requestrr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Requestrr) 2.1.2
 * [Resilio-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Resilio-sync) 2.7.3
 * [Rsnapshot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rsnapshot) 1.4.5
-* [Sabnzbd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sabnzbd) nightly-version-decfb2c1
+* [Sabnzbd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sabnzbd) nightly-version-07283ba9
 * [Sickchill](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sickchill) 2023.5.30
 * [Sickgear](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sickgear) 3.29.3
 * [Smokeping](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Smokeping) 2.8.2
 * [Snapdrop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Snapdrop) version-eac78009
 * [Snipe-it](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Snipe-it) 6.1.0
-* [Sonarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sonarr) 4.0.0-develop
+* [Sonarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sonarr) 3.0.10
 * [Sqlitebrowser](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sqlitebrowser) 3.12.2
 * [Swag](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Swag) 2.6.0
 * [Synclounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Synclounge) 5.2.5

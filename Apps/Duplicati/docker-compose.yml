@@ -1,7 +1,7 @@
 name: LinuxServer-Duplicati
 services:
   app:
-    image: linuxserver/duplicati:2.0.7-development
+    image: linuxserver/duplicati:2.0.7
     restart: unless-stopped
     environment:
       PUID: $PUID

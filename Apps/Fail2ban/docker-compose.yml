@@ -7,6 +7,7 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      VERBOSITY: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +19,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: VERBOSITY
+          description:
+            en_us: Set the container log verbosity. Valid options are -v, -vv, -vvv, -vvvv, or leaving the value blank or not setting the variable.
     ports:
       - target: 80
         published: 80
