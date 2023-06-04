@@ -24,7 +24,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Audacity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Audacity) 3.3.2
 * [Babybuddy](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Babybuddy) 1.16.0
 * [Bazarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bazarr) 1.2.2-development
-* [Beets](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Beets) 1.6.0
+* [Beets](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Beets) nightly-version-63587f69
 * [Blender](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Blender) 3.5.1
 * [Boinc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Boinc) 7.20.5
 * [Booksonic-air](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Booksonic-air) 2201.1.0
@@ -32,7 +32,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Budge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Budge) 0.0.9
 * [Build-agent](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Build-agent) version-7abe007b
 * [Calibre](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre) 6.19.1
-* [Calibre-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre-web) nightly-version-33e35eeb
+* [Calibre-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre-web) 0.6.20
 * [Changedetection.io](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Changedetection.io) 0.42.2
 * [Chromium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Chromium) version-c836addb
 * [Ci](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ci) version-da63cc62
@@ -76,7 +76,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230602
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.5.4
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.114
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.128-development
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) nightly-version-20230530.6-unstable
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-5f7cc21c
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0-develop
@@ -107,7 +107,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Ngircd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ngircd) version-26.1-r3
 * [Nntp2nntp](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nntp2nntp) 0.3.20221013
 * [Nzbhydra2](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nzbhydra2) 5.1.8
-* [Ombi](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ombi) 4.42.0-development
+* [Ombi](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ombi) 4.39.1
 * [Openssh-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openssh-server) version-9.1_p1-r3
 * [Openvscode-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openvscode-server) 1.78.2
 * [Opera](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Opera) 99.0.4788
@@ -160,7 +160,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Webcord](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webcord) 4.2.0
 * [Webgrabplus](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webgrabplus) 5.0.1
 * [Webtop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webtop) ubuntu-xfce-version-d6e208a8
-* [Wikijs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wikijs) 2.5.298
+* [Wikijs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wikijs) 2.5.299
 * [Wireguard](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireguard) 1.0.20210914-legacy
 * [Wireshark](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireshark) 4.0.6
 * [Wps-office](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wps-office) version-7ef9f681
