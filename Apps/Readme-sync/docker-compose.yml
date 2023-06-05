@@ -1,7 +1,7 @@
 name: LinuxServer-Readme-sync
 services:
   app:
-    image: linuxserver/readme-sync:version-40c31d57
+    image: linuxserver/readme-sync:version-90b0ec76
     restart: unless-stopped
     environment:
       PUID: $PUID
