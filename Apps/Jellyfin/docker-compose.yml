@@ -1,7 +1,7 @@
 name: LinuxServer-Jellyfin
 services:
   app:
-    image: linuxserver/jellyfin:nightly-version-20230530.6-unstable
+    image: linuxserver/jellyfin:10.8.10
     restart: unless-stopped
     environment:
       PUID: $PUID

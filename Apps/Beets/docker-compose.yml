@@ -1,7 +1,7 @@
 name: LinuxServer-Beets
 services:
   app:
-    image: linuxserver/beets:nightly-version-fc51a932
+    image: linuxserver/beets:nightly-version-0c3f428a
     restart: unless-stopped
     environment:
       PUID: $PUID
