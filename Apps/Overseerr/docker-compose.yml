@@ -1,7 +1,7 @@
 name: LinuxServer-Overseerr
 services:
   app:
-    image: linuxserver/overseerr:develop-version-df332cec84f31e7a5152d9ad80f3f7839c0f3329
+    image: linuxserver/overseerr:undefined
     restart: unless-stopped
     environment:
       PUID: $PUID
