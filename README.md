@@ -47,9 +47,9 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Dillinger](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Dillinger) 3.39.1
 * [Diskover](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Diskover) 2.1.0
 * [Dokuwiki](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Dokuwiki) version-2023-04-04a
-* [Domoticz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Domoticz) 2023.1.20230601
+* [Domoticz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Domoticz) 2023.1.20230608
 * [Doplarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doplarr) 3.6.2
-* [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) version-0ad61135
+* [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) version-9332f12d
 * [Duckdns](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duckdns) version-1ffe4e04
 * [Duplicati](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duplicati) 2.0.7
 * [Emby](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emby) 4.7.13
@@ -74,11 +74,11 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hedgedoc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hedgedoc) 1.9.8
 * [Heimdall](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Heimdall) 2.5.6
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230602
-* [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.5.4
+* [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.0
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.166
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.177
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
-* [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-5f7cc21c
+* [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-7738bc26
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
 * [Kdenlive](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kdenlive) 421.12.3
 * [Lazylibrarian](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Lazylibrarian) version-946f20f1
@@ -90,7 +90,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Lollypop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Lollypop) 1.4.35
 * [Lychee](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Lychee) 4.9.2
 * [Mariadb](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mariadb) 10.11.3
-* [Mastodon](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mastodon) glitch-version-d907e791
+* [Mastodon](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mastodon) 4.1.2
 * [Medusa](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Medusa) 1.0.16
 * [Minetest](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minetest) 5.7.0
 * [Minisatip](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minisatip) version-8d33e939
@@ -137,7 +137,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Requestrr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Requestrr) 2.1.2
 * [Resilio-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Resilio-sync) 2.7.3
 * [Rsnapshot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rsnapshot) 1.4.5
-* [Sabnzbd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sabnzbd) 4.0.1
+* [Sabnzbd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sabnzbd) 4.0.2
 * [Sickchill](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sickchill) 2023.5.30
 * [Sickgear](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sickgear) 3.29.4
 * [Smokeping](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Smokeping) 2.8.2
