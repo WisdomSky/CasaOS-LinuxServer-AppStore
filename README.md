@@ -5,16 +5,19 @@
 
 A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linuxserver.io/) images.
 
-## Requirements
-
-* CasaOS [0.4.4+](https://blog.casaos.io/blog/23.html)
 
 
-## Install AppStore
+## How to Install
 
+Run the following command to install the appstore:
 ```bash
 casaos-cli app-management register app-store https://paodayag.dev/linuxserver-appstore.zip
 ```
+
+> **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/23.html) and above. How to upgrade? [Click here](#how-to-upgrade-casaos)**
+
+
+
 
 ## Apps
 
@@ -35,7 +38,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Calibre-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre-web) 0.6.20
 * [Changedetection.io](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Changedetection.io) 0.42.2
 * [Chromium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Chromium) version-6edd71b2
-* [Ci](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ci) version-da63cc62
+* [Ci](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ci) version-fff183d3
 * [Code-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Code-server) 4.13.0
 * [Cops](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Cops) 1.1.3
 * [Daapd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Daapd) 28.6.20230607
@@ -81,7 +84,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-7738bc26
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
 * [Kdenlive](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kdenlive) 421.12.3
-* [Lazylibrarian](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Lazylibrarian) version-946f20f1
+* [Lazylibrarian](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Lazylibrarian) version-f066b525
 * [Ldap-auth](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ldap-auth) 3.4.3
 * [Libreoffice](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Libreoffice) 7.5.3
 * [Librespeed](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Librespeed) 5.2.5
@@ -120,7 +123,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Plex](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Plex) 1.32.3
 * [Plex-meta-manager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Plex-meta-manager) 1.19.0
 * [Projectsend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Projectsend) version-r1605
-* [Prowlarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Prowlarr) 1.6.0-nightly
+* [Prowlarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Prowlarr) 1.5.2
 * [Pwndrop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pwndrop) 1.0.1
 * [Pydio-cells](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pydio-cells) 4.2.1
 * [Pyload-ng](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pyload-ng) 0.5.0
@@ -174,6 +177,31 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 
 ## Acknowledgements
 * [technorabilia](https://github.com/technorabilia/portainer-templates/)
+
+---
+
+## Troubleshooting
+
+### How to Upgrade CasaOS
+
+Run the following command:
+
+    curl -fsSL https://get.casaos.io/update/v0.4.4-alpha | sudo bash
+
+
+### Error 404 Not Found when running the install command
+
+This could be cause by your CasaOS running on a port other than the default `port 80`. You need to add the `-u` flag at the end to tell command which port your CasaOS is running:
+
+```bash
+casaos-cli app-management register app-store https://paodayag.dev/linuxserver-appstore.zip -u "localhost:<my-casa-os-port>"
+```
+
+Replace `<my-casa-os-port>` with the port where your CasaOS is running. For example if my CasaOS is running on port 99:
+
+```bash
+casaos-cli app-management register app-store https://paodayag.dev/linuxserver-appstore.zip -u "localhost:99"
+```
 
 ---
 
