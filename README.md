@@ -24,7 +24,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Adguardhome-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Adguardhome-sync) 0.4.14
 * [Airsonic-advanced](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Airsonic-advanced) 11.0.0
 * [Apprise-api](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Apprise-api) 0.9.2
-* [Audacity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Audacity) 3.3.2
+* [Audacity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Audacity) 3.3.3
 * [Babybuddy](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Babybuddy) 1.16.0
 * [Bazarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bazarr) 1.2.1
 * [Beets](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Beets) 1.6.0
@@ -33,8 +33,8 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Booksonic-air](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Booksonic-air) 2201.1.0
 * [Bookstack](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bookstack) 23.05.2
 * [Budge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Budge) 0.0.9
-* [Build-agent](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Build-agent) version-7abe007b
-* [Calibre](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre) 6.19.1
+* [Build-agent](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Build-agent) version-3aae998b
+* [Calibre](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre) 6.20.0
 * [Calibre-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre-web) 0.6.20
 * [Changedetection.io](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Changedetection.io) 0.42.2
 * [Chromium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Chromium) version-6edd71b2
@@ -76,10 +76,10 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Healthchecks](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Healthchecks) 2.9.2
 * [Hedgedoc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hedgedoc) 1.9.8
 * [Heimdall](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Heimdall) 2.5.6
-* [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230602
-* [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.0
+* [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230609
+* [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.1
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.177
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.185
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-7738bc26
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -98,7 +98,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Minetest](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minetest) 5.7.0
 * [Minisatip](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minisatip) version-8d33e939
 * [Mstream](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mstream) 5.11.4
-* [Mullvad-browser](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mullvad-browser) 12.0.6
+* [Mullvad-browser](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mullvad-browser) 12.0.7
 * [Mylar3](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mylar3) 0.7.2
 * [Mysql-workbench](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mysql-workbench) 8.0.33
 * [Nano](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nano) 21.2.20220522
@@ -159,7 +159,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) version-18effa8a
 * [Ubooquity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ubooquity) 2.1.2
 * [Unifi-controller](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Unifi-controller) 7.4.156
-* [Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) 1.78.2
+* [Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) 1.79.0
 * [Webcord](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webcord) 4.2.0
 * [Webgrabplus](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webgrabplus) 5.0.1
 * [Webtop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webtop) fedora-kde-version-53948c9d
