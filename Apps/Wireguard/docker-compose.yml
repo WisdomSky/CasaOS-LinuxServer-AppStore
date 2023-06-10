@@ -1,7 +1,7 @@
 name: LinuxServer-Wireguard
 services:
   app:
-    image: linuxserver/wireguard:1.0.20210914-legacy
+    image: linuxserver/wireguard:1.0.20210914
     restart: unless-stopped
     environment:
       PUID: $PUID

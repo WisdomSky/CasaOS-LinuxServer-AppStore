@@ -60,7 +60,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Emulatorjs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emulatorjs) 1.7.2
 * [Endlessh](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Endlessh) version-dfe44eb2
 * [Fail2ban](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Fail2ban) 1.0.2
-* [Feed2toot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Feed2toot) 0.17.20230528
+* [Feed2toot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Feed2toot) 0.17.20230610
 * [Ffmpeg](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ffmpeg) 5.1.2
 * [Filezilla](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Filezilla) 3.64.0
 * [Firefox](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Firefox) 113.0.2
@@ -79,7 +79,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230609
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.1
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.185
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.186
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-7738bc26
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -134,7 +134,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Quassel-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Quassel-web) version-20880f2c
 * [Radarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Radarr) 4.5.2
 * [Raneto](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Raneto) 0.17.3
-* [Rdesktop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rdesktop) arch-kde-version-2023-06-02
+* [Rdesktop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rdesktop) arch-kde-version-2023-06-09
 * [Readme-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Readme-sync) version-90b0ec76
 * [Remmina](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Remmina) 1.4.2
 * [Requestrr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Requestrr) 2.1.2
@@ -154,9 +154,9 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Syslog-ng](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Syslog-ng) 3.38.1
 * [Tautulli](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tautulli) 2.12.4
 * [Tester](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tester) version-66f677b0
-* [Thelounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Thelounge) 4.4.1-next
+* [Thelounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Thelounge) 4.4.0
 * [Transmission](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Transmission) 4.0.3
-* [Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) version-18effa8a
+* [Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) version-9df7d2d6
 * [Ubooquity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ubooquity) 2.1.2
 * [Unifi-controller](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Unifi-controller) 7.4.156
 * [Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) 1.79.0
@@ -164,7 +164,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Webgrabplus](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webgrabplus) 5.0.1
 * [Webtop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webtop) fedora-kde-version-53948c9d
 * [Wikijs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wikijs) 2.5.299
-* [Wireguard](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireguard) 1.0.20210914-legacy
+* [Wireguard](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireguard) 1.0.20210914
 * [Wireshark](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireshark) 4.0.6
 * [Wps-office](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wps-office) version-b16da3c1
 * [Xbackbone](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Xbackbone) 3.6.3
