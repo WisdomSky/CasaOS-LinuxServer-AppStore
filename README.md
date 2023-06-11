@@ -79,7 +79,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230609
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.1
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.186
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.188
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-7738bc26
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -92,7 +92,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Limnoria](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Limnoria) 2023.5.27
 * [Lollypop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Lollypop) 1.4.35
 * [Lychee](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Lychee) 4.9.2
-* [Mariadb](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mariadb) 10.11.3
+* [Mariadb](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mariadb) 10.11.4
 * [Mastodon](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mastodon) 4.1.2
 * [Medusa](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Medusa) 1.0.16
 * [Minetest](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Minetest) 5.7.0
@@ -103,7 +103,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Mysql-workbench](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mysql-workbench) 8.0.33
 * [Nano](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nano) 21.2.20220522
 * [Nano-wallet](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nano-wallet) 1.3.2
-* [Netbootxyz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Netbootxyz) 0.6.7
+* [Netbootxyz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Netbootxyz) 0.6.8
 * [Netbox](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Netbox) 3.5.3
 * [Nextcloud](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nextcloud) 26.0.2
 * [Nginx](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nginx) 1.24.0
