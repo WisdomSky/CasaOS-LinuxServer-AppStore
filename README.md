@@ -37,7 +37,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Calibre](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre) 6.21.0
 * [Calibre-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Calibre-web) 0.6.20
 * [Changedetection.io](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Changedetection.io) 0.42.3
-* [Chromium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Chromium) version-6edd71b2
+* [Chromium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Chromium) version-725a62b9
 * [Ci](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ci) version-fff183d3
 * [Code-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Code-server) 4.13.0
 * [Cops](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Cops) 1.1.3
@@ -52,7 +52,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Dokuwiki](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Dokuwiki) version-2023-04-04a
 * [Domoticz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Domoticz) 2023.1.20230608
 * [Doplarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doplarr) 3.6.2
-* [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) version-9332f12d
+* [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) version-f9910c3a
 * [Duckdns](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duckdns) version-1ffe4e04
 * [Duplicati](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duplicati) 2.0.7
 * [Emby](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emby) 4.7.13
@@ -60,7 +60,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Emulatorjs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emulatorjs) 1.7.2
 * [Endlessh](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Endlessh) version-dfe44eb2
 * [Fail2ban](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Fail2ban) 1.0.2
-* [Feed2toot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Feed2toot) 0.17.20230610
+* [Feed2toot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Feed2toot) 0.17.20230614
 * [Ffmpeg](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ffmpeg) 5.1.2
 * [Filezilla](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Filezilla) 3.64.0
 * [Firefox](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Firefox) 114.0.1
@@ -79,7 +79,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230609
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.1
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.204
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.205
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-7738bc26
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -151,7 +151,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Swag](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Swag) 2.6.0
 * [Synclounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Synclounge) 5.2.5
 * [Syncthing](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Syncthing) 1.23.5
-* [Syslog-ng](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Syslog-ng) 3.38.1
+* [Syslog-ng](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Syslog-ng) 4.1.1
 * [Tautulli](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tautulli) 2.12.4
 * [Tester](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tester) version-66f677b0
 * [Thelounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Thelounge) 4.4.0
