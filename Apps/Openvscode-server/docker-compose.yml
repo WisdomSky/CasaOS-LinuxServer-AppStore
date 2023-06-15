@@ -7,36 +7,43 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      CONNECTION_TOKEN: ''
-      CONNECTION_SECRET: ''
-      SUDO_PASSWORD: ''
-      SUDO_PASSWORD_HASH: ''
+      CONNECTION_TOKEN: ""
+      CONNECTION_SECRET: ""
+      SUDO_PASSWORD: ""
+      SUDO_PASSWORD_HASH: ""
     x-casaos:
       envs:
         - container: PUID
           description:
             en_us: for UserID
+            zh_cn: 用户ID
         - container: PGID
           description:
             en_us: for GroupID
+            zh_cn: 用户组ID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+            zh_cn: 指定时区,参见此列表。
         - container: CONNECTION_TOKEN
           description:
             en_us: Optional security token for accessing the Web UI (ie. supersecrettoken).
+            zh_cn: 可选的安全令牌,用于访问Web UI(例如supersecrettoken)。
         - container: CONNECTION_SECRET
           description:
             en_us: Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. /path/to/file). Overrides CONNECTION_TOKEN.
+            zh_cn: 容器内的文件路径(例如/path/to/file),包含用于访问Web UI的安全令牌。覆盖CONNECTION_TOKEN。
         - container: SUDO_PASSWORD
           description:
             en_us: If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password.
+            zh_cn: 如果设置此可选变量,用户将使用指定的密码在openvscode-server终端中获得sudo访问权限。
         - container: SUDO_PASSWORD_HASH
           description:
             en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed.
+            zh_cn: 可选地通过哈希设置sudo密码(优先于SUDO_PASSWORD var)。格式为$type$salt$hashed。
     ports:
-      - target: 3000
-        published: 3000
+      - target: 3005
+        published: "3000"
         protocol: tcp
     volumes:
       - type: bind
@@ -50,12 +57,14 @@ x-casaos:
   main: app
   description:
     en_us: Openvscode-server provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
+    zh_cn: Openvscode-server提供了VS Code的版本,它在远程机器上运行服务器,并允许通过现代Web浏览器访问。
   tagline:
     en_us: Provides A Version Of Vs Code That Runs A Server On A Remote Machine And Allows Access Through A Modern Web Browser.
+    zh_cn: 提供了在远程机器上运行的VS Code版本,并允许通过现代Web浏览器访问。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
   title:
     en_us: Openvscode Server
-  category: LinuxServer.io
+    zh_cn: Openvscode 服务器
