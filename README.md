@@ -50,7 +50,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Dillinger](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Dillinger) 3.39.1
 * [Diskover](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Diskover) 2.1.0
 * [Dokuwiki](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Dokuwiki) version-2023-04-04a
-* [Domoticz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Domoticz) 2023.1.20230608
+* [Domoticz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Domoticz) 2023.1.20230615
 * [Doplarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doplarr) 3.6.2
 * [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) version-f9910c3a
 * [Duckdns](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duckdns) version-1ffe4e04
@@ -69,7 +69,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Freshrss](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Freshrss) 1.21.0
 * [Github-desktop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Github-desktop) 3.2.1
 * [Gitqlient](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Gitqlient) 1.6.1
-* [Grav](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Grav) 1.7.41
+* [Grav](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Grav) 1.7.42
 * [Grocy](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Grocy) 3.3.2
 * [Habridge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Habridge) 5.4.1
 * [Headphones](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Headphones) version-a78f38c1
