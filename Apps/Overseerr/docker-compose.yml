@@ -1,7 +1,7 @@
 name: LinuxServer-Overseerr
 services:
   app:
-    image: linuxserver/overseerr:1.32.5
+    image: linuxserver/overseerr:1.33.0
     restart: unless-stopped
     environment:
       PUID: $PUID

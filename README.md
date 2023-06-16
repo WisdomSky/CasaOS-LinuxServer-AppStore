@@ -115,7 +115,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Openvscode-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openvscode-server) 1.79.2
 * [Opera](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Opera) 99.0.4788
 * [Oscam](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Oscam) version-11719
-* [Overseerr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Overseerr) 1.32.5
+* [Overseerr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Overseerr) 1.33.0
 * [Pairdrop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pairdrop) 1.7.6
 * [Phpmyadmin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Phpmyadmin) 5.2.1
 * [Pidgin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pidgin) 2.14.12
