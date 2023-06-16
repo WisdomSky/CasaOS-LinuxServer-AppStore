@@ -7,6 +7,7 @@ services:
       KASM_PORT: ''
       DOCKER_HUB_USERNAME: ''
       DOCKER_HUB_PASSWORD: ''
+      DOCKER_MTU: ''
     x-casaos:
       envs:
         - container: KASM_PORT
@@ -18,6 +19,9 @@ services:
         - container: DOCKER_HUB_PASSWORD
           description:
             en_us: Optionally specify a DockerHub password to pull private images.
+        - container: DOCKER_MTU
+          description:
+            en_us: Optionally specify the mtu options passed to dockerd.
     ports:
       - target: 3000
         published: 3000

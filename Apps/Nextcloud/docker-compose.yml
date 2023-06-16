@@ -22,6 +22,9 @@ services:
       - target: 443
         published: 443
         protocol: tcp
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/nextcloud/config
@@ -46,3 +49,4 @@ x-casaos:
   title:
     en_us: Nextcloud
   category: LinuxServer.io
+  port_map: '80'
