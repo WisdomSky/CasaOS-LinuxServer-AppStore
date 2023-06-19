@@ -53,7 +53,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Domoticz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Domoticz) 2023.1.20230615
 * [Doplarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doplarr) 3.6.2
 * [Doublecommander](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Doublecommander) version-f9910c3a
-* [Duckdns](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duckdns) version-1ffe4e04
+* [Duckdns](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duckdns) version-45e56094
 * [Duplicati](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Duplicati) 2.0.7
 * [Emby](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Emby) 4.7.13
 * [Embystat](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Embystat) 0.2.0
@@ -79,7 +79,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230616
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.2
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.241
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.245
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-ffe6069e
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -128,13 +128,13 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Pydio-cells](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pydio-cells) 4.2.2
 * [Pyload-ng](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pyload-ng) 0.5.0
 * [Pylon](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pylon) 2.9.0
-* [Qbittorrent](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Qbittorrent) 4.5.3
+* [Qbittorrent](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Qbittorrent) 4.5.4
 * [Qdirstat](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Qdirstat) 1.8.1
 * [Quassel-core](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Quassel-core) 0.14.0
 * [Quassel-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Quassel-web) version-20880f2c
 * [Radarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Radarr) 4.5.2
 * [Raneto](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Raneto) 0.17.3
-* [Rdesktop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rdesktop) arch-kde-version-2023-06-16
+* [Rdesktop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rdesktop) ubuntu-mate-version-ac6d6f46
 * [Readme-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Readme-sync) version-90b0ec76
 * [Remmina](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Remmina) 1.4.2
 * [Requestrr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Requestrr) 2.1.2
@@ -154,7 +154,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Syslog-ng](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Syslog-ng) 4.1.1
 * [Tautulli](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tautulli) 2.12.4
 * [Tester](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tester) version-66f677b0
-* [Thelounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Thelounge) 4.4.0
+* [Thelounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Thelounge) 4.4.1
 * [Transmission](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Transmission) 4.0.3
 * [Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) version-dbf97330
 * [Ubooquity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ubooquity) 2.1.2
