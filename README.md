@@ -187,7 +187,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) 1.79.2
 * [Webcord](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webcord) 4.2.0
 * [Webgrabplus](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webgrabplus) 5.0.1
-* [Webtop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webtop) amd64-fedora-i3
+* [Webtop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webtop) fedora-i3-version-d48c501c
 * [Wikijs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wikijs) 2.5.299
 * [Wireguard](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireguard) 1.0.20210914
 * [Wireshark](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireshark) 4.0.6
