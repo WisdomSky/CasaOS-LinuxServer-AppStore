@@ -37,7 +37,7 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 
 Run the following command to install the appstore:
 ```bash
-casaos-cli app-management register app-store https://casaos.paodayag.dev/appstore/linuxserver.zip
+casaos-cli app-management register app-store https://casaos-appstore.paodayag.dev/linuxserver.zip
 ```
 
 > **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/23.html) and above. How to upgrade? [Click here](#how-to-upgrade-casaos)**
@@ -187,7 +187,7 @@ casaos-cli app-management register app-store https://casaos.paodayag.dev/appstor
 * [Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) 1.79.2
 * [Webcord](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webcord) 4.2.0
 * [Webgrabplus](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webgrabplus) 5.0.1
-* [Webtop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webtop) amd64-fedora-mate
+* [Webtop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Webtop) amd64-fedora-i3
 * [Wikijs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wikijs) 2.5.299
 * [Wireguard](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireguard) 1.0.20210914
 * [Wireshark](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireshark) 4.0.6
@@ -213,13 +213,13 @@ Run the following command:
 This could be caused by your CasaOS running on a port other than the default `port 80`. You need to add the `-u` flag at the end to tell command which port your CasaOS is running:
 
 ```bash
-casaos-cli app-management register app-store https://casaos.paodayag.dev/appstore/linuxserver.zip -u "localhost:<my-casa-os-port>"
+casaos-cli app-management register app-store https://casaos-appstore.paodayag.dev/linuxserver.zip -u "localhost:<my-casa-os-port>"
 ```
 
 Replace `<my-casa-os-port>` with the port where your CasaOS is running. For example if my CasaOS is running on port 99:
 
 ```bash
-casaos-cli app-management register app-store https://casaos.paodayag.dev/appstore/linuxserver.zip -u "localhost:99"
+casaos-cli app-management register app-store https://casaos-appstore.paodayag.dev/linuxserver.zip -u "localhost:99"
 ```
 
 ### How to uninstall the LinuxServer Appstore
