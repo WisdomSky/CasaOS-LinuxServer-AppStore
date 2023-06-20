@@ -1,7 +1,7 @@
 name: LinuxServer-Webtop
 services:
   app:
-    image: linuxserver/webtop:version-280b9079
+    image: linuxserver/webtop:amd64-fedora-mate
     restart: unless-stopped
     environment:
       PUID: $PUID
