@@ -7,7 +7,33 @@ A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linux
 
 
 
-## How to Install
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [List of Applications](#list-of-applications)
+- [Frequently Asked Questions / FAQs](#frequently-asked-questions)
+    - [How to Upgrade CasaOS](#how-to-upgrade-casaos)
+    - ["Error 404: Not Found" during install](#error-404-not-found-during-install)
+    - [How to uninstall the LinuxServer Appstore](#how-to-uninstall-the-linuxserver-appstore)
+- [Contributing](#contributing)
+
+---
+
+## Introduction
+
+The **LinuxServer AppStore** is a custom appstore built to work for [CasaOS](https://github.com/IceWhaleTech/CasaOS).
+
+This custom appstore for CasaOS contains a wide variety of configurations of docker images built and maintained by the [linuxserver.io](https://www.linuxserver.io/) community which are adapted to work for CasaOS.
+
+The LinuxServer Appstore is **guaranteed to provide you the latest version of every Application** as the appstore automatically tracks new releases and updates the contents of this repository daily.
+
+
+---
+
+
+## Installation
 
 Run the following command to install the appstore:
 ```bash
@@ -16,10 +42,9 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 
 > **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/23.html) and above. How to upgrade? [Click here](#how-to-upgrade-casaos)**
 
+---
 
-
-
-## Apps
+## List of Applications
 
 * [Adguardhome-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Adguardhome-sync) 0.4.14
 * [Airsonic-advanced](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Airsonic-advanced) 11.0.0
@@ -79,7 +104,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230616
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.2
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.245
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.258
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-ffe6069e
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -120,7 +145,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Phpmyadmin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Phpmyadmin) 5.2.1
 * [Pidgin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pidgin) 2.14.12
 * [Piwigo](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Piwigo) 13.7.0
-* [Plex](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Plex) 1.32.3
+* [Plex](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Plex) 1.32.4
 * [Plex-meta-manager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Plex-meta-manager) 1.19.0
 * [Projectsend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Projectsend) version-r1605
 * [Prowlarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Prowlarr) 1.5.2
@@ -140,7 +165,7 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Requestrr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Requestrr) 2.1.2
 * [Resilio-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Resilio-sync) 2.7.3
 * [Rsnapshot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rsnapshot) 1.4.5
-* [Sabnzbd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sabnzbd) 4.0.2
+* [Sabnzbd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sabnzbd) 4.0.3-unstable
 * [Sickchill](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sickchill) 2023.5.30
 * [Sickgear](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sickgear) 3.29.4
 * [Smokeping](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Smokeping) 2.8.2
@@ -166,21 +191,15 @@ casaos-cli app-management register app-store https://paodayag.dev/linuxserver-ap
 * [Wikijs](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wikijs) 2.5.299
 * [Wireguard](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireguard) 1.0.20210914
 * [Wireshark](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wireshark) 4.0.6
-* [Wps-office](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wps-office) version-741012ed
+* [Wps-office](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Wps-office) version-3fddab77
 * [Xbackbone](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Xbackbone) 3.6.3
 * [Your_spotify](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Your_spotify) 1.6.0
 * [Yq](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Yq) 3.2.2
 * [Znc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Znc) 1.8.2
 
 
----
 
-## Acknowledgements
-* [technorabilia](https://github.com/technorabilia/portainer-templates/)
-
----
-
-## Troubleshooting
+## Frequently Asked Questions
 
 ### How to Upgrade CasaOS
 
@@ -189,9 +208,9 @@ Run the following command:
     curl -fsSL https://get.casaos.io/update/v0.4.4-alpha | sudo bash
 
 
-### Error 404 Not Found when running the install command
+### Error 404 Not Found during install
 
-This could be cause by your CasaOS running on a port other than the default `port 80`. You need to add the `-u` flag at the end to tell command which port your CasaOS is running:
+This could be caused by your CasaOS running on a port other than the default `port 80`. You need to add the `-u` flag at the end to tell command which port your CasaOS is running:
 
 ```bash
 casaos-cli app-management register app-store https://paodayag.dev/linuxserver-appstore.zip -u "localhost:<my-casa-os-port>"
@@ -203,11 +222,37 @@ Replace `<my-casa-os-port>` with the port where your CasaOS is running. For exam
 casaos-cli app-management register app-store https://paodayag.dev/linuxserver-appstore.zip -u "localhost:99"
 ```
 
+### How to uninstall the LinuxServer Appstore
+
+Get the assigned ID of the LinuxServer Appstore:
+
+    casaos-cli app-management list app-stores
+
+Unregister the LinuxServer Appstore:
+
+    casaos-cli app-management unregister app-store <linuxserver-appstore-id>
+
+> NOTE: Replace <linuxserver-appstore-id> with the corresponding ID of the CasaOS Edge Appstore.
+
 ---
 
-## Additional Information
 
-📝 The LinuxServer Appstore automatically updates the list every 24 hours.  
+---
+
+## Acknowledgements
+* [technorabilia](https://github.com/technorabilia)
+
+---
+
+## Contributing
+
+Contributing to this Appstore is temporarily not possible at the moment. Please refrain from submitting PRs into this repository.
+
+This repository is auto-generated by a separate tool [CasaOS-Balhin](https://github.com/WisdomSky/CasaOS-Balhin/tree/linuxserver), we will publicize it in the near future to allow the community to make changes to this appstore.
+
+We are still currently in the process of revamping the tool to making adding conttributions easier.
+
+Please keep watching out as we open it to the public in the future.
 
 ---
 
