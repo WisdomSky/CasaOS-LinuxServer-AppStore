@@ -88,7 +88,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Feed2toot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Feed2toot) 0.17.20230614
 * [Ffmpeg](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ffmpeg) 5.1.2
 * [Filezilla](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Filezilla) 3.64.0
-* [Firefox](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Firefox) 114.0.1
+* [Firefox](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Firefox) 114.0.2
 * [Fleet](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Fleet) 2.3.3
 * [Foldingathome](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Foldingathome) 7.6.21
 * [Freshrss](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Freshrss) 1.21.0
@@ -104,7 +104,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230616
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.2
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.258
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.265
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-ffe6069e
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -129,7 +129,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Nano](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nano) 21.2.20220522
 * [Nano-wallet](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nano-wallet) 1.3.2
 * [Netbootxyz](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Netbootxyz) 0.6.8
-* [Netbox](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Netbox) 3.5.3
+* [Netbox](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Netbox) 3.5.4
 * [Nextcloud](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nextcloud) 27.0.0
 * [Nginx](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Nginx) 1.24.0
 * [Ngircd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ngircd) version-26.1-r3
@@ -138,7 +138,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Ombi](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ombi) 4.39.1
 * [Openssh-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openssh-server) version-9.3_p1-r3
 * [Openvscode-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Openvscode-server) 1.79.2
-* [Opera](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Opera) 99.0.4788
+* [Opera](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Opera) 100.0.4815
 * [Oscam](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Oscam) version-11719
 * [Overseerr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Overseerr) 1.33.0
 * [Pairdrop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Pairdrop) 1.7.6
@@ -158,7 +158,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Quassel-core](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Quassel-core) 0.14.0
 * [Quassel-web](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Quassel-web) version-20880f2c
 * [Radarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Radarr) 4.5.2
-* [Raneto](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Raneto) 0.17.3
+* [Raneto](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Raneto) 0.17.5
 * [Rdesktop](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rdesktop) ubuntu-mate-version-ac6d6f46
 * [Readme-sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Readme-sync) version-90b0ec76
 * [Remmina](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Remmina) 1.4.2

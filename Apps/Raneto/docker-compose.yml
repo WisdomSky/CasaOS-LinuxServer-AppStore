@@ -1,7 +1,7 @@
 name: LinuxServer-Raneto
 services:
   app:
-    image: linuxserver/raneto:0.17.3
+    image: linuxserver/raneto:0.17.5
     restart: unless-stopped
     environment:
       PUID: $PUID
