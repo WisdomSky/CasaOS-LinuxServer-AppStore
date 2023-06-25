@@ -51,7 +51,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Apprise-api](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Apprise-api) 0.9.2
 * [Audacity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Audacity) 3.3.3
 * [Babybuddy](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Babybuddy) 1.16.0
-* [Bazarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bazarr) 1.2.1
+* [Bazarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bazarr) 1.2.2
 * [Beets](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Beets) 1.6.0
 * [Blender](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Blender) 3.5.1
 * [Boinc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Boinc) 7.20.5
@@ -104,7 +104,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) 0.208.20230623
 * [Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) 2023.6.3
 * [Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) version-1614d863
-* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.290
+* [Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) 0.21.294
 * [Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) 10.8.10
 * [Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) version-ffe6069e
 * [Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) 1.13.0
@@ -181,7 +181,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 * [Tester](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tester) version-66f677b0
 * [Thelounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Thelounge) 4.4.1
 * [Transmission](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Transmission) 4.0.3
-* [Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) version-dbf97330
+* [Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) version-7b5c5269
 * [Ubooquity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ubooquity) 2.1.2
 * [Unifi-controller](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Unifi-controller) 7.4.156
 * [Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) 1.79.2
