@@ -42,7 +42,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/projectsend/'
   tagline:
-    en_us: A Self-hosted Application That Lets You Upload Files And Assign Them To Specific Clients That You Create Yourself. Secure, Private And Easy. No More Depending On External Services Or E-mail To Send Those Files.
+    en_us: A self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png
@@ -50,4 +50,5 @@ x-casaos:
   title:
     en_us: Projectsend
   category: LinuxServer.io
+  project_url: http://www.projectsend.org/
   port_map: '80'

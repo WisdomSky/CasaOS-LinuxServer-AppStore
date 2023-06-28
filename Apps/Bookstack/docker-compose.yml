@@ -67,7 +67,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/bookstack'
   tagline:
-    en_us: 'A Free And Open Source Wiki Designed For Creating Beautiful Documentation. Featuring A Simple, But Powerful Wysiwyg Editor It Allows For Teams To Create Detailed And Useful Documentation With Ease. Powered By Sql And Including A Markdown Editor For Those Who Prefer It, Bookstack Is Geared Towards Making Documentation More Of A Pleasure Than A Chore. For More Information On Bookstack Visit Their Website And Check It Out: Https://www.bookstackapp.com'
+    en_us: 'A free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www. Bookstackapp. Com'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://camo.githubusercontent.com/bc396d418b9da24e78f541bf221d8cc64b47c033/68747470733a2f2f73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f6c696e75787365727665722d646f63732f696d616765732f626f6f6b737461636b2d6c6f676f353030783530302e706e67
@@ -75,4 +75,5 @@ x-casaos:
   title:
     en_us: Bookstack
   category: LinuxServer.io
+  project_url: https://www.bookstackapp.com/
   port_map: '80'

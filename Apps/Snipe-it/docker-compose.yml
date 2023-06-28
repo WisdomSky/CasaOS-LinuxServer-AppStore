@@ -67,12 +67,13 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/'
   tagline:
-    en_us: Makes Asset Management Easy. It Was Built By People Solving Real-world It And Asset Management Problems, And A Solid Ux Has Always Been A Top Priority. Straightforward Design And Bulk Actions Mean Getting Things Done Faster.
+    en_us: Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-icon.png
   thumbnail: https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/snipe-it-logo500x500.png
   title:
-    en_us: Snipe It
+    en_us: Snipe it
   category: LinuxServer.io
+  project_url: https://github.com/snipe/snipe-it
   port_map: '80'

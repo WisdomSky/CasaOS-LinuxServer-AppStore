@@ -1,6 +1,6 @@
 # Headphones
 
-An Automated Music Downloader For Nzb And Torrent, Written In Python. It Supports Sabnzbd, Nzbget, Transmission, Μtorrent And Blackhole.
+An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.
 
 ---
 

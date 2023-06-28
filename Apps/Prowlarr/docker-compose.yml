@@ -43,7 +43,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/prowlarr'
   tagline:
-    en_us: A Indexer Manager/proxy Built On The Popular Arr .net/reactjs Base Stack To Integrate With Your Various Pvr Apps. Prowlarr Supports Both Torrent Trackers And Usenet Indexers. It Integrates Seamlessly With Sonarr, Radarr, Lidarr, And Readarr Offering Complete Management Of Your Indexers With No Per App Indexer Setup Required (we Do It All).
+    en_us: A indexer manager/proxy built on the popular arr. Net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/prowlarr-logo.png
@@ -51,4 +51,5 @@ x-casaos:
   title:
     en_us: Prowlarr
   category: LinuxServer.io
+  project_url: https://github.com/Prowlarr/Prowlarr
   port_map: '9696'

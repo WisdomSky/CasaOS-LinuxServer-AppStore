@@ -1,5 +1,5 @@
 # Nano
 
-A Digital Payment Protocol Designed To Be Accessible And Lightweight, With A Focus On Removing Inefficiencies Present In Other Cryptocurrencies. With Ultrafast Transactions And Zero Fees On A Secure, Green And Decentralized Network, This Makes Nano Ideal For Everyday Transactions.
+A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
 
 ---

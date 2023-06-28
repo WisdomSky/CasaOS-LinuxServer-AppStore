@@ -1,6 +1,6 @@
 # Radarr
 
-A Fork Of Sonarr To Work With Movies À La Couchpotato.
+A fork of Sonarr to work with movies à la Couchpotato.
 
 ---
 

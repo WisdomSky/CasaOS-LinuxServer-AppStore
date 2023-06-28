@@ -1,6 +1,6 @@
-# Booksonic Air
+# Booksonic air
 
-A Platform For Accessing The Audiobooks You Own Wherever You Are. At The Moment The Platform Consists Of: * Booksonic Air - A Server For Streaming Your Audiobooks, Successor To The Original Booksonic Server And Based On Airsonic. * Booksonic App - An Dsub Based Android App For Connection To Booksonic-air Servers.
+A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.
 
 ---
 

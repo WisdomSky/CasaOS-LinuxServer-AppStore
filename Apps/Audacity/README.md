@@ -1,6 +1,6 @@
 # Audacity
 
-An Easy-to-use, Multi-track Audio Editor And Recorder. Developed By A Group Of Volunteers As Open Source.
+An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
 
 ---
 

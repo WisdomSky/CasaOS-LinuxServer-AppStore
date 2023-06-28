@@ -60,7 +60,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/calibre/'
   tagline:
-    en_us: A Powerful And Easy To Use E-book Manager. Users Say It's Outstanding And A Must-have. It'll Allow You To Do Nearly Everything And It Takes Things A Step Beyond Normal E-book Software. It's Also Completely Free And Open Source And Great For Both Casual Users And Computer Experts.
+    en_us: A powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-icon.png
@@ -68,4 +68,5 @@ x-casaos:
   title:
     en_us: Calibre
   category: LinuxServer.io
+  project_url: https://calibre-ebook.com/
   port_map: '8080'

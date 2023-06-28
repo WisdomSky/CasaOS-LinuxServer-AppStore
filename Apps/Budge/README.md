@@ -1,6 +1,6 @@
 # Budge
 
-An Open Source 'budgeting With Envelopes' Personal Finance App.
+An open source 'budgeting with envelopes' personal finance app.
 
 ---
 

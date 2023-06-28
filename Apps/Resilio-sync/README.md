@@ -1,6 +1,6 @@
-# Resilio Sync
+# Resilio sync
 
-(formerly Bittorrent Sync) Uses The Bittorrent Protocol To Sync Files And Folders Between All Of Your Devices. There Are Both Free And Paid Versions, This Container Supports Both. There Is An Official Sync Image But We Created This One As It Supports User Mapping To Simplify Permissions For Volumes.
+(formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes.
 
 ---
 

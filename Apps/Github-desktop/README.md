@@ -1,5 +1,5 @@
-# Github Desktop
+# Github desktop
 
-An Open Source Electron-based Github App. It Is Written In Typescript And Uses React.
+An open source Electron-based GitHub app. It is written in TypeScript and uses React.
 
 ---

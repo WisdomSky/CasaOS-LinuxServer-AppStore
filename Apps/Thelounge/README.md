@@ -1,6 +1,6 @@
 # Thelounge
 
-(a Fork Of Shoutirc) Is A Web Irc Client That You Host On Your Own Server.
+(a fork of shoutIRC) is a web IRC client that you host on your own server.
 
 ---
 

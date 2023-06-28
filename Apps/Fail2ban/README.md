@@ -1,6 +1,6 @@
 # Fail2ban
 
-A Daemon To Ban Hosts That Cause Multiple Authentication Errors.
+A daemon to ban hosts that cause multiple authentication errors.
 
 ---
 

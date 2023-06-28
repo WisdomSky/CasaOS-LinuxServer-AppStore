@@ -1,6 +1,6 @@
-# Quassel Web
+# Quassel web
 
-A Web Client For Quassel. Note That A Quassel-core Instance Is Required, We Have A Container Available here.
+A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.
 
 ---
 

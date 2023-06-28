@@ -1,6 +1,6 @@
 # Mariadb
 
-One Of The Most Popular Database Servers. Made By The Original Developers Of Mysql.
+One of the most popular database servers. Made by the original developers of MySQL.
 
 ---
 

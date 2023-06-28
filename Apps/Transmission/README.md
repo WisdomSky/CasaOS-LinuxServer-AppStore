@@ -1,6 +1,6 @@
 # Transmission
 
-Designed For Easy, Powerful Use. Transmission Has The Features You Want From A Bittorrent Client: Encryption, A Web Interface, Peer Exchange, Magnet Links, Dht, Μtp, Upnp And Nat-pmp Port Forwarding, Webseed Support, Watch Directories, Tracker Editing, Global And Per-torrent Speed Limits, And More.
+Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.
 
 ---
 

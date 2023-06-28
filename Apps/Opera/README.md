@@ -1,5 +1,5 @@
 # Opera
 
-A Multi-platform Web Browser Developed By Its Namesake Company Opera. The Browser Is Based On Chromium, But Distinguishes Itself From Other Chromium-based Browsers (chrome, Edge, Etc.) Through Its User Interface And Other Features.
+A multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc. ) through its user interface and other features.
 
 ---

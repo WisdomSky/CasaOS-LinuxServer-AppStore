@@ -1,6 +1,6 @@
 # Remmina
 
-A Remote Desktop Client Written In Gtk, Aiming To Be Useful For System Administrators And Travellers, Who Need To Work With Lots Of Remote Computers In Front Of Either Large Or Tiny Screens. Remmina Supports Multiple Network Protocols, In An Integrated And Consistent User Interface. Currently Rdp, Vnc, Spice, Nx, Xdmcp, Ssh And Exec Are Supported.
+A remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, NX, XDMCP, SSH and EXEC are supported.
 
 ---
 

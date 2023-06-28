@@ -1,6 +1,6 @@
 # Lazylibrarian
 
-A Program To Follow Authors And Grab Metadata For All Your Digital Reading Needs. It Uses A Combination Of Goodreads Librarything And Optionally Googlebooks As Sources For Author Info And Book Info. This Container Is Based On The Dobytang Fork.
+A program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. This container is based on the DobyTang fork.
 
 ---
 

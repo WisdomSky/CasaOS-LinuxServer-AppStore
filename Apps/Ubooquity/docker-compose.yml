@@ -51,7 +51,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/ubooquity/'
   tagline:
-    en_us: A Free, Lightweight And Easy-to-use Home Server For Your Comics And Ebooks. Use It To Access Your Files From Anywhere, With A Tablet, An E-reader, A Phone Or A Computer.
+    en_us: A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-icon.png
@@ -59,3 +59,4 @@ x-casaos:
   title:
     en_us: Ubooquity
   category: LinuxServer.io
+  project_url: https://vaemendis.net/ubooquity/

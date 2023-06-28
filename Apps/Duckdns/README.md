@@ -1,6 +1,6 @@
 # Duckdns
 
-A Free Service Which Will Point A Dns (sub Domains Of Duckdns.org) To An Ip Of Your Choice. The Service Is Completely Free, And Doesn't Require Reactivation Or Forum Posts To Maintain Its Existence.
+A free service which will point a DNS (sub domains of duckdns. Org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
 
 ---
 

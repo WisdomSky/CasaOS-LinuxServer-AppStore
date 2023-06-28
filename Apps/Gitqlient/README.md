@@ -1,5 +1,5 @@
 # Gitqlient
 
-A Multi-platform Git Client Originally Forked From Qgit. Nowadays It Goes Beyond Of Just A Fork And Adds A Lot Of New Functionality.
+A multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
 
 ---

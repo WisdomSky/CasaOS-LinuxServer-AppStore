@@ -1,6 +1,6 @@
 # Fleet
 
-Provides An Online Web Interface Which Displays A Set Of Maintained Images From One Or More Owned Repositories.
+Provides an online web interface which displays a set of maintained images from one or more owned repositories.
 
 ---
 

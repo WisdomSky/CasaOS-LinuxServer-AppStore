@@ -1,6 +1,6 @@
-# Code Server
+# Code server
 
-Vs Code Running On A Remote Server, Accessible Through The Browser. - Code On Your Chromebook, Tablet, And Laptop With A Consistent Dev Environment. - If You Have A Windows Or Mac Workstation, More Easily Develop For Linux. - Take Advantage Of Large Cloud Servers To Speed Up Tests, Compilations, Downloads, And More. - Preserve Battery Life When You're On The Go. - All Intensive Computation Runs On Your Server. - You're No Longer Running Excess Instances Of Chrome.
+VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
 
 ---
 

@@ -1,6 +1,6 @@
 # Snapdrop
 
-A Local File Sharing In Your Browser. Inspired By Apple's Airdrop.
+A local file sharing in your browser. Inspired by Apple's Airdrop.
 
 ---
 

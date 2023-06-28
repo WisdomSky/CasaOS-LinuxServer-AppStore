@@ -54,7 +54,7 @@ x-casaos:
   description:
     en_us: Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
   tagline:
-    en_us: A Self-hosted Application That Tracks What You Listen And Offers You A Dashboard To Explore Statistics About It! It's Composed Of A Web Server Which Polls The Spotify Api Every Now And Then And A Web Application On Which You Can Explore Your Statistics.
+    en_us: A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png

@@ -1,6 +1,6 @@
 # Filezilla
 
-Client Is A Fast And Reliable Cross-platform Ftp, Ftps And Sftp Client With Lots Of Useful Features And An Intuitive Graphical User Interface.
+Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
 
 ---
 

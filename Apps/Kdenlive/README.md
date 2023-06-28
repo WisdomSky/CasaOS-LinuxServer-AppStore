@@ -1,5 +1,5 @@
 # Kdenlive
 
-A Powerful Free And Open Source Cross-platform Video Editing Program Made By The Kde Community. Feature Rich And Production Ready.
+A powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
 
 ---

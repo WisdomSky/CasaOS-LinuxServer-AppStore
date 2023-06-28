@@ -47,7 +47,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/pwndrop/'
   tagline:
-    en_us: A Self-deployable File Hosting Service For Sending Out Red Teaming Payloads Or Securely Sharing Your Private Files Over Http And Webdav.
+    en_us: A self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pwndrop-logo.png
@@ -55,4 +55,5 @@ x-casaos:
   title:
     en_us: Pwndrop
   category: LinuxServer.io
+  project_url: https://github.com/kgretzky/pwndrop
   port_map: '8080'

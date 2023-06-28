@@ -1,5 +1,5 @@
 # Kasm
 
-Workspaces Is A Docker Container Streaming Platform For Delivering Browser-based Access To Desktops, Applications, And Web Services. Kasm Uses Devops-enabled Containerized Desktop Infrastructure (cdi) To Create On-demand, Disposable, Docker Containers That Are Accessible Via Web Browser. Example Use-cases Include Remote Browser Isolation (rbi), Data Loss Prevention (dlp), Desktop As A Service (daas), Secure Remote Access Services (ras), And Open Source Intelligence (osint) Collections. The Rendering Of The Graphical-based Containers Is Powered By The Open-source Project kasmvnc.
+Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.
 
 ---

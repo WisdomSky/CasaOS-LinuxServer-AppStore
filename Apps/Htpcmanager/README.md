@@ -1,6 +1,6 @@
 # Htpcmanager
 
-A Front End For Many Htpc Related Applications.
+A front end for many htpc related applications.
 
 ---
 

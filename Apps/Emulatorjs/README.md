@@ -1,6 +1,6 @@
 # Emulatorjs
 
-In Browser Web Based Emulation Portable To Nearly Any Device For Many Retro Consoles. A Mix Of Emulators Is Used Between Libretro And Emulatorjs.
+In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS.
 
 ---
 

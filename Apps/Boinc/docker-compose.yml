@@ -50,7 +50,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/boinc/'
   tagline:
-    en_us: A Platform For High-throughput Computing On A Large Scale (thousands Or Millions Of Computers). It Can Be Used For Volunteer Computing (using Consumer Devices) Or Grid Computing (using Organizational Resources). It Supports Virtualized, Parallel, And Gpu-based Applications.
+    en_us: A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boinc-icon.png
@@ -58,4 +58,5 @@ x-casaos:
   title:
     en_us: Boinc
   category: LinuxServer.io
+  project_url: https://boinc.berkeley.edu/
   port_map: '8080'

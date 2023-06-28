@@ -1,6 +1,6 @@
-# Quassel Core
+# Quassel core
 
-A Modern, Cross-platform, Distributed Irc Client, Meaning That One (or Multiple) Client(s) Can Attach To And Detach From A Central Core. This Container Handles The Irc Connection (quasselcore) And Requires A Desktop Client (quasselclient) To Be Used And Configured. It Is Designed To Be Always On And Will Keep Your Identity Present In Irc Even When Your Clients Cannot Be Online. Backlog (history) Is Downloaded By Your Client Upon Reconnection Allowing Infinite Scrollback Through Time.
+A modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core. This container handles the IRC connection (quasselcore) and requires a desktop client (quasselclient) to be used and configured. It is designed to be always on and will keep your identity present in IRC even when your clients cannot be online. Backlog (history) is downloaded by your client upon reconnection allowing infinite scrollback through time.
 
 ---
 

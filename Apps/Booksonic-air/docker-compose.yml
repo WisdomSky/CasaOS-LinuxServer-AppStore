@@ -56,12 +56,13 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
   tagline:
-    en_us: 'A Platform For Accessing The Audiobooks You Own Wherever You Are. At The Moment The Platform Consists Of: * Booksonic Air - A Server For Streaming Your Audiobooks, Successor To The Original Booksonic Server And Based On Airsonic. * Booksonic App - An Dsub Based Android App For Connection To Booksonic-air Servers.'
+    en_us: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
   title:
-    en_us: Booksonic Air
+    en_us: Booksonic air
   category: LinuxServer.io
+  project_url: https://booksonic.org/
   port_map: '4040'

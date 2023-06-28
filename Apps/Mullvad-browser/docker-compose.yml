@@ -1,7 +1,7 @@
 name: LinuxServer-Mullvad-browser
 services:
   app:
-    image: linuxserver/mullvad-browser:12.0.7
+    image: linuxserver/mullvad-browser:12.5.20230627
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -42,11 +42,11 @@ x-casaos:
   description:
     en_us: The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN.
   tagline:
-    en_us: The mullvad Browser Is A Privacy-focused Web Browser Developed In A Collaboration Between Mullvad Vpn And The Tor Project. It’s Designed To Minimize Tracking And Fingerprinting. You Could Say It’s A Tor Browser To Use Without The Tor Network. Instead, You Can Use It With A Trustworthy Vpn.
+    en_us: The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png
   title:
-    en_us: Mullvad Browser
+    en_us: Mullvad browser
   category: LinuxServer.io

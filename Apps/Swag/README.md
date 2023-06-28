@@ -1,6 +1,6 @@
 # Swag
 
-Swag - Secure Web Application Gateway (formerly Known As Letsencrypt, No Relation To Let's Encrypt™) Sets Up An Nginx Webserver And Reverse Proxy With Php Support And A Built-in Certbot Client That Automates Free Ssl Server Certificate Generation And Renewal Processes (let's Encrypt And Zerossl). It Also Contains Fail2ban For Intrusion Prevention.
+SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
 
 ---
 

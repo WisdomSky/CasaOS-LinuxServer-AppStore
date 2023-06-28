@@ -1,5 +1,5 @@
 # Webcord
 
-Can Be Summarized As A Pack Of Security And Privacy Hardenings, Discord Features Reimplementations, Electron / Chromium / Discord Bugs Workarounds, Stylesheets, Internal Pages And Wrapped Https://discord.com Page, Designed To Conform With Tos As Much As It Is Possible (or Hide The Changes That Might Violate It From Discord's Eyes).
+Can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord. Com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).
 
 ---

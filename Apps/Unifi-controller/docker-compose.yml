@@ -90,12 +90,13 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/unifi-controller/'
   tagline:
-    en_us: The unifi-controller Software Is A Powerful, Enterprise Wireless Software Engine Ideal For High-density Client Deployments Requiring Low Latency And High Uptime Performance.
+    en_us: The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-controller-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png
   title:
-    en_us: Unifi Controller
+    en_us: Unifi controller
   category: LinuxServer.io
+  project_url: https://www.ui.com/software/
   port_map: '8080'

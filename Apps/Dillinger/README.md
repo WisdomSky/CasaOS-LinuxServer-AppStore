@@ -1,6 +1,6 @@
 # Dillinger
 
-A Cloud-enabled, Mobile-ready, Offline-storage, Angularjs Powered Html5 Markdown Editor.
+A cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
 ---
 

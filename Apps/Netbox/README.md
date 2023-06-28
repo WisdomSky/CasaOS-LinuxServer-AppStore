@@ -1,6 +1,6 @@
 # Netbox
 
-An Ip Address Management (ipam) And Data Center Infrastructure Management (dcim) Tool. Initially Conceived By The Network Engineering Team At Digitalocean, Netbox Was Developed Specifically To Address The Needs Of Network And Infrastructure Engineers. It Is Intended To Function As A Domain-specific Source Of Truth For Network Operations.
+An IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
 
 ---
 

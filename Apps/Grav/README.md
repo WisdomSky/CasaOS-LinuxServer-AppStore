@@ -1,6 +1,6 @@
 # Grav
 
-A Fast, Simple, And Flexible, File-based Web-platform.
+A Fast, Simple, and Flexible, file-based Web-platform.
 
 ---
 

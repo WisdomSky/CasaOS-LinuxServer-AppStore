@@ -1,5 +1,5 @@
 # Feed2toot
 
-Automatically Parses Rss Feeds, Identifies New Posts And Posts Them On The Mastodon Social Network.
+Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
 
 ---

@@ -1,6 +1,6 @@
 # Xbackbone
 
-A Simple, Self-hosted, Lightweight Php File Manager That Support The Instant Sharing Tool Sharex And *nix Systems. It Supports Uploading And Displaying Images, Gif, Video, Code, Formatted Text, And File Downloading And Uploading. Also Have A Web Ui With Multi User Management, Past Uploads History And Search Support.
+A simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems. It supports uploading and displaying images, GIF, video, code, formatted text, and file downloading and uploading. Also have a web UI with multi user management, past uploads history and search support.
 
 ---
 

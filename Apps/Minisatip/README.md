@@ -1,6 +1,6 @@
 # Minisatip
 
-A Multi-threaded Satip Server Version 1.2 That Runs Under Linux And It Was Tested With Dvb-s, Dvb-s2, Dvb-t, Dvb-t2, Dvb-c, Dvb-c2, Atsc And Isdb-t Cards.
+A multi-threaded satip server version 1. 2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
 
 ---
 

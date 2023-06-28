@@ -1,5 +1,5 @@
 # Lollypop
 
-A Lightweight Modern Music Player Designed To Work Excellently On The Gnome Desktop Environment.
+A lightweight modern music player designed to work excellently on the GNOME desktop environment.
 
 ---

@@ -43,7 +43,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/overseerr'
   tagline:
-    en_us: A Request Management And Media Discovery Tool Built To Work With Your Existing Plex Ecosystem.
+    en_us: A request management and media discovery tool built to work with your existing Plex ecosystem.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
@@ -51,4 +51,5 @@ x-casaos:
   title:
     en_us: Overseerr
   category: LinuxServer.io
+  project_url: https://overseerr.dev/
   port_map: '5055'

@@ -43,7 +43,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/grav'
   tagline:
-    en_us: A Fast, Simple, And Flexible, File-based Web-platform.
+    en_us: A Fast, Simple, and Flexible, file-based Web-platform.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
@@ -51,4 +51,5 @@ x-casaos:
   title:
     en_us: Grav
   category: LinuxServer.io
+  project_url: https://github.com/getgrav/grav/
   port_map: '80'

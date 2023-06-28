@@ -57,7 +57,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/webtop/'
   tagline:
-    en_us: Alpine, Ubuntu, Fedora, And Arch Based Containers Containing Full Desktop Environments In Officially Supported Flavors Accessible Via Any Modern Web Browser.
+    en_us: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
@@ -65,4 +65,5 @@ x-casaos:
   title:
     en_us: Webtop
   category: LinuxServer.io
+  project_url: https://github.com/linuxserver/docker-webtop
   port_map: '3000'

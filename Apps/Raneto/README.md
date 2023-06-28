@@ -1,6 +1,6 @@
 # Raneto
 
-Is An Open Source Knowledgebase Platform That Uses Static Markdown Files To Power Your Knowledgebase.
+is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
 
 ---
 

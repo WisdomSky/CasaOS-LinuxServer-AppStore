@@ -35,7 +35,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/ddclient'
   tagline:
-    en_us: A Perl Client Used To Update Dynamic Dns Entries For Accounts On Dynamic Dns Network Service Provider. It Was Originally Written By Paul Burry And Is Now Mostly By Wimpunk. It Has The Capability To Update More Than Just Dyndns And It Can Fetch Your Wan-ipaddress In A Few Different Ways.
+    en_us: A Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png
@@ -43,3 +43,4 @@ x-casaos:
   title:
     en_us: Ddclient
   category: LinuxServer.io
+  project_url: https://github.com/ddclient/ddclient

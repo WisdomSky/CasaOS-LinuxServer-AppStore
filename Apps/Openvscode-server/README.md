@@ -1,5 +1,5 @@
-# Openvscode Server
+# Openvscode server
 
-Provides A Version Of Vs Code That Runs A Server On A Remote Machine And Allows Access Through A Modern Web Browser.
+Provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
 
 ---

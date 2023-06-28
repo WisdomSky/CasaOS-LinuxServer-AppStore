@@ -1,6 +1,6 @@
 # Pwndrop
 
-A Self-deployable File Hosting Service For Sending Out Red Teaming Payloads Or Securely Sharing Your Private Files Over Http And Webdav.
+A self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
 
 ---
 

@@ -43,7 +43,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/limnoria/'
   tagline:
-    en_us: A Robust, Full-featured, And User/programmer-friendly Python Irc Bot, With Many Existing Plugins. Successor Of The Well-known Supybot.
+    en_us: A robust, full-featured, and user/programmer-friendly Python IRC bot, with many existing plugins. Successor of the well-known Supybot.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/limnoria-icon.png
@@ -51,4 +51,5 @@ x-casaos:
   title:
     en_us: Limnoria
   category: LinuxServer.io
+  project_url: https://github.com/ProgVal/limnoria
   port_map: '8080'

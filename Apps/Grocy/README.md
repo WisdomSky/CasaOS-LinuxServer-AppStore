@@ -1,6 +1,6 @@
 # Grocy
 
-An Erp System For Your Kitchen! Cut Down On Food Waste, And Manage Your Chores With This Brilliant Utility. Keep Track Of Your Purchases, How Much Food You Are Wasting, What Chores Need Doing And What Batteries Need Charging With This Proudly Open Source Tool For More Information On Grocy Visit Their Website And Check It Out: Https://grocy.info
+An ERP system for your kitchen. Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy. Info
 
 ---
 

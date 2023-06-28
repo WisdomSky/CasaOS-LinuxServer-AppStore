@@ -1,6 +1,6 @@
 # Beets
 
-A Music Library Manager And Not, For The Most Part, A Music Player. It Does Include A Simple Player Plugin And An Experimental Web-based Player, But It Generally Leaves Actual Sound-reproduction To Specialized Tools.
+A music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
 
 ---
 

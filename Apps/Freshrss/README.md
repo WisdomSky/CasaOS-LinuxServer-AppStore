@@ -1,6 +1,6 @@
 # Freshrss
 
-A Free, Self-hostable Aggregator For Rss Feeds.
+A free, self-hostable aggregator for rss feeds.
 
 ---
 

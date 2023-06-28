@@ -1,6 +1,6 @@
 # Netbootxyz
 
-A Way To Pxe Boot Various Operating System Installers Or Utilities From One Place Within The Bios Without The Need Of Having To Go Retrieve The Media To Run The Tool. Ipxe Is Used To Provide A User Friendly Menu From Within The Bios That Lets You Easily Choose The Operating System You Want Along With Any Specific Types Of Versions Or Bootable Flags.
+A way to PXE boot various operating system installers or utilities from one place within the BIOS without the need of having to go retrieve the media to run the tool. IPXE is used to provide a user friendly menu from within the BIOS that lets you easily choose the operating system you want along with any specific types of versions or bootable flags.
 
 ---
 

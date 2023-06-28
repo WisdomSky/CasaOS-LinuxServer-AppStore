@@ -1,6 +1,6 @@
 # Nginx
 
-A Simple Webserver With Php Support. The Config Files Reside In /config For Easy User Customization.
+A simple webserver with php support. The config files reside in /config for easy user customization.
 
 ---
 

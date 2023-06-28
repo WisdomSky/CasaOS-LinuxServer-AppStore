@@ -1,6 +1,6 @@
 # Wireshark
 
-The World’s Foremost And Widely-used Network Protocol Analyzer. It Lets You See What’s Happening On Your Network At A Microscopic Level And Is The De Facto (and Often De Jure) Standard Across Many Commercial And Non-profit Enterprises, Government Agencies, And Educational Institutions. Wireshark Development Thrives Thanks To The Volunteer Contributions Of Networking Experts Around The Globe And Is The Continuation Of A Project Started By Gerald Combs In 1998.
+The world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.
 
 ---
 

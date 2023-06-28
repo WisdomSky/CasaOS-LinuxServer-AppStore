@@ -1,5 +1,5 @@
 # Pidgin
 
-A Chat Program Which Lets You Log Into Accounts On Multiple Chat Networks Simultaneously. This Means That You Can Be Chatting With Friends On Xmpp And Sitting In An Irc Channel At The Same Time.
+A chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
 
 ---

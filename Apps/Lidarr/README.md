@@ -1,6 +1,6 @@
 # Lidarr
 
-A Music Collection Manager For Usenet And Bittorrent Users. It Can Monitor Multiple Rss Feeds For New Tracks From Your Favorite Artists And Will Grab, Sort And Rename Them. It Can Also Be Configured To Automatically Upgrade The Quality Of Files Already Downloaded When A Better Quality Format Becomes Available.
+A music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
 ---
 

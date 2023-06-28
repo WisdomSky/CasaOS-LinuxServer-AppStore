@@ -1,6 +1,6 @@
 # Znc
 
-An Irc Network Bouncer Or Bnc. It Can Detach The Client From The Actual Irc Server, And Also From Selected Channels. Multiple Clients From Different Locations Can Connect To A Single Znc Account Simultaneously And Therefore Appear Under The Same Nickname On Irc.
+An IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
 
 ---
 

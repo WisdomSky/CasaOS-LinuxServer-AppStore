@@ -43,7 +43,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/requestrr'
   tagline:
-    en_us: A Chatbot Used To Simplify Using Services Like Sonarr/radarr/ombi Via The Use Of Chat.
+    en_us: A chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/requestrr.png
@@ -51,4 +51,5 @@ x-casaos:
   title:
     en_us: Requestrr
   category: LinuxServer.io
+  project_url: https://github.com/darkalfx/requestrr
   port_map: '4545'

@@ -1,6 +1,6 @@
 # Sqlitebrowser
 
-A High Quality, Visual, Open Source Tool To Create, Design, And Edit Database Files Compatible With Sqlite.
+A high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
 
 ---
 

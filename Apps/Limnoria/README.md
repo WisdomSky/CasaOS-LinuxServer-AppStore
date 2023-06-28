@@ -1,6 +1,6 @@
 # Limnoria
 
-A Robust, Full-featured, And User/programmer-friendly Python Irc Bot, With Many Existing Plugins. Successor Of The Well-known Supybot.
+A robust, full-featured, and user/programmer-friendly Python IRC bot, with many existing plugins. Successor of the well-known Supybot.
 
 ---
 

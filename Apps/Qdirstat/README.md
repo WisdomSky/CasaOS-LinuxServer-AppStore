@@ -1,5 +1,5 @@
 # Qdirstat
 
-Qt-based Directory Statistics: Kdirstat Without Any Kde -- From The Author Of The Original Kdirstat.
+Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.
 
 ---

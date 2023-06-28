@@ -1,6 +1,6 @@
 # Diskover
 
-An Open Source File System Indexer That Uses Elasticsearch To Index And Manage Data Across Heterogeneous Storage Systems.
+An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
 
 ---
 

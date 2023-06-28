@@ -1,5 +1,5 @@
 # Blender
 
-A Free And Open-source 3d Computer Graphics Software Toolset Used For Creating Animated Films, Visual Effects, Art, 3d Printed Models, Motion Graphics, Interactive 3d Applications, Virtual Reality, And Computer Games. this Image Does Not Support Gpu Rendering Out Of The Box Only Accelerated Workspace Experience
+A free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. This image does not support GPU rendering out of the box only accelerated workspace experience
 
 ---

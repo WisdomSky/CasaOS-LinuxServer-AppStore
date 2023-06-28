@@ -41,7 +41,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sonarr/'
   tagline:
-    en_us: (formerly Nzbdrone) Is A Pvr For Usenet And Bittorrent Users. It Can Monitor Multiple Rss Feeds For New Episodes Of Your Favorite Shows And Will Grab, Sort And Rename Them. It Can Also Be Configured To Automatically Upgrade The Quality Of Files Already Downloaded When A Better Quality Format Becomes Available.
+    en_us: (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-icon.png
@@ -49,4 +49,5 @@ x-casaos:
   title:
     en_us: Sonarr
   category: LinuxServer.io
+  project_url: https://sonarr.tv/
   port_map: '8989'

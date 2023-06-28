@@ -1,6 +1,6 @@
-# Calibre Web
+# Calibre web
 
-A Web App Providing A Clean Interface For Browsing, Reading And Downloading Ebooks Using An Existing Calibre Database. It Is Also Possible To Integrate Google Drive And Edit Metadata And Your Calibre Library Through The App Itself. This Software Is A Fork Of Library And Licensed Under The Gpl V3 License.
+A web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.
 
 ---
 

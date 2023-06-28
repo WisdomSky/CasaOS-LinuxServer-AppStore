@@ -56,7 +56,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/minisatip/'
   tagline:
-    en_us: A Multi-threaded Satip Server Version 1.2 That Runs Under Linux And It Was Tested With Dvb-s, Dvb-s2, Dvb-t, Dvb-t2, Dvb-c, Dvb-c2, Atsc And Isdb-t Cards.
+    en_us: A multi-threaded satip server version 1. 2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png
@@ -64,4 +64,5 @@ x-casaos:
   title:
     en_us: Minisatip
   category: LinuxServer.io
+  project_url: https://github.com/catalinii/minisatip
   port_map: '8875'

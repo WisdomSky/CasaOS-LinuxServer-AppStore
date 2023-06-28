@@ -35,7 +35,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/synclounge/'
   tagline:
-    en_us: A Third Party Tool That Allows You To Watch Plex In Sync With Your Friends/family, Wherever You Are.
+    en_us: A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-icon.png
@@ -43,4 +43,5 @@ x-casaos:
   title:
     en_us: Synclounge
   category: LinuxServer.io
+  project_url: https://github.com/samcm/synclounge
   port_map: '8088'

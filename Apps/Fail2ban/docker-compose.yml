@@ -93,7 +93,7 @@ x-casaos:
   description:
     en_us: Fail2ban is a daemon to ban hosts that cause multiple authentication errors.
   tagline:
-    en_us: A Daemon To Ban Hosts That Cause Multiple Authentication Errors.
+    en_us: A daemon to ban hosts that cause multiple authentication errors.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png

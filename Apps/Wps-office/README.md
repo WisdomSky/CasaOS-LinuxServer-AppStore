@@ -1,5 +1,5 @@
-# Wps Office
+# Wps office
 
-A Lightweight, Feature-rich Comprehensive Office Suite With High Compatibility. As A Handy And Professional Office Software, Wps Office Allows You To Edit Files In Writer, Presentation, Spreadsheet, And Pdf To Improve Your Work Efficiency.
+A lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.
 
 ---

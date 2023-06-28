@@ -1,6 +1,6 @@
-# Hishtory Server
+# Hishtory server
 
-A Better Shell History. It Stores Your Shell History In Context (what Directory You Ran The Command In, Whether It Succeeded Or Failed, How Long It Took, Etc). This Is All Stored Locally And End-to-end Encrypted For Syncing To To All Your Other Computers.
+A better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.
 
 ---
 

@@ -52,7 +52,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/doublecommander/'
   tagline:
-    en_us: A Free Cross Platform Open Source File Manager With Two Panels Side By Side. It Is Inspired By Total Commander And Features Some New Ideas.
+    en_us: A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png
@@ -60,4 +60,5 @@ x-casaos:
   title:
     en_us: Doublecommander
   category: LinuxServer.io
+  project_url: https://doublecmd.sourceforge.io/
   port_map: '3000'

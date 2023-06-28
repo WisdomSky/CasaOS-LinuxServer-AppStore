@@ -1,6 +1,6 @@
 # Tvheadend
 
-Works As A Proxy Server: Is A Tv Streaming Server And Recorder For Linux, Freebsd And Android Supporting Dvb-s, Dvb-s2, Dvb-c, Dvb-t, Atsc, Isdb-t, Iptv, Sat>ip And Hdhomerun As Input Sources. Tvheadend Offers The Http (vlc, Mplayer), Htsp (kodi, Movian) And Sat>ip Streaming. Multiple Epg Sources Are Supported (over-the-air Dvb And Atsc Including Opentv Dvb Extensions, Xmltv, Pyxml).
+Works as a proxy server: is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP and HDHomeRun as input sources. Tvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT>IP streaming. Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML).
 
 ---
 

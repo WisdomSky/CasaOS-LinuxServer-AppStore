@@ -1,6 +1,6 @@
 # Mastodon
 
-A Free, Open-source Social Network Server Based On Activitypub Where Users Can Follow Friends And Discover New Ones..
+A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .
 
 ---
 

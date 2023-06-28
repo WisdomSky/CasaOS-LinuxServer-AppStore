@@ -1,6 +1,6 @@
 # Lychee
 
-A Free Photo-management Tool, Which Runs On Your Server Or Web-space. Installing Is A Matter Of Seconds. Upload, Manage And Share Photos Like From A Native Application. Lychee Comes With Everything You Need And All Your Photos Are Stored Securely.' ### Upgrade Warning Please Note That The V4 Upgrade Process Resets All Password-protected Albums. Any Albums That Were Made Public With A Password Will Need To Be Re-secured.
+A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely. ' ### UPGRADE WARNING Please note that the v4 upgrade process resets ALL password-protected albums. Any albums that were made public with a password will need to be re-secured.
 
 ---
 

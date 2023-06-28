@@ -1,6 +1,6 @@
-# Snipe It
+# Snipe it
 
-Makes Asset Management Easy. It Was Built By People Solving Real-world It And Asset Management Problems, And A Solid Ux Has Always Been A Top Priority. Straightforward Design And Bulk Actions Mean Getting Things Done Faster.
+Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
 
 ---
 

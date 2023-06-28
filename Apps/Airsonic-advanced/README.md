@@ -1,6 +1,6 @@
-# Airsonic Advanced
+# Airsonic advanced
 
-A Free, Web-based Media Streamer, Providing Ubiquitious Access To Your Music. Use It To Share Your Music With Friends, Or To Listen To Your Own Music While At Work. You Can Stream To Multiple Players Simultaneously, For Instance To One Player In Your Kitchen And Another In Your Living Room.
+A free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.
 
 ---
 

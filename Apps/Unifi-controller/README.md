@@ -1,6 +1,6 @@
-# Unifi Controller
+# Unifi controller
 
-The unifi-controller Software Is A Powerful, Enterprise Wireless Software Engine Ideal For High-density Client Deployments Requiring Low Latency And High Uptime Performance.
+The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.
 
 ---
 

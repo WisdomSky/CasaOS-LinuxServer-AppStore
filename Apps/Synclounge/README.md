@@ -1,6 +1,6 @@
 # Synclounge
 
-A Third Party Tool That Allows You To Watch Plex In Sync With Your Friends/family, Wherever You Are.
+A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
 
 ---
 

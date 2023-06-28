@@ -1,6 +1,6 @@
 # Mylar3
 
-An Automated Comic Book Downloader (cbr/cbz) For Use With Nzb And Torrents Written In Python. It Supports Sabnzbd, Nzbget, And Many Torrent Clients In Addition To Ddl.
+An automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.
 
 ---
 

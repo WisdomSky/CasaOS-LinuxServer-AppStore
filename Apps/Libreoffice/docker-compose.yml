@@ -46,7 +46,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/libreoffice/'
   tagline:
-    en_us: A Free And Powerful Office Suite, And A Successor To Openoffice.org (commonly Known As Openoffice). Its Clean Interface And Feature-rich Tools Help You Unleash Your Creativity And Enhance Your Productivity.
+    en_us: A free and powerful office suite, and a successor to OpenOffice. Org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/libreoffice-logo.png
@@ -54,4 +54,5 @@ x-casaos:
   title:
     en_us: Libreoffice
   category: LinuxServer.io
+  project_url: https://www.libreoffice.org/
   port_map: '3000'

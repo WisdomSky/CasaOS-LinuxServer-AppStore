@@ -110,7 +110,7 @@ x-casaos:
   description:
     en_us: Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
   tagline:
-    en_us: A Watchdog For Your Cron Jobs. It's A Web Server That Listens For Pings From Your Cron Jobs, Plus A Web Interface.
+    en_us: A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/healthchecks/healthchecks/master/static/img/welcome.png

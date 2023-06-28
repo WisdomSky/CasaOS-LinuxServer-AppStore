@@ -1,6 +1,6 @@
-# Pydio Cells
+# Pydio cells
 
-The Nextgen File Sharing Platform For Organizations. It Is A Full Rewrite Of The Pydio Project Using The Go Language Following A Micro-service Architecture.
+The nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
 
 ---
 

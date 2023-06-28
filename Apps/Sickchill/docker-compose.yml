@@ -55,7 +55,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sickchill/'
   tagline:
-    en_us: An Automatic Video Library Manager For Tv Shows. It Watches For New Episodes Of Your Favorite Shows, And When They Are Posted It Does Its Magic.
+    en_us: An Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-icon.png
@@ -63,4 +63,5 @@ x-casaos:
   title:
     en_us: Sickchill
   category: LinuxServer.io
+  project_url: https://sickchill.github.io/
   port_map: '8081'

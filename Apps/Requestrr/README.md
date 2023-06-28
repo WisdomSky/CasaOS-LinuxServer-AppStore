@@ -1,6 +1,6 @@
 # Requestrr
 
-A Chatbot Used To Simplify Using Services Like Sonarr/radarr/ombi Via The Use Of Chat.
+A chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.
 
 ---
 

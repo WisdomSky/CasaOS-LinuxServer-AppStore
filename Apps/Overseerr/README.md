@@ -1,6 +1,6 @@
 # Overseerr
 
-A Request Management And Media Discovery Tool Built To Work With Your Existing Plex Ecosystem.
+A request management and media discovery tool built to work with your existing Plex ecosystem.
 
 ---
 

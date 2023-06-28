@@ -1,6 +1,6 @@
 # Sabnzbd
 
-Makes Usenet As Simple And Streamlined As Possible By Automating Everything We Can. All You Have To Do Is Add An .nzb. Sabnzbd Takes Over From There, Where It Will Be Automatically Downloaded, Verified, Repaired, Extracted And Filed Away With Zero Human Interaction.
+Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an. Nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
 
 ---
 

@@ -65,7 +65,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/diskover'
   tagline:
-    en_us: An Open Source File System Indexer That Uses Elasticsearch To Index And Manage Data Across Heterogeneous Storage Systems.
+    en_us: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/shirosaidev/diskover/master/docs/diskover.png
@@ -73,4 +73,5 @@ x-casaos:
   title:
     en_us: Diskover
   category: LinuxServer.io
+  project_url: https://github.com/shirosaidev/diskover
   port_map: '80'

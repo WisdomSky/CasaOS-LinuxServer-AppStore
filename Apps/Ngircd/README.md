@@ -1,6 +1,6 @@
 # Ngircd
 
-A Free, Portable And Lightweight Internet Relay Chat Server For Small Or Private Networks, Developed Under The Gnu General Public License (gpl). It Is Easy To Configure, Can Cope With Dynamic Ip Addresses, And Supports Ipv6, Ssl-protected Connections As Well As Pam For Authentication. It Is Written From Scratch And Not Based On The Original Ircd.
+A free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. It is written from scratch and not based on the original IRCd.
 
 ---
 

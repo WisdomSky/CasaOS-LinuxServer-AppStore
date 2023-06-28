@@ -1,6 +1,6 @@
 # Digikam
 
-digikam: Professional Photo Management With The Power Of Open Source
+digiKam: Professional Photo Management with the Power of Open Source
 
 ---
 

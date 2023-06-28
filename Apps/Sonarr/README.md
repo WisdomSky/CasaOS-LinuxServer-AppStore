@@ -1,6 +1,6 @@
 # Sonarr
 
-(formerly Nzbdrone) Is A Pvr For Usenet And Bittorrent Users. It Can Monitor Multiple Rss Feeds For New Episodes Of Your Favorite Shows And Will Grab, Sort And Rename Them. It Can Also Be Configured To Automatically Upgrade The Quality Of Files Already Downloaded When A Better Quality Format Becomes Available.
+(formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
 ---
 

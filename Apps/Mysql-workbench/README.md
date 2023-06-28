@@ -1,6 +1,6 @@
-# Mysql Workbench
+# Mysql workbench
 
-A Unified Visual Tool For Database Architects, Developers, And Dbas. Mysql Workbench Provides Data Modeling, Sql Development, And Comprehensive Administration Tools For Server Configuration, User Administration, Backup, And Much More.
+A unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
 
 ---
 

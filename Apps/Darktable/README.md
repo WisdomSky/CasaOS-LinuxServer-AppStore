@@ -1,6 +1,6 @@
 # Darktable
 
-An Open Source Photography Workflow Application And Raw Developer. A Virtual Lighttable And Darkroom For Photographers. It Manages Your Digital Negatives In A Database, Lets You View Them Through A Zoomable Lighttable And Enables You To Develop Raw Images And Enhance Them.
+An open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.
 
 ---
 

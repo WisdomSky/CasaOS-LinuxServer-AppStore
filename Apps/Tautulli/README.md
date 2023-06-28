@@ -1,6 +1,6 @@
 # Tautulli
 
-A Python Based Web Application For Monitoring, Analytics And Notifications For Plex Media Server.
+A python based web application for monitoring, analytics and notifications for Plex Media Server.
 
 ---
 

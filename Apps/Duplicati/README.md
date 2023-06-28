@@ -1,6 +1,6 @@
 # Duplicati
 
-Works With Standard Protocols Like Ftp, Ssh, Webdav As Well As Popular Services Like Microsoft Onedrive, Amazon Cloud Drive & S3, Google Drive, Box.com, Mega, Hubic And Many Others.
+Works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box. Com, Mega, hubiC and many others.
 
 ---
 

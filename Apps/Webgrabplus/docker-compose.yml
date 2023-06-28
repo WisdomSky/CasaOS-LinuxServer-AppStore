@@ -41,7 +41,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/webgrabplus/'
   tagline:
-    en_us: A Multi-site Incremental Xmltv Epg Grabber. It Collects Tv-program Guide Data From Selected Tvguide Sites For Your Favourite Channels.
+    en_us: A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webgrabplus.png
@@ -49,3 +49,4 @@ x-casaos:
   title:
     en_us: Webgrabplus
   category: LinuxServer.io
+  project_url: http://webgrabplus.com/

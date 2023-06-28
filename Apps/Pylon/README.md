@@ -1,6 +1,6 @@
 # Pylon
 
-A Web Based Integrated Development Environment Built With Node.js As A Backend And With A Supercharged Javascript/html5 Frontend, Licensed Under Gpl Version 3. This Project Originates From Cloud9 V2 Project.
+A web based integrated development environment built with Node. Js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project.
 
 ---
 

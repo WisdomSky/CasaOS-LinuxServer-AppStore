@@ -35,7 +35,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/htpcmanager/'
   tagline:
-    en_us: A Front End For Many Htpc Related Applications.
+    en_us: A front end for many htpc related applications.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png
@@ -43,4 +43,5 @@ x-casaos:
   title:
     en_us: Htpcmanager
   category: LinuxServer.io
+  project_url: https://github.com/Hellowlol/HTPC-Manager
   port_map: '8085'

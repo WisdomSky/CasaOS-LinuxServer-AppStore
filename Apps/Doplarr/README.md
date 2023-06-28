@@ -1,5 +1,5 @@
 # Doplarr
 
-An *arr Request Bot For Discord.'
+An *arr request bot for Discord. '
 
 ---

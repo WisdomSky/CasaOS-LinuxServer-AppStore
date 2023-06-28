@@ -1,6 +1,6 @@
 # Bazarr
 
-A Companion Application To Sonarr And Radarr. It Can Manage And Download Subtitles Based On Your Requirements. You Define Your Preferences By Tv Show Or Movie And Bazarr Takes Care Of Everything For You.
+A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
 
 ---
 

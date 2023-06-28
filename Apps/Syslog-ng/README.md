@@ -1,5 +1,5 @@
-# Syslog Ng
+# Syslog ng
 
-Allows You To Flexibly Collect, Parse, Classify, Rewrite And Correlate Logs From Across Your Infrastructure And Store Or Route Them To Log Analysis Tools.
+Allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
 
 ---

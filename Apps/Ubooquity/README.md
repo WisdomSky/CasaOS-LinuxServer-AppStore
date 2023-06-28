@@ -1,6 +1,6 @@
 # Ubooquity
 
-A Free, Lightweight And Easy-to-use Home Server For Your Comics And Ebooks. Use It To Access Your Files From Anywhere, With A Tablet, An E-reader, A Phone Or A Computer.
+A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
 
 ---
 

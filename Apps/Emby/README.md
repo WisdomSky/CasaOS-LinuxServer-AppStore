@@ -1,6 +1,6 @@
 # Emby
 
-Organizes Video, Music, Live Tv, And Photos From Personal Media Libraries And Streams Them To Smart Tvs, Streaming Boxes And Mobile Devices. This Container Is Packaged As A Standalone Emby Media Server.
+Organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
 
 ---
 

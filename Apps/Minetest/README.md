@@ -1,6 +1,6 @@
 # Minetest
 
-(server) Is A Near-infinite-world Block Sandbox Game And A Game Engine, Inspired By Infiniminer, Minecraft, And The Like.
+(server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like.
 
 ---
 

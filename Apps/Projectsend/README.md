@@ -1,6 +1,6 @@
 # Projectsend
 
-A Self-hosted Application That Lets You Upload Files And Assign Them To Specific Clients That You Create Yourself. Secure, Private And Easy. No More Depending On External Services Or E-mail To Send Those Files.
+A self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
 
 ---
 

@@ -1,6 +1,6 @@
 # Oscam
 
-An Open Source Conditional Access Module Software Used For Descrambling Dvb Transmissions Using Smart Cards. It's Both A Server And A Client.
+An Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.
 
 ---
 

@@ -1,6 +1,6 @@
 # Sickchill
 
-An Automatic Video Library Manager For Tv Shows. It Watches For New Episodes Of Your Favorite Shows, And When They Are Posted It Does Its Magic.
+An Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
 
 ---
 

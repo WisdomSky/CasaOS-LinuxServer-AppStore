@@ -1,6 +1,6 @@
 # Webgrabplus
 
-A Multi-site Incremental Xmltv Epg Grabber. It Collects Tv-program Guide Data From Selected Tvguide Sites For Your Favourite Channels.
+A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
 
 ---
 

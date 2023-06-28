@@ -1,6 +1,6 @@
 # Your_spotify
 
-A Self-hosted Application That Tracks What You Listen And Offers You A Dashboard To Explore Statistics About It! It's Composed Of A Web Server Which Polls The Spotify Api Every Now And Then And A Web Application On Which You Can Explore Your Statistics.
+A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
 
 ---
 

@@ -52,12 +52,13 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
   tagline:
-    en_us: A Web Client For Quassel. Note That A Quassel-core Instance Is Required, We Have A Container Available here.
+    en_us: A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-banner.png
   title:
-    en_us: Quassel Web
+    en_us: Quassel web
   category: LinuxServer.io
+  project_url: https://github.com/magne4000/quassel-webserver
   port_map: '64080'

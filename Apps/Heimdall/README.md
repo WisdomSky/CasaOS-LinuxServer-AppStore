@@ -1,6 +1,6 @@
 # Heimdall
 
-A Way To Organise All Those Links To Your Most Used Web Sites And Web Applications In A Simple Way. Simplicity Is The Key To Heimdall. Why Not Use It As Your Browser Start Page? It Even Has The Ability To Include A Search Bar Using Either Google, Bing Or Duckduckgo.
+A way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page. It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.
 
 ---
 

@@ -1,5 +1,5 @@
 # Chromium
 
-An Open-source Browser Project That Aims To Build A Safer, Faster, And More Stable Way For All Users To Experience The Web.
+An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
 
 ---

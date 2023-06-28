@@ -1,6 +1,6 @@
 # Syncthing
 
-Replaces Proprietary Sync And Cloud Services With Something Open, Trustworthy And Decentralized. Your Data Is Your Data Alone And You Deserve To Choose Where It Is Stored, If It Is Shared With Some Third Party And How It's Transmitted Over The Internet.
+Replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
 
 ---
 

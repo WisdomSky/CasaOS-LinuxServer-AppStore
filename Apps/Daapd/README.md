@@ -1,6 +1,6 @@
 # Daapd
 
-(itunes) Media Server With Support For Airplay Devices, Apple Remote (and Compatibles), Chromecast, Mpd And Internet Radio.
+(iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), Chromecast, MPD and internet radio.
 
 ---
 

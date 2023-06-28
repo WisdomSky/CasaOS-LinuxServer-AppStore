@@ -38,7 +38,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/smokeping/'
   tagline:
-    en_us: Keeps Track Of Your Network Latency. For A Full Example Of What This Application Is Capable Of Visit ucdavis.
+    en_us: Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/smokeping-icon.png
@@ -46,4 +46,5 @@ x-casaos:
   title:
     en_us: Smokeping
   category: LinuxServer.io
+  project_url: http://oss.oetiker.ch/smokeping/
   port_map: '80'

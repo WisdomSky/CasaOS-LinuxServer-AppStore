@@ -1,6 +1,6 @@
 # Phpmyadmin
 
-A Free Software Tool Written In Php, Intended To Handle The Administration Of Mysql Over The Web. Phpmyadmin Supports A Wide Range Of Operations On Mysql And Mariadb.
+A free software tool written in PHP, intended to handle the administration of MySQL over the Web. PhpMyAdmin supports a wide range of operations on MySQL and MariaDB.
 
 ---
 

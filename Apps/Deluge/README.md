@@ -1,6 +1,6 @@
 # Deluge
 
-A Lightweight, Free Software, Cross-platform Bittorrent Client. * Full Encryption * Webui * Plugin System * Much More...
+A lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more. . .
 
 ---
 

@@ -1,6 +1,6 @@
 # Libreoffice
 
-A Free And Powerful Office Suite, And A Successor To Openoffice.org (commonly Known As Openoffice). Its Clean Interface And Feature-rich Tools Help You Unleash Your Creativity And Enhance Your Productivity.
+A free and powerful office suite, and a successor to OpenOffice. Org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
 
 ---
 

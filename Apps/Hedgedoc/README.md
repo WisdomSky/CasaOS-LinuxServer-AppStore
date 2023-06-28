@@ -1,6 +1,6 @@
 # Hedgedoc
 
-Gives You Access To All Your Files Wherever You Are. Hedgedoc Is A Real-time, Multi-platform Collaborative Markdown Note Editor. This Means That You Can Write Notes With Other People On Your Desktop, Tablet Or Even On The Phone. You Can Sign-in Via Multiple Auth Providers Like Facebook, Twitter, Github And Many More On The Homepage.
+Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
 
 ---
 

@@ -1,6 +1,6 @@
 # Domoticz
 
-A Home Automation System That Lets You Monitor And Configure Various Devices Like: Lights, Switches, Various Sensors/meters Like Temperature, Rain, Wind, Uv, Electra, Gas, Water And Much More. Notifications/alerts Can Be Sent To Any Mobile Device.
+A Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.
 
 ---
 

@@ -19,12 +19,12 @@ x-casaos:
   description:
     en_us: Nano-wallet is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.
   tagline:
-    en_us: A Digital Payment Protocol Designed To Be Accessible And Lightweight, With A Focus On Removing Inefficiencies Present In Other Cryptocurrencies. With Ultrafast Transactions And Zero Fees On A Secure, Green And Decentralized Network, This Makes Nano Ideal For Everyday Transactions. This Container Is A Simple Nginx Wrapper For The Light Wallet Located here. You Will Need To Pass A Valid Rpc Host When Accessing This Container.
+    en_us: A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
   thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
   title:
-    en_us: Nano Wallet
+    en_us: Nano wallet
   category: LinuxServer.io
   port_map: '80'

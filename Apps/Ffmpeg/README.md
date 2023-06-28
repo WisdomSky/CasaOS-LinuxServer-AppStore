@@ -1,6 +1,6 @@
 # Ffmpeg
 
-This Container Needs Special Attention. Please Check Https://hub.docker.com/r/linuxserver/ffmpeg For Details.
+This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ffmpeg for details.
 
 ---
 

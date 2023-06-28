@@ -1,6 +1,6 @@
 # Babybuddy
 
-A Buddy For Babies! Helps Caregivers Track Sleep, Feedings, Diaper Changes, Tummy Time And More To Learn About And Predict Baby's Needs Without (as Much) Guess Work.
+A buddy for babies. Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
 
 ---
 

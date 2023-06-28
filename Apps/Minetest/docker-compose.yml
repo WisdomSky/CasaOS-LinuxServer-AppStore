@@ -47,7 +47,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/minetest/'
   tagline:
-    en_us: (server) Is A Near-infinite-world Block Sandbox Game And A Game Engine, Inspired By Infiniminer, Minecraft, And The Like.
+    en_us: (server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png
@@ -55,3 +55,4 @@ x-casaos:
   title:
     en_us: Minetest
   category: LinuxServer.io
+  project_url: http://www.minetest.net/

@@ -1,6 +1,6 @@
-# Adguardhome Sync
+# Adguardhome sync
 
-A Tool To Synchronize Adguardhome Config To Replica Instances.
+A tool to synchronize AdGuardHome config to replica instances.
 
 ---
 

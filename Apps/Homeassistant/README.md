@@ -1,6 +1,6 @@
 # Homeassistant
 
-Open Source Home Automation That Puts Local Control And Privacy First. Powered By A Worldwide Community Of Tinkerers And Diy Enthusiasts. Perfect To Run On A Raspberry Pi Or A Local Server.
+Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
 ---
 

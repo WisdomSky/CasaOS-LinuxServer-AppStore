@@ -1,6 +1,6 @@
 # Webtop
 
-Alpine, Ubuntu, Fedora, And Arch Based Containers Containing Full Desktop Environments In Officially Supported Flavors Accessible Via Any Modern Web Browser.
+Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
 
 ---
 

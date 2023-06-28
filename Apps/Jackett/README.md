@@ -1,6 +1,6 @@
 # Jackett
 
-Works As A Proxy Server: It Translates Queries From Apps (sonarr, Sickrage, Couchpotato, Mylar, Etc) Into Tracker-site-specific Http Queries, Parses The Html Response, Then Sends Results Back To The Requesting Software. This Allows For Getting Recent Uploads (like Rss) And Performing Searches. Jackett Is A Single Repository Of Maintained Indexer Scraping & Translation Logic - Removing The Burden From Other Apps.
+Works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.
 
 ---
 

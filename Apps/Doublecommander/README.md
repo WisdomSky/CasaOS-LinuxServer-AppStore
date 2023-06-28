@@ -1,6 +1,6 @@
 # Doublecommander
 
-A Free Cross Platform Open Source File Manager With Two Panels Side By Side. It Is Inspired By Total Commander And Features Some New Ideas.
+A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
 
 ---
 

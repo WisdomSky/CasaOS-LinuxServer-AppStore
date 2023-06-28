@@ -1,6 +1,6 @@
 # Boinc
 
-A Platform For High-throughput Computing On A Large Scale (thousands Or Millions Of Computers). It Can Be Used For Volunteer Computing (using Consumer Devices) Or Grid Computing (using Organizational Resources). It Supports Virtualized, Parallel, And Gpu-based Applications.
+A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
 
 ---
 

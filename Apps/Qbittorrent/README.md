@@ -1,6 +1,6 @@
 # Qbittorrent
 
-The qbittorrent Project Aims To Provide An Open-source Software Alternative To Μtorrent. Qbittorrent Is Based On The Qt Toolkit And Libtorrent-rasterbar Library.
+The Qbittorrent project aims to provide an open-source software alternative to µTorrent. QBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.
 
 ---
 
