@@ -10,13 +10,13 @@ A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linux
 
 ## 📃 Table of Contents
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [List of Applications](#list-of-applications)
-- [Frequently Asked Questions / FAQs](#frequently-asked-questions)
-    - [How to Upgrade CasaOS](#how-to-upgrade-casaos)
-    - ["Error 404: Not Found" during install](#error-404-not-found-during-install)
-    - [How to uninstall the LinuxServer Appstore](#how-to-uninstall-the-linuxserver-appstore)
+- [Introduction](#-introduction)
+- [Installation](#-installation)
+- [List of Applications](#-list-of-applications)
+- [Frequently Asked Questions / FAQs](#-frequently-asked-questions)
+    - [How to Upgrade CasaOS](#-how-to-upgrade-casaos)
+    - ["Error 404: Not Found" during install](#-error-404-not-found-during-install)
+    - [How to uninstall the LinuxServer Appstore](#-how-to-uninstall-the-linuxserver-appstore)
 - [Contributing](#contributing)
 
 ---
@@ -40,7 +40,7 @@ Run the following command to install the appstore:
 casaos-cli app-management register app-store https://casaos-appstore.paodayag.dev/linuxserver.zip
 ```
 
-> **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/23.html) and above. How to upgrade? [Click here](#how-to-upgrade-casaos)**
+> **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/23.html) and above. How to upgrade? [Click here](#-how-to-upgrade-casaos)**
 
 ---
 
