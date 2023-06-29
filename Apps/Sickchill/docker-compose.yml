@@ -1,7 +1,7 @@
 name: LinuxServer-Sickchill
 services:
   app:
-    image: linuxserver/sickchill:2023.5.30
+    image: linuxserver/sickchill:2023.6.27
     restart: unless-stopped
     environment:
       PUID: $PUID
