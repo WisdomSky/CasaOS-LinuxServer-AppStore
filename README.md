@@ -5,7 +5,12 @@
 
 A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linuxserver.io/) images.
 
+---
 
+#### ☕ Treat WisdomSky a cup of coffee...
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?business=i.wisdomsky%40gmail.com&cmd=_donations&currency_code=USD&item_name=Julian+Paolo+Dayag&lc=US&return=https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore)
+
+---
 
 
 ## 📃 Table of Contents
@@ -106,7 +111,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Hishtory-server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) | 0.208.20230623 | https://hub.docker.com/r/linuxserver/hishtory-server |
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) | 2023.6.3 | https://www.home-assistant.io/ |
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) | version-1614d863 | https://github.com/Hellowlol/HTPC-Manager |
-| <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jacket-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) | 0.21.352 | https://github.com/Jackett/Jackett |
+| <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jacket-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) | 0.21.356 | https://github.com/Jackett/Jackett |
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) | 10.8.10 | https://github.com/jellyfin/jellyfin#jellyfin |
 | <img src="https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@main/default-icon.svg" width="15"/>&nbsp;&nbsp;&nbsp;[Jenkins-builder](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jenkins-builder) | version-7bbf852d | https://hub.docker.com/r/linuxserver/jenkins-builder |
 | <img src="https://kasm-ci.s3.amazonaws.com/kasm_wide.png" width="15"/>&nbsp;&nbsp;&nbsp;[Kasm](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kasm) | 1.13.0 | https://hub.docker.com/r/linuxserver/kasm |
@@ -183,7 +188,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 | <img src="https://avatars3.githubusercontent.com/u/12324908?s=200&v=4" width="15"/>&nbsp;&nbsp;&nbsp;[Tester](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tester) | version-66f677b0 | https://hub.docker.com/r/linuxserver/tester |
 | <img src="https://raw.githubusercontent.com/linuxserver/community-templates/master/lsiocommunity/img/shout-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Thelounge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Thelounge) | 4.4.1 | https://thelounge.github.io/ |
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png" width="15"/>&nbsp;&nbsp;&nbsp;[Transmission](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Transmission) | 4.0.3 | http://www.transmissionbt.com/ |
-| <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tvheadend-big.png" width="15"/>&nbsp;&nbsp;&nbsp;[Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) | version-7b5c5269 | https://www.tvheadend.org/ |
+| <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tvheadend-big.png" width="15"/>&nbsp;&nbsp;&nbsp;[Tvheadend](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Tvheadend) | version-14298acb | https://www.tvheadend.org/ |
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Ubooquity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ubooquity) | 2.1.2 | https://vaemendis.net/ubooquity/ |
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-controller-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Unifi-controller](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Unifi-controller) | 7.4.156 | https://www.ui.com/software/ |
 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) | 1.79.2 | https://hub.docker.com/r/linuxserver/vscodium |
