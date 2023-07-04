@@ -1,7 +1,7 @@
 name: LinuxServer-Github-desktop
 services:
   app:
-    image: linuxserver/github-desktop:3.2.1
+    image: linuxserver/github-desktop:3.2.5
     restart: unless-stopped
     environment:
       PUID: $PUID
