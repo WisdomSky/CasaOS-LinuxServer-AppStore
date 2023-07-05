@@ -1,7 +1,7 @@
 name: LinuxServer-Nntp2nntp
 services:
   app:
-    image: linuxserver/nntp2nntp:0.3.20221013
+    image: linuxserver/nntp2nntp:0.3.20230704
     restart: unless-stopped
     environment:
       PUID: $PUID
