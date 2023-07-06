@@ -1,7 +1,7 @@
 name: LinuxServer-Rdesktop
 services:
   app:
-    image: linuxserver/rdesktop:fedora-kde-version-8e5e356c
+    image: linuxserver/rdesktop:arch-icewm-version-2023-06-30
     restart: unless-stopped
     environment:
       PUID: $PUID
