@@ -1,7 +1,7 @@
 name: LinuxServer-Babybuddy
 services:
   app:
-    image: linuxserver/babybuddy:1.16.0
+    image: linuxserver/babybuddy:2.0.0
     restart: unless-stopped
     environment:
       PUID: $PUID
