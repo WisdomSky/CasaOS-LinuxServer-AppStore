@@ -1,7 +1,7 @@
 name: LinuxServer-Tautulli
 services:
   app:
-    image: linuxserver/tautulli:2.12.4
+    image: linuxserver/tautulli:2.12.5
     restart: unless-stopped
     environment:
       PUID: $PUID
