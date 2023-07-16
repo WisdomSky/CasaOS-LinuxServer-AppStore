@@ -226,6 +226,10 @@ Run the following command:
 
 ---
 
+## 😉 Check out our other Appstores
+
+- [CasaOS Coolstore](https://github.com/WisdomSky/CasaOS-Coolstore) - Just an another CasaOS third-party Appstore with ❄Cool❄ apps. 
+- [CasaOS Edge Appstore](https://github.com/WisdomSky/CasaOS-AppStore-Edge) - A forked version of the official CasaOS Appstore but with updated versions.
 
 ## Acknowledgements
 * [technorabilia](https://github.com/technorabilia)
