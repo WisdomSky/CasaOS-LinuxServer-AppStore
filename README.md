@@ -7,6 +7,8 @@ A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linux
 
 ---
 
+> ⚠ The information below is updated for **v0.4.4**. For those who are still using **v0.4.4-alpha**, you can access the old information [here](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/blob/0f38afdf408892f7683dc56db40903f366489633/README.md).
+
 #### ☕ Treat WisdomSky a cup of coffee...
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?business=i.wisdomsky%40gmail.com&cmd=_donations&currency_code=USD&item_name=Julian+Paolo+Dayag&lc=US&return=https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore)
 
@@ -20,8 +22,6 @@ A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linux
 - [List of Applications](#-list-of-applications)
 - [Frequently Asked Questions / FAQs](#-frequently-asked-questions)
     - [How to Upgrade CasaOS](#-how-to-upgrade-casaos)
-    - ["Error 404: Not Found" during install](#-error-404-not-found-during-install)
-    - [How to uninstall the LinuxServer Appstore](#-how-to-uninstall-the-linuxserver-appstore)
 - [Contributing](#contributing)
 
 ---
@@ -40,12 +40,21 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 
 ## ✅ Installation
 
-Run the following command to install the appstore:
-```bash
-casaos-cli app-management register app-store https://casaos-appstore.paodayag.dev/linuxserver.zip
-```
+- Go to your CasaOS dashboard.
 
-> **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/23.html) and above. How to upgrade? [Click here](#-how-to-upgrade-casaos)**
+  ![Step 1](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/img/tip-1.jpg)
+
+- Open the appstore and click **Add Source** button  located on the right just above the apps list.
+
+  ![Step 2](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/img/tip-2.jpg)
+
+- Paste the appstore link `https://casaos-appstore.paodayag.dev/linuxserver.zip` and then submit.
+
+  ![Step 3](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/img/tip-3.jpg)
+
+- Wait for the installation to finish. Done!
+
+> **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/32.html) and above. How to upgrade? [Click here](#-how-to-upgrade-casaos)**
 
 ---
 
@@ -212,34 +221,7 @@ casaos-cli app-management register app-store https://casaos-appstore.paodayag.de
 
 Run the following command:
 
-    curl -fsSL https://get.casaos.io/update/v0.4.4-alpha | sudo bash
-
-
-### 👉 Error 404 Not Found during install
-
-This could be caused by your CasaOS running on a port other than the default `port 80`. You need to add the `-u` flag at the end to tell command which port your CasaOS is running:
-
-```bash
-casaos-cli app-management register app-store https://casaos-appstore.paodayag.dev/linuxserver.zip -u "localhost:<my-casa-os-port>"
-```
-
-Replace `<my-casa-os-port>` with the port where your CasaOS is running. For example if my CasaOS is running on port 99:
-
-```bash
-casaos-cli app-management register app-store https://casaos-appstore.paodayag.dev/linuxserver.zip -u "localhost:99"
-```
-
-### 👉 How to uninstall the LinuxServer Appstore
-
-Get the assigned ID of the LinuxServer Appstore:
-
-    casaos-cli app-management list app-stores
-
-Unregister the LinuxServer Appstore:
-
-    casaos-cli app-management unregister app-store <linuxserver-appstore-id>
-
-> NOTE: Replace <linuxserver-appstore-id> with the corresponding ID of the LinuxServer Appstore.
+    curl -fsSL https://get.casaos.io/update/v0.4.4 | sudo bash
 
 ---
 
