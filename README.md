@@ -6,13 +6,13 @@
 A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linuxserver.io/) images.
 
 ---
-
-> ⚠ The information below is updated for **v0.4.4**. For those who are still using **v0.4.4-alpha**, you can access the old information [here](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/blob/0f38afdf408892f7683dc56db40903f366489633/README.md).
-
 #### ☕ Treat WisdomSky a cup of coffee...
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?business=i.wisdomsky%40gmail.com&cmd=_donations&currency_code=USD&item_name=Julian+Paolo+Dayag&lc=US&return=https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore)
 
 ---
+
+
+> ⚠ The information below is updated for **v0.4.4**. For those who are still using **v0.4.4-alpha**, you can access the old information [here](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/blob/0f38afdf408892f7683dc56db40903f366489633/README.md).
 
 
 ## 📃 Table of Contents
@@ -42,15 +42,15 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 
 - Go to your CasaOS dashboard.
 
-  ![Step 1](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/img/tip-1.jpg)
+  ![Step 1](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/tip-1.jpg)
 
 - Open the appstore and click **Add Source** button  located on the right just above the apps list.
 
-  ![Step 2](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/img/tip-2.jpg)
+  ![Step 2](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/tip-2.jpg)
 
 - Paste the appstore link `https://casaos-appstore.paodayag.dev/linuxserver.zip` and then submit.
 
-  ![Step 3](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/img/tip-3.jpg)
+  ![Step 3](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/tip-3.jpg)
 
 - Wait for the installation to finish. Done!
 
