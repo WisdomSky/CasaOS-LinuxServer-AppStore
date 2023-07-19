@@ -1,7 +1,7 @@
 name: LinuxServer-Webtop
 services:
   app:
-    image: linuxserver/webtop:fedora-xfce-version-44d5f367
+    image: linuxserver/webtop:ubuntu-mate-version-c1027207
     restart: unless-stopped
     environment:
       PUID: $PUID
