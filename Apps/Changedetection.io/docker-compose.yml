@@ -1,7 +1,7 @@
 name: LinuxServer-Changedetection.io
 services:
   app:
-    image: linuxserver/changedetection.io:0.44.20230717
+    image: linuxserver/changedetection.io:0.44.20230719
     restart: unless-stopped
     environment:
       PUID: $PUID
