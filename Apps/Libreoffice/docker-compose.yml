@@ -1,7 +1,7 @@
 name: LinuxServer-Libreoffice
 services:
   app:
-    image: linuxserver/libreoffice:7.5.3
+    image: linuxserver/libreoffice:7.5.5
     restart: unless-stopped
     environment:
       PUID: $PUID
