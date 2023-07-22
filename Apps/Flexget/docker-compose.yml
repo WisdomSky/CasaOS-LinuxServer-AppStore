@@ -1,0 +1,56 @@
+name: LinuxServer-Flexget
+services:
+  app:
+    image: linuxserver/flexget:3.7.10
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      FG_LOG_LEVEL: ''
+      FG_WEBUI_PASSWORD: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: FG_LOG_LEVEL
+          description:
+            en_us: Set the FlexGet logging level.
+        - container: FG_WEBUI_PASSWORD
+          description:
+            en_us: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters.
+    ports:
+      - target: 5050
+        published: 5050
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/flexget/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/flexget/data
+        target: /data
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  main: app
+  description:
+    en_us: Flexget is a multipurpose automation tool for all of your media.
+  tagline:
+    en_us: A multipurpose automation tool for all of your media.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
+  title:
+    en_us: Flexget
+  category: LinuxServer.io
