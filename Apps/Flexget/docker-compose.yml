@@ -8,6 +8,8 @@ services:
       PGID: $PGID
       TZ: $TZ
       FG_LOG_LEVEL: ''
+      FG_LOG_FILE: ''
+      FG_CONFIG_FILE: ''
       FG_WEBUI_PASSWORD: ''
     x-casaos:
       envs:
@@ -23,6 +25,12 @@ services:
         - container: FG_LOG_LEVEL
           description:
             en_us: Set the FlexGet logging level.
+        - container: FG_LOG_FILE
+          description:
+            en_us: Set the FlexGet log file location.
+        - container: FG_CONFIG_FILE
+          description:
+            en_us: Set the FlexGet config file location.
         - container: FG_WEBUI_PASSWORD
           description:
             en_us: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters.

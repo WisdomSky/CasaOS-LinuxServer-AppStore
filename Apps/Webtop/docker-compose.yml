@@ -1,7 +1,7 @@
 name: LinuxServer-Webtop
 services:
   app:
-    image: linuxserver/webtop:ubuntu-kde-version-f20b5ab6
+    image: linuxserver/webtop:arch-openbox-version-740c6c33
     restart: unless-stopped
     environment:
       PUID: $PUID
