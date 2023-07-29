@@ -40,8 +40,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm
-    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/audacity'

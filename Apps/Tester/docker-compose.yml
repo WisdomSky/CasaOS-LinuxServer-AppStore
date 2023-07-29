@@ -17,8 +17,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm
-    - arm64
   main: app
   description:
     en_us: This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
