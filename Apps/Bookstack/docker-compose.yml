@@ -38,7 +38,7 @@ services:
             en_us: for specifying the database user
         - container: DB_PASS
           description:
-            en_us: for specifying the database password (non-alphanumeric passwords must be properly escaped.)
+            en_us: for specifying the database password (minimum 4 characters & non-alphanumeric passwords must be properly escaped.)
         - container: DB_DATABASE
           description:
             en_us: for specifying the database to be used
