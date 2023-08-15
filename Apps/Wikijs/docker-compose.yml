@@ -1,7 +1,7 @@
 name: LinuxServer-Wikijs
 services:
   app:
-    image: linuxserver/wikijs:2.5.299
+    image: linuxserver/wikijs:2.5.300
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -66,8 +66,8 @@ services:
         target: /data
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/wikijs/'

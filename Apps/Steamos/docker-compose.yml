@@ -1,0 +1,74 @@
+name: LinuxServer-Steamos
+services:
+  app:
+    image: linuxserver/steamos:version-2023-08-11
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DRINODE: ''
+      HOST_IP: ''
+      STARTUP: ''
+      RESOLUTION: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: DRINODE
+          description:
+            en_us: Specify the render device (GPU) for the contianer to use.
+        - container: HOST_IP
+          description:
+            en_us: Specify the IP of the host, needed for LAN Remote Play.
+        - container: STARTUP
+          description:
+            en_us: KDE to boot into desktop mode, BIGPICTURE to boot into gamescope.
+        - container: RESOLUTION
+          description:
+            en_us: When booting into BIGPICTURE mode the screen resolution will be bound to this value.
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+      - target: .nan
+        published: .nan
+        protocol: udp
+      - target: .nan
+        published: .nan
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/steamos/config
+        target: /config
+      - type: bind
+        source: /dev/input
+        target: /dev/input
+      - type: bind
+        source: /run/udev/data
+        target: /run/udev/data
+x-casaos:
+  architectures:
+    - amd64
+  main: app
+  description:
+    en_us: SteamOS is an Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern AMD/Intel GPUs on a real Linux Host
+  tagline:
+    en_us: An Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern AMD/Intel GPUs on a real Linux Host
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steamos-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steamos-logo.png
+  title:
+    en_us: Steamos
+  category: LinuxServer.io
