@@ -41,12 +41,6 @@ services:
       - target: 3001
         published: 3001
         protocol: tcp
-      - target: .nan
-        published: .nan
-        protocol: udp
-      - target: .nan
-        published: .nan
-        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/steamos/config
