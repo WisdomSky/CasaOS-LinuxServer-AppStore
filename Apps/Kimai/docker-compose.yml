@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: DATABASE_URL
           description:
-            en_us: Configure your database connection
+            en_us: Configure your database connection, see Application Setup instructions.
     ports:
       - target: 80
         published: 80
