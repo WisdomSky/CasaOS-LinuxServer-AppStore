@@ -32,8 +32,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
