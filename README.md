@@ -2,17 +2,12 @@
 ![CasaOS LinuxServer AppStore](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/banner.png)
 
 # CasaOS LinuxServer AppStore
-
 A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linuxserver.io/) images.
 
 ---
-#### ☕ Treat WisdomSky a cup of coffee...
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RYAFEWHVZCZ62)
+![Number of installs](https://counter.paodayag.dev/badge/linuxserver?silent=true&label=Installs) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RYAFEWHVZCZ62) 👈 ☕ Treat me a cup of coffee...
 
 ---
-
-
-> ⚠ The information below is updated for **v0.4.4**. For those who are still using **v0.4.4-alpha**, you can access the old information [here](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/blob/0f38afdf408892f7683dc56db40903f366489633/README.md).
 
 
 ## 📃 Table of Contents
@@ -65,7 +60,7 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 | --- | --- | --- | --- |
 | 1 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Adguardhome sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Adguardhome-sync) | 0.4.15 | A tool to synchronize AdGuardHome config to replica instances. |
 | 2 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Airsonic advanced](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Airsonic-advanced) | 11.0.0 | A free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room. |
-| 3 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apprise-api.png" width="15"/>&nbsp;&nbsp;&nbsp;[Apprise api](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Apprise-api) | 0.9.3 | Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more then 65+ services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution. |
+| 3 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apprise-api.png" width="15"/>&nbsp;&nbsp;&nbsp;[Apprise api](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Apprise-api) | 0.9.4 | Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more then 65+ services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution. |
 | 4 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Audacity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Audacity) | 3.3.3 | An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source. |
 | 5 | <img src="https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Babybuddy](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Babybuddy) | 2.0.4 | A buddy for babies. Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work. |
 | 6 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png" width="15"/>&nbsp;&nbsp;&nbsp;[Bazarr](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Bazarr) | 1.2.4 | A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. |
@@ -119,7 +114,7 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 | 54 | <img src="https://raw.githubusercontent.com/healthchecks/healthchecks/master/static/img/welcome.png" width="15"/>&nbsp;&nbsp;&nbsp;[Healthchecks](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Healthchecks) | 2.10.20230821 | A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface. |
 | 55 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc.png" width="15"/>&nbsp;&nbsp;&nbsp;[Hedgedoc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hedgedoc) | 1.9.9 | Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage. |
 | 56 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Heimdall](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Heimdall) | 2.5.6 | A way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page. It even has the ability to include a search bar using either Google, Bing or DuckDuckGo. |
-| 57 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Hishtory server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) | 0.208.20230818 | A better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. |
+| 57 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Hishtory server](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Hishtory-server) | 0.210.20230828 | A better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers. |
 | 58 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Homeassistant](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Homeassistant) | 2023.8.4 | Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. |
 | 59 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) | version-1614d863 | A front end for many htpc related applications. |
 | 60 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jacket-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) | 0.21.705 | Works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps. |
@@ -245,12 +240,4 @@ Run the following command:
 
 Contributing to this Appstore is temporarily not possible at the moment. Please refrain from submitting PRs into this repository.
 
-This repository is auto-generated by a separate tool [CasaOS-Balhin](https://github.com/WisdomSky/CasaOS-Balhin/tree/linuxserver), we will publicize it in the near future to allow the community to make changes to this appstore.
-
-We are still currently in the process of revamping the tool to make adding conttributions easier.
-
-Please watch out as we open it to the public in the future.
-
----
-
-Generated with ❤️ using [CasaOS-Balhin](https://github.com/WisdomSky/CasaOS-Balhin/tree/linuxserver)
+Updates to this repository is auto-generated by a script.
