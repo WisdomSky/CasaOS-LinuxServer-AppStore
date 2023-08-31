@@ -1,7 +1,7 @@
 name: LinuxServer-Transmission
 services:
   app:
-    image: linuxserver/transmission:4.0.3
+    image: linuxserver/transmission:4.0.4
     restart: unless-stopped
     environment:
       PUID: $PUID
