@@ -1,7 +1,7 @@
 name: LinuxServer-Steamos
 services:
   app:
-    image: linuxserver/steamos:version-2023-08-25
+    image: linuxserver/steamos:version-2023-09-01
     restart: unless-stopped
     environment:
       PUID: $PUID
