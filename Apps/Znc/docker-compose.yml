@@ -1,4 +1,4 @@
-name: LinuxServer-Znc
+name: linuxserver-znc
 services:
   app:
     image: linuxserver/znc:1.8.2

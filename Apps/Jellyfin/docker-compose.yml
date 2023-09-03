@@ -1,4 +1,4 @@
-name: LinuxServer-Jellyfin
+name: linuxserver-jellyfin
 services:
   app:
     image: linuxserver/jellyfin:10.8.10

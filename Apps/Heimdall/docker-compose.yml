@@ -1,4 +1,4 @@
-name: LinuxServer-Heimdall
+name: linuxserver-heimdall
 services:
   app:
     image: linuxserver/heimdall:2.5.6

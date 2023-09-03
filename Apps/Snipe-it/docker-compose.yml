@@ -1,4 +1,4 @@
-name: LinuxServer-Snipe-it
+name: linuxserver-snipe-it
 services:
   app:
     image: linuxserver/snipe-it:6.1.2

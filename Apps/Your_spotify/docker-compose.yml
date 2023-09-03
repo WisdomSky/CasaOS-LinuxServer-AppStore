@@ -1,4 +1,4 @@
-name: LinuxServer-Your_spotify
+name: linuxserver-your_spotify
 services:
   app:
     image: linuxserver/your_spotify:1.7.0

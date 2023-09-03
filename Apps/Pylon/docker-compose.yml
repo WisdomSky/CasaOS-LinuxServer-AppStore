@@ -1,4 +1,4 @@
-name: LinuxServer-Pylon
+name: linuxserver-pylon
 services:
   app:
     image: linuxserver/pylon:2.10.0

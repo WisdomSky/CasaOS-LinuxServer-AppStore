@@ -1,4 +1,4 @@
-name: LinuxServer-Freshrss
+name: linuxserver-freshrss
 services:
   app:
     image: linuxserver/freshrss:1.21.0

@@ -1,4 +1,4 @@
-name: LinuxServer-Qdirstat
+name: linuxserver-qdirstat
 services:
   app:
     image: linuxserver/qdirstat:1.8.1

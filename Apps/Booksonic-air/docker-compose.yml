@@ -1,4 +1,4 @@
-name: LinuxServer-Booksonic-air
+name: linuxserver-booksonic-air
 services:
   app:
     image: linuxserver/booksonic-air:2201.1.0

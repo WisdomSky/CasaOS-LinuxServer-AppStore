@@ -1,4 +1,4 @@
-name: LinuxServer-Boinc
+name: linuxserver-boinc
 services:
   app:
     image: linuxserver/boinc:7.20.5

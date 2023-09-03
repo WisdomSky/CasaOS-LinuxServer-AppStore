@@ -1,4 +1,4 @@
-name: LinuxServer-Steamos
+name: linuxserver-steamos
 services:
   app:
     image: linuxserver/steamos:version-2023-09-01

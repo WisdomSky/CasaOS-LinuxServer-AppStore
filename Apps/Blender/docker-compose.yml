@@ -1,4 +1,4 @@
-name: LinuxServer-Blender
+name: linuxserver-blender
 services:
   app:
     image: linuxserver/blender:3.6.2

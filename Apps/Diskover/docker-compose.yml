@@ -1,4 +1,4 @@
-name: LinuxServer-Diskover
+name: linuxserver-diskover
 services:
   app:
     image: linuxserver/diskover:2.1.1

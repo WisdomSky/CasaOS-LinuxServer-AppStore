@@ -1,4 +1,4 @@
-name: LinuxServer-Nginx
+name: linuxserver-nginx
 services:
   app:
     image: linuxserver/nginx:1.24.0

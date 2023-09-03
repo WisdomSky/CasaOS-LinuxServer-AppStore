@@ -1,4 +1,4 @@
-name: LinuxServer-Swag
+name: linuxserver-swag
 services:
   app:
     image: linuxserver/swag:2.6.0

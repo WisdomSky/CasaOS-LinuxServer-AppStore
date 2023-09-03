@@ -1,4 +1,4 @@
-name: LinuxServer-Rsnapshot
+name: linuxserver-rsnapshot
 services:
   app:
     image: linuxserver/rsnapshot:1.4.5

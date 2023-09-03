@@ -1,4 +1,4 @@
-name: LinuxServer-Projectsend
+name: linuxserver-projectsend
 services:
   app:
     image: linuxserver/projectsend:version-r1605

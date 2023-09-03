@@ -1,4 +1,4 @@
-name: LinuxServer-Davos
+name: linuxserver-davos
 services:
   app:
     image: linuxserver/davos:2.2.2

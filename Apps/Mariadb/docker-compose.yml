@@ -1,4 +1,4 @@
-name: LinuxServer-Mariadb
+name: linuxserver-mariadb
 services:
   app:
     image: linuxserver/mariadb:10.11.4

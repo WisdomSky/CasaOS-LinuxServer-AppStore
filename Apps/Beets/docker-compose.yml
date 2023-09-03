@@ -1,4 +1,4 @@
-name: LinuxServer-Beets
+name: linuxserver-beets
 services:
   app:
     image: linuxserver/beets:1.6.0

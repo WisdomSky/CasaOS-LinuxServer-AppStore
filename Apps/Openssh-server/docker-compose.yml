@@ -1,4 +1,4 @@
-name: LinuxServer-Openssh-server
+name: linuxserver-openssh-server
 services:
   app:
     image: linuxserver/openssh-server:version-9.3_p2-r0

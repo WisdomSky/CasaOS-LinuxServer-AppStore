@@ -1,4 +1,4 @@
-name: LinuxServer-Deluge
+name: linuxserver-deluge
 services:
   app:
     image: linuxserver/deluge:2.1.1

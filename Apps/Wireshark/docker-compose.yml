@@ -1,4 +1,4 @@
-name: LinuxServer-Wireshark
+name: linuxserver-wireshark
 services:
   app:
     image: linuxserver/wireshark:4.0.7

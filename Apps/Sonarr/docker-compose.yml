@@ -1,4 +1,4 @@
-name: LinuxServer-Sonarr
+name: linuxserver-sonarr
 services:
   app:
     image: linuxserver/sonarr:3.0.10

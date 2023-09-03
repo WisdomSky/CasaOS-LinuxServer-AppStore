@@ -1,4 +1,4 @@
-name: LinuxServer-Readme-sync
+name: linuxserver-readme-sync
 services:
   app:
     image: linuxserver/readme-sync:version-3b8d7fb8

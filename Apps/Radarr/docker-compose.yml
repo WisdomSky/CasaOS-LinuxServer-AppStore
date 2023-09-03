@@ -1,4 +1,4 @@
-name: LinuxServer-Radarr
+name: linuxserver-radarr
 services:
   app:
     image: linuxserver/radarr:4.7.5

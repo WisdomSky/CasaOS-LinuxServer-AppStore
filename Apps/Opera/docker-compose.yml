@@ -1,4 +1,4 @@
-name: LinuxServer-Opera
+name: linuxserver-opera
 services:
   app:
     image: linuxserver/opera:102.0.4880

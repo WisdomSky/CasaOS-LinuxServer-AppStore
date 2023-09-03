@@ -1,4 +1,4 @@
-name: LinuxServer-Ubooquity
+name: linuxserver-ubooquity
 services:
   app:
     image: linuxserver/ubooquity:2.1.2

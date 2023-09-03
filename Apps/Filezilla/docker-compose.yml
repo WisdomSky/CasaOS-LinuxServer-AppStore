@@ -1,4 +1,4 @@
-name: LinuxServer-Filezilla
+name: linuxserver-filezilla
 services:
   app:
     image: linuxserver/filezilla:3.64.0

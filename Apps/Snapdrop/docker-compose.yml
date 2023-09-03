@@ -1,4 +1,4 @@
-name: LinuxServer-Snapdrop
+name: linuxserver-snapdrop
 services:
   app:
     image: linuxserver/snapdrop:version-eac78009

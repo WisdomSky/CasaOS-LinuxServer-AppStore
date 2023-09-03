@@ -1,4 +1,4 @@
-name: LinuxServer-Tautulli
+name: linuxserver-tautulli
 services:
   app:
     image: linuxserver/tautulli:2.13.1

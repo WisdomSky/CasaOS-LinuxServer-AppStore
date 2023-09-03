@@ -1,4 +1,4 @@
-name: LinuxServer-Github-desktop
+name: linuxserver-github-desktop
 services:
   app:
     image: linuxserver/github-desktop:3.3.1

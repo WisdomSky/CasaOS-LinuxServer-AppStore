@@ -1,4 +1,4 @@
-name: LinuxServer-Doublecommander
+name: linuxserver-doublecommander
 services:
   app:
     image: linuxserver/doublecommander:version-033ff38e

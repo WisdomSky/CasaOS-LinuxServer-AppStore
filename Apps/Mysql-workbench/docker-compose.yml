@@ -1,4 +1,4 @@
-name: LinuxServer-Mysql-workbench
+name: linuxserver-mysql-workbench
 services:
   app:
     image: linuxserver/mysql-workbench:8.0.34

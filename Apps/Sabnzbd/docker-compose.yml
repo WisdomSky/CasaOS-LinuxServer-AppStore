@@ -1,4 +1,4 @@
-name: LinuxServer-Sabnzbd
+name: linuxserver-sabnzbd
 services:
   app:
     image: linuxserver/sabnzbd:4.0.3

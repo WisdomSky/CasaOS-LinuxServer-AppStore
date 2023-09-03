@@ -1,4 +1,4 @@
-name: LinuxServer-Openvscode-server
+name: linuxserver-openvscode-server
 services:
   app:
     image: linuxserver/openvscode-server:1.81.1

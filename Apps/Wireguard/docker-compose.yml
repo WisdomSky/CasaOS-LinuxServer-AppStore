@@ -1,4 +1,4 @@
-name: LinuxServer-Wireguard
+name: linuxserver-wireguard
 services:
   app:
     image: linuxserver/wireguard:1.0.20210914

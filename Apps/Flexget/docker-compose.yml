@@ -1,4 +1,4 @@
-name: LinuxServer-Flexget
+name: linuxserver-flexget
 services:
   app:
     image: linuxserver/flexget:3.9.6

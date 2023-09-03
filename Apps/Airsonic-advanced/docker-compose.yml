@@ -1,4 +1,4 @@
-name: LinuxServer-Airsonic-advanced
+name: linuxserver-airsonic-advanced
 services:
   app:
     image: linuxserver/airsonic-advanced:11.0.0

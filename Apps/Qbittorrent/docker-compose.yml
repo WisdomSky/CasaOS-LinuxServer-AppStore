@@ -1,4 +1,4 @@
-name: LinuxServer-Qbittorrent
+name: linuxserver-qbittorrent
 services:
   app:
     image: linuxserver/qbittorrent:4.5.5

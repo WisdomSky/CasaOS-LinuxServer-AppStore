@@ -1,4 +1,4 @@
-name: LinuxServer-Nntp2nntp
+name: linuxserver-nntp2nntp
 services:
   app:
     image: linuxserver/nntp2nntp:0.3.20230704

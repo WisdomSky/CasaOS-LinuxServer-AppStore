@@ -1,4 +1,4 @@
-name: LinuxServer-Webgrabplus
+name: linuxserver-webgrabplus
 services:
   app:
     image: linuxserver/webgrabplus:5.1.1

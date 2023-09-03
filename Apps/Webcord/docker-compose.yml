@@ -1,4 +1,4 @@
-name: LinuxServer-Webcord
+name: linuxserver-webcord
 services:
   app:
     image: linuxserver/webcord:4.4.0

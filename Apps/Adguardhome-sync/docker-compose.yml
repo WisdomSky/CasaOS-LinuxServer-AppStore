@@ -1,4 +1,4 @@
-name: LinuxServer-Adguardhome-sync
+name: linuxserver-adguardhome-sync
 services:
   app:
     image: linuxserver/adguardhome-sync:0.4.15

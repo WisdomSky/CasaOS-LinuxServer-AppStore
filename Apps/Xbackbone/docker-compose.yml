@@ -1,4 +1,4 @@
-name: LinuxServer-Xbackbone
+name: linuxserver-xbackbone
 services:
   app:
     image: linuxserver/xbackbone:3.6.3

@@ -1,4 +1,4 @@
-name: LinuxServer-Syslog-ng
+name: linuxserver-syslog-ng
 services:
   app:
     image: linuxserver/syslog-ng:4.1.1

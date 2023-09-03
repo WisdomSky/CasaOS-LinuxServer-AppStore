@@ -1,4 +1,4 @@
-name: LinuxServer-Plex-meta-manager
+name: linuxserver-plex-meta-manager
 services:
   app:
     image: linuxserver/plex-meta-manager:1.19.0

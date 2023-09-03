@@ -1,4 +1,4 @@
-name: LinuxServer-Netbootxyz
+name: linuxserver-netbootxyz
 services:
   app:
     image: linuxserver/netbootxyz:0.6.8

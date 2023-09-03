@@ -1,4 +1,4 @@
-name: LinuxServer-Fail2ban
+name: linuxserver-fail2ban
 services:
   app:
     image: linuxserver/fail2ban:1.0.2

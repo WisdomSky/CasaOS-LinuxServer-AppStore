@@ -1,4 +1,4 @@
-name: LinuxServer-Transmission
+name: linuxserver-transmission
 services:
   app:
     image: linuxserver/transmission:4.0.4

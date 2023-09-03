@@ -1,4 +1,4 @@
-name: LinuxServer-Duckdns
+name: linuxserver-duckdns
 services:
   app:
     image: linuxserver/duckdns:version-a724b012

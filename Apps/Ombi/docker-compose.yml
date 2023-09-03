@@ -1,4 +1,4 @@
-name: LinuxServer-Ombi
+name: linuxserver-ombi
 services:
   app:
     image: linuxserver/ombi:4.43.5

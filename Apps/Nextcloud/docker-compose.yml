@@ -1,4 +1,4 @@
-name: LinuxServer-Nextcloud
+name: linuxserver-nextcloud
 services:
   app:
     image: linuxserver/nextcloud:27.0.2

@@ -1,4 +1,4 @@
-name: LinuxServer-Lidarr
+name: linuxserver-lidarr
 services:
   app:
     image: linuxserver/lidarr:1.3.5

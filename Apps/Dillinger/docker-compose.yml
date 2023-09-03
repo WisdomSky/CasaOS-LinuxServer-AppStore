@@ -1,4 +1,4 @@
-name: LinuxServer-Dillinger
+name: linuxserver-dillinger
 services:
   app:
     image: linuxserver/dillinger:3.39.1

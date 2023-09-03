@@ -1,4 +1,4 @@
-name: LinuxServer-Emby
+name: linuxserver-emby
 services:
   app:
     image: linuxserver/emby:4.7.14

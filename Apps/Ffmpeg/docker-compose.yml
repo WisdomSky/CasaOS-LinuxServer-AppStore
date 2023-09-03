@@ -1,4 +1,4 @@
-name: LinuxServer-Ffmpeg
+name: linuxserver-ffmpeg
 services:
   app:
     image: linuxserver/ffmpeg:5.1.2

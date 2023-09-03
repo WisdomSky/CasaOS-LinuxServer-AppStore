@@ -1,4 +1,4 @@
-name: LinuxServer-Apprise-api
+name: linuxserver-apprise-api
 services:
   app:
     image: linuxserver/apprise-api:0.9.4

@@ -1,4 +1,4 @@
-name: LinuxServer-Ngircd
+name: linuxserver-ngircd
 services:
   app:
     image: linuxserver/ngircd:version-26.1-r4

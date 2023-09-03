@@ -1,4 +1,4 @@
-name: LinuxServer-Hishtory-server
+name: linuxserver-hishtory-server
 services:
   app:
     image: linuxserver/hishtory-server:0.211.20230828

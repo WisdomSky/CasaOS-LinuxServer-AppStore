@@ -1,4 +1,4 @@
-name: LinuxServer-Nzbhydra2
+name: linuxserver-nzbhydra2
 services:
   app:
     image: linuxserver/nzbhydra2:5.1.10

@@ -1,4 +1,4 @@
-name: LinuxServer-Mylar3
+name: linuxserver-mylar3
 services:
   app:
     image: linuxserver/mylar3:0.7.5

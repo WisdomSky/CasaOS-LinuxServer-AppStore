@@ -1,4 +1,4 @@
-name: LinuxServer-Embystat
+name: linuxserver-embystat
 services:
   app:
     image: linuxserver/embystat:0.2.0

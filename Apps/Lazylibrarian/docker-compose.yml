@@ -1,4 +1,4 @@
-name: LinuxServer-Lazylibrarian
+name: linuxserver-lazylibrarian
 services:
   app:
     image: linuxserver/lazylibrarian:version-3e27eb10

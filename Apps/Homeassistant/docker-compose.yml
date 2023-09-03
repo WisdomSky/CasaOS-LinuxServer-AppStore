@@ -1,4 +1,4 @@
-name: LinuxServer-Homeassistant
+name: linuxserver-homeassistant
 services:
   app:
     image: linuxserver/homeassistant:2023.8.4

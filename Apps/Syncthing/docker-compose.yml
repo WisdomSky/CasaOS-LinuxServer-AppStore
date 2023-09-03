@@ -1,4 +1,4 @@
-name: LinuxServer-Syncthing
+name: linuxserver-syncthing
 services:
   app:
     image: linuxserver/syncthing:1.23.7

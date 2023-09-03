@@ -1,4 +1,4 @@
-name: LinuxServer-Rdesktop
+name: linuxserver-rdesktop
 services:
   app:
     image: linuxserver/rdesktop:arch-kde-version-2023-09-01

@@ -1,4 +1,4 @@
-name: LinuxServer-Emulatorjs
+name: linuxserver-emulatorjs
 services:
   app:
     image: linuxserver/emulatorjs:1.7.2

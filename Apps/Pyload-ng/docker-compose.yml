@@ -1,4 +1,4 @@
-name: LinuxServer-Pyload-ng
+name: linuxserver-pyload-ng
 services:
   app:
     image: linuxserver/pyload-ng:0.5.0

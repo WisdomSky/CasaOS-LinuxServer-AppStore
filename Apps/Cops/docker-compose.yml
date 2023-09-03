@@ -1,4 +1,4 @@
-name: LinuxServer-Cops
+name: linuxserver-cops
 services:
   app:
     image: linuxserver/cops:1.4.3

@@ -1,4 +1,4 @@
-name: LinuxServer-Minetest
+name: linuxserver-minetest
 services:
   app:
     image: linuxserver/minetest:5.7.0

@@ -1,4 +1,4 @@
-name: LinuxServer-Code-server
+name: linuxserver-code-server
 services:
   app:
     image: linuxserver/code-server:4.16.1

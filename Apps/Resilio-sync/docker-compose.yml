@@ -1,4 +1,4 @@
-name: LinuxServer-Resilio-sync
+name: linuxserver-resilio-sync
 services:
   app:
     image: linuxserver/resilio-sync:2.7.3

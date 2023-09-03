@@ -1,4 +1,4 @@
-name: LinuxServer-Headphones
+name: linuxserver-headphones
 services:
   app:
     image: linuxserver/headphones:version-a78f38c1

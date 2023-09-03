@@ -1,4 +1,4 @@
-name: LinuxServer-Audacity
+name: linuxserver-audacity
 services:
   app:
     image: linuxserver/audacity:3.3.3

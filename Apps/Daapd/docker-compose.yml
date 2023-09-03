@@ -1,4 +1,4 @@
-name: LinuxServer-Daapd
+name: linuxserver-daapd
 services:
   app:
     image: linuxserver/daapd:28.7.20230828

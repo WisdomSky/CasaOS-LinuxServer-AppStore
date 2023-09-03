@@ -1,4 +1,4 @@
-name: LinuxServer-Thelounge
+name: linuxserver-thelounge
 services:
   app:
     image: linuxserver/thelounge:4.4.1

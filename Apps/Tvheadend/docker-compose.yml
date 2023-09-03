@@ -1,4 +1,4 @@
-name: LinuxServer-Tvheadend
+name: linuxserver-tvheadend
 services:
   app:
     image: linuxserver/tvheadend:version-ec56067f

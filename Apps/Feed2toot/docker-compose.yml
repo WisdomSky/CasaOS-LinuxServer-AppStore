@@ -1,4 +1,4 @@
-name: LinuxServer-Feed2toot
+name: linuxserver-feed2toot
 services:
   app:
     image: linuxserver/feed2toot:0.17.20230902

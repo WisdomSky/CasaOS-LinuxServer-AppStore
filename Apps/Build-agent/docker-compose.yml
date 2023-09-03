@@ -1,4 +1,4 @@
-name: LinuxServer-Build-agent
+name: linuxserver-build-agent
 services:
   app:
     image: linuxserver/build-agent:version-cb8d4d02

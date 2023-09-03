@@ -1,4 +1,4 @@
-name: LinuxServer-Medusa
+name: linuxserver-medusa
 services:
   app:
     image: linuxserver/medusa:1.0.17

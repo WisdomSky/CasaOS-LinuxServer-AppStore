@@ -1,4 +1,4 @@
-name: LinuxServer-Dokuwiki
+name: linuxserver-dokuwiki
 services:
   app:
     image: linuxserver/dokuwiki:version-2023-04-04a

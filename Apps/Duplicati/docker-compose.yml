@@ -1,4 +1,4 @@
-name: LinuxServer-Duplicati
+name: linuxserver-duplicati
 services:
   app:
     image: linuxserver/duplicati:2.0.7

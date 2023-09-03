@@ -1,4 +1,4 @@
-name: LinuxServer-Grocy
+name: linuxserver-grocy
 services:
   app:
     image: linuxserver/grocy:4.0.3

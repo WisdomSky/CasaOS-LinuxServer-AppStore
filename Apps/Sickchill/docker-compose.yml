@@ -1,4 +1,4 @@
-name: LinuxServer-Sickchill
+name: linuxserver-sickchill
 services:
   app:
     image: linuxserver/sickchill:2023.6.27

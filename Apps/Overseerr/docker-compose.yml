@@ -1,4 +1,4 @@
-name: LinuxServer-Overseerr
+name: linuxserver-overseerr
 services:
   app:
     image: linuxserver/overseerr:1.33.2

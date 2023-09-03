@@ -1,4 +1,4 @@
-name: LinuxServer-Webtop
+name: linuxserver-webtop
 services:
   app:
     image: linuxserver/webtop:arch-kde-version-2023-09-01

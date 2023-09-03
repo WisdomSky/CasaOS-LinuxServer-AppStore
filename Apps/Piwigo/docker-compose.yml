@@ -1,4 +1,4 @@
-name: LinuxServer-Piwigo
+name: linuxserver-piwigo
 services:
   app:
     image: linuxserver/piwigo:13.8.0

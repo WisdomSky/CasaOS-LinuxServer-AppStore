@@ -1,4 +1,4 @@
-name: LinuxServer-Babybuddy
+name: linuxserver-babybuddy
 services:
   app:
     image: linuxserver/babybuddy:2.0.4

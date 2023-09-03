@@ -1,4 +1,4 @@
-name: LinuxServer-Lollypop
+name: linuxserver-lollypop
 services:
   app:
     image: linuxserver/lollypop:1.4.35

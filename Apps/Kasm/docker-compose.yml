@@ -1,4 +1,4 @@
-name: LinuxServer-Kasm
+name: linuxserver-kasm
 services:
   app:
     image: linuxserver/kasm:1.14.0

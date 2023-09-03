@@ -1,4 +1,4 @@
-name: LinuxServer-Calibre-web
+name: linuxserver-calibre-web
 services:
   app:
     image: linuxserver/calibre-web:0.6.20

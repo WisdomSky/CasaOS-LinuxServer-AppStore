@@ -1,4 +1,4 @@
-name: LinuxServer-Foldingathome
+name: linuxserver-foldingathome
 services:
   app:
     image: linuxserver/foldingathome:7.6.21

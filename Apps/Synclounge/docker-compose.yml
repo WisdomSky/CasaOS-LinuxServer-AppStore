@@ -1,4 +1,4 @@
-name: LinuxServer-Synclounge
+name: linuxserver-synclounge
 services:
   app:
     image: linuxserver/synclounge:5.2.5

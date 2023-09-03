@@ -1,4 +1,4 @@
-name: LinuxServer-Plex
+name: linuxserver-plex
 services:
   app:
     image: linuxserver/plex:1.32.5

@@ -1,4 +1,4 @@
-name: LinuxServer-Mastodon
+name: linuxserver-mastodon
 services:
   app:
     image: linuxserver/mastodon:4.1.6

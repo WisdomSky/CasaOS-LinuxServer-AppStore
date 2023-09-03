@@ -1,4 +1,4 @@
-name: LinuxServer-Grav
+name: linuxserver-grav
 services:
   app:
     image: linuxserver/grav:1.7.42

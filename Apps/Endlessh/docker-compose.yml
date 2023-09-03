@@ -1,4 +1,4 @@
-name: LinuxServer-Endlessh
+name: linuxserver-endlessh
 services:
   app:
     image: linuxserver/endlessh:version-dfe44eb2

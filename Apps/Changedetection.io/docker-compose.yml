@@ -1,4 +1,4 @@
-name: LinuxServer-Changedetection.io
+name: linuxserver-changedetection.io
 services:
   app:
     image: linuxserver/changedetection.io:0.44.2

@@ -1,4 +1,4 @@
-name: LinuxServer-Mstream
+name: linuxserver-mstream
 services:
   app:
     image: linuxserver/mstream:5.11.4

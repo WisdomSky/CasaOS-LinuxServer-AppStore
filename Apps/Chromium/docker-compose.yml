@@ -1,4 +1,4 @@
-name: LinuxServer-Chromium
+name: linuxserver-chromium
 services:
   app:
     image: linuxserver/chromium:version-1b9ccbce

@@ -1,4 +1,4 @@
-name: LinuxServer-Ci
+name: linuxserver-ci
 services:
   app:
     image: linuxserver/ci:version-fff183d3

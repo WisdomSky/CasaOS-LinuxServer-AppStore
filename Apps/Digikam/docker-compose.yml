@@ -1,4 +1,4 @@
-name: LinuxServer-Digikam
+name: linuxserver-digikam
 services:
   app:
     image: linuxserver/digikam:version-2023-09-01

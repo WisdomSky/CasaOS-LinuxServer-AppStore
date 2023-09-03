@@ -1,4 +1,4 @@
-name: LinuxServer-Smokeping
+name: linuxserver-smokeping
 services:
   app:
     image: linuxserver/smokeping:2.8.2

@@ -1,4 +1,4 @@
-name: LinuxServer-Mullvad-browser
+name: linuxserver-mullvad-browser
 services:
   app:
     image: linuxserver/mullvad-browser:12.5.3

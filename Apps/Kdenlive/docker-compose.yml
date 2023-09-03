@@ -1,4 +1,4 @@
-name: LinuxServer-Kdenlive
+name: linuxserver-kdenlive
 services:
   app:
     image: linuxserver/kdenlive:421.12.3
