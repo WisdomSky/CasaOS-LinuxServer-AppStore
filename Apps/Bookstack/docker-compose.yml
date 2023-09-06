@@ -13,6 +13,7 @@ services:
       DB_USER: ''
       DB_PASS: ''
       DB_DATABASE: ''
+      QUEUE_CONNECTION: ''
     x-casaos:
       envs:
         - container: PUID
@@ -42,6 +43,9 @@ services:
         - container: DB_DATABASE
           description:
             en_us: for specifying the database to be used
+        - container: QUEUE_CONNECTION
+          description:
+            en_us: Set to database to enable async actions like sending email or triggering webhooks. See documentation.
       volumes:
         - container: /config
           description:
