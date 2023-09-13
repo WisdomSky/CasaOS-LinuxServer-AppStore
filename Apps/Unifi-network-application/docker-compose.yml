@@ -27,10 +27,10 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: MONGO_USER
           description:
-            en_us: Mongodb Username. Only evaluated on first run.
+            en_us: Mongodb Username. Only evaluated on first run. Special characters must be url encoded.
         - container: MONGO_PASS
           description:
-            en_us: Mongodb Password. Only evaluated on first run.
+            en_us: Mongodb Password. Only evaluated on first run. Special characters must be url encoded.
         - container: MONGO_HOST
           description:
             en_us: Mongodb Hostname. Only evaluated on first run.
