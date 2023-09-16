@@ -1,7 +1,7 @@
 name: linuxserver-tvheadend
 services:
   app:
-    image: linuxserver/tvheadend:version-ec56067f
+    image: linuxserver/tvheadend:version-fe4df311
     restart: unless-stopped
     environment:
       PUID: $PUID
