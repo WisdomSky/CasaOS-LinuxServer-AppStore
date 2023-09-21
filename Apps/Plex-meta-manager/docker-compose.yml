@@ -1,7 +1,7 @@
 name: linuxserver-plex-meta-manager
 services:
   app:
-    image: linuxserver/plex-meta-manager:1.19.0
+    image: linuxserver/plex-meta-manager:1.19.1
     restart: unless-stopped
     environment:
       PUID: $PUID
