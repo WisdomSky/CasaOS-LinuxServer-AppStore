@@ -44,7 +44,7 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 
   ![Step 2](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/tip-2.jpg)
 
-- Paste the appstore link `https://casaos-appstore.paodayag.dev/linuxserver.zip` and then click `Add` to submit.
+- Paste the appstore link `https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/archive/refs/heads/master.zip` and then click `Add` to submit.
 
   ![Step 3](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/tip-3.jpg)
 
