@@ -40,6 +40,7 @@ services:
       SIDEKIQ_DEFAULT: ''
       SIDEKIQ_THREADS: ''
       DB_POOL: ''
+      NO_CHOWN: ''
     x-casaos:
       envs:
         - container: PUID
@@ -150,6 +151,9 @@ services:
         - container: DB_POOL
           description:
             en_us: The size of the DB connection pool, must be at least the same as SIDEKIQ_THREADS. See notes.
+        - container: NO_CHOWN
+          description:
+            en_us: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS.
     ports:
       - target: 80
         published: 80
