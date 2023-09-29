@@ -1,7 +1,7 @@
 name: linuxserver-build-agent
 services:
   app:
-    image: linuxserver/build-agent:version-0f1a01f4
+    image: linuxserver/build-agent:version-91cda63e
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,8 +28,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/build-agent for details.
