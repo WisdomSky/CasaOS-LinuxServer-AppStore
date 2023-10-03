@@ -1,7 +1,7 @@
 name: linuxserver-wps-office
 services:
   app:
-    image: linuxserver/wps-office:version-8b8f8aaa
+    image: linuxserver/wps-office:version-e7e0d2bf
     restart: unless-stopped
     environment:
       PUID: $PUID
