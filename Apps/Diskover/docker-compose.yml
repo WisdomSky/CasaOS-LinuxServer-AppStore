@@ -1,7 +1,7 @@
 name: linuxserver-diskover
 services:
   app:
-    image: linuxserver/diskover:2.1.1
+    image: linuxserver/diskover:2.2.0
     restart: unless-stopped
     environment:
       PUID: $PUID
