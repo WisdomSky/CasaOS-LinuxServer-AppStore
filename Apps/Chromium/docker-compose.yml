@@ -1,7 +1,7 @@
 name: linuxserver-chromium
 services:
   app:
-    image: linuxserver/chromium:version-e74abdf5
+    image: linuxserver/chromium:version-51192b52
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -35,8 +35,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
