@@ -35,8 +35,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
