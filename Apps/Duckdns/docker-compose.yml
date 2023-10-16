@@ -23,7 +23,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: SUBDOMAINS
           description:
-            en_us: multiple subdomains allowed, comma separated, no spaces
+            en_us: multiple subdomains allowed, comma separated, no spaces, if your domain is user.duckdns.org you put user, not a sub-subdomain
         - container: TOKEN
           description:
             en_us: DuckDNS token
