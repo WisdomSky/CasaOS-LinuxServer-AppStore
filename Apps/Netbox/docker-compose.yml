@@ -1,7 +1,7 @@
 name: linuxserver-netbox
 services:
   app:
-    image: linuxserver/netbox:3.6.3
+    image: linuxserver/netbox:3.6.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -116,8 +116,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/netbox/'
