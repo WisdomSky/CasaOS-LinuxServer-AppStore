@@ -14,6 +14,8 @@ services:
       MONGO_DBNAME: ''
       MEM_LIMIT: ''
       MEM_STARTUP: ''
+      MONGO_TLS: ''
+      MONGO_AUTHSOURCE: ''
     x-casaos:
       envs:
         - container: PUID
@@ -46,6 +48,12 @@ services:
         - container: MEM_STARTUP
           description:
             en_us: Optionally change the Java initial/minimum memory (in Megabytes). Set to default to reset to default
+        - container: MONGO_TLS
+          description:
+            en_us: Mongodb enable TLS. Only evaluated on first run.
+        - container: MONGO_AUTHSOURCE
+          description:
+            en_us: Mongodb authSource. For Atlas set to admin.Defaults to MONGO_DBNAME.Only evaluated on first run.
     ports:
       - target: 8443
         published: 8443
