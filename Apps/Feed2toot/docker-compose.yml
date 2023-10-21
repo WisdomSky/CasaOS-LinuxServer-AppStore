@@ -1,7 +1,7 @@
 name: linuxserver-feed2toot
 services:
   app:
-    image: linuxserver/feed2toot:0.17.20231014
+    image: linuxserver/feed2toot:0.17.20231021
     restart: unless-stopped
     environment:
       PUID: $PUID
