@@ -1,7 +1,7 @@
 name: linuxserver-duckdns
 services:
   app:
-    image: linuxserver/duckdns:version-256b24bf
+    image: linuxserver/duckdns:version-34e05aee
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -9,6 +9,7 @@ services:
       TZ: $TZ
       SUBDOMAINS: ''
       TOKEN: ''
+      UPDATE_IP: ''
       LOG_FILE: ''
     x-casaos:
       envs:
@@ -27,6 +28,9 @@ services:
         - container: TOKEN
           description:
             en_us: DuckDNS token
+        - container: UPDATE_IP
+          description:
+            en_us: Set to ipv6 or ipv4 to update  only your public IPv4/6 address. Set to both to update IPv6 and IPv4 address. This variable makes use of a third-party service. Omitting this variable uses DuckDNS for detection and only supports IPv4. both and ipv6 modes needs host networking.
         - container: LOG_FILE
           description:
             en_us: Set to true to log to file (also need to map /config).
