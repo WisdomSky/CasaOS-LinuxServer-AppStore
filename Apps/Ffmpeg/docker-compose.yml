@@ -1,7 +1,7 @@
 name: linuxserver-ffmpeg
 services:
   app:
-    image: linuxserver/ffmpeg:5.1.2
+    image: linuxserver/ffmpeg:version-6.0-cli
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -29,7 +29,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm
     - arm64
   main: app
   description:
