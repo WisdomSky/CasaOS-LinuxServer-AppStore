@@ -16,6 +16,7 @@ services:
       USER_PASSWORD: ''
       USER_PASSWORD_FILE: ''
       USER_NAME: ''
+      LOG_STDOUT: ''
     x-casaos:
       envs:
         - container: PUID
@@ -54,6 +55,9 @@ services:
         - container: USER_NAME
           description:
             en_us: Optionally specify a user name (Default:linuxserver.io)
+        - container: LOG_STDOUT
+          description:
+            en_us: Set to true to log to stdout instead of file.
       volumes:
         - container: /config
           description:

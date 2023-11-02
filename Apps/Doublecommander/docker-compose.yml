@@ -1,7 +1,7 @@
 name: linuxserver-doublecommander
 services:
   app:
-    image: linuxserver/doublecommander:version-bde75d5c
+    image: linuxserver/doublecommander:version-29302ad1
     restart: unless-stopped
     environment:
       PUID: $PUID
