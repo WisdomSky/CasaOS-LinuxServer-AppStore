@@ -1,7 +1,7 @@
 name: linuxserver-syncthing
 services:
   app:
-    image: linuxserver/syncthing:1.25.0
+    image: linuxserver/syncthing:1.26.0
     restart: unless-stopped
     environment:
       PUID: $PUID
