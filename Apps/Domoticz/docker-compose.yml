@@ -1,7 +1,7 @@
 name: linuxserver-domoticz
 services:
   app:
-    image: linuxserver/domoticz:2023.2.20231102
+    image: linuxserver/domoticz:2023.2.20231109
     restart: unless-stopped
     environment:
       PUID: $PUID
