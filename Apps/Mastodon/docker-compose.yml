@@ -84,13 +84,13 @@ services:
             en_us: Browser session secret. Changing it will break all active browser sessions.
         - container: OTP_SECRET
           description:
-            en_us: MFA secret. Changing it will break two-factor authentication.
+            en_us: MFA secret. Changing it after initial setup will break two-factor authentication.
         - container: VAPID_PRIVATE_KEY
           description:
-            en_us: Push notification private key. Changing it will break push notifications.
+            en_us: Push notification private key. Changing it after initial setup will break push notifications.
         - container: VAPID_PUBLIC_KEY
           description:
-            en_us: Push notification public key. Changing it will break push notifications.
+            en_us: Push notification public key. Changing it after initial setup will break push notifications.
         - container: SMTP_SERVER
           description:
             en_us: SMTP server for email notifications
