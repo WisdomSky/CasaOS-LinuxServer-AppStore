@@ -1,13 +1,14 @@
 name: linuxserver-hishtory-server
 services:
   app:
-    image: linuxserver/hishtory-server:0.251.20231112
+    image: linuxserver/hishtory-server:0.251.20231114
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
       HISHTORY_POSTGRES_DB: ''
+      HISHTORY_SQLITE_DB: ''
     x-casaos:
       envs:
         - container: PUID
@@ -22,6 +23,9 @@ services:
         - container: HISHTORY_POSTGRES_DB
           description:
             en_us: Postgres DB Connection URI. Special characters must be URL encoded.
+        - container: HISHTORY_SQLITE_DB
+          description:
+            en_us: SQLite database path. Needs to be a mounted volume for persistence. Don't set at the same time as HISHTORY_POSTGRES_DB.
     ports:
       - target: 8080
         published: 8080
