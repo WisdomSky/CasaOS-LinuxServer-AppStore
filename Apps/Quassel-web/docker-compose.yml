@@ -9,6 +9,7 @@ services:
       TZ: $TZ
       QUASSEL_CORE: ''
       QUASSEL_PORT: ''
+      QUASSEL_HTTPS: ''
       URL_BASE: ''
     x-casaos:
       envs:
@@ -27,6 +28,9 @@ services:
         - container: QUASSEL_PORT
           description:
             en_us: specify the port of your Quassel Core instance
+        - container: QUASSEL_HTTPS
+          description:
+            en_us: Set to true to have Quassel web serve over https on port 64443 instead of http on port 64080.
         - container: URL_BASE
           description:
             en_us: Specify a url-base in reverse proxy setups ie. /quassel
@@ -34,8 +38,14 @@ services:
         - container: /config
           description:
             en_us: Appdata
-      ports: []
+      ports:
+        - container: '64080'
+          description:
+            en_us: http port
     ports:
+      - target: 64080
+        published: 64080
+        protocol: tcp
       - target: 64443
         published: 64443
         protocol: tcp
