@@ -1,7 +1,7 @@
 name: linuxserver-digikam
 services:
   app:
-    image: linuxserver/digikam:version-2023-11-11
+    image: linuxserver/digikam:version-2023-11-17
     restart: unless-stopped
     environment:
       PUID: $PUID
