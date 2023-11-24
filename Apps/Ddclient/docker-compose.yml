@@ -1,7 +1,7 @@
 name: linuxserver-ddclient
 services:
   app:
-    image: linuxserver/ddclient:3.11.1
+    image: linuxserver/ddclient:3.11.2
     restart: unless-stopped
     environment:
       PUID: $PUID
