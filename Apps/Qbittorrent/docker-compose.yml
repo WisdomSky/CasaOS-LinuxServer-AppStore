@@ -1,7 +1,7 @@
 name: linuxserver-qbittorrent
 services:
   app:
-    image: linuxserver/qbittorrent:4.6.1
+    image: linuxserver/qbittorrent:4.6.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: WEBUI_PORT
           description:
-            en_us: for changing the port of the webui, see below for explanation
+            en_us: for changing the port of the web UI, see below for explanation
     ports:
       - target: 8080
         published: 8080
