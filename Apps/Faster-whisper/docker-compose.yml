@@ -1,0 +1,55 @@
+name: linuxserver-faster-whisper
+services:
+  app:
+    image: linuxserver/faster-whisper:1.0.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      WHISPER_MODEL: ''
+      WHISPER_BEAM: ''
+      WHISPER_LANG: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: WHISPER_MODEL
+          description:
+            en_us: Whisper model that will be used for transcription.
+        - container: WHISPER_BEAM
+          description:
+            en_us: Number of candidates to consider simultaneously during transcription.
+        - container: WHISPER_LANG
+          description:
+            en_us: Language that you will speak to the add-on.
+    ports:
+      - target: 10300
+        published: 10300
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/faster-whisper/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+  main: app
+  description:
+    en_us: Faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models.
+  tagline:
+    en_us: A reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/faster-whisper-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/faster-whisper-logo.png
+  title:
+    en_us: Faster whisper
+  category: LinuxServer.io
