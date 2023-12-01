@@ -1,0 +1,68 @@
+name: linuxserver-piper
+services:
+  app:
+    image: linuxserver/piper:1.4.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PIPER_VOICE: ''
+      PIPER_LENGTH: ''
+      PIPER_NOISE: ''
+      PIPER_NOISEW: ''
+      PIPER_SPEAKER: ''
+      PIPER_PROCS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: PIPER_VOICE
+          description:
+            en_us: The Piper voice to use, in the format --
+        - container: PIPER_LENGTH
+          description:
+            en_us: Voice speaking rate, 1.0 is default with  1.0 being slower.
+        - container: PIPER_NOISE
+          description:
+            en_us: Controls the variability of the voice by adding noise. Values above 1 will start to degrade audio.
+        - container: PIPER_NOISEW
+          description:
+            en_us: Controls the variability of speaking cadence. Values above 1 produce extreme stutters and pauses.
+        - container: PIPER_SPEAKER
+          description:
+            en_us: Speaker number to use if the voice supports multiple speakers.
+        - container: PIPER_PROCS
+          description:
+            en_us: Number of Piper processes to run simultaneously.
+    ports:
+      - target: 10200
+        published: 10200
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/piper/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Piper is a fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+  tagline:
+    en_us: A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piper-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piper-logo.png
+  title:
+    en_us: Piper
+  category: LinuxServer.io
