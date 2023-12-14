@@ -1,7 +1,7 @@
 name: linuxserver-unifi-controller
 services:
   app:
-    image: linuxserver/unifi-controller:8.0.7
+    image: linuxserver/unifi-controller:8.0.24
     restart: unless-stopped
     environment:
       PUID: $PUID
