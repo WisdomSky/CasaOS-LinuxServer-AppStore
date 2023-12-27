@@ -1,7 +1,7 @@
 name: linuxserver-htpcmanager
 services:
   app:
-    image: linuxserver/htpcmanager:version-1614d863
+    image: linuxserver/htpcmanager:amd64-version-1614d863
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -29,7 +29,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/htpcmanager/'
