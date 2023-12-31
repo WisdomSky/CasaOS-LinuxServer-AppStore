@@ -26,14 +26,6 @@ services:
         - container: TITLE
           description:
             en_us: String which will be used as page/tab title in the web browser.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -54,7 +46,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/webtop/'
+    en_us: Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
   tagline:
     en_us: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
   developer: LinuxServer.io
@@ -64,5 +56,3 @@ x-casaos:
   title:
     en_us: Webtop (Arch KDE)
   category: LinuxServer.io
-  project_url: https://github.com/linuxserver/docker-webtop
-  port_map: '3000'

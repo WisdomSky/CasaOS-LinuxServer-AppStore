@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Database and xbackbone configs
-      ports:
-        - container: '80'
-          description:
-            en_us: The port for the xbackbone webinterface
     ports:
       - target: 80
         published: 80
@@ -43,15 +35,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/xbackbone'
+    en_us: Xbackbone is a simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems. It supports uploading and displaying images, GIF, video, code, formatted text, and file downloading and uploading. Also have a web UI with multi user management, past uploads history and search support.
   tagline:
     en_us: A simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems. It supports uploading and displaying images, GIF, video, code, formatted text, and file downloading and uploading. Also have a web UI with multi user management, past uploads history and search support.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/xbackbone-logo.png
+  icon: https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png
   thumbnail: https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png
   title:
     en_us: Xbackbone
   category: LinuxServer.io
-  project_url: https://github.com/SergiX44/XBackBone
-  port_map: '80'

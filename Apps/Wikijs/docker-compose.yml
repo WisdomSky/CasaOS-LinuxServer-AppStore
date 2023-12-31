@@ -42,17 +42,6 @@ services:
         - container: DB_PASS
           description:
             en_us: DB password (postgres only)
-      volumes:
-        - container: /config
-          description:
-            en_us: appdata
-        - container: /data
-          description:
-            en_us: Where to store wiki data sqlite database
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -70,15 +59,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/wikijs/'
+    en_us: Wikijs A modern, lightweight and powerful wiki app built on NodeJS.
   tagline:
     en_us: A modern, lightweight and powerful wiki app built on NodeJS.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wikijs-logo.png
+  icon: https://static.requarks.io/logo/wikijs-full.svg
   thumbnail: https://static.requarks.io/logo/wikijs-full.svg
   title:
     en_us: Wikijs
   category: LinuxServer.io
-  project_url: https://wiki.js.org/
-  port_map: '3000'

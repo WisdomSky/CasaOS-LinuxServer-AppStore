@@ -26,29 +26,6 @@ services:
         - container: MEM_STARTUP
           description:
             en_us: Optionally change the Java initial/minimum memory (in Megabytes). Set to default to reset to default
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-      ports:
-        - container: '8443'
-          description:
-            en_us: Port used for controller GUI/API as seen in a web browser
-        - container: '3478'
-          description:
-            en_us: Port used for STUN.
-        - container: '10001'
-          description:
-            en_us: Port used for AP discovery
-        - container: '8080'
-          description:
-            en_us: Port used for device and controller communication.
-        - container: '8843'
-          description:
-            en_us: '8843'
-        - container: '8880'
-          description:
-            en_us: Port used for HTTP portal redirection.
     ports:
       - target: 8443
         published: 8443
@@ -87,15 +64,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/unifi-controller/'
+    en_us: The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.
   tagline:
     en_us: The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-controller-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png
   title:
     en_us: Unifi controller
   category: LinuxServer.io
-  project_url: https://www.ui.com/software/
-  port_map: '8080'
