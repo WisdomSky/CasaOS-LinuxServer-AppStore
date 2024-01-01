@@ -32,13 +32,14 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Znc is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/znc/'
   tagline:
     en_us: An IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: http://wiki.znc.in/resources/assets/wiki.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-icon.png
   thumbnail: http://wiki.znc.in/resources/assets/wiki.png
   title:
     en_us: Znc
   category: LinuxServer.io
+  project_url: http://wiki.znc.in/ZNC

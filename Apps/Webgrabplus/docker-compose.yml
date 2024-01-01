@@ -18,6 +18,13 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Webgrabplus's config folder
+        - container: /data
+          description:
+            en_us: Where webgrabplus saves the XML files
     volumes:
       - type: bind
         source: /DATA/AppData/webgrabplus/config
@@ -31,13 +38,14 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Webgrabplus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/webgrabplus/'
   tagline:
     en_us: A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: http://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webgrabplus.png
   thumbnail: http://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg
   title:
     en_us: Webgrabplus
   category: LinuxServer.io
+  project_url: http://webgrabplus.com/
