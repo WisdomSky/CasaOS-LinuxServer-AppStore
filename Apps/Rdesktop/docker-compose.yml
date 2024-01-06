@@ -1,7 +1,7 @@
 name: linuxserver-rdesktop
 services:
   app:
-    image: linuxserver/rdesktop:arch-kde-version-2023-12-29
+    image: linuxserver/rdesktop:arch-kde-version-2024-01-05
     restart: unless-stopped
     environment:
       PUID: $PUID

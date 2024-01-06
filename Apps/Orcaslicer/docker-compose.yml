@@ -1,7 +1,7 @@
 name: linuxserver-orcaslicer
 services:
   app:
-    image: linuxserver/orcaslicer:1.8.1
+    image: linuxserver/orcaslicer:1.9.0
     restart: unless-stopped
     environment:
       PUID: $PUID
