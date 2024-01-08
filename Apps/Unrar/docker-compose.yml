@@ -1,7 +1,7 @@
 name: linuxserver-unrar
 services:
   app:
-    image: linuxserver/unrar:6.2.10
+    image: linuxserver/unrar:6.2.12
     restart: unless-stopped
     environment:
       PUID: $PUID
