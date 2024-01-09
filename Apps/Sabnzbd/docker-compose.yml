@@ -1,7 +1,7 @@
 name: linuxserver-sabnzbd
 services:
   app:
-    image: linuxserver/sabnzbd:4.2.1
+    image: linuxserver/sabnzbd:4.2.1-unstable
     restart: unless-stopped
     environment:
       PUID: $PUID
