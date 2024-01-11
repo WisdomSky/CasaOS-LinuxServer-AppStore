@@ -13,6 +13,9 @@ services:
       DB_USERNAME: ''
       DB_PASSWORD: ''
       DB_DATABASE: ''
+      APP_NAME: ''
+      APP_URL: ''
+      APP_FORCE_HTTPS: ''
     x-casaos:
       envs:
         - container: PUID
@@ -26,22 +29,31 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: DB_CONNECTION
           description:
-            en_us: for specifying the database type
+            en_us: DB type, from sqlite, mysql, pqsql.
         - container: DB_HOST
           description:
-            en_us: for specifying the database host
+            en_us: DB server hostname. For mysql and pgsql only.
         - container: DB_PORT
           description:
-            en_us: for specifying the database port
+            en_us: DB server port. For mysql and pgsql only.
         - container: DB_USERNAME
           description:
-            en_us: for specifying the database user
+            en_us: DB user. For mysql and pgsql only.
         - container: DB_PASSWORD
           description:
-            en_us: for specifying the database password
+            en_us: DB password. For mysql and pgsql only.
         - container: DB_DATABASE
           description:
-            en_us: for specifying the database to be used
+            en_us: Path to DB file for sqlite. DB name for mysql and pgsql.
+        - container: APP_NAME
+          description:
+            en_us: The gallery name.
+        - container: APP_URL
+          description:
+            en_us: The URL you will use to access Lychee including protocol, and port where appropriate.
+        - container: APP_FORCE_HTTPS
+          description:
+            en_us: Set to true if running behind an https reverse proxy.
       volumes:
         - container: /config
           description:
@@ -72,7 +84,7 @@ x-casaos:
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/lychee/'
   tagline:
-    en_us: 'A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely. '' ### UPGRADE WARNING Please note that the v4 upgrade process resets ALL password-protected albums. Any albums that were made public with a password will need to be re-secured.'
+    en_us: A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png
