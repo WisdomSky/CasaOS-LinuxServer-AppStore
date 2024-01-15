@@ -1,7 +1,7 @@
 name: linuxserver-xbackbone
 services:
   app:
-    image: linuxserver/xbackbone:3.6.3
+    image: linuxserver/xbackbone:3.7.0
     restart: unless-stopped
     environment:
       PUID: $PUID
