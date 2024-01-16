@@ -15,7 +15,7 @@ services:
       DB_DATABASE: ''
       APP_NAME: ''
       APP_URL: ''
-      APP_FORCE_HTTPS: ''
+      TRUSTED_PROXIES: ''
     x-casaos:
       envs:
         - container: PUID
@@ -51,9 +51,9 @@ services:
         - container: APP_URL
           description:
             en_us: The URL you will use to access Lychee including protocol, and port where appropriate.
-        - container: APP_FORCE_HTTPS
+        - container: TRUSTED_PROXIES
           description:
-            en_us: Set to true if running behind an https reverse proxy.
+            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet).
       volumes:
         - container: /config
           description:
