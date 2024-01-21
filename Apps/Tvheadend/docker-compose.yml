@@ -1,7 +1,7 @@
 name: linuxserver-tvheadend
 services:
   app:
-    image: linuxserver/tvheadend:amd64-latest
+    image: linuxserver/tvheadend:c9b38a81-ls198
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -56,6 +56,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/tvheadend/'
