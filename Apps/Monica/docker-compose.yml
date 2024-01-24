@@ -1,0 +1,84 @@
+name: linuxserver-monica
+services:
+  app:
+    image: linuxserver/monica:4.0.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_USERNAME: ''
+      DB_PASSWORD: ''
+      DB_DATABASE: ''
+      APP_URL: ''
+      TRUSTED_PROXIES: ''
+      APP_ENV: ''
+      APP_DISABLE_SIGNUP: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: DB_HOST
+          description:
+            en_us: Mariadb DB server hostname.
+        - container: DB_PORT
+          description:
+            en_us: Mariadb DB server port.
+        - container: DB_USERNAME
+          description:
+            en_us: Mariadb DB user.
+        - container: DB_PASSWORD
+          description:
+            en_us: Mariadb DB password.
+        - container: DB_DATABASE
+          description:
+            en_us: Mariadb DB name.
+        - container: APP_URL
+          description:
+            en_us: The URL you will use to access Monica including protocol, and port where appropriate.
+        - container: TRUSTED_PROXIES
+          description:
+            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet).
+        - container: APP_ENV
+          description:
+            en_us: Set to production when exposing the container to anyone else; this also makes https mandatory.
+        - container: APP_DISABLE_SIGNUP
+          description:
+            en_us: Set to false to enable new account sign-ups.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/monica/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Monica is an open source personal relationship management system, that lets you document your life.
+  tagline:
+    en_us: An open source personal relationship management system, that lets you document your life.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/monica-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/monica-logo.png
+  title:
+    en_us: Monica
+  category: LinuxServer.io
+  port_map: '80'
