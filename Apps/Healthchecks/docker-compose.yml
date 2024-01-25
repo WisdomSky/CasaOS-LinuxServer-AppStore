@@ -1,7 +1,7 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:3.1.20240123
+    image: linuxserver/healthchecks:3.1.20240124
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,6 +19,7 @@ services:
       SUPERUSER_PASSWORD: ''
       REGENERATE_SETTINGS: ''
       ALLOWED_HOSTS: ''
+      CSRF_TRUSTED_ORIGINS: ''
       APPRISE_ENABLED: ''
       DEBUG: ''
       INTEGRATIONS_ALLOW_PRIVATE_IPS: ''
@@ -71,7 +72,10 @@ services:
             en_us: Defaults to False. Set to True to always override the local_settings.py file with values from environment variables. Do not set to True if you have made manual modifications to this file.
         - container: ALLOWED_HOSTS
           description:
-            en_us: 'Array of valid hostnames for the server [''test.com'',''test2.com''] (default: [''*''])'
+            en_us: 'A list of valid hostnames for the server. Default is: [''*'']'
+        - container: CSRF_TRUSTED_ORIGINS
+          description:
+            en_us: A list of trusted origins for unsafe requests (e.g. POST). Defaults to the value of SITE_ROOT.
         - container: APPRISE_ENABLED
           description:
             en_us: Defaults to False. A boolean that turns on/off the Apprise integration (https://github.com/caronc/apprise)
