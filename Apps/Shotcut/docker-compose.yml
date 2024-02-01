@@ -1,7 +1,7 @@
-name: linuxserver-qdirstat
+name: linuxserver-shotcut
 services:
   app:
-    image: linuxserver/qdirstat:1.9.20240128
+    image: linuxserver/shotcut:24.01.28
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,24 +27,20 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/qdirstat/config
+        source: /DATA/AppData/shotcut/config
         target: /config
-      - type: bind
-        source: /DATA/AppData/qdirstat/data
-        target: /data
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
-    en_us: 'QDirStat Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.'
+    en_us: Shotcut is a free, open source, cross-platform video editor.
   tagline:
-    en_us: 'Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.'
+    en_us: A free, open source, cross-platform video editor.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
   title:
-    en_us: Qdirstat
+    en_us: Shotcut
   category: LinuxServer.io
