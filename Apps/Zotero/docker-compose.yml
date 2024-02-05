@@ -1,7 +1,7 @@
-name: linuxserver-github-desktop
+name: linuxserver-zotero
 services:
   app:
-    image: linuxserver/github-desktop:3.3.8
+    image: linuxserver/zotero:6.0.30
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,21 +27,20 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/github-desktop/config
+        source: /DATA/AppData/zotero/config
         target: /config
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
-    en_us: Github Desktop is an open source Electron-based GitHub app. It is written in TypeScript and uses React.
+    en_us: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
   tagline:
-    en_us: An open source Electron-based GitHub app. It is written in TypeScript and uses React.
+    en_us: A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/github-desktop-icon.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/github-desktop-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
   title:
-    en_us: Github desktop
+    en_us: Zotero
   category: LinuxServer.io
