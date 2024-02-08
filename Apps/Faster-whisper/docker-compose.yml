@@ -23,7 +23,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: WHISPER_MODEL
           description:
-            en_us: Whisper model that will be used for transcription. From tiny, base, small and medium.en, all with -int8 compressed variants
+            en_us: Whisper model that will be used for transcription. From tiny, base, small and medium, all with -int8 compressed variants
         - container: WHISPER_BEAM
           description:
             en_us: Number of candidates to consider simultaneously during transcription.
