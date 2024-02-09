@@ -1,7 +1,7 @@
 name: linuxserver-doplarr
 services:
   app:
-    image: linuxserver/doplarr:3.6.2
+    image: linuxserver/doplarr:3.6.3
     restart: unless-stopped
     environment:
       PUID: $PUID

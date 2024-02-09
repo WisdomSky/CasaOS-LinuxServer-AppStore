@@ -1,7 +1,7 @@
 name: linuxserver-jenkins-builder
 services:
   app:
-    image: linuxserver/jenkins-builder:version-269d1356
+    image: linuxserver/jenkins-builder:version-eaf70742
     restart: unless-stopped
     environment:
       PUID: $PUID
