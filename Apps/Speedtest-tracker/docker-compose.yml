@@ -1,0 +1,73 @@
+name: linuxserver-speedtest-tracker
+services:
+  app:
+    image: linuxserver/speedtest-tracker:0.15.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_CONNECTION: ''
+      APP_KEY: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_DATABASE: ''
+      DB_USERNAME: ''
+      DB_PASSWORD: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: DB_CONNECTION
+          description:
+            en_us: Set the database type to use. sqlite, pgsql, or mysql
+        - container: APP_KEY
+          description:
+            en_us: App key used for encrypting stored data. Generate with docker exec speedtest-tracker php /app/www/artisan key:generate --show
+        - container: DB_HOST
+          description:
+            en_us: Database hostname (postgres/mysql).
+        - container: DB_PORT
+          description:
+            en_us: Database port (postgres/mysql).
+        - container: DB_DATABASE
+          description:
+            en_us: Database name (postgres/mysql).
+        - container: DB_USERNAME
+          description:
+            en_us: Database username (postgres/mysql).
+        - container: DB_PASSWORD
+          description:
+            en_us: Database password (postgres/mysql).
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/speedtest-tracker/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Speedtest-tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+  tagline:
+    en_us: A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
+  title:
+    en_us: Speedtest tracker
+  category: LinuxServer.io
+  port_map: '80'
