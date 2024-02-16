@@ -8,6 +8,7 @@ services:
       PGID: $PGID
       TZ: $TZ
       WEBUI_PORT: ''
+      TORRENTING_PORT: ''
     x-casaos:
       envs:
         - container: PUID
@@ -22,6 +23,9 @@ services:
         - container: WEBUI_PORT
           description:
             en_us: for changing the port of the web UI, see below for explanation
+        - container: TORRENTING_PORT
+          description:
+            en_us: for changing the port of tcp/udp connection, see below for explanation
     ports:
       - target: 8080
         published: 8080
