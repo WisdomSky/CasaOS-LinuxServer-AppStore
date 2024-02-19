@@ -13,6 +13,16 @@ services:
       MYSQL_DATABASE: ''
       MYSQL_USER: ''
       MYSQL_PASSWORD: ''
+      APP_ENV: ''
+      APP_DEBUG: ''
+      APP_LOCALE: ''
+      MAIL_PORT_587_TCP_ADDR: ''
+      MAIL_PORT_587_TCP_PORT: ''
+      MAIL_ENV_FROM_ADDR: ''
+      MAIL_ENV_FROM_NAME: ''
+      MAIL_ENV_ENCRYPTION: ''
+      MAIL_ENV_USERNAME: ''
+      MAIL_ENV_PASSWORD: ''
     x-casaos:
       envs:
         - container: PUID
@@ -42,6 +52,36 @@ services:
         - container: MYSQL_PASSWORD
           description:
             en_us: Mysql password to use
+        - container: APP_ENV
+          description:
+            en_us: Default is production but can use testing or develop.
+        - container: APP_DEBUG
+          description:
+            en_us: Set to true to see debugging output in the web UI.
+        - container: APP_LOCALE
+          description:
+            en_us: Default is en. Set to a language from this list.
+        - container: MAIL_PORT_587_TCP_ADDR
+          description:
+            en_us: SMTP mail server ip or hostname.
+        - container: MAIL_PORT_587_TCP_PORT
+          description:
+            en_us: SMTP mail server port.
+        - container: MAIL_ENV_FROM_ADDR
+          description:
+            en_us: The email address mail should be replied to and listed when sent.
+        - container: MAIL_ENV_FROM_NAME
+          description:
+            en_us: The name listed on email sent from the default account on the system.
+        - container: MAIL_ENV_ENCRYPTION
+          description:
+            en_us: Mail encryption to use e.g. tls.
+        - container: MAIL_ENV_USERNAME
+          description:
+            en_us: SMTP server login username.
+        - container: MAIL_ENV_PASSWORD
+          description:
+            en_us: SMTP server login password.
       volumes:
         - container: /config
           description:
