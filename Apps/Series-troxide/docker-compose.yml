@@ -1,7 +1,7 @@
 name: linuxserver-series-troxide
 services:
   app:
-    image: linuxserver/series-troxide:0.5.0
+    image: linuxserver/series-troxide:0.5.1
     restart: unless-stopped
     environment:
       PUID: $PUID
