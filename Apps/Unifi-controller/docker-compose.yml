@@ -98,4 +98,5 @@ x-casaos:
     en_us: Unifi controller
   category: LinuxServer.io
   project_url: https://www.ui.com/software/
-  port_map: '8080'
+  port_map: '8443'
+  scheme: https

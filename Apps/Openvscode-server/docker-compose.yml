@@ -42,6 +42,9 @@ services:
       - type: bind
         source: /DATA/AppData/openvscode-server/config
         target: /config
+      - type: bind
+        source: /
+        target: /casaos
 x-casaos:
   architectures:
     - amd64
@@ -58,3 +61,4 @@ x-casaos:
   title:
     en_us: Openvscode server
   category: LinuxServer.io
+  port_map: '3000'
