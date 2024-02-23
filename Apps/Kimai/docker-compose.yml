@@ -1,7 +1,7 @@
 name: linuxserver-kimai
 services:
   app:
-    image: linuxserver/kimai:2.11.0
+    image: linuxserver/kimai:2.12.0
     restart: unless-stopped
     environment:
       PUID: $PUID
