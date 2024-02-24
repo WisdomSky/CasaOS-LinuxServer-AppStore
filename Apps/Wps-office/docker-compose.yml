@@ -1,7 +1,7 @@
 name: linuxserver-wps-office
 services:
   app:
-    image: linuxserver/wps-office:version-33fa4e2e
+    image: linuxserver/wps-office:chinese-version-2024-02-23
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,6 +32,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.
