@@ -10,6 +10,8 @@ services:
       MENU_VERSION: ''
       PORT_RANGE: ''
       SUBFOLDER: ''
+      NGINX_PORT: ''
+      WEB_APP_PORT: ''
     x-casaos:
       envs:
         - container: PUID
@@ -30,6 +32,12 @@ services:
         - container: SUBFOLDER
           description:
             en_us: Specify a sobfolder if running this behind a reverse proxy (IE /proxy/)
+        - container: NGINX_PORT
+          description:
+            en_us: Specify a different internal port for the asset server
+        - container: WEB_APP_PORT
+          description:
+            en_us: Specify a different internal port for the configuration UI
       volumes:
         - container: /config
           description:
