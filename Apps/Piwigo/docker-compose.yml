@@ -1,7 +1,7 @@
 name: linuxserver-piwigo
 services:
   app:
-    image: linuxserver/piwigo:14.2.0
+    image: linuxserver/piwigo:14.3.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -31,8 +31,8 @@ services:
         target: /gallery
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/piwigo/'
