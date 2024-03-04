@@ -1,7 +1,7 @@
 name: linuxserver-apprise-api
 services:
   app:
-    image: linuxserver/apprise-api:0.9.9
+    image: linuxserver/apprise-api:0.10.0
     restart: unless-stopped
     environment:
       PUID: $PUID
