@@ -1,7 +1,7 @@
 name: linuxserver-mastodon
 services:
   app:
-    image: linuxserver/mastodon:glitch-version-74998b06
+    image: linuxserver/mastodon:glitch-version-8f4cc711
     restart: unless-stopped
     environment:
       PUID: $PUID
