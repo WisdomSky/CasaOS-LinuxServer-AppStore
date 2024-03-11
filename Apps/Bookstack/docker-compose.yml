@@ -1,7 +1,7 @@
 name: linuxserver-bookstack
 services:
   app:
-    image: linuxserver/bookstack:24.02.20240304
+    image: linuxserver/bookstack:24.02.1
     restart: unless-stopped
     environment:
       PUID: $PUID

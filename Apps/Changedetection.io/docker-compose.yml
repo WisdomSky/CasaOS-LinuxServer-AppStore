@@ -8,6 +8,7 @@ services:
       PGID: $PGID
       TZ: $TZ
       BASE_URL: ''
+      PLAYWRIGHT_DRIVER_URL: ''
     x-casaos:
       envs:
         - container: PUID
@@ -22,6 +23,9 @@ services:
         - container: BASE_URL
           description:
             en_us: Specify the full URL (including protocol) when running behind a reverse proxy
+        - container: PLAYWRIGHT_DRIVER_URL
+          description:
+            en_us: Specify the full URL to your chrome driver instance. See the wiki for details.
     ports:
       - target: 5000
         published: 5000
