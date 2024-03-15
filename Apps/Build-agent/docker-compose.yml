@@ -1,7 +1,7 @@
 name: linuxserver-build-agent
 services:
   app:
-    image: linuxserver/build-agent:version-3334447a
+    image: linuxserver/build-agent:version-d420e356
     restart: unless-stopped
     environment:
       PUID: $PUID
