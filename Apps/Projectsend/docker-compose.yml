@@ -1,7 +1,7 @@
 name: linuxserver-projectsend
 services:
   app:
-    image: linuxserver/projectsend:version-r1605
+    image: linuxserver/projectsend:r1605-ls182
     restart: unless-stopped
     environment:
       PUID: $PUID
