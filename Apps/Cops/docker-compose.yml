@@ -22,6 +22,9 @@ services:
       - target: 80
         published: 80
         protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/cops/config
@@ -31,8 +34,8 @@ services:
         target: /books
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/cops/'

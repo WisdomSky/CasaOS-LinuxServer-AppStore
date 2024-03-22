@@ -5,19 +5,11 @@ services:
     restart: unless-stopped
     environment:
       AUTH_LIST: ''
-      AUTOJOIN_ENABLED: ''
-      AUTOJOIN_ROOM: ''
     x-casaos:
       envs:
         - container: AUTH_LIST
           description:
             en_us: If set, only the users defined here and the users of the plex servers defined here will be able to access the server. Use e-mails, plex usernames and/or plex server machine ids, comma separated, no spaces.
-        - container: AUTOJOIN_ENABLED
-          description:
-            en_us: DEPRECATED - (Still works but will be removed in the future in favor of the built-in var autojoin__room) - Set to true to let users autojoin the server and a room (specified by the AUTOJOIN_ROOM var).
-        - container: AUTOJOIN_ROOM
-          description:
-            en_us: DEPRECATED - (Still works but will be removed in the future in favor of the built-in var autojoin__room) - Set the room name for auto joining (requires AUTOJOIN_ENABLED set to true).
       ports:
         - container: '8088'
           description:
@@ -28,8 +20,8 @@ services:
         protocol: tcp
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/synclounge/'

@@ -42,6 +42,9 @@ services:
         - container: /config
           description:
             en_us: Required if `LOGFILE` is set to `true`.
+        - container: /config
+          description:
+            en_us: Required if `LOGFILE` is set to `true`.
       ports:
         - container: '22'
           description:
@@ -51,6 +54,9 @@ services:
         published: 2222
         protocol: tcp
     volumes:
+      - type: bind
+        source: /DATA/AppData/endlessh/config
+        target: /config
       - type: bind
         source: /DATA/AppData/endlessh/config
         target: /config

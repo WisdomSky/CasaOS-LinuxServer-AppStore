@@ -1,7 +1,7 @@
 name: linuxserver-daapd
 services:
   app:
-    image: linuxserver/daapd:28.9.20240320
+    image: linuxserver/daapd:28.9.20240321
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -18,6 +18,10 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/daapd/config
