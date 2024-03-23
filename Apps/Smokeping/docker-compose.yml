@@ -7,6 +7,9 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      MASTER_URL: ''
+      SHARED_SECRET: ''
+      CACHE_DIR: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +21,15 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: MASTER_URL
+          description:
+            en_us: Specify the master url to connect to. Used when in slave mode.
+        - container: SHARED_SECRET
+          description:
+            en_us: Specify the master shared secret for this host. Used when in slave mode.
+        - container: CACHE_DIR
+          description:
+            en_us: Specify the cache directory for this host. Used when in slave mode.
     ports:
       - target: 80
         published: 80
