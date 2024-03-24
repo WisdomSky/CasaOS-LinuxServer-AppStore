@@ -1,7 +1,7 @@
 name: linuxserver-jackett
 services:
   app:
-    image: linuxserver/jackett:0.21.2134
+    image: linuxserver/jackett:0.21.2140
     restart: unless-stopped
     environment:
       PUID: $PUID
