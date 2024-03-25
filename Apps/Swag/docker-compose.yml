@@ -42,7 +42,7 @@ services:
             en_us: Optionally define the cert provider. Set to zerossl for ZeroSSL certs (requires existing ZeroSSL account and the e-mail address entered in EMAIL env var). Otherwise defaults to Let's Encrypt.
         - container: DNSPLUGIN
           description:
-            en_us: Required if VALIDATION is set to dns. Options are acmedns, aliyun, azure, bunny, cloudflare, cpanel, desec, digitalocean, directadmin, dnsimple, dnsmadeeasy, dnspod, do, domeneshop, dreamhost, duckdns, freedns, gandi, gehirn, glesys, godaddy, google, google-domains, he, hetzner, infomaniak, inwx, ionos, linode, loopia, luadns, namecheap, netcup, njalla, nsone, ovh, porkbun, rfc2136, route53, sakuracloud, standalone, transip, and vultr. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under /config/dns-conf.
+            en_us: Required if VALIDATION is set to dns. Options are acmedns, aliyun, azure, bunny, cloudflare, cpanel, desec, digitalocean, directadmin, dnsimple, dnsmadeeasy, dnspod, do, domeneshop, dreamhost, duckdns, dynudns, freedns, gandi, gehirn, glesys, godaddy, google, google-domains, he, hetzner, infomaniak, inwx, ionos, linode, loopia, luadns, namecheap, netcup, njalla, nsone, ovh, porkbun, rfc2136, route53, sakuracloud, standalone, transip, and vultr. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under /config/dns-conf.
         - container: PROPAGATION
           description:
             en_us: Optionally override (in seconds) the default propagation time for the dns plugins.
