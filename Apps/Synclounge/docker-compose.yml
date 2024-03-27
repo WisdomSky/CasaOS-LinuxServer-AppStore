@@ -20,8 +20,8 @@ services:
         protocol: tcp
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/synclounge/'
