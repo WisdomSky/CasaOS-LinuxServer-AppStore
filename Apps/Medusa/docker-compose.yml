@@ -1,7 +1,7 @@
 name: linuxserver-medusa
 services:
   app:
-    image: linuxserver/medusa:1.0.19
+    image: linuxserver/medusa:1.0.20
     restart: unless-stopped
     environment:
       PUID: $PUID

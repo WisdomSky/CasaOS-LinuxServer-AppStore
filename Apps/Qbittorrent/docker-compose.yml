@@ -1,7 +1,7 @@
 name: linuxserver-qbittorrent
 services:
   app:
-    image: linuxserver/qbittorrent:4.6.3
+    image: linuxserver/qbittorrent:4.6.4
     restart: unless-stopped
     environment:
       PUID: $PUID
