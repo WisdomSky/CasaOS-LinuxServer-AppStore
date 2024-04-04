@@ -1,7 +1,7 @@
 name: linuxserver-pydio-cells
 services:
   app:
-    image: linuxserver/pydio-cells:4.3.6
+    image: linuxserver/pydio-cells:4.4.0
     restart: unless-stopped
     environment:
       PUID: $PUID

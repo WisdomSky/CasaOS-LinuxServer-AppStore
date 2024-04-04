@@ -1,7 +1,7 @@
 name: linuxserver-wireshark
 services:
   app:
-    image: linuxserver/wireshark:4.0.11
+    image: linuxserver/wireshark:4.0.14
     restart: unless-stopped
     environment:
       PUID: $PUID
