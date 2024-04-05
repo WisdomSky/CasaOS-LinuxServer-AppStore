@@ -1,7 +1,7 @@
 name: linuxserver-cops
 services:
   app:
-    image: linuxserver/cops:2.5.0
+    image: linuxserver/cops:2.5.3
     restart: unless-stopped
     environment:
       PUID: $PUID

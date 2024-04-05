@@ -1,7 +1,7 @@
 name: linuxserver-swag
 services:
   app:
-    image: linuxserver/swag:2.9.0
+    image: linuxserver/swag:2.10.0
     restart: unless-stopped
     environment:
       PUID: $PUID
