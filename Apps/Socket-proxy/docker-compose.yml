@@ -1,0 +1,45 @@
+name: linuxserver-socket-proxy
+services:
+  app:
+    image: linuxserver/socket-proxy:1.24.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/socket-proxy/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/socket-proxy for details.
+  tagline:
+    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/socket-proxy for details.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: ''
+  thumbnail: ''
+  title:
+    en_us: Socket proxy
+  category: LinuxServer.io
+  port_map: '80'
