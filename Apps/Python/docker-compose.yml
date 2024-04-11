@@ -1,7 +1,7 @@
 name: linuxserver-python
 services:
   app:
-    image: linuxserver/python:3.12.2
+    image: linuxserver/python:3.12.3
     restart: unless-stopped
     environment:
       PUID: $PUID
