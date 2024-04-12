@@ -1,7 +1,7 @@
-name: linuxserver-vscodium
+name: linuxserver-keepassxc
 services:
   app:
-    image: linuxserver/vscodium:1.88.1
+    image: linuxserver/keepassxc:2.7.7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/vscodium/config
+        source: /DATA/AppData/keepassxc/config
         target: /config
 x-casaos:
   architectures:
@@ -35,13 +35,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+    en_us: KeePassXC is a free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).
   tagline:
-    en_us: A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+    en_us: A free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/keepassxc-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/keepassxc-logo.png
   title:
-    en_us: Vscodium
+    en_us: Keepassxc
   category: LinuxServer.io

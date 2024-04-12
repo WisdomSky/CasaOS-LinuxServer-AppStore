@@ -1,7 +1,7 @@
-name: linuxserver-vscodium
+name: linuxserver-freetube
 services:
   app:
-    image: linuxserver/vscodium:1.88.1
+    image: linuxserver/freetube:version-149617650
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,21 +27,21 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/vscodium/config
+        source: /DATA/AppData/freetube/config
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
-    en_us: VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+    en_us: FreeTube is a feature-rich and user-friendly YouTube client with a focus on privacy.
   tagline:
-    en_us: A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+    en_us: A feature-rich and user-friendly YouTube client with a focus on privacy.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png
   title:
-    en_us: Vscodium
+    en_us: Freetube
   category: LinuxServer.io
