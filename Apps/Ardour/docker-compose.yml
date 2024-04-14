@@ -1,7 +1,7 @@
 name: linuxserver-ardour
 services:
   app:
-    image: linuxserver/ardour:version-2024-04-05
+    image: linuxserver/ardour:version-2024-04-13
     restart: unless-stopped
     environment:
       PUID: $PUID
