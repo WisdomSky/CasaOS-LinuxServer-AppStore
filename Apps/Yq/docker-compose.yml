@@ -1,7 +1,7 @@
 name: linuxserver-yq
 services:
   app:
-    image: linuxserver/yq:3.2.3
+    image: linuxserver/yq:3.3.0
     restart: unless-stopped
     environment:
       PUID: $PUID
