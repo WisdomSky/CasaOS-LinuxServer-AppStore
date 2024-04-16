@@ -99,9 +99,7 @@ services:
         source: /DATA/AppData/snipe-it/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/'

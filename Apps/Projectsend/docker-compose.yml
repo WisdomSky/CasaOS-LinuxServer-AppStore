@@ -1,7 +1,7 @@
 name: linuxserver-projectsend
 services:
   app:
-    image: linuxserver/projectsend:r1605-ls185
+    image: linuxserver/projectsend:version-r1605
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,9 +34,7 @@ services:
         source: /DATA/AppData/projectsend/data
         target: /data
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/projectsend/'

@@ -1,7 +1,7 @@
 name: linuxserver-yq
 services:
   app:
-    image: linuxserver/yq:3.3.0
+    image: linuxserver/yq:3.3.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,9 +27,7 @@ services:
         source: /DATA/AppData/yq/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/yq for details.
