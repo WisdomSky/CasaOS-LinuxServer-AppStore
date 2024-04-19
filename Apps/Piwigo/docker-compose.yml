@@ -1,7 +1,7 @@
 name: linuxserver-piwigo
 services:
   app:
-    image: linuxserver/piwigo:14.3.0
+    image: linuxserver/piwigo:14.4.0
     restart: unless-stopped
     environment:
       PUID: $PUID

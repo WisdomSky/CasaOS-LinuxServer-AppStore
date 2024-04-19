@@ -38,7 +38,9 @@ services:
         source: /DATA/AppData/libreoffice/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/libreoffice/'

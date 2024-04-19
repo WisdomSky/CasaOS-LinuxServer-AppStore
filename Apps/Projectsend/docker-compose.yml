@@ -34,7 +34,9 @@ services:
         source: /DATA/AppData/projectsend/data
         target: /data
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/projectsend/'

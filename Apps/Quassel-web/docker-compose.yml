@@ -1,7 +1,7 @@
 name: linuxserver-quassel-web
 services:
   app:
-    image: linuxserver/quassel-web:version-019bfdc1
+    image: linuxserver/quassel-web:019bfdc1-ls121
     restart: unless-stopped
     environment:
       PUID: $PUID

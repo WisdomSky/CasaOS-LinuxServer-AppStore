@@ -63,7 +63,9 @@ services:
         source: /DATA/AppData/bookstack/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/bookstack'
