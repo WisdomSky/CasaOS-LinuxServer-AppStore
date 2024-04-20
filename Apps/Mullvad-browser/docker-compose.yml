@@ -35,6 +35,9 @@ services:
       - type: bind
         source: /DATA/AppData/mullvad-browser/config
         target: /config
+      - type: bind
+        source: /DATA/Downloads
+        target: /config/Downloads
     shm_size: "1gb"
 x-casaos:
   architectures:
