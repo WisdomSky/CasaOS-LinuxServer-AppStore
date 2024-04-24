@@ -1,0 +1,60 @@
+name: linuxserver-kometa
+services:
+  app:
+    image: linuxserver/kometa:1.21.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      KOMETA_CONFIG: ''
+      KOMETA_TIME: ''
+      KOMETA_RUN: ''
+      KOMETA_TEST: ''
+      KOMETA_NO_MISSING: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: KOMETA_CONFIG
+          description:
+            en_us: Specify a custom config file to use.
+        - container: KOMETA_TIME
+          description:
+            en_us: 'Comma-separated list of times to update each day. Format: HH:MM.'
+        - container: KOMETA_RUN
+          description:
+            en_us: Set to True to run without the scheduler.
+        - container: KOMETA_TEST
+          description:
+            en_us: 'Set to True to run in debug mode with only collections that have test: true.'
+        - container: KOMETA_NO_MISSING
+          description:
+            en_us: Set to True to run without any of the missing movie/show functions.
+    volumes:
+      - type: bind
+        source: /DATA/AppData/kometa/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Kometa is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+  tagline:
+    en_us: A powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
+  title:
+    en_us: Kometa
+  category: LinuxServer.io
