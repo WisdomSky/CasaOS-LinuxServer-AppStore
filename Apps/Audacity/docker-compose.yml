@@ -1,7 +1,7 @@
 name: linuxserver-audacity
 services:
   app:
-    image: linuxserver/audacity:3.5.0
+    image: linuxserver/audacity:3.5.1
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-cura
 services:
   app:
-    image: linuxserver/cura:5.7.0
+    image: linuxserver/cura:5.7.1
     restart: unless-stopped
     environment:
       PUID: $PUID
