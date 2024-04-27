@@ -1,0 +1,50 @@
+name: linuxserver-msedge
+services:
+  app:
+    image: linuxserver/msedge:124.0.2478
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      EDGE_CLI: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: EDGE_CLI
+          description:
+            en_us: Specify one or multiple Chromium CLI flags, this string will be passed to the application in full.
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/msedge/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+  main: app
+  description:
+    en_us: Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium.
+  tagline:
+    en_us: A cross-platform web browser developed by Microsoft and based on Chromium.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/edge-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/edge-logo.png
+  title:
+    en_us: Msedge
+  category: LinuxServer.io
