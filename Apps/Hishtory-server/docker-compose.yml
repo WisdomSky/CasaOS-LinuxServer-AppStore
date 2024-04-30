@@ -1,7 +1,7 @@
 name: linuxserver-hishtory-server
 services:
   app:
-    image: linuxserver/hishtory-server:0.292.20240421
+    image: linuxserver/hishtory-server:0.293.20240429
     restart: unless-stopped
     environment:
       PUID: $PUID
