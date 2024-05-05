@@ -22,6 +22,14 @@ services:
         - container: CONFIGFILE
           description:
             en_us: Set a custom config file.
+      volumes:
+        - container: /config
+          description:
+            en_us: Contains all relevant configuration files.
+      ports:
+        - container: '8080'
+          description:
+            en_us: Port for AdGuardHome Sync's web API.
     ports:
       - target: 8080
         published: 8080
@@ -36,7 +44,7 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
+    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/adguardhome-sync'
   tagline:
     en_us: A tool to synchronize AdGuardHome config to replica instances.
   developer: LinuxServer.io
@@ -46,3 +54,5 @@ x-casaos:
   title:
     en_us: Adguardhome sync
   category: LinuxServer.io
+  project_url: https://github.com/bakito/adguardhome-sync/
+  port_map: '8080'

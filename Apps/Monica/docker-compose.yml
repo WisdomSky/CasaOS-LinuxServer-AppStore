@@ -1,7 +1,7 @@
 name: linuxserver-monica
 services:
   app:
-    image: linuxserver/monica:4.1.1
+    image: linuxserver/monica:4.1.2
     restart: unless-stopped
     environment:
       PUID: $PUID
