@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-ae17e350
+    image: linuxserver/lazylibrarian:version-47481172
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -38,8 +38,8 @@ services:
         target: /books
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/lazylibrarian/'
