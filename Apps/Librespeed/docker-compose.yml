@@ -1,7 +1,7 @@
 name: linuxserver-librespeed
 services:
   app:
-    image: linuxserver/librespeed:5.3.1
+    image: linuxserver/librespeed:5.3.2
     restart: unless-stopped
     environment:
       PUID: $PUID
