@@ -45,6 +45,10 @@ services:
       - target: 443
         published: 443
         protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/your_spotify/config
+        target: /config
 x-casaos:
   architectures:
     - amd64

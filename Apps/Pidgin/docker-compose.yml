@@ -1,7 +1,7 @@
 name: linuxserver-pidgin
 services:
   app:
-    image: linuxserver/pidgin:2.14.12
+    image: linuxserver/pidgin:2.14.13
     restart: unless-stopped
     environment:
       PUID: $PUID

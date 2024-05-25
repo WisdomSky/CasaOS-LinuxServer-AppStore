@@ -1,7 +1,7 @@
 name: linuxserver-hishtory-server
 services:
   app:
-    image: linuxserver/hishtory-server:0.294.20240512
+    image: linuxserver/hishtory-server:0.294.20240524
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -30,6 +30,10 @@ services:
       - target: 8080
         published: 8080
         protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/hishtory-server/config
+        target: /config
 x-casaos:
   architectures:
     - amd64
