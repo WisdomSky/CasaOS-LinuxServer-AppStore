@@ -1,0 +1,57 @@
+name: linuxserver-nzbget
+services:
+  app:
+    image: linuxserver/nzbget:24.1.20240524
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      NZBGET_USER: ''
+      NZBGET_PASS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: NZBGET_USER
+          description:
+            en_us: Specify the user for web authentication.
+        - container: NZBGET_PASS
+          description:
+            en_us: Specify the password for web authentication.
+    ports:
+      - target: 6789
+        published: 6789
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nzbget/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/nzbget/downloads
+        target: /downloads
+x-casaos:
+  architectures:
+    - arm64
+    - amd64
+  main: app
+  description:
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/nzbget/'
+  tagline:
+    en_us: A usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png
+  title:
+    en_us: Nzbget
+  category: LinuxServer.io
+  project_url: http://nzbget.net/
+  port_map: '6789'

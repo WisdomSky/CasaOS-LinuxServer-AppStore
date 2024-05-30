@@ -49,7 +49,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - unknown
     - arm64
   main: app
   description:
