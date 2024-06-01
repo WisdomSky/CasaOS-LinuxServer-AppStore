@@ -1,7 +1,7 @@
 name: linuxserver-nzbget
 services:
   app:
-    image: linuxserver/nzbget:24.1.20240524
+    image: linuxserver/nzbget:24.1.20240531
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -39,8 +39,8 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/nzbget/'
