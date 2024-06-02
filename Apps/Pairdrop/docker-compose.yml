@@ -38,6 +38,10 @@ services:
       - target: 3000
         published: 3000
         protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pairdrop/config
+        target: /config
 x-casaos:
   architectures:
     - amd64
