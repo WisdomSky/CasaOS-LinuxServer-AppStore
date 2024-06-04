@@ -1,7 +1,7 @@
 name: linuxserver-resilio-sync
 services:
   app:
-    image: linuxserver/resilio-sync:2.8.0
+    image: linuxserver/resilio-sync:2.8.1
     restart: unless-stopped
     environment:
       PUID: $PUID
