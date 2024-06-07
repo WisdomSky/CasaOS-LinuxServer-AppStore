@@ -1,7 +1,7 @@
 name: linuxserver-netbox
 services:
   app:
-    image: linuxserver/netbox:4.0.3
+    image: linuxserver/netbox:4.0.5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -61,7 +61,7 @@ services:
             en_us: 'Database host (default: postgres)'
         - container: DB_PORT
           description:
-            en_us: 'Database port (defaul: 5432)'
+            en_us: 'Database port (default: 5432)'
         - container: REDIS_HOST
           description:
             en_us: 'Redis host (default: redis)'
