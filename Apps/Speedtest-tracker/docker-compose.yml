@@ -1,19 +1,23 @@
 name: linuxserver-speedtest-tracker
 services:
   app:
-    image: linuxserver/speedtest-tracker:0.20.2
+    image: linuxserver/speedtest-tracker:0.20.3
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      DB_CONNECTION: ''
       APP_KEY: ''
+      DB_CONNECTION: ''
+      SPEEDTEST_SCHEDULE: ''
+      SPEEDTEST_SERVERS: ''
       DB_HOST: ''
       DB_PORT: ''
       DB_DATABASE: ''
       DB_USERNAME: ''
       DB_PASSWORD: ''
+      DISPLAY_TIMEZONE: ''
+      PRUNE_RESULTS_OLDER_THAN: ''
     x-casaos:
       envs:
         - container: PUID
@@ -25,12 +29,18 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: APP_KEY
+          description:
+            en_us: App key used for encrypting stored data. You can generate a key at https://speedtest-tracker.dev
         - container: DB_CONNECTION
           description:
             en_us: Set the database type to use. sqlite, pgsql, or mysql
-        - container: APP_KEY
+        - container: SPEEDTEST_SCHEDULE
           description:
-            en_us: App key used for encrypting stored data. Generate with docker exec speedtest-tracker php /app/www/artisan key:generate --show
+            en_us: Set the test schedule in cron format. e.g. 0 */6 * * *
+        - container: SPEEDTEST_SERVERS
+          description:
+            en_us: A comma-separated list of server IDs to test against. Run docker exec speedtest-tracker php /app/www/artisan app:ookla-list-servers to get a list of nearby servers.
         - container: DB_HOST
           description:
             en_us: Database hostname (postgres/mysql).
@@ -46,6 +56,12 @@ services:
         - container: DB_PASSWORD
           description:
             en_us: Database password (postgres/mysql).
+        - container: DISPLAY_TIMEZONE
+          description:
+            en_us: Timezone for the UI.
+        - container: PRUNE_RESULTS_OLDER_THAN
+          description:
+            en_us: Days to keep test results.
     ports:
       - target: 80
         published: 80
