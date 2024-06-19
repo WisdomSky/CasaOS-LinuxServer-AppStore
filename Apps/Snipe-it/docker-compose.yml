@@ -1,20 +1,22 @@
 name: linuxserver-snipe-it
 services:
   app:
-    image: linuxserver/snipe-it:7.0.2
+    image: linuxserver/snipe-it:7.0.3
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      APP_KEY: ''
       APP_URL: ''
       MYSQL_PORT_3306_TCP_ADDR: ''
       MYSQL_PORT_3306_TCP_PORT: ''
       MYSQL_DATABASE: ''
       MYSQL_USER: ''
       MYSQL_PASSWORD: ''
-      APP_ENV: ''
       APP_DEBUG: ''
+      APP_ENV: ''
+      APP_FORCE_TLS: ''
       APP_LOCALE: ''
       MAIL_PORT_587_TCP_ADDR: ''
       MAIL_PORT_587_TCP_PORT: ''
@@ -34,6 +36,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: APP_KEY
+          description:
+            en_us: App key used for encrypting stored data. Generate with docker exec snipe-it php /app/www/artisan key:generate --show.
         - container: APP_URL
           description:
             en_us: Hostname or IP and port if applicable, be sure to define https/http
@@ -52,12 +57,15 @@ services:
         - container: MYSQL_PASSWORD
           description:
             en_us: Mysql password to use
-        - container: APP_ENV
-          description:
-            en_us: Default is production but can use testing or develop.
         - container: APP_DEBUG
           description:
             en_us: Set to true to see debugging output in the web UI.
+        - container: APP_ENV
+          description:
+            en_us: Default is production but can use testing or develop.
+        - container: APP_FORCE_TLS
+          description:
+            en_us: Set to true if running behind a reverse proxy
         - container: APP_LOCALE
           description:
             en_us: Default is en. Set to a language from this list.
@@ -109,8 +117,8 @@ x-casaos:
     en_us: Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-icon.png
-  thumbnail: https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/snipe-it-logo500x500.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-logo.png
   title:
     en_us: Snipe it
   category: LinuxServer.io
