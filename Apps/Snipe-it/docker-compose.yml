@@ -68,7 +68,7 @@ services:
             en_us: Set to true if running behind a reverse proxy
         - container: APP_LOCALE
           description:
-            en_us: Default is en. Set to a language from this list.
+            en_us: Default is en-US. Set to a language from this list.
         - container: MAIL_PORT_587_TCP_ADDR
           description:
             en_us: SMTP mail server ip or hostname.
