@@ -38,6 +38,10 @@ services:
         - container: KOMETA_NO_MISSING
           description:
             en_us: Set to True to run without any of the missing movie/show functions.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/kometa/config
@@ -58,3 +62,4 @@ x-casaos:
   title:
     en_us: Kometa
   category: LinuxServer.io
+  port_map: '80'

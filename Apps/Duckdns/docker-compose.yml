@@ -35,7 +35,15 @@ services:
           description:
             en_us: Set to true to log to file (also need to map /config).
       volumes: []
+      ports: []
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
+      - type: bind
+        source: /DATA/AppData/duckdns/config
+        target: /config
       - type: bind
         source: /DATA/AppData/duckdns/config
         target: /config
@@ -56,3 +64,4 @@ x-casaos:
     en_us: Duckdns
   category: LinuxServer.io
   project_url: https://www.duckdns.org/
+  port_map: '80'

@@ -90,6 +90,10 @@ services:
         - container: JAVA_OPTS
           description:
             en_us: For passing additional java options.
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/doplarr/config
@@ -110,3 +114,4 @@ x-casaos:
   title:
     en_us: Doplarr
   category: LinuxServer.io
+  port_map: '80'
