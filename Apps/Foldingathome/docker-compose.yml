@@ -1,12 +1,14 @@
 name: linuxserver-foldingathome
 services:
   app:
-    image: linuxserver/foldingathome:7.6.21
+    image: linuxserver/foldingathome:8.3.17
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      ACCOUNT_TOKEN: ''
+      MACHINE_NAME: ''
       CLI_ARGS: ''
     x-casaos:
       envs:
@@ -19,9 +21,15 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: ACCOUNT_TOKEN
+          description:
+            en_us: Register for an account on https://app.foldingathome.org and retrieve account token in settings. Required on first start.
+        - container: MACHINE_NAME
+          description:
+            en_us: Assign a friendly name to this instance (no spaces). Required on first start.
         - container: CLI_ARGS
           description:
-            en_us: Optionally pass additional cli arguments to FAHClient on container start.
+            en_us: Optionally pass additional cli arguments to fah-client on container start.
       volumes:
         - container: /config
           description:
@@ -30,15 +38,12 @@ services:
         - container: '7396'
           description:
             en_us: GUI Port - Default 7396
-        - container: '36330'
-          description:
-            en_us: FAHControl Port - Default 36330
     ports:
+      - target: 80
+        published: 80
+        protocol: tcp
       - target: 7396
         published: 7396
-        protocol: tcp
-      - target: 36330
-        published: 36330
         protocol: tcp
     volumes:
       - type: bind
