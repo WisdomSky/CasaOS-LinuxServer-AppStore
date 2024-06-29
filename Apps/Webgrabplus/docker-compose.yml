@@ -25,6 +25,11 @@ services:
         - container: /data
           description:
             en_us: Where webgrabplus saves the XML files
+      ports: []
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/webgrabplus/config
@@ -49,3 +54,4 @@ x-casaos:
     en_us: Webgrabplus
   category: LinuxServer.io
   project_url: http://webgrabplus.com/
+  port_map: '80'

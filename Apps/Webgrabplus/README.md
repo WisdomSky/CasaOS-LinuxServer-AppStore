@@ -5,3 +5,5 @@ A multi-site incremental xmltv epg grabber. It collects tv-program guide data fr
 ---
 
 **Homepage:** https://hub.docker.com/r/linuxserver/webgrabplus
+
+**WebUI Port:** `80`
