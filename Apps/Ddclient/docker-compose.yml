@@ -22,6 +22,11 @@ services:
         - container: /config
           description:
             en_us: Edit ddclient.conf in this folder to complete setup.
+      ports: []
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/ddclient/config
@@ -43,3 +48,4 @@ x-casaos:
     en_us: Ddclient
   category: LinuxServer.io
   project_url: https://github.com/ddclient/ddclient
+  port_map: '80'
