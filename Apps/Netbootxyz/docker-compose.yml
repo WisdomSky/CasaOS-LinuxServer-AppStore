@@ -31,7 +31,7 @@ services:
             en_us: Specify the port range tftp will use for data transfers (see Wikipedia)
         - container: SUBFOLDER
           description:
-            en_us: Specify a sobfolder if running this behind a reverse proxy (IE /proxy/)
+            en_us: Specify a subfolder if running this behind a reverse proxy (IE /proxy/)
         - container: NGINX_PORT
           description:
             en_us: Specify a different internal port for the asset server

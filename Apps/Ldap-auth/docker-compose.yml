@@ -4,11 +4,23 @@ services:
     image: linuxserver/ldap-auth:3.4.4
     restart: unless-stopped
     environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
       FERNETKEY: ''
       CERTFILE: ''
       KEYFILE: ''
     x-casaos:
       envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
         - container: FERNETKEY
           description:
             en_us: Optionally define a custom valid fernet key (only needed if container is frequently recreated, or if using multi-node setups, invalidating previous authentications)
@@ -18,6 +30,7 @@ services:
         - container: KEYFILE
           description:
             en_us: Optionally point this to the private key file, matching the certificate file referred to in CERTFILE
+      volumes: []
       ports:
         - container: '8888'
           description:
@@ -32,6 +45,10 @@ services:
       - target: 9000
         published: 9000
         protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ldap-auth/config
+        target: /config
 x-casaos:
   architectures:
     - amd64
