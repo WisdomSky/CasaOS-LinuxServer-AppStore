@@ -1,7 +1,7 @@
 name: linuxserver-znc
 services:
   app:
-    image: linuxserver/znc:1.9.0
+    image: linuxserver/znc:1.9.1
     restart: unless-stopped
     environment:
       PUID: $PUID
