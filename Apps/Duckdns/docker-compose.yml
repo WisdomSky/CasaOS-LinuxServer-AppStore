@@ -1,7 +1,7 @@
 name: linuxserver-duckdns
 services:
   app:
-    image: linuxserver/duckdns:amd64-latest
+    image: linuxserver/duckdns:version-9fc9520a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -50,6 +50,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/duckdns/'

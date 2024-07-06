@@ -7,6 +7,7 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      APPRISE_ATTACH_SIZE: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +19,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: APPRISE_ATTACH_SIZE
+          description:
+            en_us: Max attachment size in Mb. 0 disables attachments. Must have /attachments mounted to set to a positive value.
       volumes:
         - container: /config
           description:
@@ -34,6 +38,9 @@ services:
       - type: bind
         source: /DATA/AppData/apprise-api/config
         target: /config
+      - type: bind
+        source: /DATA/AppData/apprise-api/attachments
+        target: /attachments
 x-casaos:
   architectures:
     - amd64
