@@ -1,7 +1,7 @@
 name: linuxserver-ci
 services:
   app:
-    image: linuxserver/ci:version-25ef465b
+    image: linuxserver/ci:version-fd17d9bf
     restart: unless-stopped
     environment:
       PUID: $PUID
