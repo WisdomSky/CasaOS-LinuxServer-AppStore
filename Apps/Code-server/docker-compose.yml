@@ -1,7 +1,7 @@
 name: linuxserver-code-server
 services:
   app:
-    image: linuxserver/code-server:4.90.3
+    image: linuxserver/code-server:4.91.0
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -17,6 +17,7 @@ services:
       CMD_PROTOCOL_USESSL: ''
       CMD_PORT: ''
       CMD_ALLOW_ORIGIN: ''
+      CMD_DB_DIALECT: ''
     x-casaos:
       envs:
         - container: PUID
@@ -30,10 +31,10 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: DB_HOST
           description:
-            en_us: Host address of mysql database
+            en_us: Host address of mariadb database
         - container: DB_PORT
           description:
-            en_us: Port to access mysql database default is 3306
+            en_us: Port to access mariadb database default is 3306
         - container: DB_USER
           description:
             en_us: Database user
@@ -58,6 +59,9 @@ services:
         - container: CMD_ALLOW_ORIGIN
           description:
             en_us: Comma-separated list of allowed hostnames
+        - container: CMD_DB_DIALECT
+          description:
+            en_us: 'This variable allows selecting a database engine (if DB_HOST not set up). Available options are: mariadb, mysql, postgres, sqlite.'
       volumes:
         - container: /config
           description:
