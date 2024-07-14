@@ -1,7 +1,7 @@
 name: linuxserver-opera
 services:
   app:
-    image: linuxserver/opera:111.0.5168
+    image: linuxserver/opera:112.0.5197
     restart: unless-stopped
     environment:
       PUID: $PUID
