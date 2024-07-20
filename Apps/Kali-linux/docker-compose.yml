@@ -1,7 +1,7 @@
-name: linuxserver-webtop
+name: linuxserver-kali-linux
 services:
   app:
-    image: linuxserver/webtop:arch-kde-version-2024-07-19
+    image: linuxserver/kali-linux:version-8ece13d7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -26,14 +26,6 @@ services:
         - container: TITLE
           description:
             en_us: String which will be used as page/tab title in the web browser.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -43,7 +35,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/webtop/config
+        source: /DATA/AppData/kali-linux/config
         target: /config
       - type: bind
         source: /var/run/docker.sock
@@ -54,15 +46,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/webtop/'
+    en_us: Kali-linux - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
   tagline:
-    en_us: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
+    en_us: is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
   title:
-    en_us: Webtop
+    en_us: Kali linux
   category: LinuxServer.io
-  project_url: https://github.com/linuxserver/docker-webtop
-  port_map: '3000'

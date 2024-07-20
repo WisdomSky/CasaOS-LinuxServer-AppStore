@@ -1,7 +1,7 @@
 name: linuxserver-snapdrop
 services:
   app:
-    image: linuxserver/snapdrop:version-eac78009
+    image: linuxserver/snapdrop:version-debd13a0
     restart: unless-stopped
     environment:
       PUID: $PUID
