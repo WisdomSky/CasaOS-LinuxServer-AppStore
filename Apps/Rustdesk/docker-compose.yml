@@ -1,7 +1,7 @@
-name: linuxserver-freetube
+name: linuxserver-rustdesk
 services:
   app:
-    image: linuxserver/freetube:version-167158790
+    image: linuxserver/rustdesk:1.2.7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/freetube/config
+        source: /DATA/AppData/rustdesk/config
         target: /config
 x-casaos:
   architectures:
@@ -35,13 +35,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: FreeTube is a feature-rich and user-friendly YouTube client with a focus on privacy.
+    en_us: RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.
   tagline:
-    en_us: A feature-rich and user-friendly YouTube client with a focus on privacy.
+    en_us: A full-featured open source remote control alternative for self-hosting and security with minimal configuration.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
   title:
-    en_us: Freetube
+    en_us: Rustdesk
   category: LinuxServer.io

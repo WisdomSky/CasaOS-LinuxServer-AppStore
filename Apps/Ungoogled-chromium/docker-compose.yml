@@ -1,13 +1,13 @@
-name: linuxserver-opera
+name: linuxserver-ungoogled-chromium
 services:
   app:
-    image: linuxserver/opera:111.0.5168
+    image: linuxserver/ungoogled-chromium:126.0.6478
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      OPERA_CLI: ''
+      CHROME_CLI: ''
     x-casaos:
       envs:
         - container: PUID
@@ -19,7 +19,7 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: OPERA_CLI
+        - container: CHROME_CLI
           description:
             en_us: Specify one or multiple Chromium CLI flags, this string will be passed to the application in full.
     ports:
@@ -31,20 +31,20 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/opera/config
+        source: /DATA/AppData/ungoogled-chromium/config
         target: /config
 x-casaos:
   architectures:
     - amd64
   main: app
   description:
-    en_us: Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.
+    en_us: Ungoogled Chromium is Google Chromium, sans dependency on Google web services.
   tagline:
-    en_us: A multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc. ) through its user interface and other features.
+    en_us: Google Chromium, sans dependency on Google web services.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
   title:
-    en_us: Opera
+    en_us: Ungoogled chromium
   category: LinuxServer.io

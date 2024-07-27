@@ -1,0 +1,59 @@
+name: linuxserver-manyfold
+services:
+  app:
+    image: linuxserver/manyfold:0.74.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DATABASE_URL: ''
+      REDIS_URL: ''
+      SECRET_KEY_BASE: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: DATABASE_URL
+          description:
+            en_us: Database connection URL. For sqlite use sqlite3:/config/manyfold.sqlite3. For postgres or mariadb use ://:@:/ where ` is postgresql or mysql2`. Special characters in username/password must be URL encoded.
+        - container: REDIS_URL
+          description:
+            en_us: Redis/Valkey database URL in redis://:/ format.
+        - container: SECRET_KEY_BASE
+          description:
+            en_us: Browser session secret. Changing it will terminate all active browser sessions.
+    ports:
+      - target: 3214
+        published: 3214
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/manyfold/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/manyfold/libraries
+        target: /libraries
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Manyfold is an open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
+  tagline:
+    en_us: An open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
+  title:
+    en_us: Manyfold
+  category: LinuxServer.io
