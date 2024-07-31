@@ -7,6 +7,7 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      DARK_MODE: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +19,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: DARK_MODE
+          description:
+            en_us: Set this to true to enable dark mode for Bambu Studio.
     ports:
       - target: 3000
         published: 3000
