@@ -1,7 +1,7 @@
 name: linuxserver-jenkins-builder
 services:
   app:
-    image: linuxserver/jenkins-builder:empty
+    image: linuxserver/jenkins-builder:version-fb673d29
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,7 +27,9 @@ services:
         source: /DATA/AppData/jenkins-builder/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
