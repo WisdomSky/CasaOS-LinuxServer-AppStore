@@ -3,6 +3,8 @@ services:
   app:
     image: linuxserver/mullvad-browser:13.5.1
     restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
     environment:
       PUID: $PUID
       PGID: $PGID
@@ -33,6 +35,10 @@ services:
       - type: bind
         source: /DATA/AppData/mullvad-browser/config
         target: /config
+      - type: bind
+        source: /DATA/Downloads
+        target: /config/Downloads
+    shm_size: "1gb"
 x-casaos:
   architectures:
     - amd64
@@ -48,3 +54,4 @@ x-casaos:
   title:
     en_us: Mullvad browser
   category: LinuxServer.io
+  port_map: '3000'
