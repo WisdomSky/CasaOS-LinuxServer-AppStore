@@ -1,7 +1,7 @@
 name: linuxserver-speedtest-tracker
 services:
   app:
-    image: linuxserver/speedtest-tracker:0.20.8
+    image: linuxserver/speedtest-tracker:0.20.9
     restart: unless-stopped
     environment:
       PUID: $PUID
