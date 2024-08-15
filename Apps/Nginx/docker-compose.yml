@@ -1,7 +1,7 @@
 name: linuxserver-nginx
 services:
   app:
-    image: linuxserver/nginx:1.26.1
+    image: linuxserver/nginx:1.26.2
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,7 +1,7 @@
 name: linuxserver-plex
 services:
   app:
-    image: linuxserver/plex:1.40.4
+    image: linuxserver/plex:1.40.5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,34 +36,11 @@ services:
         - container: /movies
           description:
             en_us: Movies - /movies
-      ports:
-        - container: '32400'
-          description:
-            en_us: For access to the Plex Media Server Webui (No effect in host mode - reference only)
-        - container: '3005'
-          description:
-            en_us: For controlling Plex Home Theater via Plex Companion (No effect in host mode - reference only)
-        - container: '8324'
-          description:
-            en_us: For controlling Plex for Roku via Plex Companion (No effect in host mode - reference only)
-        - container: '32469'
-          description:
-            en_us: For access to the Plex DLNA Server (No effect in host mode - reference only)
-        - container: '1900'
-          description:
-            en_us: For access to the Plex DLNA Server (No effect in host mode - reference only)
-        - container: '32410'
-          description:
-            en_us: For current GDM network discovery (No effect in host mode - reference only)
-        - container: '32412'
-          description:
-            en_us: For current GDM network discovery (No effect in host mode - reference only)
-        - container: '32413'
-          description:
-            en_us: For current GDM network discovery (No effect in host mode - reference only)
-        - container: '32414'
-          description:
-            en_us: For current GDM network discovery (No effect in host mode - reference only)
+      ports: []
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
     volumes:
       - type: bind
         source: /DATA/AppData/plex/config
@@ -74,34 +51,6 @@ services:
       - type: bind
         source: /DATA/AppData/plex/movies
         target: /movies
-    ports:
-      - target: 32400
-        published: 32400
-        protocol: tcp
-      - target: 3005
-        published: 3005
-        protocol: tcp
-      - target: 8324
-        published: 8324
-        protocol: tcp
-      - target: 32469
-        published: 32469
-        protocol: tcp
-      - target: 1900
-        published: 1900
-        protocol: udp
-      - target: 32410
-        published: 32410
-        protocol: udp
-      - target: 32412
-        published: 32412
-        protocol: udp
-      - target: 32413
-        published: 32413
-        protocol: udp
-      - target: 32414
-        published: 32414
-        protocol: udp
 x-casaos:
   architectures:
     - amd64
@@ -113,8 +62,8 @@ x-casaos:
     en_us: Organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png
-  thumbnail: http://the-gadgeteer.com/wp-content/uploads/2015/10/plex-logo-e1446990678679.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-logo.png
   title:
     en_us: Plex
   category: LinuxServer.io
