@@ -1,0 +1,34 @@
+name: udpxy
+services:
+  udpxy:
+    cpu_shares: 50
+    command: []
+    container_name: udpxy
+    deploy:
+      resources:
+        limits:
+          memory: 7812M
+    hostname: udpxy
+    image: ifmm/udpxy:latest
+    labels:
+      icon: https://0472.org/udpxy.png
+    restart: always
+    ports: []
+    volumes: []
+    devices: []
+    cap_add: []
+    environment: []
+    network_mode: host
+    privileged: false
+x-casaos:
+  author: self
+  category: self
+  hostname: ""
+  icon: https://0472.org/udpxy.png
+  index: /status
+  is_uncontrolled: false
+  port_map: "5893"
+  scheme: http
+  store_app_id: udpxy
+  title:
+    custom: udpxy
