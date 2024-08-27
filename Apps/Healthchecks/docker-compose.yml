@@ -1,7 +1,7 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:3.4.20240812
+    image: linuxserver/healthchecks:3.5.2
     restart: unless-stopped
     environment:
       PUID: $PUID
