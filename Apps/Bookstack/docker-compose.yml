@@ -46,14 +46,6 @@ services:
         - container: QUEUE_CONNECTION
           description:
             en_us: Set to database to enable async actions like sending email or triggering webhooks. See documentation.
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-      ports:
-        - container: '6875'
-          description:
-            en_us: 'Container Port: 80'
     ports:
       - target: 6875
         published: 80
@@ -68,7 +60,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/bookstack'
+    en_us: 'Bookstack is a free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www.bookstackapp.com'
   tagline:
     en_us: 'A free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www. Bookstackapp. Com'
   developer: LinuxServer.io
@@ -78,5 +70,3 @@ x-casaos:
   title:
     en_us: Bookstack
   category: LinuxServer.io
-  project_url: https://www.bookstackapp.com/
-  port_map: '80'
