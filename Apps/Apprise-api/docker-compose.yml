@@ -22,6 +22,14 @@ services:
         - container: APPRISE_ATTACH_SIZE
           description:
             en_us: Max attachment size in Mb. 0 disables attachments. Must have /attachments mounted to set to a positive value.
+      volumes:
+        - container: /config
+          description:
+            en_us: Where config is stored.
+      ports:
+        - container: '8000'
+          description:
+            en_us: Port for apprise's interface and API.
     ports:
       - target: 8000
         published: 8000
@@ -39,13 +47,15 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Apprise-api Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more then 65+ services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.
+    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/apprise-api'
   tagline:
     en_us: Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more then 65+ services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apprise-api.png
   thumbnail: https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png
   title:
     en_us: Apprise api
   category: LinuxServer.io
+  project_url: https://github.com/caronc/apprise-api
+  port_map: '8000'

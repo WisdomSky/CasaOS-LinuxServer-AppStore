@@ -22,6 +22,14 @@ services:
         - container: PASSWORD
           description:
             en_us: Optionally set a password for the gui.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: '8080'
+          description:
+            en_us: GUI Port - Default 8080
     ports:
       - target: 8080
         published: 8080
@@ -39,13 +47,15 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: BOINC is a platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/boinc/'
   tagline:
     en_us: A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boinc-icon.png
   thumbnail: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
   title:
     en_us: Boinc
   category: LinuxServer.io
+  project_url: https://boinc.berkeley.edu/
+  port_map: '8080'

@@ -22,6 +22,14 @@ services:
         - container: CONTEXT_PATH
           description:
             en_us: Base url for use with reverse proxies etc.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: '4040'
+          description:
+            en_us: Webui Port
     ports:
       - target: 4040
         published: 4040
@@ -45,7 +53,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Booksonic-air is a platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
   tagline:
     en_us: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
   developer: LinuxServer.io
@@ -55,3 +63,5 @@ x-casaos:
   title:
     en_us: Booksonic air
   category: LinuxServer.io
+  project_url: https://booksonic.org/
+  port_map: '4040'
