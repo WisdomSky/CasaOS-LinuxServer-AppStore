@@ -1,7 +1,7 @@
 name: linuxserver-altus
 services:
   app:
-    image: linuxserver/altus:5.2.0
+    image: linuxserver/altus:5.3.0
     restart: unless-stopped
     environment:
       PUID: $PUID

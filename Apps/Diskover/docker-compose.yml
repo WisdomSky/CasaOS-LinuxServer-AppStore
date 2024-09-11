@@ -9,8 +9,6 @@ services:
       TZ: $TZ
       ES_HOST: ''
       ES_PORT: ''
-      ES_USER: ''
-      ES_PASS: ''
     x-casaos:
       envs:
         - container: PUID
@@ -28,12 +26,6 @@ services:
         - container: ES_PORT
           description:
             en_us: ElasticSearch port (optional)
-        - container: ES_USER
-          description:
-            en_us: ElasticSearch username (optional)
-        - container: ES_PASS
-          description:
-            en_us: ElasticSearch password (optional)
       volumes:
         - container: /config
           description:
