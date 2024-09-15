@@ -1,7 +1,7 @@
-name: linuxserver-shotcut
+name: linuxserver-yaak
 services:
   app:
-    image: linuxserver/shotcut:24.09.13
+    image: linuxserver/yaak:2024.8.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,20 +27,20 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/shotcut/config
+        source: /DATA/AppData/yaak/config
         target: /config
 x-casaos:
   architectures:
     - amd64
   main: app
   description:
-    en_us: Shotcut is a free, open source, cross-platform video editor.
+    en_us: Yaak is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
   tagline:
-    en_us: A free, open source, cross-platform video editor.
+    en_us: A desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
   title:
-    en_us: Shotcut
+    en_us: Yaak
   category: LinuxServer.io

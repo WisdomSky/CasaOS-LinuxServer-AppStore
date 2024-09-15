@@ -1,0 +1,60 @@
+name: linuxserver-planka
+services:
+  app:
+    image: linuxserver/planka:1.21.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      BASE_URL: ''
+      DATABASE_URL: ''
+      SECRET_KEY: ''
+      TRUST_PROXY: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: for UserID
+        - container: PGID
+          description:
+            en_us: for GroupID
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: BASE_URL
+          description:
+            en_us: The URL you will use to access planka including protocol, and port if not 80/443.
+        - container: DATABASE_URL
+          description:
+            en_us: Postgres database URL. Special characters must be url encoded.
+        - container: SECRET_KEY
+          description:
+            en_us: Session encryption key, recommended 32-64 character alphanumeric.
+        - container: TRUST_PROXY
+          description:
+            en_us: Set to 1 to trust upstream proxies if reverse proxying.
+    ports:
+      - target: 1337
+        published: 1337
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/planka/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Planka is an elegant open source project tracking tool.
+  tagline:
+    en_us: An elegant open source project tracking tool.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
+  title:
+    en_us: Planka
+  category: LinuxServer.io
