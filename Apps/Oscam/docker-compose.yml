@@ -1,7 +1,7 @@
 name: linuxserver-oscam
 services:
   app:
-    image: linuxserver/oscam:version-11830
+    image: linuxserver/oscam:version-11831
     restart: unless-stopped
     environment:
       PUID: $PUID
