@@ -7,6 +7,7 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      LOG_TO_STDOUT: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +19,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: LOG_TO_STDOUT
+          description:
+            en_us: If set to true container will log to stdout, otherwise will log to /config/log/.
     ports:
       - target: 514
         published: 5514
