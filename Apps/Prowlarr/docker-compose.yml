@@ -1,7 +1,7 @@
 name: linuxserver-prowlarr
 services:
   app:
-    image: linuxserver/prowlarr:1.23.1
+    image: linuxserver/prowlarr:1.24.3
     restart: unless-stopped
     environment:
       PUID: $PUID
