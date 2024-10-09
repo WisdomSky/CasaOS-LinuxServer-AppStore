@@ -1,7 +1,7 @@
 name: linuxserver-webgrabplus
 services:
   app:
-    image: linuxserver/webgrabplus:5.2.2
+    image: linuxserver/webgrabplus:5.3.0
     restart: unless-stopped
     environment:
       PUID: $PUID
