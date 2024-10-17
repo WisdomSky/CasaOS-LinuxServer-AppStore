@@ -25,16 +25,16 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: MYSQL_ROOT_PASSWORD
           description:
-            en_us: Set this to root password for installation (minimum 4 characters & non-alphanumeric passwords must be properly escaped).
+            en_us: Set this to root password for installation (minimum 4 characters & non-alphanumeric passwords must be properly escaped). (valid only for first run)
         - container: MYSQL_DATABASE
           description:
-            en_us: Specify the name of a database to be created on image startup.
+            en_us: Specify the name of a database to be created. (valid only for first run)
         - container: MYSQL_USER
           description:
-            en_us: This user will have superuser access to the database specified by MYSQL_DATABASE (do not use root here).
+            en_us: This user will have superuser access to the database specified by MYSQL_DATABASE (do not use root here). (valid only for first run)
         - container: MYSQL_PASSWORD
           description:
-            en_us: Set this to the password you want to use for you MYSQL_USER (minimum 4 characters & non-alphanumeric passwords must be properly escaped).
+            en_us: Set this to the password you want to use for you MYSQL_USER (minimum 4 characters & non-alphanumeric passwords must be properly escaped). (valid only for first run)
         - container: REMOTE_SQL
           description:
             en_us: Set this to ingest sql files from an http/https endpoint (comma seperated array).

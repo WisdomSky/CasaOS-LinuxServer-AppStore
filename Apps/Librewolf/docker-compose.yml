@@ -1,7 +1,7 @@
 name: linuxserver-librewolf
 services:
   app:
-    image: linuxserver/librewolf:130.0.1
+    image: linuxserver/librewolf:131.0.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,6 +36,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: LibreWolf is a custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.

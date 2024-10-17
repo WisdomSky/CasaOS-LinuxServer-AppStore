@@ -1,7 +1,7 @@
 name: linuxserver-speedtest-tracker
 services:
   app:
-    image: linuxserver/speedtest-tracker:0.21.2
+    image: linuxserver/speedtest-tracker:0.21.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -40,7 +40,7 @@ services:
             en_us: Set the test schedule in cron format. e.g. 0 */6 * * *
         - container: SPEEDTEST_SERVERS
           description:
-            en_us: A comma-separated list of server IDs to test against. Run docker exec speedtest-tracker php /app/www/artisan app:ookla-list-servers to get a list of nearby servers.
+            en_us: A comma-separated list of server IDs to test against. Run docker run -it --rm --entrypoint /bin/bash lscr.io/linuxserver/speedtest-tracker:latest list-servers to get a list of nearby servers.
         - container: DB_HOST
           description:
             en_us: Database hostname (postgres/mysql).

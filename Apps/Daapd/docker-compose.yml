@@ -1,7 +1,7 @@
 name: linuxserver-daapd
 services:
   app:
-    image: linuxserver/daapd:28.10.20241002
+    image: linuxserver/daapd:28.10.20241016
     restart: unless-stopped
     environment:
       PUID: $PUID

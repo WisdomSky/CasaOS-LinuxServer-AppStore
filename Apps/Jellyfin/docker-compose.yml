@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: JELLYFIN_PublishedServerUrl
           description:
-            en_us: Set the autodiscovery response domain or IP address.
+            en_us: Set the autodiscovery response domain or IP address, include http(s)://.
       volumes:
         - container: /config
           description:
@@ -61,8 +61,8 @@ services:
         target: /data/movies
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/jellyfin/'
