@@ -1,7 +1,7 @@
-name: linuxserver-jenkins-builder
+name: linuxserver-qemu-static
 services:
   app:
-    image: linuxserver/jenkins-builder:version-14d112ef
+    image: linuxserver/qemu-static:9.0.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/jenkins-builder/config
+        source: /DATA/AppData/qemu-static/config
         target: /config
 x-casaos:
   architectures:
@@ -32,14 +32,14 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/qemu-static for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/jenkins-builder for details.
+    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/qemu-static for details.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: Jenkins builder
+    en_us: Qemu static
   category: LinuxServer.io
   port_map: '80'

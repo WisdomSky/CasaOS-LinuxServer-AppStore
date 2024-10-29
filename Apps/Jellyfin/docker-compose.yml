@@ -1,7 +1,7 @@
 name: linuxserver-jellyfin
 services:
   app:
-    image: linuxserver/jellyfin:10.9.11
+    image: linuxserver/jellyfin:10.10.0
     restart: unless-stopped
     environment:
       PUID: $PUID

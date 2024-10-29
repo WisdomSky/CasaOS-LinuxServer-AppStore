@@ -1,7 +1,7 @@
 name: linuxserver-freetube
 services:
   app:
-    image: linuxserver/freetube:version-168465262
+    image: linuxserver/freetube:version-182102700
     restart: unless-stopped
     environment:
       PUID: $PUID
