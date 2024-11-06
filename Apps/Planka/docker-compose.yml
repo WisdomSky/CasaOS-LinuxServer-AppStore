@@ -1,7 +1,7 @@
 name: linuxserver-planka
 services:
   app:
-    image: linuxserver/planka:1.23.4
+    image: linuxserver/planka:1.23.5
     restart: unless-stopped
     environment:
       PUID: $PUID

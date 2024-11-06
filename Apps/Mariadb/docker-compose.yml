@@ -1,7 +1,7 @@
 name: linuxserver-mariadb
 services:
   app:
-    image: linuxserver/mariadb:10.11.8
+    image: linuxserver/mariadb:10.11.10
     restart: unless-stopped
     environment:
       PUID: $PUID
