@@ -1,7 +1,7 @@
 name: linuxserver-unifi-network-application
 services:
   app:
-    image: linuxserver/unifi-network-application:8.5.6
+    image: linuxserver/unifi-network-application:8.6.9
     restart: unless-stopped
     environment:
       PUID: $PUID
