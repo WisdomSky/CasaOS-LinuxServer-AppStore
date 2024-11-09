@@ -1,7 +1,7 @@
 name: linuxserver-manyfold
 services:
   app:
-    image: linuxserver/manyfold:0.87.1
+    image: linuxserver/manyfold:0.88.0
     restart: unless-stopped
     environment:
       PUID: $PUID
