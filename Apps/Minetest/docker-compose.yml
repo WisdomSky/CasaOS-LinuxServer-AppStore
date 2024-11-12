@@ -1,7 +1,7 @@
 name: linuxserver-minetest
 services:
   app:
-    image: linuxserver/minetest:5.9.1
+    image: linuxserver/minetest:5.10.0
     restart: unless-stopped
     environment:
       PUID: $PUID
