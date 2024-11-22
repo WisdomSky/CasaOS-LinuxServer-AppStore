@@ -1,7 +1,7 @@
 name: linuxserver-bambustudio
 services:
   app:
-    image: linuxserver/bambustudio:01.09.07
+    image: linuxserver/bambustudio:01.10.01
     restart: unless-stopped
     environment:
       PUID: $PUID

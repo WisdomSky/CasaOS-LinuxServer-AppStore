@@ -1,7 +1,7 @@
 name: linuxserver-kasm
 services:
   app:
-    image: linuxserver/kasm:1.16.0
+    image: linuxserver/kasm:1.16.1
     restart: unless-stopped
     environment:
       KASM_PORT: ''
