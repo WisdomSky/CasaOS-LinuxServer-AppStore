@@ -1,13 +1,15 @@
 name: linuxserver-duplicati
 services:
   app:
-    image: linuxserver/duplicati:2.0.8
+    image: linuxserver/duplicati:2.1.0
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      SETTINGS_ENCRYPTION_KEY: ''
       CLI_ARGS: ''
+      DUPLICATI__WEBSERVICE_PASSWORD: ''
     x-casaos:
       envs:
         - container: PUID
@@ -19,9 +21,15 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: SETTINGS_ENCRYPTION_KEY
+          description:
+            en_us: Encryption key for settings database. Minimum 8 characters, alphanumeric.
         - container: CLI_ARGS
           description:
             en_us: Optionally specify any CLI variables you want to launch the app with
+        - container: DUPLICATI__WEBSERVICE_PASSWORD
+          description:
+            en_us: Password for the webui. If left unset will default to changeme and can be changed from the webui settings.
     ports:
       - target: 8200
         published: 8200
@@ -38,13 +46,13 @@ services:
         target: /source
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/duplicati/'
   tagline:
-    en_us: Works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box. Com, Mega, hubiC and many others.
+    en_us: A backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box. Com, Mega, B2, and many others.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png

@@ -1,7 +1,7 @@
 name: linuxserver-digikam
 services:
   app:
-    image: linuxserver/digikam:version-2024-11-22
+    image: linuxserver/digikam:8.5.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -44,7 +44,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/digikam/'

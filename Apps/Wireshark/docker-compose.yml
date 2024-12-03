@@ -24,6 +24,9 @@ services:
             en_us: Appdata
       ports: []
     ports:
+      - target: 80
+        published: 80
+        protocol: tcp
       - target: 3000
         published: 3000
         protocol: tcp

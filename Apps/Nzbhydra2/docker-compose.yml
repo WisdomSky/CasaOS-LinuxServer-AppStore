@@ -1,7 +1,7 @@
 name: linuxserver-nzbhydra2
 services:
   app:
-    image: linuxserver/nzbhydra2:7.10.1
+    image: linuxserver/nzbhydra2:7.10.2
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -30,7 +30,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: URL
           description:
-            en_us: Top url you have control over (customdomain.com if you own it, or customsubdomain.ddnsprovider.com if dynamic dns).
+            en_us: Top url you have control over (e.g. example.com if you own it, or customsubdomain.example.com if dynamic dns).
         - container: VALIDATION
           description:
             en_us: Certbot validation method to use, options are http or dns (dns method also requires DNSPLUGIN variable set).
@@ -54,7 +54,7 @@ services:
             en_us: If you wish to get certs only for certain subdomains, but not the main domain (main domain may be hosted on another machine and cannot be validated), set this to true
         - container: EXTRA_DOMAINS
           description:
-            en_us: Additional fully qualified domain names (comma separated, no spaces) ie. extradomain.com,subdomain.anotherdomain.org,*.anotherdomain.org
+            en_us: Additional fully qualified domain names (comma separated, no spaces) ie. example.net,subdomain.example.net,*.example.org
         - container: STAGING
           description:
             en_us: Set to true to retrieve certs in staging mode. Rate limits will be much higher, but the resulting cert will not pass the browser's security test. Only to be used for testing purposes.
