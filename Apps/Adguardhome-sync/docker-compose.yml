@@ -41,9 +41,7 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - unknown
     - arm64
-    - unknown
   main: app
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/adguardhome-sync'
