@@ -1,7 +1,7 @@
 name: linuxserver-filezilla
 services:
   app:
-    image: linuxserver/filezilla:3.67.0
+    image: linuxserver/filezilla:3.68.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -39,8 +39,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/filezilla/'
