@@ -1,7 +1,7 @@
 name: linuxserver-qemu-static
 services:
   app:
-    image: linuxserver/qemu-static:9.1.1
+    image: linuxserver/qemu-static:9.1.2
     restart: unless-stopped
     environment:
       PUID: $PUID
