@@ -1,7 +1,7 @@
 name: linuxserver-blender
 services:
   app:
-    image: linuxserver/blender:4.3.0
+    image: linuxserver/blender:4.3.1
     restart: unless-stopped
     environment:
       PUID: $PUID
