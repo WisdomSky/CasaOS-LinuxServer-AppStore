@@ -67,8 +67,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Monica is an open source personal relationship management system, that lets you document your life.
