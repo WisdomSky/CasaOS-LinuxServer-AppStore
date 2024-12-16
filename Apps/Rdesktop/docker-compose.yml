@@ -1,7 +1,7 @@
 name: linuxserver-rdesktop
 services:
   app:
-    image: linuxserver/rdesktop:arch-kde-version-arch-2024-12-10
+    image: linuxserver/rdesktop:arch-kde-version-arch-2024-12-13
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,8 +34,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Rdesktop - Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
