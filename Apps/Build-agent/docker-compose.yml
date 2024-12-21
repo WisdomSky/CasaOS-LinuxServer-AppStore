@@ -1,7 +1,7 @@
 name: linuxserver-build-agent
 services:
   app:
-    image: linuxserver/build-agent:version-df228431
+    image: linuxserver/build-agent:arm64v8-latest
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,7 +28,6 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
   main: app
   description:
