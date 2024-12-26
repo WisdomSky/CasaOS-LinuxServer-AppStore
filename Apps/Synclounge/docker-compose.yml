@@ -10,6 +10,10 @@ services:
         - container: AUTH_LIST
           description:
             en_us: If set, only the users defined here and the users of the plex servers defined here will be able to access the server. Use e-mails, plex usernames and/or plex server machine ids, comma separated, no spaces.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
       ports:
         - container: '8088'
           description:
@@ -18,6 +22,10 @@ services:
       - target: 8088
         published: 8088
         protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/synclounge/config
+        target: /config
 x-casaos:
   architectures:
     - amd64

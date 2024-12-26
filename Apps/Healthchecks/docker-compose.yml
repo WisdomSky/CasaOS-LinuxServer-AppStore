@@ -1,7 +1,7 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:3.9.20241220
+    image: linuxserver/healthchecks:3.9.20241224
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,7 +51,7 @@ services:
             en_us: Superuser password.
         - container: ALLOWED_HOSTS
           description:
-            en_us: 'A comma-separated list of valid hostnames for the server. Default is: *.'
+            en_us: A comma-separated list of valid hostnames for the server. Default is the domain portion of SITE_ROOT.
         - container: APPRISE_ENABLED
           description:
             en_us: Set to True to enable the Apprise integration (https://github.com/caronc/apprise).

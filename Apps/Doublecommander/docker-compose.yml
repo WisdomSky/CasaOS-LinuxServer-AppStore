@@ -1,7 +1,7 @@
 name: linuxserver-doublecommander
 services:
   app:
-    image: linuxserver/doublecommander:version-8782b379
+    image: linuxserver/doublecommander:version-005e47e7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -45,8 +45,8 @@ services:
         target: /data
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/doublecommander/'
