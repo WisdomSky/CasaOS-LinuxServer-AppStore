@@ -1,7 +1,7 @@
 name: linuxserver-changedetection.io
 services:
   app:
-    image: linuxserver/changedetection.io:0.48.04
+    image: linuxserver/changedetection.io:0.48.05
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,8 +36,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
