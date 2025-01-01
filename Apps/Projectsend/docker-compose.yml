@@ -7,7 +7,6 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      MAX_UPLOAD: ''
     x-casaos:
       envs:
         - container: PUID
@@ -19,9 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: MAX_UPLOAD
-          description:
-            en_us: To set maximum upload size (in MB), default if unset is 5000.
     ports:
       - target: 80
         published: 80
