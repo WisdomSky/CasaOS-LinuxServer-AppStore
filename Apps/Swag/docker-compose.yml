@@ -17,6 +17,7 @@ services:
       ONLY_SUBDOMAINS: ''
       EXTRA_DOMAINS: ''
       STAGING: ''
+      DISABLE_F2B: ''
     x-casaos:
       envs:
         - container: PUID
@@ -58,6 +59,9 @@ services:
         - container: STAGING
           description:
             en_us: Set to true to retrieve certs in staging mode. Rate limits will be much higher, but the resulting cert will not pass the browser's security test. Only to be used for testing purposes.
+        - container: DISABLE_F2B
+          description:
+            en_us: Set to true to disable the Fail2ban service in the container, if you're already running it elsewhere or using a different IPS.
       volumes:
         - container: /config
           description:
