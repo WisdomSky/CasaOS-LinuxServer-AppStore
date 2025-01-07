@@ -31,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application.

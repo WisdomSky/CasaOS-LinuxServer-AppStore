@@ -1,7 +1,7 @@
-name: linuxserver-rawtherapee
+name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/rawtherapee:5.11.20250105
+    image: linuxserver/modmanager:version-0edf3c04
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,28 +19,27 @@ services:
           description:
             en_us: specify a timezone to use, see this list.
     ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
-      - target: 3001
-        published: 3001
+      - target: 80
+        published: 80
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/rawtherapee/config
+        source: /DATA/AppData/modmanager/config
         target: /config
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
-    en_us: RawTherapee is a free, cross-platform raw image processing program!
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/modmanager for details.
   tagline:
-    en_us: A free, cross-platform raw image processing program.
+    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/modmanager for details.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
+  icon: ''
+  thumbnail: ''
   title:
-    en_us: Rawtherapee
+    en_us: Modmanager
   category: LinuxServer.io
+  port_map: '80'

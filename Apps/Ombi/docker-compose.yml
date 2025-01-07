@@ -1,7 +1,7 @@
 name: linuxserver-ombi
 services:
   app:
-    image: linuxserver/ombi:4.44.1
+    image: linuxserver/ombi:4.47.1
     restart: unless-stopped
     environment:
       PUID: $PUID
