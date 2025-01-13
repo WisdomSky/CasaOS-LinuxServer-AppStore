@@ -9,6 +9,9 @@ services:
       TZ: $TZ
       PMA_ARBITRARY: ''
       PMA_ABSOLUTE_URI: ''
+      PMA_HOST: 172.17.0.1
+      PMA_USER: casaos
+      PMA_PASSWORD: casaos
     x-casaos:
       envs:
         - container: PUID
@@ -27,7 +30,7 @@ services:
           description:
             en_us: Set the URL you will use to access the web frontend
     ports:
-      - target: 80
+      - target: 8081
         published: 80
         protocol: tcp
     volumes:
@@ -50,4 +53,4 @@ x-casaos:
   title:
     en_us: Phpmyadmin
   category: LinuxServer.io
-  port_map: '80'
+  port_map: '8081'
