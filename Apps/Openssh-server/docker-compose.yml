@@ -1,7 +1,7 @@
 name: linuxserver-openssh-server
 services:
   app:
-    image: linuxserver/openssh-server:version-9.7_p1-r4
+    image: linuxserver/openssh-server:version-9.9_p1-r2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -76,8 +76,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/openssh-server/'
@@ -85,8 +85,8 @@ x-casaos:
     en_us: A sandboxed environment that allows ssh access without giving keys to the entire server. Giving ssh access via private key often means giving full access to the server. This container creates a limited and sandboxed environment that others can ssh into. The users only have access to the folders mapped and the processes running inside this container.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openssh-server-icon.png
-  thumbnail: https://upload.wikimedia.org/wikipedia/en/6/65/OpenSSH_logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/openssh-server-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/openssh-server-logo.png
   title:
     en_us: Openssh server
   category: LinuxServer.io
