@@ -1,7 +1,7 @@
 name: linuxserver-sickgear
 services:
   app:
-    image: linuxserver/sickgear:3.32.15
+    image: linuxserver/sickgear:3.32.20
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,8 +48,8 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sickgear/'
