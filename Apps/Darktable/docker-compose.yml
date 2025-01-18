@@ -1,7 +1,7 @@
 name: linuxserver-darktable
 services:
   app:
-    image: linuxserver/darktable:version-2025-01-10
+    image: linuxserver/darktable:version-2025-01-17
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -39,8 +39,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/darktable/'

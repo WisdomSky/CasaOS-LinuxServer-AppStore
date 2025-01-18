@@ -1,7 +1,7 @@
 name: linuxserver-jackett
 services:
   app:
-    image: linuxserver/jackett:0.22.1269
+    image: linuxserver/jackett:0.22.1275
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -39,8 +39,8 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/jackett/'
