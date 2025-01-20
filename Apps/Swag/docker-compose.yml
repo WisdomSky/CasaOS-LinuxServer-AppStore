@@ -18,6 +18,8 @@ services:
       EXTRA_DOMAINS: ''
       STAGING: ''
       DISABLE_F2B: ''
+      SWAG_AUTORELOAD: ''
+      SWAG_AUTORELOAD_WATCHLIST: ''
     x-casaos:
       envs:
         - container: PUID
@@ -62,6 +64,12 @@ services:
         - container: DISABLE_F2B
           description:
             en_us: Set to true to disable the Fail2ban service in the container, if you're already running it elsewhere or using a different IPS.
+        - container: SWAG_AUTORELOAD
+          description:
+            en_us: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod.
+        - container: SWAG_AUTORELOAD_WATCHLIST
+          description:
+            en_us: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx
       volumes:
         - container: /config
           description:
