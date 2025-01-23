@@ -1,7 +1,7 @@
 name: linuxserver-gitqlient
 services:
   app:
-    image: linuxserver/gitqlient:1.6.3
+    image: linuxserver/gitqlient:arm64v8-latest
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -31,7 +31,6 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
   main: app
   description:
