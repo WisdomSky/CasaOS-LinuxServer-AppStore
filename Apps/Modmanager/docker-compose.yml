@@ -1,7 +1,7 @@
 name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/modmanager:version-814ad91b
+    image: linuxserver/modmanager:arm64v8-latest
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,7 +28,6 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
   main: app
   description:
