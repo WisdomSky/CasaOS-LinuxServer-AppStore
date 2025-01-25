@@ -1,7 +1,7 @@
 name: linuxserver-kali-linux
 services:
   app:
-    image: linuxserver/kali-linux:version-9206cac5
+    image: linuxserver/kali-linux:version-53183484
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -42,8 +42,8 @@ services:
         target: /var/run/docker.sock
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Kali-linux - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
