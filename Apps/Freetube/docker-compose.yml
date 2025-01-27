@@ -31,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: FreeTube is a feature-rich and user-friendly YouTube client with a focus on privacy.

@@ -1,7 +1,7 @@
 name: linuxserver-flexget
 services:
   app:
-    image: linuxserver/flexget:3.13.24
+    image: linuxserver/flexget:3.13.25
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -47,8 +47,8 @@ services:
         target: /data
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Flexget is a multipurpose automation tool for all of your media.
