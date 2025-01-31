@@ -1,7 +1,7 @@
 name: linuxserver-obsidian
 services:
   app:
-    image: linuxserver/obsidian:1.7.7
+    image: linuxserver/obsidian:1.8.3
     restart: unless-stopped
     environment:
       PUID: $PUID

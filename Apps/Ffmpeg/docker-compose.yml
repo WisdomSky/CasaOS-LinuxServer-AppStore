@@ -1,7 +1,7 @@
 name: linuxserver-ffmpeg
 services:
   app:
-    image: linuxserver/ffmpeg:7.0.2
+    image: linuxserver/ffmpeg:version-7.1-cli
     restart: unless-stopped
     environment:
       PUID: $PUID
