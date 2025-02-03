@@ -1,7 +1,7 @@
 name: linuxserver-minisatip
 services:
   app:
-    image: linuxserver/minisatip:1.3.37
+    image: linuxserver/minisatip:1.3.38
     restart: unless-stopped
     environment:
       PUID: $PUID

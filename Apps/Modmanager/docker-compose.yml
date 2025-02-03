@@ -1,7 +1,7 @@
 name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/modmanager:arm64v8-latest
+    image: linuxserver/modmanager:version-280f9475
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -29,6 +29,7 @@ services:
 x-casaos:
   architectures:
     - arm64
+    - amd64
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/modmanager for details.
