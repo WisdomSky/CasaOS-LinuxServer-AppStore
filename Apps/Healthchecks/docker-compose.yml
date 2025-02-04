@@ -1,7 +1,7 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:3.9.20250127
+    image: linuxserver/healthchecks:3.9.20250203
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -107,8 +107,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
