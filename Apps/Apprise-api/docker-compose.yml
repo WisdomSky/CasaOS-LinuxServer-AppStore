@@ -43,8 +43,8 @@ services:
         target: /attachments
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/apprise-api'
