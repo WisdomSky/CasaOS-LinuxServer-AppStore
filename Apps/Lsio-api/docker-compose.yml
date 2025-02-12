@@ -1,7 +1,7 @@
 name: linuxserver-lsio-api
 services:
   app:
-    image: linuxserver/lsio-api:version-8627812f
+    image: linuxserver/lsio-api:48f249ba-ls2
     restart: unless-stopped
     environment:
       PUID: $PUID
