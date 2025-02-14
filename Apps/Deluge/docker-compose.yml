@@ -48,7 +48,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/deluge/'
+    en_us: Deluge is a lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more...
   tagline:
     en_us: A lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more. . .
   developer: LinuxServer.io
@@ -58,5 +58,3 @@ x-casaos:
   title:
     en_us: Deluge
   category: LinuxServer.io
-  project_url: http://deluge-torrent.org/
-  port_map: '8112'

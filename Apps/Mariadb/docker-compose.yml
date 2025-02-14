@@ -52,7 +52,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mariadb/'
+    en_us: Mariadb is one of the most popular database servers. Made by the original developers of MySQL.
   tagline:
     en_us: One of the most popular database servers. Made by the original developers of MySQL.
   developer: LinuxServer.io
@@ -62,4 +62,3 @@ x-casaos:
   title:
     en_us: Mariadb
   category: LinuxServer.io
-  project_url: https://mariadb.org/

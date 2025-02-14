@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -43,7 +35,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/libreoffice/'
+    en_us: LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
   tagline:
     en_us: A free and powerful office suite, and a successor to OpenOffice. Org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
   developer: LinuxServer.io
@@ -53,5 +45,3 @@ x-casaos:
   title:
     en_us: Libreoffice
   category: LinuxServer.io
-  project_url: https://www.libreoffice.org/
-  port_map: '3000'

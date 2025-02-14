@@ -18,20 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-        - container: /downloads
-          description:
-            en_us: 'Container Path: /downloads'
-        - container: /tv
-          description:
-            en_us: 'Container Path: /tv'
-      ports:
-        - container: '8081'
-          description:
-            en_us: 'Container Port: 8081'
     ports:
       - target: 8081
         published: 8081
@@ -52,15 +38,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sickchill/'
+    en_us: Sickchill is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
   tagline:
     en_us: An Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png
   title:
     en_us: Sickchill
   category: LinuxServer.io
-  project_url: https://sickchill.github.io/
-  port_map: '8081'

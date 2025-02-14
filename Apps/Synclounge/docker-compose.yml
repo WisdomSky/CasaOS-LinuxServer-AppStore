@@ -10,14 +10,6 @@ services:
         - container: AUTH_LIST
           description:
             en_us: If set, only the users defined here and the users of the plex servers defined here will be able to access the server. Use e-mails, plex usernames and/or plex server machine ids, comma separated, no spaces.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '8088'
-          description:
-            en_us: 'Container Port: 8088'
     ports:
       - target: 8088
         published: 8088
@@ -32,15 +24,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/synclounge/'
+    en_us: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
   tagline:
     en_us: A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   title:
     en_us: Synclounge
   category: LinuxServer.io
-  project_url: https://github.com/samcm/synclounge
-  port_map: '8088'

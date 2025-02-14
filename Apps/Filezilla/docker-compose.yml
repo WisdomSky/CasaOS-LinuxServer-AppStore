@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -43,7 +35,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/filezilla/'
+    en_us: FIleZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
   tagline:
     en_us: Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
   developer: LinuxServer.io
@@ -53,5 +45,3 @@ x-casaos:
   title:
     en_us: Filezilla
   category: LinuxServer.io
-  project_url: https://filezilla-project.org/
-  port_map: '3000'

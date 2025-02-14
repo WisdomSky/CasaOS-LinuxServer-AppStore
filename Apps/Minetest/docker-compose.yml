@@ -22,14 +22,6 @@ services:
         - container: CLI_ARGS
           description:
             en_us: Optionally specify any CLI variables you want to launch the app with
-      volumes:
-        - container: /config/.minetest
-          description:
-            en_us: 'Container Path: /config/.minetest'
-      ports:
-        - container: '30000'
-          description:
-            en_us: 'Container Port: 30000'
     ports:
       - target: 30000
         published: 30000
@@ -44,7 +36,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/minetest/'
+    en_us: Minetest (server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like.
   tagline:
     en_us: (server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like.
   developer: LinuxServer.io
@@ -54,4 +46,3 @@ x-casaos:
   title:
     en_us: Minetest
   category: LinuxServer.io
-  project_url: http://www.minetest.net/

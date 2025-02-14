@@ -30,14 +30,6 @@ services:
         - container: PYPASS
           description:
             en_us: Specify a basic auth password.
-      volumes:
-        - container: /code
-          description:
-            en_us: if you want to mount up a local folder of code instead of checking out a Git URL specify its location here.  Find it at /code
-      ports:
-        - container: '3131'
-          description:
-            en_us: Webui - Default 3131
     ports:
       - target: 3131
         published: 3131
@@ -55,15 +47,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/pylon/'
+    en_us: Pylon is a web based integrated development environment built with Node.js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project.
   tagline:
     en_us: A web based integrated development environment built with Node. Js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9-logo.png
+  icon: https://raw.githubusercontent.com/pylonide/pylon/master/doc/screenshot02.png
   thumbnail: https://raw.githubusercontent.com/pylonide/pylon/master/doc/screenshot02.png
   title:
     en_us: Pylon
   category: LinuxServer.io
-  project_url: https://github.com/pylonide/pylon
-  port_map: '3131'

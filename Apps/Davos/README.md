@@ -4,6 +4,4 @@ An FTP automation tool that periodically scans given host locations for new file
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/davos
-
 **WebUI Port:** `8080`

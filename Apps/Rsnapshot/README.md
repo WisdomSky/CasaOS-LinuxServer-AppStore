@@ -4,6 +4,4 @@ A filesystem snapshot utility based on rsync. Rsnapshot makes it easy to make pe
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/rsnapshot
-
 **WebUI Port:** `80`

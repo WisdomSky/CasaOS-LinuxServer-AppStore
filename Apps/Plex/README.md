@@ -4,6 +4,4 @@ Organizes video, music and photos from personal media libraries and streams them
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/plex
-
-**WebUI Port:** `32400`
+**WebUI Port:** `80`

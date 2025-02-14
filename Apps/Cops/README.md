@@ -4,6 +4,4 @@ By Sébastien Lucas, now maintained by MikesPub, stands for Calibre OPDS (and HT
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/cops
-
 **WebUI Port:** `80`

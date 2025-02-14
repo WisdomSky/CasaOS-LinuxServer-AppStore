@@ -18,17 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-        - container: /music
-          description:
-            en_us: Path to music library
-      ports:
-        - container: '3000'
-          description:
-            en_us: Webui Port
     ports:
       - target: 3000
         published: 3000
@@ -46,7 +35,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mstream/'
+    en_us: Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
   tagline:
     en_us: A personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
   developer: LinuxServer.io
@@ -56,5 +45,3 @@ x-casaos:
   title:
     en_us: Mstream
   category: LinuxServer.io
-  project_url: https://www.mstream.io/
-  port_map: '3000'

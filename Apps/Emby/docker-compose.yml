@@ -18,17 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-      ports:
-        - container: '8096'
-          description:
-            en_us: HTTP - Default 8096
-        - container: '8920'
-          description:
-            en_us: HTTPS - Default 8920 (Optional)
     ports:
       - target: 8096
         published: 8096
@@ -55,7 +44,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/emby/'
+    en_us: Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
   tagline:
     en_us: Organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
   developer: LinuxServer.io
@@ -65,5 +54,3 @@ x-casaos:
   title:
     en_us: Emby
   category: LinuxServer.io
-  project_url: https://emby.media/
-  port_map: '8096'

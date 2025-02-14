@@ -18,20 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-        - container: /comics
-          description:
-            en_us: Path to comics
-        - container: /downloads
-          description:
-            en_us: Path to downloads
-      ports:
-        - container: '8090'
-          description:
-            en_us: Webui
     ports:
       - target: 8090
         published: 8090
@@ -52,7 +38,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mylar3/'
+    en_us: Mylar3 is an automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.
   tagline:
     en_us: An automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.
   developer: LinuxServer.io
@@ -62,5 +48,3 @@ x-casaos:
   title:
     en_us: Mylar3
   category: LinuxServer.io
-  project_url: https://github.com/mylar3/mylar3
-  port_map: '8090'

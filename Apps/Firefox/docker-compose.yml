@@ -22,14 +22,6 @@ services:
         - container: FIREFOX_CLI
           description:
             en_us: Specify one or multiple Firefox CLI flags, this string will be passed to the application in full.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -47,7 +39,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/firefox/'
+    en_us: Firefox Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
   tagline:
     en_us: Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
   developer: LinuxServer.io
@@ -57,5 +49,3 @@ x-casaos:
   title:
     en_us: Firefox
   category: LinuxServer.io
-  project_url: https://firefox-project.org/
-  port_map: '3000'

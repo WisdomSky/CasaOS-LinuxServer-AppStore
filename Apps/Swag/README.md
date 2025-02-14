@@ -4,6 +4,4 @@ SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relatio
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/swag
-
 **WebUI Port:** `80`

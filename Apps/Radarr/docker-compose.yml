@@ -38,7 +38,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/radarr/'
+    en_us: Radarr - A fork of Sonarr to work with movies à la Couchpotato.
   tagline:
     en_us: A fork of Sonarr to work with movies à la Couchpotato.
   developer: LinuxServer.io
@@ -48,5 +48,3 @@ x-casaos:
   title:
     en_us: Radarr
   category: LinuxServer.io
-  project_url: https://github.com/Radarr/Radarr
-  port_map: '7878'

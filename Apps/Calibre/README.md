@@ -4,6 +4,4 @@ A powerful and easy to use e-book manager. Users say it's outstanding and a must
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/calibre
-
 **WebUI Port:** `8080`

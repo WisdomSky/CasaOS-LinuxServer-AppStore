@@ -4,6 +4,4 @@ A distributed computing project for simulating protein dynamics, including the p
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/foldingathome
-
-**WebUI Port:** `7396`
+**WebUI Port:** `80`

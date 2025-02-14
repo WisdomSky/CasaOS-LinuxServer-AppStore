@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Users home directory in the container, stores program settings and images
-      ports:
-        - container: '3000'
-          description:
-            en_us: Audacity desktop gui.
     ports:
       - target: 3000
         published: 3000
@@ -42,7 +34,7 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/audacity'
+    en_us: Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
   tagline:
     en_us: An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
   developer: LinuxServer.io
@@ -52,5 +44,3 @@ x-casaos:
   title:
     en_us: Audacity
   category: LinuxServer.io
-  project_url: https://www.audacityteam.org/
-  port_map: '3000'

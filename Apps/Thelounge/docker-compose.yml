@@ -32,15 +32,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/thelounge/'
+    en_us: Thelounge (a fork of shoutIRC) is a web IRC client that you host on your own server.
   tagline:
     en_us: (a fork of shoutIRC) is a web IRC client that you host on your own server.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/community-templates/master/lsiocommunity/img/shout-icon.png
+  icon: https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true
   thumbnail: https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true
   title:
     en_us: Thelounge
   category: LinuxServer.io
-  project_url: https://thelounge.github.io/
-  port_map: '9000'

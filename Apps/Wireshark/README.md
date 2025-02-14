@@ -4,6 +4,4 @@ The world’s foremost and widely-used network protocol analyzer. It lets you se
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/wireshark
-
-**WebUI Port:** `3000`
+**WebUI Port:** `80`

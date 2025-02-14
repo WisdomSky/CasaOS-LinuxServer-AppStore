@@ -4,6 +4,4 @@ Makes asset management easy. It was built by people solving real-world IT and as
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/snipe-it
-
-**WebUI Port:** `80`
+**WebUI Port:** `8080`

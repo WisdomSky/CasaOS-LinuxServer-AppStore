@@ -4,6 +4,4 @@ A simple to use and highly versatile Open Source wiki software that doesn't requ
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/dokuwiki
-
 **WebUI Port:** `80`

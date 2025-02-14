@@ -4,6 +4,4 @@ A free photo-management tool, which runs on your server or web-space. Installing
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/lychee
-
 **WebUI Port:** `80`

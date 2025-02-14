@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '6667'
-          description:
-            en_us: 'Container Port: 6667'
     ports:
       - target: 6667
         published: 6667
@@ -40,7 +32,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/ngircd/'
+    en_us: Ngircd is a free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. It is written from scratch and not based on the original IRCd.
   tagline:
     en_us: A free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. It is written from scratch and not based on the original IRCd.
   developer: LinuxServer.io
@@ -50,5 +42,3 @@ x-casaos:
   title:
     en_us: Ngircd
   category: LinuxServer.io
-  project_url: https://ngircd.barton.de/
-  port_map: '6667'

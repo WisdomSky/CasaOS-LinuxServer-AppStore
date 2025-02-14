@@ -4,6 +4,4 @@ Takes advantage of Apprise through your network with a user-friendly API. * Send
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/apprise-api
-
 **WebUI Port:** `8000`

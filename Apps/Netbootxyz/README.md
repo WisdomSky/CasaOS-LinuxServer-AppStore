@@ -4,6 +4,4 @@ A way to PXE boot various operating system installers or utilities from one plac
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/netbootxyz
-
-**WebUI Port:** `3000`
+**WebUI Port:** `8080`

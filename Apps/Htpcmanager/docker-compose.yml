@@ -32,7 +32,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/htpcmanager/'
+    en_us: Htpcmanager is a front end for many htpc related applications.
   tagline:
     en_us: A front end for many htpc related applications.
   developer: LinuxServer.io
@@ -42,5 +42,3 @@ x-casaos:
   title:
     en_us: Htpcmanager
   category: LinuxServer.io
-  project_url: https://github.com/Hellowlol/HTPC-Manager
-  port_map: '8085'

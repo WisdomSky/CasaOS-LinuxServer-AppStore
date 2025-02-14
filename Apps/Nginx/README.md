@@ -4,6 +4,4 @@ A simple webserver with php support. The config files reside in /config for easy
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/nginx
-
 **WebUI Port:** `80`

@@ -54,17 +54,6 @@ services:
         - container: TRUSTED_PROXIES
           description:
             en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet).
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-        - container: /pictures
-          description:
-            en_us: 'Container Path: /pictures'
-      ports:
-        - container: '80'
-          description:
-            en_us: 'Container Port: 80'
     ports:
       - target: 80
         published: 80
@@ -82,7 +71,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/lychee/'
+    en_us: Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.'
   tagline:
     en_us: A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely. '
   developer: LinuxServer.io
@@ -92,5 +81,4 @@ x-casaos:
   title:
     en_us: Lychee
   category: LinuxServer.io
-  project_url: https://lychee.electerious.com
   port_map: '80'

@@ -70,17 +70,6 @@ services:
         - container: SWAG_AUTORELOAD_WATCHLIST
           description:
             en_us: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-      ports:
-        - container: '443'
-          description:
-            en_us: 'Container Port: 443'
-        - container: '80'
-          description:
-            en_us: 'Container Port: 80'
     ports:
       - target: 443
         published: 443
@@ -98,7 +87,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/swag/'
+    en_us: SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
   tagline:
     en_us: SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
   developer: LinuxServer.io
@@ -108,5 +97,4 @@ x-casaos:
   title:
     en_us: Swag
   category: LinuxServer.io
-  project_url: https://docs.linuxserver.io/general/swag
   port_map: '80'

@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -43,7 +35,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/remmina/'
+    en_us: Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported.
   tagline:
     en_us: A remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported.
   developer: LinuxServer.io
@@ -53,5 +45,3 @@ x-casaos:
   title:
     en_us: Remmina
   category: LinuxServer.io
-  project_url: https://remmina.org/
-  port_map: '3000'

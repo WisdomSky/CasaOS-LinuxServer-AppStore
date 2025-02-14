@@ -90,14 +90,6 @@ services:
         - container: MAIL_ENV_PASSWORD
           description:
             en_us: SMTP server login password.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '8080'
-          description:
-            en_us: Port
     ports:
       - target: 8080
         published: 80
@@ -112,7 +104,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/'
+    en_us: Snipe-it makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
   tagline:
     en_us: Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
   developer: LinuxServer.io
@@ -122,5 +114,4 @@ x-casaos:
   title:
     en_us: Snipe it
   category: LinuxServer.io
-  project_url: https://github.com/snipe/snipe-it
-  port_map: '80'
+  port_map: '8080'

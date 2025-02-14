@@ -4,6 +4,4 @@ Emulates Philips Hue API to other home automation gateways such as an Amazon Ech
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/habridge
-
 **WebUI Port:** `8080`

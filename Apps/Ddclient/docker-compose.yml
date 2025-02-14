@@ -18,11 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Edit ddclient.conf in this folder to complete setup.
-      ports: []
     ports:
       - target: 80
         published: 80
@@ -37,7 +32,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/ddclient'
+    en_us: Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
   tagline:
     en_us: A Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
   developer: LinuxServer.io
@@ -47,5 +42,4 @@ x-casaos:
   title:
     en_us: Ddclient
   category: LinuxServer.io
-  project_url: https://github.com/ddclient/ddclient
   port_map: '80'

@@ -38,15 +38,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/lidarr/'
+    en_us: Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
   tagline:
     en_us: A music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lidarr.png
+  icon: https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png
   thumbnail: https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png
   title:
     en_us: Lidarr
   category: LinuxServer.io
-  project_url: https://github.com/lidarr/Lidarr
-  port_map: '8686'

@@ -4,6 +4,4 @@ A free service which will point a DNS (sub domains of duckdns. Org) to an IP of 
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/duckdns
-
 **WebUI Port:** `80`

@@ -54,14 +54,6 @@ services:
         - container: IPINFO_APIKEY
           description:
             en_us: Access token from ipinfo.io. Required for detailed IP information.
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-      ports:
-        - container: '80'
-          description:
-            en_us: 'Container Port: 80'
     ports:
       - target: 80
         published: 80
@@ -76,15 +68,14 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/librespeed/'
+    en_us: Librespeed is a very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
   tagline:
     en_us: A very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/librespeed-icon.png
+  icon: https://raw.githubusercontent.com/librespeed/speedtest/master/.logo/logo3.png
   thumbnail: https://raw.githubusercontent.com/librespeed/speedtest/master/.logo/logo3.png
   title:
     en_us: Librespeed
   category: LinuxServer.io
-  project_url: https://librespeed.electerious.com
   port_map: '80'

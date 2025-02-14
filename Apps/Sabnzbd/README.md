@@ -4,6 +4,4 @@ Makes Usenet as simple and streamlined as possible by automating everything we c
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/sabnzbd
-
 **WebUI Port:** `8080`

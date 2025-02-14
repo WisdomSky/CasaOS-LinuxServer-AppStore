@@ -4,6 +4,4 @@ The nextgen file sharing platform for organizations. It is a full rewrite of the
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/pydio-cells
-
 **WebUI Port:** `8080`

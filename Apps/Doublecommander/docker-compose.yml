@@ -18,17 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-        - container: /data
-          description:
-            en_us: Host data directory
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -49,7 +38,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/doublecommander/'
+    en_us: Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
   tagline:
     en_us: A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
   developer: LinuxServer.io
@@ -59,5 +48,3 @@ x-casaos:
   title:
     en_us: Doublecommander
   category: LinuxServer.io
-  project_url: https://doublecmd.sourceforge.io/
-  port_map: '3000'

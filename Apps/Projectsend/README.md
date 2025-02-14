@@ -4,6 +4,4 @@ A self-hosted application that lets you upload files and assign them to specific
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/projectsend
-
 **WebUI Port:** `80`

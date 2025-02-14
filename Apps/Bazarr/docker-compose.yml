@@ -18,20 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-        - container: /movies
-          description:
-            en_us: Movies
-        - container: /tv
-          description:
-            en_us: TV
-      ports:
-        - container: '6767'
-          description:
-            en_us: 'Container Port: 6767'
     ports:
       - target: 6767
         published: 6767
@@ -52,7 +38,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/bazarr/'
+    en_us: Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
   tagline:
     en_us: A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
   developer: LinuxServer.io
@@ -62,5 +48,3 @@ x-casaos:
   title:
     en_us: Bazarr
   category: LinuxServer.io
-  project_url: https://www.bazarr.media/
-  port_map: '6767'

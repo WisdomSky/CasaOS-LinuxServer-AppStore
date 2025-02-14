@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '3000'
-          description:
-            en_us: 'Container Port: 3000'
     ports:
       - target: 3000
         published: 3000
@@ -42,7 +34,7 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/mysql-workbench/'
+    en_us: MySQL Workbench is a unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
   tagline:
     en_us: A unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
   developer: LinuxServer.io
@@ -52,5 +44,3 @@ x-casaos:
   title:
     en_us: Mysql workbench
   category: LinuxServer.io
-  project_url: https://www.mysql.com/products/workbench/
-  port_map: '3000'

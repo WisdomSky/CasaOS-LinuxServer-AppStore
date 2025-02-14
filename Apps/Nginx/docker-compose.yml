@@ -35,15 +35,14 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/nginx/'
+    en_us: Nginx is a simple webserver with php support. The config files reside in /config for easy user customization.
   tagline:
     en_us: A simple webserver with php support. The config files reside in /config for easy user customization.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-icon.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   title:
     en_us: Nginx
   category: LinuxServer.io
-  project_url: https://www.nginx.com/
   port_map: '80'

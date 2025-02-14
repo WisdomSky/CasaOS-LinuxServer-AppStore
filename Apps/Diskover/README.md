@@ -4,6 +4,4 @@ An open source file system indexer that uses Elasticsearch to index and manage d
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/diskover
-
 **WebUI Port:** `80`

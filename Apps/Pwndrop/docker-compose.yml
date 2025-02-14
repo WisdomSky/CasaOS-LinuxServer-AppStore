@@ -22,14 +22,6 @@ services:
         - container: SECRET_PATH
           description:
             en_us: Secret path for admin access. Defaults to /pwndrop. This parameter only takes effect during initial install; it can later be changed in the web gui.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-      ports:
-        - container: '8080'
-          description:
-            en_us: Webui - Default 8080 (HTTP)
     ports:
       - target: 8080
         published: 8080
@@ -44,15 +36,14 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/pwndrop/'
+    en_us: Pwndrop is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
   tagline:
     en_us: A self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pwndrop-logo.png
+  icon: https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png
   thumbnail: https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png
   title:
     en_us: Pwndrop
   category: LinuxServer.io
-  project_url: https://github.com/kgretzky/pwndrop
   port_map: '8080'

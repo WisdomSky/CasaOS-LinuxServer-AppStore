@@ -26,17 +26,6 @@ services:
         - container: ES_PORT
           description:
             en_us: ElasticSearch port (optional)
-      volumes:
-        - container: /config
-          description:
-            en_us: Specify the exact disk.  DO NOT USE /mnt/user/appdata either use /mnt/cache/appdata/ or /mnt/disk$/appdata/
-        - container: /data
-          description:
-            en_us: 'Container Path: /data'
-      ports:
-        - container: '80'
-          description:
-            en_us: 'Container Port: 80'
     ports:
       - target: 80
         published: 80
@@ -54,15 +43,14 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/diskover'
+    en_us: Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
   tagline:
     en_us: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/shirosaidev/diskover/master/docs/diskover.png
+  icon: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   thumbnail: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   title:
     en_us: Diskover
   category: LinuxServer.io
-  project_url: https://github.com/shirosaidev/diskover
   port_map: '80'

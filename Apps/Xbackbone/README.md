@@ -4,6 +4,4 @@ A simple, self-hosted, lightweight PHP file manager that support the instant sha
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/xbackbone
-
 **WebUI Port:** `80`

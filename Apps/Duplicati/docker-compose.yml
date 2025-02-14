@@ -50,7 +50,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/duplicati/'
+    en_us: Duplicati is a backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2, and many others.
   tagline:
     en_us: A backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box. Com, Mega, B2, and many others.
   developer: LinuxServer.io
@@ -60,5 +60,3 @@ x-casaos:
   title:
     en_us: Duplicati
   category: LinuxServer.io
-  project_url: https://www.duplicati.com/
-  port_map: '8200'

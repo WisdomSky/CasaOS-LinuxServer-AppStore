@@ -62,14 +62,6 @@ services:
         - container: CMD_DB_DIALECT
           description:
             en_us: 'This variable allows selecting a database engine (if DB_HOST not set up). Available options are: mariadb, mysql, postgres, sqlite.'
-      volumes:
-        - container: /config
-          description:
-            en_us: HedgeDoc config and configurable files
-      ports:
-        - container: '3000'
-          description:
-            en_us: If you wish to access this container from http://{IP}:${PORT}` this *must* be left unchanged.
     ports:
       - target: 3000
         published: 3000
@@ -84,15 +76,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/hedgedoc'
+    en_us: HedgeDoc gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
   tagline:
     en_us: Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   title:
     en_us: Hedgedoc
   category: LinuxServer.io
-  project_url: https://hedgedoc.org/
-  port_map: '3000'

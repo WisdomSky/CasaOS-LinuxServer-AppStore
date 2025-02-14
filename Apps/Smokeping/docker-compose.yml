@@ -47,7 +47,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/smokeping/'
+    en_us: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
   tagline:
     en_us: Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
   developer: LinuxServer.io
@@ -57,5 +57,4 @@ x-casaos:
   title:
     en_us: Smokeping
   category: LinuxServer.io
-  project_url: http://oss.oetiker.ch/smokeping/
   port_map: '80'

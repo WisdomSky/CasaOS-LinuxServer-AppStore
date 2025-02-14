@@ -34,8 +34,6 @@ services:
         - container: LOG_FILE
           description:
             en_us: Set to true to log to file (also need to map /config).
-      volumes: []
-      ports: []
     ports:
       - target: 80
         published: 80
@@ -53,7 +51,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/duckdns/'
+    en_us: Duckdns is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
   tagline:
     en_us: A free service which will point a DNS (sub domains of duckdns. Org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
   developer: LinuxServer.io
@@ -63,5 +61,4 @@ x-casaos:
   title:
     en_us: Duckdns
   category: LinuxServer.io
-  project_url: https://www.duckdns.org/
   port_map: '80'

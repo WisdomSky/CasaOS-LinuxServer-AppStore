@@ -4,6 +4,4 @@ A very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/librespeed
-
 **WebUI Port:** `80`

@@ -68,7 +68,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/transmission/'
+    en_us: 'Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
   tagline:
     en_us: 'Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
   developer: LinuxServer.io
@@ -78,5 +78,3 @@ x-casaos:
   title:
     en_us: Transmission
   category: LinuxServer.io
-  project_url: http://www.transmissionbt.com/
-  port_map: '9091'

@@ -26,26 +26,6 @@ services:
         - container: JAVA_OPTS
           description:
             en_us: For passing additional java options.
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-        - container: /music
-          description:
-            en_us: 'Container Path: /music'
-        - container: /playlists
-          description:
-            en_us: 'Container Path: /playlists'
-        - container: /podcasts
-          description:
-            en_us: 'Container Path: /podcasts'
-        - container: /media
-          description:
-            en_us: 'Container Path: /media'
-      ports:
-        - container: '4040'
-          description:
-            en_us: 'Container Port: 4040'
     ports:
       - target: 4040
         published: 4040
@@ -72,16 +52,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/airsonic/'
+    en_us: Airsonic-advanced is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.
   tagline:
     en_us: A free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png
   title:
     en_us: Airsonic advanced
   category: LinuxServer.io
-  project_url: https://airsonic.github.io/
-  port_map: '4040'
-  index: /airsonic

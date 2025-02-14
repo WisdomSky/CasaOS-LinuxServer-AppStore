@@ -18,14 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: 'Container Path: /config'
-      ports:
-        - container: '80'
-          description:
-            en_us: 'HTTP Port: Default 80'
     ports:
       - target: 80
         published: 80
@@ -43,7 +35,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/dokuwiki/'
+    en_us: Dokuwiki is a simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.
   tagline:
     en_us: A simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.
   developer: LinuxServer.io
@@ -53,5 +45,4 @@ x-casaos:
   title:
     en_us: Dokuwiki
   category: LinuxServer.io
-  project_url: https://www.dokuwiki.org/dokuwiki
   port_map: '80'

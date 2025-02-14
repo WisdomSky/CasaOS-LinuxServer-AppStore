@@ -18,17 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-      volumes:
-        - container: /config
-          description:
-            en_us: Appdata
-        - container: /.snapshots
-          description:
-            en_us: Snapshots
-        - container: /data
-          description:
-            en_us: Data
-      ports: []
     ports:
       - target: 80
         published: 80
@@ -49,7 +38,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/rsnapshot/'
+    en_us: Rsnapshot is a filesystem snapshot utility based on rsync. rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.'
   tagline:
     en_us: A filesystem snapshot utility based on rsync. Rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required. '
   developer: LinuxServer.io
@@ -59,5 +48,4 @@ x-casaos:
   title:
     en_us: Rsnapshot
   category: LinuxServer.io
-  project_url: https://www.rsnapshot.org/
   port_map: '80'

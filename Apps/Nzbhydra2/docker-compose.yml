@@ -35,7 +35,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/nzbhydra2/'
+    en_us: Nzbhydra2 is a meta search application for NZB indexers, the 'spiritual successor' to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.
   tagline:
     en_us: A meta search application for NZB indexers, the 'spiritual successor' to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.
   developer: LinuxServer.io
@@ -45,5 +45,3 @@ x-casaos:
   title:
     en_us: Nzbhydra2
   category: LinuxServer.io
-  project_url: https://github.com/theotherp/nzbhydra2
-  port_map: '5076'

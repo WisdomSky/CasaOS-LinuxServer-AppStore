@@ -22,17 +22,6 @@ services:
         - container: RUN_OPTS
           description:
             en_us: Specify specific run params for minisatip
-      volumes: []
-      ports:
-        - container: '8875'
-          description:
-            en_us: ''
-        - container: '554'
-          description:
-            en_us: ''
-        - container: '1900'
-          description:
-            en_us: ''
     ports:
       - target: 8875
         published: 8875
@@ -53,7 +42,7 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/minisatip/'
+    en_us: Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
   tagline:
     en_us: A multi-threaded satip server version 1. 2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
   developer: LinuxServer.io
@@ -63,5 +52,3 @@ x-casaos:
   title:
     en_us: Minisatip
   category: LinuxServer.io
-  project_url: https://github.com/catalinii/minisatip
-  port_map: '8875'

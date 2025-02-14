@@ -4,6 +4,4 @@ A Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Net
 
 ---
 
-**Homepage:** https://hub.docker.com/r/linuxserver/ddclient
-
 **WebUI Port:** `80`

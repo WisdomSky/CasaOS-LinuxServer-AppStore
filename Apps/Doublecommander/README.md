@@ -3,7 +3,3 @@
 A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
 
 ---
-
-**Homepage:** https://hub.docker.com/r/linuxserver/doublecommander
-
-**WebUI Port:** `3000`
