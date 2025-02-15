@@ -37,8 +37,8 @@ x-casaos:
     en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/socket-proxy for details.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: ''
-  thumbnail: ''
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/docker-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/docker-logo.png
   title:
     en_us: Socket proxy
   category: LinuxServer.io

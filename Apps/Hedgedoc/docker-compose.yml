@@ -1,7 +1,7 @@
 name: linuxserver-hedgedoc
 services:
   app:
-    image: linuxserver/hedgedoc:1.10.1
+    image: linuxserver/hedgedoc:1.10.2
     restart: unless-stopped
     environment:
       PUID: $PUID
