@@ -1,7 +1,7 @@
 name: linuxserver-lychee
 services:
   app:
-    image: linuxserver/lychee:6.3.0
+    image: linuxserver/lychee:6.3.1
     restart: unless-stopped
     environment:
       PUID: $PUID
