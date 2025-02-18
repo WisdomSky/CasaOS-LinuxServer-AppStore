@@ -1,7 +1,7 @@
 name: linuxserver-pairdrop
 services:
   app:
-    image: linuxserver/pairdrop:1.10.11
+    image: linuxserver/pairdrop:1.11.0
     restart: unless-stopped
     environment:
       PUID: $PUID
