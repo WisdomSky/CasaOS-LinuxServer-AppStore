@@ -1,7 +1,7 @@
 name: linuxserver-homeassistant
 services:
   app:
-    image: linuxserver/homeassistant:2025.2.4
+    image: linuxserver/homeassistant:2025.2.5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,8 +28,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Home Assistant Core - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server
