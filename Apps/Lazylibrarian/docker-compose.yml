@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-721f8e8b
+    image: linuxserver/lazylibrarian:version-041e1d1d
     restart: unless-stopped
     environment:
       PUID: $PUID
