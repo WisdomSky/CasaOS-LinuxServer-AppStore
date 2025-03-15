@@ -31,8 +31,8 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Nzbhydra2 is a meta search application for NZB indexers, the 'spiritual successor' to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.
