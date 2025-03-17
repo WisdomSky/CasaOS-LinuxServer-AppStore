@@ -34,8 +34,8 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Radarr - A fork of Sonarr to work with movies à la Couchpotato.
