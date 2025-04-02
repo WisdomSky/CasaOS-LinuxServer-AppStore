@@ -43,8 +43,8 @@ services:
         target: /data
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
