@@ -1,7 +1,7 @@
 name: linuxserver-rawtherapee
 services:
   app:
-    image: linuxserver/rawtherapee:5.11.20250406
+    image: linuxserver/rawtherapee:5.11.20250413
     restart: unless-stopped
     environment:
       PUID: $PUID
