@@ -1,7 +1,7 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:3.9.20250421
+    image: linuxserver/healthchecks:3.9.20250428
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -30,10 +30,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -51,49 +51,49 @@ services:
             en_us: Superuser password.
         - container: ALLOWED_HOSTS
           description:
-            en_us: A comma-separated list of valid hostnames for the server. Default is the domain portion of SITE_ROOT.
+            en_us: A comma-separated list of valid hostnames for the server. Default is the domain portion of SITE_ROOT. (optional)
         - container: APPRISE_ENABLED
           description:
-            en_us: Set to True to enable the Apprise integration (https://github.com/caronc/apprise).
+            en_us: Set to True to enable the Apprise integration (https://github.com/caronc/apprise). (optional)
         - container: CSRF_TRUSTED_ORIGINS
           description:
-            en_us: A list of trusted origins for unsafe requests (e.g. POST). Defaults to the value of SITE_ROOT.
+            en_us: A list of trusted origins for unsafe requests (e.g. POST). Defaults to the value of SITE_ROOT. (optional)
         - container: DEBUG
           description:
-            en_us: Set to False to disable. Debug mode relaxes CSRF protections and increases logging verbosity but should be disabled for production instances as it will impact performance and security.
+            en_us: Set to False to disable. Debug mode relaxes CSRF protections and increases logging verbosity but should be disabled for production instances as it will impact performance and security. (optional)
         - container: DEFAULT_FROM_EMAIL
           description:
-            en_us: From email for alerts.
+            en_us: From email for alerts. (optional)
         - container: EMAIL_HOST
           description:
-            en_us: SMTP host.
+            en_us: SMTP host. (optional)
         - container: EMAIL_PORT
           description:
-            en_us: SMTP port.
+            en_us: SMTP port. (optional)
         - container: EMAIL_HOST_USER
           description:
-            en_us: SMTP user.
+            en_us: SMTP user. (optional)
         - container: EMAIL_HOST_PASSWORD
           description:
-            en_us: SMTP password.
+            en_us: SMTP password. (optional)
         - container: EMAIL_USE_TLS
           description:
-            en_us: Use TLS for SMTP (True or False).
+            en_us: Use TLS for SMTP (True or False). (optional)
         - container: INTEGRATIONS_ALLOW_PRIVATE_IPS
           description:
-            en_us: Defaults to False. Set to True to allow integrations to connect to private IP addresses.
+            en_us: Defaults to False. Set to True to allow integrations to connect to private IP addresses. (optional)
         - container: PING_EMAIL_DOMAIN
           description:
-            en_us: The domain to use for generating ping email addresses. Defaults to localhost.
+            en_us: The domain to use for generating ping email addresses. Defaults to localhost. (optional)
         - container: RP_ID
           description:
-            en_us: If using webauthn for 2FA set this to match your Healthchecks domain. Webauthn will only work over https.
+            en_us: If using webauthn for 2FA set this to match your Healthchecks domain. Webauthn will only work over https. (optional)
         - container: SECRET_KEY
           description:
-            en_us: A secret key used for cryptographic signing. Will generate a random value if one is not supplied and save it to /config/local_settings.py.
+            en_us: A secret key used for cryptographic signing. Will generate a random value if one is not supplied and save it to /config/local_settings.py. (optional)
         - container: SITE_LOGO_URL
           description:
-            en_us: Full URL to custom site logo.
+            en_us: Full URL to custom site logo. (optional)
     ports:
       - target: 8000
         published: 8000

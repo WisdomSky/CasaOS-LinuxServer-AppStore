@@ -12,16 +12,16 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: RUN_OPTS
           description:
-            en_us: Optionally specify additional arguments to be passed. See Additional runtime parameters.
+            en_us: Optionally specify additional arguments to be passed. See Additional runtime parameters. (optional)
     ports:
       - target: 9981
         published: 9981

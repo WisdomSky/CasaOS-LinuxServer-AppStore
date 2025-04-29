@@ -15,13 +15,13 @@ services:
             en_us: Specify the port you bind to the outside for Kasm Workspaces.
         - container: DOCKER_HUB_USERNAME
           description:
-            en_us: Optionally specify a DockerHub Username to pull private images.
+            en_us: Optionally specify a DockerHub Username to pull private images. (optional)
         - container: DOCKER_HUB_PASSWORD
           description:
-            en_us: Optionally specify a DockerHub password to pull private images.
+            en_us: Optionally specify a DockerHub password to pull private images. (optional)
         - container: DOCKER_MTU
           description:
-            en_us: Optionally specify the mtu options passed to dockerd.
+            en_us: Optionally specify the mtu options passed to dockerd. (optional)
     ports:
       - target: 3000
         published: 3000

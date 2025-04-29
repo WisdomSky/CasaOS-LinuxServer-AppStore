@@ -12,16 +12,16 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: SUBFOLDER
           description:
-            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/
+            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ (optional)
     ports:
       - target: 3000
         published: 3000

@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: PASSWORD
           description:
-            en_us: Optionally set a password for the gui.
+            en_us: Optionally set a password for the gui. (optional)
         - container: CLI_ARGS
           description:
-            en_us: Optionally pass cli start arguments to calibre.
+            en_us: Optionally pass cli start arguments to calibre. (optional)
     ports:
       - target: 8080
         published: 8080

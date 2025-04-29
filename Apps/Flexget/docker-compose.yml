@@ -15,10 +15,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -33,7 +33,7 @@ services:
             en_us: Set the FlexGet config file location.
         - container: FG_WEBUI_PASSWORD
           description:
-            en_us: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters.
+            en_us: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters. (optional)
     ports:
       - target: 5050
         published: 5050

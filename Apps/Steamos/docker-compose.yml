@@ -15,10 +15,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -27,13 +27,13 @@ services:
             en_us: Specify the render device (GPU) for the contianer to use.
         - container: HOST_IP
           description:
-            en_us: Specify the IP of the host, needed for LAN Remote Play.
+            en_us: Specify the IP of the host, needed for LAN Remote Play. (optional)
         - container: STARTUP
           description:
-            en_us: KDE to boot into desktop mode, BIGPICTURE to boot into gamescope.
+            en_us: KDE to boot into desktop mode, BIGPICTURE to boot into gamescope. (optional)
         - container: RESOLUTION
           description:
-            en_us: When booting into BIGPICTURE mode the screen resolution will be bound to this value.
+            en_us: When booting into BIGPICTURE mode the screen resolution will be bound to this value. (optional)
     ports:
       - target: 3000
         published: 3000

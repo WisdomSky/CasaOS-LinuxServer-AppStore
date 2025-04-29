@@ -15,25 +15,25 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: CONNECTION_TOKEN
           description:
-            en_us: Optional security token for accessing the Web UI (ie. supersecrettoken).
+            en_us: Optional security token for accessing the Web UI (ie. supersecrettoken). (optional)
         - container: CONNECTION_SECRET
           description:
-            en_us: Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. /path/to/file). Overrides CONNECTION_TOKEN.
+            en_us: Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. /path/to/file). Overrides CONNECTION_TOKEN. (optional)
         - container: SUDO_PASSWORD
           description:
-            en_us: If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password.
+            en_us: If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password. (optional)
         - container: SUDO_PASSWORD_HASH
           description:
-            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed.
+            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. (optional)
     ports:
       - target: 3000
         published: 3000

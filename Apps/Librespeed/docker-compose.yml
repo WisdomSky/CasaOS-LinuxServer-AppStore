@@ -20,10 +20,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -32,28 +32,28 @@ services:
             en_us: Set the password for the results database.
         - container: CUSTOM_RESULTS
           description:
-            en_us: (optional) set to true to enable custom results page in /config/www/results/index.php.
+            en_us: (optional) set to true to enable custom results page in /config/www/results/index.php. (optional)
         - container: DB_TYPE
           description:
-            en_us: Defaults to sqlite, can also be set to mysql or postgresql.
+            en_us: Defaults to sqlite, can also be set to mysql or postgresql. (optional)
         - container: DB_NAME
           description:
-            en_us: Database name. Required for mysql and pgsql.
+            en_us: Database name. Required for mysql and pgsql. (optional)
         - container: DB_HOSTNAME
           description:
-            en_us: Database address. Required for mysql and pgsql.
+            en_us: Database address. Required for mysql and pgsql. (optional)
         - container: DB_USERNAME
           description:
-            en_us: Database username. Required for mysql and pgsql.
+            en_us: Database username. Required for mysql and pgsql. (optional)
         - container: DB_PASSWORD
           description:
-            en_us: Database password. Required for mysql and pgsql.
+            en_us: Database password. Required for mysql and pgsql. (optional)
         - container: DB_PORT
           description:
-            en_us: Database port. Required for mysql.
+            en_us: Database port. Required for mysql. (optional)
         - container: IPINFO_APIKEY
           description:
-            en_us: Access token from ipinfo.io. Required for detailed IP information.
+            en_us: Access token from ipinfo.io. Required for detailed IP information. (optional)
     ports:
       - target: 80
         published: 80

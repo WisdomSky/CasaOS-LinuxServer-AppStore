@@ -1,7 +1,7 @@
 name: linuxserver-jackett
 services:
   app:
-    image: linuxserver/jackett:0.22.1826
+    image: linuxserver/jackett:0.22.1830
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: AUTO_UPDATE
           description:
-            en_us: Allow Jackett to update inside of the container.
+            en_us: Allow Jackett to update inside of the container. (optional)
         - container: RUN_OPTS
           description:
-            en_us: Optionally specify additional arguments to be passed.
+            en_us: Optionally specify additional arguments to be passed. (optional)
     ports:
       - target: 9117
         published: 9117
@@ -39,8 +39,8 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: 'Jackett works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.'

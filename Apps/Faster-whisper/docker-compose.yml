@@ -14,10 +14,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -26,10 +26,10 @@ services:
             en_us: Whisper model that will be used for transcription. From here, all with -int8 compressed variants
         - container: WHISPER_BEAM
           description:
-            en_us: Number of candidates to consider simultaneously during transcription.
+            en_us: Number of candidates to consider simultaneously during transcription. (optional)
         - container: WHISPER_LANG
           description:
-            en_us: Language that you will speak to the add-on.
+            en_us: Language that you will speak to the add-on. (optional)
     ports:
       - target: 10300
         published: 10300

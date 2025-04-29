@@ -20,10 +20,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -47,13 +47,13 @@ services:
             en_us: Mongodb authSource. For Atlas set to admin. Only evaluated on first run.
         - container: MEM_LIMIT
           description:
-            en_us: Optionally change the Java memory limit (in Megabytes). Set to default to reset to default
+            en_us: Optionally change the Java memory limit (in Megabytes). Set to default to reset to default (optional)
         - container: MEM_STARTUP
           description:
-            en_us: Optionally change the Java initial/minimum memory (in Megabytes). Set to default to reset to default
+            en_us: Optionally change the Java initial/minimum memory (in Megabytes). Set to default to reset to default (optional)
         - container: MONGO_TLS
           description:
-            en_us: Mongodb enable TLS. Only evaluated on first run.
+            en_us: Mongodb enable TLS. Only evaluated on first run. (optional)
     ports:
       - target: 8443
         published: 8443

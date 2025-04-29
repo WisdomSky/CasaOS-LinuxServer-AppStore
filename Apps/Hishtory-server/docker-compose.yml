@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: HISHTORY_POSTGRES_DB
           description:
-            en_us: Postgres DB Connection URI. Special characters must be URL encoded.
+            en_us: Postgres DB Connection URI. Special characters must be URL encoded. (optional)
         - container: HISHTORY_SQLITE_DB
           description:
-            en_us: SQLite database path. Needs to be a mounted volume for persistence. Don't set at the same time as HISHTORY_POSTGRES_DB.
+            en_us: SQLite database path. Needs to be a mounted volume for persistence. Don't set at the same time as HISHTORY_POSTGRES_DB. (optional)
     ports:
       - target: 8080
         published: 8080

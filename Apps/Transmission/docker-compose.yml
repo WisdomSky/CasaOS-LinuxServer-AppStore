@@ -17,31 +17,31 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: TRANSMISSION_WEB_HOME
           description:
-            en_us: Specify the path to an alternative UI folder.
+            en_us: Specify the path to an alternative UI folder. (optional)
         - container: USER
           description:
-            en_us: Specify an optional username for the interface
+            en_us: Specify an optional username for the interface (optional)
         - container: PASS
           description:
-            en_us: Specify an optional password for the interface
+            en_us: Specify an optional password for the interface (optional)
         - container: WHITELIST
           description:
-            en_us: Specify an optional list of comma separated ip whitelist. Fills rpc-whitelist setting.
+            en_us: Specify an optional list of comma separated ip whitelist. Fills rpc-whitelist setting. (optional)
         - container: PEERPORT
           description:
-            en_us: Specify an optional port for torrent TCP/UDP connections. Fills peer-port setting.
+            en_us: Specify an optional port for torrent TCP/UDP connections. Fills peer-port setting. (optional)
         - container: HOST_WHITELIST
           description:
-            en_us: Specify an optional list of comma separated dns name whitelist. Fills rpc-host-whitelist setting.
+            en_us: Specify an optional list of comma separated dns name whitelist. Fills rpc-host-whitelist setting. (optional)
     ports:
       - target: 9091
         published: 9091

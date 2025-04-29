@@ -1,7 +1,7 @@
 name: linuxserver-lychee
 services:
   app:
-    image: linuxserver/lychee:6.5.2
+    image: linuxserver/lychee:6.5.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -20,10 +20,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -47,13 +47,13 @@ services:
             en_us: Path to DB file for sqlite. DB name for mysql and pgsql.
         - container: APP_NAME
           description:
-            en_us: The gallery name.
+            en_us: The gallery name. (optional)
         - container: APP_URL
           description:
-            en_us: The URL you will use to access Lychee including protocol, and port where appropriate.
+            en_us: The URL you will use to access Lychee including protocol, and port where appropriate. (optional)
         - container: TRUSTED_PROXIES
           description:
-            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet).
+            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). (optional)
     ports:
       - target: 80
         published: 80

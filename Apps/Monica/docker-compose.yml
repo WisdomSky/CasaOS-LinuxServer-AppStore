@@ -20,10 +20,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -44,16 +44,16 @@ services:
             en_us: Mariadb DB name.
         - container: APP_URL
           description:
-            en_us: The URL you will use to access Monica including protocol, and port where appropriate.
+            en_us: The URL you will use to access Monica including protocol, and port where appropriate. (optional)
         - container: TRUSTED_PROXIES
           description:
-            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet).
+            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). (optional)
         - container: APP_ENV
           description:
-            en_us: Set to production when exposing the container to anyone else; this also makes https mandatory.
+            en_us: Set to production when exposing the container to anyone else; this also makes https mandatory. (optional)
         - container: APP_DISABLE_SIGNUP
           description:
-            en_us: Set to false to enable new account sign-ups.
+            en_us: Set to false to enable new account sign-ups. (optional)
     ports:
       - target: 80
         published: 80

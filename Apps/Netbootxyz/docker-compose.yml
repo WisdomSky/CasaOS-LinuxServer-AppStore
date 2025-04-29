@@ -16,28 +16,28 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: MENU_VERSION
           description:
-            en_us: Specify a specific version of boot files you want to use from NETBOOT.XYZ (unset pulls latest)
+            en_us: Specify a specific version of boot files you want to use from NETBOOT.XYZ (unset pulls latest) (optional)
         - container: PORT_RANGE
           description:
-            en_us: Specify the port range tftp will use for data transfers (see Wikipedia)
+            en_us: Specify the port range tftp will use for data transfers (see Wikipedia) (optional)
         - container: SUBFOLDER
           description:
-            en_us: Specify a subfolder if running this behind a reverse proxy (IE /proxy/)
+            en_us: Specify a subfolder if running this behind a reverse proxy (IE /proxy/) (optional)
         - container: NGINX_PORT
           description:
-            en_us: Specify a different internal port for the asset server
+            en_us: Specify a different internal port for the asset server (optional)
         - container: WEB_APP_PORT
           description:
-            en_us: Specify a different internal port for the configuration UI
+            en_us: Specify a different internal port for the configuration UI (optional)
     ports:
       - target: 3000
         published: 3000

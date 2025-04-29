@@ -23,10 +23,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -47,25 +47,25 @@ services:
             en_us: A comma-separated list of server IDs to test against. Run docker run -it --rm --entrypoint /bin/bash lscr.io/linuxserver/speedtest-tracker:latest list-servers to get a list of nearby servers.
         - container: DB_HOST
           description:
-            en_us: Database hostname (postgres/mysql).
+            en_us: Database hostname (postgres/mysql). (optional)
         - container: DB_PORT
           description:
-            en_us: Database port (postgres/mysql).
+            en_us: Database port (postgres/mysql). (optional)
         - container: DB_DATABASE
           description:
-            en_us: Database name (postgres/mysql).
+            en_us: Database name (postgres/mysql). (optional)
         - container: DB_USERNAME
           description:
-            en_us: Database username (postgres/mysql).
+            en_us: Database username (postgres/mysql). (optional)
         - container: DB_PASSWORD
           description:
-            en_us: Database password (postgres/mysql).
+            en_us: Database password (postgres/mysql). (optional)
         - container: DISPLAY_TIMEZONE
           description:
-            en_us: Timezone for the UI.
+            en_us: Timezone for the UI. (optional)
         - container: PRUNE_RESULTS_OLDER_THAN
           description:
-            en_us: Days to keep test results.
+            en_us: Days to keep test results. (optional)
     ports:
       - target: 80
         published: 80

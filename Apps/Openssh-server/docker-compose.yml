@@ -21,43 +21,43 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: PUBLIC_KEY
           description:
-            en_us: Optional ssh public key, which will automatically be added to authorized_keys.
+            en_us: Optional ssh public key, which will automatically be added to authorized_keys. (optional)
         - container: PUBLIC_KEY_FILE
           description:
-            en_us: Optionally specify a file containing the public key (works with docker secrets).
+            en_us: Optionally specify a file containing the public key (works with docker secrets). (optional)
         - container: PUBLIC_KEY_DIR
           description:
-            en_us: Optionally specify a directory containing the public keys (works with docker secrets).
+            en_us: Optionally specify a directory containing the public keys (works with docker secrets). (optional)
         - container: PUBLIC_KEY_URL
           description:
-            en_us: Optionally specify a URL containing the public key.
+            en_us: Optionally specify a URL containing the public key. (optional)
         - container: SUDO_ACCESS
           description:
-            en_us: Set to true to allow linuxserver.io, the ssh user, sudo access. Without USER_PASSWORD set, this will allow passwordless sudo access.
+            en_us: Set to true to allow linuxserver.io, the ssh user, sudo access. Without USER_PASSWORD set, this will allow passwordless sudo access. (optional)
         - container: PASSWORD_ACCESS
           description:
-            en_us: Set to true to allow user/password ssh access. You will want to set USER_PASSWORD or USER_PASSWORD_FILE as well.
+            en_us: Set to true to allow user/password ssh access. You will want to set USER_PASSWORD or USER_PASSWORD_FILE as well. (optional)
         - container: USER_PASSWORD
           description:
-            en_us: Optionally set a sudo password for linuxserver.io, the ssh user. If this or USER_PASSWORD_FILE are not set but SUDO_ACCESS is set to true, the user will have passwordless sudo access.
+            en_us: Optionally set a sudo password for linuxserver.io, the ssh user. If this or USER_PASSWORD_FILE are not set but SUDO_ACCESS is set to true, the user will have passwordless sudo access. (optional)
         - container: USER_PASSWORD_FILE
           description:
-            en_us: Optionally specify a file that contains the password. This setting supersedes the USER_PASSWORD option (works with docker secrets).
+            en_us: Optionally specify a file that contains the password. This setting supersedes the USER_PASSWORD option (works with docker secrets). (optional)
         - container: USER_NAME
           description:
-            en_us: Optionally specify a user name (Default:linuxserver.io)
+            en_us: Optionally specify a user name (Default:linuxserver.io) (optional)
         - container: LOG_STDOUT
           description:
-            en_us: Set to true to log to stdout instead of file.
+            en_us: Set to true to log to stdout instead of file. (optional)
     ports:
       - target: 2222
         published: 2222

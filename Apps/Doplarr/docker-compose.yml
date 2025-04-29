@@ -29,10 +29,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -59,37 +59,37 @@ services:
             en_us: Specify your Sonarr URL. Leave blank if using Overseerr.
         - container: DISCORD__MAX_RESULTS
           description:
-            en_us: Sets the maximum size of the search results selection
+            en_us: Sets the maximum size of the search results selection (optional)
         - container: DISCORD__REQUESTED_MSG_STYLE
           description:
-            en_us: Sets the style of the request alert message. One of :plain :embed :none
+            en_us: Sets the style of the request alert message. One of :plain :embed :none (optional)
         - container: SONARR__QUALITY_PROFILE
           description:
-            en_us: The name of the quality profile to use by default for Sonarr
+            en_us: The name of the quality profile to use by default for Sonarr (optional)
         - container: RADARR__QUALITY_PROFILE
           description:
-            en_us: The name of the quality profile to use by default for Radarr
+            en_us: The name of the quality profile to use by default for Radarr (optional)
         - container: SONARR__ROOTFOLDER
           description:
-            en_us: The root folder to use by default for Sonarr
+            en_us: The root folder to use by default for Sonarr (optional)
         - container: RADARR__ROOTFOLDER
           description:
-            en_us: The root folder to use by default for Radarr
+            en_us: The root folder to use by default for Radarr (optional)
         - container: SONARR__LANGUAGE_PROFILE
           description:
-            en_us: The name of the language profile to use by default for Sonarr
+            en_us: The name of the language profile to use by default for Sonarr (optional)
         - container: OVERSEERR__DEFAULT_ID
           description:
-            en_us: The Overseerr user id to use by default if there is no associated discord account for the requester
+            en_us: The Overseerr user id to use by default if there is no associated discord account for the requester (optional)
         - container: PARTIAL_SEASONS
           description:
-            en_us: Sets whether users can request partial seasons.
+            en_us: Sets whether users can request partial seasons. (optional)
         - container: LOG_LEVEL
           description:
-            en_us: The log level for the logging backend. This can be changed for debugging purposes. One of trace :debug :info :warn :error :fatal :report
+            en_us: The log level for the logging backend. This can be changed for debugging purposes. One of trace :debug :info :warn :error :fatal :report (optional)
         - container: JAVA_OPTS
           description:
-            en_us: For passing additional java options.
+            en_us: For passing additional java options. (optional)
     ports:
       - target: 80
         published: 80

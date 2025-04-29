@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: NZBGET_USER
           description:
-            en_us: Specify the user for web authentication.
+            en_us: Specify the user for web authentication. (optional)
         - container: NZBGET_PASS
           description:
-            en_us: Specify the password for web authentication.
+            en_us: Specify the password for web authentication. (optional)
     ports:
       - target: 6789
         published: 6789

@@ -14,22 +14,22 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: FERNETKEY
           description:
-            en_us: Optionally define a custom valid fernet key (only needed if container is frequently recreated, or if using multi-node setups, invalidating previous authentications)
+            en_us: Optionally define a custom valid fernet key (only needed if container is frequently recreated, or if using multi-node setups, invalidating previous authentications) (optional)
         - container: CERTFILE
           description:
-            en_us: Optionally point this to a certificate file to enable HTTP over SSL (HTTPS) for the ldap auth daemon
+            en_us: Optionally point this to a certificate file to enable HTTP over SSL (HTTPS) for the ldap auth daemon (optional)
         - container: KEYFILE
           description:
-            en_us: Optionally point this to the private key file, matching the certificate file referred to in CERTFILE
+            en_us: Optionally point this to the private key file, matching the certificate file referred to in CERTFILE (optional)
     ports:
       - target: 8888
         published: 8888

@@ -48,10 +48,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -123,49 +123,49 @@ services:
             en_us: Enable or disable S3 storage of uploaded files
         - container: WEB_DOMAIN
           description:
-            en_us: This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic
+            en_us: This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic (optional)
         - container: ES_HOST
           description:
-            en_us: Elasticsearch server hostname
+            en_us: Elasticsearch server hostname (optional)
         - container: ES_PORT
           description:
-            en_us: Elasticsearch port
+            en_us: Elasticsearch port (optional)
         - container: ES_USER
           description:
-            en_us: Elasticsearch username
+            en_us: Elasticsearch username (optional)
         - container: ES_PASS
           description:
-            en_us: Elasticsearch password
+            en_us: Elasticsearch password (optional)
         - container: S3_BUCKET
           description:
-            en_us: S3 bucket hostname
+            en_us: S3 bucket hostname (optional)
         - container: AWS_ACCESS_KEY_ID
           description:
-            en_us: S3 bucket access key ID
+            en_us: S3 bucket access key ID (optional)
         - container: AWS_SECRET_ACCESS_KEY
           description:
-            en_us: S3 bucket secret access key
+            en_us: S3 bucket secret access key (optional)
         - container: S3_ALIAS_HOST
           description:
-            en_us: Alternate hostname for object fetching if you are front the S3 connections.
+            en_us: Alternate hostname for object fetching if you are front the S3 connections. (optional)
         - container: SIDEKIQ_ONLY
           description:
-            en_us: Only run the sidekiq service in this container instance. For large scale instances that need better queue handling.
+            en_us: Only run the sidekiq service in this container instance. For large scale instances that need better queue handling. (optional)
         - container: SIDEKIQ_QUEUE
           description:
-            en_us: The name of the sidekiq queue to run in this container. See notes.
+            en_us: The name of the sidekiq queue to run in this container. See notes. (optional)
         - container: SIDEKIQ_DEFAULT
           description:
-            en_us: Set to true on the main container if you're running additional sidekiq instances. It will run the default queue.
+            en_us: Set to true on the main container if you're running additional sidekiq instances. It will run the default queue. (optional)
         - container: SIDEKIQ_THREADS
           description:
-            en_us: The number of threads for sidekiq to use. See notes.
+            en_us: The number of threads for sidekiq to use. See notes. (optional)
         - container: DB_POOL
           description:
-            en_us: The size of the DB connection pool, must be at least the same as SIDEKIQ_THREADS. See notes.
+            en_us: The size of the DB connection pool, must be at least the same as SIDEKIQ_THREADS. See notes. (optional)
         - container: NO_CHOWN
           description:
-            en_us: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS.
+            en_us: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS. (optional)
     ports:
       - target: 80
         published: 80

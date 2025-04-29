@@ -19,10 +19,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -49,7 +49,7 @@ services:
             en_us: Database name
         - container: QUEUE_CONNECTION
           description:
-            en_us: Set to database to enable async actions like sending email or triggering webhooks. See documentation.
+            en_us: Set to database to enable async actions like sending email or triggering webhooks. See documentation. (optional)
     ports:
       - target: 6875
         published: 80

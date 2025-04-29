@@ -22,10 +22,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: for GroupID
+            en_us: Run 'id [USER]]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -49,19 +49,19 @@ services:
             en_us: The address the gui will be accessed at (ie. 192.168.1.1 or hedgedoc.domain.com).
         - container: CMD_URL_ADDPORT
           description:
-            en_us: Set to true if using a port other than 80 or 443.
+            en_us: Set to true if using a port other than 80 or 443. (optional)
         - container: CMD_PROTOCOL_USESSL
           description:
-            en_us: Set to true if accessing over https via reverse proxy.
+            en_us: Set to true if accessing over https via reverse proxy. (optional)
         - container: CMD_PORT
           description:
-            en_us: If you wish to access hedgedoc at a port different than 80, 443 or 3000, you need to set this to that port (ie. CMD_PORT=5000) and change the port mapping accordingly (5000:5000).
+            en_us: If you wish to access hedgedoc at a port different than 80, 443 or 3000, you need to set this to that port (ie. CMD_PORT=5000) and change the port mapping accordingly (5000:5000). (optional)
         - container: CMD_ALLOW_ORIGIN
           description:
-            en_us: Comma-separated list of allowed hostnames
+            en_us: Comma-separated list of allowed hostnames (optional)
         - container: CMD_DB_DIALECT
           description:
-            en_us: 'This variable allows selecting a database engine (if DB_HOST not set up). Available options are: mariadb, mysql, postgres, sqlite.'
+            en_us: 'This variable allows selecting a database engine (if DB_HOST not set up). Available options are: mariadb, mysql, postgres, sqlite. (optional)'
     ports:
       - target: 3000
         published: 3000
