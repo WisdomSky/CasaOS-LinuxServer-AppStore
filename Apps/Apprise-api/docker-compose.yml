@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: APPRISE_ATTACH_SIZE
           description:
-            en_us: Max attachment size in Mb. 0 disables attachments. Must have /attachments mounted to set to a positive value. (optional)
+            en_us: Max attachment size in Mb. 0 disables attachments. Must have /attachments mounted to set to a positive value. [OPTIONAL]
     ports:
       - target: 8000
         published: 8000

@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: SECRET_PATH
           description:
-            en_us: Secret path for admin access. Defaults to /pwndrop. This parameter only takes effect during initial install; it can later be changed in the web gui. (optional)
+            en_us: Secret path for admin access. Defaults to /pwndrop. This parameter only takes effect during initial install; it can later be changed in the web gui. [OPTIONAL]
     ports:
       - target: 8080
         published: 8080

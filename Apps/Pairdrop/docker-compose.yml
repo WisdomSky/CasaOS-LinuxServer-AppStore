@@ -24,16 +24,16 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: RATE_LIMIT
           description:
-            en_us: Set to true to limit clients to 100 requests per 5 min (optional)
+            en_us: Set to true to limit clients to 100 requests per 5 min [OPTIONAL]
         - container: WS_FALLBACK
           description:
-            en_us: Set to true to enable websocket fallback if the peer to peer WebRTC connection is not available to the client (see App Setup notes). (optional)
+            en_us: Set to true to enable websocket fallback if the peer to peer WebRTC connection is not available to the client (see App Setup notes). [OPTIONAL]
         - container: RTC_CONFIG
           description:
-            en_us: Path to a json file containing custom STUN/TURN config (see App Setup notes) (optional)
+            en_us: Path to a json file containing custom STUN/TURN config (see App Setup notes) [OPTIONAL]
         - container: DEBUG_MODE
           description:
-            en_us: Set to true to debug the http server configuration by logging clients IP addresses used by PairDrop to STDOUT. See here for more info. Do not use in production! (optional)
+            en_us: Set to true to debug the http server configuration by logging clients IP addresses used by PairDrop to STDOUT. See here for more info. Do not use in production! [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

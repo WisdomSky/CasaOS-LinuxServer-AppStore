@@ -26,22 +26,22 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: PASSWORD
           description:
-            en_us: Optional web gui password, if PASSWORD or HASHED_PASSWORD is not provided, there will be no auth. (optional)
+            en_us: Optional web gui password, if PASSWORD or HASHED_PASSWORD is not provided, there will be no auth. [OPTIONAL]
         - container: HASHED_PASSWORD
           description:
-            en_us: Optional web gui password, overrides PASSWORD, instructions on how to create it is below. (optional)
+            en_us: Optional web gui password, overrides PASSWORD, instructions on how to create it is below. [OPTIONAL]
         - container: SUDO_PASSWORD
           description:
-            en_us: If this optional variable is set, user will have sudo access in the code-server terminal with the specified password. (optional)
+            en_us: If this optional variable is set, user will have sudo access in the code-server terminal with the specified password. [OPTIONAL]
         - container: SUDO_PASSWORD_HASH
           description:
-            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. (optional)
+            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. [OPTIONAL]
         - container: PROXY_DOMAIN
           description:
-            en_us: If this optional variable is set, this domain will be proxied for subdomain proxying. See Documentation (optional)
+            en_us: If this optional variable is set, this domain will be proxied for subdomain proxying. See Documentation [OPTIONAL]
         - container: DEFAULT_WORKSPACE
           description:
-            en_us: If this optional variable is set, code-server will open this directory by default (optional)
+            en_us: If this optional variable is set, code-server will open this directory by default [OPTIONAL]
     ports:
       - target: 8443
         published: 8443

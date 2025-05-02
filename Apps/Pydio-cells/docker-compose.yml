@@ -25,7 +25,7 @@ services:
             en_us: The external url you would like to use to access Pydio Cells (Can be https://domain.url or https://IP:PORT).
         - container: SERVER_IP
           description:
-            en_us: Enter the LAN IP of the docker server. Required for local access by IP, added to self signed cert as SAN (not required if accessing only through reverse proxy). (optional)
+            en_us: Enter the LAN IP of the docker server. Required for local access by IP, added to self signed cert as SAN (not required if accessing only through reverse proxy). [OPTIONAL]
     ports:
       - target: 8080
         published: 8080

@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: RUN_OPTS
           description:
-            en_us: Optionally specify additional arguments to be passed. See Additional runtime parameters. (optional)
+            en_us: Optionally specify additional arguments to be passed. See Additional runtime parameters. [OPTIONAL]
     ports:
       - target: 9981
         published: 9981

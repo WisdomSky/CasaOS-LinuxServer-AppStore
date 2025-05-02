@@ -23,13 +23,13 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: FERNETKEY
           description:
-            en_us: Optionally define a custom valid fernet key (only needed if container is frequently recreated, or if using multi-node setups, invalidating previous authentications) (optional)
+            en_us: Optionally define a custom valid fernet key (only needed if container is frequently recreated, or if using multi-node setups, invalidating previous authentications) [OPTIONAL]
         - container: CERTFILE
           description:
-            en_us: Optionally point this to a certificate file to enable HTTP over SSL (HTTPS) for the ldap auth daemon (optional)
+            en_us: Optionally point this to a certificate file to enable HTTP over SSL (HTTPS) for the ldap auth daemon [OPTIONAL]
         - container: KEYFILE
           description:
-            en_us: Optionally point this to the private key file, matching the certificate file referred to in CERTFILE (optional)
+            en_us: Optionally point this to the private key file, matching the certificate file referred to in CERTFILE [OPTIONAL]
     ports:
       - target: 8888
         published: 8888

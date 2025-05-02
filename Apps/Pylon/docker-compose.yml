@@ -23,13 +23,13 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: GITURL
           description:
-            en_us: Specify a git repo to checkout on first startup (optional)
+            en_us: Specify a git repo to checkout on first startup [OPTIONAL]
         - container: PYUSER
           description:
-            en_us: Specify a basic auth user. (optional)
+            en_us: Specify a basic auth user. [OPTIONAL]
         - container: PYPASS
           description:
-            en_us: Specify a basic auth password. (optional)
+            en_us: Specify a basic auth password. [OPTIONAL]
     ports:
       - target: 3131
         published: 3131

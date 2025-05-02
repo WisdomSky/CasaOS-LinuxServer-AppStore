@@ -5,6 +5,7 @@ services:
     restart: unless-stopped
     environment:
       KASM_PORT: ''
+      TZ: $TZ
       DOCKER_HUB_USERNAME: ''
       DOCKER_HUB_PASSWORD: ''
       DOCKER_MTU: ''
@@ -13,15 +14,18 @@ services:
         - container: KASM_PORT
           description:
             en_us: Specify the port you bind to the outside for Kasm Workspaces.
+        - container: TZ
+          description:
+            en_us: Specify a timezone to use EG Europe/London.
         - container: DOCKER_HUB_USERNAME
           description:
-            en_us: Optionally specify a DockerHub Username to pull private images. (optional)
+            en_us: Optionally specify a DockerHub Username to pull private images. [OPTIONAL]
         - container: DOCKER_HUB_PASSWORD
           description:
-            en_us: Optionally specify a DockerHub password to pull private images. (optional)
+            en_us: Optionally specify a DockerHub password to pull private images. [OPTIONAL]
         - container: DOCKER_MTU
           description:
-            en_us: Optionally specify the mtu options passed to dockerd. (optional)
+            en_us: Optionally specify the mtu options passed to dockerd. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

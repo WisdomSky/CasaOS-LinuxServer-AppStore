@@ -39,37 +39,37 @@ services:
             en_us: Certbot validation method to use, options are http or dns (dns method also requires DNSPLUGIN variable set).
         - container: SUBDOMAINS
           description:
-            en_us: Subdomains you'd like the cert to cover (comma separated, no spaces) ie. www,ftp,cloud. For a wildcard cert, set this exactly to wildcard (wildcard cert is available via dns validation only) (optional)
+            en_us: Subdomains you'd like the cert to cover (comma separated, no spaces) ie. www,ftp,cloud. For a wildcard cert, set this exactly to wildcard (wildcard cert is available via dns validation only) [OPTIONAL]
         - container: CERTPROVIDER
           description:
-            en_us: Optionally define the cert provider. Set to zerossl for ZeroSSL certs (requires existing ZeroSSL account and the e-mail address entered in EMAIL env var). Otherwise defaults to Let's Encrypt. (optional)
+            en_us: Optionally define the cert provider. Set to zerossl for ZeroSSL certs (requires existing ZeroSSL account and the e-mail address entered in EMAIL env var). Otherwise defaults to Let's Encrypt. [OPTIONAL]
         - container: DNSPLUGIN
           description:
-            en_us: Required if VALIDATION is set to dns. Options are acmedns, aliyun, azure, bunny, cloudflare, cpanel, desec, digitalocean, directadmin, dnsimple, dnsmadeeasy, dnspod, do, domeneshop, dreamhost, duckdns, dynu, freedns, gandi, gehirn, glesys, godaddy, google, he, hetzner, infomaniak, inwx, ionos, linode, loopia, luadns, namecheap, netcup, njalla, nsone, ovh, porkbun, rfc2136, route53, sakuracloud, standalone, transip, and vultr. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under /config/dns-conf. (optional)
+            en_us: Required if VALIDATION is set to dns. Options are acmedns, aliyun, azure, bunny, cloudflare, cpanel, desec, digitalocean, directadmin, dnsimple, dnsmadeeasy, dnspod, do, domeneshop, dreamhost, duckdns, dynu, freedns, gandi, gehirn, glesys, godaddy, google, he, hetzner, infomaniak, inwx, ionos, linode, loopia, luadns, namecheap, netcup, njalla, nsone, ovh, porkbun, rfc2136, route53, sakuracloud, standalone, transip, and vultr. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under /config/dns-conf. [OPTIONAL]
         - container: PROPAGATION
           description:
-            en_us: Optionally override (in seconds) the default propagation time for the dns plugins. (optional)
+            en_us: Optionally override (in seconds) the default propagation time for the dns plugins. [OPTIONAL]
         - container: EMAIL
           description:
-            en_us: Optional e-mail address used for cert expiration notifications (Required for ZeroSSL). (optional)
+            en_us: Optional e-mail address used for cert expiration notifications (Required for ZeroSSL). [OPTIONAL]
         - container: ONLY_SUBDOMAINS
           description:
-            en_us: If you wish to get certs only for certain subdomains, but not the main domain (main domain may be hosted on another machine and cannot be validated), set this to true (optional)
+            en_us: If you wish to get certs only for certain subdomains, but not the main domain (main domain may be hosted on another machine and cannot be validated), set this to true [OPTIONAL]
         - container: EXTRA_DOMAINS
           description:
-            en_us: Additional fully qualified domain names (comma separated, no spaces) ie. example.net,subdomain.example.net,*.example.org (optional)
+            en_us: Additional fully qualified domain names (comma separated, no spaces) ie. example.net,subdomain.example.net,*.example.org [OPTIONAL]
         - container: STAGING
           description:
-            en_us: Set to true to retrieve certs in staging mode. Rate limits will be much higher, but the resulting cert will not pass the browser's security test. Only to be used for testing purposes. (optional)
+            en_us: Set to true to retrieve certs in staging mode. Rate limits will be much higher, but the resulting cert will not pass the browser's security test. Only to be used for testing purposes. [OPTIONAL]
         - container: DISABLE_F2B
           description:
-            en_us: Set to true to disable the Fail2ban service in the container, if you're already running it elsewhere or using a different IPS. (optional)
+            en_us: Set to true to disable the Fail2ban service in the container, if you're already running it elsewhere or using a different IPS. [OPTIONAL]
         - container: SWAG_AUTORELOAD
           description:
-            en_us: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod. (optional)
+            en_us: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod. [OPTIONAL]
         - container: SWAG_AUTORELOAD_WATCHLIST
           description:
-            en_us: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx (optional)
+            en_us: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx [OPTIONAL]
     ports:
       - target: 443
         published: 443

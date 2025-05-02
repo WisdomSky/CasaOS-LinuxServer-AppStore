@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: LOCAL_NET
           description:
-            en_us: If using a VPN, set this to your local LAN IP range using CIDR notation. Without it you will be unable to access the web interface. If you have multiple ranges or a complex LAN setup you will need to manage this yourself in the wg0.conf, see the App Setup section for details. (optional)
+            en_us: If using a VPN, set this to your local LAN IP range using CIDR notation. Without it you will be unable to access the web interface. If you have multiple ranges or a complex LAN setup you will need to manage this yourself in the wg0.conf, see the App Setup section for details. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

@@ -44,16 +44,16 @@ services:
             en_us: Mariadb DB name.
         - container: APP_URL
           description:
-            en_us: The URL you will use to access Monica including protocol, and port where appropriate. (optional)
+            en_us: The URL you will use to access Monica including protocol, and port where appropriate. [OPTIONAL]
         - container: TRUSTED_PROXIES
           description:
-            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). (optional)
+            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). [OPTIONAL]
         - container: APP_ENV
           description:
-            en_us: Set to production when exposing the container to anyone else; this also makes https mandatory. (optional)
+            en_us: Set to production when exposing the container to anyone else; this also makes https mandatory. [OPTIONAL]
         - container: APP_DISABLE_SIGNUP
           description:
-            en_us: Set to false to enable new account sign-ups. (optional)
+            en_us: Set to false to enable new account sign-ups. [OPTIONAL]
     ports:
       - target: 80
         published: 80

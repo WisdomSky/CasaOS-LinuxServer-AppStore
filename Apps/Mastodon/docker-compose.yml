@@ -123,49 +123,49 @@ services:
             en_us: Enable or disable S3 storage of uploaded files
         - container: WEB_DOMAIN
           description:
-            en_us: This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic (optional)
+            en_us: This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic [OPTIONAL]
         - container: ES_HOST
           description:
-            en_us: Elasticsearch server hostname (optional)
+            en_us: Elasticsearch server hostname [OPTIONAL]
         - container: ES_PORT
           description:
-            en_us: Elasticsearch port (optional)
+            en_us: Elasticsearch port [OPTIONAL]
         - container: ES_USER
           description:
-            en_us: Elasticsearch username (optional)
+            en_us: Elasticsearch username [OPTIONAL]
         - container: ES_PASS
           description:
-            en_us: Elasticsearch password (optional)
+            en_us: Elasticsearch password [OPTIONAL]
         - container: S3_BUCKET
           description:
-            en_us: S3 bucket hostname (optional)
+            en_us: S3 bucket hostname [OPTIONAL]
         - container: AWS_ACCESS_KEY_ID
           description:
-            en_us: S3 bucket access key ID (optional)
+            en_us: S3 bucket access key ID [OPTIONAL]
         - container: AWS_SECRET_ACCESS_KEY
           description:
-            en_us: S3 bucket secret access key (optional)
+            en_us: S3 bucket secret access key [OPTIONAL]
         - container: S3_ALIAS_HOST
           description:
-            en_us: Alternate hostname for object fetching if you are front the S3 connections. (optional)
+            en_us: Alternate hostname for object fetching if you are front the S3 connections. [OPTIONAL]
         - container: SIDEKIQ_ONLY
           description:
-            en_us: Only run the sidekiq service in this container instance. For large scale instances that need better queue handling. (optional)
+            en_us: Only run the sidekiq service in this container instance. For large scale instances that need better queue handling. [OPTIONAL]
         - container: SIDEKIQ_QUEUE
           description:
-            en_us: The name of the sidekiq queue to run in this container. See notes. (optional)
+            en_us: The name of the sidekiq queue to run in this container. See notes. [OPTIONAL]
         - container: SIDEKIQ_DEFAULT
           description:
-            en_us: Set to true on the main container if you're running additional sidekiq instances. It will run the default queue. (optional)
+            en_us: Set to true on the main container if you're running additional sidekiq instances. It will run the default queue. [OPTIONAL]
         - container: SIDEKIQ_THREADS
           description:
-            en_us: The number of threads for sidekiq to use. See notes. (optional)
+            en_us: The number of threads for sidekiq to use. See notes. [OPTIONAL]
         - container: DB_POOL
           description:
-            en_us: The size of the DB connection pool, must be at least the same as SIDEKIQ_THREADS. See notes. (optional)
+            en_us: The size of the DB connection pool, must be at least the same as SIDEKIQ_THREADS. See notes. [OPTIONAL]
         - container: NO_CHOWN
           description:
-            en_us: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS. (optional)
+            en_us: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS. [OPTIONAL]
     ports:
       - target: 80
         published: 80

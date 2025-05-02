@@ -15,13 +15,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here. (optional)
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here. [OPTIONAL]
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here. (optional)
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here. [OPTIONAL]
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list. (optional)
+            en_us: specify a timezone to use, see this list. [OPTIONAL]
         - container: SUBDOMAINS
           description:
             en_us: multiple subdomains allowed, comma separated, no spaces, if your domain is user.duckdns.org you put user, not a sub-subdomain
@@ -30,10 +30,10 @@ services:
             en_us: DuckDNS token
         - container: UPDATE_IP
           description:
-            en_us: Set to ipv6 or ipv4 to update  only your public IPv4/6 address. Set to both to update IPv6 and IPv4 address. This variable makes use of a third-party service. Omitting this variable uses DuckDNS for detection and only supports IPv4. both and ipv6 modes needs host networking. (optional)
+            en_us: Set to ipv6 or ipv4 to update  only your public IPv4/6 address. Set to both to update IPv6 and IPv4 address. This variable makes use of a third-party service. Omitting this variable uses DuckDNS for detection and only supports IPv4. both and ipv6 modes needs host networking. [OPTIONAL]
         - container: LOG_FILE
           description:
-            en_us: Set to true to log to file (also need to map /config). (optional)
+            en_us: Set to true to log to file (also need to map /config). [OPTIONAL]
     ports:
       - target: 80
         published: 80

@@ -22,18 +22,21 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: TZ
+          description:
+            en_us: Specify a timezone to use EG Europe/London.
         - container: DRINODE
           description:
             en_us: Specify the render device (GPU) for the contianer to use.
         - container: HOST_IP
           description:
-            en_us: Specify the IP of the host, needed for LAN Remote Play. (optional)
+            en_us: Specify the IP of the host, needed for LAN Remote Play. [OPTIONAL]
         - container: STARTUP
           description:
-            en_us: KDE to boot into desktop mode, BIGPICTURE to boot into gamescope. (optional)
+            en_us: KDE to boot into desktop mode, BIGPICTURE to boot into gamescope. [OPTIONAL]
         - container: RESOLUTION
           description:
-            en_us: When booting into BIGPICTURE mode the screen resolution will be bound to this value. (optional)
+            en_us: When booting into BIGPICTURE mode the screen resolution will be bound to this value. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

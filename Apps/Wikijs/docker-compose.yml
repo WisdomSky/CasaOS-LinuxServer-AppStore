@@ -26,22 +26,22 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: DB_TYPE
           description:
-            en_us: Set to sqlite (default) or postgres depending on the database engine you wish to use (optional)
+            en_us: Set to sqlite (default) or postgres depending on the database engine you wish to use [OPTIONAL]
         - container: DB_HOST
           description:
-            en_us: DB hostname (postgres only) (optional)
+            en_us: DB hostname (postgres only) [OPTIONAL]
         - container: DB_PORT
           description:
-            en_us: DB port (postgres only) (optional)
+            en_us: DB port (postgres only) [OPTIONAL]
         - container: DB_NAME
           description:
-            en_us: DB name (postgres only) (optional)
+            en_us: DB name (postgres only) [OPTIONAL]
         - container: DB_USER
           description:
-            en_us: DB username (postgres only) (optional)
+            en_us: DB username (postgres only) [OPTIONAL]
         - container: DB_PASS
           description:
-            en_us: DB password (postgres only) (optional)
+            en_us: DB password (postgres only) [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: MAXMEM
           description:
-            en_us: 'To set the maximum memory. ( ex: set ''1024'' for 1GB ) (optional)'
+            en_us: 'To set the maximum memory. ( ex: set ''1024'' for 1GB ) [OPTIONAL]'
     ports:
       - target: 2202
         published: 2202

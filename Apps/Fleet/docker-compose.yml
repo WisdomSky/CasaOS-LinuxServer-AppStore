@@ -37,7 +37,7 @@ services:
             en_us: The database user's password.
         - container: fleet_admin_secret
           description:
-            en_us: A string used as part of the password key derivation process. (optional)
+            en_us: A string used as part of the password key derivation process. [OPTIONAL]
     ports:
       - target: 8080
         published: 8080

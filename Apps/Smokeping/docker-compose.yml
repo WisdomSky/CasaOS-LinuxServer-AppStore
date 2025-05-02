@@ -23,13 +23,13 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: MASTER_URL
           description:
-            en_us: Specify the master url to connect to. Used when in slave mode. (optional)
+            en_us: Specify the master url to connect to. Used when in slave mode. [OPTIONAL]
         - container: SHARED_SECRET
           description:
-            en_us: Specify the master shared secret for this host. Used when in slave mode. (optional)
+            en_us: Specify the master shared secret for this host. Used when in slave mode. [OPTIONAL]
         - container: CACHE_DIR
           description:
-            en_us: Specify the cache directory for this host. Used when in slave mode. (optional)
+            en_us: Specify the cache directory for this host. Used when in slave mode. [OPTIONAL]
     ports:
       - target: 80
         published: 80

@@ -20,12 +20,15 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: TZ
+          description:
+            en_us: Specify a timezone to use EG Europe/London
         - container: SUBFOLDER
           description:
-            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ (optional)
+            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ [OPTIONAL]
         - container: TITLE
           description:
-            en_us: String which will be used as page/tab title in the web browser. (optional)
+            en_us: String which will be used as page/tab title in the web browser. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

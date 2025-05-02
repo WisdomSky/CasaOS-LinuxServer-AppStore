@@ -30,34 +30,34 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: PUBLIC_KEY
           description:
-            en_us: Optional ssh public key, which will automatically be added to authorized_keys. (optional)
+            en_us: Optional ssh public key, which will automatically be added to authorized_keys. [OPTIONAL]
         - container: PUBLIC_KEY_FILE
           description:
-            en_us: Optionally specify a file containing the public key (works with docker secrets). (optional)
+            en_us: Optionally specify a file containing the public key (works with docker secrets). [OPTIONAL]
         - container: PUBLIC_KEY_DIR
           description:
-            en_us: Optionally specify a directory containing the public keys (works with docker secrets). (optional)
+            en_us: Optionally specify a directory containing the public keys (works with docker secrets). [OPTIONAL]
         - container: PUBLIC_KEY_URL
           description:
-            en_us: Optionally specify a URL containing the public key. (optional)
+            en_us: Optionally specify a URL containing the public key. [OPTIONAL]
         - container: SUDO_ACCESS
           description:
-            en_us: Set to true to allow linuxserver.io, the ssh user, sudo access. Without USER_PASSWORD set, this will allow passwordless sudo access. (optional)
+            en_us: Set to true to allow linuxserver.io, the ssh user, sudo access. Without USER_PASSWORD set, this will allow passwordless sudo access. [OPTIONAL]
         - container: PASSWORD_ACCESS
           description:
-            en_us: Set to true to allow user/password ssh access. You will want to set USER_PASSWORD or USER_PASSWORD_FILE as well. (optional)
+            en_us: Set to true to allow user/password ssh access. You will want to set USER_PASSWORD or USER_PASSWORD_FILE as well. [OPTIONAL]
         - container: USER_PASSWORD
           description:
-            en_us: Optionally set a sudo password for linuxserver.io, the ssh user. If this or USER_PASSWORD_FILE are not set but SUDO_ACCESS is set to true, the user will have passwordless sudo access. (optional)
+            en_us: Optionally set a sudo password for linuxserver.io, the ssh user. If this or USER_PASSWORD_FILE are not set but SUDO_ACCESS is set to true, the user will have passwordless sudo access. [OPTIONAL]
         - container: USER_PASSWORD_FILE
           description:
-            en_us: Optionally specify a file that contains the password. This setting supersedes the USER_PASSWORD option (works with docker secrets). (optional)
+            en_us: Optionally specify a file that contains the password. This setting supersedes the USER_PASSWORD option (works with docker secrets). [OPTIONAL]
         - container: USER_NAME
           description:
-            en_us: Optionally specify a user name (Default:linuxserver.io) (optional)
+            en_us: Optionally specify a user name (Default:linuxserver.io) [OPTIONAL]
         - container: LOG_STDOUT
           description:
-            en_us: Set to true to log to stdout instead of file. (optional)
+            en_us: Set to true to log to stdout instead of file. [OPTIONAL]
     ports:
       - target: 2222
         published: 2222

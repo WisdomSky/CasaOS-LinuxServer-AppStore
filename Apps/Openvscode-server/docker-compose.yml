@@ -24,16 +24,16 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: CONNECTION_TOKEN
           description:
-            en_us: Optional security token for accessing the Web UI (ie. supersecrettoken). (optional)
+            en_us: Optional security token for accessing the Web UI (ie. supersecrettoken). [OPTIONAL]
         - container: CONNECTION_SECRET
           description:
-            en_us: Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. /path/to/file). Overrides CONNECTION_TOKEN. (optional)
+            en_us: Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. /path/to/file). Overrides CONNECTION_TOKEN. [OPTIONAL]
         - container: SUDO_PASSWORD
           description:
-            en_us: If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password. (optional)
+            en_us: If this optional variable is set, user will have sudo access in the openvscode-server terminal with the specified password. [OPTIONAL]
         - container: SUDO_PASSWORD_HASH
           description:
-            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. (optional)
+            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

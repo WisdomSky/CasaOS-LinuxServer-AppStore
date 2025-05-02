@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: DARK_MODE
           description:
-            en_us: Set this to true to enable dark mode for Bambu Studio. (optional)
+            en_us: Set this to true to enable dark mode for Bambu Studio. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

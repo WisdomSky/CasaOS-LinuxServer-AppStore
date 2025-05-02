@@ -25,7 +25,7 @@ services:
             en_us: Set whether to update plex or not - see Application Setup section.
         - container: PLEX_CLAIM
           description:
-            en_us: Optionally you can obtain a claim token from https://plex.tv/claim and input here. Keep in mind that the claim tokens expire within 4 minutes. (optional)
+            en_us: Optionally you can obtain a claim token from https://plex.tv/claim and input here. Keep in mind that the claim tokens expire within 4 minutes. [OPTIONAL]
     ports:
       - target: 80
         published: 80

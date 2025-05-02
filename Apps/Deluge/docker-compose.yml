@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: DELUGE_LOGLEVEL
           description:
-            en_us: set the loglevel output when running Deluge, default is info for deluged and warning for delgued-web (optional)
+            en_us: set the loglevel output when running Deluge, default is info for deluged and warning for delgued-web [OPTIONAL]
     ports:
       - target: 8112
         published: 8112

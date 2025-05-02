@@ -22,10 +22,10 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: BASE_URL
           description:
-            en_us: Specify the full URL (including protocol) when running behind a reverse proxy (optional)
+            en_us: Specify the full URL (including protocol) when running behind a reverse proxy [OPTIONAL]
         - container: PLAYWRIGHT_DRIVER_URL
           description:
-            en_us: Specify the full URL to your chrome driver instance. See the wiki for details. (optional)
+            en_us: Specify the full URL to your chrome driver instance. See the wiki for details. [OPTIONAL]
     ports:
       - target: 5000
         published: 5000

@@ -25,19 +25,19 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: KOMETA_CONFIG
           description:
-            en_us: Specify a custom config file to use. (optional)
+            en_us: Specify a custom config file to use. [OPTIONAL]
         - container: KOMETA_TIME
           description:
-            en_us: 'Comma-separated list of times to update each day. Format: HH:MM. (optional)'
+            en_us: 'Comma-separated list of times to update each day. Format: HH:MM. [OPTIONAL]'
         - container: KOMETA_RUN
           description:
-            en_us: Set to True to run without the scheduler. (optional)
+            en_us: Set to True to run without the scheduler. [OPTIONAL]
         - container: KOMETA_TEST
           description:
-            en_us: 'Set to True to run in debug mode with only collections that have test: true. (optional)'
+            en_us: 'Set to True to run in debug mode with only collections that have test: true. [OPTIONAL]'
         - container: KOMETA_NO_MISSING
           description:
-            en_us: Set to True to run without any of the missing movie/show functions. (optional)
+            en_us: Set to True to run without any of the missing movie/show functions. [OPTIONAL]
     ports:
       - target: 80
         published: 80

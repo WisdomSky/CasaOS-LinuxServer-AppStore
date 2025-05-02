@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: CONFIGFILE
           description:
-            en_us: Set a custom config file. (optional)
+            en_us: Set a custom config file. [OPTIONAL]
     ports:
       - target: 8080
         published: 8080

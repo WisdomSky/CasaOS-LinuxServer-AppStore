@@ -19,9 +19,12 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: TZ
+          description:
+            en_us: Specify a timezone to use EG Europe/London.
         - container: FEED_LIMIT
           description:
-            en_us: Limit number of RSS entries published at each execution. (optional)
+            en_us: Limit number of RSS entries published at each execution. [OPTIONAL]
     volumes:
       - type: bind
         source: /DATA/AppData/feed2toot/config

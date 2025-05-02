@@ -32,28 +32,28 @@ services:
             en_us: Set the password for the results database.
         - container: CUSTOM_RESULTS
           description:
-            en_us: (optional) set to true to enable custom results page in /config/www/results/index.php. (optional)
+            en_us: (optional) set to true to enable custom results page in /config/www/results/index.php. [OPTIONAL]
         - container: DB_TYPE
           description:
-            en_us: Defaults to sqlite, can also be set to mysql or postgresql. (optional)
+            en_us: Defaults to sqlite, can also be set to mysql or postgresql. [OPTIONAL]
         - container: DB_NAME
           description:
-            en_us: Database name. Required for mysql and pgsql. (optional)
+            en_us: Database name. Required for mysql and pgsql. [OPTIONAL]
         - container: DB_HOSTNAME
           description:
-            en_us: Database address. Required for mysql and pgsql. (optional)
+            en_us: Database address. Required for mysql and pgsql. [OPTIONAL]
         - container: DB_USERNAME
           description:
-            en_us: Database username. Required for mysql and pgsql. (optional)
+            en_us: Database username. Required for mysql and pgsql. [OPTIONAL]
         - container: DB_PASSWORD
           description:
-            en_us: Database password. Required for mysql and pgsql. (optional)
+            en_us: Database password. Required for mysql and pgsql. [OPTIONAL]
         - container: DB_PORT
           description:
-            en_us: Database port. Required for mysql. (optional)
+            en_us: Database port. Required for mysql. [OPTIONAL]
         - container: IPINFO_APIKEY
           description:
-            en_us: Access token from ipinfo.io. Required for detailed IP information. (optional)
+            en_us: Access token from ipinfo.io. Required for detailed IP information. [OPTIONAL]
     ports:
       - target: 80
         published: 80

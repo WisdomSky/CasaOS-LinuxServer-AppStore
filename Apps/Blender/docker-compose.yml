@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: SUBFOLDER
           description:
-            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ (optional)
+            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

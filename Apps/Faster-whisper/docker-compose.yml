@@ -26,10 +26,10 @@ services:
             en_us: Whisper model that will be used for transcription. From here, all with -int8 compressed variants
         - container: WHISPER_BEAM
           description:
-            en_us: Number of candidates to consider simultaneously during transcription. (optional)
+            en_us: Number of candidates to consider simultaneously during transcription. [OPTIONAL]
         - container: WHISPER_LANG
           description:
-            en_us: Language that you will speak to the add-on. (optional)
+            en_us: Language that you will speak to the add-on. [OPTIONAL]
     ports:
       - target: 10300
         published: 10300

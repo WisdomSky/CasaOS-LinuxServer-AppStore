@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: BASE_URL
           description:
-            en_us: Subfolder can optionally be defined as an env variable for reverse proxies. Keep in mind that once this value is defined, the gui setting for base url no longer works. To use the gui setting, remove this env variable. (optional)
+            en_us: Subfolder can optionally be defined as an env variable for reverse proxies. Keep in mind that once this value is defined, the gui setting for base url no longer works. To use the gui setting, remove this env variable. [OPTIONAL]
     ports:
       - target: 3579
         published: 3579

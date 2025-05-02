@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: PASSWORD
           description:
-            en_us: Optionally set a password for the gui. (optional)
+            en_us: Optionally set a password for the gui. [OPTIONAL]
     ports:
       - target: 8080
         published: 8080

@@ -26,10 +26,10 @@ services:
             en_us: Encryption key for settings database. Minimum 8 characters, alphanumeric.
         - container: CLI_ARGS
           description:
-            en_us: Optionally specify any CLI variables you want to launch the app with (optional)
+            en_us: Optionally specify any CLI variables you want to launch the app with [OPTIONAL]
         - container: DUPLICATI__WEBSERVICE_PASSWORD
           description:
-            en_us: Password for the webui. If left unset will default to changeme and can be changed from the webui settings. (optional)
+            en_us: Password for the webui. If left unset will default to changeme and can be changed from the webui settings. [OPTIONAL]
     ports:
       - target: 8200
         published: 8200

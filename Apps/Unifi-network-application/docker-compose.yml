@@ -47,13 +47,13 @@ services:
             en_us: Mongodb authSource. For Atlas set to admin. Only evaluated on first run.
         - container: MEM_LIMIT
           description:
-            en_us: Optionally change the Java memory limit (in Megabytes). Set to default to reset to default (optional)
+            en_us: Optionally change the Java memory limit (in Megabytes). Set to default to reset to default [OPTIONAL]
         - container: MEM_STARTUP
           description:
-            en_us: Optionally change the Java initial/minimum memory (in Megabytes). Set to default to reset to default (optional)
+            en_us: Optionally change the Java initial/minimum memory (in Megabytes). Set to default to reset to default [OPTIONAL]
         - container: MONGO_TLS
           description:
-            en_us: Mongodb enable TLS. Only evaluated on first run. (optional)
+            en_us: Mongodb enable TLS. Only evaluated on first run. [OPTIONAL]
     ports:
       - target: 8443
         published: 8443

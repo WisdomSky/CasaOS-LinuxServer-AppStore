@@ -27,11 +27,11 @@ services:
         source: /DATA/AppData/sabnzbd/config
         target: /config
       - type: bind
-        source: /DATA/AppData/sabnzbd/downloads
-        target: /downloads
-      - type: bind
         source: /DATA/AppData/sabnzbd/incomplete-downloads
         target: /incomplete-downloads
+      - type: bind
+        source: /DATA/AppData/sabnzbd/downloads
+        target: /downloads
 x-casaos:
   architectures:
     - amd64

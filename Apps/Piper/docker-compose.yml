@@ -29,19 +29,19 @@ services:
             en_us: The Piper voice to use, in the format --
         - container: PIPER_LENGTH
           description:
-            en_us: Voice speaking rate, 1.0 is default with  1.0 being slower. (optional)
+            en_us: Voice speaking rate, 1.0 is default with  1.0 being slower. [OPTIONAL]
         - container: PIPER_NOISE
           description:
-            en_us: Controls the variability of the voice by adding noise. Values above 1 will start to degrade audio. (optional)
+            en_us: Controls the variability of the voice by adding noise. Values above 1 will start to degrade audio. [OPTIONAL]
         - container: PIPER_NOISEW
           description:
-            en_us: Controls the variability of speaking cadence. Values above 1 produce extreme stutters and pauses. (optional)
+            en_us: Controls the variability of speaking cadence. Values above 1 produce extreme stutters and pauses. [OPTIONAL]
         - container: PIPER_SPEAKER
           description:
-            en_us: Speaker number to use if the voice supports multiple speakers. (optional)
+            en_us: Speaker number to use if the voice supports multiple speakers. [OPTIONAL]
         - container: PIPER_PROCS
           description:
-            en_us: Number of Piper processes to run simultaneously. (optional)
+            en_us: Number of Piper processes to run simultaneously. [OPTIONAL]
     ports:
       - target: 10200
         published: 10200

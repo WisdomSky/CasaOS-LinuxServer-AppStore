@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: JELLYFIN_PublishedServerUrl
           description:
-            en_us: Set the autodiscovery response domain or IP address, include http(s)://. (optional)
+            en_us: Set the autodiscovery response domain or IP address, include http(s)://. [OPTIONAL]
     ports:
       - target: 8096
         published: 8096

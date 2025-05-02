@@ -1,7 +1,7 @@
 name: linuxserver-nzbget
 services:
   app:
-    image: linuxserver/nzbget:24.8.20250425
+    image: linuxserver/nzbget:24.8.20250502
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -22,10 +22,10 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: NZBGET_USER
           description:
-            en_us: Specify the user for web authentication. (optional)
+            en_us: Specify the user for web authentication. [OPTIONAL]
         - container: NZBGET_PASS
           description:
-            en_us: Specify the password for web authentication. (optional)
+            en_us: Specify the password for web authentication. [OPTIONAL]
     ports:
       - target: 6789
         published: 6789

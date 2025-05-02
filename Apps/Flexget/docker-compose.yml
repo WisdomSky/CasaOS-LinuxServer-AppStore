@@ -33,7 +33,7 @@ services:
             en_us: Set the FlexGet config file location.
         - container: FG_WEBUI_PASSWORD
           description:
-            en_us: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters. (optional)
+            en_us: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters. [OPTIONAL]
     ports:
       - target: 5050
         published: 5050

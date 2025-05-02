@@ -22,10 +22,10 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: CONTEXT_PATH
           description:
-            en_us: For setting url-base in reverse proxy setups. (optional)
+            en_us: For setting url-base in reverse proxy setups. [OPTIONAL]
         - container: JAVA_OPTS
           description:
-            en_us: For passing additional java options. (optional)
+            en_us: For passing additional java options. [OPTIONAL]
     ports:
       - target: 4040
         published: 4040

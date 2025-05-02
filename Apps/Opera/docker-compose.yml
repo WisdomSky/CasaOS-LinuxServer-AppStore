@@ -19,9 +19,12 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: TZ
+          description:
+            en_us: Specify a timezone to use EG Europe/London.
         - container: OPERA_CLI
           description:
-            en_us: Specify one or multiple Chromium CLI flags, this string will be passed to the application in full. (optional)
+            en_us: Specify one or multiple Chromium CLI flags, this string will be passed to the application in full. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

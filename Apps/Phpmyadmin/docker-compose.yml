@@ -25,10 +25,10 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: PMA_ARBITRARY
           description:
-            en_us: Set to 1 to allow you to connect to any server. Setting to 0 will only allow you to connect to specified hosts (See Application Setup) (optional)
+            en_us: Set to 1 to allow you to connect to any server. Setting to 0 will only allow you to connect to specified hosts (See Application Setup) [OPTIONAL]
         - container: PMA_ABSOLUTE_URI
           description:
-            en_us: Set the URL you will use to access the web frontend (optional)
+            en_us: Set the URL you will use to access the web frontend [OPTIONAL]
     ports:
       - target: 8081
         published: 80

@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: LIBREWOLF_CLI
           description:
-            en_us: Specify one or multiple LibreWolf CLI flags, this string will be passed to the application in full. (optional)
+            en_us: Specify one or multiple LibreWolf CLI flags, this string will be passed to the application in full. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000

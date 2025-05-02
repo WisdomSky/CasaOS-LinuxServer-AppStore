@@ -1,7 +1,7 @@
 name: linuxserver-jackett
 services:
   app:
-    image: linuxserver/jackett:0.22.1836
+    image: linuxserver/jackett:0.22.1837
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -22,10 +22,10 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: AUTO_UPDATE
           description:
-            en_us: Allow Jackett to update inside of the container. (optional)
+            en_us: Allow Jackett to update inside of the container. [OPTIONAL]
         - container: RUN_OPTS
           description:
-            en_us: Optionally specify additional arguments to be passed. (optional)
+            en_us: Optionally specify additional arguments to be passed. [OPTIONAL]
     ports:
       - target: 9117
         published: 9117

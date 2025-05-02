@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: LOG_TO_STDOUT
           description:
-            en_us: If set to true container will log to stdout, otherwise will log to /config/log/. (optional)
+            en_us: If set to true container will log to stdout, otherwise will log to /config/log/. [OPTIONAL]
     ports:
       - target: 514
         published: 5514

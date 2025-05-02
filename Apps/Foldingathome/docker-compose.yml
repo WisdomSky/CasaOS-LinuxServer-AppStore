@@ -29,7 +29,7 @@ services:
             en_us: Assign a friendly name to this instance (no spaces). Required on first start.
         - container: CLI_ARGS
           description:
-            en_us: Optionally pass additional cli arguments to fah-client on container start. (optional)
+            en_us: Optionally pass additional cli arguments to fah-client on container start. [OPTIONAL]
     ports:
       - target: 80
         published: 80

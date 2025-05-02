@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-37322235
+    image: linuxserver/lazylibrarian:version-b29c9909
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -21,7 +21,7 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: DOCKER_MODS
           description:
-            en_us: Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below) (optional)
+            en_us: Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below) [OPTIONAL]
     ports:
       - target: 5299
         published: 5299

@@ -28,28 +28,28 @@ services:
             en_us: specify a timezone to use, see this list.
         - container: SERVERURL
           description:
-            en_us: External IP or domain name for docker host. Used in server mode. If set to auto, the container will try to determine and set the external IP automatically (optional)
+            en_us: External IP or domain name for docker host. Used in server mode. If set to auto, the container will try to determine and set the external IP automatically [OPTIONAL]
         - container: SERVERPORT
           description:
-            en_us: External port for docker host. Used in server mode. (optional)
+            en_us: External port for docker host. Used in server mode. [OPTIONAL]
         - container: PEERS
           description:
-            en_us: 'Number of peers to create confs for. Required for server mode. Can also be a list of names: myPC,myPhone,myTablet (alphanumeric only) (optional)'
+            en_us: 'Number of peers to create confs for. Required for server mode. Can also be a list of names: myPC,myPhone,myTablet (alphanumeric only) [OPTIONAL]'
         - container: PEERDNS
           description:
-            en_us: DNS server set in peer/client configs (can be set as 8.8.8.8). Used in server mode. Defaults to auto, which uses wireguard docker host's DNS via included CoreDNS forward. (optional)
+            en_us: DNS server set in peer/client configs (can be set as 8.8.8.8). Used in server mode. Defaults to auto, which uses wireguard docker host's DNS via included CoreDNS forward. [OPTIONAL]
         - container: INTERNAL_SUBNET
           description:
-            en_us: Internal subnet for the wireguard and server and peers (only change if it clashes). Used in server mode. (optional)
+            en_us: Internal subnet for the wireguard and server and peers (only change if it clashes). Used in server mode. [OPTIONAL]
         - container: ALLOWEDIPS
           description:
-            en_us: 'The IPs/Ranges that the peers will be able to reach using the VPN connection. If not specified the default value is: ''0.0.0.0/0, ::0/0'' This will cause ALL traffic to route through the VPN, if you want split tunneling, set this to only the IPs you would like to use the tunnel AND the ip of the server''s WG ip, such as 10.13.13.1. (optional)'
+            en_us: 'The IPs/Ranges that the peers will be able to reach using the VPN connection. If not specified the default value is: ''0.0.0.0/0, ::0/0'' This will cause ALL traffic to route through the VPN, if you want split tunneling, set this to only the IPs you would like to use the tunnel AND the ip of the server''s WG ip, such as 10.13.13.1. [OPTIONAL]'
         - container: PERSISTENTKEEPALIVE_PEERS
           description:
-            en_us: Set to all or a list of comma separated peers (ie. 1,4,laptop) for the wireguard server to send keepalive packets to listed peers every 25 seconds. Useful if server is accessed via domain name and has dynamic IP. Used only in server mode. (optional)
+            en_us: Set to all or a list of comma separated peers (ie. 1,4,laptop) for the wireguard server to send keepalive packets to listed peers every 25 seconds. Useful if server is accessed via domain name and has dynamic IP. Used only in server mode. [OPTIONAL]
         - container: LOG_CONFS
           description:
-            en_us: Generated QR codes will be displayed in the docker log. Set to false to skip log output. (optional)
+            en_us: Generated QR codes will be displayed in the docker log. Set to false to skip log output. [OPTIONAL]
     ports:
       - target: 51820
         published: 51820

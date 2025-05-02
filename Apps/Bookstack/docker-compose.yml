@@ -49,7 +49,7 @@ services:
             en_us: Database name
         - container: QUEUE_CONNECTION
           description:
-            en_us: Set to database to enable async actions like sending email or triggering webhooks. See documentation. (optional)
+            en_us: Set to database to enable async actions like sending email or triggering webhooks. See documentation. [OPTIONAL]
     ports:
       - target: 6875
         published: 80
