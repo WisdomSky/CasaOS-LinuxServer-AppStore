@@ -1,7 +1,7 @@
 name: linuxserver-freshrss
 services:
   app:
-    image: linuxserver/freshrss:1.26.1
+    image: linuxserver/freshrss:1.26.2
     restart: unless-stopped
     environment:
       PUID: $PUID
