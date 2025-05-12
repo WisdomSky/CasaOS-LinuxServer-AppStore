@@ -1,7 +1,7 @@
 name: linuxserver-bazarr
 services:
   app:
-    image: linuxserver/bazarr:1.5.1
+    image: linuxserver/bazarr:1.5.2
     restart: unless-stopped
     environment:
       PUID: $PUID
