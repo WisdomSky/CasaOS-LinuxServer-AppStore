@@ -1,7 +1,7 @@
 name: linuxserver-emby
 services:
   app:
-    image: linuxserver/emby:4.8.11
+    image: linuxserver/emby:4.9.0-beta
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -40,8 +40,8 @@ services:
         target: /opt/vc/lib
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
