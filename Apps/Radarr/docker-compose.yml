@@ -1,7 +1,7 @@
 name: linuxserver-radarr
 services:
   app:
-    image: linuxserver/radarr:5.22.4
+    image: linuxserver/radarr:5.23.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,8 +34,8 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Radarr - A fork of Sonarr to work with movies à la Couchpotato.
