@@ -18,9 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: TZ
-          description:
-            en_us: Specify a timezone to use EG Europe/London.
     ports:
       - target: 3000
         published: 3000
@@ -34,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.

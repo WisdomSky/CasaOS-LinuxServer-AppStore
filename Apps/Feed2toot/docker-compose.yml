@@ -1,7 +1,7 @@
 name: linuxserver-feed2toot
 services:
   app:
-    image: linuxserver/feed2toot:0.17.20250517
+    image: linuxserver/feed2toot:0.17.20250524
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,9 +19,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: TZ
-          description:
-            en_us: Specify a timezone to use EG Europe/London.
         - container: FEED_LIMIT
           description:
             en_us: Limit number of RSS entries published at each execution. [OPTIONAL]

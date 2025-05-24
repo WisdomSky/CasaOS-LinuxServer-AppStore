@@ -20,9 +20,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: TZ
-          description:
-            en_us: Specify a timezone to use EG Europe/London
         - container: SUBFOLDER
           description:
             en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ [OPTIONAL]

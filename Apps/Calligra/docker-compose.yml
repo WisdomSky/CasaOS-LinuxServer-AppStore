@@ -18,9 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: TZ
-          description:
-            en_us: Specify a timezone to use EG Europe/London.
     ports:
       - target: 3000
         published: 3000
