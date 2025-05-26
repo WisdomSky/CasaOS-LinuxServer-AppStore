@@ -1,7 +1,7 @@
 name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/modmanager:version-31170b5a
+    image: linuxserver/modmanager:version-19034296
     restart: unless-stopped
     environment:
       PUID: $PUID
