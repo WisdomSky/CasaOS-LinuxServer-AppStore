@@ -1,7 +1,7 @@
 name: linuxserver-code-server
 services:
   app:
-    image: linuxserver/code-server:4.100.2
+    image: linuxserver/code-server:4.100.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -13,6 +13,7 @@ services:
       SUDO_PASSWORD_HASH: ''
       PROXY_DOMAIN: ''
       DEFAULT_WORKSPACE: ''
+      PWA_APPNAME: ''
     x-casaos:
       envs:
         - container: PUID
@@ -42,6 +43,9 @@ services:
         - container: DEFAULT_WORKSPACE
           description:
             en_us: If this optional variable is set, code-server will open this directory by default [OPTIONAL]
+        - container: PWA_APPNAME
+          description:
+            en_us: If this optional variable is set, the PWA app will the specified name. [OPTIONAL]
     ports:
       - target: 8443
         published: 8443
