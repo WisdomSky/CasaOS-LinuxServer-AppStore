@@ -8,6 +8,7 @@ services:
       PGID: $PGID
       TZ: $TZ
       DATABASE_URL: ''
+      TRUSTED_PROXIES: ''
     x-casaos:
       envs:
         - container: PUID
@@ -22,6 +23,9 @@ services:
         - container: DATABASE_URL
           description:
             en_us: Configure your database connection, see Application Setup instructions.
+        - container: TRUSTED_PROXIES
+          description:
+            en_us: If behind a reverse proxy set this to its IP or network CIDR so that Kimai trusts its headers. [OPTIONAL]
     ports:
       - target: 80
         published: 80
