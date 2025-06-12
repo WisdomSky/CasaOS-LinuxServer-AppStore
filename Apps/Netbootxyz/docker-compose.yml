@@ -1,7 +1,7 @@
 name: linuxserver-netbootxyz
 services:
   app:
-    image: linuxserver/netbootxyz:0.7.5
+    image: linuxserver/netbootxyz:0.7.6
     restart: unless-stopped
     environment:
       PUID: $PUID
