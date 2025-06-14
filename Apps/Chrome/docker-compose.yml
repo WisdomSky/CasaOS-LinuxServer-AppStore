@@ -1,13 +1,13 @@
-name: linuxserver-ardour
+name: linuxserver-chrome
 services:
   app:
-    image: linuxserver/ardour:version-2025-06-13
+    image: linuxserver/chrome:137.0.7151
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      SUBFOLDER: ''
+      CHROME_CLI: ''
     x-casaos:
       envs:
         - container: PUID
@@ -19,9 +19,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: SUBFOLDER
+        - container: CHROME_CLI
           description:
-            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ [OPTIONAL]
+            en_us: Specify one or multiple Chrome CLI flags, this string will be passed to the application in full. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000
@@ -31,21 +31,20 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ardour/config
+        source: /DATA/AppData/chrome/config
         target: /config
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
-    en_us: Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.
+    en_us: Chrome is the official web browser from Google, built to be fast, secure, and customizable.
   tagline:
-    en_us: An open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.
+    en_us: The official web browser from Google, built to be fast, secure, and customizable.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ardour-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ardour-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
   title:
-    en_us: Ardour
+    en_us: Chrome
   category: LinuxServer.io
