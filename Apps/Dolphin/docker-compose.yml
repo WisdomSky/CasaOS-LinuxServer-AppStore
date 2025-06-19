@@ -1,13 +1,12 @@
-name: linuxserver-chromium
+name: linuxserver-dolphin
 services:
   app:
-    image: linuxserver/chromium:version-570c83e1
+    image: linuxserver/dolphin:version-5108779e
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      CHROME_CLI: ''
     x-casaos:
       envs:
         - container: PUID
@@ -19,9 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: CHROME_CLI
-          description:
-            en_us: Specify one or multiple Chromium CLI flags, this string will be passed to the application in full. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000
@@ -31,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/chromium/config
+        source: /DATA/AppData/dolphin/config
         target: /config
 x-casaos:
   architectures:
@@ -39,13 +35,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
+    en_us: Dolphin Emulator lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.
   tagline:
-    en_us: An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
+    en_us: Lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chromium-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chromium-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dolphin-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dolphin-logo.png
   title:
-    en_us: Chromium
+    en_us: Dolphin
   category: LinuxServer.io
