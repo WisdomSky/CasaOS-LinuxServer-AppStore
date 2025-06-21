@@ -1,12 +1,14 @@
 name: linuxserver-nginx
 services:
   app:
-    image: linuxserver/nginx:1.26.3
+    image: linuxserver/nginx:1.28.0
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      NGINX_AUTORELOAD: ''
+      NGINX_AUTORELOAD_WATCHLIST: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +20,12 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: NGINX_AUTORELOAD
+          description:
+            en_us: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod. [OPTIONAL]
+        - container: NGINX_AUTORELOAD_WATCHLIST
+          description:
+            en_us: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx [OPTIONAL]
     ports:
       - target: 80
         published: 80
