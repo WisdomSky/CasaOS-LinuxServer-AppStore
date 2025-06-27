@@ -1,7 +1,7 @@
-name: linuxserver-brave
+name: linuxserver-pcsx2
 services:
   app:
-    image: linuxserver/brave:1.80.113
+    image: linuxserver/pcsx2:2.3.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,21 +27,20 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/brave/config
+        source: /DATA/AppData/pcsx2/config
         target: /config
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
-    en_us: The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
+    en_us: PCSX2 is an open source PS2 Emulator.
   tagline:
-    en_us: A fast, private and secure web browser for PC, Mac and mobile.
+    en_us: An open source PS2 Emulator.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pcsx2-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pcsx2-logo.png
   title:
-    en_us: Brave
+    en_us: Pcsx2
   category: LinuxServer.io

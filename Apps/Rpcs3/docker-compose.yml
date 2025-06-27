@@ -1,7 +1,7 @@
-name: linuxserver-brave
+name: linuxserver-rpcs3
 services:
   app:
-    image: linuxserver/brave:1.80.113
+    image: linuxserver/rpcs3:version-build-aa50b0fbb99c04918645a78acd1fcab8a1cf31b2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/brave/config
+        source: /DATA/AppData/rpcs3/config
         target: /config
 x-casaos:
   architectures:
@@ -35,13 +35,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
+    en_us: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
   tagline:
-    en_us: A fast, private and secure web browser for PC, Mac and mobile.
+    en_us: A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
   title:
-    en_us: Brave
+    en_us: Rpcs3
   category: LinuxServer.io
