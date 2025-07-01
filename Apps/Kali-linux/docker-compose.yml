@@ -35,7 +35,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/kali-linux/config
+        source: /srv/lsio/kali-linux/config
         target: /config
       - type: bind
         source: /var/run/docker.sock

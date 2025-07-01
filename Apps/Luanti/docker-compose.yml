@@ -28,7 +28,7 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /DATA/AppData/luanti/config/.minetest
+        source: /srv/lsio/luanti/config/.minetest
         target: /config/.minetest
 x-casaos:
   architectures:

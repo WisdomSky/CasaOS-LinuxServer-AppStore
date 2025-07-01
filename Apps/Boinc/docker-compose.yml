@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/boinc/config
+        source: /srv/lsio/boinc/config
         target: /config
 x-casaos:
   architectures:

@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/rdesktop/config
+        source: /srv/lsio/rdesktop/config
         target: /config
       - type: bind
         source: /var/run/docker.sock
         target: /var/run/docker.sock
       - type: bind
-        source: /DATA/AppData/rdesktop/config
+        source: /srv/lsio/rdesktop/config
         target: /config
 x-casaos:
   architectures:

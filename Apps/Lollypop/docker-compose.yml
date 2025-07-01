@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/lollypop/config
+        source: /srv/lsio/lollypop/config
         target: /config
 x-casaos:
   architectures:

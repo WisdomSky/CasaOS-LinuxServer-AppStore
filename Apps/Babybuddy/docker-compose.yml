@@ -28,7 +28,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/babybuddy/config
+        source: /srv/lsio/babybuddy/config
         target: /config
 x-casaos:
   architectures:

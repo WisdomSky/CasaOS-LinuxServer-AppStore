@@ -30,7 +30,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/wireshark/config
+        source: /srv/lsio/wireshark/config
         target: /config
 x-casaos:
   architectures:

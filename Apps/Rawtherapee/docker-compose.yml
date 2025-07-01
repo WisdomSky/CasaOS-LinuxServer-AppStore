@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/rawtherapee/config
+        source: /srv/lsio/rawtherapee/config
         target: /config
 x-casaos:
   architectures:

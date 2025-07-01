@@ -96,7 +96,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/doplarr/config
+        source: /srv/lsio/doplarr/config
         target: /config
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/filezilla/config
+        source: /srv/lsio/filezilla/config
         target: /config
 x-casaos:
   architectures:

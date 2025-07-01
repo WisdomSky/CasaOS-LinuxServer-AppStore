@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-cff66bae
+    image: linuxserver/lazylibrarian:version-40611cfd
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,13 +28,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/lazylibrarian/config
+        source: /srv/lsio/lazylibrarian/config
         target: /config
       - type: bind
-        source: /DATA/AppData/lazylibrarian/downloads
+        source: /srv/lsio/lazylibrarian/downloads
         target: /downloads
       - type: bind
-        source: /DATA/AppData/lazylibrarian/books
+        source: /srv/lsio/lazylibrarian/books
         target: /books
 x-casaos:
   architectures:

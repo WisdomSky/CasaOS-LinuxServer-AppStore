@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/lidarr/config
+        source: /srv/lsio/lidarr/config
         target: /config
       - type: bind
-        source: /DATA/AppData/lidarr/music
+        source: /srv/lsio/lidarr/music
         target: /music
       - type: bind
-        source: /DATA/AppData/lidarr/downloads
+        source: /srv/lsio/lidarr/downloads
         target: /downloads
 x-casaos:
   architectures:

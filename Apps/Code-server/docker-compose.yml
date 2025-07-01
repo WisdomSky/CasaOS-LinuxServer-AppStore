@@ -52,7 +52,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/code-server/config
+        source: /srv/lsio/code-server/config
         target: /config
 x-casaos:
   architectures:

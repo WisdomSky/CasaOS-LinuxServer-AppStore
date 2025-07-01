@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/mylar3/config
+        source: /srv/lsio/mylar3/config
         target: /config
       - type: bind
-        source: /DATA/AppData/mylar3/comics
+        source: /srv/lsio/mylar3/comics
         target: /comics
       - type: bind
-        source: /DATA/AppData/mylar3/downloads
+        source: /srv/lsio/mylar3/downloads
         target: /downloads
 x-casaos:
   architectures:

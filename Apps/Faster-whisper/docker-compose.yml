@@ -36,7 +36,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/faster-whisper/config
+        source: /srv/lsio/faster-whisper/config
         target: /config
 x-casaos:
   architectures:

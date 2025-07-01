@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/duckstation/config
+        source: /srv/lsio/duckstation/config
         target: /config
 x-casaos:
   architectures:

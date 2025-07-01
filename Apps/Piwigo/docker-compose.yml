@@ -24,10 +24,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/piwigo/config
+        source: /srv/lsio/piwigo/config
         target: /config
       - type: bind
-        source: /DATA/AppData/piwigo/gallery
+        source: /srv/lsio/piwigo/gallery
         target: /gallery
 x-casaos:
   architectures:

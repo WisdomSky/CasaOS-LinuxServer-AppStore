@@ -39,7 +39,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ldap-auth/config
+        source: /srv/lsio/ldap-auth/config
         target: /config
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/oscam/config
+        source: /srv/lsio/oscam/config
         target: /config
 x-casaos:
   architectures:

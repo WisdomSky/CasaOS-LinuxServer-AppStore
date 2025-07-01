@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/blender/config
+        source: /srv/lsio/blender/config
         target: /config
 x-casaos:
   architectures:

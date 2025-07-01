@@ -40,7 +40,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/pairdrop/config
+        source: /srv/lsio/pairdrop/config
         target: /config
 x-casaos:
   architectures:

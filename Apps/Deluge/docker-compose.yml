@@ -37,10 +37,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/deluge/config
+        source: /srv/lsio/deluge/config
         target: /config
       - type: bind
-        source: /DATA/AppData/deluge/downloads
+        source: /srv/lsio/deluge/downloads
         target: /downloads
 x-casaos:
   architectures:

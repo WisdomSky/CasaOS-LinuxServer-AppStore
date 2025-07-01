@@ -31,10 +31,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/kasm/opt
+        source: /srv/lsio/kasm/opt
         target: /opt
       - type: bind
-        source: /DATA/AppData/kasm/profiles
+        source: /srv/lsio/kasm/profiles
         target: /profiles
       - type: bind
         source: /dev/input

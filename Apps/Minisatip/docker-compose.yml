@@ -34,7 +34,7 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /DATA/AppData/minisatip/config
+        source: /srv/lsio/minisatip/config
         target: /config
 x-casaos:
   architectures:

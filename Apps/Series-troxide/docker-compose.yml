@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/series-troxide/config
+        source: /srv/lsio/series-troxide/config
         target: /config
 x-casaos:
   architectures:

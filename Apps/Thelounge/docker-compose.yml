@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/thelounge/config
+        source: /srv/lsio/thelounge/config
         target: /config
 x-casaos:
   architectures:

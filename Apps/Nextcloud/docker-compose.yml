@@ -27,10 +27,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/nextcloud/config
+        source: /srv/lsio/nextcloud/config
         target: /config
       - type: bind
-        source: /DATA/AppData/nextcloud/data
+        source: /srv/lsio/nextcloud/data
         target: /data
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/dokuwiki/config
+        source: /srv/lsio/dokuwiki/config
         target: /config
 x-casaos:
   architectures:

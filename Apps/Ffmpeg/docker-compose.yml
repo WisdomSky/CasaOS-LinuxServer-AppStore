@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ffmpeg/config
+        source: /srv/lsio/ffmpeg/config
         target: /config
 x-casaos:
   architectures:

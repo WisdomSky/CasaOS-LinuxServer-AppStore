@@ -28,7 +28,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ombi/config
+        source: /srv/lsio/ombi/config
         target: /config
 x-casaos:
   architectures:

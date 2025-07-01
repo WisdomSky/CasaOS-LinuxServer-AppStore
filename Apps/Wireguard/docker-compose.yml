@@ -56,7 +56,7 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /DATA/AppData/wireguard/config
+        source: /srv/lsio/wireguard/config
         target: /config
       - type: bind
         source: /lib/modules

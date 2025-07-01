@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/socket-proxy/config
+        source: /srv/lsio/socket-proxy/config
         target: /config
 x-casaos:
   architectures:

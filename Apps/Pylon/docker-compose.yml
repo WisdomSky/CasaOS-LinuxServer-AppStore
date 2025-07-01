@@ -36,10 +36,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/pylon/config
+        source: /srv/lsio/pylon/config
         target: /config
       - type: bind
-        source: /DATA/AppData/pylon/code
+        source: /srv/lsio/pylon/code
         target: /code
 x-casaos:
   architectures:

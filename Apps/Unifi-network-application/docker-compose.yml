@@ -84,7 +84,7 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /DATA/AppData/unifi-network-application/config
+        source: /srv/lsio/unifi-network-application/config
         target: /config
 x-casaos:
   architectures:

@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ungoogled-chromium/config
+        source: /srv/lsio/ungoogled-chromium/config
         target: /config
 x-casaos:
   architectures:

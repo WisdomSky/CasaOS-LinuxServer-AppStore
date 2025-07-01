@@ -24,10 +24,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/davos/config
+        source: /srv/lsio/davos/config
         target: /config
       - type: bind
-        source: /DATA/AppData/davos/download
+        source: /srv/lsio/davos/download
         target: /download
 x-casaos:
   architectures:

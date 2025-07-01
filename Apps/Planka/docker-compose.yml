@@ -56,7 +56,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/planka/config
+        source: /srv/lsio/planka/config
         target: /config
 x-casaos:
   architectures:

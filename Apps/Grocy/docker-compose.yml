@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/grocy/config
+        source: /srv/lsio/grocy/config
         target: /config
 x-casaos:
   architectures:

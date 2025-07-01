@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/homeassistant/config
+        source: /srv/lsio/homeassistant/config
         target: /config
 x-casaos:
   architectures:

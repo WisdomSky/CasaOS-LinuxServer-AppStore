@@ -32,7 +32,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/pydio-cells/config
+        source: /srv/lsio/pydio-cells/config
         target: /config
 x-casaos:
   architectures:

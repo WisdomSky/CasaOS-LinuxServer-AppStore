@@ -28,7 +28,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/pwndrop/config
+        source: /srv/lsio/pwndrop/config
         target: /config
 x-casaos:
   architectures:

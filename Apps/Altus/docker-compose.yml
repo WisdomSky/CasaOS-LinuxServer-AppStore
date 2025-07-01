@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/altus/config
+        source: /srv/lsio/altus/config
         target: /config
 x-casaos:
   architectures:

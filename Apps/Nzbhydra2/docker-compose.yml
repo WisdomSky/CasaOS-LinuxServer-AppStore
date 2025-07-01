@@ -24,10 +24,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/nzbhydra2/config
+        source: /srv/lsio/nzbhydra2/config
         target: /config
       - type: bind
-        source: /DATA/AppData/nzbhydra2/downloads
+        source: /srv/lsio/nzbhydra2/downloads
         target: /downloads
 x-casaos:
   architectures:

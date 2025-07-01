@@ -79,7 +79,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/swag/config
+        source: /srv/lsio/swag/config
         target: /config
 x-casaos:
   architectures:

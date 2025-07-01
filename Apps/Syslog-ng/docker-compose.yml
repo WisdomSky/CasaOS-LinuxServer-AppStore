@@ -34,7 +34,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/syslog-ng/config
+        source: /srv/lsio/syslog-ng/config
         target: /config
       - type: bind
         source: /var/log

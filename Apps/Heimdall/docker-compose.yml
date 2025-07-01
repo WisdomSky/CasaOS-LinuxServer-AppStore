@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/heimdall/config
+        source: /srv/lsio/heimdall/config
         target: /config
 x-casaos:
   architectures:

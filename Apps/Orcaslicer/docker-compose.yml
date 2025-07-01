@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/orcaslicer/config
+        source: /srv/lsio/orcaslicer/config
         target: /config
 x-casaos:
   architectures:

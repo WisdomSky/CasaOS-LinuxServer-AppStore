@@ -1,7 +1,7 @@
 name: linuxserver-jackett
 services:
   app:
-    image: linuxserver/jackett:0.22.2084
+    image: linuxserver/jackett:0.22.2097
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,10 +32,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/jackett/config
+        source: /srv/lsio/jackett/config
         target: /config
       - type: bind
-        source: /DATA/AppData/jackett/downloads
+        source: /srv/lsio/jackett/downloads
         target: /downloads
 x-casaos:
   architectures:

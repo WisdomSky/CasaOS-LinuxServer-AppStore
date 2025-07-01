@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/sickchill/config
+        source: /srv/lsio/sickchill/config
         target: /config
       - type: bind
-        source: /DATA/AppData/sickchill/downloads
+        source: /srv/lsio/sickchill/downloads
         target: /downloads
       - type: bind
-        source: /DATA/AppData/sickchill/tv
+        source: /srv/lsio/sickchill/tv
         target: /tv
 x-casaos:
   architectures:

@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/sickgear/config
+        source: /srv/lsio/sickgear/config
         target: /config
       - type: bind
-        source: /DATA/AppData/sickgear/tv
+        source: /srv/lsio/sickgear/tv
         target: /tv
       - type: bind
-        source: /DATA/AppData/sickgear/downloads
+        source: /srv/lsio/sickgear/downloads
         target: /downloads
 x-casaos:
   architectures:

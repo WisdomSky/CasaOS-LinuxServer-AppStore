@@ -43,7 +43,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/steamos/config
+        source: /srv/lsio/steamos/config
         target: /config
       - type: bind
         source: /dev/input

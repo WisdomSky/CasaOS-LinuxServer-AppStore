@@ -48,7 +48,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/piper/config
+        source: /srv/lsio/piper/config
         target: /config
 x-casaos:
   architectures:

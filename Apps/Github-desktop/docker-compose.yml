@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/github-desktop/config
+        source: /srv/lsio/github-desktop/config
         target: /config
 x-casaos:
   architectures:

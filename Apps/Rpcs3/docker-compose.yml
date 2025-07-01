@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/rpcs3/config
+        source: /srv/lsio/rpcs3/config
         target: /config
 x-casaos:
   architectures:

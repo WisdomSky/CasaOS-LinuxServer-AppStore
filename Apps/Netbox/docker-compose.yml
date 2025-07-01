@@ -104,7 +104,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/netbox/config
+        source: /srv/lsio/netbox/config
         target: /config
 x-casaos:
   architectures:

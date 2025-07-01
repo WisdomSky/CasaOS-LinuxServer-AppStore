@@ -24,7 +24,7 @@ services:
             en_us: Limit number of RSS entries published at each execution. [OPTIONAL]
     volumes:
       - type: bind
-        source: /DATA/AppData/feed2toot/config
+        source: /srv/lsio/feed2toot/config
         target: /config
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/raneto/config
+        source: /srv/lsio/raneto/config
         target: /config
 x-casaos:
   architectures:

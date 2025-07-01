@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/zotero/config
+        source: /srv/lsio/zotero/config
         target: /config
 x-casaos:
   architectures:

@@ -40,10 +40,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/duckdns/config
+        source: /srv/lsio/duckdns/config
         target: /config
       - type: bind
-        source: /DATA/AppData/duckdns/config
+        source: /srv/lsio/duckdns/config
         target: /config
 x-casaos:
   architectures:

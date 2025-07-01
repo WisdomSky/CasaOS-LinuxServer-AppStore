@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/htpcmanager/config
+        source: /srv/lsio/htpcmanager/config
         target: /config
 x-casaos:
   architectures:

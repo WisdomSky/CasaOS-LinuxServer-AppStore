@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/grav/config
+        source: /srv/lsio/grav/config
         target: /config
 x-casaos:
   architectures:

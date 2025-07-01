@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/retroarch/config
+        source: /srv/lsio/retroarch/config
         target: /config
 x-casaos:
   architectures:

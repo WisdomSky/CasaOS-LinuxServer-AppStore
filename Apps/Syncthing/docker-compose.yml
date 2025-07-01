@@ -33,13 +33,13 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /DATA/AppData/syncthing/config
+        source: /srv/lsio/syncthing/config
         target: /config
       - type: bind
-        source: /DATA/AppData/syncthing/data1
+        source: /srv/lsio/syncthing/data1
         target: /data1
       - type: bind
-        source: /DATA/AppData/syncthing/data2
+        source: /srv/lsio/syncthing/data2
         target: /data2
 x-casaos:
   architectures:

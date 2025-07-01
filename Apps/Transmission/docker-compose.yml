@@ -54,13 +54,13 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /DATA/AppData/transmission/config
+        source: /srv/lsio/transmission/config
         target: /config
       - type: bind
-        source: /DATA/AppData/transmission/downloads
+        source: /srv/lsio/transmission/downloads
         target: /downloads
       - type: bind
-        source: /DATA/AppData/transmission/watch
+        source: /srv/lsio/transmission/watch
         target: /watch
 x-casaos:
   architectures:

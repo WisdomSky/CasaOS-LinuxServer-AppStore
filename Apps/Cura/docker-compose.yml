@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/cura/config
+        source: /srv/lsio/cura/config
         target: /config
 x-casaos:
   architectures:

@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/mullvad-browser/config
+        source: /srv/lsio/mullvad-browser/config
         target: /config
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/freshrss/config
+        source: /srv/lsio/freshrss/config
         target: /config
 x-casaos:
   architectures:

@@ -35,7 +35,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/phpmyadmin/config
+        source: /srv/lsio/phpmyadmin/config
         target: /config
 x-casaos:
   architectures:

@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/sabnzbd/config
+        source: /srv/lsio/sabnzbd/config
         target: /config
       - type: bind
-        source: /DATA/AppData/sabnzbd/incomplete-downloads
+        source: /srv/lsio/sabnzbd/incomplete-downloads
         target: /incomplete-downloads
       - type: bind
-        source: /DATA/AppData/sabnzbd/downloads
+        source: /srv/lsio/sabnzbd/downloads
         target: /downloads
 x-casaos:
   architectures:

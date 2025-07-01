@@ -28,10 +28,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/apprise-api/config
+        source: /srv/lsio/apprise-api/config
         target: /config
       - type: bind
-        source: /DATA/AppData/apprise-api/attachments
+        source: /srv/lsio/apprise-api/attachments
         target: /attachments
 x-casaos:
   architectures:

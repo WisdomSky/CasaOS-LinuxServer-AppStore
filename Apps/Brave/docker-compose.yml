@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/brave/config
+        source: /srv/lsio/brave/config
         target: /config
 x-casaos:
   architectures:

@@ -27,10 +27,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/doublecommander/config
+        source: /srv/lsio/doublecommander/config
         target: /config
       - type: bind
-        source: /DATA/AppData/doublecommander/data
+        source: /srv/lsio/doublecommander/data
         target: /data
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/tautulli/config
+        source: /srv/lsio/tautulli/config
         target: /config
 x-casaos:
   architectures:

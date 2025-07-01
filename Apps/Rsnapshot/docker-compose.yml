@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/rsnapshot/config
+        source: /srv/lsio/rsnapshot/config
         target: /config
       - type: bind
-        source: /DATA/AppData/rsnapshot/.snapshots
+        source: /srv/lsio/rsnapshot/.snapshots
         target: /.snapshots
       - type: bind
-        source: /DATA/AppData/rsnapshot/data
+        source: /srv/lsio/rsnapshot/data
         target: /data
 x-casaos:
   architectures:

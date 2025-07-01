@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/wps-office/config
+        source: /srv/lsio/wps-office/config
         target: /config
 x-casaos:
   architectures:

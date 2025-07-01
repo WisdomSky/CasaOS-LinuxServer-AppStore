@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/habridge/config
+        source: /srv/lsio/habridge/config
         target: /config
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/gimp/config
+        source: /srv/lsio/gimp/config
         target: /config
 x-casaos:
   architectures:

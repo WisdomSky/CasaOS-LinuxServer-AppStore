@@ -27,10 +27,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/pyload-ng/config
+        source: /srv/lsio/pyload-ng/config
         target: /config
       - type: bind
-        source: /DATA/AppData/pyload-ng/downloads
+        source: /srv/lsio/pyload-ng/downloads
         target: /downloads
 x-casaos:
   architectures:

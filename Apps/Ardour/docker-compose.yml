@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ardour/config
+        source: /srv/lsio/ardour/config
         target: /config
 x-casaos:
   architectures:

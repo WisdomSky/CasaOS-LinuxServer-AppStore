@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/openshot/config
+        source: /srv/lsio/openshot/config
         target: /config
 x-casaos:
   architectures:

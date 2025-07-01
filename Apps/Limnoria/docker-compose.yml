@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/limnoria/config
+        source: /srv/lsio/limnoria/config
         target: /config
 x-casaos:
   architectures:

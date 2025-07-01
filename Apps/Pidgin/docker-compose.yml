@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/pidgin/config
+        source: /srv/lsio/pidgin/config
         target: /config
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ddclient/config
+        source: /srv/lsio/ddclient/config
         target: /config
 x-casaos:
   architectures:

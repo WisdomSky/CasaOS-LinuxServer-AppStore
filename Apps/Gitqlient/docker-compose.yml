@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/gitqlient/config
+        source: /srv/lsio/gitqlient/config
         target: /config
 x-casaos:
   architectures:

@@ -24,10 +24,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/projectsend/config
+        source: /srv/lsio/projectsend/config
         target: /config
       - type: bind
-        source: /DATA/AppData/projectsend/data
+        source: /srv/lsio/projectsend/data
         target: /data
 x-casaos:
   architectures:

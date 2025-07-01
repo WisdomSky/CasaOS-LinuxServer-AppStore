@@ -37,13 +37,13 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /DATA/AppData/jellyfin/config
+        source: /srv/lsio/jellyfin/config
         target: /config
       - type: bind
-        source: /DATA/AppData/jellyfin/data/tvshows
+        source: /srv/lsio/jellyfin/data/tvshows
         target: /data/tvshows
       - type: bind
-        source: /DATA/AppData/jellyfin/data/movies
+        source: /srv/lsio/jellyfin/data/movies
         target: /data/movies
 x-casaos:
   architectures:

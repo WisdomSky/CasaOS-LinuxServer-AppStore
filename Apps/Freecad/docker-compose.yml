@@ -27,12 +27,12 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/freecad/config
+        source: /srv/lsio/freecad/config
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: FreeCAD is a general-purpose parametric 3D computer-aided design (CAD) modeler and a building information modeling (BIM) software application with finite element method (FEM) support.

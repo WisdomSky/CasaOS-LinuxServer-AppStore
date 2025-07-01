@@ -72,7 +72,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/speedtest-tracker/config
+        source: /srv/lsio/speedtest-tracker/config
         target: /config
 x-casaos:
   architectures:

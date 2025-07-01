@@ -64,7 +64,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/openssh-server/config
+        source: /srv/lsio/openssh-server/config
         target: /config
 x-casaos:
   architectures:

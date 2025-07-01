@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/rustdesk/config
+        source: /srv/lsio/rustdesk/config
         target: /config
 x-casaos:
   architectures:

@@ -1,7 +1,7 @@
 name: linuxserver-flexget
 services:
   app:
-    image: linuxserver/flexget:3.16.10
+    image: linuxserver/flexget:3.16.11
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -40,10 +40,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/flexget/config
+        source: /srv/lsio/flexget/config
         target: /config
       - type: bind
-        source: /DATA/AppData/flexget/data
+        source: /srv/lsio/flexget/data
         target: /data
 x-casaos:
   architectures:

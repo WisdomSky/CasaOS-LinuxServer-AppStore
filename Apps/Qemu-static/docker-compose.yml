@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/qemu-static/config
+        source: /srv/lsio/qemu-static/config
         target: /config
 x-casaos:
   architectures:

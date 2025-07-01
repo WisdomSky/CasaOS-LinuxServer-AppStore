@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/inkscape/config
+        source: /srv/lsio/inkscape/config
         target: /config
 x-casaos:
   architectures:

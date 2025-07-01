@@ -68,7 +68,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/hedgedoc/config
+        source: /srv/lsio/hedgedoc/config
         target: /config
 x-casaos:
   architectures:

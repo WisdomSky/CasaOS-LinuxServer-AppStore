@@ -35,7 +35,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/kimai/config
+        source: /srv/lsio/kimai/config
         target: /config
 x-casaos:
   architectures:

@@ -47,7 +47,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/your_spotify/config
+        source: /srv/lsio/your_spotify/config
         target: /config
 x-casaos:
   architectures:

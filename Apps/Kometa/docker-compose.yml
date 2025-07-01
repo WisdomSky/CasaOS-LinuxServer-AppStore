@@ -44,7 +44,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/kometa/config
+        source: /srv/lsio/kometa/config
         target: /config
 x-casaos:
   architectures:

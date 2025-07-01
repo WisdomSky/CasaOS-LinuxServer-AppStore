@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/libreoffice/config
+        source: /srv/lsio/libreoffice/config
         target: /config
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ngircd/config
+        source: /srv/lsio/ngircd/config
         target: /config
 x-casaos:
   architectures:

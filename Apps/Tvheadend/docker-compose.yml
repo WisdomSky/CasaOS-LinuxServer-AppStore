@@ -31,10 +31,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/tvheadend/config
+        source: /srv/lsio/tvheadend/config
         target: /config
       - type: bind
-        source: /DATA/AppData/tvheadend/recordings
+        source: /srv/lsio/tvheadend/recordings
         target: /recordings
     devices:
       - /dev/dri:/dev/dri

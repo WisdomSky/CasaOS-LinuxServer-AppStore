@@ -175,7 +175,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/mastodon/config
+        source: /srv/lsio/mastodon/config
         target: /config
 x-casaos:
   architectures:

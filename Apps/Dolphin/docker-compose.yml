@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/dolphin/config
+        source: /srv/lsio/dolphin/config
         target: /config
 x-casaos:
   architectures:

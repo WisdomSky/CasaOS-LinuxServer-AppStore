@@ -48,10 +48,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/wikijs/config
+        source: /srv/lsio/wikijs/config
         target: /config
       - type: bind
-        source: /DATA/AppData/wikijs/data
+        source: /srv/lsio/wikijs/data
         target: /data
 x-casaos:
   architectures:

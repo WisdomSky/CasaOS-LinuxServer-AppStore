@@ -39,7 +39,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/foldingathome/config
+        source: /srv/lsio/foldingathome/config
         target: /config
 x-casaos:
   architectures:

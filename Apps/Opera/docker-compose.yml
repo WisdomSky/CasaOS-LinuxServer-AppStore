@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/opera/config
+        source: /srv/lsio/opera/config
         target: /config
 x-casaos:
   architectures:

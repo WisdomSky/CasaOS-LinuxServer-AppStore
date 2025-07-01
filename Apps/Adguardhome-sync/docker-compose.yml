@@ -28,7 +28,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/adguardhome-sync/config
+        source: /srv/lsio/adguardhome-sync/config
         target: /config
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/ferdium/config
+        source: /srv/lsio/ferdium/config
         target: /config
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/overseerr/config
+        source: /srv/lsio/overseerr/config
         target: /config
 x-casaos:
   architectures:

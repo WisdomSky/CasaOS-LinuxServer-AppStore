@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/flycast/config
+        source: /srv/lsio/flycast/config
         target: /config
 x-casaos:
   architectures:

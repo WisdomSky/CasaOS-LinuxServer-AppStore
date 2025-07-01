@@ -27,13 +27,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/emby/config
+        source: /srv/lsio/emby/config
         target: /config
       - type: bind
-        source: /DATA/AppData/emby/data/tvshows
+        source: /srv/lsio/emby/data/tvshows
         target: /data/tvshows
       - type: bind
-        source: /DATA/AppData/emby/data/movies
+        source: /srv/lsio/emby/data/movies
         target: /data/movies
       - type: bind
         source: /opt/vc/lib
