@@ -1,7 +1,7 @@
 name: linuxserver-pcsx2
 services:
   app:
-    image: linuxserver/pcsx2:2.3.0
+    image: linuxserver/pcsx2:2.5.0
     restart: unless-stopped
     environment:
       PUID: $PUID

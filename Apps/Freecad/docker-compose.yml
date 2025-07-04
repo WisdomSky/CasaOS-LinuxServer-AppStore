@@ -1,7 +1,7 @@
 name: linuxserver-freecad
 services:
   app:
-    image: linuxserver/freecad:0.20.2
+    image: linuxserver/freecad:1.0.1
     restart: unless-stopped
     environment:
       PUID: $PUID
