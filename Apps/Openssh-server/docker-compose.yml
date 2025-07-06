@@ -1,7 +1,7 @@
 name: linuxserver-openssh-server
 services:
   app:
-    image: linuxserver/openssh-server:version-9.9_p2-r0
+    image: linuxserver/openssh-server:version-10.0_p1-r7
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -68,8 +68,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Openssh-server is a sandboxed environment that allows ssh access without giving keys to the entire server. Giving ssh access via private key often means giving full access to the server. This container creates a limited and sandboxed environment that others can ssh into. The users only have access to the folders mapped and the processes running inside this container.
