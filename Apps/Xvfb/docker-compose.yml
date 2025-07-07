@@ -1,7 +1,7 @@
-name: linuxserver-qdirstat
+name: linuxserver-xvfb
 services:
   app:
-    image: linuxserver/qdirstat:1.9.20250706
+    image: linuxserver/xvfb:kali-version-9d327c0f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,32 +19,27 @@ services:
           description:
             en_us: specify a timezone to use, see this list.
     ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
-      - target: 3001
-        published: 3001
+      - target: 80
+        published: 80
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/qdirstat/config
+        source: /srv/lsio/xvfb/config
         target: /config
-      - type: bind
-        source: /srv/lsio/qdirstat/data
-        target: /data
 x-casaos:
   architectures:
     - amd64
     - arm64
   main: app
   description:
-    en_us: 'QDirStat Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.'
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/xvfb for details.
   tagline:
-    en_us: 'Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.'
+    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/xvfb for details.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png
+  icon: ''
+  thumbnail: ''
   title:
-    en_us: Qdirstat
+    en_us: Xvfb
   category: LinuxServer.io
+  port_map: '80'
