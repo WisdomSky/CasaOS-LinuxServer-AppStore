@@ -1,7 +1,7 @@
-name: linuxserver-qemu-static
+name: linuxserver-gzdoom
 services:
   app:
-    image: linuxserver/qemu-static:10.0.0
+    image: linuxserver/gzdoom:4.14.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,12 +19,15 @@ services:
           description:
             en_us: specify a timezone to use, see this list.
     ports:
-      - target: 80
-        published: 80
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/qemu-static/config
+        source: /srv/lsio/gzdoom/config
         target: /config
 x-casaos:
   architectures:
@@ -32,14 +35,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/qemu-static for details.
+    en_us: GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/qemu-static for details.
+    en_us: A feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qemu-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qemu-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gzdoom-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gzdoom-logo.png
   title:
-    en_us: Qemu static
+    en_us: Gzdoom
   category: LinuxServer.io
-  port_map: '80'

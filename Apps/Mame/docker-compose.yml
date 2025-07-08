@@ -1,7 +1,7 @@
-name: linuxserver-flycast
+name: linuxserver-mame
 services:
   app:
-    image: linuxserver/flycast:2.5.20250707
+    image: linuxserver/mame:version-0.278dfsg.1-0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,20 +27,24 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/flycast/config
+        source: /srv/lsio/mame/config
         target: /config
+      - type: bind
+        source: /srv/lsio/mame/mame:ro
+        target: /mame:ro
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
-    en_us: Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    en_us: MAME is a free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
   tagline:
-    en_us: A multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    en_us: A free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mame-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mame-logo.png
   title:
-    en_us: Flycast
+    en_us: Mame
   category: LinuxServer.io
