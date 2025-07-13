@@ -1,7 +1,7 @@
 name: linuxserver-darktable
 services:
   app:
-    image: linuxserver/darktable:version-2025-07-11
+    image: linuxserver/darktable:version-2025-07-12
     restart: unless-stopped
     environment:
       PUID: $PUID
