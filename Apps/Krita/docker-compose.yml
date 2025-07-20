@@ -1,7 +1,7 @@
 name: linuxserver-krita
 services:
   app:
-    image: linuxserver/krita:5.2.6
+    image: linuxserver/krita:5.2.11
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,7 +32,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
     en_us: Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.
