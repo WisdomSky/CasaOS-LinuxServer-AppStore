@@ -77,6 +77,9 @@ services:
       - target: 80
         published: 80
         protocol: tcp
+      - target: 443
+        published: 443
+        protocol: udp
     volumes:
       - type: bind
         source: /srv/lsio/swag/config
