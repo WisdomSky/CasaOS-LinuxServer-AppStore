@@ -1,7 +1,7 @@
 name: linuxserver-dogwalk
 services:
   app:
-    image: linuxserver/dogwalk:6c979aec-ls1
+    image: linuxserver/dogwalk:bbb7a166-ls2
     restart: unless-stopped
     environment:
       PUID: $PUID
