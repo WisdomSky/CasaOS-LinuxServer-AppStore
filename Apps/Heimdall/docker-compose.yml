@@ -1,7 +1,7 @@
 name: linuxserver-heimdall
 services:
   app:
-    image: linuxserver/heimdall:2.7.2
+    image: linuxserver/heimdall:2.7.3
     restart: unless-stopped
     environment:
       PUID: $PUID
