@@ -1,7 +1,7 @@
 name: linuxserver-rustdesk
 services:
   app:
-    image: linuxserver/rustdesk:1.4.0
+    image: linuxserver/rustdesk:1.4.1
     restart: unless-stopped
     environment:
       PUID: $PUID

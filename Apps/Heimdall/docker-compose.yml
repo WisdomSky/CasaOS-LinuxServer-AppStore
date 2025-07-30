@@ -7,6 +7,7 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      ALLOW_INTERNAL_REQUESTS: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +19,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: ALLOW_INTERNAL_REQUESTS
+          description:
+            en_us: By default, Heimdall blocks lookup requests to private or reserved IP addresses, if your instance is not exposed to the internet, or is behind some level of authentication, you can set this to true to allow requests to private IP addresses. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -31,8 +35,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.
