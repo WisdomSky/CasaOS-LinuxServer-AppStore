@@ -9,10 +9,6 @@ services:
       TZ: $TZ
       BASE_URL: ''
       DATABASE_URL: ''
-      DEFAULT_ADMIN_EMAIL: ''
-      DEFAULT_ADMIN_USERNAME: ''
-      DEFAULT_ADMIN_PASSWORD: ''
-      DEFAULT_ADMIN_NAME: ''
       SECRET_KEY: ''
       TRUST_PROXY: ''
     x-casaos:
@@ -32,18 +28,6 @@ services:
         - container: DATABASE_URL
           description:
             en_us: Postgres database URL. Special characters must be url encoded.
-        - container: DEFAULT_ADMIN_EMAIL
-          description:
-            en_us: Email address for default user.
-        - container: DEFAULT_ADMIN_USERNAME
-          description:
-            en_us: Username for default user.
-        - container: DEFAULT_ADMIN_PASSWORD
-          description:
-            en_us: Password for default user.
-        - container: DEFAULT_ADMIN_NAME
-          description:
-            en_us: Display name for default user.
         - container: SECRET_KEY
           description:
             en_us: Session encryption key, recommended 32-64 character alphanumeric.
