@@ -1,7 +1,7 @@
 name: linuxserver-nzbget
 services:
   app:
-    image: linuxserver/nzbget:25.2.20250801
+    image: linuxserver/nzbget:25.2.20250808
     restart: unless-stopped
     environment:
       PUID: $PUID

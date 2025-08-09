@@ -31,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
