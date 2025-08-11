@@ -1,7 +1,7 @@
-name: linuxserver-flycast
+name: linuxserver-onlyoffice
 services:
   app:
-    image: linuxserver/flycast:2.5.20250810
+    image: linuxserver/onlyoffice:9.0.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,20 +27,20 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/flycast/config
+        source: /srv/lsio/onlyoffice/config
         target: /config
 x-casaos:
   architectures:
     - amd64
   main: app
   description:
-    en_us: Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    en_us: ONLYOFFICE provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.
   tagline:
-    en_us: A multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    en_us: Provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/onlyoffice-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/onlyoffice-logo.png
   title:
-    en_us: Flycast
+    en_us: Onlyoffice
   category: LinuxServer.io

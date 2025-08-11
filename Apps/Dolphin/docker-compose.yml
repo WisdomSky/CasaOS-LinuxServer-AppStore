@@ -31,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Dolphin Emulator lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.
