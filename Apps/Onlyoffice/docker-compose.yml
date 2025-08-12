@@ -30,8 +30,7 @@ services:
         source: /srv/lsio/onlyoffice/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: ONLYOFFICE provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.

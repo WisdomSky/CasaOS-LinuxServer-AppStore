@@ -27,9 +27,7 @@ services:
         source: /srv/lsio/ffmpeg/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ffmpeg for details.

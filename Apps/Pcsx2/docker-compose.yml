@@ -30,8 +30,7 @@ services:
         source: /srv/lsio/pcsx2/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: PCSX2 is an open source PS2 Emulator.

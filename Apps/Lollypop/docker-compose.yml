@@ -30,9 +30,7 @@ services:
         source: /srv/lsio/lollypop/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.

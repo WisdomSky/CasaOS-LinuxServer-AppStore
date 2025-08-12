@@ -19,9 +19,7 @@ services:
         source: /srv/lsio/synclounge/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.

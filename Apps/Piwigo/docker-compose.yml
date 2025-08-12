@@ -30,9 +30,7 @@ services:
         source: /srv/lsio/piwigo/gallery
         target: /gallery
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.

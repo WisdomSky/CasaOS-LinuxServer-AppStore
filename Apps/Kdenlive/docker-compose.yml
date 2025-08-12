@@ -30,8 +30,7 @@ services:
         source: /srv/lsio/kdenlive/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.

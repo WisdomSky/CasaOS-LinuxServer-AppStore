@@ -54,9 +54,7 @@ services:
         source: /srv/lsio/wikijs/data
         target: /data
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Wikijs A modern, lightweight and powerful wiki app built on NodeJS.

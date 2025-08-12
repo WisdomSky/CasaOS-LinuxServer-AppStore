@@ -27,9 +27,7 @@ services:
         source: /srv/lsio/htpcmanager/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Htpcmanager is a front end for many htpc related applications.

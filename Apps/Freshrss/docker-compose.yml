@@ -27,9 +27,7 @@ services:
         source: /srv/lsio/freshrss/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Freshrss is a free, self-hostable aggregator for rss feeds.

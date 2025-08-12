@@ -31,9 +31,7 @@ services:
         source: /srv/lsio/luanti/config/.minetest
         target: /config/.minetest
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation

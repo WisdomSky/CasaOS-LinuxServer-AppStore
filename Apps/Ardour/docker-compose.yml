@@ -34,9 +34,7 @@ services:
         source: /srv/lsio/ardour/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.

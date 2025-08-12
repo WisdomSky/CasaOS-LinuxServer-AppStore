@@ -30,8 +30,7 @@ services:
         source: /srv/lsio/wps-office/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.

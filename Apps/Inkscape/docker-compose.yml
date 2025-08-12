@@ -30,9 +30,7 @@ services:
         source: /srv/lsio/inkscape/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.

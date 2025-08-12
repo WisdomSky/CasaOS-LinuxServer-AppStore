@@ -30,8 +30,7 @@ services:
         source: /srv/lsio/cura/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: UltiMaker Cura is free, easy-to-use 3D printing software trusted by millions of users. Fine-tune your 3D model with 400+ settings for the best slicing and printing results.

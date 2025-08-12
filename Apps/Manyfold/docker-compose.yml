@@ -42,9 +42,7 @@ services:
         source: /srv/lsio/manyfold/libraries
         target: /libraries
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Manyfold is an open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.

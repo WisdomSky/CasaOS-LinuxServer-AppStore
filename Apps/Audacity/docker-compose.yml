@@ -30,8 +30,7 @@ services:
         source: /srv/lsio/audacity/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.

@@ -27,9 +27,7 @@ services:
         source: /srv/lsio/feed2toot/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.

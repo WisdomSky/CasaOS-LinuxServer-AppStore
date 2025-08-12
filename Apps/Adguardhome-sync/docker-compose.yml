@@ -31,9 +31,7 @@ services:
         source: /srv/lsio/adguardhome-sync/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.

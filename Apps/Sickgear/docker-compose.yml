@@ -1,7 +1,7 @@
 name: linuxserver-sickgear
 services:
   app:
-    image: linuxserver/sickgear:3.33.12
+    image: linuxserver/sickgear:3.33.14
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -33,9 +33,7 @@ services:
         source: /srv/lsio/sickgear/downloads
         target: /downloads
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: 'SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear'

@@ -99,9 +99,7 @@ services:
         source: /srv/lsio/doplarr/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Doplarr is an *arr request bot for Discord.'

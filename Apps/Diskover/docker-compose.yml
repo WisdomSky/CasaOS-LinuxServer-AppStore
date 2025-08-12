@@ -38,9 +38,7 @@ services:
         source: /srv/lsio/diskover/data
         target: /data
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.

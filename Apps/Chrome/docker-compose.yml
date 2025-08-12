@@ -34,8 +34,7 @@ services:
         source: /srv/lsio/chrome/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: Chrome is the official web browser from Google, built to be fast, secure, and customizable.

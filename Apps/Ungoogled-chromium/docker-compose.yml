@@ -34,8 +34,7 @@ services:
         source: /srv/lsio/ungoogled-chromium/config
         target: /config
 x-casaos:
-  architectures:
-    - amd64
+  architectures: []
   main: app
   description:
     en_us: Ungoogled Chromium is Google Chromium, sans dependency on Google web services.

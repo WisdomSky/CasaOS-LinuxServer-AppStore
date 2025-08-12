@@ -38,9 +38,7 @@ services:
         source: /srv/lsio/nzbget/downloads
         target: /downloads
 x-casaos:
-  architectures:
-    - amd64
-    - arm64
+  architectures: []
   main: app
   description:
     en_us: Nzbget is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
