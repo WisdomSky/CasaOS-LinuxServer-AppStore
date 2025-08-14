@@ -27,7 +27,9 @@ services:
         source: /srv/lsio/homeassistant/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Home Assistant Core - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server

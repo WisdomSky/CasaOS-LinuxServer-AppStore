@@ -33,7 +33,9 @@ services:
         source: /srv/lsio/medusa/tv
         target: /tv
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Medusa is an automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.

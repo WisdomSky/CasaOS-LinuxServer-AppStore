@@ -27,7 +27,9 @@ services:
         source: /srv/lsio/modmanager/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/modmanager for details.

@@ -27,7 +27,9 @@ services:
         source: /srv/lsio/overseerr/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.

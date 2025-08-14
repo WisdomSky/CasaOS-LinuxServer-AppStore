@@ -1,7 +1,7 @@
 name: linuxserver-sabnzbd
 services:
   app:
-    image: linuxserver/sabnzbd:4.5.3-unstable
+    image: linuxserver/sabnzbd:4.5.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -33,7 +33,9 @@ services:
         source: /srv/lsio/sabnzbd/downloads
         target: /downloads
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.

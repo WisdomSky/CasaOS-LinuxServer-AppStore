@@ -44,7 +44,9 @@ services:
         source: /srv/lsio/qbittorrent/downloads
         target: /downloads
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.

@@ -27,7 +27,9 @@ services:
         source: /srv/lsio/thelounge/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Thelounge (a fork of shoutIRC) is a web IRC client that you host on your own server.

@@ -30,7 +30,8 @@ services:
         source: /srv/lsio/flycast/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
   main: app
   description:
     en_us: Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.

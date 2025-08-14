@@ -30,7 +30,8 @@ services:
         source: /srv/lsio/rawtherapee/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
   main: app
   description:
     en_us: RawTherapee is a free, cross-platform raw image processing program!

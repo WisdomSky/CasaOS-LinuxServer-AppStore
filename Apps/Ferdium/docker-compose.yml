@@ -30,7 +30,9 @@ services:
         source: /srv/lsio/ferdium/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application.

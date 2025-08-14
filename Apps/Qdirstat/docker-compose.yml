@@ -33,7 +33,9 @@ services:
         source: /srv/lsio/qdirstat/data
         target: /data
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: 'QDirStat Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.'

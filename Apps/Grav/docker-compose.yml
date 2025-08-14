@@ -27,7 +27,9 @@ services:
         source: /srv/lsio/grav/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Grav is a Fast, Simple, and Flexible, file-based Web-platform.

@@ -41,7 +41,9 @@ services:
         source: /var/run/docker.sock
         target: /var/run/docker.sock
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.

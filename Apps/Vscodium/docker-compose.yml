@@ -1,7 +1,7 @@
 name: linuxserver-vscodium
 services:
   app:
-    image: linuxserver/vscodium:1.103.05312
+    image: linuxserver/vscodium:1.103.15418
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -30,7 +30,9 @@ services:
         source: /srv/lsio/vscodium/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.

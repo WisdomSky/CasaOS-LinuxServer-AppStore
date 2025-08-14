@@ -1,7 +1,7 @@
 name: linuxserver-brave
 services:
   app:
-    image: linuxserver/brave:1.81.131
+    image: linuxserver/brave:1.81.135
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -30,7 +30,9 @@ services:
         source: /srv/lsio/brave/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.

@@ -30,7 +30,9 @@ services:
         source: /srv/lsio/budge/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Budge is an open source 'budgeting with envelopes' personal finance app.

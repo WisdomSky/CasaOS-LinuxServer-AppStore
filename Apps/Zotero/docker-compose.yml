@@ -30,7 +30,8 @@ services:
         source: /srv/lsio/zotero/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
   main: app
   description:
     en_us: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.

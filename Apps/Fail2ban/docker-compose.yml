@@ -85,7 +85,9 @@ services:
         source: /srv/lsio/fail2ban/remotelogs/vaultwarden:ro
         target: /remotelogs/vaultwarden:ro
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Fail2ban is a daemon to ban hosts that cause multiple authentication errors.

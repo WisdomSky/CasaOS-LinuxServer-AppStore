@@ -30,7 +30,9 @@ services:
         source: /srv/lsio/rustdesk/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.

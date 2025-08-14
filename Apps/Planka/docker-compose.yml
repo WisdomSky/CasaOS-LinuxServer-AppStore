@@ -59,7 +59,9 @@ services:
         source: /srv/lsio/planka/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - arm64
+    - amd64
   main: app
   description:
     en_us: Planka is an elegant open source project tracking tool.

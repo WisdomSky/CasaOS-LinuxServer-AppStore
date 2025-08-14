@@ -33,7 +33,9 @@ services:
         source: /srv/lsio/doublecommander/data
         target: /data
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.

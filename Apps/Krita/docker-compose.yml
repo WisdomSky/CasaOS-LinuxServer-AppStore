@@ -30,7 +30,8 @@ services:
         source: /srv/lsio/krita/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
   main: app
   description:
     en_us: Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.

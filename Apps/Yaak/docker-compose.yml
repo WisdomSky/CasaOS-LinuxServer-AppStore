@@ -30,7 +30,8 @@ services:
         source: /srv/lsio/yaak/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
   main: app
   description:
     en_us: Yaak is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.

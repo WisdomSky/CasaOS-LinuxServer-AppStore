@@ -30,7 +30,8 @@ services:
         source: /srv/lsio/gitqlient/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - arm64
   main: app
   description:
     en_us: GitQlient is a multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.

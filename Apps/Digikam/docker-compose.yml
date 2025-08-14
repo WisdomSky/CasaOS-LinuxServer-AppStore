@@ -34,7 +34,8 @@ services:
         source: /srv/lsio/digikam/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
   main: app
   description:
     en_us: 'digiKam: Professional Photo Management with the Power of Open Source'

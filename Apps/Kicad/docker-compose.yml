@@ -30,7 +30,9 @@ services:
         source: /srv/lsio/kicad/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: KiCad - A Cross Platform and Open Source Electronics Design Automation Suite.

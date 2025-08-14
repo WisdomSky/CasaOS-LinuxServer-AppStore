@@ -178,7 +178,9 @@ services:
         source: /srv/lsio/mastodon/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..

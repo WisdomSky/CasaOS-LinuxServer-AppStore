@@ -1,7 +1,7 @@
 name: linuxserver-kometa
 services:
   app:
-    image: linuxserver/kometa:2.2.0
+    image: linuxserver/kometa:2.2.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -47,7 +47,9 @@ services:
         source: /srv/lsio/kometa/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Kometa is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.

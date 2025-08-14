@@ -27,7 +27,9 @@ services:
         source: /srv/lsio/tautulli/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Tautulli is a python based web application for monitoring, analytics and notifications for Plex Media Server.

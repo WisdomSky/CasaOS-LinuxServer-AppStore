@@ -38,7 +38,9 @@ services:
         source: /srv/lsio/nginx/config
         target: /config
 x-casaos:
-  architectures: []
+  architectures:
+    - amd64
+    - arm64
   main: app
   description:
     en_us: Nginx is a simple webserver with php support. The config files reside in /config for easy user customization.
