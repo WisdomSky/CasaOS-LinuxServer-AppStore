@@ -1,7 +1,7 @@
 name: linuxserver-zotero
 services:
   app:
-    image: linuxserver/zotero:7.0.22
+    image: linuxserver/zotero:7.0.23
     restart: unless-stopped
     environment:
       PUID: $PUID

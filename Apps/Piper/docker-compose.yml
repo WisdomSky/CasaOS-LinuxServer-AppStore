@@ -13,6 +13,7 @@ services:
       PIPER_NOISEW: ''
       PIPER_SPEAKER: ''
       PIPER_PROCS: ''
+      STREAMING: ''
     x-casaos:
       envs:
         - container: PUID
@@ -42,6 +43,9 @@ services:
         - container: PIPER_PROCS
           description:
             en_us: Number of Piper processes to run simultaneously. [OPTIONAL]
+        - container: STREAMING
+          description:
+            en_us: Setting to true, or any other value, will enable support for streaming audio on sentence boundaries. [OPTIONAL]
     ports:
       - target: 10200
         published: 10200
