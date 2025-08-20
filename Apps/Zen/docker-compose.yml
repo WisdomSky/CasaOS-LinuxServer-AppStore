@@ -1,7 +1,7 @@
-name: linuxserver-rpcs3
+name: linuxserver-zen
 services:
   app:
-    image: linuxserver/rpcs3:version-build-6e7c3362b3dee6dd2355585eab7f2107f1545485
+    image: linuxserver/zen:1.14.11
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,21 +27,21 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/rpcs3/config
+        source: /srv/lsio/zen/config
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
-    en_us: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    en_us: Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
   tagline:
-    en_us: A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    en_us: A free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   title:
-    en_us: Rpcs3
+    en_us: Zen
   category: LinuxServer.io
