@@ -1,7 +1,7 @@
 name: linuxserver-joplin
 services:
   app:
-    image: linuxserver/joplin:3.3.13
+    image: linuxserver/joplin:3.4.6
     restart: unless-stopped
     environment:
       PUID: $PUID
