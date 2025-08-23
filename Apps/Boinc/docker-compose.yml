@@ -1,7 +1,7 @@
 name: linuxserver-boinc
 services:
   app:
-    image: linuxserver/boinc:8.0.4
+    image: linuxserver/boinc:8.2.5
     restart: unless-stopped
     environment:
       PUID: $PUID
