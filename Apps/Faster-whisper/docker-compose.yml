@@ -8,6 +8,7 @@ services:
       PGID: $PGID
       TZ: $TZ
       WHISPER_MODEL: ''
+      LOCAL_ONLY: ''
       WHISPER_BEAM: ''
       WHISPER_LANG: ''
     x-casaos:
@@ -24,6 +25,9 @@ services:
         - container: WHISPER_MODEL
           description:
             en_us: Whisper model that will be used for transcription. From here, all with -int8 compressed variants
+        - container: LOCAL_ONLY
+          description:
+            en_us: If set to true, or any other value, the container will not attempt to download models from HuggingFace and will only use locally-provided models. [OPTIONAL]
         - container: WHISPER_BEAM
           description:
             en_us: Number of candidates to consider simultaneously during transcription. [OPTIONAL]
