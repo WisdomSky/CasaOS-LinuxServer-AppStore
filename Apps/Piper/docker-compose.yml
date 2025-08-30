@@ -8,6 +8,7 @@ services:
       PGID: $PGID
       TZ: $TZ
       PIPER_VOICE: ''
+      LOCAL_ONLY: ''
       PIPER_LENGTH: ''
       PIPER_NOISE: ''
       PIPER_NOISEW: ''
@@ -28,6 +29,9 @@ services:
         - container: PIPER_VOICE
           description:
             en_us: The Piper voice to use, in the format --
+        - container: LOCAL_ONLY
+          description:
+            en_us: If set to true, or any other value, the container will not attempt to download models from HuggingFace and will only use locally-provided models. [OPTIONAL]
         - container: PIPER_LENGTH
           description:
             en_us: Voice speaking rate, 1.0 is default with  1.0 being slower. [OPTIONAL]
