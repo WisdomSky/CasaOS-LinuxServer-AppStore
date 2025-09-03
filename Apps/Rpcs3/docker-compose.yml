@@ -1,7 +1,7 @@
 name: linuxserver-rpcs3
 services:
   app:
-    image: linuxserver/rpcs3:version-build-c7de9053b4a5e0f02f4a5b9e13bb5643c70b8c53
+    image: linuxserver/rpcs3:version-build-34a9d03d3d3d76b7dc87e806b16297ff30090e70
     restart: unless-stopped
     environment:
       PUID: $PUID
