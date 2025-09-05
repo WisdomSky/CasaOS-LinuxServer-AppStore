@@ -1,7 +1,7 @@
 name: linuxserver-planka
 services:
   app:
-    image: linuxserver/planka:1.26.2
+    image: linuxserver/planka:1.26.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -60,8 +60,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: Planka is an elegant open source project tracking tool.
