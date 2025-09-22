@@ -1,7 +1,7 @@
-name: linuxserver-rpcs3
+name: linuxserver-bitcoin-knots
 services:
   app:
-    image: linuxserver/rpcs3:version-build-6bc690491fbe3f0c9e8431d6eddc628d2df96a9c
+    image: linuxserver/bitcoin-knots:version-29.1.knots20250903-noble1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -25,9 +25,12 @@ services:
       - target: 3001
         published: 3001
         protocol: tcp
+      - target: 8333
+        published: 8333
+        protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/rpcs3/config
+        source: /srv/lsio/bitcoin-knots/config
         target: /config
 x-casaos:
   architectures:
@@ -35,13 +38,13 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    en_us: Bitcoin Knots can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
   tagline:
-    en_us: A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    en_us: Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   title:
-    en_us: Rpcs3
+    en_us: Bitcoin knots
   category: LinuxServer.io
