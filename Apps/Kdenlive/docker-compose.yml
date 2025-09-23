@@ -1,7 +1,7 @@
 name: linuxserver-kdenlive
 services:
   app:
-    image: linuxserver/kdenlive:25.08.0
+    image: linuxserver/kdenlive:25.08.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,6 +32,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
