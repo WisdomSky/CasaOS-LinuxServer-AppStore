@@ -7,8 +7,6 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      SUBFOLDER: ''
-      TITLE: ''
     x-casaos:
       envs:
         - container: PUID
@@ -20,12 +18,6 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: SUBFOLDER
-          description:
-            en_us: Specify a subfolder to use with reverse proxies, IE /subfolder/ [OPTIONAL]
-        - container: TITLE
-          description:
-            en_us: String which will be used as page/tab title in the web browser. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000
@@ -37,9 +29,6 @@ services:
       - type: bind
         source: /srv/lsio/kali-linux/config
         target: /config
-      - type: bind
-        source: /var/run/docker.sock
-        target: /var/run/docker.sock
 x-casaos:
   architectures:
     - amd64

@@ -31,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Altus is an Electron-based WhatsApp client with themes and multiple account support.
