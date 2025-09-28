@@ -36,6 +36,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: Ungoogled Chromium is Google Chromium, sans dependency on Google web services.
