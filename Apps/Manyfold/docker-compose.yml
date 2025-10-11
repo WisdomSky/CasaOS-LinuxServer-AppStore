@@ -1,7 +1,7 @@
 name: linuxserver-manyfold
 services:
   app:
-    image: linuxserver/manyfold:0.124.0
+    image: linuxserver/manyfold:0.125.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -29,7 +29,7 @@ services:
             en_us: Redis/Valkey database URL in redis://:/ format.
         - container: SECRET_KEY_BASE
           description:
-            en_us: Browser session secret. Changing it will terminate all active browser sessions.
+            en_us: Browser session and database encryption key. If unset a random one will be generated on init, the database is locked to this key.
     ports:
       - target: 3214
         published: 3214
