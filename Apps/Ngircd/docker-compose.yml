@@ -1,7 +1,7 @@
 name: linuxserver-ngircd
 services:
   app:
-    image: linuxserver/ngircd:version-27-r0
+    image: linuxserver/ngircd:version-27-r1
     restart: unless-stopped
     environment:
       PUID: $PUID
