@@ -1,7 +1,7 @@
 name: linuxserver-kavita
 services:
   app:
-    image: linuxserver/kavita:0.8.7
+    image: linuxserver/kavita:0.8.8
     restart: unless-stopped
     environment:
       PUID: $PUID
