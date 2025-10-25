@@ -1,7 +1,7 @@
 name: linuxserver-sabnzbd
 services:
   app:
-    image: linuxserver/sabnzbd:4.5.4
+    image: linuxserver/sabnzbd:4.5.5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,3 @@ x-casaos:
   title:
     en_us: Sabnzbd
   category: LinuxServer.io
-  port_map: '8080'

@@ -1,7 +1,7 @@
 name: linuxserver-speedtest-tracker
 services:
   app:
-    image: linuxserver/speedtest-tracker:1.6.8
+    image: linuxserver/speedtest-tracker:1.6.9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -90,4 +90,3 @@ x-casaos:
   title:
     en_us: Speedtest tracker
   category: LinuxServer.io
-  port_map: '80'
