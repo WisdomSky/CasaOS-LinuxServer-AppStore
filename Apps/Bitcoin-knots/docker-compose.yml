@@ -1,7 +1,7 @@
 name: linuxserver-bitcoin-knots
 services:
   app:
-    image: linuxserver/bitcoin-knots:version-29.2.knots20251010-noble1
+    image: linuxserver/bitcoin-knots:arm64v8-latest
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,7 +34,6 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
   main: app
   description:
