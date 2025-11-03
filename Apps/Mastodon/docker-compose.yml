@@ -44,6 +44,7 @@ services:
       SIDEKIQ_THREADS: ''
       DB_POOL: ''
       NO_CHOWN: ''
+      MASTODON_PROMETHEUS_EXPORTER_ENABLED: ''
     x-casaos:
       envs:
         - container: PUID
@@ -166,12 +167,18 @@ services:
         - container: NO_CHOWN
           description:
             en_us: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS. [OPTIONAL]
+        - container: MASTODON_PROMETHEUS_EXPORTER_ENABLED
+          description:
+            en_us: If set to true, Mastodon’s Ruby processes (web & Sidekiq) will enable the Prometheus instrumentation. [OPTIONAL]
     ports:
       - target: 80
         published: 80
         protocol: tcp
       - target: 443
         published: 443
+        protocol: tcp
+      - target: 9394
+        published: 9394
         protocol: tcp
     volumes:
       - type: bind

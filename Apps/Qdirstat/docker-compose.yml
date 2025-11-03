@@ -1,7 +1,7 @@
 name: linuxserver-qdirstat
 services:
   app:
-    image: linuxserver/qdirstat:1.9.20251026
+    image: linuxserver/qdirstat:1.9.20251102
     restart: unless-stopped
     environment:
       PUID: $PUID
