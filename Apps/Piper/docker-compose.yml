@@ -1,7 +1,7 @@
 name: linuxserver-piper
 services:
   app:
-    image: linuxserver/piper:1.6.3
+    image: linuxserver/piper:2.1.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -13,7 +13,6 @@ services:
       PIPER_NOISE: ''
       PIPER_NOISEW: ''
       PIPER_SPEAKER: ''
-      PIPER_PROCS: ''
       STREAMING: ''
     x-casaos:
       envs:
@@ -44,9 +43,6 @@ services:
         - container: PIPER_SPEAKER
           description:
             en_us: Speaker number to use if the voice supports multiple speakers. [OPTIONAL]
-        - container: PIPER_PROCS
-          description:
-            en_us: Number of Piper processes to run simultaneously. [OPTIONAL]
         - container: STREAMING
           description:
             en_us: Setting to true, or any other value, will enable support for streaming audio on sentence boundaries. [OPTIONAL]
