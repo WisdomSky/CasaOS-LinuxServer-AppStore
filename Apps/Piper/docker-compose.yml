@@ -13,7 +13,7 @@ services:
       PIPER_NOISE: ''
       PIPER_NOISEW: ''
       PIPER_SPEAKER: ''
-      STREAMING: ''
+      NO_STREAMING: ''
     x-casaos:
       envs:
         - container: PUID
@@ -43,9 +43,9 @@ services:
         - container: PIPER_SPEAKER
           description:
             en_us: Speaker number to use if the voice supports multiple speakers. [OPTIONAL]
-        - container: STREAMING
+        - container: NO_STREAMING
           description:
-            en_us: Setting to true, or any other value, will enable support for streaming audio on sentence boundaries. [OPTIONAL]
+            en_us: Setting to true, or any other value, will disable support for streaming audio on sentence boundaries. [OPTIONAL]
     ports:
       - target: 10200
         published: 10200
