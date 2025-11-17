@@ -1,0 +1,53 @@
+name: linuxserver-sealskin
+services:
+  app:
+    image: linuxserver/sealskin:0.1.17
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+        - container: PGID
+          description:
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+      - target: 8443
+        published: 8443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /srv/lsio/sealskin/config
+        target: /config
+      - type: bind
+        source: /srv/lsio/sealskin/storage
+        target: /storage
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Sealskin is a self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
+  tagline:
+    en_us: A self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/selkies-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/selkies-logo.png
+  title:
+    en_us: Sealskin
+  category: LinuxServer.io
