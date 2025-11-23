@@ -1,7 +1,7 @@
 name: linuxserver-dolphin
 services:
   app:
-    image: linuxserver/dolphin:version-3547eb2b
+    image: linuxserver/dolphin:version-ec0fc7fa
     restart: unless-stopped
     environment:
       PUID: $PUID

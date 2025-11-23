@@ -1,7 +1,7 @@
 name: linuxserver-grav
 services:
   app:
-    image: linuxserver/grav:1.7.49
+    image: linuxserver/grav:1.8.0
     restart: unless-stopped
     environment:
       PUID: $PUID
