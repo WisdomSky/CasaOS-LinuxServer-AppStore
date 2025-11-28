@@ -1,7 +1,7 @@
-name: linuxserver-piwigo
+name: linuxserver-citron
 services:
   app:
-    image: linuxserver/piwigo:16.0.0
+    image: linuxserver/citron:0.11.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,30 +19,28 @@ services:
           description:
             en_us: specify a timezone to use, see this list.
     ports:
-      - target: 80
-        published: 80
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/piwigo/config
+        source: /srv/lsio/citron/config
         target: /config
-      - type: bind
-        source: /srv/lsio/piwigo/gallery
-        target: /gallery
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
-    en_us: Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    en_us: Citron is a feature rich Switch 1 emulator for homebrew.
   tagline:
-    en_us: A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    en_us: A feature rich Switch 1 emulator for homebrew.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/citron-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/citron-logo.png
   title:
-    en_us: Piwigo
+    en_us: Citron
   category: LinuxServer.io
-  port_map: '80'

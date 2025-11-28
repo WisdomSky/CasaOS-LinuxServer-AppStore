@@ -1,7 +1,7 @@
-name: linuxserver-piwigo
+name: linuxserver-weixin
 services:
   app:
-    image: linuxserver/piwigo:16.0.0
+    image: linuxserver/weixin:version-e74a27c1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,30 +19,29 @@ services:
           description:
             en_us: specify a timezone to use, see this list.
     ports:
-      - target: 80
-        published: 80
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/piwigo/config
+        source: /srv/lsio/weixin/config
         target: /config
-      - type: bind
-        source: /srv/lsio/piwigo/gallery
-        target: /gallery
 x-casaos:
   architectures:
     - amd64
     - arm64
   main: app
   description:
-    en_us: Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    en_us: Weixin (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
   tagline:
-    en_us: A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    en_us: (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
   title:
-    en_us: Piwigo
+    en_us: Weixin
   category: LinuxServer.io
-  port_map: '80'

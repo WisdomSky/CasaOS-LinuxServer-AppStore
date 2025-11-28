@@ -1,7 +1,7 @@
 name: linuxserver-xemu
 services:
   app:
-    image: linuxserver/xemu:0.8.115
+    image: linuxserver/xemu:0.8.116
     restart: unless-stopped
     environment:
       PUID: $PUID

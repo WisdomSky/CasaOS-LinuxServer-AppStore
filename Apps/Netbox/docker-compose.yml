@@ -1,7 +1,7 @@
 name: linuxserver-netbox
 services:
   app:
-    image: linuxserver/netbox:4.4.6
+    image: linuxserver/netbox:4.4.7
     restart: unless-stopped
     environment:
       PUID: $PUID
