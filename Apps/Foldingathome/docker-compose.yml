@@ -1,7 +1,7 @@
 name: linuxserver-foldingathome
 services:
   app:
-    image: linuxserver/foldingathome:8.4.9
+    image: linuxserver/foldingathome:8.5.5
     restart: unless-stopped
     environment:
       PUID: $PUID

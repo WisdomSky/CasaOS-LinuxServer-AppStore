@@ -1,7 +1,7 @@
 name: linuxserver-openvscode-server
 services:
   app:
-    image: linuxserver/openvscode-server:1.105.1
+    image: linuxserver/openvscode-server:1.106.3
     restart: unless-stopped
     environment:
       PUID: $PUID

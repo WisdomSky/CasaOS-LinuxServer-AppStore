@@ -1,7 +1,7 @@
 name: linuxserver-kali-linux
 services:
   app:
-    image: linuxserver/kali-linux:version-5cae70eb
+    image: linuxserver/kali-linux:version-65d737c2
     restart: unless-stopped
     environment:
       PUID: $PUID

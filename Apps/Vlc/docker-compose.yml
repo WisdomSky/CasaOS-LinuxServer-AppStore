@@ -1,0 +1,51 @@
+name: linuxserver-vlc
+services:
+  app:
+    image: linuxserver/vlc:3.0.21
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      VLC_CLI: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+        - container: PGID
+          description:
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: VLC_CLI
+          description:
+            en_us: Specify one or multiple VLC CLI flags, this string will be passed to the application in full. [OPTIONAL]
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /srv/lsio/vlc/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: VLC Media Player is a free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+  tagline:
+    en_us: A free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vlc-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vlc-logo.png
+  title:
+    en_us: Vlc
+  category: LinuxServer.io
