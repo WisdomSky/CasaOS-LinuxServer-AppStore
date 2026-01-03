@@ -1,7 +1,7 @@
 name: linuxserver-melonds
 services:
   app:
-    image: linuxserver/melonds:1.1.20261229
+    image: linuxserver/melonds:1.1.20260102
     restart: unless-stopped
     environment:
       PUID: $PUID
