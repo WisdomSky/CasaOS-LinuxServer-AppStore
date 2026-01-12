@@ -1,7 +1,7 @@
 name: linuxserver-weixin
 services:
   app:
-    image: linuxserver/weixin:version-8c5bc56f
+    image: linuxserver/weixin:version-bdb9ffa1
     restart: unless-stopped
     environment:
       PUID: $PUID
