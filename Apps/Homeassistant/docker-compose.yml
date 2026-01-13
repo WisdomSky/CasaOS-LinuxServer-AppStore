@@ -1,7 +1,7 @@
 name: linuxserver-homeassistant
 services:
   app:
-    image: linuxserver/homeassistant:2026.1.0
+    image: linuxserver/homeassistant:2026.1.1
     restart: unless-stopped
     environment:
       PUID: $PUID
