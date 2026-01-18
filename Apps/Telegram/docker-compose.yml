@@ -32,6 +32,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: Telegram is a cloud-based mobile and desktop messaging app.
