@@ -1,7 +1,7 @@
 name: linuxserver-signal
 services:
   app:
-    image: linuxserver/signal:7.85.0
+    image: linuxserver/signal:7.86.0
     restart: unless-stopped
     environment:
       PUID: $PUID
