@@ -1,7 +1,7 @@
 name: linuxserver-socket-proxy
 services:
   app:
-    image: linuxserver/socket-proxy:3.2.10
+    image: linuxserver/socket-proxy:3.2.12
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,8 +28,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/socket-proxy for details.

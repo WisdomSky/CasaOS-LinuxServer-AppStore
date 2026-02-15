@@ -1,7 +1,7 @@
 name: linuxserver-sickgear
 services:
   app:
-    image: linuxserver/sickgear:3.34.9
+    image: linuxserver/sickgear:3.34.11
     restart: unless-stopped
     environment:
       PUID: $PUID

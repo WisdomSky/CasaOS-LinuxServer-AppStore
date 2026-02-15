@@ -1,7 +1,7 @@
 name: linuxserver-kdenlive
 services:
   app:
-    image: linuxserver/kdenlive:25.12.1
+    image: linuxserver/kdenlive:25.12.2
     restart: unless-stopped
     environment:
       PUID: $PUID

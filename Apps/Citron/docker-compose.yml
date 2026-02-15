@@ -1,7 +1,7 @@
 name: linuxserver-citron
 services:
   app:
-    image: linuxserver/citron:0.12.25
+    image: linuxserver/citron:2026.02.1
     restart: unless-stopped
     environment:
       PUID: $PUID
