@@ -1,7 +1,7 @@
 name: linuxserver-d2-builder
 services:
   app:
-    image: linuxserver/d2-builder:0.6.9
+    image: linuxserver/d2-builder:0.6.8
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,7 +34,7 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/d2-builder for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/d2-builder for details.
+    en_us: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/d2-builder for details. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''

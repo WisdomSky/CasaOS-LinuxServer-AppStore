@@ -1,7 +1,7 @@
 name: linuxserver-changedetection.io
 services:
   app:
-    image: linuxserver/changedetection.io:0.52.9
+    image: linuxserver/changedetection.io:0.54.9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -42,7 +42,7 @@ x-casaos:
   description:
     en_us: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
   tagline:
-    en_us: Provides free, open-source web page monitoring, notification and change detection.
+    en_us: 'Provides free, open-source web page monitoring, notification and change detection. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png

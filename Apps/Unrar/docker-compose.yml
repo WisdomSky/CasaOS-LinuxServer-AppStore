@@ -1,7 +1,7 @@
 name: linuxserver-unrar
 services:
   app:
-    image: linuxserver/unrar:7.1.6
+    image: linuxserver/unrar:7.0.9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,7 +34,7 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/unrar for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/unrar for details.
+    en_us: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/unrar for details. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''

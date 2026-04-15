@@ -7,10 +7,11 @@ services:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
-      WHISPER_MODEL: ''
+      DEBUG: ''
       LOCAL_ONLY: ''
       WHISPER_BEAM: ''
       WHISPER_LANG: ''
+      WHISPER_MODEL: ''
     x-casaos:
       envs:
         - container: PUID
@@ -22,9 +23,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: WHISPER_MODEL
+        - container: DEBUG
           description:
-            en_us: Whisper model that will be used for transcription. From here, all with -int8 compressed variants
+            en_us: If set to true, or any other value, the container will output debug logs. [OPTIONAL]
         - container: LOCAL_ONLY
           description:
             en_us: If set to true, or any other value, the container will not attempt to download models from HuggingFace and will only use locally-provided models. [OPTIONAL]
@@ -33,7 +34,10 @@ services:
             en_us: Number of candidates to consider simultaneously during transcription. [OPTIONAL]
         - container: WHISPER_LANG
           description:
-            en_us: Language that you will speak to the add-on. [OPTIONAL]
+            en_us: Two character code for the language that you will speak to the add-on. [OPTIONAL]
+        - container: WHISPER_MODEL
+          description:
+            en_us: Whisper model that will be used for transcription. From here. [OPTIONAL]
     ports:
       - target: 10300
         published: 10300
@@ -50,7 +54,7 @@ x-casaos:
   description:
     en_us: Faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
   tagline:
-    en_us: A reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
+    en_us: 'A reimplementation of OpenAI''s Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''

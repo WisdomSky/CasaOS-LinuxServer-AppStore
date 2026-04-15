@@ -1,7 +1,7 @@
 name: linuxserver-flexget
 services:
   app:
-    image: linuxserver/flexget:3.18.47
+    image: linuxserver/flexget:3.19.11
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -53,7 +53,7 @@ x-casaos:
   description:
     en_us: Flexget is a multipurpose automation tool for all of your media.
   tagline:
-    en_us: A multipurpose automation tool for all of your media.
+    en_us: 'A multipurpose automation tool for all of your media. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png

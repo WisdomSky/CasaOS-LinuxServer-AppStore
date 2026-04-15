@@ -1,5 +1,5 @@
 # Changedetection. Io
 
-Provides free, open-source web page monitoring, notification and change detection.
+Provides free, open-source web page monitoring, notification and change detection. 
 
 ---

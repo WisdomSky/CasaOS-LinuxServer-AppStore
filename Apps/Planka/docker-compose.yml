@@ -1,7 +1,7 @@
 name: linuxserver-planka
 services:
   app:
-    image: linuxserver/planka:2.0.0
+    image: linuxserver/planka:2.1.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -15,6 +15,7 @@ services:
       DEFAULT_ADMIN_NAME: ''
       SECRET_KEY: ''
       TRUST_PROXY: ''
+      DEFAULT_LANGUAGE: ''
     x-casaos:
       envs:
         - container: PUID
@@ -49,7 +50,10 @@ services:
             en_us: Session encryption key, recommended 32-64 character alphanumeric.
         - container: TRUST_PROXY
           description:
-            en_us: Set to 1 to trust upstream proxies if reverse proxying.
+            en_us: Set to true to trust upstream proxies if reverse proxying.
+        - container: DEFAULT_LANGUAGE
+          description:
+            en_us: This sets the default language for sending notifications per user (if a user hasn't selected a language) and per board. [OPTIONAL]
     ports:
       - target: 1337
         published: 1337
@@ -66,7 +70,7 @@ x-casaos:
   description:
     en_us: Planka is an elegant open source project tracking tool.
   tagline:
-    en_us: An elegant open source project tracking tool.
+    en_us: 'An elegant open source project tracking tool. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png

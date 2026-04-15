@@ -1,7 +1,7 @@
 name: linuxserver-chrome
 services:
   app:
-    image: linuxserver/chrome:145.0.7632
+    image: linuxserver/chrome:147.0.7727
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -40,7 +40,7 @@ x-casaos:
   description:
     en_us: Chrome is the official web browser from Google, built to be fast, secure, and customizable.
   tagline:
-    en_us: The official web browser from Google, built to be fast, secure, and customizable.
+    en_us: 'The official web browser from Google, built to be fast, secure, and customizable. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png

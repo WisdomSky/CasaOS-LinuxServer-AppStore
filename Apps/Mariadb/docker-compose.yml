@@ -1,7 +1,7 @@
 name: linuxserver-mariadb
 services:
   app:
-    image: linuxserver/mariadb:11.4.8
+    image: linuxserver/mariadb:11.4.9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -12,6 +12,7 @@ services:
       MYSQL_USER: ''
       MYSQL_PASSWORD: ''
       REMOTE_SQL: ''
+      CLI_OPTS: ''
     x-casaos:
       envs:
         - container: PUID
@@ -38,6 +39,9 @@ services:
         - container: REMOTE_SQL
           description:
             en_us: Set this to ingest sql files from an http/https endpoint (comma seperated array). [OPTIONAL]
+        - container: CLI_OPTS
+          description:
+            en_us: Pass CLI options to mariadbd via mariadbd-safe. Use with caution as mariadbd option precedence is complex. [OPTIONAL]
     ports:
       - target: 3306
         published: 3306
@@ -54,7 +58,7 @@ x-casaos:
   description:
     en_us: Mariadb is one of the most popular database servers. Made by the original developers of MySQL.
   tagline:
-    en_us: One of the most popular database servers. Made by the original developers of MySQL.
+    en_us: 'One of the most popular database servers. Made by the original developers of MySQL. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png

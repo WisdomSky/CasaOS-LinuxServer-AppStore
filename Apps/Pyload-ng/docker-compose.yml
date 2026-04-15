@@ -34,13 +34,13 @@ services:
         target: /downloads
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
   tagline:
-    en_us: A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    en_us: 'A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png

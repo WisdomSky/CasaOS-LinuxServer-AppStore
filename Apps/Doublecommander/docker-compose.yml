@@ -1,7 +1,7 @@
 name: linuxserver-doublecommander
 services:
   app:
-    image: linuxserver/doublecommander:version-b6807321
+    image: linuxserver/doublecommander:version-f8d52304
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -40,7 +40,7 @@ x-casaos:
   description:
     en_us: Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
   tagline:
-    en_us: A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
+    en_us: 'A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png

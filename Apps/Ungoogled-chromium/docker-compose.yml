@@ -1,7 +1,7 @@
 name: linuxserver-ungoogled-chromium
 services:
   app:
-    image: linuxserver/ungoogled-chromium:145.0.7632
+    image: linuxserver/ungoogled-chromium:147.0.7727
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -41,7 +41,7 @@ x-casaos:
   description:
     en_us: Ungoogled Chromium is Google Chromium, sans dependency on Google web services.
   tagline:
-    en_us: Google Chromium, sans dependency on Google web services.
+    en_us: 'Google Chromium, sans dependency on Google web services. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png

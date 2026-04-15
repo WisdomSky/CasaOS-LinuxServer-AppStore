@@ -1,7 +1,7 @@
 name: linuxserver-rustdesk
 services:
   app:
-    image: linuxserver/rustdesk:1.4.5
+    image: linuxserver/rustdesk:1.4.6
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -37,7 +37,7 @@ x-casaos:
   description:
     en_us: RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.
   tagline:
-    en_us: A full-featured open source remote control alternative for self-hosting and security with minimal configuration.
+    en_us: 'A full-featured open source remote control alternative for self-hosting and security with minimal configuration. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png

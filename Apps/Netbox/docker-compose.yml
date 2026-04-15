@@ -1,7 +1,7 @@
 name: linuxserver-netbox
 services:
   app:
-    image: linuxserver/netbox:4.5.2
+    image: linuxserver/netbox:4.5.8
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -17,10 +17,12 @@ services:
       DB_PORT: ''
       REDIS_HOST: ''
       REDIS_PORT: ''
+      REDIS_USERNAME: ''
       REDIS_PASSWORD: ''
       REDIS_DB_TASK: ''
       REDIS_DB_CACHE: ''
       BASE_PATH: ''
+      CSRF_TRUSTED_ORIGINS: ''
       REMOTE_AUTH_ENABLED: ''
       REMOTE_AUTH_BACKEND: ''
       REMOTE_AUTH_HEADER: ''
@@ -46,7 +48,7 @@ services:
             en_us: Password for admin account
         - container: ALLOWED_HOST
           description:
-            en_us: The hostname you will use to access the app (i.e., netbox.example.com)
+            en_us: The hostname you will use to access the app (e.g., netbox.example.com)
         - container: DB_NAME
           description:
             en_us: 'Database name (default: netbox)'
@@ -68,6 +70,9 @@ services:
         - container: REDIS_PORT
           description:
             en_us: 'Redis port number (default: 6379)'
+        - container: REDIS_USERNAME
+          description:
+            en_us: 'Redis username (default: none)'
         - container: REDIS_PASSWORD
           description:
             en_us: 'Redis password (default: none)'
@@ -79,25 +84,28 @@ services:
             en_us: 'Redis database ID for caching (default: 1)'
         - container: BASE_PATH
           description:
-            en_us: 'The path you will use to access the app (i.e., /netbox, optional, default: none) [OPTIONAL]'
+            en_us: 'The path you will use to access the app (i.e., /netbox, default: none) [OPTIONAL]'
+        - container: CSRF_TRUSTED_ORIGINS
+          description:
+            en_us: 'List of comma-separated, single quoted, trusted origins. Must include protocol, and port if applicable (default: []) [OPTIONAL]'
         - container: REMOTE_AUTH_ENABLED
           description:
-            en_us: 'Enable remote authentication (optional, default: False) [OPTIONAL]'
+            en_us: 'Enable remote authentication (default: False) [OPTIONAL]'
         - container: REMOTE_AUTH_BACKEND
           description:
-            en_us: 'Python path to the custom Django authentication backend to use for external user authentication (optional, default: netbox.authentication.RemoteUserBackend) [OPTIONAL]'
+            en_us: 'Python path to the custom Django authentication backend to use for external user authentication (default: netbox.authentication.RemoteUserBackend) [OPTIONAL]'
         - container: REMOTE_AUTH_HEADER
           description:
-            en_us: 'Name of the HTTP header which informs NetBox of the currently authenticated user. (optional, default: HTTP_REMOTE_USER) [OPTIONAL]'
+            en_us: 'Name of the HTTP header which informs NetBox of the currently authenticated user. (default: HTTP_REMOTE_USER) [OPTIONAL]'
         - container: REMOTE_AUTH_AUTO_CREATE_USER
           description:
-            en_us: 'If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False) [OPTIONAL]'
+            en_us: 'If true, NetBox will automatically create local accounts for users authenticated via a remote service (default: False) [OPTIONAL]'
         - container: REMOTE_AUTH_DEFAULT_GROUPS
           description:
-            en_us: 'The list of groups to assign a new user account when created using remote authentication (optional, default: []) [OPTIONAL]'
+            en_us: 'The list of groups to assign a new user account when created using remote authentication (default: []) [OPTIONAL]'
         - container: REMOTE_AUTH_DEFAULT_PERMISSIONS
           description:
-            en_us: 'A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {}) [OPTIONAL]'
+            en_us: 'A mapping of permissions to assign a new user account when created using remote authentication (default: {}) [OPTIONAL]'
     ports:
       - target: 8000
         published: 8000
@@ -114,7 +122,7 @@ x-casaos:
   description:
     en_us: Netbox is an IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
   tagline:
-    en_us: An IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
+    en_us: 'An IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/netbox-logo.png

@@ -11,26 +11,40 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_us: for UserID
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_us: for GroupID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: 'Container Path: /config'
+        - container: /downloads
+          description:
+            en_us: 'Container Path: /downloads'
+        - container: /tv
+          description:
+            en_us: 'Container Path: /tv'
+      ports:
+        - container: '8081'
+          description:
+            en_us: 'Container Port: 8081'
     ports:
       - target: 8081
         published: 8081
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/sickchill/config
+        source: /DATA/AppData/sickchill/config
         target: /config
       - type: bind
-        source: /srv/lsio/sickchill/downloads
+        source: /DATA/AppData/sickchill/downloads
         target: /downloads
       - type: bind
-        source: /srv/lsio/sickchill/tv
+        source: /DATA/AppData/sickchill/tv
         target: /tv
 x-casaos:
   architectures:
@@ -38,13 +52,15 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Sickchill is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/sickchill/'
   tagline:
-    en_us: An Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    en_us: 'An Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. '
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png
   title:
     en_us: Sickchill
   category: LinuxServer.io
+  project_url: https://sickchill.github.io/
+  port_map: '8081'

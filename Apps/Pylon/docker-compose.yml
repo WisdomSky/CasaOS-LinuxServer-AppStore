@@ -14,32 +14,40 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_us: for UserID
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_us: for GroupID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: GITURL
           description:
-            en_us: Specify a git repo to checkout on first startup [OPTIONAL]
+            en_us: Specify a git repo to checkout on first startup
         - container: PYUSER
           description:
-            en_us: Specify a basic auth user. [OPTIONAL]
+            en_us: Specify a basic auth user.
         - container: PYPASS
           description:
-            en_us: Specify a basic auth password. [OPTIONAL]
+            en_us: Specify a basic auth password.
+      volumes:
+        - container: /code
+          description:
+            en_us: if you want to mount up a local folder of code instead of checking out a Git URL specify its location here.  Find it at /code
+      ports:
+        - container: '3131'
+          description:
+            en_us: Webui - Default 3131
     ports:
       - target: 3131
         published: 3131
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/pylon/config
+        source: /DATA/AppData/pylon/config
         target: /config
       - type: bind
-        source: /srv/lsio/pylon/code
+        source: /DATA/AppData/pylon/code
         target: /code
 x-casaos:
   architectures:
@@ -47,13 +55,15 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Pylon is a web based integrated development environment built with Node.js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project.
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/pylon/'
   tagline:
-    en_us: A web based integrated development environment built with Node. Js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project.
+    en_us: 'A web based integrated development environment built with Node. Js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project. '
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/pylonide/pylon/master/doc/screenshot02.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9-logo.png
   thumbnail: https://raw.githubusercontent.com/pylonide/pylon/master/doc/screenshot02.png
   title:
     en_us: Pylon
   category: LinuxServer.io
+  project_url: https://github.com/pylonide/pylon
+  port_map: '3131'

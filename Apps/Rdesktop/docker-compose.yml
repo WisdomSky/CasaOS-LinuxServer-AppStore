@@ -1,7 +1,7 @@
 name: linuxserver-rdesktop
 services:
   app:
-    image: linuxserver/rdesktop:latest
+    image: linuxserver/rdesktop:arch-kde-version-arch-2025-01-10
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -11,10 +11,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_us: for UserID
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_us: for GroupID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/rdesktop/config
+        source: /DATA/AppData/rdesktop/config
         target: /config
       - type: bind
         source: /var/run/docker.sock
         target: /var/run/docker.sock
       - type: bind
-        source: /srv/lsio/rdesktop/config
+        source: /DATA/AppData/rdesktop/config
         target: /config
 x-casaos:
   architectures:
@@ -40,7 +40,7 @@ x-casaos:
   description:
     en_us: Rdesktop - Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
   tagline:
-    en_us: Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
+    en_us: 'Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png

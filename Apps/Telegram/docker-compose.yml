@@ -1,7 +1,7 @@
 name: linuxserver-telegram
 services:
   app:
-    image: linuxserver/telegram:6.5.1
+    image: linuxserver/telegram:6.7.5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -37,7 +37,7 @@ x-casaos:
   description:
     en_us: Telegram is a cloud-based mobile and desktop messaging app.
   tagline:
-    en_us: A cloud-based mobile and desktop messaging app.
+    en_us: 'A cloud-based mobile and desktop messaging app. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png

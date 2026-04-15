@@ -1,7 +1,7 @@
 name: linuxserver-snapdrop
 services:
   app:
-    image: linuxserver/snapdrop:version-b8b78cc2
+    image: linuxserver/snapdrop:version-f88d46ed
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -18,6 +18,17 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Appdata
+      ports:
+        - container: '80'
+          description:
+            en_us: 'Container Port: 80'
+        - container: '443'
+          description:
+            en_us: 'Container Port: 443'
     ports:
       - target: 80
         published: 80
@@ -31,18 +42,19 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
-    en_us: Snapdrop A local file sharing in your browser. Inspired by Apple's Airdrop.
+    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
   tagline:
-    en_us: A local file sharing in your browser. Inspired by Apple's Airdrop.
+    en_us: 'A local file sharing in your browser. Inspired by Apple''s Airdrop. '
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/snapdrop/snapdrop/master/client/images/logo_transparent_512x512.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snapdrop-icon.png
   thumbnail: https://raw.githubusercontent.com/snapdrop/snapdrop/master/client/images/logo_transparent_512x512.png
   title:
     en_us: Snapdrop
   category: LinuxServer.io
+  project_url: https://github.com/RobinLinus/snapdrop
   port_map: '80'

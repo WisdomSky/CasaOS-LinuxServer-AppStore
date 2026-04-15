@@ -1,7 +1,7 @@
 name: linuxserver-adguardhome-sync
 services:
   app:
-    image: linuxserver/adguardhome-sync:0.8.2
+    image: linuxserver/adguardhome-sync:0.9.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -38,7 +38,7 @@ x-casaos:
   description:
     en_us: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
   tagline:
-    en_us: A tool to synchronize AdGuardHome config to replica instances.
+    en_us: 'A tool to synchronize AdGuardHome config to replica instances. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png

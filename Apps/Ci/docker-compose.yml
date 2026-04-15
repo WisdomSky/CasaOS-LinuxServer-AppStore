@@ -1,7 +1,7 @@
 name: linuxserver-ci
 services:
   app:
-    image: linuxserver/ci:76752b6c-ls69
+    image: linuxserver/ci:b1ca9f98-ls65
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -33,7 +33,7 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci for details.
+    en_us: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci for details. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''

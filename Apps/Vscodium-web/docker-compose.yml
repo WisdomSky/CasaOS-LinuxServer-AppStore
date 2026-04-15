@@ -1,0 +1,65 @@
+name: linuxserver-vscodium-web
+services:
+  app:
+    image: linuxserver/vscodium-web:1.112.01907
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONNECTION_TOKEN: ''
+      CONNECTION_TOKEN_FILE: ''
+      SUDO_PASSWORD: ''
+      SUDO_PASSWORD_HASH: ''
+      CODE_ARGS: ''
+    x-casaos:
+      envs:
+        - container: PUID
+          description:
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+        - container: PGID
+          description:
+            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+        - container: TZ
+          description:
+            en_us: specify a timezone to use, see this list.
+        - container: CONNECTION_TOKEN
+          description:
+            en_us: Optional security token for accessing the Web UI (ie. supersecrettoken). [OPTIONAL]
+        - container: CONNECTION_TOKEN_FILE
+          description:
+            en_us: Optional path to a file inside the container that contains the security token for accessing the Web UI (ie. /path/to/file). Overrides CONNECTION_TOKEN. [OPTIONAL]
+        - container: SUDO_PASSWORD
+          description:
+            en_us: If this optional variable is set, user will have sudo access in the vscodium-web terminal with the specified password. [OPTIONAL]
+        - container: SUDO_PASSWORD_HASH
+          description:
+            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. [OPTIONAL]
+        - container: CODE_ARGS
+          description:
+            en_us: Optionally add cli parameters to vscodium binary. [OPTIONAL]
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /srv/lsio/vscodium-web/config
+        target: /config
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: app
+  description:
+    en_us: Vscodium-web is a community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.
+  tagline:
+    en_us: 'A community-driven, freely-licensed binary distribution of the remote host web component of Microsoft''s editor VS Code. '
+  developer: LinuxServer.io
+  author: WisdomSky
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
+  title:
+    en_us: Vscodium web
+  category: LinuxServer.io
+  port_map: '8000'

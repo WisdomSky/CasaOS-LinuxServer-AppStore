@@ -1,7 +1,7 @@
 name: linuxserver-modmanager
 services:
   app:
-    image: linuxserver/modmanager:version-b3d6b63f
+    image: linuxserver/modmanager:version-e1edfa9a
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,7 +34,7 @@ x-casaos:
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/modmanager for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/modmanager for details.
+    en_us: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/modmanager for details. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png

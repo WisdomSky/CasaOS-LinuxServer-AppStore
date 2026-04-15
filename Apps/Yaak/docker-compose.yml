@@ -1,7 +1,7 @@
 name: linuxserver-yaak
 services:
   app:
-    image: linuxserver/yaak:2026.2.1
+    image: linuxserver/yaak:2026.3.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,11 +32,12 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: Yaak is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
   tagline:
-    en_us: A desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
+    en_us: 'A desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It''s built using Tauri, Rust, and ReactJS. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png

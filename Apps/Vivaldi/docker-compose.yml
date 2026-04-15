@@ -1,7 +1,7 @@
 name: linuxserver-vivaldi
 services:
   app:
-    image: linuxserver/vivaldi:7.8.3925
+    image: linuxserver/vivaldi:7.9.3970
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -41,7 +41,7 @@ x-casaos:
   description:
     en_us: Vivaldi is a Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.
   tagline:
-    en_us: A Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.
+    en_us: 'A Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vivaldi-logo.png

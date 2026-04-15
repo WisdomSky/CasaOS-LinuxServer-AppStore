@@ -1,7 +1,7 @@
 name: linuxserver-joplin
 services:
   app:
-    image: linuxserver/joplin:3.5.12
+    image: linuxserver/joplin:3.5.13
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,7 +36,7 @@ x-casaos:
   description:
     en_us: Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
   tagline:
-    en_us: A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    en_us: 'A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png

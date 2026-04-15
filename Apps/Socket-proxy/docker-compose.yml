@@ -1,7 +1,7 @@
 name: linuxserver-socket-proxy
 services:
   app:
-    image: linuxserver/socket-proxy:3.2.12
+    image: linuxserver/socket-proxy:3.2.15
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,13 +28,13 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/socket-proxy for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/socket-proxy for details.
+    en_us: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/socket-proxy for details. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/docker-logo.png

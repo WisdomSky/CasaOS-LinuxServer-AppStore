@@ -1,7 +1,7 @@
 name: linuxserver-freetube
 services:
   app:
-    image: linuxserver/freetube:version-215975145
+    image: linuxserver/freetube:version-190523148
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -11,16 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_us: for UserID
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_us: for GroupID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
-        - container: TZ
-          description:
-            en_us: Specify a timezone to use EG Europe/London.
     ports:
       - target: 3000
         published: 3000
@@ -40,7 +37,7 @@ x-casaos:
   description:
     en_us: FreeTube is a feature-rich and user-friendly YouTube client with a focus on privacy.
   tagline:
-    en_us: A feature-rich and user-friendly YouTube client with a focus on privacy.
+    en_us: 'A feature-rich and user-friendly YouTube client with a focus on privacy. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png

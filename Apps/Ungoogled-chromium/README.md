@@ -1,5 +1,5 @@
 # Ungoogled chromium
 
-Google Chromium, sans dependency on Google web services.
+Google Chromium, sans dependency on Google web services. 
 
 ---

@@ -1,7 +1,7 @@
 name: linuxserver-overseerr
 services:
   app:
-    image: linuxserver/overseerr:1.34.0
+    image: linuxserver/overseerr:1.33.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -11,20 +11,28 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_us: for UserID
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_us: for GroupID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+      volumes:
+        - container: /config
+          description:
+            en_us: Contains all relevant configuration files.
+      ports:
+        - container: '5055'
+          description:
+            en_us: Port for Overseerr's web interface.
     ports:
       - target: 5055
         published: 5055
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/overseerr/config
+        source: /DATA/AppData/overseerr/config
         target: /config
 x-casaos:
   architectures:
@@ -32,9 +40,9 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.
+    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/overseerr'
   tagline:
-    en_us: A request management and media discovery tool built to work with your existing Plex ecosystem.
+    en_us: 'A request management and media discovery tool built to work with your existing Plex ecosystem. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
@@ -42,3 +50,5 @@ x-casaos:
   title:
     en_us: Overseerr
   category: LinuxServer.io
+  project_url: https://overseerr.dev/
+  port_map: '5055'

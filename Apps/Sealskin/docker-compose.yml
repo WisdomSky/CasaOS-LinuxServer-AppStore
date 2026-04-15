@@ -1,12 +1,13 @@
 name: linuxserver-sealskin
 services:
   app:
-    image: linuxserver/sealskin:0.1.35
+    image: linuxserver/sealskin:0.1.37
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      HOST_URL: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,12 +19,15 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: HOST_URL
+          description:
+            en_us: On initial setup this will be used to fill in the default admin configuration file in the /config directory, if unset the string HOST_URL will need to be replaced. [OPTIONAL]
     ports:
-      - target: 8000
-        published: 8000
-        protocol: tcp
       - target: 8443
         published: 8443
+        protocol: tcp
+      - target: 8000
+        published: 8000
         protocol: tcp
     volumes:
       - type: bind
@@ -43,7 +47,7 @@ x-casaos:
   description:
     en_us: Sealskin is a self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
   tagline:
-    en_us: A self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
+    en_us: 'A self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/selkies-logo.png

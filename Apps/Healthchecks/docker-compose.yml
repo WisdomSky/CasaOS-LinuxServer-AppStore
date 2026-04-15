@@ -1,12 +1,13 @@
 name: linuxserver-healthchecks
 services:
   app:
-    image: linuxserver/healthchecks:4.0.20260209
+    image: linuxserver/healthchecks:4.1.1
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      SECRET_KEY: ''
       SITE_ROOT: ''
       SITE_NAME: ''
       SUPERUSER_EMAIL: ''
@@ -24,7 +25,6 @@ services:
       INTEGRATIONS_ALLOW_PRIVATE_IPS: ''
       PING_EMAIL_DOMAIN: ''
       RP_ID: ''
-      SECRET_KEY: ''
       SITE_LOGO_URL: ''
     x-casaos:
       envs:
@@ -37,6 +37,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: SECRET_KEY
+          description:
+            en_us: A secret key used for cryptographic signing. Will generate a random value if one is not supplied and save it to /config/local_settings.py.
         - container: SITE_ROOT
           description:
             en_us: The site's top-level URL and the port it listens to if different than 80 or 443 (e.g., https://healthchecks.example.com:8000).
@@ -88,9 +91,6 @@ services:
         - container: RP_ID
           description:
             en_us: If using webauthn for 2FA set this to match your Healthchecks domain. Webauthn will only work over https. [OPTIONAL]
-        - container: SECRET_KEY
-          description:
-            en_us: A secret key used for cryptographic signing. Will generate a random value if one is not supplied and save it to /config/local_settings.py. [OPTIONAL]
         - container: SITE_LOGO_URL
           description:
             en_us: Full URL to custom site logo. [OPTIONAL]
@@ -113,7 +113,7 @@ x-casaos:
   description:
     en_us: Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
   tagline:
-    en_us: A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+    en_us: 'A watchdog for your cron jobs. It''s a web server that listens for pings from your cron jobs, plus a web interface. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/healthchecks-logo.png

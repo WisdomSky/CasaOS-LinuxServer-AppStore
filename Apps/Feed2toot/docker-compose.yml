@@ -1,7 +1,7 @@
 name: linuxserver-feed2toot
 services:
   app:
-    image: linuxserver/feed2toot:0.17.20251115
+    image: linuxserver/feed2toot:0.17.20250110
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -12,19 +12,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_us: for UserID
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_us: for GroupID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
         - container: FEED_LIMIT
           description:
-            en_us: Limit number of RSS entries published at each execution. [OPTIONAL]
+            en_us: Limit number of RSS entries published at each execution.
     volumes:
       - type: bind
-        source: /srv/lsio/feed2toot/config
+        source: /DATA/AppData/feed2toot/config
         target: /config
 x-casaos:
   architectures:
@@ -34,11 +34,11 @@ x-casaos:
   description:
     en_us: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
   tagline:
-    en_us: Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
+    en_us: 'Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network. '
   developer: LinuxServer.io
   author: WisdomSky
-  icon: ''
-  thumbnail: ''
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
   title:
     en_us: Feed2toot
   category: LinuxServer.io

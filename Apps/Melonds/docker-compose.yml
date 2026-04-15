@@ -1,7 +1,7 @@
 name: linuxserver-melonds
 services:
   app:
-    image: linuxserver/melonds:1.1.20260209
+    image: linuxserver/melonds:1.1.20260413
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -37,7 +37,7 @@ x-casaos:
   description:
     en_us: melonDS aims at providing fast and accurate Nintendo DS emulation.
   tagline:
-    en_us: Aims at providing fast and accurate Nintendo DS emulation.
+    en_us: 'Aims at providing fast and accurate Nintendo DS emulation. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/melonds-logo.png

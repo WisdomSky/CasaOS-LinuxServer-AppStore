@@ -1,7 +1,7 @@
 name: linuxserver-signal
 services:
   app:
-    image: linuxserver/signal:7.89.0
+    image: linuxserver/signal:8.6.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,7 +36,7 @@ x-casaos:
   description:
     en_us: Signal is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.
   tagline:
-    en_us: A messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.
+    en_us: 'A messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/signal-logo.png

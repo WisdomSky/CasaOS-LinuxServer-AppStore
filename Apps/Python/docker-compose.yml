@@ -1,7 +1,7 @@
 name: linuxserver-python
 services:
   app:
-    image: linuxserver/python:3.13.2
+    image: linuxserver/python:3.13.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -28,13 +28,13 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/python for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/python for details.
+    en_us: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/python for details. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''

@@ -1,7 +1,7 @@
 name: linuxserver-steamos
 services:
   app:
-    image: linuxserver/steamos:2025-01-19-ls95
+    image: linuxserver/steamos:version-2024-12-20
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -15,10 +15,10 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_us: for UserID
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_us: for GroupID
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
@@ -27,13 +27,13 @@ services:
             en_us: Specify the render device (GPU) for the contianer to use.
         - container: HOST_IP
           description:
-            en_us: Specify the IP of the host, needed for LAN Remote Play. [OPTIONAL]
+            en_us: Specify the IP of the host, needed for LAN Remote Play.
         - container: STARTUP
           description:
-            en_us: KDE to boot into desktop mode, BIGPICTURE to boot into gamescope. [OPTIONAL]
+            en_us: KDE to boot into desktop mode, BIGPICTURE to boot into gamescope.
         - container: RESOLUTION
           description:
-            en_us: When booting into BIGPICTURE mode the screen resolution will be bound to this value. [OPTIONAL]
+            en_us: When booting into BIGPICTURE mode the screen resolution will be bound to this value.
     ports:
       - target: 3000
         published: 3000
@@ -43,7 +43,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/steamos/config
+        source: /DATA/AppData/steamos/config
         target: /config
       - type: bind
         source: /dev/input
