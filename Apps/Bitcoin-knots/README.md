@@ -3,3 +3,5 @@
 Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
 
 ---
+
+**WebUI Port:** `3000`

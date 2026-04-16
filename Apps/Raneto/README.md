@@ -3,3 +3,5 @@
 is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
 
 ---
+
+**WebUI Port:** `3000`

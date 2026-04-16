@@ -1,7 +1,7 @@
 name: linuxserver-brave
 services:
   app:
-    image: linuxserver/brave:1.89.132
+    image: linuxserver/brave:1.89.137
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -45,3 +45,4 @@ x-casaos:
   title:
     en_us: Brave
   category: LinuxServer.io
+  port_map: '3000'
