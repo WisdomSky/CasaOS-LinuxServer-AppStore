@@ -33,6 +33,12 @@ services:
       - type: bind
         source: /DATA/AppData/mullvad-browser/config
         target: /config
+      - type: bind
+        source: /DATA/Downloads
+        target: /config/Downloads
+    cap_add:
+      - NET_ADMIN
+    shm_size: 1gb
 x-casaos:
   architectures:
     - amd64
@@ -48,3 +54,4 @@ x-casaos:
   title:
     en_us: Mullvad browser
   category: LinuxServer.io
+  port_map: '3000'
