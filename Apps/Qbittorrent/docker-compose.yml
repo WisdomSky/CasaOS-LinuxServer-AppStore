@@ -38,10 +38,10 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /srv/lsio/qbittorrent/config
+        source: /DATA/AppData/qbittorrent/config
         target: /config
       - type: bind
-        source: /srv/lsio/qbittorrent/downloads
+        source: /DATA/AppData/qbittorrent/downloads
         target: /downloads
 x-casaos:
   architectures:

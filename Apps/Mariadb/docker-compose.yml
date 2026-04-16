@@ -48,7 +48,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/mariadb/config
+        source: /DATA/AppData/mariadb/config
         target: /config
 x-casaos:
   architectures:

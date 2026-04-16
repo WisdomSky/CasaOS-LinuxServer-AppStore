@@ -38,7 +38,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/calibre/config
+        source: /DATA/AppData/calibre/config
         target: /config
 x-casaos:
   architectures:

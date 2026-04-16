@@ -30,7 +30,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/bitcoin-knots/config
+        source: /DATA/AppData/bitcoin-knots/config
         target: /config
 x-casaos:
   architectures:

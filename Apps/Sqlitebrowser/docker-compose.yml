@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/sqlitebrowser/config
+        source: /DATA/AppData/sqlitebrowser/config
         target: /config
 x-casaos:
   architectures:

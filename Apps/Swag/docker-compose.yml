@@ -82,7 +82,7 @@ services:
         protocol: udp
     volumes:
       - type: bind
-        source: /srv/lsio/swag/config
+        source: /DATA/AppData/swag/config
         target: /config
 x-casaos:
   architectures:

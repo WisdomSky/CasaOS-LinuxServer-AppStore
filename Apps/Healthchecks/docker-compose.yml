@@ -103,7 +103,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/healthchecks/config
+        source: /DATA/AppData/healthchecks/config
         target: /config
 x-casaos:
   architectures:

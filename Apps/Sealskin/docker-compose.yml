@@ -31,10 +31,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/sealskin/config
+        source: /DATA/AppData/sealskin/config
         target: /config
       - type: bind
-        source: /srv/lsio/sealskin/storage
+        source: /DATA/AppData/sealskin/storage
         target: /storage
       - type: bind
         source: /var/run/docker.sock

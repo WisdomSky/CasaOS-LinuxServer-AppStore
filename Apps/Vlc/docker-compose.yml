@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/vlc/config
+        source: /DATA/AppData/vlc/config
         target: /config
 x-casaos:
   architectures:

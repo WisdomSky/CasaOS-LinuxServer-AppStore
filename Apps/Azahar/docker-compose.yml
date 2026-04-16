@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/azahar/config
+        source: /DATA/AppData/azahar/config
         target: /config
 x-casaos:
   architectures:

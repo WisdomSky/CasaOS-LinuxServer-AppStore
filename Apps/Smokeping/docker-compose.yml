@@ -36,10 +36,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/smokeping/config
+        source: /DATA/AppData/smokeping/config
         target: /config
       - type: bind
-        source: /srv/lsio/smokeping/data
+        source: /DATA/AppData/smokeping/data
         target: /data
 x-casaos:
   architectures:

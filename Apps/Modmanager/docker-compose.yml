@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/modmanager/config
+        source: /DATA/AppData/modmanager/config
         target: /config
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/darktable/config
+        source: /DATA/AppData/darktable/config
         target: /config
 x-casaos:
   architectures:

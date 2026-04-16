@@ -31,16 +31,16 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/ubooquity/config
+        source: /DATA/AppData/ubooquity/config
         target: /config
       - type: bind
-        source: /srv/lsio/ubooquity/books
+        source: /DATA/AppData/ubooquity/books
         target: /books
       - type: bind
-        source: /srv/lsio/ubooquity/comics
+        source: /DATA/AppData/ubooquity/comics
         target: /comics
       - type: bind
-        source: /srv/lsio/ubooquity/files
+        source: /DATA/AppData/ubooquity/files
         target: /files
 x-casaos:
   architectures:

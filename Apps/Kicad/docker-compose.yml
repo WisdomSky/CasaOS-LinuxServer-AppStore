@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/kicad/config
+        source: /DATA/AppData/kicad/config
         target: /config
 x-casaos:
   architectures:

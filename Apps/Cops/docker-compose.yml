@@ -27,10 +27,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/cops/config
+        source: /DATA/AppData/cops/config
         target: /config
       - type: bind
-        source: /srv/lsio/cops/books
+        source: /DATA/AppData/cops/books
         target: /books
 x-casaos:
   architectures:

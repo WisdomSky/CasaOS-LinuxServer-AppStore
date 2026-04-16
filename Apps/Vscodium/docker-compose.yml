@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/vscodium/config
+        source: /DATA/AppData/vscodium/config
         target: /config
 x-casaos:
   architectures:

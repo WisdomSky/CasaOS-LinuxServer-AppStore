@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/radarr/config
+        source: /DATA/AppData/radarr/config
         target: /config
       - type: bind
-        source: /srv/lsio/radarr/movies
+        source: /DATA/AppData/radarr/movies
         target: /movies
       - type: bind
-        source: /srv/lsio/radarr/downloads
+        source: /DATA/AppData/radarr/downloads
         target: /downloads
 x-casaos:
   architectures:

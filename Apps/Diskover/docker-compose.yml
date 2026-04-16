@@ -32,10 +32,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/diskover/config
+        source: /DATA/AppData/diskover/config
         target: /config
       - type: bind
-        source: /srv/lsio/diskover/data
+        source: /DATA/AppData/diskover/data
         target: /data
 x-casaos:
   architectures:

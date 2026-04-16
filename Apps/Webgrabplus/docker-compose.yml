@@ -24,10 +24,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/webgrabplus/config
+        source: /DATA/AppData/webgrabplus/config
         target: /config
       - type: bind
-        source: /srv/lsio/webgrabplus/data
+        source: /DATA/AppData/webgrabplus/data
         target: /data
 x-casaos:
   architectures:

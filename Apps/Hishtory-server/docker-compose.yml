@@ -32,7 +32,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/hishtory-server/config
+        source: /DATA/AppData/hishtory-server/config
         target: /config
 x-casaos:
   architectures:

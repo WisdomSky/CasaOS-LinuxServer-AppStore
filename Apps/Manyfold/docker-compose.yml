@@ -36,10 +36,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/manyfold/config
+        source: /DATA/AppData/manyfold/config
         target: /config
       - type: bind
-        source: /srv/lsio/manyfold/libraries
+        source: /DATA/AppData/manyfold/libraries
         target: /libraries
 x-casaos:
   architectures:

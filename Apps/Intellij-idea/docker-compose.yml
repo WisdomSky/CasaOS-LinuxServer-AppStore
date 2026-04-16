@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/intellij-idea/config
+        source: /DATA/AppData/intellij-idea/config
         target: /config
 x-casaos:
   architectures:

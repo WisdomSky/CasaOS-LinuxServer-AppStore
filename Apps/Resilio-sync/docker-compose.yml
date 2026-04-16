@@ -27,13 +27,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/resilio-sync/config
+        source: /DATA/AppData/resilio-sync/config
         target: /config
       - type: bind
-        source: /srv/lsio/resilio-sync/downloads
+        source: /DATA/AppData/resilio-sync/downloads
         target: /downloads
       - type: bind
-        source: /srv/lsio/resilio-sync/sync
+        source: /DATA/AppData/resilio-sync/sync
         target: /sync
 x-casaos:
   architectures:

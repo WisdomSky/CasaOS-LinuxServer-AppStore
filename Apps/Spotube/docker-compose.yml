@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/spotube/config
+        source: /DATA/AppData/spotube/config
         target: /config
 x-casaos:
   architectures:

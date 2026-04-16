@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/blade-of-agony/config
+        source: /DATA/AppData/blade-of-agony/config
         target: /config
 x-casaos:
   architectures:

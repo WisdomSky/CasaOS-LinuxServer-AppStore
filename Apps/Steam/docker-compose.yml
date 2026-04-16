@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/steam/config
+        source: /DATA/AppData/steam/config
         target: /config
 x-casaos:
   architectures:

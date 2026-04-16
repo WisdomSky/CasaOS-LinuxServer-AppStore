@@ -27,10 +27,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/mame/config
+        source: /DATA/AppData/mame/config
         target: /config
       - type: bind
-        source: /srv/lsio/mame/mame:ro
+        source: /DATA/AppData/mame/mame:ro
         target: /mame:ro
 x-casaos:
   architectures:

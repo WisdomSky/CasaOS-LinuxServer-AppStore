@@ -32,19 +32,19 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/airsonic-advanced/config
+        source: /DATA/AppData/airsonic-advanced/config
         target: /config
       - type: bind
-        source: /srv/lsio/airsonic-advanced/music
+        source: /DATA/AppData/airsonic-advanced/music
         target: /music
       - type: bind
-        source: /srv/lsio/airsonic-advanced/playlists
+        source: /DATA/AppData/airsonic-advanced/playlists
         target: /playlists
       - type: bind
-        source: /srv/lsio/airsonic-advanced/podcasts
+        source: /DATA/AppData/airsonic-advanced/podcasts
         target: /podcasts
       - type: bind
-        source: /srv/lsio/airsonic-advanced/media
+        source: /DATA/AppData/airsonic-advanced/media
         target: /media
 x-casaos:
   architectures:

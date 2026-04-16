@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/audacity/config
+        source: /DATA/AppData/audacity/config
         target: /config
 x-casaos:
   architectures:

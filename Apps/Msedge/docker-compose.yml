@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/msedge/config
+        source: /DATA/AppData/msedge/config
         target: /config
 x-casaos:
   architectures:

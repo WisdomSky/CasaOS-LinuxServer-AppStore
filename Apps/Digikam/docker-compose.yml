@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/digikam/config
+        source: /DATA/AppData/digikam/config
         target: /config
 x-casaos:
   architectures:

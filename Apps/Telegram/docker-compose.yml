@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/telegram/config
+        source: /DATA/AppData/telegram/config
         target: /config
 x-casaos:
   architectures:

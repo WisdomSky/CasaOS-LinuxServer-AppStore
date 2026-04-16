@@ -40,7 +40,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/openvscode-server/config
+        source: /DATA/AppData/openvscode-server/config
         target: /config
       - type: bind
         source: /

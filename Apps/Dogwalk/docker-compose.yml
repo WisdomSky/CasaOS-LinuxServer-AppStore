@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/dogwalk/config
+        source: /DATA/AppData/dogwalk/config
         target: /config
 x-casaos:
   architectures:

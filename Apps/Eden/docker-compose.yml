@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/eden/config
+        source: /DATA/AppData/eden/config
         target: /config
 x-casaos:
   architectures:

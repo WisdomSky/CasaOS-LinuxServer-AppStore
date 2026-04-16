@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/mysql-workbench/config
+        source: /DATA/AppData/mysql-workbench/config
         target: /config
 x-casaos:
   architectures:

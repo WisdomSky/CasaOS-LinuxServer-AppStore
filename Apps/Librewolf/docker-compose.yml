@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/librewolf/config
+        source: /DATA/AppData/librewolf/config
         target: /config
 x-casaos:
   architectures:

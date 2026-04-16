@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/remmina/config
+        source: /DATA/AppData/remmina/config
         target: /config
 x-casaos:
   architectures:

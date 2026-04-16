@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/xbackbone/config
+        source: /DATA/AppData/xbackbone/config
         target: /config
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/pcsx2/config
+        source: /DATA/AppData/pcsx2/config
         target: /config
 x-casaos:
   architectures:

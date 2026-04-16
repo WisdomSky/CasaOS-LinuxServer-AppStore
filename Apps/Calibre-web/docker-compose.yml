@@ -32,10 +32,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/calibre-web/config
+        source: /DATA/AppData/calibre-web/config
         target: /config
       - type: bind
-        source: /srv/lsio/calibre-web/books
+        source: /DATA/AppData/calibre-web/books
         target: /books
 x-casaos:
   architectures:

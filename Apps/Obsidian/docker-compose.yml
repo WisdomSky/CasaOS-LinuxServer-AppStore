@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/obsidian/config
+        source: /DATA/AppData/obsidian/config
         target: /config
 x-casaos:
   architectures:

@@ -16,7 +16,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/synclounge/config
+        source: /DATA/AppData/synclounge/config
         target: /config
 x-casaos:
   architectures:

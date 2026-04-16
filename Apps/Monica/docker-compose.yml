@@ -63,7 +63,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/monica/config
+        source: /DATA/AppData/monica/config
         target: /config
 x-casaos:
   architectures:

@@ -27,10 +27,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/qdirstat/config
+        source: /DATA/AppData/qdirstat/config
         target: /config
       - type: bind
-        source: /srv/lsio/qdirstat/data
+        source: /DATA/AppData/qdirstat/data
         target: /data
 x-casaos:
   architectures:

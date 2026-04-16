@@ -40,10 +40,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/flexget/config
+        source: /DATA/AppData/flexget/config
         target: /config
       - type: bind
-        source: /srv/lsio/flexget/data
+        source: /DATA/AppData/flexget/data
         target: /data
 x-casaos:
   architectures:

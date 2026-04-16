@@ -31,7 +31,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/vivaldi/config
+        source: /DATA/AppData/vivaldi/config
         target: /config
 x-casaos:
   architectures:

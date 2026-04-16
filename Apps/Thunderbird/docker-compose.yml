@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/thunderbird/config
+        source: /DATA/AppData/thunderbird/config
         target: /config
 x-casaos:
   architectures:

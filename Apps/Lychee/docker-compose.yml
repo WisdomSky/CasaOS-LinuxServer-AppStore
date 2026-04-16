@@ -60,10 +60,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/lychee/config
+        source: /DATA/AppData/lychee/config
         target: /config
       - type: bind
-        source: /srv/lsio/lychee/pictures
+        source: /DATA/AppData/lychee/pictures
         target: /pictures
 x-casaos:
   architectures:

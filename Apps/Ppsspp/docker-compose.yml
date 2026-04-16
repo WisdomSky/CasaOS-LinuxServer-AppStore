@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/ppsspp/config
+        source: /DATA/AppData/ppsspp/config
         target: /config
 x-casaos:
   architectures:

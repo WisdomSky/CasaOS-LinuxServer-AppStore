@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/weixin/config
+        source: /DATA/AppData/weixin/config
         target: /config
 x-casaos:
   architectures:

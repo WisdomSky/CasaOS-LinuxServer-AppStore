@@ -32,10 +32,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/jackett/config
+        source: /DATA/AppData/jackett/config
         target: /config
       - type: bind
-        source: /srv/lsio/jackett/downloads
+        source: /DATA/AppData/jackett/downloads
         target: /downloads
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/mediaelch/config
+        source: /DATA/AppData/mediaelch/config
         target: /config
 x-casaos:
   architectures:

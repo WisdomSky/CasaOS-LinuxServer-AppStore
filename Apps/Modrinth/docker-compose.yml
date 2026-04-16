@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/modrinth/config
+        source: /DATA/AppData/modrinth/config
         target: /config
 x-casaos:
   architectures:

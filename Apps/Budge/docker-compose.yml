@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/budge/config
+        source: /DATA/AppData/budge/config
         target: /config
 x-casaos:
   architectures:

@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/bazarr/config
+        source: /DATA/AppData/bazarr/config
         target: /config
       - type: bind
-        source: /srv/lsio/bazarr/movies
+        source: /DATA/AppData/bazarr/movies
         target: /movies
       - type: bind
-        source: /srv/lsio/bazarr/tv
+        source: /DATA/AppData/bazarr/tv
         target: /tv
 x-casaos:
   architectures:

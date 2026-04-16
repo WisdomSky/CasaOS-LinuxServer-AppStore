@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/scummvm/config
+        source: /DATA/AppData/scummvm/config
         target: /config
 x-casaos:
   architectures:

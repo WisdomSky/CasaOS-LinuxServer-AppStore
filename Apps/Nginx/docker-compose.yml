@@ -35,7 +35,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/nginx/config
+        source: /DATA/AppData/nginx/config
         target: /config
 x-casaos:
   architectures:

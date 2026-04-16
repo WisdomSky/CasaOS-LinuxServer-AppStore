@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/medusa/config
+        source: /DATA/AppData/medusa/config
         target: /config
       - type: bind
-        source: /srv/lsio/medusa/downloads
+        source: /DATA/AppData/medusa/downloads
         target: /downloads
       - type: bind
-        source: /srv/lsio/medusa/tv
+        source: /DATA/AppData/medusa/tv
         target: /tv
 x-casaos:
   architectures:

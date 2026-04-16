@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/calligra/config
+        source: /DATA/AppData/calligra/config
         target: /config
 x-casaos:
   architectures:

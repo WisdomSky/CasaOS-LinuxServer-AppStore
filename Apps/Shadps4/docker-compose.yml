@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/shadps4/config
+        source: /DATA/AppData/shadps4/config
         target: /config
 x-casaos:
   architectures:

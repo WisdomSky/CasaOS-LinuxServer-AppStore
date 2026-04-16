@@ -32,10 +32,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/nzbget/config
+        source: /DATA/AppData/nzbget/config
         target: /config
       - type: bind
-        source: /srv/lsio/nzbget/downloads
+        source: /DATA/AppData/nzbget/downloads
         target: /downloads
 x-casaos:
   architectures:

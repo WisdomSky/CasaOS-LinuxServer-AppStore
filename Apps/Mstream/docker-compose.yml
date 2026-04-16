@@ -24,10 +24,10 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/mstream/config
+        source: /DATA/AppData/mstream/config
         target: /config
       - type: bind
-        source: /srv/lsio/mstream/music
+        source: /DATA/AppData/mstream/music
         target: /music
 x-casaos:
   architectures:

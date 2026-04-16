@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/yaak/config
+        source: /DATA/AppData/yaak/config
         target: /config
 x-casaos:
   architectures:

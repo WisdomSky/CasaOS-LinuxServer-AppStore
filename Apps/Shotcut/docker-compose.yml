@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/shotcut/config
+        source: /DATA/AppData/shotcut/config
         target: /config
 x-casaos:
   architectures:

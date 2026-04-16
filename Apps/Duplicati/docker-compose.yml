@@ -36,13 +36,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/duplicati/config
+        source: /DATA/AppData/duplicati/config
         target: /config
       - type: bind
-        source: /srv/lsio/duplicati/backups
+        source: /DATA/AppData/duplicati/backups
         target: /backups
       - type: bind
-        source: /srv/lsio/duplicati/source
+        source: /DATA/AppData/duplicati/source
         target: /source
 x-casaos:
   architectures:

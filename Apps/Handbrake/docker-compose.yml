@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/handbrake/config
+        source: /DATA/AppData/handbrake/config
         target: /config
 x-casaos:
   architectures:

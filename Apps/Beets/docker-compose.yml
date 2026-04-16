@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/beets/config
+        source: /DATA/AppData/beets/config
         target: /config
       - type: bind
-        source: /srv/lsio/beets/music
+        source: /DATA/AppData/beets/music
         target: /music
       - type: bind
-        source: /srv/lsio/beets/downloads
+        source: /DATA/AppData/beets/downloads
         target: /downloads
 x-casaos:
   architectures:

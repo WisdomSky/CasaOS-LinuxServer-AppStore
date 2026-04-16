@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/pycharm/config
+        source: /DATA/AppData/pycharm/config
         target: /config
 x-casaos:
   architectures:

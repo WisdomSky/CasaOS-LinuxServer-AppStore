@@ -28,13 +28,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/lazylibrarian/config
+        source: /DATA/AppData/lazylibrarian/config
         target: /config
       - type: bind
-        source: /srv/lsio/lazylibrarian/downloads
+        source: /DATA/AppData/lazylibrarian/downloads
         target: /downloads
       - type: bind
-        source: /srv/lsio/lazylibrarian/books
+        source: /DATA/AppData/lazylibrarian/books
         target: /books
 x-casaos:
   architectures:

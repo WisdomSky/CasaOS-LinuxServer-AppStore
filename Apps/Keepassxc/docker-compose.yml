@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/keepassxc/config
+        source: /DATA/AppData/keepassxc/config
         target: /config
 x-casaos:
   architectures:

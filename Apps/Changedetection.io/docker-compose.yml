@@ -32,7 +32,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/changedetection.io/config
+        source: /DATA/AppData/changedetection.io/config
         target: /config
 x-casaos:
   architectures:

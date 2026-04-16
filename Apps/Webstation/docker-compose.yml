@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/webstation/config
+        source: /DATA/AppData/webstation/config
         target: /config
 x-casaos:
   architectures:

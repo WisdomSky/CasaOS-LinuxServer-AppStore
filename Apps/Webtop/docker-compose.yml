@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/webtop/config
+        source: /DATA/AppData/webtop/config
         target: /config
 x-casaos:
   architectures:

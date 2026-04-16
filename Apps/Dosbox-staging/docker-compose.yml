@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/dosbox-staging/config
+        source: /DATA/AppData/dosbox-staging/config
         target: /config
 x-casaos:
   architectures:

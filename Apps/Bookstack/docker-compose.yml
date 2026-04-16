@@ -56,7 +56,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/bookstack/config
+        source: /DATA/AppData/bookstack/config
         target: /config
 x-casaos:
   architectures:

@@ -24,13 +24,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/sonarr/config
+        source: /DATA/AppData/sonarr/config
         target: /config
       - type: bind
-        source: /srv/lsio/sonarr/tv
+        source: /DATA/AppData/sonarr/tv
         target: /tv
       - type: bind
-        source: /srv/lsio/sonarr/downloads
+        source: /DATA/AppData/sonarr/downloads
         target: /downloads
 x-casaos:
   architectures:

@@ -24,7 +24,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/prowlarr/config
+        source: /DATA/AppData/prowlarr/config
         target: /config
 x-casaos:
   architectures:

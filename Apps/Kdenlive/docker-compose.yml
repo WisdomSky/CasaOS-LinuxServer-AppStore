@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/kdenlive/config
+        source: /DATA/AppData/kdenlive/config
         target: /config
 x-casaos:
   architectures:

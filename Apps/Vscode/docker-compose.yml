@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/vscode/config
+        source: /DATA/AppData/vscode/config
         target: /config
 x-casaos:
   architectures:

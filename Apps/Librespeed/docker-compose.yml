@@ -60,7 +60,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/librespeed/config
+        source: /DATA/AppData/librespeed/config
         target: /config
 x-casaos:
   architectures:

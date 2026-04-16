@@ -32,13 +32,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/plex/config
+        source: /DATA/AppData/plex/config
         target: /config
       - type: bind
-        source: /srv/lsio/plex/tv
+        source: /DATA/AppData/plex/tv
         target: /tv
       - type: bind
-        source: /srv/lsio/plex/movies
+        source: /DATA/AppData/plex/movies
         target: /movies
 x-casaos:
   architectures:

@@ -27,7 +27,7 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/joplin/config
+        source: /DATA/AppData/joplin/config
         target: /config
 x-casaos:
   architectures:
