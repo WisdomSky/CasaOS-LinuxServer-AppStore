@@ -1,7 +1,7 @@
 name: linuxserver-shadps4
 services:
   app:
-    image: linuxserver/shadps4:shadPS4QtLauncher-2026-04-13-3b97226adb80093400730fdd05f05812f93a7593-ls14
+    image: linuxserver/shadps4:shadPS4QtLauncher-2026-04-15-0673421b2c8e086ed554103901dfe828ab70f66a-ls14
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,7 +36,7 @@ x-casaos:
   description:
     en_us: shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
   tagline:
-    en_us: 'An early PlayStation 4 emulator for Windows, Linux and macOS written in C++. '
+    en_us: An early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png

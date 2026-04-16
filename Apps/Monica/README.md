@@ -1,6 +1,6 @@
 # Monica
 
-An open source personal relationship management system, that lets you document your life. 
+An open source personal relationship management system, that lets you document your life.
 
 ---
 

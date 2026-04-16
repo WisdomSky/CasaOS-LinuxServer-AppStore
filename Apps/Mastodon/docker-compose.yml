@@ -1,7 +1,7 @@
 name: linuxserver-mastodon
 services:
   app:
-    image: linuxserver/mastodon:4.5.8
+    image: linuxserver/mastodon:4.5.9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -192,7 +192,7 @@ x-casaos:
   description:
     en_us: Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
   tagline:
-    en_us: 'A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. . '
+    en_us: A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png

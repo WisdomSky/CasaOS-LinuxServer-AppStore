@@ -1,7 +1,7 @@
 name: linuxserver-steam
 services:
   app:
-    image: linuxserver/steam:version-d1ba7aa1
+    image: linuxserver/steam:332f0d4f-ls19
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,7 +36,7 @@ x-casaos:
   description:
     en_us: Steam is the ultimate destination for playing, discussing, and creating games.
   tagline:
-    en_us: 'The ultimate destination for playing, discussing, and creating games. '
+    en_us: The ultimate destination for playing, discussing, and creating games.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steam-logo.png

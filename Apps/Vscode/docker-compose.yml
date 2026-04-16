@@ -37,7 +37,7 @@ x-casaos:
   description:
     en_us: VS Code is an integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.
   tagline:
-    en_us: 'An integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server. '
+    en_us: An integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscode-logo.png

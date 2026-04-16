@@ -1,5 +1,5 @@
 # Azahar
 
-An open-source 3DS emulator based on Citra. 
+An open-source 3DS emulator based on Citra.
 
 ---

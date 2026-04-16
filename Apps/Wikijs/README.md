@@ -1,5 +1,5 @@
 # Wikijs
 
-A modern, lightweight and powerful wiki app built on NodeJS. 
+A modern, lightweight and powerful wiki app built on NodeJS.
 
 ---
