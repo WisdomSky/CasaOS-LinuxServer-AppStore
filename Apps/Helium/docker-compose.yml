@@ -1,12 +1,13 @@
-name: linuxserver-steam
+name: linuxserver-helium
 services:
   app:
-    image: linuxserver/steam:afde502f-ls20
+    image: linuxserver/helium:0.11.2
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      HELIUM_CLI: ''
     x-casaos:
       envs:
         - container: PUID
@@ -18,6 +19,9 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: HELIUM_CLI
+          description:
+            en_us: Specify one or multiple Chromium CLI flags, this string will be passed to the application in full. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000
@@ -27,21 +31,22 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/steam/config
+        source: /DATA/AppData/helium/config
         target: /config
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
-    en_us: Steam is the ultimate destination for playing, discussing, and creating games.
+    en_us: Helium is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
   tagline:
-    en_us: The ultimate destination for playing, discussing, and creating games.
+    en_us: A Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steam-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steam-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
   title:
-    en_us: Steam
+    en_us: Helium
   category: LinuxServer.io
   port_map: '3000'
