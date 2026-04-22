@@ -1,7 +1,7 @@
 name: linuxserver-intellij-idea
 services:
   app:
-    image: linuxserver/intellij-idea:42026.1.20260414
+    image: linuxserver/intellij-idea:42026.1.20260421
     restart: unless-stopped
     environment:
       PUID: $PUID
