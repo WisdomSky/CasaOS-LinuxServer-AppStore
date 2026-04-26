@@ -1,7 +1,7 @@
-name: linuxserver-rawtherapee
+name: linuxserver-winegui
 services:
   app:
-    image: linuxserver/rawtherapee:5.12.20260426
+    image: linuxserver/winegui:3.1.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,21 +27,21 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/rawtherapee/config
+        source: /DATA/AppData/winegui/config
         target: /config
 x-casaos:
   architectures:
     - amd64
   main: app
   description:
-    en_us: RawTherapee is a free, cross-platform raw image processing program!
+    en_us: WineGUI is a user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
   tagline:
-    en_us: A free, cross-platform raw image processing program.
+    en_us: A user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/winegui-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/winegui-logo.png
   title:
-    en_us: Rawtherapee
+    en_us: Winegui
   category: LinuxServer.io
   port_map: '3000'
