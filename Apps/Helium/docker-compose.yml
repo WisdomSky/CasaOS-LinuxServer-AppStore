@@ -1,7 +1,7 @@
 name: linuxserver-helium
 services:
   app:
-    image: linuxserver/helium:0.11.6
+    image: linuxserver/helium:0.11.7
     restart: unless-stopped
     environment:
       PUID: $PUID
