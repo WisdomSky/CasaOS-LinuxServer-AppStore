@@ -1,7 +1,7 @@
 name: linuxserver-pycharm
 services:
   app:
-    image: linuxserver/pycharm:2026.1.20260424
+    image: linuxserver/pycharm:2026.1.20260501
     restart: unless-stopped
     environment:
       PUID: $PUID
