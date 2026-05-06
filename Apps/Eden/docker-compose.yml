@@ -32,7 +32,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
     en_us: Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.
