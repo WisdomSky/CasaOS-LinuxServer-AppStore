@@ -1,7 +1,7 @@
 name: linuxserver-dolphin
 services:
   app:
-    image: linuxserver/dolphin:version-8882c180
+    image: linuxserver/dolphin:2603a-ls63
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,7 +32,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
     en_us: Dolphin Emulator lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.
