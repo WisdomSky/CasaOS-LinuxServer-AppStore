@@ -1,7 +1,7 @@
 name: linuxserver-limnoria
 services:
   app:
-    image: linuxserver/limnoria:2026.3.21
+    image: linuxserver/limnoria:2026.5.8
     restart: unless-stopped
     environment:
       PUID: $PUID
