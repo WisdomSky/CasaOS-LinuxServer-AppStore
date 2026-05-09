@@ -1,7 +1,7 @@
-name: linuxserver-shadps4
+name: linuxserver-ci-debug
 services:
   app:
-    image: linuxserver/shadps4:version-shadPS4QtLauncher-2026-05-09-d646e6e729b06b31f050d63f863fa7086eaebc38
+    image: linuxserver/ci-debug:933e2702-ls1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,29 +19,26 @@ services:
           description:
             en_us: specify a timezone to use, see this list.
     ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
-      - target: 3001
-        published: 3001
+      - target: 80
+        published: 80
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/shadps4/config
+        source: /DATA/AppData/ci-debug/config
         target: /config
 x-casaos:
   architectures:
     - amd64
   main: app
   description:
-    en_us: shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
+    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci-debug for details.
   tagline:
-    en_us: An early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
+    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci-debug for details.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
+  icon: ''
+  thumbnail: ''
   title:
-    en_us: Shadps4
+    en_us: Ci debug
   category: LinuxServer.io
-  port_map: '3000'
+  port_map: '80'
