@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:8e633cbc-ls15
+    image: linuxserver/webstation:version-b40bd0a7
     restart: unless-stopped
     environment:
       PUID: $PUID
