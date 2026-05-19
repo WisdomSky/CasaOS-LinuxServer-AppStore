@@ -1,7 +1,7 @@
 name: linuxserver-intellij-idea
 services:
   app:
-    image: linuxserver/intellij-idea:42026.1.1
+    image: linuxserver/intellij-idea:42026.1.2
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,7 +32,6 @@ services:
 x-casaos:
   architectures:
     - amd64
-    - arm64
   main: app
   description:
     en_us: IntelliJ IDEA helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.
