@@ -1,7 +1,7 @@
 name: linuxserver-chromium
 services:
   app:
-    image: linuxserver/chromium:kasm-version-259542ea
+    image: linuxserver/chromium:version-1e736296
     restart: unless-stopped
     environment:
       PUID: $PUID
