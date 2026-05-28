@@ -1,7 +1,7 @@
 name: linuxserver-your_spotify
 services:
   app:
-    image: linuxserver/your_spotify:1.19.0
+    image: linuxserver/your_spotify:1.20.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -10,6 +10,7 @@ services:
       APP_URL: ''
       SPOTIFY_PUBLIC: ''
       SPOTIFY_SECRET: ''
+      SPOTIFY_API_DELAY_MS: ''
       CORS: ''
       MONGO_ENDPOINT: ''
     x-casaos:
@@ -32,6 +33,9 @@ services:
         - container: SPOTIFY_SECRET
           description:
             en_us: Your Spotify application secret.
+        - container: SPOTIFY_API_DELAY_MS
+          description:
+            en_us: Minimum delay in milliseconds between each spotify request. Can help with hitting 429 when importing data.
         - container: CORS
           description:
             en_us: Allowed CORS sources, set to all to allow any source.
