@@ -1,7 +1,7 @@
 name: linuxserver-duckdns
 services:
   app:
-    image: linuxserver/duckdns:version-0ecffdc7
+    image: linuxserver/duckdns:version-d67e71cc
     restart: unless-stopped
     environment:
       PUID: $PUID
