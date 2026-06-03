@@ -1,7 +1,7 @@
 name: linuxserver-vscode
 services:
   app:
-    image: linuxserver/vscode:1.121.0
+    image: linuxserver/vscode:1.122.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -31,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: VS Code is an integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.
