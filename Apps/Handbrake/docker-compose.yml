@@ -1,7 +1,7 @@
 name: linuxserver-handbrake
 services:
   app:
-    image: linuxserver/handbrake:1.11.1
+    image: linuxserver/handbrake:1.11.2
     restart: unless-stopped
     environment:
       PUID: $PUID
