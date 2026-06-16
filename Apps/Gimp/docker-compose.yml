@@ -1,7 +1,7 @@
 name: linuxserver-gimp
 services:
   app:
-    image: linuxserver/gimp:version-e10e47d2
+    image: linuxserver/gimp:version-018fa2c5
     restart: unless-stopped
     environment:
       PUID: $PUID
