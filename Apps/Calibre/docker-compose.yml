@@ -1,7 +1,7 @@
 name: linuxserver-calibre
 services:
   app:
-    image: linuxserver/calibre:9.9.0
+    image: linuxserver/calibre:9.10.0
     restart: unless-stopped
     environment:
       PUID: $PUID
