@@ -1,7 +1,7 @@
 name: linuxserver-modrinth
 services:
   app:
-    image: linuxserver/modrinth:0.15.7
+    image: linuxserver/modrinth:0.15.8
     restart: unless-stopped
     environment:
       PUID: $PUID
