@@ -1,13 +1,15 @@
 name: linuxserver-kimai
 services:
   app:
-    image: linuxserver/kimai:2.61.0
+    image: linuxserver/kimai:2.62.0
     restart: unless-stopped
     environment:
       PUID: $PUID
       PGID: $PGID
       TZ: $TZ
+      APP_SECRET: ''
       DATABASE_URL: ''
+      TRUSTED_HOSTS: ''
       TRUSTED_PROXIES: ''
     x-casaos:
       envs:
@@ -20,9 +22,15 @@ services:
         - container: TZ
           description:
             en_us: specify a timezone to use, see this list.
+        - container: APP_SECRET
+          description:
+            en_us: Random string used for session encryption. Generate using e.g. openssl rand -hex 32.
         - container: DATABASE_URL
           description:
             en_us: Configure your database connection, see Application Setup instructions.
+        - container: TRUSTED_HOSTS
+          description:
+            en_us: Domain or IP you will be using to access Kimai. Can be a regex like localhost|127.0.0.1|kimai.example.com
         - container: TRUSTED_PROXIES
           description:
             en_us: If behind a reverse proxy set this to its IP or network CIDR so that Kimai trusts its headers. [OPTIONAL]

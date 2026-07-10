@@ -1,6 +1,6 @@
 # Nginx
 
-A simple webserver with php support. The config files reside in /config for easy user customization.
+An HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
 
 ---
 
