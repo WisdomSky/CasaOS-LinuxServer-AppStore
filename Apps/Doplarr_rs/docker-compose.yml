@@ -1,7 +1,7 @@
-name: linuxserver-modrinth
+name: linuxserver-doplarr_rs
 services:
   app:
-    image: linuxserver/modrinth:0.15.10
+    image: linuxserver/doplarr_rs:4.5.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -19,29 +19,27 @@ services:
           description:
             en_us: specify a timezone to use, see this list.
     ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
-      - target: 3001
-        published: 3001
+      - target: 80
+        published: 80
         protocol: tcp
     volumes:
       - type: bind
-        source: /DATA/AppData/modrinth/config
+        source: /DATA/AppData/doplarr_rs/config
         target: /config
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
-    en_us: Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.
+    en_us: Doplarr_rs is a Discord bot for requesting media through *arr backends, written in Rust.
   tagline:
-    en_us: A unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.
+    en_us: A Discord bot for requesting media through *arr backends, written in Rust.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/modrinth-logo.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/modrinth-logo.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   title:
-    en_us: Modrinth
+    en_us: Doplarr_rs
   category: LinuxServer.io
-  port_map: '3000'
+  port_map: '80'
