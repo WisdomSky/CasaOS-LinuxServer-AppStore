@@ -1,7 +1,7 @@
 name: linuxserver-vscode
 services:
   app:
-    image: linuxserver/vscode:1.127.0
+    image: linuxserver/vscode:1.128.0
     restart: unless-stopped
     environment:
       PUID: $PUID
