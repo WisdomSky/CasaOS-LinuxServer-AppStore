@@ -1,7 +1,7 @@
 name: linuxserver-winegui
 services:
   app:
-    image: linuxserver/winegui:3.1.0
+    image: linuxserver/winegui:4.0.0
     restart: unless-stopped
     environment:
       PUID: $PUID
