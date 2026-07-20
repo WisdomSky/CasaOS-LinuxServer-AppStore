@@ -1,7 +1,7 @@
 name: linuxserver-flycast
 services:
   app:
-    image: linuxserver/flycast:2.6.20260712
+    image: linuxserver/flycast:2.6.20260719
     restart: unless-stopped
     environment:
       PUID: $PUID
