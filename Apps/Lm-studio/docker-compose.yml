@@ -1,7 +1,7 @@
 name: linuxserver-lm-studio
 services:
   app:
-    image: linuxserver/lm-studio:version-2026-07-17
+    image: linuxserver/lm-studio:version-2026-07-24
     restart: unless-stopped
     environment:
       PUID: $PUID
