@@ -1,7 +1,7 @@
 name: linuxserver-rawtherapee
 services:
   app:
-    image: linuxserver/rawtherapee:5.12.20260726
+    image: linuxserver/rawtherapee:5.13.20260726
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,6 +32,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: app
   description:
     en_us: RawTherapee is a free, cross-platform raw image processing program!
