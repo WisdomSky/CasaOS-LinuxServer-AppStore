@@ -31,8 +31,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - arm64
     - amd64
+    - arm64
   main: app
   description:
     en_us: DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
