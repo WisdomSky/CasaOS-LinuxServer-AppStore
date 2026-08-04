@@ -52,8 +52,8 @@ services:
         target: /config
 x-casaos:
   architectures:
-    - amd64
     - arm64
+    - amd64
   main: app
   description:
     en_us: Mariadb is one of the most popular database servers. Made by the original developers of MySQL.
