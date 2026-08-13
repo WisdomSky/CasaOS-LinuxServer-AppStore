@@ -1,7 +1,7 @@
 name: linuxserver-kometa
 services:
   app:
-    image: linuxserver/kometa:2.4.6
+    image: linuxserver/kometa:2.4.7
     restart: unless-stopped
     environment:
       PUID: $PUID
