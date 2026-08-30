@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "store_id": "casaos-linuxserver-appstore",
+  "name": {
+    "en_US": "LinuxServer Appstore",
+    "zh_CN": "LinuxServer 应用商店"
+  },
+  "description": {
+    "en_US": "A custom Appstore containing over 100+ LinuxServer.io images.",
+    "zh_CN": "一个自定义应用商店，包含 100 多个来自 [LinuxServer.io](https://www.linuxserver.io/) 的镜像。"
+  },
+  "maintainer": "WisdomSky",
+  "url": "https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore"
+}
