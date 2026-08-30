@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
   title:
-    en_us: Rawtherapee
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Rawtherapee
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverrawtherapee
   port_map: '3000'

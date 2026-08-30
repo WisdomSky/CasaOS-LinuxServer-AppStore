@@ -55,6 +55,7 @@ x-casaos:
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   title:
-    en_us: Smokeping
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Smokeping
+  category: Home
+  id: wisdomsky.linuxserver.linuxserversmokeping
   port_map: '80'

@@ -51,6 +51,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png
   title:
-    en_us: Phpmyadmin
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Phpmyadmin
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverphpmyadmin
   port_map: '8081'

@@ -47,6 +47,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
   title:
-    en_us: Ungoogled chromium
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Ungoogled chromium
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverungoogledchromium
   port_map: '3000'

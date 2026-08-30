@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/spotube-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/spotube-logo.png
   title:
-    en_us: Spotube
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Spotube
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverspotube
   port_map: '3000'

@@ -39,6 +39,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pelorus-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pelorus-logo.png
   title:
-    en_us: Pelorus
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Pelorus
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverpelorus
   port_map: '3001'

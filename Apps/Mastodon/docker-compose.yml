@@ -198,6 +198,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   title:
-    en_us: Mastodon
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Mastodon
+  category: Home
+  id: wisdomsky.linuxserver.linuxservermastodon
   port_map: '80'

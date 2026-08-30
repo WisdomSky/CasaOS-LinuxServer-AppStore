@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   title:
-    en_us: Kdenlive
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Kdenlive
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverkdenlive
   port_map: '3000'

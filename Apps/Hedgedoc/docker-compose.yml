@@ -84,6 +84,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   title:
-    en_us: Hedgedoc
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Hedgedoc
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverhedgedoc
   port_map: '3000'

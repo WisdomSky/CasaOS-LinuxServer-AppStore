@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/prowlarr-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/prowlarr-banner.png
   title:
-    en_us: Prowlarr
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Prowlarr
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverprowlarr
   port_map: '9696'

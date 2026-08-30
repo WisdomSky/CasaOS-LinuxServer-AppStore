@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   title:
-    en_us: Pidgin
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Pidgin
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverpidgin
   port_map: '3000'

@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG
   thumbnail: https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG
   title:
-    en_us: Davos
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Davos
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverdavos
   port_map: '8080'

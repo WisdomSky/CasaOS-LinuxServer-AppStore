@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calligra-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calligra-logo.png
   title:
-    en_us: Calligra
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Calligra
+  category: Home
+  id: wisdomsky.linuxserver.linuxservercalligra
   port_map: '3000'

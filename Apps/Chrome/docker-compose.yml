@@ -47,6 +47,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
   title:
-    en_us: Chrome
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Chrome
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverchrome
   port_map: '3000'

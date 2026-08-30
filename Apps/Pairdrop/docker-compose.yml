@@ -56,6 +56,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
   thumbnail: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
   title:
-    en_us: Pairdrop
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Pairdrop
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverpairdrop
   port_map: '3000'

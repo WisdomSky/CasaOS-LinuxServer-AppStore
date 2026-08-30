@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/obsidian-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/obsidian-logo.png
   title:
-    en_us: Obsidian
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Obsidian
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverobsidian
   port_map: '3000'

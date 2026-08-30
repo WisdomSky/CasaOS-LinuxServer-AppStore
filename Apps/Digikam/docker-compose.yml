@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   title:
-    en_us: Digikam
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Digikam
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverdigikam
   port_map: '3000'

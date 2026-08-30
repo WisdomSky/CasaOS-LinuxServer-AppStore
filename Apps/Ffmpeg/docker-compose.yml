@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ffmpeg.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ffmpeg.png
   title:
-    en_us: Ffmpeg
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Ffmpeg
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverffmpeg
   port_map: '80'

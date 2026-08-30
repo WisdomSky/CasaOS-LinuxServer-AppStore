@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   title:
-    en_us: Mysql workbench
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Mysql workbench
+  category: Home
+  id: wisdomsky.linuxserver.linuxservermysqlworkbench
   port_map: '3000'

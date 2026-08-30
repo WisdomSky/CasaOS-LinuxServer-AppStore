@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png
   title:
-    en_us: Telegram
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Telegram
+  category: Home
+  id: wisdomsky.linuxserver.linuxservertelegram
   port_map: '3000'

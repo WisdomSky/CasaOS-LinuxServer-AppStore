@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png
   title:
-    en_us: Rsnapshot
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Rsnapshot
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverrsnapshot
   port_map: '80'

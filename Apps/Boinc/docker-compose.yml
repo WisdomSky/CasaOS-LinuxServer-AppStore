@@ -47,6 +47,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
   thumbnail: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
   title:
-    en_us: Boinc
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Boinc
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverboinc
   port_map: '8080'

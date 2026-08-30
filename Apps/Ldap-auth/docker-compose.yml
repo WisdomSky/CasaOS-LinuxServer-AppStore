@@ -55,5 +55,6 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ldap-auth-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ldap-auth-logo.png
   title:
-    en_us: Ldap auth
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Ldap auth
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverldapauth

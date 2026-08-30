@@ -46,6 +46,7 @@ x-casaos:
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   title:
-    en_us: Pyload ng
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Pyload ng
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverpyloadng
   port_map: '8000'

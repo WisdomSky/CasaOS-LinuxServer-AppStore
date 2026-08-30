@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
   title:
-    en_us: Brave
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Brave
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverbrave
   port_map: '3000'

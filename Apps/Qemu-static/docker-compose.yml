@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qemu-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qemu-logo.png
   title:
-    en_us: Qemu static
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Qemu static
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverqemustatic
   port_map: '80'

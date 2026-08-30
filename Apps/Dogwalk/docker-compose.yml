@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dogwalk-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dogwalk-logo.png
   title:
-    en_us: Dogwalk
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Dogwalk
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverdogwalk
   port_map: '3000'

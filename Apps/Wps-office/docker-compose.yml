@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png
   title:
-    en_us: Wps office
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Wps office
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverwpsoffice
   port_map: '3000'

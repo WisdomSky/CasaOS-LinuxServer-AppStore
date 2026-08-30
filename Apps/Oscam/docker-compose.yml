@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   title:
-    en_us: Oscam
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Oscam
+  category: Home
+  id: wisdomsky.linuxserver.linuxserveroscam
   port_map: '8888'

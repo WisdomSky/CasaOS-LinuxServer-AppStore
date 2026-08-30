@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png
   title:
-    en_us: Modmanager
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Modmanager
+  category: Home
+  id: wisdomsky.linuxserver.linuxservermodmanager
   port_map: '80'

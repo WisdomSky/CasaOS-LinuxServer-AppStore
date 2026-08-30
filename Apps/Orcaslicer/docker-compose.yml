@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png
   title:
-    en_us: Orcaslicer
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Orcaslicer
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverorcaslicer
   port_map: '3000'

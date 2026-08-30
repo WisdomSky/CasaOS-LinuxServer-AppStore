@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
   title:
-    en_us: Yaak
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Yaak
+  category: Home
+  id: wisdomsky.linuxserver.linuxserveryaak
   port_map: '3000'

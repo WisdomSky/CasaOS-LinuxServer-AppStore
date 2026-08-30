@@ -47,6 +47,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
   title:
-    en_us: Helium
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Helium
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverhelium
   port_map: '3000'

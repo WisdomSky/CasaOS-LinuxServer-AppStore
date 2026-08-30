@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png
   title:
-    en_us: Radarr
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Radarr
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverradarr
   port_map: '7878'

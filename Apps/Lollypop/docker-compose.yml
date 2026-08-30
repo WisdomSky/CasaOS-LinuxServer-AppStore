@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   title:
-    en_us: Lollypop
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Lollypop
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverlollypop
   port_map: '3000'

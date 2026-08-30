@@ -67,6 +67,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   title:
-    en_us: Your_spotify
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Your_spotify
+  category: Home
+  id: wisdomsky.linuxserver.linuxserveryourspotify
   port_map: '80'

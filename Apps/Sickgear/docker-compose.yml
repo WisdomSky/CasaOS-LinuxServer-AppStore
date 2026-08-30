@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png
   thumbnail: https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png
   title:
-    en_us: Sickgear
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Sickgear
+  category: Home
+  id: wisdomsky.linuxserver.linuxserversickgear
   port_map: '8081'

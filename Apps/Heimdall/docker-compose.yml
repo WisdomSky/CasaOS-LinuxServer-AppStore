@@ -47,6 +47,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png
   title:
-    en_us: Heimdall
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Heimdall
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverheimdall
   port_map: '80'

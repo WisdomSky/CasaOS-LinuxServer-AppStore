@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   title:
-    en_us: Audacity
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Audacity
+  category: Home
+  id: wisdomsky.linuxserver.linuxserveraudacity
   port_map: '3000'

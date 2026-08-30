@@ -44,6 +44,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minetest-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minetest-icon.png
   title:
-    en_us: Luanti
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Luanti
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverluanti
   port_map: '30000'

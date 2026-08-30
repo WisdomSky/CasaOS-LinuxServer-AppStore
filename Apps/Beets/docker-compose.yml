@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png
   title:
-    en_us: Beets
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Beets
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverbeets
   port_map: '8337'

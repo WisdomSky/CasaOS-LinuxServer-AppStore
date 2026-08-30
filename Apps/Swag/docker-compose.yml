@@ -102,6 +102,7 @@ x-casaos:
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/swag.gif
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/swag.gif
   title:
-    en_us: Swag
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Swag
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverswag
   port_map: '80'

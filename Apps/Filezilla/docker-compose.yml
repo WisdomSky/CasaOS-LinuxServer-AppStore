@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   title:
-    en_us: Filezilla
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Filezilla
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverfilezilla
   port_map: '3000'

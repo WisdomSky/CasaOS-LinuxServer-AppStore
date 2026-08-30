@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png
   title:
-    en_us: Inkscape
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Inkscape
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverinkscape
   port_map: '3000'

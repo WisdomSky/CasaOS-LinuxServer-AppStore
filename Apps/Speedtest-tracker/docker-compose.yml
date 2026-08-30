@@ -88,6 +88,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   title:
-    en_us: Speedtest tracker
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Speedtest tracker
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverspeedtesttracker
   port_map: '80'

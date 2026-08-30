@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png
   title:
-    en_us: Htpcmanager
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Htpcmanager
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverhtpcmanager
   port_map: '8085'

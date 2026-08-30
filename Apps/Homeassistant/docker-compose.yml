@@ -40,6 +40,7 @@ x-casaos:
   icon: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
   thumbnail: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
   title:
-    en_us: Homeassistant
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Homeassistant
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverhomeassistant
   port_map: '8123'

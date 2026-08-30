@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
   title:
-    en_us: Bazarr
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Bazarr
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverbazarr
   port_map: '6767'

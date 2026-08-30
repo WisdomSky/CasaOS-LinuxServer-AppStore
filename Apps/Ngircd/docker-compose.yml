@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ngircd-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ngircd-logo.png
   title:
-    en_us: Ngircd
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Ngircd
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverngircd
   port_map: '6667'

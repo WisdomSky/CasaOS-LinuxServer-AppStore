@@ -44,6 +44,7 @@ x-casaos:
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   title:
-    en_us: Babybuddy
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Babybuddy
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverbabybuddy
   port_map: '8000'

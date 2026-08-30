@@ -51,6 +51,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png
   title:
-    en_us: Jackett
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Jackett
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverjackett
   port_map: '9117'

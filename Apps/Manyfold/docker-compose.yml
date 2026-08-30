@@ -55,6 +55,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
   title:
-    en_us: Manyfold
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Manyfold
+  category: Home
+  id: wisdomsky.linuxserver.linuxservermanyfold
   port_map: '3214'

@@ -100,6 +100,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png
   title:
-    en_us: Unifi network-application
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Unifi network-application
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverunifinetworkapplication
   port_map: '8080'

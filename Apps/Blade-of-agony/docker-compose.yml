@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boa-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boa-logo.png
   title:
-    en_us: Blade of-agony
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Blade of-agony
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverbladeofagony
   port_map: '3000'

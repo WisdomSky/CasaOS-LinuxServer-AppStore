@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pcsx2-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pcsx2-logo.png
   title:
-    en_us: Pcsx2
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Pcsx2
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverpcsx2
   port_map: '3000'

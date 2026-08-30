@@ -1,4 +1,4 @@
-# Pcsx2
+# (LinuxServer.io)Pcsx2
 
 An open source PS2 Emulator.
 

@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/intellij-idea-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/intellij-idea-logo.png
   title:
-    en_us: Intellij idea
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Intellij idea
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverintellijidea
   port_map: '3000'

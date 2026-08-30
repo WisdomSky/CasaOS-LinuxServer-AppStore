@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true
   thumbnail: https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true
   title:
-    en_us: Thelounge
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Thelounge
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverthelounge
   port_map: '9000'

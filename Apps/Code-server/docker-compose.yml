@@ -68,6 +68,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png
   title:
-    en_us: Code server
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Code server
+  category: Home
+  id: wisdomsky.linuxserver.linuxservercodeserver
   port_map: '8443'

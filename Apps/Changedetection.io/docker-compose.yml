@@ -48,6 +48,7 @@ x-casaos:
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   title:
-    en_us: Changedetection. Io
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Changedetection. Io
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverchangedetectionio
   port_map: '5000'

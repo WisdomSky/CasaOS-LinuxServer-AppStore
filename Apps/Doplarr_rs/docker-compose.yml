@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   title:
-    en_us: Doplarr_rs
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Doplarr_rs
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverdoplarrrs
   port_map: '80'

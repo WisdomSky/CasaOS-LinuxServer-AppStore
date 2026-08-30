@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   title:
-    en_us: Zen
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Zen
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverzen
   port_map: '3000'

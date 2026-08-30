@@ -80,6 +80,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openssh-server-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openssh-server-logo.png
   title:
-    en_us: Openssh server
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Openssh server
+  category: Home
+  id: wisdomsky.linuxserver.linuxserveropensshserver
   port_map: '2222'

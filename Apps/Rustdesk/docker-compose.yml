@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
   title:
-    en_us: Rustdesk
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Rustdesk
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverrustdesk
   port_map: '3000'

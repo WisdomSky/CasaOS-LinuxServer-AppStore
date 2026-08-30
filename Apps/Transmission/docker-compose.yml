@@ -76,5 +76,6 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   title:
-    en_us: Transmission
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Transmission
+  category: Home
+  id: wisdomsky.linuxserver.linuxservertransmission

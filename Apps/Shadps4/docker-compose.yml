@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
   title:
-    en_us: Shadps4
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Shadps4
+  category: Home
+  id: wisdomsky.linuxserver.linuxservershadps4
   port_map: '3000'

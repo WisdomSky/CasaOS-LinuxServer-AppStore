@@ -52,6 +52,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png
   title:
-    en_us: Mullvad browser
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Mullvad browser
+  category: Home
+  id: wisdomsky.linuxserver.linuxservermullvadbrowser
   port_map: '3000'

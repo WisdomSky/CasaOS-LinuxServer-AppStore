@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   title:
-    en_us: Bitcoin knots
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Bitcoin knots
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverbitcoinknots
   port_map: '3000'

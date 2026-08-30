@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
   title:
-    en_us: Kali linux
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Kali linux
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverkalilinux
   port_map: '3000'

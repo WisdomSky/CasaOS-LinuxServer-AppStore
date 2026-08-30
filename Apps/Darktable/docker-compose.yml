@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png
   title:
-    en_us: Darktable
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Darktable
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverdarktable
   port_map: '3000'

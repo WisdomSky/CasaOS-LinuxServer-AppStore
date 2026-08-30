@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/scummvm-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/scummvm-logo.png
   title:
-    en_us: Scummvm
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Scummvm
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverscummvm
   port_map: '3000'

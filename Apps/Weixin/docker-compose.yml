@@ -43,6 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
   title:
-    en_us: Weixin
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Weixin
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverweixin
   port_map: '3000'

@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wireshark-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wireshark-icon.png
   title:
-    en_us: Wireshark
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Wireshark
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverwireshark
   port_map: '80'

@@ -56,6 +56,7 @@ x-casaos:
   icon: https://kasm-ci.s3.amazonaws.com/kasm_wide.png
   thumbnail: https://kasm-ci.s3.amazonaws.com/kasm_wide.png
   title:
-    en_us: Kasm
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Kasm
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverkasm
   port_map: '3000'

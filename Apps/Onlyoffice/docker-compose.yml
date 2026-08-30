@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/onlyoffice-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/onlyoffice-logo.png
   title:
-    en_us: Onlyoffice
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Onlyoffice
+  category: Home
+  id: wisdomsky.linuxserver.linuxserveronlyoffice
   port_map: '3000'

@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/azahar-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/azahar-logo.png
   title:
-    en_us: Azahar
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Azahar
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverazahar
   port_map: '3000'

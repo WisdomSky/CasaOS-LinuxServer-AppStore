@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/limnoria-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/limnoria-icon.png
   title:
-    en_us: Limnoria
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Limnoria
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverlimnoria
   port_map: '8080'

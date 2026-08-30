@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lmstudio-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lmstudio-logo.png
   title:
-    en_us: Lm studio
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Lm studio
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverlmstudio
   port_map: '3000'

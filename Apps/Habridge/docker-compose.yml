@@ -47,6 +47,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/habridge-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/habridge-logo.png
   title:
-    en_us: Habridge
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Habridge
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverhabridge
   port_map: '8080'

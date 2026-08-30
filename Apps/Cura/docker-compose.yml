@@ -42,6 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cura-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cura-logo.png
   title:
-    en_us: Cura
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Cura
+  category: Home
+  id: wisdomsky.linuxserver.linuxservercura
   port_map: '3000'

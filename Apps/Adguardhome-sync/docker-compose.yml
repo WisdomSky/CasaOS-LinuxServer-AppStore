@@ -44,6 +44,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   title:
-    en_us: Adguardhome sync
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Adguardhome sync
+  category: Home
+  id: wisdomsky.linuxserver.linuxserveradguardhomesync
   port_map: '8080'

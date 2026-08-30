@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-logo.png
   title:
-    en_us: Grocy
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Grocy
+  category: Home
+  id: wisdomsky.linuxserver.linuxservergrocy
   port_map: '80'

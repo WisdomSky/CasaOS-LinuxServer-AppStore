@@ -40,6 +40,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   title:
-    en_us: Grav
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Grav
+  category: Home
+  id: wisdomsky.linuxserver.linuxservergrav
   port_map: '80'

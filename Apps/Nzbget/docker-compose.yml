@@ -51,6 +51,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png
   title:
-    en_us: Nzbget
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Nzbget
+  category: Home
+  id: wisdomsky.linuxserver.linuxservernzbget
   port_map: '6789'

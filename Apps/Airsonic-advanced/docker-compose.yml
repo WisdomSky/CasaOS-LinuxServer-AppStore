@@ -60,6 +60,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png
   title:
-    en_us: Airsonic advanced
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Airsonic advanced
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverairsonicadvanced
   port_map: '4040'

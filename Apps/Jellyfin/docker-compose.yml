@@ -59,5 +59,6 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
   title:
-    en_us: Jellyfin
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Jellyfin
+  category: Home
+  id: wisdomsky.linuxserver.linuxserverjellyfin

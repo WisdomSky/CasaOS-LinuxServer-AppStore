@@ -46,6 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   title:
-    en_us: Nextcloud
-  category: LinuxServer.io
+    en_us: (LinuxServer.io)Nextcloud
+  category: Home
+  id: wisdomsky.linuxserver.linuxservernextcloud
   port_map: '80'
