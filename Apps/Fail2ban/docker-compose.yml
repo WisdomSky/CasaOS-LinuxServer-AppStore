@@ -98,7 +98,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   title:
-    en_us: (LinuxServer.io)Fail2ban
+    en_us: Fail2ban (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverfail2ban
   port_map: '80'

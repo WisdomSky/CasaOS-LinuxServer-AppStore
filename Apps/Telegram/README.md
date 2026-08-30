@@ -1,4 +1,4 @@
-# (LinuxServer.io)Telegram
+# Telegram
 
 A cloud-based mobile and desktop messaging app.
 

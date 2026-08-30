@@ -64,7 +64,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   title:
-    en_us: (LinuxServer.io)Mariadb
+    en_us: Mariadb (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservermariadb
   port_map: '3306'

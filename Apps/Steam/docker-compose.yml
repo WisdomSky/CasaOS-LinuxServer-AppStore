@@ -42,7 +42,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steam-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steam-logo.png
   title:
-    en_us: (LinuxServer.io)Steam
+    en_us: Steam (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserversteam
   port_map: '3000'

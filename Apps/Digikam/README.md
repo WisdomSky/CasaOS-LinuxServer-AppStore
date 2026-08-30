@@ -1,4 +1,4 @@
-# (LinuxServer.io)Digikam
+# Digikam
 
 digiKam: Professional Photo Management with the Power of Open Source
 

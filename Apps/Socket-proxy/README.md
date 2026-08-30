@@ -1,4 +1,4 @@
-# (LinuxServer.io)Socket proxy
+# Socket proxy
 
 This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/socket-proxy for details.
 

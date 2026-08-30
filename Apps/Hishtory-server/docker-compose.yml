@@ -48,7 +48,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png
   title:
-    en_us: (LinuxServer.io)Hishtory server
+    en_us: Hishtory server (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverhishtoryserver
   port_map: '8080'

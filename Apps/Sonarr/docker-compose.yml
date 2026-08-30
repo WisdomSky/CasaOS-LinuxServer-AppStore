@@ -46,7 +46,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png
   title:
-    en_us: (LinuxServer.io)Sonarr
+    en_us: Sonarr (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserversonarr
   port_map: '8989'

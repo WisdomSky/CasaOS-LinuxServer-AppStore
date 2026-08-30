@@ -51,7 +51,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
   title:
-    en_us: (LinuxServer.io)Calibre web
+    en_us: Calibre web (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservercalibreweb
   port_map: '8083'

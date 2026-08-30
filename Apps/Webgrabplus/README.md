@@ -1,4 +1,4 @@
-# (LinuxServer.io)Webgrabplus
+# Webgrabplus
 
 A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
 

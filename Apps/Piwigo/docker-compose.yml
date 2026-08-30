@@ -43,7 +43,7 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
   title:
-    en_us: (LinuxServer.io)Piwigo
+    en_us: Piwigo (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverpiwigo
   port_map: '80'
