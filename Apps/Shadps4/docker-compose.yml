@@ -1,7 +1,7 @@
 name: linuxserver-shadps4
 services:
   app:
-    image: linuxserver/shadps4:shadPS4QtLauncher-2026-08-26-d2c682c01cbea32abe57a6dda2cd8404ba503f15-ls38
+    image: linuxserver/shadps4:shadPS4QtLauncher-2026-08-31-bcebdf7d53eaff384d62bfef169a4e98ce284390-ls39
     restart: unless-stopped
     environment:
       PUID: $PUID
