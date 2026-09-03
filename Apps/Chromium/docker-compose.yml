@@ -1,7 +1,7 @@
 name: linuxserver-chromium
 services:
   app:
-    image: linuxserver/chromium:arm64v8-version-d39975b5
+    image: linuxserver/chromium:version-d39975b5
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -35,6 +35,7 @@ services:
         target: /config
 x-casaos:
   architectures:
+    - amd64
     - arm64
   main: app
   description:

@@ -1,7 +1,7 @@
 name: linuxserver-doublecommander
 services:
   app:
-    image: linuxserver/doublecommander:version-cb6fb758
+    image: linuxserver/doublecommander:arm64v8-version-47f5ef2f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -34,7 +34,6 @@ services:
         target: /data
 x-casaos:
   architectures:
-    - amd64
     - arm64
   main: app
   description:
