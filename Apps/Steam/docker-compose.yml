@@ -1,7 +1,7 @@
 name: linuxserver-steam
 services:
   app:
-    image: linuxserver/steam:version-e585948a
+    image: linuxserver/steam:version-0779c5e2
     restart: unless-stopped
     environment:
       PUID: $PUID
