@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -34,15 +34,16 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
+    en_US: shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
   tagline:
-    en_us: An early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
+    en_US: An early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
   title:
-    en_us: Shadps4 (LinuxServer.io)
+    en_US: Shadps4 (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservershadps4
+  version: "0.0.1"
   port_map: '3000'

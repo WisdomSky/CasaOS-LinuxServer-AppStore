@@ -30,6 +30,12 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 
     https://casaos-appstore.paodayag.dev/linuxserver.zip
 
+### ZimaOS / App Store Protocol v2 URL
+
+    https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/store.json
+
+The v2 store is built with the official `IceWhaleTech/build-appstore-action` and published from tagged releases.
+
 ## ✅ Installation
 
 - Go to your CasaOS dashboard.

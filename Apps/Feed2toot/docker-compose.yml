@@ -12,33 +12,35 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: FEED_LIMIT
           description:
-            en_us: Limit number of RSS entries published at each execution.
+            en_US: Limit number of RSS entries published at each execution.
     volumes:
       - type: bind
         source: /DATA/AppData/feed2toot/config
         target: /config
 x-casaos:
+  id: wisdomsky.linuxserver.linuxserverfeed2toot
+  version: "0.17.20250110"
   architectures:
     - amd64
     - arm64
   main: app
   description:
-    en_us: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
+    en_US: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
   tagline:
-    en_us: 'Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network. '
+    en_US: 'Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network. '
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
-  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@main/default-icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@main/default-icon.svg
   title:
-    en_us: Feed2toot
-  category: LinuxServer.io
+    en_US: Feed2toot
+  category: Others

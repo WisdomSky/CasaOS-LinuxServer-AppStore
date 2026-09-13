@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: PASSWORD
           description:
-            en_us: Optionally set a password for the gui. [OPTIONAL]
+            en_US: Optionally set a password for the gui. [OPTIONAL]
         - container: CLI_ARGS
           description:
-            en_us: Optionally pass cli start arguments to calibre. [OPTIONAL]
+            en_US: Optionally pass cli start arguments to calibre. [OPTIONAL]
     ports:
       - target: 8080
         published: 8080
@@ -46,15 +46,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
+    en_US: Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
   tagline:
-    en_us: A powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
+    en_US: A powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-logo.png
   title:
-    en_us: Calibre (LinuxServer.io)
+    en_US: Calibre (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservercalibre
+  version: "9.14.0"
   port_map: '8080'

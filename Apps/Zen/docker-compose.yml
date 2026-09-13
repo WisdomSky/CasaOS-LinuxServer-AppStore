@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -35,15 +35,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    en_US: Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
   tagline:
-    en_us: A free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    en_US: A free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   title:
-    en_us: Zen (LinuxServer.io)
+    en_US: Zen (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverzen
+  version: "1.21.16"
   port_map: '3000'

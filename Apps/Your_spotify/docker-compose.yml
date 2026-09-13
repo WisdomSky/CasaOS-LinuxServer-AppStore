@@ -17,31 +17,31 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: APP_URL
           description:
-            en_us: The protocol and hostname where the app will be accessed.
+            en_US: The protocol and hostname where the app will be accessed.
         - container: SPOTIFY_PUBLIC
           description:
-            en_us: Your Spotify application client ID.
+            en_US: Your Spotify application client ID.
         - container: SPOTIFY_SECRET
           description:
-            en_us: Your Spotify application secret.
+            en_US: Your Spotify application secret.
         - container: SPOTIFY_API_DELAY_MS
           description:
-            en_us: Minimum delay in milliseconds between each spotify request. Can help with hitting 429 when importing data.
+            en_US: Minimum delay in milliseconds between each spotify request. Can help with hitting 429 when importing data.
         - container: CORS
           description:
-            en_us: Allowed CORS sources, set to all to allow any source.
+            en_US: Allowed CORS sources, set to all to allow any source.
         - container: MONGO_ENDPOINT
           description:
-            en_us: Set mongodb endpoint address/port.
+            en_US: Set mongodb endpoint address/port.
     ports:
       - target: 80
         published: 80
@@ -59,15 +59,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
+    en_US: Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
   tagline:
-    en_us: A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
+    en_US: A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   title:
-    en_us: Your_spotify (LinuxServer.io)
+    en_US: Your_spotify (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserveryourspotify
+  version: "1.20.0"
   port_map: '80'

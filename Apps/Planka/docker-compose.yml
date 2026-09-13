@@ -20,40 +20,40 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: BASE_URL
           description:
-            en_us: The URL you will use to access planka including protocol, and port if not 80/443.
+            en_US: The URL you will use to access planka including protocol, and port if not 80/443.
         - container: DATABASE_URL
           description:
-            en_us: Postgres database URL. Special characters must be url encoded.
+            en_US: Postgres database URL. Special characters must be url encoded.
         - container: DEFAULT_ADMIN_EMAIL
           description:
-            en_us: Email address for default user.
+            en_US: Email address for default user.
         - container: DEFAULT_ADMIN_USERNAME
           description:
-            en_us: Username for default user.
+            en_US: Username for default user.
         - container: DEFAULT_ADMIN_PASSWORD
           description:
-            en_us: Password for default user.
+            en_US: Password for default user.
         - container: DEFAULT_ADMIN_NAME
           description:
-            en_us: Display name for default user.
+            en_US: Display name for default user.
         - container: SECRET_KEY
           description:
-            en_us: Session encryption key, recommended 32-64 character alphanumeric.
+            en_US: Session encryption key, recommended 32-64 character alphanumeric.
         - container: TRUST_PROXY
           description:
-            en_us: Set to true to trust upstream proxies if reverse proxying.
+            en_US: Set to true to trust upstream proxies if reverse proxying.
         - container: DEFAULT_LANGUAGE
           description:
-            en_us: This sets the default language for sending notifications per user (if a user hasn't selected a language) and per board. [OPTIONAL]
+            en_US: This sets the default language for sending notifications per user (if a user hasn't selected a language) and per board. [OPTIONAL]
     ports:
       - target: 1337
         published: 1337
@@ -68,15 +68,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Planka is an elegant open source project tracking tool.
+    en_US: Planka is an elegant open source project tracking tool.
   tagline:
-    en_us: An elegant open source project tracking tool.
+    en_US: An elegant open source project tracking tool.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
   title:
-    en_us: Planka (LinuxServer.io)
+    en_US: Planka (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverplanka
+  version: "2.2.1"
   port_map: '1337'

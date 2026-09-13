@@ -49,127 +49,127 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: LOCAL_DOMAIN
           description:
-            en_us: This is the unique identifier of your server in the network. It cannot be safely changed later.
+            en_US: This is the unique identifier of your server in the network. It cannot be safely changed later.
         - container: REDIS_HOST
           description:
-            en_us: Redis server hostname
+            en_US: Redis server hostname
         - container: REDIS_PORT
           description:
-            en_us: Redis port
+            en_US: Redis port
         - container: DB_HOST
           description:
-            en_us: Postgres database hostname
+            en_US: Postgres database hostname
         - container: DB_USER
           description:
-            en_us: Postgres username
+            en_US: Postgres username
         - container: DB_NAME
           description:
-            en_us: Postgres db name
+            en_US: Postgres db name
         - container: DB_PASS
           description:
-            en_us: Postgres password
+            en_US: Postgres password
         - container: DB_PORT
           description:
-            en_us: Postgres port
+            en_US: Postgres port
         - container: ES_ENABLED
           description:
-            en_us: Enable or disable Elasticsearch (requires a separate ES instance)
+            en_US: Enable or disable Elasticsearch (requires a separate ES instance)
         - container: ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY
           description:
-            en_us: Primary key for Active Record Encryption.
+            en_US: Primary key for Active Record Encryption.
         - container: ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY
           description:
-            en_us: Deterministic key for Active Record Encryption.
+            en_US: Deterministic key for Active Record Encryption.
         - container: ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT
           description:
-            en_us: Derivation salt for Active Record Encryption.
+            en_US: Derivation salt for Active Record Encryption.
         - container: SECRET_KEY_BASE
           description:
-            en_us: Browser session secret. Changing it will break all active browser sessions.
+            en_US: Browser session secret. Changing it will break all active browser sessions.
         - container: OTP_SECRET
           description:
-            en_us: MFA secret. Changing it after initial setup will break two-factor authentication.
+            en_US: MFA secret. Changing it after initial setup will break two-factor authentication.
         - container: VAPID_PRIVATE_KEY
           description:
-            en_us: Push notification private key. Changing it after initial setup will break push notifications.
+            en_US: Push notification private key. Changing it after initial setup will break push notifications.
         - container: VAPID_PUBLIC_KEY
           description:
-            en_us: Push notification public key. Changing it after initial setup will break push notifications.
+            en_US: Push notification public key. Changing it after initial setup will break push notifications.
         - container: SMTP_SERVER
           description:
-            en_us: SMTP server for email notifications
+            en_US: SMTP server for email notifications
         - container: SMTP_PORT
           description:
-            en_us: SMTP server port
+            en_US: SMTP server port
         - container: SMTP_LOGIN
           description:
-            en_us: SMTP username
+            en_US: SMTP username
         - container: SMTP_PASSWORD
           description:
-            en_us: SMTP password
+            en_US: SMTP password
         - container: SMTP_FROM_ADDRESS
           description:
-            en_us: From address for emails send from Mastodon
+            en_US: From address for emails send from Mastodon
         - container: S3_ENABLED
           description:
-            en_us: Enable or disable S3 storage of uploaded files
+            en_US: Enable or disable S3 storage of uploaded files
         - container: WEB_DOMAIN
           description:
-            en_us: This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic [OPTIONAL]
+            en_US: This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic [OPTIONAL]
         - container: ES_HOST
           description:
-            en_us: Elasticsearch server hostname [OPTIONAL]
+            en_US: Elasticsearch server hostname [OPTIONAL]
         - container: ES_PORT
           description:
-            en_us: Elasticsearch port [OPTIONAL]
+            en_US: Elasticsearch port [OPTIONAL]
         - container: ES_USER
           description:
-            en_us: Elasticsearch username [OPTIONAL]
+            en_US: Elasticsearch username [OPTIONAL]
         - container: ES_PASS
           description:
-            en_us: Elasticsearch password [OPTIONAL]
+            en_US: Elasticsearch password [OPTIONAL]
         - container: S3_BUCKET
           description:
-            en_us: S3 bucket hostname [OPTIONAL]
+            en_US: S3 bucket hostname [OPTIONAL]
         - container: AWS_ACCESS_KEY_ID
           description:
-            en_us: S3 bucket access key ID [OPTIONAL]
+            en_US: S3 bucket access key ID [OPTIONAL]
         - container: AWS_SECRET_ACCESS_KEY
           description:
-            en_us: S3 bucket secret access key [OPTIONAL]
+            en_US: S3 bucket secret access key [OPTIONAL]
         - container: S3_ALIAS_HOST
           description:
-            en_us: Alternate hostname for object fetching if you are front the S3 connections. [OPTIONAL]
+            en_US: Alternate hostname for object fetching if you are front the S3 connections. [OPTIONAL]
         - container: SIDEKIQ_ONLY
           description:
-            en_us: Only run the sidekiq service in this container instance. For large scale instances that need better queue handling. [OPTIONAL]
+            en_US: Only run the sidekiq service in this container instance. For large scale instances that need better queue handling. [OPTIONAL]
         - container: SIDEKIQ_QUEUE
           description:
-            en_us: The name of the sidekiq queue to run in this container. See notes. [OPTIONAL]
+            en_US: The name of the sidekiq queue to run in this container. See notes. [OPTIONAL]
         - container: SIDEKIQ_DEFAULT
           description:
-            en_us: Set to true on the main container if you're running additional sidekiq instances. It will run the default queue. [OPTIONAL]
+            en_US: Set to true on the main container if you're running additional sidekiq instances. It will run the default queue. [OPTIONAL]
         - container: SIDEKIQ_THREADS
           description:
-            en_us: The number of threads for sidekiq to use. See notes. [OPTIONAL]
+            en_US: The number of threads for sidekiq to use. See notes. [OPTIONAL]
         - container: DB_POOL
           description:
-            en_us: The size of the DB connection pool, must be at least the same as SIDEKIQ_THREADS. See notes. [OPTIONAL]
+            en_US: The size of the DB connection pool, must be at least the same as SIDEKIQ_THREADS. See notes. [OPTIONAL]
         - container: NO_CHOWN
           description:
-            en_us: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS. [OPTIONAL]
+            en_US: Set to true to skip chown of /config on init. READ THE APPLICATION NOTES BEFORE SETTING THIS. [OPTIONAL]
         - container: MASTODON_PROMETHEUS_EXPORTER_ENABLED
           description:
-            en_us: If set to true, Mastodon’s Ruby processes (web & Sidekiq) will enable the Prometheus instrumentation. [OPTIONAL]
+            en_US: If set to true, Mastodon’s Ruby processes (web & Sidekiq) will enable the Prometheus instrumentation. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -190,15 +190,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
+    en_US: Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
   tagline:
-    en_us: A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .
+    en_US: A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   title:
-    en_us: Mastodon (LinuxServer.io)
+    en_US: Mastodon (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservermastodon
+  version: "4.7.1"
   port_map: '80'
