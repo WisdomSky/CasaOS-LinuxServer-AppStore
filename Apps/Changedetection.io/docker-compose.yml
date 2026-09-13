@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: BASE_URL
           description:
-            en_us: Specify the full URL (including protocol) when running behind a reverse proxy [OPTIONAL]
+            en_US: Specify the full URL (including protocol) when running behind a reverse proxy [OPTIONAL]
         - container: PLAYWRIGHT_DRIVER_URL
           description:
-            en_us: Specify the full URL to your chrome driver instance. See the wiki for details. [OPTIONAL]
+            en_US: Specify the full URL to your chrome driver instance. See the wiki for details. [OPTIONAL]
     ports:
       - target: 5000
         published: 5000
@@ -40,15 +40,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
+    en_US: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
   tagline:
-    en_us: Provides free, open-source web page monitoring, notification and change detection.
+    en_US: Provides free, open-source web page monitoring, notification and change detection.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   title:
-    en_us: Changedetection. Io (LinuxServer.io)
+    en_US: Changedetection. Io (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverchangedetectionio
+  version: "0.60.3"
   port_map: '5000'

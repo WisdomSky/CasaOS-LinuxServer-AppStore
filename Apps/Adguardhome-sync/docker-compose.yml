@@ -12,16 +12,16 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: CONFIGFILE
           description:
-            en_us: Set a custom config file. [OPTIONAL]
+            en_US: Set a custom config file. [OPTIONAL]
     ports:
       - target: 8080
         published: 8080
@@ -36,15 +36,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
+    en_US: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
   tagline:
-    en_us: A tool to synchronize AdGuardHome config to replica instances.
+    en_US: A tool to synchronize AdGuardHome config to replica instances.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   title:
-    en_us: Adguardhome sync (LinuxServer.io)
+    en_US: Adguardhome sync (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserveradguardhomesync
+  version: "0.9.2"
   port_map: '8080'

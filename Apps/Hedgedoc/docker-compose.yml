@@ -22,46 +22,46 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: DB_HOST
           description:
-            en_us: Host address of mariadb database
+            en_US: Host address of mariadb database
         - container: DB_PORT
           description:
-            en_us: Port to access mariadb database default is 3306
+            en_US: Port to access mariadb database default is 3306
         - container: DB_USER
           description:
-            en_us: Database user
+            en_US: Database user
         - container: DB_PASS
           description:
-            en_us: Database password
+            en_US: Database password
         - container: DB_NAME
           description:
-            en_us: Database name
+            en_US: Database name
         - container: CMD_DOMAIN
           description:
-            en_us: The address the gui will be accessed at (ie. 192.168.1.1 or hedgedoc.domain.com).
+            en_US: The address the gui will be accessed at (ie. 192.168.1.1 or hedgedoc.domain.com).
         - container: CMD_URL_ADDPORT
           description:
-            en_us: Set to true if using a port other than 80 or 443. [OPTIONAL]
+            en_US: Set to true if using a port other than 80 or 443. [OPTIONAL]
         - container: CMD_PROTOCOL_USESSL
           description:
-            en_us: Set to true if accessing over https via reverse proxy. [OPTIONAL]
+            en_US: Set to true if accessing over https via reverse proxy. [OPTIONAL]
         - container: CMD_PORT
           description:
-            en_us: If you wish to access hedgedoc at a port different than 80, 443 or 3000, you need to set this to that port (ie. CMD_PORT=5000) and change the port mapping accordingly (5000:5000). [OPTIONAL]
+            en_US: If you wish to access hedgedoc at a port different than 80, 443 or 3000, you need to set this to that port (ie. CMD_PORT=5000) and change the port mapping accordingly (5000:5000). [OPTIONAL]
         - container: CMD_ALLOW_ORIGIN
           description:
-            en_us: Comma-separated list of allowed hostnames [OPTIONAL]
+            en_US: Comma-separated list of allowed hostnames [OPTIONAL]
         - container: CMD_DB_DIALECT
           description:
-            en_us: 'This variable allows selecting a database engine (if DB_HOST not set up). Available options are: mariadb, mysql, postgres, sqlite. [OPTIONAL]'
+            en_US: 'This variable allows selecting a database engine (if DB_HOST not set up). Available options are: mariadb, mysql, postgres, sqlite. [OPTIONAL]'
     ports:
       - target: 3000
         published: 3000
@@ -76,15 +76,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: HedgeDoc gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
+    en_US: HedgeDoc gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
   tagline:
-    en_us: Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
+    en_US: Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   title:
-    en_us: Hedgedoc (LinuxServer.io)
+    en_US: Hedgedoc (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverhedgedoc
+  version: "1.12.0"
   port_map: '3000'

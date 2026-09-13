@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 8181
         published: 8181
@@ -33,20 +33,22 @@ services:
         source: /DATA/AppData/headphones/music
         target: /music
 x-casaos:
+  id: wisdomsky.linuxserver.linuxserverheadphones
+  version: "0.0.1"
   architectures:
     - amd64
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/headphones/'
+    en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/headphones/'
   tagline:
-    en_us: An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.
+    en_US: An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-banner.png
   title:
-    en_us: Headphones
-  category: LinuxServer.io
+    en_US: Headphones
+  category: Others
   project_url: https://github.com/rembo10/headphones
   port_map: '8181'

@@ -23,49 +23,49 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: APP_KEY
           description:
-            en_us: App key used for encrypting stored data. You can generate a key as per https://speedtest-tracker.dev
+            en_US: App key used for encrypting stored data. You can generate a key as per https://speedtest-tracker.dev
         - container: APP_URL
           description:
-            en_us: The IP:port or URL your application will be accessed on (ie. http://192.168.1.1:6875 or https://bookstack.mydomain.com
+            en_US: The IP:port or URL your application will be accessed on (ie. http://192.168.1.1:6875 or https://bookstack.mydomain.com
         - container: DB_CONNECTION
           description:
-            en_us: Set the database type to use. sqlite, pgsql, or mysql
+            en_US: Set the database type to use. sqlite, pgsql, or mysql
         - container: SPEEDTEST_SCHEDULE
           description:
-            en_us: Set the test schedule in cron format. e.g. 0 */6 * * *
+            en_US: Set the test schedule in cron format. e.g. 0 */6 * * *
         - container: SPEEDTEST_SERVERS
           description:
-            en_us: A comma-separated list of server IDs to test against. Run docker run -it --rm --entrypoint /bin/bash lscr.io/linuxserver/speedtest-tracker:latest list-servers to get a list of nearby servers.
+            en_US: A comma-separated list of server IDs to test against. Run docker run -it --rm --entrypoint /bin/bash lscr.io/linuxserver/speedtest-tracker:latest list-servers to get a list of nearby servers.
         - container: DB_HOST
           description:
-            en_us: Database hostname (postgres/mysql). [OPTIONAL]
+            en_US: Database hostname (postgres/mysql). [OPTIONAL]
         - container: DB_PORT
           description:
-            en_us: Database port (postgres/mysql). [OPTIONAL]
+            en_US: Database port (postgres/mysql). [OPTIONAL]
         - container: DB_DATABASE
           description:
-            en_us: Database name (postgres/mysql). [OPTIONAL]
+            en_US: Database name (postgres/mysql). [OPTIONAL]
         - container: DB_USERNAME
           description:
-            en_us: Database username (postgres/mysql). [OPTIONAL]
+            en_US: Database username (postgres/mysql). [OPTIONAL]
         - container: DB_PASSWORD
           description:
-            en_us: Database password (postgres/mysql). [OPTIONAL]
+            en_US: Database password (postgres/mysql). [OPTIONAL]
         - container: DISPLAY_TIMEZONE
           description:
-            en_us: Timezone for the UI. [OPTIONAL]
+            en_US: Timezone for the UI. [OPTIONAL]
         - container: PRUNE_RESULTS_OLDER_THAN
           description:
-            en_us: Days to keep test results. [OPTIONAL]
+            en_US: Days to keep test results. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -80,15 +80,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Speedtest-tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    en_US: Speedtest-tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
   tagline:
-    en_us: A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    en_US: A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   title:
-    en_us: Speedtest tracker (LinuxServer.io)
+    en_US: Speedtest tracker (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverspeedtesttracker
+  version: "1.15.0"
   port_map: '80'

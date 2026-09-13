@@ -1,0 +1,52 @@
+name: Build Store Artifacts
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore build caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache/build_appstore/image-size-cache.json
+            .cache/build_appstore/image-digest-cache.json
+          key: build-appstore-${{ runner.os }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            build-appstore-${{ runner.os }}-${{ github.ref_name }}-
+            build-appstore-${{ runner.os }}-main-
+
+      - name: Build v2 store
+        uses: IceWhaleTech/build-appstore-action@v1
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        with:
+          source: .
+          output: dist
+          base-url: https://cdn.jsdelivr.net/gh/${{ github.repository }}@gh-pages
+          cache-file: .cache/build_appstore/image-size-cache.json
+          digest-cache-file: .cache/build_appstore/image-digest-cache.json
+          report-json: out/build-v2-report.json
+          report-title: Build V2 Store Report
+
+      - name: Disable Jekyll
+        run: touch dist/.nojekyll
+
+      - name: Upload store artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: store-dist
+          path: |
+            dist
+            out/build-v2-report.json

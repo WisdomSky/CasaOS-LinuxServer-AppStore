@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 6501
         published: 6501
@@ -32,15 +32,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Znc is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
+    en_US: Znc is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
   tagline:
-    en_us: An IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
+    en_US: An IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-logo.png
   title:
-    en_us: Znc (LinuxServer.io)
+    en_US: Znc (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverznc
+  version: "1.10.2"
   port_map: '6501'

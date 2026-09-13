@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -35,15 +35,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.
+    en_US: Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.
   tagline:
-    en_us: A lightweight modern music player designed to work excellently on the GNOME desktop environment.
+    en_US: A lightweight modern music player designed to work excellently on the GNOME desktop environment.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   title:
-    en_us: Lollypop (LinuxServer.io)
+    en_US: Lollypop (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverlollypop
+  version: "1.4.45"
   port_map: '3000'

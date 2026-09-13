@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -34,15 +34,16 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: DOSBox Staging is a modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.
+    en_US: DOSBox Staging is a modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.
   tagline:
-    en_us: A modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.
+    en_US: A modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dosbox-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dosbox-logo.png
   title:
-    en_us: Dosbox staging (LinuxServer.io)
+    en_US: Dosbox staging (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverdosboxstaging
+  version: "0.83.0"
   port_map: '3000'

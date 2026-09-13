@@ -18,34 +18,34 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: PIPER_VOICE
           description:
-            en_us: The Piper voice to use, in the format --
+            en_US: The Piper voice to use, in the format --
         - container: LOCAL_ONLY
           description:
-            en_us: If set to true, or any other value, the container will not attempt to download models from HuggingFace and will only use locally-provided models. [OPTIONAL]
+            en_US: If set to true, or any other value, the container will not attempt to download models from HuggingFace and will only use locally-provided models. [OPTIONAL]
         - container: PIPER_LENGTH
           description:
-            en_us: Voice speaking rate, 1.0 is default with  1.0 being slower. [OPTIONAL]
+            en_US: Voice speaking rate, 1.0 is default with  1.0 being slower. [OPTIONAL]
         - container: PIPER_NOISE
           description:
-            en_us: Controls the variability of the voice by adding noise. Values above 1 will start to degrade audio. [OPTIONAL]
+            en_US: Controls the variability of the voice by adding noise. Values above 1 will start to degrade audio. [OPTIONAL]
         - container: PIPER_NOISEW
           description:
-            en_us: Controls the variability of speaking cadence. Values above 1 produce extreme stutters and pauses. [OPTIONAL]
+            en_US: Controls the variability of speaking cadence. Values above 1 produce extreme stutters and pauses. [OPTIONAL]
         - container: PIPER_SPEAKER
           description:
-            en_us: Speaker number to use if the voice supports multiple speakers. [OPTIONAL]
+            en_US: Speaker number to use if the voice supports multiple speakers. [OPTIONAL]
         - container: NO_STREAMING
           description:
-            en_us: Setting to true, or any other value, will disable support for streaming audio on sentence boundaries. [OPTIONAL]
+            en_US: Setting to true, or any other value, will disable support for streaming audio on sentence boundaries. [OPTIONAL]
     ports:
       - target: 10200
         published: 10200
@@ -60,15 +60,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Piper is a fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+    en_US: Piper is a fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
   tagline:
-    en_us: A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+    en_US: A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piper-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piper-logo.png
   title:
-    en_us: Piper (LinuxServer.io)
+    en_US: Piper (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverpiper
+  version: "2.4.3"
   port_map: '10200'

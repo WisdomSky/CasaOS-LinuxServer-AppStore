@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 80
         published: 80
@@ -32,15 +32,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Doplarr_rs is a Discord bot for requesting media through *arr backends, written in Rust.
+    en_US: Doplarr_rs is a Discord bot for requesting media through *arr backends, written in Rust.
   tagline:
-    en_us: A Discord bot for requesting media through *arr backends, written in Rust.
+    en_US: A Discord bot for requesting media through *arr backends, written in Rust.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   title:
-    en_us: Doplarr_rs (LinuxServer.io)
+    en_US: Doplarr_rs (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverdoplarrrs
+  version: "4.6.0"
   port_map: '80'

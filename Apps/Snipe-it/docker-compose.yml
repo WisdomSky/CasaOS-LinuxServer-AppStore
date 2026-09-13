@@ -29,75 +29,75 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: APP_KEY
           description:
-            en_us: App key used for encrypting stored data. Generate with docker exec snipe-it php /app/www/artisan key:generate --show.
+            en_US: App key used for encrypting stored data. Generate with docker exec snipe-it php /app/www/artisan key:generate --show.
         - container: APP_URL
           description:
-            en_us: Hostname or IP and port if applicable, be sure to define https/http
+            en_US: Hostname or IP and port if applicable, be sure to define https/http
         - container: MYSQL_PORT_3306_TCP_ADDR
           description:
-            en_us: Mysql hostname or IP to use
+            en_US: Mysql hostname or IP to use
         - container: MYSQL_PORT_3306_TCP_PORT
           description:
-            en_us: Mysql port to use
+            en_US: Mysql port to use
         - container: MYSQL_DATABASE
           description:
-            en_us: Mysql database to use
+            en_US: Mysql database to use
         - container: MYSQL_USER
           description:
-            en_us: Mysql user to use
+            en_US: Mysql user to use
         - container: MYSQL_PASSWORD
           description:
-            en_us: Mysql password to use
+            en_US: Mysql password to use
         - container: APP_DEBUG
           description:
-            en_us: Set to true to see debugging output in the web UI.
+            en_US: Set to true to see debugging output in the web UI.
         - container: APP_ENV
           description:
-            en_us: Default is production but can use testing or develop.
+            en_US: Default is production but can use testing or develop.
         - container: APP_FORCE_TLS
           description:
-            en_us: Set to true if running behind a reverse proxy
+            en_US: Set to true if running behind a reverse proxy
         - container: APP_LOCALE
           description:
-            en_us: Default is en-US. Set to a language from this list.
+            en_US: Default is en-US. Set to a language from this list.
         - container: MAIL_PORT_587_TCP_ADDR
           description:
-            en_us: SMTP mail server ip or hostname.
+            en_US: SMTP mail server ip or hostname.
         - container: MAIL_PORT_587_TCP_PORT
           description:
-            en_us: SMTP mail server port.
+            en_US: SMTP mail server port.
         - container: MAIL_ENV_FROM_ADDR
           description:
-            en_us: The email address mail should be replied to and listed when sent.
+            en_US: The email address mail should be replied to and listed when sent.
         - container: MAIL_ENV_FROM_NAME
           description:
-            en_us: The name listed on email sent from the default account on the system.
+            en_US: The name listed on email sent from the default account on the system.
         - container: MAIL_ENV_ENCRYPTION
           description:
-            en_us: Mail encryption to use e.g. tls.
+            en_US: Mail encryption to use e.g. tls.
         - container: MAIL_ENV_USERNAME
           description:
-            en_us: SMTP server login username.
+            en_US: SMTP server login username.
         - container: MAIL_ENV_PASSWORD
           description:
-            en_us: SMTP server login password.
+            en_US: SMTP server login password.
       volumes:
         - container: /config
           description:
-            en_us: Appdata
+            en_US: Appdata
       ports:
         - container: '8080'
           description:
-            en_us: Port
+            en_US: Port
     ports:
       - target: 8080
         published: 80
@@ -107,20 +107,22 @@ services:
         source: /DATA/AppData/snipe-it/config
         target: /config
 x-casaos:
+  id: wisdomsky.linuxserver.linuxserversnipeit
+  version: "7.1.15"
   architectures:
     - amd64
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/'
+    en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/'
   tagline:
-    en_us: 'Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster. '
+    en_US: 'Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-logo.png
   title:
-    en_us: Snipe it
-  category: LinuxServer.io
+    en_US: Snipe it
+  category: Others
   project_url: https://github.com/snipe/snipe-it
   port_map: '80'
