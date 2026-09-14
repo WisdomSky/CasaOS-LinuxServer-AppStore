@@ -1,7 +1,7 @@
 name: linuxserver-ungoogled-chromium
 services:
   app:
-    image: linuxserver/ungoogled-chromium:152.0.7977
+    image: linuxserver/ungoogled-chromium:153.0.8010
     restart: unless-stopped
     environment:
       PUID: $PUID
