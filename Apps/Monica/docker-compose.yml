@@ -20,40 +20,40 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: DB_HOST
           description:
-            en_us: Mariadb DB server hostname.
+            en_US: Mariadb DB server hostname.
         - container: DB_PORT
           description:
-            en_us: Mariadb DB server port.
+            en_US: Mariadb DB server port.
         - container: DB_USERNAME
           description:
-            en_us: Mariadb DB user.
+            en_US: Mariadb DB user.
         - container: DB_PASSWORD
           description:
-            en_us: Mariadb DB password.
+            en_US: Mariadb DB password.
         - container: DB_DATABASE
           description:
-            en_us: Mariadb DB name.
+            en_US: Mariadb DB name.
         - container: APP_URL
           description:
-            en_us: The URL you will use to access Monica including protocol, and port where appropriate. [OPTIONAL]
+            en_US: The URL you will use to access Monica including protocol, and port where appropriate. [OPTIONAL]
         - container: TRUSTED_PROXIES
           description:
-            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). [OPTIONAL]
+            en_US: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). [OPTIONAL]
         - container: APP_ENV
           description:
-            en_us: Set to production when exposing the container to anyone else; this also makes https mandatory. [OPTIONAL]
+            en_US: Set to production when exposing the container to anyone else; this also makes https mandatory. [OPTIONAL]
         - container: APP_DISABLE_SIGNUP
           description:
-            en_us: Set to false to enable new account sign-ups. [OPTIONAL]
+            en_US: Set to false to enable new account sign-ups. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -66,19 +66,21 @@ services:
         source: /DATA/AppData/monica/config
         target: /config
 x-casaos:
+  id: wisdomsky.linuxserver.linuxservermonica
+  version: "4.1.2"
   architectures:
     - amd64
     - arm64
   main: app
   description:
-    en_us: Monica is an open source personal relationship management system, that lets you document your life.
+    en_US: Monica is an open source personal relationship management system, that lets you document your life.
   tagline:
-    en_us: An open source personal relationship management system, that lets you document your life.
+    en_US: An open source personal relationship management system, that lets you document your life.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/monica-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/monica-logo.png
   title:
-    en_us: Monica
-  category: LinuxServer.io
+    en_US: Monica
+  category: Others
   port_map: '80'

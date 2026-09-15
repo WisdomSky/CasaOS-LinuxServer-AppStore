@@ -9,7 +9,7 @@ services:
       envs:
         - container: AUTH_LIST
           description:
-            en_us: If set, only the users defined here and the users of the plex servers defined here will be able to access the server. Use e-mails, plex usernames and/or plex server machine ids, comma separated, no spaces. [OPTIONAL]
+            en_US: If set, only the users defined here and the users of the plex servers defined here will be able to access the server. Use e-mails, plex usernames and/or plex server machine ids, comma separated, no spaces. [OPTIONAL]
     ports:
       - target: 8088
         published: 8088
@@ -24,15 +24,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    en_US: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
   tagline:
-    en_us: A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    en_US: A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   title:
-    en_us: Synclounge (LinuxServer.io)
+    en_US: Synclounge (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserversynclounge
+  version: "5.2.35"
   port_map: '8088'

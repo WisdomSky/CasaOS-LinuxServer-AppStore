@@ -11,24 +11,24 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
       volumes:
         - container: /config
           description:
-            en_us: Appdata
+            en_US: Appdata
       ports:
         - container: '80'
           description:
-            en_us: 'Container Port: 80'
+            en_US: 'Container Port: 80'
         - container: '443'
           description:
-            en_us: 'Container Port: 443'
+            en_US: 'Container Port: 443'
     ports:
       - target: 80
         published: 80
@@ -41,20 +41,22 @@ services:
         source: /DATA/AppData/snapdrop/config
         target: /config
 x-casaos:
+  id: wisdomsky.linuxserver.linuxserversnapdrop
+  version: "0.0.1"
   architectures:
     - amd64
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
+    en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
   tagline:
-    en_us: 'A local file sharing in your browser. Inspired by Apple''s Airdrop. '
+    en_US: 'A local file sharing in your browser. Inspired by Apple''s Airdrop. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snapdrop-icon.png
   thumbnail: https://raw.githubusercontent.com/snapdrop/snapdrop/master/client/images/logo_transparent_512x512.png
   title:
-    en_us: Snapdrop
-  category: LinuxServer.io
+    en_US: Snapdrop
+  category: Others
   project_url: https://github.com/RobinLinus/snapdrop
   port_map: '80'

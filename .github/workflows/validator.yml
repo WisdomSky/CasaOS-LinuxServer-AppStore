@@ -1,0 +1,55 @@
+name: Validate Store
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate compose files
+        shell: bash
+        run: |
+          set -euo pipefail
+          find Apps -mindepth 2 -maxdepth 2 -name docker-compose.yml -print0 | sort -z | while IFS= read -r -d '' compose_file; do
+            AppID=test PUID=1000 PGID=1000 TZ=UTC docker compose -f "$compose_file" config -q
+          done
+
+      - name: Restore build caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache/build_appstore/image-size-cache.json
+            .cache/build_appstore/image-digest-cache.json
+          key: build-appstore-${{ runner.os }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            build-appstore-${{ runner.os }}-${{ github.ref_name }}-
+            build-appstore-${{ runner.os }}-main-
+
+      - name: Build v2 store
+        uses: IceWhaleTech/build-appstore-action@v1
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        with:
+          source: .
+          output: dist
+          base-url: https://cdn.jsdelivr.net/gh/${{ github.repository }}@gh-pages
+          cache-file: .cache/build_appstore/image-size-cache.json
+          digest-cache-file: .cache/build_appstore/image-digest-cache.json
+          report-json: out/build-v2-validation-report.json
+          report-title: Validation Build Report
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-v2-validation-report
+          path: out/build-v2-validation-report.json
+          if-no-files-found: warn

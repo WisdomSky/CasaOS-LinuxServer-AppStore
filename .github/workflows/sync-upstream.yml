@@ -1,0 +1,44 @@
+name: Sync branch with upstream
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  rebase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out target branch
+        uses: actions/checkout@v4
+        with:
+          ref: runui/feat_zimaos_support
+          fetch-depth: 0
+
+      - name: Rebase target branch onto upstream main
+        env:
+          UPSTREAM_URL: https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore.git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream "$UPSTREAM_URL"
+          git fetch upstream main
+          git rebase upstream/main
+
+      - name: Push rebased branch
+        run: git push origin HEAD:runui/feat_zimaos_support --force-with-lease
+
+  workflow-keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1

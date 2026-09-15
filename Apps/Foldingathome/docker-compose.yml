@@ -14,22 +14,22 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: ACCOUNT_TOKEN
           description:
-            en_us: Register for an account on https://app.foldingathome.org and retrieve account token in settings. Required on first start.
+            en_US: Register for an account on https://app.foldingathome.org and retrieve account token in settings. Required on first start.
         - container: MACHINE_NAME
           description:
-            en_us: Assign a friendly name to this instance (no spaces). Required on first start.
+            en_US: Assign a friendly name to this instance (no spaces). Required on first start.
         - container: CLI_ARGS
           description:
-            en_us: Optionally pass additional cli arguments to fah-client on container start. [OPTIONAL]
+            en_US: Optionally pass additional cli arguments to fah-client on container start. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -47,15 +47,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Folding@home is a distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.
+    en_US: Folding@home is a distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.
   tagline:
-    en_us: A distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.
+    en_US: A distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://foldingathome.org/wp-content/uploads/2016/09/folding-at-home-logo.png
-  thumbnail: https://foldingathome.org/wp-content/uploads/2016/09/folding-at-home-logo.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@main/default-icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@main/default-icon.svg
   title:
-    en_us: Foldingathome (LinuxServer.io)
+    en_US: Foldingathome (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverfoldingathome
+  version: "8.5.6"
   port_map: '80'

@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -34,15 +34,16 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
+    en_US: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
   tagline:
-    en_us: A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
+    en_US: A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
   title:
-    en_us: Zotero (LinuxServer.io)
+    en_US: Zotero (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverzotero
+  version: "10.0.1"
   port_map: '3000'
