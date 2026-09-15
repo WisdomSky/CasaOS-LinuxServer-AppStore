@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:0.8.1-romm
+    image: linuxserver/webstation:0.8.2-romm
     restart: unless-stopped
     environment:
       PUID: $PUID
