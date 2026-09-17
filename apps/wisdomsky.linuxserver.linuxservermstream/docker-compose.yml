@@ -1,7 +1,7 @@
 name: linuxserver-mstream
 services:
   app:
-    image: linuxserver/mstream:6.28.0
+    image: linuxserver/mstream:6.28.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -25,4 +25,4 @@ x-casaos:
     en_US: Mstream (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxservermstream
   port_map: '3000'
-  version: 6.28.0
+  version: 6.28.1

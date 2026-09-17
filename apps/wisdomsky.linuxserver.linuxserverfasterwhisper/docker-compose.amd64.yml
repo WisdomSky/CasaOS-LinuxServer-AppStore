@@ -22,7 +22,7 @@ services:
         target: /config
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfasterwhisper/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfasterwhisper/assets/icon.svg
   title:
     en_US: Faster whisper (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxserverfasterwhisper

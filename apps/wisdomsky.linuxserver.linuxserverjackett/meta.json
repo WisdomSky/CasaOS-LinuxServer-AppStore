@@ -12,13 +12,13 @@
   "title": "Jackett (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverjackett",
-  "version": "0.24.2601",
+  "version": "0.24.2605",
   "categories": [
     "home"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 81209408,
-    "arm64": 80135801
+    "amd64": 81216233,
+    "arm64": 80135762
   }
 }
