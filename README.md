@@ -1,9 +1,9 @@
 
-![CasaOS LinuxServer AppStore](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/banner.png)
+![LinuxServer AppStore](https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/banner.png)
 
-# CasaOS LinuxServer AppStore
+# LinuxServer AppStore
 
-A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linuxserver.io/) images.
+A [CasaOS](https://casaos.zimaspace.com/) and [ZimaOS](https://www.zimaspace.com/zimaos) custom Appstore containing over 100+ [LinuxServer.io](https://www.linuxserver.io/) images.
 
 
 ---
@@ -11,7 +11,7 @@ A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linux
 ## 📃 Table of Contents
 
 - [Introduction](#-introduction)
-- [Installation](#-installation)
+- [Installation](#-casaos-installation)
 - [List of Applications](#-list-of-applications)
 - [Contributing](#contributing)
 
@@ -19,22 +19,23 @@ A CasaOS custom Appstore containing over 100+ [LinuxServer.io](https://www.linux
 
 ## 🔥 Introduction
 
-The **LinuxServer AppStore** is a custom appstore built to work for [CasaOS](https://github.com/IceWhaleTech/CasaOS).
+The **LinuxServer AppStore** is a custom appstore built to work for CasaOS and ZimaOS.
 
-This custom appstore for CasaOS contains a wide variety of configurations of docker images built and maintained by the [linuxserver.io](https://www.linuxserver.io/) community which are adapted to work for CasaOS.
+This custom appstore for CasaOS and ZimaOS contains a wide variety of configurations of docker images built and maintained by the [linuxserver.io](https://www.linuxserver.io/) community which are adapted to work for CasaOS.
 
 The LinuxServer Appstore is **guaranteed to provide you the latest version of every Application** as the appstore automatically tracks new releases and updates the contents of this repository daily.
 
 ---
-### 💎 CasaOS LinuxServer Appstore URL
+### 💎 LinuxServer Appstore URL
 
-    https://casaos-appstore.paodayag.dev/linuxserver.zip
 
-### ZimaOS App Store v2
+**CasaOS:**
 
-For ZimaOS, add this source in ZimaOS App Store's community store settings:
+    https://paodayag.dev/casaos/linuxserver/store.zip
 
-    https://casaos-appstore.paodayag.dev/linuxserver/store.json
+**ZimaOS:**
+
+    https://paodayag.dev/zimaos/linuxserver/store.json
 
 
 ## ✅ CasaOS Installation
@@ -133,7 +134,7 @@ For ZimaOS, add this source in ZimaOS App Store's community store settings:
 | 70 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Htpcmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Htpcmanager) | version-26a641bf | A front end for many htpc related applications. |
 | 71 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Inkscape](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Inkscape) | 1.4.2 | Professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers. |
 | 72 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/intellij-idea-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Intellij idea](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Intellij-idea) | 42026.2.2 | Helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software. |
-| 73 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png" width="15"/>&nbsp;&nbsp;&nbsp;[Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) | 0.24.2601 | Works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps. |
+| 73 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png" width="15"/>&nbsp;&nbsp;&nbsp;[Jackett](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jackett) | 0.24.2605 | Works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps. |
 | 74 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Jellyfin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Jellyfin) | 10.11.11 | A Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3. 5. 2 release and ported to the. NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it. |
 | 75 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Joplin](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Joplin) | 3.7.18 | A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. |
 | 76 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Kali linux](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Kali-linux) | version-45f3494e | is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec. |
@@ -167,7 +168,7 @@ For ZimaOS, add this source in ZimaOS App Store's community store settings:
 | 104 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Modmanager](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Modmanager) | version-7dc8618e | This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/modmanager for details. |
 | 105 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/modrinth-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Modrinth](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Modrinth) | 0.21.4 | A unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package. |
 | 106 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/edge-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Msedge](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Msedge) | 153.0.4234 | A cross-platform web browser developed by Microsoft and based on Chromium. |
-| 107 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Mstream](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mstream) | 6.28.0 | A personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone. |
+| 107 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Mstream](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mstream) | 6.28.1 | A personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone. |
 | 108 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Mullvad browser](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mullvad-browser) | 15.0.21 | The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN. |
 | 109 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Mylar3](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mylar3) | 0.11.0 | An automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL. |
 | 110 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Mysql workbench](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Mysql-workbench) | 8.0.47 | A unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more. |
@@ -210,7 +211,7 @@ For ZimaOS, add this source in ZimaOS App Store's community store settings:
 | 147 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/remmina-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Remmina](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Remmina) | 1.4.43 | A remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported. |
 | 148 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/resilio-sync-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Resilio sync](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Resilio-sync) | 3.1.2 | (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes. |
 | 149 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/retroarch-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Retroarch](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Retroarch) | 1.22.2 | A frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. |
-| 150 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Rpcs3](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rpcs3) | version-build-6c0e2823f83037debd9a8ac8541521e61d7663bd | A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. |
+| 150 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Rpcs3](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rpcs3) | version-build-92721aedfe9dda00caae25a7aaf7e6b7d07213d0 | A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. |
 | 151 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png" width="15"/>&nbsp;&nbsp;&nbsp;[Rsnapshot](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rsnapshot) | 1.4.5 | A filesystem snapshot utility based on rsync. Rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required. |
 | 152 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Rustdesk](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Rustdesk) | 1.4.9 | A full-featured open source remote control alternative for self-hosting and security with minimal configuration. |
 | 153 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png" width="15"/>&nbsp;&nbsp;&nbsp;[Sabnzbd](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Sabnzbd) | 5.1.3 | Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an. Nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction. |
@@ -240,7 +241,7 @@ For ZimaOS, add this source in ZimaOS App Store's community store settings:
 | 177 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png" width="15"/>&nbsp;&nbsp;&nbsp;[Ubooquity](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ubooquity) | 3.1.0 | A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer. |
 | 178 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Ungoogled chromium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Ungoogled-chromium) | 153.0.8010 | Google Chromium, sans dependency on Google web services. |
 | 179 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png" width="15"/>&nbsp;&nbsp;&nbsp;[Unifi network-application](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Unifi-network-application) | 10.6.106 | The Unifi-network-application software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance. |
-| 180 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vivaldi-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Vivaldi](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vivaldi) | 8.1.4087 | A Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies. |
+| 180 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vivaldi-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Vivaldi](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vivaldi) | 8.2.4133 | A Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies. |
 | 181 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vlc-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Vlc](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vlc) | 3.0.23 | A free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices. |
 | 182 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscode-logo.png" width="15"/>&nbsp;&nbsp;&nbsp;[Vscode](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscode) | 1.137.0 | An integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server. |
 | 183 | <img src="https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png" width="15"/>&nbsp;&nbsp;&nbsp;[Vscodium](https://github.com/WisdomSky/CasaOS-LinuxServer-AppStore/tree/main/Apps/Vscodium) | 1.135.06055 | A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code. |

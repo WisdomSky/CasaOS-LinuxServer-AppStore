@@ -57,7 +57,7 @@ x-casaos:
     en_US: A reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: ''
+  icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: ''
   title:
     en_US: Faster whisper (LinuxServer.io)
