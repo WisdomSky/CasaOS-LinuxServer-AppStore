@@ -27,7 +27,7 @@ services:
         target: /othermedia
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbooksonicair/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbooksonicair/assets/icon.png
   title:
     en_US: Booksonic air
   port_map: '4040'

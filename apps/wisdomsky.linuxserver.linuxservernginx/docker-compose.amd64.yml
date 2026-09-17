@@ -22,7 +22,7 @@ services:
         target: /config
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernginx/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernginx/assets/icon.png
   title:
     en_US: Nginx (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxservernginx

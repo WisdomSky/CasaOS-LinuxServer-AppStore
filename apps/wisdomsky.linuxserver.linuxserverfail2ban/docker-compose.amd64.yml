@@ -72,7 +72,7 @@ services:
         target: /remotelogs/vaultwarden:ro
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfail2ban/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfail2ban/assets/icon.png
   title:
     en_US: Fail2ban (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxserverfail2ban

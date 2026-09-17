@@ -14,7 +14,7 @@ services:
         target: /config
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfeed2toot/assets/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfeed2toot/assets/icon.svg
   title:
     en_US: Feed2toot
   id: wisdomsky.linuxserver.linuxserverfeed2toot

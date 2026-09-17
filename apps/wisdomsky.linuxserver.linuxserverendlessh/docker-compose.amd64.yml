@@ -25,7 +25,7 @@ services:
         target: /config
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverendlessh/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverendlessh/assets/icon.png
   title:
     en_US: Endlessh
   port_map: '8080'

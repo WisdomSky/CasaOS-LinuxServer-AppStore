@@ -27,7 +27,7 @@ services:
         target: /var/run/docker.sock
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversealskin/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversealskin/assets/icon.png
   title:
     en_US: Sealskin (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxserversealskin

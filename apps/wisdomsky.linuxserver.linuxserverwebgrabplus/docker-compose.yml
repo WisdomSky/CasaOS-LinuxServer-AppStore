@@ -20,7 +20,7 @@ services:
         target: /data
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/assets/icon.jpg
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/assets/icon.jpg
   title:
     en_US: Webgrabplus (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxserverwebgrabplus

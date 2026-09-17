@@ -29,7 +29,7 @@ services:
         target: /pictures
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlychee/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlychee/assets/icon.png
   title:
     en_US: Lychee (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxserverlychee

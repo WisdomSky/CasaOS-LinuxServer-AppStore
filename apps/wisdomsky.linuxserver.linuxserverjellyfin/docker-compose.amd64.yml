@@ -33,7 +33,7 @@ services:
         target: /data/movies
 x-casaos:
   main: app
-  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverjellyfin/assets/icon.png
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverjellyfin/assets/icon.png
   title:
     en_US: Jellyfin (LinuxServer.io)
   id: wisdomsky.linuxserver.linuxserverjellyfin
