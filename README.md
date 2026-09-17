@@ -31,11 +31,11 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 
 **CasaOS:**
 
-    https://paodayag.dev/casaos/linuxserver/store.zip
+    https://paodayag.dev/linuxserver/casaos/store.zip
 
 **ZimaOS:**
 
-    https://paodayag.dev/zimaos/linuxserver/store.json
+    https://paodayag.dev/linuxserver/zimaos/store.json
 
 
 ## ✅ CasaOS Installation
