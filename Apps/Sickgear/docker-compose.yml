@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: 'SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear'
+    zh_CN: SickGear 提供电视剧和动画管理功能，可检测新集、连接下载应用等。更多信息请访问：https://github.com/SickGear/SickGear
   tagline:
     en_US: 'Provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. . For more information on SickGear visit their website and check it out: https://github. Com/SickGear/SickGear'
+    zh_CN: 追踪电视剧与动画新集，并连接下载应用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickgear-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickgear-logo.png
   title:
     en_US: Sickgear (LinuxServer.io)
+    zh_CN: Sickgear（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversickgear
   port_map: '8081'

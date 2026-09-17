@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Rdesktop - Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
+    zh_CN: Rdesktop 提供包含完整桌面环境的容器，涵盖 Alpine、Ubuntu、Arch 和 Fedora 的多种常见桌面风格，并可通过 RDP 访问。
   tagline:
     en_US: 'Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP. '
+    zh_CN: 通过 RDP 访问多种 Linux 桌面环境。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png
   title:
     en_US: Rdesktop
+    zh_CN: Rdesktop
   category: Others
   id: wisdomsky.linuxserver.linuxserverrdesktop
   version: arch-kde-version-arch-2025-01-10

@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.
+    zh_CN: GIMP 是免费的开源位图图像编辑器，可用于修图、图像编辑、自由绘画、图像格式转换及更专业的任务。它支持通过插件扩展，也支持脚本操作。
   tagline:
     en_US: A free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.
+    zh_CN: 支持修图、绘画和插件扩展的开源图像编辑器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gimp-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gimp-logo.png
   title:
     en_US: Gimp (LinuxServer.io)
+    zh_CN: Gimp（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergimp
   port_map: '3000'

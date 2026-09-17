@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: ONLYOFFICE provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.
+    zh_CN: ONLYOFFICE 提供完整的工具，可在网页、桌面和移动平台上创建、编辑和协作处理文字文档、电子表格、演示文稿、PDF 表单和普通 PDF 文件。
   tagline:
     en_US: Provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.
+    zh_CN: 跨网页、桌面和移动端协作编辑办公文档与 PDF。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/onlyoffice-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/onlyoffice-logo.png
   title:
     en_US: Onlyoffice (LinuxServer.io)
+    zh_CN: Onlyoffice（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveronlyoffice
   port_map: '3000'

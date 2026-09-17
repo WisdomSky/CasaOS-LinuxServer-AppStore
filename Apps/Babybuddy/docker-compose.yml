@@ -37,14 +37,17 @@ x-casaos:
   main: app
   description:
     en_US: Babybuddy is a buddy for babies! Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
+    zh_CN: Babybuddy 是宝宝的照护助手。它帮助照护者记录睡眠、喂养、换尿布、趴卧练习等活动，从而更好地了解和预测宝宝的需求，减少猜测。
   tagline:
     en_US: A buddy for babies. Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
+    zh_CN: 记录宝宝的睡眠、喂养和日常照护。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   title:
     en_US: Babybuddy (LinuxServer.io)
+    zh_CN: Babybuddy（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbabybuddy
   port_map: '8000'

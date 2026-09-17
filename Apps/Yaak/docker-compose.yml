@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Yaak is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
+    zh_CN: Yaak 是一款桌面 API 客户端，用于组织和执行 REST、GraphQL 和 gRPC 请求，使用 Tauri、Rust 和 ReactJS 构建。
   tagline:
     en_US: A desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
+    zh_CN: 用于 REST、GraphQL 和 gRPC 的桌面 API 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
   title:
     en_US: Yaak (LinuxServer.io)
+    zh_CN: Yaak（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveryaak
   port_map: '3000'

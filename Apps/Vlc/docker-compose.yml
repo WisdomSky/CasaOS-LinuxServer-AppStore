@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: VLC Media Player is a free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+    zh_CN: VLC Media Player 是免费、开源、跨平台的多媒体播放器和框架，可在多种设备上提供可靠的播放表现。
   tagline:
     en_US: A free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+    zh_CN: 免费、开源的跨平台多媒体播放器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vlc-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vlc-logo.png
   title:
     en_US: Vlc (LinuxServer.io)
+    zh_CN: Vlc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservervlc
   port_map: '3000'

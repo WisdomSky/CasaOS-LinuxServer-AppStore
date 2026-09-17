@@ -81,14 +81,17 @@ x-casaos:
   main: app
   description:
     en_US: Speedtest-tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    zh_CN: Speedtest Tracker 是可自行托管的互联网性能追踪应用，通过 Ookla 的 Speedtest 服务执行测速。
   tagline:
     en_US: A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    zh_CN: 自行托管的网络性能测速与追踪工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   title:
     en_US: Speedtest tracker (LinuxServer.io)
+    zh_CN: Speedtest tracker（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverspeedtesttracker
   port_map: '80'

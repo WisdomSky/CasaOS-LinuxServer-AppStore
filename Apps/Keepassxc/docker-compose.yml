@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: KeePassXC is a free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).
+    zh_CN: KeePassXC 是一款免费的开源密码管理器，最初是 KeePassX 的社区分支，而 KeePassX 本身是 KeePass 的跨平台移植版。
   tagline:
     en_US: A free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).
+    zh_CN: 免费的开源跨平台密码管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/keepassxc-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/keepassxc-logo.png
   title:
     en_US: Keepassxc (LinuxServer.io)
+    zh_CN: Keepassxc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkeepassxc
   port_map: '3000'

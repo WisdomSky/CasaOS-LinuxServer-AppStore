@@ -67,14 +67,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh'
+    zh_CN: |-
+      Endlessh 是一个 SSH 陷阱，会极其缓慢地发送无穷无尽的随机 SSH 标识，将 SSH 客户端拖住数小时甚至数天。其用途是将真正的 SSH 服务放在其他端口，让自动扫描和攻击脚本陷入这个陷阱，而不是干扰真实服务器。
+
+      访问项目主页：https://github.com/orgs/linuxserver/packages/container/package/endlessh
   tagline:
     en_US: An SSH tarpit that very slowly sends an endless, random SSH banner. It keeps SSH clients locked up for hours or even days at a time. The purpose is to put your real SSH server on another port and then let the script kiddies get stuck in this tarpit instead of bothering a real server.
+    zh_CN: 通过缓慢发送 SSH 标识拖住扫描客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/openssh-server-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/openssh-server-logo.png
   title:
     en_US: Endlessh
+    zh_CN: Endlessh
   category: Others
   project_url: https://github.com/skeeto/endlessh
   port_map: '8080'

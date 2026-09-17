@@ -68,14 +68,17 @@ x-casaos:
   main: app
   description:
     en_US: WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.
+    zh_CN: WireGuard® 是一个简单、快速、现代的 VPN，采用先进密码学技术。它旨在比 IPsec 更快速、简单、精简且实用，同时避免复杂配置，并力求在性能上超越 OpenVPN。WireGuard 是通用 VPN，既可运行在嵌入式设备上，也适用于超级计算机等多种环境。它最初面向 Linux 内核，如今已支持 Windows、macOS、BSD、iOS 和 Android 等平台，可广泛部署。项目仍在积极开发中，目标是提供安全、简单且易于使用的 VPN 方案。
   tagline:
     en_US: An extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.
+    zh_CN: 采用现代密码学的轻量高速 VPN。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://www.wireguard.com/img/wireguard.svg
   thumbnail: https://www.wireguard.com/img/wireguard.svg
   title:
     en_US: Wireguard (LinuxServer.io)
+    zh_CN: Wireguard（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwireguard
   port_map: '51820'

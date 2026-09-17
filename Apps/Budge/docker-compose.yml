@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Budge is an open source 'budgeting with envelopes' personal finance app.
+    zh_CN: Budge 是一款采用“信封预算法”的开源个人财务应用。
   tagline:
     en_US: An open source 'budgeting with envelopes' personal finance app.
+    zh_CN: 采用信封预算法的开源个人财务应用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: ''
   title:
     en_US: Budge (LinuxServer.io)
+    zh_CN: Budge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbudge
   port_map: '80'

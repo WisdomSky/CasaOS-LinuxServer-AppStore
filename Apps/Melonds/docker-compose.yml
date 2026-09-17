@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: melonDS aims at providing fast and accurate Nintendo DS emulation.
+    zh_CN: melonDS 致力于提供快速且准确的 Nintendo DS 模拟体验。
   tagline:
     en_US: Aims at providing fast and accurate Nintendo DS emulation.
+    zh_CN: 快速、准确的 Nintendo DS 模拟器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/melonds-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/melonds-logo.png
   title:
     en_US: Melonds (LinuxServer.io)
+    zh_CN: Melonds（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermelonds
   port_map: '3000'

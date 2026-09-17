@@ -54,14 +54,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    zh_CN: |-
+      Booksonic 让你随时随地访问自己拥有的有声书。平台目前包括：Booksonic Air，用于串流有声书的服务器，是原 Booksonic 服务器的继任者，基于 Airsonic；以及 Booksonic App，基于 DSub 的 Android 应用，用于连接 Booksonic Air 服务器。
+
+      访问项目主页：https://hub.docker.com/r/linuxserver/booksonic-air/
   tagline:
     en_US: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
+    zh_CN: 随时随地收听自己的有声书。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
   title:
     en_US: Booksonic air
+    zh_CN: Booksonic air
   category: Others
   project_url: https://booksonic.org/
   port_map: '4040'

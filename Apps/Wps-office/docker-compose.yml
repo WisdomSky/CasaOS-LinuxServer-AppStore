@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.
+    zh_CN: WPS Office 是一款轻量、功能丰富、兼容性强的综合办公套件。作为便捷且专业的办公软件，它支持通过文字、演示、表格和 PDF 工具编辑文件，提高工作效率。
   tagline:
     en_US: A lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.
+    zh_CN: 支持文字、表格、演示文稿和 PDF 的办公套件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png
   title:
     en_US: Wps office (LinuxServer.io)
+    zh_CN: Wps office（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwpsoffice
   port_map: '3000'

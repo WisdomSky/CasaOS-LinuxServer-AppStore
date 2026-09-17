@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    zh_CN: Piwigo 是一款网页相册软件，提供强大的照片发布和管理功能。
   tagline:
     en_US: A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    zh_CN: 通过网页发布和管理照片收藏。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
   title:
     en_US: Piwigo (LinuxServer.io)
+    zh_CN: Piwigo（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpiwigo
   port_map: '80'

@@ -52,14 +52,17 @@ x-casaos:
   main: app
   description:
     en_US: Flexget is a multipurpose automation tool for all of your media.
+    zh_CN: FlexGet 是一个适用于各种媒体内容的多用途自动化工具。
   tagline:
     en_US: A multipurpose automation tool for all of your media.
+    zh_CN: 为各类媒体任务提供自动化。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
   title:
     en_US: Flexget (LinuxServer.io)
+    zh_CN: Flexget（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverflexget
   port_map: '5050'

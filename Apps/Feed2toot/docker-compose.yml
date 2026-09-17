@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
+    zh_CN: Feed2toot 会自动解析 RSS 订阅源，识别新文章，并将其发布到 Mastodon 社交网络。
   tagline:
     en_US: 'Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network. '
+    zh_CN: 自动将 RSS 中的新文章发布到 Mastodon。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   title:
     en_US: Feed2toot
+    zh_CN: Feed2toot
   category: Others
   id: wisdomsky.linuxserver.linuxserverfeed2toot
   version: 0.17.20250110

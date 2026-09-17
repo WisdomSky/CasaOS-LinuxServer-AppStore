@@ -44,14 +44,17 @@ x-casaos:
   main: app
   description:
     en_US: Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    zh_CN: Diskover 是一个开源文件系统索引工具，使用 Elasticsearch 对不同存储系统中的数据进行索引和管理。
   tagline:
     en_US: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    zh_CN: 使用 Elasticsearch 索引和管理文件系统数据。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   thumbnail: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   title:
     en_US: Diskover (LinuxServer.io)
+    zh_CN: Diskover（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdiskover
   port_map: '80'

@@ -44,14 +44,17 @@ x-casaos:
   main: app
   description:
     en_US: Nginx is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
+    zh_CN: Nginx 可作为 HTTP 网页服务器、反向代理、内容缓存、负载均衡器、TCP/UDP 代理服务器和邮件代理服务器。
   tagline:
     en_US: An HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
+    zh_CN: 提供网页服务、反向代理、缓存和负载均衡。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   title:
     en_US: Nginx (LinuxServer.io)
+    zh_CN: Nginx（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservernginx
   port_map: '80'

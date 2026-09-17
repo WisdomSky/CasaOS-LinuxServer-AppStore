@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: FIleZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
+    zh_CN: FileZilla Client 是一款快速、可靠、跨平台的 FTP、FTPS 和 SFTP 客户端，具有丰富的实用功能和直观的图形界面。
   tagline:
     en_US: Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
+    zh_CN: 快速可靠的 FTP、FTPS 和 SFTP 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   title:
     en_US: Filezilla (LinuxServer.io)
+    zh_CN: Filezilla（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfilezilla
   port_map: '3000'

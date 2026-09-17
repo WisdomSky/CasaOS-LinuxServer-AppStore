@@ -41,14 +41,17 @@ x-casaos:
   main: app
   description:
     en_US: Pydio-cells is the nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
+    zh_CN: Pydio Cells 是面向组织的新一代文件共享平台。它使用 Go 语言和微服务架构，对 Pydio 项目进行了完整重写。
   tagline:
     en_US: The nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
+    zh_CN: 面向组织的文件共享平台。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pydio-cells-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pydio-cells-icon.png
   title:
     en_US: Pydio cells (LinuxServer.io)
+    zh_CN: Pydio cells（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpydiocells
   port_map: '8080'

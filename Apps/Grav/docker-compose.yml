@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Grav is a Fast, Simple, and Flexible, file-based Web-platform.
+    zh_CN: Grav 是一个基于文件的网页平台，强调快速、简单和灵活。
   tagline:
     en_US: A Fast, Simple, and Flexible, file-based Web-platform.
+    zh_CN: 快速、简单、灵活的文件式网站平台。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   title:
     en_US: Grav (LinuxServer.io)
+    zh_CN: Grav（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergrav
   port_map: '80'

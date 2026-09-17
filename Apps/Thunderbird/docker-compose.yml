@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Thunderbird is a free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.
+    zh_CN: Thunderbird 是免费、开源的个人信息管理器，主要作为电子邮件客户端使用，同时包含日历、通讯录、RSS 阅读器、聊天客户端和新闻组客户端。
   tagline:
     en_US: A free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.
+    zh_CN: 集成邮件、日历、联系人和订阅阅读的客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/thunderbird-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/thunderbird-logo.png
   title:
     en_US: Thunderbird (LinuxServer.io)
+    zh_CN: Thunderbird（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverthunderbird
   port_map: '3000'

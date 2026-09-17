@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.
+    zh_CN: RustDesk 是一个功能完整的开源远程控制替代方案，支持自行托管，注重安全，且仅需少量配置。
   tagline:
     en_US: A full-featured open source remote control alternative for self-hosting and security with minimal configuration.
+    zh_CN: 配置简单、支持自行托管的开源远程控制工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
   title:
     en_US: Rustdesk (LinuxServer.io)
+    zh_CN: Rustdesk（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverrustdesk
   port_map: '3000'

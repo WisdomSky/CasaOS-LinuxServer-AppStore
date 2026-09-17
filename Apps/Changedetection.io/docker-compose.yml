@@ -41,14 +41,17 @@ x-casaos:
   main: app
   description:
     en_US: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
+    zh_CN: Changedetection.io 提供免费、开源的网页监控、通知和变更检测功能。
   tagline:
     en_US: Provides free, open-source web page monitoring, notification and change detection.
+    zh_CN: 开源网页变化监测与通知工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   title:
     en_US: Changedetection. Io (LinuxServer.io)
+    zh_CN: Changedetection. Io（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverchangedetectionio
   port_map: '5000'

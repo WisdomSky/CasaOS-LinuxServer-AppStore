@@ -42,14 +42,17 @@ x-casaos:
   main: app
   description:
     en_US: Resilio-sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes.
+    zh_CN: Resilio Sync（原名 BitTorrent Sync）使用 BitTorrent 协议在你的所有设备之间同步文件和文件夹。它有免费版和付费版，此容器均支持。虽然已有官方同步镜像，此镜像提供用户映射，以简化数据卷权限管理。
   tagline:
     en_US: (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes.
+    zh_CN: 使用 BitTorrent 协议同步设备间的文件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/resilio-sync-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/resilio-sync-logo.png
   title:
     en_US: Resilio sync (LinuxServer.io)
+    zh_CN: Resilio sync（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverresiliosync
   version: 3.1.2

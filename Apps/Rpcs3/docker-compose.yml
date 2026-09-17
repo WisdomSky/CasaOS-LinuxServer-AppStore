@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    zh_CN: RPCS3 是用 C++ 编写的开源 Sony PlayStation 3 模拟器和调试器，支持 Windows、Linux、macOS 和 FreeBSD。
   tagline:
     en_US: A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    zh_CN: 开源的跨平台 PlayStation 3 模拟器与调试器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
   title:
     en_US: Rpcs3 (LinuxServer.io)
+    zh_CN: Rpcs3（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverrpcs3
   port_map: '3000'

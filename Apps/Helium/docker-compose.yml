@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Helium is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
+    zh_CN: Helium 是一款基于 Chromium、以用户为中心的网页浏览器。它将隐私放在首位，并提供不偏袒广告商的广告拦截功能。
   tagline:
     en_US: A Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
+    zh_CN: 注重隐私并内置广告拦截的 Chromium 浏览器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
   title:
     en_US: Helium (LinuxServer.io)
+    zh_CN: Helium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhelium
   port_map: '3000'

@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Raneto - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
+    zh_CN: Raneto 是一个开源知识库平台，使用静态 Markdown 文件驱动知识库。
   tagline:
     en_US: is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
+    zh_CN: 使用静态 Markdown 文件构建知识库。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/raneto-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/raneto-logo.png
   title:
     en_US: Raneto (LinuxServer.io)
+    zh_CN: Raneto（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverraneto
   port_map: '3000'

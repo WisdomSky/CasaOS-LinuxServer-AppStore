@@ -77,14 +77,17 @@ x-casaos:
   main: app
   description:
     en_US: HedgeDoc gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
+    zh_CN: HedgeDoc 让你随时随地访问文件，是一款实时、跨平台协作 Markdown 笔记编辑器。你可以与他人在桌面电脑、平板电脑或手机上共同编写笔记，并通过 Facebook、Twitter、GitHub 等多种身份验证服务登录。
   tagline:
     en_US: Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.
+    zh_CN: 跨设备实时协作编写 Markdown 笔记。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png
   title:
     en_US: Hedgedoc (LinuxServer.io)
+    zh_CN: Hedgedoc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhedgedoc
   port_map: '3000'

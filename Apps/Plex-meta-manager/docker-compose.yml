@@ -49,14 +49,17 @@ x-casaos:
   main: app
   description:
     en_US: Plex-meta-manager is a Python 3 script that can be continuously run using YAML configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
+    zh_CN: Plex Meta Manager 是一个 Python 3 脚本，可使用 YAML 配置持续运行，按计划更新媒体库中电影、电视剧和合集的元数据，并通过多种方式自动创建合集。详细使用方法见项目 Wiki。
   tagline:
     en_US: A Python 3 script that can be continuously run using YAML configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
+    zh_CN: 按计划更新 Plex 元数据并自动创建合集。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-meta-manager-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-meta-manager-banner.png
   title:
     en_US: Plex meta-manager
+    zh_CN: Plex meta-manager
   category: Others
   id: wisdomsky.linuxserver.linuxserverplexmetamanager
   version: 1.21.1

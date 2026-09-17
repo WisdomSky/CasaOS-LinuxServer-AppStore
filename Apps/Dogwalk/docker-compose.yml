@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: DOGWALK is Blender Studio's long awaited second game project, focused on creating a bite-sized interactive storytelling playground. Play as a big adorable dog and explore the winter woods with a little kid.
+    zh_CN: DOGWALK 是 Blender Studio 备受期待的第二个游戏项目，专注于打造小巧的互动叙事体验。你将扮演一只可爱的大狗，与一名小孩一起探索冬日森林。
   tagline:
     en_US: Blender Studio's long awaited second game project, focused on creating a bite-sized interactive storytelling playground. Play as a big adorable dog and explore the winter woods with a little kid.
+    zh_CN: 扮演可爱的大狗，与孩子探索冬日森林。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dogwalk-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dogwalk-logo.png
   title:
     en_US: Dogwalk (LinuxServer.io)
+    zh_CN: Dogwalk（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdogwalk
   port_map: '3000'

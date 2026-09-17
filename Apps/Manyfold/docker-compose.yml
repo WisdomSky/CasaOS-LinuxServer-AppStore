@@ -48,14 +48,17 @@ x-casaos:
   main: app
   description:
     en_US: Manyfold is an open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
+    zh_CN: Manyfold 是一款开源、可自行托管的网页应用，用于管理 3D 模型收藏，特别关注 3D 打印用途。
   tagline:
     en_US: An open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
+    zh_CN: 自行托管的 3D 模型收藏管理应用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
   title:
     en_US: Manyfold (LinuxServer.io)
+    zh_CN: Manyfold（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermanyfold
   port_map: '3214'

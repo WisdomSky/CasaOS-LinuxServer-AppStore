@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: LM Studio can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.
+    zh_CN: LM Studio 可在你的电脑上私密运行 gpt-oss、Llama、Gemma、Qwen 和 DeepSeek 等本地 AI 模型。
   tagline:
     en_US: Can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.
+    zh_CN: 在自己的电脑上私密运行本地 AI 模型。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lmstudio-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lmstudio-logo.png
   title:
     en_US: Lm studio (LinuxServer.io)
+    zh_CN: Lm studio（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlmstudio
   port_map: '3000'

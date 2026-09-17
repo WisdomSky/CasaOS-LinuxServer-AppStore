@@ -50,14 +50,17 @@ x-casaos:
   main: app
   description:
     en_US: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    zh_CN: qBittorrent 是用 C++ 和 Qt 编写的 BitTorrent 客户端，使用 Arvid Norberg 开发的 libtorrent（也称 libtorrent-rasterbar）。
   tagline:
     en_US: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    zh_CN: 基于 C++、Qt 和 libtorrent 的 BitTorrent 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   title:
     en_US: Qbittorrent (LinuxServer.io)
+    zh_CN: Qbittorrent（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverqbittorrent
   port_map: '8080'

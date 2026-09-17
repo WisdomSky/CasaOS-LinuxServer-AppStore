@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: xemu is a free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.
+    zh_CN: xemu 是免费、开源的应用，可模拟初代 Microsoft Xbox 游戏主机，让用户在 Windows、macOS 和 Linux 系统上游玩初代 Xbox 游戏。
   tagline:
     en_US: A free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.
+    zh_CN: 在桌面系统上模拟初代 Xbox。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/xemu-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/xemu-logo.png
   title:
     en_US: Xemu (LinuxServer.io)
+    zh_CN: Xemu（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverxemu
   port_map: '3000'

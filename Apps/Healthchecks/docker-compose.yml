@@ -112,14 +112,17 @@ x-casaos:
   main: app
   description:
     en_US: Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+    zh_CN: Healthchecks 是 cron 定时任务的监控工具。它包含一个接收任务心跳请求的网页服务器，以及相应的网页界面。
   tagline:
     en_US: A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+    zh_CN: 监控 cron 定时任务是否按时运行。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/healthchecks-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/healthchecks-logo.png
   title:
     en_US: Healthchecks (LinuxServer.io)
+    zh_CN: Healthchecks（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhealthchecks
   port_map: '8000'

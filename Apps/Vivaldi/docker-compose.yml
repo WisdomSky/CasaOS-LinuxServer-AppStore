@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Vivaldi is a Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.
+    zh_CN: Vivaldi 是由挪威公司 Vivaldi Technologies 开发的免费跨平台网页浏览器，内置电子邮件客户端。
   tagline:
     en_US: A Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.
+    zh_CN: 内置邮件客户端的跨平台浏览器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vivaldi-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vivaldi-logo.png
   title:
     en_US: Vivaldi (LinuxServer.io)
+    zh_CN: Vivaldi（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservervivaldi
   port_map: '3000'

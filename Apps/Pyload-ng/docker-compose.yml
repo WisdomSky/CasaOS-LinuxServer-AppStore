@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    zh_CN: pyLoad 是用 Python 编写的免费开源下载管理器，设计目标是极低的资源占用、易于扩展，以及完全通过网页管理。
   tagline:
     en_US: A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    zh_CN: 轻量、可扩展的网页下载管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   title:
     en_US: Pyload ng (LinuxServer.io)
+    zh_CN: Pyload ng（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpyloadng
   port_map: '8000'

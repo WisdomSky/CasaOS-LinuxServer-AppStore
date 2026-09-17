@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/yq for details.
+    zh_CN: 此容器需要特别注意。使用前请阅读相关说明：https://hub.docker.com/r/linuxserver/yq
   tagline:
     en_US: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/yq for details. '
+    zh_CN: 此容器需要特殊配置，请先阅读使用说明。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: ''
   title:
     en_US: Yq
+    zh_CN: Yq
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserveryq

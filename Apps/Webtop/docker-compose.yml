@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
+    zh_CN: Webtop 提供基于 Alpine、Ubuntu、Fedora 和 Arch 的容器，包含官方支持的各种完整桌面环境，可通过任意现代网页浏览器访问。
   tagline:
     en_US: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
+    zh_CN: 通过现代浏览器访问完整 Linux 桌面。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
   title:
     en_US: Webtop (LinuxServer.io)
+    zh_CN: Webtop（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebtop
   port_map: '3000'

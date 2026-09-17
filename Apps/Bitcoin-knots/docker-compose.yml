@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Bitcoin Knots can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    zh_CN: Bitcoin Knots 可作为桌面客户端用于日常支付，也可作为全节点服务器工具为商户和其他支付服务提供支持。
   tagline:
     en_US: Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    zh_CN: 用于日常支付或商户服务的比特币客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   title:
     en_US: Bitcoin knots (LinuxServer.io)
+    zh_CN: Bitcoin knots（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbitcoinknots
   port_map: '3000'

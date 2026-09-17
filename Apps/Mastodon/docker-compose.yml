@@ -191,14 +191,17 @@ x-casaos:
   main: app
   description:
     en_US: Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
+    zh_CN: Mastodon 是一款基于 ActivityPub 的免费开源社交网络服务器，用户可关注朋友并结识新朋友。
   tagline:
     en_US: A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .
+    zh_CN: 基于 ActivityPub 的开源社交网络服务器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   title:
     en_US: Mastodon (LinuxServer.io)
+    zh_CN: Mastodon（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermastodon
   port_map: '80'

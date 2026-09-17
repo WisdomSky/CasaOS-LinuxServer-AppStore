@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
+    zh_CN: Zotero 是一款免费、易用的工具，帮助你收集、整理、批注、引用和分享研究资料。
   tagline:
     en_US: A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
+    zh_CN: 收集、整理、批注、引用和分享研究资料。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
   title:
     en_US: Zotero (LinuxServer.io)
+    zh_CN: Zotero（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverzotero
   port_map: '3000'

@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    zh_CN: Zen Browser 是 Mozilla Firefox 的免费开源分支，注重隐私、可定制性和设计。
   tagline:
     en_US: A free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    zh_CN: 注重隐私、定制和设计的 Firefox 分支。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   title:
     en_US: Zen (LinuxServer.io)
+    zh_CN: Zen（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverzen
   port_map: '3000'

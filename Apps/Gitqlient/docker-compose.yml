@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: GitQlient is a multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
+    zh_CN: GitQlient 是一款跨平台 Git 客户端，最初是 QGit 的分支。如今它已不只是一个分支，而是加入了许多新功能。
   tagline:
     en_US: A multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
+    zh_CN: 功能丰富的跨平台 Git 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gitqlient-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gitqlient-icon.png
   title:
     en_US: Gitqlient (LinuxServer.io)
+    zh_CN: Gitqlient（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergitqlient
   port_map: '3000'

@@ -51,14 +51,17 @@ x-casaos:
   main: app
   description:
     en_US: Duplicati is a backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2, and many others.
+    zh_CN: Duplicati 是一款备份客户端，可将加密、增量、压缩的备份安全地保存到本地存储、云存储服务和远程文件服务器。它支持 FTP、SSH、WebDAV 等标准协议，以及 Microsoft OneDrive、Amazon S3、Google Drive、box.com、Mega、B2 等多种服务。
   tagline:
     en_US: A backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box. Com, Mega, B2, and many others.
+    zh_CN: 将加密、增量和压缩备份保存到本地或云端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png
   title:
     en_US: Duplicati (LinuxServer.io)
+    zh_CN: Duplicati（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverduplicati
   port_map: '8200'

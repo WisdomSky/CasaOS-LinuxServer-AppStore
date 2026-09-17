@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Doplarr_rs is a Discord bot for requesting media through *arr backends, written in Rust.
+    zh_CN: Doplarr_rs 是用 Rust 编写的 Discord 机器人，可通过 *arr 后端请求媒体内容。
   tagline:
     en_US: A Discord bot for requesting media through *arr backends, written in Rust.
+    zh_CN: 使用 Rust 编写的 Discord 媒体请求机器人。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   title:
     en_US: Doplarr_rs (LinuxServer.io)
+    zh_CN: Doplarr_rs（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdoplarrrs
   port_map: '80'

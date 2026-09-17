@@ -52,14 +52,17 @@ x-casaos:
   main: app
   description:
     en_US: 'Kimai is a professional grade time-tracking application, free and open-source. It handles use-cases of freelancers as well as companies with dozens or hundreds of users. Kimai was build to track your project times and ships with many advanced features, including but not limited to: JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones - multi-language (over 30 translations existing!), authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP, customizable role and team permissions, responsive design, user/customer/project specific rates, advanced search & filtering, money and time budgets, advanced reporting, support for plugins and so much more.'
+    zh_CN: Kimai 是免费、开源的专业工时追踪应用，适用于自由职业者以及拥有数十或数百名用户的企业。它用于记录项目工时，提供 JSON API、开票、数据导出、多计时器、上下班打卡、标签、多用户、多时区和多语言（已有 30 多种翻译）。它支持通过 SAML、LDAP 或数据库进行身份验证，基于 TOTP 的双重验证，可自定义的角色和团队权限，响应式界面，以及按用户、客户或项目设置费率。此外还提供高级搜索与筛选、资金和时间预算、高级报表及插件支持等功能。
   tagline:
     en_US: 'A professional grade time-tracking application, free and open-source. It handles use-cases of freelancers as well as companies with dozens or hundreds of users. Kimai was build to track your project times and ships with many advanced features, including but not limited to: JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones - multi-language (over 30 translations existing. ), authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP, customizable role and team permissions, responsive design, user/customer/project specific rates, advanced search & filtering, money and time budgets, advanced reporting, support for plugins and so much more.'
+    zh_CN: 适合自由职业者和企业的专业工时管理。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kimai-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kimai-logo.png
   title:
     en_US: Kimai (LinuxServer.io)
+    zh_CN: Kimai（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkimai
   port_map: '80'

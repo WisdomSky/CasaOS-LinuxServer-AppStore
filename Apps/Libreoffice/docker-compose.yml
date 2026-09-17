@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
+    zh_CN: LibreOffice 是免费、功能强大的办公套件，也是 OpenOffice.org（通常称为 OpenOffice）的继承者。简洁的界面和丰富的工具有助于发挥创造力并提高工作效率。
   tagline:
     en_US: A free and powerful office suite, and a successor to OpenOffice. Org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
+    zh_CN: 免费且功能强大的开源办公套件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/libreoffice-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/libreoffice-logo.png
   title:
     en_US: Libreoffice (LinuxServer.io)
+    zh_CN: Libreoffice（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlibreoffice
   port_map: '3000'

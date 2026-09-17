@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Ngircd is a free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. It is written from scratch and not based on the original IRCd.
+    zh_CN: ngIRCd 是一款免费、可移植、轻量的 IRC 服务器，适用于小型或私有网络，以 GNU 通用公共许可证（GPL）发布。它易于配置，能够处理动态 IP 地址，支持 IPv6、SSL 加密连接和 PAM 身份验证。它从零编写，不基于原始 IRCd。
   tagline:
     en_US: A free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. It is written from scratch and not based on the original IRCd.
+    zh_CN: 适用于小型或私有网络的轻量 IRC 服务器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ngircd-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ngircd-logo.png
   title:
     en_US: Ngircd (LinuxServer.io)
+    zh_CN: Ngircd（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverngircd
   port_map: '6667'

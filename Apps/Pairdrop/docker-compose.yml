@@ -49,14 +49,17 @@ x-casaos:
   main: app
   description:
     en_US: PairDrop is a sublime alternative to AirDrop that works on all platforms. Send images, documents or text via peer to peer connection to devices in the same local network/Wi-Fi or to paired devices.
+    zh_CN: PairDrop 是适用于所有平台的 AirDrop 替代工具。它通过点对点连接，将图片、文档或文字发送到同一局域网或 Wi-Fi 下的设备，也可发送到已配对设备。
   tagline:
     en_US: A sublime alternative to AirDrop that works on all platforms. Send images, documents or text via peer to peer connection to devices in the same local network/Wi-Fi or to paired devices.
+    zh_CN: 在设备之间通过点对点连接分享文件和文字。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
   thumbnail: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
   title:
     en_US: Pairdrop (LinuxServer.io)
+    zh_CN: Pairdrop（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpairdrop
   port_map: '3000'

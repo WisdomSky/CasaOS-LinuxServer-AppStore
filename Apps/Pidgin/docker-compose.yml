@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Pidgin is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
+    zh_CN: Pidgin 是一款聊天程序，可同时登录多个聊天网络的账户。例如，你可以一边在 XMPP 上与朋友聊天，一边参与 IRC 频道。
   tagline:
     en_US: A chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
+    zh_CN: 同时登录多个即时通信网络。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   title:
     en_US: Pidgin (LinuxServer.io)
+    zh_CN: Pidgin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpidgin
   port_map: '3000'

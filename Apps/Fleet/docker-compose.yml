@@ -53,14 +53,17 @@ x-casaos:
   main: app
   description:
     en_US: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
+    zh_CN: Fleet 提供在线网页界面，用于展示你拥有的一个或多个仓库中维护的镜像。
   tagline:
     en_US: 'Provides an online web interface which displays a set of maintained images from one or more owned repositories. '
+    zh_CN: 通过网页查看所维护的容器镜像。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: ''
   title:
     en_US: Fleet
+    zh_CN: Fleet
   category: Others
   port_map: '8080'
   id: wisdomsky.linuxserver.linuxserverfleet

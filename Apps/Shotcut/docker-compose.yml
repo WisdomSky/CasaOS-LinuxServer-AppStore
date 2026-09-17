@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Shotcut is a free, open source, cross-platform video editor.
+    zh_CN: Shotcut 是一款免费、开源、跨平台的视频编辑器。
   tagline:
     en_US: A free, open source, cross-platform video editor.
+    zh_CN: 免费、开源、跨平台的视频编辑器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
   title:
     en_US: Shotcut (LinuxServer.io)
+    zh_CN: Shotcut（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservershotcut
   port_map: '3000'

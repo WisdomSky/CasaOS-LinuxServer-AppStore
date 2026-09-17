@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
+    zh_CN: mStream 是一款个人音乐串流服务器，可将家中电脑上的音乐传输到任何地点的设备。它提供 Android 和 iPhone 移动应用。
   tagline:
     en_US: A personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
+    zh_CN: 随时随地串流家中电脑上的音乐。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png
   title:
     en_US: Mstream (LinuxServer.io)
+    zh_CN: Mstream（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermstream
   port_map: '3000'

@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Dokuwiki is a simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.
+    zh_CN: DokuWiki 是一款简单易用、用途广泛且无需数据库的开源 Wiki 软件。它以清晰易读的语法受到用户喜爱，维护、备份和集成都很方便。内置的访问控制和身份验证连接器使其尤其适合企业使用，而活跃社区提供的大量插件让它能够胜任传统 Wiki 之外的多种用途。
   tagline:
     en_US: A simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.
+    zh_CN: 无需数据库、易于维护的开源 Wiki。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dokuwiki-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dokuwiki-icon.png
   title:
     en_US: Dokuwiki (LinuxServer.io)
+    zh_CN: Dokuwiki（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdokuwiki
   port_map: '80'

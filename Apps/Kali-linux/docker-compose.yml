@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Kali-linux - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
+    zh_CN: Kali Linux 是用于渗透测试、道德黑客活动和网络安全评估的高级 Linux 发行版。KALI LINUX™ 是 OffSec 的商标。
   tagline:
     en_US: is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
+    zh_CN: 用于渗透测试和网络安全评估的 Linux 发行版。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
   title:
     en_US: Kali linux (LinuxServer.io)
+    zh_CN: Kali linux（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkalilinux
   port_map: '3000'

@@ -47,14 +47,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/domoticz/'
+    zh_CN: |-
+      Domoticz 是家庭自动化系统，可监控和配置灯具、开关，以及温度、雨量、风速、紫外线、电力、燃气、水等各类传感器和仪表。通知和警报可发送到移动设备。
+
+      访问项目主页：https://hub.docker.com/r/linuxserver/domoticz/
   tagline:
     en_US: 'A Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.'
+    zh_CN: 监控和控制灯具、开关及各类家庭传感器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/domoticz/domoticz/raw/master/www/images/logo.png
   thumbnail: https://github.com/domoticz/domoticz/raw/master/www/images/logo.png
   title:
     en_US: Domoticz
+    zh_CN: Domoticz
   category: Others
   project_url: https://www.domoticz.com
   port_map: '8080'

@@ -46,14 +46,17 @@ x-casaos:
   main: app
   description:
     en_US: Sealskin is a self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
+    zh_CN: Sealskin 是可自行托管的客户端与服务器平台，让用户直接通过浏览器串流运行强大的容器化桌面应用。它利用浏览器扩展拦截点击链接、下载文件等操作，并将其重定向到远程服务器上安全、隔离的应用环境。
   tagline:
     en_US: A self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.
+    zh_CN: 通过浏览器使用远程容器化桌面应用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/selkies-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/selkies-logo.png
   title:
     en_US: Sealskin (LinuxServer.io)
+    zh_CN: Sealskin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversealskin
   port_map: '8000'

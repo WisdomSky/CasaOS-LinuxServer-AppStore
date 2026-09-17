@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Series Troxide a Simple and Modern Series Tracker
+    zh_CN: Series Troxide 是一款简洁、现代的剧集追踪工具。
   tagline:
     en_US: A Simple and Modern Series Tracker
+    zh_CN: 简洁现代的剧集追踪工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/series-troxide-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/series-troxide-logo.png
   title:
     en_US: Series troxide
+    zh_CN: Series troxide
   category: Others
   id: wisdomsky.linuxserver.linuxserverseriestroxide
   version: 0.5.1

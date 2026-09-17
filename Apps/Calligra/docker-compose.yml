@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Calligra is an office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+    zh_CN: Calligra 是 KDE 开发的办公和图形创作套件，适用于桌面电脑、平板电脑和智能手机。它包含文字处理、电子表格、演示文稿、矢量图形和数据库编辑应用。
   tagline:
     en_US: An office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+    zh_CN: KDE 开发的办公与图形创作套件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calligra-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calligra-logo.png
   title:
     en_US: Calligra (LinuxServer.io)
+    zh_CN: Calligra（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservercalligra
   port_map: '3000'

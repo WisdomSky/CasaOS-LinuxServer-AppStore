@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Chrome is the official web browser from Google, built to be fast, secure, and customizable.
+    zh_CN: Chrome 是 Google 官方网页浏览器，注重速度、安全性和可定制性。
   tagline:
     en_US: The official web browser from Google, built to be fast, secure, and customizable.
+    zh_CN: Google 官方浏览器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
   title:
     en_US: Chrome (LinuxServer.io)
+    zh_CN: Chrome（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverchrome
   port_map: '3000'

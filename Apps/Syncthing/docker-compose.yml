@@ -48,14 +48,17 @@ x-casaos:
   main: app
   description:
     en_US: Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+    zh_CN: Syncthing 以开放、可信、去中心化的方式替代专有同步和云服务。你的数据应由你自己掌控，包括存储位置、是否与第三方共享，以及如何通过互联网传输。
   tagline:
     en_US: Replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+    zh_CN: 开放、可信、去中心化的文件同步工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png
   title:
     en_US: Syncthing (LinuxServer.io)
+    zh_CN: Syncthing（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversyncthing
   version: 2.1.5

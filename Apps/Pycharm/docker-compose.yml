@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: PyCharm offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.
+    zh_CN: PyCharm 开箱即用地支持 Python、数据库、Jupyter、Git、Conda、PyTorch、TensorFlow、Hugging Face、Django、Flask、FastAPI 等工具和技术。
   tagline:
     en_US: Offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.
+    zh_CN: 支持 Python 开发、数据科学和网页框架的 IDE。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pycharm-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pycharm-logo.png
   title:
     en_US: Pycharm (LinuxServer.io)
+    zh_CN: Pycharm（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpycharm
   port_map: '3000'

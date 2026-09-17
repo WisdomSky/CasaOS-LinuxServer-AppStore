@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: PCSX2 is an open source PS2 Emulator.
+    zh_CN: PCSX2 是一款开源 PS2 模拟器。
   tagline:
     en_US: An open source PS2 Emulator.
+    zh_CN: 开源 PlayStation 2 模拟器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pcsx2-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pcsx2-logo.png
   title:
     en_US: Pcsx2 (LinuxServer.io)
+    zh_CN: Pcsx2（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpcsx2
   port_map: '3000'

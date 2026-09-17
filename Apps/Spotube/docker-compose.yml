@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium
+    zh_CN: Spotube 是一款开源、跨平台的 Spotify 客户端，使用 Spotify 数据 API，并以 YouTube、Piped.video 或 JioSaavn 作为音源，无需 Spotify Premium。
   tagline:
     en_US: An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped. Video or JioSaavn as an audio source, eliminating the need for Spotify Premium
+    zh_CN: 使用多种音源的开源跨平台 Spotify 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/spotube-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/spotube-logo.png
   title:
     en_US: Spotube (LinuxServer.io)
+    zh_CN: Spotube（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverspotube
   port_map: '3000'

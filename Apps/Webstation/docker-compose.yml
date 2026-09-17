@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Webstation is a web native emulation focused LXQt desktop based on Ubuntu.
+    zh_CN: Webstation 是基于 Ubuntu、专注于网页原生模拟体验的 LXQt 桌面环境。
   tagline:
     en_US: A web native emulation focused LXQt desktop based on Ubuntu.
+    zh_CN: 面向网页模拟体验的 Ubuntu LXQt 桌面。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webstation-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webstation-logo.png
   title:
     en_US: Webstation (LinuxServer.io)
+    zh_CN: Webstation（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebstation
   port_map: '3000'

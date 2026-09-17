@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+    zh_CN: Audacity 是一款易于使用的多轨音频编辑和录制软件，由志愿者团队以开源方式开发。
   tagline:
     en_US: An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+    zh_CN: 易用的开源多轨音频编辑与录制工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   title:
     en_US: Audacity (LinuxServer.io)
+    zh_CN: Audacity（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveraudacity
   port_map: '3000'

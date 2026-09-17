@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Telegram is a cloud-based mobile and desktop messaging app.
+    zh_CN: Telegram 是一款基于云的移动端和桌面端消息应用。
   tagline:
     en_US: A cloud-based mobile and desktop messaging app.
+    zh_CN: 基于云的移动与桌面消息应用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png
   title:
     en_US: Telegram (LinuxServer.io)
+    zh_CN: Telegram（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservertelegram
   port_map: '3000'

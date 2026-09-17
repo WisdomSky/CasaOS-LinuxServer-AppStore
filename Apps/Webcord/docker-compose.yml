@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).
+    zh_CN: WebCord 封装 https://discord.com 页面，集成安全与隐私加固、Discord 功能的重新实现、Electron、Chromium 和 Discord 问题的绕过方案、样式表及内部页面。其设计尽可能遵循服务条款，或避免让 Discord 察觉可能违反条款的修改。
   tagline:
     en_US: Can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord. Com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).
+    zh_CN: 为 Discord 网页提供安全和隐私增强的客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webcord-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webcord-icon.png
   title:
     en_US: Webcord (LinuxServer.io)
+    zh_CN: Webcord（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebcord
   port_map: '3000'

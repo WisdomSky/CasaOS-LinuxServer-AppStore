@@ -69,14 +69,17 @@ x-casaos:
   main: app
   description:
     en_US: Planka is an elegant open source project tracking tool.
+    zh_CN: Planka 是一款优雅的开源项目追踪工具。
   tagline:
     en_US: An elegant open source project tracking tool.
+    zh_CN: 简洁优雅的开源项目追踪工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
   title:
     en_US: Planka (LinuxServer.io)
+    zh_CN: Planka（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverplanka
   port_map: '1337'

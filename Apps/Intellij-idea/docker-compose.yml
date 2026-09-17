@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: IntelliJ IDEA helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.
+    zh_CN: IntelliJ IDEA 提供各种工具以消除繁琐任务、加快编码速度，让你专注于开发出色的软件。
   tagline:
     en_US: Helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.
+    zh_CN: 帮助减少繁琐工作、提升编码效率的开发工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/intellij-idea-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/intellij-idea-logo.png
   title:
     en_US: Intellij idea (LinuxServer.io)
+    zh_CN: Intellij idea（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverintellijidea
   port_map: '3000'

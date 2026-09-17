@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.
+    zh_CN: Obsidian 是一款笔记应用，可在自己的设备上创建、关联和整理笔记，并通过数百种插件和主题定制工作流程。你还可以在线发布笔记、离线访问笔记，并使用端到端加密进行安全同步。
   tagline:
     en_US: A note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.
+    zh_CN: 在本地创建、关联和整理笔记。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/obsidian-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/obsidian-logo.png
   title:
     en_US: Obsidian (LinuxServer.io)
+    zh_CN: Obsidian（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverobsidian
   port_map: '3000'

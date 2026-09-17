@@ -25,14 +25,17 @@ x-casaos:
   main: app
   description:
     en_US: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    zh_CN: SyncLounge 是一个第三方工具，让你无论身在何处，都能与朋友和家人同步观看 Plex 内容。
   tagline:
     en_US: A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    zh_CN: 与亲友同步观看 Plex 内容。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   title:
     en_US: Synclounge (LinuxServer.io)
+    zh_CN: Synclounge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversynclounge
   port_map: '8088'

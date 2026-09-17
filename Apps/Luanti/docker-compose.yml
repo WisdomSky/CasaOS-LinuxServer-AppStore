@@ -37,14 +37,17 @@ x-casaos:
   main: app
   description:
     en_US: Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation
+    zh_CN: Luanti（原名 Minetest）是一个开源体素游戏创作平台，便于开发模组和制作游戏。
   tagline:
     en_US: (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation
+    zh_CN: 便于模组开发和游戏创作的开源体素平台。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minetest-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minetest-icon.png
   title:
     en_US: Luanti (LinuxServer.io)
+    zh_CN: Luanti（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverluanti
   port_map: '30000'

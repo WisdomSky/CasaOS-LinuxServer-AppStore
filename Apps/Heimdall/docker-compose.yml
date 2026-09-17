@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.
+    zh_CN: Heimdall 以简单的方式整理你最常使用的网站和网页应用链接。简洁是它的核心，你可以将其设为浏览器起始页。它还可添加使用 Google、Bing 或 DuckDuckGo 的搜索栏。
   tagline:
     en_US: A way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page. It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.
+    zh_CN: 集中整理常用网站和网页应用链接。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png
   title:
     en_US: Heimdall (LinuxServer.io)
+    zh_CN: Heimdall（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverheimdall
   port_map: '80'

@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    zh_CN: Flycast 是源自 reicast 的多平台模拟器，支持 Sega Dreamcast、Naomi、Naomi 2 和 Atomiswave。
   tagline:
     en_US: A multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    zh_CN: 模拟 Dreamcast、Naomi 和 Atomiswave 等平台。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
   title:
     en_US: Flycast (LinuxServer.io)
+    zh_CN: Flycast（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverflycast
   port_map: '3000'

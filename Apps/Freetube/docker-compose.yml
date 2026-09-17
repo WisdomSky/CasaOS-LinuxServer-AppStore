@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: FreeTube is a feature-rich and user-friendly YouTube client with a focus on privacy.
+    zh_CN: FreeTube 是一款功能丰富、易于使用且注重隐私的 YouTube 客户端。
   tagline:
     en_US: 'A feature-rich and user-friendly YouTube client with a focus on privacy. '
+    zh_CN: 注重隐私的 YouTube 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png
   title:
     en_US: Freetube
+    zh_CN: Freetube
   category: Others
   id: wisdomsky.linuxserver.linuxserverfreetube
   version: version-190523148

@@ -69,14 +69,17 @@ x-casaos:
   main: app
   description:
     en_US: 'Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
+    zh_CN: Transmission 兼顾易用性和强大功能，提供 BitTorrent 客户端所需的加密、网页界面、节点交换、磁力链接、DHT、µTP、UPnP 和 NAT-PMP 端口转发、Web 种子、监控目录、Tracker 编辑、全局及单个种子的限速等功能。
   tagline:
     en_US: 'Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
+    zh_CN: 易用且功能丰富的 BitTorrent 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   title:
     en_US: Transmission (LinuxServer.io)
+    zh_CN: Transmission（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservertransmission
   version: 4.1.3

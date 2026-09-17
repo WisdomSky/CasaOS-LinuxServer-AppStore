@@ -49,14 +49,17 @@ x-casaos:
   main: app
   description:
     en_US: Kasm Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.
+    zh_CN: Kasm Workspaces 是一个 Docker 容器串流平台，可通过浏览器访问桌面、应用和网页服务。它使用支持 DevOps 的容器化桌面基础设施（CDI），按需创建可通过浏览器访问的一次性 Docker 容器。使用场景包括远程浏览器隔离（RBI）、数据防泄漏（DLP）、桌面即服务（DaaS）、安全远程访问服务（RAS）以及开源情报（OSINT）收集。图形容器的渲染由开源项目 KasmVNC 提供支持。
   tagline:
     en_US: Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.
+    zh_CN: 通过浏览器访问容器化桌面、应用和网页服务。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://kasm-ci.s3.amazonaws.com/kasm_wide.png
   thumbnail: https://kasm-ci.s3.amazonaws.com/kasm_wide.png
   title:
     en_US: Kasm (LinuxServer.io)
+    zh_CN: Kasm（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkasm
   port_map: '3000'

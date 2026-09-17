@@ -53,14 +53,17 @@ x-casaos:
   main: app
   description:
     en_US: Vscodium-web is a community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.
+    zh_CN: Vscodium-web 是由社区推动、采用自由许可证的微软 VS Code 远程主机网页组件二进制发行版。
   tagline:
     en_US: A community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.
+    zh_CN: 社区维护的 VS Code 远程网页组件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   title:
     en_US: Vscodium web (LinuxServer.io)
+    zh_CN: Vscodium web（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservervscodiumweb
   port_map: '8000'

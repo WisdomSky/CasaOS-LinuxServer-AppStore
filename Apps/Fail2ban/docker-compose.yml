@@ -91,14 +91,17 @@ x-casaos:
   main: app
   description:
     en_US: Fail2ban is a daemon to ban hosts that cause multiple authentication errors.
+    zh_CN: Fail2ban 是一个守护进程，用于封禁多次触发身份验证错误的主机。
   tagline:
     en_US: A daemon to ban hosts that cause multiple authentication errors.
+    zh_CN: 封禁反复触发身份验证错误的主机。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   title:
     en_US: Fail2ban (LinuxServer.io)
+    zh_CN: Fail2ban（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfail2ban
   port_map: '80'

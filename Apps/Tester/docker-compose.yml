@@ -20,14 +20,17 @@ x-casaos:
   main: app
   description:
     en_US: This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
+    zh_CN: 此内部工具在 CI 流程中作为桌面沙盒使用，用于对预期正常运行的端点截取屏幕截图。
   tagline:
     en_US: This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
+    zh_CN: 用于 CI 流程中截图验证的内部桌面沙盒。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://avatars3.githubusercontent.com/u/12324908?s=200&v=4
   thumbnail: https://avatars3.githubusercontent.com/u/12324908?s=200&v=4
   title:
     en_US: Tester
+    zh_CN: Tester
   category: Others
   id: wisdomsky.linuxserver.linuxservertester
   version: version-66f677b0

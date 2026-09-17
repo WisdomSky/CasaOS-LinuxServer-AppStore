@@ -47,14 +47,17 @@ x-casaos:
   main: app
   description:
     en_US: Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.
+    zh_CN: Plex 可整理个人媒体库中的视频、音乐和照片，并将其串流到智能电视、流媒体盒子和移动设备。此容器提供独立的 Plex Media Server。直观的设计和批量操作可帮助你更快完成工作。
   tagline:
     en_US: Organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.
+    zh_CN: 整理和串流个人视频、音乐及照片。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-logo.png
   title:
     en_US: Plex (LinuxServer.io)
+    zh_CN: Plex（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverplex
   port_map: '80'

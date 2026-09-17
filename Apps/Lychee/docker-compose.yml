@@ -72,14 +72,17 @@ x-casaos:
   main: app
   description:
     en_US: Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    zh_CN: Lychee 是一款免费照片管理工具，可运行在你的服务器或网站空间中，安装只需片刻。它让你像使用原生应用一样上传、管理和分享照片，提供所需的完整功能，并安全保存所有照片。
   tagline:
     en_US: A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    zh_CN: 自行托管、上传、管理和分享照片。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png
   title:
     en_US: Lychee (LinuxServer.io)
+    zh_CN: Lychee（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlychee
   port_map: '80'

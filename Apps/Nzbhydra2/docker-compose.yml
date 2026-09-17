@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Nzbhydra2 is a meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.
+    zh_CN: NZBHydra2 是面向 NZB 索引器的聚合搜索应用，是 NZBmegasearcH 理念上的继任者，也是原版 NZBHydra 的演进版本。它可方便地访问多个原生或基于 newznab 的索引器。
   tagline:
     en_US: A meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.
+    zh_CN: 集中搜索多个 NZB 索引服务。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
   title:
     en_US: Nzbhydra2 (LinuxServer.io)
+    zh_CN: Nzbhydra2（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservernzbhydra2
   port_map: '5076'

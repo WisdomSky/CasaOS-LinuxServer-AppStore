@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: DuckStation is a PS1 Emulator aiming for the best accuracy and game support.
+    zh_CN: DuckStation 是一款 PS1 模拟器，目标是提供出色的模拟准确性和游戏兼容性。
   tagline:
     en_US: A PS1 Emulator aiming for the best accuracy and game support.
+    zh_CN: 注重准确性和游戏兼容性的 PS1 模拟器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckstation-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckstation-logo.png
   title:
     en_US: Duckstation (LinuxServer.io)
+    zh_CN: Duckstation（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverduckstation
   port_map: '3000'

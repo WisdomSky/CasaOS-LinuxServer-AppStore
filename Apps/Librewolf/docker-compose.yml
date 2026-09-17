@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: LibreWolf is a custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.
+    zh_CN: LibreWolf 是经过定制的 Firefox 独立版本，主要目标是保护隐私、安全和用户自由。它旨在移除遥测、数据收集和令人困扰的功能，并禁用 DRM 等限制用户自由的功能。
   tagline:
     en_US: A custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.
+    zh_CN: 注重隐私、安全和用户自由的 Firefox 独立版本。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/librewolf-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/librewolf-logo.png
   title:
     en_US: Librewolf (LinuxServer.io)
+    zh_CN: Librewolf（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlibrewolf
   port_map: '3000'

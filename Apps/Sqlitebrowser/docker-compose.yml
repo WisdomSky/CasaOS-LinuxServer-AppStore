@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+    zh_CN: DB Browser for SQLite 是一款高质量、开源的可视化工具，用于创建、设计和编辑与 SQLite 兼容的数据库文件。
   tagline:
     en_US: A high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+    zh_CN: 以可视化方式创建和编辑 SQLite 数据库。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sqlitebrowser-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sqlitebrowser-banner.png
   title:
     en_US: Sqlitebrowser (LinuxServer.io)
+    zh_CN: Sqlitebrowser（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversqlitebrowser
   port_map: '3000'

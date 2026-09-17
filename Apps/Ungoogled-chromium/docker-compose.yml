@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Ungoogled Chromium is Google Chromium, sans dependency on Google web services.
+    zh_CN: Ungoogled Chromium 是移除了对 Google 网页服务依赖的 Google Chromium 版本。
   tagline:
     en_US: Google Chromium, sans dependency on Google web services.
+    zh_CN: 移除 Google 网页服务依赖的 Chromium。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
   title:
     en_US: Ungoogled chromium (LinuxServer.io)
+    zh_CN: Ungoogled chromium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverungoogledchromium
   port_map: '3000'

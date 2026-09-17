@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Webgrabplus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+    zh_CN: WebGrab+Plus 是一个支持多站点的增量 XMLTV 电子节目指南采集器，可从选定的电视节目网站收集你喜欢的频道的节目信息。
   tagline:
     en_US: A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+    zh_CN: 从多个电视节目网站增量采集 XMLTV 节目指南。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg
   thumbnail: https://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg
   title:
     en_US: Webgrabplus (LinuxServer.io)
+    zh_CN: Webgrabplus（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebgrabplus
   port_map: '80'

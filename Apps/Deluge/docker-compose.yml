@@ -49,14 +49,17 @@ x-casaos:
   main: app
   description:
     en_US: Deluge is a lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more...
+    zh_CN: Deluge 是一款轻量、跨平台的自由软件 BitTorrent 客户端，提供完整加密、网页界面、插件系统等功能。
   tagline:
     en_US: A lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more. . .
+    zh_CN: 轻量、跨平台的自由软件 BitTorrent 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-logo.png
   title:
     en_US: Deluge (LinuxServer.io)
+    zh_CN: Deluge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdeluge
   version: 2.2.0

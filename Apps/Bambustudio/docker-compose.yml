@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Bambu Studio is an open-source, cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth printing experience.
+    zh_CN: Bambu Studio 是一款先进、开源且功能丰富的切片软件。它提供基于项目的工作流程、系统优化的切片算法和易于使用的图形界面，带来流畅的打印体验。
   tagline:
     en_US: An open-source, cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth printing experience.
+    zh_CN: 功能丰富的开源 3D 打印切片软件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bambustudio-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bambustudio-logo.png
   title:
     en_US: Bambustudio (LinuxServer.io)
+    zh_CN: Bambustudio（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbambustudio
   port_map: '3000'

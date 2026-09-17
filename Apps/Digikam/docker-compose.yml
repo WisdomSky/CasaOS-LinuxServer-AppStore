@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: 'digiKam: Professional Photo Management with the Power of Open Source'
+    zh_CN: digiKam：由开源技术驱动的专业照片管理软件。
   tagline:
     en_US: 'digiKam: Professional Photo Management with the Power of Open Source'
+    zh_CN: 开源的专业照片管理软件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   title:
     en_US: Digikam (LinuxServer.io)
+    zh_CN: Digikam（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdigikam
   port_map: '3000'

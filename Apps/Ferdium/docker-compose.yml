@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application.
+    zh_CN: Ferdium 是一款桌面应用，通过将常用应用整合到一个应用中，帮助你更有条理地使用它们。
   tagline:
     en_US: A desktop app that helps you organize how you use your favourite apps by combining them into one application.
+    zh_CN: 将常用应用整合到一个桌面客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ferdium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ferdium-logo.png
   title:
     en_US: Ferdium (LinuxServer.io)
+    zh_CN: Ferdium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverferdium
   port_map: '3000'

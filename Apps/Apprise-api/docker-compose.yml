@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Apprise-api Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more than 100 services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. * A Simple Website to verify and test your configuration with. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.
+    zh_CN: Apprise-api 提供易于使用的 API，让你通过网络使用 Apprise。它可向超过 100 种服务发送通知，是一个轻量、可用于生产环境的 Apprise 网关微服务，并提供用于验证和测试配置的简单网页。Apprise API 旨在轻松融入需要简单通知方案的现有或新建系统。
   tagline:
     en_US: Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more than 100 services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. * A Simple Website to verify and test your configuration with. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.
+    zh_CN: 通过简单的 API 向百余种服务发送通知。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png
   thumbnail: https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png
   title:
     en_US: Apprise api (LinuxServer.io)
+    zh_CN: Apprise api（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverappriseapi
   port_map: '8000'

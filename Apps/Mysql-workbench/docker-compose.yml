@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: MySQL Workbench is a unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
+    zh_CN: MySQL Workbench 为数据库架构师、开发者和 DBA 提供统一的可视化工具，包括数据建模、SQL 开发，以及服务器配置、用户管理、备份等全面管理功能。
   tagline:
     en_US: A unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
+    zh_CN: 用于 MySQL 建模、开发和管理的可视化工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   title:
     en_US: Mysql workbench (LinuxServer.io)
+    zh_CN: Mysql workbench（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermysqlworkbench
   port_map: '3000'

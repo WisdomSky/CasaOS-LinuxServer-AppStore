@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Oscam is an Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.
+    zh_CN: OSCam 是开源条件访问模块软件，可使用智能卡对 DVB 传输进行解扰，同时具有服务器和客户端功能。
   tagline:
     en_US: An Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.
+    zh_CN: 使用智能卡解扰 DVB 传输的开源软件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   title:
     en_US: Oscam (LinuxServer.io)
+    zh_CN: Oscam（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveroscam
   port_map: '8888'

@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
+    zh_CN: GZDoom 是基于 ZDoom、面向 Doom 引擎游戏的功能丰富的移植版本，加入了 OpenGL 渲染器和强大的脚本功能。
   tagline:
     en_US: A feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
+    zh_CN: 支持 OpenGL 和强大脚本功能的 Doom 引擎移植版。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gzdoom-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gzdoom-logo.png
   title:
     en_US: Gzdoom (LinuxServer.io)
+    zh_CN: Gzdoom（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergzdoom
   port_map: '3000'

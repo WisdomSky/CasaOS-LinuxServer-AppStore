@@ -57,14 +57,17 @@ x-casaos:
   main: app
   description:
     en_US: SteamOS is an Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern AMD/Intel GPUs on a real Linux Host
+    zh_CN: SteamOS 是 Valve Software 开发的基于 Arch 的 Linux 发行版。此容器提供原生 Arch 安装，并加入 Steam 软件仓库以支持相关软件。它仅能在配备现代 AMD 或 Intel GPU 的真实 Linux 主机上运行。
   tagline:
     en_US: An Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern AMD/Intel GPUs on a real Linux Host
+    zh_CN: 带有 Steam 软件仓库的 Arch Linux 容器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steamos-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steamos-logo.png
   title:
     en_US: Steamos
+    zh_CN: Steamos
   category: Others
   id: wisdomsky.linuxserver.linuxserversteamos
   version: version-2024-12-20

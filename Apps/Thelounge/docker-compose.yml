@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Thelounge (a fork of shoutIRC) is a web IRC client that you host on your own server.
+    zh_CN: The Lounge 是 shoutIRC 的分支，是一个运行在你自己服务器上的网页 IRC 客户端。
   tagline:
     en_US: (a fork of shoutIRC) is a web IRC client that you host on your own server.
+    zh_CN: 自行托管的网页 IRC 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/thelounge/thelounge/master/client/public/img/logo-vertical-transparent-bg.svg
   thumbnail: https://raw.githubusercontent.com/thelounge/thelounge/master/client/public/img/logo-vertical-transparent-bg.svg
   title:
     en_US: Thelounge (LinuxServer.io)
+    zh_CN: Thelounge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverthelounge
   port_map: '9000'

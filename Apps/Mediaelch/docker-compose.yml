@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: MediaElch is a MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart.tv. Using the nfo generator, MediaElch can be used with other MediaCenters as well.
+    zh_CN: MediaElch 是面向 Kodi 的媒体管理器，将电影、电视剧、演唱会和音乐信息保存为 NFO 文件，并自动从 fanart.tv 下载背景图。借助 NFO 生成器，它也可与其他媒体中心一起使用。
   tagline:
     en_US: A MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart. Tv. Using the nfo generator, MediaElch can be used with other MediaCenters as well.
+    zh_CN: 为 Kodi 整理影视、演唱会和音乐元数据。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mediaelch-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mediaelch-logo.png
   title:
     en_US: Mediaelch (LinuxServer.io)
+    zh_CN: Mediaelch（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermediaelch
   port_map: '3000'

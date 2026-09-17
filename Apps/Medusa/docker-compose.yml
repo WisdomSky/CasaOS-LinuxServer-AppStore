@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Medusa is an automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    zh_CN: Medusa 是电视剧视频库的自动管理器。它会关注你喜欢的剧集，在新一集发布后自动进行处理。
   tagline:
     en_US: An automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    zh_CN: 自动追踪电视剧新集的媒体库管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png
   title:
     en_US: Medusa (LinuxServer.io)
+    zh_CN: Medusa（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermedusa
   port_map: '8081'

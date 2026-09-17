@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
+    zh_CN: Double Commander 是一款免费的跨平台开源文件管理器，采用并排双面板布局。它受到 Total Commander 启发，并加入了一些新设计。
   tagline:
     en_US: A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
+    zh_CN: 跨平台、开源的双面板文件管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png
   title:
     en_US: Doublecommander (LinuxServer.io)
+    zh_CN: Doublecommander（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdoublecommander
   port_map: '3000'

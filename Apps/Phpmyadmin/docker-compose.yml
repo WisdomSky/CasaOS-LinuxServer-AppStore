@@ -44,14 +44,17 @@ x-casaos:
   main: app
   description:
     en_US: Phpmyadmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB.
+    zh_CN: phpMyAdmin 是用 PHP 编写的自由软件工具，旨在通过网页管理 MySQL。它支持 MySQL 和 MariaDB 的多种操作。
   tagline:
     en_US: A free software tool written in PHP, intended to handle the administration of MySQL over the Web. PhpMyAdmin supports a wide range of operations on MySQL and MariaDB.
+    zh_CN: 通过网页管理 MySQL 和 MariaDB。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png
   title:
     en_US: Phpmyadmin (LinuxServer.io)
+    zh_CN: Phpmyadmin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverphpmyadmin
   port_map: '8081'

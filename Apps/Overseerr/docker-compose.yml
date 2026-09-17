@@ -41,14 +41,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/overseerr'
+    zh_CN: |-
+      Overseerr 是为现有 Plex 生态打造的请求管理和媒体发现工具。
+
+      访问项目主页：https://github.com/orgs/linuxserver/packages/container/package/overseerr
   tagline:
     en_US: 'A request management and media discovery tool built to work with your existing Plex ecosystem. '
+    zh_CN: 为 Plex 生态提供媒体发现和请求管理。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png
   title:
     en_US: Overseerr
+    zh_CN: Overseerr
   category: Others
   project_url: https://overseerr.dev/
   port_map: '5055'

@@ -68,14 +68,17 @@ x-casaos:
   main: app
   description:
     en_US: Nano is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
+    zh_CN: Nano 是一种易于使用的轻量数字支付协议，重点在于消除其他加密货币中的低效环节。它在安全、环保、去中心化的网络上提供极快且零手续费的交易，适合日常支付。
   tagline:
     en_US: A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
+    zh_CN: 轻量、快速且零手续费的数字支付协议。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   title:
     en_US: Nano
+    zh_CN: Nano
   category: Others
   id: wisdomsky.linuxserver.linuxservernano
   version: 21.2.20220522

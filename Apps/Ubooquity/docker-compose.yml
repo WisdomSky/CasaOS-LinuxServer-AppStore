@@ -49,14 +49,17 @@ x-casaos:
   main: app
   description:
     en_US: Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+    zh_CN: Ubooquity 是免费、轻量、易用的漫画和电子书家用服务器。你可以通过平板电脑、电子阅读器、手机或电脑，随时随地访问自己的文件。
   tagline:
     en_US: A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+    zh_CN: 随时随地访问自己的漫画和电子书。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png
   title:
     en_US: Ubooquity (LinuxServer.io)
+    zh_CN: Ubooquity（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverubooquity
   version: 3.1.0

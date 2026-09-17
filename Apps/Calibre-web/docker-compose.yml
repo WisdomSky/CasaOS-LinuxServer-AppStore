@@ -44,14 +44,17 @@ x-casaos:
   main: app
   description:
     en_US: Calibre-web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.
+    zh_CN: Calibre-web 是一款网页应用，使用现有的 Calibre 数据库，为浏览、阅读和下载电子书提供简洁界面。它还支持集成 Google Drive，并可直接在应用中编辑元数据和 Calibre 书库。该软件是 library 项目的分支，采用 GPL v3 许可证。
   tagline:
     en_US: A web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.
+    zh_CN: 通过网页浏览、阅读和下载 Calibre 书库中的电子书。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
   title:
     en_US: Calibre web (LinuxServer.io)
+    zh_CN: Calibre web（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservercalibreweb
   port_map: '8083'

@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Dolphin Emulator lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.
+    zh_CN: Dolphin Emulator 可运行 GameCube 和 Wii 游戏，并提供多种图形增强和其他功能以改善游戏体验。
   tagline:
     en_US: Lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.
+    zh_CN: 支持图形增强的 GameCube 和 Wii 模拟器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dolphin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dolphin-logo.png
   title:
     en_US: Dolphin (LinuxServer.io)
+    zh_CN: Dolphin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdolphin
   port_map: '3000'

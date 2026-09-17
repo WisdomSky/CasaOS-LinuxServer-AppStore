@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Habridge emulates Philips Hue API to other home automation gateways such as an Amazon Echo/Dot Gen 1 (gen 2 has issues discovering ha-bridge) or other systems that support Philips Hue. The Bridge handles basic commands such as On, Off and brightness commands of the hue protocol. This bridge can control most devices that have a distinct API.
+    zh_CN: HA Bridge 向其他家庭自动化网关模拟 Philips Hue API，例如第一代 Amazon Echo/Dot，或其他支持 Philips Hue 的系统；第二代设备在发现 HA Bridge 时存在问题。它支持 Hue 协议中的开启、关闭和亮度等基本命令，并可控制大多数提供独立 API 的设备。
   tagline:
     en_US: Emulates Philips Hue API to other home automation gateways such as an Amazon Echo/Dot Gen 1 (gen 2 has issues discovering ha-bridge) or other systems that support Philips Hue. The Bridge handles basic commands such as On, Off and brightness commands of the hue protocol. This bridge can control most devices that have a distinct API.
+    zh_CN: 模拟 Philips Hue API，连接家庭自动化设备。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/habridge-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/habridge-logo.png
   title:
     en_US: Habridge (LinuxServer.io)
+    zh_CN: Habridge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhabridge
   port_map: '8080'

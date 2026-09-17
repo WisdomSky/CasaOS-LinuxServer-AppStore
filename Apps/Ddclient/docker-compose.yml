@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
+    zh_CN: Ddclient 是一个 Perl 客户端，用于更新动态 DNS 服务提供商账户中的记录。它最初由 Paul Burry 编写，目前主要由 wimpunk 维护。它不只支持 dyndns，也可通过多种方式获取你的公网 IP 地址。
   tagline:
     en_US: A Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
+    zh_CN: 自动更新动态 DNS 记录的 Perl 客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png
   title:
     en_US: Ddclient (LinuxServer.io)
+    zh_CN: Ddclient（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverddclient
   port_map: '80'

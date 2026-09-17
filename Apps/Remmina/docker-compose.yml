@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported.
+    zh_CN: Remmina 是使用 GTK 编写的远程桌面客户端，面向需要在大屏或小屏设备上管理大量远程电脑的系统管理员和外出工作者。它在统一、一致的界面中支持多种网络协议，目前包括 RDP、VNC、SPICE、SSH 和 EXEC。
   tagline:
     en_US: A remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported.
+    zh_CN: 支持 RDP、VNC、SPICE 和 SSH 的远程桌面客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/remmina-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/remmina-icon.png
   title:
     en_US: Remmina (LinuxServer.io)
+    zh_CN: Remmina（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverremmina
   port_map: '3000'

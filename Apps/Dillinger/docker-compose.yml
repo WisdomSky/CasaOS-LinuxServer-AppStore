@@ -41,14 +41,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/dillinger/'
+    zh_CN: |-
+      Dillinger 是基于 AngularJS 和 HTML5 的 Markdown 编辑器，支持云端功能、移动设备和离线存储。
+
+      访问项目主页：https://hub.docker.com/r/linuxserver/dillinger/
   tagline:
     en_US: A cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+    zh_CN: 支持云端与离线存储的 Markdown 编辑器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
   title:
     en_US: Dillinger
+    zh_CN: Dillinger
   category: Others
   project_url: https://dillinger.io/
   port_map: '8080'

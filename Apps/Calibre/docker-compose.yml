@@ -47,14 +47,17 @@ x-casaos:
   main: app
   description:
     en_US: Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
+    zh_CN: Calibre 是一款功能强大、易于使用的电子书管理器，深受用户好评。它能够完成几乎所有常见的电子书管理工作，功能超越一般电子书软件。Calibre 完全免费且开源，适合普通用户和计算机专业人士。
   tagline:
     en_US: A powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
+    zh_CN: 功能强大、易于使用的开源电子书管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-logo.png
   title:
     en_US: Calibre (LinuxServer.io)
+    zh_CN: Calibre（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservercalibre
   port_map: '8080'

@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    zh_CN: Sonarr（原名 NZBdrone）是面向 Usenet 和 BitTorrent 用户的 PVR。它可监控多个 RSS 订阅源，发现喜欢的剧集的新一集，并自动获取、整理和重命名。还可配置为在更高品质版本出现时，自动升级已下载的文件。
   tagline:
     en_US: (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    zh_CN: 自动获取、整理和升级电视剧集。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png
   title:
     en_US: Sonarr (LinuxServer.io)
+    zh_CN: Sonarr（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversonarr
   port_map: '8989'

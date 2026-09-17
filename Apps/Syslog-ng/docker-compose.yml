@@ -46,14 +46,17 @@ x-casaos:
   main: app
   description:
     en_US: syslog-ng allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+    zh_CN: syslog-ng 可灵活地收集、解析、分类、改写和关联整个基础设施中的日志，并将其存储或转发到日志分析工具。
   tagline:
     en_US: Allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+    zh_CN: 集中收集、处理和转发基础设施日志。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
   title:
     en_US: Syslog ng (LinuxServer.io)
+    zh_CN: Syslog ng（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversyslogng
   version: 4.11.0

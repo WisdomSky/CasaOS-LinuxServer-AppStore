@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.
+    zh_CN: Opera 是由同名公司开发的跨平台网页浏览器。它基于 Chromium，但通过用户界面和其他功能，与 Chrome、Edge 等 Chromium 浏览器形成区别。
   tagline:
     en_US: A multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc. ) through its user interface and other features.
+    zh_CN: 具有独特界面和功能的 Chromium 浏览器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png
   title:
     en_US: Opera (LinuxServer.io)
+    zh_CN: Opera（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveropera
   port_map: '3000'

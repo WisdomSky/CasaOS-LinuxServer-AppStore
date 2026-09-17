@@ -60,14 +60,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
+    zh_CN: |-
+      Quassel Web 是 Quassel 的网页客户端，需要连接 Quassel Core 实例；本商店也提供对应容器。
+
+      访问项目主页：https://hub.docker.com/r/linuxserver/quassel-web/
   tagline:
     en_US: A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.
+    zh_CN: 通过网页连接 Quassel IRC 核心。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-banner.png
   title:
     en_US: Quassel web
+    zh_CN: Quassel web
   category: Others
   project_url: https://github.com/magne4000/quassel-webserver
   port_map: '64080'

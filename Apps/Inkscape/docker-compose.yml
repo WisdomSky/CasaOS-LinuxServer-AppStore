@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
+    zh_CN: Inkscape 是专业级矢量图形软件，可在 Linux、Mac OS X 和 Windows 桌面电脑上运行。
   tagline:
     en_US: Professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
+    zh_CN: 跨平台的专业矢量图形软件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png
   title:
     en_US: Inkscape (LinuxServer.io)
+    zh_CN: Inkscape（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverinkscape
   port_map: '3000'

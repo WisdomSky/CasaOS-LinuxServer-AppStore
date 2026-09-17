@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: BOINC is a platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
+    zh_CN: BOINC 是一个支持数千乃至数百万台计算机的高吞吐计算平台。它可用于利用个人设备的志愿计算，也可用于利用机构资源的网格计算，并支持虚拟化、并行计算和基于 GPU 的应用。
   tagline:
     en_US: A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
+    zh_CN: 面向大规模志愿计算和网格计算的平台。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
   thumbnail: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
   title:
     en_US: Boinc (LinuxServer.io)
+    zh_CN: Boinc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverboinc
   port_map: '8080'

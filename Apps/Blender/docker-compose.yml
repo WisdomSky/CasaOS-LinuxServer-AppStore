@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. This image does not support GPU rendering out of the box only accelerated workspace experience
+    zh_CN: Blender 是一套免费的开源 3D 图形软件，可用于制作动画电影、视觉特效、艺术作品、3D 打印模型、动态图形、交互式 3D 应用、虚拟现实和电脑游戏。此镜像默认仅提供工作区图形加速，不支持开箱即用的 GPU 渲染。
   tagline:
     en_US: A free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. This image does not support GPU rendering out of the box only accelerated workspace experience
+    zh_CN: 免费的开源 3D 创作工具集。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/blender-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/blender-logo.png
   title:
     en_US: Blender (LinuxServer.io)
+    zh_CN: Blender（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverblender
   port_map: '3000'

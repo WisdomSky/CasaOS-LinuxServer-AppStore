@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+    zh_CN: SABnzbd 通过尽可能自动化处理流程，让 Usenet 使用变得简单顺畅。你只需添加一个 NZB 文件，它就会自动完成下载、校验、修复、解压和归档，无需人工干预。
   tagline:
     en_US: Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an. Nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+    zh_CN: 自动下载、校验、修复和解压 Usenet 内容。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png
   title:
     en_US: Sabnzbd (LinuxServer.io)
+    zh_CN: Sabnzbd（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversabnzbd
   port_map: '8080'

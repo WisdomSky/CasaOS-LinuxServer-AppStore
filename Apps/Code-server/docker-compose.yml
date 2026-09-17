@@ -61,14 +61,17 @@ x-casaos:
   main: app
   description:
     en_US: Code-server is VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
+    zh_CN: Code-server 让 VS Code 运行在远程服务器上，并通过浏览器访问。你可以在 Chromebook、平板电脑和笔记本电脑上使用一致的开发环境，也可在 Windows 或 Mac 工作站上更方便地为 Linux 开发。借助大型云服务器加速测试、编译和下载，并在外出时节省电池电量。所有密集计算都在服务器上完成，无需在本地运行多余的 Chrome 实例。
   tagline:
     en_US: VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
+    zh_CN: 在浏览器中使用远程服务器上的 VS Code。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png
   title:
     en_US: Code server (LinuxServer.io)
+    zh_CN: Code server（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservercodeserver
   port_map: '8443'

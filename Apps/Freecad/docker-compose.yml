@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: FreeCAD is a general-purpose parametric 3D computer-aided design (CAD) modeler and a building information modeling (BIM) software application with finite element method (FEM) support.
+    zh_CN: FreeCAD 是通用的参数化三维计算机辅助设计（CAD）建模软件，同时提供建筑信息模型（BIM）功能并支持有限元方法（FEM）。
   tagline:
     en_US: A general-purpose parametric 3D computer-aided design (CAD) modeler and a building information modeling (BIM) software application with finite element method (FEM) support.
+    zh_CN: 支持参数化建模、BIM 和有限元分析的开源 CAD。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freecad-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freecad-logo.png
   title:
     en_US: Freecad (LinuxServer.io)
+    zh_CN: Freecad（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfreecad
   port_map: '3000'

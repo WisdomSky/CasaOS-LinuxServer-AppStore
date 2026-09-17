@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    zh_CN: Joplin 是一款免费、开源的笔记和待办事项应用，可处理大量按笔记本组织的笔记。
   tagline:
     en_US: A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    zh_CN: 开源笔记和待办事项管理应用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png
   title:
     en_US: Joplin (LinuxServer.io)
+    zh_CN: Joplin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverjoplin
   port_map: '3000'

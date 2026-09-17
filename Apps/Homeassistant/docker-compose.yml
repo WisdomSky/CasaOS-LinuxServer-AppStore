@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: Home Assistant Core - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server
+    zh_CN: Home Assistant Core 是将本地控制和隐私放在首位的开源家庭自动化平台，由全球创客和 DIY 爱好者社区推动，适合在树莓派或本地服务器上运行。
   tagline:
     en_US: Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server
+    zh_CN: 以本地控制和隐私为核心的开源家庭自动化。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
   thumbnail: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
   title:
     en_US: Homeassistant (LinuxServer.io)
+    zh_CN: Homeassistant（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhomeassistant
   port_map: '8123'

@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.
+    zh_CN: Eden 是一款面向 Nintendo Switch 的实验性开源模拟器，设计重点是性能和稳定性。
   tagline:
     en_US: An experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.
+    zh_CN: 注重性能与稳定性的实验性 Switch 模拟器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/eden-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/eden-logo.png
   title:
     en_US: Eden (LinuxServer.io)
+    zh_CN: Eden（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservereden
   port_map: '3000'

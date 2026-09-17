@@ -32,14 +32,17 @@ x-casaos:
   main: app
   description:
     en_US: Pelorus is an AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the Pixelflux computer-use backend, a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.
+    zh_CN: Pelorus 是面向 Selkies Linux 桌面的 AI 导航工具。它运行一个 FastAPI 服务器，让使用 Ollama、OpenAI 兼容接口或 Gemini 的大语言模型代理，通过 Pixelflux 计算机操作后端、Linux 无障碍树（AT-SPI）和可选的 KWin D-Bus 集成，控制鼠标、键盘、截图和窗口管理。
   tagline:
     en_US: An AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the Pixelflux computer-use backend, a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.
+    zh_CN: 让 AI 操作基于 Selkies 的 Linux 桌面。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pelorus-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pelorus-logo.png
   title:
     en_US: Pelorus (LinuxServer.io)
+    zh_CN: Pelorus（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpelorus
   port_map: '3001'

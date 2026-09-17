@@ -45,14 +45,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/minetest/'
+    zh_CN: |-
+      Minetest 服务器提供近乎无限世界的方块沙盒游戏与游戏引擎，灵感来自 InfiniMiner、Minecraft 等游戏。
+
+      访问项目主页：https://hub.docker.com/r/linuxserver/minetest/
   tagline:
     en_US: '(server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like. '
+    zh_CN: 拥有近乎无限世界的方块沙盒游戏与引擎。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png
   title:
     en_US: Minetest
+    zh_CN: Minetest
   category: Others
   project_url: http://www.minetest.net/
   id: wisdomsky.linuxserver.linuxserverminetest

@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.
+    zh_CN: Krita 是一款专业、免费、开源的绘画软件，由希望让所有人都能获得价格可负担的艺术工具的艺术家开发。
   tagline:
     en_US: A professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.
+    zh_CN: 为艺术家打造的免费开源绘画软件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/krita-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/krita-logo.png
   title:
     en_US: Krita (LinuxServer.io)
+    zh_CN: Krita（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkrita
   port_map: '3000'

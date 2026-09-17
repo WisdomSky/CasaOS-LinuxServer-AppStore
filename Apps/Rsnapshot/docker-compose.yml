@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Rsnapshot is a filesystem snapshot utility based on rsync. rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.
+    zh_CN: rsnapshot 是基于 rsync 的文件系统快照工具，可方便地为本地机器，以及通过 SSH 连接的远程机器创建定期快照。它尽可能使用硬链接，以大幅减少所需磁盘空间。
   tagline:
     en_US: A filesystem snapshot utility based on rsync. Rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.
+    zh_CN: 使用 rsync 和硬链接创建定期文件系统快照。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png
   title:
     en_US: Rsnapshot (LinuxServer.io)
+    zh_CN: Rsnapshot（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverrsnapshot
   port_map: '80'

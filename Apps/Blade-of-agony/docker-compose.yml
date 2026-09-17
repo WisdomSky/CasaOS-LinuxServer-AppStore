@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: 'Wolfenstein: Blade of Agony is a story-driven WWII shooter inspired by Wolfenstein and Doom.'
+    zh_CN: 'Wolfenstein: Blade of Agony 是一款以剧情为核心的二战射击游戏，灵感来自《德军总部》和《毁灭战士》。'
   tagline:
     en_US: A story-driven WWII shooter inspired by Wolfenstein and Doom.
+    zh_CN: 受《德军总部》和《毁灭战士》启发的二战射击游戏。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boa-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boa-logo.png
   title:
     en_US: Blade of-agony (LinuxServer.io)
+    zh_CN: Blade of-agony（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbladeofagony
   port_map: '3000'

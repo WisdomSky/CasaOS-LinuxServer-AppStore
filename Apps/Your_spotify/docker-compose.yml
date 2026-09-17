@@ -60,14 +60,17 @@ x-casaos:
   main: app
   description:
     en_US: Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
+    zh_CN: Your_spotify 是一款可自行托管的应用，可追踪你的收听记录，并提供统计探索面板。它由定期查询 Spotify API 的网页服务器，以及用于查看统计信息的网页应用组成。
   tagline:
     en_US: A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
+    zh_CN: 自行托管的 Spotify 收听统计面板。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   title:
     en_US: Your_spotify (LinuxServer.io)
+    zh_CN: Your_spotify（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveryourspotify
   port_map: '80'

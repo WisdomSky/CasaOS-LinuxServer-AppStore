@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    zh_CN: Lidarr 是面向 Usenet 和 BitTorrent 用户的音乐收藏管理器。它可监控多个 RSS 订阅源，发现喜欢的艺人的新曲目，并自动获取、整理和重命名。还可配置为在更高品质版本出现时，自动升级已下载的文件。
   tagline:
     en_US: A music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    zh_CN: 为 Usenet 和 BitTorrent 用户管理音乐收藏。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png
   thumbnail: https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png
   title:
     en_US: Lidarr (LinuxServer.io)
+    zh_CN: Lidarr（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlidarr
   port_map: '8686'

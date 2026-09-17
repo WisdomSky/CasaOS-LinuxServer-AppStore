@@ -42,14 +42,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/requestrr'
+    zh_CN: |-
+      Requestrr 是聊天机器人，可通过聊天简化 Sonarr、Radarr 和 Ombi 等服务的使用。
+
+      访问项目主页：https://github.com/orgs/linuxserver/packages/container/package/requestrr
   tagline:
     en_US: A chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.
+    zh_CN: 通过聊天机器人提交媒体请求。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/requestrr.png
   thumbnail: https://github.com/darkalfx/requestrr/raw/master/Logos/requestrr_discord_Icon_512.png
   title:
     en_US: Requestrr
+    zh_CN: Requestrr
   category: Others
   project_url: https://github.com/darkalfx/requestrr
   port_map: '4545'

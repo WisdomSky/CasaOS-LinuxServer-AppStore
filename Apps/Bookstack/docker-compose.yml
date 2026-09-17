@@ -65,14 +65,17 @@ x-casaos:
   main: app
   description:
     en_US: 'Bookstack is a free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www.bookstackapp.com'
+    zh_CN: BookStack 是一款免费的开源 Wiki，专为创建美观的文档而设计。它提供简单而强大的所见即所得编辑器，让团队轻松编写详细实用的文档。BookStack 基于 SQL，并为有需要的用户提供 Markdown 编辑器，旨在让文档编写更轻松愉快。更多信息请访问：https://www.bookstackapp.com
   tagline:
     en_US: 'A free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www. Bookstackapp. Com'
+    zh_CN: 使用所见即所得或 Markdown 编辑器编写 Wiki 文档。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bookstack-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bookstack-logo.png
   title:
     en_US: Bookstack (LinuxServer.io)
+    zh_CN: Bookstack（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbookstack
   port_map: '80'

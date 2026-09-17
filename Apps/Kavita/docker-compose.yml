@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Kavita is a fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family!
+    zh_CN: Kavita 是一款快速、功能丰富、跨平台的阅读服务器，旨在为各种阅读需求提供完整方案。你可以搭建自己的服务器，并与朋友和家人分享阅读收藏。
   tagline:
     en_US: A fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
+    zh_CN: 搭建自己的跨平台阅读服务器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kavita-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kavita-logo.png
   title:
     en_US: Kavita (LinuxServer.io)
+    zh_CN: Kavita（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkavita
   port_map: '5000'

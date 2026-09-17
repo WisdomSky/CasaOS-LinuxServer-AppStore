@@ -52,14 +52,17 @@ x-casaos:
   main: app
   description:
     en_US: Openvscode-server provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
+    zh_CN: Openvscode-server 提供一个在远程机器上运行服务器、并允许通过现代网页浏览器访问的 VS Code 版本。
   tagline:
     en_US: Provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
+    zh_CN: 通过现代浏览器访问远程 VS Code。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
   title:
     en_US: Openvscode server
+    zh_CN: Openvscode server
   category: Others
   port_map: '3000'
   id: wisdomsky.linuxserver.linuxserveropenvscodeserver

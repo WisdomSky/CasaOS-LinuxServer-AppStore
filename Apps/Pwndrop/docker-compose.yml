@@ -37,14 +37,17 @@ x-casaos:
   main: app
   description:
     en_US: Pwndrop is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
+    zh_CN: Pwndrop 是一个可自行部署的文件托管服务，用于发送红队测试载荷，或通过 HTTP 和 WebDAV 安全分享私人文件。
   tagline:
     en_US: A self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
+    zh_CN: 通过 HTTP 和 WebDAV 安全分享文件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png
   thumbnail: https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png
   title:
     en_US: Pwndrop (LinuxServer.io)
+    zh_CN: Pwndrop（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpwndrop
   port_map: '8080'

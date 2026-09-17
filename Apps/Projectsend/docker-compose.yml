@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Projectsend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
+    zh_CN: ProjectSend 是一款可自行托管的应用，让你上传文件并分配给自己创建的指定客户。它安全、私密且易用，无需再依赖外部服务或电子邮件发送文件。
   tagline:
     en_US: A self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
+    zh_CN: 自行托管文件并分配给指定客户。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png
   title:
     en_US: Projectsend (LinuxServer.io)
+    zh_CN: Projectsend（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverprojectsend
   port_map: '80'

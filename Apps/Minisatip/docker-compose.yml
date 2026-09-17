@@ -43,14 +43,17 @@ x-casaos:
   main: app
   description:
     en_US: Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
+    zh_CN: Minisatip 是在 Linux 上运行的多线程 SAT>IP 1.2 服务器，已使用 DVB-S、DVB-S2、DVB-T、DVB-T2、DVB-C、DVB-C2、ATSC 和 ISDB-T 接收卡进行测试。
   tagline:
     en_US: A multi-threaded satip server version 1. 2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
+    zh_CN: 支持多种数字电视接收卡的 SAT>IP 服务器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png
   title:
     en_US: Minisatip (LinuxServer.io)
+    zh_CN: Minisatip（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverminisatip
   version: 2.0.103

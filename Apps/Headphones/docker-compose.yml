@@ -39,14 +39,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/headphones/'
+    zh_CN: |-
+      Headphones 是用 Python 编写的自动音乐下载器，可使用 NZB 和 Torrent。它支持 SABnzbd、NZBget、Transmission、µTorrent 和 Blackhole。
+
+      访问项目主页：https://hub.docker.com/r/linuxserver/headphones/
   tagline:
     en_US: An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.
+    zh_CN: 自动下载和管理来自 NZB 与 Torrent 的音乐。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-banner.png
   title:
     en_US: Headphones
+    zh_CN: Headphones
   category: Others
   project_url: https://github.com/rembo10/headphones
   port_map: '8181'

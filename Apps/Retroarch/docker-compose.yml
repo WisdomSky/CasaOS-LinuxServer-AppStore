@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: RetroArch is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.
+    zh_CN: RetroArch 是模拟器、游戏引擎和媒体播放器的前端。借助简洁的图形界面，它可在多种电脑和游戏主机上运行经典游戏。
   tagline:
     en_US: A frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.
+    zh_CN: 在多种设备上运行经典游戏的模拟器前端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/retroarch-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/retroarch-logo.png
   title:
     en_US: Retroarch (LinuxServer.io)
+    zh_CN: Retroarch（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverretroarch
   port_map: '3000'

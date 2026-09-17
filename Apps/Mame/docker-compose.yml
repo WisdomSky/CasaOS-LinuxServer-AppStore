@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: MAME is a free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
+    zh_CN: MAME 是一款免费的开源模拟器，旨在通过现代个人电脑上的软件模拟街机、游戏主机、旧式计算机和其他系统的硬件。
   tagline:
     en_US: A free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
+    zh_CN: 模拟街机、游戏主机和旧式计算机硬件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mame-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mame-logo.png
   title:
     en_US: Mame (LinuxServer.io)
+    zh_CN: Mame（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermame
   port_map: '3000'

@@ -44,14 +44,17 @@ x-casaos:
   main: app
   description:
     en_US: Nzbget is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+    zh_CN: NZBGet 是用 C++ 编写的 Usenet 下载器，注重性能，旨在以很少的系统资源获得尽可能高的下载速度。
   tagline:
     en_US: A usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+    zh_CN: 低资源占用、高性能的 Usenet 下载器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png
   title:
     en_US: Nzbget (LinuxServer.io)
+    zh_CN: Nzbget（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservernzbget
   port_map: '6789'

@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: WineGUI is a user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
+    zh_CN: WineGUI 是一款界面友好的 Wine 管理器，提供图形前端以创建和管理 Wine 容器环境（bottles）。
   tagline:
     en_US: A user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
+    zh_CN: 通过图形界面创建和管理 Wine 环境。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/winegui-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/winegui-logo.png
   title:
     en_US: Winegui (LinuxServer.io)
+    zh_CN: Winegui（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwinegui
   port_map: '3000'

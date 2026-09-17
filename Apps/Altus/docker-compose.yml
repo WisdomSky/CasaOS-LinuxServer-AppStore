@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Altus is an Electron-based WhatsApp client with themes and multiple account support.
+    zh_CN: Altus 是基于 Electron 的 WhatsApp 客户端，支持主题和多个账户。
   tagline:
     en_US: An Electron-based WhatsApp client with themes and multiple account support.
+    zh_CN: 支持主题和多账户的 WhatsApp 桌面客户端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/altus-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/altus-logo.png
   title:
     en_US: Altus (LinuxServer.io)
+    zh_CN: Altus（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveraltus
   port_map: '3000'

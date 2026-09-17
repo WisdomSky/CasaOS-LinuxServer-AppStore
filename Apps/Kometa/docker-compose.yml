@@ -53,14 +53,17 @@ x-casaos:
   main: app
   description:
     en_US: Kometa is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+    zh_CN: Kometa 是一个帮助你完全掌控媒体库的强大工具。它提供对元数据、合集、叠加层等内容的精细控制，让你进一步定制媒体库。
   tagline:
     en_US: A powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+    zh_CN: 精细管理媒体库元数据、合集和封面叠加层。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
   title:
     en_US: Kometa (LinuxServer.io)
+    zh_CN: Kometa（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkometa
   port_map: '80'

@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: Citron is a feature rich Switch 1 emulator for homebrew.
+    zh_CN: Citron 是一款面向自制软件、功能丰富的 Switch 1 模拟器。
   tagline:
     en_US: A feature rich Switch 1 emulator for homebrew.
+    zh_CN: 面向自制软件、功能丰富的 Switch 1 模拟器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/citron-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/citron-logo.png
   title:
     en_US: Citron
+    zh_CN: Citron
   category: Others
   id: wisdomsky.linuxserver.linuxservercitron
   version: 2026.02.1

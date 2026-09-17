@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.
+    zh_CN: Davos 是一个 FTP 自动化工具，可定期扫描指定主机位置中的新文件。它可配置为等待指定文件出现后自动下载，并按需移动文件。它还支持完成通知和后续 API 调用，以继续执行工作流程。
   tagline:
     en_US: An FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.
+    zh_CN: 自动扫描 FTP 服务器并下载新文件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG
   thumbnail: https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG
   title:
     en_US: Davos (LinuxServer.io)
+    zh_CN: Davos（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdavos
   port_map: '8080'

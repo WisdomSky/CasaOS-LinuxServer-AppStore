@@ -113,14 +113,20 @@ x-casaos:
   main: app
   description:
     en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/'
+    zh_CN: |-
+      Snipe-IT 让资产管理更简单，由解决实际 IT 和资产管理问题的开发者打造，并始终重视用户体验。直观的设计和批量操作帮助你更快完成工作。
+
+      访问项目主页：https://hub.docker.com/r/linuxserver/snipe-it/
   tagline:
     en_US: 'Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster. '
+    zh_CN: 简化 IT 设备与资产管理。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it-logo.png
   title:
     en_US: Snipe it
+    zh_CN: Snipe it
   category: Others
   project_url: https://github.com/snipe/snipe-it
   port_map: '80'

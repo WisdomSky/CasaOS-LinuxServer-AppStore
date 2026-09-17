@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.
+    zh_CN: Wireshark 是广泛使用的领先网络协议分析器，可帮助你细致观察网络中发生的情况。它是众多商业与非营利组织、政府机构和教育机构采用的事实标准，有时也是正式标准。其发展得益于全球网络专家的志愿贡献，并延续了 Gerald Combs 于 1998 年启动的项目。
   tagline:
     en_US: The world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.
+    zh_CN: 深入分析网络流量的协议分析器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wireshark-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wireshark-icon.png
   title:
     en_US: Wireshark (LinuxServer.io)
+    zh_CN: Wireshark（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwireshark
   port_map: '80'

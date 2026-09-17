@@ -35,14 +35,17 @@ x-casaos:
   main: app
   description:
     en_US: OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.
+    zh_CN: OpenShot Video Editor 是一款屡获奖项的免费开源视频编辑器，适用于 Linux、Mac 和 Windows，致力于为全球用户提供高质量的视频编辑和动画制作方案。
   tagline:
     en_US: Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.
+    zh_CN: 跨平台的免费开源视频编辑器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openshot-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openshot-logo.png
   title:
     en_US: Openshot (LinuxServer.io)
+    zh_CN: Openshot（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveropenshot
   port_map: '3000'

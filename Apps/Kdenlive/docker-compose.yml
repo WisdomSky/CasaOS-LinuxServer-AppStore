@@ -36,14 +36,17 @@ x-casaos:
   main: app
   description:
     en_US: Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
+    zh_CN: Kdenlive 是由 KDE 社区开发的强大、免费、开源且跨平台的视频编辑软件，功能丰富，可用于正式制作。
   tagline:
     en_US: A powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
+    zh_CN: 由 KDE 社区开发的开源视频编辑器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   title:
     en_US: Kdenlive (LinuxServer.io)
+    zh_CN: Kdenlive（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkdenlive
   port_map: '3000'

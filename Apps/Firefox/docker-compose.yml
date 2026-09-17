@@ -40,14 +40,17 @@ x-casaos:
   main: app
   description:
     en_US: Firefox Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    zh_CN: Firefox Browser 又称 Mozilla Firefox 或 Firefox，是由 Mozilla 基金会及其子公司 Mozilla Corporation 开发的免费开源网页浏览器。Firefox 使用 Gecko 排版引擎渲染网页，支持当前及预期的网页标准。
   tagline:
     en_US: Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    zh_CN: 使用 Gecko 引擎的免费开源浏览器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png
   title:
     en_US: Firefox (LinuxServer.io)
+    zh_CN: Firefox（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfirefox
   port_map: '3000'

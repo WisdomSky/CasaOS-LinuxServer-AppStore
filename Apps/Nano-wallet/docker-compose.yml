@@ -18,14 +18,17 @@ x-casaos:
   main: app
   description:
     en_US: Nano-wallet is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.
+    zh_CN: Nano-wallet 使用 Nano 数字支付协议，该协议注重易用性和轻量化，旨在消除其他加密货币中的低效环节。它在安全、环保、去中心化的网络上提供极快且零手续费的交易，适合日常支付。此容器以 Nginx 简单封装轻钱包；访问容器时需要提供有效的 RPC 主机。
   tagline:
     en_US: A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.
+    zh_CN: 通过网页使用 Nano 轻钱包。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   title:
     en_US: Nano wallet
+    zh_CN: Nano wallet
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxservernanowallet

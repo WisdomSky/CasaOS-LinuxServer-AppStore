@@ -33,14 +33,17 @@ x-casaos:
   main: app
   description:
     en_US: 'Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy.info'
+    zh_CN: Grocy 是面向厨房的 ERP 系统，可帮助减少食物浪费并管理家务。使用这个开源工具，你可以追踪采购、食物浪费、待办家务以及需要充电的电池。更多信息请访问：https://grocy.info
   tagline:
     en_US: 'An ERP system for your kitchen. Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy. Info'
+    zh_CN: 管理厨房库存、采购、家务和耗材。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-logo.png
   title:
     en_US: Grocy (LinuxServer.io)
+    zh_CN: Grocy（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergrocy
   port_map: '80'

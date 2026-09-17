@@ -48,14 +48,17 @@ x-casaos:
   main: app
   description:
     en_US: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
+    zh_CN: SmokePing 可持续追踪网络延迟。若要查看展示其完整功能的实例，请访问 UCDavis 示例。
   tagline:
     en_US: Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
+    zh_CN: 持续追踪网络延迟。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   title:
     en_US: Smokeping (LinuxServer.io)
+    zh_CN: Smokeping（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversmokeping
   port_map: '80'

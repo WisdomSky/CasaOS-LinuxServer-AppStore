@@ -39,14 +39,17 @@ x-casaos:
   main: app
   description:
     en_US: Nextcloud gives you access to all your files wherever you are. Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.
+    zh_CN: Nextcloud 让你随时随地访问所有文件。你可选择位于家中、数据中心或服务商的服务器来存储照片和文档。Nextcloud 在该服务器上运行，保护数据，并允许你通过桌面或移动设备访问。你还可以通过它访问、同步和分享办公室 FTP 存储、Dropbox 或家用 NAS 上的现有数据。
   tagline:
     en_US: Gives you access to all your files wherever you are. Where are your photos and documents. With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.
+    zh_CN: 在自己的服务器上访问、同步和分享文件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png
   title:
     en_US: Nextcloud (LinuxServer.io)
+    zh_CN: Nextcloud（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservernextcloud
   port_map: '80'
