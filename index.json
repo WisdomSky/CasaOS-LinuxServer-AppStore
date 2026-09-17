@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-17T16:12:40Z",
+  "updated_at": "2026-09-17T16:41:08Z",
   "app_count": 246,
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "apps": [
@@ -1876,8 +1876,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/assets/jellyfin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/meta.json",
-      "content_hash": "f9b63897",
-      "version": "10.11.11"
+      "content_hash": "fb17458a"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
