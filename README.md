@@ -36,8 +36,6 @@ For ZimaOS, add this source in ZimaOS App Store's community store settings:
 
     https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/store.json
 
-This URL becomes available after the first successful publication and CDN refresh.
-ZimaOS v2 uses the generated manifest and catalog; the ZIP below is for CasaOS.
 
 ## ✅ CasaOS Installation
 
