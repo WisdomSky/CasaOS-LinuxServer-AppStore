@@ -40,8 +40,8 @@ x-casaos:
     en_US: A self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: http://www.projectsend.org/wp-content/themes/projectsend/img/screenshots.png
-  thumbnail: http://www.projectsend.org/wp-content/themes/projectsend/img/screenshots.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png
   title:
     en_US: Projectsend (LinuxServer.io)
   category: Home

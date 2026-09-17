@@ -40,8 +40,8 @@ x-casaos:
     en_US: A simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems. It supports uploading and displaying images, GIF, video, code, formatted text, and file downloading and uploading. Also have a web UI with multi user management, past uploads history and search support.
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png
-  thumbnail: https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png
+  icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/xbackbone-logo.png
+  thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/xbackbone-logo.png
   title:
     en_US: Xbackbone (LinuxServer.io)
   category: Home

@@ -1,7 +1,7 @@
 name: linuxserver-opera
 services:
   app:
-    image: linuxserver/opera:135.0.5973
+    image: linuxserver/opera:136.0.6008
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -50,4 +50,4 @@ x-casaos:
   category: Home
   id: wisdomsky.linuxserver.linuxserveropera
   port_map: '3000'
-  version: 135.0.5973
+  version: 136.0.6008
