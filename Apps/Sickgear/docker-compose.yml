@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 8081
         published: 8081
@@ -38,15 +38,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear'
+    en_US: 'SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear'
   tagline:
-    en_us: 'Provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. . For more information on SickGear visit their website and check it out: https://github. Com/SickGear/SickGear'
+    en_US: 'Provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. . For more information on SickGear visit their website and check it out: https://github. Com/SickGear/SickGear'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png
   thumbnail: https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png
   title:
-    en_us: Sickgear (LinuxServer.io)
+    en_US: Sickgear (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserversickgear
   port_map: '8081'
+  version: 3.36.6

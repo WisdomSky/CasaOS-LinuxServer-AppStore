@@ -1,7 +1,7 @@
 name: linuxserver-flexget
 services:
   app:
-    image: linuxserver/flexget:3.20.14
+    image: linuxserver/flexget:3.21.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -15,25 +15,25 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: FG_LOG_LEVEL
           description:
-            en_us: Set the FlexGet logging level.
+            en_US: Set the FlexGet logging level.
         - container: FG_LOG_FILE
           description:
-            en_us: Set the FlexGet log file location.
+            en_US: Set the FlexGet log file location.
         - container: FG_CONFIG_FILE
           description:
-            en_us: Set the FlexGet config file location.
+            en_US: Set the FlexGet config file location.
         - container: FG_WEBUI_PASSWORD
           description:
-            en_us: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters. [OPTIONAL]
+            en_US: Set the FlexGet webui password. Pay attention to Bash/YAML reserved characters. [OPTIONAL]
     ports:
       - target: 5050
         published: 5050
@@ -51,15 +51,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Flexget is a multipurpose automation tool for all of your media.
+    en_US: Flexget is a multipurpose automation tool for all of your media.
   tagline:
-    en_us: A multipurpose automation tool for all of your media.
+    en_US: A multipurpose automation tool for all of your media.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
   title:
-    en_us: Flexget (LinuxServer.io)
+    en_US: Flexget (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverflexget
   port_map: '5050'
+  version: 3.21.0

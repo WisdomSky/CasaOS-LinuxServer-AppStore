@@ -1,7 +1,7 @@
 name: linuxserver-rpcs3
 services:
   app:
-    image: linuxserver/rpcs3:version-build-2d103407f8715a4feff64012bd2d195878965822
+    image: linuxserver/rpcs3:version-build-6c0e2823f83037debd9a8ac8541521e61d7663bd
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -35,15 +35,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    en_US: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
   tagline:
-    en_us: A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    en_US: A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
   title:
-    en_us: Rpcs3 (LinuxServer.io)
+    en_US: Rpcs3 (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverrpcs3
   port_map: '3000'
+  version: version-build-6c0e2823f83037debd9a8ac8541521e61d7663bd

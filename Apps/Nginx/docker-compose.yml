@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: NGINX_AUTORELOAD
           description:
-            en_us: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod. [OPTIONAL]
+            en_US: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod. [OPTIONAL]
         - container: NGINX_AUTORELOAD_WATCHLIST
           description:
-            en_us: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx [OPTIONAL]
+            en_US: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -43,15 +43,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Nginx is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
+    en_US: Nginx is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
   tagline:
-    en_us: An HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
+    en_US: An HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   title:
-    en_us: Nginx (LinuxServer.io)
+    en_US: Nginx (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservernginx
   port_map: '80'
+  version: 1.30.4

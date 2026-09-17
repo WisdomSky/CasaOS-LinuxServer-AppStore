@@ -1,7 +1,7 @@
 name: linuxserver-brave
 services:
   app:
-    image: linuxserver/brave:1.95.101
+    image: linuxserver/brave:1.95.102
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -35,15 +35,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
+    en_US: The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
   tagline:
-    en_us: A fast, private and secure web browser for PC, Mac and mobile.
+    en_US: A fast, private and secure web browser for PC, Mac and mobile.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
   title:
-    en_us: Brave (LinuxServer.io)
+    en_US: Brave (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverbrave
   port_map: '3000'
+  version: 1.95.102

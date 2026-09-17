@@ -18,34 +18,34 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: PEER_HOST
           description:
-            en_us: Default peer host (can be overidden with an array by command line options)
+            en_US: Default peer host (can be overidden with an array by command line options)
         - container: LIVE_GENESIS_PUB
           description:
-            en_us: Genesis block public key
+            en_US: Genesis block public key
         - container: LIVE_GENESIS_ACCOUNT
           description:
-            en_us: Genesis block account
+            en_US: Genesis block account
         - container: LIVE_GENESIS_WORK
           description:
-            en_us: Genesis block proof of work
+            en_US: Genesis block proof of work
         - container: LIVE_GENESIS_SIG
           description:
-            en_us: Genesis block signature
+            en_US: Genesis block signature
         - container: CLI_OPTIONS
           description:
-            en_us: Node run command cli args
+            en_US: Node run command cli args
         - container: LMDB_BOOTSTRAP_URL
           description:
-            en_us: HTTP/HTTPS endpoint to download a 7z file with the data.ldb to bootstrap to this node
+            en_US: HTTP/HTTPS endpoint to download a 7z file with the data.ldb to bootstrap to this node
     ports:
       - target: 8075
         published: 8075
@@ -67,13 +67,15 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Nano is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
+    en_US: Nano is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
   tagline:
-    en_us: A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
+    en_US: A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
   thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png
   title:
-    en_us: Nano
-  category: LinuxServer.io
+    en_US: Nano
+  category: Others
+  id: wisdomsky.linuxserver.linuxservernano
+  version: 21.2.20220522

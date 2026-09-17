@@ -1,0 +1,56 @@
+name: Build and publish ZimaOS v2 store
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'Apps/**'
+      - 'store-config.json'
+      - 'supported-languages.json'
+      - '.github/workflows/publish-v2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-v2
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build v2 protocol files
+        uses: IceWhaleTech/build-appstore-action@407bf02f7ca1d3d610c88c895dc28b016bdace48
+        with:
+          source: .
+          output: dist
+          base-url: https://cdn.jsdelivr.net/gh/${{ github.repository }}@gh-pages
+          report-json: build-v2-report.json
+      - name: Preserve build report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-v2-report
+          path: build-v2-report.json
+          if-no-files-found: warn
+      - name: Preserve generated store
+        uses: actions/upload-artifact@v4
+        with:
+          name: zimaos-v2-store
+          path: dist/
+      - name: Publish generated files
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+      - name: Show subscription URL
+        env:
+          STORE_REPOSITORY: ${{ github.repository }}
+        run: |
+          echo "ZimaOS v2 source (after CDN refresh): https://cdn.jsdelivr.net/gh/${STORE_REPOSITORY}@gh-pages/store.json" >> "$GITHUB_STEP_SUMMARY"

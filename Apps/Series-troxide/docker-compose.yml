@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -35,13 +35,15 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Series Troxide a Simple and Modern Series Tracker
+    en_US: Series Troxide a Simple and Modern Series Tracker
   tagline:
-    en_us: A Simple and Modern Series Tracker
+    en_US: A Simple and Modern Series Tracker
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/series-troxide-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/series-troxide-logo.png
   title:
-    en_us: Series troxide
-  category: LinuxServer.io
+    en_US: Series troxide
+  category: Others
+  id: wisdomsky.linuxserver.linuxserverseriestroxide
+  version: 0.5.1

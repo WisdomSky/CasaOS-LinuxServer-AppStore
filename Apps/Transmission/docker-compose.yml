@@ -17,31 +17,31 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: TRANSMISSION_WEB_HOME
           description:
-            en_us: Specify the path to an alternative UI folder. [OPTIONAL]
+            en_US: Specify the path to an alternative UI folder. [OPTIONAL]
         - container: USER
           description:
-            en_us: Specify an optional username for the interface [OPTIONAL]
+            en_US: Specify an optional username for the interface [OPTIONAL]
         - container: PASS
           description:
-            en_us: Specify an optional password for the interface [OPTIONAL]
+            en_US: Specify an optional password for the interface [OPTIONAL]
         - container: WHITELIST
           description:
-            en_us: Specify an optional list of comma separated ip whitelist. Fills rpc-whitelist setting. [OPTIONAL]
+            en_US: Specify an optional list of comma separated ip whitelist. Fills rpc-whitelist setting. [OPTIONAL]
         - container: PEERPORT
           description:
-            en_us: Specify an optional port for torrent TCP/UDP connections. Fills peer-port setting. [OPTIONAL]
+            en_US: Specify an optional port for torrent TCP/UDP connections. Fills peer-port setting. [OPTIONAL]
         - container: HOST_WHITELIST
           description:
-            en_us: Specify an optional list of comma separated dns name whitelist. Fills rpc-host-whitelist setting. [OPTIONAL]
+            en_US: Specify an optional list of comma separated dns name whitelist. Fills rpc-host-whitelist setting. [OPTIONAL]
     ports:
       - target: 9091
         published: 9091
@@ -68,14 +68,15 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
+    en_US: 'Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
   tagline:
-    en_us: 'Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
+    en_US: 'Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png
   title:
-    en_us: Transmission (LinuxServer.io)
+    en_US: Transmission (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservertransmission
+  version: 4.1.3

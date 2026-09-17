@@ -16,28 +16,28 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: fleet_admin_authentication_type
           description:
-            en_us: A switch to define how Fleet manages user logins. If set to DATABASE, see the related optional params. Can be set to either DATABASE or PROPERTIES.
+            en_US: A switch to define how Fleet manages user logins. If set to DATABASE, see the related optional params. Can be set to either DATABASE or PROPERTIES.
         - container: fleet_database_url
           description:
-            en_us: The full JDBC connection string to the Fleet database
+            en_US: The full JDBC connection string to the Fleet database
         - container: fleet_database_username
           description:
-            en_us: The username with the relevant GRANT permissions for the database
+            en_US: The username with the relevant GRANT permissions for the database
         - container: fleet_database_password
           description:
-            en_us: The database user's password.
+            en_US: The database user's password.
         - container: fleet_admin_secret
           description:
-            en_us: A string used as part of the password key derivation process.
+            en_US: A string used as part of the password key derivation process.
     ports:
       - target: 8080
         published: 8080
@@ -52,14 +52,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
+    en_US: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
   tagline:
-    en_us: 'Provides an online web interface which displays a set of maintained images from one or more owned repositories. '
+    en_US: 'Provides an online web interface which displays a set of maintained images from one or more owned repositories. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: Fleet
-  category: LinuxServer.io
+    en_US: Fleet
+  category: Others
   port_map: '8080'
+  id: wisdomsky.linuxserver.linuxserverfleet
+  version: 2.3.3

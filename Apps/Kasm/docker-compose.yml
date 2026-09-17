@@ -12,16 +12,16 @@ services:
       envs:
         - container: KASM_PORT
           description:
-            en_us: Specify the port you bind to the outside for Kasm Workspaces.
+            en_US: Specify the port you bind to the outside for Kasm Workspaces.
         - container: DOCKER_HUB_USERNAME
           description:
-            en_us: Optionally specify a DockerHub Username to pull private images. [OPTIONAL]
+            en_US: Optionally specify a DockerHub Username to pull private images. [OPTIONAL]
         - container: DOCKER_HUB_PASSWORD
           description:
-            en_us: Optionally specify a DockerHub password to pull private images. [OPTIONAL]
+            en_US: Optionally specify a DockerHub password to pull private images. [OPTIONAL]
         - container: DOCKER_MTU
           description:
-            en_us: Optionally specify the mtu options passed to dockerd. [OPTIONAL]
+            en_US: Optionally specify the mtu options passed to dockerd. [OPTIONAL]
     ports:
       - target: 3000
         published: 3000
@@ -48,15 +48,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Kasm Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.
+    en_US: Kasm Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.
   tagline:
-    en_us: Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.
+    en_US: Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://kasm-ci.s3.amazonaws.com/kasm_wide.png
   thumbnail: https://kasm-ci.s3.amazonaws.com/kasm_wide.png
   title:
-    en_us: Kasm (LinuxServer.io)
+    en_US: Kasm (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverkasm
   port_map: '3000'
+  version: 1.19.0

@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 8000
         published: 8000
@@ -38,15 +38,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    en_US: pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
   tagline:
-    en_us: A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    en_US: A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   title:
-    en_us: Pyload ng (LinuxServer.io)
+    en_US: Pyload ng (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverpyloadng
   port_map: '8000'
+  version: 0.5.0

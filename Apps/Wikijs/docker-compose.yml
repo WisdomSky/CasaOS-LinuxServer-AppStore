@@ -17,31 +17,31 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: DB_TYPE
           description:
-            en_us: Set to sqlite (default) or postgres depending on the database engine you wish to use [OPTIONAL]
+            en_US: Set to sqlite (default) or postgres depending on the database engine you wish to use [OPTIONAL]
         - container: DB_HOST
           description:
-            en_us: DB hostname (postgres only) [OPTIONAL]
+            en_US: DB hostname (postgres only) [OPTIONAL]
         - container: DB_PORT
           description:
-            en_us: DB port (postgres only) [OPTIONAL]
+            en_US: DB port (postgres only) [OPTIONAL]
         - container: DB_NAME
           description:
-            en_us: DB name (postgres only) [OPTIONAL]
+            en_US: DB name (postgres only) [OPTIONAL]
         - container: DB_USER
           description:
-            en_us: DB username (postgres only) [OPTIONAL]
+            en_US: DB username (postgres only) [OPTIONAL]
         - container: DB_PASS
           description:
-            en_us: DB password (postgres only) [OPTIONAL]
+            en_US: DB password (postgres only) [OPTIONAL]
     ports:
       - target: 3000
         published: 3000
@@ -59,15 +59,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Wikijs A modern, lightweight and powerful wiki app built on NodeJS.
+    en_US: Wikijs A modern, lightweight and powerful wiki app built on NodeJS.
   tagline:
-    en_us: A modern, lightweight and powerful wiki app built on NodeJS.
+    en_US: A modern, lightweight and powerful wiki app built on NodeJS.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://static.requarks.io/logo/wikijs-full.svg
   thumbnail: https://static.requarks.io/logo/wikijs-full.svg
   title:
-    en_us: Wikijs (LinuxServer.io)
+    en_US: Wikijs (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverwikijs
   port_map: '3000'
+  version: 2.5.314

@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:0.8.3-romm
+    image: linuxserver/webstation:0.8.4-romm
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -34,15 +34,16 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: Webstation is a web native emulation focused LXQt desktop based on Ubuntu.
+    en_US: Webstation is a web native emulation focused LXQt desktop based on Ubuntu.
   tagline:
-    en_us: A web native emulation focused LXQt desktop based on Ubuntu.
+    en_US: A web native emulation focused LXQt desktop based on Ubuntu.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webstation-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webstation-logo.png
   title:
-    en_us: Webstation (LinuxServer.io)
+    en_US: Webstation (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebstation
   port_map: '3000'
+  version: 0.8.4-romm

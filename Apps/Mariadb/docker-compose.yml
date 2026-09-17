@@ -17,31 +17,31 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: MYSQL_ROOT_PASSWORD
           description:
-            en_us: Set this to root password for installation (minimum 4 characters & non-alphanumeric passwords must be properly escaped). (valid only for first run)
+            en_US: Set this to root password for installation (minimum 4 characters & non-alphanumeric passwords must be properly escaped). (valid only for first run)
         - container: MYSQL_DATABASE
           description:
-            en_us: Specify the name of a database to be created. (valid only for first run) [OPTIONAL]
+            en_US: Specify the name of a database to be created. (valid only for first run) [OPTIONAL]
         - container: MYSQL_USER
           description:
-            en_us: This user will have superuser access to the database specified by MYSQL_DATABASE (do not use root here). (valid only for first run) [OPTIONAL]
+            en_US: This user will have superuser access to the database specified by MYSQL_DATABASE (do not use root here). (valid only for first run) [OPTIONAL]
         - container: MYSQL_PASSWORD
           description:
-            en_us: Set this to the password you want to use for you MYSQL_USER (minimum 4 characters & non-alphanumeric passwords must be properly escaped). (valid only for first run) [OPTIONAL]
+            en_US: Set this to the password you want to use for you MYSQL_USER (minimum 4 characters & non-alphanumeric passwords must be properly escaped). (valid only for first run) [OPTIONAL]
         - container: REMOTE_SQL
           description:
-            en_us: Set this to ingest sql files from an http/https endpoint (comma seperated array). [OPTIONAL]
+            en_US: Set this to ingest sql files from an http/https endpoint (comma seperated array). [OPTIONAL]
         - container: CLI_OPTS
           description:
-            en_us: Pass CLI options to mariadbd via mariadbd-safe. Use with caution as mariadbd option precedence is complex. [OPTIONAL]
+            en_US: Pass CLI options to mariadbd via mariadbd-safe. Use with caution as mariadbd option precedence is complex. [OPTIONAL]
     ports:
       - target: 3306
         published: 3306
@@ -56,15 +56,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Mariadb is one of the most popular database servers. Made by the original developers of MySQL.
+    en_US: Mariadb is one of the most popular database servers. Made by the original developers of MySQL.
   tagline:
-    en_us: One of the most popular database servers. Made by the original developers of MySQL.
+    en_US: One of the most popular database servers. Made by the original developers of MySQL.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   title:
-    en_us: Mariadb (LinuxServer.io)
+    en_US: Mariadb (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservermariadb
   port_map: '3306'
+  version: 11.8.8

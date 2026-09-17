@@ -15,33 +15,33 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: QUASSEL_CORE
           description:
-            en_us: specify the URL or IP address of your Quassel Core instance
+            en_US: specify the URL or IP address of your Quassel Core instance
         - container: QUASSEL_PORT
           description:
-            en_us: specify the port of your Quassel Core instance
+            en_US: specify the port of your Quassel Core instance
         - container: QUASSEL_HTTPS
           description:
-            en_us: Set to true to have Quassel web serve over https on port 64443 instead of http on port 64080.
+            en_US: Set to true to have Quassel web serve over https on port 64443 instead of http on port 64080.
         - container: URL_BASE
           description:
-            en_us: Specify a url-base in reverse proxy setups ie. /quassel
+            en_US: Specify a url-base in reverse proxy setups ie. /quassel
       volumes:
         - container: /config
           description:
-            en_us: Appdata
+            en_US: Appdata
       ports:
         - container: '64080'
           description:
-            en_us: http port
+            en_US: http port
     ports:
       - target: 64080
         published: 64080
@@ -59,15 +59,18 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
+    en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
   tagline:
-    en_us: A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.
+    en_US: A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-banner.png
   title:
-    en_us: Quassel web
-  category: LinuxServer.io
+    en_US: Quassel web
+  category: Others
   project_url: https://github.com/magne4000/quassel-webserver
   port_map: '64080'
+  id: wisdomsky.linuxserver.linuxserverquasselweb
+  version: version-019bfdc1
+  website: https://github.com/magne4000/quassel-webserver

@@ -19,37 +19,37 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: APP_URL
           description:
-            en_us: The protocol, IP/URL, and port that your application will be accessed on (ie. http://192.168.1.1:6875 or https://bookstack.mydomain.com
+            en_US: The protocol, IP/URL, and port that your application will be accessed on (ie. http://192.168.1.1:6875 or https://bookstack.mydomain.com
         - container: APP_KEY
           description:
-            en_us: Session encryption key. You will need to generate this with docker run -it --rm --entrypoint /bin/bash lscr.io/linuxserver/bookstack:latest appkey
+            en_US: Session encryption key. You will need to generate this with docker run -it --rm --entrypoint /bin/bash lscr.io/linuxserver/bookstack:latest appkey
         - container: DB_HOST
           description:
-            en_us: The database instance hostname
+            en_US: The database instance hostname
         - container: DB_PORT
           description:
-            en_us: Database port
+            en_US: Database port
         - container: DB_USERNAME
           description:
-            en_us: Database user
+            en_US: Database user
         - container: DB_PASSWORD
           description:
-            en_us: Database password (minimum 4 characters & non-alphanumeric passwords must be properly escaped.)
+            en_US: Database password (minimum 4 characters & non-alphanumeric passwords must be properly escaped.)
         - container: DB_DATABASE
           description:
-            en_us: Database name
+            en_US: Database name
         - container: QUEUE_CONNECTION
           description:
-            en_us: Set to database to enable async actions like sending email or triggering webhooks. See documentation. [OPTIONAL]
+            en_US: Set to database to enable async actions like sending email or triggering webhooks. See documentation. [OPTIONAL]
     ports:
       - target: 6875
         published: 80
@@ -64,15 +64,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Bookstack is a free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www.bookstackapp.com'
+    en_US: 'Bookstack is a free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www.bookstackapp.com'
   tagline:
-    en_us: 'A free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www. Bookstackapp. Com'
+    en_US: 'A free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www. Bookstackapp. Com'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bookstack-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bookstack-logo.png
   title:
-    en_us: Bookstack (LinuxServer.io)
+    en_US: Bookstack (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverbookstack
   port_map: '80'
+  version: 26.05.5

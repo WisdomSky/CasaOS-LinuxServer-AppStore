@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -34,15 +34,16 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    en_US: Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
   tagline:
-    en_us: A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    en_US: A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png
   title:
-    en_us: Joplin (LinuxServer.io)
+    en_US: Joplin (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverjoplin
   port_map: '3000'
+  version: 3.7.18

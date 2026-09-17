@@ -12,24 +12,24 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: CONTEXT_PATH
           description:
-            en_us: Base url for use with reverse proxies etc.
+            en_US: Base url for use with reverse proxies etc.
       volumes:
         - container: /config
           description:
-            en_us: Appdata
+            en_US: Appdata
       ports:
         - container: '4040'
           description:
-            en_us: Webui Port
+            en_US: Webui Port
     ports:
       - target: 4040
         published: 4040
@@ -53,15 +53,18 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
   tagline:
-    en_us: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
+    en_US: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
   title:
-    en_us: Booksonic air
-  category: LinuxServer.io
+    en_US: Booksonic air
+  category: Others
   project_url: https://booksonic.org/
   port_map: '4040'
+  id: wisdomsky.linuxserver.linuxserverbooksonicair
+  version: 2201.1.0
+  website: https://booksonic.org/

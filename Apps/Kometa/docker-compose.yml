@@ -16,28 +16,28 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: KOMETA_CONFIG
           description:
-            en_us: Specify a custom config file to use. [OPTIONAL]
+            en_US: Specify a custom config file to use. [OPTIONAL]
         - container: KOMETA_TIMES
           description:
-            en_us: 'Comma-separated list of times to update each day. Format: HH:MM. [OPTIONAL]'
+            en_US: 'Comma-separated list of times to update each day. Format: HH:MM. [OPTIONAL]'
         - container: KOMETA_RUN
           description:
-            en_us: Set to True to run without the scheduler. [OPTIONAL]
+            en_US: Set to True to run without the scheduler. [OPTIONAL]
         - container: KOMETA_TESTS
           description:
-            en_us: 'Set to True to run in debug mode with only collections that have test: true. [OPTIONAL]'
+            en_US: 'Set to True to run in debug mode with only collections that have test: true. [OPTIONAL]'
         - container: KOMETA_NO_MISSING
           description:
-            en_us: Set to True to run without any of the missing movie/show functions. [OPTIONAL]
+            en_US: Set to True to run without any of the missing movie/show functions. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -52,15 +52,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Kometa is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+    en_US: Kometa is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
   tagline:
-    en_us: A powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+    en_US: A powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
   title:
-    en_us: Kometa (LinuxServer.io)
+    en_US: Kometa (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverkometa
   port_map: '80'
+  version: 2.4.8

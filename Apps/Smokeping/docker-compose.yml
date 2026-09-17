@@ -14,22 +14,22 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: MASTER_URL
           description:
-            en_us: Specify the master url to connect to. Used when in slave mode. [OPTIONAL]
+            en_US: Specify the master url to connect to. Used when in slave mode. [OPTIONAL]
         - container: SHARED_SECRET
           description:
-            en_us: Specify the master shared secret for this host. Used when in slave mode. [OPTIONAL]
+            en_US: Specify the master shared secret for this host. Used when in slave mode. [OPTIONAL]
         - container: CACHE_DIR
           description:
-            en_us: Specify the cache directory for this host. Used when in slave mode. [OPTIONAL]
+            en_US: Specify the cache directory for this host. Used when in slave mode. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -47,15 +47,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
+    en_US: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
   tagline:
-    en_us: Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
+    en_US: Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   title:
-    en_us: Smokeping (LinuxServer.io)
+    en_US: Smokeping (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserversmokeping
   port_map: '80'
+  version: 2.9.0

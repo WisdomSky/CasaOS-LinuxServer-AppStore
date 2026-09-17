@@ -18,34 +18,34 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: PASSWORD
           description:
-            en_us: Optional web gui password, if PASSWORD or HASHED_PASSWORD is not provided, there will be no auth. [OPTIONAL]
+            en_US: Optional web gui password, if PASSWORD or HASHED_PASSWORD is not provided, there will be no auth. [OPTIONAL]
         - container: HASHED_PASSWORD
           description:
-            en_us: Optional web gui password, overrides PASSWORD, instructions on how to create it is below. [OPTIONAL]
+            en_US: Optional web gui password, overrides PASSWORD, instructions on how to create it is below. [OPTIONAL]
         - container: SUDO_PASSWORD
           description:
-            en_us: If this optional variable is set, user will have sudo access in the code-server terminal with the specified password. [OPTIONAL]
+            en_US: If this optional variable is set, user will have sudo access in the code-server terminal with the specified password. [OPTIONAL]
         - container: SUDO_PASSWORD_HASH
           description:
-            en_us: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. [OPTIONAL]
+            en_US: Optionally set sudo password via hash (takes priority over SUDO_PASSWORD var). Format is $type$salt$hashed. [OPTIONAL]
         - container: PROXY_DOMAIN
           description:
-            en_us: If this optional variable is set, this domain will be proxied for subdomain proxying. See Documentation [OPTIONAL]
+            en_US: If this optional variable is set, this domain will be proxied for subdomain proxying. See Documentation [OPTIONAL]
         - container: DEFAULT_WORKSPACE
           description:
-            en_us: If this optional variable is set, code-server will open this directory by default [OPTIONAL]
+            en_US: If this optional variable is set, code-server will open this directory by default [OPTIONAL]
         - container: PWA_APPNAME
           description:
-            en_us: If this optional variable is set, the PWA app will the specified name. [OPTIONAL]
+            en_US: If this optional variable is set, the PWA app will the specified name. [OPTIONAL]
     ports:
       - target: 8443
         published: 8443
@@ -60,15 +60,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Code-server is VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
+    en_US: Code-server is VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
   tagline:
-    en_us: VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
+    en_US: VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png
   title:
-    en_us: Code server (LinuxServer.io)
+    en_US: Code server (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservercodeserver
   port_map: '8443'
+  version: 4.137.0

@@ -29,67 +29,67 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: DISCORD__TOKEN
           description:
-            en_us: Specify your discord bot token.
+            en_US: Specify your discord bot token.
         - container: OVERSEERR__API
           description:
-            en_us: Specify your Overseerr API key. Leave blank if using Radarr/Sonarr.
+            en_US: Specify your Overseerr API key. Leave blank if using Radarr/Sonarr.
         - container: OVERSEERR__URL
           description:
-            en_us: Specify your Overseerr URL. Leave blank if using Radarr/Sonarr.
+            en_US: Specify your Overseerr URL. Leave blank if using Radarr/Sonarr.
         - container: RADARR__API
           description:
-            en_us: Specify your Radarr API key. Leave blank if using Overseerr.
+            en_US: Specify your Radarr API key. Leave blank if using Overseerr.
         - container: RADARR__URL
           description:
-            en_us: Specify your Radarr URL. Leave blank if using Overseerr.
+            en_US: Specify your Radarr URL. Leave blank if using Overseerr.
         - container: SONARR__API
           description:
-            en_us: Specify your Sonarr API key. Leave blank if using Overseerr.
+            en_US: Specify your Sonarr API key. Leave blank if using Overseerr.
         - container: SONARR__URL
           description:
-            en_us: Specify your Sonarr URL. Leave blank if using Overseerr.
+            en_US: Specify your Sonarr URL. Leave blank if using Overseerr.
         - container: DISCORD__MAX_RESULTS
           description:
-            en_us: Sets the maximum size of the search results selection [OPTIONAL]
+            en_US: Sets the maximum size of the search results selection [OPTIONAL]
         - container: DISCORD__REQUESTED_MSG_STYLE
           description:
-            en_us: Sets the style of the request alert message. One of :plain :embed :none [OPTIONAL]
+            en_US: Sets the style of the request alert message. One of :plain :embed :none [OPTIONAL]
         - container: SONARR__QUALITY_PROFILE
           description:
-            en_us: The name of the quality profile to use by default for Sonarr [OPTIONAL]
+            en_US: The name of the quality profile to use by default for Sonarr [OPTIONAL]
         - container: RADARR__QUALITY_PROFILE
           description:
-            en_us: The name of the quality profile to use by default for Radarr [OPTIONAL]
+            en_US: The name of the quality profile to use by default for Radarr [OPTIONAL]
         - container: SONARR__ROOTFOLDER
           description:
-            en_us: The root folder to use by default for Sonarr [OPTIONAL]
+            en_US: The root folder to use by default for Sonarr [OPTIONAL]
         - container: RADARR__ROOTFOLDER
           description:
-            en_us: The root folder to use by default for Radarr [OPTIONAL]
+            en_US: The root folder to use by default for Radarr [OPTIONAL]
         - container: SONARR__LANGUAGE_PROFILE
           description:
-            en_us: The name of the language profile to use by default for Sonarr [OPTIONAL]
+            en_US: The name of the language profile to use by default for Sonarr [OPTIONAL]
         - container: OVERSEERR__DEFAULT_ID
           description:
-            en_us: The Overseerr user id to use by default if there is no associated discord account for the requester [OPTIONAL]
+            en_US: The Overseerr user id to use by default if there is no associated discord account for the requester [OPTIONAL]
         - container: PARTIAL_SEASONS
           description:
-            en_us: Sets whether users can request partial seasons. [OPTIONAL]
+            en_US: Sets whether users can request partial seasons. [OPTIONAL]
         - container: LOG_LEVEL
           description:
-            en_us: The log level for the logging backend. This can be changed for debugging purposes. One of trace :debug :info :warn :error :fatal :report [OPTIONAL]
+            en_US: The log level for the logging backend. This can be changed for debugging purposes. One of trace :debug :info :warn :error :fatal :report [OPTIONAL]
         - container: JAVA_OPTS
           description:
-            en_us: For passing additional java options. [OPTIONAL]
+            en_US: For passing additional java options. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -104,14 +104,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Doplarr is an *arr request bot for Discord.'
+    en_US: Doplarr is an *arr request bot for Discord.'
   tagline:
-    en_us: An *arr request bot for Discord. '
+    en_US: An *arr request bot for Discord. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
   title:
-    en_us: Doplarr
-  category: LinuxServer.io
+    en_US: Doplarr
+  category: Others
   port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverdoplarr
+  version: 3.8.0

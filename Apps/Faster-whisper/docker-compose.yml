@@ -16,28 +16,28 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: DEBUG
           description:
-            en_us: If set to true, or any other value, the container will output debug logs. [OPTIONAL]
+            en_US: If set to true, or any other value, the container will output debug logs. [OPTIONAL]
         - container: LOCAL_ONLY
           description:
-            en_us: If set to true, or any other value, the container will not attempt to download models from HuggingFace and will only use locally-provided models. [OPTIONAL]
+            en_US: If set to true, or any other value, the container will not attempt to download models from HuggingFace and will only use locally-provided models. [OPTIONAL]
         - container: WHISPER_BEAM
           description:
-            en_us: Number of candidates to consider simultaneously during transcription. [OPTIONAL]
+            en_US: Number of candidates to consider simultaneously during transcription. [OPTIONAL]
         - container: WHISPER_LANG
           description:
-            en_us: Two character code for the language that you will speak to the add-on. [OPTIONAL]
+            en_US: Two character code for the language that you will speak to the add-on. [OPTIONAL]
         - container: WHISPER_MODEL
           description:
-            en_us: Whisper model that will be used for transcription. From here. [OPTIONAL]
+            en_US: Whisper model that will be used for transcription. From here. [OPTIONAL]
     ports:
       - target: 10300
         published: 10300
@@ -52,15 +52,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
+    en_US: Faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
   tagline:
-    en_us: A reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
+    en_US: A reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: Faster whisper (LinuxServer.io)
+    en_US: Faster whisper (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverfasterwhisper
   port_map: '10300'
+  version: 3.8.1

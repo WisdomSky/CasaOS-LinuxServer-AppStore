@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 80
         published: 80
@@ -31,14 +31,16 @@ x-casaos:
     - amd64
   main: app
   description:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci-debug for details.
+    en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci-debug for details.
   tagline:
-    en_us: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci-debug for details.
+    en_US: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci-debug for details.
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: Ci debug
-  category: LinuxServer.io
+    en_US: Ci debug
+  category: Others
   port_map: '80'
+  id: wisdomsky.linuxserver.linuxservercidebug
+  version: 933e2702-ls1

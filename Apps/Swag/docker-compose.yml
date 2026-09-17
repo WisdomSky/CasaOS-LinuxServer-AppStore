@@ -25,55 +25,55 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: URL
           description:
-            en_us: Top url you have control over (e.g. example.com if you own it, or customsubdomain.example.com if dynamic dns).
+            en_US: Top url you have control over (e.g. example.com if you own it, or customsubdomain.example.com if dynamic dns).
         - container: VALIDATION
           description:
-            en_us: Certbot validation method to use, options are http or dns (dns method also requires DNSPLUGIN variable set).
+            en_US: Certbot validation method to use, options are http or dns (dns method also requires DNSPLUGIN variable set).
         - container: SUBDOMAINS
           description:
-            en_us: Subdomains you'd like the cert to cover (comma separated, no spaces) ie. www,ftp,cloud. For a wildcard cert, set this exactly to wildcard (wildcard cert is available via dns validation only) [OPTIONAL]
+            en_US: Subdomains you'd like the cert to cover (comma separated, no spaces) ie. www,ftp,cloud. For a wildcard cert, set this exactly to wildcard (wildcard cert is available via dns validation only) [OPTIONAL]
         - container: CERTPROVIDER
           description:
-            en_us: Optionally define the cert provider. Set to zerossl for ZeroSSL certs (requires existing ZeroSSL account and the e-mail address entered in EMAIL env var). Otherwise defaults to Let's Encrypt. [OPTIONAL]
+            en_US: Optionally define the cert provider. Set to zerossl for ZeroSSL certs (requires existing ZeroSSL account and the e-mail address entered in EMAIL env var). Otherwise defaults to Let's Encrypt. [OPTIONAL]
         - container: CERT_PROFILE
           description:
-            en_us: Optionally define a cert profile to use for cert generation. This is useful if you want to use a custom cert profile instead of the default one. Currently only supported for Let's Encrypt. See https://letsencrypt.org/docs/profiles/  [OPTIONAL]
+            en_US: Optionally define a cert profile to use for cert generation. This is useful if you want to use a custom cert profile instead of the default one. Currently only supported for Let's Encrypt. See https://letsencrypt.org/docs/profiles/  [OPTIONAL]
         - container: DNSPLUGIN
           description:
-            en_us: Required if VALIDATION is set to dns. Options are acmedns, aliyun, azure, bunny, cloudflare, cpanel, desec, digitalocean, directadmin, dnsimple, dnsmadeeasy, dnspod, do, domeneshop, dreamhost, duckdns, dynu, freedns, gandi, gehirn, glesys, godaddy, google, he, hetzner, hetzner-cloud, infomaniak, inwx, ionos, linode, loopia, luadns, mijn-host, namecheap, netcup, njalla, nsone, ovh, porkbun, rfc2136, route53, sakuracloud, standalone, transip, and vultr. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under /config/dns-conf. [OPTIONAL]
+            en_US: Required if VALIDATION is set to dns. Options are acmedns, aliyun, azure, bunny, cloudflare, cpanel, desec, digitalocean, directadmin, dnsimple, dnsmadeeasy, dnspod, do, domeneshop, dreamhost, duckdns, dynu, freedns, gandi, gehirn, glesys, godaddy, google, he, hetzner, hetzner-cloud, infomaniak, inwx, ionos, linode, loopia, luadns, mijn-host, namecheap, netcup, njalla, nsone, ovh, porkbun, rfc2136, route53, sakuracloud, standalone, transip, and vultr. Also need to enter the credentials into the corresponding ini (or json for some plugins) file under /config/dns-conf. [OPTIONAL]
         - container: PROPAGATION
           description:
-            en_us: Optionally override (in seconds) the default propagation time for the dns plugins. [OPTIONAL]
+            en_US: Optionally override (in seconds) the default propagation time for the dns plugins. [OPTIONAL]
         - container: EMAIL
           description:
-            en_us: Optional e-mail address used for cert expiration notifications (Required for ZeroSSL). [OPTIONAL]
+            en_US: Optional e-mail address used for cert expiration notifications (Required for ZeroSSL). [OPTIONAL]
         - container: ONLY_SUBDOMAINS
           description:
-            en_us: If you wish to get certs only for certain subdomains, but not the main domain (main domain may be hosted on another machine and cannot be validated), set this to true [OPTIONAL]
+            en_US: If you wish to get certs only for certain subdomains, but not the main domain (main domain may be hosted on another machine and cannot be validated), set this to true [OPTIONAL]
         - container: EXTRA_DOMAINS
           description:
-            en_us: Additional fully qualified domain names (comma separated, no spaces) ie. example.net,subdomain.example.net,*.example.org [OPTIONAL]
+            en_US: Additional fully qualified domain names (comma separated, no spaces) ie. example.net,subdomain.example.net,*.example.org [OPTIONAL]
         - container: STAGING
           description:
-            en_us: Set to true to retrieve certs in staging mode. Rate limits will be much higher, but the resulting cert will not pass the browser's security test. Only to be used for testing purposes. [OPTIONAL]
+            en_US: Set to true to retrieve certs in staging mode. Rate limits will be much higher, but the resulting cert will not pass the browser's security test. Only to be used for testing purposes. [OPTIONAL]
         - container: DISABLE_F2B
           description:
-            en_us: Set to true to disable the Fail2ban service in the container, if you're already running it elsewhere or using a different IPS. [OPTIONAL]
+            en_US: Set to true to disable the Fail2ban service in the container, if you're already running it elsewhere or using a different IPS. [OPTIONAL]
         - container: SWAG_AUTORELOAD
           description:
-            en_us: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod. [OPTIONAL]
+            en_US: Set to true to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered via mod. [OPTIONAL]
         - container: SWAG_AUTORELOAD_WATCHLIST
           description:
-            en_us: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx [OPTIONAL]
+            en_US: A pipe-separated list of additional folders for auto reload to watch in addition to /config/nginx [OPTIONAL]
     ports:
       - target: 443
         published: 443
@@ -94,15 +94,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
+    en_US: SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
   tagline:
-    en_us: SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
+    en_US: SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/swag.gif
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/swag.gif
   title:
-    en_us: Swag (LinuxServer.io)
+    en_US: Swag (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverswag
   port_map: '80'
+  version: 5.8.0

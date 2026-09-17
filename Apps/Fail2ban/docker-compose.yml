@@ -12,16 +12,16 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: VERBOSITY
           description:
-            en_us: Set the container log verbosity. Valid options are -v, -vv, -vvv, -vvvv, or leaving the value blank or not setting the variable. [OPTIONAL]
+            en_US: Set the container log verbosity. Valid options are -v, -vv, -vvv, -vvvv, or leaving the value blank or not setting the variable. [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -90,15 +90,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Fail2ban is a daemon to ban hosts that cause multiple authentication errors.
+    en_US: Fail2ban is a daemon to ban hosts that cause multiple authentication errors.
   tagline:
-    en_us: A daemon to ban hosts that cause multiple authentication errors.
+    en_US: A daemon to ban hosts that cause multiple authentication errors.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   title:
-    en_us: Fail2ban (LinuxServer.io)
+    en_US: Fail2ban (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverfail2ban
   port_map: '80'
+  version: 1.1.0

@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -35,15 +35,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Weixin (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
+    en_US: Weixin (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
   tagline:
-    en_us: (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
+    en_US: (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
   title:
-    en_us: Weixin (LinuxServer.io)
+    en_US: Weixin (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverweixin
   port_map: '3000'
+  version: version-f1376de7

@@ -11,21 +11,21 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
       volumes:
         - container: /config
           description:
-            en_us: Appdata
+            en_US: Appdata
       ports:
         - container: '8080'
           description:
-            en_us: Webui - Default port 8080
+            en_US: Webui - Default port 8080
     ports:
       - target: 8080
         published: 8080
@@ -40,15 +40,18 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://hub.docker.com/r/linuxserver/dillinger/'
+    en_US: 'Visit homepage: https://hub.docker.com/r/linuxserver/dillinger/'
   tagline:
-    en_us: A cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+    en_US: A cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png
   title:
-    en_us: Dillinger
-  category: LinuxServer.io
+    en_US: Dillinger
+  category: Others
   project_url: https://dillinger.io/
   port_map: '8080'
+  id: wisdomsky.linuxserver.linuxserverdillinger
+  version: 3.39.1
+  website: https://dillinger.io/

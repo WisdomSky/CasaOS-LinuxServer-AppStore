@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: WEBUI_PORT
           description:
-            en_us: for changing the port of the web UI, see below for explanation
+            en_US: for changing the port of the web UI, see below for explanation
         - container: TORRENTING_PORT
           description:
-            en_us: for changing the port of tcp/udp connection, see below for explanation
+            en_US: for changing the port of tcp/udp connection, see below for explanation
     ports:
       - target: 8080
         published: 8080
@@ -49,15 +49,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    en_US: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
   tagline:
-    en_us: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    en_US: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   title:
-    en_us: Qbittorrent (LinuxServer.io)
+    en_US: Qbittorrent (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverqbittorrent
   port_map: '8080'
+  version: 5.2.3

@@ -15,25 +15,25 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here. [OPTIONAL]
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here. [OPTIONAL]
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here. [OPTIONAL]
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here. [OPTIONAL]
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list. [OPTIONAL]
+            en_US: specify a timezone to use, see this list. [OPTIONAL]
         - container: SUBDOMAINS
           description:
-            en_us: multiple subdomains allowed, comma separated, no spaces, if your domain is user.duckdns.org you put user, not a sub-subdomain
+            en_US: multiple subdomains allowed, comma separated, no spaces, if your domain is user.duckdns.org you put user, not a sub-subdomain
         - container: TOKEN
           description:
-            en_us: DuckDNS token
+            en_US: DuckDNS token
         - container: UPDATE_IP
           description:
-            en_us: Set to ipv6 or ipv4 to update  only your public IPv4/6 address. Set to both to update IPv6 and IPv4 address. This variable makes use of a third-party service. Omitting this variable uses DuckDNS for detection and only supports IPv4. both and ipv6 modes needs host networking. [OPTIONAL]
+            en_US: Set to ipv6 or ipv4 to update  only your public IPv4/6 address. Set to both to update IPv6 and IPv4 address. This variable makes use of a third-party service. Omitting this variable uses DuckDNS for detection and only supports IPv4. both and ipv6 modes needs host networking. [OPTIONAL]
         - container: LOG_FILE
           description:
-            en_us: Set to true to log to file (also need to map /config). [OPTIONAL]
+            en_US: Set to true to log to file (also need to map /config). [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -51,15 +51,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Duckdns is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
+    en_US: Duckdns is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
   tagline:
-    en_us: A free service which will point a DNS (sub domains of duckdns. Org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
+    en_US: A free service which will point a DNS (sub domains of duckdns. Org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png
   title:
-    en_us: Duckdns (LinuxServer.io)
+    en_US: Duckdns (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverduckdns
   port_map: '80'
+  version: version-73f1bc7d

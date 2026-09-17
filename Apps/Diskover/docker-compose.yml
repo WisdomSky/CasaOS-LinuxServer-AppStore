@@ -13,19 +13,19 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: ES_HOST
           description:
-            en_us: ElasticSearch host (optional)
+            en_US: ElasticSearch host (optional)
         - container: ES_PORT
           description:
-            en_us: ElasticSearch port (optional)
+            en_US: ElasticSearch port (optional)
     ports:
       - target: 80
         published: 80
@@ -43,15 +43,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    en_US: Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
   tagline:
-    en_us: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    en_US: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   thumbnail: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   title:
-    en_us: Diskover (LinuxServer.io)
+    en_US: Diskover (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverdiskover
   port_map: '80'
+  version: 2.3.5

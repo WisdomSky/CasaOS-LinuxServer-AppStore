@@ -14,22 +14,22 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: DATABASE_URL
           description:
-            en_us: Database connection URL. For sqlite use sqlite3:/config/manyfold.sqlite3. For postgres or mariadb use ://:@:/ where ` is postgresql or mysql2`. Special characters in username/password must be URL encoded.
+            en_US: Database connection URL. For sqlite use sqlite3:/config/manyfold.sqlite3. For postgres or mariadb use ://:@:/ where ` is postgresql or mysql2`. Special characters in username/password must be URL encoded.
         - container: REDIS_URL
           description:
-            en_us: Redis/Valkey database URL in redis://:/ format.
+            en_US: Redis/Valkey database URL in redis://:/ format.
         - container: SECRET_KEY_BASE
           description:
-            en_us: Browser session and database encryption key. If unset a random one will be generated on init, the database is locked to this key.
+            en_US: Browser session and database encryption key. If unset a random one will be generated on init, the database is locked to this key.
     ports:
       - target: 3214
         published: 3214
@@ -47,15 +47,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Manyfold is an open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
+    en_US: Manyfold is an open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
   tagline:
-    en_us: An open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
+    en_US: An open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/manyfold-logo.png
   title:
-    en_us: Manyfold (LinuxServer.io)
+    en_US: Manyfold (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxservermanyfold
   port_map: '3214'
+  version: 0.149.0

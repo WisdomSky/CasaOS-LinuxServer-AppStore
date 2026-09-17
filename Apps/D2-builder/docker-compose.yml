@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 80
         published: 80
@@ -32,14 +32,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/d2-builder for details.
+    en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/d2-builder for details.
   tagline:
-    en_us: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/d2-builder for details. '
+    en_US: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/d2-builder for details. '
   developer: LinuxServer.io
   author: WisdomSky
   icon: ''
   thumbnail: ''
   title:
-    en_us: D2 builder
-  category: LinuxServer.io
+    en_US: D2 builder
+  category: Others
   port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverd2builder
+  version: 0.6.8

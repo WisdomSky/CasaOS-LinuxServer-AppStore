@@ -16,39 +16,39 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: for UserID
+            en_US: for UserID
         - container: PGID
           description:
-            en_us: for GroupID
+            en_US: for GroupID
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: MSDELAY
           description:
-            en_us: The endless banner is sent one line at a time. This is the delay in milliseconds between individual lines.
+            en_US: The endless banner is sent one line at a time. This is the delay in milliseconds between individual lines.
         - container: MAXLINES
           description:
-            en_us: The length of each line is randomized. This controls the maximum length of each line. Shorter lines may keep clients on for longer if they give up after a certain number of bytes.
+            en_US: The length of each line is randomized. This controls the maximum length of each line. Shorter lines may keep clients on for longer if they give up after a certain number of bytes.
         - container: MAXCLIENTS
           description:
-            en_us: Maximum number of connections to accept at a time. Connections beyond this are not immediately rejected, but will wait in the queue.
+            en_US: Maximum number of connections to accept at a time. Connections beyond this are not immediately rejected, but will wait in the queue.
         - container: LOGFILE
           description:
-            en_us: By default, the app logs to container log. If this is set to true, the log will be output to file under /config/logs/endlessh (/config needs to be mapped).
+            en_US: By default, the app logs to container log. If this is set to true, the log will be output to file under /config/logs/endlessh (/config needs to be mapped).
         - container: BINDFAMILY
           description:
-            en_us: By default, the app binds to IPv4 and IPv6 addresses. Set it to 4 or 6 to bind to IPv4 only or IPv6 only, respectively. Leave blank to bind to both.
+            en_US: By default, the app binds to IPv4 and IPv6 addresses. Set it to 4 or 6 to bind to IPv4 only or IPv6 only, respectively. Leave blank to bind to both.
       volumes:
         - container: /config
           description:
-            en_us: Required if `LOGFILE` is set to `true`.
+            en_US: Required if `LOGFILE` is set to `true`.
         - container: /config
           description:
-            en_us: Required if `LOGFILE` is set to `true`.
+            en_US: Required if `LOGFILE` is set to `true`.
       ports:
         - container: '22'
           description:
-            en_us: ssh port
+            en_US: ssh port
     ports:
       - target: 22
         published: 2222
@@ -66,15 +66,18 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh'
+    en_US: 'Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh'
   tagline:
-    en_us: An SSH tarpit that very slowly sends an endless, random SSH banner. It keeps SSH clients locked up for hours or even days at a time. The purpose is to put your real SSH server on another port and then let the script kiddies get stuck in this tarpit instead of bothering a real server.
+    en_US: An SSH tarpit that very slowly sends an endless, random SSH banner. It keeps SSH clients locked up for hours or even days at a time. The purpose is to put your real SSH server on another port and then let the script kiddies get stuck in this tarpit instead of bothering a real server.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/openssh-server-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/openssh-server-logo.png
   title:
-    en_us: Endlessh
-  category: LinuxServer.io
+    en_US: Endlessh
+  category: Others
   project_url: https://github.com/skeeto/endlessh
   port_map: '8080'
+  id: wisdomsky.linuxserver.linuxserverendlessh
+  version: version-dfe44eb2
+  website: https://github.com/skeeto/endlessh

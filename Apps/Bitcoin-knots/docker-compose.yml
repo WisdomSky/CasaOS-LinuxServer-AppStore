@@ -11,13 +11,13 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
     ports:
       - target: 3000
         published: 3000
@@ -38,15 +38,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Bitcoin Knots can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    en_US: Bitcoin Knots can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
   tagline:
-    en_us: Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    en_US: Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   title:
-    en_us: Bitcoin knots (LinuxServer.io)
+    en_US: Bitcoin knots (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverbitcoinknots
   port_map: '3000'
+  version: version-29.4.knots20260508.1-noble1

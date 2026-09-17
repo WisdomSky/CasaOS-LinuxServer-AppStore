@@ -20,40 +20,40 @@ services:
       envs:
         - container: PUID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
         - container: PGID
           description:
-            en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
+            en_US: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
           description:
-            en_us: specify a timezone to use, see this list.
+            en_US: specify a timezone to use, see this list.
         - container: DB_CONNECTION
           description:
-            en_us: DB type, from sqlite, mysql, pqsql.
+            en_US: DB type, from sqlite, mysql, pqsql.
         - container: DB_HOST
           description:
-            en_us: DB server hostname. For mysql and pgsql only.
+            en_US: DB server hostname. For mysql and pgsql only.
         - container: DB_PORT
           description:
-            en_us: DB server port. For mysql and pgsql only.
+            en_US: DB server port. For mysql and pgsql only.
         - container: DB_USERNAME
           description:
-            en_us: DB user. For mysql and pgsql only.
+            en_US: DB user. For mysql and pgsql only.
         - container: DB_PASSWORD
           description:
-            en_us: DB password. For mysql and pgsql only.
+            en_US: DB password. For mysql and pgsql only.
         - container: DB_DATABASE
           description:
-            en_us: Path to DB file for sqlite. DB name for mysql and pgsql.
+            en_US: Path to DB file for sqlite. DB name for mysql and pgsql.
         - container: APP_NAME
           description:
-            en_us: The gallery name. [OPTIONAL]
+            en_US: The gallery name. [OPTIONAL]
         - container: APP_URL
           description:
-            en_us: The URL you will use to access Lychee including protocol, and port where appropriate. [OPTIONAL]
+            en_US: The URL you will use to access Lychee including protocol, and port where appropriate. [OPTIONAL]
         - container: TRUSTED_PROXIES
           description:
-            en_us: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). [OPTIONAL]
+            en_US: Set to the IP or netmask covering your reverse proxy, if running behind one. Set to ` to trust all IPs (do not* use * if exposed to the internet). [OPTIONAL]
     ports:
       - target: 80
         published: 80
@@ -71,15 +71,16 @@ x-casaos:
     - arm64
   main: app
   description:
-    en_us: Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    en_US: Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
   tagline:
-    en_us: A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    en_US: A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png
   title:
-    en_us: Lychee (LinuxServer.io)
+    en_US: Lychee (LinuxServer.io)
   category: Home
   id: wisdomsky.linuxserver.linuxserverlychee
   port_map: '80'
+  version: 7.8.3
