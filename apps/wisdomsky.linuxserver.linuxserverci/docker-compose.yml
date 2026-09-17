@@ -1,0 +1,25 @@
+name: linuxserver-ci
+services:
+  app:
+    image: linuxserver/ci:b1ca9f98-ls65
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ci/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverci/assets/icon.png
+  title:
+    en_US: Ci
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverci
+  version: b1ca9f98-ls65

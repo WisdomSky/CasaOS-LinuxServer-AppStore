@@ -1,0 +1,28 @@
+name: linuxserver-shadps4
+services:
+  app:
+    image: linuxserver/shadps4:version-shadPS4QtLauncher-2026-09-12-864dc30bc5372d7ad95ef609188942ecd77bf6f4@sha256:833518084c397ceb99e8d9334d513852b65899c65e715317058555c72c2f18e6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/shadps4/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservershadps4/assets/icon.png
+  title:
+    en_US: Shadps4 (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservershadps4
+  port_map: '3000'
+  version: version-shadPS4QtLauncher-2026-09-12-864dc30bc5372d7ad95ef609188942ecd77bf6f4

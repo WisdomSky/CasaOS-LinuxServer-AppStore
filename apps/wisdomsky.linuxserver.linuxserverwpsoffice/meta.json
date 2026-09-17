@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.",
+  "tagline": "A lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwpsoffice/assets/wps-office-icon.webp",
+  "category": "Home",
+  "title": "Wps office (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
+  "version": "11.1.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 2374677280
+  }
+}

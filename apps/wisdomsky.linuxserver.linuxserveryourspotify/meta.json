@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.",
+  "tagline": "A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveryourspotify/assets/your_spotify-logo.webp",
+  "category": "Home",
+  "title": "Your_spotify (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserveryourspotify",
+  "version": "1.20.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 56536173,
+    "arm64": 56690822
+  }
+}

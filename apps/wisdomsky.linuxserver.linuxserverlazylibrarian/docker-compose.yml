@@ -1,0 +1,32 @@
+name: linuxserver-lazylibrarian
+services:
+  app:
+    image: linuxserver/lazylibrarian:version-abc3d1d3
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DOCKER_MODS: ''
+    ports:
+      - target: 5299
+        published: 5299
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lazylibrarian/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/lazylibrarian/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/lazylibrarian/books
+        target: /books
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/assets/icon.png
+  title:
+    en_US: Lazylibrarian (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverlazylibrarian
+  port_map: '5299'
+  version: version-abc3d1d3

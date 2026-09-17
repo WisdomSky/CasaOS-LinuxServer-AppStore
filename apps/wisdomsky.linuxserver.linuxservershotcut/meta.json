@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Shotcut is a free, open source, cross-platform video editor.",
+  "tagline": "A free, open source, cross-platform video editor.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservershotcut/assets/shotcut-logo.webp",
+  "category": "Home",
+  "title": "Shotcut (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservershotcut",
+  "version": "26.8.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1227285035
+  }
+}

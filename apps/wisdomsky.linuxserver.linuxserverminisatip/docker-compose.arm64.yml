@@ -1,0 +1,31 @@
+name: linuxserver-minisatip
+services:
+  app:
+    image: linuxserver/minisatip:2.0.103@sha256:cc402861ad2278aada398213190a1c4546c148a35e9ef6019013ddf529340327
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      RUN_OPTS: ''
+    ports:
+      - target: 8875
+        published: 8875
+        protocol: tcp
+      - target: 554
+        published: 554
+        protocol: tcp
+      - target: 1900
+        published: 1900
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/minisatip/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverminisatip/assets/icon.png
+  title:
+    en_US: Minisatip (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverminisatip
+  version: 2.0.103

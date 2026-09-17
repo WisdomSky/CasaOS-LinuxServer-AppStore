@@ -1,0 +1,25 @@
+name: linuxserver-thelounge
+services:
+  app:
+    image: linuxserver/thelounge:4.5.2@sha256:ec07e6589428704e8c6c115f0e8bc6524422c92329c7f0f99a195805188d5fbe
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 9000
+        published: 9000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/thelounge/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverthelounge/assets/icon.svg
+  title:
+    en_US: Thelounge (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverthelounge
+  port_map: '9000'
+  version: 4.5.2

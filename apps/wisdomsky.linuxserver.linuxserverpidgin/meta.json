@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Pidgin is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.",
+  "tagline": "A chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpidgin/assets/pidgin-logo.webp",
+  "category": "Home",
+  "title": "Pidgin (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverpidgin",
+  "version": "2.14.14",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 758639263,
+    "arm64": 706610856
+  }
+}

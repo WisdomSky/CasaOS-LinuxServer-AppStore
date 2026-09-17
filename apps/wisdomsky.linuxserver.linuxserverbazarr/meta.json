@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
+  "tagline": "A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbazarr/assets/bazarr.webp",
+  "category": "Home",
+  "title": "Bazarr (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverbazarr",
+  "version": "1.6.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 155853657,
+    "arm64": 150977292
+  }
+}

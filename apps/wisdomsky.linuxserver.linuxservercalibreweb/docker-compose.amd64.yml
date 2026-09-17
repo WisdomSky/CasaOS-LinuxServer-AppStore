@@ -1,0 +1,30 @@
+name: linuxserver-calibre-web
+services:
+  app:
+    image: linuxserver/calibre-web:0.6.27@sha256:d7ef9f5805f6f4a4190b5072a729b856813218472e49d2d3a8dcac53ec50e6c4
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DOCKER_MODS: ''
+      OAUTHLIB_RELAX_TOKEN_SCOPE: ''
+    ports:
+      - target: 8083
+        published: 8083
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/calibre-web/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/calibre-web/books
+        target: /books
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercalibreweb/assets/icon.png
+  title:
+    en_US: Calibre web (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservercalibreweb
+  port_map: '8083'
+  version: 0.6.27

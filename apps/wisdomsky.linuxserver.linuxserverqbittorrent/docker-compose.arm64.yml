@@ -1,0 +1,36 @@
+name: linuxserver-qbittorrent
+services:
+  app:
+    image: linuxserver/qbittorrent:5.2.3@sha256:8fbe48ef9839269be66e333c6b3d0808199c6d30c603f52e5de13b8c17ec7546
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      WEBUI_PORT: ''
+      TORRENTING_PORT: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 6881
+        published: 6881
+        protocol: tcp
+      - target: 6881
+        published: 6881
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/qbittorrent/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/qbittorrent/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverqbittorrent/assets/icon.png
+  title:
+    en_US: Qbittorrent (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverqbittorrent
+  port_map: '8080'
+  version: 5.2.3

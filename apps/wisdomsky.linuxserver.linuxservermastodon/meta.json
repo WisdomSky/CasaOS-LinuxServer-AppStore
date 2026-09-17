@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..",
+  "tagline": "A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermastodon/assets/mastodon-banner.webp",
+  "category": "Home",
+  "title": "Mastodon (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservermastodon",
+  "version": "4.7.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 255672164,
+    "arm64": 252014448
+  }
+}

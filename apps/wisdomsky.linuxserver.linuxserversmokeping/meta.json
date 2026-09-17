@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.",
+  "tagline": "Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversmokeping/assets/smokeping-logo.webp",
+  "category": "Home",
+  "title": "Smokeping (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserversmokeping",
+  "version": "2.9.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 123112698,
+    "arm64": 124085169
+  }
+}

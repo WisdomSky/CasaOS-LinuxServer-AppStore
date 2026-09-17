@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/headphones/",
+  "tagline": "An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverheadphones/assets/headphones-banner.webp",
+  "category": "Others",
+  "project_url": "https://github.com/rembo10/headphones",
+  "website": "https://github.com/rembo10/headphones",
+  "title": "Headphones",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverheadphones",
+  "version": "version-a78f38c1",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 70268793,
+    "arm64": 66891654
+  }
+}

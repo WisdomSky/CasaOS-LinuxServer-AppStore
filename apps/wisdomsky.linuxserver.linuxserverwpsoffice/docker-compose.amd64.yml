@@ -1,0 +1,28 @@
+name: linuxserver-wps-office
+services:
+  app:
+    image: linuxserver/wps-office:11.1.0@sha256:d3498b0c268e120795baa602fae1a61776c473c08cca3c26ebf0c674a96e774d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/wps-office/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwpsoffice/assets/icon.png
+  title:
+    en_US: Wps office (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwpsoffice
+  port_map: '3000'
+  version: 11.1.0

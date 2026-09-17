@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy.info",
+  "tagline": "An ERP system for your kitchen. Cut down on food waste, and manage your chores with this brilliant utility. Keep track of your purchases, how much food you are wasting, what chores need doing and what batteries need charging with this proudly Open Source tool For more information on grocy visit their website and check it out: https://grocy. Info",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergrocy/assets/grocy-logo.webp",
+  "category": "Home",
+  "title": "Grocy (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservergrocy",
+  "version": "4.7.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 86645760,
+    "arm64": 87197108
+  }
+}

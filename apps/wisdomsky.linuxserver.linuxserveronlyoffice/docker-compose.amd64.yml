@@ -1,0 +1,28 @@
+name: linuxserver-onlyoffice
+services:
+  app:
+    image: linuxserver/onlyoffice:9.4.0@sha256:8d8cf95680ac608378a64b657f146527499804f89d11572e5ef3034a6f80f436
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/onlyoffice/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveronlyoffice/assets/icon.png
+  title:
+    en_US: Onlyoffice (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveronlyoffice
+  port_map: '3000'
+  version: 9.4.0

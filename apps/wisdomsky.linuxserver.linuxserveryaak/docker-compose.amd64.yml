@@ -1,0 +1,28 @@
+name: linuxserver-yaak
+services:
+  app:
+    image: linuxserver/yaak:2026.7.1@sha256:3612af8c571deb11962445b2f221d975b583b7e982602fc691ba5e4a47ec1e7d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/yaak/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveryaak/assets/icon.png
+  title:
+    en_US: Yaak (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveryaak
+  port_map: '3000'
+  version: 2026.7.1

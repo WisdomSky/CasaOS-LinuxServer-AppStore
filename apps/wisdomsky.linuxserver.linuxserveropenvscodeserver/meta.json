@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Openvscode-server provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.",
+  "tagline": "Provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/assets/openvscode-server-logo.webp",
+  "category": "Others",
+  "title": "Openvscode server",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
+  "version": "1.109.5",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 154368646,
+    "arm64": 152248242
+  }
+}

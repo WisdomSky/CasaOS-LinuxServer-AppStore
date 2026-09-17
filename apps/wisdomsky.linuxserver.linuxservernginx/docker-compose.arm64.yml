@@ -1,0 +1,30 @@
+name: linuxserver-nginx
+services:
+  app:
+    image: linuxserver/nginx:1.30.4@sha256:a35886708acf496d634ec676554ad3076216a2187dfb9f92316243f5c2de842c
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      NGINX_AUTORELOAD: ''
+      NGINX_AUTORELOAD_WATCHLIST: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nginx/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernginx/assets/icon.png
+  title:
+    en_US: Nginx (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservernginx
+  port_map: '80'
+  version: 1.30.4

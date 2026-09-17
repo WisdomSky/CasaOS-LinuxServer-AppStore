@@ -1,0 +1,26 @@
+name: linuxserver-ombi
+services:
+  app:
+    image: linuxserver/ombi:4.53.10
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      BASE_URL: ''
+    ports:
+      - target: 3579
+        published: 3579
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ombi/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverombi/assets/icon.png
+  title:
+    en_US: Ombi (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverombi
+  port_map: '3579'
+  version: 4.53.10

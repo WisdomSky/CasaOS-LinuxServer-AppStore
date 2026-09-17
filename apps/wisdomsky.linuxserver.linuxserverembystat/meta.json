@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/embystat/",
+  "tagline": "A personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverembystat/assets/embystat-logo.webp",
+  "category": "Others",
+  "project_url": "https://github.com/mregni/EmbyStat",
+  "website": "https://github.com/mregni/EmbyStat",
+  "title": "Embystat",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverembystat",
+  "version": "0.2.0",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 132046364,
+    "arm64": 128630163
+  }
+}

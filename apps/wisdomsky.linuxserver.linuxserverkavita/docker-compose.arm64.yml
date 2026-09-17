@@ -1,0 +1,28 @@
+name: linuxserver-kavita
+services:
+  app:
+    image: linuxserver/kavita:0.9.1@sha256:81f3127a234488a1f10d7bb3d37ece0fe19951063a6dd4066ee700dd5c4dcdb2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 5000
+        published: 5000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/kavita/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/kavita/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverkavita/assets/icon.png
+  title:
+    en_US: Kavita (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverkavita
+  port_map: '5000'
+  version: 0.9.1

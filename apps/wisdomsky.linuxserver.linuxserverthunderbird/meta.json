@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Thunderbird is a free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.",
+  "tagline": "A free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverthunderbird/assets/thunderbird-logo.webp",
+  "category": "Home",
+  "title": "Thunderbird (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverthunderbird",
+  "version": "1140.16.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1083373851,
+    "arm64": 1047330390
+  }
+}

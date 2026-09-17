@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/snapdrop/",
+  "tagline": "A local file sharing in your browser. Inspired by Apple's Airdrop. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversnapdrop/assets/logo_transparent_512x512.webp",
+  "category": "Others",
+  "project_url": "https://github.com/RobinLinus/snapdrop",
+  "website": "https://github.com/RobinLinus/snapdrop",
+  "title": "Snapdrop",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserversnapdrop",
+  "version": "version-f88d46ed",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 48738596,
+    "arm64": 50014770
+  }
+}

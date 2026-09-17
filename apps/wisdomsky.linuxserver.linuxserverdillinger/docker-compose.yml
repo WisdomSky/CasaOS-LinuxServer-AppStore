@@ -1,0 +1,25 @@
+name: linuxserver-dillinger
+services:
+  app:
+    image: linuxserver/dillinger:3.39.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/dillinger/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdillinger/assets/icon.png
+  title:
+    en_US: Dillinger
+  port_map: '8080'
+  id: wisdomsky.linuxserver.linuxserverdillinger
+  version: 3.39.1

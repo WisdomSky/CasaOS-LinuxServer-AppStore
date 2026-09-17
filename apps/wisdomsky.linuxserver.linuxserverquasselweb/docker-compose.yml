@@ -1,0 +1,32 @@
+name: linuxserver-quassel-web
+services:
+  app:
+    image: linuxserver/quassel-web:version-019bfdc1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      QUASSEL_CORE: ''
+      QUASSEL_PORT: ''
+      QUASSEL_HTTPS: ''
+      URL_BASE: ''
+    ports:
+      - target: 64080
+        published: 64080
+        protocol: tcp
+      - target: 64443
+        published: 64443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/quassel-web/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverquasselweb/assets/icon.png
+  title:
+    en_US: Quassel web
+  port_map: '64080'
+  id: wisdomsky.linuxserver.linuxserverquasselweb
+  version: version-019bfdc1

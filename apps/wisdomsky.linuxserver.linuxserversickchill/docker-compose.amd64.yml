@@ -1,0 +1,31 @@
+name: linuxserver-sickchill
+services:
+  app:
+    image: linuxserver/sickchill:2024.3.1@sha256:78d0b0055b5fc1bdb0a49db19ca61c7d76bc9087baadb8fee8b8e835ac696384
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8081
+        published: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sickchill/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/sickchill/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/sickchill/tv
+        target: /tv
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversickchill/assets/icon.png
+  title:
+    en_US: Sickchill
+  port_map: '8081'
+  id: wisdomsky.linuxserver.linuxserversickchill
+  version: 2024.3.1

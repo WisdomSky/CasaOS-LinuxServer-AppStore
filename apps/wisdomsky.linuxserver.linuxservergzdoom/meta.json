@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.",
+  "tagline": "A feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergzdoom/assets/gzdoom-logo.webp",
+  "category": "Home",
+  "title": "Gzdoom (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservergzdoom",
+  "version": "4.14.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1009431516,
+    "arm64": 979754620
+  }
+}

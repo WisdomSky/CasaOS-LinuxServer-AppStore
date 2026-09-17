@@ -1,0 +1,47 @@
+name: linuxserver-netbox
+services:
+  app:
+    image: linuxserver/netbox:4.7.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SUPERUSER_EMAIL: ''
+      SUPERUSER_PASSWORD: ''
+      ALLOWED_HOST: ''
+      DB_NAME: ''
+      DB_USER: ''
+      DB_PASSWORD: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      REDIS_HOST: ''
+      REDIS_PORT: ''
+      REDIS_USERNAME: ''
+      REDIS_PASSWORD: ''
+      REDIS_DB_TASK: ''
+      REDIS_DB_CACHE: ''
+      BASE_PATH: ''
+      CSRF_TRUSTED_ORIGINS: ''
+      REMOTE_AUTH_ENABLED: ''
+      REMOTE_AUTH_BACKEND: ''
+      REMOTE_AUTH_HEADER: ''
+      REMOTE_AUTH_AUTO_CREATE_USER: ''
+      REMOTE_AUTH_DEFAULT_GROUPS: ''
+      REMOTE_AUTH_DEFAULT_PERMISSIONS: ''
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/netbox/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernetbox/assets/icon.png
+  title:
+    en_US: Netbox (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservernetbox
+  port_map: '8000'
+  version: 4.7.1

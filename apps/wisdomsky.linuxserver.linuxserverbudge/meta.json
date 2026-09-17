@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Budge is an open source 'budgeting with envelopes' personal finance app.",
+  "tagline": "An open source 'budgeting with envelopes' personal finance app.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Home",
+  "title": "Budge (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverbudge",
+  "version": "0.0.9",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 150606804,
+    "arm64": 169959796
+  }
+}

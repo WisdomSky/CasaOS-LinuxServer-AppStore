@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Yaak is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.",
+  "tagline": "A desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveryaak/assets/yaak-logo.webp",
+  "category": "Home",
+  "title": "Yaak (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserveryaak",
+  "version": "2026.7.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1126049509,
+    "arm64": 1098444291
+  }
+}

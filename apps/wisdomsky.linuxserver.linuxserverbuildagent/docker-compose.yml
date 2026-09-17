@@ -1,0 +1,25 @@
+name: linuxserver-build-agent
+services:
+  app:
+    image: linuxserver/build-agent:version-0296acb5
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/build-agent/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbuildagent/assets/icon.png
+  title:
+    en_US: Build agent
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverbuildagent
+  version: version-0296acb5

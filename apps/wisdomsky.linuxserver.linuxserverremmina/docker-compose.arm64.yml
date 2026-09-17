@@ -1,0 +1,28 @@
+name: linuxserver-remmina
+services:
+  app:
+    image: linuxserver/remmina:1.4.43@sha256:7c3a9e8eda60f30825ea1fe7c35c55f53c21f6469efc36fde2339769811d217b
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/remmina/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverremmina/assets/icon.png
+  title:
+    en_US: Remmina (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverremmina
+  port_map: '3000'
+  version: 1.4.43

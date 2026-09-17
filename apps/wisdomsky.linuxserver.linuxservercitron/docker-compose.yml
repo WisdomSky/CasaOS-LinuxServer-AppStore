@@ -1,0 +1,27 @@
+name: linuxserver-citron
+services:
+  app:
+    image: linuxserver/citron:2026.02.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /srv/lsio/citron/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercitron/assets/icon.png
+  title:
+    en_US: Citron
+  id: wisdomsky.linuxserver.linuxservercitron
+  version: 2026.02.1

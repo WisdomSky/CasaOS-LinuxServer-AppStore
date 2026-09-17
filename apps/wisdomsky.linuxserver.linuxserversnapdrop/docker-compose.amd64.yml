@@ -1,0 +1,28 @@
+name: linuxserver-snapdrop
+services:
+  app:
+    image: linuxserver/snapdrop:version-f88d46ed@sha256:5722a4761753a1b9488b71592c696b0a16d8f0d907c1c8759c83926ac5f23f06
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/snapdrop/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversnapdrop/assets/icon.png
+  title:
+    en_US: Snapdrop
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserversnapdrop
+  version: version-f88d46ed

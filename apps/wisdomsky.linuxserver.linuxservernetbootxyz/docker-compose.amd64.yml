@@ -1,0 +1,39 @@
+name: linuxserver-netbootxyz
+services:
+  app:
+    image: linuxserver/netbootxyz:0.7.3@sha256:95b320ef8ef87f3506ea3af04296b89993a16727ef14c07ec1f23248cc7b81cb
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MENU_VERSION: ''
+      PORT_RANGE: ''
+      SUBFOLDER: ''
+      NGINX_PORT: ''
+      WEB_APP_PORT: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 69
+        published: 69
+        protocol: udp
+      - target: 8080
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/netbootxyz/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/netbootxyz/assets
+        target: /assets
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernetbootxyz/assets/icon.png
+  title:
+    en_US: Netbootxyz
+  port_map: '3000'
+  id: wisdomsky.linuxserver.linuxservernetbootxyz
+  version: 0.7.3

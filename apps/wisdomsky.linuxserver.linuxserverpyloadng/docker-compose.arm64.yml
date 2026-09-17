@@ -1,0 +1,31 @@
+name: linuxserver-pyload-ng
+services:
+  app:
+    image: linuxserver/pyload-ng:0.5.0@sha256:e9ab025ba654a40c79197f389d01f4f3a61dbc62a13eed8e887780af57b11d12
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+      - target: 9666
+        published: 9666
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pyload-ng/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/pyload-ng/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpyloadng/assets/icon.png
+  title:
+    en_US: Pyload ng (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpyloadng
+  port_map: '8000'
+  version: 0.5.0

@@ -1,0 +1,28 @@
+name: linuxserver-ppsspp
+services:
+  app:
+    image: linuxserver/ppsspp:1.20.4
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ppsspp/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverppsspp/assets/icon.png
+  title:
+    en_US: Ppsspp (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverppsspp
+  port_map: '3000'
+  version: 1.20.4

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Thelounge (a fork of shoutIRC) is a web IRC client that you host on your own server.",
+  "tagline": "(a fork of shoutIRC) is a web IRC client that you host on your own server.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverthelounge/assets/logo-vertical-transparent-bg.svg",
+  "category": "Home",
+  "title": "Thelounge (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverthelounge",
+  "version": "4.5.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 186009776,
+    "arm64": 181493854
+  }
+}

@@ -1,0 +1,31 @@
+name: linuxserver-nextcloud
+services:
+  app:
+    image: linuxserver/nextcloud:35.0.0@sha256:584b8c3d9afe0476dbfed86c9b1d83d512adb43dd21f8636f33a1da3add531ef
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 443
+        published: 443
+        protocol: tcp
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nextcloud/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/nextcloud/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernextcloud/assets/icon.png
+  title:
+    en_US: Nextcloud (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservernextcloud
+  port_map: '80'
+  version: 35.0.0

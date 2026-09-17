@@ -1,0 +1,34 @@
+name: linuxserver-wikijs
+services:
+  app:
+    image: linuxserver/wikijs:2.5.314@sha256:a96b44207ef3fbdaaf912927779e0a7805a7ceeec99c09f28bddb70006713751
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_TYPE: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_NAME: ''
+      DB_USER: ''
+      DB_PASS: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/wikijs/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/wikijs/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwikijs/assets/icon.svg
+  title:
+    en_US: Wikijs (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwikijs
+  port_map: '3000'
+  version: 2.5.314

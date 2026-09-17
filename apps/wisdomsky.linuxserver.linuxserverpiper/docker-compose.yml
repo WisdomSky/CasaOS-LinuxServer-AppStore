@@ -1,0 +1,32 @@
+name: linuxserver-piper
+services:
+  app:
+    image: linuxserver/piper:2.5.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PIPER_VOICE: ''
+      LOCAL_ONLY: ''
+      PIPER_LENGTH: ''
+      PIPER_NOISE: ''
+      PIPER_NOISEW: ''
+      PIPER_SPEAKER: ''
+      NO_STREAMING: ''
+    ports:
+      - target: 10200
+        published: 10200
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/piper/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpiper/assets/icon.png
+  title:
+    en_US: Piper (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpiper
+  port_map: '10200'
+  version: 2.5.2

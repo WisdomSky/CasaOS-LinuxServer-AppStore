@@ -1,0 +1,28 @@
+name: linuxserver-budge
+services:
+  app:
+    image: linuxserver/budge:0.0.9@sha256:a38541a63242cd9924acd5ed624fd08fb3f0080cc89d7c54a71aa431634130c2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/budge/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbudge/assets/icon.png
+  title:
+    en_US: Budge (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverbudge
+  port_map: '80'
+  version: 0.0.9

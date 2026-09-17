@@ -1,0 +1,31 @@
+name: linuxserver-beets
+services:
+  app:
+    image: linuxserver/beets:2.14.0@sha256:18dd88ecb480e34b9db17a9031bb14bbbad9bc13478b44b9ff141d02649d77ac
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8337
+        published: 8337
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/beets/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/beets/music
+        target: /music
+      - type: bind
+        source: /DATA/AppData/beets/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbeets/assets/icon.png
+  title:
+    en_US: Beets (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverbeets
+  port_map: '8337'
+  version: 2.14.0

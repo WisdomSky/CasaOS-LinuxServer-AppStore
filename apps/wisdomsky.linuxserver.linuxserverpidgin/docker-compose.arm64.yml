@@ -1,0 +1,28 @@
+name: linuxserver-pidgin
+services:
+  app:
+    image: linuxserver/pidgin:2.14.14@sha256:39924dfdf32e602f7a4bc58f7d16737be7994ec7cfe31f4d994ac5e75a1c232d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pidgin/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpidgin/assets/icon.png
+  title:
+    en_US: Pidgin (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpidgin
+  port_map: '3000'
+  version: 2.14.14

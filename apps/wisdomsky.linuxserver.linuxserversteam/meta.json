@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Steam is the ultimate destination for playing, discussing, and creating games.",
+  "tagline": "The ultimate destination for playing, discussing, and creating games.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversteam/assets/steam-logo.webp",
+  "category": "Home",
+  "title": "Steam (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserversteam",
+  "version": "version-0779c5e2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1278792694
+  }
+}

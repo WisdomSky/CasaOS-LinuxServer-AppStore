@@ -1,0 +1,39 @@
+name: linuxserver-syncthing
+services:
+  app:
+    image: linuxserver/syncthing:2.1.5@sha256:fc46d69a06c282fac1934fe78d91985ca46d6a458f59da245e6b1d03d460ec12
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8384
+        published: 8384
+        protocol: tcp
+      - target: 22000
+        published: 22000
+        protocol: tcp
+      - target: 22000
+        published: 22000
+        protocol: udp
+      - target: 21027
+        published: 21027
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/syncthing/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/syncthing/data1
+        target: /data1
+      - type: bind
+        source: /DATA/AppData/syncthing/data2
+        target: /data2
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversyncthing/assets/icon.png
+  title:
+    en_US: Syncthing (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversyncthing
+  version: 2.1.5

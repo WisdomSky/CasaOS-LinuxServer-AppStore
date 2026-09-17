@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium.",
+  "tagline": "A cross-platform web browser developed by Microsoft and based on Chromium.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermsedge/assets/edge-logo.webp",
+  "category": "Home",
+  "title": "Msedge (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservermsedge",
+  "version": "153.0.4234",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1270966860
+  }
+}

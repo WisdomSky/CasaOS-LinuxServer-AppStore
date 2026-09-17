@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Flexget is a multipurpose automation tool for all of your media.",
+  "tagline": "A multipurpose automation tool for all of your media.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverflexget/assets/flexget-banner.webp",
+  "category": "Home",
+  "title": "Flexget (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverflexget",
+  "version": "3.21.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 216566711,
+    "arm64": 212570098
+  }
+}

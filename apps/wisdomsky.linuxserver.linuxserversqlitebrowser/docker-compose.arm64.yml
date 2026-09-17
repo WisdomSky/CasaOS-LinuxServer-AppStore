@@ -1,0 +1,28 @@
+name: linuxserver-sqlitebrowser
+services:
+  app:
+    image: linuxserver/sqlitebrowser:3.13.1@sha256:4da032f384676ae11f0de849720c3445bad1bc885bfdb9a2b4c5f01d446830f0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sqlitebrowser/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversqlitebrowser/assets/icon.png
+  title:
+    en_US: Sqlitebrowser (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversqlitebrowser
+  port_map: '3000'
+  version: 3.13.1

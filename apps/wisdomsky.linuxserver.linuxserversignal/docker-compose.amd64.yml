@@ -1,0 +1,28 @@
+name: linuxserver-signal
+services:
+  app:
+    image: linuxserver/signal:8.27.0@sha256:5c4b0d98b7463f75fe5a0e4e7d46931074cb26f0b4476e79ce532e4e186b4592
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/signal/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversignal/assets/icon.png
+  title:
+    en_US: Signal (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversignal
+  port_map: '3000'
+  version: 8.27.0

@@ -1,0 +1,25 @@
+name: linuxserver-tautulli
+services:
+  app:
+    image: linuxserver/tautulli:2.18.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8181
+        published: 8181
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/tautulli/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservertautulli/assets/icon.png
+  title:
+    en_US: Tautulli (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservertautulli
+  port_map: '8181'
+  version: 2.18.1

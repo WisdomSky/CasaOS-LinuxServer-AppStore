@@ -1,0 +1,31 @@
+name: linuxserver-foldingathome
+services:
+  app:
+    image: linuxserver/foldingathome:8.5.6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      ACCOUNT_TOKEN: ''
+      MACHINE_NAME: ''
+      CLI_ARGS: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 7396
+        published: 7396
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/foldingathome/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfoldingathome/assets/icon.png
+  title:
+    en_US: Foldingathome (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverfoldingathome
+  port_map: '80'
+  version: 8.5.6

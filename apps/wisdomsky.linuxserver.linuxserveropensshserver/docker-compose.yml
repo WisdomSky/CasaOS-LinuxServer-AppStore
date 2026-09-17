@@ -1,0 +1,35 @@
+name: linuxserver-openssh-server
+services:
+  app:
+    image: linuxserver/openssh-server:version-10.3_p1-r1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PUBLIC_KEY: ''
+      PUBLIC_KEY_FILE: ''
+      PUBLIC_KEY_DIR: ''
+      PUBLIC_KEY_URL: ''
+      SUDO_ACCESS: ''
+      PASSWORD_ACCESS: ''
+      USER_PASSWORD: ''
+      USER_PASSWORD_FILE: ''
+      USER_NAME: ''
+      LOG_STDOUT: ''
+    ports:
+      - target: 2222
+        published: 2222
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/openssh-server/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveropensshserver/assets/icon.png
+  title:
+    en_US: Openssh server (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveropensshserver
+  port_map: '2222'
+  version: version-10.3_p1-r1

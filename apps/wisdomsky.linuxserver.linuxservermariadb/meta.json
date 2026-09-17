@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Mariadb is one of the most popular database servers. Made by the original developers of MySQL.",
+  "tagline": "One of the most popular database servers. Made by the original developers of MySQL.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermariadb/assets/mariadb-git.webp",
+  "category": "Home",
+  "title": "Mariadb (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservermariadb",
+  "version": "11.8.8",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 110449991,
+    "arm64": 108344314
+  }
+}

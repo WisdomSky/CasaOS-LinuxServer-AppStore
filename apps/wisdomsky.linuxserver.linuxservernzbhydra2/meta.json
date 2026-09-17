@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Nzbhydra2 is a meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.",
+  "tagline": "A meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernzbhydra2/assets/hydra-icon.webp",
+  "category": "Home",
+  "title": "Nzbhydra2 (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
+  "version": "8.9.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 170188022,
+    "arm64": 153559191
+  }
+}

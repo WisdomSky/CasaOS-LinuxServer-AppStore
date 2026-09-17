@@ -1,0 +1,29 @@
+name: linuxserver-vlc
+services:
+  app:
+    image: linuxserver/vlc:3.0.23
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      VLC_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/vlc/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservervlc/assets/icon.png
+  title:
+    en_US: Vlc (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservervlc
+  port_map: '3000'
+  version: 3.0.23

@@ -1,0 +1,33 @@
+name: linuxserver-bookstack
+services:
+  app:
+    image: linuxserver/bookstack:26.05.5
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      APP_URL: ''
+      APP_KEY: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_USERNAME: ''
+      DB_PASSWORD: ''
+      DB_DATABASE: ''
+      QUEUE_CONNECTION: ''
+    ports:
+      - target: 6875
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/bookstack/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbookstack/assets/icon.png
+  title:
+    en_US: Bookstack (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverbookstack
+  port_map: '80'
+  version: 26.05.5

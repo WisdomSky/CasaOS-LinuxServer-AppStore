@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Webstation is a web native emulation focused LXQt desktop based on Ubuntu.",
+  "tagline": "A web native emulation focused LXQt desktop based on Ubuntu.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebstation/assets/webstation-logo.webp",
+  "category": "Home",
+  "title": "Webstation (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverwebstation",
+  "version": "0.8.4-romm",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 2962439135
+  }
+}

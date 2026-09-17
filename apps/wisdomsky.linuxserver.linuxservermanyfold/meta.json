@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Manyfold is an open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.",
+  "tagline": "An open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermanyfold/assets/manyfold-logo.webp",
+  "category": "Home",
+  "title": "Manyfold (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservermanyfold",
+  "version": "0.149.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 361368156,
+    "arm64": 355594525
+  }
+}

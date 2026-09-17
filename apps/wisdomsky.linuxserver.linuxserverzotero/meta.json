@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
+  "tagline": "A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverzotero/assets/zotero-icon.webp",
+  "category": "Home",
+  "title": "Zotero (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverzotero",
+  "version": "10.0.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1321047867
+  }
+}

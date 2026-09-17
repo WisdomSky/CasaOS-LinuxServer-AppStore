@@ -1,0 +1,32 @@
+name: linuxserver-code-server
+services:
+  app:
+    image: linuxserver/code-server:4.137.0@sha256:05553f257d497a15c046071ef6df0772a4eaeb671076815581c57db72c7aa11f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PASSWORD: ''
+      HASHED_PASSWORD: ''
+      SUDO_PASSWORD: ''
+      SUDO_PASSWORD_HASH: ''
+      PROXY_DOMAIN: ''
+      DEFAULT_WORKSPACE: ''
+      PWA_APPNAME: ''
+    ports:
+      - target: 8443
+        published: 8443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/code-server/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercodeserver/assets/icon.png
+  title:
+    en_US: Code server (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservercodeserver
+  port_map: '8443'
+  version: 4.137.0

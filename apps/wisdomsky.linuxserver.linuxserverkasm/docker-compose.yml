@@ -1,0 +1,38 @@
+name: linuxserver-kasm
+services:
+  app:
+    image: linuxserver/kasm:1.19.0
+    restart: unless-stopped
+    environment:
+      KASM_PORT: ''
+      DOCKER_HUB_USERNAME: ''
+      DOCKER_HUB_PASSWORD: ''
+      DOCKER_MTU: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/kasm/opt
+        target: /opt
+      - type: bind
+        source: /DATA/AppData/kasm/profiles
+        target: /profiles
+      - type: bind
+        source: /dev/input
+        target: /dev/input
+      - type: bind
+        source: /run/udev/data
+        target: /run/udev/data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverkasm/assets/icon.png
+  title:
+    en_US: Kasm (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverkasm
+  port_map: '3000'
+  version: 1.19.0

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.",
+  "tagline": "A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpyloadng/assets/pyload-logo.webp",
+  "category": "Home",
+  "title": "Pyload ng (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverpyloadng",
+  "version": "0.5.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 151051077,
+    "arm64": 149083212
+  }
+}

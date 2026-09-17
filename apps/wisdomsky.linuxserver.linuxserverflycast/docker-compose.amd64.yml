@@ -1,0 +1,28 @@
+name: linuxserver-flycast
+services:
+  app:
+    image: linuxserver/flycast:2.7.20260913@sha256:e6796fa32aa63915b367bd286526259363f9e1d05f6ae050bbe4dc4d093c328e
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/flycast/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverflycast/assets/icon.png
+  title:
+    en_US: Flycast (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverflycast
+  port_map: '3000'
+  version: 2.7.20260913

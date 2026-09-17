@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Raneto - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.",
+  "tagline": "is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverraneto/assets/raneto-logo.webp",
+  "category": "Home",
+  "title": "Raneto (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverraneto",
+  "version": "0.18.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 47457403,
+    "arm64": 47682805
+  }
+}

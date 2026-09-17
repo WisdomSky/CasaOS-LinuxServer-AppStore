@@ -1,0 +1,33 @@
+name: linuxserver-endlessh
+services:
+  app:
+    image: linuxserver/endlessh:version-dfe44eb2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MSDELAY: ''
+      MAXLINES: ''
+      MAXCLIENTS: ''
+      LOGFILE: ''
+      BINDFAMILY: ''
+    ports:
+      - target: 22
+        published: 2222
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/endlessh/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/endlessh/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverendlessh/assets/icon.png
+  title:
+    en_US: Endlessh
+  port_map: '8080'
+  id: wisdomsky.linuxserver.linuxserverendlessh
+  version: version-dfe44eb2

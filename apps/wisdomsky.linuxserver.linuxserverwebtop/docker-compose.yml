@@ -1,0 +1,28 @@
+name: linuxserver-webtop
+services:
+  app:
+    image: linuxserver/webtop:arch-kde-version-2025-07-12
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/webtop/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwebtop/assets/icon.png
+  title:
+    en_US: Webtop (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwebtop
+  port_map: '3000'
+  version: arch-kde-version-2025-07-12

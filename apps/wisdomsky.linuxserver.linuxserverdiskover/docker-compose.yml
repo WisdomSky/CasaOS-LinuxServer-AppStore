@@ -1,0 +1,30 @@
+name: linuxserver-diskover
+services:
+  app:
+    image: linuxserver/diskover:2.3.5
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      ES_HOST: ''
+      ES_PORT: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/diskover/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/diskover/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdiskover/assets/icon.png
+  title:
+    en_US: Diskover (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdiskover
+  port_map: '80'
+  version: 2.3.5

@@ -1,0 +1,31 @@
+name: linuxserver-smokeping
+services:
+  app:
+    image: linuxserver/smokeping:2.9.0@sha256:613b5cee1590aa106bdb8034eeeeef7129fbfcba90d1239c32baf17594ca1d67
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MASTER_URL: ''
+      SHARED_SECRET: ''
+      CACHE_DIR: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/smokeping/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/smokeping/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversmokeping/assets/icon.png
+  title:
+    en_US: Smokeping (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversmokeping
+  port_map: '80'
+  version: 2.9.0

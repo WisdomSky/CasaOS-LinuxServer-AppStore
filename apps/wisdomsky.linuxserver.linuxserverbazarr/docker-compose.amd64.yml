@@ -1,0 +1,31 @@
+name: linuxserver-bazarr
+services:
+  app:
+    image: linuxserver/bazarr:1.6.1@sha256:d424173fd1de6ecf15f4f8fcc39e6b70fd6610873e157d21e6662122981a7d30
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 6767
+        published: 6767
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/bazarr/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/bazarr/movies
+        target: /movies
+      - type: bind
+        source: /DATA/AppData/bazarr/tv
+        target: /tv
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbazarr/assets/icon.png
+  title:
+    en_US: Bazarr (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverbazarr
+  port_map: '6767'
+  version: 1.6.1

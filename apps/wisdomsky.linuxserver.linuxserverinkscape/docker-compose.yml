@@ -1,0 +1,28 @@
+name: linuxserver-inkscape
+services:
+  app:
+    image: linuxserver/inkscape:1.4.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/inkscape/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverinkscape/assets/icon.png
+  title:
+    en_US: Inkscape (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverinkscape
+  port_map: '3000'
+  version: 1.4.2

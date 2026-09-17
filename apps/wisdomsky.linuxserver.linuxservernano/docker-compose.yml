@@ -1,0 +1,37 @@
+name: linuxserver-nano
+services:
+  app:
+    image: linuxserver/nano:21.2.20220522
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PEER_HOST: ''
+      LIVE_GENESIS_PUB: ''
+      LIVE_GENESIS_ACCOUNT: ''
+      LIVE_GENESIS_WORK: ''
+      LIVE_GENESIS_SIG: ''
+      CLI_OPTIONS: ''
+      LMDB_BOOTSTRAP_URL: ''
+    ports:
+      - target: 8075
+        published: 8075
+        protocol: tcp
+      - target: 7076
+        published: 3000
+        protocol: tcp
+      - target: 7077
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nano/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernano/assets/icon.svg
+  title:
+    en_US: Nano
+  id: wisdomsky.linuxserver.linuxservernano
+  version: 21.2.20220522

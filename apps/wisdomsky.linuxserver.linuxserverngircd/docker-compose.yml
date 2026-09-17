@@ -1,0 +1,25 @@
+name: linuxserver-ngircd
+services:
+  app:
+    image: linuxserver/ngircd:version-27-r1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 6667
+        published: 6667
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ngircd/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverngircd/assets/icon.png
+  title:
+    en_US: Ngircd (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverngircd
+  port_map: '6667'
+  version: version-27-r1

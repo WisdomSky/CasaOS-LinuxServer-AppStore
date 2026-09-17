@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear",
+  "tagline": "Provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. . For more information on SickGear visit their website and check it out: https://github. Com/SickGear/SickGear",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversickgear/assets/sickgear-logo.webp",
+  "category": "Home",
+  "title": "Sickgear (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserversickgear",
+  "version": "3.36.6",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 71899235,
+    "arm64": 70764577
+  }
+}

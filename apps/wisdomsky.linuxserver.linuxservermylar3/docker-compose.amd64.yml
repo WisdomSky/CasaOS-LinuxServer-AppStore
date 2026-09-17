@@ -1,0 +1,31 @@
+name: linuxserver-mylar3
+services:
+  app:
+    image: linuxserver/mylar3:0.11.0@sha256:03c1dcfb5a011bc8b23bd5aafe595420e2d2d2a5049a9cacc4a5dbfc15ab099b
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8090
+        published: 8090
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mylar3/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/mylar3/comics
+        target: /comics
+      - type: bind
+        source: /DATA/AppData/mylar3/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermylar3/assets/icon.png
+  title:
+    en_US: Mylar3 (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermylar3
+  port_map: '8090'
+  version: 0.11.0

@@ -1,0 +1,28 @@
+name: linuxserver-mysql-workbench
+services:
+  app:
+    image: linuxserver/mysql-workbench:8.0.47@sha256:54cecb95a20476dc203d6481c855a0f5c8b374dfc9a188acf1c8ffd827968c69
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mysql-workbench/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/assets/icon.png
+  title:
+    en_US: Mysql workbench (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermysqlworkbench
+  port_map: '3000'
+  version: 8.0.47

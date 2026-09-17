@@ -1,0 +1,25 @@
+name: linuxserver-ffmpeg
+services:
+  app:
+    image: linuxserver/ffmpeg:8.1.2@sha256:9f7a9511290f8fc432a67bba93306938158f138d2da202445a1fca4103a693d2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ffmpeg/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverffmpeg/assets/icon.png
+  title:
+    en_US: Ffmpeg (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverffmpeg
+  port_map: '80'
+  version: 8.1.2

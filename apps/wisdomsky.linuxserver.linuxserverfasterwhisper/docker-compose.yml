@@ -1,0 +1,30 @@
+name: linuxserver-faster-whisper
+services:
+  app:
+    image: linuxserver/faster-whisper:3.8.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DEBUG: ''
+      LOCAL_ONLY: ''
+      WHISPER_BEAM: ''
+      WHISPER_LANG: ''
+      WHISPER_MODEL: ''
+    ports:
+      - target: 10300
+        published: 10300
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/faster-whisper/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfasterwhisper/assets/icon.png
+  title:
+    en_US: Faster whisper (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverfasterwhisper
+  port_map: '10300'
+  version: 3.8.1

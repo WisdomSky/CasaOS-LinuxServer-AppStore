@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/daapd/",
+  "tagline": "(iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), Chromecast, MPD and internet radio. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdaapd/assets/daapd-icon.webp",
+  "category": "Others",
+  "project_url": "https://ejurgensen.github.io/forked-daapd/",
+  "website": "https://ejurgensen.github.io/forked-daapd/",
+  "title": "Daapd",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdaapd",
+  "version": "28.10.20250108",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 70266651,
+    "arm64": 69700574
+  }
+}

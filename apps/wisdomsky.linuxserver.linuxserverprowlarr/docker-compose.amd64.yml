@@ -1,0 +1,25 @@
+name: linuxserver-prowlarr
+services:
+  app:
+    image: linuxserver/prowlarr:2.6.5@sha256:875fb7ea5b884dad37cb9587cf0dba62286c84a4acf1fb2dfd82ac6f23eb9661
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 9696
+        published: 9696
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/prowlarr/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverprowlarr/assets/icon.png
+  title:
+    en_US: Prowlarr (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverprowlarr
+  port_map: '9696'
+  version: 2.6.5

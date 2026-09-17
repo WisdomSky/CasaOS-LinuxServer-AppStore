@@ -1,0 +1,28 @@
+name: linuxserver-projectsend
+services:
+  app:
+    image: linuxserver/projectsend:version-r2098
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/projectsend/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/projectsend/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverprojectsend/assets/icon.png
+  title:
+    en_US: Projectsend (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverprojectsend
+  port_map: '80'
+  version: version-r2098

@@ -1,0 +1,28 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/requestrr",
+  "tagline": "A chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrequestrr/assets/requestrr_discord_Icon_512.webp",
+  "category": "Others",
+  "project_url": "https://github.com/darkalfx/requestrr",
+  "website": "https://github.com/darkalfx/requestrr",
+  "title": "Requestrr",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverrequestrr",
+  "version": "2.1.2",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 114234892,
+    "arm": 107311713,
+    "arm64": 112102870
+  }
+}

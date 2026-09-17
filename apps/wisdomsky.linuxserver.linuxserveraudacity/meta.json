@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.",
+  "tagline": "An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveraudacity/assets/audacity-logo.webp",
+  "category": "Home",
+  "title": "Audacity (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserveraudacity",
+  "version": "4.0.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1064268969
+  }
+}

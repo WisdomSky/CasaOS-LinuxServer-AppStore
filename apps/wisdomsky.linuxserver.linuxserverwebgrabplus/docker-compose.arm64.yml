@@ -1,0 +1,28 @@
+name: linuxserver-webgrabplus
+services:
+  app:
+    image: linuxserver/webgrabplus:5.6.1@sha256:b052b7f7ace86d4014057b91ccc937d5a984b2b205c1d70956be03cf14e089f6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/webgrabplus/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/webgrabplus/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/assets/icon.jpg
+  title:
+    en_US: Webgrabplus (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwebgrabplus
+  port_map: '80'
+  version: 5.6.1

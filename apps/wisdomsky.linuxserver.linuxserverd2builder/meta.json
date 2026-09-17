@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/d2-builder for details.",
+  "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/d2-builder for details. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Others",
+  "title": "D2 builder",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverd2builder",
+  "version": "0.6.8",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 36687282,
+    "arm64": 36616382
+  }
+}

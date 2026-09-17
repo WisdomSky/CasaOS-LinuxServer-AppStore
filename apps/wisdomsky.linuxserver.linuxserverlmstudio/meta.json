@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "LM Studio can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.",
+  "tagline": "Can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlmstudio/assets/lmstudio-logo.webp",
+  "category": "Home",
+  "title": "Lm studio (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverlmstudio",
+  "version": "version-2026-09-12",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 8864646715
+  }
+}

@@ -1,0 +1,35 @@
+name: linuxserver-mullvad-browser
+services:
+  app:
+    image: linuxserver/mullvad-browser:15.0.21
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      LOCAL_NET: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mullvad-browser/config
+        target: /config
+      - type: bind
+        source: /DATA/Downloads
+        target: /config/Downloads
+    cap_add:
+      - NET_ADMIN
+    shm_size: 1gb
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermullvadbrowser/assets/icon.png
+  title:
+    en_US: Mullvad browser (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermullvadbrowser
+  port_map: '3000'
+  version: 15.0.21

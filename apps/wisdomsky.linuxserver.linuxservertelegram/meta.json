@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Telegram is a cloud-based mobile and desktop messaging app.",
+  "tagline": "A cloud-based mobile and desktop messaging app.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertelegram/assets/telegram-logo.webp",
+  "category": "Home",
+  "title": "Telegram (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservertelegram",
+  "version": "7.2.8",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1649034886,
+    "arm64": 1722942617
+  }
+}

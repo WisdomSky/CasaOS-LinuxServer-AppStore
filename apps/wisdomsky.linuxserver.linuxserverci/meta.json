@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci for details.",
+  "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci for details. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Others",
+  "title": "Ci",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverci",
+  "version": "b1ca9f98-ls65",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 463237537
+  }
+}

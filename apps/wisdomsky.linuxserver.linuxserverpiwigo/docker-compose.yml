@@ -1,0 +1,28 @@
+name: linuxserver-piwigo
+services:
+  app:
+    image: linuxserver/piwigo:16.4.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/piwigo/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/piwigo/gallery
+        target: /gallery
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpiwigo/assets/icon.png
+  title:
+    en_US: Piwigo (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpiwigo
+  port_map: '80'
+  version: 16.4.0

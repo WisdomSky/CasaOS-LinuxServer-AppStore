@@ -1,0 +1,34 @@
+name: linuxserver-duplicati
+services:
+  app:
+    image: linuxserver/duplicati:2.4.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SETTINGS_ENCRYPTION_KEY: ''
+      CLI_ARGS: ''
+      DUPLICATI__WEBSERVICE_PASSWORD: ''
+    ports:
+      - target: 8200
+        published: 8200
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/duplicati/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/duplicati/backups
+        target: /backups
+      - type: bind
+        source: /DATA/AppData/duplicati/source
+        target: /source
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverduplicati/assets/icon.png
+  title:
+    en_US: Duplicati (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverduplicati
+  port_map: '8200'
+  version: 2.4.0

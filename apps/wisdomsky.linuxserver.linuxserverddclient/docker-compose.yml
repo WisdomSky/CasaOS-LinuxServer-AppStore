@@ -1,0 +1,25 @@
+name: linuxserver-ddclient
+services:
+  app:
+    image: linuxserver/ddclient:4.0.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ddclient/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverddclient/assets/icon.png
+  title:
+    en_US: Ddclient (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverddclient
+  port_map: '80'
+  version: 4.0.0

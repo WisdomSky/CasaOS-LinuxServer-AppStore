@@ -1,0 +1,28 @@
+name: linuxserver-github-desktop
+services:
+  app:
+    image: linuxserver/github-desktop:3.4.13@sha256:4e1a9bcac0c9cfb26666a3520fbdb91424e8526dd0e1ffac53019e55751fa32f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/github-desktop/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservergithubdesktop/assets/icon.png
+  title:
+    en_US: Github desktop (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservergithubdesktop
+  port_map: '3000'
+  version: 3.4.13

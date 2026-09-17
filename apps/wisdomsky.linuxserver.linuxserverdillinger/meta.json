@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/dillinger/",
+  "tagline": "A cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdillinger/assets/dillinger.webp",
+  "category": "Others",
+  "project_url": "https://dillinger.io/",
+  "website": "https://dillinger.io/",
+  "title": "Dillinger",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdillinger",
+  "version": "3.39.1",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 301104870,
+    "arm64": 294566015
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.",
+  "tagline": "A professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkrita/assets/krita-logo.webp",
+  "category": "Home",
+  "title": "Krita (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverkrita",
+  "version": "5.3.4",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1415907634
+  }
+}

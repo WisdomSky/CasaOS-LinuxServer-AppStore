@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "KeePassXC is a free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).",
+  "tagline": "A free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkeepassxc/assets/keepassxc-logo.webp",
+  "category": "Home",
+  "title": "Keepassxc (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
+  "version": "2.7.12",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 644875571,
+    "arm64": 598860229
+  }
+}

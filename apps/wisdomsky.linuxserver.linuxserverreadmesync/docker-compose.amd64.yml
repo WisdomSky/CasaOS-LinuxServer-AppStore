@@ -1,0 +1,25 @@
+name: linuxserver-readme-sync
+services:
+  app:
+    image: linuxserver/readme-sync:84f2d0c3-ls27@sha256:bf90b9ef51a076687982ce26628684dcd7ed08dff6aa7ca5f54b044fb24e7670
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/readme-sync/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverreadmesync/assets/icon.png
+  title:
+    en_US: Readme sync
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverreadmesync
+  version: 84f2d0c3-ls27

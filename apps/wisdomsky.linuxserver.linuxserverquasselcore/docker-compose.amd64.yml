@@ -1,0 +1,28 @@
+name: linuxserver-quassel-core
+services:
+  app:
+    image: linuxserver/quassel-core:0.14.0@sha256:a64668f25a3dc7781c7c35d6ed6c5f5c77c195a547bd2814ed4e6dc7ca0fd711
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      RUN_OPTS: ''
+    ports:
+      - target: 4242
+        published: 4242
+        protocol: tcp
+      - target: 113
+        published: 10113
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/quassel-core/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverquasselcore/assets/icon.png
+  title:
+    en_US: Quassel core
+  id: wisdomsky.linuxserver.linuxserverquasselcore
+  version: 0.14.0

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Duckdns is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.",
+  "tagline": "A free service which will point a DNS (sub domains of duckdns. Org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduckdns/assets/duckdns.webp",
+  "category": "Home",
+  "title": "Duckdns (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverduckdns",
+  "version": "version-73f1bc7d",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 15705072,
+    "arm64": 16822129
+  }
+}

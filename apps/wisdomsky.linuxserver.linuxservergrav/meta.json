@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Grav is a Fast, Simple, and Flexible, file-based Web-platform.",
+  "tagline": "A Fast, Simple, and Flexible, file-based Web-platform.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergrav/assets/grav-logo.webp",
+  "category": "Home",
+  "title": "Grav (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservergrav",
+  "version": "2.1.6",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 61766589,
+    "arm64": 62361122
+  }
+}

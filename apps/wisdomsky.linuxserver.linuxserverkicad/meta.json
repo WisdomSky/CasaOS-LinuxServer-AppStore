@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "KiCad - A Cross Platform and Open Source Electronics Design Automation Suite.",
+  "tagline": "A Cross Platform and Open Source Electronics Design Automation Suite.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkicad/assets/kicad-logo.webp",
+  "category": "Home",
+  "title": "Kicad (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverkicad",
+  "version": "10.0.3",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1609766716,
+    "arm64": 1544946626
+  }
+}

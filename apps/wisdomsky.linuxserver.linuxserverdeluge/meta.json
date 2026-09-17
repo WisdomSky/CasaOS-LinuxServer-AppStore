@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Deluge is a lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more...",
+  "tagline": "A lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more. . .",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdeluge/assets/deluge-logo.webp",
+  "category": "Home",
+  "title": "Deluge (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdeluge",
+  "version": "2.2.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 76248261,
+    "arm64": 75267042
+  }
+}

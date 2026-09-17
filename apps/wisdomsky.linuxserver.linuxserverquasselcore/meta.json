@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/quassel-core/",
+  "tagline": "A modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core. This container handles the IRC connection (quasselcore) and requires a desktop client (quasselclient) to be used and configured. It is designed to be always on and will keep your identity present in IRC even when your clients cannot be online. Backlog (history) is downloaded by your client upon reconnection allowing infinite scrollback through time.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverquasselcore/assets/Apps-quassel-icon.webp",
+  "category": "Others",
+  "project_url": "http://quassel-irc.org/",
+  "website": "http://quassel-irc.org/",
+  "title": "Quassel core",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+  "version": "0.14.0",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 68459143,
+    "arm64": 69960042
+  }
+}

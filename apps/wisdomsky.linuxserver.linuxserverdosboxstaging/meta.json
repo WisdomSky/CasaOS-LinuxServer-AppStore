@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "DOSBox Staging is a modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.",
+  "tagline": "A modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdosboxstaging/assets/dosbox-logo.webp",
+  "category": "Home",
+  "title": "Dosbox staging (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
+  "version": "0.83.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1022495602
+  }
+}

@@ -1,0 +1,29 @@
+name: linuxserver-opera
+services:
+  app:
+    image: linuxserver/opera:136.0.6008@sha256:d5a060a8e6c18df82628ee75fef0e0c07f8c87d5aca0a451752aefd5b043d5f9
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      OPERA_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/opera/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveropera/assets/icon.png
+  title:
+    en_US: Opera (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveropera
+  port_map: '3000'
+  version: 136.0.6008

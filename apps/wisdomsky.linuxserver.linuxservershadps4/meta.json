@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.",
+  "tagline": "An early PlayStation 4 emulator for Windows, Linux and macOS written in C++.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservershadps4/assets/shadps4-logo.webp",
+  "category": "Home",
+  "title": "Shadps4 (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservershadps4",
+  "version": "version-shadPS4QtLauncher-2026-09-12-864dc30bc5372d7ad95ef609188942ecd77bf6f4",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1054012722
+  }
+}

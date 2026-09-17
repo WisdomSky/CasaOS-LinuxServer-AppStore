@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/snipe-it/",
+  "tagline": "Makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversnipeit/assets/snipe-it-logo.webp",
+  "category": "Others",
+  "project_url": "https://github.com/snipe/snipe-it",
+  "website": "https://github.com/snipe/snipe-it",
+  "title": "Snipe it",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserversnipeit",
+  "version": "7.1.15",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 100488081,
+    "arm64": 102382651
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "digiKam: Professional Photo Management with the Power of Open Source",
+  "tagline": "digiKam: Professional Photo Management with the Power of Open Source",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdigikam/assets/digikam.webp",
+  "category": "Home",
+  "title": "Digikam (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdigikam",
+  "version": "9.1.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1581394283
+  }
+}

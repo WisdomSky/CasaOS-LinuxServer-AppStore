@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.",
+  "tagline": "A powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkdenlive/assets/kdenlive-logo.webp",
+  "category": "Home",
+  "title": "Kdenlive (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverkdenlive",
+  "version": "26.08.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1620105635,
+    "arm64": 1659133449
+  }
+}

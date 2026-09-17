@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Vscodium-web is a community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.",
+  "tagline": "A community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscodiumweb/assets/vscodium-icon.webp",
+  "category": "Home",
+  "title": "Vscodium web (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
+  "version": "1.135.06055",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 212186425,
+    "arm64": 210216800
+  }
+}

@@ -1,0 +1,33 @@
+name: linuxserver-plex
+services:
+  app:
+    image: linuxserver/plex:1.43.4
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      VERSION: ''
+      PLEX_CLAIM: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/plex/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/plex/tv
+        target: /tv
+      - type: bind
+        source: /DATA/AppData/plex/movies
+        target: /movies
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverplex/assets/icon.png
+  title:
+    en_US: Plex (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverplex
+  port_map: '80'
+  version: 1.43.4

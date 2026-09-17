@@ -1,0 +1,29 @@
+name: linuxserver-boinc
+services:
+  app:
+    image: linuxserver/boinc:8.2.8@sha256:2ec73e32991f883f7ec065e8d70db85d9289525c2e751390abf2ebb05cfe0011
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PASSWORD: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 8181
+        published: 8181
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/boinc/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverboinc/assets/icon.jpg
+  title:
+    en_US: Boinc (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverboinc
+  port_map: '8080'
+  version: 8.2.8

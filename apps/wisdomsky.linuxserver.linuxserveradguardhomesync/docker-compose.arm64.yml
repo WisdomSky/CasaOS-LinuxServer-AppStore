@@ -1,0 +1,26 @@
+name: linuxserver-adguardhome-sync
+services:
+  app:
+    image: linuxserver/adguardhome-sync:0.9.3@sha256:f92a276ee95f5e9ff68de5decf2338c23c8e7f91b6a7b25b3b3566f10077d94c
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONFIGFILE: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/adguardhome-sync/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/assets/icon.png
+  title:
+    en_US: Adguardhome sync (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveradguardhomesync
+  port_map: '8080'
+  version: 0.9.3

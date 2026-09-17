@@ -1,0 +1,28 @@
+name: linuxserver-nzbhydra2
+services:
+  app:
+    image: linuxserver/nzbhydra2:8.9.0@sha256:7e5d78aa04afccdc18fb905d88ce6bab5d3a42736e692012c65b2ceddab4710d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 5076
+        published: 5076
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nzbhydra2/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/nzbhydra2/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernzbhydra2/assets/icon.png
+  title:
+    en_US: Nzbhydra2 (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservernzbhydra2
+  port_map: '5076'
+  version: 8.9.0

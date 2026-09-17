@@ -1,0 +1,34 @@
+name: linuxserver-syslog-ng
+services:
+  app:
+    image: linuxserver/syslog-ng:4.11.0@sha256:c372f9726bcd02e37450384999297dafdcc723843376d48e1b7caf3b840c9fa8
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      LOG_TO_STDOUT: ''
+    ports:
+      - target: 514
+        published: 5514
+        protocol: udp
+      - target: 601
+        published: 6601
+        protocol: tcp
+      - target: 6514
+        published: 6514
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/syslog-ng/config
+        target: /config
+      - type: bind
+        source: /var/log
+        target: /var/log
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversyslogng/assets/icon.png
+  title:
+    en_US: Syslog ng (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversyslogng
+  version: 4.11.0

@@ -1,0 +1,29 @@
+name: linuxserver-vivaldi
+services:
+  app:
+    image: linuxserver/vivaldi:8.1.4087@sha256:4c19adcc9a565cd8f8d20a8276d62de4cf6f16ec474528d33380283b0a63f990
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      VIVALDI_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/vivaldi/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservervivaldi/assets/icon.png
+  title:
+    en_US: Vivaldi (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservervivaldi
+  port_map: '3000'
+  version: 8.1.4087

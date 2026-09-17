@@ -1,0 +1,37 @@
+name: linuxserver-lychee
+services:
+  app:
+    image: linuxserver/lychee:7.8.3@sha256:fef9980d726e7c47ef94ac8b580813ff46a086c2b929df4adc50662950725584
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_CONNECTION: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_USERNAME: ''
+      DB_PASSWORD: ''
+      DB_DATABASE: ''
+      APP_NAME: ''
+      APP_URL: ''
+      TRUSTED_PROXIES: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lychee/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/lychee/pictures
+        target: /pictures
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlychee/assets/icon.png
+  title:
+    en_US: Lychee (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverlychee
+  port_map: '80'
+  version: 7.8.3

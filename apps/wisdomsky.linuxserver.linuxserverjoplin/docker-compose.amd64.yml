@@ -1,0 +1,28 @@
+name: linuxserver-joplin
+services:
+  app:
+    image: linuxserver/joplin:3.7.18@sha256:18d2607957903810b763d47324373d8fc67028092750f6c840c5c6bb9bba1f0c
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/joplin/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverjoplin/assets/icon.png
+  title:
+    en_US: Joplin (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverjoplin
+  port_map: '3000'
+  version: 3.7.18

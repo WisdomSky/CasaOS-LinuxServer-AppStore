@@ -1,0 +1,28 @@
+name: linuxserver-rustdesk
+services:
+  app:
+    image: linuxserver/rustdesk:1.4.9@sha256:7cdf4e5a17f1c2b790c7432b0fffa4e4c6a37b2f944ce64cab8bb99618289325
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/rustdesk/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverrustdesk/assets/icon.png
+  title:
+    en_US: Rustdesk (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverrustdesk
+  port_map: '3000'
+  version: 1.4.9

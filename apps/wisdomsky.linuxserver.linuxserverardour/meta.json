@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.",
+  "tagline": "An open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverardour/assets/ardour-logo.webp",
+  "category": "Home",
+  "title": "Ardour (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverardour",
+  "version": "version-2026-06-19",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1360456249,
+    "arm64": 1371759428
+  }
+}

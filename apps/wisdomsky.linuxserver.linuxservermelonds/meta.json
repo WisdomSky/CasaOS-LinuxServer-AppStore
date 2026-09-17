@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "melonDS aims at providing fast and accurate Nintendo DS emulation.",
+  "tagline": "Aims at providing fast and accurate Nintendo DS emulation.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermelonds/assets/melonds-logo.webp",
+  "category": "Home",
+  "title": "Melonds (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservermelonds",
+  "version": "1.1.20260907",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 976010069,
+    "arm64": 946963410
+  }
+}

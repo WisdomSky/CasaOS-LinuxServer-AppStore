@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Series Troxide a Simple and Modern Series Tracker",
+  "tagline": "A Simple and Modern Series Tracker",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverseriestroxide/assets/series-troxide-logo.webp",
+  "category": "Others",
+  "title": "Series troxide",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
+  "version": "0.5.1",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 927813972,
+    "arm64": 845539168
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.",
+  "tagline": "Provides an online web interface which displays a set of maintained images from one or more owned repositories. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Others",
+  "title": "Fleet",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverfleet",
+  "version": "2.3.3",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 82376308,
+    "arm64": 82756814
+  }
+}

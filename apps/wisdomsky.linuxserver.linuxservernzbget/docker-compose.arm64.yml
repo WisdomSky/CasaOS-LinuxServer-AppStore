@@ -1,0 +1,30 @@
+name: linuxserver-nzbget
+services:
+  app:
+    image: linuxserver/nzbget:26.3.20260911@sha256:d8fe16f1a6a927fff2474b193b37f687171fc76b70f36108924da7c9b8f3b34c
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      NZBGET_USER: ''
+      NZBGET_PASS: ''
+    ports:
+      - target: 6789
+        published: 6789
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nzbget/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/nzbget/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernzbget/assets/icon.png
+  title:
+    en_US: Nzbget (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservernzbget
+  port_map: '6789'
+  version: 26.3.20260911

@@ -1,0 +1,28 @@
+name: linuxserver-thunderbird
+services:
+  app:
+    image: linuxserver/thunderbird:1140.16.0@sha256:3a84ee2d82df17340beeb51adbc95e8d2e8e544985fb46db28ddef0b5d1b5a8a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/thunderbird/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverthunderbird/assets/icon.png
+  title:
+    en_US: Thunderbird (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverthunderbird
+  port_map: '3000'
+  version: 1140.16.0

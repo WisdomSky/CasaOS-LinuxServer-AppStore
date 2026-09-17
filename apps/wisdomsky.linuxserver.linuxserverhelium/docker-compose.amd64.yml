@@ -1,0 +1,29 @@
+name: linuxserver-helium
+services:
+  app:
+    image: linuxserver/helium:0.17.1@sha256:9b07a13f6ed6451b580e3e13623eae00b8e5264ebd070faad972a0b4d9021f85
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      HELIUM_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/helium/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhelium/assets/icon.png
+  title:
+    en_US: Helium (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverhelium
+  port_map: '3000'
+  version: 0.17.1

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Ungoogled Chromium is Google Chromium, sans dependency on Google web services.",
+  "tagline": "Google Chromium, sans dependency on Google web services.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverungoogledchromium/assets/ungoogled-chromium-logo.webp",
+  "category": "Home",
+  "title": "Ungoogled chromium (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
+  "version": "153.0.8010",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1292380354,
+    "arm64": 1246077766
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "VLC Media Player is a free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.",
+  "tagline": "A free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervlc/assets/vlc-logo.webp",
+  "category": "Home",
+  "title": "Vlc (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservervlc",
+  "version": "3.0.23",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1356661747,
+    "arm64": 1421856052
+  }
+}

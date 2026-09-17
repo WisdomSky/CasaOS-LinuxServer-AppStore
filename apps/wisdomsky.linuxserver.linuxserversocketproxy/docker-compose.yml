@@ -1,0 +1,25 @@
+name: linuxserver-socket-proxy
+services:
+  app:
+    image: linuxserver/socket-proxy:3.4.4
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/socket-proxy/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversocketproxy/assets/icon.png
+  title:
+    en_US: Socket proxy (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversocketproxy
+  port_map: '80'
+  version: 3.4.4

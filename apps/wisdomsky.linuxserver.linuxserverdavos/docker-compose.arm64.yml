@@ -1,0 +1,28 @@
+name: linuxserver-davos
+services:
+  app:
+    image: linuxserver/davos:2.2.2@sha256:8e65e3a29b312a91587e9649265f305617712ea74a464eaf6d7590ca9b1efac6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/davos/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/davos/download
+        target: /download
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdavos/assets/icon.png
+  title:
+    en_US: Davos (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdavos
+  port_map: '8080'
+  version: 2.2.2

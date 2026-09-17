@@ -1,0 +1,28 @@
+name: linuxserver-orcaslicer
+services:
+  app:
+    image: linuxserver/orcaslicer:2.4.2@sha256:de24dc784bfbb2b0fca3976043c3d831a23697083d74333fd5c3f66e627686da
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/orcaslicer/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverorcaslicer/assets/icon.png
+  title:
+    en_US: Orcaslicer (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverorcaslicer
+  port_map: '3000'
+  version: 2.4.2

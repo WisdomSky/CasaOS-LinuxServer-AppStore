@@ -1,0 +1,37 @@
+name: linuxserver-monica
+services:
+  app:
+    image: linuxserver/monica:4.1.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_USERNAME: ''
+      DB_PASSWORD: ''
+      DB_DATABASE: ''
+      APP_URL: ''
+      TRUSTED_PROXIES: ''
+      APP_ENV: ''
+      APP_DISABLE_SIGNUP: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/monica/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermonica/assets/icon.png
+  title:
+    en_US: Monica
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxservermonica
+  version: 4.1.2

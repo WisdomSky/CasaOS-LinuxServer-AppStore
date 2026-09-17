@@ -1,0 +1,29 @@
+name: linuxserver-msedge
+services:
+  app:
+    image: linuxserver/msedge:153.0.4234
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      EDGE_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/msedge/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermsedge/assets/icon.png
+  title:
+    en_US: Msedge (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermsedge
+  port_map: '3000'
+  version: 153.0.4234

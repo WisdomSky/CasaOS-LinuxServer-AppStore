@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.",
+  "tagline": "A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpiwigo/assets/piwigo-banner.webp",
+  "category": "Home",
+  "title": "Piwigo (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverpiwigo",
+  "version": "16.4.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 126347691,
+    "arm64": 124503259
+  }
+}

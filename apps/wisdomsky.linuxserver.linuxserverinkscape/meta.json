@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.",
+  "tagline": "Professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverinkscape/assets/inkscape-logo.webp",
+  "category": "Home",
+  "title": "Inkscape (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverinkscape",
+  "version": "1.4.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 653768204,
+    "arm64": 607186967
+  }
+}

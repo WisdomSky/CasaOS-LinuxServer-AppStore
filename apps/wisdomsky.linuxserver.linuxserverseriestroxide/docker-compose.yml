@@ -1,0 +1,27 @@
+name: linuxserver-series-troxide
+services:
+  app:
+    image: linuxserver/series-troxide:0.5.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/series-troxide/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverseriestroxide/assets/icon.png
+  title:
+    en_US: Series troxide
+  id: wisdomsky.linuxserver.linuxserverseriestroxide
+  version: 0.5.1

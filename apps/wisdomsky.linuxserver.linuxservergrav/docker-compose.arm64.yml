@@ -1,0 +1,25 @@
+name: linuxserver-grav
+services:
+  app:
+    image: linuxserver/grav:2.1.6@sha256:3910b46bf49364c1820e69a215b26bdf08f669d774182e8328d7ff8a4ac03545
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/grav/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservergrav/assets/icon.png
+  title:
+    en_US: Grav (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservergrav
+  port_map: '80'
+  version: 2.1.6

@@ -1,0 +1,25 @@
+name: linuxserver-python
+services:
+  app:
+    image: linuxserver/python:3.13.1@sha256:1394349e366a6e27541abf0fc34eef73103b1713d78451b2773076f3a1992296
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/python/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpython/assets/icon.png
+  title:
+    en_US: Python
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverpython
+  version: 3.13.1

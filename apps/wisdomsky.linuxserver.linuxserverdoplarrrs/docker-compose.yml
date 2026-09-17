@@ -1,0 +1,25 @@
+name: linuxserver-doplarr_rs
+services:
+  app:
+    image: linuxserver/doplarr_rs:4.6.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/doplarr_rs/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/assets/icon.png
+  title:
+    en_US: Doplarr_rs (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdoplarrrs
+  port_map: '80'
+  version: 4.6.0

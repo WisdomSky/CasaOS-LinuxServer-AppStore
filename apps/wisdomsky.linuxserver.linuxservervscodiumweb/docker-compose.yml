@@ -1,0 +1,30 @@
+name: linuxserver-vscodium-web
+services:
+  app:
+    image: linuxserver/vscodium-web:1.135.06055
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONNECTION_TOKEN: ''
+      CONNECTION_TOKEN_FILE: ''
+      SUDO_PASSWORD: ''
+      SUDO_PASSWORD_HASH: ''
+      CODE_ARGS: ''
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/vscodium-web/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservervscodiumweb/assets/icon.png
+  title:
+    en_US: Vscodium web (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservervscodiumweb
+  port_map: '8000'
+  version: 1.135.06055

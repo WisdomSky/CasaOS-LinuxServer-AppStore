@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Github Desktop is an open source Electron-based GitHub app. It is written in TypeScript and uses React.",
+  "tagline": "An open source Electron-based GitHub app. It is written in TypeScript and uses React.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergithubdesktop/assets/github-desktop-icon.webp",
+  "category": "Home",
+  "title": "Github desktop (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
+  "version": "3.4.13",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1660827502,
+    "arm64": 1584835539
+  }
+}

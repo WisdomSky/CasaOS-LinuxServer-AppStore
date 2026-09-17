@@ -1,0 +1,37 @@
+name: linuxserver-deluge
+services:
+  app:
+    image: linuxserver/deluge:2.2.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DELUGE_LOGLEVEL: ''
+    ports:
+      - target: 8112
+        published: 8112
+        protocol: tcp
+      - target: 6881
+        published: 6881
+        protocol: tcp
+      - target: 6881
+        published: 6881
+        protocol: udp
+      - target: 58846
+        published: 58846
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/deluge/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/deluge/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdeluge/assets/icon.png
+  title:
+    en_US: Deluge (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdeluge
+  version: 2.2.0

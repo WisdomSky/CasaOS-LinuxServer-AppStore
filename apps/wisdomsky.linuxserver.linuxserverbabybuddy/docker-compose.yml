@@ -1,0 +1,26 @@
+name: linuxserver-babybuddy
+services:
+  app:
+    image: linuxserver/babybuddy:2.10.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CSRF_TRUSTED_ORIGINS: ''
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/babybuddy/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbabybuddy/assets/icon.png
+  title:
+    en_US: Babybuddy (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverbabybuddy
+  port_map: '8000'
+  version: 2.10.1

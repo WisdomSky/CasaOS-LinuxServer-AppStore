@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.",
+  "tagline": "A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjoplin/assets/joplin-logo.webp",
+  "category": "Home",
+  "title": "Joplin (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverjoplin",
+  "version": "3.7.18",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1205504418
+  }
+}

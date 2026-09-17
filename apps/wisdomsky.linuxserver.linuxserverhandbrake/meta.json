@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "HandBrake is an open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.",
+  "tagline": "An open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhandbrake/assets/handbrake-logo.webp",
+  "category": "Home",
+  "title": "Handbrake (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverhandbrake",
+  "version": "1.11.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1282698754
+  }
+}

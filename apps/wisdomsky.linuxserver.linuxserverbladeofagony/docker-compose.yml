@@ -1,0 +1,28 @@
+name: linuxserver-blade-of-agony
+services:
+  app:
+    image: linuxserver/blade-of-agony:3.1.20260910
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/blade-of-agony/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbladeofagony/assets/icon.png
+  title:
+    en_US: Blade of-agony (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverbladeofagony
+  port_map: '3000'
+  version: 3.1.20260910

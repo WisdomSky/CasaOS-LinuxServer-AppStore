@@ -1,0 +1,31 @@
+name: linuxserver-mame
+services:
+  app:
+    image: linuxserver/mame:version-0.289dfsg1-0@sha256:e7bb060d26334f552422af85bfd62bbf402746bb83df6806fa9001967a4cba0a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mame/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/mame/mame:ro
+        target: /mame:ro
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermame/assets/icon.png
+  title:
+    en_US: Mame (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermame
+  port_map: '3000'
+  version: version-0.289dfsg1-0

@@ -1,0 +1,31 @@
+name: linuxserver-sonarr
+services:
+  app:
+    image: linuxserver/sonarr:4.0.20
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8989
+        published: 8989
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sonarr/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/sonarr/tv
+        target: /tv
+      - type: bind
+        source: /DATA/AppData/sonarr/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversonarr/assets/icon.png
+  title:
+    en_US: Sonarr (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversonarr
+  port_map: '8989'
+  version: 4.0.20

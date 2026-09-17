@@ -1,0 +1,25 @@
+name: linuxserver-znc
+services:
+  app:
+    image: linuxserver/znc:1.10.3@sha256:a1678306b3d2b307253e16abe830c6d41e07315d4c5531ddbd9e295c76a9da89
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 6501
+        published: 6501
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/znc/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverznc/assets/icon.png
+  title:
+    en_US: Znc (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverznc
+  port_map: '6501'
+  version: 1.10.3

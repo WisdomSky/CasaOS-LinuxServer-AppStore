@@ -1,0 +1,28 @@
+name: linuxserver-zen
+services:
+  app:
+    image: linuxserver/zen:1.22.2@sha256:4b4f1fb04f85de783967c92cc609c89339413be89f2fa9267375acc832d4c34d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/zen/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverzen/assets/icon.png
+  title:
+    en_US: Zen (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverzen
+  port_map: '3000'
+  version: 1.22.2

@@ -1,0 +1,34 @@
+name: linuxserver-planka
+services:
+  app:
+    image: linuxserver/planka:2.2.1@sha256:e8fb0882edc76fb5ffa922b00ed2d0fc098c16fc7507e87df7d8d065ab772cae
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      BASE_URL: ''
+      DATABASE_URL: ''
+      DEFAULT_ADMIN_EMAIL: ''
+      DEFAULT_ADMIN_USERNAME: ''
+      DEFAULT_ADMIN_PASSWORD: ''
+      DEFAULT_ADMIN_NAME: ''
+      SECRET_KEY: ''
+      TRUST_PROXY: ''
+      DEFAULT_LANGUAGE: ''
+    ports:
+      - target: 1337
+        published: 1337
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/planka/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverplanka/assets/icon.png
+  title:
+    en_US: Planka (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverplanka
+  port_map: '1337'
+  version: 2.2.1

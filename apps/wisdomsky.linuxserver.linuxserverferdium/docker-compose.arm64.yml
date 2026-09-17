@@ -1,0 +1,28 @@
+name: linuxserver-ferdium
+services:
+  app:
+    image: linuxserver/ferdium:7.2.3@sha256:f536cd9015b31a92060fadbe1307522658985acc3af4a733e3062e56fc2a7810
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ferdium/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverferdium/assets/icon.png
+  title:
+    en_US: Ferdium (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverferdium
+  port_map: '3000'
+  version: 7.2.3

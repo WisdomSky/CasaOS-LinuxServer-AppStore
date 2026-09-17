@@ -1,0 +1,37 @@
+name: linuxserver-ubooquity
+services:
+  app:
+    image: linuxserver/ubooquity:3.1.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MAXMEM: ''
+    ports:
+      - target: 2202
+        published: 2202
+        protocol: tcp
+      - target: 2203
+        published: 2203
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ubooquity/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/ubooquity/books
+        target: /books
+      - type: bind
+        source: /DATA/AppData/ubooquity/comics
+        target: /comics
+      - type: bind
+        source: /DATA/AppData/ubooquity/files
+        target: /files
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverubooquity/assets/icon.png
+  title:
+    en_US: Ubooquity (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverubooquity
+  version: 3.1.0

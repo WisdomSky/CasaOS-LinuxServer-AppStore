@@ -1,0 +1,27 @@
+name: linuxserver-pydio-cells
+services:
+  app:
+    image: linuxserver/pydio-cells:5.0.2@sha256:213960ca769d6a0d410883416773269e456b8466b1b4e46c0276a64aa246af98
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      EXTERNALURL: ''
+      SERVER_IP: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pydio-cells/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpydiocells/assets/icon.png
+  title:
+    en_US: Pydio cells (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpydiocells
+  port_map: '8080'
+  version: 5.0.2

@@ -1,0 +1,28 @@
+name: linuxserver-duckstation
+services:
+  app:
+    image: linuxserver/duckstation:version-latest@sha256:a5c5bbb8d6ed7e3b3918baf43d52943fdab1ae853004f2d8ddebcf27fac626f8
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/duckstation/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverduckstation/assets/icon.png
+  title:
+    en_US: Duckstation (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverduckstation
+  port_map: '3000'
+  version: version-latest

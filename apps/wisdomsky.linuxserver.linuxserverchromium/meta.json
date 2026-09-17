@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+  "tagline": "An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchromium/assets/chromium-logo.webp",
+  "category": "Home",
+  "title": "Chromium (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverchromium",
+  "version": "version-7ac003b2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1175566584,
+    "arm64": 1141808245
+  }
+}

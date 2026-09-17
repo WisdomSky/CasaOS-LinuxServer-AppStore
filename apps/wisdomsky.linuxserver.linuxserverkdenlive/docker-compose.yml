@@ -1,0 +1,28 @@
+name: linuxserver-kdenlive
+services:
+  app:
+    image: linuxserver/kdenlive:26.08.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/kdenlive/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverkdenlive/assets/icon.png
+  title:
+    en_US: Kdenlive (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverkdenlive
+  port_map: '3000'
+  version: 26.08.1

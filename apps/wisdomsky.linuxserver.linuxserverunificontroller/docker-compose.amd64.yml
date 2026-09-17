@@ -1,0 +1,52 @@
+name: linuxserver-unifi-controller
+services:
+  app:
+    image: linuxserver/unifi-controller:8.0.24@sha256:fcd5d8b13a77a588c79c1b49e5fc9ad08115aa3bb1a3576c589c64908a68845f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MEM_LIMIT: ''
+      MEM_STARTUP: ''
+    ports:
+      - target: 8443
+        published: 8443
+        protocol: tcp
+      - target: 3478
+        published: 3478
+        protocol: udp
+      - target: 10001
+        published: 10001
+        protocol: udp
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 1900
+        published: 1900
+        protocol: udp
+      - target: 8843
+        published: 8843
+        protocol: tcp
+      - target: 8880
+        published: 8880
+        protocol: tcp
+      - target: 6789
+        published: 6789
+        protocol: tcp
+      - target: 5514
+        published: 5514
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/unifi-controller/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverunificontroller/assets/icon.png
+  title:
+    en_US: Unifi controller
+  port_map: '8443'
+  scheme: https
+  id: wisdomsky.linuxserver.linuxserverunificontroller
+  version: 8.0.24

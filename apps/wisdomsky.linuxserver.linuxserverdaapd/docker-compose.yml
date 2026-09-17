@@ -1,0 +1,28 @@
+name: linuxserver-daapd
+services:
+  app:
+    image: linuxserver/daapd:28.10.20250108
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/daapd/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/daapd/music
+        target: /music
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdaapd/assets/icon.png
+  title:
+    en_US: Daapd
+  port_map: '3689'
+  id: wisdomsky.linuxserver.linuxserverdaapd
+  version: 28.10.20250108

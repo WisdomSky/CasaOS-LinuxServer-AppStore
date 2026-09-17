@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Dolphin Emulator lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.",
+  "tagline": "Lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdolphin/assets/dolphin-logo.webp",
+  "category": "Home",
+  "title": "Dolphin (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdolphin",
+  "version": "version-2606a",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1067981125
+  }
+}

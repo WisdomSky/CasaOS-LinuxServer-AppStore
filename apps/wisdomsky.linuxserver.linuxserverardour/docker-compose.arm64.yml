@@ -1,0 +1,28 @@
+name: linuxserver-ardour
+services:
+  app:
+    image: linuxserver/ardour:version-2026-06-19@sha256:881a87dfc3cb590c4d2317bb3af919072bf981a36a9e56b331f6f14b1bc46754
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ardour/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverardour/assets/icon.png
+  title:
+    en_US: Ardour (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverardour
+  port_map: '3000'
+  version: version-2026-06-19

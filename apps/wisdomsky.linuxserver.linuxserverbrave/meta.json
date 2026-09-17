@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.",
+  "tagline": "A fast, private and secure web browser for PC, Mac and mobile.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbrave/assets/brave-logo.webp",
+  "category": "Home",
+  "title": "Brave (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverbrave",
+  "version": "1.95.102",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1201407898,
+    "arm64": 1165967148
+  }
+}

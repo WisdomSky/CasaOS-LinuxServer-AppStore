@@ -1,0 +1,31 @@
+name: linuxserver-headphones
+services:
+  app:
+    image: linuxserver/headphones:version-a78f38c1@sha256:ae6b9a7b63b9b6fe87962a2f0ec2760e344f8162d44aeba1143c3d55a1123a14
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8181
+        published: 8181
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/headphones/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/headphones/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/headphones/music
+        target: /music
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverheadphones/assets/icon.png
+  title:
+    en_US: Headphones
+  port_map: '8181'
+  id: wisdomsky.linuxserver.linuxserverheadphones
+  version: version-a78f38c1

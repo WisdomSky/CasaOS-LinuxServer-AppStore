@@ -1,0 +1,34 @@
+name: linuxserver-your_spotify
+services:
+  app:
+    image: linuxserver/your_spotify:1.20.0@sha256:d31fa8e076b1f914c4184642c74acad3d043f9fb66f0c61c97d8c8a34cc9940a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      APP_URL: ''
+      SPOTIFY_PUBLIC: ''
+      SPOTIFY_SECRET: ''
+      SPOTIFY_API_DELAY_MS: ''
+      CORS: ''
+      MONGO_ENDPOINT: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/your_spotify/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveryourspotify/assets/icon.png
+  title:
+    en_US: Your_spotify (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveryourspotify
+  port_map: '80'
+  version: 1.20.0

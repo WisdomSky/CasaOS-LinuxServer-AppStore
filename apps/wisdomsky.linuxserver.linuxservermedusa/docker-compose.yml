@@ -1,0 +1,31 @@
+name: linuxserver-medusa
+services:
+  app:
+    image: linuxserver/medusa:1.0.26
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8081
+        published: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/medusa/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/medusa/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/medusa/tv
+        target: /tv
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermedusa/assets/icon.png
+  title:
+    en_US: Medusa (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermedusa
+  port_map: '8081'
+  version: 1.0.26

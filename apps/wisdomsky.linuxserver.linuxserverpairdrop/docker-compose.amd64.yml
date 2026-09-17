@@ -1,0 +1,29 @@
+name: linuxserver-pairdrop
+services:
+  app:
+    image: linuxserver/pairdrop:1.11.2@sha256:aeae3b7293de7a68c37461f261cfce2babce367d4cb21730c6d380cf3facc29d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      RATE_LIMIT: ''
+      WS_FALLBACK: ''
+      RTC_CONFIG: ''
+      DEBUG_MODE: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pairdrop/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpairdrop/assets/icon.png
+  title:
+    en_US: Pairdrop (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpairdrop
+  port_map: '3000'
+  version: 1.11.2

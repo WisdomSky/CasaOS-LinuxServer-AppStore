@@ -1,0 +1,25 @@
+name: linuxserver-requestrr
+services:
+  app:
+    image: linuxserver/requestrr:2.1.2@sha256:3a13b43ccfb1b1e77f0b631ac255d08c555d9e5959325f75670dc44b36e797ae
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 4545
+        published: 4545
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/requestrr/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverrequestrr/assets/icon.png
+  title:
+    en_US: Requestrr
+  port_map: '4545'
+  id: wisdomsky.linuxserver.linuxserverrequestrr
+  version: 2.1.2

@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Wolfenstein: Blade of Agony is a story-driven WWII shooter inspired by Wolfenstein and Doom.",
+  "tagline": "A story-driven WWII shooter inspired by Wolfenstein and Doom.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbladeofagony/assets/boa-logo.webp",
+  "category": "Home",
+  "title": "Blade of-agony (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
+  "version": "3.1.20260910",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1770846162
+  }
+}

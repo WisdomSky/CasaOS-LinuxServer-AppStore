@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/minetest/",
+  "tagline": "(server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverminetest/assets/minetest-icon.webp",
+  "category": "Others",
+  "project_url": "http://www.minetest.net/",
+  "website": "http://www.minetest.net/",
+  "title": "Minetest",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverminetest",
+  "version": "5.10.0",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 22383428,
+    "arm64": 23521539
+  }
+}

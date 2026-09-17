@@ -1,0 +1,28 @@
+name: linuxserver-telegram
+services:
+  app:
+    image: linuxserver/telegram:7.2.8@sha256:ed9bc0eca1cb806e2cae85f527a7595c1c536d2c2976e3945f43db110dccd32b
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/telegram/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservertelegram/assets/icon.png
+  title:
+    en_US: Telegram (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservertelegram
+  port_map: '3000'
+  version: 7.2.8

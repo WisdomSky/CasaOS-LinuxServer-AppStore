@@ -1,0 +1,25 @@
+name: linuxserver-htpcmanager
+services:
+  app:
+    image: linuxserver/htpcmanager:version-26a641bf@sha256:33816cdadc1699c2b35cf95c63a785461e4823588b2869daf916d8648da8ca62
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8085
+        published: 8085
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/htpcmanager/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhtpcmanager/assets/icon.png
+  title:
+    en_US: Htpcmanager (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverhtpcmanager
+  port_map: '8085'
+  version: version-26a641bf

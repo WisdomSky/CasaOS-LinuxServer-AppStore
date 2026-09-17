@@ -1,0 +1,28 @@
+name: linuxserver-shotcut
+services:
+  app:
+    image: linuxserver/shotcut:26.8.1@sha256:a4ab75e5662e36d7a11a9c0746c759e77eeaffc046e4187366190e6b2c58048f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/shotcut/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservershotcut/assets/icon.png
+  title:
+    en_US: Shotcut (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservershotcut
+  port_map: '3000'
+  version: 26.8.1

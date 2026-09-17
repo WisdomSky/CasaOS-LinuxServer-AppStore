@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.",
+  "tagline": "An experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservereden/assets/eden-logo.webp",
+  "category": "Home",
+  "title": "Eden (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservereden",
+  "version": "0.2.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1214423043
+  }
+}

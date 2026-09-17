@@ -1,0 +1,28 @@
+name: linuxserver-kicad
+services:
+  app:
+    image: linuxserver/kicad:10.0.3
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/kicad/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverkicad/assets/icon.png
+  title:
+    en_US: Kicad (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverkicad
+  port_map: '3000'
+  version: 10.0.3

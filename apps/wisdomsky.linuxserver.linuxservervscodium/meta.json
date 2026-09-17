@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
+  "tagline": "A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscodium/assets/vscodium-icon.webp",
+  "category": "Home",
+  "title": "Vscodium (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservervscodium",
+  "version": "1.135.06055",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1454651245,
+    "arm64": 1417226507
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.",
+  "tagline": "A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhealthchecks/assets/healthchecks-logo.webp",
+  "category": "Home",
+  "title": "Healthchecks (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
+  "version": "4.4.20260907",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 90303097,
+    "arm64": 90712320
+  }
+}

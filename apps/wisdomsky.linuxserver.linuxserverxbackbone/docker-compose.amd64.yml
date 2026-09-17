@@ -1,0 +1,28 @@
+name: linuxserver-xbackbone
+services:
+  app:
+    image: linuxserver/xbackbone:3.8.2@sha256:9c588127d461ebd1f6a4571ed19a3ac4e39e50e1e7d9c363186dcc30cb8c59e8
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/xbackbone/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverxbackbone/assets/icon.png
+  title:
+    en_US: Xbackbone (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverxbackbone
+  port_map: '80'
+  version: 3.8.2

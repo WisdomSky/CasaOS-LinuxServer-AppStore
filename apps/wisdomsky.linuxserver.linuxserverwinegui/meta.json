@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "WineGUI is a user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.",
+  "tagline": "A user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwinegui/assets/winegui-logo.webp",
+  "category": "Home",
+  "title": "Winegui (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverwinegui",
+  "version": "4.4.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1854303499
+  }
+}

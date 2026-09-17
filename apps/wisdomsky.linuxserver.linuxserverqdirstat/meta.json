@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "QDirStat Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.",
+  "tagline": "Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverqdirstat/assets/qdirstat-logo.webp",
+  "category": "Home",
+  "title": "Qdirstat (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverqdirstat",
+  "version": "2.0.20260913",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1007666581,
+    "arm64": 978853452
+  }
+}

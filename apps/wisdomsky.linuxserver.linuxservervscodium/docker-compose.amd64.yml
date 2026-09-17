@@ -1,0 +1,28 @@
+name: linuxserver-vscodium
+services:
+  app:
+    image: linuxserver/vscodium:1.135.06055@sha256:06441f81c0c52e81e387c353a29c30a5a2647030f4c1ab52a0fcf1d287b885b1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/vscodium/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservervscodium/assets/icon.png
+  title:
+    en_US: Vscodium (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservervscodium
+  port_map: '3000'
+  version: 1.135.06055

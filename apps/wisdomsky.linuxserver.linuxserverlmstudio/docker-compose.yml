@@ -1,0 +1,28 @@
+name: linuxserver-lm-studio
+services:
+  app:
+    image: linuxserver/lm-studio:version-2026-09-12
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lm-studio/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlmstudio/assets/icon.png
+  title:
+    en_US: Lm studio (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverlmstudio
+  port_map: '3000'
+  version: version-2026-09-12

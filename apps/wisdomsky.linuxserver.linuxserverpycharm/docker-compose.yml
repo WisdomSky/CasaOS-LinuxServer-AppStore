@@ -1,0 +1,28 @@
+name: linuxserver-pycharm
+services:
+  app:
+    image: linuxserver/pycharm:2026.2.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pycharm/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpycharm/assets/icon.png
+  title:
+    en_US: Pycharm (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpycharm
+  port_map: '3000'
+  version: 2026.2.1

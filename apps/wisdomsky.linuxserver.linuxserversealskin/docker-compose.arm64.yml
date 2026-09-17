@@ -1,0 +1,35 @@
+name: linuxserver-sealskin
+services:
+  app:
+    image: linuxserver/sealskin:0.3.2@sha256:0b0a69cbc2336253090fd4dcf6f9d8af01380c3552ae4cde5270b08e4dfbc421
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      HOST_URL: ''
+    ports:
+      - target: 8443
+        published: 8443
+        protocol: tcp
+      - target: 8000
+        published: 8000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sealskin/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/sealskin/storage
+        target: /storage
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversealskin/assets/icon.png
+  title:
+    en_US: Sealskin (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversealskin
+  port_map: '8000'
+  version: 0.3.2

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "FreeTube is a feature-rich and user-friendly YouTube client with a focus on privacy.",
+  "tagline": "A feature-rich and user-friendly YouTube client with a focus on privacy. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreetube/assets/freetube-logo.webp",
+  "category": "Others",
+  "title": "Freetube",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverfreetube",
+  "version": "version-190523148",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1031053544,
+    "arm64": 950887520
+  }
+}

@@ -1,0 +1,42 @@
+name: linuxserver-transmission
+services:
+  app:
+    image: linuxserver/transmission:4.1.3@sha256:f44a15b5d7cd3b0066e9f6072002f41773db417ecf04f5e66c882cc40da4f079
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      TRANSMISSION_WEB_HOME: ''
+      USER: ''
+      PASS: ''
+      WHITELIST: ''
+      PEERPORT: ''
+      HOST_WHITELIST: ''
+    ports:
+      - target: 9091
+        published: 9091
+        protocol: tcp
+      - target: 51413
+        published: 51413
+        protocol: tcp
+      - target: 51413
+        published: 51413
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/transmission/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/transmission/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/transmission/watch
+        target: /watch
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservertransmission/assets/icon.png
+  title:
+    en_US: Transmission (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservertransmission
+  version: 4.1.3

@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "DOGWALK is Blender Studio's long awaited second game project, focused on creating a bite-sized interactive storytelling playground. Play as a big adorable dog and explore the winter woods with a little kid.",
+  "tagline": "Blender Studio's long awaited second game project, focused on creating a bite-sized interactive storytelling playground. Play as a big adorable dog and explore the winter woods with a little kid.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdogwalk/assets/dogwalk-logo.webp",
+  "category": "Home",
+  "title": "Dogwalk (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdogwalk",
+  "version": "version-b93769c4",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1784868410
+  }
+}

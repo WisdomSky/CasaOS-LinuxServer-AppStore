@@ -1,0 +1,31 @@
+name: linuxserver-pylon
+services:
+  app:
+    image: linuxserver/pylon:2.10.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      GITURL: ''
+      PYUSER: ''
+      PYPASS: ''
+    ports:
+      - target: 3131
+        published: 3131
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pylon/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/pylon/code
+        target: /code
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpylon/assets/icon.png
+  title:
+    en_US: Pylon
+  port_map: '3131'
+  id: wisdomsky.linuxserver.linuxserverpylon
+  version: 2.10.0

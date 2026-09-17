@@ -1,0 +1,31 @@
+name: linuxserver-qdirstat
+services:
+  app:
+    image: linuxserver/qdirstat:2.0.20260913@sha256:108e8788f00a92adb3469fce5602acba2abad42da13a5a4e46d510dee3cddefc
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/qdirstat/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/qdirstat/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverqdirstat/assets/icon.png
+  title:
+    en_US: Qdirstat (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverqdirstat
+  port_map: '3000'
+  version: 2.0.20260913

@@ -1,0 +1,25 @@
+name: linuxserver-lsio-api
+services:
+  app:
+    image: linuxserver/lsio-api:version-9eda67ec
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lsio-api/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlsioapi/assets/icon.png
+  title:
+    en_US: Lsio api
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverlsioapi
+  version: version-9eda67ec

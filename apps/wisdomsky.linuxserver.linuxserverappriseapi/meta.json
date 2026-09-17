@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Apprise-api Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more than 100 services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. * A Simple Website to verify and test your configuration with. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.",
+  "tagline": "Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more than 100 services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. * A Simple Website to verify and test your configuration with. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverappriseapi/assets/logo.webp",
+  "category": "Home",
+  "title": "Apprise api (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverappriseapi",
+  "version": "1.5.4",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 63153441,
+    "arm64": 63620640
+  }
+}

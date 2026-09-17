@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Citron is a feature rich Switch 1 emulator for homebrew.",
+  "tagline": "A feature rich Switch 1 emulator for homebrew.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercitron/assets/citron-logo.webp",
+  "category": "Others",
+  "title": "Citron",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservercitron",
+  "version": "2026.02.1",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1579749077
+  }
+}

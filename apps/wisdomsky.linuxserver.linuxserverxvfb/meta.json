@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/xvfb for details.",
+  "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/xvfb for details.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Others",
+  "title": "Xvfb",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverxvfb",
+  "version": "debiantrixie-version-9d327c0f",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1107547,
+    "arm64": 1093750
+  }
+}

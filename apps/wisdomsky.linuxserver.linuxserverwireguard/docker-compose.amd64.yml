@@ -1,0 +1,36 @@
+name: linuxserver-wireguard
+services:
+  app:
+    image: linuxserver/wireguard:1.0.20260223@sha256:d6de09f9e9a2398446a3e951e278da930dd254c05d842755a10a6079d8b7b8aa
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SERVERURL: ''
+      SERVERPORT: ''
+      PEERS: ''
+      PEERDNS: ''
+      INTERNAL_SUBNET: ''
+      ALLOWEDIPS: ''
+      PERSISTENTKEEPALIVE_PEERS: ''
+      LOG_CONFS: ''
+    ports:
+      - target: 51820
+        published: 51820
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/wireguard/config
+        target: /config
+      - type: bind
+        source: /lib/modules
+        target: /lib/modules
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwireguard/assets/icon.svg
+  title:
+    en_US: Wireguard (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwireguard
+  port_map: '51820'
+  version: 1.0.20260223

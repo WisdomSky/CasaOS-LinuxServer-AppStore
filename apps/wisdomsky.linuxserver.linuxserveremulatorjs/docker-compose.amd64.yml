@@ -1,0 +1,35 @@
+name: linuxserver-emulatorjs
+services:
+  app:
+    image: linuxserver/emulatorjs:1.9.2@sha256:d6722289d23b727f1b025fb6a2965839a438c270619141d97c560c7bfd38c77f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SUBFOLDER: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 4001
+        published: 4001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/emulatorjs/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/emulatorjs/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveremulatorjs/assets/icon.png
+  title:
+    en_US: Emulatorjs
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserveremulatorjs
+  version: 1.9.2

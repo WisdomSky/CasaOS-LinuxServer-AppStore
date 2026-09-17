@@ -1,0 +1,28 @@
+name: linuxserver-dolphin
+services:
+  app:
+    image: linuxserver/dolphin:version-2606a@sha256:fd2bc59a32b8d1e04e7c027f2c449f251f6db79c3c32213c0cb5a9436bb65b70
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/dolphin/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdolphin/assets/icon.png
+  title:
+    en_US: Dolphin (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdolphin
+  port_map: '3000'
+  version: version-2606a

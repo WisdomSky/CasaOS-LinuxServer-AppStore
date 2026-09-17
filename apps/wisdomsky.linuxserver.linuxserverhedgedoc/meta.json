@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "HedgeDoc gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.",
+  "tagline": "Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhedgedoc/assets/hedgedoc-banner.webp",
+  "category": "Home",
+  "title": "Hedgedoc (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
+  "version": "1.12.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 179163961,
+    "arm64": 189803974
+  }
+}

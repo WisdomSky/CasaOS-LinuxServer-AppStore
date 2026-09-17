@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/modmanager for details.",
+  "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/modmanager for details.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermodmanager/assets/linuxserver-ls-logo.webp",
+  "category": "Home",
+  "title": "Modmanager (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservermodmanager",
+  "version": "version-7dc8618e",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 23001778,
+    "arm64": 23068654
+  }
+}

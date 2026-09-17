@@ -1,0 +1,28 @@
+name: linuxserver-mediaelch
+services:
+  app:
+    image: linuxserver/mediaelch:2.12.0@sha256:44f8fa57dfb43062a7e85ba32ac73e258e73e99fb194cea8eb1e70d81d7c87da
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mediaelch/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermediaelch/assets/icon.png
+  title:
+    en_US: Mediaelch (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermediaelch
+  port_map: '3000'
+  version: 2.12.0

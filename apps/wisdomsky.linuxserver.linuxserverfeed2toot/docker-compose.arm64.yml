@@ -1,0 +1,21 @@
+name: linuxserver-feed2toot
+services:
+  app:
+    image: linuxserver/feed2toot:0.17.20250110@sha256:bc817b1111908a23fc490c64c10724b0f4ce70cf2621ee6034c2a20986aa8466
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      FEED_LIMIT: ''
+    volumes:
+      - type: bind
+        source: /DATA/AppData/feed2toot/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfeed2toot/assets/icon.svg
+  title:
+    en_US: Feed2toot
+  id: wisdomsky.linuxserver.linuxserverfeed2toot
+  version: 0.17.20250110

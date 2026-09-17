@@ -1,0 +1,30 @@
+name: linuxserver-fleet
+services:
+  app:
+    image: linuxserver/fleet:2.3.3@sha256:d976918692694b1898cc9916130feef41589deefb73d2c3b7b373c94028787c6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      fleet_admin_authentication_type: ''
+      fleet_database_url: ''
+      fleet_database_username: ''
+      fleet_database_password: ''
+      fleet_admin_secret: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/fleet/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfleet/assets/icon.png
+  title:
+    en_US: Fleet
+  port_map: '8080'
+  id: wisdomsky.linuxserver.linuxserverfleet
+  version: 2.3.3

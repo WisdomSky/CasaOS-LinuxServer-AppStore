@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/pylon/",
+  "tagline": "A web based integrated development environment built with Node. Js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpylon/assets/screenshot02.webp",
+  "category": "Others",
+  "project_url": "https://github.com/pylonide/pylon",
+  "website": "https://github.com/pylonide/pylon",
+  "title": "Pylon",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverpylon",
+  "version": "2.10.0",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 90886256,
+    "arm64": 92055677
+  }
+}

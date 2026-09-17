@@ -1,0 +1,27 @@
+name: linuxserver-changedetection.io
+services:
+  app:
+    image: linuxserver/changedetection.io:0.60.6@sha256:23227dbc645726e527c362dc29050f480d91388cea5aff965302b4199eb40c4a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      BASE_URL: ''
+      PLAYWRIGHT_DRIVER_URL: ''
+    ports:
+      - target: 5000
+        published: 5000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/changedetection.io/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/assets/icon.png
+  title:
+    en_US: Changedetection. Io (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverchangedetectionio
+  port_map: '5000'
+  version: 0.60.6

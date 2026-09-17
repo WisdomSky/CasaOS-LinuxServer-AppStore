@@ -1,0 +1,31 @@
+name: linuxserver-lidarr
+services:
+  app:
+    image: linuxserver/lidarr:3.1.0@sha256:0694409e2293c59fdd2665f55cb67d0a8a9adf31a879b45e1ccb299f65f2037c
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8686
+        published: 8686
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lidarr/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/lidarr/music
+        target: /music
+      - type: bind
+        source: /DATA/AppData/lidarr/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlidarr/assets/icon.png
+  title:
+    en_US: Lidarr (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverlidarr
+  port_map: '8686'
+  version: 3.1.0

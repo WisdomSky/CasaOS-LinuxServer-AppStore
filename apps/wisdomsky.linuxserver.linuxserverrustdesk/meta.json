@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.",
+  "tagline": "A full-featured open source remote control alternative for self-hosting and security with minimal configuration.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrustdesk/assets/rustdesk-logo.webp",
+  "category": "Home",
+  "title": "Rustdesk (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverrustdesk",
+  "version": "1.4.9",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1031793595,
+    "arm64": 992553354
+  }
+}

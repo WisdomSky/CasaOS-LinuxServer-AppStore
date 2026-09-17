@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.",
+  "tagline": "Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfeed2toot/assets/default-icon.svg",
+  "category": "Others",
+  "title": "Feed2toot",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
+  "version": "0.17.20250110",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 36807001,
+    "arm64": 37690237
+  }
+}

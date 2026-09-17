@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.",
+  "tagline": "A tool to synchronize AdGuardHome config to replica instances.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/assets/adguardhomesync-icon.webp",
+  "category": "Home",
+  "title": "Adguardhome sync (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
+  "version": "0.9.3",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 26917867,
+    "arm64": 26258241
+  }
+}

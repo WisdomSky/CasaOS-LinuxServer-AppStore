@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Speedtest-tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
+  "tagline": "A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/assets/speedtest-tracker-logo.webp",
+  "category": "Home",
+  "title": "Speedtest tracker (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
+  "version": "1.15.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 62866773,
+    "arm64": 63421588
+  }
+}

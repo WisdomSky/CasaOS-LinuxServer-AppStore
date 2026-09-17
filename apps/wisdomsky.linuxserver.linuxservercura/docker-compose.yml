@@ -1,0 +1,28 @@
+name: linuxserver-cura
+services:
+  app:
+    image: linuxserver/cura:5.13.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/cura/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercura/assets/icon.png
+  title:
+    en_US: Cura (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservercura
+  port_map: '3000'
+  version: 5.13.0

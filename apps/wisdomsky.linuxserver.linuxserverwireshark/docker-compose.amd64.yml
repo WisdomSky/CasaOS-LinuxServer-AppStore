@@ -1,0 +1,31 @@
+name: linuxserver-wireshark
+services:
+  app:
+    image: linuxserver/wireshark:4.6.6@sha256:8e04be4401a2bdcabb446f81638a26dcdb5742b7efa295bf5ecacbb471ff54a9
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/wireshark/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwireshark/assets/icon.png
+  title:
+    en_US: Wireshark (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwireshark
+  port_map: '80'
+  version: 4.6.6

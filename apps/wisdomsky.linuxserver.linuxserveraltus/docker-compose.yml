@@ -1,0 +1,28 @@
+name: linuxserver-altus
+services:
+  app:
+    image: linuxserver/altus:5.8.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/altus/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveraltus/assets/icon.png
+  title:
+    en_US: Altus (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveraltus
+  port_map: '3000'
+  version: 5.8.1

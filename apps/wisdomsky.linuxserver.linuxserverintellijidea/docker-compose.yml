@@ -1,0 +1,28 @@
+name: linuxserver-intellij-idea
+services:
+  app:
+    image: linuxserver/intellij-idea:42026.2.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/intellij-idea/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverintellijidea/assets/icon.png
+  title:
+    en_US: Intellij idea (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverintellijidea
+  port_map: '3000'
+  version: 42026.2.2

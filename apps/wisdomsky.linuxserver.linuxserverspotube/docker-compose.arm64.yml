@@ -1,0 +1,28 @@
+name: linuxserver-spotube
+services:
+  app:
+    image: linuxserver/spotube:5.1.2@sha256:6dcf28a3e8ddb65117a333f450cc08e98180019b4a5d6b3df9dfa0af551c417b
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/spotube/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverspotube/assets/icon.png
+  title:
+    en_US: Spotube (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverspotube
+  port_map: '3000'
+  version: 5.1.2

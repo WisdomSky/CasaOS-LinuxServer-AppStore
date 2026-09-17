@@ -1,0 +1,29 @@
+name: linuxserver-heimdall
+services:
+  app:
+    image: linuxserver/heimdall:2.8.3@sha256:b1061cd9f1f97687e03e8afc2bfc85ae8b89cc196de4d5c88c4ec162b6e896da
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      ALLOW_INTERNAL_REQUESTS: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/heimdall/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverheimdall/assets/icon.png
+  title:
+    en_US: Heimdall (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverheimdall
+  port_map: '80'
+  version: 2.8.3

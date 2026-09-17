@@ -1,0 +1,25 @@
+name: linuxserver-overseerr
+services:
+  app:
+    image: linuxserver/overseerr:1.33.2@sha256:9b8546e7cb162b8470e49b5051a641fd9a4a61388e960647c77aa1f78402552f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 5055
+        published: 5055
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/overseerr/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveroverseerr/assets/icon.png
+  title:
+    en_US: Overseerr
+  port_map: '5055'
+  id: wisdomsky.linuxserver.linuxserveroverseerr
+  version: 1.33.2

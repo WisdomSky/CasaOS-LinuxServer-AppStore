@@ -1,0 +1,28 @@
+name: linuxserver-mstream
+services:
+  app:
+    image: linuxserver/mstream:6.28.0@sha256:36805dee3b1846552c50a9e27deb46c1b5119763770d28ad27690f32d7f95313
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mstream/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/mstream/music
+        target: /music
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermstream/assets/icon.png
+  title:
+    en_US: Mstream (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermstream
+  port_map: '3000'
+  version: 6.28.0

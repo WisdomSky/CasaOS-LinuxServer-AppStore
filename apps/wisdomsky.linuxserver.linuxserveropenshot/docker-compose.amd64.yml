@@ -1,0 +1,28 @@
+name: linuxserver-openshot
+services:
+  app:
+    image: linuxserver/openshot:4.0.0@sha256:4298caf62060f96146594dc02165e41e06698144026abe3705da3e07f86014fb
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/openshot/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveropenshot/assets/icon.png
+  title:
+    en_US: Openshot (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveropenshot
+  port_map: '3000'
+  version: 4.0.0

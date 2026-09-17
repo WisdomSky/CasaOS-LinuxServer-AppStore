@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.",
+  "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/jenkins-builder for details. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Others",
+  "title": "Jenkins builder",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
+  "version": "version-4f81ddbe",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 101605492,
+    "arm64": 102680374
+  }
+}

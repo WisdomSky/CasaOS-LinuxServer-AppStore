@@ -1,0 +1,31 @@
+name: linuxserver-manyfold
+services:
+  app:
+    image: linuxserver/manyfold:0.149.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DATABASE_URL: ''
+      REDIS_URL: ''
+      SECRET_KEY_BASE: ''
+    ports:
+      - target: 3214
+        published: 3214
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/manyfold/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/manyfold/libraries
+        target: /libraries
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermanyfold/assets/icon.png
+  title:
+    en_US: Manyfold (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermanyfold
+  port_map: '3214'
+  version: 0.149.0

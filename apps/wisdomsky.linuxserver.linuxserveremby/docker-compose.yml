@@ -1,0 +1,36 @@
+name: linuxserver-emby
+services:
+  app:
+    image: linuxserver/emby:4.10.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8096
+        published: 8096
+        protocol: tcp
+      - target: 8920
+        published: 8920
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/emby/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/emby/data/tvshows
+        target: /data/tvshows
+      - type: bind
+        source: /DATA/AppData/emby/data/movies
+        target: /data/movies
+      - type: bind
+        source: /opt/vc/lib
+        target: /opt/vc/lib
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveremby/assets/icon.png
+  title:
+    en_US: Emby (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveremby
+  version: 4.10.0

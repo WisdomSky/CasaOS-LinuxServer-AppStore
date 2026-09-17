@@ -1,0 +1,37 @@
+name: linuxserver-speedtest-tracker
+services:
+  app:
+    image: linuxserver/speedtest-tracker:1.15.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      APP_KEY: ''
+      APP_URL: ''
+      DB_CONNECTION: ''
+      SPEEDTEST_SCHEDULE: ''
+      SPEEDTEST_SERVERS: ''
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_DATABASE: ''
+      DB_USERNAME: ''
+      DB_PASSWORD: ''
+      DISPLAY_TIMEZONE: ''
+      PRUNE_RESULTS_OLDER_THAN: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/speedtest-tracker/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/assets/icon.png
+  title:
+    en_US: Speedtest tracker (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverspeedtesttracker
+  port_map: '80'
+  version: 1.15.0

@@ -1,0 +1,25 @@
+name: linuxserver-embystat
+services:
+  app:
+    image: linuxserver/embystat:0.2.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 6555
+        published: 6555
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/embystat/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverembystat/assets/icon.png
+  title:
+    en_US: Embystat
+  port_map: '6555'
+  id: wisdomsky.linuxserver.linuxserverembystat
+  version: 0.2.0

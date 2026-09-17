@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Helium is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.",
+  "tagline": "A Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhelium/assets/helium-logo.webp",
+  "category": "Home",
+  "title": "Helium (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverhelium",
+  "version": "0.17.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1177358652,
+    "arm64": 1149127022
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "MAME is a free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.",
+  "tagline": "A free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermame/assets/mame-logo.webp",
+  "category": "Home",
+  "title": "Mame (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservermame",
+  "version": "version-0.289dfsg1-0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1152337858,
+    "arm64": 1116166779
+  }
+}

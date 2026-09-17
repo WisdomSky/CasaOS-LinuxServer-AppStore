@@ -1,0 +1,25 @@
+name: linuxserver-d2-builder
+services:
+  app:
+    image: linuxserver/d2-builder:0.6.8@sha256:a902682b8e6af1264432da128c0dceb1034cfe4e895b30cba294ef1e835861e7
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/d2-builder/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverd2builder/assets/icon.png
+  title:
+    en_US: D2 builder
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverd2builder
+  version: 0.6.8

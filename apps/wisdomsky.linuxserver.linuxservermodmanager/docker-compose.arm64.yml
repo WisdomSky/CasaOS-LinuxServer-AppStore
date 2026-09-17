@@ -1,0 +1,25 @@
+name: linuxserver-modmanager
+services:
+  app:
+    image: linuxserver/modmanager:version-7dc8618e@sha256:15da26afdcb02333aa522119d9e85989a87265bff1e3377a8e149f734f94ba76
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/modmanager/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermodmanager/assets/icon.png
+  title:
+    en_US: Modmanager (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermodmanager
+  port_map: '80'
+  version: version-7dc8618e

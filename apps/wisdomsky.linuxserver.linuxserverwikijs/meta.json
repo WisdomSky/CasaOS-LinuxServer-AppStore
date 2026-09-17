@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Wikijs A modern, lightweight and powerful wiki app built on NodeJS.",
+  "tagline": "A modern, lightweight and powerful wiki app built on NodeJS.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwikijs/assets/wikijs-full.svg",
+  "category": "Home",
+  "title": "Wikijs (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverwikijs",
+  "version": "2.5.314",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 138148313,
+    "arm64": 138282173
+  }
+}

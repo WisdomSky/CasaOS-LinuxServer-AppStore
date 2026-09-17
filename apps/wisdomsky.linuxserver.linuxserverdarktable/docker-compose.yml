@@ -1,0 +1,28 @@
+name: linuxserver-darktable
+services:
+  app:
+    image: linuxserver/darktable:25.6.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/darktable/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdarktable/assets/icon.png
+  title:
+    en_US: Darktable (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdarktable
+  port_map: '3000'
+  version: 25.6.1

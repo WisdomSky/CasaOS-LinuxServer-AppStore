@@ -1,0 +1,80 @@
+name: linuxserver-fail2ban
+services:
+  app:
+    image: linuxserver/fail2ban:1.1.0@sha256:f358b481131872c5d11aea252f443fbce119075862351a2e0adad3f720706d63
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      VERBOSITY: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/fail2ban/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/fail2ban/var/log:ro
+        target: /var/log:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/airsonic:ro
+        target: /remotelogs/airsonic:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/apache2:ro
+        target: /remotelogs/apache2:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/authelia:ro
+        target: /remotelogs/authelia:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/emby:ro
+        target: /remotelogs/emby:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/filebrowser:ro
+        target: /remotelogs/filebrowser:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/homeassistant:ro
+        target: /remotelogs/homeassistant:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/lighttpd:ro
+        target: /remotelogs/lighttpd:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/nextcloud:ro
+        target: /remotelogs/nextcloud:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/nginx:ro
+        target: /remotelogs/nginx:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/nzbget:ro
+        target: /remotelogs/nzbget:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/overseerr:ro
+        target: /remotelogs/overseerr:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/prowlarr:ro
+        target: /remotelogs/prowlarr:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/radarr:ro
+        target: /remotelogs/radarr:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/sabnzbd:ro
+        target: /remotelogs/sabnzbd:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/sonarr:ro
+        target: /remotelogs/sonarr:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/unificontroller:ro
+        target: /remotelogs/unificontroller:ro
+      - type: bind
+        source: /DATA/AppData/fail2ban/remotelogs/vaultwarden:ro
+        target: /remotelogs/vaultwarden:ro
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfail2ban/assets/icon.png
+  title:
+    en_US: Fail2ban (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverfail2ban
+  port_map: '80'
+  version: 1.1.0

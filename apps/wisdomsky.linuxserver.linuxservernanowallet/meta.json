@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "description": "Nano-wallet is a digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.",
+  "tagline": "A digital payment protocol designed to be accessible and lightweight, with a focus on removing inefficiencies present in other cryptocurrencies. With ultrafast transactions and zero fees on a secure, green and decentralized network, this makes Nano ideal for everyday transactions. This container is a simple nginx wrapper for the light wallet located here. You will need to pass a valid RPC host when accessing this container.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernanowallet/assets/default-icon.svg",
+  "category": "Others",
+  "title": "Nano wallet",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservernanowallet",
+  "version": "1.3.2",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 11825499,
+    "arm": 13244498,
+    "arm64": 14221222
+  }
+}

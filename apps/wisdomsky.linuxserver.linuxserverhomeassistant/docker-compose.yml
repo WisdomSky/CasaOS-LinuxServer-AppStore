@@ -1,0 +1,25 @@
+name: linuxserver-homeassistant
+services:
+  app:
+    image: linuxserver/homeassistant:2026.9.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8123
+        published: 8123
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/homeassistant/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhomeassistant/assets/icon.png
+  title:
+    en_US: Homeassistant (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverhomeassistant
+  port_map: '8123'
+  version: 2026.9.2

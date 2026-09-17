@@ -1,0 +1,30 @@
+name: linuxserver-phpmyadmin
+services:
+  app:
+    image: linuxserver/phpmyadmin:5.2.3@sha256:d0ceffd667e0bca2d353678af2d6a82117ab3cbce2f16a39fcd733dd25ce1f3e
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      PMA_ARBITRARY: ''
+      PMA_ABSOLUTE_URI: ''
+      PMA_HOST: 172.17.0.1
+      PMA_USER: casaos
+      PMA_PASSWORD: casaos
+    ports:
+      - target: 8081
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/phpmyadmin/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/assets/icon.png
+  title:
+    en_US: Phpmyadmin (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverphpmyadmin
+  port_map: '8081'
+  version: 5.2.3

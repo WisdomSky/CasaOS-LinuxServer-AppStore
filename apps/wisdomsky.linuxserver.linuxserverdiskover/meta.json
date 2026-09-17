@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.",
+  "tagline": "An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdiskover/assets/diskover.webp",
+  "category": "Home",
+  "title": "Diskover (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdiskover",
+  "version": "2.3.5",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 50814204,
+    "arm64": 52268660
+  }
+}

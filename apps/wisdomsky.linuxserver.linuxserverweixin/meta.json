@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Weixin (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.",
+  "tagline": "(WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverweixin/assets/weixin-logo.webp",
+  "category": "Home",
+  "title": "Weixin (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverweixin",
+  "version": "version-f1376de7",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1537580710,
+    "arm64": 1497934490
+  }
+}

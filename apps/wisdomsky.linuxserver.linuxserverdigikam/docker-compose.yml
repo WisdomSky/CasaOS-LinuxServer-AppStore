@@ -1,0 +1,28 @@
+name: linuxserver-digikam
+services:
+  app:
+    image: linuxserver/digikam:9.1.0
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/digikam/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdigikam/assets/icon.png
+  title:
+    en_US: Digikam (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdigikam
+  port_map: '3000'
+  version: 9.1.0

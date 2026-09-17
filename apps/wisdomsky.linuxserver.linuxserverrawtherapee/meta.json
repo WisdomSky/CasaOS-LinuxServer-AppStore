@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "RawTherapee is a free, cross-platform raw image processing program!",
+  "tagline": "A free, cross-platform raw image processing program.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrawtherapee/assets/rawtherapee-logo.webp",
+  "category": "Home",
+  "title": "Rawtherapee (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
+  "version": "5.13.20260913",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1129929122,
+    "arm64": 1089139762
+  }
+}

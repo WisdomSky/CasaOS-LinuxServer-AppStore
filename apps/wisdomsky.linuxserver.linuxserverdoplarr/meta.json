@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Doplarr is an *arr request bot for Discord.'",
+  "tagline": "An *arr request bot for Discord. '",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoplarr/assets/doplarr-logo_title.webp",
+  "category": "Others",
+  "title": "Doplarr",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdoplarr",
+  "version": "3.8.0",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 90137891,
+    "arm64": 90278789
+  }
+}

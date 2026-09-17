@@ -1,0 +1,24 @@
+name: linuxserver-nntp2nntp
+services:
+  app:
+    image: linuxserver/nntp2nntp:0.3.20230704@sha256:d2b161c8e531ee7fb4cbd20f7f87ef0b9369a2a751e200e5373db4a33a9c2daf
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 1563
+        published: 1563
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/nntp2nntp/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernntp2nntp/assets/icon.png
+  title:
+    en_US: Nntp2nntp
+  id: wisdomsky.linuxserver.linuxservernntp2nntp
+  version: 0.3.20230704

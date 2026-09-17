@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application.",
+  "tagline": "A desktop app that helps you organize how you use your favourite apps by combining them into one application.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverferdium/assets/ferdium-logo.webp",
+  "category": "Home",
+  "title": "Ferdium (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverferdium",
+  "version": "7.2.3",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1161340220,
+    "arm64": 1124344412
+  }
+}

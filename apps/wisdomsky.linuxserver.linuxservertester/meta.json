@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint",
+  "tagline": "This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertester/assets/12324908.webp",
+  "category": "Others",
+  "title": "Tester",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservertester",
+  "version": "version-66f677b0",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 478666730
+  }
+}

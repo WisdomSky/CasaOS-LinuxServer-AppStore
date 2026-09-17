@@ -1,0 +1,29 @@
+name: linuxserver-firefox
+services:
+  app:
+    image: linuxserver/firefox:1155.0.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      FIREFOX_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/firefox/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfirefox/assets/icon.png
+  title:
+    en_US: Firefox (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverfirefox
+  port_map: '3000'
+  version: 1155.0.1

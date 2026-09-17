@@ -1,0 +1,28 @@
+name: linuxserver-melonds
+services:
+  app:
+    image: linuxserver/melonds:1.1.20260907
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/melonds/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermelonds/assets/icon.png
+  title:
+    en_US: Melonds (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermelonds
+  port_map: '3000'
+  version: 1.1.20260907

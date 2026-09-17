@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
+  "tagline": "(formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverluanti/assets/minetest-icon.webp",
+  "category": "Home",
+  "title": "Luanti (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverluanti",
+  "version": "5.17.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 31146640,
+    "arm64": 31895561
+  }
+}

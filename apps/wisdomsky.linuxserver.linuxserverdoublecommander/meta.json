@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.",
+  "tagline": "A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoublecommander/assets/doublecommander-icon.webp",
+  "category": "Home",
+  "title": "Doublecommander (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
+  "version": "version-8143f818",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1043236219,
+    "arm64": 1004749366
+  }
+}

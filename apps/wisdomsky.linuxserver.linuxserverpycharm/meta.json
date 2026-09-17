@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "PyCharm offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.",
+  "tagline": "Offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpycharm/assets/pycharm-logo.webp",
+  "category": "Home",
+  "title": "Pycharm (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverpycharm",
+  "version": "2026.2.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1859282662
+  }
+}

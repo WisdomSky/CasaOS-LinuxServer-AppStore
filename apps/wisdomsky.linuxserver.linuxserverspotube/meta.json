@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium",
+  "tagline": "An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped. Video or JioSaavn as an audio source, eliminating the need for Spotify Premium",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverspotube/assets/spotube-logo.webp",
+  "category": "Home",
+  "title": "Spotube (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverspotube",
+  "version": "5.1.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1157461722,
+    "arm64": 1116150453
+  }
+}

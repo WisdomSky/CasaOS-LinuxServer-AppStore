@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/python for details.",
+  "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/python for details. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Others",
+  "title": "Python",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverpython",
+  "version": "3.13.1",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 24310197,
+    "arm64": 24190367
+  }
+}

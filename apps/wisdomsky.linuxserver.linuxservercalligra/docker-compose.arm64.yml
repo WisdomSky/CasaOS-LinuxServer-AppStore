@@ -1,0 +1,28 @@
+name: linuxserver-calligra
+services:
+  app:
+    image: linuxserver/calligra:3.2.1@sha256:fe07651912d027e40020e47e7db5346ba7a6cd613bbe3a3ea173c5b2a9dac115
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/calligra/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercalligra/assets/icon.png
+  title:
+    en_US: Calligra (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservercalligra
+  port_map: '3000'
+  version: 3.2.1

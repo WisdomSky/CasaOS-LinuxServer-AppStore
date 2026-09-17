@@ -1,0 +1,31 @@
+name: linuxserver-doublecommander
+services:
+  app:
+    image: linuxserver/doublecommander:version-8143f818@sha256:8528863cfa9ed6171cdfd670aab1da5f96be848e006ad39b92b2235a43f10ae8
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/doublecommander/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/doublecommander/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdoublecommander/assets/icon.png
+  title:
+    en_US: Doublecommander (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdoublecommander
+  port_map: '3000'
+  version: version-8143f818

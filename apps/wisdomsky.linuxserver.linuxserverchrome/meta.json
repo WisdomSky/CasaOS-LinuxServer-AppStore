@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Chrome is the official web browser from Google, built to be fast, secure, and customizable.",
+  "tagline": "The official web browser from Google, built to be fast, secure, and customizable.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchrome/assets/chrome-logo.webp",
+  "category": "Home",
+  "title": "Chrome (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverchrome",
+  "version": "153.0.8010",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1195807465,
+    "arm64": 1160440063
+  }
+}

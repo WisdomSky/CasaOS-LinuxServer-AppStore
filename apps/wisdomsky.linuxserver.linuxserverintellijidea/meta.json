@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "IntelliJ IDEA helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.",
+  "tagline": "Helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverintellijidea/assets/intellij-idea-logo.webp",
+  "category": "Home",
+  "title": "Intellij idea (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverintellijidea",
+  "version": "42026.2.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 2471515019
+  }
+}

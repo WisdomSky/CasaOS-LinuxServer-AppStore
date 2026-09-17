@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/",
+  "tagline": "A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbooksonicair/assets/booksonic-air.webp",
+  "category": "Others",
+  "project_url": "https://booksonic.org/",
+  "website": "https://booksonic.org/",
+  "title": "Booksonic air",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
+  "version": "2201.1.0",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 200627071,
+    "arm64": 200068100
+  }
+}

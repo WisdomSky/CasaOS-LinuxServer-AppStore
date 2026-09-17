@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "PPSSPP is a free and open-source PSP emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series and Symbian with a focus on speed and portability.",
+  "tagline": "A free and open-source PSP emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series and Symbian with a focus on speed and portability.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverppsspp/assets/ppsspp-logo.webp",
+  "category": "Home",
+  "title": "Ppsspp (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverppsspp",
+  "version": "1.20.4",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1193596772
+  }
+}

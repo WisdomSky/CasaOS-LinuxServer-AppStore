@@ -1,0 +1,26 @@
+name: linuxserver-luanti
+services:
+  app:
+    image: linuxserver/luanti:5.17.0@sha256:d335484ef6012f6a17b6ec46c910e22270c33c6856a56886cd9ca73381a69e68
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CLI_ARGS: ''
+    ports:
+      - target: 30000
+        published: 30000
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/luanti/config/.minetest
+        target: /config/.minetest
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverluanti/assets/icon.png
+  title:
+    en_US: Luanti (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverluanti
+  port_map: '30000'
+  version: 5.17.0

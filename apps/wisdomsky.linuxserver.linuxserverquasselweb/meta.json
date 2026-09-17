@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/quassel-web/",
+  "tagline": "A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverquasselweb/assets/quassel-web-banner.webp",
+  "category": "Others",
+  "project_url": "https://github.com/magne4000/quassel-webserver",
+  "website": "https://github.com/magne4000/quassel-webserver",
+  "title": "Quassel web",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverquasselweb",
+  "version": "version-019bfdc1",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 45109667,
+    "arm64": 46079284
+  }
+}

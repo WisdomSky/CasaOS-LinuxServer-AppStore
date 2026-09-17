@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Vivaldi is a Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.",
+  "tagline": "A Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervivaldi/assets/vivaldi-logo.webp",
+  "category": "Home",
+  "title": "Vivaldi (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservervivaldi",
+  "version": "8.1.4087",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1183711235,
+    "arm64": 1150512214
+  }
+}

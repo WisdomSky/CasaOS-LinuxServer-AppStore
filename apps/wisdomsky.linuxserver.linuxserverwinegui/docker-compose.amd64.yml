@@ -1,0 +1,28 @@
+name: linuxserver-winegui
+services:
+  app:
+    image: linuxserver/winegui:4.4.0@sha256:5ce2d6284318465551da327a4ff4978d4aa7fdaff2e4329f39ab605524a2d445
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/winegui/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwinegui/assets/icon.png
+  title:
+    en_US: Winegui (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwinegui
+  port_map: '3000'
+  version: 4.4.0

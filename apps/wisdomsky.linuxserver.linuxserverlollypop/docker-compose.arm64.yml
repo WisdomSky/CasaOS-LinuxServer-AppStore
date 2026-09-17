@@ -1,0 +1,28 @@
+name: linuxserver-lollypop
+services:
+  app:
+    image: linuxserver/lollypop:1.4.45@sha256:65d0a6d9233f36728437a5e3f26d64da13d5b5a08c4ae03be84d4900265071ab
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lollypop/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlollypop/assets/icon.png
+  title:
+    en_US: Lollypop (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverlollypop
+  port_map: '3000'
+  version: 1.4.45

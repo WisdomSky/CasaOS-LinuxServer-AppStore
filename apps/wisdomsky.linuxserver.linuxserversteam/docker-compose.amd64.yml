@@ -1,0 +1,28 @@
+name: linuxserver-steam
+services:
+  app:
+    image: linuxserver/steam:version-0779c5e2@sha256:f7d15fe19689e9872bfa4612d33ed42e0cc1d4c11539df4ae490514dc1f1f6c3
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/steam/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversteam/assets/icon.png
+  title:
+    en_US: Steam (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversteam
+  port_map: '3000'
+  version: version-0779c5e2

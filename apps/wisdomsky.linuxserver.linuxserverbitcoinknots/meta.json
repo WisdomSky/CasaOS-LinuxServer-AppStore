@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Bitcoin Knots can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.",
+  "tagline": "Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbitcoinknots/assets/bitcoin-knots-logo.webp",
+  "category": "Home",
+  "title": "Bitcoin knots (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
+  "version": "version-29.4.knots20260508.1-noble1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 993632062,
+    "arm64": 963537573
+  }
+}

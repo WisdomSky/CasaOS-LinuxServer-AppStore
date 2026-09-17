@@ -1,0 +1,25 @@
+name: linuxserver-unrar
+services:
+  app:
+    image: linuxserver/unrar:7.0.9@sha256:2fcc57717766e4fa7db4b19d5d34462f991a34b187c72c245d7114f4d8430837
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/unrar/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverunrar/assets/icon.png
+  title:
+    en_US: Unrar
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverunrar
+  version: 7.0.9

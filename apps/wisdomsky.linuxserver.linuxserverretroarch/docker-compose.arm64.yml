@@ -1,0 +1,28 @@
+name: linuxserver-retroarch
+services:
+  app:
+    image: linuxserver/retroarch:1.22.2@sha256:47f1d1ef9acbafb6839060c8e10d10b902f43a40abefa21648eed4f5f6302af6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/retroarch/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverretroarch/assets/icon.png
+  title:
+    en_US: Retroarch (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverretroarch
+  port_map: '3000'
+  version: 1.22.2

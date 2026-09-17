@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Sealskin is a self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.",
+  "tagline": "A self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversealskin/assets/selkies-logo.webp",
+  "category": "Home",
+  "title": "Sealskin (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserversealskin",
+  "version": "0.3.2",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 72804073,
+    "arm64": 71587079
+  }
+}

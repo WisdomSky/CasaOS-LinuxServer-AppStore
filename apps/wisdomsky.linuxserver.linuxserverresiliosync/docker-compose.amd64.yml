@@ -1,0 +1,33 @@
+name: linuxserver-resilio-sync
+services:
+  app:
+    image: linuxserver/resilio-sync:3.1.2@sha256:45b4e36206f84abcf8ad71ae07b7e9a4e3d8291ce4ae2c4612b725ba1dff9df4
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8888
+        published: 8888
+        protocol: tcp
+      - target: 55555
+        published: 55555
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/resilio-sync/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/resilio-sync/downloads
+        target: /downloads
+      - type: bind
+        source: /DATA/AppData/resilio-sync/sync
+        target: /sync
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverresiliosync/assets/icon.png
+  title:
+    en_US: Resilio sync (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverresiliosync
+  version: 3.1.2

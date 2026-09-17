@@ -1,0 +1,26 @@
+name: linuxserver-pwndrop
+services:
+  app:
+    image: linuxserver/pwndrop:1.0.1@sha256:dcbc213c419897db68c60b847e5db32795ea30e1653c3412a8d2462267710e3a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SECRET_PATH: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/pwndrop/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverpwndrop/assets/icon.png
+  title:
+    en_US: Pwndrop (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverpwndrop
+  port_map: '8080'
+  version: 1.0.1

@@ -1,0 +1,25 @@
+name: linuxserver-oscam
+services:
+  app:
+    image: linuxserver/oscam:version-11966
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8888
+        published: 8888
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/oscam/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveroscam/assets/icon.png
+  title:
+    en_US: Oscam (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserveroscam
+  port_map: '8888'
+  version: version-11966

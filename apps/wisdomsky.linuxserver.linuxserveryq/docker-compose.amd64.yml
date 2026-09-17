@@ -1,0 +1,25 @@
+name: linuxserver-yq
+services:
+  app:
+    image: linuxserver/yq:3.4.3@sha256:4e0f596a1105dfd058fb9456b4323b0e4b39cc408af0b0444466528901a16260
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/yq/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveryq/assets/icon.png
+  title:
+    en_US: Yq
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserveryq
+  version: 3.4.3

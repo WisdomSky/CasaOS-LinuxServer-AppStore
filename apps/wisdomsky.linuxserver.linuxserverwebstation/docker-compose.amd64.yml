@@ -1,0 +1,28 @@
+name: linuxserver-webstation
+services:
+  app:
+    image: linuxserver/webstation:0.8.4-romm@sha256:a29ef8d5db9f813da0c032927d3c180e6a820a9573bbc4aabb8d6d12abc7c15d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/webstation/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwebstation/assets/icon.png
+  title:
+    en_US: Webstation (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverwebstation
+  port_map: '3000'
+  version: 0.8.4-romm

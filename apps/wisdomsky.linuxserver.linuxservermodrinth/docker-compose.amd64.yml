@@ -1,0 +1,28 @@
+name: linuxserver-modrinth
+services:
+  app:
+    image: linuxserver/modrinth:0.21.4@sha256:9930abbcd8dee0d7007d17305f9157571aedf8d692cc76c95d2e4b0149749d5f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/modrinth/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermodrinth/assets/icon.png
+  title:
+    en_US: Modrinth (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermodrinth
+  port_map: '3000'
+  version: 0.21.4

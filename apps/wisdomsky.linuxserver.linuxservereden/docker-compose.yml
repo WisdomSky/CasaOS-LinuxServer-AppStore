@@ -1,0 +1,28 @@
+name: linuxserver-eden
+services:
+  app:
+    image: linuxserver/eden:0.2.1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/eden/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservereden/assets/icon.png
+  title:
+    en_US: Eden (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservereden
+  port_map: '3000'
+  version: 0.2.1

@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "VS Code is an integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.",
+  "tagline": "An integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscode/assets/vscode-logo.webp",
+  "category": "Home",
+  "title": "Vscode (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservervscode",
+  "version": "1.137.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1555951370,
+    "arm64": 1515468984
+  }
+}

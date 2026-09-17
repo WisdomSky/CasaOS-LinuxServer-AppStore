@@ -1,0 +1,35 @@
+name: linuxserver-booksonic-air
+services:
+  app:
+    image: linuxserver/booksonic-air:2201.1.0@sha256:1d96c572906a8cfe32838fa1baa71f4128ae541a529f0dbc9d71ea6f5bc2f123
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONTEXT_PATH: ''
+    ports:
+      - target: 4040
+        published: 4040
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/booksonic-air/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/booksonic-air/audiobooks
+        target: /audiobooks
+      - type: bind
+        source: /DATA/AppData/booksonic-air/podcasts
+        target: /podcasts
+      - type: bind
+        source: /DATA/AppData/booksonic-air/othermedia
+        target: /othermedia
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbooksonicair/assets/icon.png
+  title:
+    en_US: Booksonic air
+  port_map: '4040'
+  id: wisdomsky.linuxserver.linuxserverbooksonicair
+  version: 2201.1.0

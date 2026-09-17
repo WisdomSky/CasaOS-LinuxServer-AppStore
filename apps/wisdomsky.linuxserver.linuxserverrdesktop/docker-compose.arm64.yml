@@ -1,0 +1,30 @@
+name: linuxserver-rdesktop
+services:
+  app:
+    image: linuxserver/rdesktop:arch-kde-version-arch-2025-01-10@sha256:393a3802b9e1d0e7dc268803af3732464fe8cf3fb6f039176813967505bed7fc
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3389
+        published: 3389
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/rdesktop/config
+        target: /config
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+      - type: bind
+        source: /DATA/AppData/rdesktop/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverrdesktop/assets/icon.png
+  title:
+    en_US: Rdesktop
+  id: wisdomsky.linuxserver.linuxserverrdesktop
+  version: arch-kde-version-arch-2025-01-10

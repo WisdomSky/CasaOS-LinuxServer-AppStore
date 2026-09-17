@@ -1,0 +1,36 @@
+name: linuxserver-hedgedoc
+services:
+  app:
+    image: linuxserver/hedgedoc:1.12.0@sha256:a04080277bbce3d86f20b1d58021729aab39689d3c6f85e9212ae4f0f993028d
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DB_HOST: ''
+      DB_PORT: ''
+      DB_USER: ''
+      DB_PASS: ''
+      DB_NAME: ''
+      CMD_DOMAIN: ''
+      CMD_URL_ADDPORT: ''
+      CMD_PROTOCOL_USESSL: ''
+      CMD_PORT: ''
+      CMD_ALLOW_ORIGIN: ''
+      CMD_DB_DIALECT: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/hedgedoc/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhedgedoc/assets/icon.png
+  title:
+    en_US: Hedgedoc (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverhedgedoc
+  port_map: '3000'
+  version: 1.12.0

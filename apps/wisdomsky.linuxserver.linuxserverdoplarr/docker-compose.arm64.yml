@@ -1,0 +1,43 @@
+name: linuxserver-doplarr
+services:
+  app:
+    image: linuxserver/doplarr:3.8.0@sha256:bf3e09589311f75f0829805e450cf58801576e1e82079afe397a80895617e3ee
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      DISCORD__TOKEN: ''
+      OVERSEERR__API: ''
+      OVERSEERR__URL: ''
+      RADARR__API: ''
+      RADARR__URL: ''
+      SONARR__API: ''
+      SONARR__URL: ''
+      DISCORD__MAX_RESULTS: ''
+      DISCORD__REQUESTED_MSG_STYLE: ''
+      SONARR__QUALITY_PROFILE: ''
+      RADARR__QUALITY_PROFILE: ''
+      SONARR__ROOTFOLDER: ''
+      RADARR__ROOTFOLDER: ''
+      SONARR__LANGUAGE_PROFILE: ''
+      OVERSEERR__DEFAULT_ID: ''
+      PARTIAL_SEASONS: ''
+      LOG_LEVEL: ''
+      JAVA_OPTS: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/doplarr/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdoplarr/assets/icon.png
+  title:
+    en_US: Doplarr
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverdoplarr
+  version: 3.8.0

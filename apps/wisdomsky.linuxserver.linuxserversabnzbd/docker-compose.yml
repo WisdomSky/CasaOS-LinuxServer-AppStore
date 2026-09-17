@@ -1,0 +1,31 @@
+name: linuxserver-sabnzbd
+services:
+  app:
+    image: linuxserver/sabnzbd:5.1.3
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sabnzbd/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/sabnzbd/incomplete-downloads
+        target: /incomplete-downloads
+      - type: bind
+        source: /DATA/AppData/sabnzbd/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversabnzbd/assets/icon.png
+  title:
+    en_US: Sabnzbd (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversabnzbd
+  port_map: '8080'
+  version: 5.1.3

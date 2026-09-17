@@ -1,0 +1,25 @@
+name: linuxserver-ci-debug
+services:
+  app:
+    image: linuxserver/ci-debug:933e2702-ls1@sha256:6dd54ec8e8269db38c9e5d90264b38322f87b79f6824236871d4e3a29f50e154
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/ci-debug/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercidebug/assets/icon.png
+  title:
+    en_US: Ci debug
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxservercidebug
+  version: 933e2702-ls1

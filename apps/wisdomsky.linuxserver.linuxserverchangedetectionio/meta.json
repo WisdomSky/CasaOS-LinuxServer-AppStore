@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Changedetection.io provides free, open-source web page monitoring, notification and change detection.",
+  "tagline": "Provides free, open-source web page monitoring, notification and change detection.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/assets/changedetection-icon.webp",
+  "category": "Home",
+  "title": "Changedetection. Io (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
+  "version": "0.60.6",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 260944409,
+    "arm64": 255690438
+  }
+}

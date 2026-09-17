@@ -1,0 +1,34 @@
+name: linuxserver-tvheadend
+services:
+  app:
+    image: linuxserver/tvheadend:version-5ce3ff63@sha256:3e705a3aa59f559cc3e75dbc755b8262ae58bdbefe33febdc41fcb6d6d9cc74f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      RUN_OPTS: ''
+    ports:
+      - target: 9981
+        published: 9981
+        protocol: tcp
+      - target: 9982
+        published: 9982
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/tvheadend/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/tvheadend/recordings
+        target: /recordings
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/dvb:/dev/dvb
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservertvheadend/assets/icon.png
+  title:
+    en_US: Tvheadend (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservertvheadend
+  version: version-5ce3ff63

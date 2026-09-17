@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Fail2ban is a daemon to ban hosts that cause multiple authentication errors.",
+  "tagline": "A daemon to ban hosts that cause multiple authentication errors.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfail2ban/assets/fail2ban-logo.webp",
+  "category": "Home",
+  "title": "Fail2ban (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverfail2ban",
+  "version": "1.1.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 30601685,
+    "arm64": 31693734
+  }
+}

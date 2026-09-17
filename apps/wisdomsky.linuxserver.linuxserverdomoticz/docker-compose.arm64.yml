@@ -1,0 +1,33 @@
+name: linuxserver-domoticz
+services:
+  app:
+    image: linuxserver/domoticz:2023.2.20231129@sha256:e642693c0f5fdd8f5c78fd0cc77c4201df3d19d90b756c0d0259beadfff1efc6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      WEBROOT: ''
+      DBASE: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 6144
+        published: 6144
+        protocol: tcp
+      - target: 1443
+        published: 1443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/domoticz/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdomoticz/assets/icon.png
+  title:
+    en_US: Domoticz
+  port_map: '8080'
+  id: wisdomsky.linuxserver.linuxserverdomoticz
+  version: 2023.2.20231129

@@ -1,0 +1,25 @@
+name: linuxserver-limnoria
+services:
+  app:
+    image: linuxserver/limnoria:2026.5.8@sha256:5d2251c02d6b1b2cd144c5806b0ca8ee2a4ebc2cd7544b2ab421006801063946
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/limnoria/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlimnoria/assets/icon.png
+  title:
+    en_US: Limnoria (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverlimnoria
+  port_map: '8080'
+  version: 2026.5.8

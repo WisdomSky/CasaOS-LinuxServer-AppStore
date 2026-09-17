@@ -1,0 +1,28 @@
+name: linuxserver-rpcs3
+services:
+  app:
+    image: linuxserver/rpcs3:version-build-6c0e2823f83037debd9a8ac8541521e61d7663bd@sha256:9386bf08ab3b42f6f4aea21540643007f035fb327de559f90fc8032bffcb36d7
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/rpcs3/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverrpcs3/assets/icon.png
+  title:
+    en_US: Rpcs3 (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverrpcs3
+  port_map: '3000'
+  version: version-build-6c0e2823f83037debd9a8ac8541521e61d7663bd

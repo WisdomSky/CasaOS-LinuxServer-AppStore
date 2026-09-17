@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "DuckStation is a PS1 Emulator aiming for the best accuracy and game support.",
+  "tagline": "A PS1 Emulator aiming for the best accuracy and game support.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduckstation/assets/duckstation-logo.webp",
+  "category": "Home",
+  "title": "Duckstation (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverduckstation",
+  "version": "version-latest",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1087400694,
+    "arm64": 1042706542
+  }
+}

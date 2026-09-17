@@ -1,0 +1,27 @@
+name: linuxserver-freetube
+services:
+  app:
+    image: linuxserver/freetube:version-190523148@sha256:d7b2411e61c5173bd3f4fbf741e7fcdb4bb714210ee3b2c0469da4f562250474
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/freetube/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfreetube/assets/icon.png
+  title:
+    en_US: Freetube
+  id: wisdomsky.linuxserver.linuxserverfreetube
+  version: version-190523148

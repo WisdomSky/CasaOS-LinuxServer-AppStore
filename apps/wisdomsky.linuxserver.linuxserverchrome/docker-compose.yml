@@ -1,0 +1,29 @@
+name: linuxserver-chrome
+services:
+  app:
+    image: linuxserver/chrome:153.0.8010
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CHROME_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/chrome/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverchrome/assets/icon.png
+  title:
+    en_US: Chrome (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverchrome
+  port_map: '3000'
+  version: 153.0.8010

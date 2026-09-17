@@ -1,0 +1,28 @@
+name: linuxserver-obsidian
+services:
+  app:
+    image: linuxserver/obsidian:1.13.7@sha256:12765934732c9e7ed7f8b0901003f1e65ec41a6d6c82645f74d9606fae6c94ed
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/obsidian/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverobsidian/assets/icon.png
+  title:
+    en_US: Obsidian (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverobsidian
+  port_map: '3000'
+  version: 1.13.7

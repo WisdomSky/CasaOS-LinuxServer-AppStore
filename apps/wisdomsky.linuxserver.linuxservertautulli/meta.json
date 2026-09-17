@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Tautulli is a python based web application for monitoring, analytics and notifications for Plex Media Server.",
+  "tagline": "A python based web application for monitoring, analytics and notifications for Plex Media Server.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertautulli/assets/tautulli-icon.webp",
+  "category": "Home",
+  "title": "Tautulli (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxservertautulli",
+  "version": "2.18.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 58405836,
+    "arm64": 59286264
+  }
+}

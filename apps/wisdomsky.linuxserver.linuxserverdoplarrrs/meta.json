@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Doplarr_rs is a Discord bot for requesting media through *arr backends, written in Rust.",
+  "tagline": "A Discord bot for requesting media through *arr backends, written in Rust.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/assets/doplarr_rs-logo.webp",
+  "category": "Home",
+  "title": "Doplarr_rs (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
+  "version": "4.6.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 19906115,
+    "arm64": 20754261
+  }
+}

@@ -1,0 +1,28 @@
+name: linuxserver-dogwalk
+services:
+  app:
+    image: linuxserver/dogwalk:version-b93769c4@sha256:85b36778377c5b156b014772b8ebb196762c8b4014e54ad99daf57df0a523f1f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/dogwalk/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdogwalk/assets/icon.png
+  title:
+    en_US: Dogwalk (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdogwalk
+  port_map: '3000'
+  version: version-b93769c4

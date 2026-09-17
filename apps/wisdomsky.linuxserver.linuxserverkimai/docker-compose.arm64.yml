@@ -1,0 +1,32 @@
+name: linuxserver-kimai
+services:
+  app:
+    image: linuxserver/kimai:2.67.0@sha256:87a5209ff760985610ee14c7b9cef837ebecb658904605d0f8c35f76fd5b3f71
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      APP_SECRET: ''
+      DATABASE_URL: ''
+      TRUSTED_HOSTS: ''
+      TRUSTED_PROXIES: ''
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/kimai/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverkimai/assets/icon.png
+  title:
+    en_US: Kimai (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverkimai
+  port_map: '80'
+  version: 2.67.0

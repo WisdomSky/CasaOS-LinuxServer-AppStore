@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Visit homepage: https://hub.docker.com/r/linuxserver/unifi-controller/",
+  "tagline": "The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverunificontroller/assets/unifi-banner.webp",
+  "category": "Others",
+  "project_url": "https://www.ui.com/software/",
+  "website": "https://www.ui.com/software/",
+  "title": "Unifi controller",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverunificontroller",
+  "version": "8.0.24",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 351240341,
+    "arm64": 348387893
+  }
+}

@@ -1,0 +1,32 @@
+name: linuxserver-openvscode-server
+services:
+  app:
+    image: linuxserver/openvscode-server:1.109.5@sha256:1602967cd6069a367926e0c06258ff61daafd37740321a0b8c5b084bada13df7
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      CONNECTION_TOKEN: ''
+      CONNECTION_SECRET: ''
+      SUDO_PASSWORD: ''
+      SUDO_PASSWORD_HASH: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/openvscode-server/config
+        target: /config
+      - type: bind
+        source: /
+        target: /casaos
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/assets/icon.png
+  title:
+    en_US: Openvscode server
+  port_map: '3000'
+  id: wisdomsky.linuxserver.linuxserveropenvscodeserver
+  version: 1.109.5

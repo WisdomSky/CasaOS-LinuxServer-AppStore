@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Freshrss is a free, self-hostable aggregator for rss feeds.",
+  "tagline": "A free, self-hostable aggregator for rss feeds.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreshrss/assets/freshrss-banner.webp",
+  "category": "Home",
+  "title": "Freshrss (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverfreshrss",
+  "version": "1.30.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 40749378,
+    "arm64": 41459348
+  }
+}

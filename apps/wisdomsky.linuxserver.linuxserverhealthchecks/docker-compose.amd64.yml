@@ -1,0 +1,47 @@
+name: linuxserver-healthchecks
+services:
+  app:
+    image: linuxserver/healthchecks:4.4.20260907@sha256:bf506c00f3e6b33ead0707029332aeeabf490c4330bc8a7117353d8f8d2d0af2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SECRET_KEY: ''
+      SITE_ROOT: ''
+      SITE_NAME: ''
+      SUPERUSER_EMAIL: ''
+      SUPERUSER_PASSWORD: ''
+      ALLOWED_HOSTS: ''
+      APPRISE_ENABLED: ''
+      CSRF_TRUSTED_ORIGINS: ''
+      DEBUG: ''
+      DEFAULT_FROM_EMAIL: ''
+      EMAIL_HOST: ''
+      EMAIL_PORT: ''
+      EMAIL_HOST_USER: ''
+      EMAIL_HOST_PASSWORD: ''
+      EMAIL_USE_TLS: ''
+      INTEGRATIONS_ALLOW_PRIVATE_IPS: ''
+      PING_EMAIL_DOMAIN: ''
+      RP_ID: ''
+      SITE_LOGO_URL: ''
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+      - target: 2525
+        published: 2525
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/healthchecks/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhealthchecks/assets/icon.png
+  title:
+    en_US: Healthchecks (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverhealthchecks
+  port_map: '8000'
+  version: 4.4.20260907

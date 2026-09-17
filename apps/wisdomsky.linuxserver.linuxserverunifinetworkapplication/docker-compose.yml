@@ -1,0 +1,58 @@
+name: linuxserver-unifi-network-application
+services:
+  app:
+    image: linuxserver/unifi-network-application:10.6.106
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MONGO_USER: ''
+      MONGO_PASS: ''
+      MONGO_HOST: ''
+      MONGO_PORT: ''
+      MONGO_DBNAME: ''
+      MONGO_AUTHSOURCE: ''
+      MEM_LIMIT: ''
+      MEM_STARTUP: ''
+      MONGO_TLS: ''
+    ports:
+      - target: 8443
+        published: 8443
+        protocol: tcp
+      - target: 3478
+        published: 3478
+        protocol: udp
+      - target: 10001
+        published: 10001
+        protocol: udp
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 1900
+        published: 1900
+        protocol: udp
+      - target: 8843
+        published: 8843
+        protocol: tcp
+      - target: 8880
+        published: 8880
+        protocol: tcp
+      - target: 6789
+        published: 6789
+        protocol: tcp
+      - target: 5514
+        published: 5514
+        protocol: udp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/unifi-network-application/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverunifinetworkapplication/assets/icon.png
+  title:
+    en_US: Unifi network-application (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverunifinetworkapplication
+  port_map: '8080'
+  version: 10.6.106

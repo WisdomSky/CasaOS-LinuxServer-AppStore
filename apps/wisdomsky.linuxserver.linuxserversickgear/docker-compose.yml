@@ -1,0 +1,31 @@
+name: linuxserver-sickgear
+services:
+  app:
+    image: linuxserver/sickgear:3.36.6
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 8081
+        published: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/sickgear/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/sickgear/tv
+        target: /tv
+      - type: bind
+        source: /DATA/AppData/sickgear/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversickgear/assets/icon.png
+  title:
+    en_US: Sickgear (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserversickgear
+  port_map: '8081'
+  version: 3.36.6

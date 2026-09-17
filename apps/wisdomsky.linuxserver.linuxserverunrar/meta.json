@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "This container needs special attention. Please check https://hub.docker.com/r/linuxserver/unrar for details.",
+  "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/unrar for details. ",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "",
+  "category": "Others",
+  "title": "Unrar",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverunrar",
+  "version": "7.0.9",
+  "categories": [
+    "others"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1355119,
+    "arm64": 1238436
+  }
+}

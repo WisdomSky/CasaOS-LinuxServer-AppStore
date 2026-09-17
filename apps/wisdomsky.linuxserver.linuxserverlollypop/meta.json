@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.",
+  "tagline": "A lightweight modern music player designed to work excellently on the GNOME desktop environment.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlollypop/assets/lollypop-icon.webp",
+  "category": "Home",
+  "title": "Lollypop (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverlollypop",
+  "version": "1.4.45",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 655907612,
+    "arm64": 608859902
+  }
+}

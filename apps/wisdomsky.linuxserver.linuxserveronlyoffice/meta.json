@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "ONLYOFFICE provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.",
+  "tagline": "Provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveronlyoffice/assets/onlyoffice-logo.webp",
+  "category": "Home",
+  "title": "Onlyoffice (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
+  "version": "9.4.0",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 1689475220
+  }
+}

@@ -1,0 +1,30 @@
+name: linuxserver-jackett
+services:
+  app:
+    image: linuxserver/jackett:0.24.2601@sha256:0f040973e866360b8cc03bd8ddc02270701cfe244af88678faf78dc5f3f76613
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      AUTO_UPDATE: ''
+      RUN_OPTS: ''
+    ports:
+      - target: 9117
+        published: 9117
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/jackett/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/jackett/downloads
+        target: /downloads
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverjackett/assets/icon.png
+  title:
+    en_US: Jackett (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverjackett
+  port_map: '9117'
+  version: 0.24.2601

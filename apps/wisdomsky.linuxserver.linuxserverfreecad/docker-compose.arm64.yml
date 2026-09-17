@@ -1,0 +1,28 @@
+name: linuxserver-freecad
+services:
+  app:
+    image: linuxserver/freecad:1.1.3@sha256:8591d1375f8306b3d588869308d481922e10ffaa0e6093426a0093d2350a7c45
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/freecad/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfreecad/assets/icon.png
+  title:
+    en_US: Freecad (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverfreecad
+  port_map: '3000'
+  version: 1.1.3

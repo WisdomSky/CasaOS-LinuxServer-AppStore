@@ -1,0 +1,28 @@
+name: linuxserver-xemu
+services:
+  app:
+    image: linuxserver/xemu:0.8.134@sha256:ea68314682fd958df3e3bdec4e637a91327ccef601b962f7eca89683bbe5adab
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/xemu/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverxemu/assets/icon.png
+  title:
+    en_US: Xemu (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverxemu
+  port_map: '3000'
+  version: 0.8.134

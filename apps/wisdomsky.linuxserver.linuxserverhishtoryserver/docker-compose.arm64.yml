@@ -1,0 +1,27 @@
+name: linuxserver-hishtory-server
+services:
+  app:
+    image: linuxserver/hishtory-server:0.335.20260911@sha256:bde73f1aa7f287cc4862bd4ada8437c051928e96b8a8775172ba8e4e3fa119d9
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      HISHTORY_POSTGRES_DB: ''
+      HISHTORY_SQLITE_DB: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/hishtory-server/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhishtoryserver/assets/icon.png
+  title:
+    en_US: Hishtory server (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverhishtoryserver
+  port_map: '8080'
+  version: 0.335.20260911

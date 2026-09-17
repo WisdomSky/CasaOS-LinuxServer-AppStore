@@ -1,0 +1,29 @@
+name: linuxserver-librewolf
+services:
+  app:
+    image: linuxserver/librewolf:155.0.1@sha256:dbc10b1200e152de548c48f8a8b49a18cb26dc9ec14b08c5bd004468c3df0c8a
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      LIBREWOLF_CLI: ''
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+      - target: 3001
+        published: 3001
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/librewolf/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlibrewolf/assets/icon.png
+  title:
+    en_US: Librewolf (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverlibrewolf
+  port_map: '3000'
+  version: 155.0.1

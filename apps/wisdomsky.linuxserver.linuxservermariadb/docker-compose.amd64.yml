@@ -1,0 +1,31 @@
+name: linuxserver-mariadb
+services:
+  app:
+    image: linuxserver/mariadb:11.8.8@sha256:f111c301a0deaaba4fd4ddd52330eb64da6571c5247fc1732d214deec6a416f1
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      MYSQL_ROOT_PASSWORD: ''
+      MYSQL_DATABASE: ''
+      MYSQL_USER: ''
+      MYSQL_PASSWORD: ''
+      REMOTE_SQL: ''
+      CLI_OPTS: ''
+    ports:
+      - target: 3306
+        published: 3306
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/mariadb/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermariadb/assets/icon.png
+  title:
+    en_US: Mariadb (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxservermariadb
+  port_map: '3306'
+  version: 11.8.8

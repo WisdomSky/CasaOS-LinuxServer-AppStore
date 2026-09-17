@@ -1,0 +1,31 @@
+name: linuxserver-rsnapshot
+services:
+  app:
+    image: linuxserver/rsnapshot:1.4.5
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/rsnapshot/config
+        target: /config
+      - type: bind
+        source: /DATA/AppData/rsnapshot/.snapshots
+        target: /.snapshots
+      - type: bind
+        source: /DATA/AppData/rsnapshot/data
+        target: /data
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverrsnapshot/assets/icon.png
+  title:
+    en_US: Rsnapshot (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverrsnapshot
+  port_map: '80'
+  version: 1.4.5

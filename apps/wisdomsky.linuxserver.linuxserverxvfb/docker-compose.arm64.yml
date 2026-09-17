@@ -1,0 +1,25 @@
+name: linuxserver-xvfb
+services:
+  app:
+    image: linuxserver/xvfb:debiantrixie-version-9d327c0f@sha256:ae7c2a821f70865e96f97612b126b8f797e6946898e2b4d0cc21626d9f314c2f
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /srv/lsio/xvfb/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverxvfb/assets/icon.png
+  title:
+    en_US: Xvfb
+  port_map: '80'
+  id: wisdomsky.linuxserver.linuxserverxvfb
+  version: debiantrixie-version-9d327c0f

@@ -1,0 +1,29 @@
+name: linuxserver-habridge
+services:
+  app:
+    image: linuxserver/habridge:5.4.1@sha256:905ef73339dabd7b77384cc7e59d11f3b7e53a7e3fc6ff5a362d299f7ebdc621
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+      SEC_KEY: ''
+    ports:
+      - target: 8080
+        published: 8080
+        protocol: tcp
+      - target: 50000
+        published: 50000
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/habridge/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhabridge/assets/icon.png
+  title:
+    en_US: Habridge (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverhabridge
+  port_map: '8080'
+  version: 5.4.1

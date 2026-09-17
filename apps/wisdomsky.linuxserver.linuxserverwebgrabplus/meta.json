@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Webgrabplus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.",
+  "tagline": "A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/assets/EPG_fading.webp",
+  "category": "Home",
+  "title": "Webgrabplus (LinuxServer.io)",
+  "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages",
+  "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
+  "version": "5.6.1",
+  "categories": [
+    "home"
+  ],
+  "min_memory": 0,
+  "min_image_size": {
+    "amd64": 131122341,
+    "arm64": 130414724
+  }
+}

@@ -1,0 +1,28 @@
+name: linuxserver-dokuwiki
+services:
+  app:
+    image: linuxserver/dokuwiki:version-2026-07-14c@sha256:9a880100457d6c580ae646477cb83a4d7e439e3f7014aec53114a17bbe8c6846
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+      - target: 443
+        published: 443
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/dokuwiki/config
+        target: /config
+x-casaos:
+  main: app
+  icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdokuwiki/assets/icon.png
+  title:
+    en_US: Dokuwiki (LinuxServer.io)
+  id: wisdomsky.linuxserver.linuxserverdokuwiki
+  port_map: '80'
+  version: version-2026-07-14c
