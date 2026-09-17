@@ -64,6 +64,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermastodon/assets/icon.png
   title:
     en_US: Mastodon (LinuxServer.io)
+    zh_CN: Mastodon（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermastodon
   port_map: '80'
   version: 4.7.2

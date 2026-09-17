@@ -28,6 +28,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverdomoticz/assets/icon.png
   title:
     en_US: Domoticz
+    zh_CN: Domoticz
   port_map: '8080'
   id: wisdomsky.linuxserver.linuxserverdomoticz
   version: 2023.2.20231129

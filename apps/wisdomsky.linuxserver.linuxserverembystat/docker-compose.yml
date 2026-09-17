@@ -20,6 +20,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverembystat/assets/icon.png
   title:
     en_US: Embystat
+    zh_CN: Embystat
   port_map: '6555'
   id: wisdomsky.linuxserver.linuxserverembystat
   version: 0.2.0

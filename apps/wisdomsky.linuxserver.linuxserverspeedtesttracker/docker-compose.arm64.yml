@@ -32,6 +32,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/assets/icon.png
   title:
     en_US: Speedtest tracker (LinuxServer.io)
+    zh_CN: Speedtest tracker（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverspeedtesttracker
   port_map: '80'
   version: 1.15.0

@@ -25,6 +25,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/assets/icon.png
   title:
     en_US: Phpmyadmin (LinuxServer.io)
+    zh_CN: Phpmyadmin（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverphpmyadmin
   port_map: '8081'
   version: 5.2.3

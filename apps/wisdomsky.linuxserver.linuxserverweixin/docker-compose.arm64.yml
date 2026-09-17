@@ -23,6 +23,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverweixin/assets/icon.png
   title:
     en_US: Weixin (LinuxServer.io)
+    zh_CN: 微信（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverweixin
   port_map: '3000'
   version: version-f1376de7

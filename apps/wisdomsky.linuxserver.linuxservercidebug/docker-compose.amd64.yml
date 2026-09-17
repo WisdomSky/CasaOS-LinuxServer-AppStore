@@ -20,6 +20,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercidebug/assets/icon.svg
   title:
     en_US: Ci debug
+    zh_CN: Ci debug
   port_map: '80'
   id: wisdomsky.linuxserver.linuxservercidebug
   version: 933e2702-ls1

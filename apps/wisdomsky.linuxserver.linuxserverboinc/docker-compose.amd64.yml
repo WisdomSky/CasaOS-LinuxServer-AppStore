@@ -24,6 +24,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverboinc/assets/icon.jpg
   title:
     en_US: Boinc (LinuxServer.io)
+    zh_CN: Boinc（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverboinc
   port_map: '8080'
   version: 8.2.8

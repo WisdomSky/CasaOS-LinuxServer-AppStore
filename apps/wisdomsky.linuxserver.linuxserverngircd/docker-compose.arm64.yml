@@ -20,6 +20,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverngircd/assets/icon.png
   title:
     en_US: Ngircd (LinuxServer.io)
+    zh_CN: Ngircd（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverngircd
   port_map: '6667'
   version: version-27-r1

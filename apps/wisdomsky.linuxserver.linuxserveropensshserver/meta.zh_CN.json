@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+  "title": "Openssh server（LinuxServer.io）",
+  "tagline": "通过 SSH 访问受限的容器环境。",
+  "description": "Openssh-server 提供沙盒环境，让他人通过 SSH 访问，而无需授予整台服务器的权限。通常，提供私钥 SSH 访问可能意味着开放完整服务器权限；此容器则创建受限的隔离环境，用户只能访问映射到容器中的文件夹，以及容器内运行的进程。"
+}

@@ -20,6 +20,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversocketproxy/assets/icon.png
   title:
     en_US: Socket proxy (LinuxServer.io)
+    zh_CN: Socket proxy（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversocketproxy
   port_map: '80'
   version: 3.4.4

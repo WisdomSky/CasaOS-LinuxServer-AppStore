@@ -42,6 +42,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverhealthchecks/assets/icon.png
   title:
     en_US: Healthchecks (LinuxServer.io)
+    zh_CN: Healthchecks（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverhealthchecks
   port_map: '8000'
   version: 4.4.20260907

@@ -24,6 +24,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverappriseapi/assets/icon.png
   title:
     en_US: Apprise api (LinuxServer.io)
+    zh_CN: Apprise api（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverappriseapi
   port_map: '8000'
   version: 1.5.4

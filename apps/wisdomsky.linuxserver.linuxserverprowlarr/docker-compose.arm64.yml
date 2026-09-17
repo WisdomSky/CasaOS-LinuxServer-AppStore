@@ -20,6 +20,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverprowlarr/assets/icon.png
   title:
     en_US: Prowlarr (LinuxServer.io)
+    zh_CN: Prowlarr（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverprowlarr
   port_map: '9696'
   version: 2.6.5

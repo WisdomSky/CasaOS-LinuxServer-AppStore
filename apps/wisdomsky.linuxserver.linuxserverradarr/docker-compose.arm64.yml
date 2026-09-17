@@ -26,6 +26,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverradarr/assets/icon.png
   title:
     en_US: Radarr (LinuxServer.io)
+    zh_CN: Radarr（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverradarr
   port_map: '7878'
   version: 6.4.4

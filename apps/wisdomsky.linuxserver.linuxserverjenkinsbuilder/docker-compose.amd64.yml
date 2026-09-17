@@ -20,6 +20,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverjenkinsbuilder/assets/icon.svg
   title:
     en_US: Jenkins builder
+    zh_CN: Jenkins builder
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverjenkinsbuilder
   version: version-4f81ddbe

@@ -26,6 +26,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverrsnapshot/assets/icon.png
   title:
     en_US: Rsnapshot (LinuxServer.io)
+    zh_CN: Rsnapshot（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverrsnapshot
   port_map: '80'
   version: 1.4.5

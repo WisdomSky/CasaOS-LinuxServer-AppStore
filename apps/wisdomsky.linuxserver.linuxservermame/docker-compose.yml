@@ -26,6 +26,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermame/assets/icon.png
   title:
     en_US: Mame (LinuxServer.io)
+    zh_CN: Mame（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermame
   port_map: '3000'
   version: version-0.289dfsg1-0

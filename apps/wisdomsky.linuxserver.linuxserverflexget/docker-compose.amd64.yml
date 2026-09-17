@@ -27,6 +27,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverflexget/assets/icon.png
   title:
     en_US: Flexget (LinuxServer.io)
+    zh_CN: Flexget（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverflexget
   port_map: '5050'
   version: 3.21.0

@@ -25,6 +25,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercalibreweb/assets/icon.png
   title:
     en_US: Calibre web (LinuxServer.io)
+    zh_CN: Calibre web（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservercalibreweb
   port_map: '8083'
   version: 0.6.27

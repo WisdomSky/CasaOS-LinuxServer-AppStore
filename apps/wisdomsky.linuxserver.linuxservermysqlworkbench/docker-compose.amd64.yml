@@ -23,6 +23,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/assets/icon.png
   title:
     en_US: Mysql workbench (LinuxServer.io)
+    zh_CN: Mysql workbench（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermysqlworkbench
   port_map: '3000'
   version: 8.0.47

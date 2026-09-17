@@ -26,6 +26,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversonarr/assets/icon.png
   title:
     en_US: Sonarr (LinuxServer.io)
+    zh_CN: Sonarr（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversonarr
   port_map: '8989'
   version: 4.0.20

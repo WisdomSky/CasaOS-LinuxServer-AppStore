@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-abc3d1d3@sha256:2ef8ca504a8943ca855eb40b13d7eb420a696c91e634a17d12e4dbd8b5c783b1
+    image: linuxserver/lazylibrarian:version-e87009c2@sha256:f75a60e664697b47df82e3956b762537529f57fad9eca0c4783773f2d541c667
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,6 +27,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/assets/icon.png
   title:
     en_US: Lazylibrarian (LinuxServer.io)
+    zh_CN: Lazylibrarian（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlazylibrarian
   port_map: '5299'
-  version: version-abc3d1d3
+  version: version-e87009c2

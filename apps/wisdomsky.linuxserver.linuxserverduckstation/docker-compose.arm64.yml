@@ -23,6 +23,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverduckstation/assets/icon.png
   title:
     en_US: Duckstation (LinuxServer.io)
+    zh_CN: Duckstation（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverduckstation
   port_map: '3000'
   version: version-latest

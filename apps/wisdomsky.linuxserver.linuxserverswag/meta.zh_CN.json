@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverswag",
+  "title": "Swag（LinuxServer.io）",
+  "tagline": "集成证书自动管理和入侵防护的网页网关。",
+  "description": "SWAG（Secure Web Application Gateway，原名 letsencrypt，与 Let's Encrypt™ 无关联）提供支持 PHP 的 Nginx 网页服务器和反向代理，内置 Certbot 客户端，可通过 Let's Encrypt 和 ZeroSSL 自动生成及续期免费 SSL 服务器证书。它还包含用于入侵防护的 Fail2ban。"
+}

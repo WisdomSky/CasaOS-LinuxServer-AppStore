@@ -25,6 +25,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfleet/assets/icon.svg
   title:
     en_US: Fleet
+    zh_CN: Fleet
   port_map: '8080'
   id: wisdomsky.linuxserver.linuxserverfleet
   version: 2.3.3

@@ -26,6 +26,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversmokeping/assets/icon.png
   title:
     en_US: Smokeping (LinuxServer.io)
+    zh_CN: Smokeping（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversmokeping
   port_map: '80'
   version: 2.9.0

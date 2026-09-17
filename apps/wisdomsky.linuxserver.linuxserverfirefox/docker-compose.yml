@@ -24,6 +24,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfirefox/assets/icon.png
   title:
     en_US: Firefox (LinuxServer.io)
+    zh_CN: Firefox（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverfirefox
   port_map: '3000'
   version: 1155.0.1

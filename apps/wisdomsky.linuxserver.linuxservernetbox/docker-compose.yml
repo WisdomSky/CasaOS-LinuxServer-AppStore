@@ -42,6 +42,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernetbox/assets/icon.png
   title:
     en_US: Netbox (LinuxServer.io)
+    zh_CN: Netbox（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservernetbox
   port_map: '8000'
   version: 4.7.1

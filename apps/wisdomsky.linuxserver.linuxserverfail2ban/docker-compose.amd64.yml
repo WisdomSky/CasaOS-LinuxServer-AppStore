@@ -75,6 +75,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfail2ban/assets/icon.png
   title:
     en_US: Fail2ban (LinuxServer.io)
+    zh_CN: Fail2ban（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverfail2ban
   port_map: '80'
   version: 1.1.0

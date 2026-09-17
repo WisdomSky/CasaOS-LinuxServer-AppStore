@@ -30,6 +30,7 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveropensshserver/assets/icon.png
   title:
     en_US: Openssh server (LinuxServer.io)
+    zh_CN: Openssh server（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveropensshserver
   port_map: '2222'
   version: version-10.3_p1-r1
