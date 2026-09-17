@@ -34,7 +34,7 @@ The LinuxServer Appstore is **guaranteed to provide you the latest version of ev
 
 For ZimaOS, add this source in ZimaOS App Store's community store settings:
 
-    https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-LinuxServer-AppStore@gh-pages/store.json
+    https://casaos-appstore.paodayag.dev/linuxserver/store.json
 
 
 ## ✅ CasaOS Installation
