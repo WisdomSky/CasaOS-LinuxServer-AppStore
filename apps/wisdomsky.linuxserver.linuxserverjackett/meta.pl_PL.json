@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverjackett",
+  "title": "Jackett (LinuxServer.io)",
+  "tagline": "Działa jako serwer proxy: tłumaczy zapytania z aplikacji (Sonarr, SickRage, CouchPotato, Mylar itp.) na zapytania HTTP specyficzne dla danej witryny śledzącej, analizuje odpowiedź HTML, a następnie odsyła wyniki do oprogramowania, które ją przesłało. Umożliwia to pobieranie ostatnio przesłanych plików (np. RSS) i przeprowadzanie wyszukiwań. Jackett to pojedyncze repozytorium zarządzanej logiki scrapowania i tłumaczenia indeksera, odciążające inne aplikacje.",
+  "description": "Jackett działa jako serwer proxy: tłumaczy zapytania z aplikacji (Sonarr, SickRage, CouchPotato, Mylar itp.) na zapytania HTTP specyficzne dla danej witryny śledzącej, analizuje odpowiedź HTML, a następnie odsyła wyniki do oprogramowania, które ją przesłało. Pozwala to na pobieranie ostatnio przesłanych plików (np. RSS) i przeprowadzanie wyszukiwań. Jackett to pojedyncze repozytorium zarządzanej logiki scrapowania i tłumaczenia indeksera, odciążając inne aplikacje."
+}

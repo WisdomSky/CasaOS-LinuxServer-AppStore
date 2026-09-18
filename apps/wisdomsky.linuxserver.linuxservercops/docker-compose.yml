@@ -1,7 +1,7 @@
 name: linuxserver-cops
 services:
   app:
-    image: linuxserver/cops:4.5.2
+    image: linuxserver/cops:4.5.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -26,7 +26,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservercops/assets/icon.png
   title:
     en_US: Cops (LinuxServer.io)
+    ca_ES: Cops (LinuxServer.io)
+    cs_CZ: Cops (LinuxServer.io)
+    da_DK: Cops (LinuxServer.io)
+    de_DE: Cops (LinuxServer.io)
+    el_GR: Cops (LinuxServer.io)
+    en_GB: Cops (LinuxServer.io)
+    es_ES: Cops (LinuxServer.io)
+    fr_FR: Cops (LinuxServer.io)
+    ga_IE: Cops (LinuxServer.io)
+    hr_HR: Cops (LinuxServer.io)
+    hu_HU: Cops (LinuxServer.io)
+    it_IT: Cops (LinuxServer.io)
+    ja_JP: Cops (LinuxServer.io)
+    ko_KR: Cops (LinuxServer.io)
+    ml_IN: Cops (LinuxServer.io)
+    nb_NO: Cops (LinuxServer.io)
+    nl_NL: Cops (LinuxServer.io)
+    pl_PL: Cops (LinuxServer.io)
+    pt_BR: Cops (LinuxServer.io)
+    ro_RO: Cops (LinuxServer.io)
+    ru_RU: Cops (LinuxServer.io)
+    sk_SK: Cops (LinuxServer.io)
+    sv_SE: Cops (LinuxServer.io)
+    tr_TR: Cops (LinuxServer.io)
     zh_CN: Cops（LinuxServer.io）
+    zh_TW: Cops（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservercops
   port_map: '80'
-  version: 4.5.2
+  version: 4.5.4

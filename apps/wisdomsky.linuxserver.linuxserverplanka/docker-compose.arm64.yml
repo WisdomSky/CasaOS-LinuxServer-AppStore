@@ -1,7 +1,7 @@
 name: linuxserver-planka
 services:
   app:
-    image: linuxserver/planka:2.2.1@sha256:e8fb0882edc76fb5ffa922b00ed2d0fc098c16fc7507e87df7d8d065ab772cae
+    image: linuxserver/planka:2.2.1@sha256:48d917fbc09cf042293e4ab7ec80313a2f1156ad4e4463c36ca65894f545988f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -29,7 +29,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverplanka/assets/icon.png
   title:
     en_US: Planka (LinuxServer.io)
+    ca_ES: Planka (LinuxServer.io)
+    cs_CZ: Planka (LinuxServer.io)
+    da_DK: Planka (LinuxServer.io)
+    de_DE: Planka (LinuxServer.io)
+    el_GR: Planka (LinuxServer.io)
+    en_GB: Planka (LinuxServer.io)
+    es_ES: Planka (LinuxServer.io)
+    fr_FR: Planka (LinuxServer.io)
+    ga_IE: Planka (LinuxServer.io)
+    hr_HR: Planka (LinuxServer.io)
+    hu_HU: Planka (LinuxServer.io)
+    it_IT: Planka (LinuxServer.io)
+    ja_JP: Planka (LinuxServer.io)
+    ko_KR: Planka (LinuxServer.io)
+    ml_IN: Planka (LinuxServer.io)
+    nb_NO: Planka (LinuxServer.io)
+    nl_NL: Planka (LinuxServer.io)
+    pl_PL: Planka (LinuxServer.io)
+    pt_BR: Planka (LinuxServer.io)
+    ro_RO: Planka (LinuxServer.io)
+    ru_RU: Planka (LinuxServer.io)
+    sk_SK: Planka (LinuxServer.io)
+    sv_SE: Planka (LinuxServer.io)
+    tr_TR: Planka (LinuxServer.io)
     zh_CN: Planka（LinuxServer.io）
+    zh_TW: Planka（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverplanka
   port_map: '1337'
   version: 2.2.1

@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverendlessh",
+  "title": "Endlessh",
+  "tagline": "透過緩慢傳送 SSH 標識拖住掃描客戶端。",
+  "description": "Endlessh 是一個 SSH 陷阱，會極其緩慢地傳送無窮無盡的隨機 SSH 標識，將 SSH 客戶端拖住數小時甚至數天。其用途是將真正的 SSH 服務放在其他埠，讓自動掃描和攻擊指令碼陷入這個陷阱，而不是干擾真實伺服器。\n\n訪問專案主頁：https://github.com/orgs/linuxserver/packages/container/package/endlessh"
+}

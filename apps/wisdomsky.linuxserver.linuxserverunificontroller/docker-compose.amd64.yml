@@ -47,6 +47,31 @@ x-casaos:
   title:
     en_US: Unifi controller
     zh_CN: Unifi controller
+    ca_ES: Unifi controller
+    cs_CZ: Unifi controller
+    da_DK: Unifi controller
+    de_DE: Unifi controller
+    el_GR: Unifi controller
+    en_GB: Unifi controller
+    es_ES: Unifi controller
+    fr_FR: Unifi controller
+    ga_IE: Unifi controller
+    hr_HR: Unifi controller
+    hu_HU: Unifi controller
+    it_IT: Unifi controller
+    ja_JP: Unifi controller
+    ko_KR: Unifi controller
+    ml_IN: Unifi controller
+    nb_NO: Unifi controller
+    nl_NL: Unifi controller
+    pl_PL: Unifi controller
+    pt_BR: Unifi controller
+    ro_RO: Unifi controller
+    ru_RU: Unifi controller
+    sk_SK: Unifi controller
+    sv_SE: Unifi controller
+    tr_TR: Unifi controller
+    zh_TW: Unifi controller
   port_map: '8443'
   scheme: https
   id: wisdomsky.linuxserver.linuxserverunificontroller

@@ -1,7 +1,7 @@
 name: linuxserver-emby
 services:
   app:
-    image: linuxserver/emby:4.10.0@sha256:38e253a48a0d539abadbf67a672ad85a79b73a320626c3f71b6da1f7697ed377
+    image: linuxserver/emby:4.10.0@sha256:802ddab7b2f6090bfe67d90d727392cb599e16eb1b703f08ff9b10c19c16d81f
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,6 +32,31 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveremby/assets/icon.png
   title:
     en_US: Emby (LinuxServer.io)
+    ca_ES: Emby (LinuxServer.io)
+    cs_CZ: Emby (LinuxServer.io)
+    da_DK: Emby (LinuxServer.io)
+    de_DE: Emby (LinuxServer.io)
+    el_GR: Emby (LinuxServer.io)
+    en_GB: Emby (LinuxServer.io)
+    es_ES: Emby (LinuxServer.io)
+    fr_FR: Emby (LinuxServer.io)
+    ga_IE: Emby (LinuxServer.io)
+    hr_HR: Emby (LinuxServer.io)
+    hu_HU: Emby (LinuxServer.io)
+    it_IT: Emby (LinuxServer.io)
+    ja_JP: Emby (LinuxServer.io)
+    ko_KR: Emby (LinuxServer.io)
+    ml_IN: Emby (LinuxServer.io)
+    nb_NO: Emby (LinuxServer.io)
+    nl_NL: Emby (LinuxServer.io)
+    pl_PL: Emby (LinuxServer.io)
+    pt_BR: Emby (LinuxServer.io)
+    ro_RO: Emby (LinuxServer.io)
+    ru_RU: Emby (LinuxServer.io)
+    sk_SK: Emby (LinuxServer.io)
+    sv_SE: Emby (LinuxServer.io)
+    tr_TR: Emby (LinuxServer.io)
     zh_CN: Emby（LinuxServer.io）
+    zh_TW: Emby（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveremby
   version: 4.10.0

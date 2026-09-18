@@ -1,7 +1,7 @@
 name: linuxserver-lychee
 services:
   app:
-    image: linuxserver/lychee:7.8.3@sha256:f766a376b4645876afcc104273b3ad737e5f5aad2e51523b4e4b2c8fa76cf1f2
+    image: linuxserver/lychee:7.8.4@sha256:a0c3ade1d5478a3c8bb9be1ff9fbed29c6a3fff4957e328b10cb80ce381f4685
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -32,7 +32,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlychee/assets/icon.png
   title:
     en_US: Lychee (LinuxServer.io)
+    ca_ES: Lychee (LinuxServer.io)
+    cs_CZ: Lychee (LinuxServer.io)
+    da_DK: Lychee (LinuxServer.io)
+    de_DE: Lychee (LinuxServer.io)
+    el_GR: Lychee (LinuxServer.io)
+    en_GB: Lychee (LinuxServer.io)
+    es_ES: Lychee (LinuxServer.io)
+    fr_FR: Lychee (LinuxServer.io)
+    ga_IE: Lychee (LinuxServer.io)
+    hr_HR: Lychee (LinuxServer.io)
+    hu_HU: Lychee (LinuxServer.io)
+    it_IT: Lychee (LinuxServer.io)
+    ja_JP: Lychee (LinuxServer.io)
+    ko_KR: Lychee (LinuxServer.io)
+    ml_IN: Lychee (LinuxServer.io)
+    nb_NO: Lychee (LinuxServer.io)
+    nl_NL: Lychee (LinuxServer.io)
+    pl_PL: Lychee (LinuxServer.io)
+    pt_BR: Lychee (LinuxServer.io)
+    ro_RO: Lychee (LinuxServer.io)
+    ru_RU: Lychee (LinuxServer.io)
+    sk_SK: Lychee (LinuxServer.io)
+    sv_SE: Lychee (LinuxServer.io)
+    tr_TR: Lychee (LinuxServer.io)
     zh_CN: Lychee（LinuxServer.io）
+    zh_TW: Lychee（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlychee
   port_map: '80'
-  version: 7.8.3
+  version: 7.8.4

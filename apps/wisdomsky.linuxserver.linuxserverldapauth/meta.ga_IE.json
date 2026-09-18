@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverldapauth",
+  "title": "Ldap auth (LinuxServer.io)",
+  "tagline": "Is chun úsáideoirí a fhíordheimhniú a iarrann acmhainní cosanta ó fhreastalaithe arna n-oibriú ag nginx atá an bogearra. Cuimsíonn sé daemon (ldap-auth) a chuireann cumarsáid le freastalaí fíordheimhnithe, agus daemon freastalaí gréasáin a ghineann fianán fíordheimhnithe bunaithe ar dhintiúir an úsáideora. Scríobhtar na daemon i Python lena n-úsáid le freastalaí fíordheimhnithe Lightweight Directory Access Protocol (LDAP) (OpenLDAP nó Microsoft Windows Active Directory 2003 agus 2012).",
+  "description": "Is chun úsáideoirí a fhíordheimhniú a iarrann acmhainní cosanta ó fhreastalaithe arna n-oibriú ag nginx atá bogearraí ldap-auth. Cuimsíonn sé daemon (ldap-auth) a dhéanann cumarsáid le freastalaí fíordheimhnithe, agus daemon freastalaí gréasáin a ghineann fianán fíordheimhnithe bunaithe ar dhintiúir an úsáideora. Scríobhtar na daemon i Python lena n-úsáid le freastalaí fíordheimhnithe Lightweight Directory Access Protocol (LDAP) (OpenLDAP nó Microsoft Windows Active Directory 2003 agus 2012)."
+}

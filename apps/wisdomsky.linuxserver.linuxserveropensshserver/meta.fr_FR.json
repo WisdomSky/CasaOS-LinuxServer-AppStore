@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+  "title": "Openssh server (LinuxServer.io)",
+  "tagline": "Un environnement isolé (sandbox) qui permet l'accès SSH sans fournir de clés pour l'ensemble du serveur. Accorder un accès SSH via une clé privée revient généralement à donner un accès complet au serveur. Ce conteneur crée un environnement limité et isolé auquel d'autres utilisateurs peuvent se connecter via SSH. Les utilisateurs ont uniquement accès aux dossiers mappés et aux processus exécutés à l'intérieur de ce conteneur.",
+  "description": "Openssh-server est un environnement isolé permettant l'accès SSH sans avoir à fournir les clés d'accès à l'ensemble du serveur. Accorder un accès SSH via une clé privée revient généralement à donner un accès complet au serveur. Ce conteneur crée un environnement limité et isolé auquel d'autres utilisateurs peuvent se connecter via SSH. Les utilisateurs ont uniquement accès aux dossiers mappés et aux processus exécutés à l'intérieur de ce conteneur."
+}

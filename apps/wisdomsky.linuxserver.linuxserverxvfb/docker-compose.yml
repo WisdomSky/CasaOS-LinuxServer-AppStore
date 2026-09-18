@@ -21,6 +21,31 @@ x-casaos:
   title:
     en_US: Xvfb
     zh_CN: Xvfb
+    ca_ES: Xvfb
+    cs_CZ: Xvfb
+    da_DK: Xvfb
+    de_DE: Xvfb
+    el_GR: Xvfb
+    en_GB: Xvfb
+    es_ES: Xvfb
+    fr_FR: Xvfb
+    ga_IE: Xvfb
+    hr_HR: Xvfb
+    hu_HU: Xvfb
+    it_IT: Xvfb
+    ja_JP: Xvfb
+    ko_KR: Xvfb
+    ml_IN: Xvfb
+    nb_NO: Xvfb
+    nl_NL: Xvfb
+    pl_PL: Xvfb
+    pt_BR: Xvfb
+    ro_RO: Xvfb
+    ru_RU: Xvfb
+    sk_SK: Xvfb
+    sv_SE: Xvfb
+    tr_TR: Xvfb
+    zh_TW: Xvfb
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverxvfb
   version: debiantrixie-version-9d327c0f

@@ -1,7 +1,7 @@
 name: linuxserver-minisatip
 services:
   app:
-    image: linuxserver/minisatip:2.0.103@sha256:6791f726ff7cc9858f396cc2e451ab95cd12cb4d4d906a8822df32d65dc4a756
+    image: linuxserver/minisatip:2.0.105@sha256:5c8b1b6595f7c56431f3644a44f261b4750aecb0bfe52b5412a92fd3e9a88aa9
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,6 +27,31 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverminisatip/assets/icon.png
   title:
     en_US: Minisatip (LinuxServer.io)
+    ca_ES: Minisatip (LinuxServer.io)
+    cs_CZ: Minisatip (LinuxServer.io)
+    da_DK: Minisatip (LinuxServer.io)
+    de_DE: Minisatip (LinuxServer.io)
+    el_GR: Minisatip (LinuxServer.io)
+    en_GB: Minisatip (LinuxServer.io)
+    es_ES: Minisatip (LinuxServer.io)
+    fr_FR: Minisatip (LinuxServer.io)
+    ga_IE: Minisatip (LinuxServer.io)
+    hr_HR: Minisatip (LinuxServer.io)
+    hu_HU: Minisatip (LinuxServer.io)
+    it_IT: Minisatip (LinuxServer.io)
+    ja_JP: Minisatip (LinuxServer.io)
+    ko_KR: Minisatip (LinuxServer.io)
+    ml_IN: Minisatip (LinuxServer.io)
+    nb_NO: Minisatip (LinuxServer.io)
+    nl_NL: Minisatip (LinuxServer.io)
+    pl_PL: Minisatip (LinuxServer.io)
+    pt_BR: Minisatip (LinuxServer.io)
+    ro_RO: Minisatip (LinuxServer.io)
+    ru_RU: Minisatip (LinuxServer.io)
+    sk_SK: Minisatip (LinuxServer.io)
+    sv_SE: Minisatip (LinuxServer.io)
+    tr_TR: Minisatip (LinuxServer.io)
     zh_CN: Minisatip（LinuxServer.io）
+    zh_TW: Minisatip（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverminisatip
-  version: 2.0.103
+  version: 2.0.105

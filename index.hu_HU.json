@@ -1,0 +1,1234 @@
+{
+  "apps": [
+    {
+      "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
+      "title": "Adguardhome sync (LinuxServer.io)",
+      "tagline": "Egy eszköz az AdGuardHome konfigurációjának szinkronizálásához a replika példányokkal."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
+      "title": "Airsonic advanced (LinuxServer.io)",
+      "tagline": "Egy ingyenes, webalapú média streamer, amely mindenütt hozzáférést biztosít zenéidhez. Használd zenéid barátaiddal való megosztására, vagy saját zenéid hallgatására munka közben. Egyszerre több lejátszóra is streamelhetsz, például az egyikre a konyhádban, a másikra pedig a nappalidban."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraltus",
+      "title": "Altus (LinuxServer.io)",
+      "tagline": "Egy Electron alapú WhatsApp kliens témákkal és több fiók támogatásával."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverappriseapi",
+      "title": "Apprise api (LinuxServer.io)",
+      "tagline": "Használja ki az Apprise előnyeit a hálózatán keresztül egy felhasználóbarát API-val. * Értesítéseket küldhet több mint 100 szolgáltatásnak. * Hihetetlenül könnyű átjáró az Apprise-hoz. * Egy éles üzemre kész mikroszolgáltatás áll rendelkezésére. * Egy egyszerű weboldal a konfiguráció ellenőrzéséhez és teszteléséhez. Az Apprise API-t úgy tervezték, hogy könnyen illeszkedjen a meglévő (és új) ökoszisztémákba, amelyek egyszerű értesítési megoldást keresnek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverardour",
+      "title": "Ardour (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú, egy világméretű csapat együttműködésén alapuló projekt, amelyben zenészek, programozók és profi hangmérnökök vesznek részt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraudacity",
+      "title": "Audacity (LinuxServer.io)",
+      "tagline": "Egy könnyen használható, többsávos hangszerkesztő és -felvevő. Önkéntesek egy csoportja fejlesztette nyílt forráskódúként."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverazahar",
+      "title": "Azahar (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú 3DS emulátor, amely a Citra alapú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbabybuddy",
+      "title": "Babybuddy (LinuxServer.io)",
+      "tagline": "Babatárs. Segít a gondozóknak nyomon követni az alvást, az etetést, a pelenkacserét, a hason fekvést és egyebeket, hogy megismerjék és megjósolják a baba igényeit anélkül, hogy (annyi) találgatással kellene foglalkozniuk."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbambustudio",
+      "title": "Bambustudio (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú, élvonalbeli, funkciókban gazdag szeletelő szoftver. Projekt alapú munkafolyamatokat, szisztematikusan optimalizált szeletelő algoritmusokat és könnyen használható grafikus felületet tartalmaz, hihetetlenül zökkenőmentes nyomtatási élményt nyújtva a felhasználóknak."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbazarr",
+      "title": "Bazarr (LinuxServer.io)",
+      "tagline": "A Sonarr és a Radarr kiegészítő alkalmazása. Feliratokat kezelhet és tölthet le az igényeidnek megfelelően. Megadhatod a preferenciáidat tévéműsor vagy film szerint, és a Bazarr mindent elintéz helyetted."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbeets",
+      "title": "Beets (LinuxServer.io)",
+      "tagline": "Egy zenei könyvtárkezelő, és többnyire nem zenelejátszó. Tartalmaz egy egyszerű lejátszóbővítményt és egy kísérleti webes lejátszót, de a tényleges hangvisszaadást általában speciális eszközökre bízza."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
+      "title": "Bitcoin knots (LinuxServer.io)",
+      "tagline": "Használható asztali kliensként rendszeres fizetésekhez, vagy teljes értékű csomópont-kiszolgáló segédprogramként kereskedők és más fizetési szolgáltatások számára."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
+      "title": "Blade of-agony (LinuxServer.io)",
+      "tagline": "Egy történetvezérelt második világháborús lövöldözős játék, amelyet a Wolfenstein és a Doom ihletett."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverblender",
+      "title": "Blender (LinuxServer.io)",
+      "tagline": "Ingyenes és nyílt forráskódú 3D számítógépes grafikai szoftvereszközkészlet animációs filmek, vizuális effektek, művészeti alkotások, 3D nyomtatott modellek, mozgóképes grafika, interaktív 3D alkalmazások, virtuális valóság és számítógépes játékok készítésére. Ez a kép nem támogatja a GPU-s renderelést az alapértelmezés szerint, csak a gyorsított munkaterület élményét."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverboinc",
+      "title": "Boinc (LinuxServer.io)",
+      "tagline": "Nagy áteresztőképességű számítástechnikai platform nagy léptékben (több ezer vagy több millió számítógép). Használható önkéntes számítástechnikához (fogyasztói eszközök használatával) vagy grid számítástechnikához (szervezeti erőforrások használatával). Támogatja a virtualizált, párhuzamos és GPU-alapú alkalmazásokat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
+      "title": "Booksonic air",
+      "tagline": "Egy platform, ahol bárhol hozzáférhetsz a hangoskönyveidhez. Jelenleg a platform a következőket tartalmazza: * Booksonic Air - Egy szerver a hangoskönyveid streameléséhez, az eredeti Booksonic szerver utódja, az Airsonicon alapul. * Booksonic alkalmazás - Egy DSub alapú Android alkalmazás a Booksonic-Air szervereihez való csatlakozáshoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbookstack",
+      "title": "Bookstack (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú wiki, amelyet gyönyörű dokumentációk készítésére terveztek. Egy egyszerű, de hatékony WYSIWYG szerkesztővel a csapatok könnyedén készíthetnek részletes és hasznos dokumentációkat. Az SQL-alapú és Markdown szerkesztővel rendelkező BookStack célja, hogy a dokumentációt inkább élvezet, mint teher legyen. További információkért a BookStackről látogassa meg weboldalukat: https://www.Bookstackapp.Com"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbrave",
+      "title": "Brave (LinuxServer.io)",
+      "tagline": "Gyors, privát és biztonságos webböngésző PC-re, Mac-re és mobilra."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbudge",
+      "title": "Budge (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú „borítékokkal történő költségvetés-tervezés” személyes pénzügyi alkalmazás."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbuildagent",
+      "title": "Build agent",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/build-agent oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibre",
+      "title": "Calibre (LinuxServer.io)",
+      "tagline": "Egy hatékony és könnyen használható e-könyv kezelő. A felhasználók szerint kiemelkedő és kötelező darab. Szinte mindent lehetővé tesz, és egy lépéssel túlmutat a hagyományos e-könyv szoftvereken. Emellett teljesen ingyenes és nyílt forráskódú, így nagyszerű mind a hétköznapi felhasználók, mind a számítógépes szakértők számára."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibreweb",
+      "title": "Calibre web (LinuxServer.io)",
+      "tagline": "Egy webes alkalmazás, amely letisztult felületet biztosít e-könyvek böngészéséhez, olvasásához és letöltéséhez egy meglévő Calibre adatbázis használatával. Lehetőség van a Google Drive integrálására, valamint a metaadatok és a Calibre könyvtár szerkesztésére magán az alkalmazáson keresztül. Ez a szoftver egy könyvtár-elágazás, és a GPL v3 licenc alatt áll."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalligra",
+      "title": "Calligra (LinuxServer.io)",
+      "tagline": "KDE irodai és grafikai programcsomag. Elérhető asztali számítógépekre, táblagépekre és okostelefonokra. Tartalmaz alkalmazásokat szövegszerkesztéshez, táblázatkezeléshez, prezentációkhoz, vektorgrafikához és adatbázis-szerkesztéshez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
+      "title": "Changedetection. Io (LinuxServer.io)",
+      "tagline": "Ingyenes, nyílt forráskódú weboldal-figyelést, értesítéseket és változásészlelést biztosít."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchrome",
+      "title": "Chrome (LinuxServer.io)",
+      "tagline": "A Google hivatalos webböngészője, amelyet gyors, biztonságos és testreszabható használatra terveztek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchromium",
+      "title": "Chromium (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú böngészőprojekt, amelynek célja, hogy biztonságosabb, gyorsabb és stabilabb módot teremtsen minden felhasználó számára az internetezés megtapasztalására."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverci",
+      "title": "Ci",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/ci oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercidebug",
+      "title": "Ci debug",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/ci-debug oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercitron",
+      "title": "Citron",
+      "tagline": "Egy funkciókban gazdag Switch 1 emulátor házi készítésű játékokhoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercodeserver",
+      "title": "Code server (LinuxServer.io)",
+      "tagline": "VS Code távoli szerveren fut, böngészőn keresztül elérhető. – Kódolj Chromebookodon, táblagépeden és laptopodon konzisztens fejlesztői környezetben. – Ha Windows vagy Mac munkaállomásod van, könnyebben fejleszthetsz Linuxra. – Használd ki a nagy felhőszervereket a tesztek, fordítások, letöltések és egyebek felgyorsításához. – Környezetbarát akkumulátor-üzemidő útközben. – Minden intenzív számítás a szervereden fut. – Többé nem kell felesleges Chrome-példányokat futtatnod."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercops",
+      "title": "Cops (LinuxServer.io)",
+      "tagline": "Sébastien Lucas tollából, jelenleg a MikesPub tartja karban, a Calibre OPDS (és HTML) Php Server rövidítése. A COPS a Calibre könyvtáradatbázisodhoz kapcsolódik, és lehetővé teszi a könyvek letöltését és e-mailben küldését közvetlenül egy webböngészőből, valamint OPDS-hírcsatornát biztosít az eszközeidhez való csatlakozáshoz. A Calibre könyvtáradban végrehajtott változtatások azonnal megjelennek a COPS oldalain. További részletekért lásd: COPS honlapja. Ne felejtsd el megnézni a Wikit. ## Miért. (a szerző oldaláról származik) Véleményem szerint a Calibre egy csodálatos eszköz, de túl nagy és túl sok függősége van ahhoz, hogy a tartalomkiszolgálójához használjuk. Ez a fő oka annak, hogy miért kódoltam ezt az OPDS-kiszolgálót. Szükségem volt egy egyszerű eszközre, amelyet egy kis szerverre lehet telepíteni (az én esetemben a Seagate Dockstar). Eredetileg a Calibre2OPDS-re gondoltam, de mivel statikus fájlokat generál, nem volt lehetséges a keresés. Később hozzáadtam egy egyszerű HTML-katalógust, amelynek használhatónak kell lennie a Kobo-mon. Tehát a COPS fő előnyei: * Nincs szükség sok függőségre. * Nincs szükség sok CPU-ra vagy RAM-ra. * Nincs sok kód. * Van keresés. * A Dropbox / owncloud segítségével nagyon könnyű naprakész OPDS szervert üzemeltetni. * Élvezetes volt kódolni. Ha használni szeretnéd az OPDS hírcsatornát, ne felejtsd el megadni a /feed kapcsolót az URL végén."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercura",
+      "title": "Cura (LinuxServer.io)",
+      "tagline": "Ingyenes, könnyen használható 3D nyomtatószoftver, amelyben több millió felhasználó bízik. Finomhangolja 3D modelljét több mint 400 beállítással a legjobb szeletelési és nyomtatási eredmények elérése érdekében."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverd2builder",
+      "title": "D2 builder",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/d2-builder oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdaapd",
+      "title": "Daapd",
+      "tagline": "(iTunes) médiaszerver AirPlay eszközök, Apple Remote (és kompatibilis eszközök), Chromecast, MPD és internetes rádió támogatásával."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdarktable",
+      "title": "Darktable (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú fotózási munkafolyamat-alkalmazás és nyers képek fejlesztője. Virtuális fényasztal és sötétkamra fotósoknak. Kezeli digitális negatívjait egy adatbázisban, lehetővé teszi azok megtekintését egy nagyítható fényasztalon keresztül, valamint nyers képek előhívását és javítását."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdavos",
+      "title": "Davos (LinuxServer.io)",
+      "tagline": "Egy FTP automatizáló eszköz, amely rendszeresen beolvassa a megadott host helyeket új fájlok után kutatva. Különböző célokra konfigurálható, beleértve a bizonyos fájlok megjelenésének figyelését a host helyen, készen a letöltésre és áthelyezésre, ha szükséges. Támogatja a befejezési értesítéseket, valamint a downstream API-hívásokat is a munkafolyamat elősegítése érdekében."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverddclient",
+      "title": "Ddclient (LinuxServer.io)",
+      "tagline": "Egy Perl kliens, amely a Dynamic DNS Network Service Provider fiókjainak dinamikus DNS-bejegyzéseinek frissítésére szolgál. Eredetileg Paul Burry írta, ma már főként wimpunk műve. Nem csak a dyndns frissítésére képes, és a WAN-ip címet is többféleképpen tudja lekérni."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdeluge",
+      "title": "Deluge (LinuxServer.io)",
+      "tagline": "Egy könnyűsúlyú, ingyenes szoftver, többplatformos BitTorrent kliens. * Teljes titkosítás * Webes felhasználói felület * Bővítményrendszer * Sokkal több..."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdigikam",
+      "title": "Digikam (LinuxServer.io)",
+      "tagline": "digiKam: Professzionális fotókezelés a nyílt forráskód erejével"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdillinger",
+      "title": "Dillinger",
+      "tagline": "Egy felhőalapú, mobilbarát, offline tárhelyre alkalmas, AngularJS-alapú HTML5 Markdown szerkesztő."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdiskover",
+      "title": "Diskover (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú fájlrendszer-indexelő, amely az Elasticsearch szolgáltatást használja az adatok indexelésére és kezelésére heterogén tárolórendszerekben."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdogwalk",
+      "title": "Dogwalk (LinuxServer.io)",
+      "tagline": "A Blender Studio régóta várt második játékprojektje, amely egy interaktív, mesemondó játszótér létrehozására összpontosít. Játssz egy nagy, imádnivaló kutya bőrében, és fedezd fel a téli erdőt egy kisgyerekkel."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
+      "title": "Dokuwiki (LinuxServer.io)",
+      "tagline": "Egy egyszerűen használható és rendkívül sokoldalú, nyílt forráskódú wiki szoftver, amely nem igényel adatbázist. A felhasználók szeretik a tiszta és olvasható szintaxisáért. A könnyű karbantartás, biztonsági mentés és integráció a rendszergazdák kedvencévé teszi. A beépített hozzáférés-vezérlés és hitelesítési csatlakozók különösen hasznossá teszik a DokuWikit vállalati környezetben, és a pezsgő közösség által biztosított nagyszámú bővítmény széles körű felhasználási lehetőségeket tesz lehetővé a hagyományos wikin túl."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdolphin",
+      "title": "Dolphin (LinuxServer.io)",
+      "tagline": "Lehetővé teszi GameCube és Wii játékok lejátszását különféle grafikai fejlesztésekkel és egyéb funkciókkal, amelyek javítják a játékélményt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdomoticz",
+      "title": "Domoticz",
+      "tagline": "Egy otthonautomatizálási rendszer, amely lehetővé teszi különféle eszközök figyelését és konfigurálását, például: lámpák, kapcsolók, különféle érzékelők/mérők, például hőmérséklet, eső, szél, UV, elektra, gáz, víz és még sok más. Az értesítések/riasztások bármilyen mobileszközre elküldhetők."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarr",
+      "title": "Doplarr",
+      "tagline": "Egy *arr kérés bot a Discordhoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
+      "title": "Doplarr_rs (LinuxServer.io)",
+      "tagline": "Egy Discord bot média igényléséhez *arr backendeken keresztül, Rust nyelven írva."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
+      "title": "Dosbox staging (LinuxServer.io)",
+      "tagline": "A DOSBox modern folytatása, egy ingyenes és nyílt forráskódú emulátor, amely lehetővé teszi az MS-DOS szoftverek, különösen a videojátékok futtatását."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
+      "title": "Doublecommander (LinuxServer.io)",
+      "tagline": "Egy ingyenes, többplatformos, nyílt forráskódú fájlkezelő két egymás melletti panellel. A Total Commander ihlette, és néhány új ötletet is tartalmaz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckdns",
+      "title": "Duckdns (LinuxServer.io)",
+      "tagline": "Egy ingyenes szolgáltatás, amely egy DNS-t (a duckdns.org aldomainjeit) egy általad választott IP-címre irányít. A szolgáltatás teljesen ingyenes, és nem igényel újraaktiválást vagy fórumbejegyzéseket a fennmaradásához."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckstation",
+      "title": "Duckstation (LinuxServer.io)",
+      "tagline": "Egy PS1 emulátor, amely a legjobb pontosságot és játéktámogatást célozza meg."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduplicati",
+      "title": "Duplicati (LinuxServer.io)",
+      "tagline": "Egy biztonsági mentési kliens, amely biztonságosan tárolja a titkosított, inkrementális, tömörített biztonsági mentéseket helyi tárolón, felhőalapú tárhelyszolgáltatásokon és távoli fájlszervereken. Működik olyan szabványos protokollokkal, mint az FTP, SSH, WebDAV, valamint olyan népszerű szolgáltatásokkal, mint a Microsoft OneDrive, az Amazon S3, a Google Drive, a Box.Com, a Mega, a B2 és sok más."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservereden",
+      "title": "Eden (LinuxServer.io)",
+      "tagline": "Egy kísérleti, nyílt forráskódú emulátor Nintendo Switchre, amelyet a teljesítmény és a stabilitás szem előtt tartásával terveztek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremby",
+      "title": "Emby (LinuxServer.io)",
+      "tagline": "Videókat, zenéket, élő TV-adásokat és fényképeket rendszerez a személyes médiakönyvtárakból, és streameli azokat okostévékre, streaming boxokra és mobileszközökre. Ez a konténer önálló emby médiaszerverként van csomagolva."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverembystat",
+      "title": "Embystat",
+      "tagline": "Egy személyes webszerver, ami mindenféle statisztikát ki tud számolni a (helyi) Emby szerveredről. Csak telepítsd a szerveredre, és máris mindenféle érdekességet kiszámol."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremulatorjs",
+      "title": "Emulatorjs",
+      "tagline": "Böngésző alapú webes emuláció, amely szinte bármilyen eszközön hordozható, sok retró konzolhoz. A Libretro és az EmulatorJS emulátorok keverékét használják."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverendlessh",
+      "title": "Endlessh",
+      "tagline": "Egy SSH kártya, ami nagyon lassan küld végtelen, véletlenszerű SSH bannereket. Órákra, vagy akár napokra is zárolva tartja az SSH klienseket. A célja, hogy az igazi SSH szerveredet egy másik portra tedd, majd hagyd, hogy a script kiddies ezen a kártyán ragadjon ahelyett, hogy egy igazi szervert zavarna."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfail2ban",
+      "title": "Fail2ban (LinuxServer.io)",
+      "tagline": "Egy démon, amely tiltja a többszörös hitelesítési hibákat okozó hosztokat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+      "title": "Faster whisper (LinuxServer.io)",
+      "tagline": "Az OpenAI Whisper modelljének újraimplementációja a CTranslate2 használatával, amely egy gyors következtetőmotor Transformer modellekhez. Ez a konténer egy Wyoming protokoll szervert biztosít a gyorsabb suttogáshoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
+      "title": "Feed2toot",
+      "tagline": "Automatikusan elemzi az RSS-hírcsatornákat, azonosítja az új bejegyzéseket, és közzéteszi azokat a Mastodon közösségi hálózaton."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverferdium",
+      "title": "Ferdium (LinuxServer.io)",
+      "tagline": "Egy asztali alkalmazás, amely segít rendszerezni kedvenc alkalmazásaid használatát azáltal, hogy egyetlen alkalmazásba egyesíti őket."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverffmpeg",
+      "title": "Ffmpeg (LinuxServer.io)",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/ffmpeg oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfilezilla",
+      "title": "Filezilla (LinuxServer.io)",
+      "tagline": "A Client egy gyors és megbízható, többplatformos FTP, FTPS és SFTP kliens, számos hasznos funkcióval és intuitív grafikus felhasználói felülettel."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfirefox",
+      "title": "Firefox (LinuxServer.io)",
+      "tagline": "A Browser, más néven Mozilla Firefox vagy egyszerűen Firefox, egy ingyenes és nyílt forráskódú webböngésző, amelyet a Mozilla Alapítvány és leányvállalata, a Mozilla Corporation fejlesztett ki. A Firefox a Gecko layout motort használja a weboldalak megjelenítéséhez, amely a jelenlegi és a várható webes szabványokat valósítja meg."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfleet",
+      "title": "Fleet",
+      "tagline": "Online webes felületet biztosít, amely egy vagy több saját adattárból származó karbantartott képfájlokat jelenít meg."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflexget",
+      "title": "Flexget (LinuxServer.io)",
+      "tagline": "Többcélú automatizáló eszköz minden médiatartalmához."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflycast",
+      "title": "Flycast (LinuxServer.io)",
+      "tagline": "Egy többplatformos Sega Dreamcast, Naomi, Naomi 2 és Atomiswave emulátor, amely a reicastból származik."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
+      "title": "Foldingathome (LinuxServer.io)",
+      "tagline": "Egy elosztott számítási projekt fehérjedinamika szimulálására, beleértve a fehérjehajtogatás folyamatát és a különféle betegségekkel összefüggő fehérjék mozgását. Összehozza azokat a civil tudósokat, akik önkéntesként fehérjedinamikai szimulációkat futtatnak személyi számítógépeiken. Az ezekből az adatokból származó információk segítik a tudósokat a biológia jobb megértésében, és új lehetőségeket kínálnak a terápiák fejlesztésére."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreecad",
+      "title": "Freecad (LinuxServer.io)",
+      "tagline": "Általános célú parametrikus 3D-s számítógéppel segített tervező (CAD) modellező és épületinformáció-modellező (BIM) szoftveralkalmazás végeselemes módszer (FEM) támogatással."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreetube",
+      "title": "Freetube",
+      "tagline": "Egy funkciókban gazdag és felhasználóbarát YouTube kliens, amely az adatvédelmet helyezi előtérbe."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreshrss",
+      "title": "Freshrss (LinuxServer.io)",
+      "tagline": "Ingyenes, önállóan tárhelyen tárolható RSS-hírcsatornák aggregátora."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergimp",
+      "title": "Gimp (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú raszteres grafikus szerkesztő, amely képmanipulációra (retusálásra) és képszerkesztésre, szabadkézi rajzolásra, különböző képfájlformátumok közötti átkódolásra és speciálisabb feladatokra használható. Bővítmények segítségével bővíthető és szkriptelhető."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
+      "title": "Github desktop (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú, Electron-alapú GitHub alkalmazás. TypeScript nyelven íródott és Reactet használ."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergitqlient",
+      "title": "Gitqlient (LinuxServer.io)",
+      "tagline": "Egy többplatformos Git kliens, amely eredetileg a QGit-ből forkolódott. Manapság már túlmutat egy egyszerű forkon, és számos új funkcióval bővül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrav",
+      "title": "Grav (LinuxServer.io)",
+      "tagline": "Gyors, egyszerű és rugalmas, fájl alapú webplatform."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrocy",
+      "title": "Grocy (LinuxServer.io)",
+      "tagline": "Egy ERP rendszer a konyhádba. Csökkentsd az élelmiszer-pazarlást, és kezeld a házimunkádat ezzel a zseniális segédprogrammal. Kövesd nyomon a vásárlásaidat, a kidobott élelmiszer mennyiségét, a szükséges házimunkákat és az akkumulátorok töltését ezzel a büszkén nyílt forráskódú eszközzel. További információkért a Grocyról látogass el a weboldalukra: https://grocy. Info"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergzdoom",
+      "title": "Gzdoom (LinuxServer.io)",
+      "tagline": "Egy funkcióközpontú port az összes Doom motoros játékhoz, ZDoom alapokon, OpenGL renderelővel és hatékony szkriptelési képességekkel."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhabridge",
+      "title": "Habridge (LinuxServer.io)",
+      "tagline": "Emulálja a Philips Hue API-t más otthonautomatizálási átjárókhoz, például egy Amazon Echo/Dot Gen 1-hez (a 2. generációnál problémák vannak a ha-bridge felismerésével) vagy más, Philips Hue-t támogató rendszerekhez. A híd kezeli a Hue protokoll alapvető parancsait, például a be-, ki- és fényerő-parancsokat. Ez a híd a legtöbb olyan eszközt képes vezérelni, amely rendelkezik külön API-val."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhandbrake",
+      "title": "Handbrake (LinuxServer.io)",
+      "tagline": "Egy önkéntesek által fejlesztett, nyílt forráskódú eszköz, amely szinte bármilyen formátumú videót képes konvertálni modern, széles körben támogatott kodekek valamelyikére."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheadphones",
+      "title": "Headphones",
+      "tagline": "Egy automatizált zeneletöltő NZB és Torrent fájlokhoz, Python nyelven írva. Támogatja a SABnzbd, NZBget, Transmission, µTorrent és Blackhole fájlokat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
+      "title": "Healthchecks (LinuxServer.io)",
+      "tagline": "Egy watchdog a cron feladataidhoz. Ez egy webszerver, amely figyeli a cron feladataidtól érkező pingeket, plusz egy webes felület."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
+      "title": "Hedgedoc (LinuxServer.io)",
+      "tagline": "Hozzáférést biztosít minden fájlodhoz, bárhonnan is legyél. A HedgeDoc egy valós idejű, több platformon futó, együttműködő Markdown jegyzetszerkesztő. Ez azt jelenti, hogy jegyzeteket írhatsz másokkal együtt asztali számítógépeden, táblagépeden vagy akár telefonon is. A kezdőlapon több hitelesítési szolgáltatón, például Facebookon, Twitteren, GitHubon és sok máson keresztül is bejelentkezhetsz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheimdall",
+      "title": "Heimdall (LinuxServer.io)",
+      "tagline": "Egy módszer a leggyakrabban használt webhelyekre és webes alkalmazásokra mutató linkek egyszerű rendszerezésére. Az egyszerűség a Heimdall kulcsa. Miért ne használná böngészője kezdőlapjaként? Még keresősávot is tartalmaz, amely a Google, a Bing vagy a DuckDuckGo keresőmotorjait használja."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhelium",
+      "title": "Helium (LinuxServer.io)",
+      "tagline": "Egy Chromium alapú webböngésző, amelyet embereknek készítettek, szeretettel. Adatvédelem az első, objektív hirdetésblokkolóval."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
+      "title": "Hishtory server (LinuxServer.io)",
+      "tagline": "Jobb shell előzmények. Kontextusban tárolja a shell előzményeket (melyik könyvtárban futtattad a parancsot, hogy sikeresen vagy sikertelenül, mennyi ideig tartott stb.). Mindez helyben tárolódik, és végponttól végpontig titkosítva van, hogy szinkronizálható legyen az összes többi számítógépeddel."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
+      "title": "Homeassistant (LinuxServer.io)",
+      "tagline": "Nyílt forráskódú otthonautomatizálási rendszer, amely a helyi vezérlést és az adatvédelmet helyezi előtérbe. Világszerte működő barkácsolók és barkácsolók közössége működteti. Tökéletes Raspberry Pi-n vagy helyi szerveren való futtatáshoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
+      "title": "Htpcmanager (LinuxServer.io)",
+      "tagline": "Számos HTPC-vel kapcsolatos alkalmazás felhasználói felülete."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverinkscape",
+      "title": "Inkscape (LinuxServer.io)",
+      "tagline": "Professzionális minőségű vektorgrafikus szoftver, amely Linux, Mac OS X és Windows asztali számítógépeken fut."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverintellijidea",
+      "title": "Intellij idea (LinuxServer.io)",
+      "tagline": "Segít gyorsabban kódot írni olyan eszközökkel, amelyek kiküszöbölik az unalmas feladatokat, és lehetővé teszik, hogy a lényegre koncentrálj – nagyszerű szoftverek fejlesztésére."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjackett",
+      "title": "Jackett (LinuxServer.io)",
+      "tagline": "Proxy szerverként működik: alkalmazásokból (Sonarr, SickRage, CouchPotato, Mylar stb.) érkező lekérdezéseket nyomkövető-webhely-specifikus http lekérdezésekké alakítja, elemzi a html választ, majd visszaküldi az eredményeket a kérő szoftvernek. Ez lehetővé teszi a legutóbbi feltöltések (például RSS) lekérését és keresések végrehajtását. A Jackett egyetlen adattár, amely karbantartott indexelő adatkaparási és fordítási logikát tartalmaz – leveszi a terhet a többi alkalmazás válláról."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjellyfin",
+      "title": "Jellyfin (LinuxServer.io)",
+      "tagline": "Egy szabad szoftveres médiarendszer, amellyel a te kezedbe veheted a médiatartalmaid kezelését és streamelését. Alternatívát kínál a saját fejlesztésű Emby és Plex rendszerekhez, lehetővé téve, hogy egy dedikált szerverről több alkalmazáson keresztül biztosítson médiát a végfelhasználói eszközökhöz. A Jellyfin az Emby 3.5.2-es kiadásából származik, és a .NET Core keretrendszerre portolták a teljes platformfüggetlen támogatás érdekében. Nincsenek kötelezettségek, nincsenek prémium licencek vagy funkciók, és nincsenek rejtett szándékok: csak egy csapat, akik valami jobbat akarnak építeni, és együtt dolgoznak a megvalósításán."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
+      "title": "Jenkins builder",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/jenkins-builder oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjoplin",
+      "title": "Joplin (LinuxServer.io)",
+      "tagline": "Egy ingyenes, nyílt forráskódú jegyzetelő és teendőkezelő alkalmazás, amely képes nagyszámú, jegyzetfüzetekbe rendezett jegyzetet kezelni."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkalilinux",
+      "title": "Kali linux (LinuxServer.io)",
+      "tagline": "egy fejlett behatolásvizsgálati Linux disztribúció, amelyet behatolásvizsgálathoz, etikus hackeléshez és hálózati biztonsági értékelésekhez használnak. A KALI LINUX™ az OffSec védjegye."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkasm",
+      "title": "Kasm (LinuxServer.io)",
+      "tagline": "A Workspaces egy docker konténer streamelési platform, amely böngészőalapú hozzáférést biztosít asztali számítógépekhez, alkalmazásokhoz és webszolgáltatásokhoz. A Kasm devops-kompatibilis konténerizált asztali infrastruktúrát (CDI) használ igény szerinti, eldobható, webböngészőn keresztül elérhető docker konténerek létrehozásához. Példaként említhetők a távoli böngészőizoláció (RBI), az adatvesztés-megelőzés (DLP), a szolgáltatásként nyújtott asztal (DaaS), a biztonságos távoli hozzáférési szolgáltatások (RAS) és a nyílt forráskódú intelligencia (OSINT) gyűjtemények. A grafikus alapú konténerek renderelését a KasmVNC nyílt forráskódú projekt biztosítja."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkavita",
+      "title": "Kavita (LinuxServer.io)",
+      "tagline": "Egy gyors, funkciókban gazdag, több platformon is elérhető olvasószerver. Úgy tervezték, hogy teljes körű megoldást nyújtson minden olvasási igényedre. Állítsd be saját szerveredet, és oszd meg olvasmánygyűjteményedet barátaiddal és családoddal."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkdenlive",
+      "title": "Kdenlive (LinuxServer.io)",
+      "tagline": "Egy hatékony, ingyenes és nyílt forráskódú, platformfüggetlen videószerkesztő program, amelyet a KDE közösség készített. Funkciógazdag és produkciós használatra kész."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
+      "title": "Keepassxc (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú jelszókezelő. A KeePassX közösségi elágazásaként indult (ami maga a KeePass platformfüggetlen portja)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkicad",
+      "title": "Kicad (LinuxServer.io)",
+      "tagline": "Többplatformos és nyílt forráskódú elektronikai tervezés-automatizálási csomag."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkimai",
+      "title": "Kimai (LinuxServer.io)",
+      "tagline": "Professzionális szintű időkövető alkalmazás, ingyenes és nyílt forráskódú. Szabadúszók, valamint több tucat vagy akár több száz felhasználóval rendelkező vállalatok igényeit is kezeli. A Kimai-t a projektek idejének nyomon követésére fejlesztették ki, és számos fejlett funkcióval rendelkezik, beleértve, de nem kizárólagosan: JSON API, számlázás, adatexportálás, többszörös időzítő és punch-in punch-out mód, címkézés, több felhasználó - több időzóna - többnyelvű (több mint 30 fordítás létezik), hitelesítés SAML/LDAP/adatbázison keresztül, kétfaktoros hitelesítés (2FA) TOTP-vel, testreszabható szerepkör- és csapatengedélyek, reszponzív design, felhasználó-/ügyfél-/projektspecifikus díjszabások, fejlett keresés és szűrés, pénzügyi és időkeretek, fejlett jelentéskészítés, bővítmények támogatása és még sok más."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkometa",
+      "title": "Kometa (LinuxServer.io)",
+      "tagline": "Egy hatékony eszköz, amely teljes kontrollt biztosít médiakönyvtárai felett. A Kometa segítségével a következő szintre emelheti testreszabását, részletesen szabályozhatja a metaadatokat, a gyűjteményeket, az átfedéseket és sok mást."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkrita",
+      "title": "Krita (LinuxServer.io)",
+      "tagline": "Egy professzionális, INGYENES és nyílt forráskódú festőprogram. Olyan művészek készítették, akik megfizethető művészeti eszközöket szeretnének látni mindenki számára."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
+      "title": "Lazylibrarian (LinuxServer.io)",
+      "tagline": "Egy program szerzők követésére és metaadatok lekérésére minden digitális olvasási igényhez. A Goodreads Librarything és opcionálisan a Google Books kombinációját használja szerzői és könyvadatok forrásaként. Ez a konténer a DobyTang elágazáson alapul."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverldapauth",
+      "title": "Ldap auth (LinuxServer.io)",
+      "tagline": "A szoftver olyan felhasználók hitelesítésére szolgál, akik védett erőforrásokat kérnek nginx által proxyzott szerverekről. Tartalmaz egy démont (ldap-auth), amely egy hitelesítési szerverrel kommunikál, és egy webszerver démont, amely a felhasználó hitelesítő adatai alapján hitelesítési sütit generál. A démonok Python nyelven íródtak, és egy Lightweight Directory Access Protocol (LDAP) hitelesítési szerverrel (OpenLDAP vagy Microsoft Windows Active Directory 2003 és 2012) használhatók."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
+      "title": "Libreoffice (LinuxServer.io)",
+      "tagline": "Egy ingyenes és hatékony irodai csomag, az OpenOffice.org (közismert nevén OpenOffice) utódja. Letisztult felülete és funkciógazdag eszközei segítenek szabadjára engedni kreativitásodat és fokozni a termelékenységedet."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
+      "title": "Librespeed (LinuxServer.io)",
+      "tagline": "Egy nagyon pehelykönnyű sebességteszt Javascriptben implementálva, XMLHttpRequest és Web Workers használatával. Nincs Flash, nincs Java, nincs Websocket, semmi baromság."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
+      "title": "Librewolf (LinuxServer.io)",
+      "tagline": "A Firefox egy testreszabott és független verziója, amelynek elsődleges céljai az adatvédelem, a biztonság és a felhasználói szabadság. A LibreWolf célja továbbá az összes telemetriai, adatgyűjtési és bosszantó funkció eltávolítása, valamint a szabadságot korlátozó funkciók, például a DRM letiltása."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlidarr",
+      "title": "Lidarr (LinuxServer.io)",
+      "tagline": "Zenei gyűjteménykezelő Usenet és BitTorrent felhasználók számára. Több RSS-hírcsatornát is képes figyelni kedvenc előadóid új dalaiért, és lekéri, rendezi és átnevezi azokat. Úgy is beállítható, hogy automatikusan frissítse a már letöltött fájlok minőségét, amikor jobb minőségű formátum válik elérhetővé."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlimnoria",
+      "title": "Limnoria (LinuxServer.io)",
+      "tagline": "Egy robusztus, teljes funkcionalitású és felhasználó-/programozóbarát Python IRC bot, számos meglévő bővítménnyel. A jól ismert Supybot utódja."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlmstudio",
+      "title": "Lm studio (LinuxServer.io)",
+      "tagline": "Privát módon futtathat helyi MI-modelleket, mint például a gpt-oss, Llama, Gemma, Qwen és DeepSeek a számítógépén."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlollypop",
+      "title": "Lollypop (LinuxServer.io)",
+      "tagline": "Egy könnyű, modern zenelejátszó, amelyet úgy terveztek, hogy kiválóan működjön a GNOME asztali környezetben."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlsioapi",
+      "title": "Lsio api",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/lsio-api oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverluanti",
+      "title": "Luanti (LinuxServer.io)",
+      "tagline": "(korábban Minetest) egy nyílt forráskódú voxel játékkészítő platform, amely egyszerű moddolást és játékkészítést kínál."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlychee",
+      "title": "Lychee (LinuxServer.io)",
+      "tagline": "Egy ingyenes fotókezelő eszköz, amely a szervereden vagy webtárhelyeden fut. A telepítés másodpercek kérdése. Tölts fel, kezelj és ossz meg fotókat, mint egy natív alkalmazásból. A Lychee mindent tartalmaz, amire szükséged van, és minden fotód biztonságosan tárolódik."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermame",
+      "title": "Mame (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú emulátor, amelyet arra terveztek, hogy emulálja az arcade játékok, videojáték-konzolok, régi számítógépek és más rendszerek hardverét szoftverekben modern személyi számítógépeken."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermanyfold",
+      "title": "Manyfold (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú, saját tárhelyen futó webes alkalmazás 3D modellek gyűjteményének kezelésére, különös tekintettel a 3D nyomtatásra."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermariadb",
+      "title": "Mariadb (LinuxServer.io)",
+      "tagline": "Az egyik legnépszerűbb adatbázis-kiszolgáló. A MySQL eredeti fejlesztői készítették."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermastodon",
+      "title": "Mastodon (LinuxServer.io)",
+      "tagline": "Egy ingyenes, nyílt forráskódú közösségi hálózati szerver, amely az ActivityPub-on alapul, ahol a felhasználók követhetik barátaikat és újakat fedezhetnek fel."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermediaelch",
+      "title": "Mediaelch (LinuxServer.io)",
+      "tagline": "Egy MediaManager a Kodihoz. A filmekkel, tévéműsorokkal, koncertekkel és zenével kapcsolatos információk nfo fájlokban tárolódnak. A rajongói alkotások automatikusan letöltődnek a fanart.tv oldalról. Az nfo generátor segítségével a MediaElch más MediaCenterekkel is használható."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermedusa",
+      "title": "Medusa (LinuxServer.io)",
+      "tagline": "Automatikus videótár-kezelő tévéműsorokhoz. Figyeli kedvenc műsoraid új epizódjait, és amikor azok feltöltésre kerülnek, varázslatot csinál."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermelonds",
+      "title": "Melonds (LinuxServer.io)",
+      "tagline": "Célja a gyors és pontos Nintendo DS emuláció biztosítása."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminetest",
+      "title": "Minetest",
+      "tagline": "A (szerver) egy közel végtelen világú blokk sandbox játék és játékmotor, amelyet az InfiniMiner, a Minecraft és hasonlók ihlettek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminisatip",
+      "title": "Minisatip (LinuxServer.io)",
+      "tagline": "Egy többszálú satip szerver 1.2-es verziója, amely Linux alatt fut, és DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC és ISDB-T kártyákkal tesztelték."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodmanager",
+      "title": "Modmanager (LinuxServer.io)",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/modmanager oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodrinth",
+      "title": "Modrinth (LinuxServer.io)",
+      "tagline": "Egy egyedi, nyílt forráskódú indítóprogram, amely lehetővé teszi kedvenc modjaid lejátszását és naprakészen tartását, mindezt egyetlen kis csomagban."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermonica",
+      "title": "Monica",
+      "tagline": "Egy nyílt forráskódú személyes kapcsolatkezelő rendszer, amely lehetővé teszi az életed dokumentálását."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermsedge",
+      "title": "Msedge (LinuxServer.io)",
+      "tagline": "A Microsoft által fejlesztett és Chromium alapú, többplatformos webböngésző."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermstream",
+      "title": "Mstream (LinuxServer.io)",
+      "tagline": "Személyes zenei streaming szerver. Az mStream segítségével otthoni számítógépedről bárhová, bármilyen eszközre streamelheted a zenéidet. Vannak mobilalkalmazások Androidra és iPhone-ra is."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
+      "title": "Mullvad browser (LinuxServer.io)",
+      "tagline": "A Mullvad böngésző egy adatvédelemre összpontosító webböngésző, amelyet a Mullvad VPN és a Tor Project együttműködésében fejlesztettek ki. Úgy tervezték, hogy minimalizálja a követést és az ujjlenyomat-vételt. Mondhatni, hogy ez egy Tor böngésző, amelyet a Tor hálózat nélkül is használhatunk. Ehelyett egy megbízható VPN-nel használható."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermylar3",
+      "title": "Mylar3 (LinuxServer.io)",
+      "tagline": "Egy automatizált képregény-letöltő (cbr/cbz) NZB-hez és Pythonban írt torrentekhez. Támogatja a SABnzbd-t, az NZBGET-et és számos torrentklienst a DDL mellett."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
+      "title": "Mysql workbench (LinuxServer.io)",
+      "tagline": "Egységes vizuális eszköz adatbázis-architektusok, fejlesztők és adatbázis-adminisztrátorok számára. A MySQL Workbench adatmodellezési, SQL-fejlesztési és átfogó adminisztrációs eszközöket biztosít a szerverkonfigurációhoz, a felhasználók adminisztrációjához, a biztonsági mentéshez és sok máshoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernano",
+      "title": "Nano",
+      "tagline": "Egy könnyen hozzáférhető és könnyűsúlyú digitális fizetési protokoll, amelynek középpontjában a más kriptovalutákban jelen lévő hatékonysági problémák kiküszöbölése áll. A Nanót a biztonságos, zöld és decentralizált hálózaton keresztüli ultragyors tranzakciók és a díjmentesség ideálissá teszi a mindennapi tranzakciókhoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernanowallet",
+      "title": "Nano wallet",
+      "tagline": "Egy könnyen hozzáférhető és könnyűsúlyú digitális fizetési protokoll, amelynek középpontjában a más kriptovalutákban jelen lévő hatékonysági problémák kiküszöbölése áll. Az ultragyors tranzakcióknak és a biztonságos, zöld és decentralizált hálózaton keresztüli nulla díjnak köszönhetően a Nanót ideális választássá teszi a mindennapi tranzakciókhoz. Ez a konténer egy egyszerű nginx wrapper az itt található light tárcához. A konténer elérésekor érvényes RPC-hosztot kell megadni."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
+      "title": "Netbootxyz",
+      "tagline": "Egy módszer arra, hogy különféle operációsrendszer-telepítőket vagy segédprogramokat PXE-vel, egyetlen helyről indítsunk a BIOS-on belül anélkül, hogy az eszköz futtatásához le kellene kérni az adathordozót. Az IPXE egy felhasználóbarát menü biztosítására szolgál a BIOS-on belül, amely lehetővé teszi a kívánt operációs rendszer egyszerű kiválasztását, valamint a konkrét verziókat vagy a rendszerindítási jelzőket."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbox",
+      "title": "Netbox (LinuxServer.io)",
+      "tagline": "Egy IP-címkezelő (IPAM) és adatközpont-infrastruktúra-kezelő (DCIM) eszköz. A DigitalOcean hálózati mérnöki csapata által eredetileg megálmodott NetBoxot kifejezetten a hálózati és infrastruktúra-mérnökök igényeinek kielégítésére fejlesztették ki. Célja, hogy domain-specifikus információforrásként működjön a hálózati műveletekhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernextcloud",
+      "title": "Nextcloud (LinuxServer.io)",
+      "tagline": "Hozzáférést biztosít minden fájlodhoz, bárhol is vagy. Hol vannak a fotóid és a dokumentumaid? A Nextclouddal kiválaszthatod a kívánt szervert: otthon, egy adatközpontban vagy egy szolgáltatónál. És ott lesznek a fájljaid. A Nextcloud ezen a szerveren fut, védi az adataidat, és hozzáférést biztosít asztali számítógépedről vagy mobileszközeidről. A Nextcloudon keresztül elérheted, szinkronizálhatod és megoszthatod a meglévő adataidat az irodai FTP-meghajtón, egy Dropboxon vagy egy otthoni NAS-on."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernginx",
+      "title": "Nginx (LinuxServer.io)",
+      "tagline": "HTTP webszerver, fordított proxy, tartalom-gyorsítótár, terheléselosztó, TCP/UDP proxyszerver és levelező proxyszerver."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverngircd",
+      "title": "Ngircd (LinuxServer.io)",
+      "tagline": "Egy ingyenes, hordozható és pehelykönnyű Internet Relay Chat szerver kis vagy privát hálózatok számára, GNU General Public License (GPL) alatt fejlesztve. Könnyen konfigurálható, dinamikus IP-címeket kezel, és támogatja az IPv6-ot, az SSL-védett kapcsolatokat, valamint a PAM hitelesítést. A szerver teljesen új, és nem az eredeti IRCd-n alapul."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+      "title": "Nntp2nntp",
+      "tagline": "A proxy lehetővé teszi, hogy NNTP-fiókját több rendszerről is használja, mindegyiket saját felhasználónévvel és jelszóval. Teljes mértékben támogatja az SSL-t, és SSL-tanúsítványokkal korlátozhatja a proxyhoz való hozzáférést is. Az Nntp2nntp proxy nagyon egyszerű és meglehetősen gyors. ## Figyelmeztetés Bár nem tudunk nntp2nntp biztonsági problémákról, a projekt upstream kódja 2015.06.08. óta nem változott, és valószínűleg végleg elhagyják. Emiatt határozottan javasoljuk, hogy ne tegye ezt az alkalmazást nyilvánossá, és ha mégis meg kell tennie, a biztonsági rétegek és az SSL használata abszolút minimumkövetelménynek tekinthető. Úgy látjuk, hogy ezt a proxyt elsősorban helyi hálózaton használják, így az összes felhasználó és az NNTP-alkalmazás közös belső hitelesítő adatokat oszthat meg, lehetővé téve az upstream fiók központi kezelését, pl. G. Módosítsa a szolgáltatót, a szervert, a szálkorlátokat az összes alkalmazás számára egyetlen globális konfigurációs változtatással."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbget",
+      "title": "Nzbget (LinuxServer.io)",
+      "tagline": "Egy C++ nyelven írt usenet letöltő, amelyet a teljesítmény szem előtt tartásával terveztek, hogy maximális letöltési sebességet érjen el nagyon kevés rendszererőforrás felhasználásával."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
+      "title": "Nzbhydra2 (LinuxServer.io)",
+      "tagline": "Egy metakereső alkalmazás NZB indexelőkhöz, az NZBmegasearcH spirituális utódja, és az eredeti NZBHydra alkalmazás továbbfejlesztése. Könnyű hozzáférést biztosít számos nyers és newznab alapú indexelőhöz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverobsidian",
+      "title": "Obsidian (LinuxServer.io)",
+      "tagline": "Egy jegyzetkészítő alkalmazás, amellyel jegyzeteket hozhatsz létre, csatolhatsz és rendszerezhetsz az eszközödön, több száz bővítménnyel és témával a munkafolyamat testreszabásához. Jegyzeteidet online is közzéteheted, offline is elérheted, és biztonságosan szinkronizálhatod őket végpontok közötti titkosítással."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverombi",
+      "title": "Ombi (LinuxServer.io)",
+      "tagline": "Lehetővé teszi saját Plex kérések és felhasználókezelő rendszer üzemeltetését. Ha megosztod a Plex szerveredet más felhasználókkal, engedélyezd számukra új tartalmak kérését egy könnyen kezelhető felületen keresztül. Kezeld könnyedén az összes film- és tévéműsor-kérést, hagyj jegyzeteket a felhasználónak, és kapj értesítést, ha egy felhasználó kér valamit. Lehetővé teszed a felhasználók számára, hogy problémákat tegyenek közzé a kéréseikkel kapcsolatban, így tudhatod, hogy probléma van a hanggal stb. Akár automatikusan küldhetsz nekik heti hírleveleket a Plex szerveredre feltöltött új tartalmakról."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
+      "title": "Onlyoffice (LinuxServer.io)",
+      "tagline": "Eszközök teljes skáláját kínálja szöveges dokumentumok, táblázatok, prezentációk, PDF űrlapok és hagyományos PDF fájlok létrehozásához, szerkesztéséhez és közös szerkesztéséhez webes, asztali és mobil platformokon."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenshot",
+      "title": "Openshot (LinuxServer.io)",
+      "tagline": "A Video Editor egy díjnyertes, ingyenes és nyílt forráskódú videószerkesztő Linux, Mac és Windows rendszerekre, és elkötelezett amellett, hogy kiváló minőségű videószerkesztési és animációs megoldásokat nyújtson a világ számára."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+      "title": "Openssh server (LinuxServer.io)",
+      "tagline": "Egy sandboxos környezet, amely lehetővé teszi az SSH-hozzáférést anélkül, hogy kulcsokat adna a teljes szerverhez. Az SSH-hozzáférés privát kulcson keresztüli megadása gyakran azt jelenti, hogy teljes hozzáférést biztosít a szerverhez. Ez a konténer egy korlátozott és sandboxos környezetet hoz létre, amelybe mások SSH-n keresztül beléphetnek. A felhasználók csak a konténerben leképezett mappákhoz és futó folyamatokhoz férhetnek hozzá."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
+      "title": "Openvscode server",
+      "tagline": "A VS Code egy olyan verzióját biztosítja, amely egy távoli gépen futtat egy szervert, és lehetővé teszi a hozzáférést egy modern webböngészőn keresztül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropera",
+      "title": "Opera (LinuxServer.io)",
+      "tagline": "Egy többplatformos webböngésző, amelyet névadó cége, az Opera fejlesztett ki. A böngésző a Chromiumon alapul, de felhasználói felülete és egyéb funkciói révén különbözteti meg magát a többi Chromium-alapú böngészőtől (Chrome, Edge stb.)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
+      "title": "Orcaslicer (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú szeletelő FDM nyomtatókhoz. Az OrcaSlicer a Bambu Studio elágazása, korábban BambuStudio-SoftFever néven volt ismert. A Bambu Studio a PrusaSlicerből származik, amelyet a Prusa Research épített fel, ami pedig az Alessandro Ranellucci és a RepRap közösség Slic3r-jéből származik."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroscam",
+      "title": "Oscam (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú feltételes hozzáférési modul (CAM) szoftver, amelyet DVB-adások dekódolására használnak intelligens kártyák segítségével. Szerver és kliens is egyben."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroverseerr",
+      "title": "Overseerr",
+      "tagline": "Egy kéréskezelő és médiafelderítő eszköz, amelyet a meglévő Plex ökoszisztémájához terveztek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpairdrop",
+      "title": "Pairdrop (LinuxServer.io)",
+      "tagline": "Egy nagyszerű alternatíva az AirDrophoz, amely minden platformon működik. Küldjön képeket, dokumentumokat vagy szöveget peer-to-peer kapcsolaton keresztül ugyanazon a helyi hálózaton/Wi-Fi-n lévő eszközökre vagy párosított eszközökre."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpcsx2",
+      "title": "Pcsx2 (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú PS2 emulátor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpelorus",
+      "title": "Pelorus (LinuxServer.io)",
+      "tagline": "Egy mesterséges intelligencián alapuló navigátor Selkies-alapú Linux asztali gépekhez. A Pelorus egy FastAPI szervert futtat, amely egy LLM ügynöknek (Ollama, OpenAI-kompatibilis vagy Gemini) vezérlést biztosít az egér, a billentyűzet, a képernyőképek és az ablakok felett a Pixelflux számítógép-használati háttérrendszeren, egy Linux akadálymentesítési fán (AT-SPI) és az opcionális KWin D-Bus integráción keresztül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
+      "title": "Phpmyadmin (LinuxServer.io)",
+      "tagline": "Egy ingyenes, PHP-ben írt szoftvereszköz, amely a MySQL webes adminisztrációjára szolgál. A PhpMyAdmin a MySQL és a MariaDB alapú műveletek széles skáláját támogatja."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpidgin",
+      "title": "Pidgin (LinuxServer.io)",
+      "tagline": "Egy csevegőprogram, amely lehetővé teszi, hogy egyszerre több csevegőhálózat fiókjába is bejelentkezz. Ez azt jelenti, hogy egyszerre cseveghetsz barátaiddal az XMPP-n, és egy IRC csatornán is ülhetsz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiper",
+      "title": "Piper (LinuxServer.io)",
+      "tagline": "Egy gyors, helyi neurális szövegfelolvasó rendszer, amely nagyszerűen hangzik és Raspberry Pi 4-re van optimalizálva. Ez a konténer egy Wyoming protokoll szervert biztosít a Piperhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiwigo",
+      "title": "Piwigo (LinuxServer.io)",
+      "tagline": "Egy webes fotógaléria szoftver, amely hatékony funkciókkal rendelkezik a képgyűjtemény közzétételéhez és kezeléséhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplanka",
+      "title": "Planka (LinuxServer.io)",
+      "tagline": "Egy elegáns, nyílt forráskódú projektkövető eszköz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplex",
+      "title": "Plex (LinuxServer.io)",
+      "tagline": "Videókat, zenéket és fényképeket rendszerez személyes médiakönyvtáraiból, és streameli azokat okostévékre, streaming boxokra és mobileszközökre. Ez a konténer önálló Plex médiaszerverként van csomagolva. Az egyszerű kialakítás és a tömeges műveletek gyorsabbá teszik a feladatokat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplexmetamanager",
+      "title": "Plex meta-manager",
+      "tagline": "Egy Python 3 szkript, amely folyamatosan futtatható YAML konfigurációs fájlok használatával, hogy ütemterv szerint frissítse a könyvtárakban található filmek, műsorok és gyűjtemények metaadatait, valamint automatikusan létrehozzon gyűjteményeket a wikin részletesen ismertetett különféle módszerek alapján."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverppsspp",
+      "title": "Ppsspp (LinuxServer.io)",
+      "tagline": "Ingyenes és nyílt forráskódú PSP emulátor Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series és Symbian rendszerekre, a sebességre és a hordozhatóságra összpontosítva."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprojectsend",
+      "title": "Projectsend (LinuxServer.io)",
+      "tagline": "Egy saját tárhelyen futó alkalmazás, amely lehetővé teszi fájlok feltöltését és hozzárendelését az Ön által létrehozott kliensekhez. Biztonságos, privát és egyszerű. Nincs többé szükség külső szolgáltatásokra vagy e-mailre a fájlok küldéséhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprowlarr",
+      "title": "Prowlarr (LinuxServer.io)",
+      "tagline": "Egy indexelő kezelő/proxy, amely a népszerű arr. Net/reactjs alapveremre épül, hogy integrálható legyen a különféle PVR-alkalmazásokkal. A Prowlarr támogatja mind a torrentkövetőket, mind a Usenet indexelőket. Zökkenőmentesen integrálható a Sonarr, Radarr, Lidarr és Readarr rendszerekkel, így az indexelők teljes körű kezelését kínálja, alkalmazásonkénti indexelő beállítás nélkül (mi mindent megcsinálunk)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpwndrop",
+      "title": "Pwndrop (LinuxServer.io)",
+      "tagline": "Öntelepíthető fájltárhely-szolgáltatás red teaming hasznos adatok küldéséhez vagy privát fájlok biztonságos megosztásához HTTP és WebDAV protokollon keresztül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpycharm",
+      "title": "Pycharm (LinuxServer.io)",
+      "tagline": "Azonnali támogatást kínál Pythonhoz, adatbázisokhoz, Jupyterhez, Githez, Condához, PyTorchhoz, TensorFlow-hoz, Hugging Face-hez, Djangohoz, Flaskhoz, FastAPI-hoz és egyebekhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpydiocells",
+      "title": "Pydio cells (LinuxServer.io)",
+      "tagline": "A következő generációs fájlmegosztó platform szervezetek számára. Ez a Pydio projekt teljes átdolgozása Go nyelven, mikroszolgáltatás-architektúrát követve."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpyloadng",
+      "title": "Pyload ng (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú letöltéskezelő, amely Pythonban íródott, és rendkívül könnyű, könnyen bővíthető és weben keresztül teljes mértékben kezelhető."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpylon",
+      "title": "Pylon",
+      "tagline": "Egy web alapú integrált fejlesztői környezet, amely Node.Js backenddel és felturbózott JavaScript/HTML5 frontenddel készült, GPL 3-as verziójú licenc alatt. Ez a projekt a Cloud9 v2 projektből származik."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpython",
+      "title": "Python",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/python oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
+      "title": "Qbittorrent (LinuxServer.io)",
+      "tagline": "A Qbittorrent egy C++ / Qt nyelven programozott bittorrent kliens, amely a libtorrentet (néha libtorrent-rasterbar néven is ismert) használja, és Arvid Norberg készítette."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqdirstat",
+      "title": "Qdirstat (LinuxServer.io)",
+      "tagline": "Qt-alapú könyvtárstatisztikák: KDirStat KDE nélkül -- az eredeti KDirStat szerzőjétől."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqemustatic",
+      "title": "Qemu static (LinuxServer.io)",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/qemu-static oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+      "title": "Quassel core",
+      "tagline": "Egy modern, többplatformos, elosztott IRC kliens, ami azt jelenti, hogy egy (vagy több) kliens csatlakozhat és leválasztható egy központi magról. Ez a konténer kezeli az IRC-kapcsolatot (quasselcore), és egy asztali kliens (quasselclient) használatát és konfigurálását igényli. Úgy tervezték, hogy mindig bekapcsolva legyen, és akkor is jelen legyen az identitásod az IRC-ben, ha az ügyfeleid nem lehetnek online. A várakozó fájlokat (előzményeket) az ügyfél letölti az újracsatlakozáskor, lehetővé téve a végtelen visszagörgetést az időben."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselweb",
+      "title": "Quassel web",
+      "tagline": "Egy webes kliens a Quasselhez. Fontos megjegyezni, hogy Quassel-Core példány szükséges hozzá, ehhez egy konténer áll rendelkezésre itt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverradarr",
+      "title": "Radarr (LinuxServer.io)",
+      "tagline": "Egy kis Sonarr a kanapéburgonya-szerű filmekhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverraneto",
+      "title": "Raneto (LinuxServer.io)",
+      "tagline": "egy nyílt forráskódú tudásbázis platform, amely statikus Markdown fájlokat használ a tudásbázis működtetéséhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
+      "title": "Rawtherapee (LinuxServer.io)",
+      "tagline": "Egy ingyenes, több platformon is használható nyers képfeldolgozó program."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrdesktop",
+      "title": "Rdesktop",
+      "tagline": "Teljes asztali környezeteket tartalmazó konténerek számos népszerű Alpine, Ubuntu, Arch és Fedora verzióban, RDP-n keresztül elérhetően."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverreadmesync",
+      "title": "Readme sync",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, ellenőrizze a https://hub.Docker.Com/r/linuxserver/readme-sync oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverremmina",
+      "title": "Remmina (LinuxServer.io)",
+      "tagline": "Egy GTK-ban írt távoli asztali kliens, amelynek célja, hogy hasznos legyen a rendszergazdák és utazók számára, akiknek sok távoli számítógéppel kell dolgozniuk nagy vagy apró képernyők előtt. A Remmina több hálózati protokollt támogat egy integrált és konzisztens felhasználói felületen. Jelenleg az RDP, VNC, SPICE, SSH és EXEC támogatott."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrequestrr",
+      "title": "Requestrr",
+      "tagline": "Egy chatbot, amely a Sonarr/Radarr/Ombihoz hasonló szolgáltatások használatának egyszerűsítésére szolgál a chat segítségével."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+      "title": "Resilio sync (LinuxServer.io)",
+      "tagline": "(korábban BitTorrent Sync) a BitTorrent protokollt használja fájlok és mappák szinkronizálására az összes eszközöd között. Létezik ingyenes és fizetős verzió is, ez a konténer mindkettőt támogatja. Létezik egy hivatalos szinkronizálási kép, de ezt azért hoztuk létre, mert támogatja a felhasználó-hozzárendelést a kötetek engedélyeinek egyszerűsítése érdekében."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverretroarch",
+      "title": "Retroarch (LinuxServer.io)",
+      "tagline": "Egy frontend emulátorokhoz, játékmotorokhoz és médialejátszókhoz. Lehetővé teszi klasszikus játékok futtatását számos számítógépen és konzolon a letisztult grafikus felületén keresztül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrpcs3",
+      "title": "Rpcs3 (LinuxServer.io)",
+      "tagline": "Egy többplatformos, nyílt forráskódú Sony PlayStation 3 emulátor és hibakereső, C++ nyelven írva Windows, Linux, macOS és FreeBSD rendszerekre."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+      "title": "Rsnapshot (LinuxServer.io)",
+      "tagline": "Egy rsync-en alapuló fájlrendszer-pillanatkép-készítő segédprogram. Az rsnapshot segítségével egyszerűen készíthetők időszakos pillanatképek helyi gépekről és távoli gépekről ssh-n keresztül. A kód a lehető legszélesebb körben használja a hardveres linkeket (hard linkeket), hogy jelentősen csökkentse a szükséges lemezterületet."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrustdesk",
+      "title": "Rustdesk (LinuxServer.io)",
+      "tagline": "Teljes funkcionalitású, nyílt forráskódú távirányító alternatíva saját tárhelyhez és biztonsághoz minimális konfigurációval."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversabnzbd",
+      "title": "Sabnzbd (LinuxServer.io)",
+      "tagline": "A Usenet működését a lehető legegyszerűbbé és legoptimálisabbá teszi azáltal, hogy mindent automatizál. Csak hozzá kell adni egy .Nzb fájlt. A SABnzbd veszi át a feladatot, ahol automatikusan letölti, ellenőrzi, javítja, kicsomagolja és archiválja az adatokat, emberi beavatkozás nélkül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverscummvm",
+      "title": "Scummvm (LinuxServer.io)",
+      "tagline": "Egy program, amely lehetővé teszi bizonyos klasszikus grafikus kaland- és szerepjátékok futtatását, feltéve, hogy már rendelkezel az adatfájljaikkal. Az ötletes rész az egészben: a ScummVM egyszerűen lecseréli a játékokkal együtt szállított futtatható fájlokat, lehetővé téve, hogy olyan rendszereken is játszhass velük, amelyekre soha nem tervezték őket. A ScummVM ezen játékok futtatható fájljainak teljes átírása, és nem emulátor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversealskin",
+      "title": "Sealskin (LinuxServer.io)",
+      "tagline": "Egy saját üzemeltetésű, kliens-szerver platform, amely lehetővé teszi a felhasználók számára, hogy nagy teljesítményű, konténerizált asztali alkalmazásokat futtassanak közvetlenül egy webböngészőbe. Egy böngészőbővítményt használ a felhasználói műveletek – például egy hivatkozásra kattintás vagy egy fájl letöltése – elfogására, és átirányítja őket egy biztonságos, elszigetelt, távoli szerveren futó alkalmazáskörnyezetbe."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
+      "title": "Series troxide",
+      "tagline": "Egyszerű és modern sorozatkövető"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershadps4",
+      "title": "Shadps4 (LinuxServer.io)",
+      "tagline": "Egy korai PlayStation 4 emulátor Windowsra, Linuxra és macOS-re, C++ nyelven írva."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershotcut",
+      "title": "Shotcut (LinuxServer.io)",
+      "tagline": "Ingyenes, nyílt forráskódú, platformfüggetlen videószerkesztő."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickchill",
+      "title": "Sickchill",
+      "tagline": "Automatikus videótár-kezelő tévéműsorokhoz. Figyeli kedvenc műsoraid új epizódjait, és amikor azok feltöltésre kerülnek, varázslatot művel."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickgear",
+      "title": "Sickgear (LinuxServer.io)",
+      "tagline": "Lehetővé teszi a TV-műsorok és/vagy animék kezelését, új epizódok észlelését, letöltőalkalmazások összekapcsolását és egyebeket. További információkért a SickGearről látogassa meg weboldalukat: https://github.com/SickGear/SickGear"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversignal",
+      "title": "Signal (LinuxServer.io)",
+      "tagline": "Egy üzenetküldő alkalmazás, amelynek középpontjában az adatvédelem áll. Ingyenes és könnyen használható, erős, végponttól végpontig terjedő titkosítással, amely teljesen privátként biztosítja a kommunikációdat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversmokeping",
+      "title": "Smokeping (LinuxServer.io)",
+      "tagline": "Nyomon követi a hálózati késleltetést. Az alkalmazás képességeinek teljes példájáért látogasson el az UCDavis oldalára."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnapdrop",
+      "title": "Snapdrop",
+      "tagline": "Helyi fájlmegosztás a böngésződben. Az Apple Airdropja ihlette."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnipeit",
+      "title": "Snipe it",
+      "tagline": "Megkönnyíti az eszközkezelést. Valós informatikai és eszközkezelési problémákat megoldó emberek építették, és a stabil felhasználói élmény mindig is kiemelt fontosságú volt. Az egyszerű tervezés és a tömeges műveletek gyorsabbá teszik a dolgokat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversocketproxy",
+      "title": "Socket proxy (LinuxServer.io)",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/socket-proxy oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversonarr",
+      "title": "Sonarr (LinuxServer.io)",
+      "tagline": "(korábban NZBdrone) egy PVR Usenet és BitTorrent felhasználók számára. Több RSS-hírcsatornát is képes figyelni kedvenc műsoraid új epizódjaiért, és azokat lekéri, rendezi és átnevezi. Úgy is beállítható, hogy automatikusan frissítse a már letöltött fájlok minőségét, amikor jobb minőségű formátum válik elérhetővé."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
+      "title": "Speedtest tracker (LinuxServer.io)",
+      "tagline": "Egy saját tárhelyen futó internetes teljesítménykövető alkalmazás, amely sebességteszteket futtat az Ookla Speedtest szolgáltatásával."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspotube",
+      "title": "Spotube (LinuxServer.io)",
+      "tagline": "Egy nyílt forráskódú, több platformon kompatibilis Spotify kliens, amely a Spotify adat API-ját, valamint a YouTube-ot, a Piped. Video-t vagy a JioSaavn-t használja hangforrásként, így nincs szükség Spotify Premiumra."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
+      "title": "Sqlitebrowser (LinuxServer.io)",
+      "tagline": "Egy kiváló minőségű, vizuális, nyílt forráskódú eszköz SQLite-kompatibilis adatbázisfájlok létrehozásához, tervezéséhez és szerkesztéséhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteam",
+      "title": "Steam (LinuxServer.io)",
+      "tagline": "A játék, a beszélgetés és a játékok készítésének végső helyszíne."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteamos",
+      "title": "Steamos",
+      "tagline": "Egy Arch alapú Linux disztribúció, amelyet a Valve Software készített. Ez a konténer egy hagyományos Arch telepítés Steam repositorykkal a szoftvertámogatás érdekében. Ez a konténer csak modern AMD/Intel GPU-kkal fog működni egy valódi Linux hoszton."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverswag",
+      "title": "Swag (LinuxServer.io)",
+      "tagline": "A SWAG – Secure Web Application Gateway (korábban letsencrypt néven ismert, nincs kapcsolatban a Let's Encrypt™-tel) egy Nginx webszervert és fordított proxyt állít be php támogatással, valamint egy beépített certbot klienssel, amely automatizálja az ingyenes SSL szerver tanúsítványok generálását és megújítását (Let's Encrypt és ZeroSSL). Tartalmaz továbbá fail2ban-t a behatolásmegelőzéshez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversynclounge",
+      "title": "Synclounge (LinuxServer.io)",
+      "tagline": "Egy harmadik féltől származó eszköz, amely lehetővé teszi, hogy a Plexet szinkronban nézd a barátaiddal/családoddal, bárhol is vagy."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyncthing",
+      "title": "Syncthing (LinuxServer.io)",
+      "tagline": "A zárt szinkronizációt és felhőszolgáltatásokat valami nyílt, megbízható és decentralizált megoldással helyettesíti. Az adataid kizárólag a te adataid, és neked kell eldöntened, hogy hol tároljuk őket, megosztjuk-e őket harmadik féllel, és hogyan továbbítjuk azokat az interneten keresztül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyslogng",
+      "title": "Syslog ng (LinuxServer.io)",
+      "tagline": "Lehetővé teszi a naplók rugalmas gyűjtését, elemzését, osztályozását, átírását és korrelációját az infrastruktúrájából, valamint tárolását vagy naplóelemző eszközökhöz való továbbítását."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertautulli",
+      "title": "Tautulli (LinuxServer.io)",
+      "tagline": "Egy Python alapú webes alkalmazás a Plex Media Server monitorozásához, elemzéséhez és értesítéseihez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertelegram",
+      "title": "Telegram (LinuxServer.io)",
+      "tagline": "Felhőalapú mobil és asztali üzenetküldő alkalmazás."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertester",
+      "title": "Tester",
+      "tagline": "Ez a belső eszköz asztali tesztkörnyezetként szolgál a CI-folyamatunkban, hogy képernyőképet készítsen egy remélhetőleg működő végpontról."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthelounge",
+      "title": "Thelounge (LinuxServer.io)",
+      "tagline": "(a shoutIRC egy elágazása) egy webes IRC kliens, amelyet a saját szervereden tárolsz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthunderbird",
+      "title": "Thunderbird (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú személyes adatkezelő, amelyet elsősorban e-mail kliensként használnak naptárral és névjegyzékkel, valamint RSS-hírcsatorna-olvasóként, csevegőkliensként és hírkliensként."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertransmission",
+      "title": "Transmission (LinuxServer.io)",
+      "tagline": "Könnyű és hatékony használatra tervezve. Az átvitel rendelkezik azokkal a funkciókkal, amelyeket egy BitTorrent klienstől elvárhatsz: titkosítás, webes felület, peer exchange, magnet linkek, DHT, µTP, UPnP és NAT-PMP porttovábbítás, webseed támogatás, figyelőkönyvtárak, nyomkövető szerkesztés, globális és torrentenkénti sebességkorlátozások és egyebek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertvheadend",
+      "title": "Tvheadend (LinuxServer.io)",
+      "tagline": "Proxy szerverként működik: egy TV streaming szerver és felvevő Linux, FreeBSD és Android rendszerekre, amely bemeneti forrásként támogatja a DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP és HDHomeRun szabványokat. A Tvheadend HTTP (VLC, MPlayer), HTSP (Kodi, Movian) és SAT>IP streamelést kínál. Több EPG forrást is támogat (földi DVB és ATSC, beleértve az OpenTV DVB kiterjesztéseket, XMLTV-t, PyXML-t)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverubooquity",
+      "title": "Ubooquity (LinuxServer.io)",
+      "tagline": "Egy ingyenes, könnyű és könnyen használható otthoni szerver képregényeidhez és e-könyveidhez. Használd fájljaid eléréséhez bárhonnan, tabletről, e-könyv olvasóval, telefonról vagy számítógépről."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
+      "title": "Ungoogled chromium (LinuxServer.io)",
+      "tagline": "A Google Chromium nem függ a Google webszolgáltatásaitól."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunificontroller",
+      "title": "Unifi controller",
+      "tagline": "Az Unifi-vezérlő szoftver egy nagy teljesítményű, vállalati szintű vezeték nélküli szoftvermotor, amely ideális nagy sűrűségű klienstelepítésekhez, amelyek alacsony késleltetést és magas üzemidőt igényelnek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
+      "title": "Unifi network-application (LinuxServer.io)",
+      "tagline": "Az Unifi-network-application szoftver egy nagy teljesítményű, vállalati szintű vezeték nélküli szoftvermotor, amely ideális nagy sűrűségű klienstelepítésekhez, amelyek alacsony késleltetést és magas üzemidőt igényelnek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunrar",
+      "title": "Unrar",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/unrar oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervivaldi",
+      "title": "Vivaldi (LinuxServer.io)",
+      "tagline": "Egy norvég ingyenes, platformfüggetlen webböngésző beépített e-mail klienssel, amelyet a Vivaldi Technologies fejlesztett ki."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervlc",
+      "title": "Vlc (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú, platformfüggetlen multimédia-lejátszó és keretrendszer, amely megbízható teljesítményt nyújt több eszközön."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscode",
+      "title": "Vscode (LinuxServer.io)",
+      "tagline": "A Microsoft által fejlesztett integrált fejlesztői környezet. Ez a konténer futtatja a teljes asztali alkalmazást, a webes verzióért lásd: Code Server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodium",
+      "title": "Vscodium (LinuxServer.io)",
+      "tagline": "A Microsoft VS Code szerkesztőjének közösség által fejlesztett, szabadon licencelhető bináris disztribúciója."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
+      "title": "Vscodium web (LinuxServer.io)",
+      "tagline": "A Microsoft VS Code szerkesztőjének távoli host web komponensének közösség által vezetett, szabadon licencelt bináris disztribúciója."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebcord",
+      "title": "Webcord (LinuxServer.io)",
+      "tagline": "Összefoglalva egy csomag biztonsági és adatvédelmi fejlesztést tartalmaz, beleértve a Discord funkciók újraimplementációit, az Electron / Chromium / Discord hibák megkerülő megoldásait, a stíluslapokat, a belső oldalakat és a becsomagolt https://discord.com oldalt, amelyeket úgy terveztek, hogy a lehető legnagyobb mértékben megfeleljenek a Felhasználási Feltételeknek (vagy elrejtsék a Discord elől az azokat esetleg sértő változtatásokat)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
+      "title": "Webgrabplus (LinuxServer.io)",
+      "tagline": "Többoldalas, inkrementális xmltv epg grabber. TV-műsorújság adatokat gyűjt a kiválasztott tv-műsorújság oldalakról a kedvenc csatornáidhoz."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebstation",
+      "title": "Webstation (LinuxServer.io)",
+      "tagline": "Egy webes natív emulációra összpontosító LXQt asztali környezet Ubuntu alapú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebtop",
+      "title": "Webtop (LinuxServer.io)",
+      "tagline": "Alpine, Ubuntu, Fedora és Arch alapú konténerek, amelyek teljes asztali környezeteket tartalmaznak hivatalosan támogatott verziókban, amelyek bármely modern webböngészőn keresztül elérhetők."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverweixin",
+      "title": "Weixin (LinuxServer.io)",
+      "tagline": "(WeChat) egy Tencent által fejlesztett azonnali üzenetküldő, közösségi média és mobilfizetési alkalmazás."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwikijs",
+      "title": "Wikijs (LinuxServer.io)",
+      "tagline": "Egy modern, könnyű és hatékony wiki alkalmazás, amely NodeJS-re épül."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwinegui",
+      "title": "Winegui (LinuxServer.io)",
+      "tagline": "Felhasználóbarát borkezelő, amely grafikus előlapot biztosít borosüvegek létrehozásához és kezeléséhez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireguard",
+      "title": "Wireguard (LinuxServer.io)",
+      "tagline": "Egy rendkívül egyszerű, mégis gyors és modern VPN, amely a legmodernebb titkosítást használja. Célja, hogy gyorsabb, egyszerűbb, karcsúbb és hasznosabb legyen, mint az IPsec, miközben elkerüli a hatalmas fejfájást. Jelentősen nagyobb teljesítményű, mint az OpenVPN. A WireGuard általános célú VPN-ként készült, beágyazott interfészeken és szuperszámítógépeken egyaránt futtatható, sokféle körülményhez igazodva. Eredetileg Linux kernelre jelent meg, most már többplatformos (Windows, macOS, BSD, iOS, Android) és széles körben telepíthető. Jelenleg intenzív fejlesztés alatt áll, de már most is az iparág legbiztonságosabb, legkönnyebben használható és legegyszerűbb VPN-megoldásának tekinthető."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireshark",
+      "title": "Wireshark (LinuxServer.io)",
+      "tagline": "A világ legelső és legszélesebb körben használt hálózati protokoll elemzője. Lehetővé teszi, hogy mikroszkopikus szinten lásd, mi történik a hálózatodon, és számos kereskedelmi és non-profit vállalat, kormányzati szerv és oktatási intézmény tényleges (és gyakran de jure) szabványa. A Wireshark fejlesztése a világ minden tájáról érkező hálózati szakértők önkéntes hozzájárulásainak köszönhetően virágzik, és Gerald Combs által 1998-ban indított projekt folytatása."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
+      "title": "Wps office (LinuxServer.io)",
+      "tagline": "Könnyű, funkciókban gazdag, átfogó irodai programcsomag nagyfokú kompatibilitással. Praktikus és professzionális irodai szoftverként a WPS Office lehetővé teszi a fájlok szerkesztését Writerben, prezentációban, táblázatkezelőben és PDF-ben a munka hatékonyságának javítása érdekében."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxbackbone",
+      "title": "Xbackbone (LinuxServer.io)",
+      "tagline": "Egy egyszerű, saját tárhelyen futó, könnyű PHP fájlkezelő, amely támogatja a ShareX és a *NIX azonnali megosztó eszközt. Támogatja a képek, GIF-ek, videók, kód, formázott szöveg feltöltését és megjelenítését, valamint a fájlok letöltését és feltöltését. Emellett webes felhasználói felülettel rendelkezik több felhasználó kezelésével, korábbi feltöltési előzményekkel és keresési támogatással."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxemu",
+      "title": "Xemu (LinuxServer.io)",
+      "tagline": "Egy ingyenes és nyílt forráskódú alkalmazás, amely az eredeti Microsoft Xbox játékkonzolt emulálja, lehetővé téve a felhasználók számára, hogy eredeti Xbox játékaikat Windows, macOS és Linux rendszereken játsszák."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxvfb",
+      "title": "Xvfb",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/xvfb oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryaak",
+      "title": "Yaak (LinuxServer.io)",
+      "tagline": "Egy asztali API kliens REST, GraphQL és gRPC kérések rendszerezéséhez és végrehajtásához. Tauri, Rust és ReactJS használatával készült."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryourspotify",
+      "title": "Your_spotify (LinuxServer.io)",
+      "tagline": "Egy saját tárhelyen futó alkalmazás, amely nyomon követi, hogy mit hallgatsz, és egy irányítópultot kínál a statisztikák megtekintéséhez. Egy webszerverből áll, amely időnként lekérdezi a Spotify API-t, és egy webes alkalmazásból, amelyen megtekintheted a statisztikáidat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryq",
+      "title": "Yq",
+      "tagline": "Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/yq oldalt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzen",
+      "title": "Zen (LinuxServer.io)",
+      "tagline": "A Mozilla Firefox ingyenes és nyílt forráskódú változata, amely az adatvédelemre, a testreszabhatóságra és a dizájnra összpontosít."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverznc",
+      "title": "Znc (LinuxServer.io)",
+      "tagline": "Egy IRC hálózati bouncer vagy BNC. Le tudja választani a klienst az aktuális IRC szerverről, valamint a kiválasztott csatornákról is. Több, különböző helyekről származó kliens egyszerre csatlakozhat egyetlen ZNC fiókhoz, és így ugyanazzal a nicknévvel jelenhet meg az IRC-n."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzotero",
+      "title": "Zotero (LinuxServer.io)",
+      "tagline": "Egy ingyenes, könnyen használható eszköz, amely segít a kutatási anyagok gyűjtésében, rendszerezésében, jegyzetekkel való ellátásában, idézésében és megosztásában."
+    }
+  ]
+}

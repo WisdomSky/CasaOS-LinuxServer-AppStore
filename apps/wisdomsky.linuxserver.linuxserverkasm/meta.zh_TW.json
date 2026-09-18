@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverkasm",
+  "title": "Kasm（LinuxServer.io）",
+  "tagline": "透過瀏覽器訪問容器化桌面、應用和網頁服務。",
+  "description": "Kasm Workspaces 是一個 Docker 容器串流平臺，可透過瀏覽器訪問桌面、應用和網頁服務。它使用支援 DevOps 的容器化桌面基礎設施（CDI），按需建立可透過瀏覽器訪問的一次性 Docker 容器。使用場景包括遠端瀏覽器隔離（RBI）、資料防洩漏（DLP）、桌面即服務（DaaS）、安全遠端訪問服務（RAS）以及開源情報（OSINT）收集。圖形容器的渲染由開源專案 KasmVNC 提供支援。"
+}

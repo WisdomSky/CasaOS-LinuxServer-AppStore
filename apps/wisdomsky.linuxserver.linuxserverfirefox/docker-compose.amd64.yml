@@ -1,7 +1,7 @@
 name: linuxserver-firefox
 services:
   app:
-    image: linuxserver/firefox:1155.0.1@sha256:6e1a78f56a714d13dec092d70c1f19613645be3f5d7e0fc9b847775c0701c64e
+    image: linuxserver/firefox:1.2404.1@sha256:28974ae124bc5d0d499e525415650bced5a45b7bf242c0aa68d766f49c805ffe
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -24,7 +24,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverfirefox/assets/icon.png
   title:
     en_US: Firefox (LinuxServer.io)
+    ca_ES: Firefox (LinuxServer.io)
+    cs_CZ: Firefox (LinuxServer.io)
+    da_DK: Firefox (LinuxServer.io)
+    de_DE: Firefox (LinuxServer.io)
+    el_GR: Firefox (LinuxServer.io)
+    en_GB: Firefox (LinuxServer.io)
+    es_ES: Firefox (LinuxServer.io)
+    fr_FR: Firefox (LinuxServer.io)
+    ga_IE: Firefox (LinuxServer.io)
+    hr_HR: Firefox (LinuxServer.io)
+    hu_HU: Firefox (LinuxServer.io)
+    it_IT: Firefox (LinuxServer.io)
+    ja_JP: Firefox (LinuxServer.io)
+    ko_KR: Firefox (LinuxServer.io)
+    ml_IN: Firefox (LinuxServer.io)
+    nb_NO: Firefox (LinuxServer.io)
+    nl_NL: Firefox (LinuxServer.io)
+    pl_PL: Firefox (LinuxServer.io)
+    pt_BR: Firefox (LinuxServer.io)
+    ro_RO: Firefox (LinuxServer.io)
+    ru_RU: Firefox (LinuxServer.io)
+    sk_SK: Firefox (LinuxServer.io)
+    sv_SE: Firefox (LinuxServer.io)
+    tr_TR: Firefox (LinuxServer.io)
     zh_CN: Firefox（LinuxServer.io）
+    zh_TW: Firefox（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverfirefox
   port_map: '3000'
-  version: 1155.0.1
+  version: 1.2404.1

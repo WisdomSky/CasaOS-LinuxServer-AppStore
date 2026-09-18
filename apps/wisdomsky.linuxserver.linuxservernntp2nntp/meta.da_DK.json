@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+  "title": "Nntp2nntp",
+  "tagline": "En proxy giver dig mulighed for at bruge din NNTP-konto fra flere systemer, hvert med dit eget brugernavn og din adgangskode. Den understøtter fuldt ud SSL, og du kan også begrænse adgangen til proxy med SSL-certifikater. Nntp2nntp proxy er meget enkel og ret hurtig. ## Advarsel Selvom vi ikke kender til nntp2nntp-sikkerhedsproblemer, har upstream-koden til dette projekt ikke modtaget nogen ændringer siden 06.08.15 og er sandsynligvis permanent opgivet. Af denne grund anbefaler vi kraftigt, at du ikke gør denne applikation offentligt tilgængelig, og hvis du er nødt til at gøre det, bør andre sikkerhedslag, og SSL, betragtes som et absolut minimumskrav. Vi ser denne proxy primært blive brugt på et LAN, så alle brugernes NNTP-applikationer kan dele et fælles sæt interne legitimationsoplysninger, hvilket muliggør central administration af upstream-kontoen, f.eks. ændring af udbyder-, server- og trådgrænser for alle applikationer med én global konfigurationsændring.",
+  "description": "Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/nntp2nntp/"
+}

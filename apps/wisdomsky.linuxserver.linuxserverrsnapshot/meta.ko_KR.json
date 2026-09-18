@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+  "title": "Rsnapshot (LinuxServer.io)",
+  "tagline": "rsync 기반의 파일 시스템 스냅샷 유틸리티인 rsnapshot을 사용하면 로컬 시스템과 SSH를 통해 연결된 원격 시스템의 스냅샷을 주기적으로 생성할 수 있습니다. 이 코드는 가능한 한 하드 링크를 적극적으로 활용하여 디스크 공간을 크게 절약합니다.",
+  "description": "rsnapshot은 rsync를 기반으로 하는 파일 시스템 스냅샷 유틸리티입니다. rsnapshot을 사용하면 로컬 시스템과 SSH를 통해 연결된 원격 시스템의 스냅샷을 주기적으로 쉽게 생성할 수 있습니다. 이 코드는 가능한 한 하드 링크를 적극적으로 활용하여 필요한 디스크 공간을 크게 줄입니다."
+}

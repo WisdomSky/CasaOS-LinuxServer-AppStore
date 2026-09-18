@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverjackett",
+  "title": "Jackett (LinuxServer.io)",
+  "tagline": "Fungerar som en proxyserver: den översätter frågor från appar (Sonarr, SickRage, CouchPotato, Mylar, etc.) till webbplatsspecifika http-frågor för spårningswebbplatsen, analyserar html-svaret och skickar sedan tillbaka resultaten till den begärande programvaran. Detta möjliggör att hämta senaste uppladdningar (som RSS) och utföra sökningar. Jackett är en enda databaser för underhållen indexeringsskrapning och översättningslogik - vilket tar bort bördan från andra appar.",
+  "description": "Jackett fungerar som en proxyserver: den översätter frågor från appar (Sonarr, SickRage, CouchPotato, Mylar, etc.) till webbplatsspecifika http-frågor för spårningssidan, analyserar html-svaret och skickar sedan tillbaka resultaten till den begärande programvaran. Detta möjliggör att hämta senaste uppladdningar (som RSS) och utföra sökningar. Jackett är en enda databaser för underhållen indexeringsskrapning och översättningslogik - vilket tar bort bördan från andra appar."
+}

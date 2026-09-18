@@ -1,7 +1,7 @@
 name: linuxserver-vscodium-web
 services:
   app:
-    image: linuxserver/vscodium-web:1.135.06055@sha256:6bbc044972177c34e4c224a15302e8594e88c529c7fb082d8bf1ff0ffc871638
+    image: linuxserver/vscodium-web:1.135.06055@sha256:17a4177125982d84c85d2a9c444944f76da307cd8254b7cd1410bc4296dd1987
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -25,7 +25,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservervscodiumweb/assets/icon.png
   title:
     en_US: Vscodium web (LinuxServer.io)
+    ca_ES: Vscodium web (LinuxServer.io)
+    cs_CZ: Vscodium web (LinuxServer.io)
+    da_DK: Vscodium web (LinuxServer.io)
+    de_DE: Vscodium web (LinuxServer.io)
+    el_GR: Vscodium web (LinuxServer.io)
+    en_GB: Vscodium web (LinuxServer.io)
+    es_ES: Vscodium web (LinuxServer.io)
+    fr_FR: Vscodium web (LinuxServer.io)
+    ga_IE: Vscodium web (LinuxServer.io)
+    hr_HR: Vscodium web (LinuxServer.io)
+    hu_HU: Vscodium web (LinuxServer.io)
+    it_IT: Vscodium web (LinuxServer.io)
+    ja_JP: Vscodium web (LinuxServer.io)
+    ko_KR: Vscodium web (LinuxServer.io)
+    ml_IN: Vscodium web (LinuxServer.io)
+    nb_NO: Vscodium web (LinuxServer.io)
+    nl_NL: Vscodium web (LinuxServer.io)
+    pl_PL: Vscodium web (LinuxServer.io)
+    pt_BR: Vscodium web (LinuxServer.io)
+    ro_RO: Vscodium web (LinuxServer.io)
+    ru_RU: Vscodium web (LinuxServer.io)
+    sk_SK: Vscodium web (LinuxServer.io)
+    sv_SE: Vscodium web (LinuxServer.io)
+    tr_TR: Vscodium web (LinuxServer.io)
     zh_CN: Vscodium web（LinuxServer.io）
+    zh_TW: Vscodium web（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservervscodiumweb
   port_map: '8000'
   version: 1.135.06055

@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-e87009c2@sha256:f75a60e664697b47df82e3956b762537529f57fad9eca0c4783773f2d541c667
+    image: linuxserver/lazylibrarian:version-0e5e6c28@sha256:49bcc8f6641e5c4cac2cebb1edaef41d259e44ec7bdfd0462ea5c8ce0ca53021
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,7 +27,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/assets/icon.png
   title:
     en_US: Lazylibrarian (LinuxServer.io)
+    ca_ES: Lazylibrarian (LinuxServer.io)
+    cs_CZ: Lazylibrarian (LinuxServer.io)
+    da_DK: Lazylibrarian (LinuxServer.io)
+    de_DE: Lazylibrarian (LinuxServer.io)
+    el_GR: Lazylibrarian (LinuxServer.io)
+    en_GB: Lazylibrarian (LinuxServer.io)
+    es_ES: Lazylibrarian (LinuxServer.io)
+    fr_FR: Lazylibrarian (LinuxServer.io)
+    ga_IE: Lazylibrarian (LinuxServer.io)
+    hr_HR: Lazylibrarian (LinuxServer.io)
+    hu_HU: Lazylibrarian (LinuxServer.io)
+    it_IT: Lazylibrarian (LinuxServer.io)
+    ja_JP: Lazylibrarian (LinuxServer.io)
+    ko_KR: Lazylibrarian (LinuxServer.io)
+    ml_IN: Lazylibrarian (LinuxServer.io)
+    nb_NO: Lazylibrarian (LinuxServer.io)
+    nl_NL: Lazylibrarian (LinuxServer.io)
+    pl_PL: Lazylibrarian (LinuxServer.io)
+    pt_BR: Lazylibrarian (LinuxServer.io)
+    ro_RO: Lazylibrarian (LinuxServer.io)
+    ru_RU: Lazylibrarian (LinuxServer.io)
+    sk_SK: Lazylibrarian (LinuxServer.io)
+    sv_SE: Lazylibrarian (LinuxServer.io)
+    tr_TR: Lazylibrarian (LinuxServer.io)
     zh_CN: Lazylibrarian（LinuxServer.io）
+    zh_TW: Lazylibrarian（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverlazylibrarian
   port_map: '5299'
-  version: version-e87009c2
+  version: version-0e5e6c28

@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+  "title": "Resilio sync (LinuxServer.io)",
+  "tagline": "（旧称 BitTorrent Sync）は、BitTorrent プロトコルを使用して、すべてのデバイス間でファイルとフォルダを同期します。無料版と有料版があり、このコンテナは両方をサポートしています。公式の同期イメージもありますが、ボリュームのアクセス許可を簡素化するためにユーザーマッピングをサポートするこのイメージを作成しました。",
+  "description": "Resilio-sync（旧称BitTorrent Sync）は、BitTorrentプロトコルを使用して、すべてのデバイス間でファイルとフォルダを同期します。無料版と有料版があり、このコンテナは両方をサポートしています。公式の同期イメージもありますが、ボリュームのアクセス権限を簡素化するためにユーザーマッピングをサポートするこのイメージを作成しました。"
+}

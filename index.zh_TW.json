@@ -1,0 +1,1234 @@
+{
+  "apps": [
+    {
+      "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
+      "title": "Adguardhome sync（LinuxServer.io）",
+      "tagline": "在多個例項之間同步 AdGuard Home 配置。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
+      "title": "Airsonic advanced（LinuxServer.io）",
+      "tagline": "透過網頁隨時訪問和分享音樂。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraltus",
+      "title": "Altus（LinuxServer.io）",
+      "tagline": "支援主題和多賬戶的 WhatsApp 桌面客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverappriseapi",
+      "title": "Apprise api（LinuxServer.io）",
+      "tagline": "透過簡單的 API 向百餘種服務傳送通知。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverardour",
+      "title": "Ardour（LinuxServer.io）",
+      "tagline": "由音樂人、程式設計師和錄音工程師共同開發的開源軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraudacity",
+      "title": "Audacity（LinuxServer.io）",
+      "tagline": "易用的開源多軌音訊編輯與錄製工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverazahar",
+      "title": "Azahar（LinuxServer.io）",
+      "tagline": "基於 Citra 的開源 3DS 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbabybuddy",
+      "title": "Babybuddy（LinuxServer.io）",
+      "tagline": "記錄寶寶的睡眠、餵養和日常照護。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbambustudio",
+      "title": "Bambustudio（LinuxServer.io）",
+      "tagline": "功能豐富的開源 3D 列印切片軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbazarr",
+      "title": "Bazarr（LinuxServer.io）",
+      "tagline": "為 Sonarr 和 Radarr 管理、下載字幕。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbeets",
+      "title": "Beets（LinuxServer.io）",
+      "tagline": "整理和管理音樂庫。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
+      "title": "Bitcoin knots（LinuxServer.io）",
+      "tagline": "用於日常支付或商戶服務的比特幣客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
+      "title": "Blade of-agony（LinuxServer.io）",
+      "tagline": "受《德軍總部》和《毀滅戰士》啟發的二戰射擊遊戲。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverblender",
+      "title": "Blender（LinuxServer.io）",
+      "tagline": "免費的開源 3D 創作工具集。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverboinc",
+      "title": "Boinc（LinuxServer.io）",
+      "tagline": "面向大規模志願計算和網格計算的平臺。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
+      "title": "Booksonic air",
+      "tagline": "隨時隨地收聽自己的有聲書。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbookstack",
+      "title": "Bookstack（LinuxServer.io）",
+      "tagline": "使用所見即所得或 Markdown 編輯器編寫 Wiki 文件。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbrave",
+      "title": "Brave（LinuxServer.io）",
+      "tagline": "快速、注重隱私的跨平臺瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbudge",
+      "title": "Budge（LinuxServer.io）",
+      "tagline": "採用信封預演算法的開源個人財務應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbuildagent",
+      "title": "Build agent",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibre",
+      "title": "Calibre（LinuxServer.io）",
+      "tagline": "功能強大、易於使用的開源電子書管理器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibreweb",
+      "title": "Calibre web（LinuxServer.io）",
+      "tagline": "透過網頁瀏覽、閱讀和下載 Calibre 書庫中的電子書。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalligra",
+      "title": "Calligra（LinuxServer.io）",
+      "tagline": "KDE 開發的辦公與圖形創作套件。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
+      "title": "Changedetection. Io（LinuxServer.io）",
+      "tagline": "開源網頁變化監測與通知工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchrome",
+      "title": "Chrome（LinuxServer.io）",
+      "tagline": "Google 官方瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchromium",
+      "title": "Chromium（LinuxServer.io）",
+      "tagline": "致力於安全、快速和穩定上網體驗的開源瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverci",
+      "title": "Ci",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercidebug",
+      "title": "Ci debug",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercitron",
+      "title": "Citron",
+      "tagline": "面向自制軟體、功能豐富的 Switch 1 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercodeserver",
+      "title": "Code server（LinuxServer.io）",
+      "tagline": "在瀏覽器中使用遠端伺服器上的 VS Code。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercops",
+      "title": "Cops（LinuxServer.io）",
+      "tagline": "為 Calibre 書庫提供輕量的 OPDS 和網頁目錄。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercura",
+      "title": "Cura（LinuxServer.io）",
+      "tagline": "提供 400 多項設定的易用 3D 列印切片軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverd2builder",
+      "title": "D2 builder",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdaapd",
+      "title": "Daapd",
+      "tagline": "支援 AirPlay、Chromecast 和網路電臺的媒體伺服器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdarktable",
+      "title": "Darktable（LinuxServer.io）",
+      "tagline": "開源攝影工作流程與 RAW 影象處理軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdavos",
+      "title": "Davos（LinuxServer.io）",
+      "tagline": "自動掃描 FTP 伺服器並下載新檔案。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverddclient",
+      "title": "Ddclient（LinuxServer.io）",
+      "tagline": "自動更新動態 DNS 記錄的 Perl 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdeluge",
+      "title": "Deluge（LinuxServer.io）",
+      "tagline": "輕量、跨平臺的自由軟體 BitTorrent 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdigikam",
+      "title": "Digikam（LinuxServer.io）",
+      "tagline": "開源的專業照片管理軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdillinger",
+      "title": "Dillinger",
+      "tagline": "支援雲端與離線儲存的 Markdown 編輯器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdiskover",
+      "title": "Diskover（LinuxServer.io）",
+      "tagline": "使用 Elasticsearch 索引和管理檔案系統資料。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdogwalk",
+      "title": "Dogwalk（LinuxServer.io）",
+      "tagline": "扮演可愛的大狗，與孩子探索冬日森林。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
+      "title": "Dokuwiki（LinuxServer.io）",
+      "tagline": "無需資料庫、易於維護的開源 Wiki。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdolphin",
+      "title": "Dolphin（LinuxServer.io）",
+      "tagline": "支援圖形增強的 GameCube 和 Wii 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdomoticz",
+      "title": "Domoticz",
+      "tagline": "監控和控制燈具、開關及各類家庭感測器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarr",
+      "title": "Doplarr",
+      "tagline": "透過 Discord 為 *arr 應用提交媒體請求。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
+      "title": "Doplarr_rs（LinuxServer.io）",
+      "tagline": "使用 Rust 編寫的 Discord 媒體請求機器人。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
+      "title": "Dosbox staging（LinuxServer.io）",
+      "tagline": "執行 MS-DOS 軟體和遊戲的開源模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
+      "title": "Doublecommander（LinuxServer.io）",
+      "tagline": "跨平臺、開源的雙面板檔案管理器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckdns",
+      "title": "Duckdns（LinuxServer.io）",
+      "tagline": "將免費的 duckdns.org 子域名指向指定 IP。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckstation",
+      "title": "Duckstation（LinuxServer.io）",
+      "tagline": "注重準確性和遊戲相容性的 PS1 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduplicati",
+      "title": "Duplicati（LinuxServer.io）",
+      "tagline": "將加密、增量和壓縮備份儲存到本地或雲端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservereden",
+      "title": "Eden（LinuxServer.io）",
+      "tagline": "注重效能與穩定性的實驗性 Switch 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremby",
+      "title": "Emby（LinuxServer.io）",
+      "tagline": "整理個人媒體庫並串流到電視和移動裝置。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverembystat",
+      "title": "Embystat",
+      "tagline": "分析本地 Emby 伺服器的媒體統計資訊。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremulatorjs",
+      "title": "Emulatorjs",
+      "tagline": "在瀏覽器中模擬多種復古遊戲主機。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverendlessh",
+      "title": "Endlessh",
+      "tagline": "透過緩慢傳送 SSH 標識拖住掃描客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfail2ban",
+      "title": "Fail2ban（LinuxServer.io）",
+      "tagline": "封禁反覆觸發身份驗證錯誤的主機。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+      "title": "Faster whisper（LinuxServer.io）",
+      "tagline": "透過 Wyoming 協議提供 Whisper 語音識別服務。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
+      "title": "Feed2toot",
+      "tagline": "自動將 RSS 中的新文章釋出到 Mastodon。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverferdium",
+      "title": "Ferdium（LinuxServer.io）",
+      "tagline": "將常用應用整合到一個桌面客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverffmpeg",
+      "title": "Ffmpeg（LinuxServer.io）",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfilezilla",
+      "title": "Filezilla（LinuxServer.io）",
+      "tagline": "快速可靠的 FTP、FTPS 和 SFTP 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfirefox",
+      "title": "Firefox（LinuxServer.io）",
+      "tagline": "使用 Gecko 引擎的免費開源瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfleet",
+      "title": "Fleet",
+      "tagline": "透過網頁檢視所維護的容器映象。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflexget",
+      "title": "Flexget（LinuxServer.io）",
+      "tagline": "為各類媒體任務提供自動化。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflycast",
+      "title": "Flycast（LinuxServer.io）",
+      "tagline": "模擬 Dreamcast、Naomi 和 Atomiswave 等平臺。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
+      "title": "Foldingathome（LinuxServer.io）",
+      "tagline": "貢獻計算資源，幫助研究蛋白質與疾病。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreecad",
+      "title": "Freecad（LinuxServer.io）",
+      "tagline": "支援引數化建模、BIM 和有限元分析的開源 CAD。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreetube",
+      "title": "Freetube",
+      "tagline": "注重隱私的 YouTube 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreshrss",
+      "title": "Freshrss（LinuxServer.io）",
+      "tagline": "可自行託管的免費 RSS 閱讀器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergimp",
+      "title": "Gimp（LinuxServer.io）",
+      "tagline": "支援修圖、繪畫和外掛擴充套件的開源影象編輯器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
+      "title": "Github desktop（LinuxServer.io）",
+      "tagline": "基於 Electron 的開源 GitHub 桌面應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergitqlient",
+      "title": "Gitqlient（LinuxServer.io）",
+      "tagline": "功能豐富的跨平臺 Git 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrav",
+      "title": "Grav（LinuxServer.io）",
+      "tagline": "快速、簡單、靈活的檔案式網站平臺。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrocy",
+      "title": "Grocy（LinuxServer.io）",
+      "tagline": "管理廚房庫存、採購、家務和耗材。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergzdoom",
+      "title": "Gzdoom（LinuxServer.io）",
+      "tagline": "支援 OpenGL 和強大指令碼功能的 Doom 引擎移植版。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhabridge",
+      "title": "Habridge（LinuxServer.io）",
+      "tagline": "模擬 Philips Hue API，連線家庭自動化裝置。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhandbrake",
+      "title": "Handbrake（LinuxServer.io）",
+      "tagline": "將多種影片格式轉換為常用現代編碼。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheadphones",
+      "title": "Headphones",
+      "tagline": "自動下載和管理來自 NZB 與 Torrent 的音樂。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
+      "title": "Healthchecks（LinuxServer.io）",
+      "tagline": "監控 cron 定時任務是否按時執行。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
+      "title": "Hedgedoc（LinuxServer.io）",
+      "tagline": "跨裝置實時協作編寫 Markdown 筆記。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheimdall",
+      "title": "Heimdall（LinuxServer.io）",
+      "tagline": "集中整理常用網站和網頁應用連結。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhelium",
+      "title": "Helium（LinuxServer.io）",
+      "tagline": "注重隱私並內建廣告攔截的 Chromium 瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
+      "title": "Hishtory server（LinuxServer.io）",
+      "tagline": "記錄命令執行上下文並加密同步 Shell 歷史。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
+      "title": "Homeassistant（LinuxServer.io）",
+      "tagline": "以本地控制和隱私為核心的開源家庭自動化。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
+      "title": "Htpcmanager（LinuxServer.io）",
+      "tagline": "集中訪問多種 HTPC 相關應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverinkscape",
+      "title": "Inkscape（LinuxServer.io）",
+      "tagline": "跨平臺的專業向量圖形軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverintellijidea",
+      "title": "Intellij idea（LinuxServer.io）",
+      "tagline": "幫助減少繁瑣工作、提升編碼效率的開發工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjackett",
+      "title": "Jackett（LinuxServer.io）",
+      "tagline": "將媒體應用的查詢轉換為各索引站點的請求。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjellyfin",
+      "title": "Jellyfin（LinuxServer.io）",
+      "tagline": "自由、開源的個人媒體管理與串流系統。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
+      "title": "Jenkins builder",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjoplin",
+      "title": "Joplin（LinuxServer.io）",
+      "tagline": "開源筆記和待辦事項管理應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkalilinux",
+      "title": "Kali linux（LinuxServer.io）",
+      "tagline": "用於滲透測試和網路安全評估的 Linux 發行版。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkasm",
+      "title": "Kasm（LinuxServer.io）",
+      "tagline": "透過瀏覽器訪問容器化桌面、應用和網頁服務。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkavita",
+      "title": "Kavita（LinuxServer.io）",
+      "tagline": "搭建自己的跨平臺閱讀伺服器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkdenlive",
+      "title": "Kdenlive（LinuxServer.io）",
+      "tagline": "由 KDE 社群開發的開源影片編輯器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
+      "title": "Keepassxc（LinuxServer.io）",
+      "tagline": "免費的開源跨平臺密碼管理器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkicad",
+      "title": "Kicad（LinuxServer.io）",
+      "tagline": "跨平臺開源電子設計自動化套件。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkimai",
+      "title": "Kimai（LinuxServer.io）",
+      "tagline": "適合自由職業者和企業的專業工時管理。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkometa",
+      "title": "Kometa（LinuxServer.io）",
+      "tagline": "精細管理媒體庫後設資料、合集和封面疊加層。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkrita",
+      "title": "Krita（LinuxServer.io）",
+      "tagline": "為藝術家打造的免費開源繪畫軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
+      "title": "Lazylibrarian（LinuxServer.io）",
+      "tagline": "關注作者並收集電子書後設資料。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverldapauth",
+      "title": "Ldap auth（LinuxServer.io）",
+      "tagline": "為經 Nginx 代理的資源提供 LDAP 身份驗證。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
+      "title": "Libreoffice（LinuxServer.io）",
+      "tagline": "免費且功能強大的開源辦公套件。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
+      "title": "Librespeed（LinuxServer.io）",
+      "tagline": "無需 Flash、Java 或 WebSocket 的輕量測速工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
+      "title": "Librewolf（LinuxServer.io）",
+      "tagline": "注重隱私、安全和使用者自由的 Firefox 獨立版本。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlidarr",
+      "title": "Lidarr（LinuxServer.io）",
+      "tagline": "為 Usenet 和 BitTorrent 使用者管理音樂收藏。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlimnoria",
+      "title": "Limnoria（LinuxServer.io）",
+      "tagline": "功能豐富、支援外掛的 Python IRC 機器人。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlmstudio",
+      "title": "Lm studio（LinuxServer.io）",
+      "tagline": "在自己的電腦上私密執行本地 AI 模型。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlollypop",
+      "title": "Lollypop（LinuxServer.io）",
+      "tagline": "為 GNOME 桌面設計的輕量音樂播放器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlsioapi",
+      "title": "Lsio api",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverluanti",
+      "title": "Luanti（LinuxServer.io）",
+      "tagline": "便於模組開發和遊戲創作的開源體素平臺。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlychee",
+      "title": "Lychee（LinuxServer.io）",
+      "tagline": "自行託管、上傳、管理和分享照片。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermame",
+      "title": "Mame（LinuxServer.io）",
+      "tagline": "模擬街機、遊戲主機和舊式計算機硬體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermanyfold",
+      "title": "Manyfold（LinuxServer.io）",
+      "tagline": "自行託管的 3D 模型收藏管理應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermariadb",
+      "title": "Mariadb（LinuxServer.io）",
+      "tagline": "由 MySQL 原開發者打造的資料庫伺服器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermastodon",
+      "title": "Mastodon（LinuxServer.io）",
+      "tagline": "基於 ActivityPub 的開源社交網路伺服器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermediaelch",
+      "title": "Mediaelch（LinuxServer.io）",
+      "tagline": "為 Kodi 整理影視、演唱會和音樂後設資料。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermedusa",
+      "title": "Medusa（LinuxServer.io）",
+      "tagline": "自動追蹤電視劇新集的媒體庫管理器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermelonds",
+      "title": "Melonds（LinuxServer.io）",
+      "tagline": "快速、準確的 Nintendo DS 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminetest",
+      "title": "Minetest",
+      "tagline": "擁有近乎無限世界的方塊沙盒遊戲與引擎。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminisatip",
+      "title": "Minisatip（LinuxServer.io）",
+      "tagline": "支援多種數字電視接收卡的 SAT>IP 伺服器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodmanager",
+      "title": "Modmanager（LinuxServer.io）",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodrinth",
+      "title": "Modrinth（LinuxServer.io）",
+      "tagline": "集中啟動、管理和更新遊戲模組。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermonica",
+      "title": "Monica",
+      "tagline": "記錄生活和管理人際關係的開源系統。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermsedge",
+      "title": "Msedge（LinuxServer.io）",
+      "tagline": "微軟開發的 Chromium 跨平臺瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermstream",
+      "title": "Mstream（LinuxServer.io）",
+      "tagline": "隨時隨地串流家中電腦上的音樂。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
+      "title": "Mullvad browser（LinuxServer.io）",
+      "tagline": "減少追蹤和瀏覽器指紋識別的隱私瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermylar3",
+      "title": "Mylar3（LinuxServer.io）",
+      "tagline": "透過 NZB、Torrent 和直鏈自動下載漫畫。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
+      "title": "Mysql workbench（LinuxServer.io）",
+      "tagline": "用於 MySQL 建模、開發和管理的視覺化工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernano",
+      "title": "Nano",
+      "tagline": "輕量、快速且零手續費的數字支付協議。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernanowallet",
+      "title": "Nano wallet",
+      "tagline": "透過網頁使用 Nano 輕錢包。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
+      "title": "Netbootxyz",
+      "tagline": "透過 PXE 網路啟動多種系統安裝器和工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbox",
+      "title": "Netbox（LinuxServer.io）",
+      "tagline": "管理 IP 地址和資料中心基礎設施。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernextcloud",
+      "title": "Nextcloud（LinuxServer.io）",
+      "tagline": "在自己的伺服器上訪問、同步和分享檔案。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernginx",
+      "title": "Nginx（LinuxServer.io）",
+      "tagline": "提供網頁服務、反向代理、快取和負載均衡。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverngircd",
+      "title": "Ngircd（LinuxServer.io）",
+      "tagline": "適用於小型或私有網路的輕量 IRC 伺服器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+      "title": "Nntp2nntp",
+      "tagline": "讓多個系統透過獨立憑據共享 NNTP 賬戶。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbget",
+      "title": "Nzbget（LinuxServer.io）",
+      "tagline": "低資源佔用、高效能的 Usenet 下載器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
+      "title": "Nzbhydra2（LinuxServer.io）",
+      "tagline": "集中搜尋多個 NZB 索引服務。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverobsidian",
+      "title": "Obsidian（LinuxServer.io）",
+      "tagline": "在本地建立、關聯和整理筆記。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverombi",
+      "title": "Ombi（LinuxServer.io）",
+      "tagline": "為 Plex 使用者管理媒體請求和內容通知。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
+      "title": "Onlyoffice（LinuxServer.io）",
+      "tagline": "跨網頁、桌面和移動端協作編輯辦公文件與 PDF。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenshot",
+      "title": "Openshot（LinuxServer.io）",
+      "tagline": "跨平臺的免費開源影片編輯器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+      "title": "Openssh server（LinuxServer.io）",
+      "tagline": "透過 SSH 訪問受限的容器環境。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
+      "title": "Openvscode server",
+      "tagline": "透過現代瀏覽器訪問遠端 VS Code。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropera",
+      "title": "Opera（LinuxServer.io）",
+      "tagline": "具有獨特介面和功能的 Chromium 瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
+      "title": "Orcaslicer（LinuxServer.io）",
+      "tagline": "面向 FDM 印表機的開源切片軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroscam",
+      "title": "Oscam（LinuxServer.io）",
+      "tagline": "使用智慧卡解擾 DVB 傳輸的開源軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroverseerr",
+      "title": "Overseerr",
+      "tagline": "為 Plex 生態提供媒體發現和請求管理。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpairdrop",
+      "title": "Pairdrop（LinuxServer.io）",
+      "tagline": "在裝置之間透過點對點連線分享檔案和文字。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpcsx2",
+      "title": "Pcsx2（LinuxServer.io）",
+      "tagline": "開源 PlayStation 2 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpelorus",
+      "title": "Pelorus（LinuxServer.io）",
+      "tagline": "讓 AI 操作基於 Selkies 的 Linux 桌面。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
+      "title": "Phpmyadmin（LinuxServer.io）",
+      "tagline": "透過網頁管理 MySQL 和 MariaDB。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpidgin",
+      "title": "Pidgin（LinuxServer.io）",
+      "tagline": "同時登入多個即時通訊網路。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiper",
+      "title": "Piper（LinuxServer.io）",
+      "tagline": "透過 Wyoming 協議提供本地神經網路語音合成。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiwigo",
+      "title": "Piwigo（LinuxServer.io）",
+      "tagline": "透過網頁釋出和管理照片收藏。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplanka",
+      "title": "Planka（LinuxServer.io）",
+      "tagline": "簡潔優雅的開源專案追蹤工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplex",
+      "title": "Plex（LinuxServer.io）",
+      "tagline": "整理和串流個人影片、音樂及照片。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplexmetamanager",
+      "title": "Plex meta-manager",
+      "tagline": "按計劃更新 Plex 後設資料並自動建立合集。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverppsspp",
+      "title": "Ppsspp（LinuxServer.io）",
+      "tagline": "注重速度與可移植性的開源 PSP 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprojectsend",
+      "title": "Projectsend（LinuxServer.io）",
+      "tagline": "自行託管檔案並分配給指定客戶。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprowlarr",
+      "title": "Prowlarr（LinuxServer.io）",
+      "tagline": "集中管理 Torrent 和 Usenet 索引器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpwndrop",
+      "title": "Pwndrop（LinuxServer.io）",
+      "tagline": "透過 HTTP 和 WebDAV 安全分享檔案。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpycharm",
+      "title": "Pycharm（LinuxServer.io）",
+      "tagline": "支援 Python 開發、資料科學和網頁框架的 IDE。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpydiocells",
+      "title": "Pydio cells（LinuxServer.io）",
+      "tagline": "面向組織的檔案共享平臺。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpyloadng",
+      "title": "Pyload ng（LinuxServer.io）",
+      "tagline": "輕量、可擴充套件的網頁下載管理器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpylon",
+      "title": "Pylon",
+      "tagline": "基於 Node.js 和 HTML5 的網頁開發環境。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpython",
+      "title": "Python",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
+      "title": "Qbittorrent（LinuxServer.io）",
+      "tagline": "基於 C++、Qt 和 libtorrent 的 BitTorrent 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqdirstat",
+      "title": "Qdirstat（LinuxServer.io）",
+      "tagline": "基於 Qt 的目錄空間統計工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqemustatic",
+      "title": "Qemu static（LinuxServer.io）",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+      "title": "Quassel core",
+      "tagline": "保持線上並儲存聊天記錄的 IRC 核心服務。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselweb",
+      "title": "Quassel web",
+      "tagline": "透過網頁連線 Quassel IRC 核心。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverradarr",
+      "title": "Radarr（LinuxServer.io）",
+      "tagline": "基於 Sonarr 的電影管理工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverraneto",
+      "title": "Raneto（LinuxServer.io）",
+      "tagline": "使用靜態 Markdown 檔案構建知識庫。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
+      "title": "Rawtherapee（LinuxServer.io）",
+      "tagline": "免費的跨平臺 RAW 影象處理軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrdesktop",
+      "title": "Rdesktop",
+      "tagline": "透過 RDP 訪問多種 Linux 桌面環境。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverreadmesync",
+      "title": "Readme sync",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverremmina",
+      "title": "Remmina（LinuxServer.io）",
+      "tagline": "支援 RDP、VNC、SPICE 和 SSH 的遠端桌面客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrequestrr",
+      "title": "Requestrr",
+      "tagline": "透過聊天機器人提交媒體請求。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+      "title": "Resilio sync（LinuxServer.io）",
+      "tagline": "使用 BitTorrent 協議同步裝置間的檔案。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverretroarch",
+      "title": "Retroarch（LinuxServer.io）",
+      "tagline": "在多種裝置上執行經典遊戲的模擬器前端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrpcs3",
+      "title": "Rpcs3（LinuxServer.io）",
+      "tagline": "開源的跨平臺 PlayStation 3 模擬器與偵錯程式。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+      "title": "Rsnapshot（LinuxServer.io）",
+      "tagline": "使用 rsync 和硬連結建立定期檔案系統快照。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrustdesk",
+      "title": "Rustdesk（LinuxServer.io）",
+      "tagline": "配置簡單、支援自行託管的開源遠端控制工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversabnzbd",
+      "title": "Sabnzbd（LinuxServer.io）",
+      "tagline": "自動下載、校驗、修復和解壓 Usenet 內容。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverscummvm",
+      "title": "Scummvm（LinuxServer.io）",
+      "tagline": "在現代系統上執行經典冒險和角色扮演遊戲。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversealskin",
+      "title": "Sealskin（LinuxServer.io）",
+      "tagline": "透過瀏覽器使用遠端容器化桌面應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
+      "title": "Series troxide",
+      "tagline": "簡潔現代的劇集追蹤工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershadps4",
+      "title": "Shadps4（LinuxServer.io）",
+      "tagline": "處於早期開發階段的 PlayStation 4 模擬器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershotcut",
+      "title": "Shotcut（LinuxServer.io）",
+      "tagline": "免費、開源、跨平臺的影片編輯器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickchill",
+      "title": "Sickchill",
+      "tagline": "自動管理電視劇媒體庫並追蹤新集。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickgear",
+      "title": "Sickgear（LinuxServer.io）",
+      "tagline": "追蹤電視劇與動畫新集，並連線下載應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversignal",
+      "title": "Signal（LinuxServer.io）",
+      "tagline": "以端到端加密保護通訊隱私的訊息應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversmokeping",
+      "title": "Smokeping（LinuxServer.io）",
+      "tagline": "持續追蹤網路延遲。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnapdrop",
+      "title": "Snapdrop",
+      "tagline": "在瀏覽器中進行區域網檔案分享。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnipeit",
+      "title": "Snipe it",
+      "tagline": "簡化 IT 裝置與資產管理。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversocketproxy",
+      "title": "Socket proxy（LinuxServer.io）",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversonarr",
+      "title": "Sonarr（LinuxServer.io）",
+      "tagline": "自動獲取、整理和升級電視劇集。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
+      "title": "Speedtest tracker（LinuxServer.io）",
+      "tagline": "自行託管的網路效能測速與追蹤工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspotube",
+      "title": "Spotube（LinuxServer.io）",
+      "tagline": "使用多種音源的開源跨平臺 Spotify 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
+      "title": "Sqlitebrowser（LinuxServer.io）",
+      "tagline": "以視覺化方式建立和編輯 SQLite 資料庫。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteam",
+      "title": "Steam（LinuxServer.io）",
+      "tagline": "用於遊玩、討論和創作遊戲的平臺。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteamos",
+      "title": "Steamos",
+      "tagline": "帶有 Steam 軟體倉庫的 Arch Linux 容器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverswag",
+      "title": "Swag（LinuxServer.io）",
+      "tagline": "整合證書自動管理和入侵防護的網頁閘道器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversynclounge",
+      "title": "Synclounge（LinuxServer.io）",
+      "tagline": "與親友同步觀看 Plex 內容。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyncthing",
+      "title": "Syncthing（LinuxServer.io）",
+      "tagline": "開放、可信、去中心化的檔案同步工具。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyslogng",
+      "title": "Syslog ng（LinuxServer.io）",
+      "tagline": "集中收集、處理和轉發基礎設施日誌。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertautulli",
+      "title": "Tautulli（LinuxServer.io）",
+      "tagline": "監控和分析 Plex Media Server，併傳送通知。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertelegram",
+      "title": "Telegram（LinuxServer.io）",
+      "tagline": "基於雲的移動與桌面訊息應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertester",
+      "title": "Tester",
+      "tagline": "用於 CI 流程中截圖驗證的內部桌面沙盒。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthelounge",
+      "title": "Thelounge（LinuxServer.io）",
+      "tagline": "自行託管的網頁 IRC 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthunderbird",
+      "title": "Thunderbird（LinuxServer.io）",
+      "tagline": "整合郵件、日曆、聯絡人和訂閱閱讀的客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertransmission",
+      "title": "Transmission（LinuxServer.io）",
+      "tagline": "易用且功能豐富的 BitTorrent 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertvheadend",
+      "title": "Tvheadend（LinuxServer.io）",
+      "tagline": "支援多種廣播源和協議的電視串流與錄製伺服器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverubooquity",
+      "title": "Ubooquity（LinuxServer.io）",
+      "tagline": "隨時隨地訪問自己的漫畫和電子書。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
+      "title": "Ungoogled chromium（LinuxServer.io）",
+      "tagline": "移除 Google 網頁服務依賴的 Chromium。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunificontroller",
+      "title": "Unifi controller",
+      "tagline": "面向高密度部署的企業無線網路管理軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
+      "title": "Unifi network-application（LinuxServer.io）",
+      "tagline": "面向高密度部署的企業無線網路管理軟體。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunrar",
+      "title": "Unrar",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervivaldi",
+      "title": "Vivaldi（LinuxServer.io）",
+      "tagline": "內建郵件客戶端的跨平臺瀏覽器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervlc",
+      "title": "Vlc（LinuxServer.io）",
+      "tagline": "免費、開源的跨平臺多媒體播放器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscode",
+      "title": "Vscode（LinuxServer.io）",
+      "tagline": "執行完整桌面版 Visual Studio Code。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodium",
+      "title": "Vscodium（LinuxServer.io）",
+      "tagline": "社群維護、採用自由許可證的 VS Code 二進位制發行版。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
+      "title": "Vscodium web（LinuxServer.io）",
+      "tagline": "社群維護的 VS Code 遠端網頁元件。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebcord",
+      "title": "Webcord（LinuxServer.io）",
+      "tagline": "為 Discord 網頁提供安全和隱私增強的客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
+      "title": "Webgrabplus（LinuxServer.io）",
+      "tagline": "從多個電視節目網站增量採集 XMLTV 節目指南。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebstation",
+      "title": "Webstation（LinuxServer.io）",
+      "tagline": "面向網頁模擬體驗的 Ubuntu LXQt 桌面。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebtop",
+      "title": "Webtop（LinuxServer.io）",
+      "tagline": "透過現代瀏覽器訪問完整 Linux 桌面。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverweixin",
+      "title": "微信（LinuxServer.io）",
+      "tagline": "騰訊開發的即時通訊、社交和移動支付應用。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwikijs",
+      "title": "Wikijs（LinuxServer.io）",
+      "tagline": "基於 Node.js 的現代、輕量 Wiki。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwinegui",
+      "title": "Winegui（LinuxServer.io）",
+      "tagline": "透過圖形介面建立和管理 Wine 環境。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireguard",
+      "title": "Wireguard（LinuxServer.io）",
+      "tagline": "採用現代密碼學的輕量高速 VPN。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireshark",
+      "title": "Wireshark（LinuxServer.io）",
+      "tagline": "深入分析網路流量的協議分析器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
+      "title": "Wps office（LinuxServer.io）",
+      "tagline": "支援文字、表格、簡報和 PDF 的辦公套件。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxbackbone",
+      "title": "Xbackbone（LinuxServer.io）",
+      "tagline": "支援 ShareX 的輕量自託管檔案管理器。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxemu",
+      "title": "Xemu（LinuxServer.io）",
+      "tagline": "在桌面系統上模擬初代 Xbox。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxvfb",
+      "title": "Xvfb",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryaak",
+      "title": "Yaak（LinuxServer.io）",
+      "tagline": "用於 REST、GraphQL 和 gRPC 的桌面 API 客戶端。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryourspotify",
+      "title": "Your_spotify（LinuxServer.io）",
+      "tagline": "自行託管的 Spotify 收聽統計面板。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryq",
+      "title": "Yq",
+      "tagline": "此容器需要特殊配置，請先閱讀使用說明。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzen",
+      "title": "Zen（LinuxServer.io）",
+      "tagline": "注重隱私、定製和設計的 Firefox 分支。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverznc",
+      "title": "Znc（LinuxServer.io）",
+      "tagline": "保持 IRC 連線並支援多客戶端共享身份。"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzotero",
+      "title": "Zotero（LinuxServer.io）",
+      "tagline": "收集、整理、批註、引用和分享研究資料。"
+    }
+  ]
+}

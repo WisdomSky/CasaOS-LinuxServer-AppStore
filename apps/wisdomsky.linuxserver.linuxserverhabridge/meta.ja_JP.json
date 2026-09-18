@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverhabridge",
+  "title": "Habridge (LinuxServer.io)",
+  "tagline": "Philips Hue APIをエミュレートし、Amazon Echo/Dot Gen 1（Gen 2ではha-bridgeの検出に問題があります）などのホームオートメーションゲートウェイや、Philips Hueをサポートするその他のシステムに接続します。このブリッジは、Hueプロトコルのオン/オフや明るさ調整などの基本コマンドを処理します。独自のAPIを持つほとんどのデバイスを制御できます。",
+  "description": "Habridgeは、Amazon Echo/Dot Gen 1（Gen 2ではha-bridgeの検出に問題があります）などのホームオートメーションゲートウェイや、Philips Hueをサポートするその他のシステムに対して、Philips Hue APIをエミュレートします。このブリッジは、Hueプロトコルのオン/オフや明るさ調整などの基本コマンドを処理します。このブリッジは、独自のAPIを持つほとんどのデバイスを制御できます。"
+}

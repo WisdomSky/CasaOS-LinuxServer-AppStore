@@ -1,7 +1,7 @@
 name: linuxserver-msedge
 services:
   app:
-    image: linuxserver/msedge:153.0.4234@sha256:5968ad8be0387e963d1c81c3b85f434cb8eefb6aef187d4e9cc34f9de08def69
+    image: linuxserver/msedge:153.0.4234@sha256:59fe6d9b93003a2848a6eb545104c984b3201831caeb434f60706fd0486e417e
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -24,7 +24,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservermsedge/assets/icon.png
   title:
     en_US: Msedge (LinuxServer.io)
+    ca_ES: Msedge (LinuxServer.io)
+    cs_CZ: Msedge (LinuxServer.io)
+    da_DK: Msedge (LinuxServer.io)
+    de_DE: Msedge (LinuxServer.io)
+    el_GR: Msedge (LinuxServer.io)
+    en_GB: Msedge (LinuxServer.io)
+    es_ES: Msedge (LinuxServer.io)
+    fr_FR: Msedge (LinuxServer.io)
+    ga_IE: Msedge (LinuxServer.io)
+    hr_HR: Msedge (LinuxServer.io)
+    hu_HU: Msedge (LinuxServer.io)
+    it_IT: Msedge (LinuxServer.io)
+    ja_JP: Msedge (LinuxServer.io)
+    ko_KR: Msedge (LinuxServer.io)
+    ml_IN: Msedge (LinuxServer.io)
+    nb_NO: Msedge (LinuxServer.io)
+    nl_NL: Msedge (LinuxServer.io)
+    pl_PL: Msedge (LinuxServer.io)
+    pt_BR: Msedge (LinuxServer.io)
+    ro_RO: Msedge (LinuxServer.io)
+    ru_RU: Msedge (LinuxServer.io)
+    sk_SK: Msedge (LinuxServer.io)
+    sv_SE: Msedge (LinuxServer.io)
+    tr_TR: Msedge (LinuxServer.io)
     zh_CN: Msedge（LinuxServer.io）
+    zh_TW: Msedge（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservermsedge
   port_map: '3000'
   version: 153.0.4234

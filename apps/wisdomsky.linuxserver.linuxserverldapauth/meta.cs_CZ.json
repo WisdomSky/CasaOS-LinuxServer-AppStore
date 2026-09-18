@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverldapauth",
+  "title": "Ldap auth (LinuxServer.io)",
+  "tagline": "Software je určen pro ověřování uživatelů, kteří požadují chráněné zdroje ze serverů proxyovaných nginx. Obsahuje démona (ldap-auth), který komunikuje s ověřovacím serverem, a démona webového serveru, který generuje ověřovací soubor cookie na základě přihlašovacích údajů uživatele. Démony jsou napsány v Pythonu pro použití s ověřovacím serverem LDAP (Lightweight Directory Access Protocol) (OpenLDAP nebo Microsoft Windows Active Directory 2003 a 2012).",
+  "description": "Software LDAP-auth slouží k ověřování uživatelů, kteří požadují chráněné zdroje ze serverů proxyovaných nginx. Obsahuje démona (ldap-auth), který komunikuje s ověřovacím serverem, a démona webového serveru, který generuje ověřovací soubor cookie na základě přihlašovacích údajů uživatele. Démony jsou napsány v Pythonu pro použití s ověřovacím serverem LDAP (Lightweight Directory Access Protocol) (OpenLDAP nebo Microsoft Windows Active Directory 2003 a 2012)."
+}

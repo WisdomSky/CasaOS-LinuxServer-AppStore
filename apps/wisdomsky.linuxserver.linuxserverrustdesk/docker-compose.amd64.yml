@@ -1,7 +1,7 @@
 name: linuxserver-rustdesk
 services:
   app:
-    image: linuxserver/rustdesk:1.4.9@sha256:7ac83eb9e751b2b6583572fb940f916c6ec531c29ae97b526d3d1bace8d07773
+    image: linuxserver/rustdesk:1.4.9@sha256:5067eebb088092720edc26b9074cd025c9b6f35d5dbf513f374f143bbd7e32db
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -23,7 +23,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverrustdesk/assets/icon.png
   title:
     en_US: Rustdesk (LinuxServer.io)
+    ca_ES: Rustdesk (LinuxServer.io)
+    cs_CZ: Rustdesk (LinuxServer.io)
+    da_DK: Rustdesk (LinuxServer.io)
+    de_DE: Rustdesk (LinuxServer.io)
+    el_GR: Rustdesk (LinuxServer.io)
+    en_GB: Rustdesk (LinuxServer.io)
+    es_ES: Rustdesk (LinuxServer.io)
+    fr_FR: Rustdesk (LinuxServer.io)
+    ga_IE: Rustdesk (LinuxServer.io)
+    hr_HR: Rustdesk (LinuxServer.io)
+    hu_HU: Rustdesk (LinuxServer.io)
+    it_IT: Rustdesk (LinuxServer.io)
+    ja_JP: Rustdesk (LinuxServer.io)
+    ko_KR: Rustdesk (LinuxServer.io)
+    ml_IN: Rustdesk (LinuxServer.io)
+    nb_NO: Rustdesk (LinuxServer.io)
+    nl_NL: Rustdesk (LinuxServer.io)
+    pl_PL: Rustdesk (LinuxServer.io)
+    pt_BR: Rustdesk (LinuxServer.io)
+    ro_RO: Rustdesk (LinuxServer.io)
+    ru_RU: Rustdesk (LinuxServer.io)
+    sk_SK: Rustdesk (LinuxServer.io)
+    sv_SE: Rustdesk (LinuxServer.io)
+    tr_TR: Rustdesk (LinuxServer.io)
     zh_CN: Rustdesk（LinuxServer.io）
+    zh_TW: Rustdesk（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverrustdesk
   port_map: '3000'
   version: 1.4.9

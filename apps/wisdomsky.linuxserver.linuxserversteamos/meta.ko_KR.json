@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserversteamos",
+  "title": "Steamos",
+  "tagline": "Valve Software에서 제작한 Arch 기반 Linux 배포판입니다. 이 컨테이너는 소프트웨어 지원을 위해 Steam 저장소가 추가된 기본 Arch 설치본입니다. 이 컨테이너는 실제 Linux 호스트에서 최신 AMD/Intel GPU를 사용할 때만 작동합니다.",
+  "description": "SteamOS는 Valve Software에서 제작한 Arch 기반 Linux 배포판입니다. 이 컨테이너는 소프트웨어 지원을 위해 Steam 저장소가 추가된 기본 Arch 설치 환경입니다. 이 컨테이너는 최신 AMD/Intel GPU가 탑재된 실제 Linux 호스트에서만 작동합니다."
+}

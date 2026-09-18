@@ -1,0 +1,1234 @@
+{
+  "apps": [
+    {
+      "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
+      "title": "Adguardhome sync (LinuxServer.io)",
+      "tagline": "AdGuardHome 설정을 복제 인스턴스와 동기화하는 도구입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
+      "title": "Airsonic advanced (LinuxServer.io)",
+      "tagline": "무료 웹 기반 미디어 스트리밍 서비스로, 언제 어디서든 음악을 즐길 수 있습니다. 친구들과 음악을 공유하거나 직장에서 음악을 감상하는 데 사용해 보세요. 주방과 거실에 있는 여러 플레이어로 동시에 스트리밍할 수도 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraltus",
+      "title": "Altus (LinuxServer.io)",
+      "tagline": "Electron 기반의 WhatsApp 클라이언트로, 테마 및 다중 계정 지원 기능을 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverappriseapi",
+      "title": "Apprise api (LinuxServer.io)",
+      "tagline": "사용자 친화적인 API를 통해 네트워크에서 Apprise를 활용하세요. * 100개 이상의 서비스로 알림을 전송할 수 있습니다. * Apprise에 대한 매우 가벼운 게이트웨이입니다. * 바로 사용 가능한 마이크로서비스를 제공합니다. * 설정을 확인하고 테스트할 수 있는 간편한 웹사이트를 제공합니다. Apprise API는 간단한 알림 솔루션을 찾는 기존(및 신규) 생태계에 쉽게 통합될 수 있도록 설계되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverardour",
+      "title": "Ardour (LinuxServer.io)",
+      "tagline": "음악가, 프로그래머, 전문 녹음 엔지니어 등 전 세계 팀이 협력하여 만든 오픈 소스 프로젝트입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraudacity",
+      "title": "Audacity (LinuxServer.io)",
+      "tagline": "사용하기 쉬운 멀티트랙 오디오 편집 및 녹음 프로그램입니다. 자원 봉사자 그룹이 오픈 소스로 개발했습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverazahar",
+      "title": "Azahar (LinuxServer.io)",
+      "tagline": "Citra 기반의 오픈 소스 3DS 에뮬레이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbabybuddy",
+      "title": "Babybuddy (LinuxServer.io)",
+      "tagline": "아기를 위한 친구. 보호자가 수면, 수유, 기저귀 교체, 엎드려 놀기 등을 추적하여 아기의 필요를 (더 이상) 추측하지 않고 파악하고 예측할 수 있도록 도와줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbambustudio",
+      "title": "Bambustudio (LinuxServer.io)",
+      "tagline": "오픈 소스 기반의 최첨단 기능이 풍부한 슬라이싱 소프트웨어입니다. 프로젝트 기반 워크플로우, 체계적으로 최적화된 슬라이싱 알고리즘, 사용하기 쉬운 그래픽 인터페이스를 통해 매우 원활한 인쇄 경험을 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbazarr",
+      "title": "Bazarr (LinuxServer.io)",
+      "tagline": "Sonarr 및 Radarr와 함께 사용할 수 있는 보조 애플리케이션입니다. 사용자의 요구 사항에 따라 자막을 관리하고 다운로드할 수 있습니다. TV 프로그램이나 영화별로 선호 사항을 설정하면 Bazarr가 모든 것을 처리해 줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbeets",
+      "title": "Beets (LinuxServer.io)",
+      "tagline": "이 프로그램은 음악 라이브러리 관리자이지, 대부분 음악 플레이어는 아닙니다. 간단한 플레이어 플러그인과 실험적인 웹 기반 플레이어가 포함되어 있긴 하지만, 실제 소리 재생은 전문 도구에 맡기는 것이 일반적입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
+      "title": "Bitcoin knots (LinuxServer.io)",
+      "tagline": "일반 결제를 위한 데스크톱 클라이언트로 사용하거나, 가맹점 및 기타 결제 서비스를 위한 완전한 노드 서버 유틸리티로 사용할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
+      "title": "Blade of-agony (LinuxServer.io)",
+      "tagline": "울펜슈타인과 둠에서 영감을 받은 스토리 중심의 2차 세계 대전 배경 슈팅 게임입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverblender",
+      "title": "Blender (LinuxServer.io)",
+      "tagline": "애니메이션 영화, 시각 효과, 미술 작품, 3D 프린팅 모델, 모션 그래픽, 대화형 3D 애플리케이션, 가상 현실 및 컴퓨터 게임 제작에 사용되는 무료 오픈 소스 3D 컴퓨터 그래픽 소프트웨어 도구 모음입니다. 이 이미지는 기본적으로 GPU 렌더링을 지원하지 않으며, 가속 작업 공간 환경만 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverboinc",
+      "title": "Boinc (LinuxServer.io)",
+      "tagline": "수천 또는 수백만 대의 컴퓨터를 활용한 대규모 고처리량 컴퓨팅 플랫폼입니다. 개인용 기기를 사용하는 자원봉사 컴퓨팅이나 조직 자원을 활용하는 그리드 컴퓨팅에 모두 사용할 수 있습니다. 가상화, 병렬 처리 및 GPU 기반 애플리케이션을 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
+      "title": "Booksonic air",
+      "tagline": "어디에 있든 소유하고 있는 오디오북에 액세스할 수 있는 플랫폼입니다. 현재 플랫폼은 다음과 같이 구성되어 있습니다. * Booksonic Air - 오디오북 스트리밍 서버로, 기존 Booksonic 서버의 후속 버전이며 Airsonic을 기반으로 합니다. * Booksonic 앱 - Booksonic-Air 서버에 연결하기 위한 DSub 기반 Android 앱입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbookstack",
+      "title": "Bookstack (LinuxServer.io)",
+      "tagline": "BookStack은 아름다운 문서를 만들기 위해 설계된 무료 오픈 소스 위키입니다. 간단하지만 강력한 WYSIWYG 편집기를 통해 팀에서 상세하고 유용한 문서를 손쉽게 작성할 수 있습니다. SQL 기반으로 작동하며, 마크다운 편집기를 선호하는 사용자를 위해 Markdown 편집기도 제공하는 BookStack은 문서 작성을 단순한 작업이 아닌 즐거운 경험으로 만들어 줍니다. BookStack에 대한 자세한 정보는 웹사이트(https://www.Bookstackapp.com)에서 확인하세요."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbrave",
+      "title": "Brave (LinuxServer.io)",
+      "tagline": "PC, Mac 및 모바일에서 사용할 수 있는 빠르고, 개인 정보 보호가 철저하며, 안전한 웹 브라우저입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbudge",
+      "title": "Budge (LinuxServer.io)",
+      "tagline": "봉투를 이용한 예산 관리 기능을 제공하는 오픈 소스 개인 재정 관리 앱입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbuildagent",
+      "title": "Build agent",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/build-agent 를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibre",
+      "title": "Calibre (LinuxServer.io)",
+      "tagline": "강력하면서도 사용하기 쉬운 전자책 관리 프로그램입니다. 사용자들은 이 프로그램이 탁월하며 필수품이라고 입을 모아 칭찬합니다. 거의 모든 기능을 제공하며 일반적인 전자책 소프트웨어를 뛰어넘는 수준을 자랑합니다. 또한 완전 무료 오픈 소스 프로그램으로, 일반 사용자부터 전문가까지 누구나 사용하기에 적합합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibreweb",
+      "title": "Calibre web (LinuxServer.io)",
+      "tagline": "기존 Calibre 데이터베이스를 활용하여 전자책을 검색, 읽기, 다운로드할 수 있는 깔끔한 인터페이스를 제공하는 웹 애플리케이션입니다. Google Drive 연동 및 메타데이터 편집, Calibre 라이브러리 관리도 가능합니다. 이 소프트웨어는 Library를 기반으로 개발되었으며 GPL v3 라이선스에 따라 배포됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalligra",
+      "title": "Calligra (LinuxServer.io)",
+      "tagline": "KDE에서 개발한 오피스 및 그래픽 디자인 소프트웨어 제품군입니다. 데스크톱 PC, 태블릿 컴퓨터, 스마트폰에서 사용할 수 있으며, 워드 프로세싱, 스프레드시트, 프레젠테이션, 벡터 그래픽, 데이터베이스 편집 등의 애플리케이션을 포함하고 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
+      "title": "Changedetection. Io (LinuxServer.io)",
+      "tagline": "웹 페이지 모니터링, 알림 및 변경 감지 기능을 무료로 제공하는 오픈 소스 소프트웨어입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchrome",
+      "title": "Chrome (LinuxServer.io)",
+      "tagline": "구글에서 공식적으로 개발한 웹 브라우저로, 빠르고 안전하며 맞춤 설정이 가능합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchromium",
+      "title": "Chromium (LinuxServer.io)",
+      "tagline": "모든 사용자가 더 안전하고 빠르며 안정적인 웹 환경을 경험할 수 있도록 하는 것을 목표로 하는 오픈 소스 브라우저 프로젝트입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverci",
+      "title": "Ci",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/ci 를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercidebug",
+      "title": "Ci debug",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/ci-debug 를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercitron",
+      "title": "Citron",
+      "tagline": "다양한 기능을 갖춘 닌텐도 스위치 1 에뮬레이터로, 홈브루(자작 개발자)에 적합합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercodeserver",
+      "title": "Code server (LinuxServer.io)",
+      "tagline": "VS Code는 원격 서버에서 실행되며 브라우저를 통해 접속할 수 있습니다. - 크롬북, 태블릿, 노트북에서 일관된 개발 환경을 구축할 수 있습니다. - Windows 또는 Mac 워크스테이션을 사용하는 경우 Linux용 개발을 더욱 쉽게 수행할 수 있습니다. - 대규모 클라우드 서버를 활용하여 테스트, 컴파일, 다운로드 등의 속도를 향상시킬 수 있습니다. - 이동 중에도 배터리 수명을 절약할 수 있습니다. - 모든 고강도 연산은 서버에서 실행됩니다. - 더 이상 Chrome의 여러 인스턴스를 동시에 실행할 필요가 없습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercops",
+      "title": "Cops (LinuxServer.io)",
+      "tagline": "Sébastien Lucas가 개발하고 현재 MikesPub에서 관리하는 COPS는 Calibre OPDS(및 HTML) PHP 서버입니다. COPS는 Calibre 라이브러리 데이터베이스에 연결되어 웹 브라우저에서 직접 책을 다운로드하고 이메일로 전송할 수 있으며, 기기에 연결할 수 있는 OPDS 피드를 제공합니다. Calibre 라이브러리의 변경 사항은 COPS 페이지에 즉시 반영됩니다. 자세한 내용은 COPS 홈페이지를 참조하세요. 위키도 확인해 보세요. ## 개발 이유 (개발자 사이트에서 발췌) 제 생각에 Calibre는 훌륭한 도구이지만 콘텐츠 서버로 사용하기에는 너무 크고 의존성이 너무 높습니다. 이것이 제가 이 OPDS 서버를 개발하게 된 주된 이유입니다. 저는 작은 서버(제 경우에는 Seagate Dockstar)에 설치할 수 있는 간단한 도구가 필요했습니다. 처음에는 Calibre2OPDS를 생각했지만 정적 파일을 생성하기 때문에 검색이 불가능했습니다. 나중에 Kobo에서 사용할 수 있는 간단한 HTML 카탈로그를 추가했습니다. 따라서 COPS의 주요 장점은 다음과 같습니다. * 많은 의존성이 필요하지 않습니다. * CPU나 RAM 용량이 많이 필요하지 않습니다. * 코드도 많지 않습니다. * 검색 기능이 있습니다. * Dropbox/OwnCloud를 사용하면 OPDS 서버를 최신 상태로 유지하기가 매우 쉽습니다. * 코딩하는 과정이 재미있었습니다. OPDS 피드를 사용하려면 URL 끝에 /feed를 추가하는 것을 잊지 마세요."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercura",
+      "title": "Cura (LinuxServer.io)",
+      "tagline": "수백만 명의 사용자가 신뢰하는 무료의 사용하기 쉬운 3D 프린팅 소프트웨어입니다. 400개 이상의 설정으로 3D 모델을 세밀하게 조정하여 최상의 슬라이싱 및 프린팅 결과를 얻으세요."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverd2builder",
+      "title": "D2 builder",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/d2-builder를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdaapd",
+      "title": "Daapd",
+      "tagline": "AirPlay 기기, Apple Remote(및 호환 기기), Chromecast, MPD 및 인터넷 라디오를 지원하는 iTunes 미디어 서버입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdarktable",
+      "title": "Darktable (LinuxServer.io)",
+      "tagline": "오픈 소스 사진 워크플로우 애플리케이션이자 RAW 현상 프로그램입니다. 사진가를 위한 가상 라이트 테이블 및 암실 기능을 제공하며, 디지털 네거티브를 데이터베이스에 저장하고, 확대/축소 가능한 라이트 테이블을 통해 미리 볼 수 있으며, RAW 이미지를 현상하고 보정할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdavos",
+      "title": "Davos (LinuxServer.io)",
+      "tagline": "지정된 호스트 위치를 주기적으로 스캔하여 새 파일을 감지하는 FTP 자동화 도구입니다. 특정 파일이 호스트 위치에 나타나면 자동으로 다운로드하고 필요한 경우 이동하는 등 다양한 용도로 설정할 수 있습니다. 또한 완료 알림 기능과 하위 API 호출을 지원하여 워크플로우를 효율적으로 관리할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverddclient",
+      "title": "Ddclient (LinuxServer.io)",
+      "tagline": "이 Perl 클라이언트는 동적 DNS 네트워크 서비스 제공업체의 계정에 대한 동적 DNS 항목을 업데이트하는 데 사용됩니다. 원래 Paul Burry가 작성했으며 현재는 wimpunk가 대부분을 담당하고 있습니다. dyndns 외에도 다양한 기능을 제공하며 여러 가지 방법으로 WAN IP 주소를 가져올 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdeluge",
+      "title": "Deluge (LinuxServer.io)",
+      "tagline": "가볍고 무료이며 크로스 플랫폼 BitTorrent 클라이언트입니다. * 완벽한 암호화 * 웹 UI * 플러그인 시스템 * 그 외 다양한 기능..."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdigikam",
+      "title": "Digikam (LinuxServer.io)",
+      "tagline": "digiKam: 오픈 소스의 강력한 기능을 활용한 전문가급 사진 관리 솔루션"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdillinger",
+      "title": "Dillinger",
+      "tagline": "클라우드 기반, 모바일 지원, 오프라인 저장 기능을 갖춘 AngularJS 기반 HTML5 마크다운 편집기입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdiskover",
+      "title": "Diskover (LinuxServer.io)",
+      "tagline": "다양한 스토리지 시스템 전반에 걸쳐 데이터를 인덱싱하고 관리하기 위해 Elasticsearch를 사용하는 오픈 소스 파일 시스템 인덱서입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdogwalk",
+      "title": "Dogwalk (LinuxServer.io)",
+      "tagline": "블렌더 스튜디오의 오랫동안 기다려온 두 번째 게임 프로젝트로, 짧고 강렬한 인터랙티브 스토리텔링 놀이터를 만드는 데 중점을 두었습니다. 귀엽고 깜찍한 강아지가 되어 어린아이와 함께 겨울 숲을 탐험해 보세요."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
+      "title": "Dokuwiki (LinuxServer.io)",
+      "tagline": "데이터베이스가 필요 없는 사용하기 쉽고 활용도가 매우 높은 오픈 소스 위키 소프트웨어입니다. 깔끔하고 가독성 좋은 구문으로 사용자들에게 사랑받고 있으며, 손쉬운 유지 관리, 백업 및 통합 기능으로 관리자들에게도 인기가 높습니다. 내장된 접근 제어 및 인증 커넥터를 통해 기업 환경에서 특히 유용하며, 활발한 커뮤니티에서 제공하는 수많은 플러그인을 통해 기존 위키의 틀을 넘어 다양한 활용 사례를 구현할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdolphin",
+      "title": "Dolphin (LinuxServer.io)",
+      "tagline": "GameCube 및 Wii 게임을 다양한 그래픽 향상 및 기타 기능을 통해 더욱 풍부한 게임 경험을 즐길 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdomoticz",
+      "title": "Domoticz",
+      "tagline": "조명, 스위치, 온도, 강우, 풍향, 자외선, 전기, 가스, 수도 등 다양한 센서/계측기를 모니터링하고 설정할 수 있는 홈 자동화 시스템입니다. 알림/경고는 모든 모바일 기기로 전송됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarr",
+      "title": "Doplarr",
+      "tagline": "디스코드용 *arr 요청 봇입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
+      "title": "Doplarr_rs (LinuxServer.io)",
+      "tagline": "Rust로 작성된, *arr 백엔드를 통해 미디어를 요청하는 Discord 봇입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
+      "title": "Dosbox staging (LinuxServer.io)",
+      "tagline": "MS-DOS 소프트웨어, 특히 비디오 게임을 실행할 수 있게 해주는 무료 오픈 소스 에뮬레이터인 DOSBox의 현대적인 후속 버전입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
+      "title": "Doublecommander (LinuxServer.io)",
+      "tagline": "두 개의 패널이 나란히 표시되는 무료 크로스 플랫폼 오픈 소스 파일 관리자입니다. 토탈 커맨더에서 영감을 받았으며 몇 가지 새로운 아이디어를 특징으로 합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckdns",
+      "title": "Duckdns (LinuxServer.io)",
+      "tagline": "이 서비스는 사용자가 선택한 IP 주소로 DNS(duckdns.org의 하위 도메인)를 연결해 주는 무료 서비스입니다. 서비스는 완전히 무료이며, 유지 관리를 위해 재활성화나 포럼 게시글 작성이 필요하지 않습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckstation",
+      "title": "Duckstation (LinuxServer.io)",
+      "tagline": "최고의 정확도와 게임 지원을 목표로 하는 PS1 에뮬레이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduplicati",
+      "title": "Duplicati (LinuxServer.io)",
+      "tagline": "암호화되고, 증분 방식으로 압축된 백업 파일을 로컬 저장소, 클라우드 스토리지 서비스 및 원격 파일 서버에 안전하게 저장하는 백업 클라이언트입니다. FTP, SSH, WebDAV와 같은 표준 프로토콜은 물론 Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2 등 다양한 인기 서비스와 호환됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservereden",
+      "title": "Eden (LinuxServer.io)",
+      "tagline": "성능과 안정성을 염두에 두고 개발된 닌텐도 스위치용 실험적인 오픈 소스 에뮬레이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremby",
+      "title": "Emby (LinuxServer.io)",
+      "tagline": "개인 미디어 라이브러리의 비디오, 음악, 실시간 TV 및 사진을 정리하고 스마트 TV, 스트리밍 박스 및 모바일 장치로 스트리밍합니다. 이 컨테이너는 독립형 Emby 미디어 서버로 패키징되어 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverembystat",
+      "title": "Embystat",
+      "tagline": "(로컬) Emby 서버에서 다양한 통계를 계산할 수 있는 개인 웹 서버입니다. 서버에 설치하기만 하면 온갖 재미있는 계산 결과를 얻을 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremulatorjs",
+      "title": "Emulatorjs",
+      "tagline": "브라우저 기반 웹 에뮬레이션으로, 다양한 레트로 콘솔을 거의 모든 기기에서 실행할 수 있습니다. Libretro와 EmulatorJS를 비롯한 여러 에뮬레이터가 혼합되어 사용됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverendlessh",
+      "title": "Endlessh",
+      "tagline": "매우 느린 속도로 무작위 SSH 배너 메시지를 끊임없이 전송하는 SSH 타르핏입니다. 이로 인해 SSH 클라이언트가 몇 시간 또는 며칠 동안 접속이 차단됩니다. 목적은 실제 SSH 서버를 다른 포트에 두고, 스크립트 키디들이 실제 서버를 공격하는 대신 이 타르핏에 갇히도록 유도하는 것입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfail2ban",
+      "title": "Fail2ban (LinuxServer.io)",
+      "tagline": "인증 오류를 반복적으로 일으키는 호스트를 차단하는 데몬입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+      "title": "Faster whisper (LinuxServer.io)",
+      "tagline": "CTranslate2를 사용하여 OpenAI의 Whisper 모델을 재구현한 것입니다. CTranslate2는 Transformer 모델을 위한 빠른 추론 엔진입니다. 이 컨테이너는 faster-whisper를 위한 Wyoming 프로토콜 서버를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
+      "title": "Feed2toot",
+      "tagline": "RSS 피드를 자동으로 분석하고, 새 게시물을 식별하여 마스토돈 소셜 네트워크에 게시합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverferdium",
+      "title": "Ferdium (LinuxServer.io)",
+      "tagline": "즐겨 사용하는 앱들을 하나의 애플리케이션으로 통합하여 사용 방식을 정리하는 데 도움을 주는 데스크톱 앱입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverffmpeg",
+      "title": "Ffmpeg (LinuxServer.io)",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/ffmpeg를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfilezilla",
+      "title": "Filezilla (LinuxServer.io)",
+      "tagline": "Client는 빠르고 안정적인 크로스 플랫폼 FTP, FTPS 및 SFTP 클라이언트로, 다양한 유용한 기능과 직관적인 그래픽 사용자 인터페이스를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfirefox",
+      "title": "Firefox (LinuxServer.io)",
+      "tagline": "모질라 파이어폭스(Mozilla Firefox) 또는 간단히 파이어폭스라고도 불리는 이 브라우저는 모질라 재단과 그 자회사인 모질라 코퍼레이션이 개발한 무료 오픈 소스 웹 브라우저입니다. 파이어폭스는 현재 및 향후 웹 표준을 구현하는 게코(Gecko) 레이아웃 엔진을 사용하여 웹 페이지를 렌더링합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfleet",
+      "title": "Fleet",
+      "tagline": "하나 이상의 소유 저장소에서 관리되는 이미지 세트를 표시하는 온라인 웹 인터페이스를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflexget",
+      "title": "Flexget (LinuxServer.io)",
+      "tagline": "모든 미디어를 위한 다목적 자동화 도구입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflycast",
+      "title": "Flycast (LinuxServer.io)",
+      "tagline": "reicast를 기반으로 개발된 멀티 플랫폼 세가 드림캐스트, 나오미, 나오미 2, 아토미스웨이브 에뮬레이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
+      "title": "Foldingathome (LinuxServer.io)",
+      "tagline": "단백질 접힘 과정과 다양한 질병과 관련된 단백질의 움직임을 포함한 단백질 역학을 시뮬레이션하는 분산 컴퓨팅 프로젝트입니다. 이 프로젝트는 자발적으로 개인용 컴퓨터에서 단백질 역학 시뮬레이션을 실행하는 시민 과학자들을 한데 모읍니다. 이 데이터에서 얻은 통찰력은 과학자들이 생물학을 더 잘 이해하고 새로운 치료법 개발을 위한 기회를 제공하는 데 도움이 되고 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreecad",
+      "title": "Freecad (LinuxServer.io)",
+      "tagline": "범용 파라메트릭 3D 컴퓨터 지원 설계(CAD) 모델러 및 유한 요소법(FEM)을 지원하는 빌딩 정보 모델링(BIM) 소프트웨어 애플리케이션입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreetube",
+      "title": "Freetube",
+      "tagline": "개인 정보 보호에 중점을 둔, 기능이 풍부하고 사용하기 쉬운 YouTube 클라이언트입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreshrss",
+      "title": "Freshrss (LinuxServer.io)",
+      "tagline": "RSS 피드를 위한 무료 자체 호스팅 가능 애그리게이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergimp",
+      "title": "Gimp (LinuxServer.io)",
+      "tagline": "이미지 보정 및 편집, 자유형 드로잉, 다양한 이미지 파일 형식 간 변환, 그리고 더욱 전문적인 작업에 사용되는 무료 오픈 소스 래스터 그래픽 편집기입니다. 플러그인을 통해 확장 가능하며 스크립트 작성도 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
+      "title": "Github desktop (LinuxServer.io)",
+      "tagline": "Electron 기반의 오픈 소스 GitHub 앱입니다. TypeScript로 작성되었으며 React를 사용합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergitqlient",
+      "title": "Gitqlient (LinuxServer.io)",
+      "tagline": "QGit에서 파생된 멀티 플랫폼 Git 클라이언트입니다. 현재는 단순한 포크를 넘어 다양한 새로운 기능을 추가했습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrav",
+      "title": "Grav (LinuxServer.io)",
+      "tagline": "빠르고 간편하며 유연한 파일 기반 웹 플랫폼."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrocy",
+      "title": "Grocy (LinuxServer.io)",
+      "tagline": "주방을 위한 ERP 시스템. 음식물 쓰레기를 줄이고, 이 훌륭한 유틸리티로 집안일을 효율적으로 관리하세요. 구매 내역, 음식물 쓰레기 양, 해야 할 집안일, 충전해야 할 배터리 등을 이 자랑스러운 오픈 소스 도구로 손쉽게 추적할 수 있습니다. grocy에 대한 자세한 정보는 웹사이트(https://grocy.info)를 방문하세요."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergzdoom",
+      "title": "Gzdoom (LinuxServer.io)",
+      "tagline": "ZDoom을 기반으로 모든 둠 엔진 게임을 위한 기능 중심의 포팅 버전으로, OpenGL 렌더러와 강력한 스크립팅 기능을 추가했습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhabridge",
+      "title": "Habridge (LinuxServer.io)",
+      "tagline": "이 브리지는 필립스 휴 API를 에뮬레이션하여 아마존 에코/닷 1세대(2세대는 ha-bridge 검색에 문제가 있음) 또는 필립스 휴를 지원하는 기타 홈 자동화 게이트웨이와 연동할 수 있습니다. 브리지는 휴 프로토콜의 기본 명령(켜기, 끄기, 밝기 조절 등)을 처리합니다. 또한, 자체 API를 가진 대부분의 기기를 제어할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhandbrake",
+      "title": "Handbrake (LinuxServer.io)",
+      "tagline": "자원봉사자들이 개발한 오픈 소스 도구로, 거의 모든 형식의 비디오를 최신의 널리 지원되는 코덱으로 변환할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheadphones",
+      "title": "Headphones",
+      "tagline": "파이썬으로 작성된 NZB 및 토렌트 음악 자동 다운로더입니다. SABnzbd, NZBget, Transmission, µTorrent 및 Blackhole을 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
+      "title": "Healthchecks (LinuxServer.io)",
+      "tagline": "cron 작업을 감시하는 도구입니다. cron 작업에서 보내는 신호를 수신하는 웹 서버이자 웹 인터페이스입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
+      "title": "Hedgedoc (LinuxServer.io)",
+      "tagline": "어디에 있든 모든 파일에 액세스할 수 있습니다. HedgeDoc은 실시간으로 여러 플랫폼에서 사용할 수 있는 공동 작업 마크다운 노트 편집기입니다. 데스크톱, 태블릿, 심지어 스마트폰에서도 다른 사람들과 함께 노트를 작성할 수 있습니다. 홈페이지에서 Facebook, Twitter, GitHub 등 다양한 인증 제공업체를 통해 로그인할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheimdall",
+      "title": "Heimdall (LinuxServer.io)",
+      "tagline": "자주 사용하는 웹사이트와 웹 애플리케이션 링크를 간단하게 정리하는 방법입니다. Heimdall의 핵심은 간편함입니다. 브라우저 시작 페이지로 설정해 보는 건 어떨까요? Google, Bing, DuckDuckGo 등 다양한 검색 엔진을 사용하여 검색창을 추가할 수도 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhelium",
+      "title": "Helium (LinuxServer.io)",
+      "tagline": "사람들을 위해, 애정을 담아 만든 크로뮴 기반 웹 브라우저입니다. 개인정보 보호를 최우선으로 하며, 편견 없는 광고 차단 기능을 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
+      "title": "Hishtory server (LinuxServer.io)",
+      "tagline": "향상된 셸 기록 기능입니다. 명령어를 실행한 디렉토리, 성공 여부, 소요 시간 등 컨텍스트 정보를 함께 저장합니다. 이 모든 정보는 로컬에 저장되며, 다른 모든 컴퓨터와 동기화할 수 있도록 종단 간 암호화됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
+      "title": "Homeassistant (LinuxServer.io)",
+      "tagline": "로컬 제어와 개인 정보 보호를 최우선으로 하는 오픈 소스 홈 자동화 시스템입니다. 전 세계 DIY 애호가 커뮤니티의 힘으로 구동되며, 라즈베리 파이나 로컬 서버에서 실행하기에 적합합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
+      "title": "Htpcmanager (LinuxServer.io)",
+      "tagline": "HTPC 관련 애플리케이션의 프런트엔드입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverinkscape",
+      "title": "Inkscape (LinuxServer.io)",
+      "tagline": "리눅스, 맥 OS X 및 윈도우 데스크톱 컴퓨터에서 실행되는 전문가급 품질의 벡터 그래픽 소프트웨어입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverintellijidea",
+      "title": "Intellij idea (LinuxServer.io)",
+      "tagline": "지루한 작업을 없애고 중요한 일, 즉 훌륭한 소프트웨어 개발에 집중할 수 있도록 도와주는 도구를 통해 더 빠르게 코드를 작성할 수 있도록 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjackett",
+      "title": "Jackett (LinuxServer.io)",
+      "tagline": "Jackett은 프록시 서버 역할을 합니다. Sonarr, SickRage, CouchPotato, Mylar 등의 앱에서 들어오는 쿼리를 트래커 사이트별 HTTP 쿼리로 변환하고, HTML 응답을 파싱한 후 결과를 요청한 소프트웨어로 다시 전송합니다. 이를 통해 최근 업로드된 콘텐츠(RSS처럼)를 가져오거나 검색을 수행할 수 있습니다. Jackett은 인덱서 스크래핑 및 변환 로직을 관리하는 단일 저장소로서, 다른 앱들의 부담을 덜어줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjellyfin",
+      "title": "Jellyfin (LinuxServer.io)",
+      "tagline": "Jellyfin은 사용자가 미디어를 관리하고 스트리밍할 수 있도록 해주는 무료 소프트웨어 미디어 시스템입니다. 독점 소프트웨어인 Emby와 Plex의 대안으로, 전용 서버에서 여러 앱을 통해 최종 사용자 기기로 미디어를 제공합니다. Jellyfin은 Emby 3.5.2 버전을 기반으로 개발되었으며, .NET Core 프레임워크로 포팅되어 완벽한 크로스 플랫폼을 지원합니다. 어떠한 제약이나 유료 라이선스, 숨겨진 의도도 없습니다. 그저 더 나은 것을 만들고 싶어 하는 팀이 함께 노력하는 것뿐입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
+      "title": "Jenkins builder",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.Com/r/linuxserver/jenkins-builder를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjoplin",
+      "title": "Joplin (LinuxServer.io)",
+      "tagline": "무료 오픈 소스 메모 및 할 일 관리 애플리케이션으로, 노트북 형식으로 정리된 많은 양의 메모를 관리할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkalilinux",
+      "title": "Kali linux (LinuxServer.io)",
+      "tagline": "KALI LINUX™는 침투 테스트, 윤리적 해킹 및 네트워크 보안 평가에 사용되는 고급 침투 테스트용 Linux 배포판입니다. KALI LINUX™는 OffSec의 상표입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkasm",
+      "title": "Kasm (LinuxServer.io)",
+      "tagline": "Workspaces는 데스크톱, 애플리케이션 및 웹 서비스에 브라우저 기반으로 액세스할 수 있도록 지원하는 Docker 컨테이너 스트리밍 플랫폼입니다. Kasm은 DevOps 기반의 컨테이너화된 데스크톱 인프라(CDI)를 사용하여 웹 브라우저를 통해 액세스 가능한 온디맨드 방식의 일회용 Docker 컨테이너를 생성합니다. 활용 사례로는 원격 브라우저 격리(RBI), 데이터 손실 방지(DLP), 서비스형 데스크톱(DaaS), 보안 원격 액세스 서비스(RAS) 및 오픈 소스 인텔리전스(OSINT) 수집 등이 있습니다. 그래픽 기반 컨테이너 렌더링은 오픈 소스 프로젝트인 KasmVNC를 통해 구현됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkavita",
+      "title": "Kavita (LinuxServer.io)",
+      "tagline": "빠르고 기능이 풍부하며 다양한 플랫폼을 지원하는 전자책 서버입니다. 모든 독서 요구 사항을 충족하는 완벽한 솔루션을 목표로 개발되었습니다. 나만의 서버를 설정하고 친구 및 가족과 독서 컬렉션을 공유하세요."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkdenlive",
+      "title": "Kdenlive (LinuxServer.io)",
+      "tagline": "KDE 커뮤니티에서 개발한 강력한 무료 오픈 소스 크로스 플랫폼 비디오 편집 프로그램입니다. 다양한 기능을 갖추고 있어 바로 제작에 활용할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
+      "title": "Keepassxc (LinuxServer.io)",
+      "tagline": "무료 오픈소스 비밀번호 관리자입니다. KeePassX(KeePass 자체의 크로스 플랫폼 포팅 버전)를 기반으로 커뮤니티에서 개발되어 시작되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkicad",
+      "title": "Kicad (LinuxServer.io)",
+      "tagline": "크로스 플랫폼 및 오픈 소스 전자 설계 자동화 제품군."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkimai",
+      "title": "Kimai (LinuxServer.io)",
+      "tagline": "전문가 수준의 시간 관리 애플리케이션인 Kimai는 무료 오픈 소스 소프트웨어입니다. 프리랜서는 물론 수십 명에서 수백 명의 사용자를 보유한 기업까지 다양한 규모의 기업 환경에 적합합니다. Kimai는 프로젝트 시간 관리를 위해 개발되었으며, JSON API, 송장 발행, 데이터 내보내기, 다중 타이머 및 출퇴근 기록 모드, 태그 기능, 다중 사용자/다중 시간대/다중 언어 지원(30개 이상의 언어 번역 지원), SAML/LDAP/데이터베이스 인증, TOTP를 이용한 2단계 인증(2FA), 사용자 지정 가능한 역할 및 팀 권한, 반응형 디자인, 사용자/고객/프로젝트별 요금 설정, 고급 검색 및 필터링, 예산 및 비용 관리, 고급 보고서 작성, 플러그인 지원 등 다양한 고급 기능을 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkometa",
+      "title": "Kometa (LinuxServer.io)",
+      "tagline": "Kometa는 미디어 라이브러리를 완벽하게 제어할 수 있도록 설계된 강력한 도구입니다. Kometa를 사용하면 메타데이터, 컬렉션, 오버레이 등을 세밀하게 제어하여 미디어 라이브러리를 한 단계 더 높은 수준으로 맞춤 설정할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkrita",
+      "title": "Krita (LinuxServer.io)",
+      "tagline": "전문적인 무료 오픈 소스 그림 프로그램입니다. 누구나 부담 없이 사용할 수 있는 미술 도구를 만들고 싶어하는 예술가들이 개발했습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
+      "title": "Lazylibrarian (LinuxServer.io)",
+      "tagline": "저자 정보를 추적하고 디지털 독서에 필요한 메타데이터를 수집하는 프로그램입니다. Goodreads Librarything과 선택적으로 GoogleBooks를 저자 및 도서 정보 소스로 활용합니다. 이 컨테이너는 DobyTang 포크를 기반으로 합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverldapauth",
+      "title": "Ldap auth (LinuxServer.io)",
+      "tagline": "이 소프트웨어는 Nginx를 통해 프록시된 서버에서 보호된 리소스를 요청하는 사용자를 인증하기 위한 것입니다. 여기에는 인증 서버와 통신하는 데몬(ldap-auth)과 사용자의 자격 증명을 기반으로 인증 쿠키를 생성하는 웹 서버 데몬이 포함됩니다. 이 데몬들은 LDAP(Lightweight Directory Access Protocol) 인증 서버(OpenLDAP 또는 Microsoft Windows Active Directory 2003 및 2012)와 함께 사용하도록 Python으로 작성되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
+      "title": "Libreoffice (LinuxServer.io)",
+      "tagline": "무료이면서 강력한 오피스 제품군으로, OpenOffice.org(일반적으로 OpenOffice로 알려짐)의 후속 제품입니다. 깔끔한 인터페이스와 풍부한 기능을 갖춘 도구를 통해 창의력을 마음껏 발휘하고 생산성을 향상시킬 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
+      "title": "Librespeed (LinuxServer.io)",
+      "tagline": "XMLHttpRequest와 Web Workers를 사용하여 JavaScript로 구현된 매우 가벼운 속도 테스트입니다. 플래시, 자바, 웹소켓 등 불필요한 기술은 전혀 사용하지 않았습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
+      "title": "Librewolf (LinuxServer.io)",
+      "tagline": "LibreWolf는 개인 정보 보호, 보안 및 사용자 자유를 최우선 목표로 하는 맞춤형 독립형 Firefox 버전입니다. 또한 모든 원격 측정, 데이터 수집 및 불편한 요소들을 제거하고 DRM과 같은 자유를 제한하는 기능들을 비활성화하는 것을 목표로 합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlidarr",
+      "title": "Lidarr (LinuxServer.io)",
+      "tagline": "유즈넷과 비트토렌트 사용자를 위한 음악 컬렉션 관리 프로그램입니다. 여러 RSS 피드를 모니터링하여 좋아하는 아티스트의 새 트랙을 찾고, 다운로드, 정렬 및 파일 이름 변경을 자동으로 수행합니다. 또한, 더 나은 음질의 파일이 출시되면 이미 다운로드한 파일의 음질을 자동으로 업그레이드하도록 설정할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlimnoria",
+      "title": "Limnoria (LinuxServer.io)",
+      "tagline": "다양한 플러그인을 갖춘 강력하고 기능이 풍부하며 사용자/프로그래머 친화적인 Python IRC 봇입니다. 유명한 Supybot의 후속 제품입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlmstudio",
+      "title": "Lm studio (LinuxServer.io)",
+      "tagline": "gpt-oss, Llama, Gemma, Qwen, DeepSeek 등의 AI 모델을 컴퓨터에서 비공개로 실행할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlollypop",
+      "title": "Lollypop (LinuxServer.io)",
+      "tagline": "GNOME 데스크톱 환경에서 탁월한 성능을 발휘하도록 설계된 가볍고 현대적인 음악 플레이어입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlsioapi",
+      "title": "Lsio api",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/lsio-api 를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverluanti",
+      "title": "Luanti (LinuxServer.io)",
+      "tagline": "(이전 명칭: Minetest)는 손쉬운 모딩과 게임 제작 기능을 갖춘 오픈 소스 복셀 게임 제작 플랫폼입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlychee",
+      "title": "Lychee (LinuxServer.io)",
+      "tagline": "Lychee는 서버 또는 웹 공간에서 실행되는 무료 사진 관리 도구입니다. 설치는 몇 초밖에 걸리지 않습니다. 마치 기본 애플리케이션처럼 사진을 업로드, 관리 및 공유할 수 있습니다. Lychee에는 필요한 모든 기능이 포함되어 있으며 모든 사진은 안전하게 저장됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermame",
+      "title": "Mame (LinuxServer.io)",
+      "tagline": "아케이드 게임, 비디오 게임 콘솔, 구형 컴퓨터 및 기타 시스템의 하드웨어를 최신 개인용 컴퓨터에서 소프트웨어로 에뮬레이션하도록 설계된 무료 오픈 소스 에뮬레이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermanyfold",
+      "title": "Manyfold (LinuxServer.io)",
+      "tagline": "3D 모델 컬렉션, 특히 3D 프린팅에 초점을 맞춘 오픈 소스 자체 호스팅 웹 애플리케이션입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermariadb",
+      "title": "Mariadb (LinuxServer.io)",
+      "tagline": "가장 인기 있는 데이터베이스 서버 중 하나입니다. MySQL의 최초 개발자들이 만들었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermastodon",
+      "title": "Mastodon (LinuxServer.io)",
+      "tagline": "ActivityPub 기반의 무료 오픈소스 소셜 네트워크 서버로, 사용자는 친구를 팔로우하고 새로운 친구를 찾을 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermediaelch",
+      "title": "Mediaelch (LinuxServer.io)",
+      "tagline": "Kodi용 미디어 관리자입니다. 영화, TV 프로그램, 콘서트 및 음악에 대한 정보는 nfo 파일로 저장됩니다. 팬아트는 fanart.tv에서 자동으로 다운로드됩니다. nfo 생성기를 사용하면 MediaElch를 다른 미디어 센터와 함께 사용할 수도 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermedusa",
+      "title": "Medusa (LinuxServer.io)",
+      "tagline": "TV 프로그램용 자동 비디오 라이브러리 관리 프로그램입니다. 좋아하는 프로그램의 새 에피소드를 감지하여 업로드되면 자동으로 관리해 줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermelonds",
+      "title": "Melonds (LinuxServer.io)",
+      "tagline": "빠르고 정확한 닌텐도 DS 에뮬레이션을 제공하는 것을 목표로 합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminetest",
+      "title": "Minetest",
+      "tagline": "(서버)는 InfiniMiner, Minecraft 등에서 영감을 받은 거의 무한한 세계를 가진 블록 샌드박스 게임이자 게임 엔진입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminisatip",
+      "title": "Minisatip (LinuxServer.io)",
+      "tagline": "Linux 운영 체제에서 실행되는 멀티스레드 방식의 위성방송(satip) 서버 버전 1.2이며, DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC 및 ISDB-T 카드와 함께 테스트되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodmanager",
+      "title": "Modmanager (LinuxServer.io)",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/modmanager를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodrinth",
+      "title": "Modrinth (LinuxServer.io)",
+      "tagline": "좋아하는 모드를 플레이하고 최신 상태로 유지할 수 있는 독특한 오픈 소스 런처로, 이 모든 기능을 하나의 깔끔한 패키지에서 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermonica",
+      "title": "Monica",
+      "tagline": "오픈 소스 개인 관계 관리 시스템으로, 당신의 삶을 기록할 수 있게 해줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermsedge",
+      "title": "Msedge (LinuxServer.io)",
+      "tagline": "마이크로소프트에서 개발하고 크로미움을 기반으로 하는 크로스 플랫폼 웹 브라우저."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermstream",
+      "title": "Mstream (LinuxServer.io)",
+      "tagline": "개인 음악 스트리밍 서버인 mStream을 사용하면 집 컴퓨터에서 언제 어디서든 원하는 기기로 음악을 스트리밍할 수 있습니다. 안드로이드와 아이폰용 모바일 앱도 제공됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
+      "title": "Mullvad browser (LinuxServer.io)",
+      "tagline": "Mullvad 브라우저는 Mullvad VPN과 Tor 프로젝트의 협력으로 개발된 개인정보 보호에 중점을 둔 웹 브라우저입니다. 추적 및 핑거프린팅을 최소화하도록 설계되었습니다. Tor 네트워크 없이 사용할 수 있는 Tor 브라우저라고 할 수 있으며, 신뢰할 수 있는 VPN과 함께 사용할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermylar3",
+      "title": "Mylar3 (LinuxServer.io)",
+      "tagline": "파이썬으로 작성된 NZB 및 토렌트용 만화책(cbr/cbz) 자동 다운로더입니다. SABnzbd, NZBGET 및 DDL 외에도 다양한 토렌트 클라이언트를 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
+      "title": "Mysql workbench (LinuxServer.io)",
+      "tagline": "MySQL Workbench는 데이터베이스 설계자, 개발자 및 DBA를 위한 통합 시각화 도구입니다. 데이터 모델링, SQL 개발은 물론 서버 구성, 사용자 관리, 백업 등을 위한 포괄적인 관리 도구를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernano",
+      "title": "Nano",
+      "tagline": "나노는 접근성과 경량성을 고려하여 설계된 디지털 결제 프로토콜로, 다른 암호화폐에 존재하는 비효율성을 제거하는 데 중점을 두었습니다. 안전하고 친환경적인 탈중앙화 네트워크에서 초고속 거래와 수수료 제로를 제공하는 나노는 일상적인 거래에 이상적입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernanowallet",
+      "title": "Nano wallet",
+      "tagline": "나노는 접근성과 경량성을 고려하여 설계된 디지털 결제 프로토콜로, 다른 암호화폐에 존재하는 비효율성을 제거하는 데 중점을 두었습니다. 초고속 거래와 수수료 제로, 안전하고 친환경적인 탈중앙화 네트워크를 제공하는 나노는 일상적인 거래에 이상적입니다. 이 컨테이너는 여기에 있는 라이트 월렛을 위한 간단한 Nginx 래퍼입니다. 이 컨테이너에 접근할 때는 유효한 RPC 호스트를 전달해야 합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
+      "title": "Netbootxyz",
+      "tagline": "IPXE는 BIOS에서 한 곳에서 다양한 운영 체제 설치 프로그램이나 유틸리티를 PXE 부팅하는 방법으로, 설치 미디어를 꺼내서 실행할 필요가 없습니다. IPXE는 BIOS 내에서 사용자 친화적인 메뉴를 제공하여 원하는 운영 체제와 특정 버전 또는 부팅 플래그를 쉽게 선택할 수 있도록 해줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbox",
+      "title": "Netbox (LinuxServer.io)",
+      "tagline": "NetBox는 IP 주소 관리(IPAM) 및 데이터 센터 인프라 관리(DCIM) 도구입니다. DigitalOcean의 네트워크 엔지니어링 팀에서 처음 구상한 NetBox는 네트워크 및 인프라 엔지니어의 요구 사항을 충족하기 위해 특별히 개발되었습니다. 네트워크 운영을 위한 도메인별 핵심 정보 소스 역할을 하도록 설계되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernextcloud",
+      "title": "Nextcloud (LinuxServer.io)",
+      "tagline": "어디에 있든 모든 파일에 액세스할 수 있습니다. 사진과 문서가 어디에 있나요? Nextcloud를 사용하면 집, 데이터 센터 또는 제공업체의 서버 등 원하는 서버를 선택할 수 있습니다. 그러면 파일이 해당 서버에 저장됩니다. Nextcloud는 선택한 서버에서 실행되어 데이터를 보호하고 데스크톱이나 모바일 기기에서 액세스할 수 있도록 해줍니다. Nextcloud를 통해 사무실의 FTP 드라이브, Dropbox 또는 집의 NAS에 있는 기존 데이터에도 액세스하고 동기화하고 공유할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernginx",
+      "title": "Nginx (LinuxServer.io)",
+      "tagline": "HTTP 웹 서버, 리버스 프록시, 콘텐츠 캐시, 로드 밸런싱, TCP/UDP 프록시 서버 및 메일 프록시 서버."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverngircd",
+      "title": "Ngircd (LinuxServer.io)",
+      "tagline": "소규모 또는 사설 네트워크를 위한 무료, 휴대용, 경량 인터넷 릴레이 채팅(IRC) 서버로, GNU 일반 공중 라이선스(GPL)에 따라 개발되었습니다. 설정이 간편하고, 동적 IP 주소를 지원하며, IPv6, SSL 보호 연결 및 PAM 인증을 지원합니다. 이 서버는 기존 IRCd를 기반으로 하지 않고 처음부터 새로 작성되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+      "title": "Nntp2nntp",
+      "tagline": "이 프록시를 사용하면 여러 시스템에서 각각 다른 사용자 이름과 비밀번호로 NNTP 계정을 사용할 수 있습니다. SSL을 완벽하게 지원하며 SSL 인증서를 사용하여 프록시 접근을 제한할 수도 있습니다. Nntp2nntp 프록시는 매우 간단하고 속도도 빠릅니다. ## 경고: Nntp2nntp 자체의 보안 문제는 아직 알려지지 않았지만, 이 프로젝트의 원본 코드는 2015년 8월 6일 이후로 변경되지 않았으며 영구적으로 개발이 중단되었을 가능성이 높습니다. 따라서 이 애플리케이션을 공개적으로 사용하지 않는 것이 좋으며, 부득이하게 공개해야 하는 경우 다른 보안 계층과 SSL을 최소 요구 사항으로 고려해야 합니다. 이 프록시는 주로 LAN 환경에서 사용되어 모든 NNTP 애플리케이션 사용자가 공통된 내부 자격 증명을 공유하고, 하나의 전역 설정 변경으로 모든 애플리케이션의 공급자, 서버, 스레드 제한 등을 중앙에서 관리할 수 있도록 하는 데 유용할 것으로 예상됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbget",
+      "title": "Nzbget (LinuxServer.io)",
+      "tagline": "C++로 작성된 유즈넷 다운로더로, 시스템 리소스를 최소한으로 사용하면서 최대 다운로드 속도를 달성하도록 성능을 염두에 두고 설계되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
+      "title": "Nzbhydra2 (LinuxServer.io)",
+      "tagline": "NZB 인덱서를 위한 메타 검색 애플리케이션으로, NZBmegasearcH의 정신적 계승자이자 기존 애플리케이션인 NZBHydra의 진화된 버전입니다. 다양한 raw 및 newznab 기반 인덱서에 쉽게 접근할 수 있도록 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverobsidian",
+      "title": "Obsidian (LinuxServer.io)",
+      "tagline": "이 필기 앱을 사용하면 기기에서 메모를 작성하고, 연결하고, 정리할 수 있으며, 수백 가지의 플러그인과 테마로 작업 흐름을 맞춤 설정할 수 있습니다. 또한 메모를 온라인에 게시하고, 오프라인에서 액세스하고, 종단 간 암호화를 통해 안전하게 동기화할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverombi",
+      "title": "Ombi (LinuxServer.io)",
+      "tagline": "Plex 콘텐츠 요청 및 사용자 관리 시스템을 직접 운영할 수 있습니다. 다른 사용자와 Plex 서버를 공유하는 경우, 사용하기 쉬운 인터페이스를 통해 사용자들이 새로운 콘텐츠를 요청할 수 있도록 하세요. 영화 및 TV 프로그램 요청을 간편하게 관리하고, 사용자에게 메모를 남기고, 요청이 접수되면 알림을 받을 수 있습니다. 사용자가 요청에 대한 문제를 보고할 수 있도록 하여 오디오 문제 등을 파악할 수 있습니다. 또한, Plex 서버에 새로 추가된 콘텐츠에 대한 주간 뉴스레터를 자동으로 발송할 수도 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
+      "title": "Onlyoffice (LinuxServer.io)",
+      "tagline": "웹, 데스크톱 및 모바일 플랫폼에서 텍스트 문서, 스프레드시트, 프레젠테이션, PDF 양식 및 일반 PDF 파일을 생성, 편집 및 공동 작업할 수 있는 모든 도구를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenshot",
+      "title": "Openshot (LinuxServer.io)",
+      "tagline": "Video Editor는 수상 경력에 빛나는 무료 오픈 소스 비디오 편집기로 Linux, Mac 및 Windows에서 사용할 수 있으며, 전 세계에 고품질 비디오 편집 및 애니메이션 솔루션을 제공하는 데 전념하고 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+      "title": "Openssh server (LinuxServer.io)",
+      "tagline": "전체 서버에 개인 키를 제공하지 않고도 SSH 접속을 허용하는 샌드박스 환경입니다. 개인 키를 통해 SSH 접속 권한을 부여하는 것은 일반적으로 서버에 대한 모든 접근 권한을 부여하는 것과 같습니다. 이 컨테이너는 제한된 샌드박스 환경을 생성하여 다른 사용자가 SSH로 접속할 수 있도록 합니다. 사용자는 이 컨테이너 내부에 매핑된 폴더와 실행 중인 프로세스에만 접근할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
+      "title": "Openvscode server",
+      "tagline": "원격 컴퓨터에서 서버를 실행하고 최신 웹 브라우저를 통해 액세스할 수 있는 VS Code 버전을 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropera",
+      "title": "Opera (LinuxServer.io)",
+      "tagline": "Opera사에서 개발한 멀티 플랫폼 웹 브라우저입니다. Chromium 기반이지만, 사용자 인터페이스 및 기타 기능에서 다른 Chromium 기반 브라우저(Chrome, Edge 등)와 차별화됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
+      "title": "Orcaslicer (LinuxServer.io)",
+      "tagline": "FDM 프린터용 오픈 소스 슬라이서 소프트웨어인 OrcaSlicer는 Bambu Studio의 포크 버전입니다. Bambu Studio는 이전에는 BambuStudio-SoftFever로 알려졌으며, Bambu Studio는 Prusa Research의 PrusaSlicer에서 포크되었고, PrusaSlicer는 Alessandro Ranellucci와 RepRap 커뮤니티의 Slic3r에서 파생되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroscam",
+      "title": "Oscam (LinuxServer.io)",
+      "tagline": "스마트 카드를 사용하여 DVB 전송을 복호화하는 데 사용되는 오픈 소스 조건부 액세스 모듈 소프트웨어입니다. 서버와 클라이언트 역할을 모두 수행합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroverseerr",
+      "title": "Overseerr",
+      "tagline": "기존 Plex 생태계와 연동되도록 설계된 요청 관리 및 미디어 검색 도구입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpairdrop",
+      "title": "Pairdrop (LinuxServer.io)",
+      "tagline": "AirDrop의 훌륭한 대안으로 모든 플랫폼에서 작동합니다. 동일한 로컬 네트워크/Wi-Fi에 있는 기기 또는 페어링된 기기 간에 P2P 연결을 통해 이미지, 문서 또는 텍스트를 전송할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpcsx2",
+      "title": "Pcsx2 (LinuxServer.io)",
+      "tagline": "오픈 소스 PS2 에뮬레이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpelorus",
+      "title": "Pelorus (LinuxServer.io)",
+      "tagline": "Selkies 기반 Linux 데스크톱을 위한 AI 내비게이터인 Pelorus는 FastAPI 서버를 실행하여 LLM 에이전트(Ollama, OpenAI 호환 또는 Gemini)가 Pixelflux 컴퓨터 사용 백엔드, Linux 접근성 트리(AT-SPI) 및 선택적 KWin D-Bus 통합을 통해 마우스, 키보드, 스크린샷 및 창 관리를 제어할 수 있도록 합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
+      "title": "Phpmyadmin (LinuxServer.io)",
+      "tagline": "PHP로 작성된 무료 소프트웨어 도구인 PhpMyAdmin은 웹을 통해 MySQL을 관리하도록 설계되었습니다. PhpMyAdmin은 MySQL 및 MariaDB에 대한 다양한 작업을 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpidgin",
+      "title": "Pidgin (LinuxServer.io)",
+      "tagline": "여러 채팅 네트워크 계정에 동시에 로그인할 수 있는 채팅 프로그램입니다. 즉, XMPP에서 친구들과 채팅하면서 동시에 IRC 채널에 참여할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiper",
+      "title": "Piper (LinuxServer.io)",
+      "tagline": "빠르고 뛰어난 음질을 제공하며 라즈베리 파이 4에 최적화된 로컬 신경망 기반 텍스트 음성 변환 시스템입니다. 이 컨테이너는 Piper용 Wyoming 프로토콜 서버를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiwigo",
+      "title": "Piwigo (LinuxServer.io)",
+      "tagline": "사진 컬렉션을 게시하고 관리할 수 있는 강력한 기능을 갖춘 웹 기반 사진 갤러리 소프트웨어입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplanka",
+      "title": "Planka (LinuxServer.io)",
+      "tagline": "세련된 오픈 소스 프로젝트 추적 도구입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplex",
+      "title": "Plex (LinuxServer.io)",
+      "tagline": "개인 미디어 라이브러리의 비디오, 음악, 사진을 정리하고 스마트 TV, 스트리밍 박스, 모바일 기기로 스트리밍합니다. 이 컨테이너는 독립형 Plex 미디어 서버로 제공됩니다. 직관적인 디자인과 일괄 처리 기능을 통해 더욱 빠르게 작업을 완료할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplexmetamanager",
+      "title": "Plex meta-manager",
+      "tagline": "이 Python 3 스크립트는 YAML 설정 파일을 사용하여 지속적으로 실행될 수 있으며, 라이브러리에 있는 영화, 프로그램 및 컬렉션의 메타데이터를 정기적으로 업데이트하고, 위키에 자세히 설명된 다양한 방법을 기반으로 컬렉션을 자동으로 구축할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverppsspp",
+      "title": "Ppsspp (LinuxServer.io)",
+      "tagline": "Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series 및 Symbian에서 사용할 수 있는 무료 오픈 소스 PSP 에뮬레이터로, 속도와 휴대성에 중점을 두었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprojectsend",
+      "title": "Projectsend (LinuxServer.io)",
+      "tagline": "파일을 업로드하고 직접 생성한 특정 클라이언트에 할당할 수 있는 자체 호스팅 애플리케이션입니다. 안전하고 개인 정보 보호가 철저하며 사용이 간편합니다. 더 이상 외부 서비스나 이메일을 통해 파일을 전송할 필요가 없습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprowlarr",
+      "title": "Prowlarr (LinuxServer.io)",
+      "tagline": "인기 있는 arr.net/reactjs 기반 스택으로 구축된 인덱서 관리자/프록시인 Prowlarr는 다양한 PVR 앱과 통합할 수 있습니다. Prowlarr는 토렌트 트래커와 유즈넷 인덱서를 모두 지원하며, Sonarr, Radarr, Lidarr, Readarr와 완벽하게 통합되어 앱별 인덱서 설정 없이 모든 인덱서를 관리할 수 있습니다 (모든 작업은 Prowlarr에서 처리합니다)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpwndrop",
+      "title": "Pwndrop (LinuxServer.io)",
+      "tagline": "레드팀 공격 페이로드를 전송하거나 HTTP 및 WebDAV를 통해 개인 파일을 안전하게 공유할 수 있는 자체 배포형 파일 호스팅 서비스입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpycharm",
+      "title": "Pycharm (LinuxServer.io)",
+      "tagline": "Python, 데이터베이스, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI 등을 기본적으로 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpydiocells",
+      "title": "Pydio cells (LinuxServer.io)",
+      "tagline": "차세대 기업용 파일 공유 플랫폼입니다. 마이크로서비스 아키텍처를 기반으로 Go 언어를 사용하여 Pydio 프로젝트를 완전히 재작성했습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpyloadng",
+      "title": "Pyload ng (LinuxServer.io)",
+      "tagline": "파이썬으로 작성된 무료 오픈 소스 다운로드 관리자로, 매우 가볍고 확장성이 뛰어나며 웹을 통해 완벽하게 관리할 수 있도록 설계되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpylon",
+      "title": "Pylon",
+      "tagline": "Node.js를 백엔드로, 강력한 JavaScript/HTML5 프런트엔드를 갖춘 웹 기반 통합 개발 환경으로, GPL 버전 3 라이선스가 적용됩니다. 이 프로젝트는 Cloud9 v2 프로젝트에서 파생되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpython",
+      "title": "Python",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/python을 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
+      "title": "Qbittorrent (LinuxServer.io)",
+      "tagline": "QBittorrent는 C++/Qt로 프로그래밍된 비트토렌트 클라이언트로, Arvid Norberg가 개발한 libtorrent(때때로 libtorrent-rasterbar라고도 함)를 사용합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqdirstat",
+      "title": "Qdirstat (LinuxServer.io)",
+      "tagline": "Qt 기반 디렉터리 통계: KDE 환경이 없는 KDirStat -- 오리지널 KDirStat 개발자가 만든 버전입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqemustatic",
+      "title": "Qemu static (LinuxServer.io)",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/qemu-static을 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+      "title": "Quassel core",
+      "tagline": "최신 크로스 플랫폼 분산형 IRC 클라이언트인 quasselcore는 하나 이상의 클라이언트가 중앙 코어에 연결하거나 분리할 수 있도록 설계되었습니다. 이 컨테이너는 IRC 연결을 관리하며, 데스크톱 클라이언트(quasselclient)를 사용하고 구성해야 합니다. quasselcore는 항상 켜져 있도록 설계되어 클라이언트가 온라인 상태가 아니더라도 IRC에서 사용자의 ID를 유지할 수 있습니다. 클라이언트가 다시 연결되면 이전 대화 기록(백로그)이 다운로드되어 무한히 과거로 스크롤하여 확인할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselweb",
+      "title": "Quassel web",
+      "tagline": "Quassel용 웹 클라이언트입니다. Quassel-Core 인스턴스가 필요하며, 여기에서 컨테이너를 다운로드할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverradarr",
+      "title": "Radarr (LinuxServer.io)",
+      "tagline": "Sonarr를 기반으로 Couchpotato처럼 영화를 편집할 수 있도록 만든 버전입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverraneto",
+      "title": "Raneto (LinuxServer.io)",
+      "tagline": "이 플랫폼은 정적 마크다운 파일을 사용하여 지식 기반을 구축하는 오픈 소스 지식 기반 플랫폼입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
+      "title": "Rawtherapee (LinuxServer.io)",
+      "tagline": "무료로 이용 가능한 크로스 플랫폼 RAW 이미지 처리 프로그램입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrdesktop",
+      "title": "Rdesktop",
+      "tagline": "Alpine, Ubuntu, Arch, Fedora 등 다양한 인기 배포판의 완벽한 데스크톱 환경을 포함하는 컨테이너를 RDP를 통해 이용할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverreadmesync",
+      "title": "Readme sync",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/readme-sync 를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverremmina",
+      "title": "Remmina (LinuxServer.io)",
+      "tagline": "Remmina는 GTK로 작성된 원격 데스크톱 클라이언트로, 대형 또는 소형 화면 앞에서 여러 대의 원격 컴퓨터를 사용해야 하는 시스템 관리자 및 출장자에게 유용하도록 설계되었습니다. Remmina는 통합되고 일관된 사용자 인터페이스를 통해 다양한 네트워크 프로토콜을 지원합니다. 현재 RDP, VNC, SPICE, SSH 및 EXEC 프로토콜을 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrequestrr",
+      "title": "Requestrr",
+      "tagline": "Sonarr/Radarr/Ombi와 같은 서비스를 채팅을 통해 간편하게 사용할 수 있도록 도와주는 챗봇입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+      "title": "Resilio sync (LinuxServer.io)",
+      "tagline": "(이전 명칭: BitTorrent Sync)는 BitTorrent 프로토콜을 사용하여 모든 장치 간에 파일과 폴더를 동기화합니다. 무료 버전과 유료 버전이 있으며, 이 컨테이너는 두 버전 모두를 지원합니다. 공식 동기화 이미지가 있지만, 볼륨 권한 설정을 간소화하기 위해 사용자 매핑을 지원하는 이 이미지를 저희가 제작했습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverretroarch",
+      "title": "Retroarch (LinuxServer.io)",
+      "tagline": "에뮬레이터, 게임 엔진 및 미디어 플레이어용 프런트엔드입니다. 세련된 그래픽 인터페이스를 통해 다양한 컴퓨터와 콘솔에서 고전 게임을 실행할 수 있도록 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrpcs3",
+      "title": "Rpcs3 (LinuxServer.io)",
+      "tagline": "Windows, Linux, macOS 및 FreeBSD용으로 C++로 작성된 멀티 플랫폼 오픈 소스 Sony PlayStation 3 에뮬레이터 및 디버거입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+      "title": "Rsnapshot (LinuxServer.io)",
+      "tagline": "rsync 기반의 파일 시스템 스냅샷 유틸리티인 rsnapshot을 사용하면 로컬 시스템과 SSH를 통해 연결된 원격 시스템의 스냅샷을 주기적으로 생성할 수 있습니다. 이 코드는 가능한 한 하드 링크를 적극적으로 활용하여 디스크 공간을 크게 절약합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrustdesk",
+      "title": "Rustdesk (LinuxServer.io)",
+      "tagline": "최소한의 설정으로 자체 호스팅 및 보안을 지원하는, 모든 기능을 갖춘 오픈 소스 원격 제어 솔루션입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversabnzbd",
+      "title": "Sabnzbd (LinuxServer.io)",
+      "tagline": "Usenet을 최대한 간편하고 효율적으로 만들기 위해 가능한 모든 것을 자동화합니다. 사용자는 .nzb 확장자만 추가하면 됩니다. SABnzbd가 자동으로 다운로드, 검증, 복구, 압축 해제 및 저장 작업을 수행하여 사람의 개입 없이 모든 작업을 처리합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverscummvm",
+      "title": "Scummvm (LinuxServer.io)",
+      "tagline": "ScummVM은 데이터 파일만 있으면 특정 고전 그래픽 어드벤처 및 롤플레잉 게임을 실행할 수 있게 해주는 프로그램입니다. 이 프로그램의 핵심은 게임과 함께 제공되는 실행 파일을 완전히 새로 작성하여, 원래 게임 개발사에서 설계하지 않은 시스템에서도 플레이할 수 있도록 해준다는 점입니다. ScummVM은 에뮬레이터가 아니라 게임 실행 파일을 완전히 재작성한 것입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversealskin",
+      "title": "Sealskin (LinuxServer.io)",
+      "tagline": "사용자가 강력한 컨테이너 기반 데스크톱 애플리케이션을 웹 브라우저로 직접 스트리밍하여 실행할 수 있도록 지원하는 자체 호스팅 클라이언트-서버 플랫폼입니다. 브라우저 확장 프로그램을 사용하여 링크 클릭이나 파일 다운로드와 같은 사용자 동작을 가로채고 원격 서버에서 실행되는 안전하고 격리된 애플리케이션 환경으로 리디렉션합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
+      "title": "Series troxide",
+      "tagline": "간단하고 현대적인 시리즈 추적기"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershadps4",
+      "title": "Shadps4 (LinuxServer.io)",
+      "tagline": "C++로 작성된 Windows, Linux 및 macOS용 초기 PlayStation 4 에뮬레이터입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershotcut",
+      "title": "Shotcut (LinuxServer.io)",
+      "tagline": "무료 오픈 소스 크로스 플랫폼 비디오 편집기입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickchill",
+      "title": "Sickchill",
+      "tagline": "TV 프로그램용 자동 비디오 라이브러리 관리 프로그램입니다. 좋아하는 프로그램의 새 에피소드를 감지하여 업로드되면 자동으로 관리해 줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickgear",
+      "title": "Sickgear (LinuxServer.io)",
+      "tagline": "TV 프로그램 및 애니메이션 관리 기능을 제공하며, 새 에피소드를 감지하고 다운로더 앱을 연결하는 등의 기능을 제공합니다. SickGear에 대한 자세한 정보는 웹사이트(https://github.com/SickGear/SickGear)에서 확인하세요."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversignal",
+      "title": "Signal (LinuxServer.io)",
+      "tagline": "개인정보 보호를 최우선으로 하는 메시징 앱입니다. 무료이며 사용하기 쉽고, 강력한 종단간 암호화로 모든 통신 내용을 완벽하게 비공개로 유지합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversmokeping",
+      "title": "Smokeping (LinuxServer.io)",
+      "tagline": "네트워크 지연 시간을 추적합니다. 이 애플리케이션의 전체 기능에 대한 예시는 UCDavis 웹사이트에서 확인할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnapdrop",
+      "title": "Snapdrop",
+      "tagline": "웹 브라우저에서 로컬 파일을 공유하는 기능입니다. 애플의 에어드롭에서 영감을 받았습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnipeit",
+      "title": "Snipe it",
+      "tagline": "자산 관리를 간편하게 만들어줍니다. 실제 IT 및 자산 관리 문제를 해결해 온 사람들이 개발했으며, 뛰어난 사용자 경험(UX)을 최우선으로 고려했습니다. 직관적인 디자인과 일괄 처리 기능을 통해 작업을 더 빠르게 완료할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversocketproxy",
+      "title": "Socket proxy (LinuxServer.io)",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/socket-proxy 를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversonarr",
+      "title": "Sonarr (LinuxServer.io)",
+      "tagline": "(이전 이름: NZBdrone)은 유즈넷 및 비트토렌트 사용자를 위한 PVR입니다. 여러 RSS 피드를 모니터링하여 좋아하는 프로그램의 새 에피소드를 찾고, 다운로드, 정렬 및 파일 이름 변경을 자동으로 수행합니다. 또한, 더 나은 화질의 파일이 출시되면 이미 다운로드한 파일의 화질을 자동으로 업그레이드하도록 설정할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
+      "title": "Speedtest tracker (LinuxServer.io)",
+      "tagline": "Ookla의 Speedtest 서비스를 이용하여 속도 테스트를 실행하는 자체 호스팅 인터넷 성능 추적 애플리케이션입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspotube",
+      "title": "Spotube (LinuxServer.io)",
+      "tagline": "Spotify의 데이터 API와 YouTube, Piped.Video 또는 JioSaavn을 오디오 소스로 활용하여 여러 플랫폼에서 호환되는 오픈 소스 크로스 플랫폼 Spotify 클라이언트입니다. 따라서 Spotify Premium 구독이 필요하지 않습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
+      "title": "Sqlitebrowser (LinuxServer.io)",
+      "tagline": "SQLite와 호환되는 데이터베이스 파일을 생성, 디자인 및 편집할 수 있는 고품질의 시각적 오픈 소스 도구입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteam",
+      "title": "Steam (LinuxServer.io)",
+      "tagline": "게임을 즐기고, 토론하고, 창작하는 최고의 공간."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteamos",
+      "title": "Steamos",
+      "tagline": "Valve Software에서 제작한 Arch 기반 Linux 배포판입니다. 이 컨테이너는 소프트웨어 지원을 위해 Steam 저장소가 추가된 기본 Arch 설치본입니다. 이 컨테이너는 실제 Linux 호스트에서 최신 AMD/Intel GPU를 사용할 때만 작동합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverswag",
+      "title": "Swag (LinuxServer.io)",
+      "tagline": "SWAG(Secure Web Application Gateway, 이전 명칭: letsencrypt, Let's Encrypt™와는 무관)는 PHP를 지원하는 Nginx 웹 서버 및 리버스 프록시를 설정하고, 무료 SSL 서버 인증서(Let's Encrypt 및 ZeroSSL) 생성 및 갱신 프로세스를 자동화하는 Certbot 클라이언트를 내장하고 있습니다. 또한 침입 방지를 위한 fail2ban도 포함되어 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversynclounge",
+      "title": "Synclounge (LinuxServer.io)",
+      "tagline": "어디에 있든 친구/가족과 동기화하여 Plex를 시청할 수 있도록 해주는 타사 도구입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyncthing",
+      "title": "Syncthing (LinuxServer.io)",
+      "tagline": "독점적인 동기화 및 클라우드 서비스를 개방적이고 신뢰할 수 있으며 분산된 시스템으로 대체합니다. 귀하의 데이터는 오직 귀하의 것이며, 데이터 저장 위치, 제3자 공유 여부, 인터넷을 통한 전송 방식 등을 직접 선택할 권리가 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyslogng",
+      "title": "Syslog ng (LinuxServer.io)",
+      "tagline": "인프라 전반에서 로그를 유연하게 수집, 구문 분석, 분류, 재작성 및 상호 연관시키고, 이를 로그 분석 도구에 저장하거나 전송할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertautulli",
+      "title": "Tautulli (LinuxServer.io)",
+      "tagline": "Plex Media Server의 모니터링, 분석 및 알림 기능을 제공하는 파이썬 기반 웹 애플리케이션입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertelegram",
+      "title": "Telegram (LinuxServer.io)",
+      "tagline": "클라우드 기반 모바일 및 데스크톱 메시징 앱."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertester",
+      "title": "Tester",
+      "tagline": "이 내부 도구는 CI 프로세스에서 데스크톱 샌드박스로 사용되어 정상적으로 작동하는 엔드포인트의 스크린샷을 캡처하는 데 사용됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthelounge",
+      "title": "Thelounge (LinuxServer.io)",
+      "tagline": "(ShoutIRC의 포크 버전인) 이 웹 IRC 클라이언트는 사용자가 직접 서버에 호스팅합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthunderbird",
+      "title": "Thunderbird (LinuxServer.io)",
+      "tagline": "무료 오픈소스 개인 정보 관리 프로그램으로, 주로 이메일 클라이언트, 캘린더 및 연락처 기능을 제공하며, RSS 피드 리더, 채팅 클라이언트, 뉴스 클라이언트로도 사용됩니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertransmission",
+      "title": "Transmission (LinuxServer.io)",
+      "tagline": "간편하고 강력한 사용을 위해 설계된 Transmission은 암호화, 웹 인터페이스, 피어 교환, 마그넷 링크, DHT, µTP, UPnP 및 NAT-PMP 포트 포워딩, 웹시드 지원, 감시 목록, 트래커 편집, 전체 및 토렌트별 속도 제한 등 BitTorrent 클라이언트에서 원하는 모든 기능을 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertvheadend",
+      "title": "Tvheadend (LinuxServer.io)",
+      "tagline": "프록시 서버 역할을 하는 Tvheadend는 Linux, FreeBSD 및 Android용 TV 스트리밍 서버 및 녹화 프로그램으로, DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP 및 HDHomeRun을 입력 소스로 지원합니다. Tvheadend는 HTTP(VLC, MPlayer), HTSP(Kodi, Movian) 및 SAT>IP 스트리밍을 제공합니다. 또한 다양한 EPG 소스(지상파 DVB 및 ATSC, OpenTV DVB 확장, XMLTV, PyXML 포함)를 지원합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverubooquity",
+      "title": "Ubooquity (LinuxServer.io)",
+      "tagline": "만화와 전자책을 위한 무료의 가볍고 사용하기 쉬운 홈 서버입니다. 태블릿, 전자책 리더기, 스마트폰 또는 컴퓨터를 사용하여 어디서든 파일에 액세스할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
+      "title": "Ungoogled chromium (LinuxServer.io)",
+      "tagline": "구글 웹 서비스에 의존하지 않는 구글 크로미디입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunificontroller",
+      "title": "Unifi controller",
+      "tagline": "Unifi 컨트롤러 소프트웨어는 높은 지연 시간과 높은 가동 시간이 요구되는 고밀도 클라이언트 구축 환경에 이상적인 강력한 엔터프라이즈급 무선 소프트웨어 엔진입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
+      "title": "Unifi network-application (LinuxServer.io)",
+      "tagline": "Unifi 네트워크 애플리케이션 소프트웨어는 높은 지연 시간과 높은 가동 시간 성능이 요구되는 고밀도 클라이언트 구축에 이상적인 강력한 엔터프라이즈급 무선 소프트웨어 엔진입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunrar",
+      "title": "Unrar",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/unrar 을 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervivaldi",
+      "title": "Vivaldi (LinuxServer.io)",
+      "tagline": "노르웨이의 Vivaldi Technologies에서 개발한 이메일 클라이언트가 내장된 무료 크로스 플랫폼 웹 브라우저입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervlc",
+      "title": "Vlc (LinuxServer.io)",
+      "tagline": "다양한 기기에서 안정적인 성능을 제공하는 무료 오픈 소스 크로스 플랫폼 멀티미디어 플레이어 및 프레임워크입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscode",
+      "title": "Vscode (LinuxServer.io)",
+      "tagline": "마이크로소프트에서 개발한 통합 개발 환경입니다. 이 컨테이너는 전체 데스크톱 애플리케이션을 실행하며, 웹 네이티브 버전은 코드 서버를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodium",
+      "title": "Vscodium (LinuxServer.io)",
+      "tagline": "커뮤니티 주도로 개발된, 무료 라이선스가 적용된 마이크로소프트 VS 코드 에디터의 바이너리 배포판입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
+      "title": "Vscodium web (LinuxServer.io)",
+      "tagline": "마이크로소프트 VS Code 편집기의 원격 호스트 웹 구성 요소에 대한 커뮤니티 주도형 무료 라이선스 바이너리 배포판입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebcord",
+      "title": "Webcord (LinuxServer.io)",
+      "tagline": "요약하자면, 이 패키지는 보안 및 개인정보 보호 강화, Discord 기능 재구현, Electron/Chromium/Discord 버그 해결, 스타일시트, 내부 페이지 및 Discord 이용약관을 최대한 준수하도록 설계된 래핑된 https://discord.com 페이지 등을 포함합니다(Discord 측에서 이용약관을 위반할 수 있는 변경 사항을 숨기도록 설계됨)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
+      "title": "Webgrabplus (LinuxServer.io)",
+      "tagline": "여러 사이트에서 XML TV EPG를 점진적으로 수집하는 프로그램입니다. 사용자가 선호하는 채널의 TV 프로그램 가이드 데이터를 선택한 TV 가이드 사이트에서 수집합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebstation",
+      "title": "Webstation (LinuxServer.io)",
+      "tagline": "우분투 기반의 웹 네이티브 에뮬레이션에 초점을 맞춘 LXQt 데스크톱 환경입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebtop",
+      "title": "Webtop (LinuxServer.io)",
+      "tagline": "Alpine, Ubuntu, Fedora 및 Arch 기반 컨테이너는 공식적으로 지원되는 배포판의 완전한 데스크톱 환경을 포함하고 있으며, 모든 최신 웹 브라우저를 통해 액세스할 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverweixin",
+      "title": "Weixin (LinuxServer.io)",
+      "tagline": "(위챗)은 텐센트가 개발한 인스턴트 메시징, 소셜 미디어 및 모바일 결제 앱입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwikijs",
+      "title": "Wikijs (LinuxServer.io)",
+      "tagline": "NodeJS로 구축된 현대적이고 가볍고 강력한 위키 앱입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwinegui",
+      "title": "Winegui (LinuxServer.io)",
+      "tagline": "사용자 친화적인 인터페이스를 갖춘 와인 관리 프로그램으로, 와인 병을 생성하고 관리할 수 있는 그래픽 사용자 인터페이스를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireguard",
+      "title": "Wireguard (LinuxServer.io)",
+      "tagline": "최첨단 암호화 기술을 활용하는 매우 간단하면서도 빠르고 현대적인 VPN입니다. IPsec보다 빠르고, 간편하며, 효율적이고, 유용하면서도 복잡한 설정 과정을 없애는 것을 목표로 합니다. 또한 OpenVPN보다 훨씬 뛰어난 성능을 제공합니다. WireGuard는 임베디드 인터페이스부터 슈퍼컴퓨터까지 다양한 환경에서 실행될 수 있도록 설계된 범용 VPN으로, 여러 환경에 적합합니다. 처음에는 Linux 커널용으로 출시되었지만, 현재는 크로스 플랫폼(Windows, macOS, BSD, iOS, Android)으로 널리 배포되고 있습니다. 현재 활발한 개발이 진행 중이지만, 이미 업계에서 가장 안전하고 사용하기 쉽고 간편한 VPN 솔루션으로 평가받고 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireshark",
+      "title": "Wireshark (LinuxServer.io)",
+      "tagline": "세계에서 가장 널리 사용되는 네트워크 프로토콜 분석 도구입니다. 네트워크에서 일어나는 일을 미시적인 수준에서 확인할 수 있게 해주며, 수많은 상업 및 비영리 기업, 정부 기관, 교육 기관에서 사실상(그리고 종종 법적으로도) 표준으로 자리 잡고 있습니다. Wireshark는 전 세계 네트워크 전문가들의 자발적인 기여 덕분에 꾸준히 개발되고 있으며, 1998년 Gerald Combs가 시작한 프로젝트를 계승하고 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
+      "title": "Wps office (LinuxServer.io)",
+      "tagline": "가볍고 기능이 풍부하며 호환성이 뛰어난 종합 오피스 제품군입니다. 편리하고 전문적인 오피스 소프트웨어인 WPS Office를 사용하면 Writer, Presentation, Spreadsheet, PDF 파일을 편집하여 업무 효율성을 높일 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxbackbone",
+      "title": "Xbackbone (LinuxServer.io)",
+      "tagline": "ShareX와 같은 즉시 공유 도구 및 *NIX 시스템을 지원하는 간단하고 가벼운 PHP 기반 파일 관리자입니다. 이미지, GIF, 비디오, 코드, 서식이 지정된 텍스트 업로드 및 표시, 파일 다운로드 및 업로드를 지원합니다. 또한 다중 사용자 관리, 이전 업로드 내역 및 검색 기능을 갖춘 웹 UI를 제공합니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxemu",
+      "title": "Xemu (LinuxServer.io)",
+      "tagline": "마이크로소프트 Xbox 게임 콘솔을 에뮬레이션하는 무료 오픈 소스 애플리케이션으로, Windows, macOS 및 Linux 시스템에서 오리지널 Xbox 게임을 플레이할 수 있도록 해줍니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxvfb",
+      "title": "Xvfb",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/xvfb를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryaak",
+      "title": "Yaak (LinuxServer.io)",
+      "tagline": "REST, GraphQL 및 gRPC 요청을 구성하고 실행하기 위한 데스크톱 API 클라이언트입니다. Tauri, Rust 및 ReactJS를 사용하여 구축되었습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryourspotify",
+      "title": "Your_spotify (LinuxServer.io)",
+      "tagline": "사용자가 무엇을 듣는지 추적하고 관련 통계를 살펴볼 수 있는 대시보드를 제공하는 자체 호스팅 애플리케이션입니다. 주기적으로 Spotify API를 폴링하는 웹 서버와 통계를 확인할 수 있는 웹 애플리케이션으로 구성되어 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryq",
+      "title": "Yq",
+      "tagline": "이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/yq를 참조하십시오."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzen",
+      "title": "Zen (LinuxServer.io)",
+      "tagline": "개인 정보 보호, 맞춤 설정 기능 및 디자인에 중점을 둔 Mozilla Firefox의 무료 오픈 소스 포크입니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverznc",
+      "title": "Znc (LinuxServer.io)",
+      "tagline": "IRC 네트워크 바운서(BNC)는 클라이언트를 실제 IRC 서버 및 선택한 채널에서 분리할 수 있습니다. 여러 클라이언트가 서로 다른 위치에서 하나의 ZNC 계정에 동시에 접속하여 IRC에서 동일한 닉네임으로 표시될 수 있습니다."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzotero",
+      "title": "Zotero (LinuxServer.io)",
+      "tagline": "연구 자료를 수집, 정리, 주석 달기, 인용 및 공유하는 데 도움이 되는 무료의 사용하기 쉬운 도구입니다."
+    }
+  ]
+}

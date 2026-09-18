@@ -1,7 +1,7 @@
 name: linuxserver-blade-of-agony
 services:
   app:
-    image: linuxserver/blade-of-agony:3.1.20260910@sha256:6f0640dbe8edcc5726242af979ea2fa74d50f2e4645eb406a930101a167dd155
+    image: linuxserver/blade-of-agony:3.1.20260917@sha256:248f0f97402daa3d67dafc6e3e8a19bc1691fc13cf4b20f851cd2e9ba5dc15df
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -23,7 +23,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbladeofagony/assets/icon.png
   title:
     en_US: Blade of-agony (LinuxServer.io)
+    ca_ES: Blade of-agony (LinuxServer.io)
+    cs_CZ: Blade of-agony (LinuxServer.io)
+    da_DK: Blade of-agony (LinuxServer.io)
+    de_DE: Blade of-agony (LinuxServer.io)
+    el_GR: Blade of-agony (LinuxServer.io)
+    en_GB: Blade of-agony (LinuxServer.io)
+    es_ES: Blade of-agony (LinuxServer.io)
+    fr_FR: Blade of-agony (LinuxServer.io)
+    ga_IE: Blade of-agony (LinuxServer.io)
+    hr_HR: Blade of-agony (LinuxServer.io)
+    hu_HU: Blade of-agony (LinuxServer.io)
+    it_IT: Blade of-agony (LinuxServer.io)
+    ja_JP: Blade of-agony (LinuxServer.io)
+    ko_KR: Blade of-agony (LinuxServer.io)
+    ml_IN: Blade of-agony (LinuxServer.io)
+    nb_NO: Blade of-agony (LinuxServer.io)
+    nl_NL: Blade of-agony (LinuxServer.io)
+    pl_PL: Blade of-agony (LinuxServer.io)
+    pt_BR: Blade of-agony (LinuxServer.io)
+    ro_RO: Blade of-agony (LinuxServer.io)
+    ru_RU: Blade of-agony (LinuxServer.io)
+    sk_SK: Blade of-agony (LinuxServer.io)
+    sv_SE: Blade of-agony (LinuxServer.io)
+    tr_TR: Blade of-agony (LinuxServer.io)
     zh_CN: Blade of-agony（LinuxServer.io）
+    zh_TW: Blade of-agony（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbladeofagony
   port_map: '3000'
-  version: 3.1.20260910
+  version: 3.1.20260917

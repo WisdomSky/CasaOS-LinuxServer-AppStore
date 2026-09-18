@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+  "title": "Resilio sync (LinuxServer.io)",
+  "tagline": "(anterior BitTorrent Sync) folosește protocolul BitTorrent pentru a sincroniza fișiere și foldere între toate dispozitivele tale. Există atât versiuni gratuite, cât și versiuni plătite, iar acest container le acceptă pe ambele. Există o imagine oficială de sincronizare, dar am creat-o pe aceasta deoarece acceptă maparea utilizatorilor pentru a simplifica permisiunile pentru volume.",
+  "description": "Resilio-sync (fostul BitTorrent Sync) folosește protocolul BitTorrent pentru a sincroniza fișiere și foldere între toate dispozitivele tale. Există atât versiuni gratuite, cât și versiuni plătite, iar acest container le acceptă pe ambele. Există o imagine oficială de sincronizare, dar am creat-o pe aceasta deoarece acceptă maparea utilizatorilor pentru a simplifica permisiunile pentru volume."
+}

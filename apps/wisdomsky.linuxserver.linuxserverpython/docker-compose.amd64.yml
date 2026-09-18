@@ -21,6 +21,31 @@ x-casaos:
   title:
     en_US: Python
     zh_CN: Python
+    ca_ES: Python
+    cs_CZ: Python
+    da_DK: Python
+    de_DE: Python
+    el_GR: Python
+    en_GB: Python
+    es_ES: Python
+    fr_FR: Python
+    ga_IE: Python
+    hr_HR: Python
+    hu_HU: Python
+    it_IT: Python
+    ja_JP: Python
+    ko_KR: Python
+    ml_IN: Python
+    nb_NO: Python
+    nl_NL: Python
+    pl_PL: Python
+    pt_BR: Python
+    ro_RO: Python
+    ru_RU: Python
+    sk_SK: Python
+    sv_SE: Python
+    tr_TR: Python
+    zh_TW: Python
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverpython
   version: 3.13.1

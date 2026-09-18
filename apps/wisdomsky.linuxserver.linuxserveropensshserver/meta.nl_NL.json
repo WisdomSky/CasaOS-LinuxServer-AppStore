@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+  "title": "Openssh server (LinuxServer.io)",
+  "tagline": "Een afgeschermde omgeving die SSH-toegang mogelijk maakt zonder de sleutels van de hele server te hoeven delen. SSH-toegang via een privésleutel betekent vaak dat je volledige toegang tot de server krijgt. Deze container creëert een beperkte, afgeschermde omgeving waar anderen via SSH toegang toe kunnen krijgen. De gebruikers hebben alleen toegang tot de mappen die in deze container zijn gekoppeld en de processen die erin draaien.",
+  "description": "Openssh-server is een afgeschermde omgeving die SSH-toegang mogelijk maakt zonder de sleutels van de hele server te hoeven delen. Het verlenen van SSH-toegang via een privésleutel betekent vaak dat je volledige toegang tot de server krijgt. Deze container creëert een beperkte, afgeschermde omgeving waartoe anderen via SSH toegang kunnen krijgen. Gebruikers hebben alleen toegang tot de mappen die in deze container zijn gekoppeld en de processen die erin draaien."
+}

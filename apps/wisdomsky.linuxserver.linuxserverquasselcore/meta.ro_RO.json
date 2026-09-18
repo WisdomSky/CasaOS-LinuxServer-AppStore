@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+  "title": "Quassel core",
+  "tagline": "Un client IRC modern, multiplatformă, distribuit, ceea ce înseamnă că unul (sau mai mulți) clienți se pot conecta și detașa de un nucleu central. Acest container gestionează conexiunea IRC (quasselcore) și necesită utilizarea și configurarea unui client desktop (quasselclient). Este conceput să fie mereu activ și vă va păstra identitatea prezentă în IRC chiar și atunci când clienții dvs. nu pot fi online. Istoricul mesajelor restante este descărcat de clientul dvs. la reconectare, permițând derulare înapoi în timp la nesfârșit.",
+  "description": "Vizitați pagina principală: https://hub.docker.com/r/linuxserver/quassel-core/"
+}

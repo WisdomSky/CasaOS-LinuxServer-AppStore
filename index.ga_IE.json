@@ -1,0 +1,1234 @@
+{
+  "apps": [
+    {
+      "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
+      "title": "Adguardhome sync (LinuxServer.io)",
+      "tagline": "Uirlis chun cumraíocht AdGuardHome a shioncrónú le cóipeanna macasamhla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
+      "title": "Airsonic advanced (LinuxServer.io)",
+      "tagline": "Sruthlóir meán saor in aisce, gréasánbhunaithe, a sholáthraíonn rochtain uileláithreach ar do cheol. Bain úsáid as chun do cheol a roinnt le cairde, nó chun éisteacht le do cheol féin agus tú ag an obair. Is féidir leat sruthú chuig il-imreoirí ag an am céanna, mar shampla chuig imreoir amháin i do chistin agus ceann eile i do sheomra suí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraltus",
+      "title": "Altus (LinuxServer.io)",
+      "tagline": "Cliant WhatsApp bunaithe ar Electron le téamaí agus tacaíocht do chuntais iolracha."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverappriseapi",
+      "title": "Apprise api (LinuxServer.io)",
+      "tagline": "Baineann sé leas as Apprise trí do líonra le API atá furasta le húsáid. * Seol fógraí chuig níos mó ná 100 seirbhís. * Geata thar a bheith éadrom chuig Apprise. * Micreasheirbhís réidh le haghaidh táirgeachta ar fáil duit. * Suíomh Gréasáin Simplí chun do chumraíocht a fhíorú agus a thástáil leis. Dearadh API Apprise chun go n-oirfeadh sé go héasca d'éiceachórais atá ann cheana féin (agus nua) atá ag lorg réiteach fógra simplí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverardour",
+      "title": "Ardour (LinuxServer.io)",
+      "tagline": "Comhiarracht foinse oscailte, chomhoibríoch foirne ar fud an domhain lena n-áirítear ceoltóirí, ríomhchláraitheoirí agus innealtóirí taifeadta gairmiúla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraudacity",
+      "title": "Audacity (LinuxServer.io)",
+      "tagline": "Eagarthóir agus taifeadán fuaime ilrian atá éasca le húsáid. Forbartha ag grúpa oibrithe deonacha mar fhoinse oscailte."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverazahar",
+      "title": "Azahar (LinuxServer.io)",
+      "tagline": "Aithriseoir 3DS foinse oscailte bunaithe ar Citra."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbabybuddy",
+      "title": "Babybuddy (LinuxServer.io)",
+      "tagline": "Cara do naíonáin. Cabhraíonn sé le cúramóirí codladh, beathú, athruithe naipcíní, am bolg agus níos mó a rianú chun foghlaim faoi riachtanais an linbh agus iad a thuar gan (an oiread) buille faoi thuairim."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbambustudio",
+      "title": "Bambustudio (LinuxServer.io)",
+      "tagline": "Bogearraí slisnithe foinse oscailte, ceannródaíoch, lán gnéithe. Tá sreafaí oibre bunaithe ar thionscadail, halgartaim slisnithe atá optamaithe go córasach, agus comhéadan grafach atá éasca le húsáid ann, rud a thugann eispéireas priontála thar a bheith réidh d'úsáideoirí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbazarr",
+      "title": "Bazarr (LinuxServer.io)",
+      "tagline": "Feidhmchlár tionlacain do Sonarr agus Radarr. Is féidir leis fotheidil a bhainistiú agus a íoslódáil bunaithe ar do riachtanais. Sainmhíníonn tú do chuid sainroghanna de réir seó teilifíse nó scannáin agus tabharfaidh Bazarr aire do gach rud duit."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbeets",
+      "title": "Beets (LinuxServer.io)",
+      "tagline": "Bainisteoir leabharlainne ceoil agus ní seinnteoir ceoil den chuid is mó é. Tá breiseán simplí seinnteora agus seinnteoir gréasánbhunaithe turgnamhach ann, ach is gnách go bhfágtar atáirgeadh fuaime iarbhír faoi uirlisí speisialaithe."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
+      "title": "Bitcoin knots (LinuxServer.io)",
+      "tagline": "Is féidir é a úsáid mar chliant deisce le haghaidh íocaíochtaí rialta nó mar fhóntas freastalaí nóid iomlán do cheannaithe agus do sheirbhísí íocaíochta eile."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
+      "title": "Blade of-agony (LinuxServer.io)",
+      "tagline": "Cluiche lámhachóra faoin Dara Cogadh Domhanda atá bunaithe ar scéal agus spreagtha ag Wolfenstein agus Doom."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverblender",
+      "title": "Blender (LinuxServer.io)",
+      "tagline": "Tacar uirlisí bogearraí grafaicí ríomhaire 3T saor in aisce agus foinse oscailte a úsáidtear chun scannáin bheochana, éifeachtaí amhairc, ealaín, samhlacha priontáilte 3T, grafaicí gluaisne, feidhmchláir idirghníomhacha 3T, réaltacht fhíorúil, agus cluichí ríomhaire a chruthú. Ní thacaíonn an íomhá seo le rindreáil GPU díreach as an mbosca, ach le taithí spáis oibre luathaithe amháin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverboinc",
+      "title": "Boinc (LinuxServer.io)",
+      "tagline": "Ardán le haghaidh ríomhaireachta ard-tréchur ar scála mór (na mílte nó na milliúin ríomhairí). Is féidir é a úsáid le haghaidh ríomhaireachta deonaí (ag baint úsáide as gléasanna tomhaltóirí) nó ríomhaireachta eangaí (ag baint úsáide as acmhainní eagraíochtúla). Tacaíonn sé le feidhmchláir fhíorúlaithe, comhthreomhara agus GPU-bhunaithe."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
+      "title": "Booksonic air",
+      "tagline": "Ardán chun rochtain a fháil ar do chlosleabhair is cuma cén áit a bhfuil tú. Faoi láthair, is iad seo a leanas na nithe seo a leanas atá san ardán: * Booksonic Air - Freastalaí chun do chlosleabhair a shruthú, comharba ar an bhfreastalaí bunaidh Booksonic agus bunaithe ar Airsonic. * Aip Booksonic - Aip Android bunaithe ar DSub chun ceangal le freastalaithe Booksonic-Air."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbookstack",
+      "title": "Bookstack (LinuxServer.io)",
+      "tagline": "Vicí foinse oscailte saor in aisce atá deartha chun doiciméadú álainn a chruthú. Le heagarthóir WYSIWYG simplí ach cumhachtach, tugann sé deis do fhoirne doiciméadú mionsonraithe agus úsáideach a chruthú go héasca. Cumhachtaithe ag SQL agus eagarthóir Markdown san áireamh dóibh siúd ar fearr leo é, tá BookStack dírithe ar dhoiciméadú a dhéanamh níos pléisiúir ná mar thasc. Le haghaidh tuilleadh eolais faoi BookStack, tabhair cuairt ar a suíomh Gréasáin agus féach air: https://www.Bookstackapp.com"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbrave",
+      "title": "Brave (LinuxServer.io)",
+      "tagline": "Brabhsálaí gréasáin tapa, príobháideach agus slán do ríomhaire, Mac agus soghluaiste."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbudge",
+      "title": "Budge (LinuxServer.io)",
+      "tagline": "Aip airgeadais phearsanta foinse oscailte le haghaidh 'buiséadú le clúdaigh litreach'."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbuildagent",
+      "title": "Build agent",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/build-agent le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibre",
+      "title": "Calibre (LinuxServer.io)",
+      "tagline": "Bainisteoir ríomhleabhar cumhachtach agus éasca le húsáid. Deir úsáideoirí go bhfuil sé den scoth agus riachtanach. Ligfidh sé duit beagnach gach rud a dhéanamh agus tugann sé rudaí céim níos faide ná gnáthbhogearraí ríomhleabhar. Tá sé go hiomlán saor in aisce agus foinse oscailte freisin agus iontach d'úsáideoirí ócáideacha agus do shaineolaithe ríomhaireachta araon."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibreweb",
+      "title": "Calibre web (LinuxServer.io)",
+      "tagline": "Aip ghréasáin a sholáthraíonn comhéadan glan chun ríomhleabhair a bhrabhsáil, a léamh agus a íoslódáil ag baint úsáide as bunachar sonraí Calibre atá ann cheana féin. Is féidir freisin Google Drive a chomhtháthú agus meiteashonraí agus do leabharlann Calibre a chur in eagar tríd an aip féin. Is forc de leabharlann an bogearra seo agus tá sé ceadúnaithe faoin gCeadúnas GPL v3."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalligra",
+      "title": "Calligra (LinuxServer.io)",
+      "tagline": "Sraith oifige agus ealaíne grafaice ó KDE. Tá sé ar fáil do ríomhairí deisce, táibléid agus fóin chliste. Tá feidhmchláir ann le haghaidh próiseála focal, scarbhileoga, cur i láthair, grafaicí veicteora agus eagarthóireacht bunachar sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
+      "title": "Changedetection. Io (LinuxServer.io)",
+      "tagline": "Soláthraíonn sé monatóireacht, fógra agus brath athruithe saor in aisce, foinse oscailte ar leathanaigh ghréasáin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchrome",
+      "title": "Chrome (LinuxServer.io)",
+      "tagline": "An brabhsálaí gréasáin oifigiúil ó Google, atá tógtha le bheith gasta, slán agus inoiriúnaithe."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchromium",
+      "title": "Chromium (LinuxServer.io)",
+      "tagline": "Tionscadal brabhsálaí foinse oscailte a bhfuil sé mar aidhm aige bealach níos sábháilte, níos tapúla agus níos cobhsaí a thógáil do gach úsáideoir chun taithí a fháil ar an ngréasán."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverci",
+      "title": "Ci",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/ci le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercidebug",
+      "title": "Ci debug",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/ci-debug le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercitron",
+      "title": "Citron",
+      "tagline": "Aithriseoir Switch 1 atá saibhir ó thaobh gnéithe de le haghaidh grúdaireachta baile."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercodeserver",
+      "title": "Code server (LinuxServer.io)",
+      "tagline": "Cód VS ag rith ar fhreastalaí cianda, inrochtana tríd an mbrabhsálaí. - Cód ar do Chromebook, taibléad, agus ríomhaire glúine le timpeallacht forbartha comhsheasmhach. - Má tá stáisiún oibre Windows nó Mac agat, forbair níos éasca do Linux. - Bain leas as freastalaithe scamall móra chun tástálacha, tiomsúcháin, íoslódálacha, agus níos mó a bhrostú. - Caomhnaigh saol na ceallraí nuair a bhíonn tú ag taisteal. - Ritheann an ríomhaireacht dhian go léir ar do fhreastalaí. - Níl tú ag rith cásanna breise de Chrome a thuilleadh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercops",
+      "title": "Cops (LinuxServer.io)",
+      "tagline": "Le Sébastien Lucas, atá á chothabháil anois ag MikesPub, seasann sé do Calibre OPDS (agus HTML) Php Server. Nascann COPS le do bhunachar sonraí leabharlainne Calibre agus tugann sé deis duit leabhair a íoslódáil agus a sheoladh trí ríomhphost go díreach ó bhrabhsálaí gréasáin agus soláthraíonn sé beatha OPDS chun ceangal le do ghléasanna. Léirítear athruithe i do leabharlann Calibre láithreach i do leathanaigh COPS. Féach: baile COPS le haghaidh tuilleadh sonraí. Ná déan dearmad an Vicí a sheiceáil. ## Cén fáth. (tógtha ó shuíomh an údair) Is uirlis iontach é Calibre i mo thuairimse ach tá sé ró-mhór agus tá an iomarca spleáchais ann le húsáid dá fhreastalaí ábhair. Sin an phríomhchúis gur chódaigh mé an freastalaí OPDS seo. Bhí uirlis shimplí ag teastáil uaim le suiteáil ar fhreastalaí beag (Seagate Dockstar i mo chás). Smaoinigh mé ar dtús ar Calibre2OPDS ach toisc go ngineann sé comhad statach ní raibh aon chuardach indéanta. Níos déanaí chuir mé catalóg HTML simplí leis ba chóir a bheith inúsáidte ar mo Kobo. Mar sin is iad príomhbhuntáistí COPS: * Níl gá le go leor spleáchais. * Níl gá le go leor LAP nó RAM. * Níl mórán cóid ann. * Tá cuardach ar fáil. * Le Dropbox / owncloud tá sé an-éasca freastalaí OPDS cothrom le dáta a bheith agat. * Bhí sé spraíúil an cód a scríobh. Más mian leat an fotha OPDS a úsáid ná déan dearmad /feed a shonrú ag deireadh do URL."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercura",
+      "title": "Cura (LinuxServer.io)",
+      "tagline": "Bogearraí priontála 3D saor in aisce, éasca le húsáid a bhfuil muinín ag na milliúin úsáideoirí astu. Déan do mhúnla 3D a choigeartú go mín le breis is 400 socrú chun na torthaí gearrtha agus priontála is fearr a fháil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverd2builder",
+      "title": "D2 builder",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/d2-builder le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdaapd",
+      "title": "Daapd",
+      "tagline": "Freastalaí meán (iTunes) le tacaíocht do ghléasanna AirPlay, Apple Remote (agus gléasanna comhoiriúnacha), Chromecast, MPD agus raidió idirlín."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdarktable",
+      "title": "Darktable (LinuxServer.io)",
+      "tagline": "Feidhmchlár sreabha oibre grianghrafadóireachta foinse oscailte agus forbróir amh. Bord solais agus seomra dorcha fíorúil do ghrianghrafadóirí. Bainistíonn sé do dhiúltacha digiteacha i mbunachar sonraí, ligeann sé duit iad a fheiceáil trí bhord solais insúmáilte agus cuireann sé ar do chumas íomhánna amha a fhorbairt agus iad a fheabhsú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdavos",
+      "title": "Davos (LinuxServer.io)",
+      "tagline": "Uirlis uathoibrithe FTP a dhéanann scanadh tréimhsiúil ar shuíomhanna óstacha áirithe le haghaidh comhad nua. Is féidir é a chumrú chun críocha éagsúla, lena n-áirítear éisteacht le comhaid shonracha le feiceáil sa suíomh óstach, réidh le híoslódáil agus ansin bogadh, más gá. Tacaíonn sé freisin le fógraí críochnaithe chomh maith le glaonna API iartheachtach, chun an sreabhadh oibre a chur chun cinn."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverddclient",
+      "title": "Ddclient (LinuxServer.io)",
+      "tagline": "Úsáideadh cliant Perl chun iontrálacha DNS dinimiciúla a nuashonrú do chuntais ar Sholáthraí Seirbhíse Líonra DNS Dinimiciúil. Scríobh Paul Burry é ar dtús agus is é wimpunk is mó a scríobhann é anois. Tá an cumas aige níos mó ná dyndns amháin a nuashonrú agus is féidir leis do sheoladh WAN-IP a fháil ar chúpla bealach éagsúil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdeluge",
+      "title": "Deluge (LinuxServer.io)",
+      "tagline": "Cliant BitTorrent tras-ardáin, bogearra saor in aisce, éadrom. * Criptiú Iomlán * Comhéadan Gréasáin * Córas Breiseán * I bhfad níos mó..."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdigikam",
+      "title": "Digikam (LinuxServer.io)",
+      "tagline": "digiKam: Bainistíocht Ghairmiúil Grianghraf le Cumhacht na Foinse Oscailte"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdillinger",
+      "title": "Dillinger",
+      "tagline": "Eagarthóir HTML5 Markdown atá cumasaithe don scamall, réidh le haghaidh soghluaiste, le haghaidh stórála as líne, faoi thiomáint AngularJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdiskover",
+      "title": "Diskover (LinuxServer.io)",
+      "tagline": "Innéacsóir córais comhad foinse oscailte a úsáideann Elasticsearch chun sonraí a innéacsú agus a bhainistiú ar fud córas stórála héagsúla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdogwalk",
+      "title": "Dogwalk (LinuxServer.io)",
+      "tagline": "An dara tionscadal cluiche a bhí á fhanacht le fada ag Blender Studio, dírithe ar chlós súgartha scéalaíochta idirghníomhach beag bídeach a chruthú. Imir mar mhadra mór gleoite agus déan iniúchadh ar na coillte geimhridh le páiste beag."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
+      "title": "Dokuwiki (LinuxServer.io)",
+      "tagline": "Bogearraí vicí foinse oscailte atá simplí le húsáid agus thar a bheith ilúsáideach nach dteastaíonn bunachar sonraí uaidh. Is breá le húsáideoirí é mar gheall ar a chomhréir ghlan agus inléite. Mar gheall ar an éascaíocht cothabhála, cúltaca agus comhtháthaithe, is fearr le riarthóirí é. Déanann rialuithe rochtana agus nascóirí fíordheimhnithe ionsuite DokuWiki thar a bheith úsáideach i gcomhthéacs fiontraíochta agus cuireann an líon mór breiseán a chuireann a phobal bríomhar ar fáil raon leathan cásanna úsáide ar fáil thar vicí traidisiúnta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdolphin",
+      "title": "Dolphin (LinuxServer.io)",
+      "tagline": "Ligeann sé duit cluichí GameCube agus Wii a imirt le feabhsuithe grafacha éagsúla agus gnéithe eile atá ar fáil chun do thaithí cluiche a fheabhsú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdomoticz",
+      "title": "Domoticz",
+      "tagline": "Córas Uathoibrithe Baile a ligeann duit gléasanna éagsúla a mhonatóiriú agus a chumrú ar nós: Soilse, Lasca, braiteoirí/méadair éagsúla ar nós Teocht, Báisteach, Gaoth, UV, Leictreachas, Gás, Uisce agus i bhfad níos mó. Is féidir fógraí/foláirimh a sheoladh chuig aon ghléas soghluaiste."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarr",
+      "title": "Doplarr",
+      "tagline": "Bot iarratais *arr do Discord."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
+      "title": "Doplarr_rs (LinuxServer.io)",
+      "tagline": "Bot Discord le haghaidh meáin a iarraidh trí chláir chúltaca *arr, scríofa i Rust."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
+      "title": "Dosbox staging (LinuxServer.io)",
+      "tagline": "Leanúnachas nua-aimseartha ar DOSBox, aithriseoir foinse oscailte agus saor in aisce a chuireann ar chumas bogearraí MS-DOS a fhorghníomhú, go háirithe cluichí físeáin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
+      "title": "Doublecommander (LinuxServer.io)",
+      "tagline": "Bainisteoir comhad foinse oscailte tras-ardáin saor in aisce le dhá phainéal taobh le taobh. Tá sé spreagtha ag Total Commander agus tá roinnt smaointe nua ann."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckdns",
+      "title": "Duckdns (LinuxServer.io)",
+      "tagline": "Seirbhís saor in aisce a threoróidh DNS (fo-fhearainn de chuid duckdns.org) chuig seoladh IP de do rogha féin. Tá an tseirbhís go hiomlán saor in aisce, agus ní gá athghníomhachtú ná poist fóram a dhéanamh chun í a choinneáil ann."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckstation",
+      "title": "Duckstation (LinuxServer.io)",
+      "tagline": "Aithriseoir PS1 atá dírithe ar an cruinneas agus an tacaíocht cluiche is fearr."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduplicati",
+      "title": "Duplicati (LinuxServer.io)",
+      "tagline": "Cliant cúltaca a stórálann cúltacaí criptithe, incriminteacha, comhbhrúite go slán ar stóráil áitiúil, ar sheirbhísí stórála scamall agus ar fhreastalaithe comhad iargúlta. Oibríonn sé le prótacail chaighdeánacha ar nós FTP, SSH, WebDAV chomh maith le seirbhísí coitianta ar nós Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2, agus go leor eile."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservereden",
+      "title": "Eden (LinuxServer.io)",
+      "tagline": "Aithriseoir foinse oscailte turgnamhach don Nintendo Switch, tógtha le feidhmíocht agus cobhsaíocht san áireamh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremby",
+      "title": "Emby (LinuxServer.io)",
+      "tagline": "Eagraíonn sé físeáin, ceol, teilifís bheo, agus grianghraif ó leabharlanna meán pearsanta agus sruthaíonn sé iad chuig teilifíseáin chliste, boscaí sruthú agus gléasanna soghluaiste. Tá an coimeádán seo pacáistithe mar Fhreastalaí Meán emby neamhspleách."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverembystat",
+      "title": "Embystat",
+      "tagline": "Freastalaí gréasáin pearsanta ar féidir leis gach saghas staitisticí a ríomh ó do fhreastalaí Emby (áitiúil). Suiteáil é seo ar do fhreastalaí agus lig dó gach saghas rudaí spraíúla a ríomh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremulatorjs",
+      "title": "Emulatorjs",
+      "tagline": "In aithris ghréasánbhunaithe i mbrabhsálaí atá iniompartha chuig beagnach aon fheiste le haghaidh go leor consól seanré. Úsáidtear meascán d'aithriseoirí idir Libretro agus EmulatorJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverendlessh",
+      "title": "Endlessh",
+      "tagline": "Calafort SSH a sheolann meirge SSH randamach gan teorainn go han-mhall. Coinníonn sé cliaint SSH faoi ghlas ar feadh uaireanta nó fiú laethanta ag an am. Is é an cuspóir ná do fhreastalaí SSH fíor a chur ar phort eile agus ansin ligean do na páistí scripte dul i bhfostú sa chalafort seo in ionad cur isteach ar fhreastalaí fíor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfail2ban",
+      "title": "Fail2ban (LinuxServer.io)",
+      "tagline": "Daemon chun óstach a thoirmeasc a chruthaíonn il-earráidí fíordheimhnithe."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+      "title": "Faster whisper (LinuxServer.io)",
+      "tagline": "Athchur i bhfeidhm ar mhúnla Whisper OpenAI ag baint úsáide as CTranslate2, arb é inneall mear-thástáil é do mhúnlaí Transformer. Soláthraíonn an coimeádán seo freastalaí prótacail Wyoming le haghaidh cogarnaíochta níos tapúla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
+      "title": "Feed2toot",
+      "tagline": "Déanann sé fothaí rss a pharsáil go huathoibríoch, aithníonn sé poist nua agus postálann sé iad ar líonra sóisialta Mastodon."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverferdium",
+      "title": "Ferdium (LinuxServer.io)",
+      "tagline": "Aip deisce a chabhraíonn leat d’aipeanna is fearr leat a eagrú trína gcomhcheangal in aon fheidhmchlár amháin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverffmpeg",
+      "title": "Ffmpeg (LinuxServer.io)",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/ffmpeg le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfilezilla",
+      "title": "Filezilla (LinuxServer.io)",
+      "tagline": "Is cliant FTP, FTPS agus SFTP tras-ardáin tapa agus iontaofa é an cliant a bhfuil neart gnéithe úsáideacha agus comhéadan úsáideora grafach iomasach aige."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfirefox",
+      "title": "Firefox (LinuxServer.io)",
+      "tagline": "Is brabhsálaí gréasáin saor in aisce agus foinse oscailte é Brabhsálaí, ar a dtugtar Mozilla Firefox nó Firefox go simplí freisin, arna fhorbairt ag Fondúireacht Mozilla agus a fochuideachta, Mozilla Corporation. Úsáideann Firefox inneall leagan amach Gecko chun leathanaigh ghréasáin a rindreáil, rud a chuireann caighdeáin ghréasáin reatha agus réamh-mheasta i bhfeidhm."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfleet",
+      "title": "Fleet",
+      "tagline": "Soláthraíonn sé comhéadan gréasáin ar líne a thaispeánann sraith íomhánna cothabháilte ó stór amháin nó níos mó atá faoi úinéireacht."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflexget",
+      "title": "Flexget (LinuxServer.io)",
+      "tagline": "Uirlis uathoibrithe ilchuspóireach do do chuid meán go léir."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflycast",
+      "title": "Flycast (LinuxServer.io)",
+      "tagline": "Aithriseoir il-ardáin Sega Dreamcast, Naomi, Naomi 2, agus Atomiswave díorthaithe ó reicast."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
+      "title": "Foldingathome (LinuxServer.io)",
+      "tagline": "Tionscadal ríomhaireachta dáilte chun dinimic próitéine a insamhladh, lena n-áirítear an próiseas fillte próitéine agus gluaiseachtaí próitéiní a bhfuil baint acu le réimse galair. Tugann sé eolaithe saoránach le chéile a dhéanann obair dheonach chun insamhaltaí ar dhinimic próitéine a reáchtáil ar a ríomhairí pearsanta. Tá léargais ó na sonraí seo ag cabhrú le heolaithe tuiscint níos fearr a fháil ar an mbitheolaíocht, agus ag soláthar deiseanna nua chun teiripí a fhorbairt."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreecad",
+      "title": "Freecad (LinuxServer.io)",
+      "tagline": "Samhaltóir deartha ríomhchuidithe (CAD) paraiméadrach 3T ilchuspóireach agus feidhmchlár bogearraí samhaltú faisnéise foirgníochta (BIM) le tacaíocht don mhodh eilimintí críochta (FEM)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreetube",
+      "title": "Freetube",
+      "tagline": "Cliant YouTube atá lán de ghnéithe agus atá furasta le húsáid agus a dhíríonn ar phríobháideacht."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreshrss",
+      "title": "Freshrss (LinuxServer.io)",
+      "tagline": "Comhiomlánaitheoir saor in aisce, féinóstála do fhothaí RSS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergimp",
+      "title": "Gimp (LinuxServer.io)",
+      "tagline": "Eagarthóir grafaicí rastair saor in aisce agus foinse oscailte a úsáidtear le haghaidh ionramháil íomhá (retouching) agus eagarthóireacht íomhá, líníocht shaorfhoirme, tras-chódú idir formáidí comhaid íomhá éagsúla, agus tascanna níos speisialaithe. Is féidir é a leathnú trí bhreiseáin, agus is féidir é a scriptiú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
+      "title": "Github desktop (LinuxServer.io)",
+      "tagline": "Aip GitHub foinse oscailte atá bunaithe ar Electron. Tá sé scríofa i TypeScript agus úsáideann sé React."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergitqlient",
+      "title": "Gitqlient (LinuxServer.io)",
+      "tagline": "Cliant il-ardáin Git a forcaíodh ar dtús ó QGit. Sa lá atá inniu ann téann sé níos faide ná forc amháin agus cuireann sé go leor feidhmiúlachta nua leis."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrav",
+      "title": "Grav (LinuxServer.io)",
+      "tagline": "Ardán Gréasáin atá tapa, simplí agus solúbtha, bunaithe ar chomhaid."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrocy",
+      "title": "Grocy (LinuxServer.io)",
+      "tagline": "Córas ERP do do chistin. Laghdaigh dramhaíl bia, agus bainistigh do chuid tascanna leis an bhfóntas iontach seo. Coinnigh súil ar do cheannacháin, cé mhéad bia atá á chur amú agat, cad iad na tascanna is gá a dhéanamh agus cad iad na cadhnraí is gá a mhuirearú leis an uirlis Foinse Oscailte seo atá bródúil as. Chun tuilleadh eolais a fháil faoi grocy, tabhair cuairt ar a suíomh Gréasáin agus féach air: https://grocy.info"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergzdoom",
+      "title": "Gzdoom (LinuxServer.io)",
+      "tagline": "Port dírithe ar ghnéithe do gach cluiche inneall Doom, bunaithe ar ZDoom, ag cur rindreálaí OpenGL agus cumais scriptithe chumhachtacha leis."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhabridge",
+      "title": "Habridge (LinuxServer.io)",
+      "tagline": "Déanann sé aithris ar API Philips Hue chuig geataí uathoibrithe baile eile amhail Amazon Echo/Dot Gen 1 (tá fadhbanna ag glúin 2 ag aimsiú ha-bridge) nó córais eile a thacaíonn le Philips Hue. Láimhseálann an Droichead orduithe bunúsacha amhail orduithe Ar Siúl, As agus gile an phrótacail hue. Is féidir leis an droichead seo an chuid is mó de na gléasanna a bhfuil API ar leith acu a rialú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhandbrake",
+      "title": "Handbrake (LinuxServer.io)",
+      "tagline": "Uirlis foinse oscailte, tógtha ag oibrithe deonacha, chun físeán a thiontú ó bheagnach aon fhormáid go rogha de chódaic nua-aimseartha a bhfuil tacaíocht fhorleathan acu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheadphones",
+      "title": "Headphones",
+      "tagline": "Íoslódálaí ceoil uathoibrithe do NZB agus Torrent, scríofa i Python. Tacaíonn sé le SABnzbd, NZBget, Transmission, µTorrent agus Blackhole."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
+      "title": "Healthchecks (LinuxServer.io)",
+      "tagline": "Madra faire do do phoist cron. Is freastalaí gréasáin é a éisteann le haghaidh pings ó do phoist cron, chomh maith le comhéadan gréasáin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
+      "title": "Hedgedoc (LinuxServer.io)",
+      "tagline": "Tugann sé rochtain duit ar do chuid comhad go léir cibé áit a bhfuil tú. Is eagarthóir nótaí marcála síos comhoibríoch fíor-ama, il-ardáin é HedgeDoc. Ciallaíonn sé seo gur féidir leat nótaí a scríobh le daoine eile ar do dheasc, taibléad nó fiú ar an bhfón. Is féidir leat síniú isteach trí sholáthraithe údaraithe iolracha cosúil le Facebook, Twitter, GitHub agus go leor eile ar an leathanach baile."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheimdall",
+      "title": "Heimdall (LinuxServer.io)",
+      "tagline": "Bealach chun na naisc sin go léir chuig na suíomhanna gréasáin agus na feidhmchláir ghréasáin is mó a úsáideann tú a eagrú ar bhealach simplí. Is í an simplíocht eochair Heimdall. Cén fáth nach n-úsáidfeá é mar leathanach tosaigh do bhrabhsálaí? Tá an cumas ann fiú barra cuardaigh a chur san áireamh ag baint úsáide as Google, Bing nó DuckDuckGo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhelium",
+      "title": "Helium (LinuxServer.io)",
+      "tagline": "Brabhsálaí gréasáin bunaithe ar Chromium atá déanta do dhaoine, le grá. Príobháideacht ar dtús le blocáil fógraí neamhchlaonta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
+      "title": "Hishtory server (LinuxServer.io)",
+      "tagline": "Stair bhlaosc níos fearr. Stórálann sé do stair bhlaosc i gcomhthéacs (cén eolaire inar rith tú an t-ordú, cibé ar éirigh leis nó nár éirigh leis, cá fhad a thóg sé, srl.). Stóráiltear é seo go léir go háitiúil agus criptithe ó cheann ceann le haghaidh sioncrónú le do ríomhairí eile go léir."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
+      "title": "Homeassistant (LinuxServer.io)",
+      "tagline": "Uathoibriú baile foinse oscailte a chuireann rialú áitiúil agus príobháideacht chun tosaigh. Cumhachtaithe ag pobal domhanda de lucht déanta rudaí beaga agus díograiseoirí DIY. Foirfe le rith ar Raspberry Pi nó ar fhreastalaí áitiúil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
+      "title": "Htpcmanager (LinuxServer.io)",
+      "tagline": "Tosach tosaigh do go leor feidhmchlár a bhaineann le htpc."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverinkscape",
+      "title": "Inkscape (LinuxServer.io)",
+      "tagline": "Bogearraí grafaicí veicteoir ar ardchaighdeán a ritheann ar ríomhairí deisce Linux, Mac OS X agus Windows."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverintellijidea",
+      "title": "Intellij idea (LinuxServer.io)",
+      "tagline": "Cabhraíonn sé leat cód a scríobh níos tapúla le huirlisí a chuireann deireadh le tascanna leadránacha agus a ligeann duit díriú ar a bhfuil tábhachtach – bogearraí iontacha a thógáil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjackett",
+      "title": "Jackett (LinuxServer.io)",
+      "tagline": "Oibríonn sé mar fhreastalaí seachfhreastalaí: aistríonn sé fiosrúcháin ó aipeanna (Sonarr, SickRage, CouchPotato, Mylar, srl.) ina bhfiosrúcháin http atá sainiúil don suíomh rianaithe, déanann sé an freagra html a pharsáil, agus ansin seolann sé torthaí ar ais chuig an mbogearra iarrthach. Ligeann sé seo duit uaslódálacha le déanaí (cosúil le RSS) a fháil agus cuardaigh a dhéanamh. Is stór aonair é Jackett de scríobadh innéacsóirí cothabháilte agus loighic aistriúcháin - rud a bhaineann an t-ualach ó aipeanna eile."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjellyfin",
+      "title": "Jellyfin (LinuxServer.io)",
+      "tagline": "Córas Meán Bogearraí Saor in Aisce a chuireann smacht ort ar bhainistiú agus ar shruthú do chuid meán. Is rogha eile é seachas Emby agus Plex dílseánaigh, chun meáin a sholáthar ó fhreastalaí tiomnaithe do ghléasanna úsáideora deiridh trí aipeanna iolracha. Is as scaoileadh 3.5.2 Emby a tháinig Jellyfin agus aistríodh é chuig creat .NET Core chun tacaíocht iomlán tras-ardáin a chumasú. Níl aon srianta ceangailte, gan aon cheadúnais ná gnéithe préimhe, agus gan aon chláir oibre i bhfolach: ach foireann ar mian leo rud éigin níos fearr a thógáil agus oibriú le chéile chun é a bhaint amach."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
+      "title": "Jenkins builder",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/jenkins-builder le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjoplin",
+      "title": "Joplin (LinuxServer.io)",
+      "tagline": "Feidhmchlár saor in aisce foinse oscailte le haghaidh nótaí a thógáil agus rudaí le déanamh, ar féidir leis líon mór nótaí atá eagraithe i leabhair nótaí a láimhseáil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkalilinux",
+      "title": "Kali linux (LinuxServer.io)",
+      "tagline": "Is dáileadh Linux um Thástáil Treáite Ardleibhéil é KALI LINUX ™ a úsáidtear le haghaidh Tástála Treáite, Hacaireacht Eiticiúil agus measúnuithe slándála líonra. Is trádmharc de chuid OffSec é KALI LINUX ™."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkasm",
+      "title": "Kasm (LinuxServer.io)",
+      "tagline": "Is ardán sruthú coimeádán docker é Workspaces chun rochtain bhrabhsálaí-bhunaithe a sholáthar ar dheasca, feidhmchláir agus seirbhísí gréasáin. Úsáideann Kasm Bonneagar Deisce Coimeádánaithe (CDI) atá cumasaithe ag devops chun coimeádáin docker indiúscartha ar éileamh a chruthú atá inrochtana trí bhrabhsálaí gréasáin. I measc na gcásanna úsáide samplacha tá Leithlisiú Brabhsálaí Cianda (RBI), Cosc ar Chaillteanas Sonraí (DLP), Deasc mar Sheirbhís (DaaS), Seirbhísí Rochtana Cianda Slán (RAS), agus bailiúcháin Faisnéise Foinse Oscailte (OSINT). Tá rindreáil na gcoimeádán grafach-bhunaithe faoi thiomáint ag an tionscadal foinse oscailte KasmVNC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkavita",
+      "title": "Kavita (LinuxServer.io)",
+      "tagline": "Freastalaí léitheoireachta tras-ardáin, tapa, saibhir ó thaobh gnéithe de. Tógtha le fócas ar réiteach iomlán a bheith ann do do chuid riachtanas léitheoireachta go léir. Socraigh do fhreastalaí féin agus roinn do bhailiúchán léitheoireachta le do chairde agus do theaghlach."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkdenlive",
+      "title": "Kdenlive (LinuxServer.io)",
+      "tagline": "Clár eagarthóireachta físe tras-ardáin cumhachtach saor in aisce agus foinse oscailte, déanta ag pobal KDE. Saibhir ghnéithe agus réidh le haghaidh léiriúcháin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
+      "title": "Keepassxc (LinuxServer.io)",
+      "tagline": "Bainisteoir pasfhocal foinse oscailte agus saor in aisce. Thosaigh sé mar fhorc pobail de KeePassX (port tras-ardáin de KeePass féin)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkicad",
+      "title": "Kicad (LinuxServer.io)",
+      "tagline": "Sraith Uathoibrithe Dearaidh Leictreonaice Tras-Ardán agus Foinse Oscailte."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkimai",
+      "title": "Kimai (LinuxServer.io)",
+      "tagline": "Feidhmchlár gairmiúil rianaithe ama, saor in aisce agus foinse oscailte. Láimhseálann sé cásanna úsáide saorálaithe chomh maith le cuideachtaí a bhfuil mórán nó na céadta úsáideoirí acu. Tógadh Kimai chun amanna do thionscadail a rianú agus tagann sé le go leor gnéithe ardleibhéil, lena n-áirítear, ach gan a bheith teoranta dóibh: API JSON, sonrascadh, easpórtálacha sonraí, mód il-amaire agus mód punch-in punch-out, clibeáil, ilúsáideoir - ilchriosanna ama - ilteangach (breis is 30 aistriúchán ann.), fíordheimhniú trí SAML/LDAP/Bunachar Sonraí, fíordheimhniú dhá fhachtóir (2FA) le TOTP, ceadanna róil agus foirne saincheaptha, dearadh sofhreagrach, rátaí sonracha úsáideora/custaiméara/tionscadail, cuardach & scagadh ardleibhéil, buiséid airgid agus ama, tuairisciú ardleibhéil, tacaíocht do bhreiseáin agus i bhfad níos mó."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkometa",
+      "title": "Kometa (LinuxServer.io)",
+      "tagline": "Uirlis chumhachtach atá deartha chun smacht iomlán a thabhairt duit ar do leabharlanna meán. Le Kometa, is féidir leat do shaincheapadh a thabhairt go dtí an chéad leibhéal eile, le rialú mionsonraithe ar mheiteashonraí, bailiúcháin, forleaganacha, agus i bhfad níos mó."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkrita",
+      "title": "Krita (LinuxServer.io)",
+      "tagline": "Clár péintéireachta gairmiúil SAOR IN AISCE agus foinse oscailte. Tá sé déanta ag ealaíontóirí ar mian leo uirlisí ealaíne inacmhainne a fheiceáil do gach duine."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
+      "title": "Lazylibrarian (LinuxServer.io)",
+      "tagline": "Clár chun údair a leanúint agus meiteashonraí a bhailiú do do chuid riachtanas léitheoireachta digiteach go léir. Úsáideann sé meascán de Goodreads Librarything agus GoogleBooks más mian leat mar fhoinsí d'fhaisnéis faoi údair agus faoi leabhair. Tá an coimeádán seo bunaithe ar fhorc DobyTang."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverldapauth",
+      "title": "Ldap auth (LinuxServer.io)",
+      "tagline": "Is chun úsáideoirí a fhíordheimhniú a iarrann acmhainní cosanta ó fhreastalaithe arna n-oibriú ag nginx atá an bogearra. Cuimsíonn sé daemon (ldap-auth) a chuireann cumarsáid le freastalaí fíordheimhnithe, agus daemon freastalaí gréasáin a ghineann fianán fíordheimhnithe bunaithe ar dhintiúir an úsáideora. Scríobhtar na daemon i Python lena n-úsáid le freastalaí fíordheimhnithe Lightweight Directory Access Protocol (LDAP) (OpenLDAP nó Microsoft Windows Active Directory 2003 agus 2012)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
+      "title": "Libreoffice (LinuxServer.io)",
+      "tagline": "Sraith oifige saor in aisce agus chumhachtach, agus comharba ar OpenOffice.org (ar a dtugtar OpenOffice go coitianta). Cuidíonn a chomhéadan glan agus a uirlisí saibhre le do chruthaitheacht a scaoileadh saor agus do tháirgiúlacht a fheabhsú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
+      "title": "Librespeed (LinuxServer.io)",
+      "tagline": "Tástáil Luas an-éadrom curtha i bhfeidhm i Javascript, ag baint úsáide as XMLHttpRequest agus Web Workers. Gan Flash, Gan Java, Gan Websocket, Gan Bhriathra."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
+      "title": "Librewolf (LinuxServer.io)",
+      "tagline": "Leagan saincheaptha agus neamhspleách de Firefox, leis na príomhchuspóirí príobháideachta, slándála agus saoirse úsáideora. Tá sé mar aidhm ag LibreWolf freisin an teileamaitríocht, bailiú sonraí agus crá croí go léir a bhaint, chomh maith le gnéithe frith-shaoirse cosúil le DRM a dhíchumasú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlidarr",
+      "title": "Lidarr (LinuxServer.io)",
+      "tagline": "Bainisteoir bailiúcháin ceoil d'úsáideoirí Usenet agus BitTorrent. Is féidir leis monatóireacht a dhéanamh ar roinnt fothaí RSS le haghaidh rianta nua ó d'ealaíontóirí is fearr leat agus déanfaidh sé iad a bhailiú, a shórtáil agus a athainmniú. Is féidir é a chumrú freisin chun cáilíocht na gcomhad atá íoslódáilte cheana féin a uasghrádú go huathoibríoch nuair a bhíonn formáid de chaighdeán níos fearr ar fáil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlimnoria",
+      "title": "Limnoria (LinuxServer.io)",
+      "tagline": "Bot IRC Python láidir, lán-ghnéitheach, agus furasta le húsáid/ríomhchlárú, le go leor breiseán atá ann cheana féin. Comharba an Supybot aitheanta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlmstudio",
+      "title": "Lm studio (LinuxServer.io)",
+      "tagline": "Is féidir samhlacha áitiúla AI ar nós gpt-oss, Llama, Gemma, Qwen, agus DeepSeek a rith go príobháideach ar do ríomhaire."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlollypop",
+      "title": "Lollypop (LinuxServer.io)",
+      "tagline": "Seinnteoir ceoil nua-aimseartha éadrom atá deartha chun oibriú go han-mhaith ar thimpeallacht deisce GNOME."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlsioapi",
+      "title": "Lsio api",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/lsio-api le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverluanti",
+      "title": "Luanti (LinuxServer.io)",
+      "tagline": "(Minetest roimhe seo) ardán cruthaithe cluichí voxel foinse oscailte le modhnú agus cruthú cluichí éasca"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlychee",
+      "title": "Lychee (LinuxServer.io)",
+      "tagline": "Uirlis bainistíochta grianghraf saor in aisce, a ritheann ar do fhreastalaí nó ar do spás gréasáin. Ní thógann sé ach cúpla soicind a shuiteáil. Uaslódáil, bainistigh agus roinn grianghraif amhail is dá mba rud é go ndéanfá é ó fheidhmchlár dúchasach. Tagann Lychee le gach rud a theastaíonn uait agus stóráiltear do ghrianghraif go slán."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermame",
+      "title": "Mame (LinuxServer.io)",
+      "tagline": "Aithriseoir saor in aisce agus foinse oscailte atá deartha chun crua-earraí cluichí stuara, consóil físchluichí, seanríomhairí agus córais eile a aithris i mbogearraí ar ríomhairí pearsanta nua-aimseartha."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermanyfold",
+      "title": "Manyfold (LinuxServer.io)",
+      "tagline": "Feidhmchlár gréasáin foinse oscailte, féinóstáilte chun bailiúchán de mhúnlaí 3T a bhainistiú, go háirithe dírithe ar phriontáil 3T."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermariadb",
+      "title": "Mariadb (LinuxServer.io)",
+      "tagline": "Ceann de na freastalaithe bunachar sonraí is mó tóir. Déanta ag forbróirí bunaidh MySQL."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermastodon",
+      "title": "Mastodon (LinuxServer.io)",
+      "tagline": "Freastalaí líonra sóisialta foinse oscailte saor in aisce bunaithe ar ActivityPub inar féidir le húsáideoirí cairde a leanúint agus cinn nua a aimsiú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermediaelch",
+      "title": "Mediaelch (LinuxServer.io)",
+      "tagline": "Bainisteoir Meán do Kodi. Stóráiltear faisnéis faoi Scannáin, Seónna Teilifíse, Ceolchoirmeacha agus Ceol mar chomhaid nfo. Íoslódáiltear lucht leanúna go huathoibríoch ó fanart.Tv. Ag baint úsáide as an ngineadóir nfo, is féidir MediaElch a úsáid le MediaCenters eile chomh maith."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermedusa",
+      "title": "Medusa (LinuxServer.io)",
+      "tagline": "Bainisteoir Leabharlann Físeáin uathoibríoch do Chláir Teilifíse. Bíonn sé ag faire amach d’eipeasóidí nua de do chláir is fearr leat, agus nuair a phostáiltear iad déanann sé a dhraíocht."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermelonds",
+      "title": "Melonds (LinuxServer.io)",
+      "tagline": "Tá sé mar aidhm aige aithris Nintendo DS tapa agus cruinn a sholáthar."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminetest",
+      "title": "Minetest",
+      "tagline": "Is cluiche bosca gainimh bloc beagnach gan teorainn agus inneall cluiche é (freastalaí), spreagtha ag InfiniMiner, Minecraft, agus a leithéidí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminisatip",
+      "title": "Minisatip (LinuxServer.io)",
+      "tagline": "Freastalaí satip il-shnáithithe leagan 1.2 a ritheann faoi Linux agus a tástáladh le cártaí DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC agus ISDB-T."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodmanager",
+      "title": "Modmanager (LinuxServer.io)",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/modmanager le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodrinth",
+      "title": "Modrinth (LinuxServer.io)",
+      "tagline": "Lainseálaí uathúil foinse oscailte a ligeann duit do mhodhanna is fearr leat a imirt, agus iad a choinneáil cothrom le dáta, i bpacáiste beag néata amháin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermonica",
+      "title": "Monica",
+      "tagline": "Córas bainistíochta caidrimh phearsanta foinse oscailte, a ligeann duit do shaol a dhoiciméadú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermsedge",
+      "title": "Msedge (LinuxServer.io)",
+      "tagline": "Brabhsálaí gréasáin tras-ardáin arna fhorbairt ag Microsoft agus atá bunaithe ar Chromium."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermstream",
+      "title": "Mstream (LinuxServer.io)",
+      "tagline": "Freastalaí sruthú ceoil pearsanta. Is féidir leat mStream a úsáid chun do cheol a shruthú ó do ríomhaire baile chuig aon fheiste, áit ar bith. Tá aipeanna soghluaiste ar fáil do Android agus iPhone araon."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
+      "title": "Mullvad browser (LinuxServer.io)",
+      "tagline": "Is brabhsálaí gréasáin atá dírithe ar phríobháideacht é Brabhsálaí Mullvad a forbraíodh i gcomhar idir Mullvad VPN agus Tionscadal Tor. Tá sé deartha chun rianú agus méarloirg a íoslaghdú. D’fhéadfá a rá gur Brabhsálaí Tor é le húsáid gan Líonra Tor. Ina áit sin, is féidir leat é a úsáid le VPN iontaofa."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermylar3",
+      "title": "Mylar3 (LinuxServer.io)",
+      "tagline": "Íoslódálaí uathoibrithe Leabhar Grinn (cbr/cbz) le húsáid le NZB agus torrentanna scríofa i python. Tacaíonn sé le SABnzbd, NZBGET, agus go leor cliant torrent chomh maith le DDL."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
+      "title": "Mysql workbench (LinuxServer.io)",
+      "tagline": "Uirlis amhairc aontaithe d'ailtirí bunachar sonraí, forbróirí, agus DBAnna. Soláthraíonn MySQL Workbench samhaltú sonraí, forbairt SQL, agus uirlisí riaracháin chuimsitheacha le haghaidh cumraíocht freastalaí, riarachán úsáideoirí, cúltaca, agus i bhfad níos mó."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernano",
+      "title": "Nano",
+      "tagline": "Prótacal íocaíochta digiteach atá deartha le bheith inrochtana agus éadrom, le fócas ar neamhéifeachtúlachtaí atá i láthair i gcripteairgeadraí eile a bhaint. Le hidirbhearta thar a bheith gasta agus gan aon táillí ar líonra slán, glas agus díláraithe, déanann sé seo Nano oiriúnach d'idirbhearta laethúla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernanowallet",
+      "title": "Nano wallet",
+      "tagline": "Prótacal íocaíochta digiteach atá deartha le bheith inrochtana agus éadrom, le fócas ar neamhéifeachtúlachtaí atá i láthair i gcripteairgeadraí eile a bhaint. Le hidirbhearta thar a bheith gasta agus gan aon táillí ar líonra slán, glas agus díláraithe, déanann sé seo Nano oiriúnach d'idirbhearta laethúla. Is fillteán nginx simplí é an coimeádán seo don sparán éadrom atá suite anseo. Beidh ort óstach RPC bailí a rith agus tú ag rochtain an choimeádáin seo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
+      "title": "Netbootxyz",
+      "tagline": "Bealach chun suiteálaithe nó fóntais éagsúla córas oibriúcháin a thosú le PXE ó áit amháin laistigh den BIOS gan an gá na meáin a aisghabháil chun an uirlis a rith. Úsáidtear IPXE chun roghchlár atá furasta le húsáid a sholáthar laistigh den BIOS a ligeann duit an córas oibriúcháin is mian leat a roghnú go héasca mar aon le haon chineálacha sonracha leaganacha nó bratacha tosaithe."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbox",
+      "title": "Netbox (LinuxServer.io)",
+      "tagline": "Uirlis bainistíochta seoltaí IP (IPAM) agus bainistíochta bonneagair ionad sonraí (DCIM). Ceapadh NetBox ar dtús ag an bhfoireann innealtóireachta líonra ag DigitalOcean, agus forbraíodh é go sonrach chun freastal ar riachtanais innealtóirí líonra agus bonneagair. Tá sé beartaithe feidhmiú mar fhoinse fírinne fearainn-shonrach d'oibríochtaí líonra."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernextcloud",
+      "title": "Nextcloud (LinuxServer.io)",
+      "tagline": "Tugann sé rochtain duit ar do chuid comhad go léir cibé áit a bhfuil tú. Cá bhfuil do ghrianghraif agus do dhoiciméid. Le Nextcloud roghnaíonn tú freastalaí de do rogha féin, sa bhaile, in ionad sonraí nó ag soláthraí. Agus sin an áit a mbeidh do chuid comhad. Ritheann Nextcloud ar an bhfreastalaí sin, ag cosaint do shonraí agus ag tabhairt rochtana duit ó do dheasc nó ó do ghléasanna soghluaiste. Trí Nextcloud is féidir leat rochtain a fháil ar do shonraí atá ann cheana féin ar an tiomántán FTP sin san oifig, ar Dropbox nó ar NAS atá agat sa bhaile, iad a shioncronú agus a roinnt freisin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernginx",
+      "title": "Nginx (LinuxServer.io)",
+      "tagline": "Freastalaí gréasáin HTTP, seachfhreastalaí droim ar ais, taisce ábhair, cothromóir ualaigh, seachfhreastalaí TCP/UDP, agus seachfhreastalaí ríomhphoist."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverngircd",
+      "title": "Ngircd (LinuxServer.io)",
+      "tagline": "Freastalaí Idirlín Athsheolta Comhrá saor in aisce, iniompartha agus éadrom do líonraí beaga nó príobháideacha, forbartha faoin gCeadúnas Poiblí Ginearálta GNU (GPL). Tá sé éasca a chumrú, is féidir leis déileáil le seoltaí IP dinimiciúla, agus tacaíonn sé le IPv6, naisc atá faoi chosaint SSL chomh maith le PAM le haghaidh fíordheimhnithe. Scríobhadh é ón tús agus níl sé bunaithe ar an IRCd bunaidh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+      "title": "Nntp2nntp",
+      "tagline": "Ligeann seachfhreastalaí duit do Chuntas NNTP a úsáid ó ilchórais, agus ainm úsáideora agus pasfhocal féin ag gach ceann acu. Tacaíonn sé go hiomlán le SSL agus is féidir leat rochtain ar sheachfhreastalaí a theorannú freisin le teastais SSL. Tá seachfhreastalaí Nntp2nntp an-simplí agus sách gasta. ## Rabhadh Cé nach bhfuil a fhios againn faoi aon saincheisteanna slándála nntp2nntp, níor athraíodh aon chód uas-srutha an tionscadail seo ó 06.08.15 agus is dócha go tréigtear go buan é. Ar an gcúis seo, molaimid go láidir duit gan an feidhmchlár seo a dhéanamh os comhair an phobail agus, más gá duit é sin a dhéanamh, ba cheart sraitheanna eile slándála agus SSL a mheas mar an riachtanas íosta. Feicimid an seachfhreastalaí seo á úsáid go príomha ar LAN ionas gur féidir le gach feidhmchlár NNTP d'úsáideoirí sraith choiteann dintiúir inmheánacha a roinnt rud a ligeann do bhainistiú lárnach an chuntais uas-srutha m.sh. Athraigh teorainneacha soláthraí, freastalaí, snáithe do gach feidhmchlár le hathrú cumraíochta domhanda amháin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbget",
+      "title": "Nzbget (LinuxServer.io)",
+      "tagline": "Íoslódálaí usenet, scríofa i C++ agus deartha le feidhmíocht san áireamh chun uasluas íoslódála a bhaint amach trí úsáid a bhaint as an-bheag acmhainní córais."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
+      "title": "Nzbhydra2 (LinuxServer.io)",
+      "tagline": "Feidhmchlár meitea-chuardaigh do innéacsóirí NZB, comharba spioradálta NZBmegasearcH, agus éabhlóid ar an bhfeidhmchlár bunaidh NZBHydra. Soláthraíonn sé rochtain éasca ar roinnt innéacsóirí amha agus bunaithe ar newznab."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverobsidian",
+      "title": "Obsidian (LinuxServer.io)",
+      "tagline": "Aip nótaí a ligeann duit do nótaí a chruthú, a nascadh agus a eagrú ar do ghléas, le na céadta breiseán agus téama chun do shreabhadh oibre a shaincheapadh. Is féidir leat do nótaí a fhoilsiú ar líne freisin, rochtain a fháil orthu as líne, agus iad a shioncronú go slán le criptiú ó cheann ceann go ceann."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverombi",
+      "title": "Ombi (LinuxServer.io)",
+      "tagline": "Ligeann sé duit do chóras bainistíochta úsáideoirí agus Iarratas Plex féin a óstáil. Má tá tú ag roinnt do fhreastalaí Plex le húsáideoirí eile, lig dóibh ábhar nua a iarraidh trí chomhéadan atá éasca le bainistiú. Bainistigh do chuid iarratais go léir ar Scannáin agus Teilifís go héasca, fág nótaí don úsáideoir agus faigh fógra nuair a iarrann úsáideoir rud éigin. Lig do d’úsáideoirí saincheisteanna a phostáil i gcoinne a n-iarratais ionas go mbeidh a fhios agat go bhfuil fadhb leis an bhfuaim srl. Seol nuachtlitreacha seachtainiúla chucu go huathoibríoch fiú d’ábhar nua atá curtha le do fhreastalaí Plex."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
+      "title": "Onlyoffice (LinuxServer.io)",
+      "tagline": "Cuireann sé réimse iomlán uirlisí ar fáil chun doiciméid téacs, scarbhileoga, cur i láthair, foirmeacha PDF agus comhaid PDF rialta a chruthú, a chur in eagar agus comhoibriú orthu ar ardáin ghréasáin, deisce agus soghluaiste."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenshot",
+      "title": "Openshot (LinuxServer.io)",
+      "tagline": "Is eagarthóir físe foinse oscailte saor in aisce é Video Editor atá duaiseach agus atá dírithe ar Linux, Mac, agus Windows, agus tá sé tiomanta do réitigh ardchaighdeáin eagarthóireachta físe agus beochana a sheachadadh don domhan."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+      "title": "Openssh server (LinuxServer.io)",
+      "tagline": "Timpeallacht bosca gainimh a cheadaíonn rochtain ssh gan eochracha a thabhairt don fhreastalaí ar fad. Is minic a chiallaíonn rochtain ssh a thabhairt trí eochair phríobháideach rochtain iomlán a thabhairt ar an bhfreastalaí. Cruthaíonn an coimeádán seo timpeallacht theoranta bosca gainimh ar féidir le daoine eile ssh a chur isteach inti. Níl rochtain ag na húsáideoirí ach ar na fillteáin atá mapáilte agus na próisis atá ag rith taobh istigh den choimeádán seo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
+      "title": "Openvscode server",
+      "tagline": "Soláthraíonn sé leagan de VS Code a ritheann freastalaí ar mheaisín iargúlta agus a cheadaíonn rochtain trí bhrabhsálaí gréasáin nua-aimseartha."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropera",
+      "title": "Opera (LinuxServer.io)",
+      "tagline": "Brabhsálaí gréasáin il-ardáin arna fhorbairt ag a chomhlacht comhainmneach Opera. Tá an brabhsálaí bunaithe ar Chromium, ach déanann sé idirdhealú idir é féin agus brabhsálaithe eile bunaithe ar Chromium (Chrome, Edge, srl.) trína chomhéadan úsáideora agus gnéithe eile."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
+      "title": "Orcaslicer (LinuxServer.io)",
+      "tagline": "Sliseoir foinse oscailte do phrintéirí FDM. Is forc de chuid Bambu Studio é OrcaSlicer, ar a dtugtaí BambuStudio-SoftFever roimhe seo, is forc de chuid PrusaSlicer le Prusa Research é Bambu Studio, atá ó Slic3r le Alessandro Ranellucci agus pobal RepRap."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroscam",
+      "title": "Oscam (LinuxServer.io)",
+      "tagline": "Bogearraí Modúl Rochtana Coinníollach Foinse Oscailte a úsáidtear chun tarchuir DVB a dhí-scrambláil ag baint úsáide as cártaí cliste. Is freastalaí agus cliant araon é."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroverseerr",
+      "title": "Overseerr",
+      "tagline": "Uirlis bainistíochta iarratas agus fionnachtana meán atá deartha chun oibriú le d'éiceachóras Plex atá ann cheana féin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpairdrop",
+      "title": "Pairdrop (LinuxServer.io)",
+      "tagline": "Rogha eile den scoth seachas AirDrop a oibríonn ar gach ardán. Seol íomhánna, doiciméid nó téacs trí nasc piara go piara chuig gléasanna sa líonra áitiúil/Wi-Fi céanna nó chuig gléasanna péireáilte."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpcsx2",
+      "title": "Pcsx2 (LinuxServer.io)",
+      "tagline": "Aithriseoir PS2 foinse oscailte."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpelorus",
+      "title": "Pelorus (LinuxServer.io)",
+      "tagline": "Loingseoir AI do dheasca Linux faoi thiomáint ag Selkies. Ritheann Pelorus freastalaí FastAPI a thugann smacht do ghníomhaire LLM (Ollama, comhoiriúnach le OpenAI, nó Gemini) ar luch, méarchlár, scáileáin, agus bainistíocht fuinneog tríd an gcúlra úsáide ríomhaire Pixelflux, crann inrochtaineachta Linux (AT-SPI), agus comhtháthú roghnach KWin D-Bus."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
+      "title": "Phpmyadmin (LinuxServer.io)",
+      "tagline": "Uirlis bhogearraí saor in aisce scríofa i PHP, atá ceaptha chun riarachán MySQL a láimhseáil ar an nGréasán. Tacaíonn PhpMyAdmin le raon leathan oibríochtaí ar MySQL agus MariaDB."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpidgin",
+      "title": "Pidgin (LinuxServer.io)",
+      "tagline": "Clár comhrá a ligeann duit logáil isteach i gcuntais ar il-líonraí comhrá ag an am céanna. Ciallaíonn sé seo gur féidir leat a bheith ag comhrá le cairde ar XMPP agus i do shuí i gcainéal IRC ag an am céanna."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiper",
+      "title": "Piper (LinuxServer.io)",
+      "tagline": "Córas téacs-go-hurlabhra néarach áitiúil tapa a bhfuil fuaim iontach air agus atá optamaithe don Raspberry Pi 4. Soláthraíonn an coimeádán seo freastalaí prótacail Wyoming do Piper."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiwigo",
+      "title": "Piwigo (LinuxServer.io)",
+      "tagline": "Bogearraí gailearaí grianghraf don ghréasán a bhfuil gnéithe cumhachtacha ann chun do bhailiúchán pictiúr a fhoilsiú agus a bhainistiú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplanka",
+      "title": "Planka (LinuxServer.io)",
+      "tagline": "Uirlis rianaithe tionscadail foinse oscailte galánta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplex",
+      "title": "Plex (LinuxServer.io)",
+      "tagline": "Eagraíonn sé físeáin, ceol agus grianghraif ó leabharlanna meán pearsanta agus sruthlaíonn sé iad chuig teilifíseáin chliste, boscaí sruthú agus gléasanna soghluaiste. Tá an coimeádán seo pacáistithe mar Fhreastalaí Meán Plex neamhspleách. Ciallaíonn dearadh simplí agus gníomhartha mórchóir go ndéantar rudaí níos tapúla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplexmetamanager",
+      "title": "Plex meta-manager",
+      "tagline": "Script Python 3 is féidir a rith go leanúnach ag baint úsáide as comhaid chumraíochta YAML chun meiteashonraí na scannán, na seónna agus na mbailiúchán i do leabharlanna a nuashonrú de réir sceidil chomh maith le bailiúcháin a thógáil go huathoibríoch bunaithe ar mhodhanna éagsúla atá mionsonraithe go léir sa vicí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverppsspp",
+      "title": "Ppsspp (LinuxServer.io)",
+      "tagline": "Aithriseoir PSP saor in aisce agus foinse oscailte do Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series agus Symbian le fócas ar luas agus iniomparthacht."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprojectsend",
+      "title": "Projectsend (LinuxServer.io)",
+      "tagline": "Feidhmchlár féinóstáilte a ligeann duit comhaid a uaslódáil agus iad a shannadh do chliaint shonracha a chruthaíonn tú féin. Slán, príobháideach agus éasca. Ní gá a bheith ag brath ar sheirbhísí seachtracha ná ar ríomhphost a thuilleadh chun na comhaid sin a sheoladh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprowlarr",
+      "title": "Prowlarr (LinuxServer.io)",
+      "tagline": "Bainisteoir/seachfhreastalaí innéacsóra atá tógtha ar an gcruach bonn coitianta arr. Net/reactjs chun comhtháthú le do chuid aipeanna PVR éagsúla. Tacaíonn Prowlarr le Rianaitheoirí Torrent agus Innéacsóirí Usenet araon. Comhtháthaíonn sé go gan uaim le Sonarr, Radarr, Lidarr, agus Readarr ag tairiscint bainistíocht iomlán ar d'innéacsóirí gan aon ghá le socrú Innéacsóra in aghaidh an aip (déanaimid gach rud)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpwndrop",
+      "title": "Pwndrop (LinuxServer.io)",
+      "tagline": "Seirbhís óstála comhad féin-imscartha chun ualaí foirne dearga a sheoladh amach nó do chuid comhad príobháideacha a roinnt go slán thar HTTP agus WebDAV."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpycharm",
+      "title": "Pycharm (LinuxServer.io)",
+      "tagline": "Cuireann sé tacaíocht réamhdhéanta ar fáil do Python, bunachair shonraí, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, agus tuilleadh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpydiocells",
+      "title": "Pydio cells (LinuxServer.io)",
+      "tagline": "An t-ardán comhroinnte comhad den chéad ghlúin eile d'eagraíochtaí. Is athscríobh iomlán é ar thionscadal Pydio ag baint úsáide as an teanga Go de réir ailtireacht micrisheirbhíse."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpyloadng",
+      "title": "Pyload ng (LinuxServer.io)",
+      "tagline": "Bainisteoir íoslódála Saor in Aisce agus Foinse Oscailte atá scríofa i Python agus deartha le bheith thar a bheith éadrom, furasta a leathnú agus go hiomlán inbhainistithe tríd an ngréasán."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpylon",
+      "title": "Pylon",
+      "tagline": "Timpeallacht forbartha comhtháite gréasánbhunaithe atá tógtha le Node. Js mar chúltaca agus le tosaigh JavaScript/HTML5 sárchumhachtaithe, ceadúnaithe faoi GPL leagan 3. Eascraíonn an tionscadal seo ó thionscadal Cloud9 v2."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpython",
+      "title": "Python",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/python le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
+      "title": "Qbittorrent (LinuxServer.io)",
+      "tagline": "Is cliant bittorrent é an Qbittorrent atá cláraithe i C++ / Qt a úsáideann libtorrent (ar a dtugtar libtorrent-rasterbar uaireanta) le Arvid Norberg."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqdirstat",
+      "title": "Qdirstat (LinuxServer.io)",
+      "tagline": "Staitisticí eolaire bunaithe ar Qt: KDirStat gan aon KDE -- ó údar an bhunleagan de KDirStat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqemustatic",
+      "title": "Qemu static (LinuxServer.io)",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/qemu-static le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+      "title": "Quassel core",
+      "tagline": "Cliant IRC nua-aimseartha, tras-ardáin, dáilte, rud a chiallaíonn gur féidir le cliant amháin (nó ilchliant) ceangal le croí lárnach agus dícheangal uaidh. Láimhseálann an coimeádán seo an nasc IRC (quasselcore) agus teastaíonn cliant deisce (quasselclient) le húsáid agus le cumrú. Tá sé deartha le bheith ar siúl i gcónaí agus coinneoidh sé do chéannacht i láthair in IRC fiú nuair nach féidir le do chliaint a bheith ar líne. Íoslódálann do chliant an cúlchiste (stair) nuair a athnasctar é, rud a ligeann do scrolláil siar gan teorainn tríd an am."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselweb",
+      "title": "Quassel web",
+      "tagline": "Cliant gréasáin do Quassel. Tabhair faoi deara go bhfuil sampla Quassel-Core ag teastáil, tá coimeádán againn ar fáil anseo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverradarr",
+      "title": "Radarr (LinuxServer.io)",
+      "tagline": "Forc de Sonarr chun oibriú le scannáin cosúil le Couchpotato."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverraneto",
+      "title": "Raneto (LinuxServer.io)",
+      "tagline": "Is ardán Bunachar Eolais foinse oscailte é a úsáideann comhaid statach Markdown chun cumhacht a thabhairt do do Bhunachar Eolais."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
+      "title": "Rawtherapee (LinuxServer.io)",
+      "tagline": "Clár próiseála íomhá amh tras-ardáin saor in aisce."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrdesktop",
+      "title": "Rdesktop",
+      "tagline": "Coimeádáin ina bhfuil timpeallachtaí deisce iomlána i mórán blasanna coitianta do Alpine, Ubuntu, Arch, agus Fedora atá inrochtana trí RDP."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverreadmesync",
+      "title": "Readme sync",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/readme-sync le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverremmina",
+      "title": "Remmina (LinuxServer.io)",
+      "tagline": "Cliant deisce cianda scríofa i GTK, a bhfuil sé mar aidhm aige a bheith úsáideach do riarthóirí córais agus do thaistealaithe, a gcaithfidh oibriú le go leor ríomhairí cianda os comhair scáileáin mhóra nó bheaga. Tacaíonn Remmina le prótacail líonra iolracha, i gcomhéadan úsáideora comhtháite agus comhsheasmhach. Faoi láthair, tacaítear le RDP, VNC, SPICE, SSH agus EXEC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrequestrr",
+      "title": "Requestrr",
+      "tagline": "Comhrábot a úsáidtear chun úsáid seirbhísí cosúil le Sonarr/Radarr/Ombi a shimpliú trí úsáid comhrá."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+      "title": "Resilio sync (LinuxServer.io)",
+      "tagline": "(BitTorrent Sync roimhe seo) úsáideann sé an prótacal BitTorrent chun comhaid agus fillteáin a shioncronú idir do ghléasanna go léir. Tá leaganacha saor in aisce agus íoctha ann, agus tacaíonn an coimeádán seo leis an dá cheann. Tá íomhá sioncrónaithe oifigiúil ann ach chruthaíomar an ceann seo mar go dtacaíonn sé le mapáil úsáideoirí chun ceadanna do na toirteanna a shimpliú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverretroarch",
+      "title": "Retroarch (LinuxServer.io)",
+      "tagline": "Comhéadan do aithriseoirí, innill cluichí agus seinnteoirí meán. Cuireann sé ar do chumas cluichí clasaiceacha a rith ar raon leathan ríomhairí agus consól trína chomhéadan grafach snasta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrpcs3",
+      "title": "Rpcs3 (LinuxServer.io)",
+      "tagline": "Aithriseoir agus dífhabhtóir il-ardáin foinse oscailte Sony PlayStation 3 scríofa i C++ do Windows, Linux, macOS agus FreeBSD."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+      "title": "Rsnapshot (LinuxServer.io)",
+      "tagline": "Fóntais snapshot córais comhad bunaithe ar rsync. Le rsnapshot, is furasta snapshots tréimhsiúla a dhéanamh de mheaisíní áitiúla agus de mheaisíní iargúlta thar ssh. Baineann an cód úsáid fhorleathan as naisc chrua aon uair is féidir, chun an spás diosca atá ag teastáil a laghdú go mór."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrustdesk",
+      "title": "Rustdesk (LinuxServer.io)",
+      "tagline": "Rogha eile rialaithe iargúlta foinse oscailte lánghnéitheach le haghaidh féinóstála agus slándála le cumraíocht íosta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversabnzbd",
+      "title": "Sabnzbd (LinuxServer.io)",
+      "tagline": "Déanann sé Usenet chomh simplí agus chomh sruthlínithe agus is féidir trí gach rud is féidir linn a uathoibriú. Níl le déanamh agat ach .Nzb a chur leis. Glacann SABnzbd seilbh as sin, áit a ndéanfar é a íoslódáil, a fhíorú, a dheisiú, a bhaint amach agus a chomhdú go huathoibríoch gan aon idirghníomhaíocht dhaonna."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverscummvm",
+      "title": "Scummvm (LinuxServer.io)",
+      "tagline": "Clár a ligeann duit cluichí eachtraíochta grafacha clasaiceacha agus rólghlacadh áirithe a rith, ar choinníoll go bhfuil a gcomhaid sonraí agat cheana féin. An chuid chliste faoi seo: ní dhéanann ScummVM ach na comhaid inrite a sheoltar leis na cluichí a athsholáthar, rud a ligeann duit iad a imirt ar chórais nár dearadh iad dóibh riamh. Is athscríobh iomlán é ScummVM ar chomhaid inrite na gcluichí seo agus ní aithriseoir é."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversealskin",
+      "title": "Sealskin (LinuxServer.io)",
+      "tagline": "Ardán féinóstáilte, cliant-freastalaí a chuireann ar chumas úsáideoirí feidhmchláir dheasca coimeádánaithe chumhachtacha a rith a shruthlaítear go díreach chuig brabhsálaí gréasáin. Úsáideann sé síneadh brabhsálaí chun gníomhartha úsáideoirí a thascradh—amhail cliceáil ar nasc nó comhad a íoslódáil—agus atreoraíonn sé iad chuig timpeallacht feidhmchláir slán, scoite atá ag rith ar fhreastalaí iargúlta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
+      "title": "Series troxide",
+      "tagline": "Rianaitheoir Sraith Simplí agus Nua-Aimseartha"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershadps4",
+      "title": "Shadps4 (LinuxServer.io)",
+      "tagline": "Aithriseoir luath PlayStation 4 do Windows, Linux agus macOS scríofa i C++."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershotcut",
+      "title": "Shotcut (LinuxServer.io)",
+      "tagline": "Eagarthóir físe tras-ardáin, foinse oscailte, saor in aisce."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickchill",
+      "title": "Sickchill",
+      "tagline": "Bainisteoir Uathoibríoch Leabharlann Físeáin do Chláir Teilifíse. Bíonn sé ag faire amach d’eipeasóidí nua de do chláir is fearr leat, agus nuair a phostáiltear iad déanann sé a dhraíocht."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickgear",
+      "title": "Sickgear (LinuxServer.io)",
+      "tagline": "Cuireann sé bainistíocht ar fáil ar chláir teilifíse agus/nó Anime, braitheann sé eipeasóidí nua, nascann sé aipeanna íoslódála, agus tuilleadh. Chun tuilleadh eolais a fháil faoi SickGear, tabhair cuairt ar a suíomh Gréasáin agus féach air: https://github.com/SickGear/SickGear"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversignal",
+      "title": "Signal (LinuxServer.io)",
+      "tagline": "Aip teachtaireachtaí a bhfuil príobháideacht mar chroílár aici. Tá sí saor in aisce agus éasca le húsáid, le criptiú láidir ó cheann ceann a choinníonn do chumarsáid go hiomlán príobháideach."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversmokeping",
+      "title": "Smokeping (LinuxServer.io)",
+      "tagline": "Coinníonn sé súil ar mhoill do líonra. Chun sampla iomlán a fháil de na rudaí atá an feidhmchlár seo in ann a dhéanamh, tabhair cuairt ar UCDavis."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnapdrop",
+      "title": "Snapdrop",
+      "tagline": "Comhroinnt comhad áitiúil i do bhrabhsálaí. Spreagtha ag Airdrop Apple."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnipeit",
+      "title": "Snipe it",
+      "tagline": "Déanann sé bainistíocht sócmhainní éasca. Tógadh é ag daoine a bhí ag réiteach fadhbanna TF agus bainistíochta sócmhainní sa saol réadúil, agus bhí UX soladach ina thosaíocht i gcónaí. Ciallaíonn dearadh simplí agus gníomhartha mórchóir go ndéantar rudaí níos tapúla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversocketproxy",
+      "title": "Socket proxy (LinuxServer.io)",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/socket-proxy le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversonarr",
+      "title": "Sonarr (LinuxServer.io)",
+      "tagline": "(NZBdrone roimhe seo) is PVR é d'úsáideoirí usenet agus bittorrent. Is féidir leis monatóireacht a dhéanamh ar ilfhothaí RSS le haghaidh eipeasóidí nua de do chláir is fearr leat agus déanfaidh sé iad a ghabháil, a shórtáil agus a athainmniú. Is féidir é a chumrú freisin chun cáilíocht na gcomhad atá íoslódáilte cheana féin a uasghrádú go huathoibríoch nuair a bhíonn formáid de chaighdeán níos fearr ar fáil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
+      "title": "Speedtest tracker (LinuxServer.io)",
+      "tagline": "Feidhmchlár féinóstáilte rianaithe feidhmíochta idirlín a ritheann seiceálacha tástála luais i gcoinne sheirbhís Speedtest Ookla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspotube",
+      "title": "Spotube (LinuxServer.io)",
+      "tagline": "Cliant Spotify foinse oscailte, tras-ardáin atá comhoiriúnach le hardáin éagsúla ag baint úsáide as API sonraí Spotify agus YouTube, Piped. Video nó JioSaavn mar fhoinse fuaime, rud a chuireann deireadh leis an ngá atá le Spotify Premium."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
+      "title": "Sqlitebrowser (LinuxServer.io)",
+      "tagline": "Uirlis foinse oscailte amhairc ardchaighdeáin chun comhaid bunachar sonraí atá comhoiriúnach le SQLite a chruthú, a dhearadh agus a chur in eagar."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteam",
+      "title": "Steam (LinuxServer.io)",
+      "tagline": "An ceann scríbe deiridh le haghaidh imirt, plé agus cruthú cluichí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteamos",
+      "title": "Steamos",
+      "tagline": "Dáileadh Linux bunaithe ar Arch arna dhéanamh ag Valve Software. Is suiteáil vanilla Arch é an coimeádán seo le stórtha Steam curtha leis chun tacú le bogearraí. Ní oibreoidh an coimeádán seo ach le GPUanna nua-aimseartha AMD/Intel ar Óstach Linux fíor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverswag",
+      "title": "Swag (LinuxServer.io)",
+      "tagline": "Bunaíonn SWAG - Secure Web Application Gateway (ar a dtugtaí letsencrypt roimhe seo, gan aon ghaol le Let's Encrypt™) freastalaí gréasáin Nginx agus seachfhreastalaí droim ar ais le tacaíocht php agus cliant certbot ionsuite a uathoibríonn próisis giniúna agus athnuachana teastais freastalaí SSL saor in aisce (Let's Encrypt agus ZeroSSL). Tá fail2ban ann freisin chun ionraidh a chosc."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversynclounge",
+      "title": "Synclounge (LinuxServer.io)",
+      "tagline": "Uirlis tríú páirtí a ligeann duit féachaint ar Plex i sioncrón le do chairde/teaghlach, cibé áit a bhfuil tú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyncthing",
+      "title": "Syncthing (LinuxServer.io)",
+      "tagline": "Cuireann sé rud éigin oscailte, iontaofa agus díláraithe in ionad sioncrónaithe dílseánaigh agus seirbhísí scamall. Is iad do shonraí féin do shonraí féin agus is tusa atá freagrach as a roghnú cá háit a stóráiltear iad, an roinnfear iad le tríú páirtí agus conas a tharchuirfear iad thar an Idirlíon."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyslogng",
+      "title": "Syslog ng (LinuxServer.io)",
+      "tagline": "Ligeann sé duit logaí a bhailiú, a pharsáil, a aicmiú, a athscríobh agus a chomhghaolú go solúbtha ó do bhonneagar agus iad a stóráil nó a threorú chuig uirlisí anailíse logaí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertautulli",
+      "title": "Tautulli (LinuxServer.io)",
+      "tagline": "Feidhmchlár gréasáin bunaithe ar Python le haghaidh monatóireachta, anailísíochta agus fógraí do Plex Media Server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertelegram",
+      "title": "Telegram (LinuxServer.io)",
+      "tagline": "Aip teachtaireachtaí soghluaiste agus deisce atá bunaithe ar an scamall."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertester",
+      "title": "Tester",
+      "tagline": "Úsáidtear an uirlis inmheánach seo mar bhosca gainimh deisce inár bpróiseas CI chun scáileán a thógáil de chríochphointe feidhmiúil, tá súil againn."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthelounge",
+      "title": "Thelounge (LinuxServer.io)",
+      "tagline": "(forc de shoutIRC) is cliant gréasáin IRC é a óstálann tú ar do fhreastalaí féin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthunderbird",
+      "title": "Thunderbird (LinuxServer.io)",
+      "tagline": "Bainisteoir faisnéise pearsanta foinse oscailte agus saor in aisce a úsáidtear go príomha mar chliant ríomhphoist le féilire agus leabhar teagmhála, chomh maith le léitheoir beatha RSS, cliant comhrá, agus cliant nuachta."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertransmission",
+      "title": "Transmission (LinuxServer.io)",
+      "tagline": "Deartha le haghaidh úsáide éasca, cumhachtaí. Tá na gnéithe atá uait ó chliant BitTorrent ag Tarchur: criptiú, comhéadan gréasáin, malartú piaraí, naisc mhaighnéadacha, DHT, µTP, UPnP agus atreorú calafoirt NAT-PMP, tacaíocht síol gréasáin, eolairí faire, eagarthóireacht rianaithe, teorainneacha luais domhanda agus in aghaidh an torrent, agus tuilleadh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertvheadend",
+      "title": "Tvheadend (LinuxServer.io)",
+      "tagline": "Oibríonn sé mar fhreastalaí seachfhreastalaí: is freastalaí sruthú teilifíse agus taifeadán é do Linux, FreeBSD agus Android a thacaíonn le DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP agus HDHomeRun mar fhoinsí ionchuir. Cuireann Tvheadend sruthú HTTP (VLC, MPlayer), HTSP (Kodi, Movian) agus SAT>IP ar fáil. Tacaítear le foinsí EPG iolracha (DVB agus ATSC thar an aer lena n-áirítear síntí OpenTV DVB, XMLTV, PyXML)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverubooquity",
+      "title": "Ubooquity (LinuxServer.io)",
+      "tagline": "Freastalaí baile saor in aisce, éadrom agus éasca le húsáid do do ghreannáin agus do ríomhleabhair. Bain úsáid as chun rochtain a fháil ar do chuid comhad ó áit ar bith, le táibléad, léitheoir ríomhleabhair, fón nó ríomhaire."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
+      "title": "Ungoogled chromium (LinuxServer.io)",
+      "tagline": "Google Chromium, gan spleáchas ar sheirbhísí gréasáin Google."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunificontroller",
+      "title": "Unifi controller",
+      "tagline": "Is inneall bogearraí gan sreang cumhachtach fiontraíochta é bogearraí Unifi-controller atá oiriúnach d’imscaradh cliant ard-dlúis a éilíonn latency íseal agus feidhmíocht ard-ama ar líne."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
+      "title": "Unifi network-application (LinuxServer.io)",
+      "tagline": "Is inneall bogearraí gan sreang cumhachtach fiontraíochta é bogearraí feidhmchláir Unifi-network-application atá oiriúnach d'imscaradh cliant ard-dlúis a éilíonn latency íseal agus feidhmíocht ard-ama ar líne."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunrar",
+      "title": "Unrar",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/unrar le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervivaldi",
+      "title": "Vivaldi (LinuxServer.io)",
+      "tagline": "Brabhsálaí gréasáin tras-ardáin saor in aisce Ioruach le cliant ríomhphoist ionsuite arna fhorbairt ag Vivaldi Technologies."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervlc",
+      "title": "Vlc (LinuxServer.io)",
+      "tagline": "Seinnteoir agus creat ilmheán tras-ardáin saor in aisce agus foinse oscailte a sholáthraíonn feidhmíocht iontaofa ar fud ilghléasanna."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscode",
+      "title": "Vscode (LinuxServer.io)",
+      "tagline": "Timpeallacht forbartha chomhtháite arna forbairt ag Microsoft. Ritheann an coimeádán seo an feidhmchlár deisce iomlán, féach Freastalaí Cód le haghaidh leagan dúchasach gréasáin."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodium",
+      "title": "Vscodium (LinuxServer.io)",
+      "tagline": "Dáileadh dénártha faoi stiúir an phobail, ceadúnaithe go saor, d'eagarthóir VS Code Microsoft."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
+      "title": "Vscodium web (LinuxServer.io)",
+      "tagline": "Dáileadh dénártha faoi stiúir an phobail, ceadúnaithe go saor, de chomhpháirt ghréasáin óstach cianda eagarthóir VS Code Microsoft."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebcord",
+      "title": "Webcord (LinuxServer.io)",
+      "tagline": "Is féidir achoimre a dhéanamh air mar phacáiste cruaite slándála agus príobháideachta, tá ath-chur i bhfeidhm, réitigh sheachbhóthair ar fhabhtanna Electron / Chromium / Discord, bileoga stíle, leathanaigh inmheánacha agus leathanach fillte https://discord.com, atá deartha chun cloí le Téarmaí Seirbhíse a oiread agus is féidir (nó na hathruithe a d'fhéadfadh a bheith ina sárú a cheilt ó shúile Discord)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
+      "title": "Webgrabplus (LinuxServer.io)",
+      "tagline": "Greamaire epg xmltv incriminteach ilshuíomh. Bailíonn sé sonraí treoirchlár teilifíse ó shuíomhanna treoirchlár teilifíse roghnaithe do do chainéil is fearr leat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebstation",
+      "title": "Webstation (LinuxServer.io)",
+      "tagline": "Deasc LXQt dírithe ar aithris dúchasach gréasáin atá bunaithe ar Ubuntu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebtop",
+      "title": "Webtop (LinuxServer.io)",
+      "tagline": "Coimeádáin bunaithe ar Alpine, Ubuntu, Fedora, agus Arch ina bhfuil timpeallachtaí deisce iomlána i mblasanna a dtacaítear leo go hoifigiúil agus atá inrochtana trí aon bhrabhsálaí gréasáin nua-aimseartha."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverweixin",
+      "title": "Weixin (LinuxServer.io)",
+      "tagline": "Is aip teachtaireachtaí meandaracha, meán sóisialta agus íocaíochta soghluaiste í (WeChat) arna forbairt ag Tencent."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwikijs",
+      "title": "Wikijs (LinuxServer.io)",
+      "tagline": "Aip vicí nua-aimseartha, éadrom agus chumhachtach atá tógtha ar NodeJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwinegui",
+      "title": "Winegui (LinuxServer.io)",
+      "tagline": "Bainisteoir Fíona atá furasta le húsáid agus a sholáthraíonn comhéadan grafach chun buidéil Fíona a chruthú agus a bhainistiú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireguard",
+      "title": "Wireguard (LinuxServer.io)",
+      "tagline": "VPN thar a bheith simplí ach gasta agus nua-aimseartha a úsáideann cripteagrafaíocht den scoth. Tá sé mar aidhm aige a bheith níos tapúla, níos simplí, níos caolchúisí agus níos úsáidí ná IPsec, agus an tinneas cinn ollmhór á sheachaint ag an am céanna. Tá sé beartaithe aige a bheith i bhfad níos feidhmiúla ná OpenVPN. Tá WireGuard deartha mar VPN ilchuspóireach le rith ar chomhéadain leabaithe agus ar shár-ríomhairí araon, oiriúnach do go leor cúinsí éagsúla. Scaoileadh é ar dtús don eithne Linux, ach tá sé tras-ardán anois (Windows, macOS, BSD, iOS, Android) agus is féidir é a imscaradh go forleathan. Tá forbairt throm air faoi láthair, ach d'fhéadfaí a mheas cheana féin gurb é an réiteach VPN is sláine, is éasca le húsáid agus is simplí sa tionscal é."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireshark",
+      "title": "Wireshark (LinuxServer.io)",
+      "tagline": "An anailíseoir prótacail líonra is mó le rá agus is mó a úsáidtear ar domhan. Ligeann sé duit a fheiceáil cad atá ag tarlú ar do líonra ag leibhéal micreascópach agus is é an caighdeán de facto (agus go minic de jure) i go leor fiontar tráchtála agus neamhbhrabúis, gníomhaireachtaí rialtais, agus institiúidí oideachais. Tá forbairt Wireshark ag fás go maith a bhuíochas le ranníocaíochtaí deonacha ó shaineolaithe líonraithe ar fud an domhain agus is leanúint é ar thionscadal a thosaigh Gerald Combs i 1998."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
+      "title": "Wps office (LinuxServer.io)",
+      "tagline": "Sraith oifige chuimsitheach éadrom, saibhir i ngnéithe le comhoiriúnacht ard. Mar bhogearraí oifige áisiúla agus gairmiúla, ligeann WPS Office duit comhaid a chur in eagar i Writer, Presentation, Scarbhileog, agus PDF chun d’éifeachtúlacht oibre a fheabhsú."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxbackbone",
+      "title": "Xbackbone (LinuxServer.io)",
+      "tagline": "Bainisteoir comhad PHP simplí, féinóstáilte, éadrom a thacaíonn leis an uirlis chomhroinnte meandrach ShareX agus córais *NIX. Tacaíonn sé le híomhánna, GIFanna, físeáin, cód, téacs formáidithe, agus íoslódáil agus uaslódáil comhad a uaslódáil agus a thaispeáint. Tá comhéadan úsáideora gréasáin aige freisin le bainistíocht ilúsáideoirí, stair uaslódálacha san am atá thart agus tacaíocht chuardaigh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxemu",
+      "title": "Xemu (LinuxServer.io)",
+      "tagline": "Feidhmchlár saor in aisce agus foinse oscailte a dhéanann aithris ar chonsól cluiche bunaidh Microsoft Xbox, rud a chuireann ar chumas daoine a gcluichí Xbox bunaidh a imirt ar chórais Windows, macOS, agus Linux."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxvfb",
+      "title": "Xvfb",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/xvfb le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryaak",
+      "title": "Yaak (LinuxServer.io)",
+      "tagline": "Cliant API deisce chun iarratais REST, GraphQL, agus gRPC a eagrú agus a fhorghníomhú. Tá sé tógtha ag baint úsáide as Tauri, Rust, agus ReactJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryourspotify",
+      "title": "Your_spotify (LinuxServer.io)",
+      "tagline": "Feidhmchlár féinóstáilte a rianaíonn a bhfuil á éisteacht agat leis agus a chuireann painéal ar fáil duit chun staitisticí a iniúchadh faoi. Tá sé comhdhéanta de fhreastalaí gréasáin a dhéanann suirbhé ar API Spotify ó am go ham agus feidhmchlár gréasáin ar féidir leat do staitisticí a iniúchadh air."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryq",
+      "title": "Yq",
+      "tagline": "Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/yq le haghaidh tuilleadh sonraí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzen",
+      "title": "Zen (LinuxServer.io)",
+      "tagline": "Forc foinse oscailte agus saor in aisce de Mozilla Firefox le fócas ar phríobháideacht, inoiriúnaitheacht agus dearadh."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverznc",
+      "title": "Znc (LinuxServer.io)",
+      "tagline": "Preabálaí líonra IRC nó BNC. Is féidir leis an cliant a dhícheangal ón bhfreastalaí IRC iarbhír, agus ó chainéil roghnaithe freisin. Is féidir le cliaint iolracha ó shuíomhanna éagsúla ceangal le cuntas ZNC amháin ag an am céanna agus dá bhrí sin feictear iad faoin leasainm céanna ar IRC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzotero",
+      "title": "Zotero (LinuxServer.io)",
+      "tagline": "Uirlis saor in aisce, éasca le húsáid chun cabhrú leat taighde a bhailiú, a eagrú, a anótáil, a lua agus a roinnt."
+    }
+  ]
+}

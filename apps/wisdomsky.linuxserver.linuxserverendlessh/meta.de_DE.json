@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverendlessh",
+  "title": "Endlessh",
+  "tagline": "Eine SSH-Falle, die in sehr langsamer Zeit ein endloses, zufälliges SSH-Banner sendet. Dadurch werden SSH-Clients stunden- oder sogar tagelang blockiert. Der Zweck ist, den eigentlichen SSH-Server auf einem anderen Port zu betreiben und Scriptkiddies in dieser Falle gefangen zu halten, anstatt den echten Server zu stören.",
+  "description": "Besuchen Sie die Homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverldapauth",
+  "title": "Ldap auth (LinuxServer.io)",
+  "tagline": "Bu yazılım, nginx tarafından proxy edilen sunuculardan korumalı kaynaklar talep eden kullanıcıların kimlik doğrulamasını yapmak için tasarlanmıştır. Bir kimlik doğrulama sunucusuyla iletişim kuran bir arka plan programı (ldap-auth) ve kullanıcının kimlik bilgilerine dayalı olarak bir kimlik doğrulama çerezi oluşturan bir web sunucusu arka plan programı içerir. Arka plan programları, Hafif Dizin Erişim Protokolü (LDAP) kimlik doğrulama sunucusu (OpenLDAP veya Microsoft Windows Active Directory 2003 ve 2012) ile kullanılmak üzere Python dilinde yazılmıştır.",
+  "description": "Ldap-auth yazılımı, nginx tarafından proxy edilen sunuculardan korumalı kaynaklara erişim isteyen kullanıcıların kimlik doğrulaması için kullanılır. Bir kimlik doğrulama sunucusuyla iletişim kuran bir arka plan programı (ldap-auth) ve kullanıcının kimlik bilgilerine dayalı olarak bir kimlik doğrulama çerezi oluşturan bir web sunucusu arka plan programı içerir. Arka plan programları, Hafif Dizin Erişim Protokolü (LDAP) kimlik doğrulama sunucusu (OpenLDAP veya Microsoft Windows Active Directory 2003 ve 2012) ile kullanılmak üzere Python dilinde yazılmıştır."
+}

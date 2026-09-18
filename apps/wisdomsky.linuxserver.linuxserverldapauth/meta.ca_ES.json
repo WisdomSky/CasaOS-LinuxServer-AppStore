@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverldapauth",
+  "title": "Ldap auth (LinuxServer.io)",
+  "tagline": "El programari serveix per autenticar usuaris que sol·liciten recursos protegits de servidors proxyats per nginx. Inclou un daemon (ldap-auth) que es comunica amb un servidor d'autenticació i un daemon de servidor web que genera una galeta d'autenticació basada en les credencials de l'usuari. Els daemons estan escrits en Python per al seu ús amb un servidor d'autenticació Lightweight Directory Access Protocol (LDAP) (OpenLDAP o Microsoft Windows Active Directory 2003 i 2012).",
+  "description": "El programari Ldap-auth serveix per autenticar usuaris que sol·liciten recursos protegits de servidors proxyats per nginx. Inclou un daemon (ldap-auth) que es comunica amb un servidor d'autenticació i un daemon de servidor web que genera una galeta d'autenticació basada en les credencials de l'usuari. Els daemons estan escrits en Python per utilitzar-se amb un servidor d'autenticació Lightweight Directory Access Protocol (LDAP) (OpenLDAP o Microsoft Windows Active Directory 2003 i 2012)."
+}

@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverdavos",
+  "title": "Davos (LinuxServer.io)",
+  "tagline": "Una herramienta de automatización FTP que escanea periódicamente ubicaciones de host específicas en busca de nuevos archivos. Se puede configurar para diversos fines, como detectar la aparición de archivos específicos en la ubicación del host para su descarga y posterior transferencia, si fuera necesario. También admite notificaciones de finalización y llamadas a API posteriores para optimizar el flujo de trabajo.",
+  "description": "Davos es una herramienta de automatización FTP que escanea periódicamente ubicaciones de host específicas en busca de nuevos archivos. Se puede configurar para diversos fines, como detectar la aparición de archivos específicos en la ubicación del host para descargarlos y, si es necesario, transferirlos. También admite notificaciones de finalización y llamadas a la API, para optimizar el flujo de trabajo."
+}

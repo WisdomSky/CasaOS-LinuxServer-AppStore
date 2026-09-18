@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverendlessh",
+  "title": "Endlessh",
+  "tagline": "En SSH-port som mycket långsamt skickar en oändlig, slumpmässig SSH-banner. Den håller SSH-klienter inlåsta i timmar eller till och med dagar i sträck. Syftet är att placera din riktiga SSH-server på en annan port och sedan låta script kiddies fastna i denna port istället för att störa en riktig server.",
+  "description": "Besök hemsidan: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
+}

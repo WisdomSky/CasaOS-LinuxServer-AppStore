@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+  "title": "Nntp2nntp",
+  "tagline": "Mit dem Proxy können Sie Ihr NNTP-Konto von mehreren Systemen aus nutzen, jedes mit eigenem Benutzernamen und Passwort. Er unterstützt SSL vollständig und ermöglicht es Ihnen, den Zugriff auf den Proxy mithilfe von SSL-Zertifikaten einzuschränken. Der Nntp2nntp-Proxy ist sehr einfach und schnell. ## Warnung: Obwohl uns keine Sicherheitsprobleme im Zusammenhang mit nntp2nntp bekannt sind, wurde der Quellcode dieses Projekts seit dem 06.08.2015 nicht mehr geändert und wird wahrscheinlich nicht mehr weiterentwickelt. Aus diesem Grund raten wir dringend davon ab, diese Anwendung öffentlich zugänglich zu machen. Sollte dies dennoch unumgänglich sein, müssen zusätzliche Sicherheitsebenen und SSL als absolute Mindestvoraussetzung gelten. Wir gehen davon aus, dass dieser Proxy primär in einem LAN eingesetzt wird, sodass alle NNTP-Anwendungen der Benutzer gemeinsame interne Anmeldeinformationen nutzen können. Dies ermöglicht die zentrale Verwaltung des Quellkontos, z. B. die Änderung von Anbieter, Server und Thread-Limits für alle Anwendungen mit einer einzigen globalen Konfigurationsänderung.",
+  "description": "Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/nntp2nntp/"
+}

@@ -1,7 +1,7 @@
 name: linuxserver-yaak
 services:
   app:
-    image: linuxserver/yaak:2026.7.1@sha256:3612af8c571deb11962445b2f221d975b583b7e982602fc691ba5e4a47ec1e7d
+    image: linuxserver/yaak:2026.8.0@sha256:26610a60308a11ffb6dfebeebb1419a14cbab544c126cddff3f4f252dd879d61
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -23,7 +23,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserveryaak/assets/icon.png
   title:
     en_US: Yaak (LinuxServer.io)
+    ca_ES: Yaak (LinuxServer.io)
+    cs_CZ: Yaak (LinuxServer.io)
+    da_DK: Yaak (LinuxServer.io)
+    de_DE: Yaak (LinuxServer.io)
+    el_GR: Yaak (LinuxServer.io)
+    en_GB: Yaak (LinuxServer.io)
+    es_ES: Yaak (LinuxServer.io)
+    fr_FR: Yaak (LinuxServer.io)
+    ga_IE: Yaak (LinuxServer.io)
+    hr_HR: Yaak (LinuxServer.io)
+    hu_HU: Yaak (LinuxServer.io)
+    it_IT: Yaak (LinuxServer.io)
+    ja_JP: Yaak (LinuxServer.io)
+    ko_KR: Yaak (LinuxServer.io)
+    ml_IN: Yaak (LinuxServer.io)
+    nb_NO: Yaak (LinuxServer.io)
+    nl_NL: Yaak (LinuxServer.io)
+    pl_PL: Yaak (LinuxServer.io)
+    pt_BR: Yaak (LinuxServer.io)
+    ro_RO: Yaak (LinuxServer.io)
+    ru_RU: Yaak (LinuxServer.io)
+    sk_SK: Yaak (LinuxServer.io)
+    sv_SE: Yaak (LinuxServer.io)
+    tr_TR: Yaak (LinuxServer.io)
     zh_CN: Yaak（LinuxServer.io）
+    zh_TW: Yaak（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserveryaak
   port_map: '3000'
-  version: 2026.7.1
+  version: 2026.8.0

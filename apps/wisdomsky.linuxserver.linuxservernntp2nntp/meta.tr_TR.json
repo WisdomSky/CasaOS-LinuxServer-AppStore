@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+  "title": "Nntp2nntp",
+  "tagline": "Proxy, NNTP hesabınızı her biri kendi kullanıcı adı ve şifresiyle birden fazla sistemden kullanmanıza olanak tanır. SSL'yi tamamen destekler ve proxy'ye erişimi SSL sertifikalarıyla da sınırlayabilirsiniz. Nntp2nntp proxy çok basit ve oldukça hızlıdır. ## Uyarı Herhangi bir nntp2nntp güvenlik sorunu bilmesek de, bu projenin ana kodunda 06.08.2015 tarihinden beri hiçbir değişiklik yapılmamıştır ve muhtemelen kalıcı olarak terk edilmiştir. Bu nedenle, bu uygulamayı herkese açık hale getirmemenizi şiddetle tavsiye ederiz ve eğer bunu yapmanız gerekiyorsa, diğer güvenlik katmanları ve SSL'nin mutlak asgari gereksinim olarak kabul edilmesi gerektiğini belirtiriz. Bu proxy'nin öncelikle bir LAN'da kullanılacağını düşünüyoruz, böylece tüm kullanıcıların NNTP uygulamaları, ana hesabın merkezi yönetimini sağlayan ortak bir iç kimlik bilgisi kümesini paylaşabilir; örneğin, tüm uygulamalar için sağlayıcı, sunucu, iş parçacığı sınırlarını tek bir genel yapılandırma değişikliğiyle değiştirebilirsiniz.",
+  "description": "Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/nntp2nntp/"
+}

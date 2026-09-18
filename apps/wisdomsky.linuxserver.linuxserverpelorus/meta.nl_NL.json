@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverpelorus",
+  "title": "Pelorus (LinuxServer.io)",
+  "tagline": "Een AI-navigator voor Linux-desktops met Selkies. Pelorus draait een FastAPI-server die een LLM-agent (Ollama, OpenAI-compatibel of Gemini) controle geeft over muis, toetsenbord, screenshots en vensterbeheer via de Pixelflux-backend voor computergebruik, een Linux-toegankelijkheidsstructuur (AT-SPI) en optionele KWin D-Bus-integratie.",
+  "description": "Pelorus is een AI-navigator voor Linux-desktops die draaien op Selkies. Pelorus draait een FastAPI-server die een LLM-agent (Ollama, OpenAI-compatibel of Gemini) controle geeft over muis, toetsenbord, screenshots en vensterbeheer via de Pixelflux-backend voor computergebruik, een Linux-toegankelijkheidsstructuur (AT-SPI) en optionele KWin D-Bus-integratie."
+}

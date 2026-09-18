@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverjackett",
+  "title": "Jackett (LinuxServer.io)",
+  "tagline": "Funcționează ca server proxy: traduce interogările din aplicații (Sonarr, SickRage, CouchPotato, Mylar etc.) în interogări http specifice site-ului de tracker, analizează răspunsul HTML, apoi trimite rezultatele înapoi către software-ul solicitant. Acest lucru permite obținerea de încărcări recente (cum ar fi RSS) și efectuarea de căutări. Jackett este un depozit unic de logica de extragere și traducere a indexului - eliminând povara altor aplicații.",
+  "description": "Jackett funcționează ca un server proxy: traduce interogările din aplicații (Sonarr, SickRage, CouchPotato, Mylar etc.) în interogări http specifice site-ului de tracker, analizează răspunsul HTML, apoi trimite rezultatele înapoi către software-ul solicitant. Acest lucru permite obținerea de încărcări recente (cum ar fi RSS) și efectuarea de căutări. Jackett este un depozit unic de logica de extragere și traducere a indexului - eliminând povara altor aplicații."
+}

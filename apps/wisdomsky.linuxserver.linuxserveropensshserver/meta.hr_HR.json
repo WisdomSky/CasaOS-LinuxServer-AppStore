@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+  "title": "Openssh server (LinuxServer.io)",
+  "tagline": "Sandbox okruženje koje omogućuje SSH pristup bez davanja ključeva cijelom poslužitelju. Davanje SSH pristupa putem privatnog ključa često znači davanje punog pristupa poslužitelju. Ovaj kontejner stvara ograničeno i sandbox okruženje u koje drugi mogu ući putem SSH-a. Korisnici imaju pristup samo mapiranim mapama i procesima koji se izvode unutar ovog kontejnera.",
+  "description": "Openssh-server je sandbox okruženje koje omogućuje ssh pristup bez davanja ključeva cijelom poslužitelju. Davanje ssh pristupa putem privatnog ključa često znači davanje punog pristupa poslužitelju. Ovaj kontejner stvara ograničeno i sandbox okruženje u koje drugi mogu ući putem ssh-a. Korisnici imaju pristup samo mapiranim mapama i procesima koji se izvode unutar ovog kontejnera."
+}

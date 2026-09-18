@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+  "title": "Openssh server (LinuxServer.io)",
+  "tagline": "En sandlådemiljö som tillåter SSH-åtkomst utan att ge nycklar till hela servern. Att ge SSH-åtkomst via privat nyckel innebär ofta att ge fullständig åtkomst till servern. Denna container skapar en begränsad och sandlådemiljö som andra kan använda SSH till. Användarna har bara åtkomst till de mappar som är mappade och de processer som körs inuti denna container.",
+  "description": "Opensh-server är en sandlådemiljö som tillåter ssh-åtkomst utan att ge nycklar till hela servern. Att ge ssh-åtkomst via privat nyckel innebär ofta att ge fullständig åtkomst till servern. Denna container skapar en begränsad och sandlådemiljö som andra kan använda ssh till. Användarna har bara åtkomst till de mappar som är mappade och de processer som körs inuti denna container."
+}

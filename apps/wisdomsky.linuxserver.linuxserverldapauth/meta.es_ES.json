@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverldapauth",
+  "title": "Ldap auth (LinuxServer.io)",
+  "tagline": "El software se utiliza para autenticar a los usuarios que solicitan recursos protegidos a servidores gestionados por nginx. Incluye un demonio (ldap-auth) que se comunica con un servidor de autenticación y un demonio de servidor web que genera una cookie de autenticación basada en las credenciales del usuario. Los demonios están escritos en Python para su uso con un servidor de autenticación LDAP (Protocolo ligero de acceso a directorios) (OpenLDAP o Microsoft Windows Active Directory 2003 y 2012).",
+  "description": "El software Ldap-auth se utiliza para autenticar a los usuarios que solicitan recursos protegidos a servidores gestionados por nginx. Incluye un demonio (ldap-auth) que se comunica con un servidor de autenticación y un demonio de servidor web que genera una cookie de autenticación basada en las credenciales del usuario. Los demonios están escritos en Python para su uso con un servidor de autenticación LDAP (Protocolo ligero de acceso a directorios) (OpenLDAP o Microsoft Windows Active Directory 2003 y 2012)."
+}

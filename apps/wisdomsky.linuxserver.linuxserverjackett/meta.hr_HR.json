@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverjackett",
+  "title": "Jackett (LinuxServer.io)",
+  "tagline": "Radi kao proxy poslužitelj: prevodi upite iz aplikacija (Sonarr, SickRage, CouchPotato, Mylar, itd.) u http upite specifične za stranicu za praćenje, analizira HTML odgovor, a zatim šalje rezultate natrag softveru koji je poslao zahtjev. To omogućuje dobivanje nedavnih prijenosa (poput RSS-a) i pretraživanje. Jackett je jedinstveno spremište održavane logike indeksiranja, struganja i prevođenja - uklanjajući teret s drugih aplikacija.",
+  "description": "Jackett radi kao proxy poslužitelj: prevodi upite iz aplikacija (Sonarr, SickRage, CouchPotato, Mylar itd.) u http upite specifične za stranicu za praćenje, analizira HTML odgovor, a zatim šalje rezultate natrag softveru koji je poslao zahtjev. To omogućuje dobivanje nedavnih prijenosa (poput RSS-a) i pretraživanje. Jackett je jedinstveno spremište održavane logike indeksiranja, struganja i prevođenja - uklanjajući teret s drugih aplikacija."
+}

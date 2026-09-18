@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+  "title": "Faster whisper (LinuxServer.io)",
+  "tagline": "OpenAIのWhisperモデルをCTranslate2（Transformerモデル向けの高速推論エンジン）を使用して再実装したものです。このコンテナは、より高速なWhisperのためのWyomingプロトコルサーバーを提供します。",
+  "description": "Faster-whisperは、OpenAIのWhisperモデルをCTranslate2（Transformerモデル向けの高速推論エンジン）を使用して再実装したものです。このコンテナは、faster-whisper用のWyomingプロトコルサーバーを提供します。"
+}

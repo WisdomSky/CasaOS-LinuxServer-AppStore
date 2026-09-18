@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverendlessh",
+  "title": "Endlessh",
+  "tagline": "Un \"tarpit\" SSH che invia molto lentamente un banner SSH casuale e infinito. Blocca i client SSH per ore o addirittura giorni. Lo scopo è quello di spostare il server SSH reale su un'altra porta e lasciare che gli script kiddies rimangano intrappolati in questo \"tarpit\" invece di attaccare un server legittimo.",
+  "description": "Visita la homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
+}

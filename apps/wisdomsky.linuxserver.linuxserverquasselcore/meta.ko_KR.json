@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+  "title": "Quassel core",
+  "tagline": "최신 크로스 플랫폼 분산형 IRC 클라이언트인 quasselcore는 하나 이상의 클라이언트가 중앙 코어에 연결하거나 분리할 수 있도록 설계되었습니다. 이 컨테이너는 IRC 연결을 관리하며, 데스크톱 클라이언트(quasselclient)를 사용하고 구성해야 합니다. quasselcore는 항상 켜져 있도록 설계되어 클라이언트가 온라인 상태가 아니더라도 IRC에서 사용자의 ID를 유지할 수 있습니다. 클라이언트가 다시 연결되면 이전 대화 기록(백로그)이 다운로드되어 무한히 과거로 스크롤하여 확인할 수 있습니다.",
+  "description": "홈페이지 방문: https://hub.docker.com/r/linuxserver/quassel-core/"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+  "title": "Quassel core",
+  "tagline": "Nowoczesny, wieloplatformowy, rozproszony klient IRC, co oznacza, że jeden (lub wielu) klientów może podłączać się i odłączać od centralnego rdzenia. Ten kontener obsługuje połączenie IRC (quasselcore) i wymaga do korzystania i konfiguracji klienta stacjonarnego (quasselclient). Został zaprojektowany tak, aby działał zawsze i utrzymywał Twoją tożsamość w IRC, nawet gdy Twoi klienci nie są online. Backlog (historia) jest pobierany przez klienta po ponownym połączeniu, umożliwiając nieskończone przewijanie w czasie.",
+  "description": "Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/quassel-core/"
+}

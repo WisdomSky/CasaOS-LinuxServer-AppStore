@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+  "title": "Nntp2nntp",
+  "tagline": "Proxy vám umožňuje používat váš NNTP účet z více systémů, každý s vlastním uživatelským jménem a heslem. Plně podporuje SSL a můžete také omezit přístup k proxy pomocí SSL certifikátů. Proxy Nntp2nntp je velmi jednoduchý a poměrně rychlý. ## Varování I když nevíme o žádných bezpečnostních problémech s nntp2nntp, upstream kód tohoto projektu se od 6. 8. 2015 nijak nezměnil a pravděpodobně bude trvale opuštěn. Z tohoto důvodu důrazně doporučujeme, abyste tuto aplikaci nezpřístupňovali veřejnosti, a pokud tak musíte učinit, měly by být další vrstvy zabezpečení a SSL považovány za absolutní minimum. Předpokládáme, že tento proxy se používá primárně v místní síti LAN, aby všichni uživatelé aplikací NNTP mohli sdílet společnou sadu interních přihlašovacích údajů, což umožňuje centrální správu upstreamového účtu, např. změnu poskytovatele, serveru a limitů vláken pro všechny aplikace jednou globální změnou konfigurace.",
+  "description": "Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/nntp2nntp/"
+}

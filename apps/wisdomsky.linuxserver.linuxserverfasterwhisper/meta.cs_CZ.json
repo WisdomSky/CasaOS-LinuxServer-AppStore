@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+  "title": "Faster whisper (LinuxServer.io)",
+  "tagline": "Reimplementace modelu Whisper od OpenAI s využitím CTranslate2, což je rychlý inferenční engine pro modely Transformer. Tento kontejner poskytuje server protokolu Wyoming pro rychlejší „whisper“.",
+  "description": "Faster-whisper je reimplementace modelu Whisper od OpenAI s využitím CTranslate2, což je rychlý inferenční engine pro modely Transformer. Tento kontejner poskytuje server protokolu Wyoming pro faster-whisper."
+}

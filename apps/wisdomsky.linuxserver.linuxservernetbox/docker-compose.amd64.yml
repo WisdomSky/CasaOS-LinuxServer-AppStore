@@ -1,7 +1,7 @@
 name: linuxserver-netbox
 services:
   app:
-    image: linuxserver/netbox:4.7.1@sha256:91e994a7b62aff2b77a29c07ead5467158aee2b1bacd2dd1db6d69a057fea478
+    image: linuxserver/netbox:4.7.1@sha256:37ac14da2347e0dcfe96313806d3e81f2b135ef7067d49196a160ceef6e14d48
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -42,7 +42,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxservernetbox/assets/icon.png
   title:
     en_US: Netbox (LinuxServer.io)
+    ca_ES: Netbox (LinuxServer.io)
+    cs_CZ: Netbox (LinuxServer.io)
+    da_DK: Netbox (LinuxServer.io)
+    de_DE: Netbox (LinuxServer.io)
+    el_GR: Netbox (LinuxServer.io)
+    en_GB: Netbox (LinuxServer.io)
+    es_ES: Netbox (LinuxServer.io)
+    fr_FR: Netbox (LinuxServer.io)
+    ga_IE: Netbox (LinuxServer.io)
+    hr_HR: Netbox (LinuxServer.io)
+    hu_HU: Netbox (LinuxServer.io)
+    it_IT: Netbox (LinuxServer.io)
+    ja_JP: Netbox (LinuxServer.io)
+    ko_KR: Netbox (LinuxServer.io)
+    ml_IN: Netbox (LinuxServer.io)
+    nb_NO: Netbox (LinuxServer.io)
+    nl_NL: Netbox (LinuxServer.io)
+    pl_PL: Netbox (LinuxServer.io)
+    pt_BR: Netbox (LinuxServer.io)
+    ro_RO: Netbox (LinuxServer.io)
+    ru_RU: Netbox (LinuxServer.io)
+    sk_SK: Netbox (LinuxServer.io)
+    sv_SE: Netbox (LinuxServer.io)
+    tr_TR: Netbox (LinuxServer.io)
     zh_CN: Netbox（LinuxServer.io）
+    zh_TW: Netbox（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxservernetbox
   port_map: '8000'
   version: 4.7.1

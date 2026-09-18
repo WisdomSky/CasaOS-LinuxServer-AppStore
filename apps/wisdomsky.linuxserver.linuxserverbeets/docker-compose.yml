@@ -1,7 +1,7 @@
 name: linuxserver-beets
 services:
   app:
-    image: linuxserver/beets:2.14.0
+    image: linuxserver/beets:2.14.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -26,7 +26,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverbeets/assets/icon.png
   title:
     en_US: Beets (LinuxServer.io)
+    ca_ES: Beets (LinuxServer.io)
+    cs_CZ: Beets (LinuxServer.io)
+    da_DK: Beets (LinuxServer.io)
+    de_DE: Beets (LinuxServer.io)
+    el_GR: Beets (LinuxServer.io)
+    en_GB: Beets (LinuxServer.io)
+    es_ES: Beets (LinuxServer.io)
+    fr_FR: Beets (LinuxServer.io)
+    ga_IE: Beets (LinuxServer.io)
+    hr_HR: Beets (LinuxServer.io)
+    hu_HU: Beets (LinuxServer.io)
+    it_IT: Beets (LinuxServer.io)
+    ja_JP: Beets (LinuxServer.io)
+    ko_KR: Beets (LinuxServer.io)
+    ml_IN: Beets (LinuxServer.io)
+    nb_NO: Beets (LinuxServer.io)
+    nl_NL: Beets (LinuxServer.io)
+    pl_PL: Beets (LinuxServer.io)
+    pt_BR: Beets (LinuxServer.io)
+    ro_RO: Beets (LinuxServer.io)
+    ru_RU: Beets (LinuxServer.io)
+    sk_SK: Beets (LinuxServer.io)
+    sv_SE: Beets (LinuxServer.io)
+    tr_TR: Beets (LinuxServer.io)
     zh_CN: Beets（LinuxServer.io）
+    zh_TW: Beets（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbeets
   port_map: '8337'
-  version: 2.14.0
+  version: 2.14.1

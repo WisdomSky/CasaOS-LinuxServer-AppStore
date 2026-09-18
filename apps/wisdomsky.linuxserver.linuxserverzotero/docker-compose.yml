@@ -1,7 +1,7 @@
 name: linuxserver-zotero
 services:
   app:
-    image: linuxserver/zotero:10.0.2
+    image: linuxserver/zotero:10.0.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -23,7 +23,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverzotero/assets/icon.png
   title:
     en_US: Zotero (LinuxServer.io)
+    ca_ES: Zotero (LinuxServer.io)
+    cs_CZ: Zotero (LinuxServer.io)
+    da_DK: Zotero (LinuxServer.io)
+    de_DE: Zotero (LinuxServer.io)
+    el_GR: Zotero (LinuxServer.io)
+    en_GB: Zotero (LinuxServer.io)
+    es_ES: Zotero (LinuxServer.io)
+    fr_FR: Zotero (LinuxServer.io)
+    ga_IE: Zotero (LinuxServer.io)
+    hr_HR: Zotero (LinuxServer.io)
+    hu_HU: Zotero (LinuxServer.io)
+    it_IT: Zotero (LinuxServer.io)
+    ja_JP: Zotero (LinuxServer.io)
+    ko_KR: Zotero (LinuxServer.io)
+    ml_IN: Zotero (LinuxServer.io)
+    nb_NO: Zotero (LinuxServer.io)
+    nl_NL: Zotero (LinuxServer.io)
+    pl_PL: Zotero (LinuxServer.io)
+    pt_BR: Zotero (LinuxServer.io)
+    ro_RO: Zotero (LinuxServer.io)
+    ru_RU: Zotero (LinuxServer.io)
+    sk_SK: Zotero (LinuxServer.io)
+    sv_SE: Zotero (LinuxServer.io)
+    tr_TR: Zotero (LinuxServer.io)
     zh_CN: Zotero（LinuxServer.io）
+    zh_TW: Zotero（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverzotero
   port_map: '3000'
-  version: 10.0.2
+  version: 10.0.3

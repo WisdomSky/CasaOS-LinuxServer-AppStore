@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+  "title": "Faster whisper (LinuxServer.io)",
+  "tagline": "Az OpenAI Whisper modelljének újraimplementációja a CTranslate2 használatával, amely egy gyors következtetőmotor Transformer modellekhez. Ez a konténer egy Wyoming protokoll szervert biztosít a gyorsabb suttogáshoz.",
+  "description": "A Faster-whisper az OpenAI Whisper modelljének egy újraimplementációja a CTranslate2 használatával, amely egy gyors következtetőmotor Transformer modellekhez. Ez a konténer egy Wyoming protokoll szervert biztosít a Faster-whisperhez."
+}

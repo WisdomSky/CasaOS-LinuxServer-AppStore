@@ -1,0 +1,1234 @@
+{
+  "apps": [
+    {
+      "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
+      "title": "Adguardhome sync (LinuxServer.io)",
+      "tagline": "Nástroj pro synchronizaci konfigurace AdGuardHome s replikovanými instancemi."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
+      "title": "Airsonic advanced (LinuxServer.io)",
+      "tagline": "Bezplatný webový streamer médií, který poskytuje všudypřítomný přístup k vaší hudbě. Použijte jej ke sdílení hudby s přáteli nebo k poslechu vlastní hudby v práci. Můžete streamovat do více přehrávačů současně, například do jednoho přehrávače v kuchyni a do druhého v obývacím pokoji."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraltus",
+      "title": "Altus (LinuxServer.io)",
+      "tagline": "Klient WhatsAppu založený na platformě Electron s motivy a podporou více účtů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverappriseapi",
+      "title": "Apprise api (LinuxServer.io)",
+      "tagline": "Využívá výhody Apprise prostřednictvím vaší sítě s uživatelsky přívětivým API. * Odesílání oznámení do více než 100 služeb. * Neuvěřitelně lehká brána do Apprise. * Mikroslužba připravená k provozu k dispozici. * Jednoduchý web pro ověření a testování vaší konfigurace. Apprise API bylo navrženo tak, aby se snadno začlenilo do stávajících (i nových) ekosystémů, které hledají jednoduché řešení pro oznámení."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverardour",
+      "title": "Ardour (LinuxServer.io)",
+      "tagline": "Open source, společný projekt celosvětového týmu zahrnujícího hudebníky, programátory a profesionální zvukové inženýry."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraudacity",
+      "title": "Audacity (LinuxServer.io)",
+      "tagline": "Snadno použitelný vícestopý zvukový editor a rekordér. Vyvinuto skupinou dobrovolníků jako open source."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverazahar",
+      "title": "Azahar (LinuxServer.io)",
+      "tagline": "Open-source emulátor 3DS založený na Citře."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbabybuddy",
+      "title": "Babybuddy (LinuxServer.io)",
+      "tagline": "Kamarád pro miminka. Pomáhá pečovatelům sledovat spánek, krmení, přebalování, čas na bříšku a další, aby se dozvěděli o potřebách dítěte a mohli je předvídat bez (tolik) dohadů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbambustudio",
+      "title": "Bambustudio (LinuxServer.io)",
+      "tagline": "Špičkový software pro řezání s otevřeným zdrojovým kódem a bohatou na funkce. Obsahuje pracovní postupy založené na projektech, systematicky optimalizované algoritmy pro řezání a snadno použitelné grafické rozhraní, které uživatelům přináší neuvěřitelně plynulý tisk."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbazarr",
+      "title": "Bazarr (LinuxServer.io)",
+      "tagline": "Doplňková aplikace pro Sonarr a Radarr. Dokáže spravovat a stahovat titulky na základě vašich požadavků. Vy si definujete preference podle televizního pořadu nebo filmu a Bazarr se o vše postará za vás."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbeets",
+      "title": "Beets (LinuxServer.io)",
+      "tagline": "Správce hudební knihovny, nikoli přehrávač hudby. Obsahuje jednoduchý plugin pro přehrávač a experimentální webový přehrávač, ale samotnou reprodukci zvuku obecně ponechává specializovaným nástrojům."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
+      "title": "Bitcoin knots (LinuxServer.io)",
+      "tagline": "Lze jej použít jako desktopového klienta pro běžné platby nebo jako plnohodnotný serverový nástroj pro obchodníky a další platební služby."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
+      "title": "Blade of-agony (LinuxServer.io)",
+      "tagline": "Příběhová střílečka z druhé světové války inspirovaná hrami Wolfenstein a Doom."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverblender",
+      "title": "Blender (LinuxServer.io)",
+      "tagline": "Sada nástrojů pro 3D počítačovou grafiku s otevřeným zdrojovým kódem, která se používá k vytváření animovaných filmů, vizuálních efektů, umění, 3D tištěných modelů, pohyblivé grafiky, interaktivních 3D aplikací, virtuální reality a počítačových her. Tento obraz nepodporuje vykreslování pomocí GPU, pouze akcelerované pracovní prostředí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverboinc",
+      "title": "Boinc (LinuxServer.io)",
+      "tagline": "Platforma pro vysoce výkonné výpočty ve velkém měřítku (tisíce nebo miliony počítačů). Lze ji použít pro dobrovolnické výpočty (s využitím spotřebitelských zařízení) nebo gridové výpočty (s využitím organizačních zdrojů). Podporuje virtualizované, paralelní a GPU aplikace."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
+      "title": "Booksonic air",
+      "tagline": "Platforma pro přístup k audioknihám, které vlastníte, ať jste kdekoli. V současné době platforma zahrnuje: * Booksonic Air – server pro streamování audioknih, nástupce původního serveru Booksonic a založený na platformě Airsonic. * Booksonic App – aplikaci pro Android založenou na DSub pro připojení k serverům Booksonic-Air."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbookstack",
+      "title": "Bookstack (LinuxServer.io)",
+      "tagline": "Bezplatná a open source Wiki stránka určená pro tvorbu krásné dokumentace. Díky jednoduchému, ale výkonnému WYSIWYG editoru umožňuje týmům snadno vytvářet podrobnou a užitečnou dokumentaci. BookStack, poháněný SQL a včetně editoru Markdown pro ty, kteří ho preferují, je zaměřen na to, aby se dokumentace stala spíše potěšením než povinností. Více informací o BookStacku naleznete na jeho webových stránkách: https://www.Bookstackapp.com"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbrave",
+      "title": "Brave (LinuxServer.io)",
+      "tagline": "Rychlý, soukromý a bezpečný webový prohlížeč pro PC, Mac a mobilní zařízení."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbudge",
+      "title": "Budge (LinuxServer.io)",
+      "tagline": "Osobní finanční aplikace s otevřeným zdrojovým kódem pro „rozpočet s obálkami“."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbuildagent",
+      "title": "Build agent",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na https://hub.Docker.com/r/linuxserver/build-agent."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibre",
+      "title": "Calibre (LinuxServer.io)",
+      "tagline": "Výkonný a snadno použitelný správce elektronických knih. Uživatelé říkají, že je vynikající a nezbytný. Umožní vám dělat téměř cokoli a posouvá věci o krok dál než běžný software pro elektronické knihy. Je také zcela zdarma a s otevřeným zdrojovým kódem a je skvělý jak pro běžné uživatele, tak pro počítačové experty."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibreweb",
+      "title": "Calibre web (LinuxServer.io)",
+      "tagline": "Webová aplikace poskytující přehledné rozhraní pro prohlížení, čtení a stahování elektronických knih pomocí existující databáze Calibre. Je také možné integrovat Disk Google a upravovat metadata a knihovnu Calibre prostřednictvím samotné aplikace. Tento software je odvozen od knihovny a je licencován pod licencí GPL v3."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalligra",
+      "title": "Calligra (LinuxServer.io)",
+      "tagline": "Kancelářský a grafický balík od KDE. Je k dispozici pro stolní počítače, tablety a chytré telefony. Obsahuje aplikace pro zpracování textu, tabulky, prezentace, vektorovou grafiku a úpravu databází."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
+      "title": "Changedetection. Io (LinuxServer.io)",
+      "tagline": "Poskytuje bezplatné monitorování webových stránek, upozornění a detekci změn s otevřeným zdrojovým kódem."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchrome",
+      "title": "Chrome (LinuxServer.io)",
+      "tagline": "Oficiální webový prohlížeč od Googlu, navržený tak, aby byl rychlý, bezpečný a přizpůsobitelný."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchromium",
+      "title": "Chromium (LinuxServer.io)",
+      "tagline": "Projekt prohlížeče s otevřeným zdrojovým kódem, jehož cílem je vytvořit bezpečnější, rychlejší a stabilnější způsob, jakým mohou všichni uživatelé procházet web."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverci",
+      "title": "Ci",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na https://hub.Docker.com/r/linuxserver/ci."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercidebug",
+      "title": "Ci debug",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/ci-debug."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercitron",
+      "title": "Citron",
+      "tagline": "Emulátor Switch 1 s bohatými funkcemi pro domácí vývojáře."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercodeserver",
+      "title": "Code server (LinuxServer.io)",
+      "tagline": "VS Code běžící na vzdáleném serveru, přístupném přes prohlížeč. - Kódujte na Chromebooku, tabletu a notebooku s konzistentním vývojářským prostředím. - Pokud máte pracovní stanici s Windows nebo Mac, snáze vyvíjejte pro Linux. - Využijte velké cloudové servery k urychlení testů, kompilací, stahování a dalších činností. - Šetřete výdrž baterie, když jste na cestách. - Veškeré náročné výpočty běží na vašem serveru. - Již nespouštíte nadbytečné instance Chromu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercops",
+      "title": "Cops (LinuxServer.io)",
+      "tagline": "Od Sébastiena Lucase, nyní spravovaný MikesPub, je zkratka pro Calibre OPDS (and HTML) Php Server. COPS se propojuje s databází vaší knihovny Calibre a umožňuje stahování a odesílání knih e-mailem přímo z webového prohlížeče a poskytuje OPDS kanál pro připojení k vašim zařízením. Změny ve vaší knihovně Calibre se okamžitě projeví na vašich stránkách COPS. Více informací naleznete na: Domovská stránka COPS. Nezapomeňte se podívat na Wiki. ## Proč. (převzato z autorových stránek) Podle mého názoru je Calibre skvělý nástroj, ale je příliš velký a má příliš mnoho závislostí na to, aby se dal použít pro svůj obsahový server. To je hlavní důvod, proč jsem kódoval tento OPDS server. Potřeboval jsem jednoduchý nástroj, který by se nainstaloval na malý server (v mém případě Seagate Dockstar). Původně jsem uvažoval o Calibre2OPDS, ale protože generoval statický soubor, nebylo možné žádné vyhledávání. Později jsem přidal jednoduchý HTML katalog, který by měl být použitelný na mém Kobo. Hlavní výhody COPS jsou tedy: * Není potřeba mnoho závislostí. * Není potřeba mnoho CPU nebo RAM. * Málo kódu. * Vyhledávání je k dispozici. * S Dropboxem / owncloudem je velmi snadné mít aktuální OPDS server. * Kódování byla zábava. Pokud chcete použít OPDS feed, nezapomeňte na konec URL adresy uvést /feed."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercura",
+      "title": "Cura (LinuxServer.io)",
+      "tagline": "Bezplatný a snadno použitelný software pro 3D tisk, kterému důvěřují miliony uživatelů. Vylaďte si svůj 3D model pomocí více než 400 nastavení pro nejlepší výsledky řezání a tisku."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverd2builder",
+      "title": "D2 builder",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/d2-builder."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdaapd",
+      "title": "Daapd",
+      "tagline": "(iTunes) mediální server s podporou zařízení AirPlay, Apple Remote (a kompatibilních), Chromecastu, MPD a internetového rádia."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdarktable",
+      "title": "Darktable (LinuxServer.io)",
+      "tagline": "Aplikace s otevřeným zdrojovým kódem pro práci s fotografiemi a vývojář RAW souborů. Virtuální světelný stůl a temná komora pro fotografy. Spravuje vaše digitální negativy v databázi, umožňuje je prohlížet pomocí přibližovacího světelného stolu a umožňuje vyvolávat a vylepšovat RAW snímky."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdavos",
+      "title": "Davos (LinuxServer.io)",
+      "tagline": "Nástroj pro automatizaci FTP, který pravidelně prohledává daná umístění hostitelů a hledá nové soubory. Lze jej konfigurovat pro různé účely, včetně naslouchání konkrétním souborům, které se v umístění hostitele objevují a jsou připraveny ke stažení a následnému přesunutí, pokud je to nutné. Podporuje také oznámení o dokončení a volání API pro další workflow."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverddclient",
+      "title": "Ddclient (LinuxServer.io)",
+      "tagline": "Perl klient používaný k aktualizaci dynamických DNS záznamů pro účty u poskytovatele síťových služeb Dynamic DNS. Původně jej napsal Paul Burry a nyní jej z velké části napsal wimpunk. Dokáže aktualizovat více než jen dyndns a dokáže načíst vaši WAN-ipadresu několika různými způsoby."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdeluge",
+      "title": "Deluge (LinuxServer.io)",
+      "tagline": "Lehký, svobodný software, multiplatformní BitTorrent klient. * Plné šifrování * WebUI * Systém pluginů * Mnohem více..."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdigikam",
+      "title": "Digikam (LinuxServer.io)",
+      "tagline": "digiKam: Profesionální správa fotografií s využitím open source technologií"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdillinger",
+      "title": "Dillinger",
+      "tagline": "Cloudový editor HTML5 Markdown s podporou AngularJS, připravený pro mobilní zařízení a offline úložiště."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdiskover",
+      "title": "Diskover (LinuxServer.io)",
+      "tagline": "Indexer souborového systému s otevřeným zdrojovým kódem, který využívá Elasticsearch k indexování a správě dat napříč heterogenními úložnými systémy."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdogwalk",
+      "title": "Dogwalk (LinuxServer.io)",
+      "tagline": "Dlouho očekávaný druhý herní projekt od Blender Studia se zaměřil na vytvoření interaktivního hřiště s vyprávěním příběhů. Hrajte za velkého rozkošného psa a prozkoumejte zimní les s malým dítětem."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
+      "title": "Dokuwiki (LinuxServer.io)",
+      "tagline": "Jednoduchý a vysoce všestranný open source wiki software, který nevyžaduje databázi. Uživatelé ho milují pro jeho čistou a čitelnou syntaxi. Snadná údržba, zálohování a integrace z něj činí oblíbenou volbu administrátorů. Vestavěné kontroly přístupu a ověřovací konektory činí DokuWiki obzvláště užitečnou v podnikovém kontextu a velké množství pluginů, které poskytuje jeho dynamická komunita, umožňuje širokou škálu použití nad rámec tradiční wiki."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdolphin",
+      "title": "Dolphin (LinuxServer.io)",
+      "tagline": "Umožňuje hrát hry pro GameCube a Wii s různými grafickými vylepšeními a dalšími funkcemi, které vylepší váš herní zážitek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdomoticz",
+      "title": "Domoticz",
+      "tagline": "Systém domácí automatizace, který vám umožňuje monitorovat a konfigurovat různá zařízení, jako jsou: světla, spínače, různé senzory/měřiče, jako je teplota, déšť, vítr, UV záření, elektřina, plyn, voda a mnoho dalšího. Oznámení/upozornění lze zasílat na jakékoli mobilní zařízení."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarr",
+      "title": "Doplarr",
+      "tagline": "Bot pro vyřizování požadavků *arr pro Discord."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
+      "title": "Doplarr_rs (LinuxServer.io)",
+      "tagline": "Bot pro Discord pro vyžádání médií přes backendy *arr, napsaný v Rustu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
+      "title": "Dosbox staging (LinuxServer.io)",
+      "tagline": "Moderní pokračování DOSBoxu, bezplatného emulátoru s otevřeným zdrojovým kódem, který umožňuje spouštění softwaru pro MS-DOS, zejména videoher."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
+      "title": "Doublecommander (LinuxServer.io)",
+      "tagline": "Bezplatný multiplatformní open source správce souborů se dvěma panely vedle sebe. Je inspirován Total Commanderem a nabízí několik nových nápadů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckdns",
+      "title": "Duckdns (LinuxServer.io)",
+      "tagline": "Bezplatná služba, která nasměruje DNS (subdomény duckdns.org) na vámi zvolenou IP adresu. Služba je zcela zdarma a pro svou existenci nevyžaduje reaktivaci ani příspěvky na fóru."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckstation",
+      "title": "Duckstation (LinuxServer.io)",
+      "tagline": "Emulátor PS1 zaměřený na nejlepší přesnost a herní podporu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduplicati",
+      "title": "Duplicati (LinuxServer.io)",
+      "tagline": "Zálohovací klient, který bezpečně ukládá šifrované, inkrementální a komprimované zálohy na lokální úložiště, cloudové úložné služby a vzdálené souborové servery. Funguje se standardními protokoly, jako jsou FTP, SSH, WebDAV, a také s oblíbenými službami, jako jsou Microsoft OneDrive, Amazon S3, Google Drive, Box.com, Mega, B2 a mnoho dalších."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservereden",
+      "title": "Eden (LinuxServer.io)",
+      "tagline": "Experimentální open-source emulátor pro Nintendo Switch, vytvořený s ohledem na výkon a stabilitu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremby",
+      "title": "Emby (LinuxServer.io)",
+      "tagline": "Organizuje video, hudbu, živé televizní vysílání a fotografie z osobních mediálních knihoven a streamuje je do chytrých televizorů, streamovacích boxů a mobilních zařízení. Tento kontejner je zabalen jako samostatný mediální server Emby."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverembystat",
+      "title": "Embystat",
+      "tagline": "Osobní webový server, který dokáže vypočítat nejrůznější statistiky z vašeho (lokálního) Emby serveru. Stačí si ho nainstalovat na server a nechat ho vypočítávat nejrůznější zábavné věci."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremulatorjs",
+      "title": "Emulatorjs",
+      "tagline": "V prohlížeči je webová emulace přenosná na téměř jakékoli zařízení pro mnoho retro konzolí. Používá se kombinace emulátorů Libretro a EmulatorJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverendlessh",
+      "title": "Endlessh",
+      "tagline": "SSH tarpit, který velmi pomalu odesílá nekonečný, náhodný SSH banner. Udržuje SSH klienty uzamčené na hodiny nebo i dny. Účelem je přepnout váš skutečný SSH server na jiný port a nechat skriptovací dělníky uvíznout v tomto tarpitu, místo aby obtěžovali skutečný server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfail2ban",
+      "title": "Fail2ban (LinuxServer.io)",
+      "tagline": "Démon pro zablokování hostitelů, které způsobují více chyb při ověřování."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+      "title": "Faster whisper (LinuxServer.io)",
+      "tagline": "Reimplementace modelu Whisper od OpenAI s využitím CTranslate2, což je rychlý inferenční engine pro modely Transformer. Tento kontejner poskytuje server protokolu Wyoming pro rychlejší „whisper“."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
+      "title": "Feed2toot",
+      "tagline": "Automaticky analyzuje RSS kanály, identifikuje nové příspěvky a zveřejňuje je na sociální síti Mastodon."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverferdium",
+      "title": "Ferdium (LinuxServer.io)",
+      "tagline": "Desktopová aplikace, která vám pomůže uspořádat používání vašich oblíbených aplikací jejich sloučením do jedné aplikace."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverffmpeg",
+      "title": "Ffmpeg (LinuxServer.io)",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/ffmpeg."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfilezilla",
+      "title": "Filezilla (LinuxServer.io)",
+      "tagline": "Client je rychlý a spolehlivý multiplatformní FTP, FTPS a SFTP klient s mnoha užitečnými funkcemi a intuitivním grafickým uživatelským rozhraním."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfirefox",
+      "title": "Firefox (LinuxServer.io)",
+      "tagline": "Prohlížeč, známý také jako Mozilla Firefox nebo jednoduše Firefox, je bezplatný webový prohlížeč s otevřeným zdrojovým kódem vyvinutý nadací Mozilla Foundation a její dceřinou společností Mozilla Corporation. Firefox k vykreslování webových stránek používá rozvržení Gecko, které implementuje současné i očekávané webové standardy."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfleet",
+      "title": "Fleet",
+      "tagline": "Poskytuje online webové rozhraní, které zobrazuje sadu spravovaných obrazů z jednoho nebo více vlastněných repozitářů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflexget",
+      "title": "Flexget (LinuxServer.io)",
+      "tagline": "Víceúčelový automatizační nástroj pro všechna vaše média."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflycast",
+      "title": "Flycast (LinuxServer.io)",
+      "tagline": "Multiplatformní emulátor her Sega Dreamcast, Naomi, Naomi 2 a Atomiswave odvozený od reicastu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
+      "title": "Foldingathome (LinuxServer.io)",
+      "tagline": "Projekt distribuovaných výpočtů pro simulaci dynamiky proteinů, včetně procesu skládání proteinů a pohybů proteinů zapojených do různých onemocnění. Sdružuje občanské vědce, kteří se dobrovolně hlásí k provádění simulací dynamiky proteinů na svých osobních počítačích. Poznatky z těchto dat pomáhají vědcům lépe porozumět biologii a poskytují nové příležitosti pro vývoj léčiv."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreecad",
+      "title": "Freecad (LinuxServer.io)",
+      "tagline": "Univerzální parametrický 3D modelovací program pro počítačem podporované navrhování (CAD) a softwarová aplikace pro informační modelování budov (BIM) s podporou metody konečných prvků (FEM)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreetube",
+      "title": "Freetube",
+      "tagline": "Uživatelsky přívětivý klient YouTube s bohatými funkcemi a zaměřením na soukromí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreshrss",
+      "title": "Freshrss (LinuxServer.io)",
+      "tagline": "Bezplatný, samostatně hostovatelný agregátor RSS kanálů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergimp",
+      "title": "Gimp (LinuxServer.io)",
+      "tagline": "Bezplatný a open-source rastrový grafický editor používaný pro manipulaci s obrázky (retušování) a úpravy obrázků, kreslení ve volných tvarech, překódování mezi různými formáty obrazových souborů a specializovanější úkoly. Je rozšiřitelný pomocí pluginů a skriptovatelný."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
+      "title": "Github desktop (LinuxServer.io)",
+      "tagline": "Open source aplikace pro GitHub založená na platformě Electron. Je napsána v TypeScriptu a používá React."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergitqlient",
+      "title": "Gitqlient (LinuxServer.io)",
+      "tagline": "Multiplatformní Git klient původně vycházející z QGitu. V dnešní době jde už dál než jen o fork a přidává spoustu nových funkcí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrav",
+      "title": "Grav (LinuxServer.io)",
+      "tagline": "Rychlá, jednoduchá a flexibilní webová platforma založená na souborech."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrocy",
+      "title": "Grocy (LinuxServer.io)",
+      "tagline": "ERP systém pro vaši kuchyň. Snižte plýtvání potravinami a spravujte své domácí práce s tímto skvělým nástrojem. Sledujte své nákupy, kolik jídla plýtváte, jaké domácí práce je třeba udělat a jaké baterie je třeba nabít s tímto hrdě open source nástrojem. Pro více informací o Grocy navštivte jejich webové stránky a podívejte se na ně: https://grocy.info"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergzdoom",
+      "title": "Gzdoom (LinuxServer.io)",
+      "tagline": "Port zaměřený na funkce pro všechny hry s enginem Doom, založený na ZDoom, s přidáním rendereru OpenGL a výkonných skriptovacích možností."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhabridge",
+      "title": "Habridge (LinuxServer.io)",
+      "tagline": "Emuluje rozhraní API Philips Hue k jiným bránám domácí automatizace, jako je Amazon Echo/Dot Gen 1 (gen 2 má problémy s nalezením HA-Bridge) nebo k jiným systémům, které podporují Philips Hue. Bridge zvládá základní příkazy protokolu Hue, jako jsou Zapnutí, Vypnutí a jas. Tento můstek dokáže ovládat většinu zařízení, která mají samostatné API."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhandbrake",
+      "title": "Handbrake (LinuxServer.io)",
+      "tagline": "Open-source nástroj, vytvořený dobrovolníky, pro převod videa z téměř jakéhokoli formátu do vybraných moderních, široce podporovaných kodeků."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheadphones",
+      "title": "Headphones",
+      "tagline": "Automatizovaný stahovač hudby pro NZB a Torrent, napsaný v Pythonu. Podporuje SABnzbd, NZBget, Transmission, µTorrent a Blackhole."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
+      "title": "Healthchecks (LinuxServer.io)",
+      "tagline": "Hlídací pes pro vaše cron úlohy. Je to webový server, který naslouchá pingům z vašich cron úloh a má webové rozhraní."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
+      "title": "Hedgedoc (LinuxServer.io)",
+      "tagline": "Umožňuje vám přístup ke všem vašim souborům, ať jste kdekoli. HedgeDoc je multiplatformní editor poznámek s možností spolupráce v reálném čase. To znamená, že si můžete psát poznámky s ostatními lidmi na počítači, tabletu nebo dokonce i na telefonu. Na domovské stránce se můžete přihlásit prostřednictvím více poskytovatelů ověřování, jako je Facebook, Twitter, GitHub a mnoho dalších."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheimdall",
+      "title": "Heimdall (LinuxServer.io)",
+      "tagline": "Způsob, jak jednoduše uspořádat všechny odkazy na nejčastěji používané webové stránky a webové aplikace. Jednoduchost je klíčem k Heimdallu. Proč ho nepoužít jako úvodní stránku prohlížeče? Dokonce nabízí možnost přidat vyhledávací lištu pomocí Googlu, Bingu nebo DuckDuckGo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhelium",
+      "title": "Helium (LinuxServer.io)",
+      "tagline": "Webový prohlížeč založený na Chromu, vytvořený pro lidi s láskou. Soukromí na prvním místě s nestranným blokováním reklam."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
+      "title": "Hishtory server (LinuxServer.io)",
+      "tagline": "Lepší historie shellu. Ukládá historii shellu v kontextu (ve kterém adresáři jste příkaz spustili, zda byl úspěšný nebo neúspěšný, jak dlouho to trvalo atd.). Vše je uloženo lokálně a šifrováno end-to-end pro synchronizaci se všemi vašimi ostatními počítači."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
+      "title": "Homeassistant (LinuxServer.io)",
+      "tagline": "Domácí automatizace s otevřeným zdrojovým kódem, která klade důraz na lokální ovládání a soukromí. Poháněno celosvětovou komunitou kutilů a nadšenců pro kutily. Ideální pro provoz na Raspberry Pi nebo lokálním serveru."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
+      "title": "Htpcmanager (LinuxServer.io)",
+      "tagline": "Front-end pro mnoho aplikací souvisejících s HTPC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverinkscape",
+      "title": "Inkscape (LinuxServer.io)",
+      "tagline": "Profesionální software pro vektorovou grafiku, který běží na stolních počítačích s Linuxem, Mac OS X a Windows."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverintellijidea",
+      "title": "Intellij idea (LinuxServer.io)",
+      "tagline": "Pomáhá vám psát kód rychleji pomocí nástrojů, které eliminují únavné úkoly a umožňují vám soustředit se na to, na čem záleží – tvorbu skvělého softwaru."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjackett",
+      "title": "Jackett (LinuxServer.io)",
+      "tagline": "Funguje jako proxy server: překládá dotazy z aplikací (Sonarr, SickRage, CouchPotato, Mylar atd.) do http dotazů specifických pro daný tracker, analyzuje HTML odpověď a poté odesílá výsledky zpět do softwaru, který je odeslal. To umožňuje získávání nedávných nahraných souborů (například RSS) a provádění vyhledávání. Jackett je jednotné úložiště udržované logiky pro scraping a překlad indexerů – čímž odstraňuje zátěž z ostatních aplikací."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjellyfin",
+      "title": "Jellyfin (LinuxServer.io)",
+      "tagline": "Mediální systém s volným softwarem, který vám dává kontrolu nad správou a streamováním médií. Jedná se o alternativu k proprietárním systémům Emby a Plex, která umožňuje poskytovat média z dedikovaného serveru koncovým zařízením prostřednictvím více aplikací. Jellyfin je potomkem verze 3.5.2 od Emby a je portován na framework .NET Core, aby umožnil plnou podporu napříč platformami. Nejsou zde žádné podmínky, žádné prémiové licence ani funkce a žádné skryté úmysly: pouze tým, který chce vytvořit něco lepšího a spolupracuje na dosažení tohoto cíle."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
+      "title": "Jenkins builder",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/jenkins-builder."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjoplin",
+      "title": "Joplin (LinuxServer.io)",
+      "tagline": "Bezplatná aplikace s otevřeným zdrojovým kódem pro psaní poznámek a úkolů, která zvládne velké množství poznámek uspořádaných do zápisníků."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkalilinux",
+      "title": "Kali linux (LinuxServer.io)",
+      "tagline": "je linuxová distribuce pro pokročilé penetrační testování používaná pro penetrační testování, etické hackování a hodnocení síťové bezpečnosti. KALI LINUX™ je ochranná známka společnosti OffSec."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkasm",
+      "title": "Kasm (LinuxServer.io)",
+      "tagline": "Workspaces je platforma pro streamování kontejnerů Docker, která poskytuje přístup k desktopům, aplikacím a webovým službám z prohlížeče. Kasm využívá infrastrukturu kontejnerizovaných desktopů (CDI) s podporou devops k vytváření kontejnerů Docker na vyžádání, které jsou přístupné prostřednictvím webového prohlížeče. Mezi příklady použití patří vzdálená izolace prohlížeče (RBI), prevence ztráty dat (DLP), desktop jako služba (DaaS), zabezpečené služby vzdáleného přístupu (RAS) a kolekce Open Source Intelligence (OSINT). Vykreslování grafických kontejnerů je poháněno open-source projektem KasmVNC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkavita",
+      "title": "Kavita (LinuxServer.io)",
+      "tagline": "Rychlý, funkčně bohatý a multiplatformní čtecí server. Vytvořen s cílem být kompletním řešením pro všechny vaše čtenářské potřeby. Nastavte si vlastní server a sdílejte svou sbírku čtení s přáteli a rodinou."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkdenlive",
+      "title": "Kdenlive (LinuxServer.io)",
+      "tagline": "Výkonný bezplatný a open source multiplatformní program pro editaci videa vytvořený komunitou KDE. Bohatý na funkcích a připravený pro produkci."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
+      "title": "Keepassxc (LinuxServer.io)",
+      "tagline": "Bezplatný správce hesel s otevřeným zdrojovým kódem. Začal jako komunitní fork KeePassX (sám o sobě multiplatformní port KeePassu)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkicad",
+      "title": "Kicad (LinuxServer.io)",
+      "tagline": "Sada pro automatizaci návrhu elektroniky s otevřeným zdrojovým kódem a více platformami."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkimai",
+      "title": "Kimai (LinuxServer.io)",
+      "tagline": "Profesionální aplikace pro sledování času, bezplatná a s otevřeným zdrojovým kódem. Zvládá použití freelancery i společnostmi s desítkami nebo stovkami uživatelů. Kimai byla vytvořena pro sledování času vašich projektů a dodává se s mnoha pokročilými funkcemi, včetně, ale nejen: JSON API, fakturace, exportu dat, režimu multi-timer a punch-in/punch-out, označování, více uživatelů - více časových pásem - více jazyků (existuje přes 30 překladů), ověřování přes SAML/LDAP/Databázi, dvoufaktorové ověřování (2FA) s TOTP, přizpůsobitelná oprávnění rolí a týmů, responzivní design, sazby specifické pro uživatele/zákazníky/projekty, pokročilé vyhledávání a filtrování, rozpočty na peníze a čas, pokročilé reportování, podpora pluginů a mnoho dalšího."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkometa",
+      "title": "Kometa (LinuxServer.io)",
+      "tagline": "Výkonný nástroj navržený tak, aby vám poskytl úplnou kontrolu nad vašimi mediálními knihovnami. S Kometou můžete posunout své úpravy na další úroveň s detailní kontrolou nad metadaty, kolekcemi, překryvy a mnoha dalšími funkcemi."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkrita",
+      "title": "Krita (LinuxServer.io)",
+      "tagline": "Profesionální BEZPLATNÝ a open source program pro malování. Je vytvořen umělci, kteří chtějí vidět cenově dostupné umělecké nástroje pro každého."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
+      "title": "Lazylibrarian (LinuxServer.io)",
+      "tagline": "Program pro sledování autorů a získávání metadat pro všechny vaše potřeby digitálního čtení. Využívá kombinaci Goodreads Librarything a volitelně GoogleBooks jako zdroje informací o autorovi a knize. Tento kontejner je založen na platformě DobyTang."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverldapauth",
+      "title": "Ldap auth (LinuxServer.io)",
+      "tagline": "Software je určen pro ověřování uživatelů, kteří požadují chráněné zdroje ze serverů proxyovaných nginx. Obsahuje démona (ldap-auth), který komunikuje s ověřovacím serverem, a démona webového serveru, který generuje ověřovací soubor cookie na základě přihlašovacích údajů uživatele. Démony jsou napsány v Pythonu pro použití s ověřovacím serverem LDAP (Lightweight Directory Access Protocol) (OpenLDAP nebo Microsoft Windows Active Directory 2003 a 2012)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
+      "title": "Libreoffice (LinuxServer.io)",
+      "tagline": "Bezplatný a výkonný kancelářský balík, nástupce OpenOffice.org (běžně známého jako OpenOffice). Jeho čisté rozhraní a nástroje bohaté na funkce vám pomohou uvolnit vaši kreativitu a zvýšit vaši produktivitu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
+      "title": "Librespeed (LinuxServer.io)",
+      "tagline": "Velmi lehký Speedtest implementovaný v Javascriptu s využitím XMLHttpRequest a Web Workerů. Žádný Flash, žádná Java, žádný Websocket, žádné kecy."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
+      "title": "Librewolf (LinuxServer.io)",
+      "tagline": "Vlastní a nezávislá verze Firefoxu, jejímž primárním cílem je ochrana soukromí, bezpečnost a uživatelská svoboda. LibreWolf si také klade za cíl odstranit veškerou telemetrii, sběr dat a obtěžující funkce a také deaktivovat funkce narušující svobodu, jako je DRM."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlidarr",
+      "title": "Lidarr (LinuxServer.io)",
+      "tagline": "Správce hudebních sbírek pro uživatele Usenetu a BitTorrentu. Dokáže sledovat více RSS kanálů a vyhledávat nové skladby od vašich oblíbených interpretů, načítat je, třídit a přejmenovávat. Lze jej také nakonfigurovat tak, aby automaticky zvyšoval kvalitu již stažených souborů, jakmile bude k dispozici formát s lepší kvalitou."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlimnoria",
+      "title": "Limnoria (LinuxServer.io)",
+      "tagline": "Robustní, plně funkční a uživatelsky/programátorsky přívětivý IRC bot v Pythonu s mnoha existujícími pluginy. Nástupce známého Supybota."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlmstudio",
+      "title": "Lm studio (LinuxServer.io)",
+      "tagline": "Můžete soukromě na svém počítači spouštět lokální modely umělé inteligence, jako jsou gpt-oss, Llama, Gemma, Qwen a DeepSeek."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlollypop",
+      "title": "Lollypop (LinuxServer.io)",
+      "tagline": "Lehký moderní hudební přehrávač navržený pro vynikající fungování v prostředí GNOME."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlsioapi",
+      "title": "Lsio api",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/lsio-api."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverluanti",
+      "title": "Luanti (LinuxServer.io)",
+      "tagline": "(dříve Minetest) je open source platforma pro tvorbu voxelových her s možností snadného modování a tvorby her."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlychee",
+      "title": "Lychee (LinuxServer.io)",
+      "tagline": "Bezplatný nástroj pro správu fotografií, který běží na vašem serveru nebo webovém prostoru. Instalace je otázkou několika sekund. Nahrávejte, spravujte a sdílejte fotografie jako z nativní aplikace. Lychee obsahuje vše, co potřebujete, a všechny vaše fotografie jsou bezpečně uloženy."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermame",
+      "title": "Mame (LinuxServer.io)",
+      "tagline": "Bezplatný emulátor s otevřeným zdrojovým kódem určený k emulaci hardwaru arkádových her, herních konzolí, starých počítačů a dalších systémů v softwaru na moderních osobních počítačích."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermanyfold",
+      "title": "Manyfold (LinuxServer.io)",
+      "tagline": "Open source, samostatně hostovaná webová aplikace pro správu kolekce 3D modelů, zaměřená zejména na 3D tisk."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermariadb",
+      "title": "Mariadb (LinuxServer.io)",
+      "tagline": "Jeden z nejpopulárnějších databázových serverů. Vytvořen původními vývojáři MySQL."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermastodon",
+      "title": "Mastodon (LinuxServer.io)",
+      "tagline": "Bezplatný server sociální sítě s otevřeným zdrojovým kódem založený na platformě ActivityPub, kde mohou uživatelé sledovat přátele a objevovat nové."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermediaelch",
+      "title": "Mediaelch (LinuxServer.io)",
+      "tagline": "MediaManager pro Kodi. Informace o filmech, televizních pořadech, koncertech a hudbě jsou uloženy jako soubory NFO. Fanouškovské kresby se stahují automaticky z fanartu. TV. Pomocí generátoru NFO lze MediaElch používat i s jinými MediaCentry."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermedusa",
+      "title": "Medusa (LinuxServer.io)",
+      "tagline": "Automatický správce videotéky pro televizní pořady. Hledá nové epizody vašich oblíbených pořadů a když jsou zveřejněny, udělá svá zázraky."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermelonds",
+      "title": "Melonds (LinuxServer.io)",
+      "tagline": "Cílem je poskytnout rychlou a přesnou emulaci Nintendo DS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminetest",
+      "title": "Minetest",
+      "tagline": "(server) je bloková sandboxová hra a herní engine s téměř nekonečným světem, inspirovaná InfiniMinerem, Minecraftem a podobnými hrami."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminisatip",
+      "title": "Minisatip (LinuxServer.io)",
+      "tagline": "Vícevláknový server Satip verze 1.2, který běží pod Linuxem a byl testován s kartami DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC a ISDB-T."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodmanager",
+      "title": "Modmanager (LinuxServer.io)",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/modmanager."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodrinth",
+      "title": "Modrinth (LinuxServer.io)",
+      "tagline": "Unikátní launcher s otevřeným zdrojovým kódem, který vám umožní hrát vaše oblíbené mody a udržovat je aktuální, to vše v jednom úhledném malém balíčku."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermonica",
+      "title": "Monica",
+      "tagline": "Systém pro správu osobních vztahů s otevřeným zdrojovým kódem, který vám umožňuje dokumentovat váš život."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermsedge",
+      "title": "Msedge (LinuxServer.io)",
+      "tagline": "Multiplatformní webový prohlížeč vyvinutý společností Microsoft a založený na prohlížeči Chromium."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermstream",
+      "title": "Mstream (LinuxServer.io)",
+      "tagline": "Osobní server pro streamování hudby. Pomocí mStream můžete streamovat hudbu z domácího počítače do jakéhokoli zařízení, kamkoli. K dispozici jsou mobilní aplikace pro Android i iPhone."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
+      "title": "Mullvad browser (LinuxServer.io)",
+      "tagline": "Prohlížeč Mullvad je webový prohlížeč zaměřený na soukromí, vyvinutý ve spolupráci mezi Mullvad VPN a projektem Tor. Je navržen tak, aby minimalizoval sledování a otisky prstů. Dalo by se říci, že je to prohlížeč Tor, který lze používat bez sítě Tor. Místo toho jej můžete používat s důvěryhodnou VPN."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermylar3",
+      "title": "Mylar3 (LinuxServer.io)",
+      "tagline": "Automatizovaný stahovač komiksů (cbr/cbz) pro použití s NZB a torrenty napsanými v Pythonu. Kromě DDL podporuje i SABnzbd, NZBGET a mnoho dalších torrentových klientů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
+      "title": "Mysql workbench (LinuxServer.io)",
+      "tagline": "MySQL Workbench je jednotný vizuální nástroj pro databázové architekty, vývojáře a správce databází. Nabízí modelování dat, vývoj v SQL a komplexní nástroje pro správu serverů, správu uživatelů, zálohování a mnoho dalšího."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernano",
+      "title": "Nano",
+      "tagline": "Digitální platební protokol navržený tak, aby byl přístupný a lehký, se zaměřením na odstranění neefektivity přítomné v jiných kryptoměnách. Díky ultrarychlým transakcím a nulovým poplatkům v bezpečné, zelené a decentralizované síti je Nano ideální pro každodenní transakce."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernanowallet",
+      "title": "Nano wallet",
+      "tagline": "Digitální platební protokol navržený tak, aby byl přístupný a lehký, se zaměřením na odstranění neefektivity přítomné v jiných kryptoměnách. Díky ultrarychlým transakcím a nulovým poplatkům v bezpečné, zelené a decentralizované síti je Nano ideální pro každodenní transakce. Tento kontejner je jednoduchý obal nginx pro lehkou peněženku umístěnou zde. Pro přístup k tomuto kontejneru budete muset předat platný RPC host."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
+      "title": "Netbootxyz",
+      "tagline": "Způsob, jak spustit různé instalační programy nebo utility operačního systému pomocí PXE z jednoho místa v systému BIOS, aniž by bylo nutné vyhledat médium pro spuštění nástroje. IPXE se používá k poskytnutí uživatelsky přívětivé nabídky v systému BIOS, která umožňuje snadno vybrat požadovaný operační systém spolu s případnými konkrétními typy verzí nebo bootovacími příznaky."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbox",
+      "title": "Netbox (LinuxServer.io)",
+      "tagline": "Nástroj pro správu IP adres (IPAM) a správu infrastruktury datových center (DCIM). NetBox, původně navržený týmem síťových inženýrů ve společnosti DigitalOcean, byl vyvinut speciálně pro potřeby síťových a infrastrukturních inženýrů. Má fungovat jako doménově specifický zdroj pravdivých informací o síťovém provozu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernextcloud",
+      "title": "Nextcloud (LinuxServer.io)",
+      "tagline": "Poskytuje vám přístup ke všem vašim souborům, ať jste kdekoli. Kde máte své fotografie a dokumenty? S Nextcloudem si vyberete server dle vlastního výběru, ať už doma, v datovém centru nebo u poskytovatele. A tam budou vaše soubory. Nextcloud běží na tomto serveru, chrání vaše data a poskytuje vám přístup z počítače nebo mobilních zařízení. Prostřednictvím Nextcloudu také přistupujete, synchronizujete a sdílíte svá stávající data na daném FTP disku v kanceláři, Dropboxu nebo NAS, který máte doma."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernginx",
+      "title": "Nginx (LinuxServer.io)",
+      "tagline": "HTTP webový server, reverzní proxy, mezipaměť obsahu, vyrovnávač zátěže, TCP/UDP proxy server a poštovní proxy server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverngircd",
+      "title": "Ngircd (LinuxServer.io)",
+      "tagline": "Bezplatný, přenosný a lehký server Internet Relay Chat pro malé nebo soukromé sítě, vyvinutý pod licencí GNU General Public License (GPL). Je snadno konfigurovatelný, zvládá dynamické IP adresy a podporuje IPv6, připojení chráněná SSL a také PAM pro ověřování. Je napsán od nuly a není založen na původním IRCd."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+      "title": "Nntp2nntp",
+      "tagline": "Proxy vám umožňuje používat váš NNTP účet z více systémů, každý s vlastním uživatelským jménem a heslem. Plně podporuje SSL a můžete také omezit přístup k proxy pomocí SSL certifikátů. Proxy Nntp2nntp je velmi jednoduchý a poměrně rychlý. ## Varování I když nevíme o žádných bezpečnostních problémech s nntp2nntp, upstream kód tohoto projektu se od 6. 8. 2015 nijak nezměnil a pravděpodobně bude trvale opuštěn. Z tohoto důvodu důrazně doporučujeme, abyste tuto aplikaci nezpřístupňovali veřejnosti, a pokud tak musíte učinit, měly by být další vrstvy zabezpečení a SSL považovány za absolutní minimum. Předpokládáme, že tento proxy se používá primárně v místní síti LAN, aby všichni uživatelé aplikací NNTP mohli sdílet společnou sadu interních přihlašovacích údajů, což umožňuje centrální správu upstreamového účtu, např. změnu poskytovatele, serveru a limitů vláken pro všechny aplikace jednou globální změnou konfigurace."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbget",
+      "title": "Nzbget (LinuxServer.io)",
+      "tagline": "Usenet downloader, napsaný v C++ a navržený s ohledem na výkon, aby dosáhl maximální rychlosti stahování s využitím velmi malého množství systémových prostředků."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
+      "title": "Nzbhydra2 (LinuxServer.io)",
+      "tagline": "Aplikace pro meta vyhledávání pro indexátory NZB, duchovní nástupce NZBmegasearcH a vývoj původní aplikace NZBHydra. Poskytuje snadný přístup k řadě indexátorů založených na RAW i newznab."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverobsidian",
+      "title": "Obsidian (LinuxServer.io)",
+      "tagline": "Aplikace pro psaní poznámek, která vám umožňuje vytvářet, propojovat a organizovat poznámky v zařízení. Nabízí stovky pluginů a šablon pro přizpůsobení pracovního postupu. Své poznámky můžete také publikovat online, přistupovat k nim offline a bezpečně je synchronizovat pomocí end-to-end šifrování."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverombi",
+      "title": "Ombi (LinuxServer.io)",
+      "tagline": "Umožňuje vám hostovat vlastní systém pro správu požadavků a uživatelů Plex. Pokud sdílíte svůj server Plex s ostatními uživateli, umožněte jim vyžádat si nový obsah pomocí snadno spravovatelného rozhraní. Snadno spravujte všechny své požadavky na filmy a TV, zanechávejte uživatelům poznámky a dostávejte upozornění, když uživatel něco požaduje. Umožněte svým uživatelům zveřejňovat problémy s jejich požadavky, abyste věděli, že existuje problém se zvukem atd. Dokonce jim automaticky zasílejte týdenní newslettery s novým obsahem, který byl přidán na váš server Plex."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
+      "title": "Onlyoffice (LinuxServer.io)",
+      "tagline": "Poskytuje kompletní škálu nástrojů pro vytváření, úpravy a spolupráci na textových dokumentech, tabulkách, prezentacích, PDF formulářích a běžných PDF souborech na webových, stolních a mobilních platformách."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenshot",
+      "title": "Openshot (LinuxServer.io)",
+      "tagline": "Video Editor je oceňovaný bezplatný a open-source video editor pro Linux, Mac a Windows, který se věnuje poskytování vysoce kvalitních řešení pro střih videa a animaci po celém světě."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+      "title": "Openssh server (LinuxServer.io)",
+      "tagline": "Sandboxové prostředí, které umožňuje přístup přes SSH bez nutnosti udělovat klíče celému serveru. Udělení přístupu přes SSH prostřednictvím soukromého klíče často znamená udělení plného přístupu k serveru. Tento kontejner vytváří omezené a sandboxové prostředí, do kterého se ostatní mohou připojit přes SSH. Uživatelé mají přístup pouze k namapovaným složkám a procesům spuštěným uvnitř tohoto kontejneru."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
+      "title": "Openvscode server",
+      "tagline": "Poskytuje verzi VS Code, která spouští server na vzdáleném počítači a umožňuje přístup prostřednictvím moderního webového prohlížeče."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropera",
+      "title": "Opera (LinuxServer.io)",
+      "tagline": "Multiplatformní webový prohlížeč vyvinutý společností Opera, která po něm vytvořila stejnou platformu. Prohlížeč je založen na Chromiu, ale od ostatních prohlížečů založených na Chromiu (Chrome, Edge atd.) se odlišuje svým uživatelským rozhraním a dalšími funkcemi."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
+      "title": "Orcaslicer (LinuxServer.io)",
+      "tagline": "Open source slicer pro FDM tiskárny. OrcaSlicer je forkem Bambu Studia, dříve známého jako BambuStudio-SoftFever. Bambu Studio je forkem PrusaSliceru od Prusa Research, který je forkem Slic3r od Alessandra Ranellucciho a komunity RepRap."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroscam",
+      "title": "Oscam (LinuxServer.io)",
+      "tagline": "Software s otevřeným zdrojovým kódem pro modul podmíněného přístupu (Conditional Access Module) používaný pro dekódování DVB přenosů pomocí čipových karet. Je to server i klient."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroverseerr",
+      "title": "Overseerr",
+      "tagline": "Nástroj pro správu požadavků a vyhledávání médií, který je vytvořen pro práci s vaším stávajícím ekosystémem Plex."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpairdrop",
+      "title": "Pairdrop (LinuxServer.io)",
+      "tagline": "Vynikající alternativa k AirDropu, která funguje na všech platformách. Posílejte obrázky, dokumenty nebo text přes peer-to-peer připojení na zařízení ve stejné místní síti/Wi-Fi nebo na spárovaná zařízení."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpcsx2",
+      "title": "Pcsx2 (LinuxServer.io)",
+      "tagline": "Emulátor PS2 s otevřeným zdrojovým kódem."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpelorus",
+      "title": "Pelorus (LinuxServer.io)",
+      "tagline": "Navigátor s umělou inteligencí pro desktopy Linuxu s platformou Selkies. Pelorus provozuje server FastAPI, který poskytuje agentovi LLM (kompatibilnímu s Ollama, OpenAI nebo Gemini) kontrolu nad myší, klávesnicí, snímky obrazovky a správou oken prostřednictvím backendu Pixelflux pro použití na počítači, stromu přístupnosti Linuxu (AT-SPI) a volitelné integrace KWin D-Bus."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
+      "title": "Phpmyadmin (LinuxServer.io)",
+      "tagline": "Bezplatný softwarový nástroj napsaný v PHP, určený pro správu MySQL přes web. PhpMyAdmin podporuje širokou škálu operací s MySQL a MariaDB."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpidgin",
+      "title": "Pidgin (LinuxServer.io)",
+      "tagline": "Chatovací program, který vám umožňuje přihlásit se k účtům na více chatovacích sítích současně. To znamená, že si můžete chatovat s přáteli na XMPP a zároveň být na IRC kanálu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiper",
+      "title": "Piper (LinuxServer.io)",
+      "tagline": "Rychlý, lokální neuronový systém pro převod textu na řeč, který zní skvěle a je optimalizovaný pro Raspberry Pi 4. Tento kontejner poskytuje server protokolu Wyoming pro Piper."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiwigo",
+      "title": "Piwigo (LinuxServer.io)",
+      "tagline": "Software pro webovou fotogalerii s výkonnými funkcemi pro publikování a správu vaší sbírky obrázků."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplanka",
+      "title": "Planka (LinuxServer.io)",
+      "tagline": "Elegantní nástroj pro sledování projektů s otevřeným zdrojovým kódem."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplex",
+      "title": "Plex (LinuxServer.io)",
+      "tagline": "Organizuje video, hudbu a fotografie z osobních mediálních knihoven a streamuje je do chytrých televizorů, streamovacích boxů a mobilních zařízení. Tento kontejner je zabalen jako samostatný Plex Media Server. Díky jednoduchému designu a hromadným akcím se práce vyřídí rychleji."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplexmetamanager",
+      "title": "Plex meta-manager",
+      "tagline": "Skript Pythonu 3, který lze průběžně spouštět pomocí konfiguračních souborů YAML pro aktualizaci metadat filmů, pořadů a kolekcí ve vašich knihovnách podle plánu a také pro automatické vytváření kolekcí na základě různých metod, které jsou podrobně popsány na wiki."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverppsspp",
+      "title": "Ppsspp (LinuxServer.io)",
+      "tagline": "Bezplatný emulátor PSP s otevřeným zdrojovým kódem pro Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series a Symbian se zaměřením na rychlost a přenositelnost."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprojectsend",
+      "title": "Projectsend (LinuxServer.io)",
+      "tagline": "Aplikace hostovaná na vlastním serveru, která vám umožňuje nahrávat soubory a přiřazovat je konkrétním klientům, které si sami vytvoříte. Bezpečné, soukromé a snadné. Už žádné závislost na externích službách nebo e-mailu pro odesílání těchto souborů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprowlarr",
+      "title": "Prowlarr (LinuxServer.io)",
+      "tagline": "Správce/proxy indexerů postavený na populárním základním stacku arr.Net/reactjs pro integraci s vašimi různými PVR aplikacemi. Prowlarr podporuje jak Torrent Trackery, tak Usenet Indexery. Bezproblémově se integruje se Sonarr, Radarr, Lidarr a Readarr a nabízí kompletní správu vašich indexerů bez nutnosti nastavení indexeru pro každou aplikaci (všechno děláme my)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpwndrop",
+      "title": "Pwndrop (LinuxServer.io)",
+      "tagline": "Samostatně nasaditelná služba pro hostování souborů pro odesílání dat typu red teaming nebo bezpečné sdílení vašich soukromých souborů přes HTTP a WebDAV."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpycharm",
+      "title": "Pycharm (LinuxServer.io)",
+      "tagline": "Nabízí okamžitou podporu pro Python, databáze, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI a další."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpydiocells",
+      "title": "Pydio cells (LinuxServer.io)",
+      "tagline": "Platforma pro sdílení souborů nové generace pro organizace. Jedná se o kompletní přepracování projektu Pydio s využitím jazyka Go a architektury mikroslužeb."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpyloadng",
+      "title": "Pyload ng (LinuxServer.io)",
+      "tagline": "Bezplatný a open source stahovací manažer napsaný v Pythonu, navržený tak, aby byl extrémně lehký, snadno rozšiřitelný a plně spravovatelný přes web."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpylon",
+      "title": "Pylon",
+      "tagline": "Webové integrované vývojové prostředí postavené na Node.Js jako backendu a s pokročilým frontendem s JavaScriptem/HTML5, licencované pod GPL verze 3. Tento projekt vychází z projektu Cloud9 v2."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpython",
+      "title": "Python",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na https://hub.Docker.com/r/linuxserver/python."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
+      "title": "Qbittorrent (LinuxServer.io)",
+      "tagline": "Qbittorrent je bittorrentový klient naprogramovaný v C++ / Qt, který používá knihovnu libtorrent (někdy nazývanou libtorrent-rasterbar) od Arvida Norberga."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqdirstat",
+      "title": "Qdirstat (LinuxServer.io)",
+      "tagline": "Statistiky adresářů založené na Qt: KDirStat bez KDE -- od autora původního KDirStat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqemustatic",
+      "title": "Qemu static (LinuxServer.io)",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/qemu-static."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+      "title": "Quassel core",
+      "tagline": "Moderní, multiplatformní, distribuovaný IRC klient, což znamená, že jeden (nebo více) klientů se může připojit k centrálnímu jádru a odpojit od něj. Tento kontejner zajišťuje IRC připojení (quasselcore) a k použití a konfiguraci vyžaduje desktopového klienta (quasselclient). Je navržen tak, aby byl neustále zapnutý a uchovával vaši identitu v IRC, i když vaši klienti nemohou být online. Backlog (historie) si klient stáhne při opětovném připojení, což umožňuje nekonečné posouvání zpět v čase."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselweb",
+      "title": "Quassel web",
+      "tagline": "Webový klient pro Quassel. Je vyžadována instance Quassel-Core, kontejner máme k dispozici zde."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverradarr",
+      "title": "Radarr (LinuxServer.io)",
+      "tagline": "Fork Sonarru pro práci s filmy ve stylu Couchpotato."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverraneto",
+      "title": "Raneto (LinuxServer.io)",
+      "tagline": "je open source platforma znalostní báze, která využívá statické soubory Markdownu k napájení vaší znalostní báze."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
+      "title": "Rawtherapee (LinuxServer.io)",
+      "tagline": "Bezplatný multiplatformní program pro zpracování RAW obrázků."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrdesktop",
+      "title": "Rdesktop",
+      "tagline": "Kontejnery obsahující plnohodnotná desktopová prostředí v mnoha populárních variantách pro Alpine, Ubuntu, Arch a Fedoru, přístupné přes RDP."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverreadmesync",
+      "title": "Readme sync",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/readme-sync."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverremmina",
+      "title": "Remmina (LinuxServer.io)",
+      "tagline": "Klient pro vzdálenou plochu napsaný v GTK, jehož cílem je být užitečný pro systémové administrátory a cestovatele, kteří potřebují pracovat s velkým množstvím vzdálených počítačů před velkými nebo malými obrazovkami. Remmina podporuje více síťových protokolů v integrovaném a konzistentním uživatelském rozhraní. Aktuálně jsou podporovány RDP, VNC, SPICE, SSH a EXEC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrequestrr",
+      "title": "Requestrr",
+      "tagline": "Chatbot sloužící ke zjednodušení používání služeb jako Sonarr/Radarr/Ombi prostřednictvím chatu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+      "title": "Resilio sync (LinuxServer.io)",
+      "tagline": "(dříve BitTorrent Sync) používá protokol BitTorrent k synchronizaci souborů a složek mezi všemi vašimi zařízeními. Existují bezplatné i placené verze, tento kontejner podporuje obě. Existuje oficiální synchronizační obraz, ale my jsme vytvořili tento, protože podporuje mapování uživatelů pro zjednodušení oprávnění pro svazky."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverretroarch",
+      "title": "Retroarch (LinuxServer.io)",
+      "tagline": "Front-end pro emulátory, herní enginy a přehrávače médií. Umožňuje vám spouštět klasické hry na široké škále počítačů a konzolí prostřednictvím elegantního grafického rozhraní."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrpcs3",
+      "title": "Rpcs3 (LinuxServer.io)",
+      "tagline": "Multiplatformní open-source emulátor a debugger pro Sony PlayStation 3 napsaný v C++ pro Windows, Linux, macOS a FreeBSD."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+      "title": "Rsnapshot (LinuxServer.io)",
+      "tagline": "Nástroj pro vytváření snímků souborového systému založený na rsync. Rsnapshot usnadňuje vytváření pravidelných snímků lokálních počítačů a vzdálených počítačů přes ssh. Kód ve velké míře využívá pevné linky, kdykoli je to možné, aby se výrazně snížila potřeba místa na disku."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrustdesk",
+      "title": "Rustdesk (LinuxServer.io)",
+      "tagline": "Plně funkční alternativa dálkového ovládání s otevřeným zdrojovým kódem pro vlastní hosting a zabezpečení s minimální konfigurací."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversabnzbd",
+      "title": "Sabnzbd (LinuxServer.io)",
+      "tagline": "Automatizuje vše, co je v našich silách, a dělá Usenet co nejjednodušším a nejefektívnějším. Stačí přidat .Nzb. SABnzbd převezme kontrolu odtud, kde se data automaticky stáhnou, ověří, opraví, extrahují a uloží bez lidské interakce."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverscummvm",
+      "title": "Scummvm (LinuxServer.io)",
+      "tagline": "Program, který umožňuje spustit některé klasické grafické adventury a RPG hry, pokud již máte jejich datové soubory. Chytrá část: ScummVM pouze nahrazuje spustitelné soubory dodávané s hrami, což vám umožňuje hrát je na systémech, pro které nikdy nebyly navrženy. ScummVM je kompletní přepis spustitelných souborů těchto her a není emulátorem."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversealskin",
+      "title": "Sealskin (LinuxServer.io)",
+      "tagline": "Samostatně hostovaná platforma typu klient-server, která umožňuje uživatelům spouštět výkonné kontejnerizované desktopové aplikace streamované přímo do webového prohlížeče. Používá rozšíření prohlížeče k zachycení akcí uživatelů – jako je kliknutí na odkaz nebo stahování souboru – a přesměruje je do zabezpečeného, izolovaného aplikačního prostředí běžícího na vzdáleném serveru."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
+      "title": "Series troxide",
+      "tagline": "Jednoduchý a moderní sledovač seriálů"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershadps4",
+      "title": "Shadps4 (LinuxServer.io)",
+      "tagline": "Raný emulátor PlayStation 4 pro Windows, Linux a macOS napsaný v C++."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershotcut",
+      "title": "Shotcut (LinuxServer.io)",
+      "tagline": "Bezplatný, open source, multiplatformní video editor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickchill",
+      "title": "Sickchill",
+      "tagline": "Automatický správce videotéky pro televizní pořady. Hledá nové epizody vašich oblíbených pořadů a když jsou zveřejněny, udělá svá zázraky."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickgear",
+      "title": "Sickgear (LinuxServer.io)",
+      "tagline": "Umožňuje správu televizních pořadů a/nebo anime, detekuje nové epizody, odkazy na aplikace pro stahování a další. Více informací o SickGear naleznete na jejich webových stránkách: https://github.com/SickGear/SickGear"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversignal",
+      "title": "Signal (LinuxServer.io)",
+      "tagline": "Aplikace pro zasílání zpráv, jejímž základem je soukromí. Je bezplatná a snadno se používá a má silné end-to-end šifrování, které udržuje vaši komunikaci zcela v soukromí."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversmokeping",
+      "title": "Smokeping (LinuxServer.io)",
+      "tagline": "Sleduje latenci vaší sítě. Úplný příklad toho, co tato aplikace dokáže, naleznete na UCDavis."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnapdrop",
+      "title": "Snapdrop",
+      "tagline": "Lokální sdílení souborů ve vašem prohlížeči. Inspirováno službou Airdrop od Applu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnipeit",
+      "title": "Snipe it",
+      "tagline": "Usnadňuje správu aktiv. Byl vytvořen lidmi, kteří řeší reálné problémy v oblasti IT a správy aktiv, a solidní uživatelská zkušenost byla vždy nejvyšší prioritou. Jednoduchý design a hromadné akce znamenají rychlejší vyřízení úkolů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversocketproxy",
+      "title": "Socket proxy (LinuxServer.io)",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/socket-proxy."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversonarr",
+      "title": "Sonarr (LinuxServer.io)",
+      "tagline": "(dříve NZBdrone) je PVR pro uživatele sítí Usenet a BitTorrent. Dokáže sledovat více RSS kanálů a vyhledávat nové epizody vašich oblíbených pořadů a načítat je, třídit a přejmenovávat. Lze jej také nakonfigurovat tak, aby automaticky zvyšoval kvalitu již stažených souborů, jakmile bude k dispozici formát lepší kvality."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
+      "title": "Speedtest tracker (LinuxServer.io)",
+      "tagline": "Samostatně hostovaná aplikace pro sledování výkonu internetu, která provádí kontroly rychlosti pomocí služby Ookla Speedtest."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspotube",
+      "title": "Spotube (LinuxServer.io)",
+      "tagline": "Open source multiplatformní klient Spotify kompatibilní s různými platformami využívající datové API Spotify a YouTube, Piped.Video nebo JioSaavn jako zdroj zvuku, čímž eliminuje potřebu Spotify Premium."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
+      "title": "Sqlitebrowser (LinuxServer.io)",
+      "tagline": "Vysoce kvalitní, vizuální nástroj s otevřeným zdrojovým kódem pro vytváření, návrh a úpravu databázových souborů kompatibilní se SQLite."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteam",
+      "title": "Steam (LinuxServer.io)",
+      "tagline": "Dokonalé místo pro hraní, diskuze a tvorbu her."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteamos",
+      "title": "Steamos",
+      "tagline": "Distribuce Linuxu založená na Archu od společnosti Valve Software. Tento kontejner je základní instalace Archu s přidanými repozitáři Steam pro softwarovou podporu. Tento kontejner bude fungovat pouze s moderními grafickými kartami AMD/Intel na skutečném Linuxovém hostiteli."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverswag",
+      "title": "Swag (LinuxServer.io)",
+      "tagline": "SWAG - Secure Web Application Gateway (dříve známý jako letsencrypt, bez vztahu k Let's Encrypt™) nastavuje webový server Nginx a reverzní proxy s podporou PHP a vestavěným klientem certbot, který automatizuje procesy generování a obnovy bezplatných SSL certifikátů serverů (Let's Encrypt a ZeroSSL). Obsahuje také fail2ban pro prevenci narušení."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversynclounge",
+      "title": "Synclounge (LinuxServer.io)",
+      "tagline": "Nástroj třetí strany, který vám umožňuje sledovat Plex synchronizovaně s přáteli/rodinou, ať jste kdekoli."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyncthing",
+      "title": "Syncthing (LinuxServer.io)",
+      "tagline": "Nahrazuje proprietární synchronizační a cloudové služby něčím otevřeným, důvěryhodným a decentralizovaným. Vaše data jsou jen vaše data a vy si zasloužíte vybrat, kde budou uložena, zda budou sdílena s nějakou třetí stranou a jak budou přenášena přes internet."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyslogng",
+      "title": "Syslog ng (LinuxServer.io)",
+      "tagline": "Umožňuje flexibilně shromažďovat, analyzovat, klasifikovat, přepisovat a korelovat protokoly z celé vaší infrastruktury a ukládat je nebo směrovat do nástrojů pro analýzu protokolů."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertautulli",
+      "title": "Tautulli (LinuxServer.io)",
+      "tagline": "Webová aplikace v Pythonu pro monitorování, analýzu a notifikace pro Plex Media Server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertelegram",
+      "title": "Telegram (LinuxServer.io)",
+      "tagline": "Cloudová aplikace pro mobilní zařízení a počítače."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertester",
+      "title": "Tester",
+      "tagline": "Tento interní nástroj se používá jako desktopový sandbox v našem procesu CI k pořízení snímku obrazovky z doufejme funkčního endpointu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthelounge",
+      "title": "Thelounge (LinuxServer.io)",
+      "tagline": "(odnože shoutIRC) je webový IRC klient, kterého hostujete na svém vlastním serveru."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthunderbird",
+      "title": "Thunderbird (LinuxServer.io)",
+      "tagline": "Bezplatný a open-source správce osobních údajů, který se používá především jako e-mailový klient s kalendářem a adresářem, ale také jako čtečka RSS kanálů, chatovací klient a klient pro zprávy."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertransmission",
+      "title": "Transmission (LinuxServer.io)",
+      "tagline": "Navrženo pro snadné a výkonné použití. Transmission nabízí funkce, které od BitTorrent klienta očekáváte: šifrování, webové rozhraní, výměnu peerů, magnetické odkazy, přesměrování portů DHT, µTP, UPnP a NAT-PMP, podporu webseed, sledovací adresáře, úpravu trackerů, globální a pro jednotlivé torrenty rychlostní limity a další."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertvheadend",
+      "title": "Tvheadend (LinuxServer.io)",
+      "tagline": "Funguje jako proxy server: je streamovací server a rekordér TV pro Linux, FreeBSD a Android s podporou DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP a HDHomeRun jako vstupní zdroje. Tvheadend nabízí streamování HTTP (VLC, MPlayer), HTSP (Kodi, Movian) a SAT>IP. Podporuje více zdrojů EPG (over-the-air DVB a ATSC včetně rozšíření OpenTV DVB, XMLTV, PyXML)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverubooquity",
+      "title": "Ubooquity (LinuxServer.io)",
+      "tagline": "Bezplatný, lehký a snadno použitelný domácí server pro vaše komiksy a elektronické knihy. Použijte jej pro přístup k souborům odkudkoli, z tabletu, elektronické čtečky, telefonu nebo počítače."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
+      "title": "Ungoogled chromium (LinuxServer.io)",
+      "tagline": "Google Chromium bez závislosti na webových službách Google."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunificontroller",
+      "title": "Unifi controller",
+      "tagline": "Software Unifi-controller je výkonný podnikový bezdrátový softwarový engine, ideální pro klientské nasazení s vysokou hustotou vyžadující nízkou latenci a vysokou provozuschopnost."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
+      "title": "Unifi network-application (LinuxServer.io)",
+      "tagline": "Aplikační software Unifi pro síťové sítě je výkonný podnikový bezdrátový softwarový engine, ideální pro klientské nasazení s vysokou hustotou, které vyžadují nízkou latenci a vysokou provozuschopnost."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunrar",
+      "title": "Unrar",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/unrar."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervivaldi",
+      "title": "Vivaldi (LinuxServer.io)",
+      "tagline": "Norský freewarový multiplatformní webový prohlížeč s vestavěným e-mailovým klientem vyvinutý společností Vivaldi Technologies."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervlc",
+      "title": "Vlc (LinuxServer.io)",
+      "tagline": "Bezplatný a otevřený multiplatformní multimediální přehrávač a framework, který poskytuje spolehlivý výkon na více zařízeních."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscode",
+      "title": "Vscode (LinuxServer.io)",
+      "tagline": "Integrované vývojové prostředí vyvinuté společností Microsoft. Tento kontejner spouští plnou desktopovou aplikaci, webovou nativní verzi naleznete na Code Server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodium",
+      "title": "Vscodium (LinuxServer.io)",
+      "tagline": "Komunitně řízená, volně licencovaná binární distribuce editoru VS Code od společnosti Microsoft."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
+      "title": "Vscodium web (LinuxServer.io)",
+      "tagline": "Komunitně řízená, volně licencovaná binární distribuce webové komponenty vzdáleného hostitele editoru VS Code od společnosti Microsoft."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebcord",
+      "title": "Webcord (LinuxServer.io)",
+      "tagline": "Lze to shrnout jako balíček vylepšení zabezpečení a ochrany soukromí, Discord obsahuje reimplementace funkcí, řešení chyb Electron / Chromium / Discord, styly, interní stránky a zabalenou stránku https://discord.com, navrženou tak, aby co nejvíce odpovídala Podmínkám služby (nebo skryla změny, které by je mohly porušovat, před očima Discordu)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
+      "title": "Webgrabplus (LinuxServer.io)",
+      "tagline": "Vícestránkový inkrementální program pro získávání EPG dat v XML. Shromažďuje data televizních programů z vybraných stránek s televizními programy pro vaše oblíbené kanály."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebstation",
+      "title": "Webstation (LinuxServer.io)",
+      "tagline": "Nativní webová emulace zaměřená na LXQt desktop založený na Ubuntu."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebtop",
+      "title": "Webtop (LinuxServer.io)",
+      "tagline": "Kontejnery založené na systémech Alpine, Ubuntu, Fedora a Arch obsahující plnohodnotná desktopová prostředí v oficiálně podporovaných verzích, přístupná prostřednictvím jakéhokoli moderního webového prohlížeče."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverweixin",
+      "title": "Weixin (LinuxServer.io)",
+      "tagline": "(WeChat) je aplikace pro rychlé zasílání zpráv, sociální média a mobilní platby vyvinutá společností Tencent."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwikijs",
+      "title": "Wikijs (LinuxServer.io)",
+      "tagline": "Moderní, lehká a výkonná wiki aplikace postavená na NodeJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwinegui",
+      "title": "Winegui (LinuxServer.io)",
+      "tagline": "Uživatelsky přívětivý správce vína, který poskytuje grafické rozhraní pro vytváření a správu lahví vína."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireguard",
+      "title": "Wireguard (LinuxServer.io)",
+      "tagline": "Extrémně jednoduchá, ale rychlá a moderní VPN, která využívá nejmodernější kryptografii. Jejím cílem je být rychlejší, jednodušší, štíhlejší a užitečnější než IPsec a zároveň se vyhnout masivním problémům. Má být podstatně výkonnější než OpenVPN. WireGuard je navržen jako univerzální VPN pro běh na vestavěných rozhraních a superpočítačích, vhodná pro mnoho různých situací. Původně vydána pro linuxové jádro, nyní je multiplatformní (Windows, macOS, BSD, iOS, Android) a široce použitelná. V současné době je ve fázi intenzivního vývoje, ale již nyní by mohla být považována za nejbezpečnější, nejsnadněji použitelné a nejjednodušší VPN řešení v oboru."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireshark",
+      "title": "Wireshark (LinuxServer.io)",
+      "tagline": "Nejvýznamnější a nejpoužívanější analyzátor síťových protokolů na světě. Umožňuje vám sledovat, co se děje ve vaší síti na mikroskopické úrovni, a je de facto (a často i de jure) standardem v mnoha komerčních a neziskových podnicích, vládních agenturách a vzdělávacích institucích. Vývoj Wiresharku vzkvétá díky dobrovolnickým příspěvkům síťových expertů z celého světa a je pokračováním projektu, který v roce 1998 zahájil Gerald Combs."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
+      "title": "Wps office (LinuxServer.io)",
+      "tagline": "Lehký, funkčně bohatý a komplexní kancelářský balík s vysokou kompatibilitou. WPS Office je praktický a profesionální kancelářský software, který umožňuje upravovat soubory ve formátech Writer, Presentation, Spreadsheet a PDF a zlepšit tak efektivitu vaší práce."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxbackbone",
+      "title": "Xbackbone (LinuxServer.io)",
+      "tagline": "Jednoduchý, samostatně hostovaný a lehký správce souborů v PHP, který podporuje nástroj pro okamžité sdílení ShareX a systémy *NIX. Podporuje nahrávání a zobrazování obrázků, GIFů, videa, kódu, formátovaného textu a stahování a nahrávání souborů. Má také webové uživatelské rozhraní se správou pro více uživatelů, historií nahraných souborů a podporou vyhledávání."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxemu",
+      "title": "Xemu (LinuxServer.io)",
+      "tagline": "Bezplatná aplikace s otevřeným zdrojovým kódem, která emuluje původní herní konzoli Microsoft Xbox a umožňuje lidem hrát jejich původní hry pro Xbox na systémech Windows, macOS a Linux."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxvfb",
+      "title": "Xvfb",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/xvfb."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryaak",
+      "title": "Yaak (LinuxServer.io)",
+      "tagline": "Desktopový API klient pro organizaci a spouštění požadavků REST, GraphQL a gRPC. Je vytvořen s využitím Tauri, Rust a ReactJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryourspotify",
+      "title": "Your_spotify (LinuxServer.io)",
+      "tagline": "Aplikace hostovaná na vlastním serveru, která sleduje, co posloucháte, a nabízí vám přehled statistik o vaší hudbě. Skládá se z webového serveru, který čas od času dotazuje Spotify API, a webové aplikace, ve které si můžete prohlížet statistiky."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryq",
+      "title": "Yq",
+      "tagline": "Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na https://hub.Docker.com/r/linuxserver/yq."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzen",
+      "title": "Zen (LinuxServer.io)",
+      "tagline": "Bezplatná a open-source verze prohlížeče Mozilla Firefox se zaměřením na soukromí, přizpůsobitelnost a design."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverznc",
+      "title": "Znc (LinuxServer.io)",
+      "tagline": "IRC síťový bouncer neboli BNC. Dokáže odpojit klienta od skutečného IRC serveru a také od vybraných kanálů. Více klientů z různých míst se může současně připojit k jednomu ZNC účtu a proto se na IRC zobrazovat pod stejnou přezdívkou."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzotero",
+      "title": "Zotero (LinuxServer.io)",
+      "tagline": "Bezplatný a snadno použitelný nástroj, který vám pomůže shromažďovat, organizovat, anotovat, citovat a sdílet výzkumné informace."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:0.8.4-romm
+    image: linuxserver/webstation:0.8.5-romm
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -23,7 +23,32 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserverwebstation/assets/icon.png
   title:
     en_US: Webstation (LinuxServer.io)
+    ca_ES: Webstation (LinuxServer.io)
+    cs_CZ: Webstation (LinuxServer.io)
+    da_DK: Webstation (LinuxServer.io)
+    de_DE: Webstation (LinuxServer.io)
+    el_GR: Webstation (LinuxServer.io)
+    en_GB: Webstation (LinuxServer.io)
+    es_ES: Webstation (LinuxServer.io)
+    fr_FR: Webstation (LinuxServer.io)
+    ga_IE: Webstation (LinuxServer.io)
+    hr_HR: Webstation (LinuxServer.io)
+    hu_HU: Webstation (LinuxServer.io)
+    it_IT: Webstation (LinuxServer.io)
+    ja_JP: Webstation (LinuxServer.io)
+    ko_KR: Webstation (LinuxServer.io)
+    ml_IN: Webstation (LinuxServer.io)
+    nb_NO: Webstation (LinuxServer.io)
+    nl_NL: Webstation (LinuxServer.io)
+    pl_PL: Webstation (LinuxServer.io)
+    pt_BR: Webstation (LinuxServer.io)
+    ro_RO: Webstation (LinuxServer.io)
+    ru_RU: Webstation (LinuxServer.io)
+    sk_SK: Webstation (LinuxServer.io)
+    sv_SE: Webstation (LinuxServer.io)
+    tr_TR: Webstation (LinuxServer.io)
     zh_CN: Webstation（LinuxServer.io）
+    zh_TW: Webstation（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverwebstation
   port_map: '3000'
-  version: 0.8.4-romm
+  version: 0.8.5-romm

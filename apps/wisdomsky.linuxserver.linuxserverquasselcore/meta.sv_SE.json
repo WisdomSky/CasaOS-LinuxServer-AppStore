@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+  "title": "Quassel core",
+  "tagline": "En modern, plattformsoberoende, distribuerad IRC-klient, vilket innebär att en (eller flera) klienter kan ansluta till och koppla från en central kärna. Denna container hanterar IRC-anslutningen (quasselcore) och kräver att en skrivbordsklient (quasselclient) används och konfigureras. Den är utformad för att alltid vara påslagen och kommer att hålla din identitet närvarande i IRC även när dina klienter inte kan vara online. Backloggen (historik) laddas ner av din klient vid återanslutning, vilket möjliggör oändlig bakåtskrollning genom tiden.",
+  "description": "Besök hemsidan: https://hub.docker.com/r/linuxserver/quassel-core/"
+}

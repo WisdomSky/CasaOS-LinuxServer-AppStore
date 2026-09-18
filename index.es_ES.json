@@ -1,0 +1,1234 @@
+{
+  "apps": [
+    {
+      "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
+      "title": "Adguardhome sync (LinuxServer.io)",
+      "tagline": "Una herramienta para sincronizar la configuración de AdGuardHome con las instancias de réplica."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
+      "title": "Airsonic advanced (LinuxServer.io)",
+      "tagline": "Un reproductor multimedia gratuito basado en la web que te brinda acceso ilimitado a tu música. Úsalo para compartir tu música con amigos o para escucharla mientras trabajas. Puedes reproducir contenido en varios reproductores simultáneamente, por ejemplo, en uno en la cocina y otro en la sala."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraltus",
+      "title": "Altus (LinuxServer.io)",
+      "tagline": "Un cliente de WhatsApp basado en Electron con temas y soporte para múltiples cuentas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverappriseapi",
+      "title": "Apprise api (LinuxServer.io)",
+      "tagline": "Aprovecha Apprise a través de tu red con una API fácil de usar. * Envía notificaciones a más de 100 servicios. * Una puerta de enlace increíblemente ligera a Apprise. * Un microservicio listo para producción a tu disposición. * Un sitio web sencillo para verificar y probar tu configuración. La API de Apprise se diseñó para integrarse fácilmente en ecosistemas existentes (y nuevos) que buscan una solución de notificación simple."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverardour",
+      "title": "Ardour (LinuxServer.io)",
+      "tagline": "Un proyecto de código abierto y colaborativo, fruto del trabajo de un equipo internacional que incluye músicos, programadores e ingenieros de grabación profesionales."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveraudacity",
+      "title": "Audacity (LinuxServer.io)",
+      "tagline": "Un editor y grabador de audio multipista fácil de usar. Desarrollado por un grupo de voluntarios como software de código abierto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverazahar",
+      "title": "Azahar (LinuxServer.io)",
+      "tagline": "Un emulador de 3DS de código abierto basado en Citra."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbabybuddy",
+      "title": "Babybuddy (LinuxServer.io)",
+      "tagline": "Un compañero ideal para bebés. Ayuda a los cuidadores a registrar el sueño, las tomas, los cambios de pañal, el tiempo boca abajo y mucho más para conocer y predecir las necesidades del bebé sin tener que adivinar tanto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbambustudio",
+      "title": "Bambustudio (LinuxServer.io)",
+      "tagline": "Un software de segmentación de código abierto, de vanguardia y con numerosas funciones. Incluye flujos de trabajo basados en proyectos, algoritmos de segmentación optimizados sistemáticamente y una interfaz gráfica fácil de usar, lo que proporciona a los usuarios una experiencia de impresión increíblemente fluida."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbazarr",
+      "title": "Bazarr (LinuxServer.io)",
+      "tagline": "Una aplicación complementaria para Sonarr y Radarr. Permite gestionar y descargar subtítulos según tus necesidades. Define tus preferencias por serie o película y Bazarr se encarga del resto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbeets",
+      "title": "Beets (LinuxServer.io)",
+      "tagline": "Se trata principalmente de un gestor de bibliotecas musicales, no de un reproductor de música. Incluye un sencillo complemento de reproducción y un reproductor web experimental, pero generalmente deja la reproducción de sonido a herramientas especializadas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
+      "title": "Bitcoin knots (LinuxServer.io)",
+      "tagline": "Puede utilizarse como cliente de escritorio para pagos regulares o como una utilidad de servidor de nodo completo para comerciantes y otros servicios de pago."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
+      "title": "Blade of-agony (LinuxServer.io)",
+      "tagline": "Un juego de disparos ambientado en la Segunda Guerra Mundial con una historia profunda, inspirado en Wolfenstein y Doom."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverblender",
+      "title": "Blender (LinuxServer.io)",
+      "tagline": "Un conjunto de herramientas de software de gráficos 3D gratuito y de código abierto utilizado para crear películas de animación, efectos visuales, arte, modelos impresos en 3D, gráficos en movimiento, aplicaciones 3D interactivas, realidad virtual y videojuegos. Esta imagen no admite renderizado por GPU de forma predeterminada, solo una experiencia de espacio de trabajo acelerada."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverboinc",
+      "title": "Boinc (LinuxServer.io)",
+      "tagline": "Plataforma para computación de alto rendimiento a gran escala (miles o millones de ordenadores). Puede utilizarse para computación distribuida (con dispositivos de consumo) o computación en malla (con recursos de organizaciones). Admite aplicaciones virtualizadas, paralelas y basadas en GPU."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
+      "title": "Booksonic air",
+      "tagline": "Una plataforma para acceder a tus audiolibros estés donde estés. Actualmente, la plataforma consta de: * Booksonic Air: un servidor para reproducir tus audiolibros en streaming, sucesor del servidor Booksonic original y basado en Airsonic. * Aplicación Booksonic: una aplicación para Android basada en D-Sub para conectarse a los servidores Booksonic-Air."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbookstack",
+      "title": "Bookstack (LinuxServer.io)",
+      "tagline": "Una wiki gratuita y de código abierto diseñada para crear documentación atractiva. Con un editor WYSIWYG sencillo pero potente, permite a los equipos crear documentación detallada y útil con facilidad. Impulsada por SQL e incluyendo un editor Markdown para quienes lo prefieran, BookStack está diseñada para que la creación de documentación sea un placer en lugar de una tarea tediosa. Para obtener más información sobre BookStack, visite su sitio web: https://www.bookstackapp.com"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbrave",
+      "title": "Brave (LinuxServer.io)",
+      "tagline": "Un navegador web rápido, privado y seguro para PC, Mac y dispositivos móviles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbudge",
+      "title": "Budge (LinuxServer.io)",
+      "tagline": "Una aplicación de finanzas personales de código abierto para \"presupuestar con sobres\"."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverbuildagent",
+      "title": "Build agent",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/build-agent para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibre",
+      "title": "Calibre (LinuxServer.io)",
+      "tagline": "Un gestor de libros electrónicos potente y fácil de usar. Los usuarios lo consideran excepcional e imprescindible. Permite realizar prácticamente cualquier tarea y va un paso más allá del software de gestión de libros electrónicos convencional. Además, es totalmente gratuito y de código abierto, ideal tanto para usuarios ocasionales como para expertos en informática."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalibreweb",
+      "title": "Calibre web (LinuxServer.io)",
+      "tagline": "Aplicación web con una interfaz limpia para explorar, leer y descargar libros electrónicos utilizando una base de datos Calibre existente. También permite integrar Google Drive y editar los metadatos y la biblioteca Calibre directamente desde la aplicación. Este software es una bifurcación de la biblioteca y está licenciado bajo la Licencia Pública General (GPL) v3."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercalligra",
+      "title": "Calligra (LinuxServer.io)",
+      "tagline": "Suite ofimática y de diseño gráfico de KDE. Disponible para ordenadores de sobremesa, tabletas y smartphones. Incluye aplicaciones para procesamiento de textos, hojas de cálculo, presentaciones, gráficos vectoriales y edición de bases de datos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
+      "title": "Changedetection. Io (LinuxServer.io)",
+      "tagline": "Proporciona monitorización, notificación y detección de cambios en páginas web de forma gratuita y con código abierto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchrome",
+      "title": "Chrome (LinuxServer.io)",
+      "tagline": "El navegador web oficial de Google, diseñado para ser rápido, seguro y personalizable."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverchromium",
+      "title": "Chromium (LinuxServer.io)",
+      "tagline": "Un proyecto de navegador de código abierto que tiene como objetivo crear una forma más segura, rápida y estable para que todos los usuarios disfruten de la web."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverci",
+      "title": "Ci",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/ci para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercidebug",
+      "title": "Ci debug",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.com/r/linuxserver/ci-debug para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercitron",
+      "title": "Citron",
+      "tagline": "Un emulador de Switch 1 con muchas funciones para aplicaciones caseras."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercodeserver",
+      "title": "Code server (LinuxServer.io)",
+      "tagline": "VS Code se ejecuta en un servidor remoto, accesible a través del navegador. - Programa en tu Chromebook, tableta y portátil con un entorno de desarrollo consistente. - Si tienes una estación de trabajo Windows o Mac, desarrolla para Linux con mayor facilidad. - Aprovecha los grandes servidores en la nube para acelerar las pruebas, compilaciones, descargas y más. - Conserva la duración de la batería cuando estás fuera de casa. - Todos los cálculos intensivos se ejecutan en tu servidor. - Ya no ejecutas instancias innecesarias de Chrome."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercops",
+      "title": "Cops (LinuxServer.io)",
+      "tagline": "Por Sébastien Lucas, ahora mantenido por MikesPub, significa Calibre OPDS (y HTML) Php Server. COPS se conecta a la base de datos de tu biblioteca Calibre y permite descargar y enviar libros por correo electrónico directamente desde un navegador web y proporciona un feed OPDS para conectarse a tus dispositivos. Los cambios en tu biblioteca Calibre se reflejan inmediatamente en tus páginas de COPS. Consulta: la página principal de COPS para obtener más detalles. No olvides consultar la Wiki. ## Por qué. (tomado del sitio del autor) En mi opinión, Calibre es una herramienta maravillosa, pero es demasiado grande y tiene demasiadas dependencias para ser utilizada como servidor de contenido. Esa es la razón principal por la que programé este servidor OPDS. Necesitaba una herramienta simple para instalar en un servidor pequeño (Seagate Dockstar en mi caso). Inicialmente pensé en Calibre2OPDS, pero como genera un archivo estático, no era posible realizar búsquedas. Más tarde agregué un catálogo HTML simple que debería ser utilizable en mi Kobo. Entonces, las principales ventajas de COPS son: * No necesita muchas dependencias. * No necesita mucha CPU o RAM. * Poco código. * Función de búsqueda disponible. * Con Dropbox/owncloud es muy fácil tener un servidor OPDS actualizado. * Fue divertido programarlo. Si quieres usar la fuente OPDS, no olvides especificar /feed al final de tu URL."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservercura",
+      "title": "Cura (LinuxServer.io)",
+      "tagline": "Software de impresión 3D gratuito y fácil de usar, en el que confían millones de usuarios. Optimiza tu modelo 3D con más de 400 ajustes para obtener los mejores resultados de laminado e impresión."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverd2builder",
+      "title": "D2 builder",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.com/r/linuxserver/d2-builder para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdaapd",
+      "title": "Daapd",
+      "tagline": "Servidor multimedia (iTunes) compatible con dispositivos AirPlay, Apple Remote (y compatibles), Chromecast, MPD y radio por internet."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdarktable",
+      "title": "Darktable (LinuxServer.io)",
+      "tagline": "Aplicación de código abierto para el flujo de trabajo fotográfico y revelado de archivos RAW. Mesa de luz y cuarto oscuro virtuales para fotógrafos. Gestiona tus negativos digitales en una base de datos, te permite visualizarlos mediante una mesa de luz con zoom y te permite revelar y mejorar imágenes RAW."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdavos",
+      "title": "Davos (LinuxServer.io)",
+      "tagline": "Una herramienta de automatización FTP que escanea periódicamente ubicaciones de host específicas en busca de nuevos archivos. Se puede configurar para diversos fines, como detectar la aparición de archivos específicos en la ubicación del host para su descarga y posterior transferencia, si fuera necesario. También admite notificaciones de finalización y llamadas a API posteriores para optimizar el flujo de trabajo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverddclient",
+      "title": "Ddclient (LinuxServer.io)",
+      "tagline": "Un cliente Perl utilizado para actualizar las entradas DNS dinámicas de las cuentas en un proveedor de servicios de red DNS dinámico. Originalmente escrito por Paul Burry, ahora lo desarrolla principalmente wimpunk. Tiene la capacidad de actualizar más que solo dyndns y puede obtener tu dirección IP WAN de varias maneras."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdeluge",
+      "title": "Deluge (LinuxServer.io)",
+      "tagline": "Un cliente BitTorrent ligero, de software libre y multiplataforma. * Cifrado completo * Interfaz web * Sistema de complementos * Mucho más..."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdigikam",
+      "title": "Digikam (LinuxServer.io)",
+      "tagline": "digiKam: Gestión profesional de fotos con el poder del código abierto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdillinger",
+      "title": "Dillinger",
+      "tagline": "Un editor de HTML5 Markdown con tecnología AngularJS, compatible con la nube, dispositivos móviles, almacenamiento sin conexión y acceso desde la nube."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdiskover",
+      "title": "Diskover (LinuxServer.io)",
+      "tagline": "Un indexador de sistemas de archivos de código abierto que utiliza Elasticsearch para indexar y gestionar datos en sistemas de almacenamiento heterogéneos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdogwalk",
+      "title": "Dogwalk (LinuxServer.io)",
+      "tagline": "El segundo proyecto de Blender Studio, largamente esperado, se centra en crear un espacio interactivo y narrativo para niños. Juega como un perro grande y adorable y explora el bosque invernal con un niño pequeño."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
+      "title": "Dokuwiki (LinuxServer.io)",
+      "tagline": "Un software wiki de código abierto, sencillo de usar y muy versátil, que no requiere base de datos. Es muy apreciado por los usuarios por su sintaxis clara y legible. Su facilidad de mantenimiento, copia de seguridad e integración lo convierten en el favorito de los administradores. Los controles de acceso y los conectores de autenticación integrados hacen que DokuWiki sea especialmente útil en el ámbito empresarial, y la gran cantidad de complementos aportados por su dinámica comunidad permite una amplia gama de casos de uso que van más allá de un wiki tradicional."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdolphin",
+      "title": "Dolphin (LinuxServer.io)",
+      "tagline": "Te permite jugar a juegos de GameCube y Wii con diversas mejoras gráficas y otras funciones disponibles para mejorar tu experiencia de juego."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdomoticz",
+      "title": "Domoticz",
+      "tagline": "Un sistema de automatización del hogar que permite monitorear y configurar diversos dispositivos como luces, interruptores, sensores y medidores de temperatura, lluvia, viento, rayos UV, electricidad, gas, agua y mucho más. Se pueden enviar notificaciones y alertas a cualquier dispositivo móvil."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarr",
+      "title": "Doplarr",
+      "tagline": "Un bot de solicitudes *arr para Discord."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
+      "title": "Doplarr_rs (LinuxServer.io)",
+      "tagline": "Un bot de Discord para solicitar contenido multimedia a través de backends *arr, escrito en Rust."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
+      "title": "Dosbox staging (LinuxServer.io)",
+      "tagline": "Una continuación moderna de DOSBox, un emulador gratuito y de código abierto que permite la ejecución de software MS-DOS, especialmente videojuegos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
+      "title": "Doublecommander (LinuxServer.io)",
+      "tagline": "Un gestor de archivos multiplataforma gratuito de código abierto con dos paneles uno al lado del otro. Está inspirado en Total Commander e incorpora algunas ideas nuevas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckdns",
+      "title": "Duckdns (LinuxServer.io)",
+      "tagline": "Un servicio gratuito que redirige un servidor DNS (subdominios de duckdns.org) a la dirección IP que elijas. El servicio es totalmente gratuito y no requiere reactivación ni publicaciones en foros para mantenerse activo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduckstation",
+      "title": "Duckstation (LinuxServer.io)",
+      "tagline": "Un emulador de PS1 que busca la máxima precisión y compatibilidad con juegos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverduplicati",
+      "title": "Duplicati (LinuxServer.io)",
+      "tagline": "Un cliente de copias de seguridad que almacena de forma segura copias de seguridad cifradas, incrementales y comprimidas en almacenamiento local, servicios de almacenamiento en la nube y servidores de archivos remotos. Funciona con protocolos estándar como FTP, SSH y WebDAV, así como con servicios populares como Microsoft OneDrive, Amazon S3, Google Drive, Box.com, Mega, B2 y muchos otros."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservereden",
+      "title": "Eden (LinuxServer.io)",
+      "tagline": "Un emulador experimental de código abierto para la Nintendo Switch, diseñado teniendo en cuenta el rendimiento y la estabilidad."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremby",
+      "title": "Emby (LinuxServer.io)",
+      "tagline": "Organiza vídeos, música, televisión en directo y fotos de bibliotecas multimedia personales y los transmite a televisores inteligentes, reproductores multimedia y dispositivos móviles. Este contenedor se presenta como un servidor multimedia Emby independiente."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverembystat",
+      "title": "Embystat",
+      "tagline": "Un servidor web personal que puede calcular todo tipo de estadísticas desde tu servidor Emby (local). Simplemente instálalo en tu servidor y deja que calcule todo tipo de datos interesantes."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveremulatorjs",
+      "title": "Emulatorjs",
+      "tagline": "La emulación basada en navegador web es portable a casi cualquier dispositivo para muchas consolas retro. Se utiliza una combinación de emuladores, entre ellos Libretro y EmulatorJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverendlessh",
+      "title": "Endlessh",
+      "tagline": "Un servidor SSH bloqueado que envía muy lentamente un banner aleatorio e interminable. Mantiene a los clientes SSH bloqueados durante horas o incluso días. El objetivo es conectar tu servidor SSH real a otro puerto y dejar que los hackers novatos se queden atrapados en este servidor bloqueado en lugar de molestar a un servidor legítimo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfail2ban",
+      "title": "Fail2ban (LinuxServer.io)",
+      "tagline": "Un demonio para bloquear los hosts que provocan múltiples errores de autenticación."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
+      "title": "Faster whisper (LinuxServer.io)",
+      "tagline": "Reimplementación del modelo Whisper de OpenAI mediante CTranslate2, un motor de inferencia rápido para modelos Transformer. Este contenedor proporciona un servidor de protocolo Wyoming para faster-whisper."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
+      "title": "Feed2toot",
+      "tagline": "Analiza automáticamente las fuentes RSS, identifica las nuevas publicaciones y las publica en la red social Mastodon."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverferdium",
+      "title": "Ferdium (LinuxServer.io)",
+      "tagline": "Una aplicación de escritorio que te ayuda a organizar el uso de tus aplicaciones favoritas combinándolas en una sola."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverffmpeg",
+      "title": "Ffmpeg (LinuxServer.io)",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/ffmpeg para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfilezilla",
+      "title": "Filezilla (LinuxServer.io)",
+      "tagline": "Client es un cliente FTP, FTPS y SFTP multiplataforma rápido y fiable, con muchas funciones útiles y una interfaz gráfica de usuario intuitiva."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfirefox",
+      "title": "Firefox (LinuxServer.io)",
+      "tagline": "Firefox, también conocido como Mozilla Firefox o simplemente Firefox, es un navegador web gratuito y de código abierto desarrollado por la Fundación Mozilla y su filial, la Corporación Mozilla. Firefox utiliza el motor de renderizado Gecko para mostrar las páginas web, el cual implementa los estándares web actuales y futuros."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfleet",
+      "title": "Fleet",
+      "tagline": "Proporciona una interfaz web en línea que muestra un conjunto de imágenes mantenidas procedentes de uno o más repositorios propios."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflexget",
+      "title": "Flexget (LinuxServer.io)",
+      "tagline": "Una herramienta de automatización multiusos para todos tus medios."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverflycast",
+      "title": "Flycast (LinuxServer.io)",
+      "tagline": "Un emulador multiplataforma para Sega Dreamcast, Naomi, Naomi 2 y Atomiswave, derivado de reicast."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
+      "title": "Foldingathome (LinuxServer.io)",
+      "tagline": "Un proyecto de computación distribuida para simular la dinámica de las proteínas, incluyendo el proceso de plegamiento proteico y los movimientos de las proteínas implicadas en diversas enfermedades. Reúne a científicos ciudadanos que se ofrecen como voluntarios para ejecutar simulaciones de la dinámica de las proteínas en sus ordenadores personales. Los conocimientos derivados de estos datos están ayudando a los científicos a comprender mejor la biología y ofreciendo nuevas oportunidades para el desarrollo de terapias."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreecad",
+      "title": "Freecad (LinuxServer.io)",
+      "tagline": "Un modelador 3D paramétrico de diseño asistido por ordenador (CAD) de propósito general y una aplicación de software de modelado de información de construcción (BIM) con soporte para el método de elementos finitos (FEM)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreetube",
+      "title": "Freetube",
+      "tagline": "Un cliente de YouTube completo y fácil de usar, con especial atención a la privacidad."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverfreshrss",
+      "title": "Freshrss (LinuxServer.io)",
+      "tagline": "Un agregador gratuito y autoalojado para feeds RSS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergimp",
+      "title": "Gimp (LinuxServer.io)",
+      "tagline": "Editor de gráficos rasterizados gratuito y de código abierto para manipulación (retoque) y edición de imágenes, dibujo a mano alzada, transcodificación entre diferentes formatos de archivo de imagen y tareas más especializadas. Es extensible mediante complementos y programable mediante scripts."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
+      "title": "Github desktop (LinuxServer.io)",
+      "tagline": "Una aplicación de GitHub de código abierto basada en Electron. Está escrita en TypeScript y utiliza React."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergitqlient",
+      "title": "Gitqlient (LinuxServer.io)",
+      "tagline": "Un cliente Git multiplataforma, originalmente derivado de QGit. Hoy en día, va más allá de ser una simple bifurcación y añade muchas funcionalidades nuevas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrav",
+      "title": "Grav (LinuxServer.io)",
+      "tagline": "Una plataforma web rápida, sencilla y flexible, basada en archivos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergrocy",
+      "title": "Grocy (LinuxServer.io)",
+      "tagline": "Un sistema ERP para tu cocina. Reduce el desperdicio de alimentos y gestiona tus tareas con esta fantástica herramienta. Controla tus compras, la cantidad de comida que desperdicias, las tareas pendientes y las baterías que necesitan cargarse con esta herramienta de código abierto. Para más información sobre Grocy, visita su sitio web: https://grocy.info"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservergzdoom",
+      "title": "Gzdoom (LinuxServer.io)",
+      "tagline": "Una versión optimizada para todos los juegos con motor Doom, basada en ZDoom, que añade un renderizador OpenGL y potentes capacidades de scripting."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhabridge",
+      "title": "Habridge (LinuxServer.io)",
+      "tagline": "Emula la API de Philips Hue para otras pasarelas de automatización del hogar, como Amazon Echo/Dot de primera generación (la segunda generación presenta problemas para detectar ha-bridge) u otros sistemas compatibles con Philips Hue. El puente gestiona comandos básicos como encendido, apagado y ajuste de brillo del protocolo Hue. Este puente puede controlar la mayoría de los dispositivos con una API específica."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhandbrake",
+      "title": "Handbrake (LinuxServer.io)",
+      "tagline": "Una herramienta de código abierto, creada por voluntarios, para convertir vídeo de prácticamente cualquier formato a una selección de códecs modernos y ampliamente compatibles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheadphones",
+      "title": "Headphones",
+      "tagline": "Un descargador automático de música para NZB y Torrent, escrito en Python. Es compatible con SABnzbd, NZBget, Transmission, µTorrent y Blackhole."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
+      "title": "Healthchecks (LinuxServer.io)",
+      "tagline": "Un sistema de vigilancia para tus tareas programadas (cron jobs). Se trata de un servidor web que escucha las solicitudes de tus tareas programadas, además de contar con una interfaz web."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
+      "title": "Hedgedoc (LinuxServer.io)",
+      "tagline": "Te da acceso a todos tus archivos estés donde estés. HedgeDoc es un editor de notas Markdown colaborativo, multiplataforma y en tiempo real. Esto significa que puedes escribir notas con otras personas desde tu ordenador, tableta o incluso tu teléfono. Puedes iniciar sesión a través de múltiples proveedores de autenticación como Facebook, Twitter, GitHub y muchos más en la página principal."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverheimdall",
+      "title": "Heimdall (LinuxServer.io)",
+      "tagline": "Una forma sencilla de organizar todos los enlaces a tus sitios web y aplicaciones más utilizadas. La simplicidad es la clave de Heimdall. ¿Por qué no usarlo como página de inicio de tu navegador? Incluso permite incluir una barra de búsqueda con Google, Bing o DuckDuckGo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhelium",
+      "title": "Helium (LinuxServer.io)",
+      "tagline": "Un navegador web basado en Chromium, creado con cariño y pensando en las personas. Priorizamos la privacidad con un bloqueo de anuncios imparcial."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
+      "title": "Hishtory server (LinuxServer.io)",
+      "tagline": "Un historial de comandos mejorado. Almacena tu historial de comandos en contexto (en qué directorio ejecutaste el comando, si tuvo éxito o no, cuánto tiempo tardó, etc.). Todo esto se guarda localmente y se cifra de extremo a extremo para sincronizarlo con todos tus demás ordenadores."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
+      "title": "Homeassistant (LinuxServer.io)",
+      "tagline": "Automatización del hogar de código abierto que prioriza el control local y la privacidad. Impulsada por una comunidad mundial de aficionados a la tecnología y entusiastas del bricolaje. Perfecta para ejecutarse en una Raspberry Pi o un servidor local."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
+      "title": "Htpcmanager (LinuxServer.io)",
+      "tagline": "Una interfaz para muchas aplicaciones relacionadas con HTPC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverinkscape",
+      "title": "Inkscape (LinuxServer.io)",
+      "tagline": "Software de gráficos vectoriales de calidad profesional que funciona en ordenadores de sobremesa Linux, Mac OS X y Windows."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverintellijidea",
+      "title": "Intellij idea (LinuxServer.io)",
+      "tagline": "Te ayuda a escribir código más rápido con herramientas que eliminan las tareas tediosas y te permiten concentrarte en lo que importa: crear un software excelente."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjackett",
+      "title": "Jackett (LinuxServer.io)",
+      "tagline": "Funciona como un servidor proxy: traduce las consultas de aplicaciones (Sonarr, SickRage, CouchPotato, Mylar, etc.) a consultas HTTP específicas para cada sitio de seguimiento, analiza la respuesta HTML y envía los resultados al software solicitante. Esto permite obtener las últimas actualizaciones (como RSS) y realizar búsquedas. Jackett es un repositorio centralizado con lógica de indexación, extracción y traducción de datos, lo que libera a otras aplicaciones de esta tarea."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjellyfin",
+      "title": "Jellyfin (LinuxServer.io)",
+      "tagline": "Jellyfin es un sistema de software libre que te permite gestionar y reproducir tus contenidos multimedia. Es una alternativa a los sistemas propietarios Emby y Plex, que ofrece contenido desde un servidor dedicado a los dispositivos de los usuarios finales mediante diversas aplicaciones. Jellyfin deriva de la versión 3.5.2 de Emby y se ha adaptado al framework .NET Core para ofrecer compatibilidad multiplataforma completa. No hay condiciones ocultas, ni licencias ni funciones premium, ni intereses ocultos: solo un equipo que quiere crear algo mejor y trabajar en conjunto para lograrlo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
+      "title": "Jenkins builder",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/jenkins-builder para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverjoplin",
+      "title": "Joplin (LinuxServer.io)",
+      "tagline": "Una aplicación gratuita de código abierto para tomar notas y gestionar listas de tareas, capaz de manejar una gran cantidad de notas organizadas en libretas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkalilinux",
+      "title": "Kali linux (LinuxServer.io)",
+      "tagline": "KALI LINUX™ es una distribución de Linux avanzada para pruebas de penetración, hacking ético y evaluaciones de seguridad de redes. KALI LINUX™ es una marca registrada de OffSec."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkasm",
+      "title": "Kasm (LinuxServer.io)",
+      "tagline": "Workspaces es una plataforma de transmisión de contenedores Docker que ofrece acceso basado en navegador a escritorios, aplicaciones y servicios web. Kasm utiliza la infraestructura de escritorio en contenedores (CDI) con soporte para DevOps para crear contenedores Docker desechables bajo demanda, accesibles a través del navegador web. Algunos ejemplos de casos de uso incluyen el aislamiento remoto del navegador (RBI), la prevención de pérdida de datos (DLP), el escritorio como servicio (DaaS), los servicios de acceso remoto seguro (RAS) y la recopilación de inteligencia de fuentes abiertas (OSINT). La representación gráfica de los contenedores se realiza mediante el proyecto de código abierto KasmVNC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkavita",
+      "title": "Kavita (LinuxServer.io)",
+      "tagline": "Un servidor de lectura rápido, completo y multiplataforma. Diseñado para ser la solución integral para todas tus necesidades de lectura. Configura tu propio servidor y comparte tu colección de libros con tus amigos y familiares."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkdenlive",
+      "title": "Kdenlive (LinuxServer.io)",
+      "tagline": "Un potente programa de edición de vídeo multiplataforma, gratuito y de código abierto, creado por la comunidad KDE. Repleto de funciones y listo para la producción."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
+      "title": "Keepassxc (LinuxServer.io)",
+      "tagline": "Un gestor de contraseñas gratuito y de código abierto. Comenzó como una bifurcación comunitaria de KeePassX (que a su vez es una adaptación multiplataforma de KeePass)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkicad",
+      "title": "Kicad (LinuxServer.io)",
+      "tagline": "Un conjunto de herramientas de automatización del diseño electrónico multiplataforma y de código abierto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkimai",
+      "title": "Kimai (LinuxServer.io)",
+      "tagline": "Kimai es una aplicación profesional de seguimiento de tiempo, gratuita y de código abierto. Se adapta a las necesidades tanto de autónomos como de empresas con decenas o cientos de usuarios. Diseñada para el seguimiento del tiempo de tus proyectos, incluye numerosas funciones avanzadas, como: API JSON, facturación, exportación de datos, modo multitemporizador y de entrada/salida, etiquetado, soporte para múltiples usuarios, zonas horarias e idiomas (más de 30 traducciones), autenticación mediante SAML/LDAP/base de datos, autenticación de dos factores (2FA) con TOTP, permisos personalizables para roles y equipos, diseño adaptable, tarifas específicas para usuarios, clientes y proyectos, búsqueda y filtrado avanzados, presupuestos de tiempo y dinero, informes avanzados, compatibilidad con plugins y mucho más."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkometa",
+      "title": "Kometa (LinuxServer.io)",
+      "tagline": "Una potente herramienta diseñada para brindarte control total sobre tus bibliotecas multimedia. Con Kometa, puedes llevar la personalización al siguiente nivel, con un control preciso sobre metadatos, colecciones, superposiciones y mucho más."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverkrita",
+      "title": "Krita (LinuxServer.io)",
+      "tagline": "Un programa de pintura profesional, gratuito y de código abierto. Creado por artistas que desean que las herramientas artísticas sean accesibles para todos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
+      "title": "Lazylibrarian (LinuxServer.io)",
+      "tagline": "Un programa para seguir a autores y obtener metadatos para todas tus necesidades de lectura digital. Utiliza una combinación de Goodreads Librarything y, opcionalmente, Google Books como fuentes de información sobre autores y libros. Este contenedor se basa en la bifurcación de DobyTang."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverldapauth",
+      "title": "Ldap auth (LinuxServer.io)",
+      "tagline": "El software se utiliza para autenticar a los usuarios que solicitan recursos protegidos a servidores gestionados por nginx. Incluye un demonio (ldap-auth) que se comunica con un servidor de autenticación y un demonio de servidor web que genera una cookie de autenticación basada en las credenciales del usuario. Los demonios están escritos en Python para su uso con un servidor de autenticación LDAP (Protocolo ligero de acceso a directorios) (OpenLDAP o Microsoft Windows Active Directory 2003 y 2012)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
+      "title": "Libreoffice (LinuxServer.io)",
+      "tagline": "Una suite ofimática gratuita y potente, sucesora de OpenOffice.org (conocido comúnmente como OpenOffice). Su interfaz intuitiva y sus completas herramientas te ayudan a dar rienda suelta a tu creatividad y aumentar tu productividad."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
+      "title": "Librespeed (LinuxServer.io)",
+      "tagline": "Una prueba de velocidad muy ligera implementada en Javascript, utilizando XMLHttpRequest y Web Workers. Sin Flash, sin Java, sin Websockets, sin complicaciones."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
+      "title": "Librewolf (LinuxServer.io)",
+      "tagline": "LibreWolf es una versión personalizada e independiente de Firefox, centrada en la privacidad, la seguridad y la libertad del usuario. Además, busca eliminar la telemetría, la recopilación de datos y las molestias, así como desactivar funciones que atentan contra la libertad, como la gestión de derechos digitales (DRM)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlidarr",
+      "title": "Lidarr (LinuxServer.io)",
+      "tagline": "Un gestor de colecciones de música para usuarios de Usenet y BitTorrent. Puede monitorizar múltiples fuentes RSS en busca de nuevas canciones de tus artistas favoritos, descargarlas, organizarlas y renombrarlas. También se puede configurar para mejorar automáticamente la calidad de los archivos ya descargados cuando haya un formato de mayor calidad disponible."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlimnoria",
+      "title": "Limnoria (LinuxServer.io)",
+      "tagline": "Un bot de IRC en Python robusto, completo y fácil de usar tanto para usuarios como para programadores, con numerosos complementos ya existentes. Sucesor del conocido Supybot."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlmstudio",
+      "title": "Lm studio (LinuxServer.io)",
+      "tagline": "Puedes ejecutar modelos de IA locales como gpt-oss, Llama, Gemma, Qwen y DeepSeek de forma privada en tu ordenador."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlollypop",
+      "title": "Lollypop (LinuxServer.io)",
+      "tagline": "Un reproductor de música moderno y ligero diseñado para funcionar a la perfección en el entorno de escritorio GNOME."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlsioapi",
+      "title": "Lsio api",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/lsio-api para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverluanti",
+      "title": "Luanti (LinuxServer.io)",
+      "tagline": "(anteriormente Minetest) es una plataforma de creación de juegos de vóxeles de código abierto con fácil modificación y creación de juegos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverlychee",
+      "title": "Lychee (LinuxServer.io)",
+      "tagline": "Una herramienta gratuita para gestionar fotos que se ejecuta en tu servidor o espacio web. Su instalación es cuestión de segundos. Sube, gestiona y comparte fotos como si fuera una aplicación nativa. Lychee incluye todo lo que necesitas y todas tus fotos se almacenan de forma segura."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermame",
+      "title": "Mame (LinuxServer.io)",
+      "tagline": "Un emulador gratuito y de código abierto diseñado para emular el hardware de juegos arcade, consolas de videojuegos, ordenadores antiguos y otros sistemas mediante software en ordenadores personales modernos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermanyfold",
+      "title": "Manyfold (LinuxServer.io)",
+      "tagline": "Aplicación web de código abierto y autoalojada para gestionar una colección de modelos 3D, especialmente enfocada en la impresión 3D."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermariadb",
+      "title": "Mariadb (LinuxServer.io)",
+      "tagline": "Uno de los servidores de bases de datos más populares. Creado por los desarrolladores originales de MySQL."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermastodon",
+      "title": "Mastodon (LinuxServer.io)",
+      "tagline": "Un servidor de red social gratuito y de código abierto basado en ActivityPub donde los usuarios pueden seguir a sus amigos y descubrir a otros nuevos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermediaelch",
+      "title": "Mediaelch (LinuxServer.io)",
+      "tagline": "Un gestor multimedia para Kodi. La información sobre películas, series, conciertos y música se almacena en archivos nfo. Los fanarts se descargan automáticamente desde fanart.tv. Gracias al generador de archivos nfo, MediaElch también puede utilizarse con otros centros multimedia."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermedusa",
+      "title": "Medusa (LinuxServer.io)",
+      "tagline": "Un gestor automático de videoteca para series de televisión. Busca nuevos episodios de tus series favoritas y, cuando se publican, hace su magia."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermelonds",
+      "title": "Melonds (LinuxServer.io)",
+      "tagline": "Su objetivo es proporcionar una emulación de Nintendo DS rápida y precisa."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminetest",
+      "title": "Minetest",
+      "tagline": "(servidor) es un juego sandbox de bloques de mundo casi infinito y un motor de juego, inspirado en InfiniMiner, Minecraft y similares."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverminisatip",
+      "title": "Minisatip (LinuxServer.io)",
+      "tagline": "Servidor satip multihilo versión 1.2 que se ejecuta en Linux y fue probado con tarjetas DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC e ISDB-T."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodmanager",
+      "title": "Modmanager (LinuxServer.io)",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/modmanager para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermodrinth",
+      "title": "Modrinth (LinuxServer.io)",
+      "tagline": "Un lanzador único de código abierto que te permite jugar a tus mods favoritos y mantenerlos actualizados, todo en un práctico paquete."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermonica",
+      "title": "Monica",
+      "tagline": "Un sistema de gestión de relaciones personales de código abierto que te permite documentar tu vida."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermsedge",
+      "title": "Msedge (LinuxServer.io)",
+      "tagline": "Un navegador web multiplataforma desarrollado por Microsoft y basado en Chromium."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermstream",
+      "title": "Mstream (LinuxServer.io)",
+      "tagline": "Un servidor personal de transmisión de música. Con mStream, puedes transmitir tu música desde tu ordenador a cualquier dispositivo, en cualquier lugar. Hay aplicaciones móviles disponibles para Android y iPhone."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
+      "title": "Mullvad browser (LinuxServer.io)",
+      "tagline": "El navegador Mullvad es un navegador web centrado en la privacidad, desarrollado en colaboración entre Mullvad VPN y el Proyecto Tor. Está diseñado para minimizar el rastreo y la identificación de la actividad del usuario. Podríamos decir que es un navegador Tor que se puede usar sin la red Tor. En su lugar, se puede usar con una VPN de confianza."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermylar3",
+      "title": "Mylar3 (LinuxServer.io)",
+      "tagline": "Un descargador automático de cómics (cbr/cbz) para usar con NZB y torrents, escrito en Python. Es compatible con SABnzbd, NZBGET y muchos clientes de torrents, además de DDL."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
+      "title": "Mysql workbench (LinuxServer.io)",
+      "tagline": "Una herramienta visual unificada para arquitectos de bases de datos, desarrolladores y administradores de bases de datos. MySQL Workbench ofrece modelado de datos, desarrollo SQL y herramientas de administración integrales para la configuración del servidor, la administración de usuarios, las copias de seguridad y mucho más."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernano",
+      "title": "Nano",
+      "tagline": "Nano es un protocolo de pago digital diseñado para ser accesible y ligero, centrado en eliminar las ineficiencias presentes en otras criptomonedas. Con transacciones ultrarrápidas y cero comisiones en una red segura, ecológica y descentralizada, Nano resulta ideal para las transacciones cotidianas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernanowallet",
+      "title": "Nano wallet",
+      "tagline": "Un protocolo de pago digital diseñado para ser accesible y ligero, centrado en eliminar las ineficiencias presentes en otras criptomonedas. Con transacciones ultrarrápidas y cero comisiones en una red segura, ecológica y descentralizada, Nano es ideal para las transacciones cotidianas. Este contenedor es un simple envoltorio nginx para la billetera ligera que se encuentra aquí. Deberá proporcionar un host RPC válido para acceder a este contenedor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
+      "title": "Netbootxyz",
+      "tagline": "Una forma de arrancar mediante PXE diversos instaladores o utilidades del sistema operativo desde un único lugar en la BIOS, sin necesidad de acceder al medio de instalación. IPXE proporciona un menú intuitivo en la BIOS que permite seleccionar fácilmente el sistema operativo deseado, junto con versiones específicas o indicadores de arranque."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernetbox",
+      "title": "Netbox (LinuxServer.io)",
+      "tagline": "NetBox es una herramienta de gestión de direcciones IP (IPAM) y gestión de infraestructura de centros de datos (DCIM). Concebida inicialmente por el equipo de ingeniería de redes de DigitalOcean, NetBox se desarrolló específicamente para satisfacer las necesidades de los ingenieros de redes e infraestructura. Su objetivo es funcionar como una fuente de información fidedigna y específica para las operaciones de red."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernextcloud",
+      "title": "Nextcloud (LinuxServer.io)",
+      "tagline": "Te da acceso a todos tus archivos estés donde estés. ¿Dónde están tus fotos y documentos? Con Nextcloud, eliges el servidor que prefieras: en casa, en un centro de datos o con un proveedor. Ahí se almacenarán tus archivos. Nextcloud se ejecuta en ese servidor, protegiendo tus datos y permitiéndote acceder a ellos desde tu ordenador o dispositivos móviles. A través de Nextcloud, también puedes acceder, sincronizar y compartir tus datos existentes en esa unidad FTP de la oficina, en Dropbox o en un NAS que tengas en casa."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernginx",
+      "title": "Nginx (LinuxServer.io)",
+      "tagline": "Un servidor web HTTP, un proxy inverso, una caché de contenido, un balanceador de carga, un servidor proxy TCP/UDP y un servidor proxy de correo electrónico."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverngircd",
+      "title": "Ngircd (LinuxServer.io)",
+      "tagline": "Servidor de chat por retransmisión de Internet (IRCd) gratuito, portátil y ligero para redes pequeñas o privadas, desarrollado bajo la Licencia Pública General de GNU (GPL). Es fácil de configurar, admite direcciones IP dinámicas y es compatible con IPv6, conexiones protegidas por SSL y PAM para la autenticación. Ha sido desarrollado desde cero y no se basa en el IRCd original."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
+      "title": "Nntp2nntp",
+      "tagline": "El proxy le permite usar su cuenta NNTP desde múltiples sistemas, cada uno con su propio nombre de usuario y contraseña. Es totalmente compatible con SSL y también puede limitar el acceso al proxy con certificados SSL. El proxy Nntp2nntp es muy simple y bastante rápido. ## Advertencia Si bien no conocemos problemas de seguridad de nntp2nntp, el código fuente de este proyecto no ha recibido cambios desde el 06/08/15 y es probable que esté abandonado permanentemente. Por esta razón, recomendamos encarecidamente que no haga que esta aplicación sea accesible al público y, si debe hacerlo, otras capas de seguridad y SSL deben considerarse un requisito mínimo absoluto. Vemos que este proxy se usa principalmente en una LAN para que todas las aplicaciones NNTP de los usuarios puedan compartir un conjunto común de credenciales internas que permitan la administración centralizada de la cuenta fuente, por ejemplo, cambiar el proveedor, el servidor, los límites de subprocesos para todas las aplicaciones con un cambio de configuración global."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbget",
+      "title": "Nzbget (LinuxServer.io)",
+      "tagline": "Un programa para descargar aplicaciones de Usenet, escrito en C++ y diseñado pensando en el rendimiento para lograr la máxima velocidad de descarga utilizando muy pocos recursos del sistema."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
+      "title": "Nzbhydra2 (LinuxServer.io)",
+      "tagline": "Una aplicación de metabúsqueda para indexadores NZB, sucesora espiritual de NZBmegasearcH y evolución de la aplicación original NZBHydra. Proporciona acceso sencillo a varios indexadores basados en raw y newznab."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverobsidian",
+      "title": "Obsidian (LinuxServer.io)",
+      "tagline": "Una aplicación para tomar notas que te permite crear, vincular y organizar tus apuntes en tu dispositivo, con cientos de complementos y temas para personalizar tu flujo de trabajo. También puedes publicar tus notas en línea, acceder a ellas sin conexión y sincronizarlas de forma segura con cifrado de extremo a extremo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverombi",
+      "title": "Ombi (LinuxServer.io)",
+      "tagline": "Te permite alojar tu propio sistema de gestión de usuarios y solicitudes de Plex. Si compartes tu servidor Plex con otros usuarios, permíteles solicitar contenido nuevo mediante una interfaz fácil de usar. Gestiona todas las solicitudes de películas y series con facilidad, deja notas para el usuario y recibe notificaciones cuando soliciten algo. Permite que tus usuarios reporten problemas con sus solicitudes para que sepas si hay algún inconveniente con el audio, etc. Incluso puedes enviarles automáticamente boletines semanales con el nuevo contenido añadido a tu servidor Plex."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
+      "title": "Onlyoffice (LinuxServer.io)",
+      "tagline": "Proporciona una gama completa de herramientas para crear, editar y colaborar en documentos de texto, hojas de cálculo, presentaciones, formularios PDF y archivos PDF normales en plataformas web, de escritorio y móviles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenshot",
+      "title": "Openshot (LinuxServer.io)",
+      "tagline": "Video Editor es un editor de vídeo gratuito y de código abierto, galardonado y compatible con Linux, Mac y Windows, dedicado a ofrecer soluciones de edición de vídeo y animación de alta calidad a todo el mundo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropensshserver",
+      "title": "Openssh server (LinuxServer.io)",
+      "tagline": "Un entorno aislado que permite el acceso SSH sin proporcionar las claves de acceso a todo el servidor. Otorgar acceso SSH mediante clave privada suele implicar dar acceso completo al servidor. Este contenedor crea un entorno limitado y aislado al que otros usuarios pueden acceder mediante SSH. Los usuarios solo tienen acceso a las carpetas mapeadas y a los procesos que se ejecutan dentro de este contenedor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
+      "title": "Openvscode server",
+      "tagline": "Proporciona una versión de VS Code que ejecuta un servidor en una máquina remota y permite el acceso a través de un navegador web moderno."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveropera",
+      "title": "Opera (LinuxServer.io)",
+      "tagline": "Un navegador web multiplataforma desarrollado por la empresa homónima Opera. El navegador está basado en Chromium, pero se distingue de otros navegadores basados en Chromium (Chrome, Edge, etc.) por su interfaz de usuario y otras características."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
+      "title": "Orcaslicer (LinuxServer.io)",
+      "tagline": "OrcaSlicer es un software de laminado de código abierto para impresoras FDM. Es una bifurcación de Bambu Studio, anteriormente conocido como BambuStudio-SoftFever. Bambu Studio, a su vez, es una bifurcación de PrusaSlicer de Prusa Research, que deriva de Slic3r de Alessandro Ranellucci y la comunidad RepRap."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroscam",
+      "title": "Oscam (LinuxServer.io)",
+      "tagline": "Software de módulo de acceso condicional de código abierto (OCAM) utilizado para descifrar transmisiones DVB mediante tarjetas inteligentes. Funciona tanto como servidor como cliente."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveroverseerr",
+      "title": "Overseerr",
+      "tagline": "Una herramienta de gestión de solicitudes y descubrimiento de contenido multimedia diseñada para funcionar con tu ecosistema Plex existente."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpairdrop",
+      "title": "Pairdrop (LinuxServer.io)",
+      "tagline": "Una alternativa excelente a AirDrop que funciona en todas las plataformas. Envía imágenes, documentos o texto mediante conexión punto a punto a dispositivos en la misma red local/Wi-Fi o a dispositivos emparejados."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpcsx2",
+      "title": "Pcsx2 (LinuxServer.io)",
+      "tagline": "Un emulador de PS2 de código abierto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpelorus",
+      "title": "Pelorus (LinuxServer.io)",
+      "tagline": "Un navegador de IA para escritorios Linux con tecnología Selkies. Pelorus ejecuta un servidor FastAPI que proporciona a un agente LLM (Ollama, compatible con OpenAI o Gemini) control sobre el ratón, el teclado, las capturas de pantalla y la gestión de ventanas a través del backend de uso del ordenador Pixelflux, un árbol de accesibilidad de Linux (AT-SPI) y la integración opcional con KWin D-Bus."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
+      "title": "Phpmyadmin (LinuxServer.io)",
+      "tagline": "PhpMyAdmin es una herramienta de software libre escrita en PHP, diseñada para gestionar la administración de MySQL a través de la web. Admite una amplia gama de operaciones en MySQL y MariaDB."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpidgin",
+      "title": "Pidgin (LinuxServer.io)",
+      "tagline": "Un programa de chat que te permite iniciar sesión en cuentas de varias redes de chat simultáneamente. Esto significa que puedes chatear con amigos en XMPP y estar en un canal de IRC al mismo tiempo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiper",
+      "title": "Piper (LinuxServer.io)",
+      "tagline": "Un sistema de conversión de texto a voz neuronal rápido y local que suena de maravilla y está optimizado para la Raspberry Pi 4. Este contenedor proporciona un servidor con protocolo Wyoming para Piper."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpiwigo",
+      "title": "Piwigo (LinuxServer.io)",
+      "tagline": "Un software de galería de fotos para la web que incluye potentes funciones para publicar y gestionar tu colección de imágenes."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplanka",
+      "title": "Planka (LinuxServer.io)",
+      "tagline": "Una elegante herramienta de seguimiento de proyectos de código abierto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplex",
+      "title": "Plex (LinuxServer.io)",
+      "tagline": "Organiza vídeos, música y fotos de tus bibliotecas multimedia personales y los transmite a televisores inteligentes, reproductores multimedia y dispositivos móviles. Este contenedor se presenta como un servidor multimedia Plex independiente. Su diseño intuitivo y las funciones de procesamiento en lote permiten realizar tareas con mayor rapidez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverplexmetamanager",
+      "title": "Plex meta-manager",
+      "tagline": "Un script de Python 3 que se puede ejecutar continuamente utilizando archivos de configuración YAML para actualizar periódicamente los metadatos de las películas, series y colecciones de tus bibliotecas, así como para crear automáticamente colecciones basadas en varios métodos, todos ellos detallados en la wiki."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverppsspp",
+      "title": "Ppsspp (LinuxServer.io)",
+      "tagline": "Un emulador de PSP gratuito y de código abierto para Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series y Symbian, centrado en la velocidad y la portabilidad."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprojectsend",
+      "title": "Projectsend (LinuxServer.io)",
+      "tagline": "Una aplicación autoalojada que te permite subir archivos y asignarlos a clientes específicos que tú mismo creas. Segura, privada y fácil. Ya no tendrás que depender de servicios externos ni del correo electrónico para enviar esos archivos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverprowlarr",
+      "title": "Prowlarr (LinuxServer.io)",
+      "tagline": "Prowlarr es un gestor/proxy de indexadores basado en la popular plataforma arr.Net/reactjs, diseñado para integrarse con tus aplicaciones PVR. Es compatible con rastreadores de torrents e indexadores de Usenet. Se integra a la perfección con Sonarr, Radarr, Lidarr y Readarr, ofreciendo una gestión completa de tus indexadores sin necesidad de configuración individual para cada aplicación (nosotros nos encargamos de todo)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpwndrop",
+      "title": "Pwndrop (LinuxServer.io)",
+      "tagline": "Un servicio de alojamiento de archivos autodesplegable para enviar cargas útiles de pruebas de penetración o compartir de forma segura sus archivos privados a través de HTTP y WebDAV."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpycharm",
+      "title": "Pycharm (LinuxServer.io)",
+      "tagline": "Ofrece compatibilidad inmediata con Python, bases de datos, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI y mucho más."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpydiocells",
+      "title": "Pydio cells (LinuxServer.io)",
+      "tagline": "La plataforma de intercambio de archivos de última generación para organizaciones. Se trata de una reescritura completa del proyecto Pydio, desarrollada en el lenguaje Go y basada en una arquitectura de microservicios."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpyloadng",
+      "title": "Pyload ng (LinuxServer.io)",
+      "tagline": "Un gestor de descargas gratuito y de código abierto escrito en Python y diseñado para ser extremadamente ligero, fácilmente extensible y totalmente gestionable a través de la web."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpylon",
+      "title": "Pylon",
+      "tagline": "Entorno de desarrollo integrado basado en web, construido con Node.js como backend y un frontend JavaScript/HTML5 de alto rendimiento, bajo licencia GPL versión 3. Este proyecto tiene su origen en el proyecto Cloud9 v2."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverpython",
+      "title": "Python",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/python para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
+      "title": "Qbittorrent (LinuxServer.io)",
+      "tagline": "Qbittorrent es un cliente BitTorrent programado en C++ / Qt que utiliza la biblioteca libtorrent (a veces llamada libtorrent-rasterbar) de Arvid Norberg."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqdirstat",
+      "title": "Qdirstat (LinuxServer.io)",
+      "tagline": "Estadísticas de directorio basadas en Qt: KDirStat sin KDE -- del autor del KDirStat original."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverqemustatic",
+      "title": "Qemu static (LinuxServer.io)",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/qemu-static para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselcore",
+      "title": "Quassel core",
+      "tagline": "Un cliente IRC moderno, multiplataforma y distribuido, que permite que uno o varios clientes se conecten y desconecten de un núcleo central. Este contenedor gestiona la conexión IRC (quasselcore) y requiere un cliente de escritorio (quasselclient) para su uso y configuración. Está diseñado para estar siempre activo y mantendrá tu identidad presente en IRC incluso cuando tus clientes no estén en línea. El historial se descarga al reconectarse, permitiendo un desplazamiento infinito hacia atrás en el tiempo."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverquasselweb",
+      "title": "Quassel web",
+      "tagline": "Un cliente web para Quassel. Tenga en cuenta que se requiere una instancia de Quassel-Core; aquí disponemos de un contenedor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverradarr",
+      "title": "Radarr (LinuxServer.io)",
+      "tagline": "Una versión modificada de Sonarr para trabajar con películas al estilo Couchpotato."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverraneto",
+      "title": "Raneto (LinuxServer.io)",
+      "tagline": "Es una plataforma de base de conocimientos de código abierto que utiliza archivos Markdown estáticos para alimentar su base de conocimientos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
+      "title": "Rawtherapee (LinuxServer.io)",
+      "tagline": "Un programa gratuito y multiplataforma para el procesamiento de imágenes en formato RAW."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrdesktop",
+      "title": "Rdesktop",
+      "tagline": "Contenedores que contienen entornos de escritorio completos en muchas variantes populares para Alpine, Ubuntu, Arch y Fedora, accesibles a través de RDP."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverreadmesync",
+      "title": "Readme sync",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/readme-sync para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverremmina",
+      "title": "Remmina (LinuxServer.io)",
+      "tagline": "Remmina es un cliente de escritorio remoto escrito en GTK, diseñado para administradores de sistemas y viajeros que necesitan trabajar con múltiples equipos remotos, ya sea en pantallas grandes o pequeñas. Es compatible con varios protocolos de red y ofrece una interfaz de usuario integrada y consistente. Actualmente, admite RDP, VNC, SPICE, SSH y EXEC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrequestrr",
+      "title": "Requestrr",
+      "tagline": "Un chatbot utilizado para simplificar el uso de servicios como Sonarr/Radarr/Ombi mediante el uso del chat."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+      "title": "Resilio sync (LinuxServer.io)",
+      "tagline": "(anteriormente BitTorrent Sync) utiliza el protocolo BitTorrent para sincronizar archivos y carpetas entre todos tus dispositivos. Existen versiones gratuitas y de pago, y este contenedor admite ambas. Hay una imagen de sincronización oficial, pero creamos esta porque admite la asignación de usuarios para simplificar los permisos de los volúmenes."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverretroarch",
+      "title": "Retroarch (LinuxServer.io)",
+      "tagline": "Una interfaz para emuladores, motores de juegos y reproductores multimedia. Permite ejecutar juegos clásicos en una amplia gama de ordenadores y consolas gracias a su elegante interfaz gráfica."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrpcs3",
+      "title": "Rpcs3 (LinuxServer.io)",
+      "tagline": "Un emulador y depurador multiplataforma de código abierto para Sony PlayStation 3, escrito en C++ para Windows, Linux, macOS y FreeBSD."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+      "title": "Rsnapshot (LinuxServer.io)",
+      "tagline": "Rsnapshot es una utilidad para crear instantáneas del sistema de archivos basada en rsync. Permite crear instantáneas periódicas de máquinas locales y remotas mediante SSH de forma sencilla. El código utiliza enlaces duros siempre que es posible para reducir considerablemente el espacio en disco necesario."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverrustdesk",
+      "title": "Rustdesk (LinuxServer.io)",
+      "tagline": "Una alternativa de control remoto de código abierto con todas las funciones para autoalojamiento y seguridad con una configuración mínima."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversabnzbd",
+      "title": "Sabnzbd (LinuxServer.io)",
+      "tagline": "Simplifica y optimiza al máximo Usenet automatizando todo lo posible. Solo tienes que añadir un archivo .nzbd. SABnzbd se encarga del resto: lo descarga, verifica, repara, extrae y archiva automáticamente sin intervención humana."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverscummvm",
+      "title": "Scummvm (LinuxServer.io)",
+      "tagline": "Un programa que te permite ejecutar ciertos juegos clásicos de aventuras gráficas y rol, siempre que ya tengas sus archivos de datos. Lo ingenioso de esto es que ScummVM simplemente reemplaza los ejecutables que vienen con los juegos, permitiéndote jugarlos en sistemas para los que nunca fueron diseñados. ScummVM es una reescritura completa de los ejecutables de estos juegos y no es un emulador."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversealskin",
+      "title": "Sealskin (LinuxServer.io)",
+      "tagline": "Plataforma cliente-servidor autogestionada que permite a los usuarios ejecutar potentes aplicaciones de escritorio en contenedores, transmitidas directamente a un navegador web. Utiliza una extensión del navegador para interceptar las acciones del usuario, como hacer clic en un enlace o descargar un archivo, y las redirige a un entorno de aplicación seguro y aislado que se ejecuta en un servidor remoto."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
+      "title": "Series troxide",
+      "tagline": "Un rastreador de series simple y moderno."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershadps4",
+      "title": "Shadps4 (LinuxServer.io)",
+      "tagline": "Un emulador antiguo de PlayStation 4 para Windows, Linux y macOS escrito en C++."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservershotcut",
+      "title": "Shotcut (LinuxServer.io)",
+      "tagline": "Un editor de vídeo gratuito, de código abierto y multiplataforma."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickchill",
+      "title": "Sickchill",
+      "tagline": "Un gestor automático de videoteca para series de televisión. Busca nuevos episodios de tus series favoritas y, cuando se publican, hace su magia."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversickgear",
+      "title": "Sickgear (LinuxServer.io)",
+      "tagline": "Permite gestionar series de televisión y/o anime, detecta nuevos episodios, enlaza aplicaciones de descarga y mucho más. Para obtener más información sobre SickGear, visita su sitio web: https://github.com/SickGear/SickGear"
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversignal",
+      "title": "Signal (LinuxServer.io)",
+      "tagline": "Una aplicación de mensajería que prioriza la privacidad. Es gratuita y fácil de usar, con un sólido cifrado de extremo a extremo que mantiene tus comunicaciones completamente privadas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversmokeping",
+      "title": "Smokeping (LinuxServer.io)",
+      "tagline": "Realiza un seguimiento de la latencia de tu red. Para ver un ejemplo completo de las capacidades de esta aplicación, visita UCDavis."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnapdrop",
+      "title": "Snapdrop",
+      "tagline": "Compartir archivos localmente en tu navegador. Inspirado en AirDrop de Apple."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversnipeit",
+      "title": "Snipe it",
+      "tagline": "Simplifica la gestión de activos. Fue creada por personas que resuelven problemas reales de TI y gestión de activos, y una sólida experiencia de usuario siempre ha sido una prioridad. Su diseño intuitivo y las acciones masivas permiten realizar tareas con mayor rapidez."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversocketproxy",
+      "title": "Socket proxy (LinuxServer.io)",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.com/r/linuxserver/socket-proxy para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversonarr",
+      "title": "Sonarr (LinuxServer.io)",
+      "tagline": "(anteriormente NZBdrone) es un grabador de vídeo digital (PVR) para usuarios de Usenet y BitTorrent. Puede monitorizar múltiples fuentes RSS para encontrar nuevos episodios de tus series favoritas, descargarlos, ordenarlos y renombrarlos. También se puede configurar para mejorar automáticamente la calidad de los archivos ya descargados cuando haya disponible un formato de mayor calidad."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
+      "title": "Speedtest tracker (LinuxServer.io)",
+      "tagline": "Una aplicación de seguimiento del rendimiento de Internet autoalojada que realiza pruebas de velocidad utilizando el servicio Speedtest de Ookla."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverspotube",
+      "title": "Spotube (LinuxServer.io)",
+      "tagline": "Un cliente de Spotify de código abierto y multiplataforma compatible con múltiples plataformas que utilizan la API de datos de Spotify y YouTube, Piped. Video o JioSaavn como fuente de audio, eliminando la necesidad de Spotify Premium."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
+      "title": "Sqlitebrowser (LinuxServer.io)",
+      "tagline": "Una herramienta visual de código abierto y de alta calidad para crear, diseñar y editar archivos de bases de datos compatibles con SQLite."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteam",
+      "title": "Steam (LinuxServer.io)",
+      "tagline": "El destino definitivo para jugar, debatir y crear juegos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversteamos",
+      "title": "Steamos",
+      "tagline": "Una distribución de Linux basada en Arch, creada por Valve Software. Este contenedor es una instalación estándar de Arch con repositorios de Steam añadidos para la compatibilidad con software. Este contenedor solo funcionará con GPU modernas de AMD/Intel en un host Linux real."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverswag",
+      "title": "Swag (LinuxServer.io)",
+      "tagline": "SWAG - Secure Web Application Gateway (anteriormente conocido como letsencrypt, sin relación con Let's Encrypt™) configura un servidor web Nginx y un proxy inverso con soporte para PHP y un cliente certbot integrado que automatiza la generación y renovación de certificados SSL gratuitos (Let's Encrypt y ZeroSSL). También incluye fail2ban para la prevención de intrusiones."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversynclounge",
+      "title": "Synclounge (LinuxServer.io)",
+      "tagline": "Una herramienta de terceros que te permite ver Plex sincronizado con tus amigos/familiares, estés donde estés."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyncthing",
+      "title": "Syncthing (LinuxServer.io)",
+      "tagline": "Sustituye los servicios de sincronización y en la nube propietarios por una solución abierta, fiable y descentralizada. Tus datos son solo tuyos y tienes derecho a elegir dónde se almacenan, si se comparten con terceros y cómo se transmiten por internet."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserversyslogng",
+      "title": "Syslog ng (LinuxServer.io)",
+      "tagline": "Le permite recopilar, analizar, clasificar, reescribir y correlacionar de forma flexible los registros de toda su infraestructura, y almacenarlos o enrutarlos a herramientas de análisis de registros."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertautulli",
+      "title": "Tautulli (LinuxServer.io)",
+      "tagline": "Aplicación web basada en Python para la monitorización, el análisis y las notificaciones de Plex Media Server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertelegram",
+      "title": "Telegram (LinuxServer.io)",
+      "tagline": "Una aplicación de mensajería móvil y de escritorio basada en la nube."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertester",
+      "title": "Tester",
+      "tagline": "Esta herramienta interna se utiliza como un entorno aislado de escritorio en nuestro proceso de CI para capturar una captura de pantalla de un punto final que, con suerte, funcionará."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthelounge",
+      "title": "Thelounge (LinuxServer.io)",
+      "tagline": "(una bifurcación de shoutIRC) es un cliente web de IRC que usted aloja en su propio servidor."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverthunderbird",
+      "title": "Thunderbird (LinuxServer.io)",
+      "tagline": "Un gestor de información personal gratuito y de código abierto que se utiliza principalmente como cliente de correo electrónico con calendario y agenda de contactos, así como lector de fuentes RSS, cliente de chat y cliente de noticias."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertransmission",
+      "title": "Transmission (LinuxServer.io)",
+      "tagline": "Diseñado para un uso sencillo y potente. Transmission cuenta con las funciones que esperas de un cliente BitTorrent: cifrado, interfaz web, intercambio de pares, enlaces magnéticos, DHT, µTP, reenvío de puertos UPnP y NAT-PMP, compatibilidad con webseed, directorios de vigilancia, edición de rastreadores, límites de velocidad globales y por torrent, y mucho más."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservertvheadend",
+      "title": "Tvheadend (LinuxServer.io)",
+      "tagline": "Funciona como servidor proxy: es un servidor de transmisión y grabador de TV para Linux, FreeBSD y Android que admite DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP y HDHomeRun como fuentes de entrada. Tvheadend ofrece transmisión HTTP (VLC, MPlayer), HTSP (Kodi, Movian) y SAT>IP. Admite múltiples fuentes de EPG (DVB y ATSC terrestres, incluyendo extensiones OpenTV DVB, XMLTV y PyXML)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverubooquity",
+      "title": "Ubooquity (LinuxServer.io)",
+      "tagline": "Un servidor doméstico gratuito, ligero y fácil de usar para tus cómics y libros electrónicos. Úsalo para acceder a tus archivos desde cualquier lugar: tableta, lector electrónico, teléfono o computadora."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
+      "title": "Ungoogled chromium (LinuxServer.io)",
+      "tagline": "Google Chromium, sin depender de los servicios web de Google."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunificontroller",
+      "title": "Unifi controller",
+      "tagline": "El software Unifi-controller es un potente motor de software inalámbrico empresarial, ideal para implementaciones de clientes de alta densidad que requieren baja latencia y un alto rendimiento en tiempo de actividad."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
+      "title": "Unifi network-application (LinuxServer.io)",
+      "tagline": "El software Unifi-network-application es un potente motor de software inalámbrico empresarial, ideal para implementaciones de clientes de alta densidad que requieren baja latencia y un alto rendimiento en tiempo de actividad."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverunrar",
+      "title": "Unrar",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/unrar para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervivaldi",
+      "title": "Vivaldi (LinuxServer.io)",
+      "tagline": "Un navegador web noruego gratuito y multiplataforma con cliente de correo electrónico integrado, desarrollado por Vivaldi Technologies."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervlc",
+      "title": "Vlc (LinuxServer.io)",
+      "tagline": "Un reproductor y marco multimedia multiplataforma, gratuito y de código abierto, que ofrece un rendimiento fiable en múltiples dispositivos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscode",
+      "title": "Vscode (LinuxServer.io)",
+      "tagline": "Entorno de desarrollo integrado desarrollado por Microsoft. Este contenedor ejecuta la aplicación de escritorio completa; para una versión web nativa, consulte Code Server."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodium",
+      "title": "Vscodium (LinuxServer.io)",
+      "tagline": "Una distribución binaria del editor VS Code de Microsoft, impulsada por la comunidad y con licencia libre."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
+      "title": "Vscodium web (LinuxServer.io)",
+      "tagline": "Distribución binaria, impulsada por la comunidad y con licencia libre, del componente web de host remoto del editor VS Code de Microsoft."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebcord",
+      "title": "Webcord (LinuxServer.io)",
+      "tagline": "Se puede resumir como un conjunto de mejoras de seguridad y privacidad, reimplementaciones de funciones de Discord, soluciones alternativas para errores de Electron/Chromium/Discord, hojas de estilo, páginas internas y una página https://discord.com encapsulada, diseñada para cumplir con los Términos de Servicio en la medida de lo posible (o para ocultar a Discord los cambios que podrían infringirlos)."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
+      "title": "Webgrabplus (LinuxServer.io)",
+      "tagline": "Un extractor incremental de guías de programación XMLTV para múltiples sitios. Recopila datos de guías de programación de televisión de sitios web seleccionados para tus canales favoritos."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebstation",
+      "title": "Webstation (LinuxServer.io)",
+      "tagline": "Un entorno de escritorio LXQt basado en Ubuntu, centrado en la emulación web nativa."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwebtop",
+      "title": "Webtop (LinuxServer.io)",
+      "tagline": "Contenedores basados en Alpine, Ubuntu, Fedora y Arch que contienen entornos de escritorio completos en versiones oficialmente compatibles, accesibles a través de cualquier navegador web moderno."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverweixin",
+      "title": "Weixin (LinuxServer.io)",
+      "tagline": "(WeChat) es una aplicación de mensajería instantánea, redes sociales y pagos móviles desarrollada por Tencent."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwikijs",
+      "title": "Wikijs (LinuxServer.io)",
+      "tagline": "Una aplicación wiki moderna, ligera y potente, desarrollada con NodeJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwinegui",
+      "title": "Winegui (LinuxServer.io)",
+      "tagline": "Un gestor de vinos con una interfaz de usuario intuitiva que proporciona un frontend gráfico para crear y gestionar botellas de vino."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireguard",
+      "title": "Wireguard (LinuxServer.io)",
+      "tagline": "Una VPN extremadamente sencilla, rápida y moderna que utiliza criptografía de última generación. Su objetivo es ser más rápida, simple, eficiente y útil que IPsec, evitando al mismo tiempo sus grandes complicaciones. Busca ofrecer un rendimiento considerablemente superior al de OpenVPN. WireGuard está diseñada como una VPN de propósito general para ejecutarse tanto en interfaces integradas como en supercomputadoras, adaptándose a diversas situaciones. Inicialmente lanzada para el kernel de Linux, ahora es multiplataforma (Windows, macOS, BSD, iOS, Android) y de amplia implementación. Actualmente se encuentra en pleno desarrollo, pero ya podría considerarse la solución VPN más segura, fácil de usar y sencilla del sector."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwireshark",
+      "title": "Wireshark (LinuxServer.io)",
+      "tagline": "Wireshark es el analizador de protocolos de red más importante y utilizado del mundo. Permite visualizar el funcionamiento de la red a nivel microscópico y es el estándar de facto (y a menudo de jure) en numerosas empresas comerciales y sin ánimo de lucro, agencias gubernamentales e instituciones educativas. Su desarrollo se nutre de las contribuciones voluntarias de expertos en redes de todo el mundo y es la continuación de un proyecto iniciado por Gerald Combs en 1998."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
+      "title": "Wps office (LinuxServer.io)",
+      "tagline": "Una suite ofimática ligera, completa y con numerosas funciones, además de ser altamente compatible. Como software de oficina práctico y profesional, WPS Office le permite editar archivos en Writer, Presentation, Spreadsheet y PDF para mejorar su eficiencia laboral."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxbackbone",
+      "title": "Xbackbone (LinuxServer.io)",
+      "tagline": "Un gestor de archivos PHP sencillo, autoalojado y ligero que admite la herramienta de intercambio instantáneo ShareX y sistemas *NIX. Permite subir y visualizar imágenes, GIF, vídeos, código y texto formateado, así como descargar y subir archivos. También cuenta con una interfaz web con gestión multiusuario, historial de subidas y función de búsqueda."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxemu",
+      "title": "Xemu (LinuxServer.io)",
+      "tagline": "Una aplicación gratuita y de código abierto que emula la consola de juegos original Microsoft Xbox, lo que permite a los usuarios jugar a sus juegos originales de Xbox en sistemas Windows, macOS y Linux."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverxvfb",
+      "title": "Xvfb",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.com/r/linuxserver/xvfb para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryaak",
+      "title": "Yaak (LinuxServer.io)",
+      "tagline": "Un cliente API de escritorio para organizar y ejecutar solicitudes REST, GraphQL y gRPC. Está desarrollado con Tauri, Rust y ReactJS."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryourspotify",
+      "title": "Your_spotify (LinuxServer.io)",
+      "tagline": "Una aplicación autoalojada que registra lo que escuchas y te ofrece un panel de control para explorar las estadísticas. Se compone de un servidor web que consulta la API de Spotify periódicamente y una aplicación web donde puedes explorar tus estadísticas."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserveryq",
+      "title": "Yq",
+      "tagline": "Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/yq para obtener más detalles."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzen",
+      "title": "Zen (LinuxServer.io)",
+      "tagline": "Una bifurcación gratuita y de código abierto de Mozilla Firefox, centrada en la privacidad, la personalización y el diseño."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverznc",
+      "title": "Znc (LinuxServer.io)",
+      "tagline": "Un servidor de reenvío de red IRC (BNC) permite desconectar al cliente del servidor IRC y de canales específicos. Varios clientes de diferentes ubicaciones pueden conectarse simultáneamente a una misma cuenta ZNC y, por lo tanto, aparecer con el mismo apodo en IRC."
+    },
+    {
+      "id": "wisdomsky.linuxserver.linuxserverzotero",
+      "title": "Zotero (LinuxServer.io)",
+      "tagline": "Una herramienta gratuita y fácil de usar que te ayudará a recopilar, organizar, anotar, citar y compartir tus investigaciones."
+    }
+  ]
+}

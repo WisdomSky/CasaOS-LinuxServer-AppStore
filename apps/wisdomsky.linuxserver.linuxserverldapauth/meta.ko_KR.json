@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverldapauth",
+  "title": "Ldap auth (LinuxServer.io)",
+  "tagline": "이 소프트웨어는 Nginx를 통해 프록시된 서버에서 보호된 리소스를 요청하는 사용자를 인증하기 위한 것입니다. 여기에는 인증 서버와 통신하는 데몬(ldap-auth)과 사용자의 자격 증명을 기반으로 인증 쿠키를 생성하는 웹 서버 데몬이 포함됩니다. 이 데몬들은 LDAP(Lightweight Directory Access Protocol) 인증 서버(OpenLDAP 또는 Microsoft Windows Active Directory 2003 및 2012)와 함께 사용하도록 Python으로 작성되었습니다.",
+  "description": "LDAP 인증 소프트웨어는 Nginx를 통해 프록시된 서버에서 보호된 리소스를 요청하는 사용자를 인증하기 위한 것입니다. 이 소프트웨어는 인증 서버와 통신하는 데몬(ldap-auth)과 사용자의 자격 증명을 기반으로 인증 쿠키를 생성하는 웹 서버 데몬으로 구성됩니다. 이 데몬들은 LDAP(Lightweight Directory Access Protocol) 인증 서버(OpenLDAP 또는 Microsoft Windows Active Directory 2003 및 2012)와 함께 사용하도록 Python으로 작성되었습니다."
+}

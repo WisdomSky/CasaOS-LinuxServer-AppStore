@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+  "title": "Rsnapshot (LinuxServer.io)",
+  "tagline": "Nástroj pro vytváření snímků souborového systému založený na rsync. Rsnapshot usnadňuje vytváření pravidelných snímků lokálních počítačů a vzdálených počítačů přes ssh. Kód ve velké míře využívá pevné linky, kdykoli je to možné, aby se výrazně snížila potřeba místa na disku.",
+  "description": "Rsnapshot je nástroj pro vytváření snímků souborového systému založený na rsync. rsnapshot usnadňuje vytváření pravidelných snímků lokálních počítačů a vzdálených počítačů přes ssh. Kód ve velké míře využívá pevné odkazy, kdykoli je to možné, aby se výrazně snížila potřeba místa na disku."
+}

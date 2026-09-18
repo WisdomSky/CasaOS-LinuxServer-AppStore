@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverresiliosync",
+  "title": "Resilio sync (LinuxServer.io)",
+  "tagline": "(tidigare BitTorrent Sync) använder BitTorrent-protokollet för att synkronisera filer och mappar mellan alla dina enheter. Det finns både gratis- och betalversioner, och den här containern stöder båda. Det finns en officiell synkroniseringsavbildning, men vi skapade den här eftersom den stöder användarmappning för att förenkla behörigheter för volymer.",
+  "description": "Resilio-sync (tidigare BitTorrent Sync) använder BitTorrent-protokollet för att synkronisera filer och mappar mellan alla dina enheter. Det finns både gratis- och betalversioner, och den här containern stöder båda. Det finns en officiell synkroniseringsavbildning, men vi skapade den här eftersom den stöder användarmappning för att förenkla behörigheter för volymer."
+}

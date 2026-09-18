@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverldapauth",
+  "title": "Ldap auth (LinuxServer.io)",
+  "tagline": "De software is bedoeld voor het authenticeren van gebruikers die beveiligde resources opvragen van servers die via Nginx worden geproxyd. Het omvat een daemon (ldap-auth) die communiceert met een authenticatieserver en een webserverdaemon die een authenticatiecookie genereert op basis van de gebruikersgegevens. De daemons zijn geschreven in Python voor gebruik met een Lightweight Directory Access Protocol (LDAP) authenticatieserver (OpenLDAP of Microsoft Windows Active Directory 2003 en 2012).",
+  "description": "De Ldap-auth-software is bedoeld voor het authenticeren van gebruikers die beveiligde resources opvragen van servers die via Nginx worden geproxyd. Het omvat een daemon (ldap-auth) die communiceert met een authenticatieserver en een webserverdaemon die een authenticatiecookie genereert op basis van de gebruikersgegevens. De daemons zijn geschreven in Python voor gebruik met een Lightweight Directory Access Protocol (LDAP)-authenticatieserver (OpenLDAP of Microsoft Windows Active Directory 2003 en 2012)."
+}

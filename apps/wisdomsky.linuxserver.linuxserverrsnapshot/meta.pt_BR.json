@@ -1,0 +1,6 @@
+{
+  "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
+  "title": "Rsnapshot (LinuxServer.io)",
+  "tagline": "Um utilitário de snapshots do sistema de arquivos baseado em rsync. O Rsnapshot facilita a criação de snapshots periódicos de máquinas locais e remotas via SSH. O código utiliza amplamente links físicos sempre que possível, reduzindo significativamente o espaço em disco necessário.",
+  "description": "O Rsnapshot é um utilitário de snapshots de sistemas de arquivos baseado no rsync. O rsnapshot facilita a criação de snapshots periódicos de máquinas locais e remotas via SSH. O código utiliza amplamente links físicos sempre que possível, reduzindo significativamente o espaço em disco necessário."
+}

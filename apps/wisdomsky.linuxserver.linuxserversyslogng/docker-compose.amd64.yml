@@ -1,7 +1,7 @@
 name: linuxserver-syslog-ng
 services:
   app:
-    image: linuxserver/syslog-ng:4.11.0@sha256:c372f9726bcd02e37450384999297dafdcc723843376d48e1b7caf3b840c9fa8
+    image: linuxserver/syslog-ng:4.11.0@sha256:c3b9f7ecb28b929deea08681fc9c7bc6069109967982a13fd3d13dc9e1043f03
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -30,6 +30,31 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages/apps/wisdomsky.linuxserver.linuxserversyslogng/assets/icon.png
   title:
     en_US: Syslog ng (LinuxServer.io)
+    ca_ES: Syslog ng (LinuxServer.io)
+    cs_CZ: Syslog ng (LinuxServer.io)
+    da_DK: Syslog ng (LinuxServer.io)
+    de_DE: Syslog ng (LinuxServer.io)
+    el_GR: Syslog ng (LinuxServer.io)
+    en_GB: Syslog ng (LinuxServer.io)
+    es_ES: Syslog ng (LinuxServer.io)
+    fr_FR: Syslog ng (LinuxServer.io)
+    ga_IE: Syslog ng (LinuxServer.io)
+    hr_HR: Syslog ng (LinuxServer.io)
+    hu_HU: Syslog ng (LinuxServer.io)
+    it_IT: Syslog ng (LinuxServer.io)
+    ja_JP: Syslog ng (LinuxServer.io)
+    ko_KR: Syslog ng (LinuxServer.io)
+    ml_IN: Syslog ng (LinuxServer.io)
+    nb_NO: Syslog ng (LinuxServer.io)
+    nl_NL: Syslog ng (LinuxServer.io)
+    pl_PL: Syslog ng (LinuxServer.io)
+    pt_BR: Syslog ng (LinuxServer.io)
+    ro_RO: Syslog ng (LinuxServer.io)
+    ru_RU: Syslog ng (LinuxServer.io)
+    sk_SK: Syslog ng (LinuxServer.io)
+    sv_SE: Syslog ng (LinuxServer.io)
+    tr_TR: Syslog ng (LinuxServer.io)
     zh_CN: Syslog ng（LinuxServer.io）
+    zh_TW: Syslog ng（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserversyslogng
   version: 4.11.0
