@@ -1,7 +1,47 @@
 [
   {
-    "name": "LinuxServer.io",
-    "font": "penguin",
-    "description": ""
+    "name": "Media",
+    "font": "play-circle-outline",
+    "description": "Media Apps"
+  },
+  {
+    "name": "Productivity",
+    "font": "toolbox-outline",
+    "description": "Productivity Apps"
+  },
+  {
+    "name": "Home",
+    "font": "home-automation",
+    "description": "Home Apps"
+  },
+  {
+    "name": "Networking",
+    "font": "lan",
+    "description": "Networking Apps"
+  },
+  {
+    "name": "AI",
+    "font": "chat-processing-outline",
+    "description": "AI Apps"
+  },
+  {
+    "name": "Finance",
+    "font": "currency-usd",
+    "description": "Finance Apps"
+  },
+  {
+    "name": "Social",
+    "font": "account-box-outline",
+    "description": "Social Apps"
+  },
+  {
+    "name": "Developer",
+    "font": "code-greater-than-or-equal",
+    "description": "Developer Apps"
+  },
+  {
+    "name": "Others",
+    "font": "apps",
+    "description": "Other Apps"
   }
 ]

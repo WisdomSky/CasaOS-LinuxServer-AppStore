@@ -177,7 +177,7 @@ x-casaos:
     tr_TR: Fail2ban (LinuxServer.io)
     zh_CN: Fail2ban（LinuxServer.io）
     zh_TW: Fail2ban（LinuxServer.io）
-  category: Home
+  category: Networking
   id: wisdomsky.linuxserver.linuxserverfail2ban
   port_map: '80'
   version: 1.1.0

@@ -124,8 +124,8 @@ x-casaos:
     zh_TW: 採用現代密碼學的輕量高速 VPN。
   developer: LinuxServer.io
   author: WisdomSky
-  icon: https://www.wireguard.com/img/wireguard.svg
-  thumbnail: https://www.wireguard.com/img/wireguard.svg
+  icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
+  thumbnail: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   title:
     en_US: Wireguard (LinuxServer.io)
     ca_ES: Wireguard (LinuxServer.io)
@@ -154,7 +154,7 @@ x-casaos:
     tr_TR: Wireguard (LinuxServer.io)
     zh_CN: Wireguard（LinuxServer.io）
     zh_TW: Wireguard（LinuxServer.io）
-  category: Home
+  category: Networking
   id: wisdomsky.linuxserver.linuxserverwireguard
   port_map: '51820'
   version: 1.0.20260223
