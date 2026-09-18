@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-09-18T04:27:02Z",
+  "updated_at": "2026-09-18T05:08:49Z",
   "app_count": 246,
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "apps": [
@@ -8,9 +8,9 @@
       "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
       "title": "Adguardhome sync (LinuxServer.io)",
       "tagline": "A tool to synchronize AdGuardHome config to replica instances.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -22,16 +22,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/assets/adguardhomesync-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveradguardhomesync/meta.json",
-      "content_hash": "74eb4e2d",
+      "content_hash": "910cbd3b",
       "version": "0.9.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
       "title": "Airsonic advanced (LinuxServer.io)",
       "tagline": "A free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -43,16 +43,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverairsonicadvanced/assets/airsonic-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverairsonicadvanced/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverairsonicadvanced/meta.json",
-      "content_hash": "5465d6c9",
+      "content_hash": "18271e40",
       "version": "11.1.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveraltus",
       "title": "Altus (LinuxServer.io)",
       "tagline": "An Electron-based WhatsApp client with themes and multiple account support.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -64,16 +64,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveraltus/assets/altus-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveraltus/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveraltus/meta.json",
-      "content_hash": "07f30061",
+      "content_hash": "781fd488",
       "version": "5.8.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverappriseapi",
       "title": "Apprise api (LinuxServer.io)",
       "tagline": "Takes advantage of Apprise through your network with a user-friendly API. * Send notifications to more than 100 services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. * A Simple Website to verify and test your configuration with. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -85,16 +85,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverappriseapi/assets/logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverappriseapi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverappriseapi/meta.json",
-      "content_hash": "3e387d0e",
+      "content_hash": "8d52b2f6",
       "version": "1.5.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverardour",
       "title": "Ardour (LinuxServer.io)",
       "tagline": "An open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -106,15 +106,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverardour/assets/ardour-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverardour/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverardour/meta.json",
-      "content_hash": "f3038810"
+      "content_hash": "c788a6f3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveraudacity",
       "title": "Audacity (LinuxServer.io)",
       "tagline": "An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -125,16 +125,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveraudacity/assets/audacity-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveraudacity/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveraudacity/meta.json",
-      "content_hash": "1c0980e8",
+      "content_hash": "e1fae1c8",
       "version": "4.0.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverazahar",
       "title": "Azahar (LinuxServer.io)",
       "tagline": "An open-source 3DS emulator based on Citra.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -145,7 +145,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverazahar/assets/azahar-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverazahar/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverazahar/meta.json",
-      "content_hash": "8860e97f",
+      "content_hash": "4ea07e6c",
       "version": "12125.1.3"
     },
     {
@@ -166,16 +166,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbabybuddy/assets/babybuddy-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbabybuddy/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbabybuddy/meta.json",
-      "content_hash": "6cf28b88",
+      "content_hash": "616768a1",
       "version": "2.10.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbambustudio",
       "title": "Bambustudio (LinuxServer.io)",
       "tagline": "An open-source, cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth printing experience.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -186,15 +186,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbambustudio/assets/bambustudio-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbambustudio/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbambustudio/meta.json",
-      "content_hash": "11adb7cb"
+      "content_hash": "67ffe374"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbazarr",
       "title": "Bazarr (LinuxServer.io)",
       "tagline": "A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -206,16 +206,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbazarr/assets/bazarr.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbazarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbazarr/meta.json",
-      "content_hash": "5841d56f",
+      "content_hash": "a9f386a3",
       "version": "1.6.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbeets",
       "title": "Beets (LinuxServer.io)",
       "tagline": "A music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -227,16 +227,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbeets/assets/beets-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbeets/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbeets/meta.json",
-      "content_hash": "4938af7c",
+      "content_hash": "a9f0ff9c",
       "version": "2.14.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
       "title": "Bitcoin knots (LinuxServer.io)",
       "tagline": "Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.",
-      "category": "Home",
+      "category": "Finance",
       "categories": [
-        "home"
+        "finance"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -248,15 +248,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbitcoinknots/assets/bitcoin-knots-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbitcoinknots/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbitcoinknots/meta.json",
-      "content_hash": "e99a090e"
+      "content_hash": "938e9d9e"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
       "title": "Blade of-agony (LinuxServer.io)",
       "tagline": "A story-driven WWII shooter inspired by Wolfenstein and Doom.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -267,16 +267,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbladeofagony/assets/boa-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbladeofagony/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbladeofagony/meta.json",
-      "content_hash": "38e481ec",
+      "content_hash": "20663f97",
       "version": "3.1.20260917"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverblender",
       "title": "Blender (LinuxServer.io)",
       "tagline": "A free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. This image does not support GPU rendering out of the box only accelerated workspace experience",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -288,16 +288,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverblender/assets/blender-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverblender/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverblender/meta.json",
-      "content_hash": "cdc91c5f",
+      "content_hash": "da4d1914",
       "version": "5.2.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverboinc",
       "title": "Boinc (LinuxServer.io)",
       "tagline": "A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -309,7 +309,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverboinc/assets/boinc_logo_black.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverboinc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverboinc/meta.json",
-      "content_hash": "1c7ea7c1",
+      "content_hash": "02ab04d2",
       "version": "8.2.8"
     },
     {
@@ -330,16 +330,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbooksonicair/assets/booksonic-air.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbooksonicair/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbooksonicair/meta.json",
-      "content_hash": "3f839597",
+      "content_hash": "5d5be55d",
       "version": "2201.1.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbookstack",
       "title": "Bookstack (LinuxServer.io)",
       "tagline": "A free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www. Bookstackapp. Com",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -351,15 +351,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbookstack/assets/bookstack-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbookstack/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbookstack/meta.json",
-      "content_hash": "0c826938"
+      "content_hash": "2c08328b"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbrave",
       "title": "Brave (LinuxServer.io)",
       "tagline": "A fast, private and secure web browser for PC, Mac and mobile.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -371,16 +371,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbrave/assets/brave-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbrave/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbrave/meta.json",
-      "content_hash": "d65f329c",
+      "content_hash": "153a9d21",
       "version": "1.95.102"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbudge",
       "title": "Budge (LinuxServer.io)",
       "tagline": "An open source 'budgeting with envelopes' personal finance app.",
-      "category": "Home",
+      "category": "Finance",
       "categories": [
-        "home"
+        "finance"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -392,7 +392,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbudge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbudge/meta.json",
-      "content_hash": "ec272fad",
+      "content_hash": "024482f2",
       "version": "0.0.9"
     },
     {
@@ -413,15 +413,15 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverbuildagent/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverbuildagent/meta.json",
-      "content_hash": "97fbaa01"
+      "content_hash": "27b95365"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercalibre",
       "title": "Calibre (LinuxServer.io)",
       "tagline": "A powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -433,16 +433,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercalibre/assets/calibre-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercalibre/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercalibre/meta.json",
-      "content_hash": "8ab0cc5a",
+      "content_hash": "6f4ffe65",
       "version": "9.14.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercalibreweb",
       "title": "Calibre web (LinuxServer.io)",
       "tagline": "A web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -454,16 +454,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercalibreweb/assets/calibre-web-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercalibreweb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercalibreweb/meta.json",
-      "content_hash": "b91d67a2",
+      "content_hash": "e47d4dd0",
       "version": "0.6.27"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercalligra",
       "title": "Calligra (LinuxServer.io)",
       "tagline": "An office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -475,16 +475,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercalligra/assets/calligra-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercalligra/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercalligra/meta.json",
-      "content_hash": "c8368003",
+      "content_hash": "2ab4cb4a",
       "version": "3.2.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
       "title": "Changedetection. Io (LinuxServer.io)",
       "tagline": "Provides free, open-source web page monitoring, notification and change detection.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -496,16 +496,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/assets/changedetection-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverchangedetectionio/meta.json",
-      "content_hash": "ec799ce8",
+      "content_hash": "21c1eb0c",
       "version": "0.60.6"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverchrome",
       "title": "Chrome (LinuxServer.io)",
       "tagline": "The official web browser from Google, built to be fast, secure, and customizable.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -517,16 +517,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchrome/assets/chrome-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverchrome/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverchrome/meta.json",
-      "content_hash": "821e78ee",
+      "content_hash": "6d90560a",
       "version": "153.0.8010"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverchromium",
       "title": "Chromium (LinuxServer.io)",
       "tagline": "An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -538,7 +538,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverchromium/assets/chromium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverchromium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverchromium/meta.json",
-      "content_hash": "99f946bc"
+      "content_hash": "020dd1dd"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverci",
@@ -557,7 +557,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverci/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverci/meta.json",
-      "content_hash": "460563bd"
+      "content_hash": "fe234080"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercidebug",
@@ -576,7 +576,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercidebug/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercidebug/meta.json",
-      "content_hash": "3eba8ab6"
+      "content_hash": "e6e11a0a"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercitron",
@@ -595,15 +595,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercitron/assets/citron-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercitron/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercitron/meta.json",
-      "content_hash": "6fc906c5"
+      "content_hash": "093ea229"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercodeserver",
       "title": "Code server (LinuxServer.io)",
       "tagline": "VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -615,16 +615,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercodeserver/assets/code-server-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercodeserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercodeserver/meta.json",
-      "content_hash": "3c8cfec2",
+      "content_hash": "7ff0f91f",
       "version": "4.137.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercops",
       "title": "Cops (LinuxServer.io)",
       "tagline": "By Sébastien Lucas, now maintained by MikesPub, stands for Calibre OPDS (and HTML) Php Server. COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices. Changes in your Calibre library are reflected immediately in your COPS pages. See : COPS's home for more details. Don't forget to check the Wiki. ## Why. (taken from the author's site) In my opinion Calibre is a marvelous tool but is too big and has too much dependencies to be used for its content server. That's the main reason why I coded this OPDS server. I needed a simple tool to be installed on a small server (Seagate Dockstar in my case). I initially thought of Calibre2OPDS but as it generate static file no search was possible. Later I added an simple HTML catalog that should be usable on my Kobo. So COPS's main advantages are : * No need for many dependencies. * No need for a lot of CPU or RAM. * Not much code. * Search is available. * With Dropbox / owncloud it's very easy to have an up to date OPDS server. * It was fun to code. If you want to use the OPDS feed don't forget to specify /feed at the end of your URL.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -636,16 +636,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercops/assets/cops-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercops/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercops/meta.json",
-      "content_hash": "4fe98b7e",
+      "content_hash": "16ca9860",
       "version": "4.5.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercura",
       "title": "Cura (LinuxServer.io)",
       "tagline": "Free, easy-to-use 3D printing software trusted by millions of users. Fine-tune your 3D model with 400+ settings for the best slicing and printing results.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -656,7 +656,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservercura/assets/cura-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservercura/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservercura/meta.json",
-      "content_hash": "3c50a24d",
+      "content_hash": "62430d13",
       "version": "5.13.0"
     },
     {
@@ -677,7 +677,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverd2builder/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverd2builder/meta.json",
-      "content_hash": "c7d0372e",
+      "content_hash": "9e852ab6",
       "version": "0.6.8"
     },
     {
@@ -698,16 +698,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdaapd/assets/daapd-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdaapd/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdaapd/meta.json",
-      "content_hash": "cd14d1d9",
+      "content_hash": "f0f8f77f",
       "version": "28.10.20250108"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdarktable",
       "title": "Darktable (LinuxServer.io)",
       "tagline": "An open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -719,16 +719,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdarktable/assets/darktable-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdarktable/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdarktable/meta.json",
-      "content_hash": "2102ecc6",
+      "content_hash": "f6453411",
       "version": "25.6.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdavos",
       "title": "Davos (LinuxServer.io)",
       "tagline": "An FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -740,16 +740,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdavos/assets/list.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdavos/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdavos/meta.json",
-      "content_hash": "dca4d5c0",
+      "content_hash": "7da7196f",
       "version": "2.2.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverddclient",
       "title": "Ddclient (LinuxServer.io)",
       "tagline": "A Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -761,16 +761,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverddclient/assets/ddclient-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverddclient/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverddclient/meta.json",
-      "content_hash": "a7117c2a",
+      "content_hash": "9b8ef9ff",
       "version": "4.0.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdeluge",
       "title": "Deluge (LinuxServer.io)",
       "tagline": "A lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more. . .",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -782,16 +782,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdeluge/assets/deluge-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdeluge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdeluge/meta.json",
-      "content_hash": "e753de95",
+      "content_hash": "e9e6fef5",
       "version": "2.2.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdigikam",
       "title": "Digikam (LinuxServer.io)",
       "tagline": "digiKam: Professional Photo Management with the Power of Open Source",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -802,7 +802,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdigikam/assets/digikam.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdigikam/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdigikam/meta.json",
-      "content_hash": "2648c850",
+      "content_hash": "9b837fee",
       "version": "9.1.0"
     },
     {
@@ -823,16 +823,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdillinger/assets/dillinger.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdillinger/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdillinger/meta.json",
-      "content_hash": "c3cb653b",
+      "content_hash": "5c070e44",
       "version": "3.39.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdiskover",
       "title": "Diskover (LinuxServer.io)",
       "tagline": "An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -844,16 +844,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdiskover/assets/diskover.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdiskover/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdiskover/meta.json",
-      "content_hash": "3ce2de40",
+      "content_hash": "e62436ec",
       "version": "2.3.5"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdogwalk",
       "title": "Dogwalk (LinuxServer.io)",
       "tagline": "Blender Studio's long awaited second game project, focused on creating a bite-sized interactive storytelling playground. Play as a big adorable dog and explore the winter woods with a little kid.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -864,15 +864,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdogwalk/assets/dogwalk-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdogwalk/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdogwalk/meta.json",
-      "content_hash": "56341376"
+      "content_hash": "5be902c0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
       "title": "Dokuwiki (LinuxServer.io)",
       "tagline": "A simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -884,15 +884,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdokuwiki/assets/dokuwiki-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdokuwiki/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdokuwiki/meta.json",
-      "content_hash": "e33810da"
+      "content_hash": "07d7599d"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdolphin",
       "title": "Dolphin (LinuxServer.io)",
       "tagline": "Lets you play GameCube and Wii games with various graphical enhancements and other features are available to improve your game experience.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -903,7 +903,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdolphin/assets/dolphin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdolphin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdolphin/meta.json",
-      "content_hash": "b2b4a66f"
+      "content_hash": "120ef85b"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdomoticz",
@@ -923,7 +923,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdomoticz/assets/logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdomoticz/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdomoticz/meta.json",
-      "content_hash": "5a47aae3",
+      "content_hash": "1e0d6619",
       "version": "2023.2.20231129"
     },
     {
@@ -944,16 +944,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoplarr/assets/doplarr-logo_title.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarr/meta.json",
-      "content_hash": "475c632b",
+      "content_hash": "35650c3b",
       "version": "3.8.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
       "title": "Doplarr_rs (LinuxServer.io)",
       "tagline": "A Discord bot for requesting media through *arr backends, written in Rust.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -965,16 +965,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/assets/doplarr_rs-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdoplarrrs/meta.json",
-      "content_hash": "cec7d412",
+      "content_hash": "f2bcbfd0",
       "version": "4.6.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
       "title": "Dosbox staging (LinuxServer.io)",
       "tagline": "A modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -985,16 +985,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdosboxstaging/assets/dosbox-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdosboxstaging/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdosboxstaging/meta.json",
-      "content_hash": "4eab4ff2",
+      "content_hash": "d82d5582",
       "version": "0.83.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
       "title": "Doublecommander (LinuxServer.io)",
       "tagline": "A free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1006,15 +1006,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverdoublecommander/assets/doublecommander-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverdoublecommander/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverdoublecommander/meta.json",
-      "content_hash": "c8cb99b3"
+      "content_hash": "71b6b186"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduckdns",
       "title": "Duckdns (LinuxServer.io)",
       "tagline": "A free service which will point a DNS (sub domains of duckdns. Org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1026,15 +1026,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduckdns/assets/duckdns.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverduckdns/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverduckdns/meta.json",
-      "content_hash": "ee737d35"
+      "content_hash": "82daf992"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduckstation",
       "title": "Duckstation (LinuxServer.io)",
       "tagline": "A PS1 Emulator aiming for the best accuracy and game support.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1046,15 +1046,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduckstation/assets/duckstation-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverduckstation/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverduckstation/meta.json",
-      "content_hash": "806b5ffd"
+      "content_hash": "aa2b38f9"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduplicati",
       "title": "Duplicati (LinuxServer.io)",
       "tagline": "A backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box. Com, Mega, B2, and many others.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1066,16 +1066,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduplicati/assets/duplicati-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverduplicati/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverduplicati/meta.json",
-      "content_hash": "5e0f8638",
+      "content_hash": "e1b5ae23",
       "version": "2.4.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservereden",
       "title": "Eden (LinuxServer.io)",
       "tagline": "An experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1086,16 +1086,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservereden/assets/eden-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservereden/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservereden/meta.json",
-      "content_hash": "7a477e7c",
+      "content_hash": "d1cc4d6d",
       "version": "0.2.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveremby",
       "title": "Emby (LinuxServer.io)",
       "tagline": "Organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1107,7 +1107,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveremby/assets/emby-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveremby/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveremby/meta.json",
-      "content_hash": "23fedd31",
+      "content_hash": "04fc15f2",
       "version": "4.10.0"
     },
     {
@@ -1128,7 +1128,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverembystat/assets/embystat-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverembystat/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverembystat/meta.json",
-      "content_hash": "1ecbde9c",
+      "content_hash": "8f2d2f35",
       "version": "0.2.0"
     },
     {
@@ -1149,7 +1149,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveremulatorjs/assets/emulatorjs-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveremulatorjs/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveremulatorjs/meta.json",
-      "content_hash": "55c3d462",
+      "content_hash": "7f32797e",
       "version": "1.9.2"
     },
     {
@@ -1170,15 +1170,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverendlessh/assets/openssh-server-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverendlessh/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverendlessh/meta.json",
-      "content_hash": "5a774d7c"
+      "content_hash": "038a4ad9"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfail2ban",
       "title": "Fail2ban (LinuxServer.io)",
       "tagline": "A daemon to ban hosts that cause multiple authentication errors.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1190,16 +1190,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfail2ban/assets/fail2ban-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfail2ban/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfail2ban/meta.json",
-      "content_hash": "466ccafb",
+      "content_hash": "d8ea765a",
       "version": "1.1.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
       "title": "Faster whisper (LinuxServer.io)",
       "tagline": "A reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.",
-      "category": "Home",
+      "category": "AI",
       "categories": [
-        "home"
+        "ai"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1211,7 +1211,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfasterwhisper/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfasterwhisper/meta.json",
-      "content_hash": "adfef6c8",
+      "content_hash": "90f36e79",
       "version": "3.8.1"
     },
     {
@@ -1232,16 +1232,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfeed2toot/assets/default-icon.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfeed2toot/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfeed2toot/meta.json",
-      "content_hash": "cf972b03",
+      "content_hash": "bce8d724",
       "version": "0.17.20250110"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverferdium",
       "title": "Ferdium (LinuxServer.io)",
       "tagline": "A desktop app that helps you organize how you use your favourite apps by combining them into one application.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1253,16 +1253,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverferdium/assets/ferdium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverferdium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverferdium/meta.json",
-      "content_hash": "3e77fc26",
+      "content_hash": "0bee68d0",
       "version": "7.2.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverffmpeg",
       "title": "Ffmpeg (LinuxServer.io)",
       "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ffmpeg for details.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1274,16 +1274,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverffmpeg/assets/ffmpeg.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverffmpeg/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverffmpeg/meta.json",
-      "content_hash": "b1de6697",
+      "content_hash": "6e0b498d",
       "version": "8.1.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfilezilla",
       "title": "Filezilla (LinuxServer.io)",
       "tagline": "Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1295,16 +1295,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfilezilla/assets/filezilla-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfilezilla/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfilezilla/meta.json",
-      "content_hash": "ff45c117",
+      "content_hash": "a800cf5b",
       "version": "3.69.6"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfirefox",
       "title": "Firefox (LinuxServer.io)",
       "tagline": "Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1316,7 +1316,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfirefox/assets/firefox-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfirefox/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfirefox/meta.json",
-      "content_hash": "0b7da0fe",
+      "content_hash": "d8501789",
       "version": "1.2404.1"
     },
     {
@@ -1337,16 +1337,16 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfleet/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfleet/meta.json",
-      "content_hash": "799ec678",
+      "content_hash": "522f181b",
       "version": "2.3.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverflexget",
       "title": "Flexget (LinuxServer.io)",
       "tagline": "A multipurpose automation tool for all of your media.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1358,16 +1358,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverflexget/assets/flexget-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverflexget/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverflexget/meta.json",
-      "content_hash": "81b24257",
+      "content_hash": "12fe4646",
       "version": "3.21.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverflycast",
       "title": "Flycast (LinuxServer.io)",
       "tagline": "A multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1378,16 +1378,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverflycast/assets/flycast-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverflycast/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverflycast/meta.json",
-      "content_hash": "846b7356",
+      "content_hash": "e4ac733f",
       "version": "2.7.20260913"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
       "title": "Foldingathome (LinuxServer.io)",
       "tagline": "A distributed computing project for simulating protein dynamics, including the process of protein folding and the movements of proteins implicated in a variety of diseases. It brings together citizen scientists who volunteer to run simulations of protein dynamics on their personal computers. Insights from this data are helping scientists to better understand biology, and providing new opportunities for developing therapeutics.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1399,16 +1399,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfoldingathome/assets/foldingathome-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfoldingathome/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfoldingathome/meta.json",
-      "content_hash": "badc7390",
+      "content_hash": "ba9a9bae",
       "version": "8.5.6"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfreecad",
       "title": "Freecad (LinuxServer.io)",
       "tagline": "A general-purpose parametric 3D computer-aided design (CAD) modeler and a building information modeling (BIM) software application with finite element method (FEM) support.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1420,7 +1420,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreecad/assets/freecad-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfreecad/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfreecad/meta.json",
-      "content_hash": "59edfd05",
+      "content_hash": "019cbf5c",
       "version": "1.1.3"
     },
     {
@@ -1441,15 +1441,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreetube/assets/freetube-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfreetube/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfreetube/meta.json",
-      "content_hash": "4d4bbb1e"
+      "content_hash": "8c41319a"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfreshrss",
       "title": "Freshrss (LinuxServer.io)",
       "tagline": "A free, self-hostable aggregator for rss feeds.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1461,16 +1461,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverfreshrss/assets/freshrss-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverfreshrss/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverfreshrss/meta.json",
-      "content_hash": "7d5c50c7",
+      "content_hash": "19564aee",
       "version": "1.30.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergimp",
       "title": "Gimp (LinuxServer.io)",
       "tagline": "A free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1482,15 +1482,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergimp/assets/gimp-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergimp/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergimp/meta.json",
-      "content_hash": "6746977d"
+      "content_hash": "e52c31ae"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
       "title": "Github desktop (LinuxServer.io)",
       "tagline": "An open source Electron-based GitHub app. It is written in TypeScript and uses React.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1502,16 +1502,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergithubdesktop/assets/github-desktop-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergithubdesktop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergithubdesktop/meta.json",
-      "content_hash": "8306339e",
+      "content_hash": "4e98d07c",
       "version": "3.4.13"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergitqlient",
       "title": "Gitqlient (LinuxServer.io)",
       "tagline": "A multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1523,16 +1523,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergitqlient/assets/gitqlient-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergitqlient/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergitqlient/meta.json",
-      "content_hash": "583bf44b",
+      "content_hash": "0d2487f9",
       "version": "1.6.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergrav",
       "title": "Grav (LinuxServer.io)",
       "tagline": "A Fast, Simple, and Flexible, file-based Web-platform.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1544,7 +1544,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergrav/assets/grav-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergrav/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergrav/meta.json",
-      "content_hash": "ecdccc9d",
+      "content_hash": "048b6ce7",
       "version": "2.1.6"
     },
     {
@@ -1565,16 +1565,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergrocy/assets/grocy-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergrocy/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergrocy/meta.json",
-      "content_hash": "cf1e05da",
+      "content_hash": "ab2d3454",
       "version": "4.7.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergzdoom",
       "title": "Gzdoom (LinuxServer.io)",
       "tagline": "A feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1586,7 +1586,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservergzdoom/assets/gzdoom-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservergzdoom/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservergzdoom/meta.json",
-      "content_hash": "75ed7c63",
+      "content_hash": "d93eff2f",
       "version": "4.14.2"
     },
     {
@@ -1607,16 +1607,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhabridge/assets/habridge-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhabridge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhabridge/meta.json",
-      "content_hash": "6e87b22b",
+      "content_hash": "ba814205",
       "version": "5.4.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhandbrake",
       "title": "Handbrake (LinuxServer.io)",
       "tagline": "An open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1627,7 +1627,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhandbrake/assets/handbrake-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhandbrake/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhandbrake/meta.json",
-      "content_hash": "e4e8099c",
+      "content_hash": "4e00c4e1",
       "version": "1.11.2"
     },
     {
@@ -1648,15 +1648,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverheadphones/assets/headphones-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverheadphones/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverheadphones/meta.json",
-      "content_hash": "9ae8d98b"
+      "content_hash": "a7dc6443"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
       "title": "Healthchecks (LinuxServer.io)",
       "tagline": "A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1668,16 +1668,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhealthchecks/assets/healthchecks-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhealthchecks/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhealthchecks/meta.json",
-      "content_hash": "c712d644",
+      "content_hash": "76c42469",
       "version": "4.4.20260907"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
       "title": "Hedgedoc (LinuxServer.io)",
       "tagline": "Gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1689,16 +1689,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhedgedoc/assets/hedgedoc-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhedgedoc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhedgedoc/meta.json",
-      "content_hash": "ca0ce465",
+      "content_hash": "83591a6b",
       "version": "1.12.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverheimdall",
       "title": "Heimdall (LinuxServer.io)",
       "tagline": "A way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page. It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1710,16 +1710,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverheimdall/assets/heimdall-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverheimdall/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverheimdall/meta.json",
-      "content_hash": "05bd8bad",
+      "content_hash": "ec86afb7",
       "version": "2.8.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhelium",
       "title": "Helium (LinuxServer.io)",
       "tagline": "A Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1731,16 +1731,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhelium/assets/helium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhelium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhelium/meta.json",
-      "content_hash": "81f2f75e",
+      "content_hash": "297a96c5",
       "version": "0.17.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
       "title": "Hishtory server (LinuxServer.io)",
       "tagline": "A better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1752,7 +1752,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhishtoryserver/assets/hishtory-server-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhishtoryserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhishtoryserver/meta.json",
-      "content_hash": "ba0f073d",
+      "content_hash": "1fac439b",
       "version": "0.335.20260911"
     },
     {
@@ -1773,16 +1773,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhomeassistant/assets/favicon-192x192-full.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhomeassistant/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhomeassistant/meta.json",
-      "content_hash": "69833b9d",
+      "content_hash": "eaeb0b49",
       "version": "2026.9.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
       "title": "Htpcmanager (LinuxServer.io)",
       "tagline": "A front end for many htpc related applications.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1794,15 +1794,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverhtpcmanager/assets/htpcmanager-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverhtpcmanager/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverhtpcmanager/meta.json",
-      "content_hash": "65d5062b"
+      "content_hash": "1fc8cd17"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverinkscape",
       "title": "Inkscape (LinuxServer.io)",
       "tagline": "Professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1814,16 +1814,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverinkscape/assets/inkscape-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverinkscape/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverinkscape/meta.json",
-      "content_hash": "4ac80a37",
+      "content_hash": "a853ceda",
       "version": "1.4.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverintellijidea",
       "title": "Intellij idea (LinuxServer.io)",
       "tagline": "Helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1834,16 +1834,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverintellijidea/assets/intellij-idea-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverintellijidea/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverintellijidea/meta.json",
-      "content_hash": "81b45996",
+      "content_hash": "56a818fa",
       "version": "42026.2.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjackett",
       "title": "Jackett (LinuxServer.io)",
       "tagline": "Works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1855,16 +1855,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjackett/assets/jackett-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjackett/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjackett/meta.json",
-      "content_hash": "31cc6a59",
+      "content_hash": "406353e6",
       "version": "0.24.2605"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjellyfin",
       "title": "Jellyfin (LinuxServer.io)",
       "tagline": "A Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3. 5. 2 release and ported to the. NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1876,7 +1876,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/assets/jellyfin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjellyfin/meta.json",
-      "content_hash": "6bf7afc3"
+      "content_hash": "50a5f534"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
@@ -1896,15 +1896,15 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjenkinsbuilder/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjenkinsbuilder/meta.json",
-      "content_hash": "88b4f062"
+      "content_hash": "04f9fb50"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjoplin",
       "title": "Joplin (LinuxServer.io)",
       "tagline": "A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1915,16 +1915,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverjoplin/assets/joplin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverjoplin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverjoplin/meta.json",
-      "content_hash": "e0e8c987",
+      "content_hash": "99e493c0",
       "version": "3.7.18"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkalilinux",
       "title": "Kali linux (LinuxServer.io)",
       "tagline": "is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1936,15 +1936,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkalilinux/assets/kali-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkalilinux/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkalilinux/meta.json",
-      "content_hash": "684d1e5f"
+      "content_hash": "fdf5bf4a"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkasm",
       "title": "Kasm (LinuxServer.io)",
       "tagline": "Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections. The rendering of the graphical-based containers is powered by the open-source project KasmVNC.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1956,16 +1956,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkasm/assets/kasm_wide.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkasm/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkasm/meta.json",
-      "content_hash": "26af7514",
+      "content_hash": "bda8f595",
       "version": "1.19.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkavita",
       "title": "Kavita (LinuxServer.io)",
       "tagline": "A fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1977,16 +1977,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkavita/assets/kavita-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkavita/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkavita/meta.json",
-      "content_hash": "b8be8e83",
+      "content_hash": "1bc29245",
       "version": "0.9.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkdenlive",
       "title": "Kdenlive (LinuxServer.io)",
       "tagline": "A powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -1998,15 +1998,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkdenlive/assets/kdenlive-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkdenlive/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkdenlive/meta.json",
-      "content_hash": "0c400e34"
+      "content_hash": "fc996a30"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
       "title": "Keepassxc (LinuxServer.io)",
       "tagline": "A free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2018,16 +2018,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkeepassxc/assets/keepassxc-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkeepassxc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkeepassxc/meta.json",
-      "content_hash": "834147b8",
+      "content_hash": "566a03e3",
       "version": "2.7.12"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkicad",
       "title": "Kicad (LinuxServer.io)",
       "tagline": "A Cross Platform and Open Source Electronics Design Automation Suite.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2039,16 +2039,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkicad/assets/kicad-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkicad/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkicad/meta.json",
-      "content_hash": "922516ab",
+      "content_hash": "c3dcddd7",
       "version": "10.0.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkimai",
       "title": "Kimai (LinuxServer.io)",
       "tagline": "A professional grade time-tracking application, free and open-source. It handles use-cases of freelancers as well as companies with dozens or hundreds of users. Kimai was build to track your project times and ships with many advanced features, including but not limited to: JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones - multi-language (over 30 translations existing. ), authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP, customizable role and team permissions, responsive design, user/customer/project specific rates, advanced search & filtering, money and time budgets, advanced reporting, support for plugins and so much more.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2060,16 +2060,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkimai/assets/kimai-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkimai/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkimai/meta.json",
-      "content_hash": "38570ad5",
+      "content_hash": "8761b379",
       "version": "2.67.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkometa",
       "title": "Kometa (LinuxServer.io)",
       "tagline": "A powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2081,16 +2081,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkometa/assets/kometa-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkometa/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkometa/meta.json",
-      "content_hash": "1543ea51",
+      "content_hash": "116f582b",
       "version": "2.4.8"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkrita",
       "title": "Krita (LinuxServer.io)",
       "tagline": "A professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2101,16 +2101,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkrita/assets/krita-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverkrita/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverkrita/meta.json",
-      "content_hash": "afdf1f16",
+      "content_hash": "27d339bb",
       "version": "5.3.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
       "title": "Lazylibrarian (LinuxServer.io)",
       "tagline": "A program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. This container is based on the DobyTang fork.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2122,15 +2122,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/assets/lazylibrarian-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlazylibrarian/meta.json",
-      "content_hash": "c51c3bc4"
+      "content_hash": "c05f008c"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverldapauth",
       "title": "Ldap auth (LinuxServer.io)",
       "tagline": "Software is for authenticating users who request protected resources from servers proxied by nginx. It includes a daemon (ldap-auth) that communicates with an authentication server, and a webserver daemon that generates an authentication cookie based on the user’s credentials. The daemons are written in Python for use with a Lightweight Directory Access Protocol (LDAP) authentication server (OpenLDAP or Microsoft Windows Active Directory 2003 and 2012).",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2142,16 +2142,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverldapauth/assets/ldap-auth-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverldapauth/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverldapauth/meta.json",
-      "content_hash": "b01422eb",
+      "content_hash": "3a046903",
       "version": "3.4.8"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
       "title": "Libreoffice (LinuxServer.io)",
       "tagline": "A free and powerful office suite, and a successor to OpenOffice. Org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2163,16 +2163,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlibreoffice/assets/libreoffice-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlibreoffice/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlibreoffice/meta.json",
-      "content_hash": "e73f4e04",
+      "content_hash": "eef946c2",
       "version": "25.8.7"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
       "title": "Librespeed (LinuxServer.io)",
       "tagline": "A very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2184,16 +2184,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlibrespeed/assets/logo3.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlibrespeed/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlibrespeed/meta.json",
-      "content_hash": "6da60fa2",
+      "content_hash": "3c29b49c",
       "version": "6.3.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
       "title": "Librewolf (LinuxServer.io)",
       "tagline": "A custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2205,16 +2205,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlibrewolf/assets/librewolf-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlibrewolf/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlibrewolf/meta.json",
-      "content_hash": "9c669b8a",
+      "content_hash": "a4c054e3",
       "version": "155.0.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlidarr",
       "title": "Lidarr (LinuxServer.io)",
       "tagline": "A music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2226,16 +2226,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlidarr/assets/400.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlidarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlidarr/meta.json",
-      "content_hash": "79453ca1",
+      "content_hash": "476fac9f",
       "version": "3.1.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlimnoria",
       "title": "Limnoria (LinuxServer.io)",
       "tagline": "A robust, full-featured, and user/programmer-friendly Python IRC bot, with many existing plugins. Successor of the well-known Supybot.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2247,16 +2247,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlimnoria/assets/limnoria-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlimnoria/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlimnoria/meta.json",
-      "content_hash": "20e19388",
+      "content_hash": "bdbbc677",
       "version": "2026.5.8"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlmstudio",
       "title": "Lm studio (LinuxServer.io)",
       "tagline": "Can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.",
-      "category": "Home",
+      "category": "AI",
       "categories": [
-        "home"
+        "ai"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2267,15 +2267,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlmstudio/assets/lmstudio-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlmstudio/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlmstudio/meta.json",
-      "content_hash": "109598ff"
+      "content_hash": "4e22b85b"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlollypop",
       "title": "Lollypop (LinuxServer.io)",
       "tagline": "A lightweight modern music player designed to work excellently on the GNOME desktop environment.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2287,7 +2287,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlollypop/assets/lollypop-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlollypop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlollypop/meta.json",
-      "content_hash": "fd0ef67c",
+      "content_hash": "b72dab1b",
       "version": "1.4.45"
     },
     {
@@ -2307,15 +2307,15 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlsioapi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlsioapi/meta.json",
-      "content_hash": "6eea876e"
+      "content_hash": "2bd5a437"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverluanti",
       "title": "Luanti (LinuxServer.io)",
       "tagline": "(formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2327,16 +2327,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverluanti/assets/minetest-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverluanti/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverluanti/meta.json",
-      "content_hash": "246f4d02",
+      "content_hash": "d5ee438c",
       "version": "5.17.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlychee",
       "title": "Lychee (LinuxServer.io)",
       "tagline": "A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2348,16 +2348,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlychee/assets/lychee-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverlychee/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverlychee/meta.json",
-      "content_hash": "f1b1e154",
+      "content_hash": "ccb1933d",
       "version": "7.8.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermame",
       "title": "Mame (LinuxServer.io)",
       "tagline": "A free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2369,15 +2369,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermame/assets/mame-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermame/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermame/meta.json",
-      "content_hash": "eacd7d6d"
+      "content_hash": "8c6a2fd3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermanyfold",
       "title": "Manyfold (LinuxServer.io)",
       "tagline": "An open source, self-hosted web application for managing a collection of 3D models, particularly focused on 3D printing.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2389,16 +2389,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermanyfold/assets/manyfold-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermanyfold/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermanyfold/meta.json",
-      "content_hash": "5c4c2d00",
+      "content_hash": "db8b0f16",
       "version": "0.149.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermariadb",
       "title": "Mariadb (LinuxServer.io)",
       "tagline": "One of the most popular database servers. Made by the original developers of MySQL.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2410,16 +2410,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermariadb/assets/mariadb-git.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermariadb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermariadb/meta.json",
-      "content_hash": "184198a8",
+      "content_hash": "48dfaebe",
       "version": "11.8.8"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermastodon",
       "title": "Mastodon (LinuxServer.io)",
       "tagline": "A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2431,16 +2431,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermastodon/assets/mastodon-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermastodon/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermastodon/meta.json",
-      "content_hash": "e065bb29",
+      "content_hash": "d7b4d1f7",
       "version": "4.7.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermediaelch",
       "title": "Mediaelch (LinuxServer.io)",
       "tagline": "A MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart. Tv. Using the nfo generator, MediaElch can be used with other MediaCenters as well.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2451,16 +2451,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermediaelch/assets/mediaelch-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermediaelch/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermediaelch/meta.json",
-      "content_hash": "44be15d6",
+      "content_hash": "c9aff6d3",
       "version": "2.12.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermedusa",
       "title": "Medusa (LinuxServer.io)",
       "tagline": "An automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2472,16 +2472,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermedusa/assets/medusa-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermedusa/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermedusa/meta.json",
-      "content_hash": "11c5e6e4",
+      "content_hash": "80f20549",
       "version": "1.0.26"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermelonds",
       "title": "Melonds (LinuxServer.io)",
       "tagline": "Aims at providing fast and accurate Nintendo DS emulation.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2493,7 +2493,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermelonds/assets/melonds-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermelonds/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermelonds/meta.json",
-      "content_hash": "556f37a4",
+      "content_hash": "cc6e5c93",
       "version": "1.1.20260907"
     },
     {
@@ -2514,16 +2514,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverminetest/assets/minetest-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverminetest/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverminetest/meta.json",
-      "content_hash": "0759f4f6",
+      "content_hash": "e0b8edf4",
       "version": "5.10.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverminisatip",
       "title": "Minisatip (LinuxServer.io)",
       "tagline": "A multi-threaded satip server version 1. 2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2535,16 +2535,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverminisatip/assets/minisatip-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverminisatip/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverminisatip/meta.json",
-      "content_hash": "e82cd761",
+      "content_hash": "1c5176b1",
       "version": "2.0.105"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermodmanager",
       "title": "Modmanager (LinuxServer.io)",
       "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/modmanager for details.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2556,15 +2556,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermodmanager/assets/linuxserver-ls-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermodmanager/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermodmanager/meta.json",
-      "content_hash": "5c3b6730"
+      "content_hash": "483ce145"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermodrinth",
       "title": "Modrinth (LinuxServer.io)",
       "tagline": "A unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2575,7 +2575,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermodrinth/assets/modrinth-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermodrinth/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermodrinth/meta.json",
-      "content_hash": "6eefebbb",
+      "content_hash": "6a5a029f",
       "version": "0.21.4"
     },
     {
@@ -2596,16 +2596,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermonica/assets/monica-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermonica/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermonica/meta.json",
-      "content_hash": "4768176d",
+      "content_hash": "7dcd9a5b",
       "version": "4.1.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermsedge",
       "title": "Msedge (LinuxServer.io)",
       "tagline": "A cross-platform web browser developed by Microsoft and based on Chromium.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2616,16 +2616,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermsedge/assets/edge-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermsedge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermsedge/meta.json",
-      "content_hash": "3e190b77",
+      "content_hash": "53c70069",
       "version": "153.0.4234"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermstream",
       "title": "Mstream (LinuxServer.io)",
       "tagline": "A personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2637,16 +2637,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermstream/assets/mstream-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermstream/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermstream/meta.json",
-      "content_hash": "a223f84f",
+      "content_hash": "0914c191",
       "version": "6.28.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
       "title": "Mullvad browser (LinuxServer.io)",
       "tagline": "The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2657,16 +2657,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermullvadbrowser/assets/mullvad-browser-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermullvadbrowser/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermullvadbrowser/meta.json",
-      "content_hash": "fc3d8371",
+      "content_hash": "5e32dec5",
       "version": "15.0.21"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermylar3",
       "title": "Mylar3 (LinuxServer.io)",
       "tagline": "An automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2678,16 +2678,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermylar3/assets/mylar-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermylar3/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermylar3/meta.json",
-      "content_hash": "0114bbcf",
+      "content_hash": "3921d751",
       "version": "0.11.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
       "title": "Mysql workbench (LinuxServer.io)",
       "tagline": "A unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2698,7 +2698,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/assets/mysql-workbench-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservermysqlworkbench/meta.json",
-      "content_hash": "a82821d9",
+      "content_hash": "bc6320d4",
       "version": "8.0.47"
     },
     {
@@ -2720,7 +2720,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernano/assets/default-icon.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernano/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernano/meta.json",
-      "content_hash": "35acbb01",
+      "content_hash": "680124c3",
       "version": "21.2.20220522"
     },
     {
@@ -2742,7 +2742,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernanowallet/assets/default-icon.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernanowallet/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernanowallet/meta.json",
-      "content_hash": "44392d91",
+      "content_hash": "12aeee7e",
       "version": "1.3.2"
     },
     {
@@ -2763,16 +2763,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernetbootxyz/assets/netboot.xyz.gif",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernetbootxyz/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernetbootxyz/meta.json",
-      "content_hash": "0785bfc8",
+      "content_hash": "6f4840a3",
       "version": "0.7.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernetbox",
       "title": "Netbox (LinuxServer.io)",
       "tagline": "An IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2784,16 +2784,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernetbox/assets/netbox-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernetbox/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernetbox/meta.json",
-      "content_hash": "8ae19466",
+      "content_hash": "d6fe36a9",
       "version": "4.7.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernextcloud",
       "title": "Nextcloud (LinuxServer.io)",
       "tagline": "Gives you access to all your files wherever you are. Where are your photos and documents. With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2805,16 +2805,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernextcloud/assets/nextcloud-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernextcloud/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernextcloud/meta.json",
-      "content_hash": "2eed8727",
+      "content_hash": "e0d7c924",
       "version": "35.0.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernginx",
       "title": "Nginx (LinuxServer.io)",
       "tagline": "An HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2826,16 +2826,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernginx/assets/nginx-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernginx/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernginx/meta.json",
-      "content_hash": "c3a83825",
+      "content_hash": "db30ee94",
       "version": "1.30.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverngircd",
       "title": "Ngircd (LinuxServer.io)",
       "tagline": "A free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. It is written from scratch and not based on the original IRCd.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2847,7 +2847,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverngircd/assets/ngircd-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverngircd/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverngircd/meta.json",
-      "content_hash": "d94de3d7"
+      "content_hash": "59452588"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
@@ -2867,16 +2867,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernntp2nntp/assets/nntp2nntp.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernntp2nntp/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernntp2nntp/meta.json",
-      "content_hash": "8d3bfba9",
+      "content_hash": "a73ea0b2",
       "version": "0.3.20230704"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernzbget",
       "title": "Nzbget (LinuxServer.io)",
       "tagline": "A usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2888,16 +2888,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernzbget/assets/nzbget-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernzbget/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernzbget/meta.json",
-      "content_hash": "f6188fc0",
+      "content_hash": "dad7d8bf",
       "version": "26.3.20260911"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
       "title": "Nzbhydra2 (LinuxServer.io)",
       "tagline": "A meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2909,16 +2909,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservernzbhydra2/assets/hydra-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservernzbhydra2/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservernzbhydra2/meta.json",
-      "content_hash": "643be25d",
+      "content_hash": "042332e9",
       "version": "8.9.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverobsidian",
       "title": "Obsidian (LinuxServer.io)",
       "tagline": "A note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2930,16 +2930,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverobsidian/assets/obsidian-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverobsidian/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverobsidian/meta.json",
-      "content_hash": "3aeb2283",
+      "content_hash": "bb506fef",
       "version": "1.13.7"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverombi",
       "title": "Ombi (LinuxServer.io)",
       "tagline": "Allows you to host your own Plex Request and user management system. If you are sharing your Plex server with other users, allow them to request new content using an easy to manage interface. Manage all your requests for Movies and TV with ease, leave notes for the user and get notification when a user requests something. Allow your users to post issues against their requests so you know there is a problem with the audio etc. Even automatically send them weekly newsletters of new content that has been added to your Plex server.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2951,16 +2951,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverombi/assets/ombi.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverombi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverombi/meta.json",
-      "content_hash": "91962263",
+      "content_hash": "2093c9ac",
       "version": "4.53.10"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
       "title": "Onlyoffice (LinuxServer.io)",
       "tagline": "Provides a full range of tools to create, edit and collaborate on text documents, spreadsheets, presentations, PDF forms and regular PDF files on web, desktop and mobile platforms.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2971,16 +2971,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveronlyoffice/assets/onlyoffice-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveronlyoffice/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveronlyoffice/meta.json",
-      "content_hash": "ee595c24",
+      "content_hash": "9717163b",
       "version": "9.4.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropenshot",
       "title": "Openshot (LinuxServer.io)",
       "tagline": "Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -2991,16 +2991,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropenshot/assets/openshot-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropenshot/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropenshot/meta.json",
-      "content_hash": "708f34dc",
+      "content_hash": "cacb8408",
       "version": "4.0.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropensshserver",
       "title": "Openssh server (LinuxServer.io)",
       "tagline": "A sandboxed environment that allows ssh access without giving keys to the entire server. Giving ssh access via private key often means giving full access to the server. This container creates a limited and sandboxed environment that others can ssh into. The users only have access to the folders mapped and the processes running inside this container.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3012,7 +3012,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropensshserver/assets/openssh-server-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropensshserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropensshserver/meta.json",
-      "content_hash": "a147f1f6"
+      "content_hash": "82e9801b"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
@@ -3032,16 +3032,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/assets/openvscode-server-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropenvscodeserver/meta.json",
-      "content_hash": "8393101e",
+      "content_hash": "0ce2c7f4",
       "version": "1.109.5"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropera",
       "title": "Opera (LinuxServer.io)",
       "tagline": "A multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc. ) through its user interface and other features.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3052,16 +3052,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveropera/assets/opera-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveropera/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveropera/meta.json",
-      "content_hash": "1509c8ba",
+      "content_hash": "cad0097f",
       "version": "136.0.6008"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
       "title": "Orcaslicer (LinuxServer.io)",
       "tagline": "An open source slicer for FDM printers. OrcaSlicer is fork of Bambu Studio, it was previously known as BambuStudio-SoftFever, Bambu Studio is forked from PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3073,16 +3073,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverorcaslicer/assets/orcaslicer-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverorcaslicer/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverorcaslicer/meta.json",
-      "content_hash": "1f703fdf",
+      "content_hash": "d7d91f7a",
       "version": "2.4.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveroscam",
       "title": "Oscam (LinuxServer.io)",
       "tagline": "An Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3094,7 +3094,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveroscam/assets/oscam-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveroscam/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveroscam/meta.json",
-      "content_hash": "896a6fb0"
+      "content_hash": "5923a06e"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveroverseerr",
@@ -3114,16 +3114,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveroverseerr/assets/overseerr.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveroverseerr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveroverseerr/meta.json",
-      "content_hash": "e716e93f",
+      "content_hash": "246a5e2f",
       "version": "1.33.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpairdrop",
       "title": "Pairdrop (LinuxServer.io)",
       "tagline": "A sublime alternative to AirDrop that works on all platforms. Send images, documents or text via peer to peer connection to devices in the same local network/Wi-Fi or to paired devices.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3135,16 +3135,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpairdrop/assets/android-chrome-512x512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpairdrop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpairdrop/meta.json",
-      "content_hash": "6255786a",
+      "content_hash": "5d8531a0",
       "version": "1.11.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpcsx2",
       "title": "Pcsx2 (LinuxServer.io)",
       "tagline": "An open source PS2 Emulator.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3155,16 +3155,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpcsx2/assets/pcsx2-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpcsx2/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpcsx2/meta.json",
-      "content_hash": "6b589e10",
+      "content_hash": "0b0d8e9a",
       "version": "2.8.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpelorus",
       "title": "Pelorus (LinuxServer.io)",
       "tagline": "An AI navigator for Selkies-powered Linux desktops. Pelorus runs a FastAPI server that gives an LLM agent (Ollama, OpenAI-compatible, or Gemini) control over mouse, keyboard, screenshot, and window management via the Pixelflux computer-use backend, a Linux accessibility tree (AT-SPI), and optional KWin D-Bus integration.",
-      "category": "Home",
+      "category": "AI",
       "categories": [
-        "home"
+        "ai"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3175,16 +3175,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpelorus/assets/pelorus-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpelorus/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpelorus/meta.json",
-      "content_hash": "8c1db32b",
+      "content_hash": "1f2f8bd2",
       "version": "0.2.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
       "title": "Phpmyadmin (LinuxServer.io)",
       "tagline": "A free software tool written in PHP, intended to handle the administration of MySQL over the Web. PhpMyAdmin supports a wide range of operations on MySQL and MariaDB.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3196,16 +3196,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/assets/phpmyadmin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverphpmyadmin/meta.json",
-      "content_hash": "e9319bdf",
+      "content_hash": "c7d5f278",
       "version": "5.2.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpidgin",
       "title": "Pidgin (LinuxServer.io)",
       "tagline": "A chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3217,16 +3217,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpidgin/assets/pidgin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpidgin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpidgin/meta.json",
-      "content_hash": "9010e83e",
+      "content_hash": "a45bd65d",
       "version": "2.14.14"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpiper",
       "title": "Piper (LinuxServer.io)",
       "tagline": "A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.",
-      "category": "Home",
+      "category": "AI",
       "categories": [
-        "home"
+        "ai"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3238,16 +3238,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpiper/assets/piper-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpiper/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpiper/meta.json",
-      "content_hash": "fda07b66",
+      "content_hash": "68daa817",
       "version": "2.5.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpiwigo",
       "title": "Piwigo (LinuxServer.io)",
       "tagline": "A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3259,16 +3259,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpiwigo/assets/piwigo-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpiwigo/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpiwigo/meta.json",
-      "content_hash": "fa0e1d3e",
+      "content_hash": "346b26b9",
       "version": "16.4.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverplanka",
       "title": "Planka (LinuxServer.io)",
       "tagline": "An elegant open source project tracking tool.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3280,16 +3280,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverplanka/assets/planka-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverplanka/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverplanka/meta.json",
-      "content_hash": "0a7ebe3a",
+      "content_hash": "ff8726a3",
       "version": "2.2.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverplex",
       "title": "Plex (LinuxServer.io)",
       "tagline": "Organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3301,7 +3301,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverplex/assets/plex-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverplex/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverplex/meta.json",
-      "content_hash": "73112bb2",
+      "content_hash": "66ba0704",
       "version": "1.43.4"
     },
     {
@@ -3322,16 +3322,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverplexmetamanager/assets/plex-meta-manager-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverplexmetamanager/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverplexmetamanager/meta.json",
-      "content_hash": "cbffef74",
+      "content_hash": "f5821084",
       "version": "1.21.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverppsspp",
       "title": "Ppsspp (LinuxServer.io)",
       "tagline": "A free and open-source PSP emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series and Symbian with a focus on speed and portability.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3342,16 +3342,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverppsspp/assets/ppsspp-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverppsspp/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverppsspp/meta.json",
-      "content_hash": "3cf44bfb",
+      "content_hash": "1b9e5984",
       "version": "1.20.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverprojectsend",
       "title": "Projectsend (LinuxServer.io)",
       "tagline": "A self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3363,15 +3363,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverprojectsend/assets/projectsend-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverprojectsend/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverprojectsend/meta.json",
-      "content_hash": "7b7b8892"
+      "content_hash": "1098ad5f"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverprowlarr",
       "title": "Prowlarr (LinuxServer.io)",
       "tagline": "A indexer manager/proxy built on the popular arr. Net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3383,16 +3383,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverprowlarr/assets/prowlarr-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverprowlarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverprowlarr/meta.json",
-      "content_hash": "6aff5489",
+      "content_hash": "caf1dc29",
       "version": "2.6.5"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpwndrop",
       "title": "Pwndrop (LinuxServer.io)",
       "tagline": "A self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3404,16 +3404,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpwndrop/assets/pwndrop-logo-512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpwndrop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpwndrop/meta.json",
-      "content_hash": "1c043fb5",
+      "content_hash": "97702cf6",
       "version": "1.0.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpycharm",
       "title": "Pycharm (LinuxServer.io)",
       "tagline": "Offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3424,16 +3424,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpycharm/assets/pycharm-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpycharm/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpycharm/meta.json",
-      "content_hash": "400b4136",
+      "content_hash": "b969e993",
       "version": "2026.2.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpydiocells",
       "title": "Pydio cells (LinuxServer.io)",
       "tagline": "The nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3445,16 +3445,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpydiocells/assets/pydio-cells-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpydiocells/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpydiocells/meta.json",
-      "content_hash": "7bb81314",
+      "content_hash": "c522ef06",
       "version": "5.0.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpyloadng",
       "title": "Pyload ng (LinuxServer.io)",
       "tagline": "A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3466,7 +3466,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpyloadng/assets/pyload-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpyloadng/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpyloadng/meta.json",
-      "content_hash": "14fd940e",
+      "content_hash": "a5cc1131",
       "version": "0.5.0"
     },
     {
@@ -3487,7 +3487,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverpylon/assets/screenshot02.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpylon/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpylon/meta.json",
-      "content_hash": "af3d3c67",
+      "content_hash": "6ee5a41f",
       "version": "2.10.0"
     },
     {
@@ -3508,16 +3508,16 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverpython/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverpython/meta.json",
-      "content_hash": "8222bc51",
+      "content_hash": "6d35a6cf",
       "version": "3.13.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
       "title": "Qbittorrent (LinuxServer.io)",
       "tagline": "The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3529,16 +3529,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverqbittorrent/assets/qbittorrent-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverqbittorrent/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverqbittorrent/meta.json",
-      "content_hash": "2b03529e",
+      "content_hash": "d6369ff9",
       "version": "5.2.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverqdirstat",
       "title": "Qdirstat (LinuxServer.io)",
       "tagline": "Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3550,16 +3550,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverqdirstat/assets/qdirstat-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverqdirstat/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverqdirstat/meta.json",
-      "content_hash": "2fa8dcd8",
+      "content_hash": "f4bb9a6b",
       "version": "2.0.20260913"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverqemustatic",
       "title": "Qemu static (LinuxServer.io)",
       "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/qemu-static for details.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3571,7 +3571,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverqemustatic/assets/qemu-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverqemustatic/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverqemustatic/meta.json",
-      "content_hash": "20cc1933",
+      "content_hash": "2a305e76",
       "version": "10.0.2"
     },
     {
@@ -3592,7 +3592,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverquasselcore/assets/Apps-quassel-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverquasselcore/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverquasselcore/meta.json",
-      "content_hash": "aa527071",
+      "content_hash": "d6aa0bf5",
       "version": "0.14.0"
     },
     {
@@ -3613,15 +3613,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverquasselweb/assets/quassel-web-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverquasselweb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverquasselweb/meta.json",
-      "content_hash": "92911951"
+      "content_hash": "9138094f"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverradarr",
       "title": "Radarr (LinuxServer.io)",
       "tagline": "A fork of Sonarr to work with movies à la Couchpotato.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3633,16 +3633,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverradarr/assets/radarr.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverradarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverradarr/meta.json",
-      "content_hash": "868bcd80",
+      "content_hash": "d1647431",
       "version": "6.4.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverraneto",
       "title": "Raneto (LinuxServer.io)",
       "tagline": "is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3654,16 +3654,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverraneto/assets/raneto-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverraneto/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverraneto/meta.json",
-      "content_hash": "2ad129e5",
+      "content_hash": "71c30699",
       "version": "0.18.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
       "title": "Rawtherapee (LinuxServer.io)",
       "tagline": "A free, cross-platform raw image processing program.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3675,7 +3675,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrawtherapee/assets/rawtherapee-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrawtherapee/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrawtherapee/meta.json",
-      "content_hash": "c91651a6",
+      "content_hash": "e5e4328f",
       "version": "5.13.20260913"
     },
     {
@@ -3696,7 +3696,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrdesktop/assets/rdesktop.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrdesktop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrdesktop/meta.json",
-      "content_hash": "99904dfd"
+      "content_hash": "780dbaea"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverreadmesync",
@@ -3716,15 +3716,15 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverreadmesync/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverreadmesync/meta.json",
-      "content_hash": "1dc47f20"
+      "content_hash": "c4c0f635"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverremmina",
       "title": "Remmina (LinuxServer.io)",
       "tagline": "A remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface. Currently RDP, VNC, SPICE, SSH and EXEC are supported.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3736,7 +3736,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverremmina/assets/remmina-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverremmina/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverremmina/meta.json",
-      "content_hash": "bd6718b3",
+      "content_hash": "ef9d4973",
       "version": "1.4.43"
     },
     {
@@ -3758,16 +3758,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrequestrr/assets/requestrr_discord_Icon_512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrequestrr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrequestrr/meta.json",
-      "content_hash": "662e56d0",
+      "content_hash": "8b7e6d54",
       "version": "2.1.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverresiliosync",
       "title": "Resilio sync (LinuxServer.io)",
       "tagline": "(formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3779,16 +3779,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverresiliosync/assets/resilio-sync-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverresiliosync/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverresiliosync/meta.json",
-      "content_hash": "43ee7a98",
+      "content_hash": "7b20fa48",
       "version": "3.1.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverretroarch",
       "title": "Retroarch (LinuxServer.io)",
       "tagline": "A frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3800,16 +3800,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverretroarch/assets/retroarch-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverretroarch/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverretroarch/meta.json",
-      "content_hash": "a9e9e376",
+      "content_hash": "18eb2f30",
       "version": "1.22.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrpcs3",
       "title": "Rpcs3 (LinuxServer.io)",
       "tagline": "A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3821,15 +3821,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrpcs3/assets/rpcs3-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrpcs3/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrpcs3/meta.json",
-      "content_hash": "7cf9b19f"
+      "content_hash": "3e436579"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
       "title": "Rsnapshot (LinuxServer.io)",
       "tagline": "A filesystem snapshot utility based on rsync. Rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3841,16 +3841,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrsnapshot/assets/rsnapshot.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrsnapshot/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrsnapshot/meta.json",
-      "content_hash": "67e545fa",
+      "content_hash": "9a5cfc14",
       "version": "1.4.5"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrustdesk",
       "title": "Rustdesk (LinuxServer.io)",
       "tagline": "A full-featured open source remote control alternative for self-hosting and security with minimal configuration.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3862,16 +3862,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverrustdesk/assets/rustdesk-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverrustdesk/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverrustdesk/meta.json",
-      "content_hash": "c25cd9c9",
+      "content_hash": "1808c5e8",
       "version": "1.4.9"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversabnzbd",
       "title": "Sabnzbd (LinuxServer.io)",
       "tagline": "Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an. Nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3883,16 +3883,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversabnzbd/assets/sabnzbd-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversabnzbd/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversabnzbd/meta.json",
-      "content_hash": "823448ec",
+      "content_hash": "7ff63d2b",
       "version": "5.1.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverscummvm",
       "title": "Scummvm (LinuxServer.io)",
       "tagline": "A program which allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed. ScummVM is a complete rewrite of these games' executables and is not an emulator.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3903,16 +3903,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverscummvm/assets/scummvm-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverscummvm/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverscummvm/meta.json",
-      "content_hash": "fb92240e",
+      "content_hash": "ed42d875",
       "version": "2026.3.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversealskin",
       "title": "Sealskin (LinuxServer.io)",
       "tagline": "A self-hosted, client-server platform that enables users to run powerful, containerized desktop applications streamed directly to a web browser. It uses a browser extension to intercept user actions—such as clicking a link or downloading a file and redirects them to a secure, isolated application environment running on a remote server.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3924,7 +3924,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversealskin/assets/selkies-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversealskin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversealskin/meta.json",
-      "content_hash": "26adbc74",
+      "content_hash": "f9a3e4ae",
       "version": "0.3.2"
     },
     {
@@ -3945,16 +3945,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverseriestroxide/assets/series-troxide-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverseriestroxide/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverseriestroxide/meta.json",
-      "content_hash": "1e162159",
+      "content_hash": "7a71348e",
       "version": "0.5.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservershadps4",
       "title": "Shadps4 (LinuxServer.io)",
       "tagline": "An early PlayStation 4 emulator for Windows, Linux and macOS written in C++.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3965,15 +3965,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservershadps4/assets/shadps4-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservershadps4/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservershadps4/meta.json",
-      "content_hash": "3239b5de"
+      "content_hash": "3fd7d058"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservershotcut",
       "title": "Shotcut (LinuxServer.io)",
       "tagline": "A free, open source, cross-platform video editor.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -3984,7 +3984,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservershotcut/assets/shotcut-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservershotcut/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservershotcut/meta.json",
-      "content_hash": "64373a70",
+      "content_hash": "8421eea0",
       "version": "26.8.1"
     },
     {
@@ -4005,16 +4005,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversickchill/assets/sickchill-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversickchill/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversickchill/meta.json",
-      "content_hash": "699659c7",
+      "content_hash": "0a71110a",
       "version": "2024.3.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversickgear",
       "title": "Sickgear (LinuxServer.io)",
       "tagline": "Provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. . For more information on SickGear visit their website and check it out: https://github. Com/SickGear/SickGear",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4026,16 +4026,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversickgear/assets/sickgear-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversickgear/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversickgear/meta.json",
-      "content_hash": "fbffe565",
+      "content_hash": "f08b4b3f",
       "version": "3.36.6"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversignal",
       "title": "Signal (LinuxServer.io)",
       "tagline": "A messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4046,16 +4046,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversignal/assets/signal-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversignal/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversignal/meta.json",
-      "content_hash": "e7762f6b",
+      "content_hash": "600457a1",
       "version": "8.27.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversmokeping",
       "title": "Smokeping (LinuxServer.io)",
       "tagline": "Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4067,7 +4067,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversmokeping/assets/smokeping-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversmokeping/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversmokeping/meta.json",
-      "content_hash": "a2e65897",
+      "content_hash": "f4b156fb",
       "version": "2.9.0"
     },
     {
@@ -4088,7 +4088,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversnapdrop/assets/logo_transparent_512x512.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversnapdrop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversnapdrop/meta.json",
-      "content_hash": "8374c133"
+      "content_hash": "5b310736"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversnipeit",
@@ -4108,16 +4108,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversnipeit/assets/snipe-it-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversnipeit/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversnipeit/meta.json",
-      "content_hash": "7556bd18",
+      "content_hash": "bf54ca30",
       "version": "7.1.15"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversocketproxy",
       "title": "Socket proxy (LinuxServer.io)",
       "tagline": "This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/socket-proxy for details.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4129,16 +4129,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversocketproxy/assets/docker-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversocketproxy/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversocketproxy/meta.json",
-      "content_hash": "71e0827a",
+      "content_hash": "c21f5366",
       "version": "3.4.4"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversonarr",
       "title": "Sonarr (LinuxServer.io)",
       "tagline": "(formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4150,16 +4150,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversonarr/assets/sonarr-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversonarr/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversonarr/meta.json",
-      "content_hash": "2553d9e3",
+      "content_hash": "d1aa3430",
       "version": "4.0.20"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
       "title": "Speedtest tracker (LinuxServer.io)",
       "tagline": "A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4171,16 +4171,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/assets/speedtest-tracker-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverspeedtesttracker/meta.json",
-      "content_hash": "a3647079",
+      "content_hash": "716cc796",
       "version": "1.15.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverspotube",
       "title": "Spotube (LinuxServer.io)",
       "tagline": "An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped. Video or JioSaavn as an audio source, eliminating the need for Spotify Premium",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4192,16 +4192,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverspotube/assets/spotube-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverspotube/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverspotube/meta.json",
-      "content_hash": "1b16a9bb",
+      "content_hash": "3a2f4556",
       "version": "5.1.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
       "title": "Sqlitebrowser (LinuxServer.io)",
       "tagline": "A high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4213,16 +4213,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversqlitebrowser/assets/sqlitebrowser-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversqlitebrowser/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversqlitebrowser/meta.json",
-      "content_hash": "84a78fa0",
+      "content_hash": "8db05d1b",
       "version": "3.13.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversteam",
       "title": "Steam (LinuxServer.io)",
       "tagline": "The ultimate destination for playing, discussing, and creating games.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4233,7 +4233,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversteam/assets/steam-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversteam/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversteam/meta.json",
-      "content_hash": "8a89c14a"
+      "content_hash": "d0897e09"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversteamos",
@@ -4252,15 +4252,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversteamos/assets/steamos-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversteamos/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversteamos/meta.json",
-      "content_hash": "0e038869"
+      "content_hash": "1e5cd6a2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverswag",
       "title": "Swag (LinuxServer.io)",
       "tagline": "SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4272,16 +4272,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverswag/assets/swag.gif",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverswag/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverswag/meta.json",
-      "content_hash": "bc232361",
+      "content_hash": "6d3024d2",
       "version": "5.8.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversynclounge",
       "title": "Synclounge (LinuxServer.io)",
       "tagline": "A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4293,16 +4293,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversynclounge/assets/synclounge-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversynclounge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversynclounge/meta.json",
-      "content_hash": "f33c41fd",
+      "content_hash": "969f3c5a",
       "version": "5.2.35"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversyncthing",
       "title": "Syncthing (LinuxServer.io)",
       "tagline": "Replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4314,16 +4314,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversyncthing/assets/syncthing-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversyncthing/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversyncthing/meta.json",
-      "content_hash": "41d3f9f4",
+      "content_hash": "05702acf",
       "version": "2.1.5"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversyslogng",
       "title": "Syslog ng (LinuxServer.io)",
       "tagline": "Allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4335,16 +4335,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserversyslogng/assets/syslog-ng-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserversyslogng/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserversyslogng/meta.json",
-      "content_hash": "c0e9a9a5",
+      "content_hash": "c0adafa8",
       "version": "4.11.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertautulli",
       "title": "Tautulli (LinuxServer.io)",
       "tagline": "A python based web application for monitoring, analytics and notifications for Plex Media Server.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4356,16 +4356,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertautulli/assets/tautulli-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertautulli/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertautulli/meta.json",
-      "content_hash": "0f7834ba",
+      "content_hash": "f7a21e95",
       "version": "2.18.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertelegram",
       "title": "Telegram (LinuxServer.io)",
       "tagline": "A cloud-based mobile and desktop messaging app.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4377,7 +4377,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertelegram/assets/telegram-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertelegram/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertelegram/meta.json",
-      "content_hash": "5632cdf4",
+      "content_hash": "71163809",
       "version": "7.2.8"
     },
     {
@@ -4397,15 +4397,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertester/assets/12324908.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertester/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertester/meta.json",
-      "content_hash": "33016c75"
+      "content_hash": "6bd86d76"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverthelounge",
       "title": "Thelounge (LinuxServer.io)",
       "tagline": "(a fork of shoutIRC) is a web IRC client that you host on your own server.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4417,16 +4417,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverthelounge/assets/logo-vertical-transparent-bg.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverthelounge/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverthelounge/meta.json",
-      "content_hash": "5cb9b055",
+      "content_hash": "ea8d7f75",
       "version": "4.5.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverthunderbird",
       "title": "Thunderbird (LinuxServer.io)",
       "tagline": "A free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4438,16 +4438,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverthunderbird/assets/thunderbird-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverthunderbird/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverthunderbird/meta.json",
-      "content_hash": "4b43fb5a",
+      "content_hash": "ee6ac7dd",
       "version": "1140.16.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertransmission",
       "title": "Transmission (LinuxServer.io)",
       "tagline": "Designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4459,16 +4459,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertransmission/assets/transmission.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertransmission/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertransmission/meta.json",
-      "content_hash": "3ffaa9b3",
+      "content_hash": "074a39d1",
       "version": "4.1.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertvheadend",
       "title": "Tvheadend (LinuxServer.io)",
       "tagline": "Works as a proxy server: is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP and HDHomeRun as input sources. Tvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT>IP streaming. Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML).",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4480,15 +4480,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservertvheadend/assets/tvheadend-big.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservertvheadend/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservertvheadend/meta.json",
-      "content_hash": "3837934d"
+      "content_hash": "b6603923"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverubooquity",
       "title": "Ubooquity (LinuxServer.io)",
       "tagline": "A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4500,16 +4500,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverubooquity/assets/ubooquity-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverubooquity/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverubooquity/meta.json",
-      "content_hash": "2fb9da85",
+      "content_hash": "edc6905e",
       "version": "3.1.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
       "title": "Ungoogled chromium (LinuxServer.io)",
       "tagline": "Google Chromium, sans dependency on Google web services.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4521,7 +4521,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverungoogledchromium/assets/ungoogled-chromium-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverungoogledchromium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverungoogledchromium/meta.json",
-      "content_hash": "46ffebdb",
+      "content_hash": "4cad1ced",
       "version": "153.0.8010"
     },
     {
@@ -4542,16 +4542,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverunificontroller/assets/unifi-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverunificontroller/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverunificontroller/meta.json",
-      "content_hash": "50159a60",
+      "content_hash": "7a7c2cb0",
       "version": "8.0.24"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
       "title": "Unifi network-application (LinuxServer.io)",
       "tagline": "The Unifi-network-application software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4563,7 +4563,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverunifinetworkapplication/assets/unifi-banner.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverunifinetworkapplication/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverunifinetworkapplication/meta.json",
-      "content_hash": "e7790e58",
+      "content_hash": "e5caaddb",
       "version": "10.6.106"
     },
     {
@@ -4584,16 +4584,16 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverunrar/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverunrar/meta.json",
-      "content_hash": "db8763b6",
+      "content_hash": "38118cd4",
       "version": "7.0.9"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervivaldi",
       "title": "Vivaldi (LinuxServer.io)",
       "tagline": "A Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4605,16 +4605,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervivaldi/assets/vivaldi-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervivaldi/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervivaldi/meta.json",
-      "content_hash": "bf184eb9",
+      "content_hash": "98898bb8",
       "version": "8.2.4133"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervlc",
       "title": "Vlc (LinuxServer.io)",
       "tagline": "A free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4626,16 +4626,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervlc/assets/vlc-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervlc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervlc/meta.json",
-      "content_hash": "af89c2ae",
+      "content_hash": "2528048d",
       "version": "3.0.23"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervscode",
       "title": "Vscode (LinuxServer.io)",
       "tagline": "An integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4647,16 +4647,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscode/assets/vscode-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervscode/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervscode/meta.json",
-      "content_hash": "10819d9c",
+      "content_hash": "b1c12121",
       "version": "1.137.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervscodium",
       "title": "Vscodium (LinuxServer.io)",
       "tagline": "A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4668,15 +4668,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscodium/assets/vscodium-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervscodium/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervscodium/meta.json",
-      "content_hash": "35a8ad6a"
+      "content_hash": "f36fee7c"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
       "title": "Vscodium web (LinuxServer.io)",
       "tagline": "A community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4688,15 +4688,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxservervscodiumweb/assets/vscodium-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxservervscodiumweb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxservervscodiumweb/meta.json",
-      "content_hash": "99080d4d"
+      "content_hash": "b1ea5e3f"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebcord",
       "title": "Webcord (LinuxServer.io)",
       "tagline": "Can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord. Com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4708,16 +4708,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebcord/assets/webcord-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebcord/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebcord/meta.json",
-      "content_hash": "0d2ca681",
+      "content_hash": "18eca829",
       "version": "4.14.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
       "title": "Webgrabplus (LinuxServer.io)",
       "tagline": "A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4729,16 +4729,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/assets/EPG_fading.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebgrabplus/meta.json",
-      "content_hash": "3e13cda4",
+      "content_hash": "baf7f02e",
       "version": "5.6.1"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebstation",
       "title": "Webstation (LinuxServer.io)",
       "tagline": "A web native emulation focused LXQt desktop based on Ubuntu.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4749,16 +4749,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebstation/assets/webstation-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebstation/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebstation/meta.json",
-      "content_hash": "ac23d94b",
+      "content_hash": "250d72e9",
       "version": "0.8.5-romm"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebtop",
       "title": "Webtop (LinuxServer.io)",
       "tagline": "Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4770,15 +4770,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwebtop/assets/webtop-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwebtop/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwebtop/meta.json",
-      "content_hash": "7b4b4b67"
+      "content_hash": "e3f9ea6b"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverweixin",
       "title": "Weixin (LinuxServer.io)",
       "tagline": "(WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4790,15 +4790,15 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverweixin/assets/weixin-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverweixin/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverweixin/meta.json",
-      "content_hash": "4a7e3e01"
+      "content_hash": "dd7f6746"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwikijs",
       "title": "Wikijs (LinuxServer.io)",
       "tagline": "A modern, lightweight and powerful wiki app built on NodeJS.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4810,16 +4810,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwikijs/assets/wikijs-full.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwikijs/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwikijs/meta.json",
-      "content_hash": "44a3718b",
+      "content_hash": "726649da",
       "version": "2.5.314"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwinegui",
       "title": "Winegui (LinuxServer.io)",
       "tagline": "A user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4830,16 +4830,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwinegui/assets/winegui-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwinegui/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwinegui/meta.json",
-      "content_hash": "414ad580",
+      "content_hash": "4ac8386a",
       "version": "4.4.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwireguard",
       "title": "Wireguard (LinuxServer.io)",
       "tagline": "An extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform (Windows, macOS, BSD, iOS, Android) and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4848,19 +4848,19 @@
         "arm64"
       ],
       "icon": "/apps/wisdomsky.linuxserver.linuxserverwireguard/assets/icon.svg",
-      "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwireguard/assets/wireguard.svg",
+      "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwireguard/assets/default-icon.svg",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwireguard/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwireguard/meta.json",
-      "content_hash": "2ab03061",
+      "content_hash": "bdd8662d",
       "version": "1.0.20260223"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwireshark",
       "title": "Wireshark (LinuxServer.io)",
       "tagline": "The world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.",
-      "category": "Home",
+      "category": "Networking",
       "categories": [
-        "home"
+        "networking"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4872,16 +4872,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwireshark/assets/wireshark-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwireshark/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwireshark/meta.json",
-      "content_hash": "939ddc60",
+      "content_hash": "58068722",
       "version": "4.6.6"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
       "title": "Wps office (LinuxServer.io)",
       "tagline": "A lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4892,16 +4892,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverwpsoffice/assets/wps-office-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverwpsoffice/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverwpsoffice/meta.json",
-      "content_hash": "f502fdf9",
+      "content_hash": "bcdc1250",
       "version": "11.1.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverxbackbone",
       "title": "Xbackbone (LinuxServer.io)",
       "tagline": "A simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems. It supports uploading and displaying images, GIF, video, code, formatted text, and file downloading and uploading. Also have a web UI with multi user management, past uploads history and search support.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4913,16 +4913,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverxbackbone/assets/xbackbone-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverxbackbone/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverxbackbone/meta.json",
-      "content_hash": "3dd0b4a4",
+      "content_hash": "4e0e8552",
       "version": "3.8.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverxemu",
       "title": "Xemu (LinuxServer.io)",
       "tagline": "A free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4934,7 +4934,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverxemu/assets/xemu-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverxemu/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverxemu/meta.json",
-      "content_hash": "d27449b9",
+      "content_hash": "9798833c",
       "version": "0.8.134"
     },
     {
@@ -4955,15 +4955,15 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverxvfb/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverxvfb/meta.json",
-      "content_hash": "5a7bb393"
+      "content_hash": "5662684d"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveryaak",
       "title": "Yaak (LinuxServer.io)",
       "tagline": "A desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.",
-      "category": "Home",
+      "category": "Developer",
       "categories": [
-        "home"
+        "developer"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4975,16 +4975,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveryaak/assets/yaak-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveryaak/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveryaak/meta.json",
-      "content_hash": "39b398d7",
+      "content_hash": "eb1170ea",
       "version": "2026.8.0"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveryourspotify",
       "title": "Your_spotify (LinuxServer.io)",
       "tagline": "A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.",
-      "category": "Home",
+      "category": "Media",
       "categories": [
-        "home"
+        "media"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -4996,7 +4996,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserveryourspotify/assets/your_spotify-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveryourspotify/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveryourspotify/meta.json",
-      "content_hash": "c133b4f9",
+      "content_hash": "9ef8d7be",
       "version": "1.20.0"
     },
     {
@@ -5017,16 +5017,16 @@
       "thumbnail": "",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserveryq/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserveryq/meta.json",
-      "content_hash": "c47fc266",
+      "content_hash": "708a9818",
       "version": "3.4.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverzen",
       "title": "Zen (LinuxServer.io)",
       "tagline": "A free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.",
-      "category": "Home",
+      "category": "Others",
       "categories": [
-        "home"
+        "others"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -5038,16 +5038,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverzen/assets/zen-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverzen/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverzen/meta.json",
-      "content_hash": "f7d1b33e",
+      "content_hash": "aeeb94db",
       "version": "1.22.2"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverznc",
       "title": "Znc (LinuxServer.io)",
       "tagline": "An IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.",
-      "category": "Home",
+      "category": "Social",
       "categories": [
-        "home"
+        "social"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -5059,16 +5059,16 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverznc/assets/znc-logo.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverznc/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverznc/meta.json",
-      "content_hash": "7deb90ed",
+      "content_hash": "506ac464",
       "version": "1.10.3"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverzotero",
       "title": "Zotero (LinuxServer.io)",
       "tagline": "A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
-      "category": "Home",
+      "category": "Productivity",
       "categories": [
-        "home"
+        "productivity"
       ],
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
@@ -5079,7 +5079,7 @@
       "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverzotero/assets/zotero-icon.webp",
       "compose_url": "/apps/wisdomsky.linuxserver.linuxserverzotero/docker-compose.yml",
       "meta_url": "/apps/wisdomsky.linuxserver.linuxserverzotero/meta.json",
-      "content_hash": "8ffe1d76",
+      "content_hash": "c85a8b0f",
       "version": "10.0.3"
     }
   ]

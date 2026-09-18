@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverendlessh",
   "title": "Endlessh",
-  "tagline": "An Ssh tarpit that very slowly sends an endless, random Ssh banner. It keeps Ssh clients locked up for hours or even days at a time. The purpose is to put your real Ssh server on another port and then let the script kiddies get stuck in this tarpit instead of bothering a real server.",
-  "description": "Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
+  "description": "Visit homepage: https://github.com/orgs/linuxserver/packages/container/package/endlessh",
+  "tagline": "An Ssh tarpit that very slowly sends an endless, random Ssh banner. It keeps Ssh clients locked up for hours or even days at a time. The purpose is to put your real Ssh server on another port and then let the script kiddies get stuck in this tarpit instead of bothering a real server."
 }

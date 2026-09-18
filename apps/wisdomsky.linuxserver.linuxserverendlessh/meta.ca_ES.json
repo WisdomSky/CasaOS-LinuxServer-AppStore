@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverendlessh",
   "title": "Endlessh",
-  "tagline": "Un port tarpit SSH que envia molt lentament un bàner SSH aleatori i interminable. Manté els clients SSH bloquejats durant hores o fins i tot dies. L'objectiu és posar el servidor SSH real en un altre port i deixar que els script kiddies es quedin encallats en aquest port tarpit en comptes de molestar un servidor real.",
-  "description": "Visita la pàgina principal: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
+  "description": "Visita la pàgina principal: https://github.com/orgs/linuxserver/packages/container/package/endlessh",
+  "tagline": "Un port tarpit SSH que envia molt lentament un bàner SSH aleatori i interminable. Manté els clients SSH bloquejats durant hores o fins i tot dies. L'objectiu és posar el servidor SSH real en un altre port i deixar que els script kiddies es quedin encallats en aquest port tarpit en comptes de molestar un servidor real."
 }

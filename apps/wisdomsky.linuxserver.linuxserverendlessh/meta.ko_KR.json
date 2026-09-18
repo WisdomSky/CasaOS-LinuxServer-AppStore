@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverendlessh",
   "title": "Endlessh",
-  "tagline": "매우 느린 속도로 무작위 SSH 배너 메시지를 끊임없이 전송하는 SSH 타르핏입니다. 이로 인해 SSH 클라이언트가 몇 시간 또는 며칠 동안 접속이 차단됩니다. 목적은 실제 SSH 서버를 다른 포트에 두고, 스크립트 키디들이 실제 서버를 공격하는 대신 이 타르핏에 갇히도록 유도하는 것입니다.",
-  "description": "홈페이지 방문: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
+  "description": "홈페이지 방문: https://github.com/orgs/linuxserver/packages/container/package/endlessh",
+  "tagline": "매우 느린 속도로 무작위 SSH 배너 메시지를 끊임없이 전송하는 SSH 타르핏입니다. 이로 인해 SSH 클라이언트가 몇 시간 또는 며칠 동안 접속이 차단됩니다. 목적은 실제 SSH 서버를 다른 포트에 두고, 스크립트 키디들이 실제 서버를 공격하는 대신 이 타르핏에 갇히도록 유도하는 것입니다."
 }

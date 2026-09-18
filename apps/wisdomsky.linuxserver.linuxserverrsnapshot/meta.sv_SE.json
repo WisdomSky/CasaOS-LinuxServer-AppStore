@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
   "title": "Rsnapshot (LinuxServer.io)",
-  "tagline": "Ett verktyg för filsystems-snapshots baserat på rsync. Rsnapshot gör det enkelt att skapa regelbundna snapshots av lokala och fjärrmaskiner via ssh. Koden använder hårda länkar i stor utsträckning när det är möjligt för att kraftigt minska det diskutrymme som krävs.",
-  "description": "Rsnapshot är ett verktyg för att skapa snapshots av filsystem baserat på rsync. rsnapshot gör det enkelt att skapa regelbundna snapshots av lokala och fjärrmaskiner via ssh. Koden använder hårda länkar i stor utsträckning när det är möjligt för att avsevärt minska det diskutrymme som krävs."
+  "description": "Rsnapshot är ett verktyg för att skapa snapshots av filsystem baserat på rsync. rsnapshot gör det enkelt att skapa regelbundna snapshots av lokala och fjärrmaskiner via ssh. Koden använder hårda länkar i stor utsträckning när det är möjligt för att avsevärt minska det diskutrymme som krävs.",
+  "tagline": "Ett verktyg för filsystems-snapshots baserat på rsync. Rsnapshot gör det enkelt att skapa regelbundna snapshots av lokala och fjärrmaskiner via ssh. Koden använder hårda länkar i stor utsträckning när det är möjligt för att kraftigt minska det diskutrymme som krävs."
 }

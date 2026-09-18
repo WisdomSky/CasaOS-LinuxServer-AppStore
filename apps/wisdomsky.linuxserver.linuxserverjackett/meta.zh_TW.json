@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverjackett",
   "title": "Jackett（LinuxServer.io）",
-  "tagline": "將媒體應用的查詢轉換為各索引站點的請求。",
-  "description": "Jackett 充當代理伺服器，將 Sonarr、SickRage、CouchPotato、Mylar 等應用的查詢轉換為各個 Tracker 站點所需的 HTTP 查詢，解析返回的 HTML，再將結果傳送給請求應用。它支援獲取最新上傳內容（類似 RSS）和執行搜尋。Jackett 集中維護索引站點的抓取與轉換邏輯，減輕其他應用的維護負擔。"
+  "description": "Jackett 充當代理伺服器，將 Sonarr、SickRage、CouchPotato、Mylar 等應用的查詢轉換為各個 Tracker 站點所需的 HTTP 查詢，解析返回的 HTML，再將結果傳送給請求應用。它支援獲取最新上傳內容（類似 RSS）和執行搜尋。Jackett 集中維護索引站點的抓取與轉換邏輯，減輕其他應用的維護負擔。",
+  "tagline": "將媒體應用的查詢轉換為各索引站點的請求。"
 }

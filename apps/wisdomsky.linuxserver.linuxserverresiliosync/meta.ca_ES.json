@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverresiliosync",
   "title": "Resilio sync (LinuxServer.io)",
-  "tagline": "(anteriorment BitTorrent Sync) utilitza el protocol BitTorrent per sincronitzar fitxers i carpetes entre tots els vostres dispositius. Hi ha versions gratuïtes i de pagament, aquest contenidor admet totes dues. Hi ha una imatge de sincronització oficial, però hem creat aquesta perquè admet el mapatge d'usuaris per simplificar els permisos dels volums.",
-  "description": "Resilio-sync (anteriorment BitTorrent Sync) utilitza el protocol BitTorrent per sincronitzar fitxers i carpetes entre tots els dispositius. Hi ha versions gratuïtes i de pagament, i aquest contenidor admet totes dues. Hi ha una imatge de sincronització oficial, però hem creat aquesta perquè admet el mapatge d'usuaris per simplificar els permisos dels volums."
+  "description": "Resilio-sync (anteriorment BitTorrent Sync) utilitza el protocol BitTorrent per sincronitzar fitxers i carpetes entre tots els dispositius. Hi ha versions gratuïtes i de pagament, i aquest contenidor admet totes dues. Hi ha una imatge de sincronització oficial, però hem creat aquesta perquè admet el mapatge d'usuaris per simplificar els permisos dels volums.",
+  "tagline": "(anteriorment BitTorrent Sync) utilitza el protocol BitTorrent per sincronitzar fitxers i carpetes entre tots els vostres dispositius. Hi ha versions gratuïtes i de pagament, aquest contenidor admet totes dues. Hi ha una imatge de sincronització oficial, però hem creat aquesta perquè admet el mapatge d'usuaris per simplificar els permisos dels volums."
 }

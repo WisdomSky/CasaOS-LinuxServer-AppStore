@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverhabridge",
   "title": "Habridge (LinuxServer.io)",
-  "tagline": "Emuluje interfejs API Philips Hue dla innych bramek automatyki domowej, takich jak Amazon Echo/Dot Gen 1 (generacja 2 ma problemy z wykrywaniem mostu Ha-Bridge) lub innych systemów obsługujących Philips Hue. Most obsługuje podstawowe polecenia, takie jak włączanie, wyłączanie i regulacja jasności, w ramach protokołu Hue. Most ten może sterować większością urządzeń z odrębnym interfejsem API.",
-  "description": "Habridge emuluje API Philips Hue dla innych bramek automatyki domowej, takich jak Amazon Echo/Dot Gen 1 (generacja 2 ma problemy z wykrywaniem Ha-Bridge) lub innych systemów obsługujących Philips Hue. Most obsługuje podstawowe polecenia, takie jak włączanie, wyłączanie i regulacja jasności, w ramach protokołu Hue. Most ten może sterować większością urządzeń z odrębnym API."
+  "description": "Habridge emuluje API Philips Hue dla innych bramek automatyki domowej, takich jak Amazon Echo/Dot Gen 1 (generacja 2 ma problemy z wykrywaniem Ha-Bridge) lub innych systemów obsługujących Philips Hue. Most obsługuje podstawowe polecenia, takie jak włączanie, wyłączanie i regulacja jasności, w ramach protokołu Hue. Most ten może sterować większością urządzeń z odrębnym API.",
+  "tagline": "Emuluje interfejs API Philips Hue dla innych bramek automatyki domowej, takich jak Amazon Echo/Dot Gen 1 (generacja 2 ma problemy z wykrywaniem mostu Ha-Bridge) lub innych systemów obsługujących Philips Hue. Most obsługuje podstawowe polecenia, takie jak włączanie, wyłączanie i regulacja jasności, w ramach protokołu Hue. Most ten może sterować większością urządzeń z odrębnym interfejsem API."
 }

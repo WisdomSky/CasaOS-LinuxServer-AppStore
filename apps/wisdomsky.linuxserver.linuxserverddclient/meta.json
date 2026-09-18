@@ -8,13 +8,13 @@
   "developer": "LinuxServer.io",
   "author": "WisdomSky",
   "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverddclient/assets/ddclient-logo.webp",
-  "category": "Home",
+  "category": "Networking",
   "title": "Ddclient (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverddclient",
   "version": "4.0.0",
   "categories": [
-    "home"
+    "networking"
   ],
   "min_memory": 0,
   "min_image_size": {

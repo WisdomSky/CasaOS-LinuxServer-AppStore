@@ -8,13 +8,13 @@
   "developer": "LinuxServer.io",
   "author": "WisdomSky",
   "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverbrave/assets/brave-logo.webp",
-  "category": "Home",
+  "category": "Others",
   "title": "Brave (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverbrave",
   "version": "1.95.102",
   "categories": [
-    "home"
+    "others"
   ],
   "min_memory": 0,
   "min_image_size": {

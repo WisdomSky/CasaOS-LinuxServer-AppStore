@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverhabridge",
   "title": "Habridge (LinuxServer.io)",
-  "tagline": "Emulerer Philips Hue API til andre hjemmeautomationsgateways, såsom en Amazon Echo/Dot Gen 1 (gen 2 har problemer med at finde ha-bridge) eller andre systemer, der understøtter Philips Hue. Bridgen håndterer grundlæggende kommandoer såsom tænd/sluk og lysstyrkekommandoer fra Hue-protokollen. Denne bro kan styre de fleste enheder, der har en separat API.",
-  "description": "Habridge emulerer Philips Hue API til andre hjemmeautomationsgateways, såsom en Amazon Echo/Dot Gen 1 (gen 2 har problemer med at opdage ha-bridge) eller andre systemer, der understøtter Philips Hue. Bridgen håndterer grundlæggende kommandoer såsom tænd/sluk og lysstyrkekommandoer fra hue-protokollen. Denne bro kan styre de fleste enheder, der har en separat API."
+  "description": "Habridge emulerer Philips Hue API til andre hjemmeautomationsgateways, såsom en Amazon Echo/Dot Gen 1 (gen 2 har problemer med at opdage ha-bridge) eller andre systemer, der understøtter Philips Hue. Bridgen håndterer grundlæggende kommandoer såsom tænd/sluk og lysstyrkekommandoer fra hue-protokollen. Denne bro kan styre de fleste enheder, der har en separat API.",
+  "tagline": "Emulerer Philips Hue API til andre hjemmeautomationsgateways, såsom en Amazon Echo/Dot Gen 1 (gen 2 har problemer med at finde ha-bridge) eller andre systemer, der understøtter Philips Hue. Bridgen håndterer grundlæggende kommandoer såsom tænd/sluk og lysstyrkekommandoer fra Hue-protokollen. Denne bro kan styre de fleste enheder, der har en separat API."
 }

@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
   "title": "Faster whisper (LinuxServer.io)",
-  "tagline": "OpenAI'nin Whisper modelinin, Transformer modelleri için hızlı bir çıkarım motoru olan CTranslate2 kullanılarak yeniden uygulanması. Bu konteyner, daha hızlı Whisper için bir Wyoming protokol sunucusu sağlar.",
-  "description": "Faster-whisper, Transformer modelleri için hızlı bir çıkarım motoru olan CTranslate2 kullanılarak OpenAI'nin Whisper modelinin yeniden uygulanmış halidir. Bu konteyner, faster-whisper için bir Wyoming protokol sunucusu sağlar."
+  "description": "Faster-whisper, Transformer modelleri için hızlı bir çıkarım motoru olan CTranslate2 kullanılarak OpenAI'nin Whisper modelinin yeniden uygulanmış halidir. Bu konteyner, faster-whisper için bir Wyoming protokol sunucusu sağlar.",
+  "tagline": "OpenAI'nin Whisper modelinin, Transformer modelleri için hızlı bir çıkarım motoru olan CTranslate2 kullanılarak yeniden uygulanması. Bu konteyner, daha hızlı Whisper için bir Wyoming protokol sunucusu sağlar."
 }

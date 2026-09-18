@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "tagline": "Un client IRC modern, multiplataforma i distribuït, és a dir, que un (o diversos) clients es poden connectar i desconnectar d'un nucli central. Aquest contenidor gestiona la connexió IRC (quasselcore) i requereix que s'utilitzi i es configure un client d'escriptori (quasselclient). Està dissenyat per estar sempre actiu i mantindrà la vostra identitat present a l'IRC fins i tot quan els vostres clients no puguin estar en línia. El vostre client descarrega l'historial de tasques enrere en reconnexió, permetent un desplaçament infinit en el temps.",
-  "description": "Visita la pàgina principal: https://hub.docker.com/r/linuxserver/quassel-core/"
+  "description": "Visita la pàgina principal: https://hub.docker.com/r/linuxserver/quassel-core/",
+  "tagline": "Un client IRC modern, multiplataforma i distribuït, és a dir, que un (o diversos) clients es poden connectar i desconnectar d'un nucli central. Aquest contenidor gestiona la connexió IRC (quasselcore) i requereix que s'utilitzi i es configure un client d'escriptori (quasselclient). Està dissenyat per estar sempre actiu i mantindrà la vostra identitat present a l'IRC fins i tot quan els vostres clients no puguin estar en línia. El vostre client descarrega l'historial de tasques enrere en reconnexió, permetent un desplaçament infinit en el temps."
 }

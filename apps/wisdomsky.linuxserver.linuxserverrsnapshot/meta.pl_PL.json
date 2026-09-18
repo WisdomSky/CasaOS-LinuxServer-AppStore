@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
   "title": "Rsnapshot (LinuxServer.io)",
-  "tagline": "Narzędzie do tworzenia migawek systemu plików oparte na rsync. Rsnapshot ułatwia okresowe tworzenie migawek komputerów lokalnych i zdalnych przez SSH. Kod w szerokim zakresie wykorzystuje twarde dowiązania, gdy tylko jest to możliwe, aby znacznie zmniejszyć zapotrzebowanie na miejsce na dysku.",
-  "description": "Rsnapshot to narzędzie do tworzenia migawek systemu plików oparte na rsync. Ułatwia ono tworzenie okresowych migawek komputerów lokalnych i zdalnych przez SSH. Kod w szerokim zakresie wykorzystuje twarde łącza, gdy tylko jest to możliwe, aby znacznie zmniejszyć zapotrzebowanie na miejsce na dysku."
+  "description": "Rsnapshot to narzędzie do tworzenia migawek systemu plików oparte na rsync. Ułatwia ono tworzenie okresowych migawek komputerów lokalnych i zdalnych przez SSH. Kod w szerokim zakresie wykorzystuje twarde łącza, gdy tylko jest to możliwe, aby znacznie zmniejszyć zapotrzebowanie na miejsce na dysku.",
+  "tagline": "Narzędzie do tworzenia migawek systemu plików oparte na rsync. Rsnapshot ułatwia okresowe tworzenie migawek komputerów lokalnych i zdalnych przez SSH. Kod w szerokim zakresie wykorzystuje twarde dowiązania, gdy tylko jest to możliwe, aby znacznie zmniejszyć zapotrzebowanie na miejsce na dysku."
 }

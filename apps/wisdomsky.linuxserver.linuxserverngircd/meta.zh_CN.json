@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverngircd",
   "title": "Ngircd（LinuxServer.io）",
-  "tagline": "适用于小型或私有网络的轻量 IRC 服务器。",
-  "description": "ngIRCd 是一款免费、可移植、轻量的 IRC 服务器，适用于小型或私有网络，以 GNU 通用公共许可证（GPL）发布。它易于配置，能够处理动态 IP 地址，支持 IPv6、SSL 加密连接和 PAM 身份验证。它从零编写，不基于原始 IRCd。"
+  "description": "ngIRCd 是一款免费、可移植、轻量的 IRC 服务器，适用于小型或私有网络，以 GNU 通用公共许可证（GPL）发布。它易于配置，能够处理动态 IP 地址，支持 IPv6、SSL 加密连接和 PAM 身份验证。它从零编写，不基于原始 IRCd。",
+  "tagline": "适用于小型或私有网络的轻量 IRC 服务器。"
 }

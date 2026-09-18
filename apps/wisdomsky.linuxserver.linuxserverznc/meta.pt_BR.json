@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverznc",
   "title": "Znc (LinuxServer.io)",
-  "tagline": "Um bouncer de rede IRC ou BNC. Ele pode desconectar o cliente do servidor IRC real e também de canais selecionados. Vários clientes de locais diferentes podem se conectar a uma única conta ZNC simultaneamente e, portanto, aparecer com o mesmo apelido no IRC.",
-  "description": "Znc é um bouncer de rede IRC ou BNC. Ele pode desconectar o cliente do servidor IRC real e também de canais selecionados. Vários clientes de diferentes locais podem se conectar simultaneamente a uma única conta ZNC e, portanto, aparecer com o mesmo apelido no IRC."
+  "description": "Znc é um bouncer de rede IRC ou BNC. Ele pode desconectar o cliente do servidor IRC real e também de canais selecionados. Vários clientes de diferentes locais podem se conectar simultaneamente a uma única conta ZNC e, portanto, aparecer com o mesmo apelido no IRC.",
+  "tagline": "Um bouncer de rede IRC ou BNC. Ele pode desconectar o cliente do servidor IRC real e também de canais selecionados. Vários clientes de locais diferentes podem se conectar a uma única conta ZNC simultaneamente e, portanto, aparecer com o mesmo apelido no IRC."
 }

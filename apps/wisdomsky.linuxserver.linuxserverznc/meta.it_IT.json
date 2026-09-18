@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverznc",
   "title": "Znc (LinuxServer.io)",
-  "tagline": "Un BNC (Network Bouncer) per IRC. Permette di disconnettere il client dal server IRC e da canali selezionati. Più client provenienti da diverse località possono connettersi simultaneamente a un singolo account ZNC e quindi apparire con lo stesso nickname su IRC.",
-  "description": "ZNC è un bouncer di rete IRC, o BNC (Broadcast Network Bouncer). Permette di disconnettere il client dal server IRC e da canali selezionati. Più client provenienti da diverse località possono connettersi simultaneamente a un singolo account ZNC e quindi apparire con lo stesso nickname su IRC."
+  "description": "ZNC è un bouncer di rete IRC, o BNC (Broadcast Network Bouncer). Permette di disconnettere il client dal server IRC e da canali selezionati. Più client provenienti da diverse località possono connettersi simultaneamente a un singolo account ZNC e quindi apparire con lo stesso nickname su IRC.",
+  "tagline": "Un BNC (Network Bouncer) per IRC. Permette di disconnettere il client dal server IRC e da canali selezionati. Più client provenienti da diverse località possono connettersi simultaneamente a un singolo account ZNC e quindi apparire con lo stesso nickname su IRC."
 }

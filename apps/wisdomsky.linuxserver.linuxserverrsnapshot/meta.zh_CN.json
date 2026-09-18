@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
   "title": "Rsnapshot（LinuxServer.io）",
-  "tagline": "使用 rsync 和硬链接创建定期文件系统快照。",
-  "description": "rsnapshot 是基于 rsync 的文件系统快照工具，可方便地为本地机器，以及通过 SSH 连接的远程机器创建定期快照。它尽可能使用硬链接，以大幅减少所需磁盘空间。"
+  "description": "rsnapshot 是基于 rsync 的文件系统快照工具，可方便地为本地机器，以及通过 SSH 连接的远程机器创建定期快照。它尽可能使用硬链接，以大幅减少所需磁盘空间。",
+  "tagline": "使用 rsync 和硬链接创建定期文件系统快照。"
 }

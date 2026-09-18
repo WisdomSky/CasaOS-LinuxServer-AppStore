@@ -8,13 +8,13 @@
   "developer": "LinuxServer.io",
   "author": "WisdomSky",
   "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverretroarch/assets/retroarch-logo.webp",
-  "category": "Home",
+  "category": "Media",
   "title": "Retroarch (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverretroarch",
   "version": "1.22.2",
   "categories": [
-    "home"
+    "media"
   ],
   "min_memory": 0,
   "min_image_size": {

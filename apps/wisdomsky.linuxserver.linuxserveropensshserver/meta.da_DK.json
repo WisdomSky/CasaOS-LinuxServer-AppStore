@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserveropensshserver",
   "title": "Openssh server (LinuxServer.io)",
-  "tagline": "Et sandkassemiljø, der tillader SSH-adgang uden at give nøgler til hele serveren. At give SSH-adgang via en privat nøgle betyder ofte at give fuld adgang til serveren. Denne container opretter et begrænset sandkassemiljø, som andre kan SSH-adgang til. Brugerne har kun adgang til de mapper, der er tilknyttet, og de processer, der kører i denne container.",
-  "description": "Opensh-server er et sandkassemiljø, der tillader ssh-adgang uden at give nøgler til hele serveren. At give ssh-adgang via en privat nøgle betyder ofte at give fuld adgang til serveren. Denne container opretter et begrænset sandkassemiljø, som andre kan bruge ssh til. Brugerne har kun adgang til de mapper, der er tilknyttet, og de processer, der kører i denne container."
+  "description": "Opensh-server er et sandkassemiljø, der tillader ssh-adgang uden at give nøgler til hele serveren. At give ssh-adgang via en privat nøgle betyder ofte at give fuld adgang til serveren. Denne container opretter et begrænset sandkassemiljø, som andre kan bruge ssh til. Brugerne har kun adgang til de mapper, der er tilknyttet, og de processer, der kører i denne container.",
+  "tagline": "Et sandkassemiljø, der tillader SSH-adgang uden at give nøgler til hele serveren. At give SSH-adgang via en privat nøgle betyder ofte at give fuld adgang til serveren. Denne container opretter et begrænset sandkassemiljø, som andre kan SSH-adgang til. Brugerne har kun adgang til de mapper, der er tilknyttet, og de processer, der kører i denne container."
 }

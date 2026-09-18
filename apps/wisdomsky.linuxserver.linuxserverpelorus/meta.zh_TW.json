@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverpelorus",
   "title": "Pelorus（LinuxServer.io）",
-  "tagline": "讓 AI 操作基於 Selkies 的 Linux 桌面。",
-  "description": "Pelorus 是面向 Selkies Linux 桌面的 AI 導航工具。它執行一個 FastAPI 伺服器，讓使用 Ollama、OpenAI 相容介面或 Gemini 的大語言模型代理，透過 Pixelflux 計算機操作後端、Linux 無障礙樹（AT-SPI）和可選的 KWin D-Bus 整合，控制滑鼠、鍵盤、截圖和視窗管理。"
+  "description": "Pelorus 是面向 Selkies Linux 桌面的 AI 導航工具。它執行一個 FastAPI 伺服器，讓使用 Ollama、OpenAI 相容介面或 Gemini 的大語言模型代理，透過 Pixelflux 計算機操作後端、Linux 無障礙樹（AT-SPI）和可選的 KWin D-Bus 整合，控制滑鼠、鍵盤、截圖和視窗管理。",
+  "tagline": "讓 AI 操作基於 Selkies 的 Linux 桌面。"
 }

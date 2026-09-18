@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverdavos",
   "title": "Davos（LinuxServer.io）",
-  "tagline": "自动扫描 FTP 服务器并下载新文件。",
-  "description": "Davos 是一个 FTP 自动化工具，可定期扫描指定主机位置中的新文件。它可配置为等待指定文件出现后自动下载，并按需移动文件。它还支持完成通知和后续 API 调用，以继续执行工作流程。"
+  "description": "Davos 是一个 FTP 自动化工具，可定期扫描指定主机位置中的新文件。它可配置为等待指定文件出现后自动下载，并按需移动文件。它还支持完成通知和后续 API 调用，以继续执行工作流程。",
+  "tagline": "自动扫描 FTP 服务器并下载新文件。"
 }

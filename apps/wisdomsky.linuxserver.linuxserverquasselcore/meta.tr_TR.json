@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "tagline": "Modern, platformlar arası, dağıtık bir IRC istemcisi; yani bir (veya birden fazla) istemci merkezi bir çekirdeğe bağlanabilir ve ondan ayrılabilir. Bu konteyner IRC bağlantısını (quasselcore) yönetir ve bir masaüstü istemcisinin (quasselclient) kullanılmasını ve yapılandırılmasını gerektirir. Her zaman açık olacak şekilde tasarlanmıştır ve istemcileriniz çevrimiçi olmasa bile kimliğinizin IRC'de görünmesini sağlar. Geriye dönük kayıtlar (geçmiş), bağlantı yeniden kurulduğunda istemciniz tarafından indirilir ve zaman içinde sonsuz geriye kaydırma olanağı sağlar.",
-  "description": "Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/quassel-core/"
+  "description": "Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/quassel-core/",
+  "tagline": "Modern, platformlar arası, dağıtık bir IRC istemcisi; yani bir (veya birden fazla) istemci merkezi bir çekirdeğe bağlanabilir ve ondan ayrılabilir. Bu konteyner IRC bağlantısını (quasselcore) yönetir ve bir masaüstü istemcisinin (quasselclient) kullanılmasını ve yapılandırılmasını gerektirir. Her zaman açık olacak şekilde tasarlanmıştır ve istemcileriniz çevrimiçi olmasa bile kimliğinizin IRC'de görünmesini sağlar. Geriye dönük kayıtlar (geçmiş), bağlantı yeniden kurulduğunda istemciniz tarafından indirilir ve zaman içinde sonsuz geriye kaydırma olanağı sağlar."
 }

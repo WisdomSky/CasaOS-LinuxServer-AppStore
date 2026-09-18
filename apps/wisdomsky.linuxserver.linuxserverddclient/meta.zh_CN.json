@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverddclient",
   "title": "Ddclient（LinuxServer.io）",
-  "tagline": "自动更新动态 DNS 记录的 Perl 客户端。",
-  "description": "Ddclient 是一个 Perl 客户端，用于更新动态 DNS 服务提供商账户中的记录。它最初由 Paul Burry 编写，目前主要由 wimpunk 维护。它不只支持 dyndns，也可通过多种方式获取你的公网 IP 地址。"
+  "description": "Ddclient 是一个 Perl 客户端，用于更新动态 DNS 服务提供商账户中的记录。它最初由 Paul Burry 编写，目前主要由 wimpunk 维护。它不只支持 dyndns，也可通过多种方式获取你的公网 IP 地址。",
+  "tagline": "自动更新动态 DNS 记录的 Perl 客户端。"
 }

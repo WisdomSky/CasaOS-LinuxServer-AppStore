@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserversteamos",
   "title": "Steamos",
-  "tagline": "帶有 Steam 軟體倉庫的 Arch Linux 容器。",
-  "description": "SteamOS 是 Valve Software 開發的基於 Arch 的 Linux 發行版。此容器提供原生 Arch 安裝，並加入 Steam 軟體倉庫以支援相關軟體。它僅能在配備現代 AMD 或 Intel GPU 的真實 Linux 主機上執行。"
+  "description": "SteamOS 是 Valve Software 開發的基於 Arch 的 Linux 發行版。此容器提供原生 Arch 安裝，並加入 Steam 軟體倉庫以支援相關軟體。它僅能在配備現代 AMD 或 Intel GPU 的真實 Linux 主機上執行。",
+  "tagline": "帶有 Steam 軟體倉庫的 Arch Linux 容器。"
 }

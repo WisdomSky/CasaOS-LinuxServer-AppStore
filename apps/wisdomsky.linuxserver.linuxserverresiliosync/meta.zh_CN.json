@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverresiliosync",
   "title": "Resilio sync（LinuxServer.io）",
-  "tagline": "使用 BitTorrent 协议同步设备间的文件。",
-  "description": "Resilio Sync（原名 BitTorrent Sync）使用 BitTorrent 协议在你的所有设备之间同步文件和文件夹。它有免费版和付费版，此容器均支持。虽然已有官方同步镜像，此镜像提供用户映射，以简化数据卷权限管理。"
+  "description": "Resilio Sync（原名 BitTorrent Sync）使用 BitTorrent 协议在你的所有设备之间同步文件和文件夹。它有免费版和付费版，此容器均支持。虽然已有官方同步镜像，此镜像提供用户映射，以简化数据卷权限管理。",
+  "tagline": "使用 BitTorrent 协议同步设备间的文件。"
 }

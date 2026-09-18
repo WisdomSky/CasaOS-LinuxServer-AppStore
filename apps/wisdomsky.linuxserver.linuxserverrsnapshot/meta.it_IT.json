@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
   "title": "Rsnapshot (LinuxServer.io)",
-  "tagline": "Un'utilità per la creazione di snapshot del filesystem basata su rsync. Rsnapshot semplifica la creazione di snapshot periodici di macchine locali e remote tramite SSH. Il codice fa ampio uso di hard link, ove possibile, per ridurre notevolmente lo spazio su disco richiesto.",
-  "description": "Rsnapshot è un'utilità per la creazione di snapshot del filesystem basata su rsync. rsnapshot semplifica la creazione di snapshot periodici di macchine locali e remote tramite SSH. Il codice fa ampio uso di hard link, ove possibile, per ridurre notevolmente lo spazio su disco richiesto."
+  "description": "Rsnapshot è un'utilità per la creazione di snapshot del filesystem basata su rsync. rsnapshot semplifica la creazione di snapshot periodici di macchine locali e remote tramite SSH. Il codice fa ampio uso di hard link, ove possibile, per ridurre notevolmente lo spazio su disco richiesto.",
+  "tagline": "Un'utilità per la creazione di snapshot del filesystem basata su rsync. Rsnapshot semplifica la creazione di snapshot periodici di macchine locali e remote tramite SSH. Il codice fa ampio uso di hard link, ove possibile, per ridurre notevolmente lo spazio su disco richiesto."
 }

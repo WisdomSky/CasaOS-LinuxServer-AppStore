@@ -8,13 +8,13 @@
   "developer": "LinuxServer.io",
   "author": "WisdomSky",
   "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverlidarr/assets/400.webp",
-  "category": "Home",
+  "category": "Media",
   "title": "Lidarr (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverlidarr",
   "version": "3.1.0",
   "categories": [
-    "home"
+    "media"
   ],
   "min_memory": 0,
   "min_image_size": {

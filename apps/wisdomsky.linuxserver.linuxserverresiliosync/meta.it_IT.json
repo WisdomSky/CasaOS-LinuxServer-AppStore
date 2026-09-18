@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverresiliosync",
   "title": "Resilio sync (LinuxServer.io)",
-  "tagline": "(precedentemente BitTorrent Sync) utilizza il protocollo BitTorrent per sincronizzare file e cartelle tra tutti i tuoi dispositivi. Esistono versioni gratuite e a pagamento, e questo container le supporta entrambe. Esiste un'immagine di sincronizzazione ufficiale, ma abbiamo creato questa perché supporta la mappatura degli utenti per semplificare le autorizzazioni per i volumi.",
-  "description": "Resilio-sync (precedentemente BitTorrent Sync) utilizza il protocollo BitTorrent per sincronizzare file e cartelle tra tutti i tuoi dispositivi. Esistono versioni gratuite e a pagamento, e questo container le supporta entrambe. Esiste un'immagine di sincronizzazione ufficiale, ma ne abbiamo creata una nostra perché supporta la mappatura degli utenti per semplificare la gestione dei permessi dei volumi."
+  "description": "Resilio-sync (precedentemente BitTorrent Sync) utilizza il protocollo BitTorrent per sincronizzare file e cartelle tra tutti i tuoi dispositivi. Esistono versioni gratuite e a pagamento, e questo container le supporta entrambe. Esiste un'immagine di sincronizzazione ufficiale, ma ne abbiamo creata una nostra perché supporta la mappatura degli utenti per semplificare la gestione dei permessi dei volumi.",
+  "tagline": "(precedentemente BitTorrent Sync) utilizza il protocollo BitTorrent per sincronizzare file e cartelle tra tutti i tuoi dispositivi. Esistono versioni gratuite e a pagamento, e questo container le supporta entrambe. Esiste un'immagine di sincronizzazione ufficiale, ma abbiamo creato questa perché supporta la mappatura degli utenti per semplificare le autorizzazioni per i volumi."
 }

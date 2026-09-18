@@ -8,13 +8,13 @@
   "developer": "LinuxServer.io",
   "author": "WisdomSky",
   "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverkavita/assets/kavita-logo.webp",
-  "category": "Home",
+  "category": "Media",
   "title": "Kavita (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverkavita",
   "version": "0.9.1",
   "categories": [
-    "home"
+    "media"
   ],
   "min_memory": 0,
   "min_image_size": {

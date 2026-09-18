@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "tagline": "Ein moderner, plattformübergreifender, verteilter IRC-Client, bei dem sich ein oder mehrere Clients mit einem zentralen Kern verbinden und wieder trennen können. Dieser Container (quasselcore) verwaltet die IRC-Verbindung und erfordert einen Desktop-Client (quasselclient), der entsprechend konfiguriert werden muss. Er ist so konzipiert, dass er permanent aktiv ist und Ihre IRC-Identität auch dann aufrechterhält, wenn Ihre Clients offline sind. Der Verlauf (Backlog) wird bei der Wiederverbindung von Ihrem Client heruntergeladen, sodass Sie unbegrenzt durch die Zeit scrollen können.",
-  "description": "Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/quassel-core/"
+  "description": "Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/quassel-core/",
+  "tagline": "Ein moderner, plattformübergreifender, verteilter IRC-Client, bei dem sich ein oder mehrere Clients mit einem zentralen Kern verbinden und wieder trennen können. Dieser Container (quasselcore) verwaltet die IRC-Verbindung und erfordert einen Desktop-Client (quasselclient), der entsprechend konfiguriert werden muss. Er ist so konzipiert, dass er permanent aktiv ist und Ihre IRC-Identität auch dann aufrechterhält, wenn Ihre Clients offline sind. Der Verlauf (Backlog) wird bei der Wiederverbindung von Ihrem Client heruntergeladen, sodass Sie unbegrenzt durch die Zeit scrollen können."
 }

@@ -8,13 +8,13 @@
   "developer": "LinuxServer.io",
   "author": "WisdomSky",
   "thumbnail": "/apps/wisdomsky.linuxserver.linuxserverduplicati/assets/duplicati-icon.webp",
-  "category": "Home",
+  "category": "Productivity",
   "title": "Duplicati (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverduplicati",
   "version": "2.4.0",
   "categories": [
-    "home"
+    "productivity"
   ],
   "min_memory": 0,
   "min_image_size": {

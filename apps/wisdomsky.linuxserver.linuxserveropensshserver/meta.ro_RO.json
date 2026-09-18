@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserveropensshserver",
   "title": "Openssh server (LinuxServer.io)",
-  "tagline": "Un mediu sandbox care permite accesul SSH fără a oferi chei către întregul server. Acordarea accesului SSH prin cheie privată înseamnă adesea acordarea accesului complet la server. Acest container creează un mediu limitat și sandbox în care alții se pot conecta prin SSH. Utilizatorii au acces doar la folderele mapate și la procesele care rulează în interiorul acestui container.",
-  "description": "Serverul OpenSSH este un mediu sandbox care permite accesul SSH fără a oferi chei întregului server. Acordarea accesului SSH prin cheie privată înseamnă adesea acordarea accesului complet la server. Acest container creează un mediu limitat și sandbox în care alții se pot conecta prin SSH. Utilizatorii au acces doar la folderele mapate și la procesele care rulează în interiorul acestui container."
+  "description": "Serverul OpenSSH este un mediu sandbox care permite accesul SSH fără a oferi chei întregului server. Acordarea accesului SSH prin cheie privată înseamnă adesea acordarea accesului complet la server. Acest container creează un mediu limitat și sandbox în care alții se pot conecta prin SSH. Utilizatorii au acces doar la folderele mapate și la procesele care rulează în interiorul acestui container.",
+  "tagline": "Un mediu sandbox care permite accesul SSH fără a oferi chei către întregul server. Acordarea accesului SSH prin cheie privată înseamnă adesea acordarea accesului complet la server. Acest container creează un mediu limitat și sandbox în care alții se pot conecta prin SSH. Utilizatorii au acces doar la folderele mapate și la procesele care rulează în interiorul acestui container."
 }
