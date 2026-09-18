@@ -12,13 +12,13 @@
   "title": "Jackett (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxserverjackett",
-  "version": "0.24.2605",
+  "version": "0.24.2619",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 81216233,
-    "arm64": 80135762
+    "amd64": 81216296,
+    "arm64": 80136421
   }
 }

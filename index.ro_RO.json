@@ -2,1233 +2,1233 @@
   "apps": [
     {
       "id": "wisdomsky.linuxserver.linuxserveradguardhomesync",
-      "title": "Adguardhome sync (LinuxServer.io)",
-      "tagline": "Un instrument pentru sincronizarea configurației AdGuardHome cu instanțele replică."
+      "tagline": "Un instrument pentru sincronizarea configurației AdGuardHome cu instanțele replică.",
+      "title": "Adguardhome sync (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverairsonicadvanced",
-      "title": "Airsonic advanced (LinuxServer.io)",
-      "tagline": "Un streamer media gratuit, bazat pe web, care oferă acces omniprezent la muzica ta. Folosește-l pentru a partaja muzica cu prietenii sau pentru a asculta propria muzică în timp ce ești la serviciu. Poți transmite simultan pe mai multe playere, de exemplu, pe un player din bucătărie și pe altul din sufragerie."
+      "tagline": "Un streamer media gratuit, bazat pe web, care oferă acces omniprezent la muzica ta. Folosește-l pentru a partaja muzica cu prietenii sau pentru a asculta propria muzică în timp ce ești la serviciu. Poți transmite simultan pe mai multe playere, de exemplu, pe un player din bucătărie și pe altul din sufragerie.",
+      "title": "Airsonic advanced (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveraltus",
-      "title": "Altus (LinuxServer.io)",
-      "tagline": "Un client WhatsApp bazat pe Electron cu teme și suport pentru mai multe conturi."
+      "tagline": "Un client WhatsApp bazat pe Electron cu teme și suport pentru mai multe conturi.",
+      "title": "Altus (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverappriseapi",
-      "title": "Apprise api (LinuxServer.io)",
-      "tagline": "Profită de Apprise prin rețeaua ta cu o API ușor de utilizat. * Trimite notificări către peste 100 de servicii. * O poartă de acces incredibil de ușoară către Apprise. * Un microserviciu gata de producție la dispoziția ta. * Un site web simplu pentru a verifica și testa configurația ta. API-ul Apprise a fost conceput pentru a se integra cu ușurință în ecosistemele existente (și noi) care caută o soluție simplă de notificare."
+      "tagline": "Profită de Apprise prin rețeaua ta cu o API ușor de utilizat. * Trimite notificări către peste 100 de servicii. * O poartă de acces incredibil de ușoară către Apprise. * Un microserviciu gata de producție la dispoziția ta. * Un site web simplu pentru a verifica și testa configurația ta. API-ul Apprise a fost conceput pentru a se integra cu ușurință în ecosistemele existente (și noi) care caută o soluție simplă de notificare.",
+      "title": "Apprise api (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverardour",
-      "title": "Ardour (LinuxServer.io)",
-      "tagline": "Un efort colaborativ open source al unei echipe mondiale, care include muzicieni, programatori și ingineri de sunet profesioniști."
+      "tagline": "Un efort colaborativ open source al unei echipe mondiale, care include muzicieni, programatori și ingineri de sunet profesioniști.",
+      "title": "Ardour (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveraudacity",
-      "title": "Audacity (LinuxServer.io)",
-      "tagline": "Un editor și înregistrator audio multi-pistă ușor de utilizat. Dezvoltat de un grup de voluntari ca sursă deschisă."
+      "tagline": "Un editor și înregistrator audio multi-pistă ușor de utilizat. Dezvoltat de un grup de voluntari ca sursă deschisă.",
+      "title": "Audacity (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverazahar",
-      "title": "Azahar (LinuxServer.io)",
-      "tagline": "Un emulator 3DS open-source bazat pe Citra."
+      "tagline": "Un emulator 3DS open-source bazat pe Citra.",
+      "title": "Azahar (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbabybuddy",
-      "title": "Babybuddy (LinuxServer.io)",
-      "tagline": "Un prieten pentru bebeluși. Ajută îngrijitorii să urmărească somnul, hrănirea, schimbarea scutecelor, timpul petrecut pe burtă și multe altele pentru a afla și a prezice nevoile bebelușului fără (la fel de mult) să facă presupuneri."
+      "tagline": "Un prieten pentru bebeluși. Ajută îngrijitorii să urmărească somnul, hrănirea, schimbarea scutecelor, timpul petrecut pe burtă și multe altele pentru a afla și a prezice nevoile bebelușului fără (la fel de mult) să facă presupuneri.",
+      "title": "Babybuddy (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbambustudio",
-      "title": "Bambustudio (LinuxServer.io)",
-      "tagline": "Un software de slicing open-source, de ultimă generație și bogat în funcții. Acesta conține fluxuri de lucru bazate pe proiecte, algoritmi de slicing optimizați sistematic și o interfață grafică ușor de utilizat, oferind utilizatorilor o experiență de imprimare incredibil de fluidă."
+      "tagline": "Un software de slicing open-source, de ultimă generație și bogat în funcții. Acesta conține fluxuri de lucru bazate pe proiecte, algoritmi de slicing optimizați sistematic și o interfață grafică ușor de utilizat, oferind utilizatorilor o experiență de imprimare incredibil de fluidă.",
+      "title": "Bambustudio (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbazarr",
-      "title": "Bazarr (LinuxServer.io)",
-      "tagline": "O aplicație complementară pentru Sonarr și Radarr. Poate gestiona și descărca subtitrări în funcție de cerințele tale. Îți definești preferințele în funcție de emisiunea TV sau filmul, iar Bazarr se ocupă de toate acestea pentru tine."
+      "tagline": "O aplicație complementară pentru Sonarr și Radarr. Poate gestiona și descărca subtitrări în funcție de cerințele tale. Îți definești preferințele în funcție de emisiunea TV sau filmul, iar Bazarr se ocupă de toate acestea pentru tine.",
+      "title": "Bazarr (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbeets",
-      "title": "Beets (LinuxServer.io)",
-      "tagline": "Un manager de bibliotecă muzicală și nu, în mare parte, un player muzical. Include un plugin simplu pentru player și un player web experimental, dar, în general, lasă reproducerea sunetului în seama instrumentelor specializate."
+      "tagline": "Un manager de bibliotecă muzicală și nu, în mare parte, un player muzical. Include un plugin simplu pentru player și un player web experimental, dar, în general, lasă reproducerea sunetului în seama instrumentelor specializate.",
+      "title": "Beets (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbitcoinknots",
-      "title": "Bitcoin knots (LinuxServer.io)",
-      "tagline": "Poate fi folosit ca client desktop pentru plăți regulate sau ca utilitar server cu nod complet pentru comercianți și alte servicii de plată."
+      "tagline": "Poate fi folosit ca client desktop pentru plăți regulate sau ca utilitar server cu nod complet pentru comercianți și alte servicii de plată.",
+      "title": "Bitcoin knots (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbladeofagony",
-      "title": "Blade of-agony (LinuxServer.io)",
-      "tagline": "Un shooter cu poveste, inspirat de Wolfenstein și Doom, în cel de-al Doilea Război Mondial."
+      "tagline": "Un shooter cu poveste, inspirat de Wolfenstein și Doom, în cel de-al Doilea Război Mondial.",
+      "title": "Blade of-agony (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverblender",
-      "title": "Blender (LinuxServer.io)",
-      "tagline": "Un set de instrumente software de grafică 3D pe calculator, gratuit și open-source, utilizat pentru crearea de filme animate, efecte vizuale, artă, modele imprimate 3D, grafică animată, aplicații 3D interactive, realitate virtuală și jocuri pe calculator. Această imagine nu acceptă randarea GPU direct din cutie, ci oferă doar o experiență accelerată în spațiul de lucru."
+      "tagline": "Un set de instrumente software de grafică 3D pe calculator, gratuit și open-source, utilizat pentru crearea de filme animate, efecte vizuale, artă, modele imprimate 3D, grafică animată, aplicații 3D interactive, realitate virtuală și jocuri pe calculator. Această imagine nu acceptă randarea GPU direct din cutie, ci oferă doar o experiență accelerată în spațiul de lucru.",
+      "title": "Blender (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverboinc",
-      "title": "Boinc (LinuxServer.io)",
-      "tagline": "O platformă pentru calcul de mare randament la scară largă (mii sau milioane de computere). Poate fi utilizată pentru calcul voluntar (folosind dispozitive de consum) sau calcul grid (folosind resurse organizaționale). Acceptă aplicații virtualizate, paralele și bazate pe GPU."
+      "tagline": "O platformă pentru calcul de mare randament la scară largă (mii sau milioane de computere). Poate fi utilizată pentru calcul voluntar (folosind dispozitive de consum) sau calcul grid (folosind resurse organizaționale). Acceptă aplicații virtualizate, paralele și bazate pe GPU.",
+      "title": "Boinc (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbooksonicair",
-      "title": "Booksonic air",
-      "tagline": "O platformă pentru accesarea cărților audio pe care le dețineți oriunde v-ați afla. În prezent, platforma este formată din: * Booksonic Air - Un server pentru redarea în flux a cărților audio, succesorul serverului original Booksonic și bazat pe Airsonic. * Booksonic App - O aplicație Android bazată pe DSub pentru conectarea la serverele Booksonic-Air."
+      "tagline": "O platformă pentru accesarea cărților audio pe care le dețineți oriunde v-ați afla. În prezent, platforma este formată din: * Booksonic Air - Un server pentru redarea în flux a cărților audio, succesorul serverului original Booksonic și bazat pe Airsonic. * Booksonic App - O aplicație Android bazată pe DSub pentru conectarea la serverele Booksonic-Air.",
+      "title": "Booksonic air"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbookstack",
-      "title": "Bookstack (LinuxServer.io)",
-      "tagline": "Un Wiki gratuit și open source conceput pentru crearea de documentație frumoasă. Dispunând de un editor WYSIWYG simplu, dar puternic, permite echipelor să creeze cu ușurință documentație detaliată și utilă. Susținut de SQL și incluzând un editor Markdown pentru cei care îl preferă, BookStack este conceput pentru a face documentația mai mult o plăcere decât o corvoadă. Pentru mai multe informații despre BookStack, vizitați site-ul lor web și consultați-l: https://www.Bookstackapp.Com"
+      "tagline": "Un Wiki gratuit și open source conceput pentru crearea de documentație frumoasă. Dispunând de un editor WYSIWYG simplu, dar puternic, permite echipelor să creeze cu ușurință documentație detaliată și utilă. Susținut de SQL și incluzând un editor Markdown pentru cei care îl preferă, BookStack este conceput pentru a face documentația mai mult o plăcere decât o corvoadă. Pentru mai multe informații despre BookStack, vizitați site-ul lor web și consultați-l: https://www.Bookstackapp.Com",
+      "title": "Bookstack (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbrave",
-      "title": "Brave (LinuxServer.io)",
-      "tagline": "Un browser web rapid, privat și sigur pentru PC, Mac și mobil."
+      "tagline": "Un browser web rapid, privat și sigur pentru PC, Mac și mobil.",
+      "title": "Brave (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbudge",
-      "title": "Budge (LinuxServer.io)",
-      "tagline": "O aplicație open source pentru finanțe personale „bugetare cu plicuri”."
+      "tagline": "O aplicație open source pentru finanțe personale „bugetare cu plicuri”.",
+      "title": "Budge (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverbuildagent",
-      "title": "Build agent",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/build-agent pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/build-agent pentru detalii.",
+      "title": "Build agent"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercalibre",
-      "title": "Calibre (LinuxServer.io)",
-      "tagline": "Un manager de cărți electronice puternic și ușor de utilizat. Utilizatorii spun că este remarcabil și indispensabil. Îți permite să faci aproape orice și duce lucrurile cu un pas dincolo de software-ul obișnuit pentru cărți electronice. De asemenea, este complet gratuit și open source și excelent atât pentru utilizatorii ocazionali, cât și pentru experții în informatică."
+      "tagline": "Un manager de cărți electronice puternic și ușor de utilizat. Utilizatorii spun că este remarcabil și indispensabil. Îți permite să faci aproape orice și duce lucrurile cu un pas dincolo de software-ul obișnuit pentru cărți electronice. De asemenea, este complet gratuit și open source și excelent atât pentru utilizatorii ocazionali, cât și pentru experții în informatică.",
+      "title": "Calibre (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercalibreweb",
-      "title": "Calibre web (LinuxServer.io)",
-      "tagline": "O aplicație web care oferă o interfață curată pentru navigarea, citirea și descărcarea cărților electronice folosind o bază de date Calibre existentă. De asemenea, este posibilă integrarea Google Drive și editarea metadatelor și a bibliotecii Calibre prin intermediul aplicației în sine. Acest software este o ramură a bibliotecii și este licențiat sub licența GPL v3."
+      "tagline": "O aplicație web care oferă o interfață curată pentru navigarea, citirea și descărcarea cărților electronice folosind o bază de date Calibre existentă. De asemenea, este posibilă integrarea Google Drive și editarea metadatelor și a bibliotecii Calibre prin intermediul aplicației în sine. Acest software este o ramură a bibliotecii și este licențiat sub licența GPL v3.",
+      "title": "Calibre web (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercalligra",
-      "title": "Calligra (LinuxServer.io)",
-      "tagline": "O suită de programe de birou și grafică de la KDE. Este disponibilă pentru PC-uri desktop, tablete și smartphone-uri. Conține aplicații pentru procesare de text, foi de calcul, prezentări, grafică vectorială și editare de baze de date."
+      "tagline": "O suită de programe de birou și grafică de la KDE. Este disponibilă pentru PC-uri desktop, tablete și smartphone-uri. Conține aplicații pentru procesare de text, foi de calcul, prezentări, grafică vectorială și editare de baze de date.",
+      "title": "Calligra (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverchangedetectionio",
-      "title": "Changedetection. Io (LinuxServer.io)",
-      "tagline": "Oferă monitorizare gratuită și open-source a paginilor web, notificări și detectare a modificărilor."
+      "tagline": "Oferă monitorizare gratuită și open-source a paginilor web, notificări și detectare a modificărilor.",
+      "title": "Changedetection. Io (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverchrome",
-      "title": "Chrome (LinuxServer.io)",
-      "tagline": "Browserul web oficial de la Google, conceput pentru a fi rapid, sigur și personalizabil."
+      "tagline": "Browserul web oficial de la Google, conceput pentru a fi rapid, sigur și personalizabil.",
+      "title": "Chrome (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverchromium",
-      "title": "Chromium (LinuxServer.io)",
-      "tagline": "Un proiect de browser open-source care își propune să construiască o modalitate mai sigură, mai rapidă și mai stabilă pentru ca toți utilizatorii să experimenteze internetul."
+      "tagline": "Un proiect de browser open-source care își propune să construiască o modalitate mai sigură, mai rapidă și mai stabilă pentru ca toți utilizatorii să experimenteze internetul.",
+      "title": "Chromium (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverci",
-      "title": "Ci",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/ci pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/ci pentru detalii.",
+      "title": "Ci"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercidebug",
-      "title": "Ci debug",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/ci-debug pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/ci-debug pentru detalii.",
+      "title": "Ci debug"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercitron",
-      "title": "Citron",
-      "tagline": "Un emulator Switch 1 bogat în funcții pentru homebrew."
+      "tagline": "Un emulator Switch 1 bogat în funcții pentru homebrew.",
+      "title": "Citron"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercodeserver",
-      "title": "Code server (LinuxServer.io)",
-      "tagline": "VS Code rulează pe un server la distanță, accesibil prin browser. - Codează pe Chromebook, tabletă și laptop cu un mediu de dezvoltare consistent. - Dacă ai o stație de lucru Windows sau Mac, dezvoltă mai ușor pentru Linux. - Profită de serverele cloud mari pentru a accelera testele, compilările, descărcările și multe altele. - Menține durata de viață a bateriei atunci când ești în mișcare. - Toate calculele intensive se execută pe serverul tău. - Nu mai rulezi instanțe suplimentare de Chrome."
+      "tagline": "VS Code rulează pe un server la distanță, accesibil prin browser. - Codează pe Chromebook, tabletă și laptop cu un mediu de dezvoltare consistent. - Dacă ai o stație de lucru Windows sau Mac, dezvoltă mai ușor pentru Linux. - Profită de serverele cloud mari pentru a accelera testele, compilările, descărcările și multe altele. - Menține durata de viață a bateriei atunci când ești în mișcare. - Toate calculele intensive se execută pe serverul tău. - Nu mai rulezi instanțe suplimentare de Chrome.",
+      "title": "Code server (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercops",
-      "title": "Cops (LinuxServer.io)",
-      "tagline": "De Sébastien Lucas, acum întreținut de MikesPub, înseamnă Calibre OPDS (și HTML) PHP Server. COPS se conectează la baza de date a bibliotecii Calibre și permite descărcarea și trimiterea prin e-mail a cărților direct dintr-un browser web și oferă un flux OPDS pentru conectarea la dispozitivele dvs. Modificările din biblioteca dvs. Calibre se reflectă imediat în paginile COPS. Vedeți: pagina principală a COPS pentru mai multe detalii. Nu uitați să verificați Wiki. ## De ce. (preluat de pe site-ul autorului) În opinia mea, Calibre este un instrument minunat, dar este prea mare și are prea multe dependențe pentru a fi utilizat pentru serverul său de conținut. Acesta este principalul motiv pentru care am codat acest server OPDS. Aveam nevoie de un instrument simplu care să fie instalat pe un server mic (Seagate Dockstar în cazul meu). Inițial m-am gândit la Calibre2OPDS, dar deoarece genera fișiere statice, nu era posibilă căutarea. Mai târziu, am adăugat un catalog HTML simplu care ar trebui să poată fi utilizat pe Kobo-ul meu. Deci, principalele avantaje ale COPS sunt: * Nu este nevoie de multe dependențe. * Nu este nevoie de mult CPU sau RAM. * Nu prea mult cod. * Căutarea este disponibilă. * Cu Dropbox / owncloud este foarte ușor să ai un server OPDS actualizat. * A fost distractiv să programez. Dacă vrei să folosești fluxul OPDS, nu uita să specifici /feed la sfârșitul adresei URL."
+      "tagline": "De Sébastien Lucas, acum întreținut de MikesPub, înseamnă Calibre OPDS (și HTML) PHP Server. COPS se conectează la baza de date a bibliotecii Calibre și permite descărcarea și trimiterea prin e-mail a cărților direct dintr-un browser web și oferă un flux OPDS pentru conectarea la dispozitivele dvs. Modificările din biblioteca dvs. Calibre se reflectă imediat în paginile COPS. Vedeți: pagina principală a COPS pentru mai multe detalii. Nu uitați să verificați Wiki. ## De ce. (preluat de pe site-ul autorului) În opinia mea, Calibre este un instrument minunat, dar este prea mare și are prea multe dependențe pentru a fi utilizat pentru serverul său de conținut. Acesta este principalul motiv pentru care am codat acest server OPDS. Aveam nevoie de un instrument simplu care să fie instalat pe un server mic (Seagate Dockstar în cazul meu). Inițial m-am gândit la Calibre2OPDS, dar deoarece genera fișiere statice, nu era posibilă căutarea. Mai târziu, am adăugat un catalog HTML simplu care ar trebui să poată fi utilizat pe Kobo-ul meu. Deci, principalele avantaje ale COPS sunt: * Nu este nevoie de multe dependențe. * Nu este nevoie de mult CPU sau RAM. * Nu prea mult cod. * Căutarea este disponibilă. * Cu Dropbox / owncloud este foarte ușor să ai un server OPDS actualizat. * A fost distractiv să programez. Dacă vrei să folosești fluxul OPDS, nu uita să specifici /feed la sfârșitul adresei URL.",
+      "title": "Cops (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservercura",
-      "title": "Cura (LinuxServer.io)",
-      "tagline": "Software de imprimare 3D gratuit și ușor de utilizat, în care milioane de utilizatori au încredere. Configurați-vă modelul 3D cu peste 400 de setări pentru cele mai bune rezultate de tăiere și imprimare."
+      "tagline": "Software de imprimare 3D gratuit și ușor de utilizat, în care milioane de utilizatori au încredere. Configurați-vă modelul 3D cu peste 400 de setări pentru cele mai bune rezultate de tăiere și imprimare.",
+      "title": "Cura (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverd2builder",
-      "title": "D2 builder",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/d2-builder pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/d2-builder pentru detalii.",
+      "title": "D2 builder"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdaapd",
-      "title": "Daapd",
-      "tagline": "Server media (iTunes) cu suport pentru dispozitive AirPlay, Apple Remote (și compatibile), Chromecast, MPD și radio pe internet."
+      "tagline": "Server media (iTunes) cu suport pentru dispozitive AirPlay, Apple Remote (și compatibile), Chromecast, MPD și radio pe internet.",
+      "title": "Daapd"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdarktable",
-      "title": "Darktable (LinuxServer.io)",
-      "tagline": "O aplicație open source pentru fluxul de lucru fotografic și dezvoltare de fișiere RAW. O masă luminoasă virtuală și o cameră obscură pentru fotografi. Gestionează negativele digitale într-o bază de date, îți permite să le vizualizezi printr-o masă luminoasă cu zoom și îți permite să developezi imagini RAW și să le îmbunătățești."
+      "tagline": "O aplicație open source pentru fluxul de lucru fotografic și dezvoltare de fișiere RAW. O masă luminoasă virtuală și o cameră obscură pentru fotografi. Gestionează negativele digitale într-o bază de date, îți permite să le vizualizezi printr-o masă luminoasă cu zoom și îți permite să developezi imagini RAW și să le îmbunătățești.",
+      "title": "Darktable (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdavos",
-      "title": "Davos (LinuxServer.io)",
-      "tagline": "Un instrument de automatizare FTP care scanează periodic locațiile gazdă date pentru fișiere noi. Poate fi configurat pentru diverse scopuri, inclusiv așteptarea apariției anumitor fișiere în locația gazdă, gata de descărcare și apoi mutare, dacă este necesar. De asemenea, acceptă notificări de finalizare, precum și apeluri API downstream, pentru a îmbunătăți fluxul de lucru."
+      "tagline": "Un instrument de automatizare FTP care scanează periodic locațiile gazdă date pentru fișiere noi. Poate fi configurat pentru diverse scopuri, inclusiv așteptarea apariției anumitor fișiere în locația gazdă, gata de descărcare și apoi mutare, dacă este necesar. De asemenea, acceptă notificări de finalizare, precum și apeluri API downstream, pentru a îmbunătăți fluxul de lucru.",
+      "title": "Davos (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverddclient",
-      "title": "Ddclient (LinuxServer.io)",
-      "tagline": "Un client Perl folosit pentru actualizarea intrărilor DNS dinamice pentru conturile de pe Dynamic DNS Network Service Provider. A fost scris inițial de Paul Burry și acum este în mare parte realizat de wimpunk. Are capacitatea de a actualiza mai mult decât doar dyndns și poate prelua adresa IP WAN în câteva moduri diferite."
+      "tagline": "Un client Perl folosit pentru actualizarea intrărilor DNS dinamice pentru conturile de pe Dynamic DNS Network Service Provider. A fost scris inițial de Paul Burry și acum este în mare parte realizat de wimpunk. Are capacitatea de a actualiza mai mult decât doar dyndns și poate prelua adresa IP WAN în câteva moduri diferite.",
+      "title": "Ddclient (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdeluge",
-      "title": "Deluge (LinuxServer.io)",
-      "tagline": "Un client BitTorrent ușor, gratuit, multiplatformă. * Criptare completă * Interfață web * Sistem de pluginuri * Mult mai multe..."
+      "tagline": "Un client BitTorrent ușor, gratuit, multiplatformă. * Criptare completă * Interfață web * Sistem de pluginuri * Mult mai multe...",
+      "title": "Deluge (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdigikam",
-      "title": "Digikam (LinuxServer.io)",
-      "tagline": "digiKam: Management profesional al fotografiilor cu puterea open source-ului"
+      "tagline": "digiKam: Management profesional al fotografiilor cu puterea open source-ului",
+      "title": "Digikam (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdillinger",
-      "title": "Dillinger",
-      "tagline": "Un editor HTML5 Markdown bazat pe AngularJS, compatibil cu cloud, compatibil cu dispozitive mobile, cu stocare offline."
+      "tagline": "Un editor HTML5 Markdown bazat pe AngularJS, compatibil cu cloud, compatibil cu dispozitive mobile, cu stocare offline.",
+      "title": "Dillinger"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdiskover",
-      "title": "Diskover (LinuxServer.io)",
-      "tagline": "Un indexator de sisteme de fișiere open source care folosește Elasticsearch pentru a indexa și gestiona date pe sisteme de stocare eterogene."
+      "tagline": "Un indexator de sisteme de fișiere open source care folosește Elasticsearch pentru a indexa și gestiona date pe sisteme de stocare eterogene.",
+      "title": "Diskover (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdogwalk",
-      "title": "Dogwalk (LinuxServer.io)",
-      "tagline": "Mult așteptatul al doilea proiect de joc al Blender Studio, axat pe crearea unui loc de joacă interactiv cu povești, de dimensiuni reduse. Joacă rolul unui câine mare și adorabil și explorează pădurea de iarnă cu un copil mic."
+      "tagline": "Mult așteptatul al doilea proiect de joc al Blender Studio, axat pe crearea unui loc de joacă interactiv cu povești, de dimensiuni reduse. Joacă rolul unui câine mare și adorabil și explorează pădurea de iarnă cu un copil mic.",
+      "title": "Dogwalk (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdokuwiki",
-      "title": "Dokuwiki (LinuxServer.io)",
-      "tagline": "Un software wiki open source simplu de utilizat și extrem de versatil, care nu necesită o bază de date. Este îndrăgit de utilizatori pentru sintaxa sa curată și lizibilă. Ușurința cu care se pot întreține, face backup și integrează îl face preferatul administratorilor. Controalele de acces și conectorii de autentificare încorporați fac DokuWiki deosebit de util în contextul întreprinderilor, iar numărul mare de plugin-uri oferite de comunitatea sa vibrantă permite o gamă largă de cazuri de utilizare dincolo de un wiki tradițional."
+      "tagline": "Un software wiki open source simplu de utilizat și extrem de versatil, care nu necesită o bază de date. Este îndrăgit de utilizatori pentru sintaxa sa curată și lizibilă. Ușurința cu care se pot întreține, face backup și integrează îl face preferatul administratorilor. Controalele de acces și conectorii de autentificare încorporați fac DokuWiki deosebit de util în contextul întreprinderilor, iar numărul mare de plugin-uri oferite de comunitatea sa vibrantă permite o gamă largă de cazuri de utilizare dincolo de un wiki tradițional.",
+      "title": "Dokuwiki (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdolphin",
-      "title": "Dolphin (LinuxServer.io)",
-      "tagline": "Îți permite să joci jocuri GameCube și Wii cu diverse îmbunătățiri grafice și alte funcții disponibile pentru a-ți îmbunătăți experiența de joc."
+      "tagline": "Îți permite să joci jocuri GameCube și Wii cu diverse îmbunătățiri grafice și alte funcții disponibile pentru a-ți îmbunătăți experiența de joc.",
+      "title": "Dolphin (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdomoticz",
-      "title": "Domoticz",
-      "tagline": "Un sistem de automatizare a locuinței care vă permite să monitorizați și să configurați diverse dispozitive precum: lumini, întrerupătoare, diverși senzori/contoare precum temperatură, ploaie, vânt, UV, electricitate, gaz, apă și multe altele. Notificările/alertele pot fi trimise către orice dispozitiv mobil."
+      "tagline": "Un sistem de automatizare a locuinței care vă permite să monitorizați și să configurați diverse dispozitive precum: lumini, întrerupătoare, diverși senzori/contoare precum temperatură, ploaie, vânt, UV, electricitate, gaz, apă și multe altele. Notificările/alertele pot fi trimise către orice dispozitiv mobil.",
+      "title": "Domoticz"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdoplarr",
-      "title": "Doplarr",
-      "tagline": "Un bot cu cereri *arr pentru Discord."
+      "tagline": "Un bot cu cereri *arr pentru Discord.",
+      "title": "Doplarr"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdoplarrrs",
-      "title": "Doplarr_rs (LinuxServer.io)",
-      "tagline": "Un bot Discord pentru solicitarea de fișiere media prin backend-uri *arr, scris în Rust."
+      "tagline": "Un bot Discord pentru solicitarea de fișiere media prin backend-uri *arr, scris în Rust.",
+      "title": "Doplarr_rs (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdosboxstaging",
-      "title": "Dosbox staging (LinuxServer.io)",
-      "tagline": "O continuare modernă a DOSBox, un emulator gratuit și open-source care permite executarea de software MS-DOS, în special jocuri video."
+      "tagline": "O continuare modernă a DOSBox, un emulator gratuit și open-source care permite executarea de software MS-DOS, în special jocuri video.",
+      "title": "Dosbox staging (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverdoublecommander",
-      "title": "Doublecommander (LinuxServer.io)",
-      "tagline": "Un manager de fișiere open source gratuit, multiplatformă, cu două panouri alăturate. Este inspirat de Total Commander și prezintă câteva idei noi."
+      "tagline": "Un manager de fișiere open source gratuit, multiplatformă, cu două panouri alăturate. Este inspirat de Total Commander și prezintă câteva idei noi.",
+      "title": "Doublecommander (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduckdns",
-      "title": "Duckdns (LinuxServer.io)",
-      "tagline": "Un serviciu gratuit care va direcționa un DNS (subdomenii ale duckdns.org) către o adresă IP la alegere. Serviciul este complet gratuit și nu necesită reactivare sau postări pe forum pentru a-și menține existența."
+      "tagline": "Un serviciu gratuit care va direcționa un DNS (subdomenii ale duckdns.org) către o adresă IP la alegere. Serviciul este complet gratuit și nu necesită reactivare sau postări pe forum pentru a-și menține existența.",
+      "title": "Duckdns (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduckstation",
-      "title": "Duckstation (LinuxServer.io)",
-      "tagline": "Un emulator PS1 care vizează cea mai bună precizie și suport pentru jocuri."
+      "tagline": "Un emulator PS1 care vizează cea mai bună precizie și suport pentru jocuri.",
+      "title": "Duckstation (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverduplicati",
-      "title": "Duplicati (LinuxServer.io)",
-      "tagline": "Un client de backup care stochează în siguranță copii de rezervă criptate, incrementale și comprimate pe spațiu de stocare local, servicii de stocare în cloud și servere de fișiere la distanță. Funcționează cu protocoale standard precum FTP, SSH, WebDAV, precum și cu servicii populare precum Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2 și multe altele."
+      "tagline": "Un client de backup care stochează în siguranță copii de rezervă criptate, incrementale și comprimate pe spațiu de stocare local, servicii de stocare în cloud și servere de fișiere la distanță. Funcționează cu protocoale standard precum FTP, SSH, WebDAV, precum și cu servicii populare precum Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2 și multe altele.",
+      "title": "Duplicati (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservereden",
-      "title": "Eden (LinuxServer.io)",
-      "tagline": "Un emulator experimental open-source pentru Nintendo Switch, construit având în vedere performanța și stabilitatea."
+      "tagline": "Un emulator experimental open-source pentru Nintendo Switch, construit având în vedere performanța și stabilitatea.",
+      "title": "Eden (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveremby",
-      "title": "Emby (LinuxServer.io)",
-      "tagline": "Organizează videoclipuri, muzică, emisiuni TV în direct și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server media Emby independent."
+      "tagline": "Organizează videoclipuri, muzică, emisiuni TV în direct și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server media Emby independent.",
+      "title": "Emby (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverembystat",
-      "title": "Embystat",
-      "tagline": "Un server web personal care poate calcula tot felul de statistici de pe serverul tău Emby (local). Instalează-l pe serverul tău și lasă-l pe el să calculeze tot felul de lucruri distractive."
+      "tagline": "Un server web personal care poate calcula tot felul de statistici de pe serverul tău Emby (local). Instalează-l pe serverul tău și lasă-l pe el să calculeze tot felul de lucruri distractive.",
+      "title": "Embystat"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveremulatorjs",
-      "title": "Emulatorjs",
-      "tagline": "Emulare bazată pe web în browser, portabilă pe aproape orice dispozitiv pentru multe console retro. Se folosește un mix de emulatoare între Libretro și EmulatorJS."
+      "tagline": "Emulare bazată pe web în browser, portabilă pe aproape orice dispozitiv pentru multe console retro. Se folosește un mix de emulatoare între Libretro și EmulatorJS.",
+      "title": "Emulatorjs"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverendlessh",
-      "title": "Endlessh",
-      "tagline": "Un port tarpit SSH care trimite foarte lent un banner SSH aleatoriu și nesfârșit. Menține clienții SSH blocați ore întregi sau chiar zile întregi. Scopul este de a plasa serverul SSH real pe un alt port și apoi de a lăsa script kiddies-ii să rămână blocați în acest port tarpit în loc să deranjeze un server real."
+      "tagline": "Un port tarpit SSH care trimite foarte lent un banner SSH aleatoriu și nesfârșit. Menține clienții SSH blocați ore întregi sau chiar zile întregi. Scopul este de a plasa serverul SSH real pe un alt port și apoi de a lăsa script kiddies-ii să rămână blocați în acest port tarpit în loc să deranjeze un server real.",
+      "title": "Endlessh"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfail2ban",
-      "title": "Fail2ban (LinuxServer.io)",
-      "tagline": "Un daemon pentru interzicerea gazdelor care cauzează erori multiple de autentificare."
+      "tagline": "Un daemon pentru interzicerea gazdelor care cauzează erori multiple de autentificare.",
+      "title": "Fail2ban (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
-      "title": "Faster whisper (LinuxServer.io)",
-      "tagline": "O reimplementare a modelului Whisper al OpenAI folosind CTranslate2, un motor de inferență rapid pentru modelele Transformer. Acest container oferă un server de protocol Wyoming pentru un whisper mai rapid."
+      "tagline": "O reimplementare a modelului Whisper al OpenAI folosind CTranslate2, un motor de inferență rapid pentru modelele Transformer. Acest container oferă un server de protocol Wyoming pentru un whisper mai rapid.",
+      "title": "Faster whisper (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfeed2toot",
-      "title": "Feed2toot",
-      "tagline": "Analizează automat fluxurile RSS, identifică postările noi și le postează pe rețeaua socială Mastodon."
+      "tagline": "Analizează automat fluxurile RSS, identifică postările noi și le postează pe rețeaua socială Mastodon.",
+      "title": "Feed2toot"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverferdium",
-      "title": "Ferdium (LinuxServer.io)",
-      "tagline": "O aplicație desktop care te ajută să organizezi modul în care utilizezi aplicațiile tale preferate, combinându-le într-o singură aplicație."
+      "tagline": "O aplicație desktop care te ajută să organizezi modul în care utilizezi aplicațiile tale preferate, combinându-le într-o singură aplicație.",
+      "title": "Ferdium (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverffmpeg",
-      "title": "Ffmpeg (LinuxServer.io)",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/ffmpeg pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/ffmpeg pentru detalii.",
+      "title": "Ffmpeg (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfilezilla",
-      "title": "Filezilla (LinuxServer.io)",
-      "tagline": "Clientul este un client FTP, FTPS și SFTP multiplatformă rapid și fiabil, cu o mulțime de funcții utile și o interfață grafică intuitivă."
+      "tagline": "Clientul este un client FTP, FTPS și SFTP multiplatformă rapid și fiabil, cu o mulțime de funcții utile și o interfață grafică intuitivă.",
+      "title": "Filezilla (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfirefox",
-      "title": "Firefox (LinuxServer.io)",
-      "tagline": "Browser, cunoscut și sub numele de Mozilla Firefox sau pur și simplu Firefox, este un browser web gratuit și open-source dezvoltat de Fundația Mozilla și filiala sa, Mozilla Corporation. Firefox folosește motorul de aspect Gecko pentru a reda pagini web, care implementează standarde web actuale și viitoare."
+      "tagline": "Browser, cunoscut și sub numele de Mozilla Firefox sau pur și simplu Firefox, este un browser web gratuit și open-source dezvoltat de Fundația Mozilla și filiala sa, Mozilla Corporation. Firefox folosește motorul de aspect Gecko pentru a reda pagini web, care implementează standarde web actuale și viitoare.",
+      "title": "Firefox (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfleet",
-      "title": "Fleet",
-      "tagline": "Oferă o interfață web online care afișează un set de imagini întreținute din unul sau mai multe depozite deținute."
+      "tagline": "Oferă o interfață web online care afișează un set de imagini întreținute din unul sau mai multe depozite deținute.",
+      "title": "Fleet"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverflexget",
-      "title": "Flexget (LinuxServer.io)",
-      "tagline": "Un instrument de automatizare multifuncțional pentru toate conținuturile tale media."
+      "tagline": "Un instrument de automatizare multifuncțional pentru toate conținuturile tale media.",
+      "title": "Flexget (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverflycast",
-      "title": "Flycast (LinuxServer.io)",
-      "tagline": "Un emulator multi-platformă pentru Sega Dreamcast, Naomi, Naomi 2 și Atomiswave, derivat din reicast."
+      "tagline": "Un emulator multi-platformă pentru Sega Dreamcast, Naomi, Naomi 2 și Atomiswave, derivat din reicast.",
+      "title": "Flycast (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfoldingathome",
-      "title": "Foldingathome (LinuxServer.io)",
-      "tagline": "Un proiect de calcul distribuit pentru simularea dinamicii proteinelor, inclusiv procesul de pliere a proteinelor și mișcările proteinelor implicate într-o varietate de boli. Acesta reunește oameni de știință cetățeni care se oferă voluntari să ruleze simulări ale dinamicii proteinelor pe computerele lor personale. Informațiile obținute din aceste date îi ajută pe oamenii de știință să înțeleagă mai bine biologia și oferă noi oportunități pentru dezvoltarea de terapii."
+      "tagline": "Un proiect de calcul distribuit pentru simularea dinamicii proteinelor, inclusiv procesul de pliere a proteinelor și mișcările proteinelor implicate într-o varietate de boli. Acesta reunește oameni de știință cetățeni care se oferă voluntari să ruleze simulări ale dinamicii proteinelor pe computerele lor personale. Informațiile obținute din aceste date îi ajută pe oamenii de știință să înțeleagă mai bine biologia și oferă noi oportunități pentru dezvoltarea de terapii.",
+      "title": "Foldingathome (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfreecad",
-      "title": "Freecad (LinuxServer.io)",
-      "tagline": "Un modelator CAD (proiectare asistată de calculator) 3D parametric de uz general și o aplicație software de modelare a informațiilor despre clădiri (BIM) cu suport pentru metoda elementelor finite (FEM)."
+      "tagline": "Un modelator CAD (proiectare asistată de calculator) 3D parametric de uz general și o aplicație software de modelare a informațiilor despre clădiri (BIM) cu suport pentru metoda elementelor finite (FEM).",
+      "title": "Freecad (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfreetube",
-      "title": "Freetube",
-      "tagline": "Un client YouTube bogat în funcții și ușor de utilizat, cu accent pe confidențialitate."
+      "tagline": "Un client YouTube bogat în funcții și ușor de utilizat, cu accent pe confidențialitate.",
+      "title": "Freetube"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverfreshrss",
-      "title": "Freshrss (LinuxServer.io)",
-      "tagline": "Un agregator gratuit, auto-găzduit, pentru fluxuri RSS."
+      "tagline": "Un agregator gratuit, auto-găzduit, pentru fluxuri RSS.",
+      "title": "Freshrss (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergimp",
-      "title": "Gimp (LinuxServer.io)",
-      "tagline": "Un editor de grafică raster gratuit și open-source, utilizat pentru manipularea (retușarea) și editarea imaginilor, desenare liberă, transcodare între diferite formate de fișiere imagine și sarcini mai specializate. Este extensibil prin intermediul pluginurilor și poate fi creat cu ajutorul unui script."
+      "tagline": "Un editor de grafică raster gratuit și open-source, utilizat pentru manipularea (retușarea) și editarea imaginilor, desenare liberă, transcodare între diferite formate de fișiere imagine și sarcini mai specializate. Este extensibil prin intermediul pluginurilor și poate fi creat cu ajutorul unui script.",
+      "title": "Gimp (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergithubdesktop",
-      "title": "Github desktop (LinuxServer.io)",
-      "tagline": "O aplicație GitHub open source bazată pe Electron. Este scrisă în TypeScript și folosește React."
+      "tagline": "O aplicație GitHub open source bazată pe Electron. Este scrisă în TypeScript și folosește React.",
+      "title": "Github desktop (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergitqlient",
-      "title": "Gitqlient (LinuxServer.io)",
-      "tagline": "Un client Git multi-platformă, inițial derivat din QGit. În zilele noastre, depășește limita unui simplu fork și adaugă o mulțime de funcționalități noi."
+      "tagline": "Un client Git multi-platformă, inițial derivat din QGit. În zilele noastre, depășește limita unui simplu fork și adaugă o mulțime de funcționalități noi.",
+      "title": "Gitqlient (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergrav",
-      "title": "Grav (LinuxServer.io)",
-      "tagline": "O platformă web rapidă, simplă și flexibilă, bazată pe fișiere."
+      "tagline": "O platformă web rapidă, simplă și flexibilă, bazată pe fișiere.",
+      "title": "Grav (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergrocy",
-      "title": "Grocy (LinuxServer.io)",
-      "tagline": "Un sistem ERP pentru bucătăria ta. Redu risipa alimentară și gestionează-ți treburile casnice cu acest utilitar genial. Urmărește-ți achizițiile, câtă mâncare irosești, ce treburi trebuie făcute și ce baterii trebuie încărcate cu acest instrument open source. Pentru mai multe informații despre grocy, vizitează site-ul lor web și verifică: https://grocy. Info"
+      "tagline": "Un sistem ERP pentru bucătăria ta. Redu risipa alimentară și gestionează-ți treburile casnice cu acest utilitar genial. Urmărește-ți achizițiile, câtă mâncare irosești, ce treburi trebuie făcute și ce baterii trebuie încărcate cu acest instrument open source. Pentru mai multe informații despre grocy, vizitează site-ul lor web și verifică: https://grocy. Info",
+      "title": "Grocy (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservergzdoom",
-      "title": "Gzdoom (LinuxServer.io)",
-      "tagline": "Un port centrat pe caracteristici pentru toate jocurile cu motor Doom, bazat pe ZDoom, adăugând un renderer OpenGL și capacități puternice de scripting."
+      "tagline": "Un port centrat pe caracteristici pentru toate jocurile cu motor Doom, bazat pe ZDoom, adăugând un renderer OpenGL și capacități puternice de scripting.",
+      "title": "Gzdoom (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhabridge",
-      "title": "Habridge (LinuxServer.io)",
-      "tagline": "Emulează API-ul Philips Hue către alte gateway-uri de automatizare a locuinței, cum ar fi Amazon Echo/Dot Gen 1 (Gen 2 are probleme la detectarea ha-bridge-ului) sau alte sisteme care acceptă Philips Hue. Bridge-ul gestionează comenzi de bază, cum ar fi Pornire, Oprire și comenzi de luminozitate ale protocolului Hue. Acest bridge poate controla majoritatea dispozitivelor care au un API distinct."
+      "tagline": "Emulează API-ul Philips Hue către alte gateway-uri de automatizare a locuinței, cum ar fi Amazon Echo/Dot Gen 1 (Gen 2 are probleme la detectarea ha-bridge-ului) sau alte sisteme care acceptă Philips Hue. Bridge-ul gestionează comenzi de bază, cum ar fi Pornire, Oprire și comenzi de luminozitate ale protocolului Hue. Acest bridge poate controla majoritatea dispozitivelor care au un API distinct.",
+      "title": "Habridge (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhandbrake",
-      "title": "Handbrake (LinuxServer.io)",
-      "tagline": "Un instrument open-source, construit de voluntari, pentru convertirea videoclipurilor din aproape orice format într-o selecție de codecuri moderne, larg acceptate."
+      "tagline": "Un instrument open-source, construit de voluntari, pentru convertirea videoclipurilor din aproape orice format într-o selecție de codecuri moderne, larg acceptate.",
+      "title": "Handbrake (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverheadphones",
-      "title": "Headphones",
-      "tagline": "Un program automat de descărcare a muzicii pentru NZB și Torrent, scris în Python. Acceptă SABnzbd, NZBget, Transmission, µTorrent și Blackhole."
+      "tagline": "Un program automat de descărcare a muzicii pentru NZB și Torrent, scris în Python. Acceptă SABnzbd, NZBget, Transmission, µTorrent și Blackhole.",
+      "title": "Headphones"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhealthchecks",
-      "title": "Healthchecks (LinuxServer.io)",
-      "tagline": "Un watchdog pentru cron job-urile tale. Este un server web care ascultă ping-urile de la cron job-urile tale, plus o interfață web."
+      "tagline": "Un watchdog pentru cron job-urile tale. Este un server web care ascultă ping-urile de la cron job-urile tale, plus o interfață web.",
+      "title": "Healthchecks (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhedgedoc",
-      "title": "Hedgedoc (LinuxServer.io)",
-      "tagline": "Îți oferă acces la toate fișierele tale oriunde te-ai afla. HedgeDoc este un editor de notițe markdown colaborativ, multi-platformă, în timp real. Aceasta înseamnă că poți scrie notițe împreună cu alte persoane pe desktop, tabletă sau chiar pe telefon. Te poți conecta prin intermediul mai multor furnizori de autentificare, cum ar fi Facebook, Twitter, GitHub și mulți alții, pe pagina principală."
+      "tagline": "Îți oferă acces la toate fișierele tale oriunde te-ai afla. HedgeDoc este un editor de notițe markdown colaborativ, multi-platformă, în timp real. Aceasta înseamnă că poți scrie notițe împreună cu alte persoane pe desktop, tabletă sau chiar pe telefon. Te poți conecta prin intermediul mai multor furnizori de autentificare, cum ar fi Facebook, Twitter, GitHub și mulți alții, pe pagina principală.",
+      "title": "Hedgedoc (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverheimdall",
-      "title": "Heimdall (LinuxServer.io)",
-      "tagline": "O modalitate de a organiza toate linkurile către site-urile și aplicațiile web cele mai utilizate într-un mod simplu. Simplitatea este cheia lui Heimdall. De ce să nu-l folosești ca pagină de pornire a browserului tău? Are chiar și capacitatea de a include o bară de căutare folosind Google, Bing sau DuckDuckGo."
+      "tagline": "O modalitate de a organiza toate linkurile către site-urile și aplicațiile web cele mai utilizate într-un mod simplu. Simplitatea este cheia lui Heimdall. De ce să nu-l folosești ca pagină de pornire a browserului tău? Are chiar și capacitatea de a include o bară de căutare folosind Google, Bing sau DuckDuckGo.",
+      "title": "Heimdall (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhelium",
-      "title": "Helium (LinuxServer.io)",
-      "tagline": "Un browser web bazat pe Chromium, creat pentru oameni, cu dragoste. Confidențialitatea pe primul loc, cu blocare imparțială a reclamelor."
+      "tagline": "Un browser web bazat pe Chromium, creat pentru oameni, cu dragoste. Confidențialitatea pe primul loc, cu blocare imparțială a reclamelor.",
+      "title": "Helium (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhishtoryserver",
-      "title": "Hishtory server (LinuxServer.io)",
-      "tagline": "Un istoric shell mai bun. Stochează istoricul shell în context (în ce director ați executat comanda, dacă a reușit sau nu, cât timp a durat etc.). Toate acestea sunt stocate local și criptate end-to-end pentru sincronizare cu toate celelalte computere."
+      "tagline": "Un istoric shell mai bun. Stochează istoricul shell în context (în ce director ați executat comanda, dacă a reușit sau nu, cât timp a durat etc.). Toate acestea sunt stocate local și criptate end-to-end pentru sincronizare cu toate celelalte computere.",
+      "title": "Hishtory server (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhomeassistant",
-      "title": "Homeassistant (LinuxServer.io)",
-      "tagline": "Automatizare open source pentru locuințe care pune controlul local și confidențialitatea pe primul loc. Susținută de o comunitate mondială de experimentați și pasionați de bricolaj. Perfectă pentru a rula pe un Raspberry Pi sau pe un server local."
+      "tagline": "Automatizare open source pentru locuințe care pune controlul local și confidențialitatea pe primul loc. Susținută de o comunitate mondială de experimentați și pasionați de bricolaj. Perfectă pentru a rula pe un Raspberry Pi sau pe un server local.",
+      "title": "Homeassistant (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverhtpcmanager",
-      "title": "Htpcmanager (LinuxServer.io)",
-      "tagline": "Un front-end pentru multe aplicații legate de htpc."
+      "tagline": "Un front-end pentru multe aplicații legate de htpc.",
+      "title": "Htpcmanager (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverinkscape",
-      "title": "Inkscape (LinuxServer.io)",
-      "tagline": "Software de grafică vectorială de calitate profesională care rulează pe computere desktop Linux, Mac OS X și Windows."
+      "tagline": "Software de grafică vectorială de calitate profesională care rulează pe computere desktop Linux, Mac OS X și Windows.",
+      "title": "Inkscape (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverintellijidea",
-      "title": "Intellij idea (LinuxServer.io)",
-      "tagline": "Te ajută să scrii cod mai rapid cu instrumente care elimină sarcinile plictisitoare și te permit să te concentrezi pe ceea ce contează – construirea de software excelent."
+      "tagline": "Te ajută să scrii cod mai rapid cu instrumente care elimină sarcinile plictisitoare și te permit să te concentrezi pe ceea ce contează – construirea de software excelent.",
+      "title": "Intellij idea (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjackett",
-      "title": "Jackett (LinuxServer.io)",
-      "tagline": "Funcționează ca server proxy: traduce interogările din aplicații (Sonarr, SickRage, CouchPotato, Mylar etc.) în interogări http specifice site-ului de tracker, analizează răspunsul HTML, apoi trimite rezultatele înapoi către software-ul solicitant. Acest lucru permite obținerea de încărcări recente (cum ar fi RSS) și efectuarea de căutări. Jackett este un depozit unic de logica de extragere și traducere a indexului - eliminând povara altor aplicații."
+      "tagline": "Funcționează ca server proxy: traduce interogările din aplicații (Sonarr, SickRage, CouchPotato, Mylar etc.) în interogări http specifice site-ului de tracker, analizează răspunsul HTML, apoi trimite rezultatele înapoi către software-ul solicitant. Acest lucru permite obținerea de încărcări recente (cum ar fi RSS) și efectuarea de căutări. Jackett este un depozit unic de logica de extragere și traducere a indexului - eliminând povara altor aplicații.",
+      "title": "Jackett (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjellyfin",
-      "title": "Jellyfin (LinuxServer.io)",
-      "tagline": "Un sistem media software liber care vă oferă controlul asupra gestionării și redării în flux a conținutului media. Este o alternativă la Emby și Plex, care oferă conținut media de pe un server dedicat către dispozitivele utilizatorilor finali prin intermediul mai multor aplicații. Jellyfin este o versiune derivată din versiunea 3.5.2 a Emby și portată la framework-ul .NET Core pentru a permite suport complet multi-platformă. Nu există obligații, licențe sau funcții premium și nicio agendă ascunsă: doar o echipă care dorește să construiască ceva mai bun și lucrează împreună pentru a realiza acest lucru."
+      "tagline": "Un sistem media software liber care vă oferă controlul asupra gestionării și redării în flux a conținutului media. Este o alternativă la Emby și Plex, care oferă conținut media de pe un server dedicat către dispozitivele utilizatorilor finali prin intermediul mai multor aplicații. Jellyfin este o versiune derivată din versiunea 3.5.2 a Emby și portată la framework-ul .NET Core pentru a permite suport complet multi-platformă. Nu există obligații, licențe sau funcții premium și nicio agendă ascunsă: doar o echipă care dorește să construiască ceva mai bun și lucrează împreună pentru a realiza acest lucru.",
+      "title": "Jellyfin (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjenkinsbuilder",
-      "title": "Jenkins builder",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/jenkins-builder pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/jenkins-builder pentru detalii.",
+      "title": "Jenkins builder"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverjoplin",
-      "title": "Joplin (LinuxServer.io)",
-      "tagline": "O aplicație gratuită, open source, pentru luarea de notițe și gestionarea activităților, care poate gestiona un număr mare de notițe organizate în caiete."
+      "tagline": "O aplicație gratuită, open source, pentru luarea de notițe și gestionarea activităților, care poate gestiona un număr mare de notițe organizate în caiete.",
+      "title": "Joplin (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkalilinux",
-      "title": "Kali linux (LinuxServer.io)",
-      "tagline": "este o distribuție Linux de testare avansată a penetrării (Advanced Penetration Testing) utilizată pentru testarea penetrării, hacking etic și evaluarea securității rețelei. KALI LINUX™ este o marcă înregistrată a OffSec."
+      "tagline": "este o distribuție Linux de testare avansată a penetrării (Advanced Penetration Testing) utilizată pentru testarea penetrării, hacking etic și evaluarea securității rețelei. KALI LINUX™ este o marcă înregistrată a OffSec.",
+      "title": "Kali linux (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkasm",
-      "title": "Kasm (LinuxServer.io)",
-      "tagline": "Workspaces este o platformă de streaming pentru containere Docker, care oferă acces prin browser la desktopuri, aplicații și servicii web. Kasm utilizează Containerized Desktop Infrastructure (CDI) activată pentru Devops pentru a crea containere Docker la cerere, de unică folosință, accesibile prin browser web. Exemple de cazuri de utilizare includ Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS) și colecții Open Source Intelligence (OSINT). Randarea containerelor grafice este susținută de proiectul open-source KasmVNC."
+      "tagline": "Workspaces este o platformă de streaming pentru containere Docker, care oferă acces prin browser la desktopuri, aplicații și servicii web. Kasm utilizează Containerized Desktop Infrastructure (CDI) activată pentru Devops pentru a crea containere Docker la cerere, de unică folosință, accesibile prin browser web. Exemple de cazuri de utilizare includ Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS) și colecții Open Source Intelligence (OSINT). Randarea containerelor grafice este susținută de proiectul open-source KasmVNC.",
+      "title": "Kasm (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkavita",
-      "title": "Kavita (LinuxServer.io)",
-      "tagline": "Un server de lectură rapid, bogat în funcții, multiplatformă. Construit cu scopul de a fi o soluție completă pentru toate nevoile tale de lectură. Configurați-vă propriul server și distribuiți colecția de lectură cu prietenii și familia."
+      "tagline": "Un server de lectură rapid, bogat în funcții, multiplatformă. Construit cu scopul de a fi o soluție completă pentru toate nevoile tale de lectură. Configurați-vă propriul server și distribuiți colecția de lectură cu prietenii și familia.",
+      "title": "Kavita (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkdenlive",
-      "title": "Kdenlive (LinuxServer.io)",
-      "tagline": "Un program puternic de editare video, gratuit și open-source, multiplatformă, creat de comunitatea KDE. Bogat în funcții și pregătit pentru producție."
+      "tagline": "Un program puternic de editare video, gratuit și open-source, multiplatformă, creat de comunitatea KDE. Bogat în funcții și pregătit pentru producție.",
+      "title": "Kdenlive (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkeepassxc",
-      "title": "Keepassxc (LinuxServer.io)",
-      "tagline": "Un manager de parole gratuit și open-source. A început ca o ramură comunitară a KeePassX (ea însăși o versiune multiplatformă a KeePass)."
+      "tagline": "Un manager de parole gratuit și open-source. A început ca o ramură comunitară a KeePassX (ea însăși o versiune multiplatformă a KeePass).",
+      "title": "Keepassxc (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkicad",
-      "title": "Kicad (LinuxServer.io)",
-      "tagline": "O suită de automatizare a proiectării electronice, multiplatformă și open source."
+      "tagline": "O suită de automatizare a proiectării electronice, multiplatformă și open source.",
+      "title": "Kicad (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkimai",
-      "title": "Kimai (LinuxServer.io)",
-      "tagline": "O aplicație profesională de urmărire a timpului, gratuită și open-source. Se adresează atât freelancerilor, cât și companiilor cu zeci sau sute de utilizatori. Kimai a fost creată pentru a urmări timpii proiectelor și este dotată cu multe funcții avansate, inclusiv, dar fără a se limita la: API JSON, facturare, export de date, mod multi-timer și punch-in punch-out, etichetare, multi-utilizator - multi-fusuri orare - multi-limbă (există peste 30 de traduceri), autentificare prin SAML/LDAP/Bază de date, autentificare cu doi factori (2FA) cu TOTP, permisiuni personalizabile pentru roluri și echipe, design responsiv, tarife specifice utilizatorului/clientului/proiectului, căutare și filtrare avansate, bugete de timp și bani, raportare avansată, suport pentru plugin-uri și multe altele."
+      "tagline": "O aplicație profesională de urmărire a timpului, gratuită și open-source. Se adresează atât freelancerilor, cât și companiilor cu zeci sau sute de utilizatori. Kimai a fost creată pentru a urmări timpii proiectelor și este dotată cu multe funcții avansate, inclusiv, dar fără a se limita la: API JSON, facturare, export de date, mod multi-timer și punch-in punch-out, etichetare, multi-utilizator - multi-fusuri orare - multi-limbă (există peste 30 de traduceri), autentificare prin SAML/LDAP/Bază de date, autentificare cu doi factori (2FA) cu TOTP, permisiuni personalizabile pentru roluri și echipe, design responsiv, tarife specifice utilizatorului/clientului/proiectului, căutare și filtrare avansate, bugete de timp și bani, raportare avansată, suport pentru plugin-uri și multe altele.",
+      "title": "Kimai (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkometa",
-      "title": "Kometa (LinuxServer.io)",
-      "tagline": "Un instrument puternic conceput pentru a vă oferi control complet asupra bibliotecilor dvs. media. Cu Kometa, puteți duce personalizarea la nivelul următor, cu control granular asupra metadatelor, colecțiilor, suprapunerilor și multe altele."
+      "tagline": "Un instrument puternic conceput pentru a vă oferi control complet asupra bibliotecilor dvs. media. Cu Kometa, puteți duce personalizarea la nivelul următor, cu control granular asupra metadatelor, colecțiilor, suprapunerilor și multe altele.",
+      "title": "Kometa (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverkrita",
-      "title": "Krita (LinuxServer.io)",
-      "tagline": "Un program profesional de pictură GRATUIT și open source. Este creat de artiști care își doresc instrumente artistice accesibile pentru toată lumea."
+      "tagline": "Un program profesional de pictură GRATUIT și open source. Este creat de artiști care își doresc instrumente artistice accesibile pentru toată lumea.",
+      "title": "Krita (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
-      "title": "Lazylibrarian (LinuxServer.io)",
-      "tagline": "Un program pentru urmărirea autorilor și obținerea metadatelor pentru toate nevoile tale de lectură digitală. Folosește o combinație între Goodreads Librarything și, opțional, GoogleBooks ca surse pentru informații despre autori și cărți. Acest container se bazează pe fork-ul DobyTang."
+      "tagline": "Un program pentru urmărirea autorilor și obținerea metadatelor pentru toate nevoile tale de lectură digitală. Folosește o combinație între Goodreads Librarything și, opțional, GoogleBooks ca surse pentru informații despre autori și cărți. Acest container se bazează pe fork-ul DobyTang.",
+      "title": "Lazylibrarian (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverldapauth",
-      "title": "Ldap auth (LinuxServer.io)",
-      "tagline": "Software-ul este destinat autentificării utilizatorilor care solicită resurse protejate de la servere proxyate de nginx. Acesta include un daemon (ldap-auth) care comunică cu un server de autentificare și un daemon de server web care generează un cookie de autentificare pe baza acreditărilor utilizatorului. Daemon-urile sunt scrise în Python pentru a fi utilizate cu un server de autentificare Lightweight Directory Access Protocol (LDAP) (OpenLDAP sau Microsoft Windows Active Directory 2003 și 2012)."
+      "tagline": "Software-ul este destinat autentificării utilizatorilor care solicită resurse protejate de la servere proxyate de nginx. Acesta include un daemon (ldap-auth) care comunică cu un server de autentificare și un daemon de server web care generează un cookie de autentificare pe baza acreditărilor utilizatorului. Daemon-urile sunt scrise în Python pentru a fi utilizate cu un server de autentificare Lightweight Directory Access Protocol (LDAP) (OpenLDAP sau Microsoft Windows Active Directory 2003 și 2012).",
+      "title": "Ldap auth (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlibreoffice",
-      "title": "Libreoffice (LinuxServer.io)",
-      "tagline": "O suită de birou gratuită și puternică, succesorul OpenOffice.org (cunoscut în mod obișnuit ca OpenOffice). Interfața sa curată și instrumentele bogate în funcții te ajută să-ți dezlănțui creativitatea și să-ți îmbunătățești productivitatea."
+      "tagline": "O suită de birou gratuită și puternică, succesorul OpenOffice.org (cunoscut în mod obișnuit ca OpenOffice). Interfața sa curată și instrumentele bogate în funcții te ajută să-ți dezlănțui creativitatea și să-ți îmbunătățești productivitatea.",
+      "title": "Libreoffice (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlibrespeed",
-      "title": "Librespeed (LinuxServer.io)",
-      "tagline": "Un test de viteză foarte ușor implementat în Javascript, folosind XMLHttpRequest și Web Workers. Fără Flash, fără Java, fără Websocket, fără prostii."
+      "tagline": "Un test de viteză foarte ușor implementat în Javascript, folosind XMLHttpRequest și Web Workers. Fără Flash, fără Java, fără Websocket, fără prostii.",
+      "title": "Librespeed (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlibrewolf",
-      "title": "Librewolf (LinuxServer.io)",
-      "tagline": "O versiune personalizată și independentă de Firefox, cu obiective principale de confidențialitate, securitate și libertate a utilizatorului. LibreWolf își propune, de asemenea, să elimine toate datele de telemetrie, colectarea de date și alte probleme, precum și să dezactiveze funcțiile anti-libertate, cum ar fi DRM."
+      "tagline": "O versiune personalizată și independentă de Firefox, cu obiective principale de confidențialitate, securitate și libertate a utilizatorului. LibreWolf își propune, de asemenea, să elimine toate datele de telemetrie, colectarea de date și alte probleme, precum și să dezactiveze funcțiile anti-libertate, cum ar fi DRM.",
+      "title": "Librewolf (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlidarr",
-      "title": "Lidarr (LinuxServer.io)",
-      "tagline": "Un manager de colecții muzicale pentru utilizatorii Usenet și BitTorrent. Poate monitoriza mai multe fluxuri RSS pentru melodii noi de la artiștii preferați și le va prelua, sorta și redenumi. De asemenea, poate fi configurat să îmbunătățească automat calitatea fișierelor deja descărcate atunci când devine disponibil un format de calitate mai bună."
+      "tagline": "Un manager de colecții muzicale pentru utilizatorii Usenet și BitTorrent. Poate monitoriza mai multe fluxuri RSS pentru melodii noi de la artiștii preferați și le va prelua, sorta și redenumi. De asemenea, poate fi configurat să îmbunătățească automat calitatea fișierelor deja descărcate atunci când devine disponibil un format de calitate mai bună.",
+      "title": "Lidarr (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlimnoria",
-      "title": "Limnoria (LinuxServer.io)",
-      "tagline": "Un bot IRC Python robust, complet funcțional și ușor de utilizat/programat, cu multe plugin-uri existente. Succesorul cunoscutului Supybot."
+      "tagline": "Un bot IRC Python robust, complet funcțional și ușor de utilizat/programat, cu multe plugin-uri existente. Succesorul cunoscutului Supybot.",
+      "title": "Limnoria (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlmstudio",
-      "title": "Lm studio (LinuxServer.io)",
-      "tagline": "Poate rula modele locale de inteligență artificială precum gpt-oss, Llama, Gemma, Qwen și DeepSeek în mod privat pe computer."
+      "tagline": "Poate rula modele locale de inteligență artificială precum gpt-oss, Llama, Gemma, Qwen și DeepSeek în mod privat pe computer.",
+      "title": "Lm studio (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlollypop",
-      "title": "Lollypop (LinuxServer.io)",
-      "tagline": "Un player muzical modern și ușor, conceput să funcționeze excelent în mediul desktop GNOME."
+      "tagline": "Un player muzical modern și ușor, conceput să funcționeze excelent în mediul desktop GNOME.",
+      "title": "Lollypop (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlsioapi",
-      "title": "Lsio api",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/lsio-api pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/lsio-api pentru detalii.",
+      "title": "Lsio api"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverluanti",
-      "title": "Luanti (LinuxServer.io)",
-      "tagline": "(fosta Minetest) este o platformă open source pentru crearea de jocuri voxel, cu modding și creare de jocuri ușor de realizat."
+      "tagline": "(fosta Minetest) este o platformă open source pentru crearea de jocuri voxel, cu modding și creare de jocuri ușor de realizat.",
+      "title": "Luanti (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverlychee",
-      "title": "Lychee (LinuxServer.io)",
-      "tagline": "Un instrument gratuit de gestionare a fotografiilor, care rulează pe serverul sau spațiul web. Instalarea este o chestiune de secunde. Încarcă, gestionează și partajează fotografii ca dintr-o aplicație nativă. Lychee vine cu tot ce ai nevoie și toate fotografiile tale sunt stocate în siguranță."
+      "tagline": "Un instrument gratuit de gestionare a fotografiilor, care rulează pe serverul sau spațiul web. Instalarea este o chestiune de secunde. Încarcă, gestionează și partajează fotografii ca dintr-o aplicație nativă. Lychee vine cu tot ce ai nevoie și toate fotografiile tale sunt stocate în siguranță.",
+      "title": "Lychee (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermame",
-      "title": "Mame (LinuxServer.io)",
-      "tagline": "Un emulator gratuit și open-source conceput pentru a emula hardware-ul jocurilor arcade, consolelor de jocuri video, computerelor vechi și altor sisteme în software pe computerele personale moderne."
+      "tagline": "Un emulator gratuit și open-source conceput pentru a emula hardware-ul jocurilor arcade, consolelor de jocuri video, computerelor vechi și altor sisteme în software pe computerele personale moderne.",
+      "title": "Mame (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermanyfold",
-      "title": "Manyfold (LinuxServer.io)",
-      "tagline": "O aplicație web open source, auto-găzduită, pentru gestionarea unei colecții de modele 3D, axată în special pe imprimarea 3D."
+      "tagline": "O aplicație web open source, auto-găzduită, pentru gestionarea unei colecții de modele 3D, axată în special pe imprimarea 3D.",
+      "title": "Manyfold (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermariadb",
-      "title": "Mariadb (LinuxServer.io)",
-      "tagline": "Unul dintre cele mai populare servere de baze de date. Creat de dezvoltatorii originali ai MySQL."
+      "tagline": "Unul dintre cele mai populare servere de baze de date. Creat de dezvoltatorii originali ai MySQL.",
+      "title": "Mariadb (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermastodon",
-      "title": "Mastodon (LinuxServer.io)",
-      "tagline": "Un server de rețea socială gratuit, open-source, bazat pe ActivityPub, unde utilizatorii își pot urmări prietenii și pot descoperi alții noi."
+      "tagline": "Un server de rețea socială gratuit, open-source, bazat pe ActivityPub, unde utilizatorii își pot urmări prietenii și pot descoperi alții noi.",
+      "title": "Mastodon (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermediaelch",
-      "title": "Mediaelch (LinuxServer.io)",
-      "tagline": "Un MediaManager pentru Kodi. Informațiile despre filme, emisiuni TV, concerte și muzică sunt stocate ca fișiere nfo. Fanart-urile sunt descărcate automat din fanart.Tv. Folosind generatorul nfo, MediaElch poate fi utilizat și cu alte MediaCentre."
+      "tagline": "Un MediaManager pentru Kodi. Informațiile despre filme, emisiuni TV, concerte și muzică sunt stocate ca fișiere nfo. Fanart-urile sunt descărcate automat din fanart.Tv. Folosind generatorul nfo, MediaElch poate fi utilizat și cu alte MediaCentre.",
+      "title": "Mediaelch (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermedusa",
-      "title": "Medusa (LinuxServer.io)",
-      "tagline": "Un manager automat de bibliotecă video pentru emisiuni TV. Caută episoade noi din emisiunile tale preferate și, odată ce sunt postate, își face magia."
+      "tagline": "Un manager automat de bibliotecă video pentru emisiuni TV. Caută episoade noi din emisiunile tale preferate și, odată ce sunt postate, își face magia.",
+      "title": "Medusa (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermelonds",
-      "title": "Melonds (LinuxServer.io)",
-      "tagline": "Scopul este de a oferi o emulare rapidă și precisă a Nintendo DS."
+      "tagline": "Scopul este de a oferi o emulare rapidă și precisă a Nintendo DS.",
+      "title": "Melonds (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverminetest",
-      "title": "Minetest",
-      "tagline": "(server) este un joc sandbox cu blocuri, cu o lume aproape infinită, și un motor de joc, inspirat de InfiniMiner, Minecraft și altele asemenea."
+      "tagline": "(server) este un joc sandbox cu blocuri, cu o lume aproape infinită, și un motor de joc, inspirat de InfiniMiner, Minecraft și altele asemenea.",
+      "title": "Minetest"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverminisatip",
-      "title": "Minisatip (LinuxServer.io)",
-      "tagline": "Un server satip multi-threaded versiunea 1.2 care rulează sub Linux și a fost testat cu plăci DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC și ISDB-T."
+      "tagline": "Un server satip multi-threaded versiunea 1.2 care rulează sub Linux și a fost testat cu plăci DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC și ISDB-T.",
+      "title": "Minisatip (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermodmanager",
-      "title": "Modmanager (LinuxServer.io)",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/modmanager pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/modmanager pentru detalii.",
+      "title": "Modmanager (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermodrinth",
-      "title": "Modrinth (LinuxServer.io)",
-      "tagline": "Un lansator unic, open source, care îți permite să joci modurile tale preferate și să le menții la zi, totul într-un pachet mic și elegant."
+      "tagline": "Un lansator unic, open source, care îți permite să joci modurile tale preferate și să le menții la zi, totul într-un pachet mic și elegant.",
+      "title": "Modrinth (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermonica",
-      "title": "Monica",
-      "tagline": "Un sistem open source de gestionare a relațiilor personale, care îți permite să-ți documentezi viața."
+      "tagline": "Un sistem open source de gestionare a relațiilor personale, care îți permite să-ți documentezi viața.",
+      "title": "Monica"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermsedge",
-      "title": "Msedge (LinuxServer.io)",
-      "tagline": "Un browser web multiplatformă dezvoltat de Microsoft și bazat pe Chromium."
+      "tagline": "Un browser web multiplatformă dezvoltat de Microsoft și bazat pe Chromium.",
+      "title": "Msedge (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermstream",
-      "title": "Mstream (LinuxServer.io)",
-      "tagline": "Un server personal de streaming muzical. Poți folosi mStream pentru a reda muzică de pe computerul de acasă pe orice dispozitiv, oriunde. Există aplicații mobile disponibile atât pentru Android, cât și pentru iPhone."
+      "tagline": "Un server personal de streaming muzical. Poți folosi mStream pentru a reda muzică de pe computerul de acasă pe orice dispozitiv, oriunde. Există aplicații mobile disponibile atât pentru Android, cât și pentru iPhone.",
+      "title": "Mstream (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermullvadbrowser",
-      "title": "Mullvad browser (LinuxServer.io)",
-      "tagline": "Browserul Mullvad este un browser web axat pe confidențialitate, dezvoltat în colaborare între Mullvad VPN și Proiectul Tor. Este conceput pentru a minimiza urmărirea și amprentarea. Ai putea spune că este un browser Tor pe care îl poți folosi fără rețeaua Tor. În schimb, îl poți folosi cu un VPN de încredere."
+      "tagline": "Browserul Mullvad este un browser web axat pe confidențialitate, dezvoltat în colaborare între Mullvad VPN și Proiectul Tor. Este conceput pentru a minimiza urmărirea și amprentarea. Ai putea spune că este un browser Tor pe care îl poți folosi fără rețeaua Tor. În schimb, îl poți folosi cu un VPN de încredere.",
+      "title": "Mullvad browser (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermylar3",
-      "title": "Mylar3 (LinuxServer.io)",
-      "tagline": "Un program automat de descărcare a benzilor desenate (cbr/cbz) pentru utilizare cu NZB și torrente scrise în Python. Acceptă SABnzbd, NZBGET și mulți clienți torrent pe lângă DDL."
+      "tagline": "Un program automat de descărcare a benzilor desenate (cbr/cbz) pentru utilizare cu NZB și torrente scrise în Python. Acceptă SABnzbd, NZBGET și mulți clienți torrent pe lângă DDL.",
+      "title": "Mylar3 (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservermysqlworkbench",
-      "title": "Mysql workbench (LinuxServer.io)",
-      "tagline": "Un instrument vizual unificat pentru arhitecți de baze de date, dezvoltatori și administratori de baze de date. MySQL Workbench oferă modelare a datelor, dezvoltare SQL și instrumente complete de administrare pentru configurarea serverului, administrarea utilizatorilor, backup și multe altele."
+      "tagline": "Un instrument vizual unificat pentru arhitecți de baze de date, dezvoltatori și administratori de baze de date. MySQL Workbench oferă modelare a datelor, dezvoltare SQL și instrumente complete de administrare pentru configurarea serverului, administrarea utilizatorilor, backup și multe altele.",
+      "title": "Mysql workbench (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernano",
-      "title": "Nano",
-      "tagline": "Un protocol de plată digitală conceput pentru a fi accesibil și ușor, cu accent pe eliminarea ineficiențelor prezente în alte criptomonede. Cu tranzacții ultrarapide și zero comisioane pe o rețea sigură, ecologică și descentralizată, Nano este ideal pentru tranzacțiile de zi cu zi."
+      "tagline": "Un protocol de plată digitală conceput pentru a fi accesibil și ușor, cu accent pe eliminarea ineficiențelor prezente în alte criptomonede. Cu tranzacții ultrarapide și zero comisioane pe o rețea sigură, ecologică și descentralizată, Nano este ideal pentru tranzacțiile de zi cu zi.",
+      "title": "Nano"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernanowallet",
-      "title": "Nano wallet",
-      "tagline": "Un protocol de plată digitală conceput pentru a fi accesibil și ușor, cu accent pe eliminarea ineficiențelor prezente în alte criptomonede. Cu tranzacții ultrarapide și zero taxe pe o rețea securizată, ecologică și descentralizată, Nano este ideal pentru tranzacțiile de zi cu zi. Acest container este un simplu wrapper nginx pentru portofelul ușor situat aici. Va trebui să transmiteți o gazdă RPC validă atunci când accesați acest container."
+      "tagline": "Un protocol de plată digitală conceput pentru a fi accesibil și ușor, cu accent pe eliminarea ineficiențelor prezente în alte criptomonede. Cu tranzacții ultrarapide și zero taxe pe o rețea securizată, ecologică și descentralizată, Nano este ideal pentru tranzacțiile de zi cu zi. Acest container este un simplu wrapper nginx pentru portofelul ușor situat aici. Va trebui să transmiteți o gazdă RPC validă atunci când accesați acest container.",
+      "title": "Nano wallet"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
-      "title": "Netbootxyz",
-      "tagline": "O modalitate de a boota prin PXE diverse programe de instalare sau utilitare ale sistemului de operare dintr-un singur loc în BIOS, fără a fi nevoie să recuperați mediul de stocare pentru a rula instrumentul. IPXE este utilizat pentru a oferi un meniu ușor de utilizat din BIOS, care vă permite să alegeți cu ușurință sistemul de operare dorit, împreună cu orice tipuri specifice de versiuni sau semnalizatoare de bootare."
+      "tagline": "O modalitate de a boota prin PXE diverse programe de instalare sau utilitare ale sistemului de operare dintr-un singur loc în BIOS, fără a fi nevoie să recuperați mediul de stocare pentru a rula instrumentul. IPXE este utilizat pentru a oferi un meniu ușor de utilizat din BIOS, care vă permite să alegeți cu ușurință sistemul de operare dorit, împreună cu orice tipuri specifice de versiuni sau semnalizatoare de bootare.",
+      "title": "Netbootxyz"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernetbox",
-      "title": "Netbox (LinuxServer.io)",
-      "tagline": "Un instrument de gestionare a adreselor IP (IPAM) și de gestionare a infrastructurii centrelor de date (DCIM). Conceput inițial de echipa de inginerie de rețea de la DigitalOcean, NetBox a fost dezvoltat special pentru a răspunde nevoilor inginerilor de rețea și infrastructură. Este destinat să funcționeze ca o sursă de adevăr specifică domeniului pentru operațiunile de rețea."
+      "tagline": "Un instrument de gestionare a adreselor IP (IPAM) și de gestionare a infrastructurii centrelor de date (DCIM). Conceput inițial de echipa de inginerie de rețea de la DigitalOcean, NetBox a fost dezvoltat special pentru a răspunde nevoilor inginerilor de rețea și infrastructură. Este destinat să funcționeze ca o sursă de adevăr specifică domeniului pentru operațiunile de rețea.",
+      "title": "Netbox (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernextcloud",
-      "title": "Nextcloud (LinuxServer.io)",
-      "tagline": "Îți oferă acces la toate fișierele tale oriunde te-ai afla. Unde sunt fotografiile și documentele tale? Cu Nextcloud alegi un server la alegere, acasă, într-un centru de date sau la un furnizor. Și acolo vor fi fișierele tale. Nextcloud rulează pe acel server, protejându-ți datele și oferindu-ți acces de pe desktop sau de pe dispozitivele mobile. Prin intermediul Nextcloud, accesezi, sincronizezi și partajezi datele existente pe unitatea FTP de la birou, pe un Dropbox sau pe un NAS pe care îl ai acasă."
+      "tagline": "Îți oferă acces la toate fișierele tale oriunde te-ai afla. Unde sunt fotografiile și documentele tale? Cu Nextcloud alegi un server la alegere, acasă, într-un centru de date sau la un furnizor. Și acolo vor fi fișierele tale. Nextcloud rulează pe acel server, protejându-ți datele și oferindu-ți acces de pe desktop sau de pe dispozitivele mobile. Prin intermediul Nextcloud, accesezi, sincronizezi și partajezi datele existente pe unitatea FTP de la birou, pe un Dropbox sau pe un NAS pe care îl ai acasă.",
+      "title": "Nextcloud (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernginx",
-      "title": "Nginx (LinuxServer.io)",
-      "tagline": "Un server web HTTP, un proxy invers, o memorie cache de conținut, un echilibrator de încărcare, un server proxy TCP/UDP și un server proxy de e-mail."
+      "tagline": "Un server web HTTP, un proxy invers, o memorie cache de conținut, un echilibrator de încărcare, un server proxy TCP/UDP și un server proxy de e-mail.",
+      "title": "Nginx (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverngircd",
-      "title": "Ngircd (LinuxServer.io)",
-      "tagline": "Un server de chat prin internet gratuit, portabil și ușor pentru rețele mici sau private, dezvoltat sub licența GNU General Public License (GPL). Este ușor de configurat, poate gestiona adrese IP dinamice și acceptă IPv6, conexiuni protejate prin SSL, precum și PAM pentru autentificare. Este scris de la zero și nu se bazează pe IRCd-ul original."
+      "tagline": "Un server de chat prin internet gratuit, portabil și ușor pentru rețele mici sau private, dezvoltat sub licența GNU General Public License (GPL). Este ușor de configurat, poate gestiona adrese IP dinamice și acceptă IPv6, conexiuni protejate prin SSL, precum și PAM pentru autentificare. Este scris de la zero și nu se bazează pe IRCd-ul original.",
+      "title": "Ngircd (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernntp2nntp",
-      "title": "Nntp2nntp",
-      "tagline": "Proxy-ul vă permite să utilizați contul NNTP de pe mai multe sisteme, fiecare cu propriul nume de utilizator și parolă. Acceptă pe deplin SSL și puteți, de asemenea, limita accesul la proxy cu certificate SSL. Proxy-ul Nntp2nntp este foarte simplu și destul de rapid. ## Atenție Deși nu cunoaștem probleme de securitate nntp2nntp, codul upstream pentru acest proiect nu a suferit modificări din 06.08.2015 și probabil este abandonat definitiv. Din acest motiv, vă recomandăm insistent să nu faceți această aplicație publică și, dacă este necesar, alte niveluri de securitate, iar SSL ar trebui considerate o cerință minimă absolută. Vedem că acest proxy este utilizat în principal într-o rețea LAN, astfel încât toate aplicațiile NNTP ale utilizatorilor să poată partaja un set comun de acreditări interne, permițând gestionarea centralizată a contului upstream, de exemplu, schimbarea furnizorului, serverului, limitelor thread-urilor pentru toate aplicațiile cu o singură modificare globală de configurație."
+      "tagline": "Proxy-ul vă permite să utilizați contul NNTP de pe mai multe sisteme, fiecare cu propriul nume de utilizator și parolă. Acceptă pe deplin SSL și puteți, de asemenea, limita accesul la proxy cu certificate SSL. Proxy-ul Nntp2nntp este foarte simplu și destul de rapid. ## Atenție Deși nu cunoaștem probleme de securitate nntp2nntp, codul upstream pentru acest proiect nu a suferit modificări din 06.08.2015 și probabil este abandonat definitiv. Din acest motiv, vă recomandăm insistent să nu faceți această aplicație publică și, dacă este necesar, alte niveluri de securitate, iar SSL ar trebui considerate o cerință minimă absolută. Vedem că acest proxy este utilizat în principal într-o rețea LAN, astfel încât toate aplicațiile NNTP ale utilizatorilor să poată partaja un set comun de acreditări interne, permițând gestionarea centralizată a contului upstream, de exemplu, schimbarea furnizorului, serverului, limitelor thread-urilor pentru toate aplicațiile cu o singură modificare globală de configurație.",
+      "title": "Nntp2nntp"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernzbget",
-      "title": "Nzbget (LinuxServer.io)",
-      "tagline": "Un program de descărcare Usenet, scris în C++ și conceput special pentru performanță, care să atingă o viteză maximă de descărcare utilizând foarte puține resurse de sistem."
+      "tagline": "Un program de descărcare Usenet, scris în C++ și conceput special pentru performanță, care să atingă o viteză maximă de descărcare utilizând foarte puține resurse de sistem.",
+      "title": "Nzbget (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservernzbhydra2",
-      "title": "Nzbhydra2 (LinuxServer.io)",
-      "tagline": "O aplicație de meta-căutare pentru indexatori NZB, succesorul spiritual al NZBmegasearcH și o evoluție a aplicației originale NZBHydra. Aceasta oferă acces facil la o serie de indexatori bazați pe date brute și newznab."
+      "tagline": "O aplicație de meta-căutare pentru indexatori NZB, succesorul spiritual al NZBmegasearcH și o evoluție a aplicației originale NZBHydra. Aceasta oferă acces facil la o serie de indexatori bazați pe date brute și newznab.",
+      "title": "Nzbhydra2 (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverobsidian",
-      "title": "Obsidian (LinuxServer.io)",
-      "tagline": "O aplicație de luare de notițe care îți permite să creezi, să conectezi și să organizezi notițele pe dispozitiv, cu sute de pluginuri și teme pentru a-ți personaliza fluxul de lucru. De asemenea, poți să-ți publici notițele online, să le accesezi offline și să le sincronizezi în siguranță cu criptare end-to-end."
+      "tagline": "O aplicație de luare de notițe care îți permite să creezi, să conectezi și să organizezi notițele pe dispozitiv, cu sute de pluginuri și teme pentru a-ți personaliza fluxul de lucru. De asemenea, poți să-ți publici notițele online, să le accesezi offline și să le sincronizezi în siguranță cu criptare end-to-end.",
+      "title": "Obsidian (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverombi",
-      "title": "Ombi (LinuxServer.io)",
-      "tagline": "Îți permite să găzduiești propriul sistem Plex Request și de gestionare a utilizatorilor. Dacă partajezi serverul Plex cu alți utilizatori, permite-le să solicite conținut nou folosind o interfață ușor de gestionat. Gestionează cu ușurință toate solicitările pentru filme și emisiuni TV, lasă note pentru utilizator și primește notificări atunci când un utilizator solicită ceva. Permite utilizatorilor tăi să posteze probleme legate de solicitările lor, astfel încât să știi că există o problemă cu sunetul etc. Le poți chiar trimite automat newslettere săptămânale cu conținut nou adăugat pe serverul tău Plex."
+      "tagline": "Îți permite să găzduiești propriul sistem Plex Request și de gestionare a utilizatorilor. Dacă partajezi serverul Plex cu alți utilizatori, permite-le să solicite conținut nou folosind o interfață ușor de gestionat. Gestionează cu ușurință toate solicitările pentru filme și emisiuni TV, lasă note pentru utilizator și primește notificări atunci când un utilizator solicită ceva. Permite utilizatorilor tăi să posteze probleme legate de solicitările lor, astfel încât să știi că există o problemă cu sunetul etc. Le poți chiar trimite automat newslettere săptămânale cu conținut nou adăugat pe serverul tău Plex.",
+      "title": "Ombi (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveronlyoffice",
-      "title": "Onlyoffice (LinuxServer.io)",
-      "tagline": "Oferă o gamă completă de instrumente pentru crearea, editarea și colaborarea la documente text, foi de calcul, prezentări, formulare PDF și fișiere PDF obișnuite pe platforme web, desktop și mobile."
+      "tagline": "Oferă o gamă completă de instrumente pentru crearea, editarea și colaborarea la documente text, foi de calcul, prezentări, formulare PDF și fișiere PDF obișnuite pe platforme web, desktop și mobile.",
+      "title": "Onlyoffice (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropenshot",
-      "title": "Openshot (LinuxServer.io)",
-      "tagline": "Video Editor este un editor video gratuit și open-source premiat pentru Linux, Mac și Windows, dedicat furnizării de soluții de editare video și animație de înaltă calitate în întreaga lume."
+      "tagline": "Video Editor este un editor video gratuit și open-source premiat pentru Linux, Mac și Windows, dedicat furnizării de soluții de editare video și animație de înaltă calitate în întreaga lume.",
+      "title": "Openshot (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropensshserver",
-      "title": "Openssh server (LinuxServer.io)",
-      "tagline": "Un mediu sandbox care permite accesul SSH fără a oferi chei către întregul server. Acordarea accesului SSH prin cheie privată înseamnă adesea acordarea accesului complet la server. Acest container creează un mediu limitat și sandbox în care alții se pot conecta prin SSH. Utilizatorii au acces doar la folderele mapate și la procesele care rulează în interiorul acestui container."
+      "tagline": "Un mediu sandbox care permite accesul SSH fără a oferi chei către întregul server. Acordarea accesului SSH prin cheie privată înseamnă adesea acordarea accesului complet la server. Acest container creează un mediu limitat și sandbox în care alții se pot conecta prin SSH. Utilizatorii au acces doar la folderele mapate și la procesele care rulează în interiorul acestui container.",
+      "title": "Openssh server (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropenvscodeserver",
-      "title": "Openvscode server",
-      "tagline": "Oferă o versiune de VS Code care rulează un server pe o mașină la distanță și permite accesul printr-un browser web modern."
+      "tagline": "Oferă o versiune de VS Code care rulează un server pe o mașină la distanță și permite accesul printr-un browser web modern.",
+      "title": "Openvscode server"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveropera",
-      "title": "Opera (LinuxServer.io)",
-      "tagline": "Un browser web multiplatformă dezvoltat de compania omonimă, Opera. Browserul este bazat pe Chromium, dar se distinge de alte browsere bazate pe Chromium (Chrome, Edge etc.) prin interfața sa cu utilizatorul și alte caracteristici."
+      "tagline": "Un browser web multiplatformă dezvoltat de compania omonimă, Opera. Browserul este bazat pe Chromium, dar se distinge de alte browsere bazate pe Chromium (Chrome, Edge etc.) prin interfața sa cu utilizatorul și alte caracteristici.",
+      "title": "Opera (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverorcaslicer",
-      "title": "Orcaslicer (LinuxServer.io)",
-      "tagline": "Un slicer open source pentru imprimante FDM. OrcaSlicer este o ramură a Bambu Studio, cunoscut anterior ca BambuStudio-SoftFever, Bambu Studio este o ramură a PrusaSlicer de către Prusa Research, care este de la Slic3r de către Alessandro Ranellucci și comunitatea RepRap."
+      "tagline": "Un slicer open source pentru imprimante FDM. OrcaSlicer este o ramură a Bambu Studio, cunoscut anterior ca BambuStudio-SoftFever, Bambu Studio este o ramură a PrusaSlicer de către Prusa Research, care este de la Slic3r de către Alessandro Ranellucci și comunitatea RepRap.",
+      "title": "Orcaslicer (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveroscam",
-      "title": "Oscam (LinuxServer.io)",
-      "tagline": "Un software Open Source Conditional Access Module folosit pentru decriptarea transmisiilor DVB folosind carduri inteligente. Este atât server, cât și client."
+      "tagline": "Un software Open Source Conditional Access Module folosit pentru decriptarea transmisiilor DVB folosind carduri inteligente. Este atât server, cât și client.",
+      "title": "Oscam (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveroverseerr",
-      "title": "Overseerr",
-      "tagline": "Un instrument de gestionare a solicitărilor și de descoperire a conținutului media, conceput pentru a funcționa cu ecosistemul Plex existent."
+      "tagline": "Un instrument de gestionare a solicitărilor și de descoperire a conținutului media, conceput pentru a funcționa cu ecosistemul Plex existent.",
+      "title": "Overseerr"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpairdrop",
-      "title": "Pairdrop (LinuxServer.io)",
-      "tagline": "O alternativă excelentă la AirDrop, care funcționează pe toate platformele. Trimiteți imagini, documente sau text prin conexiune peer-to-peer către dispozitive din aceeași rețea locală/Wi-Fi sau către dispozitive asociate."
+      "tagline": "O alternativă excelentă la AirDrop, care funcționează pe toate platformele. Trimiteți imagini, documente sau text prin conexiune peer-to-peer către dispozitive din aceeași rețea locală/Wi-Fi sau către dispozitive asociate.",
+      "title": "Pairdrop (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpcsx2",
-      "title": "Pcsx2 (LinuxServer.io)",
-      "tagline": "Un emulator PS2 open source."
+      "tagline": "Un emulator PS2 open source.",
+      "title": "Pcsx2 (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpelorus",
-      "title": "Pelorus (LinuxServer.io)",
-      "tagline": "Un navigator AI pentru desktop-uri Linux bazate pe Selkies. Pelorus rulează un server FastAPI care oferă unui agent LLM (Ollama, compatibil cu OpenAI sau Gemini) control asupra mouse-ului, tastaturii, capturilor de ecran și gestionării ferestrelor prin intermediul backend-ului de utilizare a computerului Pixelflux, un arbore de accesibilitate Linux (AT-SPI) și integrarea opțională KWin D-Bus."
+      "tagline": "Un navigator AI pentru desktop-uri Linux bazate pe Selkies. Pelorus rulează un server FastAPI care oferă unui agent LLM (Ollama, compatibil cu OpenAI sau Gemini) control asupra mouse-ului, tastaturii, capturilor de ecran și gestionării ferestrelor prin intermediul backend-ului de utilizare a computerului Pixelflux, un arbore de accesibilitate Linux (AT-SPI) și integrarea opțională KWin D-Bus.",
+      "title": "Pelorus (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverphpmyadmin",
-      "title": "Phpmyadmin (LinuxServer.io)",
-      "tagline": "Un instrument software gratuit scris în PHP, destinat administrării MySQL pe Web. PhpMyAdmin suportă o gamă largă de operațiuni pe MySQL și MariaDB."
+      "tagline": "Un instrument software gratuit scris în PHP, destinat administrării MySQL pe Web. PhpMyAdmin suportă o gamă largă de operațiuni pe MySQL și MariaDB.",
+      "title": "Phpmyadmin (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpidgin",
-      "title": "Pidgin (LinuxServer.io)",
-      "tagline": "Un program de chat care vă permite să vă conectați simultan la conturi de pe mai multe rețele de chat. Aceasta înseamnă că puteți discuta cu prietenii pe XMPP și să fiți pe un canal IRC în același timp."
+      "tagline": "Un program de chat care vă permite să vă conectați simultan la conturi de pe mai multe rețele de chat. Aceasta înseamnă că puteți discuta cu prietenii pe XMPP și să fiți pe un canal IRC în același timp.",
+      "title": "Pidgin (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpiper",
-      "title": "Piper (LinuxServer.io)",
-      "tagline": "Un sistem text-vorbire neuronal local, rapid, care sună excelent și este optimizat pentru Raspberry Pi 4. Acest container oferă un server de protocol Wyoming pentru Piper."
+      "tagline": "Un sistem text-vorbire neuronal local, rapid, care sună excelent și este optimizat pentru Raspberry Pi 4. Acest container oferă un server de protocol Wyoming pentru Piper.",
+      "title": "Piper (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpiwigo",
-      "title": "Piwigo (LinuxServer.io)",
-      "tagline": "Un software de galerie foto pentru web, dotat cu funcții puternice pentru publicarea și gestionarea colecției tale de imagini."
+      "tagline": "Un software de galerie foto pentru web, dotat cu funcții puternice pentru publicarea și gestionarea colecției tale de imagini.",
+      "title": "Piwigo (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverplanka",
-      "title": "Planka (LinuxServer.io)",
-      "tagline": "Un instrument elegant de urmărire a proiectelor open source."
+      "tagline": "Un instrument elegant de urmărire a proiectelor open source.",
+      "title": "Planka (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverplex",
-      "title": "Plex (LinuxServer.io)",
-      "tagline": "Organizează videoclipuri, muzică și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server Plex Media independent. Designul simplu și acțiunile în bloc înseamnă că lucrurile se finalizează mai rapid."
+      "tagline": "Organizează videoclipuri, muzică și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server Plex Media independent. Designul simplu și acțiunile în bloc înseamnă că lucrurile se finalizează mai rapid.",
+      "title": "Plex (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverplexmetamanager",
-      "title": "Plex meta-manager",
-      "tagline": "Un script Python 3 care poate fi rulat continuu folosind fișiere de configurare YAML pentru a actualiza programat metadatele filmelor, emisiunilor și colecțiilor din bibliotecile dvs., precum și pentru a construi automat colecții bazate pe diverse metode detaliate în wiki."
+      "tagline": "Un script Python 3 care poate fi rulat continuu folosind fișiere de configurare YAML pentru a actualiza programat metadatele filmelor, emisiunilor și colecțiilor din bibliotecile dvs., precum și pentru a construi automat colecții bazate pe diverse metode detaliate în wiki.",
+      "title": "Plex meta-manager"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverppsspp",
-      "title": "Ppsspp (LinuxServer.io)",
-      "tagline": "Un emulator PSP gratuit și open-source pentru Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series și Symbian, cu accent pe viteză și portabilitate."
+      "tagline": "Un emulator PSP gratuit și open-source pentru Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series și Symbian, cu accent pe viteză și portabilitate.",
+      "title": "Ppsspp (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverprojectsend",
-      "title": "Projectsend (LinuxServer.io)",
-      "tagline": "O aplicație auto-găzduită care vă permite să încărcați fișiere și să le atribuiți clienților specifici pe care îi creați singuri. Sigură, privată și ușoară. Nu mai trebuie să depindeți de servicii externe sau de e-mail pentru a trimite acele fișiere."
+      "tagline": "O aplicație auto-găzduită care vă permite să încărcați fișiere și să le atribuiți clienților specifici pe care îi creați singuri. Sigură, privată și ușoară. Nu mai trebuie să depindeți de servicii externe sau de e-mail pentru a trimite acele fișiere.",
+      "title": "Projectsend (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverprowlarr",
-      "title": "Prowlarr (LinuxServer.io)",
-      "tagline": "Un manager/proxy de indexare construit pe popularul stack de bază arr.Net/reactjs pentru a se integra cu diversele aplicații PVR. Prowlarr acceptă atât Torrent Trackers, cât și indexoare Usenet. Se integrează perfect cu Sonarr, Radarr, Lidarr și Readarr, oferind o gestionare completă a indexoarelor, fără a fi necesară configurarea indexoarelor pentru fiecare aplicație (noi ne ocupăm de toate)."
+      "tagline": "Un manager/proxy de indexare construit pe popularul stack de bază arr.Net/reactjs pentru a se integra cu diversele aplicații PVR. Prowlarr acceptă atât Torrent Trackers, cât și indexoare Usenet. Se integrează perfect cu Sonarr, Radarr, Lidarr și Readarr, oferind o gestionare completă a indexoarelor, fără a fi necesară configurarea indexoarelor pentru fiecare aplicație (noi ne ocupăm de toate).",
+      "title": "Prowlarr (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpwndrop",
-      "title": "Pwndrop (LinuxServer.io)",
-      "tagline": "Un serviciu de găzduire de fișiere auto-implementabil pentru trimiterea de sarcini de tip red teaming sau partajarea în siguranță a fișierelor private prin HTTP și WebDAV."
+      "tagline": "Un serviciu de găzduire de fișiere auto-implementabil pentru trimiterea de sarcini de tip red teaming sau partajarea în siguranță a fișierelor private prin HTTP și WebDAV.",
+      "title": "Pwndrop (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpycharm",
-      "title": "Pycharm (LinuxServer.io)",
-      "tagline": "Oferă suport predefinit pentru Python, baze de date, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI și multe altele."
+      "tagline": "Oferă suport predefinit pentru Python, baze de date, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI și multe altele.",
+      "title": "Pycharm (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpydiocells",
-      "title": "Pydio cells (LinuxServer.io)",
-      "tagline": "Platforma de partajare a fișierelor de generație următoare pentru organizații. Este o rescriere completă a proiectului Pydio folosind limbajul Go, urmând o arhitectură de microservicii."
+      "tagline": "Platforma de partajare a fișierelor de generație următoare pentru organizații. Este o rescriere completă a proiectului Pydio folosind limbajul Go, urmând o arhitectură de microservicii.",
+      "title": "Pydio cells (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpyloadng",
-      "title": "Pyload ng (LinuxServer.io)",
-      "tagline": "Un manager de descărcări gratuit și open source, scris în Python și conceput pentru a fi extrem de ușor, ușor extensibil și complet gestionabil prin web."
+      "tagline": "Un manager de descărcări gratuit și open source, scris în Python și conceput pentru a fi extrem de ușor, ușor extensibil și complet gestionabil prin web.",
+      "title": "Pyload ng (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpylon",
-      "title": "Pylon",
-      "tagline": "Un mediu de dezvoltare integrat bazat pe web, construit cu Node.Js ca backend și cu un frontend JavaScript/HTML5 supraalimentat, licențiat sub GPL versiunea 3. Acest proiect își are originea în proiectul Cloud9 v2."
+      "tagline": "Un mediu de dezvoltare integrat bazat pe web, construit cu Node.Js ca backend și cu un frontend JavaScript/HTML5 supraalimentat, licențiat sub GPL versiunea 3. Acest proiect își are originea în proiectul Cloud9 v2.",
+      "title": "Pylon"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverpython",
-      "title": "Python",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/python pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/python pentru detalii.",
+      "title": "Python"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverqbittorrent",
-      "title": "Qbittorrent (LinuxServer.io)",
-      "tagline": "Qbittorrent este un client bittorrent programat în C++ / Qt care folosește libtorrent (uneori numit libtorrent-rasterbar) de Arvid Norberg."
+      "tagline": "Qbittorrent este un client bittorrent programat în C++ / Qt care folosește libtorrent (uneori numit libtorrent-rasterbar) de Arvid Norberg.",
+      "title": "Qbittorrent (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverqdirstat",
-      "title": "Qdirstat (LinuxServer.io)",
-      "tagline": "Statistici ale directoarelor bazate pe Qt: KDirStat fără KDE -- de la autorul KDirStat-ului original."
+      "tagline": "Statistici ale directoarelor bazate pe Qt: KDirStat fără KDE -- de la autorul KDirStat-ului original.",
+      "title": "Qdirstat (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverqemustatic",
-      "title": "Qemu static (LinuxServer.io)",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/qemu-static pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/qemu-static pentru detalii.",
+      "title": "Qemu static (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverquasselcore",
-      "title": "Quassel core",
-      "tagline": "Un client IRC modern, multiplatformă, distribuit, ceea ce înseamnă că unul (sau mai mulți) clienți se pot conecta și detașa de un nucleu central. Acest container gestionează conexiunea IRC (quasselcore) și necesită utilizarea și configurarea unui client desktop (quasselclient). Este conceput să fie mereu activ și vă va păstra identitatea prezentă în IRC chiar și atunci când clienții dvs. nu pot fi online. Istoricul mesajelor restante este descărcat de clientul dvs. la reconectare, permițând derulare înapoi în timp la nesfârșit."
+      "tagline": "Un client IRC modern, multiplatformă, distribuit, ceea ce înseamnă că unul (sau mai mulți) clienți se pot conecta și detașa de un nucleu central. Acest container gestionează conexiunea IRC (quasselcore) și necesită utilizarea și configurarea unui client desktop (quasselclient). Este conceput să fie mereu activ și vă va păstra identitatea prezentă în IRC chiar și atunci când clienții dvs. nu pot fi online. Istoricul mesajelor restante este descărcat de clientul dvs. la reconectare, permițând derulare înapoi în timp la nesfârșit.",
+      "title": "Quassel core"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverquasselweb",
-      "title": "Quassel web",
-      "tagline": "Un client web pentru Quassel. Rețineți că este necesară o instanță Quassel-Core, avem un container disponibil aici."
+      "tagline": "Un client web pentru Quassel. Rețineți că este necesară o instanță Quassel-Core, avem un container disponibil aici.",
+      "title": "Quassel web"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverradarr",
-      "title": "Radarr (LinuxServer.io)",
-      "tagline": "O ramură a Sonarr pentru a lucra cu filme à la Couchpotato."
+      "tagline": "O ramură a Sonarr pentru a lucra cu filme à la Couchpotato.",
+      "title": "Radarr (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverraneto",
-      "title": "Raneto (LinuxServer.io)",
-      "tagline": "este o platformă open source pentru baza de cunoștințe care folosește fișiere Markdown statice pentru a alimenta baza de cunoștințe."
+      "tagline": "este o platformă open source pentru baza de cunoștințe care folosește fișiere Markdown statice pentru a alimenta baza de cunoștințe.",
+      "title": "Raneto (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrawtherapee",
-      "title": "Rawtherapee (LinuxServer.io)",
-      "tagline": "Un program gratuit și multiplatformă de procesare a imaginilor RAW."
+      "tagline": "Un program gratuit și multiplatformă de procesare a imaginilor RAW.",
+      "title": "Rawtherapee (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrdesktop",
-      "title": "Rdesktop",
-      "tagline": "Containere care conțin medii desktop complete în multe variante populare pentru Alpine, Ubuntu, Arch și Fedora, accesibile prin RDP."
+      "tagline": "Containere care conțin medii desktop complete în multe variante populare pentru Alpine, Ubuntu, Arch și Fedora, accesibile prin RDP.",
+      "title": "Rdesktop"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverreadmesync",
-      "title": "Readme sync",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/readme-sync pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/readme-sync pentru detalii.",
+      "title": "Readme sync"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverremmina",
-      "title": "Remmina (LinuxServer.io)",
-      "tagline": "Un client desktop la distanță scris în GTK, destinat administratorilor de sistem și călătorilor, care trebuie să lucreze cu numeroase computere la distanță, în fața unor ecrane mari sau mici. Remmina acceptă mai multe protocoale de rețea, într-o interfață utilizator integrată și consistentă. În prezent, sunt suportate RDP, VNC, SPICE, SSH și EXEC."
+      "tagline": "Un client desktop la distanță scris în GTK, destinat administratorilor de sistem și călătorilor, care trebuie să lucreze cu numeroase computere la distanță, în fața unor ecrane mari sau mici. Remmina acceptă mai multe protocoale de rețea, într-o interfață utilizator integrată și consistentă. În prezent, sunt suportate RDP, VNC, SPICE, SSH și EXEC.",
+      "title": "Remmina (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrequestrr",
-      "title": "Requestrr",
-      "tagline": "Un chatbot folosit pentru a simplifica utilizarea serviciilor precum Sonarr/Radarr/Ombi prin intermediul chat-ului."
+      "tagline": "Un chatbot folosit pentru a simplifica utilizarea serviciilor precum Sonarr/Radarr/Ombi prin intermediul chat-ului.",
+      "title": "Requestrr"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverresiliosync",
-      "title": "Resilio sync (LinuxServer.io)",
-      "tagline": "(anterior BitTorrent Sync) folosește protocolul BitTorrent pentru a sincroniza fișiere și foldere între toate dispozitivele tale. Există atât versiuni gratuite, cât și versiuni plătite, iar acest container le acceptă pe ambele. Există o imagine oficială de sincronizare, dar am creat-o pe aceasta deoarece acceptă maparea utilizatorilor pentru a simplifica permisiunile pentru volume."
+      "tagline": "(anterior BitTorrent Sync) folosește protocolul BitTorrent pentru a sincroniza fișiere și foldere între toate dispozitivele tale. Există atât versiuni gratuite, cât și versiuni plătite, iar acest container le acceptă pe ambele. Există o imagine oficială de sincronizare, dar am creat-o pe aceasta deoarece acceptă maparea utilizatorilor pentru a simplifica permisiunile pentru volume.",
+      "title": "Resilio sync (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverretroarch",
-      "title": "Retroarch (LinuxServer.io)",
-      "tagline": "Un frontend pentru emulatoare, motoare de jocuri și playere media. Îți permite să rulezi jocuri clasice pe o gamă largă de computere și console prin intermediul interfeței sale grafice elegante."
+      "tagline": "Un frontend pentru emulatoare, motoare de jocuri și playere media. Îți permite să rulezi jocuri clasice pe o gamă largă de computere și console prin intermediul interfeței sale grafice elegante.",
+      "title": "Retroarch (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrpcs3",
-      "title": "Rpcs3 (LinuxServer.io)",
-      "tagline": "Un emulator și depanator open-source multi-platformă pentru Sony PlayStation 3, scris în C++ pentru Windows, Linux, macOS și FreeBSD."
+      "tagline": "Un emulator și depanator open-source multi-platformă pentru Sony PlayStation 3, scris în C++ pentru Windows, Linux, macOS și FreeBSD.",
+      "title": "Rpcs3 (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
-      "title": "Rsnapshot (LinuxServer.io)",
-      "tagline": "Un utilitar de instantanee pentru sistemul de fișiere bazat pe rsync. Rsnapshot facilitează crearea periodică de instantanee ale mașinilor locale și ale mașinilor la distanță prin ssh. Codul utilizează extensiv legăturile fizice ori de câte ori este posibil, pentru a reduce considerabil spațiul pe disc necesar."
+      "tagline": "Un utilitar de instantanee pentru sistemul de fișiere bazat pe rsync. Rsnapshot facilitează crearea periodică de instantanee ale mașinilor locale și ale mașinilor la distanță prin ssh. Codul utilizează extensiv legăturile fizice ori de câte ori este posibil, pentru a reduce considerabil spațiul pe disc necesar.",
+      "title": "Rsnapshot (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverrustdesk",
-      "title": "Rustdesk (LinuxServer.io)",
-      "tagline": "O alternativă completă de control de la distanță open source pentru auto-găzduire și securitate cu configurare minimă."
+      "tagline": "O alternativă completă de control de la distanță open source pentru auto-găzduire și securitate cu configurare minimă.",
+      "title": "Rustdesk (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversabnzbd",
-      "title": "Sabnzbd (LinuxServer.io)",
-      "tagline": "Simplifică și eficientizează Usenet cât mai mult posibil prin automatizarea a tot ceea ce putem face. Tot ce trebuie să faceți este să adăugați un fișier .Nzb. SABnzbd preia controlul de acolo, unde va fi descărcat automat, verificat, reparat, extras și arhivat fără nicio interacțiune umană."
+      "tagline": "Simplifică și eficientizează Usenet cât mai mult posibil prin automatizarea a tot ceea ce putem face. Tot ce trebuie să faceți este să adăugați un fișier .Nzb. SABnzbd preia controlul de acolo, unde va fi descărcat automat, verificat, reparat, extras și arhivat fără nicio interacțiune umană.",
+      "title": "Sabnzbd (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverscummvm",
-      "title": "Scummvm (LinuxServer.io)",
-      "tagline": "Un program care îți permite să rulezi anumite jocuri clasice de aventură grafică și jocuri de rol, cu condiția să ai deja fișierele lor de date. Partea ingenioasă este că ScummVM pur și simplu înlocuiește executabilele livrate împreună cu jocurile, permițându-ți să le joci pe sisteme pentru care nu au fost niciodată proiectate. ScummVM este o rescriere completă a executabilelor acestor jocuri și nu este un emulator."
+      "tagline": "Un program care îți permite să rulezi anumite jocuri clasice de aventură grafică și jocuri de rol, cu condiția să ai deja fișierele lor de date. Partea ingenioasă este că ScummVM pur și simplu înlocuiește executabilele livrate împreună cu jocurile, permițându-ți să le joci pe sisteme pentru care nu au fost niciodată proiectate. ScummVM este o rescriere completă a executabilelor acestor jocuri și nu este un emulator.",
+      "title": "Scummvm (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversealskin",
-      "title": "Sealskin (LinuxServer.io)",
-      "tagline": "O platformă client-server auto-găzduită, care permite utilizatorilor să ruleze aplicații desktop puternice, containerizate, transmise direct către un browser web. Folosește o extensie de browser pentru a intercepta acțiunile utilizatorilor, cum ar fi clicul pe un link sau descărcarea unui fișier, și îi redirecționează către un mediu de aplicații securizat și izolat care rulează pe un server la distanță."
+      "tagline": "O platformă client-server auto-găzduită, care permite utilizatorilor să ruleze aplicații desktop puternice, containerizate, transmise direct către un browser web. Folosește o extensie de browser pentru a intercepta acțiunile utilizatorilor, cum ar fi clicul pe un link sau descărcarea unui fișier, și îi redirecționează către un mediu de aplicații securizat și izolat care rulează pe un server la distanță.",
+      "title": "Sealskin (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverseriestroxide",
-      "title": "Series troxide",
-      "tagline": "Un tracker de serii simplu și modern"
+      "tagline": "Un tracker de serii simplu și modern",
+      "title": "Series troxide"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservershadps4",
-      "title": "Shadps4 (LinuxServer.io)",
-      "tagline": "Un emulator PlayStation 4 timpuriu pentru Windows, Linux și macOS scris în C++."
+      "tagline": "Un emulator PlayStation 4 timpuriu pentru Windows, Linux și macOS scris în C++.",
+      "title": "Shadps4 (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservershotcut",
-      "title": "Shotcut (LinuxServer.io)",
-      "tagline": "Un editor video gratuit, open source și multiplatformă."
+      "tagline": "Un editor video gratuit, open source și multiplatformă.",
+      "title": "Shotcut (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversickchill",
-      "title": "Sickchill",
-      "tagline": "Un manager automat de bibliotecă video pentru emisiuni TV. Caută episoade noi din emisiunile tale preferate și, odată ce sunt postate, își face magia."
+      "tagline": "Un manager automat de bibliotecă video pentru emisiuni TV. Caută episoade noi din emisiunile tale preferate și, odată ce sunt postate, își face magia.",
+      "title": "Sickchill"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversickgear",
-      "title": "Sickgear (LinuxServer.io)",
-      "tagline": "Oferă gestionarea emisiunilor TV și/sau a anime-urilor, detectează episoade noi, oferă linkuri către aplicații de descărcare și multe altele. Pentru mai multe informații despre SickGear, vizitați site-ul lor web: https://github.com/SickGear/SickGear"
+      "tagline": "Oferă gestionarea emisiunilor TV și/sau a anime-urilor, detectează episoade noi, oferă linkuri către aplicații de descărcare și multe altele. Pentru mai multe informații despre SickGear, vizitați site-ul lor web: https://github.com/SickGear/SickGear",
+      "title": "Sickgear (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversignal",
-      "title": "Signal (LinuxServer.io)",
-      "tagline": "O aplicație de mesagerie care pune accentul pe confidențialitate. Este gratuită și ușor de utilizat, cu criptare end-to-end puternică, care îți păstrează comunicarea complet privată."
+      "tagline": "O aplicație de mesagerie care pune accentul pe confidențialitate. Este gratuită și ușor de utilizat, cu criptare end-to-end puternică, care îți păstrează comunicarea complet privată.",
+      "title": "Signal (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversmokeping",
-      "title": "Smokeping (LinuxServer.io)",
-      "tagline": "Urmărește latența rețelei tale. Pentru un exemplu complet al capabilităților acestei aplicații, vizitează UCDavis."
+      "tagline": "Urmărește latența rețelei tale. Pentru un exemplu complet al capabilităților acestei aplicații, vizitează UCDavis.",
+      "title": "Smokeping (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversnapdrop",
-      "title": "Snapdrop",
-      "tagline": "O partajare locală de fișiere în browser. Inspirat de Airdrop de la Apple."
+      "tagline": "O partajare locală de fișiere în browser. Inspirat de Airdrop de la Apple.",
+      "title": "Snapdrop"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversnipeit",
-      "title": "Snipe it",
-      "tagline": "Simplifică gestionarea activelor. A fost creat de oameni care rezolvă probleme IT și de gestionare a activelor din lumea reală, iar o experiență de utilizare solidă a fost întotdeauna o prioritate absolută. Designul simplu și acțiunile în bloc înseamnă că lucrurile se finalizează mai rapid."
+      "tagline": "Simplifică gestionarea activelor. A fost creat de oameni care rezolvă probleme IT și de gestionare a activelor din lumea reală, iar o experiență de utilizare solidă a fost întotdeauna o prioritate absolută. Designul simplu și acțiunile în bloc înseamnă că lucrurile se finalizează mai rapid.",
+      "title": "Snipe it"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversocketproxy",
-      "title": "Socket proxy (LinuxServer.io)",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/socket-proxy pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/socket-proxy pentru detalii.",
+      "title": "Socket proxy (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversonarr",
-      "title": "Sonarr (LinuxServer.io)",
-      "tagline": "(fostul NZBdrone) este un PVR pentru utilizatorii de Usenet și BitTorrent. Poate monitoriza mai multe fluxuri RSS pentru episoade noi din emisiunile dvs. preferate și le va prelua, sorta și redenumi. De asemenea, poate fi configurat să îmbunătățească automat calitatea fișierelor deja descărcate atunci când devine disponibil un format de calitate mai bună."
+      "tagline": "(fostul NZBdrone) este un PVR pentru utilizatorii de Usenet și BitTorrent. Poate monitoriza mai multe fluxuri RSS pentru episoade noi din emisiunile dvs. preferate și le va prelua, sorta și redenumi. De asemenea, poate fi configurat să îmbunătățească automat calitatea fișierelor deja descărcate atunci când devine disponibil un format de calitate mai bună.",
+      "title": "Sonarr (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverspeedtesttracker",
-      "title": "Speedtest tracker (LinuxServer.io)",
-      "tagline": "O aplicație de urmărire a performanței conexiunii la internet, găzduită în regim de auto-găzduire, care execută verificări de viteză prin intermediul serviciului Speedtest de la Ookla."
+      "tagline": "O aplicație de urmărire a performanței conexiunii la internet, găzduită în regim de auto-găzduire, care execută verificări de viteză prin intermediul serviciului Speedtest de la Ookla.",
+      "title": "Speedtest tracker (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverspotube",
-      "title": "Spotube (LinuxServer.io)",
-      "tagline": "Un client Spotify open source, multiplatformă, compatibil pe mai multe platforme, utilizând API-ul de date Spotify și YouTube, Piped Video sau JioSaavn ca sursă audio, eliminând necesitatea Spotify Premium."
+      "tagline": "Un client Spotify open source, multiplatformă, compatibil pe mai multe platforme, utilizând API-ul de date Spotify și YouTube, Piped Video sau JioSaavn ca sursă audio, eliminând necesitatea Spotify Premium.",
+      "title": "Spotube (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversqlitebrowser",
-      "title": "Sqlitebrowser (LinuxServer.io)",
-      "tagline": "Un instrument vizual, open source, de înaltă calitate, pentru crearea, proiectarea și editarea fișierelor de baze de date compatibile cu SQLite."
+      "tagline": "Un instrument vizual, open source, de înaltă calitate, pentru crearea, proiectarea și editarea fișierelor de baze de date compatibile cu SQLite.",
+      "title": "Sqlitebrowser (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversteam",
-      "title": "Steam (LinuxServer.io)",
-      "tagline": "Destinația supremă pentru a te juca, a discuta și a crea jocuri."
+      "tagline": "Destinația supremă pentru a te juca, a discuta și a crea jocuri.",
+      "title": "Steam (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversteamos",
-      "title": "Steamos",
-      "tagline": "O distribuție Linux bazată pe Arch, creată de Valve Software. Acest container este o instalare Arch standard cu repozitorii Steam adăugate pentru suport software. Acest container va funcționa doar cu GPU-uri AMD/Intel moderne pe o gazdă Linux reală."
+      "tagline": "O distribuție Linux bazată pe Arch, creată de Valve Software. Acest container este o instalare Arch standard cu repozitorii Steam adăugate pentru suport software. Acest container va funcționa doar cu GPU-uri AMD/Intel moderne pe o gazdă Linux reală.",
+      "title": "Steamos"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverswag",
-      "title": "Swag (LinuxServer.io)",
-      "tagline": "SWAG - Secure Web Application Gateway (cunoscut anterior ca letsencrypt, fără legătură cu Let's Encrypt™) configurează un server web Nginx și un proxy invers cu suport PHP și un client certbot încorporat care automatizează procesele gratuite de generare și reînnoire a certificatelor de server SSL (Let's Encrypt și ZeroSSL). De asemenea, conține fail2ban pentru prevenirea intruziunilor."
+      "tagline": "SWAG - Secure Web Application Gateway (cunoscut anterior ca letsencrypt, fără legătură cu Let's Encrypt™) configurează un server web Nginx și un proxy invers cu suport PHP și un client certbot încorporat care automatizează procesele gratuite de generare și reînnoire a certificatelor de server SSL (Let's Encrypt și ZeroSSL). De asemenea, conține fail2ban pentru prevenirea intruziunilor.",
+      "title": "Swag (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversynclounge",
-      "title": "Synclounge (LinuxServer.io)",
-      "tagline": "Un instrument terț care vă permite să vizionați Plex în sincronizare cu prietenii/familia, oriunde v-ați afla."
+      "tagline": "Un instrument terț care vă permite să vizionați Plex în sincronizare cu prietenii/familia, oriunde v-ați afla.",
+      "title": "Synclounge (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversyncthing",
-      "title": "Syncthing (LinuxServer.io)",
-      "tagline": "Înlocuiește sincronizarea proprietară și serviciile cloud cu ceva deschis, de încredere și descentralizat. Datele tale sunt doar ale tale și meriți să alegi unde sunt stocate, dacă sunt partajate cu o terță parte și cum sunt transmise prin internet."
+      "tagline": "Înlocuiește sincronizarea proprietară și serviciile cloud cu ceva deschis, de încredere și descentralizat. Datele tale sunt doar ale tale și meriți să alegi unde sunt stocate, dacă sunt partajate cu o terță parte și cum sunt transmise prin internet.",
+      "title": "Syncthing (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserversyslogng",
-      "title": "Syslog ng (LinuxServer.io)",
-      "tagline": "Vă permite să colectați, să analizați, să clasificați, să rescrieți și să corelați în mod flexibil jurnalele din întreaga infrastructură și să le stocați sau să le direcționați către instrumente de analiză a jurnalelor."
+      "tagline": "Vă permite să colectați, să analizați, să clasificați, să rescrieți și să corelați în mod flexibil jurnalele din întreaga infrastructură și să le stocați sau să le direcționați către instrumente de analiză a jurnalelor.",
+      "title": "Syslog ng (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertautulli",
-      "title": "Tautulli (LinuxServer.io)",
-      "tagline": "O aplicație web bazată pe Python pentru monitorizare, analiză și notificări pentru Plex Media Server."
+      "tagline": "O aplicație web bazată pe Python pentru monitorizare, analiză și notificări pentru Plex Media Server.",
+      "title": "Tautulli (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertelegram",
-      "title": "Telegram (LinuxServer.io)",
-      "tagline": "O aplicație de mesagerie mobilă și desktop bazată pe cloud."
+      "tagline": "O aplicație de mesagerie mobilă și desktop bazată pe cloud.",
+      "title": "Telegram (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertester",
-      "title": "Tester",
-      "tagline": "Acest instrument intern este folosit ca un sandbox pe desktop în procesul nostru de integrare continuă pentru a face o captură de ecran a unui endpoint, sperăm, funcțional."
+      "tagline": "Acest instrument intern este folosit ca un sandbox pe desktop în procesul nostru de integrare continuă pentru a face o captură de ecran a unui endpoint, sperăm, funcțional.",
+      "title": "Tester"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverthelounge",
-      "title": "Thelounge (LinuxServer.io)",
-      "tagline": "(o bifurcație a shoutIRC) este un client IRC web pe care îl găzduiești pe propriul server."
+      "tagline": "(o bifurcație a shoutIRC) este un client IRC web pe care îl găzduiești pe propriul server.",
+      "title": "Thelounge (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverthunderbird",
-      "title": "Thunderbird (LinuxServer.io)",
-      "tagline": "Un manager de informații personale gratuit și open-source, utilizat în principal ca client de e-mail cu calendar și agendă, precum și ca cititor de fluxuri RSS, client de chat și client de știri."
+      "tagline": "Un manager de informații personale gratuit și open-source, utilizat în principal ca client de e-mail cu calendar și agendă, precum și ca cititor de fluxuri RSS, client de chat și client de știri.",
+      "title": "Thunderbird (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertransmission",
-      "title": "Transmission (LinuxServer.io)",
-      "tagline": "Conceput pentru o utilizare ușoară și puternică. Transmission are funcțiile pe care le doriți de la un client BitTorrent: criptare, interfață web, schimb de date peer-exchange, legături magnet, DHT, µTP, redirecționare de port UPnP și NAT-PMP, suport webseed, directoare de supraveghere, editare tracker, limite de viteză globale și per torrent și multe altele."
+      "tagline": "Conceput pentru o utilizare ușoară și puternică. Transmission are funcțiile pe care le doriți de la un client BitTorrent: criptare, interfață web, schimb de date peer-exchange, legături magnet, DHT, µTP, redirecționare de port UPnP și NAT-PMP, suport webseed, directoare de supraveghere, editare tracker, limite de viteză globale și per torrent și multe altele.",
+      "title": "Transmission (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservertvheadend",
-      "title": "Tvheadend (LinuxServer.io)",
-      "tagline": "Funcționează ca server proxy: este un server de streaming TV și un înregistrator pentru Linux, FreeBSD și Android, suportând DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP și HDHomeRun ca surse de intrare. Tvheadend oferă streaming HTTP (VLC, MPlayer), HTSP (Kodi, Movian) și SAT>IP. Sunt acceptate mai multe surse EPG (DVB over-the-air și ATSC, inclusiv extensii OpenTV DVB, XMLTV, PyXML)."
+      "tagline": "Funcționează ca server proxy: este un server de streaming TV și un înregistrator pentru Linux, FreeBSD și Android, suportând DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP și HDHomeRun ca surse de intrare. Tvheadend oferă streaming HTTP (VLC, MPlayer), HTSP (Kodi, Movian) și SAT>IP. Sunt acceptate mai multe surse EPG (DVB over-the-air și ATSC, inclusiv extensii OpenTV DVB, XMLTV, PyXML).",
+      "title": "Tvheadend (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverubooquity",
-      "title": "Ubooquity (LinuxServer.io)",
-      "tagline": "Un server de acasă gratuit, ușor și ușor de utilizat pentru benzile desenate și cărțile electronice. Folosește-l pentru a accesa fișierele de oriunde, cu o tabletă, un cititor electronic, un telefon sau un computer."
+      "tagline": "Un server de acasă gratuit, ușor și ușor de utilizat pentru benzile desenate și cărțile electronice. Folosește-l pentru a accesa fișierele de oriunde, cu o tabletă, un cititor electronic, un telefon sau un computer.",
+      "title": "Ubooquity (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverungoogledchromium",
-      "title": "Ungoogled chromium (LinuxServer.io)",
-      "tagline": "Google Chromium, fără dependență de serviciile web Google."
+      "tagline": "Google Chromium, fără dependență de serviciile web Google.",
+      "title": "Ungoogled chromium (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverunificontroller",
-      "title": "Unifi controller",
-      "tagline": "Software-ul Unifi-controller este un motor software wireless puternic, pentru întreprinderi, ideal pentru implementări de clienți cu densitate mare care necesită latență redusă și performanță ridicată de funcționare."
+      "tagline": "Software-ul Unifi-controller este un motor software wireless puternic, pentru întreprinderi, ideal pentru implementări de clienți cu densitate mare care necesită latență redusă și performanță ridicată de funcționare.",
+      "title": "Unifi controller"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverunifinetworkapplication",
-      "title": "Unifi network-application (LinuxServer.io)",
-      "tagline": "Software-ul Unifi-network-application este un motor software wireless puternic, pentru întreprinderi, ideal pentru implementări de clienți cu densitate mare care necesită latență redusă și performanță ridicată de funcționare."
+      "tagline": "Software-ul Unifi-network-application este un motor software wireless puternic, pentru întreprinderi, ideal pentru implementări de clienți cu densitate mare care necesită latență redusă și performanță ridicată de funcționare.",
+      "title": "Unifi network-application (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverunrar",
-      "title": "Unrar",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/unrar pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/unrar pentru detalii.",
+      "title": "Unrar"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervivaldi",
-      "title": "Vivaldi (LinuxServer.io)",
-      "tagline": "Un browser web norvegian gratuit, multiplatformă, cu un client de e-mail încorporat, dezvoltat de Vivaldi Technologies."
+      "tagline": "Un browser web norvegian gratuit, multiplatformă, cu un client de e-mail încorporat, dezvoltat de Vivaldi Technologies.",
+      "title": "Vivaldi (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervlc",
-      "title": "Vlc (LinuxServer.io)",
-      "tagline": "Un player multimedia și framework gratuit și open source, multiplatformă, care oferă performanțe fiabile pe mai multe dispozitive."
+      "tagline": "Un player multimedia și framework gratuit și open source, multiplatformă, care oferă performanțe fiabile pe mai multe dispozitive.",
+      "title": "Vlc (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervscode",
-      "title": "Vscode (LinuxServer.io)",
-      "tagline": "Un mediu de dezvoltare integrat dezvoltat de Microsoft. Acest container rulează aplicația desktop completă; pentru o versiune web nativă, consultați Code Server."
+      "tagline": "Un mediu de dezvoltare integrat dezvoltat de Microsoft. Acest container rulează aplicația desktop completă; pentru o versiune web nativă, consultați Code Server.",
+      "title": "Vscode (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervscodium",
-      "title": "Vscodium (LinuxServer.io)",
-      "tagline": "O distribuție binară, licențiată gratuit și condusă de comunitate, a editorului VS Code de la Microsoft."
+      "tagline": "O distribuție binară, licențiată gratuit și condusă de comunitate, a editorului VS Code de la Microsoft.",
+      "title": "Vscodium (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxservervscodiumweb",
-      "title": "Vscodium web (LinuxServer.io)",
-      "tagline": "O distribuție binară, condusă de comunitate și licențiată liber, a componentei web gazdă la distanță a editorului VS Code de la Microsoft."
+      "tagline": "O distribuție binară, condusă de comunitate și licențiată liber, a componentei web gazdă la distanță a editorului VS Code de la Microsoft.",
+      "title": "Vscodium web (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebcord",
-      "title": "Webcord (LinuxServer.io)",
-      "tagline": "Poate fi rezumat ca un pachet de îmbunătățiri ale securității și confidențialității, reimplementări ale caracteristicilor Discord, soluții alternative pentru erorile Electron / Chromium / Discord, foi de stil, pagini interne și o pagină https://discord.com încapsulată, concepută pentru a se conforma cât mai mult posibil cu Termenii și condițiile de utilizare (sau pentru a ascunde modificările care ar putea să le încalce de ochii Discord)."
+      "tagline": "Poate fi rezumat ca un pachet de îmbunătățiri ale securității și confidențialității, reimplementări ale caracteristicilor Discord, soluții alternative pentru erorile Electron / Chromium / Discord, foi de stil, pagini interne și o pagină https://discord.com încapsulată, concepută pentru a se conforma cât mai mult posibil cu Termenii și condițiile de utilizare (sau pentru a ascunde modificările care ar putea să le încalce de ochii Discord).",
+      "title": "Webcord (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebgrabplus",
-      "title": "Webgrabplus (LinuxServer.io)",
-      "tagline": "Un instrument de captare incrementală a ghidurilor de programe TV (EPG) XMLTV pentru mai multe site-uri. Colectează date despre ghidurile de programe TV de pe site-uri TVguide selectate pentru canalele tale preferate."
+      "tagline": "Un instrument de captare incrementală a ghidurilor de programe TV (EPG) XMLTV pentru mai multe site-uri. Colectează date despre ghidurile de programe TV de pe site-uri TVguide selectate pentru canalele tale preferate.",
+      "title": "Webgrabplus (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebstation",
-      "title": "Webstation (LinuxServer.io)",
-      "tagline": "Un desktop LXQt axat pe emulare web nativă, bazat pe Ubuntu."
+      "tagline": "Un desktop LXQt axat pe emulare web nativă, bazat pe Ubuntu.",
+      "title": "Webstation (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwebtop",
-      "title": "Webtop (LinuxServer.io)",
-      "tagline": "Containere bazate pe Alpine, Ubuntu, Fedora și Arch care conțin medii desktop complete în versiuni oficial acceptate, accesibile prin orice browser web modern."
+      "tagline": "Containere bazate pe Alpine, Ubuntu, Fedora și Arch care conțin medii desktop complete în versiuni oficial acceptate, accesibile prin orice browser web modern.",
+      "title": "Webtop (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverweixin",
-      "title": "Weixin (LinuxServer.io)",
-      "tagline": "(WeChat) este o aplicație de mesagerie instantanee, social media și plată mobilă dezvoltată de Tencent."
+      "tagline": "(WeChat) este o aplicație de mesagerie instantanee, social media și plată mobilă dezvoltată de Tencent.",
+      "title": "Weixin (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwikijs",
-      "title": "Wikijs (LinuxServer.io)",
-      "tagline": "O aplicație wiki modernă, ușoară și puternică, construită pe NodeJS."
+      "tagline": "O aplicație wiki modernă, ușoară și puternică, construită pe NodeJS.",
+      "title": "Wikijs (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwinegui",
-      "title": "Winegui (LinuxServer.io)",
-      "tagline": "Un manager de vinuri cu interfață ușor de utilizat, care oferă o interfață grafică pentru crearea și gestionarea sticlelor de vin."
+      "tagline": "Un manager de vinuri cu interfață ușor de utilizat, care oferă o interfață grafică pentru crearea și gestionarea sticlelor de vin.",
+      "title": "Winegui (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwireguard",
-      "title": "Wireguard (LinuxServer.io)",
-      "tagline": "Un VPN extrem de simplu, dar rapid și modern, care utilizează criptografie de ultimă generație. Își propune să fie mai rapid, mai simplu, mai flexibil și mai util decât IPsec, evitând în același timp această bătaie de cap uriașă. Intenționează să fie considerabil mai performant decât OpenVPN. WireGuard este conceput ca un VPN de uz general pentru a rula pe interfețe integrate și supercomputere deopotrivă, potrivit pentru multe circumstanțe diferite. Lansat inițial pentru kernelul Linux, este acum multiplatformă (Windows, macOS, BSD, iOS, Android) și implementabil pe scară largă. În prezent, este în plină dezvoltare, dar ar putea fi deja considerat cea mai sigură, mai ușor de utilizat și mai simplă soluție VPN din industrie."
+      "tagline": "Un VPN extrem de simplu, dar rapid și modern, care utilizează criptografie de ultimă generație. Își propune să fie mai rapid, mai simplu, mai flexibil și mai util decât IPsec, evitând în același timp această bătaie de cap uriașă. Intenționează să fie considerabil mai performant decât OpenVPN. WireGuard este conceput ca un VPN de uz general pentru a rula pe interfețe integrate și supercomputere deopotrivă, potrivit pentru multe circumstanțe diferite. Lansat inițial pentru kernelul Linux, este acum multiplatformă (Windows, macOS, BSD, iOS, Android) și implementabil pe scară largă. În prezent, este în plină dezvoltare, dar ar putea fi deja considerat cea mai sigură, mai ușor de utilizat și mai simplă soluție VPN din industrie.",
+      "title": "Wireguard (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwireshark",
-      "title": "Wireshark (LinuxServer.io)",
-      "tagline": "Cel mai important și utilizat analizor de protocoale de rețea din lume. Acesta vă permite să vedeți ce se întâmplă în rețeaua dvs. la nivel microscopic și este standardul de facto (și adesea de jure) în multe întreprinderi comerciale și non-profit, agenții guvernamentale și instituții de învățământ. Dezvoltarea Wireshark prosperă datorită contribuțiilor voluntare ale experților în rețele din întreaga lume și este continuarea unui proiect început de Gerald Combs în 1998."
+      "tagline": "Cel mai important și utilizat analizor de protocoale de rețea din lume. Acesta vă permite să vedeți ce se întâmplă în rețeaua dvs. la nivel microscopic și este standardul de facto (și adesea de jure) în multe întreprinderi comerciale și non-profit, agenții guvernamentale și instituții de învățământ. Dezvoltarea Wireshark prosperă datorită contribuțiilor voluntare ale experților în rețele din întreaga lume și este continuarea unui proiect început de Gerald Combs în 1998.",
+      "title": "Wireshark (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverwpsoffice",
-      "title": "Wps office (LinuxServer.io)",
-      "tagline": "O suită de birou ușoară, bogată în funcții, cu compatibilitate ridicată. Fiind un software de birou practic și profesional, WPS Office vă permite să editați fișiere în Writer, Presentation, Spreadsheet și PDF pentru a vă îmbunătăți eficiența muncii."
+      "tagline": "O suită de birou ușoară, bogată în funcții, cu compatibilitate ridicată. Fiind un software de birou practic și profesional, WPS Office vă permite să editați fișiere în Writer, Presentation, Spreadsheet și PDF pentru a vă îmbunătăți eficiența muncii.",
+      "title": "Wps office (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverxbackbone",
-      "title": "Xbackbone (LinuxServer.io)",
-      "tagline": "Un manager de fișiere PHP simplu, auto-găzduit și ușor, compatibil cu instrumentul de partajare instantanee ShareX și sistemele *NIX. Acceptă încărcarea și afișarea de imagini, GIF-uri, videoclipuri, cod, text formatat, precum și descărcarea și încărcarea de fișiere. De asemenea, are o interfață web cu gestionare pentru mai mulți utilizatori, istoricul încărcărilor anterioare și suport pentru căutare."
+      "tagline": "Un manager de fișiere PHP simplu, auto-găzduit și ușor, compatibil cu instrumentul de partajare instantanee ShareX și sistemele *NIX. Acceptă încărcarea și afișarea de imagini, GIF-uri, videoclipuri, cod, text formatat, precum și descărcarea și încărcarea de fișiere. De asemenea, are o interfață web cu gestionare pentru mai mulți utilizatori, istoricul încărcărilor anterioare și suport pentru căutare.",
+      "title": "Xbackbone (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverxemu",
-      "title": "Xemu (LinuxServer.io)",
-      "tagline": "O aplicație gratuită și open-source care emulează consola de jocuri Microsoft Xbox originală, permițând utilizatorilor să joace jocurile Xbox originale pe sistemele Windows, macOS și Linux."
+      "tagline": "O aplicație gratuită și open-source care emulează consola de jocuri Microsoft Xbox originală, permițând utilizatorilor să joace jocurile Xbox originale pe sistemele Windows, macOS și Linux.",
+      "title": "Xemu (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverxvfb",
-      "title": "Xvfb",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/xvfb pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/xvfb pentru detalii.",
+      "title": "Xvfb"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveryaak",
-      "title": "Yaak (LinuxServer.io)",
-      "tagline": "Un client API desktop pentru organizarea și executarea cererilor REST, GraphQL și gRPC. Este construit folosind Tauri, Rust și ReactJS."
+      "tagline": "Un client API desktop pentru organizarea și executarea cererilor REST, GraphQL și gRPC. Este construit folosind Tauri, Rust și ReactJS.",
+      "title": "Yaak (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveryourspotify",
-      "title": "Your_spotify (LinuxServer.io)",
-      "tagline": "O aplicație auto-găzduită care urmărește ce asculți și îți oferă un tablou de bord pentru a explora statisticile aferente. Este compusă dintr-un server web care verifică API-ul Spotify din când în când și o aplicație web pe care poți explora statisticile tale."
+      "tagline": "O aplicație auto-găzduită care urmărește ce asculți și îți oferă un tablou de bord pentru a explora statisticile aferente. Este compusă dintr-un server web care verifică API-ul Spotify din când în când și o aplicație web pe care poți explora statisticile tale.",
+      "title": "Your_spotify (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserveryq",
-      "title": "Yq",
-      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/yq pentru detalii."
+      "tagline": "Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/yq pentru detalii.",
+      "title": "Yq"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverzen",
-      "title": "Zen (LinuxServer.io)",
-      "tagline": "O ramură gratuită și open-source a Mozilla Firefox, cu accent pe confidențialitate, personalizare și design."
+      "tagline": "O ramură gratuită și open-source a Mozilla Firefox, cu accent pe confidențialitate, personalizare și design.",
+      "title": "Zen (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverznc",
-      "title": "Znc (LinuxServer.io)",
-      "tagline": "Un bouncer de rețea IRC sau BNC. Poate detașa clientul de serverul IRC real, precum și de canalele selectate. Mai mulți clienți din locații diferite se pot conecta simultan la un singur cont ZNC și, prin urmare, pot apărea sub aceeași poreclă pe IRC."
+      "tagline": "Un bouncer de rețea IRC sau BNC. Poate detașa clientul de serverul IRC real, precum și de canalele selectate. Mai mulți clienți din locații diferite se pot conecta simultan la un singur cont ZNC și, prin urmare, pot apărea sub aceeași poreclă pe IRC.",
+      "title": "Znc (LinuxServer.io)"
     },
     {
       "id": "wisdomsky.linuxserver.linuxserverzotero",
-      "title": "Zotero (LinuxServer.io)",
-      "tagline": "Un instrument gratuit și ușor de utilizat care te ajută să colectezi, să organizezi, să adnoți, să citezi și să partajezi cercetări."
+      "tagline": "Un instrument gratuit și ușor de utilizat care te ajută să colectezi, să organizezi, să adnoți, să citezi și să partajezi cercetări.",
+      "title": "Zotero (LinuxServer.io)"
     }
   ]
 }

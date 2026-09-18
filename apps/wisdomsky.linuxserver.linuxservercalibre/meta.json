@@ -12,13 +12,13 @@
   "title": "Calibre (LinuxServer.io)",
   "base_url": "https://cdn.jsdelivr.net/gh/WisdomSky/LinuxServer-AppStore@gh-pages",
   "id": "wisdomsky.linuxserver.linuxservercalibre",
-  "version": "9.14.0",
+  "version": "9.15.0",
   "categories": [
     "media"
   ],
   "min_memory": 0,
   "min_image_size": {
-    "amd64": 1310714547,
-    "arm64": 1275792350
+    "amd64": 1313444852,
+    "arm64": 1278515752
   }
 }
