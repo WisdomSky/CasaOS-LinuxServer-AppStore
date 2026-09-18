@@ -52,17 +52,92 @@ x-casaos:
   main: app
   description:
     en_US: Duckdns is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
+    ca_ES: Duckdns és un servei gratuït que apuntarà un DNS (subdominis de duckdns.org) a una IP de la vostra elecció. El servei és completament gratuït i no requereix reactivació ni publicacions al fòrum per mantenir la seva existència.
+    cs_CZ: Duckdns je bezplatná služba, která nasměruje DNS (subdomény duckdns.org) na vámi zvolenou IP adresu. Služba je zcela zdarma a pro svou existenci nevyžaduje reaktivaci ani příspěvky na fóru.
+    da_DK: Duckdns er en gratis tjeneste, der peger en DNS (underdomæner til duckdns.org) til en IP-adresse efter eget valg. Tjenesten er helt gratis og kræver ikke genaktivering eller forumindlæg for at opretholde sin eksistens.
+    de_DE: DuckDNS ist ein kostenloser Dienst, der einen DNS-Eintrag (Subdomains von duckdns.org) auf eine IP-Adresse Ihrer Wahl umleitet. Der Dienst ist komplett kostenlos und erfordert weder eine Reaktivierung noch Forenbeiträge, um aufrechtzuerhalten.
+    el_GR: Το Duckdns είναι μια δωρεάν υπηρεσία που θα κατευθύνει ένα DNS (υποτομείς του duckdns.org) σε μια IP της επιλογής σας. Η υπηρεσία είναι εντελώς δωρεάν και δεν απαιτεί επανενεργοποίηση ή δημοσιεύσεις σε φόρουμ για να διατηρηθεί η ύπαρξή της.
+    en_GB: Duckdns is a free service which will point a Dns (sub domains of duckdns.org) to an Ip of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
+    es_ES: DuckDNS es un servicio gratuito que redirige un servidor DNS (subdominios de duckdns.org) a la dirección IP que elijas. El servicio es completamente gratuito y no requiere reactivación ni publicaciones en foros para mantenerse activo.
+    fr_FR: DuckDNS est un service gratuit qui permet de faire pointer un nom de domaine (sous-domaines de duckdns.org) vers une adresse IP de votre choix. Ce service est entièrement gratuit et ne nécessite aucune réactivation ni participation à un forum pour rester actif.
+    ga_IE: Is seirbhís saor in aisce í Duckdns a dhíreoidh DNS (fo-fhearainn de duckdns.org) chuig IP de do rogha féin. Tá an tseirbhís go hiomlán saor in aisce, agus ní gá athghníomhachtú ná poist fóram a dhéanamh chun í a choinneáil ann.
+    hr_HR: Duckdns je besplatna usluga koja će usmjeriti DNS (poddomene duckdns.org) na IP adresu po vašem izboru. Usluga je potpuno besplatna i ne zahtijeva ponovnu aktivaciju ili objave na forumu za održavanje svog postojanja.
+    hu_HU: A Duckdns egy ingyenes szolgáltatás, amely a DNS-t (a duckdns.org aldomainjeit) egy általad választott IP-címre irányítja. A szolgáltatás teljesen ingyenes, és nem igényel újraaktiválást vagy fórumbejegyzéseket a fennmaradásához.
+    it_IT: DuckDNS è un servizio gratuito che permette di reindirizzare un DNS (sottodominio di duckdns.org) a un indirizzo IP a tua scelta. Il servizio è completamente gratuito e non richiede riattivazione né interventi sul forum per mantenerlo attivo.
+    ja_JP: Duckdnsは、DNSサーバー（duckdns.orgのサブドメイン）を任意のIPアドレスにマッピングする無料サービスです。このサービスは完全に無料で、継続利用のために再アクティベーションやフォーラムへの投稿などは一切必要ありません。
+    ko_KR: DuckDNS는 사용자가 선택한 IP 주소로 DNS(duckdns.org의 하위 도메인)를 연결해주는 무료 서비스입니다. 이 서비스는 완전히 무료이며, 유지 관리를 위해 재활성화나 포럼 게시글 작성이 필요하지 않습니다.
+    ml_IN: Duckdns എന്നത് നിങ്ങൾക്ക് ഇഷ്ടമുള്ള ഒരു IP വിലാസത്തിലേക്ക് DNS (duckdns.org-ന്റെ ഉപ ഡൊമെയ്‌നുകൾ) പോയിന്റ് ചെയ്യുന്ന ഒരു സൗജന്യ സേവനമാണ്. ഈ സേവനം പൂർണ്ണമായും സൗജന്യമാണ്, കൂടാതെ അതിന്റെ നിലനിൽപ്പ് നിലനിർത്താൻ വീണ്ടും സജീവമാക്കലോ ഫോറം പോസ്റ്റുകളോ ആവശ്യമില്ല.
+    nb_NO: Duckdns er en gratis tjeneste som peker en DNS (underdomener til duckdns.org) til en IP-adresse du velger. Tjenesten er helt gratis og krever ikke reaktivering eller foruminnlegg for å opprettholde sin eksistens.
+    nl_NL: Duckdns is een gratis dienst waarmee je een DNS-server (subdomeinen van duckdns.org) kunt koppelen aan een IP-adres naar keuze. De dienst is volledig gratis en vereist geen heractivering of forumreacties om te blijven bestaan.
+    pl_PL: Duckdns to darmowa usługa, która przekieruje DNS (subdomeny duckdns.org) na wybrany adres IP. Usługa jest całkowicie darmowa i nie wymaga ponownej aktywacji ani wpisów na forum, aby utrzymać się na rynku.
+    pt_BR: DuckDNS é um serviço gratuito que direciona um DNS (subdomínios de duckdns.org) para um endereço IP de sua escolha. O serviço é totalmente gratuito e não requer reativação ou postagens em fóruns para se manter ativo.
+    ro_RO: Duckdns este un serviciu gratuit care va direcționa un DNS (subdomenii ale duckdns.org) către o adresă IP la alegere. Serviciul este complet gratuit și nu necesită reactivare sau postări pe forum pentru a-și menține existența.
+    ru_RU: Duckdns — это бесплатный сервис, который направляет DNS-сервер (поддомены duckdns.org) на выбранный вами IP-адрес. Сервис полностью бесплатный и не требует повторной активации или сообщений на форуме для поддержания своей работы.
+    sk_SK: Duckdns je bezplatná služba, ktorá nasmeruje DNS (subdomény duckdns.org) na vami zvolenú IP adresu. Služba je úplne bezplatná a na jej udržanie nie je potrebná reaktivácia ani príspevky na fóre.
+    sv_SE: Duckdns är en gratistjänst som pekar en DNS (underdomäner till duckdns.org) till en IP-adress du väljer. Tjänsten är helt gratis och kräver inte återaktivering eller foruminlägg för att fortsätta existera.
+    tr_TR: Duckdns, bir DNS adresini (duckdns.org'un alt alan adları) seçtiğiniz bir IP adresine yönlendiren ücretsiz bir hizmettir. Hizmet tamamen ücretsizdir ve varlığını sürdürmesi için yeniden etkinleştirme veya forum gönderisi gerektirmez.
     zh_CN: DuckDNS 是一项免费服务，可将 duckdns.org 的子域名指向你选择的 IP 地址。服务完全免费，无需定期重新激活或通过论坛发帖来维持使用。
+    zh_TW: DuckDNS 是一項免費服務，可將 duckdns.org 的子域名指向你選擇的 IP 地址。服務完全免費，無需定期重新啟用或透過論壇發帖來維持使用。
   tagline:
     en_US: A free service which will point a DNS (sub domains of duckdns. Org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
+    ca_ES: Un servei gratuït que apuntarà un DNS (subdominis de duckdns.org) a una IP de la vostra elecció. El servei és completament gratuït i no requereix reactivació ni publicacions al fòrum per mantenir la seva existència.
+    cs_CZ: Bezplatná služba, která nasměruje DNS (subdomény duckdns.org) na vámi zvolenou IP adresu. Služba je zcela zdarma a pro svou existenci nevyžaduje reaktivaci ani příspěvky na fóru.
+    da_DK: En gratis tjeneste, der peger en DNS (underdomæner til duckdns.org) til en IP-adresse efter eget valg. Tjenesten er helt gratis og kræver ikke genaktivering eller forumindlæg for at opretholde sin eksistens.
+    de_DE: Ein kostenloser Dienst, der einen DNS-Eintrag (Subdomains von duckdns.org) auf eine IP-Adresse Ihrer Wahl umleitet. Der Dienst ist komplett kostenlos und erfordert weder eine Reaktivierung noch Forenbeiträge, um aufrechtzuerhalten.
+    el_GR: Μια δωρεάν υπηρεσία που θα κατευθύνει ένα DNS (υποτομείς του duckdns.org) σε μια IP της επιλογής σας. Η υπηρεσία είναι εντελώς δωρεάν και δεν απαιτεί επανενεργοποίηση ή αναρτήσεις σε φόρουμ για να διατηρηθεί η ύπαρξή της.
+    en_GB: A free service which will point a Dns (sub domains of duckdns. Org) to an Ip of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.
+    es_ES: Un servicio gratuito que redirige un servidor DNS (subdominios de duckdns.org) a la dirección IP que elijas. El servicio es totalmente gratuito y no requiere reactivación ni publicaciones en foros para mantenerse activo.
+    fr_FR: Un service gratuit qui permet de faire pointer un DNS (sous-domaines de duckdns.org) vers une adresse IP de votre choix. Ce service est entièrement gratuit et ne nécessite aucune réactivation ni participation à un forum pour rester actif.
+    ga_IE: Seirbhís saor in aisce a threoróidh DNS (fo-fhearainn de chuid duckdns.org) chuig seoladh IP de do rogha féin. Tá an tseirbhís go hiomlán saor in aisce, agus ní gá athghníomhachtú ná poist fóram a dhéanamh chun í a choinneáil ann.
+    hr_HR: Besplatna usluga koja će usmjeriti DNS (poddomene duckdns.org) na IP adresu po vašem izboru. Usluga je potpuno besplatna i ne zahtijeva ponovnu aktivaciju ili objave na forumu za održavanje svog postojanja.
+    hu_HU: Egy ingyenes szolgáltatás, amely egy DNS-t (a duckdns.org aldomainjeit) egy általad választott IP-címre irányít. A szolgáltatás teljesen ingyenes, és nem igényel újraaktiválást vagy fórumbejegyzéseket a fennmaradásához.
+    it_IT: Un servizio gratuito che permette di reindirizzare un DNS (sottodomini di duckdns.org) a un indirizzo IP a tua scelta. Il servizio è completamente gratuito e non richiede riattivazione né interventi sul forum per mantenerlo attivo.
+    ja_JP: duckdns.orgのサブドメインのDNSを、指定したIPアドレスに紐付ける無料サービスです。このサービスは完全に無料で、再有効化やフォーラムへの投稿などは一切不要です。
+    ko_KR: 이 서비스는 사용자가 선택한 IP 주소로 DNS(duckdns.org의 하위 도메인)를 연결해 주는 무료 서비스입니다. 서비스는 완전히 무료이며, 유지 관리를 위해 재활성화나 포럼 게시글 작성이 필요하지 않습니다.
+    ml_IN: നിങ്ങൾക്ക് ഇഷ്ടമുള്ള ഒരു IP-യിലേക്ക് ഒരു DNS (duckdns. Org-ന്റെ ഉപ ഡൊമെയ്‌നുകൾ) പോയിന്റ് ചെയ്യുന്ന ഒരു സൗജന്യ സേവനം. സേവനം പൂർണ്ണമായും സൗജന്യമാണ്, കൂടാതെ അതിന്റെ നിലനിൽപ്പ് നിലനിർത്താൻ വീണ്ടും സജീവമാക്കലോ ഫോറം പോസ്റ്റുകളോ ആവശ്യമില്ല.
+    nb_NO: En gratis tjeneste som peker en DNS (underdomener til duckdns.org) til en IP-adresse du velger. Tjenesten er helt gratis og krever ikke reaktivering eller foruminnlegg for å opprettholde sin eksistens.
+    nl_NL: Een gratis dienst waarmee je een DNS-server (subdomeinen van duckdns.org) kunt koppelen aan een IP-adres naar keuze. De dienst is volledig gratis en vereist geen heractivering of forumreacties om te blijven bestaan.
+    pl_PL: Bezpłatna usługa, która skieruje DNS (subdomeny duckdns.org) na wybrany adres IP. Usługa jest całkowicie darmowa i nie wymaga ponownej aktywacji ani wpisów na forum, aby utrzymać się na rynku.
+    pt_BR: Um serviço gratuito que direciona um DNS (subdomínios de duckdns.org) para um endereço IP de sua escolha. O serviço é totalmente gratuito e não requer reativação ou postagens em fóruns para se manter ativo.
+    ro_RO: Un serviciu gratuit care va direcționa un DNS (subdomenii ale duckdns.org) către o adresă IP la alegere. Serviciul este complet gratuit și nu necesită reactivare sau postări pe forum pentru a-și menține existența.
+    ru_RU: Бесплатный сервис, который перенаправит DNS (поддомены duckdns.org) на выбранный вами IP-адрес. Сервис полностью бесплатный и не требует повторной активации или сообщений на форуме для поддержания своей работы.
+    sk_SK: Bezplatná služba, ktorá nasmeruje DNS (subdomény duckdns.org) na vami zvolenú IP adresu. Služba je úplne bezplatná a na jej udržanie nie je potrebná reaktivácia ani príspevky na fóre.
+    sv_SE: En gratistjänst som pekar en DNS (underdomäner till duckdns.org) till en IP-adress du väljer. Tjänsten är helt gratis och kräver inte återaktivering eller foruminlägg för att fortsätta existera.
+    tr_TR: Duckdns.org'un alt alan adlarından birini seçtiğiniz bir IP adresine yönlendirecek ücretsiz bir hizmet. Hizmet tamamen ücretsizdir ve varlığını sürdürmesi için yeniden etkinleştirme veya forum gönderisi gerektirmez.
     zh_CN: 将免费的 duckdns.org 子域名指向指定 IP。
+    zh_TW: 將免費的 duckdns.org 子域名指向指定 IP。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png
   title:
     en_US: Duckdns (LinuxServer.io)
+    ca_ES: Duckdns (LinuxServer.io)
+    cs_CZ: Duckdns (LinuxServer.io)
+    da_DK: Duckdns (LinuxServer.io)
+    de_DE: Duckdns (LinuxServer.io)
+    el_GR: Duckdns (LinuxServer.io)
+    en_GB: Duckdns (LinuxServer.io)
+    es_ES: Duckdns (LinuxServer.io)
+    fr_FR: Duckdns (LinuxServer.io)
+    ga_IE: Duckdns (LinuxServer.io)
+    hr_HR: Duckdns (LinuxServer.io)
+    hu_HU: Duckdns (LinuxServer.io)
+    it_IT: Duckdns (LinuxServer.io)
+    ja_JP: Duckdns (LinuxServer.io)
+    ko_KR: Duckdns (LinuxServer.io)
+    ml_IN: Duckdns (LinuxServer.io)
+    nb_NO: Duckdns (LinuxServer.io)
+    nl_NL: Duckdns (LinuxServer.io)
+    pl_PL: Duckdns (LinuxServer.io)
+    pt_BR: Duckdns (LinuxServer.io)
+    ro_RO: Duckdns (LinuxServer.io)
+    ru_RU: Duckdns (LinuxServer.io)
+    sk_SK: Duckdns (LinuxServer.io)
+    sv_SE: Duckdns (LinuxServer.io)
+    tr_TR: Duckdns (LinuxServer.io)
     zh_CN: Duckdns（LinuxServer.io）
+    zh_TW: Duckdns（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverduckdns
   port_map: '80'

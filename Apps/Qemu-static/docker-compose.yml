@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/qemu-static for details.
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.docker.com/r/linuxserver/qemu-static per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.docker.com/r/linuxserver/qemu-static.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.docker.com/r/linuxserver/qemu-static for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.docker.com/r/linuxserver/qemu-static.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Ανατρέξτε στη διεύθυνση https://hub.docker.com/r/linuxserver/qemu-static για λεπτομέρειες.
+    en_GB: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/qemu-static for details.
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.docker.com/r/linuxserver/qemu-static para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/qemu-static pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.docker.com/r/linuxserver/qemu-static le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.docker.com/r/linuxserver/qemu-static.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.docker.com/r/linuxserver/qemu-static oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.docker.com/r/linuxserver/qemu-static.
+    ja_JP: このコンテナは特別な注意が必要です。詳細はhttps://hub.docker.com/r/linuxserver/qemu-staticをご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.docker.com/r/linuxserver/qemu-static 을 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub.docker.com/r/linuxserver/qemu-static പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.docker.com/r/linuxserver/qemu-static for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/qemu-static voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły znajdziesz na stronie https://hub.docker.com/r/linuxserver/qemu-static.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/qemu-static para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.docker.com/r/linuxserver/qemu-static pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.docker.com/r/linuxserver/qemu-static.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.docker.com/r/linuxserver/qemu-static.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.docker.com/r/linuxserver/qemu-static för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.docker.com/r/linuxserver/qemu-static adresini kontrol edin.
     zh_CN: 此容器需要特别注意。使用前请阅读相关说明：https://hub.docker.com/r/linuxserver/qemu-static
+    zh_TW: 此容器需要特別注意。使用前請閱讀相關說明：https://hub.docker.com/r/linuxserver/qemu-static
   tagline:
     en_US: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/qemu-static for details.
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.Docker.com/r/linuxserver/qemu-static per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/qemu-static.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.Docker.com/r/linuxserver/qemu-static for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.Docker.com/r/linuxserver/qemu-static.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.Docker.com/r/linuxserver/qemu-static.
+    en_GB: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/qemu-static for details.
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/qemu-static para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/qemu-static pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/qemu-static le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.Docker.com/r/linuxserver/qemu-static.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/qemu-static oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.Docker.com/r/linuxserver/qemu-static.
+    ja_JP: このコンテナには特別な注意が必要です。詳細は https://hub.docker.com/r/linuxserver/qemu-static をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/qemu-static을 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub. Docker. Com/r/linuxserver/qemu-static പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.Docker.com/r/linuxserver/qemu-static for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/qemu-static voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły można znaleźć na stronie https://hub.Docker.Com/r/linuxserver/qemu-static.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/qemu-static para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/qemu-static pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Пожалуйста, ознакомьтесь с подробностями на странице https://hub.Docker.com/r/linuxserver/qemu-static.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.Docker.com/r/linuxserver/qemu-static.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.Docker.com/r/linuxserver/qemu-static för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.Docker.com/r/linuxserver/qemu-static adresini kontrol edin.
     zh_CN: 此容器需要特殊配置，请先阅读使用说明。
+    zh_TW: 此容器需要特殊配置，請先閱讀使用說明。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qemu-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qemu-logo.png
   title:
     en_US: Qemu static (LinuxServer.io)
+    ca_ES: Qemu static (LinuxServer.io)
+    cs_CZ: Qemu static (LinuxServer.io)
+    da_DK: Qemu static (LinuxServer.io)
+    de_DE: Qemu static (LinuxServer.io)
+    el_GR: Qemu static (LinuxServer.io)
+    en_GB: Qemu static (LinuxServer.io)
+    es_ES: Qemu static (LinuxServer.io)
+    fr_FR: Qemu static (LinuxServer.io)
+    ga_IE: Qemu static (LinuxServer.io)
+    hr_HR: Qemu static (LinuxServer.io)
+    hu_HU: Qemu static (LinuxServer.io)
+    it_IT: Qemu static (LinuxServer.io)
+    ja_JP: Qemu static (LinuxServer.io)
+    ko_KR: Qemu static (LinuxServer.io)
+    ml_IN: Qemu static (LinuxServer.io)
+    nb_NO: Qemu static (LinuxServer.io)
+    nl_NL: Qemu static (LinuxServer.io)
+    pl_PL: Qemu static (LinuxServer.io)
+    pt_BR: Qemu static (LinuxServer.io)
+    ro_RO: Qemu static (LinuxServer.io)
+    ru_RU: Qemu static (LinuxServer.io)
+    sk_SK: Qemu static (LinuxServer.io)
+    sv_SE: Qemu static (LinuxServer.io)
+    tr_TR: Qemu static (LinuxServer.io)
     zh_CN: Qemu static（LinuxServer.io）
+    zh_TW: Qemu static（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverqemustatic
   port_map: '80'

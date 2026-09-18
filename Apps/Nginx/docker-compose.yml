@@ -44,17 +44,92 @@ x-casaos:
   main: app
   description:
     en_US: Nginx is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
+    ca_ES: Nginx és un servidor web HTTP, un proxy invers, una memòria cau de contingut, un equilibrador de càrrega, un servidor proxy TCP/UDP i un servidor proxy de correu.
+    cs_CZ: Nginx je HTTP webový server, reverzní proxy, mezipaměť obsahu, vyrovnávač zátěže, TCP/UDP proxy server a poštovní proxy server.
+    da_DK: Nginx er en HTTP-webserver, reverse proxy, content cache, load balancer, TCP/UDP proxyserver og mail proxyserver.
+    de_DE: Nginx ist ein HTTP-Webserver, Reverse-Proxy, Content-Cache, Load Balancer, TCP/UDP-Proxy-Server und Mail-Proxy-Server.
+    el_GR: Το Nginx είναι ένας διακομιστής ιστού HTTP, αντίστροφος διακομιστής μεσολάβησης, προσωρινή μνήμη περιεχομένου, εξισορροπητής φόρτου, διακομιστής μεσολάβησης TCP/UDP και διακομιστής μεσολάβησης αλληλογραφίας.
+    en_GB: Nginx is an Http web server, reverse proxy, content cache, load balancer, Tcp/Udp proxy server, and mail proxy server.
+    es_ES: Nginx es un servidor web HTTP, proxy inverso, caché de contenido, balanceador de carga, servidor proxy TCP/UDP y servidor proxy de correo electrónico.
+    fr_FR: Nginx est un serveur web HTTP, un proxy inverse, un cache de contenu, un équilibreur de charge, un serveur proxy TCP/UDP et un serveur proxy de messagerie.
+    ga_IE: Is freastalaí gréasáin HTTP, seachfhreastalaí droim ar ais, taisce ábhair, cothromóir ualaigh, seachfhreastalaí TCP/UDP, agus seachfhreastalaí ríomhphoist é Nginx.
+    hr_HR: Nginx je HTTP web poslužitelj, obrnuti proxy, predmemorija sadržaja, uravnoteživač opterećenja, TCP/UDP proxy poslužitelj i proxy poslužitelj za poštu.
+    hu_HU: Az Nginx egy HTTP webszerver, fordított proxy, tartalom-gyorsítótár, terheléselosztó, TCP/UDP proxy szerver és levelező proxy szerver.
+    it_IT: Nginx è un server web HTTP, un proxy inverso, una cache di contenuti, un bilanciatore di carico, un server proxy TCP/UDP e un server proxy di posta elettronica.
+    ja_JP: Nginxは、HTTPウェブサーバー、リバースプロキシ、コンテンツキャッシュ、ロードバランサー、TCP/UDPプロキシサーバー、およびメールプロキシサーバーです。
+    ko_KR: Nginx는 HTTP 웹 서버, 리버스 프록시, 콘텐츠 캐시, 로드 밸런싱, TCP/UDP 프록시 서버 및 메일 프록시 서버 역할을 합니다.
+    ml_IN: Nginx ഒരു HTTP വെബ് സെർവർ, റിവേഴ്സ് പ്രോക്സി, കണ്ടന്റ് കാഷെ, ലോഡ് ബാലൻസർ, TCP/UDP പ്രോക്സി സെർവർ, മെയിൽ പ്രോക്സി സെർവർ എന്നിവയാണ്.
+    nb_NO: Nginx er en HTTP-webserver, omvendt proxy, innholdsbuffer, lastbalanserer, TCP/UDP-proxyserver og e-postproxyserver.
+    nl_NL: Nginx is een HTTP-webserver, reverse proxy, contentcache, load balancer, TCP/UDP-proxyserver en mailproxyserver.
+    pl_PL: Nginx to serwer HTTP, odwrotny serwer proxy, pamięć podręczna treści, moduł równoważenia obciążenia, serwer proxy TCP/UDP i serwer proxy poczty.
+    pt_BR: O Nginx é um servidor web HTTP, proxy reverso, cache de conteúdo, balanceador de carga, servidor proxy TCP/UDP e servidor proxy de e-mail.
+    ro_RO: Nginx este un server web HTTP, proxy invers, memorie cache de conținut, echilibrator de încărcare, server proxy TCP/UDP și server proxy de e-mail.
+    ru_RU: Nginx — это HTTP-веб-сервер, обратный прокси, кэш контента, балансировщик нагрузки, TCP/UDP-прокси-сервер и почтовый прокси-сервер.
+    sk_SK: Nginx je HTTP webový server, reverzná proxy, vyrovnávacia pamäť obsahu, vyrovnávač záťaže, TCP/UDP proxy server a poštový proxy server.
+    sv_SE: Nginx är en HTTP-webbserver, omvänd proxy, innehållscache, lastbalanserare, TCP/UDP-proxyserver och e-postproxyserver.
+    tr_TR: Nginx, HTTP web sunucusu, ters proxy, içerik önbelleği, yük dengeleyici, TCP/UDP proxy sunucusu ve e-posta proxy sunucusu olarak işlev görür.
     zh_CN: Nginx 可作为 HTTP 网页服务器、反向代理、内容缓存、负载均衡器、TCP/UDP 代理服务器和邮件代理服务器。
+    zh_TW: Nginx 可作為 HTTP 網頁伺服器、反向代理、內容快取、負載均衡器、TCP/UDP 代理伺服器和郵件代理伺服器。
   tagline:
     en_US: An HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server.
+    ca_ES: Un servidor web HTTP, un servidor intermediari invers, una memòria cau de contingut, un equilibrador de càrrega, un servidor intermediari TCP/UDP i un servidor intermediari de correu.
+    cs_CZ: HTTP webový server, reverzní proxy, mezipaměť obsahu, vyrovnávač zátěže, TCP/UDP proxy server a poštovní proxy server.
+    da_DK: En HTTP-webserver, reverse proxy, indholdscache, load balancer, TCP/UDP-proxyserver og mail-proxyserver.
+    de_DE: Ein HTTP-Webserver, Reverse-Proxy, Content-Cache, Load Balancer, TCP/UDP-Proxy-Server und Mail-Proxy-Server.
+    el_GR: Ένας διακομιστής ιστού HTTP, αντίστροφος διακομιστής μεσολάβησης, προσωρινή μνήμη περιεχομένου, εξισορροπητής φόρτου, διακομιστής μεσολάβησης TCP/UDP και διακομιστής μεσολάβησης αλληλογραφίας.
+    en_GB: An Http web server, reverse proxy, content cache, load balancer, Tcp/Udp proxy server, and mail proxy server.
+    es_ES: Un servidor web HTTP, un proxy inverso, una caché de contenido, un balanceador de carga, un servidor proxy TCP/UDP y un servidor proxy de correo electrónico.
+    fr_FR: Un serveur web HTTP, un proxy inverse, un cache de contenu, un équilibreur de charge, un serveur proxy TCP/UDP et un serveur proxy de messagerie.
+    ga_IE: Freastalaí gréasáin HTTP, seachfhreastalaí droim ar ais, taisce ábhair, cothromóir ualaigh, seachfhreastalaí TCP/UDP, agus seachfhreastalaí ríomhphoist.
+    hr_HR: HTTP web poslužitelj, obrnuti proxy, predmemorija sadržaja, uravnoteživač opterećenja, TCP/UDP proxy poslužitelj i proxy poslužitelj pošte.
+    hu_HU: HTTP webszerver, fordított proxy, tartalom-gyorsítótár, terheléselosztó, TCP/UDP proxyszerver és levelező proxyszerver.
+    it_IT: Un server web HTTP, un proxy inverso, una cache di contenuti, un bilanciatore di carico, un server proxy TCP/UDP e un server proxy di posta elettronica.
+    ja_JP: HTTPウェブサーバー、リバースプロキシ、コンテンツキャッシュ、ロードバランサー、TCP/UDPプロキシサーバー、およびメールプロキシサーバー。
+    ko_KR: HTTP 웹 서버, 리버스 프록시, 콘텐츠 캐시, 로드 밸런싱, TCP/UDP 프록시 서버 및 메일 프록시 서버.
+    ml_IN: ഒരു HTTP വെബ് സെർവർ, റിവേഴ്സ് പ്രോക്സി, കണ്ടന്റ് കാഷെ, ലോഡ് ബാലൻസർ, TCP/UDP പ്രോക്സി സെർവർ, മെയിൽ പ്രോക്സി സെർവർ.
+    nb_NO: En HTTP-webserver, omvendt proxy, innholdsbuffer, lastfordeler, TCP/UDP-proxyserver og e-postproxyserver.
+    nl_NL: Een HTTP-webserver, reverse proxy, contentcache, load balancer, TCP/UDP-proxyserver en mailproxyserver.
+    pl_PL: Serwer HTTP, odwrotny serwer proxy, pamięć podręczna treści, moduł równoważenia obciążenia, serwer proxy TCP/UDP i serwer proxy poczty.
+    pt_BR: Um servidor web HTTP, proxy reverso, cache de conteúdo, balanceador de carga, servidor proxy TCP/UDP e servidor proxy de e-mail.
+    ro_RO: Un server web HTTP, un proxy invers, o memorie cache de conținut, un echilibrator de încărcare, un server proxy TCP/UDP și un server proxy de e-mail.
+    ru_RU: HTTP-веб-сервер, обратный прокси-сервер, кэш контента, балансировщик нагрузки, TCP/UDP-прокси-сервер и почтовый прокси-сервер.
+    sk_SK: HTTP webový server, reverzná proxy, vyrovnávacia pamäť obsahu, vyrovnávač záťaže, TCP/UDP proxy server a poštový proxy server.
+    sv_SE: En HTTP-webbserver, omvänd proxy, innehållscache, lastbalanserare, TCP/UDP-proxyserver och e-postproxyserver.
+    tr_TR: Bir HTTP web sunucusu, ters proxy, içerik önbelleği, yük dengeleyici, TCP/UDP proxy sunucusu ve posta proxy sunucusu.
     zh_CN: 提供网页服务、反向代理、缓存和负载均衡。
+    zh_TW: 提供網頁服務、反向代理、快取和負載均衡。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png
   title:
     en_US: Nginx (LinuxServer.io)
+    ca_ES: Nginx (LinuxServer.io)
+    cs_CZ: Nginx (LinuxServer.io)
+    da_DK: Nginx (LinuxServer.io)
+    de_DE: Nginx (LinuxServer.io)
+    el_GR: Nginx (LinuxServer.io)
+    en_GB: Nginx (LinuxServer.io)
+    es_ES: Nginx (LinuxServer.io)
+    fr_FR: Nginx (LinuxServer.io)
+    ga_IE: Nginx (LinuxServer.io)
+    hr_HR: Nginx (LinuxServer.io)
+    hu_HU: Nginx (LinuxServer.io)
+    it_IT: Nginx (LinuxServer.io)
+    ja_JP: Nginx (LinuxServer.io)
+    ko_KR: Nginx (LinuxServer.io)
+    ml_IN: Nginx (LinuxServer.io)
+    nb_NO: Nginx (LinuxServer.io)
+    nl_NL: Nginx (LinuxServer.io)
+    pl_PL: Nginx (LinuxServer.io)
+    pt_BR: Nginx (LinuxServer.io)
+    ro_RO: Nginx (LinuxServer.io)
+    ru_RU: Nginx (LinuxServer.io)
+    sk_SK: Nginx (LinuxServer.io)
+    sv_SE: Nginx (LinuxServer.io)
+    tr_TR: Nginx (LinuxServer.io)
     zh_CN: Nginx（LinuxServer.io）
+    zh_TW: Nginx（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservernginx
   port_map: '80'

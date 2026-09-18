@@ -47,17 +47,92 @@ x-casaos:
   main: app
   description:
     en_US: Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.
+    ca_ES: Plex organitza vídeos, música i fotos de biblioteques multimèdia personals i els transmet a televisors intel·ligents, dispositius de reproducció en temps real i dispositius mòbils. Aquest contenidor està empaquetat com un servidor multimèdia Plex independent. El disseny senzill i les accions massives permeten fer les coses més ràpidament.
+    cs_CZ: Plex organizuje videa, hudbu a fotografie z osobních mediálních knihoven a streamuje je do chytrých televizorů, streamovacích boxů a mobilních zařízení. Tento kontejner je zabalen jako samostatný Plex Media Server. Díky jednoduchému designu a hromadným akcím se práce vyřídí rychleji.
+    da_DK: Plex organiserer video, musik og fotos fra personlige mediebiblioteker og streamer dem til smart-tv'er, streamingbokse og mobile enheder. Denne container er pakket som en separat Plex-medieserver. Enkelt design og massehandlinger betyder, at du får tingene gjort hurtigere.
+    de_DE: Plex organisiert Videos, Musik und Fotos aus persönlichen Mediatheken und streamt sie auf Smart-TVs, Streaming-Boxen und Mobilgeräte. Dieser Container ist als eigenständiger Plex Media Server verfügbar. Dank des intuitiven Designs und der Möglichkeit, mehrere Aktionen gleichzeitig auszuführen, erledigen Sie Ihre Aufgaben schneller.
+    el_GR: Το Plex οργανώνει βίντεο, μουσική και φωτογραφίες από προσωπικές βιβλιοθήκες πολυμέσων και τα μεταδίδει σε έξυπνες τηλεοράσεις, συσκευές streaming και κινητές συσκευές. Αυτό το κοντέινερ είναι συσκευασμένο ως αυτόνομος διακομιστής πολυμέσων Plex. Ο απλός σχεδιασμός και οι μαζικές ενέργειες σημαίνουν ότι οι εργασίες γίνονται πιο γρήγορα.
+    en_GB: Plex organises video, music and photos from personal media libraries and streams them to smart Tvs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.
+    es_ES: Plex organiza vídeos, música y fotos de bibliotecas multimedia personales y los transmite a televisores inteligentes, reproductores multimedia y dispositivos móviles. Este contenedor se presenta como un servidor multimedia Plex independiente. Su diseño intuitivo y las funciones de procesamiento en lote permiten realizar tareas con mayor rapidez.
+    fr_FR: Plex organise vos vidéos, musiques et photos issues de vos bibliothèques multimédias personnelles et les diffuse sur téléviseurs connectés, boîtiers multimédias et appareils mobiles. Ce conteneur est fourni sous forme de serveur multimédia Plex autonome. Son interface intuitive et ses actions groupées vous permettent d'être plus efficace.
+    ga_IE: Eagraíonn Plex físeáin, ceol agus grianghraif ó leabharlanna meán pearsanta agus sruthlaíonn sé iad chuig teilifíseáin chliste, boscaí sruthú agus gléasanna soghluaiste. Tá an coimeádán seo pacáistithe mar Fhreastalaí Meán Plex neamhspleách. Ciallaíonn dearadh simplí agus gníomhartha mórchóir go ndéantar rudaí níos tapúla.
+    hr_HR: Plex organizira videozapise, glazbu i fotografije iz osobnih medijskih biblioteka i struji ih na pametne televizore, streaming uređaje i mobilne uređaje. Ovaj spremnik dolazi kao samostalni Plex Media Server. Jednostavan dizajn i skupne radnje znače brže obavljanje posla.
+    hu_HU: A Plex videókat, zenéket és fényképeket rendszerez a személyes médiakönyvtárakból, és streameli azokat okostévékre, streaming boxokra és mobileszközökre. Ez a konténer önálló Plex médiaszerverként van csomagolva. Az egyszerű kialakítás és a tömeges műveletek gyorsabbá teszik a feladatokat.
+    it_IT: Plex organizza video, musica e foto dalle librerie multimediali personali e li trasmette in streaming a smart TV, dispositivi di streaming e dispositivi mobili. Questo contenitore è distribuito come Plex Media Server autonomo. Il design intuitivo e le azioni di massa consentono di completare le operazioni più rapidamente.
+    ja_JP: Plexは、個人のメディアライブラリからビデオ、音楽、写真を整理し、スマートテレビ、ストリーミングボックス、モバイルデバイスにストリーミング配信します。このコンテナは、スタンドアロンのPlex Media Serverとしてパッケージ化されています。シンプルな設計と一括操作により、作業を迅速に完了できます。
+    ko_KR: Plex는 개인 미디어 라이브러리의 비디오, 음악, 사진을 정리하고 스마트 TV, 스트리밍 박스, 모바일 기기로 스트리밍합니다. 이 컨테이너는 독립형 Plex 미디어 서버로 제공됩니다. 직관적인 디자인과 일괄 처리 기능을 통해 작업을 더 빠르게 완료할 수 있습니다.
+    ml_IN: വ്യക്തിഗത മീഡിയ ലൈബ്രറികളിൽ നിന്ന് വീഡിയോ, സംഗീതം, ഫോട്ടോകൾ എന്നിവ പ്ലെക്സ് സംഘടിപ്പിക്കുകയും സ്മാർട്ട് ടിവികളിലേക്കും സ്ട്രീമിംഗ് ബോക്സുകളിലേക്കും മൊബൈൽ ഉപകരണങ്ങളിലേക്കും സ്ട്രീം ചെയ്യുകയും ചെയ്യുന്നു. ഈ കണ്ടെയ്നർ ഒരു സ്റ്റാൻഡ്-എലോൺ പ്ലെക്സ് മീഡിയ സെർവറായി പാക്കേജുചെയ്‌തിരിക്കുന്നു. നേരായ രൂപകൽപ്പനയും ബൾക്ക് പ്രവർത്തനങ്ങളും കാര്യങ്ങൾ വേഗത്തിൽ പൂർത്തിയാക്കുന്നതിനെയാണ് അർത്ഥമാക്കുന്നത്.
+    nb_NO: Plex organiserer video, musikk og bilder fra personlige mediebiblioteker og strømmer dem til smart-TV-er, strømmebokser og mobile enheter. Denne beholderen er pakket som en frittstående Plex Media Server. Enkel design og massehandlinger betyr at du får ting gjort raskere.
+    nl_NL: Plex organiseert video's, muziek en foto's uit persoonlijke mediabibliotheken en streamt ze naar smart-tv's, streamingboxen en mobiele apparaten. Deze container is verpakt als een zelfstandige Plex Media Server. Dankzij het eenvoudige ontwerp en de bulkacties kunt u dingen sneller voor elkaar krijgen.
+    pl_PL: Plex porządkuje wideo, muzykę i zdjęcia z osobistych bibliotek multimediów i przesyła je strumieniowo do telewizorów Smart TV, dekoderów streamingowych i urządzeń mobilnych. Ten kontener jest dostępny jako samodzielny serwer multimediów Plex. Prosta konstrukcja i możliwość zbiorczego zarządzania pozwalają na szybsze wykonywanie zadań.
+    pt_BR: O Plex organiza vídeos, músicas e fotos de bibliotecas de mídia pessoais e os transmite para smart TVs, dispositivos de streaming e dispositivos móveis. Este pacote é distribuído como um servidor de mídia Plex independente. Seu design intuitivo e a possibilidade de realizar ações em lote agilizam o processo.
+    ro_RO: Plex organizează videoclipuri, muzică și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server media Plex independent. Designul simplu și acțiunile în bloc înseamnă că lucrurile pot fi realizate mai rapid.
+    ru_RU: Plex организует видео, музыку и фотографии из личных медиатек и транслирует их на смарт-телевизоры, стриминговые приставки и мобильные устройства. Этот контейнер поставляется в виде автономного медиасервера Plex. Простой дизайн и возможность выполнения пакетных операций позволяют быстрее решать задачи.
+    sk_SK: Plex organizuje videá, hudbu a fotografie z osobných mediálnych knižníc a streamuje ich do inteligentných televízorov, streamovacích boxov a mobilných zariadení. Tento kontajner je zabalený ako samostatný Plex Media Server. Jednoduchý dizajn a hromadné akcie znamenajú rýchlejšie vykonanie úloh.
+    sv_SE: Plex organiserar video, musik och foton från personliga mediebibliotek och streamar dem till smarta TV-apparater, streamingboxar och mobila enheter. Denna behållare är paketerad som en fristående Plex Media Server. Enkel design och massåtgärder gör att saker får gjorda snabbare.
+    tr_TR: Plex, kişisel medya kütüphanelerindeki video, müzik ve fotoğrafları düzenler ve bunları akıllı TV'lere, yayın kutularına ve mobil cihazlara aktarır. Bu konteyner, bağımsız bir Plex Medya Sunucusu olarak paketlenmiştir. Basit tasarım ve toplu işlemler, işlerin daha hızlı halledilmesini sağlar.
     zh_CN: Plex 可整理个人媒体库中的视频、音乐和照片，并将其串流到智能电视、流媒体盒子和移动设备。此容器提供独立的 Plex Media Server。直观的设计和批量操作可帮助你更快完成工作。
+    zh_TW: Plex 可整理個人媒體庫中的影片、音樂和照片，並將其串流到智慧電視、流媒體盒子和移動裝置。此容器提供獨立的 Plex Media Server。直觀的設計和批次操作可幫助你更快完成工作。
   tagline:
     en_US: Organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.
+    ca_ES: Organitza vídeos, música i fotos de biblioteques multimèdia personals i els transmet a televisors intel·ligents, dispositius de reproducció en temps real i dispositius mòbils. Aquest contenidor està empaquetat com un servidor multimèdia Plex independent. El disseny senzill i les accions massives permeten fer les coses més ràpidament.
+    cs_CZ: Organizuje video, hudbu a fotografie z osobních mediálních knihoven a streamuje je do chytrých televizorů, streamovacích boxů a mobilních zařízení. Tento kontejner je zabalen jako samostatný Plex Media Server. Díky jednoduchému designu a hromadným akcím se práce vyřídí rychleji.
+    da_DK: Organiserer video, musik og fotos fra personlige mediebiblioteker og streamer dem til smart-tv'er, streamingbokse og mobile enheder. Denne container er pakket som en separat Plex Media Server. Enkelt design og massehandlinger betyder, at du får tingene gjort hurtigere.
+    de_DE: Organisiert Videos, Musik und Fotos aus persönlichen Mediatheken und streamt sie auf Smart-TVs, Streaming-Boxen und Mobilgeräte. Dieser Container ist als eigenständiger Plex Media Server verfügbar. Dank des intuitiven Designs und der Möglichkeit zur Massenbearbeitung erledigen Sie Ihre Aufgaben schneller.
+    el_GR: Οργανώνει βίντεο, μουσική και φωτογραφίες από προσωπικές βιβλιοθήκες πολυμέσων και τα μεταδίδει σε έξυπνες τηλεοράσεις, συσκευές streaming και κινητές συσκευές. Αυτό το κοντέινερ είναι συσκευασμένο ως αυτόνομος διακομιστής πολυμέσων Plex. Ο απλός σχεδιασμός και οι μαζικές ενέργειες σημαίνουν ότι οι εργασίες γίνονται πιο γρήγορα.
+    en_GB: Organises video, music and photos from personal media libraries and streams them to smart Tvs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.
+    es_ES: Organiza vídeos, música y fotos de tus bibliotecas multimedia personales y los transmite a televisores inteligentes, reproductores multimedia y dispositivos móviles. Este contenedor se presenta como un servidor multimedia Plex independiente. Su diseño intuitivo y las funciones de procesamiento en lote permiten realizar tareas con mayor rapidez.
+    fr_FR: Organisez vos vidéos, musiques et photos issues de vos bibliothèques multimédias personnelles et diffusez-les sur vos téléviseurs connectés, boîtiers multimédias et appareils mobiles. Ce conteneur est fourni comme serveur multimédia Plex autonome. Son interface intuitive et ses actions groupées vous permettent d'être plus efficace.
+    ga_IE: Eagraíonn sé físeáin, ceol agus grianghraif ó leabharlanna meán pearsanta agus sruthlaíonn sé iad chuig teilifíseáin chliste, boscaí sruthú agus gléasanna soghluaiste. Tá an coimeádán seo pacáistithe mar Fhreastalaí Meán Plex neamhspleách. Ciallaíonn dearadh simplí agus gníomhartha mórchóir go ndéantar rudaí níos tapúla.
+    hr_HR: Organizira videozapise, glazbu i fotografije iz osobnih medijskih biblioteka i struji ih na pametne televizore, streaming uređaje i mobilne uređaje. Ovaj spremnik dolazi u pakiranju kao samostalni Plex Media Server. Jednostavan dizajn i skupne radnje znače brže obavljanje stvari.
+    hu_HU: Videókat, zenéket és fényképeket rendszerez személyes médiakönyvtáraiból, és streameli azokat okostévékre, streaming boxokra és mobileszközökre. Ez a konténer önálló Plex médiaszerverként van csomagolva. Az egyszerű kialakítás és a tömeges műveletek gyorsabbá teszik a feladatokat.
+    it_IT: Organizza video, musica e foto dalle librerie multimediali personali e li trasmette in streaming a smart TV, dispositivi di streaming e dispositivi mobili. Questo contenitore è distribuito come Plex Media Server autonomo. Il design intuitivo e le azioni di massa consentono di completare le operazioni più rapidamente.
+    ja_JP: 個人のメディアライブラリからビデオ、音楽、写真を整理し、スマートテレビ、ストリーミングボックス、モバイルデバイスにストリーミング配信します。このコンテナはスタンドアロンのPlex Media Serverとしてパッケージ化されています。シンプルな設計と一括操作により、作業を迅速に完了できます。
+    ko_KR: 개인 미디어 라이브러리의 비디오, 음악, 사진을 정리하고 스마트 TV, 스트리밍 박스, 모바일 기기로 스트리밍합니다. 이 컨테이너는 독립형 Plex 미디어 서버로 제공됩니다. 직관적인 디자인과 일괄 처리 기능을 통해 더욱 빠르게 작업을 완료할 수 있습니다.
+    ml_IN: വ്യക്തിഗത മീഡിയ ലൈബ്രറികളിൽ നിന്ന് വീഡിയോ, സംഗീതം, ഫോട്ടോകൾ എന്നിവ സംഘടിപ്പിക്കുകയും അവയെ സ്മാർട്ട് ടിവികളിലേക്കും സ്ട്രീമിംഗ് ബോക്സുകളിലേക്കും മൊബൈൽ ഉപകരണങ്ങളിലേക്കും സ്ട്രീം ചെയ്യുകയും ചെയ്യുന്നു. ഈ കണ്ടെയ്നർ ഒരു സ്റ്റാൻഡ്-എലോൺ പ്ലെക്സ് മീഡിയ സെർവറായി പാക്കേജുചെയ്‌തിരിക്കുന്നു. നേരായ രൂപകൽപ്പനയും ബൾക്ക് പ്രവർത്തനങ്ങളും കാര്യങ്ങൾ വേഗത്തിൽ പൂർത്തിയാക്കുന്നതിനെയാണ് അർത്ഥമാക്കുന്നത്.
+    nb_NO: Organiserer video, musikk og bilder fra personlige mediebiblioteker og strømmer dem til smart-TV-er, strømmebokser og mobile enheter. Denne beholderen er pakket som en frittstående Plex Media Server. Enkel design og massehandlinger betyr at ting blir gjort raskere.
+    nl_NL: Organiseert video's, muziek en foto's uit persoonlijke mediabibliotheken en streamt deze naar smart-tv's, streamingboxen en mobiele apparaten. Deze container is verpakt als een zelfstandige Plex Media Server. Dankzij het eenvoudige ontwerp en de bulkacties kunt u sneller aan de slag.
+    pl_PL: Porządkuje wideo, muzykę i zdjęcia z osobistych bibliotek multimediów i przesyła je strumieniowo do telewizorów Smart TV, dekoderów streamingowych i urządzeń mobilnych. Ten kontener jest dostępny jako samodzielny serwer multimediów Plex. Prosta konstrukcja i obsługa akcji zbiorczych pozwalają na szybsze wykonywanie zadań.
+    pt_BR: Organiza vídeos, músicas e fotos de bibliotecas de mídia pessoais e os transmite para smart TVs, dispositivos de streaming e dispositivos móveis. Este pacote é distribuído como um servidor de mídia Plex independente. O design intuitivo e as ações em lote permitem realizar tarefas com mais rapidez.
+    ro_RO: Organizează videoclipuri, muzică și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server Plex Media independent. Designul simplu și acțiunile în bloc înseamnă că lucrurile se finalizează mai rapid.
+    ru_RU: Организует видео, музыку и фотографии из личных медиатек и транслирует их на смарт-телевизоры, стриминговые приставки и мобильные устройства. Этот контейнер поставляется в виде автономного медиасервера Plex. Простой дизайн и возможность пакетной обработки позволяют быстрее выполнять задачи.
+    sk_SK: Organizuje videá, hudbu a fotografie z osobných mediálnych knižníc a streamuje ich do inteligentných televízorov, streamovacích boxov a mobilných zariadení. Tento kontajner je zabalený ako samostatný Plex Media Server. Jednoduchý dizajn a hromadné akcie znamenajú rýchlejšie vykonanie úloh.
+    sv_SE: Organiserar video, musik och foton från personliga mediebibliotek och streamar dem till smarta TV-apparater, streamingboxar och mobila enheter. Denna behållare är paketerad som en fristående Plex Media Server. Enkel design och massåtgärder gör att saker blir gjorda snabbare.
+    tr_TR: Kişisel medya kütüphanelerindeki videoları, müzikleri ve fotoğrafları düzenler ve akıllı TV'lere, yayın kutularına ve mobil cihazlara aktarır. Bu konteyner, bağımsız bir Plex Medya Sunucusu olarak paketlenmiştir. Basit tasarım ve toplu işlemler, işlerin daha hızlı halledilmesini sağlar.
     zh_CN: 整理和串流个人视频、音乐及照片。
+    zh_TW: 整理和串流個人影片、音樂及照片。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-logo.png
   title:
     en_US: Plex (LinuxServer.io)
+    ca_ES: Plex (LinuxServer.io)
+    cs_CZ: Plex (LinuxServer.io)
+    da_DK: Plex (LinuxServer.io)
+    de_DE: Plex (LinuxServer.io)
+    el_GR: Plex (LinuxServer.io)
+    en_GB: Plex (LinuxServer.io)
+    es_ES: Plex (LinuxServer.io)
+    fr_FR: Plex (LinuxServer.io)
+    ga_IE: Plex (LinuxServer.io)
+    hr_HR: Plex (LinuxServer.io)
+    hu_HU: Plex (LinuxServer.io)
+    it_IT: Plex (LinuxServer.io)
+    ja_JP: Plex (LinuxServer.io)
+    ko_KR: Plex (LinuxServer.io)
+    ml_IN: Plex (LinuxServer.io)
+    nb_NO: Plex (LinuxServer.io)
+    nl_NL: Plex (LinuxServer.io)
+    pl_PL: Plex (LinuxServer.io)
+    pt_BR: Plex (LinuxServer.io)
+    ro_RO: Plex (LinuxServer.io)
+    ru_RU: Plex (LinuxServer.io)
+    sk_SK: Plex (LinuxServer.io)
+    sv_SE: Plex (LinuxServer.io)
+    tr_TR: Plex (LinuxServer.io)
     zh_CN: Plex（LinuxServer.io）
+    zh_TW: Plex（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverplex
   port_map: '80'

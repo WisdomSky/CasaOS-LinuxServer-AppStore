@@ -112,17 +112,92 @@ x-casaos:
   main: app
   description:
     en_US: Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+    ca_ES: Healthchecks és un watchdog per a les vostres tasques cron. És un servidor web que escolta els pings de les vostres tasques cron, a més d'una interfície web.
+    cs_CZ: Healthchecks je hlídací pes pro vaše cron úlohy. Je to webový server, který naslouchá pingům z vašich cron úloh a má k dispozici webové rozhraní.
+    da_DK: Healthchecks er en vagthund for dine cron-job. Det er en webserver, der lytter efter pings fra dine cron-job, plus en webgrænseflade.
+    de_DE: Healthchecks ist ein Überwachungstool für Ihre Cronjobs. Es handelt sich um einen Webserver, der auf Anfragen Ihrer Cronjobs wartet, sowie um eine Weboberfläche.
+    el_GR: Το Healthchecks είναι ένας ελεγκτής για τις εργασίες cron σας. Είναι ένας διακομιστής ιστού που ακούει για pings από τις εργασίες cron σας, καθώς και μια διεπαφή ιστού.
+    en_GB: Healthchecks is a watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+    es_ES: Healthchecks es un sistema de supervisión para tus tareas programadas (cron jobs). Es un servidor web que escucha las señales de tus tareas programadas, además de contar con una interfaz web.
+    fr_FR: Healthchecks est un outil de surveillance pour vos tâches cron. Il s'agit d'un serveur web qui écoute les requêtes de vos tâches cron et qui dispose également d'une interface web.
+    ga_IE: Is faireadóir é Healthchecks do do phoist cron. Is freastalaí gréasáin é a éisteann le haghaidh pings ó do phoist cron, chomh maith le comhéadan gréasáin.
+    hr_HR: Healthchecks je nadzornik za vaše cron poslove. To je web poslužitelj koji sluša pingove iz vaših cron poslova, plus web sučelje.
+    hu_HU: A Healthchecks egy felügyeleti eszköz a cron feladatokhoz. Ez egy webszerver, amely figyeli a cron feladatoktól érkező pingeket, plusz egy webes felület.
+    it_IT: Healthchecks è un sistema di monitoraggio per i tuoi processi cron. Si tratta di un server web che si mette in ascolto dei ping provenienti dai tuoi processi cron, oltre a disporre di un'interfaccia web.
+    ja_JP: Healthchecksは、cronジョブを監視するツールです。cronジョブからのpingをリッスンするWebサーバーと、Webインターフェースを備えています。
+    ko_KR: Healthchecks는 cron 작업의 상태를 감시하는 도구입니다. cron 작업에서 보내는 ping 신호를 수신하는 웹 서버이자 웹 인터페이스를 제공합니다.
+    ml_IN: നിങ്ങളുടെ ക്രോൺ ജോലികൾക്കുള്ള ഒരു കാവൽക്കാരനാണ് ഹെൽത്ത്ചെക്കുകൾ. ഇത് നിങ്ങളുടെ ക്രോൺ ജോലികളിൽ നിന്നുള്ള പിംഗുകൾ ശ്രദ്ധിക്കുന്ന ഒരു വെബ് സെർവറാണ്, കൂടാതെ ഒരു വെബ് ഇന്റർഫേസും.
+    nb_NO: Helsesjekker er en vaktbikkje for cron-jobbene dine. Det er en webserver som lytter etter pings fra cron-jobbene dine, pluss et webgrensesnitt.
+    nl_NL: Healthchecks is een waakhond voor je cronjobs. Het is een webserver die luistert naar pings van je cronjobs, plus een webinterface.
+    pl_PL: Healthchecks to system nadzorujący zadania cron. To serwer WWW, który nasłuchuje pingów z zadań cron, a także interfejs WWW.
+    pt_BR: O Healthchecks é um monitor para suas tarefas cron. É um servidor web que fica à escuta de pings das suas tarefas cron, além de oferecer uma interface web.
+    ro_RO: Healthchecks este un sistem de supraveghere pentru cron job-urile tale. Este un server web care ascultă ping-uri de la cron job-urile tale, plus o interfață web.
+    ru_RU: Healthchecks — это инструмент для мониторинга ваших заданий cron. Это веб-сервер, который принимает запросы от ваших заданий cron, а также веб-интерфейс.
+    sk_SK: Healthchecks je strážny pes pre vaše cron úlohy. Je to webový server, ktorý počúva pingy z vašich cron úloh a má aj webové rozhranie.
+    sv_SE: Healthchecks är en övervakningsfunktion för dina cron-jobb. Det är en webbserver som lyssnar efter pings från dina cron-jobb, plus ett webbgränssnitt.
+    tr_TR: Healthchecks, cron işleriniz için bir izleme sistemidir. Cron işlerinizden gelen ping'leri dinleyen bir web sunucusu ve bir web arayüzüdür.
     zh_CN: Healthchecks 是 cron 定时任务的监控工具。它包含一个接收任务心跳请求的网页服务器，以及相应的网页界面。
+    zh_TW: Healthchecks 是 cron 定時任務的監控工具。它包含一個接收任務心跳請求的網頁伺服器，以及相應的網頁介面。
   tagline:
     en_US: A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+    ca_ES: Un watchdog per a les teves tasques cron. És un servidor web que escolta els pings de les teves tasques cron, a més d'una interfície web.
+    cs_CZ: Hlídací pes pro vaše cron úlohy. Je to webový server, který naslouchá pingům z vašich cron úloh a má webové rozhraní.
+    da_DK: En vagthund for dine cron-job. Det er en webserver, der lytter efter pings fra dine cron-job, plus en webgrænseflade.
+    de_DE: Ein Wächter für Ihre Cronjobs. Es handelt sich um einen Webserver, der auf Pings von Ihren Cronjobs wartet, sowie um eine Weboberfläche.
+    el_GR: Ένας φύλακας για τις εργασίες cron σας. Είναι ένας διακομιστής ιστού που ακούει για pings από τις εργασίες cron σας, καθώς και μια διεπαφή ιστού.
+    en_GB: A watchdog for your cron jobs. It's a web server that listens for pings from your cron jobs, plus a web interface.
+    es_ES: Un sistema de vigilancia para tus tareas programadas (cron jobs). Se trata de un servidor web que escucha las solicitudes de tus tareas programadas, además de contar con una interfaz web.
+    fr_FR: Un outil de surveillance pour vos tâches cron. Il s'agit d'un serveur web qui écoute les requêtes de vos tâches cron et qui dispose d'une interface web.
+    ga_IE: Madra faire do do phoist cron. Is freastalaí gréasáin é a éisteann le haghaidh pings ó do phoist cron, chomh maith le comhéadan gréasáin.
+    hr_HR: Nadzornik za vaše cron poslove. To je web poslužitelj koji sluša pingove iz vaših cron poslova, plus web sučelje.
+    hu_HU: Egy watchdog a cron feladataidhoz. Ez egy webszerver, amely figyeli a cron feladataidtól érkező pingeket, plusz egy webes felület.
+    it_IT: Un sistema di monitoraggio per i tuoi processi cron. Si tratta di un server web che si mette in ascolto dei ping provenienti dai tuoi processi cron, con annessa un'interfaccia web.
+    ja_JP: cronジョブを監視するウォッチドッグです。cronジョブからのpingをリッスンするWebサーバーと、Webインターフェースを備えています。
+    ko_KR: cron 작업을 감시하는 도구입니다. cron 작업에서 보내는 신호를 수신하는 웹 서버이자 웹 인터페이스입니다.
+    ml_IN: നിങ്ങളുടെ ക്രോൺ ജോലികൾക്കുള്ള ഒരു കാവൽക്കാരൻ. ഇത് നിങ്ങളുടെ ക്രോൺ ജോലികളിൽ നിന്നുള്ള പിംഗുകൾ ശ്രദ്ധിക്കുന്ന ഒരു വെബ് സെർവറാണ്, കൂടാതെ ഒരു വെബ് ഇന്റർഫേസും.
+    nb_NO: En vaktbikkje for cron-jobbene dine. Det er en webserver som lytter etter pings fra cron-jobbene dine, pluss et webgrensesnitt.
+    nl_NL: Een waakhond voor je cronjobs. Het is een webserver die luistert naar pings van je cronjobs, plus een webinterface.
+    pl_PL: Watchdog dla Twoich zadań cron. To serwer WWW, który nasłuchuje pingów z Twoich zadań cron, a także interfejs WWW.
+    pt_BR: Um monitor para suas tarefas cron. É um servidor web que fica à escuta de pings das suas tarefas cron, além de oferecer uma interface web.
+    ro_RO: Un watchdog pentru cron job-urile tale. Este un server web care ascultă ping-urile de la cron job-urile tale, plus o interfață web.
+    ru_RU: Это своего рода «сторожевой механизм» для ваших заданий cron. Это веб-сервер, который принимает пинги от ваших заданий cron, а также веб-интерфейс.
+    sk_SK: Strážny pes pre vaše cron úlohy. Je to webový server, ktorý počúva pingy z vašich cron úloh a má aj webové rozhranie.
+    sv_SE: En vakthund för dina cron-jobb. Det är en webbserver som lyssnar efter pings från dina cron-jobb, plus ett webbgränssnitt.
+    tr_TR: Cron işleriniz için bir bekçi. Cron işlerinizden gelen ping'leri dinleyen bir web sunucusu ve ayrıca bir web arayüzüdür.
     zh_CN: 监控 cron 定时任务是否按时运行。
+    zh_TW: 監控 cron 定時任務是否按時執行。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/healthchecks-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/healthchecks-logo.png
   title:
     en_US: Healthchecks (LinuxServer.io)
+    ca_ES: Healthchecks (LinuxServer.io)
+    cs_CZ: Healthchecks (LinuxServer.io)
+    da_DK: Healthchecks (LinuxServer.io)
+    de_DE: Healthchecks (LinuxServer.io)
+    el_GR: Healthchecks (LinuxServer.io)
+    en_GB: Healthchecks (LinuxServer.io)
+    es_ES: Healthchecks (LinuxServer.io)
+    fr_FR: Healthchecks (LinuxServer.io)
+    ga_IE: Healthchecks (LinuxServer.io)
+    hr_HR: Healthchecks (LinuxServer.io)
+    hu_HU: Healthchecks (LinuxServer.io)
+    it_IT: Healthchecks (LinuxServer.io)
+    ja_JP: Healthchecks (LinuxServer.io)
+    ko_KR: Healthchecks (LinuxServer.io)
+    ml_IN: Healthchecks (LinuxServer.io)
+    nb_NO: Healthchecks (LinuxServer.io)
+    nl_NL: Healthchecks (LinuxServer.io)
+    pl_PL: Healthchecks (LinuxServer.io)
+    pt_BR: Healthchecks (LinuxServer.io)
+    ro_RO: Healthchecks (LinuxServer.io)
+    ru_RU: Healthchecks (LinuxServer.io)
+    sk_SK: Healthchecks (LinuxServer.io)
+    sv_SE: Healthchecks (LinuxServer.io)
+    tr_TR: Healthchecks (LinuxServer.io)
     zh_CN: Healthchecks（LinuxServer.io）
+    zh_TW: Healthchecks（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhealthchecks
   port_map: '8000'

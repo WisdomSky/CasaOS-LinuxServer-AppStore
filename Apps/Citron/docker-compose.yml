@@ -36,9 +36,59 @@ x-casaos:
   description:
     en_US: Citron is a feature rich Switch 1 emulator for homebrew.
     zh_CN: Citron 是一款面向自制软件、功能丰富的 Switch 1 模拟器。
+    ca_ES: Citron és un emulador de Switch 1 ric en funcions per a homebrew.
+    cs_CZ: Citron je emulátor Switch 1 bohatý na funkce pro domácí piva.
+    da_DK: Citron er en funktionsrig Switch 1 emulator til hjemmebryg.
+    de_DE: Citron ist ein funktionsreicher Switch 1-Emulator für Homebrew-Anwendungen.
+    el_GR: Το Citron είναι ένας πλούσιος σε λειτουργίες εξομοιωτής Switch 1 για homebrew.
+    en_GB: Citron is a feature rich Switch 1 emulator for homebrew.
+    es_ES: Citron es un emulador de Switch 1 con muchas funciones para software casero.
+    fr_FR: Citron est un émulateur Switch 1 riche en fonctionnalités pour les programmes homebrew.
+    ga_IE: Is aithriseoir Switch 1 saibhir i ngnéithe é Citron le haghaidh grúdaireachta baile.
+    hr_HR: Citron je bogat značajkama emulator Switcha 1 za kućnu upotrebu.
+    hu_HU: A Citron egy funkciókban gazdag Switch 1 emulátor otthoni használatra.
+    it_IT: Citron è un emulatore di Switch 1 ricco di funzionalità per applicazioni homebrew.
+    ja_JP: Citronは、自作ソフト向けの機能豊富なSwitch 1エミュレータです。
+    ko_KR: Citron은 홈브루용으로 제작된 기능이 풍부한 닌텐도 스위치 1 에뮬레이터입니다.
+    ml_IN: ഹോംബ്രൂവിനുള്ള സവിശേഷതകളാൽ സമ്പന്നമായ ഒരു സ്വിച്ച് 1 എമുലേറ്ററാണ് സിട്രോൺ.
+    nb_NO: Citron er en funksjonsrik Switch 1-emulator for hjemmebrygging.
+    nl_NL: Citron is een Switch 1-emulator met veel functies voor homebrew-applicaties.
+    pl_PL: Citron to bogaty w funkcje emulator Switch 1 dla Homebrew.
+    pt_BR: Citron é um emulador de Switch 1 repleto de recursos para desenvolvimento caseiro.
+    ro_RO: Citron este un emulator Switch 1 bogat în funcții pentru homebrew.
+    ru_RU: Citron — это многофункциональный эмулятор Nintendo Switch 1 для самодельных приложений.
+    sk_SK: Citron je emulátor Switch 1 bohatý na funkcie pre domáce varenie.
+    sv_SE: Citron är en funktionsrik Switch 1-emulator för hembryggning.
+    tr_TR: Citron, homebrew için özellik açısından zengin bir Switch 1 emülatörüdür.
+    zh_TW: Citron 是一款面向自制軟體、功能豐富的 Switch 1 模擬器。
   tagline:
     en_US: A feature rich Switch 1 emulator for homebrew.
     zh_CN: 面向自制软件、功能丰富的 Switch 1 模拟器。
+    ca_ES: Un emulador de Switch 1 ric en funcions per a homebrew.
+    cs_CZ: Emulátor Switch 1 s bohatými funkcemi pro domácí vývojáře.
+    da_DK: En funktionsrig Switch 1 emulator til hjemmebryg.
+    de_DE: Ein funktionsreicher Switch 1-Emulator für Homebrew.
+    el_GR: Ένας πλούσιος σε λειτουργίες εξομοιωτής Switch 1 για homebrew.
+    en_GB: A feature rich Switch 1 emulator for homebrew.
+    es_ES: Un emulador de Switch 1 con muchas funciones para aplicaciones caseras.
+    fr_FR: Un émulateur Switch 1 riche en fonctionnalités pour les programmes homebrew.
+    ga_IE: Aithriseoir Switch 1 atá saibhir ó thaobh gnéithe de le haghaidh grúdaireachta baile.
+    hr_HR: Bogat značajkama emulator Switch 1 za kućnu upotrebu.
+    hu_HU: Egy funkciókban gazdag Switch 1 emulátor házi készítésű játékokhoz.
+    it_IT: Un emulatore per Switch 1 ricco di funzionalità, ideale per chi desidera creare applicazioni homebrew.
+    ja_JP: 自作ソフト向けの、機能豊富なSwitch 1エミュレータ。
+    ko_KR: 다양한 기능을 갖춘 닌텐도 스위치 1 에뮬레이터로, 홈브루(자작 개발자)에 적합합니다.
+    ml_IN: ഹോംബ്രൂവിനുള്ള സവിശേഷതകളാൽ സമ്പന്നമായ ഒരു സ്വിച്ച് 1 എമുലേറ്റർ.
+    nb_NO: En funksjonsrik Switch 1-emulator for hjemmebrygging.
+    nl_NL: Een Switch 1-emulator met uitgebreide functionaliteit voor homebrew-projecten.
+    pl_PL: Bogaty w funkcje emulator Switch 1 dla Homebrew.
+    pt_BR: Um emulador de Switch 1 repleto de recursos para desenvolvimento caseiro.
+    ro_RO: Un emulator Switch 1 bogat în funcții pentru homebrew.
+    ru_RU: Многофункциональный эмулятор Nintendo Switch 1 для самодельных приложений.
+    sk_SK: Emulátor Switch 1 s bohatými funkciami pre domáce hry.
+    sv_SE: En funktionsrik Switch 1-emulator för hembryggning.
+    tr_TR: Ev yapımı yazılımlar için zengin özelliklere sahip bir Switch 1 emülatörü.
+    zh_TW: 面向自制軟體、功能豐富的 Switch 1 模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/citron-logo.png
@@ -46,6 +96,31 @@ x-casaos:
   title:
     en_US: Citron
     zh_CN: Citron
+    ca_ES: Citron
+    cs_CZ: Citron
+    da_DK: Citron
+    de_DE: Citron
+    el_GR: Citron
+    en_GB: Citron
+    es_ES: Citron
+    fr_FR: Citron
+    ga_IE: Citron
+    hr_HR: Citron
+    hu_HU: Citron
+    it_IT: Citron
+    ja_JP: Citron
+    ko_KR: Citron
+    ml_IN: Citron
+    nb_NO: Citron
+    nl_NL: Citron
+    pl_PL: Citron
+    pt_BR: Citron
+    ro_RO: Citron
+    ru_RU: Citron
+    sk_SK: Citron
+    sv_SE: Citron
+    tr_TR: Citron
+    zh_TW: Citron
   category: Others
   id: wisdomsky.linuxserver.linuxservercitron
   version: 2026.02.1

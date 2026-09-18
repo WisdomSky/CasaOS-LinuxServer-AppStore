@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: MediaElch is a MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart.tv. Using the nfo generator, MediaElch can be used with other MediaCenters as well.
+    ca_ES: MediaElch és un gestor de continguts multimèdia per a Kodi. La informació sobre pel·lícules, programes de televisió, concerts i música s'emmagatzema com a fitxers nfo. Els fanarts es descarreguen automàticament des de fanart.tv. Amb el generador nfo, MediaElch també es pot utilitzar amb altres MediaCenters.
+    cs_CZ: MediaElch je MediaManager pro Kodi. Informace o filmech, televizních pořadech, koncertech a hudbě jsou uloženy jako soubory NFO. Fanouškovská umění se automaticky stahují z fanart.tv. Pomocí generátoru NFO lze MediaElch používat i s jinými MediaCentry.
+    da_DK: MediaElch er en MediaManager til Kodi. Information om film, tv-serier, koncerter og musik gemmes som nfo-filer. Fanart-billeder downloades automatisk fra fanart.tv. Ved hjælp af nfo-generatoren kan MediaElch også bruges med andre MediaCenters.
+    de_DE: MediaElch ist ein MediaManager für Kodi. Informationen zu Filmen, Serien, Konzerten und Musik werden in NFO-Dateien gespeichert. Fanarts werden automatisch von fanart.tv heruntergeladen. Mithilfe des NFO-Generators lässt sich MediaElch auch mit anderen MediaCentern verwenden.
+    el_GR: Το MediaElch είναι ένας Διαχειριστής Μέσων για το Kodi. Πληροφορίες σχετικά με ταινίες, τηλεοπτικές εκπομπές, συναυλίες και μουσική αποθηκεύονται ως αρχεία nfo. Τα Fanarts λαμβάνονται αυτόματα από το fanart.tv. Χρησιμοποιώντας τη γεννήτρια nfo, το MediaElch μπορεί να χρησιμοποιηθεί και με άλλα Κέντρα Μέσων.
+    en_GB: Mediaelch is a Mediamanager for Kodi. Information about Movies, Tv Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart.tv. Using the nfo generator, Mediaelch can be used with other Mediacenters as well.
+    es_ES: MediaElch es un gestor multimedia para Kodi. La información sobre películas, series, conciertos y música se almacena en archivos .nfo. Los fanarts se descargan automáticamente desde fanart.tv. Gracias al generador de archivos .nfo, MediaElch también se puede usar con otros centros multimedia.
+    fr_FR: MediaElch est un gestionnaire multimédia pour Kodi. Les informations sur les films, les séries, les concerts et la musique sont stockées sous forme de fichiers .nfo. Les fanarts sont téléchargés automatiquement depuis fanart.tv. Grâce à son générateur de fichiers .nfo, MediaElch est également compatible avec d'autres centres multimédias.
+    ga_IE: Is MediaManager do Kodi é MediaElch. Stóráiltear faisnéis faoi Scannáin, Seónna Teilifíse, Ceolchoirmeacha agus Ceol mar chomhaid nfo. Íoslódáiltear lucht leanúna go huathoibríoch ó fanart.tv. Ag baint úsáide as an ngineadóir nfo, is féidir MediaElch a úsáid le MediaCenters eile chomh maith.
+    hr_HR: MediaElch je MediaManager za Kodi. Informacije o filmovima, TV emisijama, koncertima i glazbi pohranjuju se kao nfo datoteke. Umjetničke slike se automatski preuzimaju s fanart.tv. Pomoću nfo generatora, MediaElch se može koristiti i s drugim MediaCenterima.
+    hu_HU: A MediaElch egy médiakezelő a Kodihoz. A filmekkel, tévéműsorokkal, koncertekkel és zenével kapcsolatos információk nfo fájlokban tárolódnak. A rajongói alkotások automatikusan letöltődnek a fanart.tv oldalról. Az nfo generátor segítségével a MediaElch más médiaközpontokkal is használható.
+    it_IT: MediaElch è un MediaManager per Kodi. Le informazioni su film, serie TV, concerti e musica vengono memorizzate come file .nfo. Le fanart vengono scaricate automaticamente da fanart.tv. Grazie al generatore di file .nfo, MediaElch può essere utilizzato anche con altri MediaCenter.
+    ja_JP: MediaElchはKodi用のメディアマネージャーです。映画、テレビ番組、コンサート、音楽に関する情報はnfoファイルとして保存されます。ファンアートはfanart.tvから自動的にダウンロードされます。nfoジェネレーターを使用することで、MediaElchは他のメディアセンターとも連携して使用できます。
+    ko_KR: MediaElch는 Kodi용 미디어 관리자입니다. 영화, TV 프로그램, 콘서트 및 음악에 대한 정보는 nfo 파일로 저장됩니다. 팬아트는 fanart.tv에서 자동으로 다운로드됩니다. nfo 생성기를 사용하면 MediaElch를 다른 미디어 센터와 함께 사용할 수도 있습니다.
+    ml_IN: മീഡിയഎൽച്ച് കോഡിയുടെ ഒരു മീഡിയ മാനേജരാണ്. സിനിമകൾ, ടിവി ഷോകൾ, കച്ചേരികൾ, സംഗീതം എന്നിവയെക്കുറിച്ചുള്ള വിവരങ്ങൾ nfo ഫയലുകളായി സൂക്ഷിക്കുന്നു. fanart.tv-യിൽ നിന്ന് ഫാൻആർട്ടുകൾ സ്വയമേവ ഡൗൺലോഡ് ചെയ്യപ്പെടുന്നു. nfo ജനറേറ്റർ ഉപയോഗിച്ച്, മറ്റ് മീഡിയസെന്ററുകളുമായും മീഡിയഎൽച്ച് ഉപയോഗിക്കാൻ കഴിയും.
+    nb_NO: MediaElch er en MediaManager for Kodi. Informasjon om filmer, TV-serier, konserter og musikk lagres som nfo-filer. Fanart-bilder lastes ned automatisk fra fanart.tv. Ved hjelp av nfo-generatoren kan MediaElch også brukes med andre MediaCenters.
+    nl_NL: MediaElch is een mediabeheerder voor Kodi. Informatie over films, tv-series, concerten en muziek wordt opgeslagen als nfo-bestanden. Fanart wordt automatisch gedownload van fanart.tv. Dankzij de nfo-generator kan MediaElch ook met andere mediacenters worden gebruikt.
+    pl_PL: MediaElch to menedżer multimediów dla Kodi. Informacje o filmach, programach telewizyjnych, koncertach i muzyce są przechowywane w plikach nfo. Fanarty są pobierane automatycznie z fanart.tv. Dzięki generatorowi nfo, MediaElch można używać również z innymi centrami multimediów.
+    pt_BR: MediaElch é um gerenciador de mídia para Kodi. Informações sobre filmes, séries, shows e músicas são armazenadas como arquivos NFO. Imagens de fãs são baixadas automaticamente do fanart.tv. Usando o gerador de NFO, o MediaElch também pode ser usado com outros media centers.
+    ro_RO: MediaElch este un MediaManager pentru Kodi. Informațiile despre filme, emisiuni TV, concerte și muzică sunt stocate ca fișiere nfo. Fanart-urile sunt descărcate automat de pe fanart.tv. Folosind generatorul nfo, MediaElch poate fi utilizat și cu alte MediaCentre.
+    ru_RU: MediaElch — это медиаменеджер для Kodi. Информация о фильмах, телешоу, концертах и музыке хранится в виде nfo-файлов. Фанарт автоматически загружается с fanart.tv. С помощью генератора nfo-файлов MediaElch можно использовать и с другими медиацентрами.
+    sk_SK: MediaElch je MediaManager pre Kodi. Informácie o filmoch, televíznych reláciách, koncertoch a hudbe sú uložené ako súbory NFO. Fanúšikovské umenie sa automaticky sťahuje z fanart.tv. Pomocou generátora NFO je možné MediaElch používať aj s inými MediaCentermi.
+    sv_SE: MediaElch är en MediaManager för Kodi. Information om filmer, TV-program, konserter och musik lagras som nfo-filer. Fanart-bilder laddas ner automatiskt från fanart.tv. Med hjälp av nfo-generatorn kan MediaElch även användas med andra MediaCenters.
+    tr_TR: MediaElch, Kodi için bir Medya Yöneticisidir. Filmler, TV şovları, konserler ve müzik hakkındaki bilgiler nfo dosyaları olarak saklanır. Fanartlar fanart.tv'den otomatik olarak indirilir. Nfo oluşturucu kullanılarak, MediaElch diğer Medya Merkezleriyle de kullanılabilir.
     zh_CN: MediaElch 是面向 Kodi 的媒体管理器，将电影、电视剧、演唱会和音乐信息保存为 NFO 文件，并自动从 fanart.tv 下载背景图。借助 NFO 生成器，它也可与其他媒体中心一起使用。
+    zh_TW: MediaElch 是面向 Kodi 的媒體管理器，將電影、電視劇、演唱會和音樂資訊儲存為 NFO 檔案，並自動從 fanart.tv 下載背景圖。藉助 NFO 生成器，它也可與其他媒體中心一起使用。
   tagline:
     en_US: A MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart. Tv. Using the nfo generator, MediaElch can be used with other MediaCenters as well.
+    ca_ES: Un MediaManager per a Kodi. La informació sobre pel·lícules, programes de televisió, concerts i música s'emmagatzema com a fitxers nfo. Els fanarts es descarreguen automàticament des de fanart.Tv. Amb el generador nfo, MediaElch també es pot utilitzar amb altres MediaCenters.
+    cs_CZ: MediaManager pro Kodi. Informace o filmech, televizních pořadech, koncertech a hudbě jsou uloženy jako soubory NFO. Fanouškovské kresby se stahují automaticky z fanartu. TV. Pomocí generátoru NFO lze MediaElch používat i s jinými MediaCentry.
+    da_DK: En MediaManager til Kodi. Information om film, tv-serier, koncerter og musik gemmes som nfo-filer. Fanart-billeder downloades automatisk fra fanart.tv. Ved hjælp af nfo-generatoren kan MediaElch også bruges med andre mediacentre.
+    de_DE: Ein MediaManager für Kodi. Informationen zu Filmen, Serien, Konzerten und Musik werden in NFO-Dateien gespeichert. Fanarts werden automatisch von fanart.tv heruntergeladen. Mithilfe des NFO-Generators ist MediaElch auch mit anderen MediaCentern kompatibel.
+    el_GR: Ένα MediaManager για το Kodi. Πληροφορίες σχετικά με ταινίες, τηλεοπτικές εκπομπές, συναυλίες και μουσική αποθηκεύονται ως αρχεία nfo. Τα fanarts λαμβάνονται αυτόματα από το fanart. Τηλεόραση. Χρησιμοποιώντας τη γεννήτρια nfo, το MediaElch μπορεί να χρησιμοποιηθεί και με άλλα MediaCenters.
+    en_GB: A Mediamanager for Kodi. Information about Movies, Tv Shows, Concerts and Music are stored as nfo files. Fanarts are downloaded automatically from fanart. Tv. Using the nfo generator, Mediaelch can be used with other Mediacenters as well.
+    es_ES: Un gestor multimedia para Kodi. La información sobre películas, series, conciertos y música se almacena en archivos nfo. Los fanarts se descargan automáticamente desde fanart.tv. Gracias al generador de archivos nfo, MediaElch también puede utilizarse con otros centros multimedia.
+    fr_FR: MediaElch est un gestionnaire multimédia pour Kodi. Les informations sur les films, les séries, les concerts et la musique sont stockées sous forme de fichiers NFO. Les illustrations sont téléchargées automatiquement depuis fanart.tv. Grâce à son générateur NFO, MediaElch est également compatible avec d'autres centres multimédias.
+    ga_IE: Bainisteoir Meán do Kodi. Stóráiltear faisnéis faoi Scannáin, Seónna Teilifíse, Ceolchoirmeacha agus Ceol mar chomhaid nfo. Íoslódáiltear lucht leanúna go huathoibríoch ó fanart.Tv. Ag baint úsáide as an ngineadóir nfo, is féidir MediaElch a úsáid le MediaCenters eile chomh maith.
+    hr_HR: MediaManager za Kodi. Informacije o filmovima, TV emisijama, koncertima i glazbi pohranjuju se kao nfo datoteke. Fanart se automatski preuzima s fanarta. Tv. Pomoću nfo generatora, MediaElch se može koristiti i s drugim MediaCenterima.
+    hu_HU: Egy MediaManager a Kodihoz. A filmekkel, tévéműsorokkal, koncertekkel és zenével kapcsolatos információk nfo fájlokban tárolódnak. A rajongói alkotások automatikusan letöltődnek a fanart.tv oldalról. Az nfo generátor segítségével a MediaElch más MediaCenterekkel is használható.
+    it_IT: Un MediaManager per Kodi. Le informazioni su film, serie TV, concerti e musica vengono memorizzate come file nfo. Le fanart vengono scaricate automaticamente da fanart.tv. Grazie al generatore di file nfo, MediaElch può essere utilizzato anche con altri MediaCenter.
+    ja_JP: Kodi 用のメディアマネージャーです。映画、テレビ番組、コンサート、音楽に関する情報は nfo ファイルとして保存されます。ファンアートは fanart.tv から自動的にダウンロードされます。nfo ジェネレーターを使用することで、MediaElch は他のメディアセンターでも使用できます。
+    ko_KR: Kodi용 미디어 관리자입니다. 영화, TV 프로그램, 콘서트 및 음악에 대한 정보는 nfo 파일로 저장됩니다. 팬아트는 fanart.tv에서 자동으로 다운로드됩니다. nfo 생성기를 사용하면 MediaElch를 다른 미디어 센터와 함께 사용할 수도 있습니다.
+    ml_IN: കോഡിക്കുള്ള ഒരു മീഡിയ മാനേജർ. സിനിമകൾ, ടിവി ഷോകൾ, കച്ചേരികൾ, സംഗീതം എന്നിവയെക്കുറിച്ചുള്ള വിവരങ്ങൾ nfo ഫയലുകളായി സൂക്ഷിക്കുന്നു. ഫാൻ ആർട്ടുകൾ ഫാൻ ആർട്ടിൽ നിന്ന് സ്വയമേവ ഡൗൺലോഡ് ചെയ്യപ്പെടുന്നു. ടിവി. nfo ജനറേറ്റർ ഉപയോഗിച്ച്, മറ്റ് മീഡിയ സെന്ററുകളുമായും MediaElch ഉപയോഗിക്കാൻ കഴിയും.
+    nb_NO: En MediaManager for Kodi. Informasjon om filmer, TV-serier, konserter og musikk lagres som nfo-filer. Fanart-bilder lastes ned automatisk fra fanart.Tv. Ved hjelp av nfo-generatoren kan MediaElch også brukes med andre mediasentre.
+    nl_NL: Een mediamanager voor Kodi. Informatie over films, tv-series, concerten en muziek wordt opgeslagen als nfo-bestanden. Fanart wordt automatisch gedownload van fanart.tv. Dankzij de nfo-generator kan MediaElch ook met andere mediacenters worden gebruikt.
+    pl_PL: Menedżer multimediów dla Kodi. Informacje o filmach, programach telewizyjnych, koncertach i muzyce są przechowywane w plikach nfo. Fanarty są pobierane automatycznie z fanart.tv. Dzięki generatorowi nfo, MediaElch można używać również z innymi MediaCenters.
+    pt_BR: Um gerenciador de mídia para Kodi. Informações sobre filmes, séries, shows e músicas são armazenadas como arquivos NFO. Fanarts são baixadas automaticamente do fanart.tv. Usando o gerador de NFO, o MediaElch também pode ser usado com outros media centers.
+    ro_RO: Un MediaManager pentru Kodi. Informațiile despre filme, emisiuni TV, concerte și muzică sunt stocate ca fișiere nfo. Fanart-urile sunt descărcate automat din fanart.Tv. Folosind generatorul nfo, MediaElch poate fi utilizat și cu alte MediaCentre.
+    ru_RU: Медиаменеджер для Kodi. Информация о фильмах, телешоу, концертах и музыке хранится в виде nfo-файлов. Фанарт автоматически загружается с сайта fanart.tv. Используя генератор nfo-файлов, MediaElch можно использовать и с другими медиацентрами.
+    sk_SK: MediaManager pre Kodi. Informácie o filmoch, televíznych reláciách, koncertoch a hudbe sú uložené ako súbory nfo. Fanúšikovské umenie sa automaticky sťahuje z fanartu. TV. Pomocou generátora nfo je možné MediaElch používať aj s inými MediaCentermi.
+    sv_SE: En MediaManager för Kodi. Information om filmer, TV-program, konserter och musik lagras som nfo-filer. Fanart-bilder laddas ner automatiskt från fanart.tv. Med hjälp av nfo-generatorn kan MediaElch även användas med andra mediacenter.
+    tr_TR: Kodi için bir Medya Yöneticisi. Filmler, TV Dizileri, Konserler ve Müzik hakkındaki bilgiler nfo dosyaları olarak saklanır. Fanartlar otomatik olarak fanart.tv adresinden indirilir. Nfo oluşturucu kullanılarak, MediaElch diğer Medya Merkezleriyle de kullanılabilir.
     zh_CN: 为 Kodi 整理影视、演唱会和音乐元数据。
+    zh_TW: 為 Kodi 整理影視、演唱會和音樂後設資料。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mediaelch-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mediaelch-logo.png
   title:
     en_US: Mediaelch (LinuxServer.io)
+    ca_ES: Mediaelch (LinuxServer.io)
+    cs_CZ: Mediaelch (LinuxServer.io)
+    da_DK: Mediaelch (LinuxServer.io)
+    de_DE: Mediaelch (LinuxServer.io)
+    el_GR: Mediaelch (LinuxServer.io)
+    en_GB: Mediaelch (LinuxServer.io)
+    es_ES: Mediaelch (LinuxServer.io)
+    fr_FR: Mediaelch (LinuxServer.io)
+    ga_IE: Mediaelch (LinuxServer.io)
+    hr_HR: Mediaelch (LinuxServer.io)
+    hu_HU: Mediaelch (LinuxServer.io)
+    it_IT: Mediaelch (LinuxServer.io)
+    ja_JP: Mediaelch (LinuxServer.io)
+    ko_KR: Mediaelch (LinuxServer.io)
+    ml_IN: Mediaelch (LinuxServer.io)
+    nb_NO: Mediaelch (LinuxServer.io)
+    nl_NL: Mediaelch (LinuxServer.io)
+    pl_PL: Mediaelch (LinuxServer.io)
+    pt_BR: Mediaelch (LinuxServer.io)
+    ro_RO: Mediaelch (LinuxServer.io)
+    ru_RU: Mediaelch (LinuxServer.io)
+    sk_SK: Mediaelch (LinuxServer.io)
+    sv_SE: Mediaelch (LinuxServer.io)
+    tr_TR: Mediaelch (LinuxServer.io)
     zh_CN: Mediaelch（LinuxServer.io）
+    zh_TW: Mediaelch（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermediaelch
   port_map: '3000'

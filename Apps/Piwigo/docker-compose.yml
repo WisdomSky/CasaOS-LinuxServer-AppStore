@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    ca_ES: Piwigo és un programari de galeria de fotos per a la web que inclou funcions potents per publicar i gestionar la teva col·lecció d'imatges.
+    cs_CZ: Piwigo je webový software pro fotogalerie, který nabízí výkonné funkce pro publikování a správu vaší sbírky obrázků.
+    da_DK: Piwigo er et fotogalleri-softwareprogram til internettet, der leveres med effektive funktioner til at publicere og administrere din billedsamling.
+    de_DE: Piwigo ist eine Fotogalerie-Software für das Web, die mit leistungsstarken Funktionen zum Veröffentlichen und Verwalten Ihrer Bildersammlung ausgestattet ist.
+    el_GR: Το Piwigo είναι ένα λογισμικό δημιουργίας φωτογραφικών συλλογών για το διαδίκτυο που διαθέτει ισχυρές λειτουργίες για τη δημοσίευση και τη διαχείριση της συλλογής φωτογραφιών σας.
+    en_GB: Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    es_ES: Piwigo es un software de galería de fotos para la web que incluye potentes funciones para publicar y gestionar tu colección de imágenes.
+    fr_FR: Piwigo est un logiciel de galerie photo pour le web doté de fonctionnalités puissantes pour publier et gérer votre collection d'images.
+    ga_IE: Is bogearraí gailearaí grianghraf don ghréasán é Piwigo a thagann le gnéithe cumhachtacha chun do bhailiúchán pictiúr a fhoilsiú agus a bhainistiú.
+    hr_HR: Piwigo je softver za web galerije fotografija koji dolazi s moćnim značajkama za objavljivanje i upravljanje vašom kolekcijom slika.
+    hu_HU: A Piwigo egy webes fotógaléria szoftver, amely hatékony funkciókkal rendelkezik a képgyűjtemény közzétételéhez és kezeléséhez.
+    it_IT: Piwigo è un software per gallerie fotografiche online che offre potenti funzionalità per pubblicare e gestire la tua collezione di immagini.
+    ja_JP: Piwigoは、ウェブ向けのフォトギャラリーソフトウェアで、写真コレクションの公開と管理に役立つ強力な機能を備えています。
+    ko_KR: Piwigo는 사진 컬렉션을 게시하고 관리할 수 있는 강력한 기능을 갖춘 웹 기반 사진 갤러리 소프트웨어입니다.
+    ml_IN: പിവിഗോ എന്നത് വെബിനായുള്ള ഒരു ഫോട്ടോ ഗാലറി സോഫ്റ്റ്‌വെയറാണ്, നിങ്ങളുടെ ചിത്രങ്ങളുടെ ശേഖരം പ്രസിദ്ധീകരിക്കാനും കൈകാര്യം ചെയ്യാനും ശക്തമായ സവിശേഷതകളോടെയാണിത്.
+    nb_NO: Piwigo er et fotogalleriprogram for nettet som kommer med kraftige funksjoner for å publisere og administrere bildesamlingen din.
+    nl_NL: Piwigo is webgebaseerde fotogalerijsoftware met krachtige functies voor het publiceren en beheren van je fotocollectie.
+    pl_PL: Piwigo to internetowa galeria zdjęć wyposażona w zaawansowane funkcje umożliwiające publikowanie i zarządzanie kolekcją zdjęć.
+    pt_BR: Piwigo é um software de galeria de fotos para a web que oferece recursos poderosos para publicar e gerenciar sua coleção de imagens.
+    ro_RO: Piwigo este un software de galerie foto pentru web, care vine cu funcții puternice pentru a publica și gestiona colecția ta de imagini.
+    ru_RU: Piwigo — это веб-программа для создания фотогалерей, обладающая мощными функциями для публикации и управления вашей коллекцией фотографий.
+    sk_SK: Piwigo je webový softvér na tvorbu fotogalérií, ktorý ponúka výkonné funkcie na publikovanie a správu vašej zbierky obrázkov.
+    sv_SE: Piwigo är en programvara för fotogallerier för webben som har kraftfulla funktioner för att publicera och hantera din bildsamling.
+    tr_TR: Piwigo, fotoğraf koleksiyonunuzu yayınlamak ve yönetmek için güçlü özellikler sunan, web tabanlı bir fotoğraf galerisi yazılımıdır.
     zh_CN: Piwigo 是一款网页相册软件，提供强大的照片发布和管理功能。
+    zh_TW: Piwigo 是一款網頁相簿軟體，提供強大的照片釋出和管理功能。
   tagline:
     en_US: A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    ca_ES: Un programari de galeria de fotos per a la web que inclou funcions potents per publicar i gestionar la teva col·lecció d'imatges.
+    cs_CZ: Software pro webovou fotogalerii s výkonnými funkcemi pro publikování a správu vaší sbírky obrázků.
+    da_DK: En fotogalleri-software til nettet, der leveres med effektive funktioner til at udgive og administrere din billedsamling.
+    de_DE: Eine Fotogalerie-Software für das Web mit leistungsstarken Funktionen zum Veröffentlichen und Verwalten Ihrer Bildersammlung.
+    el_GR: Ένα λογισμικό συλλογής φωτογραφιών για το διαδίκτυο που διαθέτει ισχυρές λειτουργίες για τη δημοσίευση και τη διαχείριση της συλλογής φωτογραφιών σας.
+    en_GB: A photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.
+    es_ES: Un software de galería de fotos para la web que incluye potentes funciones para publicar y gestionar tu colección de imágenes.
+    fr_FR: Un logiciel de galerie photo pour le web doté de fonctionnalités puissantes pour publier et gérer votre collection d'images.
+    ga_IE: Bogearraí gailearaí grianghraf don ghréasán a bhfuil gnéithe cumhachtacha ann chun do bhailiúchán pictiúr a fhoilsiú agus a bhainistiú.
+    hr_HR: Softver za web galerije fotografija koji dolazi s moćnim značajkama za objavljivanje i upravljanje vašom kolekcijom slika.
+    hu_HU: Egy webes fotógaléria szoftver, amely hatékony funkciókkal rendelkezik a képgyűjtemény közzétételéhez és kezeléséhez.
+    it_IT: Un software per gallerie fotografiche online dotato di potenti funzionalità per pubblicare e gestire la tua collezione di immagini.
+    ja_JP: ウェブ上で写真コレクションを公開・管理するための強力な機能を備えた写真ギャラリーソフトウェア。
+    ko_KR: 사진 컬렉션을 게시하고 관리할 수 있는 강력한 기능을 갖춘 웹 기반 사진 갤러리 소프트웨어입니다.
+    ml_IN: നിങ്ങളുടെ ചിത്രങ്ങളുടെ ശേഖരം പ്രസിദ്ധീകരിക്കാനും കൈകാര്യം ചെയ്യാനും ശക്തമായ സവിശേഷതകളോടെ വരുന്ന വെബിനായുള്ള ഒരു ഫോട്ടോ ഗാലറി സോഫ്റ്റ്‌വെയർ.
+    nb_NO: En fotogalleriprogramvare for nettet som kommer med kraftige funksjoner for å publisere og administrere bildesamlingen din.
+    nl_NL: Fotogalerijsoftware voor het web met krachtige functies voor het publiceren en beheren van uw fotocollectie.
+    pl_PL: Oprogramowanie do tworzenia galerii zdjęć w sieci, wyposażone w zaawansowane funkcje umożliwiające publikowanie i zarządzanie kolekcją zdjęć.
+    pt_BR: Um software de galeria de fotos para a web que oferece recursos poderosos para publicar e gerenciar sua coleção de imagens.
+    ro_RO: Un software de galerie foto pentru web, dotat cu funcții puternice pentru publicarea și gestionarea colecției tale de imagini.
+    ru_RU: Веб-программа для создания фотогалерей, обладающая мощными функциями для публикации и управления вашей коллекцией фотографий.
+    sk_SK: Softvér na tvorbu fotogalérií pre web, ktorý ponúka výkonné funkcie na publikovanie a správu vašej zbierky obrázkov.
+    sv_SE: En fotogalleriprogramvara för webben som har kraftfulla funktioner för att publicera och hantera din bildsamling.
+    tr_TR: Fotoğraf koleksiyonunuzu yayınlamak ve yönetmek için güçlü özellikler sunan, web tabanlı bir fotoğraf galerisi yazılımı.
     zh_CN: 通过网页发布和管理照片收藏。
+    zh_TW: 透過網頁釋出和管理照片收藏。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png
   title:
     en_US: Piwigo (LinuxServer.io)
+    ca_ES: Piwigo (LinuxServer.io)
+    cs_CZ: Piwigo (LinuxServer.io)
+    da_DK: Piwigo (LinuxServer.io)
+    de_DE: Piwigo (LinuxServer.io)
+    el_GR: Piwigo (LinuxServer.io)
+    en_GB: Piwigo (LinuxServer.io)
+    es_ES: Piwigo (LinuxServer.io)
+    fr_FR: Piwigo (LinuxServer.io)
+    ga_IE: Piwigo (LinuxServer.io)
+    hr_HR: Piwigo (LinuxServer.io)
+    hu_HU: Piwigo (LinuxServer.io)
+    it_IT: Piwigo (LinuxServer.io)
+    ja_JP: Piwigo (LinuxServer.io)
+    ko_KR: Piwigo (LinuxServer.io)
+    ml_IN: Piwigo (LinuxServer.io)
+    nb_NO: Piwigo (LinuxServer.io)
+    nl_NL: Piwigo (LinuxServer.io)
+    pl_PL: Piwigo (LinuxServer.io)
+    pt_BR: Piwigo (LinuxServer.io)
+    ro_RO: Piwigo (LinuxServer.io)
+    ru_RU: Piwigo (LinuxServer.io)
+    sk_SK: Piwigo (LinuxServer.io)
+    sv_SE: Piwigo (LinuxServer.io)
+    tr_TR: Piwigo (LinuxServer.io)
     zh_CN: Piwigo（LinuxServer.io）
+    zh_TW: Piwigo（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpiwigo
   port_map: '80'

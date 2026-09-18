@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    ca_ES: El navegador Zen és una bifurcació gratuïta i de codi obert del Mozilla Firefox centrada en la privadesa, la personalització i el disseny.
+    cs_CZ: Zen Browser je bezplatná a open-source verze prohlížeče Mozilla Firefox se zaměřením na soukromí, přizpůsobitelnost a design.
+    da_DK: Zen Browser er en gratis og open source-udgave af Mozilla Firefox med fokus på privatliv, tilpasningsmuligheder og design.
+    de_DE: Zen Browser ist ein kostenloser Open-Source-Fork von Mozilla Firefox mit Fokus auf Datenschutz, Anpassbarkeit und Design.
+    el_GR: Το Zen Browser είναι ένα δωρεάν και ανοιχτού κώδικα fork του Mozilla Firefox με έμφαση στην ιδιωτικότητα, την προσαρμοστικότητα και το σχεδιασμό.
+    en_GB: Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    es_ES: Zen Browser es una bifurcación gratuita y de código abierto de Mozilla Firefox que se centra en la privacidad, la personalización y el diseño.
+    fr_FR: Zen Browser est une version dérivée libre et open source de Mozilla Firefox, axée sur la confidentialité, la personnalisation et le design.
+    ga_IE: Is forc foinse oscailte agus saor in aisce de Mozilla Firefox é Brabhsálaí Zen le fócas ar phríobháideacht, inoiriúnaitheacht agus dearadh.
+    hr_HR: Zen Browser je besplatna i otvorena verzija Mozilla Firefoxa s naglaskom na privatnost, prilagodljivost i dizajn.
+    hu_HU: A Zen Browser a Mozilla Firefox ingyenes és nyílt forráskódú változata, amely az adatvédelemre, a testreszabhatóságra és a dizájnra összpontosít.
+    it_IT: Zen Browser è una versione gratuita e open-source di Mozilla Firefox, con particolare attenzione alla privacy, alla personalizzazione e al design.
+    ja_JP: Zen Browserは、プライバシー、カスタマイズ性、デザインに重点を置いた、Mozilla Firefoxの無料オープンソース派生ブラウザです。
+    ko_KR: Zen Browser는 Mozilla Firefox를 기반으로 개발된 무료 오픈 소스 브라우저로, 개인 정보 보호, 맞춤 설정 기능 및 디자인에 중점을 두고 있습니다.
+    ml_IN: സെൻ ബ്രൗസർ മോസില്ല ഫയർഫോക്സിന്റെ ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ഫോർക്കുമാണ്, സ്വകാര്യത, ഇഷ്ടാനുസൃതമാക്കൽ, ഡിസൈൻ എന്നിവയിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കുന്നു.
+    nb_NO: Zen Browser er en gratis og åpen kildekode-forgrening av Mozilla Firefox med fokus på personvern, tilpassbarhet og design.
+    nl_NL: Zen Browser is een gratis en open-source afgeleide van Mozilla Firefox, met de nadruk op privacy, aanpasbaarheid en design.
+    pl_PL: Zen Browser to darmowa i otwartoźródłowa wersja przeglądarki Mozilla Firefox, kładąca nacisk na prywatność, możliwość personalizacji i design.
+    pt_BR: O Zen Browser é uma versão gratuita e de código aberto do Mozilla Firefox, com foco em privacidade, personalização e design.
+    ro_RO: Browserul Zen este un fork gratuit și open-source al Mozilla Firefox, cu accent pe confidențialitate, personalizare și design.
+    ru_RU: Zen Browser — это бесплатный браузер с открытым исходным кодом, являющийся форком Mozilla Firefox, ориентированный на конфиденциальность, возможность настройки и дизайн.
+    sk_SK: Prehliadač Zen je bezplatná a open-source verzia prehliadača Mozilla Firefox so zameraním na súkromie, prispôsobiteľnosť a dizajn.
+    sv_SE: Zen Browser är en gratis och öppen källkodsversion av Mozilla Firefox med fokus på integritet, anpassningsbarhet och design.
+    tr_TR: Zen Browser, gizlilik, özelleştirilebilirlik ve tasarıma odaklanan, Mozilla Firefox'un ücretsiz ve açık kaynaklı bir sürümüdür.
     zh_CN: Zen Browser 是 Mozilla Firefox 的免费开源分支，注重隐私、可定制性和设计。
+    zh_TW: Zen Browser 是 Mozilla Firefox 的免費開源分支，注重隱私、可定製性和設計。
   tagline:
     en_US: A free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    ca_ES: Una bifurcació gratuïta i de codi obert de Mozilla Firefox centrada en la privadesa, la personalització i el disseny.
+    cs_CZ: Bezplatná a open-source verze prohlížeče Mozilla Firefox se zaměřením na soukromí, přizpůsobitelnost a design.
+    da_DK: En gratis og open source-forgrening af Mozilla Firefox med fokus på privatliv, tilpasningsmuligheder og design.
+    de_DE: Ein freier und quelloffener Fork von Mozilla Firefox mit Fokus auf Datenschutz, Anpassbarkeit und Design.
+    el_GR: Ένα δωρεάν και ανοιχτού κώδικα fork του Mozilla Firefox με έμφαση στην ιδιωτικότητα, την προσαρμοστικότητα και τον σχεδιασμό.
+    en_GB: A free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.
+    es_ES: Una bifurcación gratuita y de código abierto de Mozilla Firefox, centrada en la privacidad, la personalización y el diseño.
+    fr_FR: Une version dérivée libre et open source de Mozilla Firefox axée sur la confidentialité, la personnalisation et le design.
+    ga_IE: Forc foinse oscailte agus saor in aisce de Mozilla Firefox le fócas ar phríobháideacht, inoiriúnaitheacht agus dearadh.
+    hr_HR: Besplatna i otvorena verzija Mozilla Firefoxa s naglaskom na privatnost, prilagodljivost i dizajn.
+    hu_HU: A Mozilla Firefox ingyenes és nyílt forráskódú változata, amely az adatvédelemre, a testreszabhatóságra és a dizájnra összpontosít.
+    it_IT: Una versione derivata di Mozilla Firefox, libera e open-source, incentrata su privacy, personalizzazione e design.
+    ja_JP: プライバシー、カスタマイズ性、デザインに重点を置いた、Mozilla Firefoxの無料オープンソース版。
+    ko_KR: 개인 정보 보호, 맞춤 설정 기능 및 디자인에 중점을 둔 Mozilla Firefox의 무료 오픈 소스 포크입니다.
+    ml_IN: സ്വകാര്യത, ഇഷ്ടാനുസൃതമാക്കൽ, ഡിസൈൻ എന്നിവയിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കുന്ന മോസില്ല ഫയർഫോക്സിന്റെ ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ഫോർക്ക്.
+    nb_NO: En gratis og åpen kildekode-forgrening av Mozilla Firefox med fokus på personvern, tilpassbarhet og design.
+    nl_NL: Een gratis en open-source variant van Mozilla Firefox met de nadruk op privacy, aanpasbaarheid en design.
+    pl_PL: Bezpłatny i otwartoźródłowy fork przeglądarki Mozilla Firefox, kładący nacisk na prywatność, możliwość personalizacji i design.
+    pt_BR: Uma versão gratuita e de código aberto do Mozilla Firefox, com foco em privacidade, personalização e design.
+    ro_RO: O ramură gratuită și open-source a Mozilla Firefox, cu accent pe confidențialitate, personalizare și design.
+    ru_RU: Бесплатный и открытый форк Mozilla Firefox, ориентированный на конфиденциальность, настраиваемость и дизайн.
+    sk_SK: Bezplatná a open-source verzia prehliadača Mozilla Firefox so zameraním na súkromie, prispôsobiteľnosť a dizajn.
+    sv_SE: En gratis och öppen källkodsförgrening av Mozilla Firefox med fokus på integritet, anpassningsbarhet och design.
+    tr_TR: Gizlilik, özelleştirilebilirlik ve tasarıma odaklanan, Mozilla Firefox'un ücretsiz ve açık kaynaklı bir sürümü.
     zh_CN: 注重隐私、定制和设计的 Firefox 分支。
+    zh_TW: 注重隱私、定製和設計的 Firefox 分支。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zen-logo.png
   title:
     en_US: Zen (LinuxServer.io)
+    ca_ES: Zen (LinuxServer.io)
+    cs_CZ: Zen (LinuxServer.io)
+    da_DK: Zen (LinuxServer.io)
+    de_DE: Zen (LinuxServer.io)
+    el_GR: Zen (LinuxServer.io)
+    en_GB: Zen (LinuxServer.io)
+    es_ES: Zen (LinuxServer.io)
+    fr_FR: Zen (LinuxServer.io)
+    ga_IE: Zen (LinuxServer.io)
+    hr_HR: Zen (LinuxServer.io)
+    hu_HU: Zen (LinuxServer.io)
+    it_IT: Zen (LinuxServer.io)
+    ja_JP: Zen (LinuxServer.io)
+    ko_KR: Zen (LinuxServer.io)
+    ml_IN: Zen (LinuxServer.io)
+    nb_NO: Zen (LinuxServer.io)
+    nl_NL: Zen (LinuxServer.io)
+    pl_PL: Zen (LinuxServer.io)
+    pt_BR: Zen (LinuxServer.io)
+    ro_RO: Zen (LinuxServer.io)
+    ru_RU: Zen (LinuxServer.io)
+    sk_SK: Zen (LinuxServer.io)
+    sv_SE: Zen (LinuxServer.io)
+    tr_TR: Zen (LinuxServer.io)
     zh_CN: Zen（LinuxServer.io）
+    zh_TW: Zen（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverzen
   port_map: '3000'

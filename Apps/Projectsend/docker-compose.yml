@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Projectsend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
+    ca_ES: Projectsend és una aplicació autoallotjada que et permet carregar fitxers i assignar-los a clients específics que creïs tu mateix. Segur, privat i fàcil. Ja no hauràs de dependre de serveis externs ni del correu electrònic per enviar aquests fitxers.
+    cs_CZ: Projectsend je samostatně hostovaná aplikace, která vám umožňuje nahrávat soubory a přiřazovat je konkrétním klientům, které si sami vytvoříte. Bezpečné, soukromé a snadné. Už žádné závislost na externích službách nebo e-mailu pro odesílání těchto souborů.
+    da_DK: Projectsend er en selvhostet applikation, der giver dig mulighed for at uploade filer og tildele dem til specifikke klienter, som du selv opretter. Sikkert, privat og nemt. Du behøver ikke længere at være afhængig af eksterne tjenester eller e-mail for at sende disse filer.
+    de_DE: Projectsend ist eine selbstgehostete Anwendung, mit der Sie Dateien hochladen und sie selbst erstellten Clients zuweisen können. Sicher, datenschutzfreundlich und einfach. Sie sind nicht mehr auf externe Dienste oder E-Mails angewiesen, um Ihre Dateien zu versenden.
+    el_GR: Το Projectsend είναι μια εφαρμογή που φιλοξενείται αυτόματα και σας επιτρέπει να ανεβάζετε αρχεία και να τα αντιστοιχίζετε σε συγκεκριμένα προγράμματα-πελάτες που δημιουργείτε οι ίδιοι. Ασφαλές, ιδιωτικό και εύκολο. Τέλος στην εξάρτηση από εξωτερικές υπηρεσίες ή email για την αποστολή αυτών των αρχείων.
+    en_GB: Projectsend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
+    es_ES: Projectsend es una aplicación autoalojada que te permite subir archivos y asignarlos a clientes específicos que tú mismo creas. Segura, privada y fácil. Ya no tendrás que depender de servicios externos ni del correo electrónico para enviar esos archivos.
+    fr_FR: Projectsend est une application auto-hébergée qui vous permet de téléverser des fichiers et de les attribuer à des clients que vous créez vous-même. Sécurisée, confidentielle et simple d'utilisation. Plus besoin de dépendre de services externes ou du courrier électronique pour envoyer vos fichiers.
+    ga_IE: Is feidhmchlár féinóstáilte é Projectsend a ligeann duit comhaid a uaslódáil agus iad a shannadh do chliaint shonracha a chruthaíonn tú féin. Slán, príobháideach agus éasca. Ní gá a bheith ag brath ar sheirbhísí seachtracha ná ar ríomhphost a thuilleadh chun na comhaid sin a sheoladh.
+    hr_HR: Projectsend je samostalno hostana aplikacija koja vam omogućuje prijenos datoteka i njihovo dodjeljivanje određenim klijentima koje sami kreirate. Sigurno, privatno i jednostavno. Nema više ovisnosti o vanjskim uslugama ili e-pošti za slanje tih datoteka.
+    hu_HU: A Projectsend egy saját tárhelyen futó alkalmazás, amely lehetővé teszi fájlok feltöltését és hozzárendelését az Ön által létrehozott kliensekhez. Biztonságos, privát és egyszerű. Nincs többé szükség külső szolgáltatásokra vagy e-mailre a fájlok küldéséhez.
+    it_IT: Projectsend è un'applicazione self-hosted che consente di caricare file e assegnarli a clienti specifici creati dall'utente. Sicura, privata e semplice. Non sarà più necessario dipendere da servizi esterni o dalla posta elettronica per inviare i file.
+    ja_JP: Projectsendは、ファイルをアップロードして、自分で作成した特定のクライアントに割り当てることができる、セルフホスティング型のアプリケーションです。安全でプライベート、そして使いやすい。ファイルの送信に外部サービスやメールに頼る必要はもうありません。
+    ko_KR: Projectsend는 자체 호스팅 애플리케이션으로, 파일을 업로드하고 직접 생성한 특정 클라이언트에게 파일을 할당할 수 있습니다. 안전하고 개인 정보가 보호되며 사용이 간편합니다. 더 이상 외부 서비스나 이메일에 의존하여 파일을 전송할 필요가 없습니다.
+    ml_IN: പ്രൊജക്റ്റ്സെൻഡ് എന്നത് സ്വയം ഹോസ്റ്റ് ചെയ്ത ഒരു ആപ്ലിക്കേഷനാണ്, ഇത് ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യാനും നിങ്ങൾ സ്വയം സൃഷ്ടിക്കുന്ന നിർദ്ദിഷ്ട ക്ലയന്റുകൾക്ക് അവ നൽകാനും നിങ്ങളെ അനുവദിക്കുന്നു. സുരക്ഷിതവും സ്വകാര്യവും എളുപ്പവുമാണ്. ആ ഫയലുകൾ അയയ്ക്കാൻ ഇനി ബാഹ്യ സേവനങ്ങളെയോ ഇ-മെയിലിനെയോ ആശ്രയിക്കേണ്ടതില്ല.
+    nb_NO: Projectsend er et selvhostet program som lar deg laste opp filer og tilordne dem til bestemte klienter du oppretter selv. Sikkert, privat og enkelt. Du trenger ikke lenger å være avhengig av eksterne tjenester eller e-post for å sende disse filene.
+    nl_NL: Projectsend is een zelfgehoste applicatie waarmee u bestanden kunt uploaden en toewijzen aan specifieke klanten die u zelf aanmaakt. Veilig, privé en eenvoudig. U bent niet langer afhankelijk van externe diensten of e-mail om die bestanden te versturen.
+    pl_PL: Projectsend to aplikacja hostowana na własnym serwerze, która pozwala przesyłać pliki i przypisywać je do konkretnych klientów, których sam utworzysz. Bezpieczna, prywatna i prosta w obsłudze. Nie musisz już polegać na usługach zewnętrznych ani e-mailu, aby wysyłać te pliki.
+    pt_BR: O Projectsend é um aplicativo auto-hospedado que permite o upload de arquivos e a atribuição deles a clientes específicos que você mesmo cria. Seguro, privado e fácil. Chega de depender de serviços externos ou e-mail para enviar arquivos.
+    ro_RO: Projectsend este o aplicație auto-găzduită care vă permite să încărcați fișiere și să le atribuiți clienților specifici pe care îi creați singuri. Sigur, privat și ușor. Nu mai trebuie să depindeți de servicii externe sau de e-mail pentru a trimite acele fișiere.
+    ru_RU: Projectsend — это приложение с самостоятельным размещением, позволяющее загружать файлы и назначать их конкретным клиентам, которых вы создаете самостоятельно. Безопасно, конфиденциально и просто. Больше не нужно зависеть от внешних сервисов или электронной почты для отправки файлов.
+    sk_SK: Projectsend je samostatne hostovaná aplikácia, ktorá vám umožňuje nahrávať súbory a priraďovať ich konkrétnym klientom, ktorých si sami vytvoríte. Bezpečné, súkromné a jednoduché. Už žiadne spoliehanie sa na externé služby alebo e-mail pri odosielaní týchto súborov.
+    sv_SE: Projectsend är en självhostad applikation som låter dig ladda upp filer och tilldela dem till specifika klienter som du själv skapar. Säkert, privat och enkelt. Du behöver inte längre vara beroende av externa tjänster eller e-post för att skicka dessa filer.
+    tr_TR: Projectsend, dosyaları yüklemenize ve kendi oluşturduğunuz belirli istemcilere atamanıza olanak tanıyan, kendi sunucunuzda barındırdığınız bir uygulamadır. Güvenli, gizli ve kolay. Dosyaları göndermek için artık harici hizmetlere veya e-postaya bağımlı olmanıza gerek yok.
     zh_CN: ProjectSend 是一款可自行托管的应用，让你上传文件并分配给自己创建的指定客户。它安全、私密且易用，无需再依赖外部服务或电子邮件发送文件。
+    zh_TW: ProjectSend 是一款可自行託管的應用，讓你上傳檔案並分配給自己建立的指定客戶。它安全、私密且易用，無需再依賴外部服務或電子郵件傳送檔案。
   tagline:
     en_US: A self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
+    ca_ES: Una aplicació autoallotjada que et permet carregar fitxers i assignar-los a clients específics que creïs tu mateix. Segura, privada i fàcil. Ja no hauràs de dependre de serveis externs ni del correu electrònic per enviar aquests fitxers.
+    cs_CZ: Aplikace hostovaná na vlastním serveru, která vám umožňuje nahrávat soubory a přiřazovat je konkrétním klientům, které si sami vytvoříte. Bezpečné, soukromé a snadné. Už žádné závislost na externích službách nebo e-mailu pro odesílání těchto souborů.
+    da_DK: En selvhostet applikation, der lader dig uploade filer og tildele dem til specifikke klienter, som du selv opretter. Sikker, privat og nem. Du behøver ikke længere at være afhængig af eksterne tjenester eller e-mail for at sende disse filer.
+    de_DE: Eine selbstgehostete Anwendung, mit der Sie Dateien hochladen und sie selbst erstellten Clients zuweisen können. Sicher, datenschutzfreundlich und einfach. Sie sind nicht mehr auf externe Dienste oder E-Mails angewiesen, um Ihre Dateien zu versenden.
+    el_GR: Μια αυτο-φιλοξενούμενη εφαρμογή που σας επιτρέπει να ανεβάζετε αρχεία και να τα αντιστοιχίζετε σε συγκεκριμένα προγράμματα-πελάτες που δημιουργείτε οι ίδιοι. Ασφαλές, ιδιωτικό και εύκολο. Τέλος στην εξάρτηση από εξωτερικές υπηρεσίες ή email για την αποστολή αυτών των αρχείων.
+    en_GB: A self-hosted application that lets you upload files and assign them to specific clients that you create yourself. Secure, private and easy. No more depending on external services or e-mail to send those files.
+    es_ES: Una aplicación autoalojada que te permite subir archivos y asignarlos a clientes específicos que tú mismo creas. Segura, privada y fácil. Ya no tendrás que depender de servicios externos ni del correo electrónico para enviar esos archivos.
+    fr_FR: Une application auto-hébergée qui vous permet de téléverser des fichiers et de les attribuer à des clients que vous créez vous-même. Sécurisée, confidentielle et simple d'utilisation. Plus besoin de dépendre de services externes ou du courrier électronique pour envoyer vos fichiers.
+    ga_IE: Feidhmchlár féinóstáilte a ligeann duit comhaid a uaslódáil agus iad a shannadh do chliaint shonracha a chruthaíonn tú féin. Slán, príobháideach agus éasca. Ní gá a bheith ag brath ar sheirbhísí seachtracha ná ar ríomhphost a thuilleadh chun na comhaid sin a sheoladh.
+    hr_HR: Samostalno hostana aplikacija koja vam omogućuje prijenos datoteka i njihovo dodjeljivanje određenim klijentima koje sami kreirate. Sigurno, privatno i jednostavno. Nema više ovisnosti o vanjskim uslugama ili e-pošti za slanje tih datoteka.
+    hu_HU: Egy saját tárhelyen futó alkalmazás, amely lehetővé teszi fájlok feltöltését és hozzárendelését az Ön által létrehozott kliensekhez. Biztonságos, privát és egyszerű. Nincs többé szükség külső szolgáltatásokra vagy e-mailre a fájlok küldéséhez.
+    it_IT: Un'applicazione self-hosted che consente di caricare file e assegnarli a clienti specifici creati dall'utente. Sicura, privata e semplice. Non sarà più necessario dipendere da servizi esterni o dalla posta elettronica per inviare i file.
+    ja_JP: ファイルをアップロードして、自分で作成した特定のクライアントに割り当てることができる、セルフホスト型アプリケーションです。安全でプライベート、そして使いやすい。ファイルの送信に外部サービスやメールに頼る必要はもうありません。
+    ko_KR: 파일을 업로드하고 직접 생성한 특정 클라이언트에 할당할 수 있는 자체 호스팅 애플리케이션입니다. 안전하고 개인 정보 보호가 철저하며 사용이 간편합니다. 더 이상 외부 서비스나 이메일을 통해 파일을 전송할 필요가 없습니다.
+    ml_IN: ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യാനും നിങ്ങൾ സ്വയം സൃഷ്ടിക്കുന്ന നിർദ്ദിഷ്ട ക്ലയന്റുകൾക്ക് അവ നിയോഗിക്കാനും നിങ്ങളെ അനുവദിക്കുന്ന ഒരു സ്വയം ഹോസ്റ്റ് ചെയ്ത ആപ്ലിക്കേഷൻ. സുരക്ഷിതവും സ്വകാര്യവും എളുപ്പവുമാണ്. ആ ഫയലുകൾ അയയ്ക്കാൻ ഇനി ബാഹ്യ സേവനങ്ങളെയോ ഇ-മെയിലിനെയോ ആശ്രയിക്കേണ്ടതില്ല.
+    nb_NO: En selvhostet applikasjon som lar deg laste opp filer og tilordne dem til bestemte klienter du oppretter selv. Sikkert, privat og enkelt. Ikke mer avhengighet av eksterne tjenester eller e-post for å sende disse filene.
+    nl_NL: Een zelfgehoste applicatie waarmee u bestanden kunt uploaden en toewijzen aan specifieke klanten die u zelf aanmaakt. Veilig, privé en eenvoudig. U bent niet langer afhankelijk van externe services of e-mail om die bestanden te verzenden.
+    pl_PL: Samodzielnie hostowana aplikacja, która pozwala przesyłać pliki i przypisywać je do konkretnych klientów, których sam utworzysz. Bezpieczna, prywatna i prosta w obsłudze. Koniec z poleganiem na usługach zewnętrznych lub e-mailu, aby wysyłać te pliki.
+    pt_BR: Um aplicativo auto-hospedado que permite o upload de arquivos e a atribuição deles a clientes específicos criados por você. Seguro, privado e fácil. Chega de depender de serviços externos ou e-mail para enviar arquivos.
+    ro_RO: O aplicație auto-găzduită care vă permite să încărcați fișiere și să le atribuiți clienților specifici pe care îi creați singuri. Sigură, privată și ușoară. Nu mai trebuie să depindeți de servicii externe sau de e-mail pentru a trimite acele fișiere.
+    ru_RU: Приложение с возможностью самостоятельного размещения, позволяющее загружать файлы и назначать их конкретным клиентам, которых вы создаете самостоятельно. Безопасное, конфиденциальное и простое в использовании. Больше не нужно зависеть от внешних сервисов или электронной почты для отправки файлов.
+    sk_SK: Samostatne hostovaná aplikácia, ktorá vám umožňuje nahrávať súbory a priraďovať ich konkrétnym klientom, ktorých si sami vytvoríte. Bezpečné, súkromné a jednoduché. Už žiadne spoliehanie sa na externé služby alebo e-mail pri odosielaní týchto súborov.
+    sv_SE: En egenhostad applikation som låter dig ladda upp filer och tilldela dem till specifika klienter som du själv skapar. Säkert, privat och enkelt. Inget mer beroende av externa tjänster eller e-post för att skicka dessa filer.
+    tr_TR: Kendi sunucunuzda barındırdığınız, dosyaları yüklemenize ve kendi oluşturduğunuz belirli istemcilere atamanıza olanak tanıyan bir uygulama. Güvenli, gizli ve kolay. Dosyaları göndermek için artık harici hizmetlere veya e-postaya bağımlı kalmanıza gerek yok.
     zh_CN: 自行托管文件并分配给指定客户。
+    zh_TW: 自行託管檔案並分配給指定客戶。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png
   title:
     en_US: Projectsend (LinuxServer.io)
+    ca_ES: Projectsend (LinuxServer.io)
+    cs_CZ: Projectsend (LinuxServer.io)
+    da_DK: Projectsend (LinuxServer.io)
+    de_DE: Projectsend (LinuxServer.io)
+    el_GR: Projectsend (LinuxServer.io)
+    en_GB: Projectsend (LinuxServer.io)
+    es_ES: Projectsend (LinuxServer.io)
+    fr_FR: Projectsend (LinuxServer.io)
+    ga_IE: Projectsend (LinuxServer.io)
+    hr_HR: Projectsend (LinuxServer.io)
+    hu_HU: Projectsend (LinuxServer.io)
+    it_IT: Projectsend (LinuxServer.io)
+    ja_JP: Projectsend (LinuxServer.io)
+    ko_KR: Projectsend (LinuxServer.io)
+    ml_IN: Projectsend (LinuxServer.io)
+    nb_NO: Projectsend (LinuxServer.io)
+    nl_NL: Projectsend (LinuxServer.io)
+    pl_PL: Projectsend (LinuxServer.io)
+    pt_BR: Projectsend (LinuxServer.io)
+    ro_RO: Projectsend (LinuxServer.io)
+    ru_RU: Projectsend (LinuxServer.io)
+    sk_SK: Projectsend (LinuxServer.io)
+    sv_SE: Projectsend (LinuxServer.io)
+    tr_TR: Projectsend (LinuxServer.io)
     zh_CN: Projectsend（LinuxServer.io）
+    zh_TW: Projectsend（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverprojectsend
   port_map: '80'

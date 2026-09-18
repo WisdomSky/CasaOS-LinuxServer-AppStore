@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Raneto - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
+    ca_ES: Raneto és una plataforma de base de coneixement de codi obert que utilitza fitxers estàtics de Markdown per alimentar la vostra base de coneixement.
+    cs_CZ: Raneto - je open source platforma znalostní databáze, která využívá statické soubory Markdown k napájení vaší znalostní databáze.
+    da_DK: Raneto - er en open source vidensbaseplatform, der bruger statiske Markdown-filer til at drive din vidensbase.
+    de_DE: Raneto ist eine Open-Source-Wissensdatenbankplattform, die statische Markdown-Dateien zur Unterstützung Ihrer Wissensdatenbank verwendet.
+    el_GR: Το Raneto είναι μια πλατφόρμα Γνωσιακής Βάσης ανοιχτού κώδικα που χρησιμοποιεί στατικά αρχεία Markdown για την τροφοδοσία της Γνωσιακής σας Βάσης.
+    en_GB: Raneto - is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
+    es_ES: Raneto es una plataforma de base de conocimientos de código abierto que utiliza archivos Markdown estáticos para alimentar su base de conocimientos.
+    fr_FR: Raneto est une plateforme de base de connaissances open source qui utilise des fichiers Markdown statiques pour alimenter votre base de connaissances.
+    ga_IE: Raneto - ardán Bunachar Eolais foinse oscailte é a úsáideann comhaid statach Markdown chun cumhacht a thabhairt do do Bhunachar Eolais.
+    hr_HR: Raneto - je platforma baze znanja otvorenog koda koja koristi statičke Markdown datoteke za napajanje vaše baze znanja.
+    hu_HU: A Raneto egy nyílt forráskódú tudásbázis platform, amely statikus Markdown fájlokat használ a tudásbázis működtetéséhez.
+    it_IT: Raneto è una piattaforma open source per la creazione di knowledge base che utilizza file Markdown statici per alimentare la tua knowledge base.
+    ja_JP: Ranetoは、静的なMarkdownファイルを使用してナレッジベースを構築するオープンソースのナレッジベースプラットフォームです。
+    ko_KR: Raneto는 정적 마크다운 파일을 사용하여 지식 기반을 구축하는 오픈 소스 지식 기반 플랫폼입니다.
+    ml_IN: റാനെറ്റോ - നിങ്ങളുടെ നോളജ്ബേസിനെ ശക്തിപ്പെടുത്തുന്നതിന് സ്റ്റാറ്റിക് മാർക്ക്ഡൗൺ ഫയലുകൾ ഉപയോഗിക്കുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് നോളജ്ബേസ് പ്ലാറ്റ്‌ഫോമാണ്.
+    nb_NO: Raneto – er en åpen kildekode-kunnskapsbaseplattform som bruker statiske Markdown-filer for å drive kunnskapsbasen din.
+    nl_NL: Raneto is een open source kennisbankplatform dat gebruikmaakt van statische Markdown-bestanden om uw kennisbank te ondersteunen.
+    pl_PL: Raneto - platforma bazy wiedzy typu open source, która wykorzystuje statyczne pliki Markdown do zasilania bazy wiedzy.
+    pt_BR: Raneto é uma plataforma de base de conhecimento de código aberto que utiliza arquivos Markdown estáticos para alimentar sua base de conhecimento.
+    ro_RO: Raneto - este o platformă open source pentru baze de cunoștințe care folosește fișiere Markdown statice pentru a alimenta baza de cunoștințe.
+    ru_RU: Raneto — это платформа для создания баз знаний с открытым исходным кодом, использующая статические файлы Markdown для работы вашей базы знаний.
+    sk_SK: Raneto - je platforma znalostnej bázy s otvoreným zdrojovým kódom, ktorá používa statické súbory Markdown na napájanie vašej znalostnej bázy.
+    sv_SE: Raneto - är en kunskapsbasplattform med öppen källkod som använder statiska Markdown-filer för att driva din kunskapsbas.
+    tr_TR: Raneto, statik Markdown dosyalarını kullanarak bilgi tabanınızı destekleyen açık kaynaklı bir bilgi tabanı platformudur.
     zh_CN: Raneto 是一个开源知识库平台，使用静态 Markdown 文件驱动知识库。
+    zh_TW: Raneto 是一個開源知識庫平臺，使用靜態 Markdown 檔案驅動知識庫。
   tagline:
     en_US: is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
+    ca_ES: és una plataforma de base de coneixements de codi obert que utilitza fitxers estàtics de Markdown per alimentar la vostra base de coneixements.
+    cs_CZ: je open source platforma znalostní báze, která využívá statické soubory Markdownu k napájení vaší znalostní báze.
+    da_DK: er en open source-vidensbaseplatform, der bruger statiske Markdown-filer til at drive din vidensbase.
+    de_DE: ist eine Open-Source-Wissensdatenbankplattform, die statische Markdown-Dateien zur Unterstützung Ihrer Wissensdatenbank verwendet.
+    el_GR: είναι μια πλατφόρμα Γνωσιακής Βάσης ανοιχτού κώδικα που χρησιμοποιεί στατικά αρχεία Markdown για την τροφοδοσία της Γνωσιακής σας Βάσης.
+    en_GB: is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase.
+    es_ES: Es una plataforma de base de conocimientos de código abierto que utiliza archivos Markdown estáticos para alimentar su base de conocimientos.
+    fr_FR: est une plateforme de base de connaissances open source qui utilise des fichiers Markdown statiques pour alimenter votre base de connaissances.
+    ga_IE: Is ardán Bunachar Eolais foinse oscailte é a úsáideann comhaid statach Markdown chun cumhacht a thabhairt do do Bhunachar Eolais.
+    hr_HR: je platforma baze znanja otvorenog koda koja koristi statičke Markdown datoteke za napajanje vaše baze znanja.
+    hu_HU: egy nyílt forráskódú tudásbázis platform, amely statikus Markdown fájlokat használ a tudásbázis működtetéséhez.
+    it_IT: è una piattaforma open source per la creazione di knowledge base che utilizza file Markdown statici per alimentare la tua knowledge base.
+    ja_JP: は、静的なMarkdownファイルを使用してナレッジベースを構築するオープンソースのナレッジベースプラットフォームです。
+    ko_KR: 이 플랫폼은 정적 마크다운 파일을 사용하여 지식 기반을 구축하는 오픈 소스 지식 기반 플랫폼입니다.
+    ml_IN: നിങ്ങളുടെ നോളജ്ബേസിനെ ശക്തിപ്പെടുത്തുന്നതിന് സ്റ്റാറ്റിക് മാർക്ക്ഡൗൺ ഫയലുകൾ ഉപയോഗിക്കുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് നോളജ്ബേസ് പ്ലാറ്റ്‌ഫോമാണ്.
+    nb_NO: er en åpen kildekode-kunnskapsbaseplattform som bruker statiske Markdown-filer for å drive kunnskapsbasen din.
+    nl_NL: is een open source kennisbankplatform dat statische Markdown-bestanden gebruikt om uw kennisbank te voeden.
+    pl_PL: jest platformą bazy wiedzy typu open source, która wykorzystuje statyczne pliki Markdown do zasilania bazy wiedzy.
+    pt_BR: é uma plataforma de base de conhecimento de código aberto que utiliza arquivos Markdown estáticos para alimentar sua base de conhecimento.
+    ro_RO: este o platformă open source pentru baza de cunoștințe care folosește fișiere Markdown statice pentru a alimenta baza de cunoștințe.
+    ru_RU: Это платформа для создания баз знаний с открытым исходным кодом, использующая статические файлы Markdown для работы вашей базы знаний.
+    sk_SK: je platforma znalostnej bázy s otvoreným zdrojovým kódom, ktorá používa statické súbory Markdown na napájanie vašej znalostnej bázy.
+    sv_SE: är en kunskapsbasplattform med öppen källkod som använder statiska Markdown-filer för att driva din kunskapsbas.
+    tr_TR: Açık kaynaklı bir Bilgi Bankası platformudur ve Bilgi Bankası'nızı çalıştırmak için statik Markdown dosyalarını kullanır.
     zh_CN: 使用静态 Markdown 文件构建知识库。
+    zh_TW: 使用靜態 Markdown 檔案構建知識庫。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/raneto-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/raneto-logo.png
   title:
     en_US: Raneto (LinuxServer.io)
+    ca_ES: Raneto (LinuxServer.io)
+    cs_CZ: Raneto (LinuxServer.io)
+    da_DK: Raneto (LinuxServer.io)
+    de_DE: Raneto (LinuxServer.io)
+    el_GR: Raneto (LinuxServer.io)
+    en_GB: Raneto (LinuxServer.io)
+    es_ES: Raneto (LinuxServer.io)
+    fr_FR: Raneto (LinuxServer.io)
+    ga_IE: Raneto (LinuxServer.io)
+    hr_HR: Raneto (LinuxServer.io)
+    hu_HU: Raneto (LinuxServer.io)
+    it_IT: Raneto (LinuxServer.io)
+    ja_JP: Raneto (LinuxServer.io)
+    ko_KR: Raneto (LinuxServer.io)
+    ml_IN: Raneto (LinuxServer.io)
+    nb_NO: Raneto (LinuxServer.io)
+    nl_NL: Raneto (LinuxServer.io)
+    pl_PL: Raneto (LinuxServer.io)
+    pt_BR: Raneto (LinuxServer.io)
+    ro_RO: Raneto (LinuxServer.io)
+    ru_RU: Raneto (LinuxServer.io)
+    sk_SK: Raneto (LinuxServer.io)
+    sv_SE: Raneto (LinuxServer.io)
+    tr_TR: Raneto (LinuxServer.io)
     zh_CN: Raneto（LinuxServer.io）
+    zh_TW: Raneto（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverraneto
   port_map: '3000'

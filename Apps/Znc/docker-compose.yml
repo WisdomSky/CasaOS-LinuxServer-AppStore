@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Znc is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
+    ca_ES: Znc és un rebotador de xarxa IRC o BNC. Pot desconnectar el client del servidor IRC real i també dels canals seleccionats. Diversos clients de diferents ubicacions es poden connectar a un únic compte ZNC simultàniament i, per tant, aparèixer amb el mateix sobrenom a l'IRC.
+    cs_CZ: Znc je IRC síťový bouncer neboli BNC. Dokáže odpojit klienta od skutečného IRC serveru a také od vybraných kanálů. Více klientů z různých míst se může současně připojit k jednomu ZNC účtu a proto se na IRC zobrazovat pod stejnou přezdívkou.
+    da_DK: Znc er en IRC-netværks-bouncer eller BNC. Den kan afbryde klienten fra den faktiske IRC-server og også fra udvalgte kanaler. Flere klienter fra forskellige placeringer kan oprette forbindelse til en enkelt ZNC-konto samtidigt og derfor vises under det samme kaldenavn på IRC.
+    de_DE: ZNC ist ein IRC-Netzwerk-Bouncer (BNC). Er kann den Client vom eigentlichen IRC-Server und auch von ausgewählten Kanälen trennen. Mehrere Clients von verschiedenen Standorten können sich gleichzeitig mit einem einzigen ZNC-Konto verbinden und erscheinen daher im IRC unter demselben Nicknamen.
+    el_GR: Το Znc είναι ένα πρόγραμμα IRC network bouncer ή BNC. Μπορεί να αποσυνδέσει τον πελάτη από τον πραγματικό διακομιστή IRC, καθώς και από επιλεγμένα κανάλια. Πολλοί πελάτες από διαφορετικές τοποθεσίες μπορούν να συνδεθούν σε έναν μόνο λογαριασμό ZNC ταυτόχρονα και επομένως εμφανίζονται με το ίδιο ψευδώνυμο στο IRC.
+    en_GB: Znc is an Irc network bouncer or Bnc. It can detach the client from the actual Irc server, and also from selected channels. Multiple clients from different locations can connect to a single Znc account simultaneously and therefore appear under the same nickname on Irc.
+    es_ES: Znc es un servidor intermedio de red IRC (BNC). Puede desconectar al cliente del servidor IRC y también de canales específicos. Varios clientes de diferentes ubicaciones pueden conectarse simultáneamente a una misma cuenta ZNC y, por lo tanto, aparecer con el mismo apodo en IRC.
+    fr_FR: Znc est un intermédiaire de réseau IRC (BNC). Il permet de déconnecter le client du serveur IRC et de certains canaux. Plusieurs clients situés à différents endroits peuvent se connecter simultanément à un même compte ZNC et apparaître ainsi sous le même pseudonyme sur IRC.
+    ga_IE: Is preabaire líonra IRC nó BNC é Znc. Is féidir leis an cliant a dhícheangal ón bhfreastalaí IRC iarbhír, agus ó chainéil roghnaithe freisin. Is féidir le cliaint iolracha ó shuíomhanna éagsúla ceangal le cuntas ZNC amháin ag an am céanna agus dá bhrí sin feictear iad faoin leasainm céanna ar IRC.
+    hr_HR: Znc je IRC mrežni odbijač ili BNC. Može odvojiti klijenta od stvarnog IRC poslužitelja, a također i od odabranih kanala. Više klijenata s različitih lokacija može se istovremeno spojiti na jedan ZNC račun i stoga se pojaviti pod istim nadimkom na IRC-u.
+    hu_HU: A Znc egy IRC hálózati bouncer vagy BNC. Le tudja választani a klienst az aktuális IRC szerverről, valamint a kiválasztott csatornákról is. Több, különböző helyekről származó kliens is csatlakozhat egyszerre egyetlen ZNC fiókhoz, és így ugyanazzal a nicknévvel jelenhet meg az IRC-n.
+    it_IT: ZNC è un bouncer di rete IRC, o BNC (Broadcast Network Bouncer). Permette di disconnettere il client dal server IRC e da canali selezionati. Più client provenienti da diverse località possono connettersi simultaneamente a un singolo account ZNC e quindi apparire con lo stesso nickname su IRC.
+    ja_JP: ZNCはIRCネットワークバウンサー（BNC）の一種です。クライアントを実際のIRCサーバーから、また選択したチャンネルからも切り離すことができます。異なる場所から複数のクライアントが同時に1つのZNCアカウントに接続できるため、IRC上では同じニックネームで表示されます。
+    ko_KR: ZNC는 IRC 네트워크 바운서(BNC)입니다. 클라이언트를 실제 IRC 서버와 특정 채널에서 분리할 수 있습니다. 여러 클라이언트가 서로 다른 위치에서 하나의 ZNC 계정에 동시에 접속할 수 있으므로 IRC에서 동일한 닉네임으로 표시될 수 있습니다.
+    ml_IN: Znc ഒരു IRC നെറ്റ്‌വർക്ക് ബൗൺസർ അല്ലെങ്കിൽ BNC ആണ്. ഇതിന് യഥാർത്ഥ IRC സെർവറിൽ നിന്നും തിരഞ്ഞെടുത്ത ചാനലുകളിൽ നിന്നും ക്ലയന്റിനെ വേർപെടുത്താൻ കഴിയും. വ്യത്യസ്ത സ്ഥലങ്ങളിൽ നിന്നുള്ള ഒന്നിലധികം ക്ലയന്റുകൾക്ക് ഒരേസമയം ഒരൊറ്റ ZNC അക്കൗണ്ടിലേക്ക് കണക്റ്റുചെയ്യാൻ കഴിയും, അതിനാൽ IRC-യിൽ ഒരേ വിളിപ്പേരിൽ ദൃശ്യമാകും.
+    nb_NO: Znc er en IRC-nettverks-bouncer eller BNC. Den kan koble klienten fra den faktiske IRC-serveren, og også fra utvalgte kanaler. Flere klienter fra forskjellige steder kan koble seg til en enkelt ZNC-konto samtidig og vises derfor under samme kallenavn på IRC.
+    nl_NL: Znc is een IRC-netwerkbouncer of BNC. Het kan de client loskoppelen van de daadwerkelijke IRC-server en ook van geselecteerde kanalen. Meerdere clients vanaf verschillende locaties kunnen tegelijkertijd verbinding maken met één ZNC-account en daardoor onder dezelfde bijnaam op IRC verschijnen.
+    pl_PL: Znc to sieć IRC typu „bouncer”, czyli BNC. Może odłączyć klienta od serwera IRC, a także od wybranych kanałów. Wielu klientów z różnych lokalizacji może jednocześnie połączyć się z jednym kontem ZNC i dzięki temu występować pod tym samym nickiem na IRC.
+    pt_BR: Znc é um bouncer de rede IRC ou BNC. Ele pode desconectar o cliente do servidor IRC real e também de canais selecionados. Vários clientes de diferentes locais podem se conectar simultaneamente a uma única conta ZNC e, portanto, aparecer com o mesmo apelido no IRC.
+    ro_RO: Znc este un bouncer de rețea IRC sau BNC. Poate detașa clientul de serverul IRC real, precum și de canalele selectate. Mai mulți clienți din locații diferite se pot conecta simultan la un singur cont ZNC și, prin urmare, pot apărea sub aceeași poreclă pe IRC.
+    ru_RU: ZNC — это сетевой адаптер для IRC-сетей (BNC). Он может отключать клиента от фактического IRC-сервера, а также от выбранных каналов. Несколько клиентов из разных мест могут одновременно подключаться к одной учетной записи ZNC и, следовательно, отображаться под одним и тем же ником в IRC.
+    sk_SK: Znc je IRC sieťový bouncer alebo BNC. Dokáže odpojiť klienta od skutočného IRC servera a tiež od vybraných kanálov. Viacerí klienti z rôznych miest sa môžu súčasne pripojiť k jednému ZNC účtu, a preto sa na IRC zobrazujú pod rovnakou prezývkou.
+    sv_SE: Znc är en IRC-nätverksbouncer eller BNC. Den kan koppla bort klienten från själva IRC-servern, och även från utvalda kanaler. Flera klienter från olika platser kan ansluta till ett enda ZNC-konto samtidigt och visas därför under samma smeknamn på IRC.
+    tr_TR: Znc, bir IRC ağ yönlendiricisi veya BNC'dir. İstemciyi gerçek IRC sunucusundan ve ayrıca seçilen kanallardan ayırabilir. Farklı konumlardan birden fazla istemci aynı anda tek bir ZNC hesabına bağlanabilir ve bu nedenle IRC'de aynı takma ad altında görünebilir.
     zh_CN: ZNC 是 IRC 网络中继（Bouncer，也称 BNC）。它可将客户端与实际 IRC 服务器，以及选定频道的连接分离。不同地点的多个客户端可以同时连接到一个 ZNC 账户，并在 IRC 上使用相同昵称。
+    zh_TW: ZNC 是 IRC 網路中繼（Bouncer，也稱 BNC）。它可將客戶端與實際 IRC 伺服器，以及選定頻道的連線分離。不同地點的多個客戶端可以同時連線到一個 ZNC 賬戶，並在 IRC 上使用相同暱稱。
   tagline:
     en_US: An IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
+    ca_ES: Un rebotador de xarxa IRC o BNC. Pot desconnectar el client del servidor IRC real i també dels canals seleccionats. Diversos clients de diferents ubicacions es poden connectar simultàniament a un únic compte ZNC i, per tant, aparèixer amb el mateix sobrenom a l'IRC.
+    cs_CZ: IRC síťový bouncer neboli BNC. Dokáže odpojit klienta od skutečného IRC serveru a také od vybraných kanálů. Více klientů z různých míst se může současně připojit k jednomu ZNC účtu a proto se na IRC zobrazovat pod stejnou přezdívkou.
+    da_DK: En IRC-netværks-bouncer eller BNC. Den kan afbryde klienten fra den faktiske IRC-server og også fra udvalgte kanaler. Flere klienter fra forskellige placeringer kan oprette forbindelse til en enkelt ZNC-konto samtidigt og derfor vises under det samme kaldenavn på IRC.
+    de_DE: Ein IRC-Netzwerk-Bouncer (BNC). Er kann den Client vom eigentlichen IRC-Server und auch von ausgewählten Kanälen trennen. Mehrere Clients von verschiedenen Standorten können sich gleichzeitig mit einem einzigen ZNC-Konto verbinden und erscheinen daher im IRC unter demselben Nicknamen.
+    el_GR: Έναν αποσυνδετήρα δικτύου IRC ή BNC. Μπορεί να αποσυνδέσει τον πελάτη από τον πραγματικό διακομιστή IRC, καθώς και από επιλεγμένα κανάλια. Πολλοί πελάτες από διαφορετικές τοποθεσίες μπορούν να συνδεθούν σε έναν μόνο λογαριασμό ZNC ταυτόχρονα και επομένως εμφανίζονται με το ίδιο ψευδώνυμο στο IRC.
+    en_GB: An Irc network bouncer or Bnc. It can detach the client from the actual Irc server, and also from selected channels. Multiple clients from different locations can connect to a single Znc account simultaneously and therefore appear under the same nickname on Irc.
+    es_ES: Un servidor de reenvío de red IRC (BNC) permite desconectar al cliente del servidor IRC y de canales específicos. Varios clientes de diferentes ubicaciones pueden conectarse simultáneamente a una misma cuenta ZNC y, por lo tanto, aparecer con el mismo apodo en IRC.
+    fr_FR: Un intermédiaire de réseau IRC (BNC). Il permet de déconnecter le client du serveur IRC et de certains canaux. Plusieurs clients situés à différents endroits peuvent se connecter simultanément à un même compte ZNC et apparaître ainsi sous le même pseudonyme sur IRC.
+    ga_IE: Preabálaí líonra IRC nó BNC. Is féidir leis an cliant a dhícheangal ón bhfreastalaí IRC iarbhír, agus ó chainéil roghnaithe freisin. Is féidir le cliaint iolracha ó shuíomhanna éagsúla ceangal le cuntas ZNC amháin ag an am céanna agus dá bhrí sin feictear iad faoin leasainm céanna ar IRC.
+    hr_HR: IRC mrežni izbacivač ili BNC. Može odvojiti klijenta od stvarnog IRC poslužitelja, a također i od odabranih kanala. Više klijenata s različitih lokacija može se istovremeno spojiti na jedan ZNC račun i stoga se pojaviti pod istim nadimkom na IRC-u.
+    hu_HU: Egy IRC hálózati bouncer vagy BNC. Le tudja választani a klienst az aktuális IRC szerverről, valamint a kiválasztott csatornákról is. Több, különböző helyekről származó kliens egyszerre csatlakozhat egyetlen ZNC fiókhoz, és így ugyanazzal a nicknévvel jelenhet meg az IRC-n.
+    it_IT: Un BNC (Network Bouncer) per IRC. Permette di disconnettere il client dal server IRC e da canali selezionati. Più client provenienti da diverse località possono connettersi simultaneamente a un singolo account ZNC e quindi apparire con lo stesso nickname su IRC.
+    ja_JP: IRCネットワークバウンサー、またはBNCと呼ばれるもの。クライアントを実際のIRCサーバーから、また選択したチャンネルからも切り離すことができます。異なる場所から複数のクライアントが同時に1つのZNCアカウントに接続できるため、IRC上で同じニックネームで表示されることになります。
+    ko_KR: IRC 네트워크 바운서(BNC)는 클라이언트를 실제 IRC 서버 및 선택한 채널에서 분리할 수 있습니다. 여러 클라이언트가 서로 다른 위치에서 하나의 ZNC 계정에 동시에 접속하여 IRC에서 동일한 닉네임으로 표시될 수 있습니다.
+    ml_IN: ഒരു IRC നെറ്റ്‌വർക്ക് ബൗൺസർ അല്ലെങ്കിൽ BNC. ഇതിന് യഥാർത്ഥ IRC സെർവറിൽ നിന്നും തിരഞ്ഞെടുത്ത ചാനലുകളിൽ നിന്നും ക്ലയന്റിനെ വേർപെടുത്താൻ കഴിയും. വ്യത്യസ്ത സ്ഥലങ്ങളിൽ നിന്നുള്ള ഒന്നിലധികം ക്ലയന്റുകൾക്ക് ഒരേസമയം ഒരൊറ്റ ZNC അക്കൗണ്ടിലേക്ക് കണക്റ്റുചെയ്യാൻ കഴിയും, അതിനാൽ IRC-യിൽ ഒരേ വിളിപ്പേരിൽ ദൃശ്യമാകും.
+    nb_NO: En IRC-nettverks-bouncer eller BNC. Den kan koble klienten fra den faktiske IRC-serveren, og også fra utvalgte kanaler. Flere klienter fra forskjellige steder kan koble seg til en enkelt ZNC-konto samtidig og vises derfor under samme kallenavn på IRC.
+    nl_NL: Een IRC-netwerkbouncer of BNC. Hiermee kan de client losgekoppeld worden van de daadwerkelijke IRC-server en ook van geselecteerde kanalen. Meerdere clients vanaf verschillende locaties kunnen tegelijkertijd verbinding maken met één ZNC-account en daardoor onder dezelfde bijnaam op IRC verschijnen.
+    pl_PL: Bramkarz sieciowy IRC, czyli BNC. Może odłączyć klienta od serwera IRC, a także od wybranych kanałów. Wielu klientów z różnych lokalizacji może jednocześnie połączyć się z jednym kontem ZNC i dzięki temu pojawiać się pod tym samym pseudonimem na IRC.
+    pt_BR: Um bouncer de rede IRC ou BNC. Ele pode desconectar o cliente do servidor IRC real e também de canais selecionados. Vários clientes de locais diferentes podem se conectar a uma única conta ZNC simultaneamente e, portanto, aparecer com o mesmo apelido no IRC.
+    ro_RO: Un bouncer de rețea IRC sau BNC. Poate detașa clientul de serverul IRC real, precum și de canalele selectate. Mai mulți clienți din locații diferite se pot conecta simultan la un singur cont ZNC și, prin urmare, pot apărea sub aceeași poreclă pe IRC.
+    ru_RU: ZNC — это сетевой адаптер для IRC-сети. Он позволяет отключать клиент от фактического IRC-сервера, а также от выбранных каналов. Несколько клиентов из разных мест могут одновременно подключаться к одной учетной записи ZNC и, следовательно, отображаться в IRC под одним и тем же ником.
+    sk_SK: IRC sieťový odbočovač alebo BNC. Dokáže odpojiť klienta od skutočného IRC servera a tiež od vybraných kanálov. Viacerí klienti z rôznych miest sa môžu súčasne pripojiť k jednému ZNC účtu, a preto sa na IRC zobrazujú pod rovnakou prezývkou.
+    sv_SE: En IRC-nätverksbouncer eller BNC. Den kan koppla bort klienten från själva IRC-servern, och även från utvalda kanaler. Flera klienter från olika platser kan ansluta till ett enda ZNC-konto samtidigt och visas därför under samma smeknamn på IRC.
+    tr_TR: IRC ağ yönlendiricisi veya kısaca BNC. İstemciyi gerçek IRC sunucusundan ve ayrıca seçili kanallardan ayırabilir. Farklı konumlardan birden fazla istemci aynı anda tek bir ZNC hesabına bağlanabilir ve bu nedenle IRC'de aynı takma ad altında görünebilir.
     zh_CN: 保持 IRC 连接并支持多客户端共享身份。
+    zh_TW: 保持 IRC 連線並支援多客戶端共享身份。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-logo.png
   title:
     en_US: Znc (LinuxServer.io)
+    ca_ES: Znc (LinuxServer.io)
+    cs_CZ: Znc (LinuxServer.io)
+    da_DK: Znc (LinuxServer.io)
+    de_DE: Znc (LinuxServer.io)
+    el_GR: Znc (LinuxServer.io)
+    en_GB: Znc (LinuxServer.io)
+    es_ES: Znc (LinuxServer.io)
+    fr_FR: Znc (LinuxServer.io)
+    ga_IE: Znc (LinuxServer.io)
+    hr_HR: Znc (LinuxServer.io)
+    hu_HU: Znc (LinuxServer.io)
+    it_IT: Znc (LinuxServer.io)
+    ja_JP: Znc (LinuxServer.io)
+    ko_KR: Znc (LinuxServer.io)
+    ml_IN: Znc (LinuxServer.io)
+    nb_NO: Znc (LinuxServer.io)
+    nl_NL: Znc (LinuxServer.io)
+    pl_PL: Znc (LinuxServer.io)
+    pt_BR: Znc (LinuxServer.io)
+    ro_RO: Znc (LinuxServer.io)
+    ru_RU: Znc (LinuxServer.io)
+    sk_SK: Znc (LinuxServer.io)
+    sv_SE: Znc (LinuxServer.io)
+    tr_TR: Znc (LinuxServer.io)
     zh_CN: Znc（LinuxServer.io）
+    zh_TW: Znc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverznc
   port_map: '6501'

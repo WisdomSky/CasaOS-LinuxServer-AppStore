@@ -61,17 +61,92 @@ x-casaos:
   main: app
   description:
     en_US: Piper is a fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+    ca_ES: Piper és un sistema de text a veu neuronal local i ràpid que sona molt bé i està optimitzat per a la Raspberry Pi 4. Aquest contenidor proporciona un servidor de protocol Wyoming per a Piper.
+    cs_CZ: Piper je rychlý, lokální neuronový systém pro převod textu na řeč, který zní skvěle a je optimalizován pro Raspberry Pi 4. Tento kontejner poskytuje server protokolu Wyoming pro Piper.
+    da_DK: Piper er et hurtigt, lokalt neuralt tekst-til-tale-system, der lyder fantastisk og er optimeret til Raspberry Pi 4. Denne container leverer en Wyoming-protokolserver til Piper.
+    de_DE: Piper ist ein schnelles, lokales neuronales Text-zu-Sprache-System mit hervorragender Klangqualität, das für den Raspberry Pi 4 optimiert ist. Dieser Container stellt einen Wyoming-Protokollserver für Piper bereit.
+    el_GR: Το Piper είναι ένα γρήγορο, τοπικό νευρωνικό σύστημα μετατροπής κειμένου σε ομιλία που ακούγεται υπέροχα και είναι βελτιστοποιημένο για το Raspberry Pi 4. Αυτό το κοντέινερ παρέχει έναν διακομιστή πρωτοκόλλου Wyoming για το Piper.
+    en_GB: Piper is a fast, local neural text to speech system that sounds great and is optimised for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+    es_ES: Piper es un sistema neuronal de conversión de texto a voz rápido y local que suena de maravilla y está optimizado para la Raspberry Pi 4. Este contenedor proporciona un servidor con protocolo Wyoming para Piper.
+    fr_FR: Piper est un système de synthèse vocale neuronal local rapide, offrant une excellente qualité sonore et optimisé pour le Raspberry Pi 4. Ce conteneur fournit un serveur de protocole Wyoming pour Piper.
+    ga_IE: Is córas téacs go hurlabhra néarach áitiúil tapa é Piper a bhfuil fuaim iontach air agus atá optamaithe don Raspberry Pi 4. Soláthraíonn an coimeádán seo freastalaí prótacail Wyoming do Piper.
+    hr_HR: Piper je brzi, lokalni neuronski sustav za pretvaranje teksta u govor koji zvuči sjajno i optimiziran je za Raspberry Pi 4. Ovaj kontejner pruža Wyoming protokol poslužitelj za Piper.
+    hu_HU: A Piper egy gyors, helyi neurális szövegfelolvasó rendszer, amely nagyszerűen hangzik és Raspberry Pi 4-re van optimalizálva. Ez a konténer egy Wyoming protokoll szervert biztosít a Piper számára.
+    it_IT: Piper è un sistema di sintesi vocale neurale locale e veloce, con un'ottima qualità audio e ottimizzato per Raspberry Pi 4. Questo container fornisce un server di protocollo Wyoming per Piper.
+    ja_JP: Piperは、高速でローカルなニューラルテキスト音声変換システムであり、優れた音質を実現し、Raspberry Pi 4向けに最適化されています。このコンテナは、Piper用のWyomingプロトコルサーバーを提供します。
+    ko_KR: Piper는 빠르고 로컬 기반의 신경망 텍스트 음성 변환 시스템으로, 뛰어난 음질을 제공하며 Raspberry Pi 4에 최적화되어 있습니다. 이 컨테이너는 Piper용 Wyoming 프로토콜 서버를 제공합니다.
+    ml_IN: പൈപ്പർ എന്നത് വേഗതയേറിയതും ലോക്കൽ ന്യൂറൽ ടെക്സ്റ്റ് ടു സ്പീച്ച് സിസ്റ്റവുമാണ്, അത് മികച്ചതായി തോന്നുകയും റാസ്പ്ബെറി പൈ 4-ന് വേണ്ടി ഒപ്റ്റിമൈസ് ചെയ്യുകയും ചെയ്യുന്നു. ഈ കണ്ടെയ്നർ പൈപ്പറിനായി ഒരു വ്യോമിംഗ് പ്രോട്ടോക്കോൾ സെർവർ നൽകുന്നു.
+    nb_NO: Piper er et raskt, lokalt nevralt tekst-til-tale-system som høres bra ut og er optimalisert for Raspberry Pi 4. Denne containeren tilbyr en Wyoming-protokollserver for Piper.
+    nl_NL: Piper is een snel, lokaal neuraal tekst-naar-spraaksysteem dat geweldig klinkt en geoptimaliseerd is voor de Raspberry Pi 4. Deze container biedt een Wyoming-protocolserver voor Piper.
+    pl_PL: Piper to szybki, lokalny, neuronowy system zamiany tekstu na mowę, który brzmi świetnie i jest zoptymalizowany pod kątem Raspberry Pi 4. Ten kontener zapewnia serwer protokołu Wyoming dla Piper.
+    pt_BR: Piper é um sistema neural de conversão de texto em fala rápido e local, com ótima qualidade de som e otimizado para o Raspberry Pi 4. Este contêiner fornece um servidor de protocolo Wyoming para o Piper.
+    ro_RO: Piper este un sistem text-vorbire neuronal local, rapid, care sună excelent și este optimizat pentru Raspberry Pi 4. Acest container oferă un server de protocol Wyoming pentru Piper.
+    ru_RU: Piper — это быстрая локальная нейронная система преобразования текста в речь, которая обеспечивает отличное качество звука и оптимизирована для Raspberry Pi 4. Этот контейнер предоставляет сервер протокола Wyoming для Piper.
+    sk_SK: Piper je rýchly, lokálny neurónový systém prevodu textu na reč, ktorý znie skvele a je optimalizovaný pre Raspberry Pi 4. Tento kontajner poskytuje server protokolu Wyoming pre Piper.
+    sv_SE: Piper är ett snabbt, lokalt neuralt text-till-tal-system som låter bra och är optimerat för Raspberry Pi 4. Denna container tillhandahåller en Wyoming-protokollserver för Piper.
+    tr_TR: Piper, harika ses kalitesi sunan ve Raspberry Pi 4 için optimize edilmiş hızlı, yerel bir sinirsel metinden sese dönüştürme sistemidir. Bu konteyner, Piper için bir Wyoming protokol sunucusu sağlar.
     zh_CN: Piper 是一个快速、本地运行的神经网络文字转语音系统，声音效果出色，并针对树莓派 4 优化。此容器为 Piper 提供 Wyoming 协议服务器。
+    zh_TW: Piper 是一個快速、本地執行的神經網路文字轉語音系統，聲音效果出色，並針對樹莓派 4 最佳化。此容器為 Piper 提供 Wyoming 協議伺服器。
   tagline:
     en_US: A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+    ca_ES: Un sistema de text a veu neuronal local, ràpid i que sona molt bé i està optimitzat per a la Raspberry Pi 4. Aquest contenidor proporciona un servidor de protocol Wyoming per a Piper.
+    cs_CZ: Rychlý, lokální neuronový systém pro převod textu na řeč, který zní skvěle a je optimalizovaný pro Raspberry Pi 4. Tento kontejner poskytuje server protokolu Wyoming pro Piper.
+    da_DK: Et hurtigt, lokalt neuralt tekst-til-tale-system, der lyder fantastisk og er optimeret til Raspberry Pi 4. Denne container leverer en Wyoming-protokolserver til Piper.
+    de_DE: Ein schnelles, lokales neuronales Text-zu-Sprache-System mit hervorragender Klangqualität, optimiert für den Raspberry Pi 4. Dieser Container stellt einen Wyoming-Protokollserver für Piper bereit.
+    el_GR: Ένα γρήγορο, τοπικό νευρωνικό σύστημα μετατροπής κειμένου σε ομιλία που ακούγεται υπέροχα και είναι βελτιστοποιημένο για το Raspberry Pi 4. Αυτό το κοντέινερ παρέχει έναν διακομιστή πρωτοκόλλου Wyoming για το Piper.
+    en_GB: A fast, local neural text to speech system that sounds great and is optimised for the Raspberry Pi 4. This container provides a Wyoming protocol server for Piper.
+    es_ES: Un sistema de conversión de texto a voz neuronal rápido y local que suena de maravilla y está optimizado para la Raspberry Pi 4. Este contenedor proporciona un servidor con protocolo Wyoming para Piper.
+    fr_FR: Un système de synthèse vocale neuronal local rapide, offrant une excellente qualité sonore et optimisé pour le Raspberry Pi 4. Ce conteneur fournit un serveur de protocole Wyoming pour Piper.
+    ga_IE: Córas téacs-go-hurlabhra néarach áitiúil tapa a bhfuil fuaim iontach air agus atá optamaithe don Raspberry Pi 4. Soláthraíonn an coimeádán seo freastalaí prótacail Wyoming do Piper.
+    hr_HR: Brzi, lokalni neuronski sustav za pretvaranje teksta u govor koji zvuči sjajno i optimiziran je za Raspberry Pi 4. Ovaj kontejner pruža Wyoming protokol poslužitelj za Piper.
+    hu_HU: Egy gyors, helyi neurális szövegfelolvasó rendszer, amely nagyszerűen hangzik és Raspberry Pi 4-re van optimalizálva. Ez a konténer egy Wyoming protokoll szervert biztosít a Piperhez.
+    it_IT: Un sistema di sintesi vocale neurale locale e veloce, con un'ottima qualità audio e ottimizzato per Raspberry Pi 4. Questo container fornisce un server di protocollo Wyoming per Piper.
+    ja_JP: 高速でローカルなニューラルテキスト音声変換システムで、優れた音声品質を実現し、Raspberry Pi 4向けに最適化されています。このコンテナは、Piper用のWyomingプロトコルサーバーを提供します。
+    ko_KR: 빠르고 뛰어난 음질을 제공하며 라즈베리 파이 4에 최적화된 로컬 신경망 기반 텍스트 음성 변환 시스템입니다. 이 컨테이너는 Piper용 Wyoming 프로토콜 서버를 제공합니다.
+    ml_IN: റാസ്‌ബെറി പൈ 4-ന് വേണ്ടി ഒപ്റ്റിമൈസ് ചെയ്‌തതും മികച്ചതായി തോന്നുന്നതുമായ ഒരു വേഗതയേറിയ, ലോക്കൽ ന്യൂറൽ ടെക്‌സ്‌റ്റ് ടു സ്പീച്ച് സിസ്റ്റം. ഈ കണ്ടെയ്‌നർ പൈപ്പറിനായി ഒരു വ്യോമിംഗ് പ്രോട്ടോക്കോൾ സെർവർ നൽകുന്നു.
+    nb_NO: Et raskt, lokalt nevralt tekst-til-tale-system som høres bra ut og er optimalisert for Raspberry Pi 4. Denne containeren tilbyr en Wyoming-protokollserver for Piper.
+    nl_NL: Een snel, lokaal neuraal tekst-naar-spraaksysteem dat geweldig klinkt en geoptimaliseerd is voor de Raspberry Pi 4. Deze container biedt een Wyoming-protocolserver voor Piper.
+    pl_PL: Szybki, lokalny, neuronowy system zamiany tekstu na mowę, który brzmi świetnie i jest zoptymalizowany pod kątem Raspberry Pi 4. Ten kontener zapewnia serwer protokołu Wyoming dla Piper.
+    pt_BR: Um sistema neural de conversão de texto em fala rápido e local, com ótima qualidade de som e otimizado para o Raspberry Pi 4. Este contêiner fornece um servidor de protocolo Wyoming para o Piper.
+    ro_RO: Un sistem text-vorbire neuronal local, rapid, care sună excelent și este optimizat pentru Raspberry Pi 4. Acest container oferă un server de protocol Wyoming pentru Piper.
+    ru_RU: Быстрая локальная нейронная система преобразования текста в речь, обеспечивающая отличное качество звука и оптимизированная для Raspberry Pi 4. Этот контейнер предоставляет сервер протокола Wyoming для Piper.
+    sk_SK: Rýchly, lokálny neurónový systém prevodu textu na reč, ktorý znie skvele a je optimalizovaný pre Raspberry Pi 4. Tento kontajner poskytuje server protokolu Wyoming pre Piper.
+    sv_SE: Ett snabbt, lokalt neuralt text-till-tal-system som låter bra och är optimerat för Raspberry Pi 4. Denna container tillhandahåller en Wyoming-protokollserver för Piper.
+    tr_TR: Hızlı, yerel sinirsel metinden sese dönüştürme sistemi, harika bir ses kalitesi sunar ve Raspberry Pi 4 için optimize edilmiştir. Bu konteyner, Piper için bir Wyoming protokol sunucusu sağlar.
     zh_CN: 通过 Wyoming 协议提供本地神经网络语音合成。
+    zh_TW: 透過 Wyoming 協議提供本地神經網路語音合成。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piper-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piper-logo.png
   title:
     en_US: Piper (LinuxServer.io)
+    ca_ES: Piper (LinuxServer.io)
+    cs_CZ: Piper (LinuxServer.io)
+    da_DK: Piper (LinuxServer.io)
+    de_DE: Piper (LinuxServer.io)
+    el_GR: Piper (LinuxServer.io)
+    en_GB: Piper (LinuxServer.io)
+    es_ES: Piper (LinuxServer.io)
+    fr_FR: Piper (LinuxServer.io)
+    ga_IE: Piper (LinuxServer.io)
+    hr_HR: Piper (LinuxServer.io)
+    hu_HU: Piper (LinuxServer.io)
+    it_IT: Piper (LinuxServer.io)
+    ja_JP: Piper (LinuxServer.io)
+    ko_KR: Piper (LinuxServer.io)
+    ml_IN: Piper (LinuxServer.io)
+    nb_NO: Piper (LinuxServer.io)
+    nl_NL: Piper (LinuxServer.io)
+    pl_PL: Piper (LinuxServer.io)
+    pt_BR: Piper (LinuxServer.io)
+    ro_RO: Piper (LinuxServer.io)
+    ru_RU: Piper (LinuxServer.io)
+    sk_SK: Piper (LinuxServer.io)
+    sv_SE: Piper (LinuxServer.io)
+    tr_TR: Piper (LinuxServer.io)
     zh_CN: Piper（LinuxServer.io）
+    zh_TW: Piper（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpiper
   port_map: '10200'

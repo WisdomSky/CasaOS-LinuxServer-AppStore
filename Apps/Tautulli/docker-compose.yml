@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Tautulli is a python based web application for monitoring, analytics and notifications for Plex Media Server.
+    ca_ES: Tautulli és una aplicació web basada en Python per a la monitorització, l'anàlisi i les notificacions per al servidor Plex Media.
+    cs_CZ: Tautulli je webová aplikace v jazyce Python pro monitorování, analýzu a notifikace pro Plex Media Server.
+    da_DK: Tautulli er en Python-baseret webapplikation til overvågning, analyse og notifikationer til Plex Media Server.
+    de_DE: Tautulli ist eine auf Python basierende Webanwendung zur Überwachung, Analyse und Benachrichtigung des Plex Media Servers.
+    el_GR: Το Tautulli είναι μια διαδικτυακή εφαρμογή που βασίζεται σε Python για παρακολούθηση, ανάλυση και ειδοποιήσεις για τον Plex Media Server.
+    en_GB: Tautulli is a python based web application for monitoring, analytics and notifications for Plex Media Server.
+    es_ES: Tautulli es una aplicación web basada en Python para la monitorización, el análisis y las notificaciones de Plex Media Server.
+    fr_FR: Tautulli est une application web basée sur Python permettant la surveillance, l'analyse et les notifications pour Plex Media Server.
+    ga_IE: Is feidhmchlár gréasáin bunaithe ar Python é Tautulli le haghaidh monatóireachta, anailísíochta agus fógraí do Plex Media Server.
+    hr_HR: Tautulli je web aplikacija temeljena na Pythonu za praćenje, analitiku i obavijesti za Plex Media Server.
+    hu_HU: A Tautulli egy Python alapú webes alkalmazás a Plex Media Server monitorozásához, elemzéséhez és értesítéseihez.
+    it_IT: Tautulli è un'applicazione web basata su Python per il monitoraggio, l'analisi e le notifiche relative a Plex Media Server.
+    ja_JP: Tautulliは、Plex Media Serverの監視、分析、通知を行うためのPythonベースのWebアプリケーションです。
+    ko_KR: Tautulli는 Plex Media Server의 모니터링, 분석 및 알림을 위한 파이썬 기반 웹 애플리케이션입니다.
+    ml_IN: പ്ലെക്സ് മീഡിയ സെർവറിനായുള്ള നിരീക്ഷണം, വിശകലനം, അറിയിപ്പുകൾ എന്നിവയ്‌ക്കായുള്ള ഒരു പൈത്തൺ അധിഷ്ഠിത വെബ് ആപ്ലിക്കേഷനാണ് ടൗട്ടുള്ളി.
+    nb_NO: Tautulli er en python-basert webapplikasjon for overvåking, analyse og varsler for Plex Media Server.
+    nl_NL: Tautulli is een op Python gebaseerde webapplicatie voor het monitoren, analyseren en notificeren van Plex Media Server.
+    pl_PL: Tautulli to oparta na języku Python aplikacja internetowa służąca do monitorowania, analizowania i wysyłania powiadomień dla serwera Plex Media Server.
+    pt_BR: Tautulli é um aplicativo web baseado em Python para monitoramento, análise e notificações do Plex Media Server.
+    ro_RO: Tautulli este o aplicație web bazată pe Python pentru monitorizare, analiză și notificări pentru Plex Media Server.
+    ru_RU: Tautulli — это веб-приложение на Python для мониторинга, аналитики и уведомлений для Plex Media Server.
+    sk_SK: Tautulli je webová aplikácia v jazyku Python pre monitorovanie, analýzu a notifikácie pre Plex Media Server.
+    sv_SE: Tautulli är en Python-baserad webbapplikation för övervakning, analys och aviseringar för Plex Media Server.
+    tr_TR: Tautulli, Plex Media Server için izleme, analiz ve bildirim işlevlerini yerine getiren Python tabanlı bir web uygulamasıdır.
     zh_CN: Tautulli 是基于 Python 的网页应用，为 Plex Media Server 提供监控、分析和通知功能。
+    zh_TW: Tautulli 是基於 Python 的網頁應用，為 Plex Media Server 提供監控、分析和通知功能。
   tagline:
     en_US: A python based web application for monitoring, analytics and notifications for Plex Media Server.
+    ca_ES: Una aplicació web basada en Python per a la monitorització, l'anàlisi i les notificacions per al servidor Plex Media.
+    cs_CZ: Webová aplikace v Pythonu pro monitorování, analýzu a notifikace pro Plex Media Server.
+    da_DK: En Python-baseret webapplikation til overvågning, analyse og notifikationer til Plex Media Server.
+    de_DE: Eine auf Python basierende Webanwendung zur Überwachung, Analyse und Benachrichtigung des Plex Media Servers.
+    el_GR: Μια διαδικτυακή εφαρμογή βασισμένη σε Python για παρακολούθηση, ανάλυση και ειδοποιήσεις για τον Plex Media Server.
+    en_GB: A python based web application for monitoring, analytics and notifications for Plex Media Server.
+    es_ES: Aplicación web basada en Python para la monitorización, el análisis y las notificaciones de Plex Media Server.
+    fr_FR: Une application web basée sur Python pour la surveillance, l'analyse et les notifications du serveur multimédia Plex.
+    ga_IE: Feidhmchlár gréasáin bunaithe ar Python le haghaidh monatóireachta, anailísíochta agus fógraí do Plex Media Server.
+    hr_HR: Web aplikacija temeljena na Pythonu za praćenje, analitiku i obavijesti za Plex Media Server.
+    hu_HU: Egy Python alapú webes alkalmazás a Plex Media Server monitorozásához, elemzéséhez és értesítéseihez.
+    it_IT: Un'applicazione web basata su Python per il monitoraggio, l'analisi e le notifiche relative a Plex Media Server.
+    ja_JP: Plex Media Serverの監視、分析、通知を行うためのPythonベースのWebアプリケーション。
+    ko_KR: Plex Media Server의 모니터링, 분석 및 알림 기능을 제공하는 파이썬 기반 웹 애플리케이션입니다.
+    ml_IN: പ്ലെക്സ് മീഡിയ സെർവറിനായുള്ള നിരീക്ഷണം, വിശകലനം, അറിയിപ്പുകൾ എന്നിവയ്‌ക്കായുള്ള ഒരു പൈത്തൺ അധിഷ്ഠിത വെബ് ആപ്ലിക്കേഷൻ.
+    nb_NO: En Python-basert webapplikasjon for overvåking, analyse og varsler for Plex Media Server.
+    nl_NL: Een webapplicatie, geschreven in Python, voor het monitoren, analyseren en notificeren van Plex Media Server.
+    pl_PL: Aplikacja internetowa oparta na języku Python do monitorowania, analiz i powiadomień dla Plex Media Server.
+    pt_BR: Uma aplicação web baseada em Python para monitoramento, análise e notificações do Plex Media Server.
+    ro_RO: O aplicație web bazată pe Python pentru monitorizare, analiză și notificări pentru Plex Media Server.
+    ru_RU: Веб-приложение на Python для мониторинга, аналитики и уведомлений для медиасервера Plex.
+    sk_SK: Webová aplikácia založená na jazyku Python na monitorovanie, analýzu a notifikácie pre Plex Media Server.
+    sv_SE: En Python-baserad webbapplikation för övervakning, analys och aviseringar för Plex Media Server.
+    tr_TR: Plex Media Server için izleme, analiz ve bildirim işlevlerini yerine getiren Python tabanlı bir web uygulaması.
     zh_CN: 监控和分析 Plex Media Server，并发送通知。
+    zh_TW: 監控和分析 Plex Media Server，併傳送通知。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png
   title:
     en_US: Tautulli (LinuxServer.io)
+    ca_ES: Tautulli (LinuxServer.io)
+    cs_CZ: Tautulli (LinuxServer.io)
+    da_DK: Tautulli (LinuxServer.io)
+    de_DE: Tautulli (LinuxServer.io)
+    el_GR: Tautulli (LinuxServer.io)
+    en_GB: Tautulli (LinuxServer.io)
+    es_ES: Tautulli (LinuxServer.io)
+    fr_FR: Tautulli (LinuxServer.io)
+    ga_IE: Tautulli (LinuxServer.io)
+    hr_HR: Tautulli (LinuxServer.io)
+    hu_HU: Tautulli (LinuxServer.io)
+    it_IT: Tautulli (LinuxServer.io)
+    ja_JP: Tautulli (LinuxServer.io)
+    ko_KR: Tautulli (LinuxServer.io)
+    ml_IN: Tautulli (LinuxServer.io)
+    nb_NO: Tautulli (LinuxServer.io)
+    nl_NL: Tautulli (LinuxServer.io)
+    pl_PL: Tautulli (LinuxServer.io)
+    pt_BR: Tautulli (LinuxServer.io)
+    ro_RO: Tautulli (LinuxServer.io)
+    ru_RU: Tautulli (LinuxServer.io)
+    sk_SK: Tautulli (LinuxServer.io)
+    sv_SE: Tautulli (LinuxServer.io)
+    tr_TR: Tautulli (LinuxServer.io)
     zh_CN: Tautulli（LinuxServer.io）
+    zh_TW: Tautulli（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservertautulli
   port_map: '8181'

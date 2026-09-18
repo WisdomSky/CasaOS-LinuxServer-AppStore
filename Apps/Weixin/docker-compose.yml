@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Weixin (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
+    ca_ES: Weixin (WeChat) és una aplicació de missatgeria instantània, xarxes socials i pagament mòbil desenvolupada per Tencent.
+    cs_CZ: Weixin (WeChat) je aplikace pro rychlé zasílání zpráv, sociální média a mobilní platby vyvinutá společností Tencent.
+    da_DK: Weixin (WeChat) er en app til instant messaging, sociale medier og mobilbetalinger udviklet af Tencent.
+    de_DE: Weixin (WeChat) ist eine Instant-Messaging-, Social-Media- und Mobile-Payment-App, die von Tencent entwickelt wurde.
+    el_GR: Το Weixin (WeChat) είναι μια εφαρμογή άμεσων μηνυμάτων, μέσων κοινωνικής δικτύωσης και πληρωμών μέσω κινητού που αναπτύχθηκε από την Tencent.
+    en_GB: Weixin (Wechat) is an instant messaging, social media, and mobile payment app developed by Tencent.
+    es_ES: Weixin (WeChat) es una aplicación de mensajería instantánea, redes sociales y pagos móviles desarrollada por Tencent.
+    fr_FR: Weixin (WeChat) est une application de messagerie instantanée, de médias sociaux et de paiement mobile développée par Tencent.
+    ga_IE: Is aip teachtaireachtaí meandaracha, meán sóisialta agus íocaíochta soghluaiste í Weixin (WeChat) atá forbartha ag Tencent.
+    hr_HR: Weixin (WeChat) je aplikacija za instant poruke, društvene mreže i mobilno plaćanje koju je razvio Tencent.
+    hu_HU: A Weixin (WeChat) egy Tencent által fejlesztett azonnali üzenetküldő, közösségi média és mobilfizetési alkalmazás.
+    it_IT: Weixin (WeChat) è un'app di messaggistica istantanea, social media e pagamenti mobili sviluppata da Tencent.
+    ja_JP: Weixin（WeChat）は、テンセントが開発したインスタントメッセージング、ソーシャルメディア、モバイル決済アプリです。
+    ko_KR: 위챗(Weixin)은 텐센트가 개발한 인스턴트 메시징, 소셜 미디어 및 모바일 결제 앱입니다.
+    ml_IN: വെയ്‌ക്സിൻ (വീചാറ്റ്) ടെൻസെന്റ് വികസിപ്പിച്ചെടുത്ത ഒരു ഇൻസ്റ്റന്റ് മെസേജിംഗ്, സോഷ്യൽ മീഡിയ, മൊബൈൽ പേയ്‌മെന്റ് ആപ്പാണ്.
+    nb_NO: Weixin (WeChat) er en app for direktemeldinger, sosiale medier og mobilbetalinger utviklet av Tencent.
+    nl_NL: Weixin (WeChat) is een app voor instant messaging, sociale media en mobiele betalingen, ontwikkeld door Tencent.
+    pl_PL: Weixin (WeChat) to aplikacja do przesyłania wiadomości błyskawicznych, obsługi mediów społecznościowych i płatności mobilnych opracowana przez Tencent.
+    pt_BR: Weixin (WeChat) é um aplicativo de mensagens instantâneas, redes sociais e pagamentos móveis desenvolvido pela Tencent.
+    ro_RO: Weixin (WeChat) este o aplicație de mesagerie instantanee, social media și plată mobilă dezvoltată de Tencent.
+    ru_RU: Weixin (WeChat) — это приложение для обмена мгновенными сообщениями, социальных сетей и мобильных платежей, разработанное компанией Tencent.
+    sk_SK: Weixin (WeChat) je aplikácia na okamžité zasielanie správ, sociálne médiá a mobilné platby vyvinutá spoločnosťou Tencent.
+    sv_SE: Weixin (WeChat) är en app för snabbmeddelanden, sociala medier och mobila betalningar utvecklad av Tencent.
+    tr_TR: Weixin (WeChat), Tencent tarafından geliştirilen bir anlık mesajlaşma, sosyal medya ve mobil ödeme uygulamasıdır.
     zh_CN: 微信（WeChat）是腾讯开发的即时通信、社交媒体和移动支付应用。
+    zh_TW: 微信（WeChat）是騰訊開發的即時通訊、社交媒體和移動支付應用。
   tagline:
     en_US: (WeChat) is an instant messaging, social media, and mobile payment app developed by Tencent.
+    ca_ES: (WeChat) és una aplicació de missatgeria instantània, xarxes socials i pagament mòbil desenvolupada per Tencent.
+    cs_CZ: (WeChat) je aplikace pro rychlé zasílání zpráv, sociální média a mobilní platby vyvinutá společností Tencent.
+    da_DK: (WeChat) er en app til instant messaging, sociale medier og mobilbetalinger udviklet af Tencent.
+    de_DE: (WeChat) ist eine Instant-Messaging-, Social-Media- und Mobile-Payment-App, die von Tencent entwickelt wurde.
+    el_GR: (WeChat) είναι μια εφαρμογή άμεσων μηνυμάτων, μέσων κοινωνικής δικτύωσης και πληρωμών μέσω κινητού που αναπτύχθηκε από την Tencent.
+    en_GB: (Wechat) is an instant messaging, social media, and mobile payment app developed by Tencent.
+    es_ES: (WeChat) es una aplicación de mensajería instantánea, redes sociales y pagos móviles desarrollada por Tencent.
+    fr_FR: (WeChat) est une application de messagerie instantanée, de médias sociaux et de paiement mobile développée par Tencent.
+    ga_IE: Is aip teachtaireachtaí meandaracha, meán sóisialta agus íocaíochta soghluaiste í (WeChat) arna forbairt ag Tencent.
+    hr_HR: (WeChat) je aplikacija za instant poruke, društvene mreže i mobilno plaćanje koju je razvio Tencent.
+    hu_HU: (WeChat) egy Tencent által fejlesztett azonnali üzenetküldő, közösségi média és mobilfizetési alkalmazás.
+    it_IT: (WeChat) è un'app di messaggistica istantanea, social media e pagamenti mobili sviluppata da Tencent.
+    ja_JP: （WeChat）は、テンセントが開発したインスタントメッセージング、ソーシャルメディア、モバイル決済アプリです。
+    ko_KR: (위챗)은 텐센트가 개발한 인스턴트 메시징, 소셜 미디어 및 모바일 결제 앱입니다.
+    ml_IN: (WeChat) എന്നത് ടെൻസെന്റ് വികസിപ്പിച്ചെടുത്ത ഒരു ഇൻസ്റ്റന്റ് മെസ്സേജിംഗ്, സോഷ്യൽ മീഡിയ, മൊബൈൽ പേയ്‌മെന്റ് ആപ്പാണ്.
+    nb_NO: (WeChat) er en app for direktemeldinger, sosiale medier og mobilbetalinger utviklet av Tencent.
+    nl_NL: WeChat is een app voor instant messaging, sociale media en mobiele betalingen, ontwikkeld door Tencent.
+    pl_PL: (WeChat) to aplikacja do przesyłania wiadomości błyskawicznych, obsługi mediów społecznościowych i płatności mobilnych opracowana przez Tencent.
+    pt_BR: (WeChat) é um aplicativo de mensagens instantâneas, redes sociais e pagamentos móveis desenvolvido pela Tencent.
+    ro_RO: (WeChat) este o aplicație de mesagerie instantanee, social media și plată mobilă dezvoltată de Tencent.
+    ru_RU: WeChat — это приложение для обмена мгновенными сообщениями, социальных сетей и мобильных платежей, разработанное компанией Tencent.
+    sk_SK: (WeChat) je aplikácia na okamžité zasielanie správ, sociálne médiá a mobilné platby vyvinutá spoločnosťou Tencent.
+    sv_SE: (WeChat) är en app för snabbmeddelanden, sociala medier och mobila betalningar utvecklad av Tencent.
+    tr_TR: (WeChat), Tencent tarafından geliştirilen bir anlık mesajlaşma, sosyal medya ve mobil ödeme uygulamasıdır.
     zh_CN: 腾讯开发的即时通信、社交和移动支付应用。
+    zh_TW: 騰訊開發的即時通訊、社交和移動支付應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/weixin-logo.png
   title:
     en_US: Weixin (LinuxServer.io)
+    ca_ES: Weixin (LinuxServer.io)
+    cs_CZ: Weixin (LinuxServer.io)
+    da_DK: Weixin (LinuxServer.io)
+    de_DE: Weixin (LinuxServer.io)
+    el_GR: Weixin (LinuxServer.io)
+    en_GB: Weixin (LinuxServer.io)
+    es_ES: Weixin (LinuxServer.io)
+    fr_FR: Weixin (LinuxServer.io)
+    ga_IE: Weixin (LinuxServer.io)
+    hr_HR: Weixin (LinuxServer.io)
+    hu_HU: Weixin (LinuxServer.io)
+    it_IT: Weixin (LinuxServer.io)
+    ja_JP: Weixin (LinuxServer.io)
+    ko_KR: Weixin (LinuxServer.io)
+    ml_IN: Weixin (LinuxServer.io)
+    nb_NO: Weixin (LinuxServer.io)
+    nl_NL: Weixin (LinuxServer.io)
+    pl_PL: Weixin (LinuxServer.io)
+    pt_BR: Weixin (LinuxServer.io)
+    ro_RO: Weixin (LinuxServer.io)
+    ru_RU: Weixin (LinuxServer.io)
+    sk_SK: Weixin (LinuxServer.io)
+    sv_SE: Weixin (LinuxServer.io)
+    tr_TR: Weixin (LinuxServer.io)
     zh_CN: 微信（LinuxServer.io）
+    zh_TW: 微信（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverweixin
   port_map: '3000'

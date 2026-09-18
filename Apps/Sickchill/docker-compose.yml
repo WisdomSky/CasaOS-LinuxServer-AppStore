@@ -57,9 +57,62 @@ x-casaos:
       SickChill 是电视剧视频库的自动管理器。它会关注你喜欢的剧集，并在新一集发布后自动处理。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/sickchill/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/sickchill/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/sickchill/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/sickchill/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/sickchill/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/sickchill/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/sickchill/'
+    es_ES: 'Visita la página principal: https://hub.docker.com/r/linuxserver/sickchill/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/sickchill/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/sickchill/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/sickchill/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/sickchill/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/sickchill/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/sickchill/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/sickchill/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/sickchill/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/sickchill/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/sickchill/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/sickchill/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/sickchill/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/sickchill/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/sickchill/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/sickchill/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/sickchill/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/sickchill/'
+    zh_TW: |-
+      SickChill 是電視劇影片庫的自動管理器。它會關注你喜歡的劇集，並在新一集釋出後自動處理。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/sickchill/
   tagline:
     en_US: 'An Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. '
     zh_CN: 自动管理电视剧媒体库并追踪新集。
+    ca_ES: Un gestor automàtic de videoteca per a programes de televisió. Està atent als nous episodis dels teus programes preferits i, quan es publiquen, fa la seva màgia.
+    cs_CZ: Automatický správce videotéky pro televizní pořady. Hledá nové epizody vašich oblíbených pořadů a když jsou zveřejněny, udělá svá zázraky.
+    da_DK: En automatisk videobiblioteksadministrator til tv-serier. Den holder øje med nye episoder af dine yndlingsserier, og når de bliver lagt ud, virker den magisk.
+    de_DE: Ein automatischer Videobibliothek-Manager für Fernsehsendungen. Er sucht nach neuen Folgen Ihrer Lieblingssendungen und sobald diese veröffentlicht werden, entfaltet er seine Magie.
+    el_GR: Ένας αυτόματος διαχειριστής βιβλιοθήκης βίντεο για τηλεοπτικές εκπομπές. Παρακολουθεί για νέα επεισόδια των αγαπημένων σας εκπομπών και όταν αυτά δημοσιεύονται, κάνει τα μαγικά του.
+    en_GB: 'An Automatic Video Library Manager for Tv Shows. It watches for new episodes of your favourite shows, and when they are posted it does its magic. '
+    es_ES: Un gestor automático de videoteca para series de televisión. Busca nuevos episodios de tus series favoritas y, cuando se publican, hace su magia.
+    fr_FR: Un gestionnaire automatique de vidéothèque pour vos séries TV. Il surveille les nouveaux épisodes de vos séries préférées et, dès leur publication, il fait des merveilles.
+    ga_IE: Bainisteoir Uathoibríoch Leabharlann Físeáin do Chláir Teilifíse. Bíonn sé ag faire amach d’eipeasóidí nua de do chláir is fearr leat, agus nuair a phostáiltear iad déanann sé a dhraíocht.
+    hr_HR: Automatski upravitelj videoteke za TV emisije. Prati nove epizode vaših omiljenih emisija i čini svoju magiju kada se objave.
+    hu_HU: Automatikus videótár-kezelő tévéműsorokhoz. Figyeli kedvenc műsoraid új epizódjait, és amikor azok feltöltésre kerülnek, varázslatot művel.
+    it_IT: Un gestore automatico di videoteca per serie TV. Monitora la disponibilità di nuovi episodi dei tuoi programmi preferiti e, non appena vengono pubblicati, fa tutto il necessario.
+    ja_JP: テレビ番組用の自動ビデオライブラリマネージャー。お気に入りの番組の新しいエピソードを監視し、公開されると自動的に処理します。
+    ko_KR: TV 프로그램용 자동 비디오 라이브러리 관리 프로그램입니다. 좋아하는 프로그램의 새 에피소드를 감지하여 업로드되면 자동으로 관리해 줍니다.
+    ml_IN: ടിവി ഷോകൾക്കായുള്ള ഒരു ഓട്ടോമാറ്റിക് വീഡിയോ ലൈബ്രറി മാനേജർ. ഇത് നിങ്ങളുടെ പ്രിയപ്പെട്ട ഷോകളുടെ പുതിയ എപ്പിസോഡുകൾ കാണുകയും അവ പോസ്റ്റ് ചെയ്യുമ്പോൾ അതിന്റെ മാജിക് പ്രവർത്തിക്കുകയും ചെയ്യുന്നു.
+    nb_NO: En automatisk videobibliotekbehandler for TV-serier. Den ser etter nye episoder av favorittprogrammene dine, og når de legges ut, gjør den sin magi.
+    nl_NL: Een automatisch videobibliotheekbeheersysteem voor tv-series. Het houdt je favoriete series in de gaten voor nieuwe afleveringen en zodra deze beschikbaar zijn, doet het zijn werk.
+    pl_PL: Automatyczny menedżer biblioteki wideo dla programów telewizyjnych. Wyszukuje nowe odcinki Twoich ulubionych programów i po ich opublikowaniu działa jak za dotknięciem czarodziejskiej różdżki.
+    pt_BR: Um gerenciador automático de videoteca para programas de TV. Ele monitora a disponibilidade de novos episódios dos seus programas favoritos e, quando são publicados, faz a sua mágica.
+    ro_RO: Un manager automat de bibliotecă video pentru emisiuni TV. Caută episoade noi din emisiunile tale preferate și, odată ce sunt postate, își face magia.
+    ru_RU: Автоматизированный менеджер видеотеки для телешоу. Он отслеживает новые серии ваших любимых сериалов, и когда они появляются, делает свою работу.
+    sk_SK: Automatický správca videotéky pre televízne programy. Hľadá nové epizódy vašich obľúbených programov a keď sú zverejnené, robí svoje zázraky.
+    sv_SE: En automatisk videobibliotekshanterare för TV-program. Den letar efter nya avsnitt av dina favoritprogram och gör sin magi när de publiceras.
+    tr_TR: Dizi ve TV programları için otomatik video kütüphanesi yöneticisi. En sevdiğiniz dizilerin yeni bölümlerini takip eder ve yayınlandıklarında sihirli işlemini gerçekleştirir.
+    zh_TW: 自動管理電視劇媒體庫並追蹤新集。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-icon.png
@@ -67,6 +120,31 @@ x-casaos:
   title:
     en_US: Sickchill
     zh_CN: Sickchill
+    ca_ES: Sickchill
+    cs_CZ: Sickchill
+    da_DK: Sickchill
+    de_DE: Sickchill
+    el_GR: Sickchill
+    en_GB: Sickchill
+    es_ES: Sickchill
+    fr_FR: Sickchill
+    ga_IE: Sickchill
+    hr_HR: Sickchill
+    hu_HU: Sickchill
+    it_IT: Sickchill
+    ja_JP: Sickchill
+    ko_KR: Sickchill
+    ml_IN: Sickchill
+    nb_NO: Sickchill
+    nl_NL: Sickchill
+    pl_PL: Sickchill
+    pt_BR: Sickchill
+    ro_RO: Sickchill
+    ru_RU: Sickchill
+    sk_SK: Sickchill
+    sv_SE: Sickchill
+    tr_TR: Sickchill
+    zh_TW: Sickchill
   category: Others
   project_url: https://sickchill.github.io/
   port_map: '8081'

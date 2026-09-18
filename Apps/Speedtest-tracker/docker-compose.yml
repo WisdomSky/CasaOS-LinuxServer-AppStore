@@ -81,17 +81,92 @@ x-casaos:
   main: app
   description:
     en_US: Speedtest-tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    ca_ES: Speedtest-tracker és una aplicació de seguiment del rendiment d'Internet autoallotjada que executa comprovacions de velocitat amb el servei Speedtest d'Ookla.
+    cs_CZ: Speedtest-tracker je aplikace pro sledování výkonu internetu s vlastním hostingem, která provádí testy rychlosti pomocí služby Speedtest od Ookla.
+    da_DK: Speedtest-tracker er en selvhostet applikation til sporing af internetpræstation, der kører speedtest-tjek mod Ooklas Speedtest-tjeneste.
+    de_DE: Speedtest-tracker ist eine selbstgehostete Anwendung zur Überwachung der Internetleistung, die Geschwindigkeitstests gegen den Speedtest-Dienst von Ookla durchführt.
+    el_GR: Το Speedtest-tracker είναι μια αυτοφιλοξενούμενη εφαρμογή παρακολούθησης της απόδοσης του διαδικτύου που εκτελεί ελέγχους ταχύτητας σε σχέση με την υπηρεσία Speedtest της Ookla.
+    en_GB: Speedtest-tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    es_ES: Speedtest-tracker es una aplicación autoalojada para el seguimiento del rendimiento de Internet que realiza pruebas de velocidad utilizando el servicio Speedtest de Ookla.
+    fr_FR: Speedtest-tracker est une application auto-hébergée de suivi des performances Internet qui effectue des tests de vitesse sur le service Speedtest d'Ookla.
+    ga_IE: Is feidhmchlár féinóstáilte rianaithe feidhmíochta idirlín é Speedtest-tracker a ritheann seiceálacha tástála luais i gcoinne sheirbhís Speedtest Ookla.
+    hr_HR: Speedtest-tracker je samostalno hostana aplikacija za praćenje performansi interneta koja provodi provjere brzine na Ooklinoj Speedtest usluzi.
+    hu_HU: A Speedtest-tracker egy saját üzemeltetésű internetes teljesítménykövető alkalmazás, amely sebességteszteket futtat az Ookla Speedtest szolgáltatásával.
+    it_IT: Speedtest-tracker è un'applicazione self-hosted per il monitoraggio delle prestazioni internet che esegue test di velocità utilizzando il servizio Speedtest di Ookla.
+    ja_JP: Speedtest-trackerは、OoklaのSpeedtestサービスに対して速度テストを実行する、自己ホスト型のインターネットパフォーマンス追跡アプリケーションです。
+    ko_KR: Speedtest-tracker는 Ookla의 Speedtest 서비스를 대상으로 속도 테스트를 실행하는 자체 호스팅 인터넷 성능 추적 애플리케이션입니다.
+    ml_IN: സ്പീഡ് ടെസ്റ്റ്-ട്രാക്കർ എന്നത് ഒരു സ്വയം ഹോസ്റ്റ് ചെയ്ത ഇന്റർനെറ്റ് പ്രകടന ട്രാക്കിംഗ് ആപ്ലിക്കേഷനാണ്, ഇത് ഊക്ലയുടെ സ്പീഡ് ടെസ്റ്റ് സേവനവുമായി ബന്ധപ്പെട്ട് സ്പീഡ് ടെസ്റ്റ് പരിശോധനകൾ നടത്തുന്നു.
+    nb_NO: Speedtest-tracker er et selvhostet program for sporing av internettytelse som kjører hastighetstester mot Ooklas Speedtest-tjeneste.
+    nl_NL: Speedtest-tracker is een zelfgehoste applicatie voor het bijhouden van internetprestaties die snelheidstests uitvoert via de Speedtest-service van Ookla.
+    pl_PL: Speedtest-tracker to samodzielnie hostowana aplikacja do śledzenia wydajności łącza internetowego, która wykonuje testy prędkości w usłudze Speedtest firmy Ookla.
+    pt_BR: O Speedtest-tracker é um aplicativo de monitoramento de desempenho da internet hospedado localmente que executa testes de velocidade utilizando o serviço Speedtest da Ookla.
+    ro_RO: Speedtest-tracker este o aplicație auto-găzduită de urmărire a performanței conexiunii la internet care execută verificări de viteză prin intermediul serviciului Speedtest de la Ookla.
+    ru_RU: Speedtest-tracker — это приложение для отслеживания скорости интернета, которое размещается на собственном сервере и выполняет проверку скорости с помощью сервиса Speedtest от Ookla.
+    sk_SK: Speedtest-tracker je aplikácia na sledovanie výkonu internetu s vlastným hostingom, ktorá vykonáva kontroly rýchlosti v službe Speedtest od spoločnosti Ookla.
+    sv_SE: Speedtest-tracker är en självhostad applikation för spårning av internetprestanda som kör hastighetstester mot Ooklas Speedtest-tjänst.
+    tr_TR: Speedtest-tracker, Ookla'nın Speedtest hizmetine karşı hız testi yapan, kendi sunucunuzda barındırdığınız bir internet performans takip uygulamasıdır.
     zh_CN: Speedtest Tracker 是可自行托管的互联网性能追踪应用，通过 Ookla 的 Speedtest 服务执行测速。
+    zh_TW: Speedtest Tracker 是可自行託管的網際網路效能追蹤應用，透過 Ookla 的 Speedtest 服務執行測速。
   tagline:
     en_US: A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    ca_ES: Una aplicació de seguiment del rendiment d'Internet autoallotjada que executa comprovacions de velocitat amb el servei Speedtest d'Ookla.
+    cs_CZ: Samostatně hostovaná aplikace pro sledování výkonu internetu, která provádí kontroly rychlosti pomocí služby Ookla Speedtest.
+    da_DK: En selvhostet applikation til sporing af internetpræstation, der kører hastighedstests mod Ooklas Speedtest-tjeneste.
+    de_DE: Eine selbstgehostete Anwendung zur Überwachung der Internetleistung, die Geschwindigkeitstests gegen den Speedtest-Dienst von Ookla durchführt.
+    el_GR: Μια αυτοφιλοξενούμενη εφαρμογή παρακολούθησης της απόδοσης του διαδικτύου που εκτελεί ελέγχους ταχύτητας σε σχέση με την υπηρεσία Speedtest της Ookla.
+    en_GB: A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+    es_ES: Una aplicación de seguimiento del rendimiento de Internet autoalojada que realiza pruebas de velocidad utilizando el servicio Speedtest de Ookla.
+    fr_FR: Une application auto-hébergée de suivi des performances Internet qui effectue des tests de vitesse sur le service Speedtest d'Ookla.
+    ga_IE: Feidhmchlár féinóstáilte rianaithe feidhmíochta idirlín a ritheann seiceálacha tástála luais i gcoinne sheirbhís Speedtest Ookla.
+    hr_HR: Samostalno hostana aplikacija za praćenje performansi interneta koja provjerava brzinu na Ooklinoj usluzi Speedtest.
+    hu_HU: Egy saját tárhelyen futó internetes teljesítménykövető alkalmazás, amely sebességteszteket futtat az Ookla Speedtest szolgáltatásával.
+    it_IT: Un'applicazione self-hosted per il monitoraggio delle prestazioni internet che esegue test di velocità utilizzando il servizio Speedtest di Ookla.
+    ja_JP: OoklaのSpeedtestサービスに対して速度テストを実行する、自己ホスト型のインターネットパフォーマンス追跡アプリケーション。
+    ko_KR: Ookla의 Speedtest 서비스를 이용하여 속도 테스트를 실행하는 자체 호스팅 인터넷 성능 추적 애플리케이션입니다.
+    ml_IN: ഊക്ലയുടെ സ്പീഡ് ടെസ്റ്റ് സേവനവുമായി താരതമ്യം ചെയ്ത് സ്പീഡ് ടെസ്റ്റ് പരിശോധനകൾ നടത്തുന്ന ഒരു സ്വയം ഹോസ്റ്റ് ചെയ്ത ഇന്റർനെറ്റ് പ്രകടന ട്രാക്കിംഗ് ആപ്ലിക്കേഷൻ.
+    nb_NO: En selvhostet applikasjon for sporing av internettytelse som kjører hastighetstester mot Ooklas Speedtest-tjeneste.
+    nl_NL: Een zelfgehoste applicatie voor het bijhouden van internetprestaties die snelheidstests uitvoert via de Speedtest-service van Ookla.
+    pl_PL: Aplikacja do śledzenia wydajności łącza internetowego hostowana na własnym serwerze, która wykonuje testy prędkości w usłudze Speedtest firmy Ookla.
+    pt_BR: Um aplicativo de monitoramento de desempenho da internet auto-hospedado que executa testes de velocidade usando o serviço Speedtest da Ookla.
+    ro_RO: O aplicație de urmărire a performanței conexiunii la internet, găzduită în regim de auto-găzduire, care execută verificări de viteză prin intermediul serviciului Speedtest de la Ookla.
+    ru_RU: Приложение для отслеживания производительности интернета, размещаемое на собственном сервере, которое выполняет проверку скорости с помощью сервиса Speedtest от Ookla.
+    sk_SK: Samostatne hostovaná aplikácia na sledovanie výkonu internetu, ktorá vykonáva kontroly rýchlosti v službe Ookla Speedtest.
+    sv_SE: En självhostad applikation för spårning av internetprestanda som kör hastighetstester mot Ooklas Speedtest-tjänst.
+    tr_TR: Ookla'nın Speedtest hizmetine karşı hız testi yapan, kendi sunucunuzda barındırabileceğiniz bir internet performans takip uygulaması.
     zh_CN: 自行托管的网络性能测速与追踪工具。
+    zh_TW: 自行託管的網路效能測速與追蹤工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
   title:
     en_US: Speedtest tracker (LinuxServer.io)
+    ca_ES: Speedtest tracker (LinuxServer.io)
+    cs_CZ: Speedtest tracker (LinuxServer.io)
+    da_DK: Speedtest tracker (LinuxServer.io)
+    de_DE: Speedtest tracker (LinuxServer.io)
+    el_GR: Speedtest tracker (LinuxServer.io)
+    en_GB: Speedtest tracker (LinuxServer.io)
+    es_ES: Speedtest tracker (LinuxServer.io)
+    fr_FR: Speedtest tracker (LinuxServer.io)
+    ga_IE: Speedtest tracker (LinuxServer.io)
+    hr_HR: Speedtest tracker (LinuxServer.io)
+    hu_HU: Speedtest tracker (LinuxServer.io)
+    it_IT: Speedtest tracker (LinuxServer.io)
+    ja_JP: Speedtest tracker (LinuxServer.io)
+    ko_KR: Speedtest tracker (LinuxServer.io)
+    ml_IN: Speedtest tracker (LinuxServer.io)
+    nb_NO: Speedtest tracker (LinuxServer.io)
+    nl_NL: Speedtest tracker (LinuxServer.io)
+    pl_PL: Speedtest tracker (LinuxServer.io)
+    pt_BR: Speedtest tracker (LinuxServer.io)
+    ro_RO: Speedtest tracker (LinuxServer.io)
+    ru_RU: Speedtest tracker (LinuxServer.io)
+    sk_SK: Speedtest tracker (LinuxServer.io)
+    sv_SE: Speedtest tracker (LinuxServer.io)
+    tr_TR: Speedtest tracker (LinuxServer.io)
     zh_CN: Speedtest tracker（LinuxServer.io）
+    zh_TW: Speedtest tracker（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverspeedtesttracker
   port_map: '80'

@@ -44,17 +44,92 @@ x-casaos:
   main: app
   description:
     en_US: Nzbget is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+    ca_ES: Nzbget és un descarregador d'usenet, escrit en C++ i dissenyat tenint en compte el rendiment per aconseguir la màxima velocitat de descàrrega utilitzant molt pocs recursos del sistema.
+    cs_CZ: Nzbget je program pro stahování z Usenetu, napsaný v C++ a navržený s ohledem na výkon, aby dosáhl maximální rychlosti stahování s využitím velmi malého množství systémových prostředků.
+    da_DK: Nzbget er et usenet-downloadprogram, skrevet i C++ og designet med ydeevne i tankerne for at opnå maksimal downloadhastighed ved at bruge meget få systemressourcer.
+    de_DE: Nzbget ist ein Usenet-Downloader, der in C++ geschrieben und auf Leistung ausgelegt ist, um bei minimalem Ressourcenverbrauch maximale Downloadgeschwindigkeiten zu erreichen.
+    el_GR: Το Nzbget είναι ένα πρόγραμμα λήψης usenet, γραμμένο σε C++ και σχεδιασμένο με γνώμονα την απόδοση, ώστε να επιτυγχάνεται μέγιστη ταχύτητα λήψης χρησιμοποιώντας πολύ λίγους πόρους συστήματος.
+    en_GB: Nzbget is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+    es_ES: Nzbget es un programa para descargar aplicaciones de Usenet, escrito en C++ y diseñado pensando en el rendimiento para lograr la máxima velocidad de descarga utilizando muy pocos recursos del sistema.
+    fr_FR: Nzbget est un téléchargeur Usenet, écrit en C++ et conçu dans un souci de performance afin d'atteindre une vitesse de téléchargement maximale en utilisant très peu de ressources système.
+    ga_IE: Is íoslódálaí usenet é Nzbget, scríofa i C++ agus deartha le feidhmíocht san áireamh chun an luas íoslódála uasta a bhaint amach trí úsáid a bhaint as acmhainní córais an-bheag.
+    hr_HR: Nzbget je program za preuzimanje s Usenet-a, napisan u C++ i dizajniran s ciljem postizanja maksimalne brzine preuzimanja uz korištenje vrlo malo sistemskih resursa.
+    hu_HU: Az Nzbget egy C++ nyelven írt usenet letöltő, amelyet a teljesítmény szem előtt tartásával terveztek, hogy maximális letöltési sebességet érjen el nagyon kevés rendszererőforrás felhasználásával.
+    it_IT: Nzbget è un programma per scaricare contenuti da Usenet, scritto in C++ e progettato per massimizzare la velocità di download utilizzando pochissime risorse di sistema.
+    ja_JP: Nzbgetは、C++で記述されたUsenetダウンローダーであり、システムリソースをほとんど使用せずに最大限のダウンロード速度を実現するように、パフォーマンスを重視して設計されています。
+    ko_KR: Nzbget은 C++로 작성된 유즈넷 다운로더로, 시스템 리소스를 최소한으로 사용하면서 최대 다운로드 속도를 달성하도록 성능을 염두에 두고 설계되었습니다.
+    ml_IN: Nzbget ഒരു യൂസ്‌നെറ്റ് ഡൗൺലോഡറാണ്, C++ ൽ എഴുതിയതും വളരെ കുറച്ച് സിസ്റ്റം റിസോഴ്‌സുകൾ ഉപയോഗിച്ച് പരമാവധി ഡൗൺലോഡ് വേഗത കൈവരിക്കുന്നതിനായി പ്രകടനം മനസ്സിൽ വെച്ചുകൊണ്ട് രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്നതുമാണ്.
+    nb_NO: Nzbget er et usenet-nedlastingsprogram, skrevet i C++ og designet med tanke på ytelse for å oppnå maksimal nedlastingshastighet ved å bruke svært lite systemressurser.
+    nl_NL: Nzbget is een Usenet-downloader, geschreven in C++ en ontworpen met prestaties in het achterhoofd om maximale downloadsnelheid te bereiken met een minimaal gebruik van systeembronnen.
+    pl_PL: Nzbget to program do pobierania plików z Usenetu, napisany w języku C++ i zaprojektowany z myślą o wydajności, aby osiągnąć maksymalną prędkość pobierania przy jednoczesnym wykorzystaniu niewielkiej ilości zasobów systemowych.
+    pt_BR: O Nzbget é um programa para baixar arquivos da Usenet, escrito em C++ e projetado com foco em desempenho para atingir a velocidade máxima de download utilizando poucos recursos do sistema.
+    ro_RO: Nzbget este un program de descărcare Usenet, scris în C++ și conceput special pentru performanță, pentru a obține o viteză maximă de descărcare utilizând foarte puține resurse de sistem.
+    ru_RU: Nzbget — это программа для загрузки файлов из Usenet, написанная на C++ и разработанная с учетом высокой производительности для достижения максимальной скорости загрузки при минимальном использовании системных ресурсов.
+    sk_SK: Nzbget je program na sťahovanie z Usenetu, napísaný v jazyku C++ a navrhnutý s ohľadom na výkon, aby sa dosiahla maximálna rýchlosť sťahovania s použitím veľmi malého množstva systémových prostriedkov.
+    sv_SE: Nzbget är ett nedladdningsprogram för usenet, skrivet i C++ och designat med prestanda i åtanke för att uppnå maximal nedladdningshastighet med mycket lite systemresurser.
+    tr_TR: Nzbget, C++ ile yazılmış ve çok az sistem kaynağı kullanarak maksimum indirme hızı elde etmeyi hedefleyen, performans odaklı bir Usenet indirme programıdır.
     zh_CN: NZBGet 是用 C++ 编写的 Usenet 下载器，注重性能，旨在以很少的系统资源获得尽可能高的下载速度。
+    zh_TW: NZBGet 是用 C++ 編寫的 Usenet 下載器，注重效能，旨在以很少的系統資源獲得儘可能高的下載速度。
   tagline:
     en_US: A usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+    ca_ES: Un descarregador d'usenet, escrit en C++ i dissenyat pensant en el rendiment per aconseguir la màxima velocitat de descàrrega utilitzant molt pocs recursos del sistema.
+    cs_CZ: Usenet downloader, napsaný v C++ a navržený s ohledem na výkon, aby dosáhl maximální rychlosti stahování s využitím velmi malého množství systémových prostředků.
+    da_DK: En usenet-downloader, skrevet i C++ og designet med ydeevne i tankerne for at opnå maksimal downloadhastighed ved at bruge meget få systemressourcer.
+    de_DE: Ein Usenet-Downloader, geschrieben in C++ und auf maximale Leistung ausgelegt, um bei minimalem Ressourcenverbrauch eine maximale Downloadgeschwindigkeit zu erreichen.
+    el_GR: Ένα πρόγραμμα λήψης usenet, γραμμένο σε C++ και σχεδιασμένο με γνώμονα την απόδοση, ώστε να επιτυγχάνεται μέγιστη ταχύτητα λήψης χρησιμοποιώντας πολύ λίγους πόρους συστήματος.
+    en_GB: A usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
+    es_ES: Un programa para descargar aplicaciones de Usenet, escrito en C++ y diseñado pensando en el rendimiento para lograr la máxima velocidad de descarga utilizando muy pocos recursos del sistema.
+    fr_FR: Un téléchargeur Usenet, écrit en C++ et conçu dans un souci de performance afin d'atteindre une vitesse de téléchargement maximale en utilisant très peu de ressources système.
+    ga_IE: Íoslódálaí usenet, scríofa i C++ agus deartha le feidhmíocht san áireamh chun uasluas íoslódála a bhaint amach trí úsáid a bhaint as an-bheag acmhainní córais.
+    hr_HR: Usenet program za preuzimanje, napisan u C++ i dizajniran s obzirom na performanse kako bi se postigla maksimalna brzina preuzimanja uz korištenje vrlo malo sistemskih resursa.
+    hu_HU: Egy C++ nyelven írt usenet letöltő, amelyet a teljesítmény szem előtt tartásával terveztek, hogy maximális letöltési sebességet érjen el nagyon kevés rendszererőforrás felhasználásával.
+    it_IT: Un programma per scaricare contenuti da Usenet, scritto in C++ e progettato per massimizzare la velocità di download utilizzando pochissime risorse di sistema.
+    ja_JP: C++で記述され、システムリソースをほとんど使用せずに最大限のダウンロード速度を実現するように設計された、パフォーマンス重視のUsenetダウンローダー。
+    ko_KR: C++로 작성된 유즈넷 다운로더로, 시스템 리소스를 최소한으로 사용하면서 최대 다운로드 속도를 달성하도록 성능을 염두에 두고 설계되었습니다.
+    ml_IN: വളരെ കുറച്ച് സിസ്റ്റം റിസോഴ്‌സുകൾ ഉപയോഗിച്ച് പരമാവധി ഡൗൺലോഡ് വേഗത കൈവരിക്കുന്നതിനായി പ്രകടനം മനസ്സിൽ വെച്ചുകൊണ്ട് രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്ന, C++ ൽ എഴുതിയ ഒരു യൂസ്‌നെറ്റ് ഡൗൺലോഡർ.
+    nb_NO: En usenet-nedlaster, skrevet i C++ og designet med tanke på ytelse for å oppnå maksimal nedlastingshastighet ved å bruke svært lite systemressurser.
+    nl_NL: Een Usenet-downloader, geschreven in C++ en ontworpen met prestaties in het achterhoofd om maximale downloadsnelheid te bereiken met een minimaal gebruik van systeembronnen.
+    pl_PL: Program do pobierania plików z Usenetu, napisany w języku C++ i zaprojektowany z myślą o wydajności, aby osiągnąć maksymalną prędkość pobierania przy jednoczesnym wykorzystaniu niewielkiej ilości zasobów systemowych.
+    pt_BR: Um programa para baixar arquivos da Usenet, escrito em C++ e projetado com foco em desempenho para atingir a velocidade máxima de download utilizando poucos recursos do sistema.
+    ro_RO: Un program de descărcare Usenet, scris în C++ și conceput special pentru performanță, care să atingă o viteză maximă de descărcare utilizând foarte puține resurse de sistem.
+    ru_RU: Программа для загрузки файлов из Usenet, написанная на C++ и разработанная с учетом высокой производительности для достижения максимальной скорости загрузки при минимальном использовании системных ресурсов.
+    sk_SK: Sťahovací program z Usenetu, napísaný v jazyku C++ a navrhnutý s ohľadom na výkon, aby sa dosiahla maximálna rýchlosť sťahovania s minimálnym využitím systémových prostriedkov.
+    sv_SE: En usenet-nedladdare, skriven i C++ och designad med prestanda i åtanke för att uppnå maximal nedladdningshastighet med mycket lite systemresurser.
+    tr_TR: C++ ile yazılmış ve çok az sistem kaynağı kullanarak maksimum indirme hızı elde etmeyi amaçlayan, performans odaklı bir Usenet indirme programı.
     zh_CN: 低资源占用、高性能的 Usenet 下载器。
+    zh_TW: 低資源佔用、高效能的 Usenet 下載器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png
   title:
     en_US: Nzbget (LinuxServer.io)
+    ca_ES: Nzbget (LinuxServer.io)
+    cs_CZ: Nzbget (LinuxServer.io)
+    da_DK: Nzbget (LinuxServer.io)
+    de_DE: Nzbget (LinuxServer.io)
+    el_GR: Nzbget (LinuxServer.io)
+    en_GB: Nzbget (LinuxServer.io)
+    es_ES: Nzbget (LinuxServer.io)
+    fr_FR: Nzbget (LinuxServer.io)
+    ga_IE: Nzbget (LinuxServer.io)
+    hr_HR: Nzbget (LinuxServer.io)
+    hu_HU: Nzbget (LinuxServer.io)
+    it_IT: Nzbget (LinuxServer.io)
+    ja_JP: Nzbget (LinuxServer.io)
+    ko_KR: Nzbget (LinuxServer.io)
+    ml_IN: Nzbget (LinuxServer.io)
+    nb_NO: Nzbget (LinuxServer.io)
+    nl_NL: Nzbget (LinuxServer.io)
+    pl_PL: Nzbget (LinuxServer.io)
+    pt_BR: Nzbget (LinuxServer.io)
+    ro_RO: Nzbget (LinuxServer.io)
+    ru_RU: Nzbget (LinuxServer.io)
+    sk_SK: Nzbget (LinuxServer.io)
+    sv_SE: Nzbget (LinuxServer.io)
+    tr_TR: Nzbget (LinuxServer.io)
     zh_CN: Nzbget（LinuxServer.io）
+    zh_TW: Nzbget（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservernzbget
   port_map: '6789'

@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: VS Code is an integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.
+    ca_ES: VS Code és un entorn de desenvolupament integrat desenvolupat per Microsoft. Aquest contenidor executa l'aplicació d'escriptori completa; per a una versió nativa web, vegeu Code Server.
+    cs_CZ: VS Code je integrované vývojové prostředí vyvinuté společností Microsoft. Tento kontejner spouští plnou desktopovou aplikaci, webovou nativní verzi naleznete na Code Serveru.
+    da_DK: VS Code er et integreret udviklingsmiljø udviklet af Microsoft. Denne container kører hele desktopapplikationen. For en web-native version, se Code Server.
+    de_DE: VS Code ist eine integrierte Entwicklungsumgebung von Microsoft. Dieser Container führt die vollständige Desktop-Anwendung aus; eine webnative Version finden Sie unter Code Server.
+    el_GR: Το VS Code είναι ένα ολοκληρωμένο περιβάλλον ανάπτυξης που αναπτύχθηκε από τη Microsoft. Αυτό το κοντέινερ εκτελεί την πλήρη εφαρμογή για υπολογιστές. Για μια έκδοση web native, ανατρέξτε στην ενότητα Code Server.
+    en_GB: Vs Code is an integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.
+    es_ES: VS Code es un entorno de desarrollo integrado desarrollado por Microsoft. Este contenedor ejecuta la aplicación de escritorio completa; para una versión web nativa, consulte Code Server.
+    fr_FR: "VS Code est un environnement de développement intégré développé par Microsoft. Ce conteneur exécute l'application de bureau complète\_; pour une version web native, voir Code Server."
+    ga_IE: Is timpeallacht forbartha comhtháite é VS Code arna fhorbairt ag Microsoft. Ritheann an coimeádán seo an feidhmchlár deisce iomlán, féach Freastalaí Cód le haghaidh leagan dúchasach gréasáin.
+    hr_HR: VS Code je integrirano razvojno okruženje koje je razvio Microsoft. Ovaj kontejner pokreće punu desktop aplikaciju, za web verziju pogledajte Code Server.
+    hu_HU: 'A VS Code egy integrált fejlesztői környezet, amelyet a Microsoft fejlesztett ki. Ez a konténer futtatja a teljes asztali alkalmazást, a webes natív verzióért lásd: Code Server.'
+    it_IT: VS Code è un ambiente di sviluppo integrato sviluppato da Microsoft. Questo container esegue l'applicazione desktop completa; per una versione nativa per il web, consultare Code Server.
+    ja_JP: VS Codeは、マイクロソフトが開発した統合開発環境です。このコンテナではデスクトップアプリケーション全体を実行します。Webネイティブ版については、Code Serverを参照してください。
+    ko_KR: VS Code는 Microsoft에서 개발한 통합 개발 환경입니다. 이 컨테이너는 데스크톱 애플리케이션 전체를 실행하며, 웹 네이티브 버전은 Code Server를 참조하십시오.
+    ml_IN: മൈക്രോസോഫ്റ്റ് വികസിപ്പിച്ചെടുത്ത ഒരു സംയോജിത വികസന പരിതസ്ഥിതിയാണ് VS കോഡ്. ഈ കണ്ടെയ്നർ പൂർണ്ണ ഡെസ്ക്ടോപ്പ് ആപ്ലിക്കേഷനിൽ പ്രവർത്തിക്കുന്നു, ഒരു വെബ് നേറ്റീവ് പതിപ്പിനായി കോഡ് സെർവർ കാണുക.
+    nb_NO: VS Code er et integrert utviklingsmiljø utviklet av Microsoft. Denne containeren kjører hele skrivebordsapplikasjonen. For en web-native versjon, se Code Server.
+    nl_NL: VS Code is een geïntegreerde ontwikkelomgeving ontwikkeld door Microsoft. Deze container voert de volledige desktopapplicatie uit; voor een webversie zie Code Server.
+    pl_PL: VS Code to zintegrowane środowisko programistyczne opracowane przez firmę Microsoft. Ten kontener uruchamia pełną aplikację desktopową. Aby zapoznać się z wersją webową, zobacz Code Server.
+    pt_BR: O VS Code é um ambiente de desenvolvimento integrado desenvolvido pela Microsoft. Este contêiner executa a aplicação desktop completa; para uma versão nativa da web, consulte o Code Server.
+    ro_RO: VS Code este un mediu de dezvoltare integrat dezvoltat de Microsoft. Acest container rulează aplicația desktop completă; pentru o versiune web nativă, consultați Code Server.
+    ru_RU: VS Code — это интегрированная среда разработки, созданная компанией Microsoft. В этом контейнере запускается полнофункциональное настольное приложение; веб-версию можно найти на Code Server.
+    sk_SK: VS Code je integrované vývojové prostredie vyvinuté spoločnosťou Microsoft. Tento kontajner spúšťa plnú desktopovú aplikáciu, webovú natívnu verziu nájdete v časti Code Server.
+    sv_SE: VS Code är en integrerad utvecklingsmiljö utvecklad av Microsoft. Denna container kör hela skrivbordsapplikationen, för en webbversion, se Code Server.
+    tr_TR: VS Code, Microsoft tarafından geliştirilen entegre bir geliştirme ortamıdır. Bu konteyner, tam masaüstü uygulamasını çalıştırır; web tabanlı sürüm için Code Server'a bakın.
     zh_CN: VS Code 是微软开发的集成开发环境。此容器运行完整的桌面应用；如需原生网页版本，请使用 Code Server。
+    zh_TW: VS Code 是微軟開發的整合開發環境。此容器執行完整的桌面應用；如需原生網頁版本，請使用 Code Server。
   tagline:
     en_US: An integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.
+    ca_ES: Un entorn de desenvolupament integrat desenvolupat per Microsoft. Aquest contenidor executa l'aplicació d'escriptori completa; per a una versió nativa web, vegeu Code Server.
+    cs_CZ: Integrované vývojové prostředí vyvinuté společností Microsoft. Tento kontejner spouští plnou desktopovou aplikaci, webovou nativní verzi naleznete na Code Server.
+    da_DK: Et integreret udviklingsmiljø udviklet af Microsoft. Denne container kører hele desktopapplikationen. Se Code Server for en web-native version.
+    de_DE: Eine von Microsoft entwickelte integrierte Entwicklungsumgebung. Dieser Container führt die vollständige Desktop-Anwendung aus; eine native Webversion finden Sie unter Code Server.
+    el_GR: Ένα ολοκληρωμένο περιβάλλον ανάπτυξης που αναπτύχθηκε από τη Microsoft. Αυτό το κοντέινερ εκτελεί την πλήρη εφαρμογή για υπολογιστές. Για μια έκδοση που βασίζεται στον ιστό, ανατρέξτε στην ενότητα Code Server.
+    en_GB: An integrated development environment developed by Microsoft. This container runs the full desktop application, for a web native version see Code Server.
+    es_ES: Entorno de desarrollo integrado desarrollado por Microsoft. Este contenedor ejecuta la aplicación de escritorio completa; para una versión web nativa, consulte Code Server.
+    fr_FR: "Un environnement de développement intégré développé par Microsoft. Ce conteneur exécute l'application de bureau complète\_; pour une version web native, voir Code Server."
+    ga_IE: Timpeallacht forbartha chomhtháite arna forbairt ag Microsoft. Ritheann an coimeádán seo an feidhmchlár deisce iomlán, féach Freastalaí Cód le haghaidh leagan dúchasach gréasáin.
+    hr_HR: Integrirano razvojno okruženje koje je razvio Microsoft. Ovaj kontejner pokreće punu desktop aplikaciju, za web-nativnu verziju pogledajte Code Server.
+    hu_HU: 'A Microsoft által fejlesztett integrált fejlesztői környezet. Ez a konténer futtatja a teljes asztali alkalmazást, a webes verzióért lásd: Code Server.'
+    it_IT: Un ambiente di sviluppo integrato sviluppato da Microsoft. Questo container esegue l'applicazione desktop completa; per una versione nativa per il web, consultare Code Server.
+    ja_JP: マイクロソフトが開発した統合開発環境。このコンテナはデスクトップアプリケーション全体を実行します。Webネイティブ版については、Code Serverを参照してください。
+    ko_KR: 마이크로소프트에서 개발한 통합 개발 환경입니다. 이 컨테이너는 전체 데스크톱 애플리케이션을 실행하며, 웹 네이티브 버전은 코드 서버를 참조하십시오.
+    ml_IN: മൈക്രോസോഫ്റ്റ് വികസിപ്പിച്ചെടുത്ത ഒരു സംയോജിത വികസന പരിസ്ഥിതി. ഈ കണ്ടെയ്നർ പൂർണ്ണ ഡെസ്ക്ടോപ്പ് ആപ്ലിക്കേഷനിൽ പ്രവർത്തിക്കുന്നു, ഒരു വെബ് നേറ്റീവ് പതിപ്പിനായി കോഡ് സെർവർ കാണുക.
+    nb_NO: Et integrert utviklingsmiljø utviklet av Microsoft. Denne containeren kjører hele skrivebordsapplikasjonen. For en web-native versjon, se Code Server.
+    nl_NL: Een geïntegreerde ontwikkelomgeving ontwikkeld door Microsoft. Deze container draait de volledige desktopapplicatie; voor een webversie zie Code Server.
+    pl_PL: Zintegrowane środowisko programistyczne opracowane przez firmę Microsoft. Ten kontener uruchamia pełną aplikację desktopową. Aby zapoznać się z wersją natywną dla sieci, zobacz Code Server.
+    pt_BR: Um ambiente de desenvolvimento integrado desenvolvido pela Microsoft. Este contêiner executa o aplicativo desktop completo; para uma versão nativa da web, consulte Code Server.
+    ro_RO: Un mediu de dezvoltare integrat dezvoltat de Microsoft. Acest container rulează aplicația desktop completă; pentru o versiune web nativă, consultați Code Server.
+    ru_RU: Интегрированная среда разработки, созданная Microsoft. В этом контейнере запускается полноценное настольное приложение; веб-версию можно найти на Code Server.
+    sk_SK: Integrované vývojové prostredie vyvinuté spoločnosťou Microsoft. Tento kontajner spúšťa plnú desktopovú aplikáciu, webovú natívnu verziu nájdete v časti Code Server.
+    sv_SE: En integrerad utvecklingsmiljö utvecklad av Microsoft. Denna behållare kör hela skrivbordsapplikationen, för en webbversion, se Kodserver.
+    tr_TR: Microsoft tarafından geliştirilen entegre bir geliştirme ortamı. Bu konteyner, tam masaüstü uygulamasını çalıştırır; web tabanlı sürüm için Code Server'a bakın.
     zh_CN: 运行完整桌面版 Visual Studio Code。
+    zh_TW: 執行完整桌面版 Visual Studio Code。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscode-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscode-logo.png
   title:
     en_US: Vscode (LinuxServer.io)
+    ca_ES: Vscode (LinuxServer.io)
+    cs_CZ: Vscode (LinuxServer.io)
+    da_DK: Vscode (LinuxServer.io)
+    de_DE: Vscode (LinuxServer.io)
+    el_GR: Vscode (LinuxServer.io)
+    en_GB: Vscode (LinuxServer.io)
+    es_ES: Vscode (LinuxServer.io)
+    fr_FR: Vscode (LinuxServer.io)
+    ga_IE: Vscode (LinuxServer.io)
+    hr_HR: Vscode (LinuxServer.io)
+    hu_HU: Vscode (LinuxServer.io)
+    it_IT: Vscode (LinuxServer.io)
+    ja_JP: Vscode (LinuxServer.io)
+    ko_KR: Vscode (LinuxServer.io)
+    ml_IN: Vscode (LinuxServer.io)
+    nb_NO: Vscode (LinuxServer.io)
+    nl_NL: Vscode (LinuxServer.io)
+    pl_PL: Vscode (LinuxServer.io)
+    pt_BR: Vscode (LinuxServer.io)
+    ro_RO: Vscode (LinuxServer.io)
+    ru_RU: Vscode (LinuxServer.io)
+    sk_SK: Vscode (LinuxServer.io)
+    sv_SE: Vscode (LinuxServer.io)
+    tr_TR: Vscode (LinuxServer.io)
     zh_CN: Vscode（LinuxServer.io）
+    zh_TW: Vscode（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservervscode
   port_map: '3000'

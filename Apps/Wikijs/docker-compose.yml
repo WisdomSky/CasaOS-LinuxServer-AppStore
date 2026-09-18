@@ -60,17 +60,92 @@ x-casaos:
   main: app
   description:
     en_US: Wikijs A modern, lightweight and powerful wiki app built on NodeJS.
+    ca_ES: Wikijs Una aplicació wiki moderna, lleugera i potent basada en NodeJS.
+    cs_CZ: Wikijs Moderní, lehká a výkonná wiki aplikace postavená na NodeJS.
+    da_DK: Wikijs En moderne, let og kraftfuld wiki-app bygget på NodeJS.
+    de_DE: Wikijs – Eine moderne, leichtgewichtige und leistungsstarke Wiki-Anwendung, die auf NodeJS basiert.
+    el_GR: Wikijs Μια σύγχρονη, ελαφριά και ισχυρή εφαρμογή wiki που βασίζεται στο NodeJS.
+    en_GB: Wikijs A modern, lightweight and powerful wiki app built on Nodejs.
+    es_ES: 'Wikijs: Una aplicación wiki moderna, ligera y potente, desarrollada con NodeJS.'
+    fr_FR: Wikijs Une application wiki moderne, légère et puissante, construite sur NodeJS.
+    ga_IE: Wikijs Aip vicí nua-aimseartha, éadrom agus chumhachtach atá tógtha ar NodeJS.
+    hr_HR: Wikijs Moderna, lagana i moćna wiki aplikacija izgrađena na NodeJS-u.
+    hu_HU: Wikijs Egy modern, könnyű és hatékony wiki alkalmazás, NodeJS-re építve.
+    it_IT: 'Wikijs: un''applicazione wiki moderna, leggera e potente, basata su NodeJS.'
+    ja_JP: Wikijsは、NodeJSをベースに構築された、モダンで軽量かつパワフルなWikiアプリです。
+    ko_KR: Wikijs는 NodeJS로 구축된 현대적이고 가볍고 강력한 위키 애플리케이션입니다.
+    ml_IN: വിക്കിജ്സ് നോഡ്ജെഎസിൽ നിർമ്മിച്ച ഒരു ആധുനികവും ഭാരം കുറഞ്ഞതും ശക്തവുമായ വിക്കി ആപ്പ്.
+    nb_NO: Wikijs En moderne, lett og kraftig wiki-app bygget på NodeJS.
+    nl_NL: 'Wikijs: een moderne, lichtgewicht en krachtige wiki-app gebouwd met NodeJS.'
+    pl_PL: Wikijs Nowoczesna, lekka i potężna aplikacja wiki oparta na NodeJS.
+    pt_BR: 'Wikijs: um aplicativo wiki moderno, leve e poderoso, construído em NodeJS.'
+    ro_RO: Wikijs O aplicație wiki modernă, ușoară și puternică, construită pe NodeJS.
+    ru_RU: Wikijs — современное, легкое и мощное вики-приложение, созданное на NodeJS.
+    sk_SK: Wikijs Moderná, ľahká a výkonná wiki aplikácia postavená na NodeJS.
+    sv_SE: Wikijs En modern, lätt och kraftfull wiki-app byggd på NodeJS.
+    tr_TR: Wikijs, NodeJS üzerine kurulu modern, hafif ve güçlü bir wiki uygulamasıdır.
     zh_CN: Wiki.js 是一款基于 Node.js 构建的现代、轻量且功能强大的 Wiki 应用。
+    zh_TW: Wiki.js 是一款基於 Node.js 構建的現代、輕量且功能強大的 Wiki 應用。
   tagline:
     en_US: A modern, lightweight and powerful wiki app built on NodeJS.
+    ca_ES: Una aplicació wiki moderna, lleugera i potent basada en NodeJS.
+    cs_CZ: Moderní, lehká a výkonná wiki aplikace postavená na NodeJS.
+    da_DK: En moderne, let og kraftfuld wiki-app bygget på NodeJS.
+    de_DE: Eine moderne, leichtgewichtige und leistungsstarke Wiki-Anwendung, die auf NodeJS basiert.
+    el_GR: Μια σύγχρονη, ελαφριά και ισχυρή εφαρμογή wiki που βασίζεται στο NodeJS.
+    en_GB: A modern, lightweight and powerful wiki app built on Nodejs.
+    es_ES: Una aplicación wiki moderna, ligera y potente, desarrollada con NodeJS.
+    fr_FR: Une application wiki moderne, légère et puissante, construite sur NodeJS.
+    ga_IE: Aip vicí nua-aimseartha, éadrom agus chumhachtach atá tógtha ar NodeJS.
+    hr_HR: Moderna, lagana i moćna wiki aplikacija izgrađena na NodeJS-u.
+    hu_HU: Egy modern, könnyű és hatékony wiki alkalmazás, amely NodeJS-re épül.
+    it_IT: Un'applicazione wiki moderna, leggera e potente, basata su NodeJS.
+    ja_JP: NodeJSをベースに構築された、モダンで軽量かつパワフルなWikiアプリ。
+    ko_KR: NodeJS로 구축된 현대적이고 가볍고 강력한 위키 앱입니다.
+    ml_IN: NodeJS-ൽ നിർമ്മിച്ച ഒരു ആധുനികവും ഭാരം കുറഞ്ഞതും ശക്തവുമായ വിക്കി ആപ്പ്.
+    nb_NO: En moderne, lett og kraftig wiki-app bygget på NodeJS.
+    nl_NL: Een moderne, lichtgewicht en krachtige wiki-app gebouwd met NodeJS.
+    pl_PL: Nowoczesna, lekka i wydajna aplikacja wiki oparta na NodeJS.
+    pt_BR: Um aplicativo wiki moderno, leve e poderoso, construído em NodeJS.
+    ro_RO: O aplicație wiki modernă, ușoară și puternică, construită pe NodeJS.
+    ru_RU: Современное, легкое и мощное вики-приложение, созданное на NodeJS.
+    sk_SK: Moderná, ľahká a výkonná wiki aplikácia postavená na NodeJS.
+    sv_SE: En modern, lätt och kraftfull wiki-app byggd på NodeJS.
+    tr_TR: NodeJS üzerine kurulu modern, hafif ve güçlü bir wiki uygulaması.
     zh_CN: 基于 Node.js 的现代、轻量 Wiki。
+    zh_TW: 基於 Node.js 的現代、輕量 Wiki。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://static.requarks.io/logo/wikijs-full.svg
   thumbnail: https://static.requarks.io/logo/wikijs-full.svg
   title:
     en_US: Wikijs (LinuxServer.io)
+    ca_ES: Wikijs (LinuxServer.io)
+    cs_CZ: Wikijs (LinuxServer.io)
+    da_DK: Wikijs (LinuxServer.io)
+    de_DE: Wikijs (LinuxServer.io)
+    el_GR: Wikijs (LinuxServer.io)
+    en_GB: Wikijs (LinuxServer.io)
+    es_ES: Wikijs (LinuxServer.io)
+    fr_FR: Wikijs (LinuxServer.io)
+    ga_IE: Wikijs (LinuxServer.io)
+    hr_HR: Wikijs (LinuxServer.io)
+    hu_HU: Wikijs (LinuxServer.io)
+    it_IT: Wikijs (LinuxServer.io)
+    ja_JP: Wikijs (LinuxServer.io)
+    ko_KR: Wikijs (LinuxServer.io)
+    ml_IN: Wikijs (LinuxServer.io)
+    nb_NO: Wikijs (LinuxServer.io)
+    nl_NL: Wikijs (LinuxServer.io)
+    pl_PL: Wikijs (LinuxServer.io)
+    pt_BR: Wikijs (LinuxServer.io)
+    ro_RO: Wikijs (LinuxServer.io)
+    ru_RU: Wikijs (LinuxServer.io)
+    sk_SK: Wikijs (LinuxServer.io)
+    sv_SE: Wikijs (LinuxServer.io)
+    tr_TR: Wikijs (LinuxServer.io)
     zh_CN: Wikijs（LinuxServer.io）
+    zh_TW: Wikijs（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwikijs
   port_map: '3000'

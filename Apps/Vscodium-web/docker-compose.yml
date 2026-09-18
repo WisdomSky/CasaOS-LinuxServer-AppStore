@@ -53,17 +53,92 @@ x-casaos:
   main: app
   description:
     en_US: Vscodium-web is a community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.
+    ca_ES: Vscodium-web és una distribució binària amb llicència lliure i impulsada per la comunitat del component web d'amfitrió remot de l'editor VS Code de Microsoft.
+    cs_CZ: Vscodium-web je komunitní, volně licencovaná binární distribuce webové komponenty vzdáleného hostitele editoru VS Code od společnosti Microsoft.
+    da_DK: Vscodium-web er en community-drevet, frit licenseret binær distribution af remote host web-komponenten i Microsofts editor VS Code.
+    de_DE: Vscodium-web ist eine von der Community entwickelte, frei lizenzierte Binärdistribution der Remote-Host-Webkomponente des Editors VS Code von Microsoft.
+    el_GR: Το Vscodium-web είναι μια δυαδική διανομή που καθοδηγείται από την κοινότητα και διαθέτει ελεύθερη άδεια χρήσης, του στοιχείου web απομακρυσμένου κεντρικού υπολογιστή του προγράμματος επεξεργασίας VS Code της Microsoft.
+    en_GB: Vscodium-web is a community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor Vs Code.
+    es_ES: Vscodium-web es una distribución binaria, impulsada por la comunidad y con licencia libre, del componente web de host remoto del editor VS Code de Microsoft.
+    fr_FR: Vscodium-web est une distribution binaire, gérée par la communauté et sous licence libre, du composant web hôte distant de l'éditeur VS Code de Microsoft.
+    ga_IE: Is dáileadh dénártha faoi stiúir an phobail, ceadúnaithe go saor é Vscodium-web de chomhpháirt gréasáin óstach cianda eagarthóir VS Code Microsoft.
+    hr_HR: Vscodium-web je binarna distribucija komponente udaljenog hosta za web u Microsoftovom editoru VS Code, koju pokreće zajednica i koja se distribuira besplatno.
+    hu_HU: A Vscodium-web a Microsoft VS Code szerkesztőjének távoli host web komponensének közösség által vezérelt, szabadon licencelt bináris disztribúciója.
+    it_IT: Vscodium-web è una distribuzione binaria, gestita dalla comunità e rilasciata con licenza libera, del componente web per l'hosting remoto dell'editor VS Code di Microsoft.
+    ja_JP: Vscodium-webは、MicrosoftのエディタVS CodeのリモートホストWebコンポーネントを、コミュニティ主導で無償ライセンスで配布するバイナリディストリビューションです。
+    ko_KR: Vscodium-web은 Microsoft의 웹 편집기 VS Code의 원격 호스트 구성 요소를 커뮤니티 주도로 개발하고 무료로 배포하는 바이너리 프로그램입니다.
+    ml_IN: മൈക്രോസോഫ്റ്റിന്റെ എഡിറ്ററായ VS കോഡിന്റെ റിമോട്ട് ഹോസ്റ്റ് വെബ് ഘടകത്തിന്റെ ഒരു കമ്മ്യൂണിറ്റി-ഡ്രൈവൺ, ഫ്രീ-ലൈസൻസ്ഡ് ബൈനറി ഡിസ്ട്രിബ്യൂഷനാണ് Vscodium-web.
+    nb_NO: Vscodium-web er en fellesskapsdrevet, fritt lisensiert binær distribusjon av den eksterne vertswebkomponenten i Microsofts editor VS Code.
+    nl_NL: Vscodium-web is een door de community ontwikkelde, vrij gelicentieerde binaire distributie van de webcomponent voor externe hosttoepassingen van Microsofts editor VS Code.
+    pl_PL: Vscodium-web to oparta na społeczności, udostępniana na wolnej licencji binarna dystrybucja zdalnego komponentu hosta internetowego edytora Microsoft VS Code.
+    pt_BR: Vscodium-web é uma distribuição binária, de código aberto e mantida pela comunidade, do componente web de host remoto do editor VS Code da Microsoft.
+    ro_RO: Vscodium-web este o distribuție binară, condusă de comunitate și licențiată gratuit, a componentei web gazdă la distanță a editorului VS Code de la Microsoft.
+    ru_RU: Vscodium-web — это разрабатываемый сообществом, свободно распространяемый бинарный дистрибутив компонента удаленного веб-хостинга редактора Microsoft VS Code.
+    sk_SK: Vscodium-web je komunitou riadená, voľne licencovaná binárna distribúcia webovej komponenty vzdialeného hostiteľa editora VS Code od spoločnosti Microsoft.
+    sv_SE: Vscodium-web är en community-driven, fritt licensierad binärdistribution av fjärrvärdswebbkomponenten i Microsofts editor VS Code.
+    tr_TR: Vscodium-web, Microsoft'un VS Code editörünün uzak sunucu web bileşeninin topluluk tarafından geliştirilen, ücretsiz lisanslı bir ikili dağıtımıdır.
     zh_CN: Vscodium-web 是由社区推动、采用自由许可证的微软 VS Code 远程主机网页组件二进制发行版。
+    zh_TW: Vscodium-web 是由社群推動、採用自由許可證的微軟 VS Code 遠端主機網頁元件二進位制發行版。
   tagline:
     en_US: A community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor VS Code.
+    ca_ES: Una distribució binària impulsada per la comunitat i amb llicència lliure del component web d'amfitrió remot de l'editor VS Code de Microsoft.
+    cs_CZ: Komunitně řízená, volně licencovaná binární distribuce webové komponenty vzdáleného hostitele editoru VS Code od společnosti Microsoft.
+    da_DK: En community-drevet, frit licenseret binær distribution af den eksterne værtswebkomponent i Microsofts editor VS Code.
+    de_DE: Eine von der Community entwickelte, frei lizenzierte Binärdistribution der Remote-Host-Webkomponente des Editors VS Code von Microsoft.
+    el_GR: Μια δυαδική διανομή, η οποία καθοδηγείται από την κοινότητα και διαθέτει ελεύθερη άδεια χρήσης, του στοιχείου web απομακρυσμένου κεντρικού υπολογιστή του προγράμματος επεξεργασίας VS Code της Microsoft.
+    en_GB: A community-driven, freely-licensed binary distribution of the remote host web component of Microsoft's editor Vs Code.
+    es_ES: Distribución binaria, impulsada por la comunidad y con licencia libre, del componente web de host remoto del editor VS Code de Microsoft.
+    fr_FR: Une distribution binaire, gérée par la communauté et sous licence libre, du composant web hôte distant de l'éditeur VS Code de Microsoft.
+    ga_IE: Dáileadh dénártha faoi stiúir an phobail, ceadúnaithe go saor, de chomhpháirt ghréasáin óstach cianda eagarthóir VS Code Microsoft.
+    hr_HR: Zajednički vođena, slobodno licencirana binarna distribucija web komponente udaljenog hosta Microsoftovog editora VS Code.
+    hu_HU: A Microsoft VS Code szerkesztőjének távoli host web komponensének közösség által vezetett, szabadon licencelt bináris disztribúciója.
+    it_IT: Una distribuzione binaria, gestita dalla comunità e rilasciata con licenza libera, del componente web per l'hosting remoto dell'editor VS Code di Microsoft.
+    ja_JP: MicrosoftのエディタVS CodeのリモートホストWebコンポーネントの、コミュニティ主導で無償ライセンスされたバイナリ配布版。
+    ko_KR: 마이크로소프트 VS Code 편집기의 원격 호스트 웹 구성 요소에 대한 커뮤니티 주도형 무료 라이선스 바이너리 배포판입니다.
+    ml_IN: മൈക്രോസോഫ്റ്റിന്റെ എഡിറ്ററായ VS കോഡിന്റെ റിമോട്ട് ഹോസ്റ്റ് വെബ് ഘടകത്തിന്റെ ഒരു കമ്മ്യൂണിറ്റി നിയന്ത്രിതവും സ്വതന്ത്രമായി ലൈസൻസ് ചെയ്തതുമായ ബൈനറി ഡിസ്ട്രിബ്യൂഷൻ.
+    nb_NO: En fellesskapsdrevet, fritt lisensiert binærdistribusjon av den eksterne vertswebkomponenten i Microsofts editor VS Code.
+    nl_NL: Een door de community gedreven, vrij gelicentieerde binaire distributie van de webcomponent voor externe hosttoegang van Microsofts editor VS Code.
+    pl_PL: Społecznościowa, objęta bezpłatną licencją dystrybucja binarna zdalnego komponentu internetowego hosta edytora Microsoft VS Code.
+    pt_BR: Uma distribuição binária, de código aberto e orientada pela comunidade, do componente web de host remoto do editor VS Code da Microsoft.
+    ro_RO: O distribuție binară, condusă de comunitate și licențiată liber, a componentei web gazdă la distanță a editorului VS Code de la Microsoft.
+    ru_RU: Разработанная сообществом, свободно распространяемая бинарная версия компонента удаленного хоста веб-приложения редактора Microsoft VS Code.
+    sk_SK: Komunitou riadená, voľne licencovaná binárna distribúcia webovej komponenty vzdialeného hostiteľa editora VS Code od spoločnosti Microsoft.
+    sv_SE: En community-driven, fritt licensierad binärdistribution av fjärrvärdswebbkomponenten i Microsofts editor VS Code.
+    tr_TR: Microsoft'un VS Code editörünün uzak sunucu web bileşeninin, topluluk tarafından geliştirilen, ücretsiz lisanslı ikili dağıtımı.
     zh_CN: 社区维护的 VS Code 远程网页组件。
+    zh_TW: 社群維護的 VS Code 遠端網頁元件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   title:
     en_US: Vscodium web (LinuxServer.io)
+    ca_ES: Vscodium web (LinuxServer.io)
+    cs_CZ: Vscodium web (LinuxServer.io)
+    da_DK: Vscodium web (LinuxServer.io)
+    de_DE: Vscodium web (LinuxServer.io)
+    el_GR: Vscodium web (LinuxServer.io)
+    en_GB: Vscodium web (LinuxServer.io)
+    es_ES: Vscodium web (LinuxServer.io)
+    fr_FR: Vscodium web (LinuxServer.io)
+    ga_IE: Vscodium web (LinuxServer.io)
+    hr_HR: Vscodium web (LinuxServer.io)
+    hu_HU: Vscodium web (LinuxServer.io)
+    it_IT: Vscodium web (LinuxServer.io)
+    ja_JP: Vscodium web (LinuxServer.io)
+    ko_KR: Vscodium web (LinuxServer.io)
+    ml_IN: Vscodium web (LinuxServer.io)
+    nb_NO: Vscodium web (LinuxServer.io)
+    nl_NL: Vscodium web (LinuxServer.io)
+    pl_PL: Vscodium web (LinuxServer.io)
+    pt_BR: Vscodium web (LinuxServer.io)
+    ro_RO: Vscodium web (LinuxServer.io)
+    ru_RU: Vscodium web (LinuxServer.io)
+    sk_SK: Vscodium web (LinuxServer.io)
+    sv_SE: Vscodium web (LinuxServer.io)
+    tr_TR: Vscodium web (LinuxServer.io)
     zh_CN: Vscodium web（LinuxServer.io）
+    zh_TW: Vscodium web（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservervscodiumweb
   port_map: '8000'

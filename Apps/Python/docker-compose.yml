@@ -34,9 +34,59 @@ x-casaos:
   description:
     en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/python for details.
     zh_CN: 此容器需要特别注意。使用前请阅读相关说明：https://hub.docker.com/r/linuxserver/python
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.docker.com/r/linuxserver/python per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na https://hub.docker.com/r/linuxserver/python.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.docker.com/r/linuxserver/python for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.docker.com/r/linuxserver/python.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Δείτε τη διεύθυνση https://hub.docker.com/r/linuxserver/python για λεπτομέρειες.
+    en_GB: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/python for details.
+    es_ES: Este contenedor requiere atención especial. Para más detalles, consulte https://hub.docker.com/r/linuxserver/python.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/python pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.docker.com/r/linuxserver/python le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.docker.com/r/linuxserver/python.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.docker.com/r/linuxserver/python oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.docker.com/r/linuxserver/python.
+    ja_JP: このコンテナは特別な注意が必要です。詳細はhttps://hub.docker.com/r/linuxserver/python をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.docker.com/r/linuxserver/python 을 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub.docker.com/r/linuxserver/python പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.docker.com/r/linuxserver/python for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/python voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły znajdziesz na stronie https://hub.docker.com/r/linuxserver/python.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/python para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.docker.com/r/linuxserver/python pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.docker.com/r/linuxserver/python.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.docker.com/r/linuxserver/python.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.docker.com/r/linuxserver/python för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.docker.com/r/linuxserver/python adresini kontrol edin.
+    zh_TW: 此容器需要特別注意。使用前請閱讀相關說明：https://hub.docker.com/r/linuxserver/python
   tagline:
     en_US: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/python for details. '
     zh_CN: 此容器需要特殊配置，请先阅读使用说明。
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.Docker.com/r/linuxserver/python per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na https://hub.Docker.com/r/linuxserver/python.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.Docker.com/r/linuxserver/python for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.Docker.com/r/linuxserver/python.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.Docker.com/r/linuxserver/python.
+    en_GB: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/python for details. '
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/python para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/python pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/python le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.Docker.com/r/linuxserver/python.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/python oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.Docker.com/r/linuxserver/python.
+    ja_JP: このコンテナには特別な注意が必要です。詳細は https://hub.docker.com/r/linuxserver/python をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/python을 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub. Docker. Com/r/linuxserver/python പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.Docker.com/r/linuxserver/python for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/python voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły można znaleźć na stronie https://hub.Docker.Com/r/linuxserver/python.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/python para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/python pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.Docker.com/r/linuxserver/python.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.Docker.com/r/linuxserver/python.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.Docker.com/r/linuxserver/python för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.Docker.com/r/linuxserver/python adresini kontrol edin.
+    zh_TW: 此容器需要特殊配置，請先閱讀使用說明。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
@@ -44,6 +94,31 @@ x-casaos:
   title:
     en_US: Python
     zh_CN: Python
+    ca_ES: Python
+    cs_CZ: Python
+    da_DK: Python
+    de_DE: Python
+    el_GR: Python
+    en_GB: Python
+    es_ES: Python
+    fr_FR: Python
+    ga_IE: Python
+    hr_HR: Python
+    hu_HU: Python
+    it_IT: Python
+    ja_JP: Python
+    ko_KR: Python
+    ml_IN: Python
+    nb_NO: Python
+    nl_NL: Python
+    pl_PL: Python
+    pt_BR: Python
+    ro_RO: Python
+    ru_RU: Python
+    sk_SK: Python
+    sv_SE: Python
+    tr_TR: Python
+    zh_TW: Python
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverpython

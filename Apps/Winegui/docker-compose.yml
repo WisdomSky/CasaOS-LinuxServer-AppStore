@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: WineGUI is a user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
+    ca_ES: WineGUI és un gestor de vins amb una interfície d'usuari fàcil d'utilitzar que proporciona una interface gràfica per crear i gestionar ampolles de vi.
+    cs_CZ: WineGUI je uživatelsky přívětivý správce vína, který poskytuje grafické rozhraní pro vytváření a správu lahví vína.
+    da_DK: WineGUI er en brugervenlig vinhåndteringssoftware, der tilbyder en grafisk brugerflade til at oprette og administrere vinflasker.
+    de_DE: WineGUI ist ein benutzerfreundlicher Weinmanager, der eine grafische Benutzeroberfläche zum Erstellen und Verwalten von Weinflaschen bietet.
+    el_GR: Το WineGUI είναι ένα φιλικό προς το χρήστη πρόγραμμα διαχείρισης κρασιού που παρέχει ένα γραφικό περιβάλλον για τη δημιουργία και τη διαχείριση μπουκαλιών κρασιού.
+    en_GB: Winegui is a user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
+    es_ES: WineGUI es un gestor de vinos con una interfaz de usuario intuitiva que proporciona un frontend gráfico para crear y gestionar botellas de vino.
+    fr_FR: WineGUI est un gestionnaire de vin convivial qui offre une interface graphique pour la création et la gestion de bouteilles de vin.
+    ga_IE: Is bainisteoir fíona atá furasta le húsáid é WineGUI a sholáthraíonn comhéadan grafach chun buidéil fíona a chruthú agus a bhainistiú.
+    hr_HR: WineGUI je korisnički prilagođeni program za upravljanje vinom koji pruža grafičko sučelje za stvaranje i upravljanje bocama vina.
+    hu_HU: A WineGUI egy felhasználóbarát borkezelő, amely grafikus előlapot biztosít borosüvegek létrehozásához és kezeléséhez.
+    it_IT: WineGUI è un gestore di Wine dall'interfaccia intuitiva che offre un'interfaccia grafica per la creazione e la gestione delle bottiglie di Wine.
+    ja_JP: WineGUIは、ユーザーインターフェースに優れたワインマネージャーであり、ワインボトルの作成と管理のためのグラフィカルなフロントエンドを提供します。
+    ko_KR: WineGUI는 사용자 친화적인 인터페이스의 와인 관리 프로그램으로, 와인 병을 생성하고 관리할 수 있는 그래픽 사용자 인터페이스를 제공합니다.
+    ml_IN: വൈൻജിയുഐ എന്നത് ഉപയോക്തൃ-ഇന്റർഫേസ് സൗഹൃദ വൈൻ മാനേജരാണ്, ഇത് വൈൻ കുപ്പികൾ സൃഷ്ടിക്കുന്നതിനും കൈകാര്യം ചെയ്യുന്നതിനുമുള്ള ഒരു ഗ്രാഫിക്കൽ ഫ്രണ്ട്എൻഡ് നൽകുന്നു.
+    nb_NO: WineGUI er en brukervennlig vinbehandler som tilbyr et grafisk grensesnitt for å lage og administrere vinflasker.
+    nl_NL: WineGUI is een gebruiksvriendelijke wijnmanager die een grafische interface biedt voor het aanmaken en beheren van wijnflessen.
+    pl_PL: WineGUI to przyjazny dla użytkownika menadżer wina, który zapewnia graficzny interfejs do tworzenia i zarządzania butelkami wina.
+    pt_BR: WineGUI é um gerenciador de vinhos com interface amigável que oferece uma interface gráfica para criar e gerenciar garrafas de vinho.
+    ro_RO: WineGUI este un manager de vinuri cu interfață ușor de utilizat, care oferă o interface grafică pentru crearea și gestionarea sticlelor de vin.
+    ru_RU: WineGUI — это удобный в использовании менеджер винных бутылок, предоставляющий графический интерфейс для создания и управления винными бутылками.
+    sk_SK: WineGUI je používateľsky prívetivý správca vína, ktorý poskytuje grafické rozhranie na vytváranie a správu fliaš vína.
+    sv_SE: WineGUI är en användarvänlig vinhanterare som tillhandahåller ett grafiskt gränssnitt för att skapa och hantera vinflaskor.
+    tr_TR: WineGUI, şarap şişeleri oluşturmak ve yönetmek için grafiksel bir arayüz sağlayan, kullanıcı dostu bir şarap yönetim aracıdır.
     zh_CN: WineGUI 是一款界面友好的 Wine 管理器，提供图形前端以创建和管理 Wine 容器环境（bottles）。
+    zh_TW: WineGUI 是一款介面友好的 Wine 管理器，提供圖形前端以建立和管理 Wine 容器環境（bottles）。
   tagline:
     en_US: A user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
+    ca_ES: Un gestor de vins amb una interfície d'usuari fàcil d'utilitzar que proporciona una interface gràfica per crear i gestionar ampolles de vi.
+    cs_CZ: Uživatelsky přívětivý správce vína, který poskytuje grafické rozhraní pro vytváření a správu lahví vína.
+    da_DK: En brugervenlig vinhåndteringsfunktion, der tilbyder en grafisk brugerflade til oprettelse og administration af vinflasker.
+    de_DE: Ein benutzerfreundlicher Weinmanager mit grafischer Benutzeroberfläche zum Erstellen und Verwalten von Weinflaschen.
+    el_GR: Ένας φιλικός προς το χρήστη διαχειριστής κρασιού που παρέχει ένα γραφικό περιβάλλον εργασίας για τη δημιουργία και τη διαχείριση μπουκαλιών κρασιού.
+    en_GB: A user-interface friendly Wine manager that provides a graphical frontend for creating and managing Wine bottles.
+    es_ES: Un gestor de vinos con una interfaz de usuario intuitiva que proporciona un frontend gráfico para crear y gestionar botellas de vino.
+    fr_FR: Un gestionnaire de vin convivial doté d'une interface graphique permettant de créer et de gérer des bouteilles de vin.
+    ga_IE: Bainisteoir Fíona atá furasta le húsáid agus a sholáthraíonn comhéadan grafach chun buidéil Fíona a chruthú agus a bhainistiú.
+    hr_HR: Korisnički prilagođen program za upravljanje vinom koji pruža grafičko sučelje za stvaranje i upravljanje vinskim bocama.
+    hu_HU: Felhasználóbarát borkezelő, amely grafikus előlapot biztosít borosüvegek létrehozásához és kezeléséhez.
+    it_IT: Un gestore di vini dall'interfaccia intuitiva che offre un'interfaccia grafica per la creazione e la gestione delle bottiglie di vino.
+    ja_JP: ユーザーインターフェースが使いやすいワイン管理ツール。ワインボトルの作成と管理のためのグラフィカルなフロントエンドを提供します。
+    ko_KR: 사용자 친화적인 인터페이스를 갖춘 와인 관리 프로그램으로, 와인 병을 생성하고 관리할 수 있는 그래픽 사용자 인터페이스를 제공합니다.
+    ml_IN: വൈൻ കുപ്പികൾ സൃഷ്ടിക്കുന്നതിനും കൈകാര്യം ചെയ്യുന്നതിനുമുള്ള ഒരു ഗ്രാഫിക്കൽ ഫ്രണ്ട്‌എൻഡ് നൽകുന്ന ഒരു ഉപയോക്തൃ-ഇന്റർഫേസ് സൗഹൃദ വൈൻ മാനേജർ.
+    nb_NO: En brukervennlig vinbehandler som tilbyr et grafisk grensesnitt for å lage og administrere vinflasker.
+    nl_NL: Een gebruiksvriendelijke wijnmanager met een grafische interface voor het aanmaken en beheren van wijnflessen.
+    pl_PL: Przyjazny dla użytkownika menadżer wina, który zapewnia graficzny interfejs do tworzenia i zarządzania butelkami wina.
+    pt_BR: Um gerenciador de vinhos com interface amigável que oferece uma interface gráfica para criar e gerenciar garrafas de vinho.
+    ro_RO: Un manager de vinuri cu interfață ușor de utilizat, care oferă o interfață grafică pentru crearea și gestionarea sticlelor de vin.
+    ru_RU: Удобный в использовании менеджер винных бутылок, предоставляющий графический интерфейс для создания и управления винными бутылками.
+    sk_SK: Používateľsky prívetivý správca vína, ktorý poskytuje grafické rozhranie na vytváranie a správu fliaš vína.
+    sv_SE: En användarvänlig vinhanterare som tillhandahåller ett grafiskt gränssnitt för att skapa och hantera vinflaskor.
+    tr_TR: Kullanıcı dostu arayüzüyle şarap şişeleri oluşturmayı ve yönetmeyi sağlayan grafiksel bir ön yüz sunan bir şarap yönetim uygulaması.
     zh_CN: 通过图形界面创建和管理 Wine 环境。
+    zh_TW: 透過圖形介面建立和管理 Wine 環境。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/winegui-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/winegui-logo.png
   title:
     en_US: Winegui (LinuxServer.io)
+    ca_ES: Winegui (LinuxServer.io)
+    cs_CZ: Winegui (LinuxServer.io)
+    da_DK: Winegui (LinuxServer.io)
+    de_DE: Winegui (LinuxServer.io)
+    el_GR: Winegui (LinuxServer.io)
+    en_GB: Winegui (LinuxServer.io)
+    es_ES: Winegui (LinuxServer.io)
+    fr_FR: Winegui (LinuxServer.io)
+    ga_IE: Winegui (LinuxServer.io)
+    hr_HR: Winegui (LinuxServer.io)
+    hu_HU: Winegui (LinuxServer.io)
+    it_IT: Winegui (LinuxServer.io)
+    ja_JP: Winegui (LinuxServer.io)
+    ko_KR: Winegui (LinuxServer.io)
+    ml_IN: Winegui (LinuxServer.io)
+    nb_NO: Winegui (LinuxServer.io)
+    nl_NL: Winegui (LinuxServer.io)
+    pl_PL: Winegui (LinuxServer.io)
+    pt_BR: Winegui (LinuxServer.io)
+    ro_RO: Winegui (LinuxServer.io)
+    ru_RU: Winegui (LinuxServer.io)
+    sk_SK: Winegui (LinuxServer.io)
+    sv_SE: Winegui (LinuxServer.io)
+    tr_TR: Winegui (LinuxServer.io)
     zh_CN: Winegui（LinuxServer.io）
+    zh_TW: Winegui（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwinegui
   port_map: '3000'

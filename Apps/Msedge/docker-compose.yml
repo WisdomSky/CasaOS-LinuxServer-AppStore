@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium.
+    ca_ES: Microsoft Edge és un navegador web multiplataforma desenvolupat per Microsoft i basat en Chromium.
+    cs_CZ: Microsoft Edge je multiplatformní webový prohlížeč vyvinutý společností Microsoft a založený na prohlížeči Chromium.
+    da_DK: Microsoft Edge er en webbrowser på tværs af platforme udviklet af Microsoft og baseret på Chromium.
+    de_DE: Microsoft Edge ist ein plattformübergreifender Webbrowser, der von Microsoft entwickelt wurde und auf Chromium basiert.
+    el_GR: Το Microsoft Edge είναι ένα πρόγραμμα περιήγησης ιστού για όλες τις πλατφόρμες που αναπτύχθηκε από τη Microsoft και βασίζεται στο Chromium.
+    en_GB: Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium.
+    es_ES: Microsoft Edge es un navegador web multiplataforma desarrollado por Microsoft y basado en Chromium.
+    fr_FR: Microsoft Edge est un navigateur web multiplateforme développé par Microsoft et basé sur Chromium.
+    ga_IE: Is brabhsálaí gréasáin tras-ardáin é Microsoft Edge atá forbartha ag Microsoft agus atá bunaithe ar Chromium.
+    hr_HR: Microsoft Edge je višeplatformski web preglednik koji je razvio Microsoft, a temelji se na Chromiumu.
+    hu_HU: A Microsoft Edge egy platformfüggetlen webböngésző, amelyet a Microsoft fejlesztett ki és a Chromiumra épül.
+    it_IT: Microsoft Edge è un browser web multipiattaforma sviluppato da Microsoft e basato su Chromium.
+    ja_JP: Microsoft Edgeは、Microsoftが開発したクロスプラットフォームのWebブラウザで、Chromiumをベースにしています。
+    ko_KR: Microsoft Edge는 Microsoft에서 개발하고 Chromium을 기반으로 하는 크로스 플랫폼 웹 브라우저입니다.
+    ml_IN: മൈക്രോസോഫ്റ്റ് എഡ്ജ് എന്നത് ക്രോമിയം അടിസ്ഥാനമാക്കി മൈക്രോസോഫ്റ്റ് വികസിപ്പിച്ചെടുത്ത ഒരു ക്രോസ്-പ്ലാറ്റ്‌ഫോം വെബ് ബ്രൗസറാണ്.
+    nb_NO: Microsoft Edge er en nettleser på tvers av plattformer utviklet av Microsoft og basert på Chromium.
+    nl_NL: Microsoft Edge is een platformonafhankelijke webbrowser ontwikkeld door Microsoft en gebaseerd op Chromium.
+    pl_PL: Microsoft Edge to wieloplatformowa przeglądarka internetowa opracowana przez Microsoft i oparta na Chromium.
+    pt_BR: O Microsoft Edge é um navegador web multiplataforma desenvolvido pela Microsoft e baseado no Chromium.
+    ro_RO: Microsoft Edge este un browser web multiplatformă dezvoltat de Microsoft și bazat pe Chromium.
+    ru_RU: Microsoft Edge — это кроссплатформенный веб-браузер, разработанный компанией Microsoft на основе Chromium.
+    sk_SK: Microsoft Edge je multiplatformový webový prehliadač vyvinutý spoločnosťou Microsoft a založený na prehliadači Chromium.
+    sv_SE: Microsoft Edge är en plattformsoberoende webbläsare utvecklad av Microsoft och baserad på Chromium.
+    tr_TR: Microsoft Edge, Microsoft tarafından geliştirilen ve Chromium tabanlı, platformlar arası bir web tarayıcısıdır.
     zh_CN: Microsoft Edge 是由微软开发、基于 Chromium 的跨平台网页浏览器。
+    zh_TW: Microsoft Edge 是由微軟開發、基於 Chromium 的跨平臺網頁瀏覽器。
   tagline:
     en_US: A cross-platform web browser developed by Microsoft and based on Chromium.
+    ca_ES: Un navegador web multiplataforma desenvolupat per Microsoft i basat en Chromium.
+    cs_CZ: Multiplatformní webový prohlížeč vyvinutý společností Microsoft a založený na prohlížeči Chromium.
+    da_DK: En webbrowser på tværs af platforme udviklet af Microsoft og baseret på Chromium.
+    de_DE: Ein plattformübergreifender Webbrowser, der von Microsoft entwickelt wurde und auf Chromium basiert.
+    el_GR: Ένα πρόγραμμα περιήγησης ιστού για όλες τις πλατφόρμες που αναπτύχθηκε από τη Microsoft και βασίζεται στο Chromium.
+    en_GB: A cross-platform web browser developed by Microsoft and based on Chromium.
+    es_ES: Un navegador web multiplataforma desarrollado por Microsoft y basado en Chromium.
+    fr_FR: Un navigateur web multiplateforme développé par Microsoft et basé sur Chromium.
+    ga_IE: Brabhsálaí gréasáin tras-ardáin arna fhorbairt ag Microsoft agus atá bunaithe ar Chromium.
+    hr_HR: Višeplatformski web preglednik koji je razvio Microsoft i temelji se na Chromiumu.
+    hu_HU: A Microsoft által fejlesztett és Chromium alapú, többplatformos webböngésző.
+    it_IT: Un browser web multipiattaforma sviluppato da Microsoft e basato su Chromium.
+    ja_JP: マイクロソフトが開発した、Chromiumをベースにしたクロスプラットフォーム対応のウェブブラウザ。
+    ko_KR: 마이크로소프트에서 개발하고 크로미움을 기반으로 하는 크로스 플랫폼 웹 브라우저.
+    ml_IN: ക്രോമിയം അടിസ്ഥാനമാക്കി മൈക്രോസോഫ്റ്റ് വികസിപ്പിച്ചെടുത്ത ഒരു ക്രോസ്-പ്ലാറ്റ്‌ഫോം വെബ് ബ്രൗസർ.
+    nb_NO: En nettleser på tvers av plattformer utviklet av Microsoft og basert på Chromium.
+    nl_NL: Een platformonafhankelijke webbrowser ontwikkeld door Microsoft en gebaseerd op Chromium.
+    pl_PL: Wieloplatformowa przeglądarka internetowa opracowana przez firmę Microsoft i oparta na Chromium.
+    pt_BR: Um navegador web multiplataforma desenvolvido pela Microsoft e baseado no Chromium.
+    ro_RO: Un browser web multiplatformă dezvoltat de Microsoft și bazat pe Chromium.
+    ru_RU: Кроссплатформенный веб-браузер, разработанный Microsoft на основе Chromium.
+    sk_SK: Multiplatformový webový prehliadač vyvinutý spoločnosťou Microsoft a založený na prehliadači Chromium.
+    sv_SE: En plattformsoberoende webbläsare utvecklad av Microsoft och baserad på Chromium.
+    tr_TR: Microsoft tarafından geliştirilen ve Chromium tabanlı, platformlar arası bir web tarayıcısı.
     zh_CN: 微软开发的 Chromium 跨平台浏览器。
+    zh_TW: 微軟開發的 Chromium 跨平臺瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/edge-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/edge-logo.png
   title:
     en_US: Msedge (LinuxServer.io)
+    ca_ES: Msedge (LinuxServer.io)
+    cs_CZ: Msedge (LinuxServer.io)
+    da_DK: Msedge (LinuxServer.io)
+    de_DE: Msedge (LinuxServer.io)
+    el_GR: Msedge (LinuxServer.io)
+    en_GB: Msedge (LinuxServer.io)
+    es_ES: Msedge (LinuxServer.io)
+    fr_FR: Msedge (LinuxServer.io)
+    ga_IE: Msedge (LinuxServer.io)
+    hr_HR: Msedge (LinuxServer.io)
+    hu_HU: Msedge (LinuxServer.io)
+    it_IT: Msedge (LinuxServer.io)
+    ja_JP: Msedge (LinuxServer.io)
+    ko_KR: Msedge (LinuxServer.io)
+    ml_IN: Msedge (LinuxServer.io)
+    nb_NO: Msedge (LinuxServer.io)
+    nl_NL: Msedge (LinuxServer.io)
+    pl_PL: Msedge (LinuxServer.io)
+    pt_BR: Msedge (LinuxServer.io)
+    ro_RO: Msedge (LinuxServer.io)
+    ru_RU: Msedge (LinuxServer.io)
+    sk_SK: Msedge (LinuxServer.io)
+    sv_SE: Msedge (LinuxServer.io)
+    tr_TR: Msedge (LinuxServer.io)
     zh_CN: Msedge（LinuxServer.io）
+    zh_TW: Msedge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermsedge
   port_map: '3000'

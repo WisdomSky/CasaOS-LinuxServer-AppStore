@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Altus is an Electron-based WhatsApp client with themes and multiple account support.
+    ca_ES: Altus és un client de WhatsApp basat en Electron amb temes i compatibilitat amb diversos comptes.
+    cs_CZ: Altus je klient WhatsAppu založený na platformě Electron s motivy a podporou více účtů.
+    da_DK: Altus er en Electron-baseret WhatsApp-klient med temaer og understøttelse af flere konti.
+    de_DE: Altus ist ein auf Electron basierender WhatsApp-Client mit Themes und Unterstützung für mehrere Konten.
+    el_GR: Το Altus είναι ένα πρόγραμμα-πελάτη WhatsApp που βασίζεται στο Electron με θέματα και υποστήριξη πολλαπλών λογαριασμών.
+    en_GB: Altus is an Electron-based Whatsapp client with themes and multiple account support.
+    es_ES: Altus es un cliente de WhatsApp basado en Electron con temas y soporte para múltiples cuentas.
+    fr_FR: Altus est un client WhatsApp basé sur Electron, proposant des thèmes et la prise en charge de plusieurs comptes.
+    ga_IE: Is cliant WhatsApp bunaithe ar Electron é Altus le téamaí agus tacaíocht do chuntais iolracha.
+    hr_HR: Altus je WhatsApp klijent baziran na Electronu s temama i podrškom za više računa.
+    hu_HU: Az Altus egy Electron alapú WhatsApp kliens témákkal és több fiók támogatásával.
+    it_IT: Altus è un client WhatsApp basato su Electron con temi e supporto per account multipli.
+    ja_JP: Altusは、テーマ機能と複数アカウント対応を備えたElectronベースのWhatsAppクライアントです。
+    ko_KR: Altus는 Electron 기반의 WhatsApp 클라이언트로, 테마와 다중 계정 지원 기능을 제공합니다.
+    ml_IN: തീമുകളും ഒന്നിലധികം അക്കൗണ്ട് പിന്തുണയുമുള്ള ഒരു ഇലക്ട്രോൺ അധിഷ്ഠിത വാട്ട്‌സ്ആപ്പ് ക്ലയന്റാണ് ആൾട്ടസ്.
+    nb_NO: Altus er en Electron-basert WhatsApp-klient med temaer og støtte for flere kontoer.
+    nl_NL: Altus is een op Electron gebaseerde WhatsApp-client met thema's en ondersteuning voor meerdere accounts.
+    pl_PL: Altus to klient WhatsApp oparty na platformie Electron, oferujący motywy i obsługę wielu kont.
+    pt_BR: Altus é um cliente WhatsApp baseado em Electron com temas e suporte a múltiplas contas.
+    ro_RO: Altus este un client WhatsApp bazat pe Electron, cu teme și suport pentru mai multe conturi.
+    ru_RU: Altus — это клиент WhatsApp на основе Electron с возможностью выбора тем оформления и поддержкой нескольких учетных записей.
+    sk_SK: Altus je klient WhatsApp založený na platforme Electron s témami a podporou viacerých účtov.
+    sv_SE: Altus är en Electron-baserad WhatsApp-klient med teman och stöd för flera konton.
+    tr_TR: Altus, temalar ve çoklu hesap desteği sunan, Electron tabanlı bir WhatsApp istemcisidir.
     zh_CN: Altus 是基于 Electron 的 WhatsApp 客户端，支持主题和多个账户。
+    zh_TW: Altus 是基於 Electron 的 WhatsApp 客戶端，支援主題和多個賬戶。
   tagline:
     en_US: An Electron-based WhatsApp client with themes and multiple account support.
+    ca_ES: Un client de WhatsApp basat en Electron amb temes i compatibilitat amb diversos comptes.
+    cs_CZ: Klient WhatsAppu založený na platformě Electron s motivy a podporou více účtů.
+    da_DK: En Electron-baseret WhatsApp-klient med temaer og understøttelse af flere konti.
+    de_DE: Ein auf Electron basierender WhatsApp-Client mit Designs und Unterstützung für mehrere Konten.
+    el_GR: Ένα πρόγραμμα-πελάτης WhatsApp που βασίζεται στο Electron με θέματα και υποστήριξη πολλαπλών λογαριασμών.
+    en_GB: An Electron-based Whatsapp client with themes and multiple account support.
+    es_ES: Un cliente de WhatsApp basado en Electron con temas y soporte para múltiples cuentas.
+    fr_FR: Un client WhatsApp basé sur Electron avec des thèmes et la prise en charge de plusieurs comptes.
+    ga_IE: Cliant WhatsApp bunaithe ar Electron le téamaí agus tacaíocht do chuntais iolracha.
+    hr_HR: WhatsApp klijent temeljen na Electronu s temama i podrškom za više računa.
+    hu_HU: Egy Electron alapú WhatsApp kliens témákkal és több fiók támogatásával.
+    it_IT: Un client WhatsApp basato su Electron con temi e supporto per account multipli.
+    ja_JP: テーマ機能と複数アカウント対応を備えた、ElectronベースのWhatsAppクライアント。
+    ko_KR: Electron 기반의 WhatsApp 클라이언트로, 테마 및 다중 계정 지원 기능을 제공합니다.
+    ml_IN: തീമുകളും ഒന്നിലധികം അക്കൗണ്ട് പിന്തുണയുമുള്ള ഒരു ഇലക്ട്രോൺ അധിഷ്ഠിത വാട്ട്‌സ്ആപ്പ് ക്ലയന്റ്.
+    nb_NO: En Electron-basert WhatsApp-klient med temaer og støtte for flere kontoer.
+    nl_NL: Een op Electron gebaseerde WhatsApp-client met thema's en ondersteuning voor meerdere accounts.
+    pl_PL: Klient WhatsApp oparty na platformie Electron, z motywami i obsługą wielu kont.
+    pt_BR: Um cliente WhatsApp baseado em Electron com temas e suporte a múltiplas contas.
+    ro_RO: Un client WhatsApp bazat pe Electron cu teme și suport pentru mai multe conturi.
+    ru_RU: WhatsApp-клиент на основе Electron с возможностью выбора тем оформления и поддержкой нескольких учетных записей.
+    sk_SK: Klient WhatsApp založený na platforme Electron s témami a podporou viacerých účtov.
+    sv_SE: En Electron-baserad WhatsApp-klient med teman och stöd för flera konton.
+    tr_TR: Temalar ve çoklu hesap desteği içeren, Electron tabanlı bir WhatsApp istemcisi.
     zh_CN: 支持主题和多账户的 WhatsApp 桌面客户端。
+    zh_TW: 支援主題和多賬戶的 WhatsApp 桌面客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/altus-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/altus-logo.png
   title:
     en_US: Altus (LinuxServer.io)
+    ca_ES: Altus (LinuxServer.io)
+    cs_CZ: Altus (LinuxServer.io)
+    da_DK: Altus (LinuxServer.io)
+    de_DE: Altus (LinuxServer.io)
+    el_GR: Altus (LinuxServer.io)
+    en_GB: Altus (LinuxServer.io)
+    es_ES: Altus (LinuxServer.io)
+    fr_FR: Altus (LinuxServer.io)
+    ga_IE: Altus (LinuxServer.io)
+    hr_HR: Altus (LinuxServer.io)
+    hu_HU: Altus (LinuxServer.io)
+    it_IT: Altus (LinuxServer.io)
+    ja_JP: Altus (LinuxServer.io)
+    ko_KR: Altus (LinuxServer.io)
+    ml_IN: Altus (LinuxServer.io)
+    nb_NO: Altus (LinuxServer.io)
+    nl_NL: Altus (LinuxServer.io)
+    pl_PL: Altus (LinuxServer.io)
+    pt_BR: Altus (LinuxServer.io)
+    ro_RO: Altus (LinuxServer.io)
+    ru_RU: Altus (LinuxServer.io)
+    sk_SK: Altus (LinuxServer.io)
+    sv_SE: Altus (LinuxServer.io)
+    tr_TR: Altus (LinuxServer.io)
     zh_CN: Altus（LinuxServer.io）
+    zh_TW: Altus（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveraltus
   port_map: '3000'

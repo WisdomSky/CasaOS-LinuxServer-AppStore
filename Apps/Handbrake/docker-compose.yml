@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: HandBrake is an open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.
+    ca_ES: HandBrake és una eina de codi obert, creada per voluntaris, per convertir vídeo de gairebé qualsevol format a una selecció de còdecs moderns i àmpliament compatibles.
+    cs_CZ: HandBrake je open-source nástroj, vytvořený dobrovolníky, pro převod videa z téměř jakéhokoli formátu do vybraných moderních, široce podporovaných kodeků.
+    da_DK: HandBrake er et open source-værktøj, bygget af frivillige, til at konvertere video fra næsten ethvert format til et udvalg af moderne, bredt understøttede codecs.
+    de_DE: HandBrake ist ein Open-Source-Tool, das von Freiwilligen entwickelt wurde, um Videos von nahezu jedem Format in eine Auswahl moderner, weit verbreiteter Codecs zu konvertieren.
+    el_GR: Το HandBrake είναι ένα εργαλείο ανοιχτού κώδικα, κατασκευασμένο από εθελοντές, για τη μετατροπή βίντεο από σχεδόν οποιαδήποτε μορφή σε μια επιλογή σύγχρονων, ευρέως υποστηριζόμενων κωδικοποιητών.
+    en_GB: Handbrake is an open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.
+    es_ES: HandBrake es una herramienta de código abierto, creada por voluntarios, para convertir vídeo de prácticamente cualquier formato a una selección de códecs modernos y ampliamente compatibles.
+    fr_FR: HandBrake est un outil open source, développé par des bénévoles, permettant de convertir des vidéos de presque tous les formats vers une sélection de codecs modernes et largement pris en charge.
+    ga_IE: Is uirlis foinse oscailte é HandBrake, tógtha ag oibrithe deonacha, chun físeán a thiontú ó bheagnach aon fhormáid go rogha de chódaic nua-aimseartha a bhfuil tacaíocht fhorleathan acu.
+    hr_HR: HandBrake je alat otvorenog koda, koji su izradili volonteri, za pretvaranje videa iz gotovo bilo kojeg formata u odabrane moderne, široko podržane kodeke.
+    hu_HU: A HandBrake egy nyílt forráskódú eszköz, amelyet önkéntesek fejlesztettek ki, és amely szinte bármilyen formátumú videó konvertálására szolgál modern, széles körben támogatott kodekekké.
+    it_IT: HandBrake è uno strumento open-source, sviluppato da volontari, per convertire video da quasi tutti i formati in una selezione di codec moderni e ampiamente supportati.
+    ja_JP: HandBrakeは、ボランティアによって開発されたオープンソースツールで、ほぼあらゆる形式のビデオを、広くサポートされている最新のコーデックに変換することができます。
+    ko_KR: HandBrake는 자원봉사자들이 개발한 오픈 소스 도구로, 거의 모든 형식의 비디오를 최신의 널리 지원되는 코덱으로 변환할 수 있습니다.
+    ml_IN: ഏതൊരു ഫോർമാറ്റിൽ നിന്നും വീഡിയോയെ ആധുനികവും വ്യാപകമായി പിന്തുണയ്ക്കുന്നതുമായ ഒരു കൂട്ടം കോഡെക്കുകളിലേക്ക് പരിവർത്തനം ചെയ്യുന്നതിനായി സന്നദ്ധപ്രവർത്തകർ നിർമ്മിച്ച ഒരു ഓപ്പൺ സോഴ്‌സ് ഉപകരണമാണ് ഹാൻഡ്‌ബ്രേക്ക്.
+    nb_NO: HandBrake er et åpen kildekode-verktøy, bygget av frivillige, for å konvertere video fra nesten alle formater til et utvalg av moderne, bredt støttede kodeker.
+    nl_NL: HandBrake is een open-source tool, ontwikkeld door vrijwilligers, voor het converteren van video van vrijwel elk formaat naar een selectie van moderne, breed ondersteunde codecs.
+    pl_PL: HandBrake to narzędzie typu open source, stworzone przez wolontariuszy, które umożliwia konwersję wideo z niemal każdego formatu na wybrane nowoczesne, szeroko obsługiwane kodeki.
+    pt_BR: O HandBrake é uma ferramenta de código aberto, criada por voluntários, para converter vídeos de praticamente qualquer formato para uma seleção de codecs modernos e amplamente suportados.
+    ro_RO: HandBrake este un instrument open-source, construit de voluntari, pentru convertirea videoclipurilor din aproape orice format într-o selecție de codecuri moderne, larg acceptate.
+    ru_RU: HandBrake — это инструмент с открытым исходным кодом, созданный волонтерами, для конвертации видео практически из любого формата в ряд современных, широко поддерживаемых кодеков.
+    sk_SK: HandBrake je open-source nástroj, vytvorený dobrovoľníkmi, na konverziu videa z takmer akéhokoľvek formátu do výberu moderných, široko podporovaných kodekov.
+    sv_SE: HandBrake är ett verktyg med öppen källkod, byggt av volontärer, för att konvertera video från nästan vilket format som helst till ett urval av moderna, allmänt stödda codecs.
+    tr_TR: HandBrake, gönüllüler tarafından geliştirilen, açık kaynaklı bir araç olup, videoları neredeyse her formatta, modern ve yaygın olarak desteklenen çeşitli kodeklere dönüştürmek için kullanılır.
     zh_CN: HandBrake 是由志愿者开发的开源工具，可将几乎任何格式的视频转换为一系列现代且广泛支持的编码格式。
+    zh_TW: HandBrake 是由志願者開發的開源工具，可將幾乎任何格式的影片轉換為一系列現代且廣泛支援的編碼格式。
   tagline:
     en_US: An open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.
+    ca_ES: Una eina de codi obert, creada per voluntaris, per convertir vídeo de gairebé qualsevol format a una selecció de còdecs moderns i àmpliament compatibles.
+    cs_CZ: Open-source nástroj, vytvořený dobrovolníky, pro převod videa z téměř jakéhokoli formátu do vybraných moderních, široce podporovaných kodeků.
+    da_DK: Et open source-værktøj, bygget af frivillige, til at konvertere video fra næsten ethvert format til et udvalg af moderne, bredt understøttede codecs.
+    de_DE: Ein von Freiwilligen entwickeltes Open-Source-Tool zur Konvertierung von Videos aus nahezu jedem Format in eine Auswahl moderner, weit verbreiteter Codecs.
+    el_GR: Ένα εργαλείο ανοιχτού κώδικα, κατασκευασμένο από εθελοντές, για τη μετατροπή βίντεο από σχεδόν οποιαδήποτε μορφή σε μια επιλογή σύγχρονων, ευρέως υποστηριζόμενων κωδικοποιητών.
+    en_GB: An open-source tool, built by volunteers, for converting video from nearly any format to a selection of modern, widely supported codecs.
+    es_ES: Una herramienta de código abierto, creada por voluntarios, para convertir vídeo de prácticamente cualquier formato a una selección de códecs modernos y ampliamente compatibles.
+    fr_FR: Un outil open source, développé par des bénévoles, permettant de convertir des vidéos de presque tous les formats vers une sélection de codecs modernes et largement pris en charge.
+    ga_IE: Uirlis foinse oscailte, tógtha ag oibrithe deonacha, chun físeán a thiontú ó bheagnach aon fhormáid go rogha de chódaic nua-aimseartha a bhfuil tacaíocht fhorleathan acu.
+    hr_HR: Alat otvorenog koda, koji su izradili volonteri, za pretvaranje videa iz gotovo bilo kojeg formata u odabrane moderne, široko podržane kodeke.
+    hu_HU: Egy önkéntesek által fejlesztett, nyílt forráskódú eszköz, amely szinte bármilyen formátumú videót képes konvertálni modern, széles körben támogatott kodekek valamelyikére.
+    it_IT: Uno strumento open-source, creato da volontari, per convertire video da quasi qualsiasi formato in una selezione di codec moderni e ampiamente supportati.
+    ja_JP: ボランティアによって開発されたオープンソースツールで、ほぼあらゆる形式のビデオを、広くサポートされている最新のコーデックに変換できます。
+    ko_KR: 자원봉사자들이 개발한 오픈 소스 도구로, 거의 모든 형식의 비디오를 최신의 널리 지원되는 코덱으로 변환할 수 있습니다.
+    ml_IN: ഏതൊരു ഫോർമാറ്റിൽ നിന്നും വീഡിയോയെ ആധുനികവും വ്യാപകമായി പിന്തുണയ്ക്കുന്നതുമായ ഒരു കൂട്ടം കോഡെക്കുകളിലേക്ക് പരിവർത്തനം ചെയ്യുന്നതിനായി സന്നദ്ധപ്രവർത്തകർ നിർമ്മിച്ച ഒരു ഓപ്പൺ സോഴ്‌സ് ഉപകരണം.
+    nb_NO: Et åpen kildekode-verktøy, bygget av frivillige, for å konvertere video fra nesten alle formater til et utvalg av moderne, bredt støttede kodeker.
+    nl_NL: Een open-source tool, ontwikkeld door vrijwilligers, voor het converteren van video van vrijwel elk formaat naar een selectie van moderne, breed ondersteunde codecs.
+    pl_PL: Narzędzie typu open source, stworzone przez wolontariuszy, umożliwiające konwersję wideo z niemal każdego formatu na wybrane, nowoczesne i powszechnie obsługiwane kodeki.
+    pt_BR: Uma ferramenta de código aberto, criada por voluntários, para converter vídeos de praticamente qualquer formato para uma seleção de codecs modernos e amplamente suportados.
+    ro_RO: Un instrument open-source, construit de voluntari, pentru convertirea videoclipurilor din aproape orice format într-o selecție de codecuri moderne, larg acceptate.
+    ru_RU: Инструмент с открытым исходным кодом, созданный волонтерами, для конвертации видео практически из любого формата в ряд современных, широко поддерживаемых кодеков.
+    sk_SK: Nástroj s otvoreným zdrojovým kódom, vytvorený dobrovoľníkmi, na konverziu videa z takmer akéhokoľvek formátu do výberu moderných, široko podporovaných kodekov.
+    sv_SE: Ett verktyg med öppen källkod, byggt av volontärer, för att konvertera video från nästan vilket format som helst till ett urval av moderna, allmänt stödda codecs.
+    tr_TR: Gönüllüler tarafından geliştirilen, açık kaynaklı bir araç olup, videoları neredeyse her formatta, modern ve yaygın olarak desteklenen çeşitli kodeklere dönüştürmeye yarar.
     zh_CN: 将多种视频格式转换为常用现代编码。
+    zh_TW: 將多種影片格式轉換為常用現代編碼。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/handbrake-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/handbrake-logo.png
   title:
     en_US: Handbrake (LinuxServer.io)
+    ca_ES: Handbrake (LinuxServer.io)
+    cs_CZ: Handbrake (LinuxServer.io)
+    da_DK: Handbrake (LinuxServer.io)
+    de_DE: Handbrake (LinuxServer.io)
+    el_GR: Handbrake (LinuxServer.io)
+    en_GB: Handbrake (LinuxServer.io)
+    es_ES: Handbrake (LinuxServer.io)
+    fr_FR: Handbrake (LinuxServer.io)
+    ga_IE: Handbrake (LinuxServer.io)
+    hr_HR: Handbrake (LinuxServer.io)
+    hu_HU: Handbrake (LinuxServer.io)
+    it_IT: Handbrake (LinuxServer.io)
+    ja_JP: Handbrake (LinuxServer.io)
+    ko_KR: Handbrake (LinuxServer.io)
+    ml_IN: Handbrake (LinuxServer.io)
+    nb_NO: Handbrake (LinuxServer.io)
+    nl_NL: Handbrake (LinuxServer.io)
+    pl_PL: Handbrake (LinuxServer.io)
+    pt_BR: Handbrake (LinuxServer.io)
+    ro_RO: Handbrake (LinuxServer.io)
+    ru_RU: Handbrake (LinuxServer.io)
+    sk_SK: Handbrake (LinuxServer.io)
+    sv_SE: Handbrake (LinuxServer.io)
+    tr_TR: Handbrake (LinuxServer.io)
     zh_CN: Handbrake（LinuxServer.io）
+    zh_TW: Handbrake（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhandbrake
   port_map: '3000'

@@ -44,17 +44,92 @@ x-casaos:
   main: app
   description:
     en_US: Phpmyadmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB.
+    ca_ES: Phpmyadmin és una eina de programari lliure escrita en PHP, pensada per gestionar l'administració de MySQL a través del web. phpMyAdmin admet una àmplia gamma d'operacions en MySQL i MariaDB.
+    cs_CZ: Phpmyadmin je bezplatný softwarový nástroj napsaný v PHP, určený pro správu MySQL přes web. phpMyAdmin podporuje širokou škálu operací s MySQL a MariaDB.
+    da_DK: Phpmyadmin er et gratis softwareværktøj skrevet i PHP, beregnet til at håndtere administrationen af MySQL over internettet. phpMyAdmin understøtter en bred vifte af operationer på MySQL og MariaDB.
+    de_DE: phpMyAdmin ist ein kostenloses Softwaretool, das in PHP geschrieben ist und die Verwaltung von MySQL-Datenbanken über das Web ermöglicht. phpMyAdmin unterstützt eine Vielzahl von Operationen auf MySQL und MariaDB.
+    el_GR: Το Phpmyadmin είναι ένα δωρεάν εργαλείο λογισμικού γραμμένο σε PHP, που προορίζεται για τη διαχείριση της MySQL μέσω του Διαδικτύου. Το phpMyAdmin υποστηρίζει ένα ευρύ φάσμα λειτουργιών σε MySQL και MariaDB.
+    en_GB: Phpmyadmin is a free software tool written in Php, intended to handle the administration of Mysql over the Web. phpMyAdmin supports a wide range of operations on Mysql and Mariadb.
+    es_ES: Phpmyadmin es una herramienta de software libre escrita en PHP, diseñada para gestionar la administración de MySQL a través de la web. phpMyAdmin admite una amplia gama de operaciones en MySQL y MariaDB.
+    fr_FR: phpMyAdmin est un logiciel libre écrit en PHP, conçu pour administrer MySQL via le Web. Il prend en charge un large éventail d'opérations sur MySQL et MariaDB.
+    ga_IE: Is uirlis bhogearraí saor in aisce é phpmyadmin atá scríofa i PHP, atá ceaptha chun riarachán MySQL a láimhseáil thar an nGréasán. Tacaíonn phpMyAdmin le raon leathan oibríochtaí ar MySQL agus MariaDB.
+    hr_HR: Phpmyadmin je besplatni softverski alat napisan u PHP-u, namijenjen za administraciju MySQL-a putem weba. phpMyAdmin podržava širok raspon operacija na MySQL-u i MariaDB-u.
+    hu_HU: A Phpmyadmin egy ingyenes, PHP-ben írt szoftvereszköz, amely a MySQL webes adminisztrációjára szolgál. A phpMyAdmin a MySQL és a MariaDB alapú műveletek széles skáláját támogatja.
+    it_IT: PhpMyAdmin è un software gratuito scritto in PHP, progettato per gestire l'amministrazione di MySQL tramite il Web. PhpMyAdmin supporta un'ampia gamma di operazioni su MySQL e MariaDB.
+    ja_JP: phpMyAdminは、PHPで記述された無料のソフトウェアツールで、Web経由でMySQLの管理を行うことを目的としています。phpMyAdminは、MySQLとMariaDBに対する幅広い操作をサポートしています。
+    ko_KR: phpMyAdmin은 PHP로 작성된 무료 소프트웨어 도구로, 웹을 통해 MySQL 데이터베이스를 관리하기 위한 도구입니다. phpMyAdmin은 MySQL 및 MariaDB에 대한 다양한 작업을 지원합니다.
+    ml_IN: വെബിലൂടെ MySQL ന്റെ അഡ്മിനിസ്ട്രേഷൻ കൈകാര്യം ചെയ്യാൻ ഉദ്ദേശിച്ചുള്ള, PHP-യിൽ എഴുതിയ ഒരു സ്വതന്ത്ര സോഫ്റ്റ്‌വെയർ ഉപകരണമാണ് Phpmyadmin. MySQL, MariaDB എന്നിവയിലെ വിപുലമായ പ്രവർത്തനങ്ങളെ phpMyAdmin പിന്തുണയ്ക്കുന്നു.
+    nb_NO: Phpmyadmin er et gratis programvareverktøy skrevet i PHP, ment for å håndtere administrasjon av MySQL over nettet. phpMyAdmin støtter et bredt spekter av operasjoner på MySQL og MariaDB.
+    nl_NL: phpMyAdmin is een gratis softwaretool, geschreven in PHP, bedoeld voor het beheren van MySQL-databases via het web. phpMyAdmin ondersteunt een breed scala aan bewerkingen op MySQL en MariaDB.
+    pl_PL: Phpmyadmin to darmowe narzędzie napisane w języku PHP, przeznaczone do administrowania bazą danych MySQL przez sieć. phpMyAdmin obsługuje szeroki zakres operacji na bazach danych MySQL i MariaDB.
+    pt_BR: O phpMyAdmin é uma ferramenta de software livre escrita em PHP, destinada a gerenciar o MySQL pela Web. O phpMyAdmin suporta uma ampla gama de operações no MySQL e no MariaDB.
+    ro_RO: Phpmyadmin este un instrument software gratuit scris în PHP, destinat administrării MySQL pe Web. phpMyAdmin suportă o gamă largă de operațiuni pe MySQL și MariaDB.
+    ru_RU: PhpmyAdmin — это бесплатный программный инструмент, написанный на PHP, предназначенный для администрирования MySQL через веб-интерфейс. phpMyAdmin поддерживает широкий спектр операций с MySQL и MariaDB.
+    sk_SK: Phpmyadmin je bezplatný softvérový nástroj napísaný v PHP, určený na správu MySQL cez web. phpMyAdmin podporuje širokú škálu operácií s MySQL a MariaDB.
+    sv_SE: Phpmyadmin är ett gratis programvaruverktyg skrivet i PHP, avsett att hantera administrationen av MySQL över webben. phpMyAdmin stöder ett brett spektrum av operationer på MySQL och MariaDB.
+    tr_TR: phpMyAdmin, web üzerinden MySQL yönetimini kolaylaştırmak amacıyla PHP ile yazılmış ücretsiz bir yazılım aracıdır. phpMyAdmin, MySQL ve MariaDB üzerinde çok çeşitli işlemleri destekler.
     zh_CN: phpMyAdmin 是用 PHP 编写的自由软件工具，旨在通过网页管理 MySQL。它支持 MySQL 和 MariaDB 的多种操作。
+    zh_TW: phpMyAdmin 是用 PHP 編寫的自由軟體工具，旨在透過網頁管理 MySQL。它支援 MySQL 和 MariaDB 的多種操作。
   tagline:
     en_US: A free software tool written in PHP, intended to handle the administration of MySQL over the Web. PhpMyAdmin supports a wide range of operations on MySQL and MariaDB.
+    ca_ES: Una eina de programari lliure escrita en PHP, pensada per gestionar l'administració de MySQL a través del web. PhpMyAdmin admet una àmplia gamma d'operacions en MySQL i MariaDB.
+    cs_CZ: Bezplatný softwarový nástroj napsaný v PHP, určený pro správu MySQL přes web. PhpMyAdmin podporuje širokou škálu operací s MySQL a MariaDB.
+    da_DK: Et gratis softwareværktøj skrevet i PHP, beregnet til at håndtere administrationen af MySQL over internettet. PhpMyAdmin understøtter en bred vifte af operationer på MySQL og MariaDB.
+    de_DE: PhpMyAdmin ist ein kostenloses Softwaretool, das in PHP geschrieben ist und die Administration von MySQL über das Web ermöglicht. Es unterstützt eine Vielzahl von Operationen auf MySQL und MariaDB.
+    el_GR: Ένα δωρεάν εργαλείο λογισμικού γραμμένο σε PHP, που προορίζεται για τη διαχείριση της MySQL μέσω του Διαδικτύου. Το PhpMyAdmin υποστηρίζει ένα ευρύ φάσμα λειτουργιών σε MySQL και MariaDB.
+    en_GB: A free software tool written in Php, intended to handle the administration of Mysql over the Web. Phpmyadmin supports a wide range of operations on Mysql and Mariadb.
+    es_ES: PhpMyAdmin es una herramienta de software libre escrita en PHP, diseñada para gestionar la administración de MySQL a través de la web. Admite una amplia gama de operaciones en MySQL y MariaDB.
+    fr_FR: phpMyAdmin est un logiciel libre écrit en PHP, conçu pour administrer MySQL via le Web. Il prend en charge un large éventail d'opérations sur MySQL et MariaDB.
+    ga_IE: Uirlis bhogearraí saor in aisce scríofa i PHP, atá ceaptha chun riarachán MySQL a láimhseáil ar an nGréasán. Tacaíonn PhpMyAdmin le raon leathan oibríochtaí ar MySQL agus MariaDB.
+    hr_HR: Besplatni softverski alat napisan u PHP-u, namijenjen za administraciju MySQL-a putem weba. PhpMyAdmin podržava širok raspon operacija na MySQL-u i MariaDB-u.
+    hu_HU: Egy ingyenes, PHP-ben írt szoftvereszköz, amely a MySQL webes adminisztrációjára szolgál. A PhpMyAdmin a MySQL és a MariaDB alapú műveletek széles skáláját támogatja.
+    it_IT: PhpMyAdmin è uno strumento software gratuito scritto in PHP, progettato per gestire l'amministrazione di MySQL tramite il Web. Supporta un'ampia gamma di operazioni su MySQL e MariaDB.
+    ja_JP: PHPで書かれた無料のソフトウェアツールで、Web経由でMySQLの管理を行うことを目的としています。PhpMyAdminは、MySQLとMariaDBに対する幅広い操作をサポートしています。
+    ko_KR: PHP로 작성된 무료 소프트웨어 도구인 PhpMyAdmin은 웹을 통해 MySQL을 관리하도록 설계되었습니다. PhpMyAdmin은 MySQL 및 MariaDB에 대한 다양한 작업을 지원합니다.
+    ml_IN: വെബിലൂടെ MySQL ന്റെ അഡ്മിനിസ്ട്രേഷൻ കൈകാര്യം ചെയ്യാൻ ഉദ്ദേശിച്ചുള്ള, PHP-യിൽ എഴുതിയ ഒരു സ്വതന്ത്ര സോഫ്റ്റ്‌വെയർ ഉപകരണം. MySQL, MariaDB എന്നിവയിലെ വിപുലമായ പ്രവർത്തനങ്ങളെ PhpMyAdmin പിന്തുണയ്ക്കുന്നു.
+    nb_NO: Et gratis programvareverktøy skrevet i PHP, ment for å håndtere administrasjon av MySQL over nettet. PhpMyAdmin støtter et bredt spekter av operasjoner på MySQL og MariaDB.
+    nl_NL: Een gratis softwaretool, geschreven in PHP, bedoeld voor het beheren van MySQL via het web. PhpMyAdmin ondersteunt een breed scala aan bewerkingen op MySQL en MariaDB.
+    pl_PL: Darmowe narzędzie napisane w PHP, przeznaczone do administrowania bazą MySQL przez Internet. PhpMyAdmin obsługuje szeroki zakres operacji na MySQL i MariaDB.
+    pt_BR: Uma ferramenta de software livre escrita em PHP, destinada a gerenciar o MySQL pela Web. O PhpMyAdmin suporta uma ampla gama de operações em MySQL e MariaDB.
+    ro_RO: Un instrument software gratuit scris în PHP, destinat administrării MySQL pe Web. PhpMyAdmin suportă o gamă largă de operațiuni pe MySQL și MariaDB.
+    ru_RU: Бесплатный программный инструмент, написанный на PHP, предназначенный для администрирования MySQL через Интернет. PhpMyAdmin поддерживает широкий спектр операций с MySQL и MariaDB.
+    sk_SK: Bezplatný softvérový nástroj napísaný v PHP, určený na správu MySQL cez web. PhpMyAdmin podporuje širokú škálu operácií s MySQL a MariaDB.
+    sv_SE: Ett gratis programvaruverktyg skrivet i PHP, avsett att hantera administrationen av MySQL över webben. PhpMyAdmin stöder ett brett utbud av operationer på MySQL och MariaDB.
+    tr_TR: PHP ile yazılmış, web üzerinden MySQL yönetimini kolaylaştırmak için tasarlanmış ücretsiz bir yazılım aracıdır. PhpMyAdmin, MySQL ve MariaDB üzerinde çok çeşitli işlemleri destekler.
     zh_CN: 通过网页管理 MySQL 和 MariaDB。
+    zh_TW: 透過網頁管理 MySQL 和 MariaDB。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png
   title:
     en_US: Phpmyadmin (LinuxServer.io)
+    ca_ES: Phpmyadmin (LinuxServer.io)
+    cs_CZ: Phpmyadmin (LinuxServer.io)
+    da_DK: Phpmyadmin (LinuxServer.io)
+    de_DE: Phpmyadmin (LinuxServer.io)
+    el_GR: Phpmyadmin (LinuxServer.io)
+    en_GB: Phpmyadmin (LinuxServer.io)
+    es_ES: Phpmyadmin (LinuxServer.io)
+    fr_FR: Phpmyadmin (LinuxServer.io)
+    ga_IE: Phpmyadmin (LinuxServer.io)
+    hr_HR: Phpmyadmin (LinuxServer.io)
+    hu_HU: Phpmyadmin (LinuxServer.io)
+    it_IT: Phpmyadmin (LinuxServer.io)
+    ja_JP: Phpmyadmin (LinuxServer.io)
+    ko_KR: Phpmyadmin (LinuxServer.io)
+    ml_IN: Phpmyadmin (LinuxServer.io)
+    nb_NO: Phpmyadmin (LinuxServer.io)
+    nl_NL: Phpmyadmin (LinuxServer.io)
+    pl_PL: Phpmyadmin (LinuxServer.io)
+    pt_BR: Phpmyadmin (LinuxServer.io)
+    ro_RO: Phpmyadmin (LinuxServer.io)
+    ru_RU: Phpmyadmin (LinuxServer.io)
+    sk_SK: Phpmyadmin (LinuxServer.io)
+    sv_SE: Phpmyadmin (LinuxServer.io)
+    tr_TR: Phpmyadmin (LinuxServer.io)
     zh_CN: Phpmyadmin（LinuxServer.io）
+    zh_TW: Phpmyadmin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverphpmyadmin
   port_map: '8081'

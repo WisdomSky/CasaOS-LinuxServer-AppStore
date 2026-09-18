@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Mylar3 is an automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.
+    ca_ES: Mylar3 és un descarregador automatitzat de còmics (cbr/cbz) per utilitzar amb NZB i torrents escrits en Python. Admet SABnzbd, NZBGET i molts clients torrent a més de DDL.
+    cs_CZ: Mylar3 je automatizovaný program pro stahování komiksů (cbr/cbz) pro použití s NZB a torrenty napsanými v Pythonu. Kromě DDL podporuje i SABnzbd, NZBGET a mnoho dalších torrentových klientů.
+    da_DK: Mylar3 er et automatiseret tegneserie-downloadprogram (cbr/cbz) til brug med NZB og torrents skrevet i Python. Det understøtter SABnzbd, NZBGET og mange torrentklienter udover DDL.
+    de_DE: Mylar3 ist ein automatisierter Comic-Downloader (cbr/cbz) für die Verwendung mit NZB und Torrents, geschrieben in Python. Er unterstützt neben DDL auch SABnzbd, NZBGET und viele weitere Torrent-Clients.
+    el_GR: Το Mylar3 είναι ένα αυτοματοποιημένο πρόγραμμα λήψης κόμικς (cbr/cbz) για χρήση με NZB και torrents γραμμένα σε python. Υποστηρίζει SABnzbd, NZBGET και πολλά προγράμματα-πελάτες torrent εκτός από το DDL.
+    en_GB: Mylar3 is an automated Comic Book downloader (cbr/cbz) for use with Nzb and torrents written in python. It supports Sabnzbd, Nzbget, and many torrent clients in addition to Ddl.
+    es_ES: Mylar3 es un descargador automático de cómics (cbr/cbz) para usar con NZB y torrents, escrito en Python. Es compatible con SABnzbd, NZBGET y muchos clientes de torrents, además de DDL.
+    fr_FR: Mylar3 est un téléchargeur automatique de bandes dessinées (CBR/CBZ) compatible avec les formats NZB et les torrents, écrit en Python. Il prend en charge SABnzbd, NZBGET et de nombreux clients torrent, en plus du téléchargement direct (DDL).
+    ga_IE: Is íoslódálaí uathoibrithe Leabhar Grinn (cbr/cbz) é Mylar3 le húsáid le NZB agus torrentanna scríofa i python. Tacaíonn sé le SABnzbd, NZBGET, agus go leor cliant torrent chomh maith le DDL.
+    hr_HR: Mylar3 je automatizirani program za preuzimanje stripova (cbr/cbz) za korištenje s NZB-om i torrentima napisanim u Pythonu. Podržava SABnzbd, NZBGET i mnoge torrent klijente uz DDL.
+    hu_HU: A Mylar3 egy automatizált képregény-letöltő (cbr/cbz), amely NZB-vel és Pythonban írt torrentekkel használható. A DDL mellett támogatja a SABnzbd-t, az NZBGET-et és számos torrentklienst.
+    it_IT: Mylar3 è un programma automatico per il download di fumetti (in formato cbr/cbz) per file NZB e torrent, scritto in Python. Supporta SABnzbd, NZBGET e numerosi client torrent, oltre a DDL.
+    ja_JP: Mylar3は、Pythonで記述された、NZBおよびトレントで使用できる自動コミックブックダウンローダー（cbr/cbz形式）です。DDLに加え、SABnzbd、NZBGET、および多くのトレントクライアントをサポートしています。
+    ko_KR: Mylar3는 파이썬으로 작성된 NZB 및 토렌트용 만화책(cbr/cbz) 자동 다운로더입니다. DDL 외에도 SABnzbd, NZBGET 및 다양한 토렌트 클라이언트를 지원합니다.
+    ml_IN: NZB-യിലും പൈത്തണിൽ എഴുതിയ ടോറന്റുകളിലും ഉപയോഗിക്കുന്നതിനുള്ള ഒരു ഓട്ടോമേറ്റഡ് കോമിക് ബുക്ക് ഡൗൺലോഡർ (cbr/cbz) ആണ് Mylar3. ഇത് DDL-ന് പുറമേ SABnzbd, NZBGET, നിരവധി ടോറന്റ് ക്ലയന്റുകളെ പിന്തുണയ്ക്കുന്നു.
+    nb_NO: Mylar3 er et automatisert tegneserienedlastingsprogram (cbr/cbz) for bruk med NZB og torrenter skrevet i Python. Det støtter SABnzbd, NZBGET og mange torrentklienter i tillegg til DDL.
+    nl_NL: Mylar3 is een geautomatiseerd programma voor het downloaden van stripboeken (cbr/cbz) voor gebruik met NZB en torrents, geschreven in Python. Het ondersteunt SABnzbd, NZBGET en vele andere torrentclients, naast DDL.
+    pl_PL: Mylar3 to automatyczny program do pobierania komiksów (CBR/CBZ) do użytku z NZB i torrentami napisanymi w Pythonie. Oprócz DDL obsługuje SABnzbd, NZBGET i wiele klientów torrentów.
+    pt_BR: Mylar3 é um programa automatizado para baixar histórias em quadrinhos (cbr/cbz) para uso com NZB e torrents, escrito em Python. Ele suporta SABnzbd, NZBGET e muitos outros clientes de torrent, além de download direto (DDL).
+    ro_RO: Mylar3 este un program automat de descărcare a benzilor desenate (cbr/cbz) pentru utilizare cu NZB și torrente scrise în Python. Pe lângă DDL, este compatibil cu SABnzbd, NZBGET și mulți clienți torrent.
+    ru_RU: Mylar3 — это автоматизированный загрузчик комиксов (cbr/cbz) для работы с NZB-файлами и торрентами, написанный на Python. Он поддерживает SABnzbd, NZBGET и множество торрент-клиентов, а также DDL.
+    sk_SK: Mylar3 je automatizovaný sťahovač komiksov (cbr/cbz) na použitie s NZB a torrentmi napísanými v jazyku Python. Okrem DDL podporuje aj SABnzbd, NZBGET a mnoho ďalších torrent klientov.
+    sv_SE: Mylar3 är ett automatiserat program för nedladdning av serietidningar (cbr/cbz) för användning med NZB och torrenter skrivna i Python. Det stöder SABnzbd, NZBGET och många torrentklienter utöver DDL.
+    tr_TR: Mylar3, NZB ve torrentlerle kullanılmak üzere Python ile yazılmış otomatik bir çizgi roman indirme programıdır (cbr/cbz). DDL'ye ek olarak SABnzbd, NZBGET ve birçok torrent istemcisini destekler.
     zh_CN: Mylar3 是用 Python 编写的自动漫画下载器，支持 CBR、CBZ 格式，可使用 NZB 和 Torrent。除直接下载（DDL）外，它还支持 SABnzbd、NZBGET 和多种 Torrent 客户端。
+    zh_TW: Mylar3 是用 Python 編寫的自動漫畫下載器，支援 CBR、CBZ 格式，可使用 NZB 和 Torrent。除直接下載（DDL）外，它還支援 SABnzbd、NZBGET 和多種 Torrent 客戶端。
   tagline:
     en_US: An automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.
+    ca_ES: Un descarregador automatitzat de còmics (cbr/cbz) per utilitzar amb NZB i torrents escrits en Python. Admet SABnzbd, NZBGET i molts clients torrent a més de DDL.
+    cs_CZ: Automatizovaný stahovač komiksů (cbr/cbz) pro použití s NZB a torrenty napsanými v Pythonu. Kromě DDL podporuje i SABnzbd, NZBGET a mnoho dalších torrentových klientů.
+    da_DK: En automatiseret tegneseriedownloader (cbr/cbz) til brug med NZB og torrents skrevet i Python. Den understøtter SABnzbd, NZBGET og mange torrentklienter udover DDL.
+    de_DE: Ein automatisierter Comic-Downloader (cbr/cbz) zur Verwendung mit NZB und Torrents, geschrieben in Python. Er unterstützt neben DDL auch SABnzbd, NZBGET und viele weitere Torrent-Clients.
+    el_GR: Ένα αυτοματοποιημένο πρόγραμμα λήψης κόμικς (cbr/cbz) για χρήση με NZB και torrents γραμμένα σε python. Υποστηρίζει SABnzbd, NZBGET και πολλά προγράμματα-πελάτες torrent εκτός από το DDL.
+    en_GB: An automated Comic Book downloader (cbr/cbz) for use with Nzb and torrents written in python. It supports Sabnzbd, Nzbget, and many torrent clients in addition to Ddl.
+    es_ES: Un descargador automático de cómics (cbr/cbz) para usar con NZB y torrents, escrito en Python. Es compatible con SABnzbd, NZBGET y muchos clientes de torrents, además de DDL.
+    fr_FR: Téléchargeur automatique de bandes dessinées (CBR/CBZ) compatible avec les formats NZB et les torrents, écrit en Python. Il prend en charge SABnzbd, NZBGET et de nombreux clients torrent, en plus du téléchargement direct (DDL).
+    ga_IE: Íoslódálaí uathoibrithe Leabhar Grinn (cbr/cbz) le húsáid le NZB agus torrentanna scríofa i python. Tacaíonn sé le SABnzbd, NZBGET, agus go leor cliant torrent chomh maith le DDL.
+    hr_HR: Automatizirani program za preuzimanje stripova (cbr/cbz) za korištenje s NZB-om i torrentima napisanim u Pythonu. Podržava SABnzbd, NZBGET i mnoge torrent klijente uz DDL.
+    hu_HU: Egy automatizált képregény-letöltő (cbr/cbz) NZB-hez és Pythonban írt torrentekhez. Támogatja a SABnzbd-t, az NZBGET-et és számos torrentklienst a DDL mellett.
+    it_IT: Un programma automatico per il download di fumetti (in formato cbr/cbz) compatibile con NZB e torrent, scritto in Python. Supporta SABnzbd, NZBGET e numerosi client torrent, oltre a DDL.
+    ja_JP: Pythonで書かれた、NZBおよびトレントで使用できる自動コミックブックダウンローダー（cbr/cbz形式）。DDLに加え、SABnzbd、NZBGET、および多くのトレントクライアントをサポートしています。
+    ko_KR: 파이썬으로 작성된 NZB 및 토렌트용 만화책(cbr/cbz) 자동 다운로더입니다. SABnzbd, NZBGET 및 DDL 외에도 다양한 토렌트 클라이언트를 지원합니다.
+    ml_IN: NZB-യിലും പൈത്തണിൽ എഴുതിയ ടോറന്റുകളിലും ഉപയോഗിക്കുന്നതിനുള്ള ഒരു ഓട്ടോമേറ്റഡ് കോമിക് ബുക്ക് ഡൗൺലോഡർ (cbr/cbz). ഇത് DDL-ന് പുറമേ SABnzbd, NZBGET, നിരവധി ടോറന്റ് ക്ലയന്റുകളെ പിന്തുണയ്ക്കുന്നു.
+    nb_NO: En automatisert tegneserienedlaster (cbr/cbz) for bruk med NZB og torrenter skrevet i Python. Den støtter SABnzbd, NZBGET og mange torrentklienter i tillegg til DDL.
+    nl_NL: Een geautomatiseerd programma voor het downloaden van stripboeken (cbr/cbz) voor gebruik met NZB en torrents, geschreven in Python. Het ondersteunt SABnzbd, NZBGET en vele andere torrentclients, naast DDL.
+    pl_PL: Automatyczny program do pobierania komiksów (cbr/cbz) do użytku z NZB i torrentami napisanymi w Pythonie. Oprócz DDL obsługuje SABnzbd, NZBGET i wiele klientów torrentów.
+    pt_BR: Um programa automatizado para baixar histórias em quadrinhos (cbr/cbz) para uso com NZB e torrents, escrito em Python. Ele suporta SABnzbd, NZBGET e muitos outros clientes de torrent, além de download direto (DDL).
+    ro_RO: Un program automat de descărcare a benzilor desenate (cbr/cbz) pentru utilizare cu NZB și torrente scrise în Python. Acceptă SABnzbd, NZBGET și mulți clienți torrent pe lângă DDL.
+    ru_RU: Автоматизированная программа для загрузки комиксов (cbr/cbz) с использованием NZB-архивов и торрентов, написанная на Python. Поддерживает SABnzbd, NZBGET и множество торрент-клиентов, а также DDL.
+    sk_SK: Automatizovaný sťahovač komiksov (cbr/cbz) na použitie s NZB a torrentmi napísanými v jazyku Python. Okrem DDL podporuje aj SABnzbd, NZBGET a mnoho ďalších torrent klientov.
+    sv_SE: En automatiserad serietidningsnedladdare (cbr/cbz) för användning med NZB och torrenter skrivna i Python. Den stöder SABnzbd, NZBGET och många torrentklienter utöver DDL.
+    tr_TR: Python ile yazılmış, NZB ve torrentlerle kullanılmak üzere tasarlanmış otomatik bir çizgi roman indirme programı (cbr/cbz). DDL'ye ek olarak SABnzbd, NZBGET ve birçok torrent istemcisini destekler.
     zh_CN: 通过 NZB、Torrent 和直链自动下载漫画。
+    zh_TW: 透過 NZB、Torrent 和直鏈自動下載漫畫。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png
   title:
     en_US: Mylar3 (LinuxServer.io)
+    ca_ES: Mylar3 (LinuxServer.io)
+    cs_CZ: Mylar3 (LinuxServer.io)
+    da_DK: Mylar3 (LinuxServer.io)
+    de_DE: Mylar3 (LinuxServer.io)
+    el_GR: Mylar3 (LinuxServer.io)
+    en_GB: Mylar3 (LinuxServer.io)
+    es_ES: Mylar3 (LinuxServer.io)
+    fr_FR: Mylar3 (LinuxServer.io)
+    ga_IE: Mylar3 (LinuxServer.io)
+    hr_HR: Mylar3 (LinuxServer.io)
+    hu_HU: Mylar3 (LinuxServer.io)
+    it_IT: Mylar3 (LinuxServer.io)
+    ja_JP: Mylar3 (LinuxServer.io)
+    ko_KR: Mylar3 (LinuxServer.io)
+    ml_IN: Mylar3 (LinuxServer.io)
+    nb_NO: Mylar3 (LinuxServer.io)
+    nl_NL: Mylar3 (LinuxServer.io)
+    pl_PL: Mylar3 (LinuxServer.io)
+    pt_BR: Mylar3 (LinuxServer.io)
+    ro_RO: Mylar3 (LinuxServer.io)
+    ru_RU: Mylar3 (LinuxServer.io)
+    sk_SK: Mylar3 (LinuxServer.io)
+    sv_SE: Mylar3 (LinuxServer.io)
+    tr_TR: Mylar3 (LinuxServer.io)
     zh_CN: Mylar3（LinuxServer.io）
+    zh_TW: Mylar3（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermylar3
   port_map: '8090'

@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: DOSBox Staging is a modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.
+    ca_ES: DOSBox Staging és una continuació moderna de DOSBox, un emulador gratuït i de codi obert que permet l'execució de programari MS-DOS, especialment videojocs.
+    cs_CZ: DOSBox Staging je moderní pokračování DOSBoxu, bezplatného emulátoru s otevřeným zdrojovým kódem, který umožňuje spouštění softwaru pro MS-DOS, zejména videoher.
+    da_DK: DOSBox Staging er en moderne fortsættelse af DOSBox, en gratis og open source-emulator, der muliggør udførelse af MS-DOS-software, især videospil.
+    de_DE: DOSBox Staging ist eine moderne Weiterentwicklung von DOSBox, einem freien und quelloffenen Emulator, der die Ausführung von MS-DOS-Software, insbesondere Videospielen, ermöglicht.
+    el_GR: Το DOSBox Staging είναι μια σύγχρονη συνέχεια του DOSBox, ενός δωρεάν και ανοιχτού κώδικα εξομοιωτή που επιτρέπει την εκτέλεση λογισμικού MS-DOS, ειδικά βιντεοπαιχνιδιών.
+    en_GB: Dosbox Staging is a modern continuation of Dosbox a free and open-source emulator that enables the execution of Ms-Dos software, especially video games.
+    es_ES: DOSBox Staging es una continuación moderna de DOSBox, un emulador gratuito y de código abierto que permite la ejecución de software MS-DOS, especialmente videojuegos.
+    fr_FR: DOSBox Staging est une version moderne de DOSBox, un émulateur libre et open source permettant l'exécution de logiciels MS-DOS, notamment de jeux vidéo.
+    ga_IE: Is leanúint nua-aimseartha de DOSBox é DOSBox Staging, aithriseoir foinse oscailte agus saor in aisce a chuireann ar chumas bogearraí MS-DOS, go háirithe cluichí físeáin, a fhorghníomhú.
+    hr_HR: DOSBox Staging je moderni nastavak DOSBoxa, besplatnog emulatora otvorenog koda koji omogućuje izvršavanje MS-DOS softvera, posebno videoigara.
+    hu_HU: A DOSBox Staging a DOSBox modern folytatása, egy ingyenes és nyílt forráskódú emulátor, amely lehetővé teszi az MS-DOS szoftverek, különösen a videojátékok futtatását.
+    it_IT: DOSBox Staging è la moderna evoluzione di DOSBox, un emulatore libero e open-source che consente l'esecuzione di software MS-DOS, in particolare videogiochi.
+    ja_JP: DOSBox Stagingは、MS-DOSソフトウェア、特にビデオゲームの実行を可能にする、無料のオープンソースエミュレータであるDOSBoxの現代版です。
+    ko_KR: DOSBox Staging은 MS-DOS 소프트웨어, 특히 비디오 게임을 실행할 수 있게 해주는 무료 오픈 소스 에뮬레이터인 DOSBox의 현대적인 후속 버전입니다.
+    ml_IN: എംഎസ്-ഡോസ് സോഫ്റ്റ്‌വെയറിന്റെ, പ്രത്യേകിച്ച് വീഡിയോ ഗെയിമുകളുടെ എക്സിക്യൂഷൻ പ്രാപ്തമാക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് എമുലേറ്ററുമായ ഡോസ്ബോക്‌സിന്റെ ആധുനിക തുടർച്ചയാണ് ഡോസ്ബോക്‌സ് സ്റ്റേജിംഗ്.
+    nb_NO: DOSBox Staging er en moderne fortsettelse av DOSBox, en gratis emulator med åpen kildekode som muliggjør kjøring av MS-DOS-programvare, spesielt videospill.
+    nl_NL: DOSBox Staging is een moderne voortzetting van DOSBox, een gratis en open-source emulator waarmee MS-DOS-software, met name videogames, kan worden uitgevoerd.
+    pl_PL: DOSBox Staging jest nowoczesną kontynuacją DOSBox, darmowego i otwartego emulatora, który umożliwia uruchamianie oprogramowania MS-DOS, w szczególności gier wideo.
+    pt_BR: O DOSBox Staging é uma continuação moderna do DOSBox, um emulador gratuito e de código aberto que permite a execução de software MS-DOS, especialmente jogos de vídeo.
+    ro_RO: DOSBox Staging este o continuare modernă a DOSBox, un emulator gratuit și open-source care permite executarea de software MS-DOS, în special jocuri video.
+    ru_RU: DOSBox Staging — это современное продолжение DOSBox, бесплатного эмулятора с открытым исходным кодом, позволяющего запускать программное обеспечение MS-DOS, особенно видеоигры.
+    sk_SK: DOSBox Staging je moderné pokračovanie DOSBoxu, bezplatného emulátora s otvoreným zdrojovým kódom, ktorý umožňuje spúšťanie softvéru pre MS-DOS, najmä videohier.
+    sv_SE: DOSBox Staging är en modern fortsättning på DOSBox, en gratis emulator med öppen källkod som möjliggör körning av MS-DOS-programvara, särskilt videospel.
+    tr_TR: DOSBox Staging, özellikle video oyunları olmak üzere MS-DOS yazılımlarının çalıştırılmasını sağlayan ücretsiz ve açık kaynaklı bir emülatör olan DOSBox'ın modern bir devamıdır.
     zh_CN: DOSBox Staging 是 DOSBox 的现代延续版本。DOSBox 是免费的开源模拟器，可运行 MS-DOS 软件，尤其适用于电子游戏。
+    zh_TW: DOSBox Staging 是 DOSBox 的現代延續版本。DOSBox 是免費的開源模擬器，可執行 MS-DOS 軟體，尤其適用於電子遊戲。
   tagline:
     en_US: A modern continuation of DOSBox a free and open-source emulator that enables the execution of MS-DOS software, especially video games.
+    ca_ES: Una continuació moderna de DOSBox, un emulador gratuït i de codi obert que permet l'execució de programari MS-DOS, especialment videojocs.
+    cs_CZ: Moderní pokračování DOSBoxu, bezplatného emulátoru s otevřeným zdrojovým kódem, který umožňuje spouštění softwaru pro MS-DOS, zejména videoher.
+    da_DK: En moderne fortsættelse af DOSBox, en gratis og open source-emulator, der muliggør udførelse af MS-DOS-software, især videospil.
+    de_DE: Eine moderne Weiterentwicklung von DOSBox, einem freien und quelloffenen Emulator, der die Ausführung von MS-DOS-Software, insbesondere Videospielen, ermöglicht.
+    el_GR: Μια σύγχρονη συνέχεια του DOSBox, ενός δωρεάν και ανοιχτού κώδικα εξομοιωτή που επιτρέπει την εκτέλεση λογισμικού MS-DOS, ειδικά βιντεοπαιχνιδιών.
+    en_GB: A modern continuation of Dosbox a free and open-source emulator that enables the execution of Ms-Dos software, especially video games.
+    es_ES: Una continuación moderna de DOSBox, un emulador gratuito y de código abierto que permite la ejecución de software MS-DOS, especialmente videojuegos.
+    fr_FR: Une suite moderne de DOSBox, un émulateur libre et open source permettant l'exécution de logiciels MS-DOS, notamment de jeux vidéo.
+    ga_IE: Leanúnachas nua-aimseartha ar DOSBox, aithriseoir foinse oscailte agus saor in aisce a chuireann ar chumas bogearraí MS-DOS a fhorghníomhú, go háirithe cluichí físeáin.
+    hr_HR: Moderni nastavak DOSBoxa, besplatnog emulatora otvorenog koda koji omogućuje izvršavanje MS-DOS softvera, posebno videoigara.
+    hu_HU: A DOSBox modern folytatása, egy ingyenes és nyílt forráskódú emulátor, amely lehetővé teszi az MS-DOS szoftverek, különösen a videojátékok futtatását.
+    it_IT: Una versione moderna di DOSBox, un emulatore libero e open-source che permette l'esecuzione di software MS-DOS, in particolare videogiochi.
+    ja_JP: DOSBoxの現代版であり、MS-DOSソフトウェア、特にビデオゲームの実行を可能にする、無料のオープンソースエミュレーターです。
+    ko_KR: MS-DOS 소프트웨어, 특히 비디오 게임을 실행할 수 있게 해주는 무료 오픈 소스 에뮬레이터인 DOSBox의 현대적인 후속 버전입니다.
+    ml_IN: എം.എസ്-ഡോസ് സോഫ്റ്റ്‌വെയറിന്റെ, പ്രത്യേകിച്ച് വീഡിയോ ഗെയിമുകളുടെ, നിർവ്വഹണം സാധ്യമാക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് എമുലേറ്ററുമായ ഡോസ്ബോക്‌സിന്റെ ഒരു ആധുനിക തുടർച്ച.
+    nb_NO: En moderne fortsettelse av DOSBox, en gratis og åpen kildekode-emulator som muliggjør kjøring av MS-DOS-programvare, spesielt videospill.
+    nl_NL: Een moderne voortzetting van DOSBox, een gratis en open-source emulator waarmee MS-DOS-software, met name videogames, kan worden uitgevoerd.
+    pl_PL: Nowoczesna kontynuacja DOSBox, darmowego i otwartego emulatora, który umożliwia uruchamianie oprogramowania MS-DOS, w szczególności gier wideo.
+    pt_BR: Uma continuação moderna do DOSBox, um emulador gratuito e de código aberto que permite a execução de software MS-DOS, especialmente jogos de vídeo.
+    ro_RO: O continuare modernă a DOSBox, un emulator gratuit și open-source care permite executarea de software MS-DOS, în special jocuri video.
+    ru_RU: Современное продолжение DOSBox — бесплатного эмулятора с открытым исходным кодом, позволяющего запускать программное обеспечение MS-DOS, особенно видеоигры.
+    sk_SK: Moderné pokračovanie DOSBoxu, bezplatného emulátora s otvoreným zdrojovým kódom, ktorý umožňuje spúšťanie softvéru pre MS-DOS, najmä videohier.
+    sv_SE: En modern fortsättning på DOSBox, en gratis emulator med öppen källkod som möjliggör körning av MS-DOS-programvara, särskilt videospel.
+    tr_TR: MS-DOS yazılımlarının, özellikle de video oyunlarının çalıştırılmasını sağlayan ücretsiz ve açık kaynaklı bir emülatör olan DOSBox'ın modern bir devamı.
     zh_CN: 运行 MS-DOS 软件和游戏的开源模拟器。
+    zh_TW: 執行 MS-DOS 軟體和遊戲的開源模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dosbox-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dosbox-logo.png
   title:
     en_US: Dosbox staging (LinuxServer.io)
+    ca_ES: Dosbox staging (LinuxServer.io)
+    cs_CZ: Dosbox staging (LinuxServer.io)
+    da_DK: Dosbox staging (LinuxServer.io)
+    de_DE: Dosbox staging (LinuxServer.io)
+    el_GR: Dosbox staging (LinuxServer.io)
+    en_GB: Dosbox staging (LinuxServer.io)
+    es_ES: Dosbox staging (LinuxServer.io)
+    fr_FR: Dosbox staging (LinuxServer.io)
+    ga_IE: Dosbox staging (LinuxServer.io)
+    hr_HR: Dosbox staging (LinuxServer.io)
+    hu_HU: Dosbox staging (LinuxServer.io)
+    it_IT: Dosbox staging (LinuxServer.io)
+    ja_JP: Dosbox staging (LinuxServer.io)
+    ko_KR: Dosbox staging (LinuxServer.io)
+    ml_IN: Dosbox staging (LinuxServer.io)
+    nb_NO: Dosbox staging (LinuxServer.io)
+    nl_NL: Dosbox staging (LinuxServer.io)
+    pl_PL: Dosbox staging (LinuxServer.io)
+    pt_BR: Dosbox staging (LinuxServer.io)
+    ro_RO: Dosbox staging (LinuxServer.io)
+    ru_RU: Dosbox staging (LinuxServer.io)
+    sk_SK: Dosbox staging (LinuxServer.io)
+    sv_SE: Dosbox staging (LinuxServer.io)
+    tr_TR: Dosbox staging (LinuxServer.io)
     zh_CN: Dosbox staging（LinuxServer.io）
+    zh_TW: Dosbox staging（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdosboxstaging
   port_map: '3000'

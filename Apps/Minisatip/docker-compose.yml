@@ -1,7 +1,7 @@
 name: linuxserver-minisatip
 services:
   app:
-    image: linuxserver/minisatip:2.0.103
+    image: linuxserver/minisatip:2.0.105
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -43,17 +43,92 @@ x-casaos:
   main: app
   description:
     en_US: Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
+    ca_ES: Minisatip és un servidor satip multifil versió 1.2 que funciona sota Linux i s'ha provat amb targetes DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC i ISDB-T.
+    cs_CZ: Minisatip je vícevláknový server Satip verze 1.2, který běží pod Linuxem a byl testován s kartami DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC a ISDB-T.
+    da_DK: Minisatip er en multi-threaded satip-server version 1.2, der kører under Linux, og den er blevet testet med DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC og ISDB-T kort.
+    de_DE: Minisatip ist ein Multithread-SATIP-Server Version 1.2, der unter Linux läuft und mit DVB-S-, DVB-S2-, DVB-T-, DVB-T2-, DVB-C-, DVB-C2-, ATSC- und ISDB-T-Karten getestet wurde.
+    el_GR: Το Minisatip είναι ένας πολυνηματικός διακομιστής satip έκδοση 1.2 που λειτουργεί σε Linux και δοκιμάστηκε με κάρτες DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC και ISDB-T.
+    en_GB: Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with Dvb-S, Dvb-S2, Dvb-T, Dvb-T2, Dvb-C, Dvb-C2, Atsc and Isdb-T cards.
+    es_ES: Minisatip es un servidor satip multihilo versión 1.2 que se ejecuta en Linux y fue probado con tarjetas DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC e ISDB-T.
+    fr_FR: Minisatip est un serveur satip multithread version 1.2 qui fonctionne sous Linux et a été testé avec des cartes DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC et ISDB-T.
+    ga_IE: Is freastalaí satip il-shnáithe leagan 1.2 é Minisatip a ritheann faoi Linux agus rinneadh tástáil air le cártaí DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC agus ISDB-T.
+    hr_HR: Minisatip je višenitni satip poslužitelj verzije 1.2 koji radi pod Linuxom i testiran je s DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC i ISDB-T karticama.
+    hu_HU: A Minisatip egy többszálú satip szerver 1.2-es verziója, amely Linux alatt fut, és DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC és ISDB-T kártyákkal tesztelték.
+    it_IT: Minisatip è un server satip multi-thread versione 1.2 che funziona su Linux ed è stato testato con schede DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC e ISDB-T.
+    ja_JP: Minisatipは、Linux上で動作するマルチスレッド対応のsatipサーバーバージョン1.2で、DVB-S、DVB-S2、DVB-T、DVB-T2、DVB-C、DVB-C2、ATSC、ISDB-Tカードでテスト済みです。
+    ko_KR: Minisatip은 Linux에서 실행되는 멀티스레드 방식의 위성방송(satip) 서버 버전 1.2이며, DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC 및 ISDB-T 카드와 함께 테스트되었습니다.
+    ml_IN: ലിനക്സിൽ പ്രവർത്തിക്കുന്ന ഒരു മൾട്ടി-ത്രെഡഡ് സാറ്റിപ്പ് സെർവർ പതിപ്പ് 1.2 ആണ് മിനിസാറ്റിപ്പ്, ഇത് DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC, ISDB-T കാർഡുകൾ ഉപയോഗിച്ച് പരീക്ഷിച്ചു.
+    nb_NO: Minisatip er en flertrådet satip-server versjon 1.2 som kjører under Linux, og den ble testet med DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC og ISDB-T-kort.
+    nl_NL: Minisatip is een multithreaded SATIP-server versie 1.2 die onder Linux draait en is getest met DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC en ISDB-T kaarten.
+    pl_PL: Minisatip to wielowątkowy serwer satip w wersji 1.2, który działa w systemie Linux i był testowany z kartami DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC i ISDB-T.
+    pt_BR: Minisatip é um servidor satip multithread versão 1.2 que roda em Linux e foi testado com placas DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC e ISDB-T.
+    ro_RO: Minisatip este un server satip multi-threaded versiunea 1.2 care rulează sub Linux și a fost testat cu plăci DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC și ISDB-T.
+    ru_RU: Minisatip — это многопоточный сервер SatiPatip версии 1.2, работающий под управлением Linux. Он был протестирован с картами DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC и ISDB-T.
+    sk_SK: Minisatip je viacvláknový server Satip verzie 1.2, ktorý beží pod Linuxom a bol testovaný s kartami DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC a ISDB-T.
+    sv_SE: Minisatip är en flertrådad satip-server version 1.2 som körs under Linux och den testades med DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC och ISDB-T-kort.
+    tr_TR: Minisatip, Linux altında çalışan ve DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC ve ISDB-T kartlarıyla test edilmiş, çoklu iş parçacıklı bir satip sunucu sürümü 1.2'dir.
     zh_CN: Minisatip 是在 Linux 上运行的多线程 SAT>IP 1.2 服务器，已使用 DVB-S、DVB-S2、DVB-T、DVB-T2、DVB-C、DVB-C2、ATSC 和 ISDB-T 接收卡进行测试。
+    zh_TW: Minisatip 是在 Linux 上執行的多執行緒 SAT>IP 1.2 伺服器，已使用 DVB-S、DVB-S2、DVB-T、DVB-T2、DVB-C、DVB-C2、ATSC 和 ISDB-T 接收卡進行測試。
   tagline:
     en_US: A multi-threaded satip server version 1. 2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
+    ca_ES: Un servidor satip multifil versió 1.2 que funciona amb Linux i que s'ha provat amb targetes DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC i ISDB-T.
+    cs_CZ: Vícevláknový server Satip verze 1.2, který běží pod Linuxem a byl testován s kartami DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC a ISDB-T.
+    da_DK: En multi-threaded satip-server version 1.2, der kører under Linux, og som er testet med DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC og ISDB-T kort.
+    de_DE: Ein Multithread-SATIP-Server Version 1.2, der unter Linux läuft und mit DVB-S-, DVB-S2-, DVB-T-, DVB-T2-, DVB-C-, DVB-C2-, ATSC- und ISDB-T-Karten getestet wurde.
+    el_GR: Ένας πολυνηματικός διακομιστής satip έκδοση 1.2 που εκτελείται σε Linux και δοκιμάστηκε με κάρτες DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC και ISDB-T.
+    en_GB: A multi-threaded satip server version 1. 2 that runs under Linux and it was tested with Dvb-S, Dvb-S2, Dvb-T, Dvb-T2, Dvb-C, Dvb-C2, Atsc and Isdb-T cards.
+    es_ES: Servidor satip multihilo versión 1.2 que se ejecuta en Linux y fue probado con tarjetas DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC e ISDB-T.
+    fr_FR: Un serveur satip multithread version 1.2 fonctionnant sous Linux et testé avec des cartes DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC et ISDB-T.
+    ga_IE: Freastalaí satip il-shnáithithe leagan 1.2 a ritheann faoi Linux agus a tástáladh le cártaí DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC agus ISDB-T.
+    hr_HR: Višenitni Satip poslužitelj verzije 1.2 koji radi pod Linuxom i testiran je s DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC i ISDB-T karticama.
+    hu_HU: Egy többszálú satip szerver 1.2-es verziója, amely Linux alatt fut, és DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC és ISDB-T kártyákkal tesztelték.
+    it_IT: Una versione 1.2 del server satip multi-thread che funziona su Linux ed è stata testata con schede DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC e ISDB-T.
+    ja_JP: Linux上で動作するマルチスレッド対応のsatipサーバーバージョン1.2。DVB-S、DVB-S2、DVB-T、DVB-T2、DVB-C、DVB-C2、ATSC、ISDB-Tカードでテスト済み。
+    ko_KR: Linux 운영 체제에서 실행되는 멀티스레드 방식의 위성방송(satip) 서버 버전 1.2이며, DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC 및 ISDB-T 카드와 함께 테스트되었습니다.
+    ml_IN: ലിനക്സിന് കീഴിൽ പ്രവർത്തിക്കുന്ന ഒരു മൾട്ടി-ത്രെഡഡ് സാറ്റിപ്പ് സെർവർ പതിപ്പ് 1. 2, ഇത് DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC, ISDB-T കാർഡുകൾ ഉപയോഗിച്ച് പരീക്ഷിച്ചു.
+    nb_NO: En flertrådet satip-server versjon 1.2 som kjører under Linux og ble testet med DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC og ISDB-T-kort.
+    nl_NL: Een multithreaded SATIP-server versie 1.2 die draait onder Linux en is getest met DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC en ISDB-T-kaarten.
+    pl_PL: Wielowątkowy serwer satip w wersji 1.2 działający pod systemem Linux, testowany z kartami DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC i ISDB-T.
+    pt_BR: Servidor satip multithread versão 1.2 que roda em Linux e foi testado com placas DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC e ISDB-T.
+    ro_RO: Un server satip multi-threaded versiunea 1.2 care rulează sub Linux și a fost testat cu plăci DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC și ISDB-T.
+    ru_RU: Многопоточный сервер Satip версии 1.2, работающий под Linux, был протестирован с картами DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC и ISDB-T.
+    sk_SK: Viacvláknový server Satip verzie 1.2, ktorý beží na Linuxe a bol testovaný s kartami DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC a ISDB-T.
+    sv_SE: En flertrådad satip-server version 1.2 som körs under Linux och testades med DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC och ISDB-T-kort.
+    tr_TR: Linux altında çalışan ve DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC ve ISDB-T kartlarıyla test edilmiş, çoklu iş parçacıklı bir satip sunucu sürüm 1.2.
     zh_CN: 支持多种数字电视接收卡的 SAT>IP 服务器。
+    zh_TW: 支援多種數字電視接收卡的 SAT>IP 伺服器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png
   title:
     en_US: Minisatip (LinuxServer.io)
+    ca_ES: Minisatip (LinuxServer.io)
+    cs_CZ: Minisatip (LinuxServer.io)
+    da_DK: Minisatip (LinuxServer.io)
+    de_DE: Minisatip (LinuxServer.io)
+    el_GR: Minisatip (LinuxServer.io)
+    en_GB: Minisatip (LinuxServer.io)
+    es_ES: Minisatip (LinuxServer.io)
+    fr_FR: Minisatip (LinuxServer.io)
+    ga_IE: Minisatip (LinuxServer.io)
+    hr_HR: Minisatip (LinuxServer.io)
+    hu_HU: Minisatip (LinuxServer.io)
+    it_IT: Minisatip (LinuxServer.io)
+    ja_JP: Minisatip (LinuxServer.io)
+    ko_KR: Minisatip (LinuxServer.io)
+    ml_IN: Minisatip (LinuxServer.io)
+    nb_NO: Minisatip (LinuxServer.io)
+    nl_NL: Minisatip (LinuxServer.io)
+    pl_PL: Minisatip (LinuxServer.io)
+    pt_BR: Minisatip (LinuxServer.io)
+    ro_RO: Minisatip (LinuxServer.io)
+    ru_RU: Minisatip (LinuxServer.io)
+    sk_SK: Minisatip (LinuxServer.io)
+    sv_SE: Minisatip (LinuxServer.io)
+    tr_TR: Minisatip (LinuxServer.io)
     zh_CN: Minisatip（LinuxServer.io）
+    zh_TW: Minisatip（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverminisatip
-  version: 2.0.103
+  version: 2.0.105

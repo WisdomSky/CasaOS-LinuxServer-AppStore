@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Home Assistant Core - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server
+    ca_ES: 'Home Assistant Core: domòtica de codi obert que prioritza el control local i la privadesa. Impulsat per una comunitat mundial de maniobrers i entusiastes del bricolatge. Perfecte per executar-se en una Raspberry Pi o un servidor local.'
+    cs_CZ: Home Assistant Core – otevřený zdrojový kód pro domácí automatizaci, který klade důraz na lokální ovládání a soukromí. Poháněno celosvětovou komunitou kutilů a nadšenců pro kutily. Ideální pro provoz na Raspberry Pi nebo lokálním serveru.
+    da_DK: Home Assistant Core - Open source-hjemmeautomation, der sætter lokal kontrol og privatliv først. Drevet af et verdensomspændende fællesskab af gør-det-selv-entusiaster. Perfekt til at køre på en Raspberry Pi eller en lokal server.
+    de_DE: Home Assistant Core – Open-Source-Hausautomation, die lokale Kontrolle und Datenschutz in den Vordergrund stellt. Unterstützt von einer weltweiten Community aus Tüftlern und DIY-Begeisterten. Ideal für den Betrieb auf einem Raspberry Pi oder einem lokalen Server.
+    el_GR: Home Assistant Core - Αυτοματισμός σπιτιού ανοιχτού κώδικα που θέτει τον τοπικό έλεγχο και την ιδιωτικότητα πάνω απ' όλα. Υποστηρίζεται από μια παγκόσμια κοινότητα τεχνιτών και λάτρεις του DIY. Ιδανικό για εκτέλεση σε Raspberry Pi ή σε τοπικό διακομιστή.
+    en_GB: Home Assistant Core - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and Diy enthusiasts. Perfect to run on a Raspberry Pi or a local server
+    es_ES: 'Home Assistant Core: automatización del hogar de código abierto que prioriza el control local y la privacidad. Impulsado por una comunidad mundial de aficionados a la tecnología y entusiastas del bricolaje. Ideal para ejecutar en una Raspberry Pi o un servidor local.'
+    fr_FR: Home Assistant Core – Un système domotique open source qui privilégie le contrôle local et la confidentialité. Propulsé par une communauté mondiale de bricoleurs et de passionnés de DIY. Idéal pour une utilisation sur Raspberry Pi ou un serveur local.
+    ga_IE: Croílár Cúntóra Baile - Uathoibriú baile foinse oscailte a chuireann rialú áitiúil agus príobháideacht chun tosaigh. Cumhachtaithe ag pobal domhanda de lucht déanta rudaí beaga agus díograiseoirí DIY. Foirfe le rith ar Raspberry Pi nó ar fhreastalaí áitiúil.
+    hr_HR: Home Assistant Core - Automatizacija doma otvorenog koda koja lokalnu kontrolu i privatnost stavlja na prvo mjesto. Pokreće je svjetska zajednica majstora i entuzijasta "uradi sam". Savršeno za rad na Raspberry Piju ili lokalnom poslužitelju.
+    hu_HU: Home Assistant Core - Nyílt forráskódú otthonautomatizálási rendszer, amely a helyi vezérlést és az adatvédelmet helyezi előtérbe. Világszerte működő barkácsolók és barkácsolók közössége működteti. Tökéletes Raspberry Pi-n vagy helyi szerveren való futtatáshoz.
+    it_IT: Home Assistant Core - Automazione domestica open source che privilegia il controllo locale e la privacy. Supportato da una comunità mondiale di appassionati di fai-da-te. Perfetto per essere eseguito su un Raspberry Pi o un server locale.
+    ja_JP: Home Assistant Core - ローカル制御とプライバシーを最優先するオープンソースのホームオートメーション。世界中の発明家やDIY愛好家のコミュニティによって支えられています。Raspberry Piやローカルサーバーでの実行に最適です。
+    ko_KR: Home Assistant Core - 로컬 제어와 개인 정보 보호를 최우선으로 하는 오픈 소스 홈 자동화 시스템입니다. 전 세계의 DIY 애호가 커뮤니티의 지원을 받아 개발되었으며, Raspberry Pi 또는 로컬 서버에서 실행하기에 적합합니다.
+    ml_IN: ഹോം അസിസ്റ്റന്റ് കോർ - പ്രാദേശിക നിയന്ത്രണത്തിനും സ്വകാര്യതയ്ക്കും മുൻഗണന നൽകുന്ന ഓപ്പൺ സോഴ്‌സ് ഹോം ഓട്ടോമേഷൻ. ടിങ്കറർമാരുടെയും DIY പ്രേമികളുടെയും ലോകമെമ്പാടുമുള്ള ഒരു കമ്മ്യൂണിറ്റിയാണ് ഇത് നൽകുന്നത്. ഒരു റാസ്പ്ബെറി പൈയിലോ ഒരു ലോക്കൽ സെർവറിലോ പ്രവർത്തിക്കാൻ അനുയോജ്യം.
+    nb_NO: Home Assistant Core – Åpen kildekode for hjemmeautomatisering som setter lokal kontroll og personvern først. Drevet av et verdensomspennende fellesskap av mekkere og gjør-det-selv-entusiaster. Perfekt for å kjøre på en Raspberry Pi eller en lokal server.
+    nl_NL: Home Assistant Core - Open source domotica die lokale controle en privacy vooropstelt. Ontwikkeld door een wereldwijde community van knutselaars en doe-het-zelvers. Perfect te gebruiken op een Raspberry Pi of een lokale server.
+    pl_PL: Home Assistant Core – automatyka domowa o otwartym kodzie źródłowym, która stawia na pierwszym miejscu sterowanie lokalne i prywatność. Wspierana przez globalną społeczność majsterkowiczów i entuzjastów majsterkowania. Idealna do uruchomienia na Raspberry Pi lub serwerze lokalnym.
+    pt_BR: Home Assistant Core - Automação residencial de código aberto que prioriza o controle local e a privacidade. Desenvolvido por uma comunidade mundial de entusiastas e criadores de projetos "faça você mesmo". Perfeito para rodar em um Raspberry Pi ou servidor local.
+    ro_RO: Home Assistant Core - Automatizare open source pentru locuințe care pune controlul local și confidențialitatea pe primul loc. Susținut de o comunitate mondială de pasionați de bricolaj și bricolaj. Perfect pentru a rula pe un Raspberry Pi sau pe un server local.
+    ru_RU: Home Assistant Core — это программное обеспечение для автоматизации дома с открытым исходным кодом, которое ставит во главу угла локальное управление и конфиденциальность. Его разработка основана на всемирном сообществе энтузиастов и любителей самодельных решений. Идеально подходит для работы на Raspberry Pi или локальном сервере.
+    sk_SK: Home Assistant Core – Domáca automatizácia s otvoreným zdrojovým kódom, ktorá kladie dôraz na lokálne ovládanie a súkromie. Poháňaná celosvetovou komunitou kutilov a nadšencov pre domácich majstrov. Ideálna na spustenie na Raspberry Pi alebo lokálnom serveri.
+    sv_SE: Home Assistant Core - Hemautomation med öppen källkod som prioriterar lokal kontroll och integritet. Drivs av en världsomspännande community av pysslare och gör-det-själv-entusiaster. Perfekt att köra på en Raspberry Pi eller en lokal server.
+    tr_TR: Home Assistant Core - Yerel kontrolü ve gizliliği ön planda tutan açık kaynaklı ev otomasyonu. Dünya çapındaki bir mucitler ve kendin yap meraklıları topluluğu tarafından desteklenmektedir. Raspberry Pi veya yerel bir sunucuda çalıştırmak için mükemmeldir.
     zh_CN: Home Assistant Core 是将本地控制和隐私放在首位的开源家庭自动化平台，由全球创客和 DIY 爱好者社区推动，适合在树莓派或本地服务器上运行。
+    zh_TW: Home Assistant Core 是將本地控制和隱私放在首位的開源家庭自動化平臺，由全球創客和 DIY 愛好者社群推動，適合在樹莓派或本地伺服器上執行。
   tagline:
     en_US: Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server
+    ca_ES: Domòtica de codi obert que prioritza el control local i la privadesa. Impulsada per una comunitat mundial de maniobrers i entusiastes del bricolatge. Perfecta per executar-se en una Raspberry Pi o un servidor local.
+    cs_CZ: Domácí automatizace s otevřeným zdrojovým kódem, která klade důraz na lokální ovládání a soukromí. Poháněno celosvětovou komunitou kutilů a nadšenců pro kutily. Ideální pro provoz na Raspberry Pi nebo lokálním serveru.
+    da_DK: Open source-hjemmeautomation, der sætter lokal kontrol og privatliv i højsædet. Drevet af et verdensomspændende fællesskab af gør-det-selv-entusiaster. Perfekt til at køre på en Raspberry Pi eller en lokal server.
+    de_DE: Open-Source-Hausautomation, die lokale Kontrolle und Datenschutz in den Vordergrund stellt. Unterstützt von einer weltweiten Community aus Tüftlern und DIY-Begeisterten. Ideal für den Betrieb auf einem Raspberry Pi oder einem lokalen Server.
+    el_GR: Αυτοματισμός σπιτιού ανοιχτού κώδικα που θέτει τον τοπικό έλεγχο και την ιδιωτικότητα πάνω απ' όλα. Υποστηρίζεται από μια παγκόσμια κοινότητα τεχνιτών και λάτρεις του DIY. Ιδανικό για εκτέλεση σε Raspberry Pi ή σε τοπικό διακομιστή.
+    en_GB: Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and Diy enthusiasts. Perfect to run on a Raspberry Pi or a local server
+    es_ES: Automatización del hogar de código abierto que prioriza el control local y la privacidad. Impulsada por una comunidad mundial de aficionados a la tecnología y entusiastas del bricolaje. Perfecta para ejecutarse en una Raspberry Pi o un servidor local.
+    fr_FR: Système domotique open source privilégiant le contrôle local et la confidentialité. Propulsé par une communauté mondiale de bricoleurs et de passionnés du DIY. Idéal pour une utilisation sur Raspberry Pi ou serveur local.
+    ga_IE: Uathoibriú baile foinse oscailte a chuireann rialú áitiúil agus príobháideacht chun tosaigh. Cumhachtaithe ag pobal domhanda de lucht déanta rudaí beaga agus díograiseoirí DIY. Foirfe le rith ar Raspberry Pi nó ar fhreastalaí áitiúil.
+    hr_HR: Kućna automatizacija otvorenog koda koja lokalnu kontrolu i privatnost stavlja na prvo mjesto. Pokreće je svjetska zajednica majstora i entuzijasta "uradi sam". Savršeno za rad na Raspberry Piju ili lokalnom poslužitelju.
+    hu_HU: Nyílt forráskódú otthonautomatizálási rendszer, amely a helyi vezérlést és az adatvédelmet helyezi előtérbe. Világszerte működő barkácsolók és barkácsolók közössége működteti. Tökéletes Raspberry Pi-n vagy helyi szerveren való futtatáshoz.
+    it_IT: Automazione domestica open source che privilegia il controllo locale e la privacy. Alimentata da una comunità mondiale di appassionati di fai-da-te e di tecnologia. Perfetta per essere eseguita su un Raspberry Pi o un server locale.
+    ja_JP: ローカル制御とプライバシーを最優先に考えたオープンソースのホームオートメーション。世界中の発明家やDIY愛好家のコミュニティによって支えられています。Raspberry Piやローカルサーバーでの動作に最適です。
+    ko_KR: 로컬 제어와 개인 정보 보호를 최우선으로 하는 오픈 소스 홈 자동화 시스템입니다. 전 세계 DIY 애호가 커뮤니티의 힘으로 구동되며, 라즈베리 파이나 로컬 서버에서 실행하기에 적합합니다.
+    ml_IN: പ്രാദേശിക നിയന്ത്രണത്തിനും സ്വകാര്യതയ്ക്കും പ്രഥമസ്ഥാനം നൽകുന്ന ഓപ്പൺ സോഴ്‌സ് ഹോം ഓട്ടോമേഷൻ. ടിങ്കറർമാരുടെയും DIY പ്രേമികളുടെയും ലോകമെമ്പാടുമുള്ള ഒരു കമ്മ്യൂണിറ്റിയാണ് ഇത് നൽകുന്നത്. ഒരു റാസ്‌ബെറി പൈയിലോ ഒരു ലോക്കൽ സെർവറിലോ പ്രവർത്തിക്കാൻ അനുയോജ്യം.
+    nb_NO: Åpen kildekode for hjemmeautomatisering som setter lokal kontroll og personvern først. Drevet av et verdensomspennende fellesskap av mekkere og gjør-det-selv-entusiaster. Perfekt for å kjøre på en Raspberry Pi eller en lokal server.
+    nl_NL: Open source domotica die lokale controle en privacy vooropstelt. Ontwikkeld door een wereldwijde community van knutselaars en doe-het-zelf-enthousiasten. Perfect te gebruiken op een Raspberry Pi of een lokale server.
+    pl_PL: Automatyka domowa open source, która stawia na pierwszym miejscu sterowanie lokalne i prywatność. Wspierana przez globalną społeczność majsterkowiczów i entuzjastów majsterkowania. Idealna do uruchomienia na Raspberry Pi lub serwerze lokalnym.
+    pt_BR: Automação residencial de código aberto que prioriza o controle local e a privacidade. Impulsionada por uma comunidade mundial de entusiastas e criadores de projetos "faça você mesmo". Perfeita para rodar em um Raspberry Pi ou um servidor local.
+    ro_RO: Automatizare open source pentru locuințe care pune controlul local și confidențialitatea pe primul loc. Susținută de o comunitate mondială de experimentați și pasionați de bricolaj. Perfectă pentru a rula pe un Raspberry Pi sau pe un server local.
+    ru_RU: Система домашней автоматизации с открытым исходным кодом, которая ставит во главу угла локальное управление и конфиденциальность. Создана благодаря всемирному сообществу энтузиастов-изобретателей и любителей самодельных решений. Идеально подходит для работы на Raspberry Pi или локальном сервере.
+    sk_SK: Domáca automatizácia s otvoreným zdrojovým kódom, ktorá kladie dôraz na lokálne ovládanie a súkromie. Poháňaná celosvetovou komunitou kutilov a nadšencov pre domácich majstrov. Ideálna na spustenie na Raspberry Pi alebo lokálnom serveri.
+    sv_SE: Öppen källkod för hemautomation som prioriterar lokal kontroll och integritet. Drivs av en världsomspännande community av pysslare och gör-det-själv-entusiaster. Perfekt att köra på en Raspberry Pi eller en lokal server.
+    tr_TR: Yerel kontrolü ve gizliliği ön planda tutan açık kaynaklı ev otomasyonu. Dünya çapındaki mucitler ve kendin yap meraklılarından oluşan bir topluluk tarafından desteklenmektedir. Raspberry Pi veya yerel bir sunucuda çalıştırmak için mükemmeldir.
     zh_CN: 以本地控制和隐私为核心的开源家庭自动化。
+    zh_TW: 以本地控制和隱私為核心的開源家庭自動化。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
   thumbnail: https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png
   title:
     en_US: Homeassistant (LinuxServer.io)
+    ca_ES: Homeassistant (LinuxServer.io)
+    cs_CZ: Homeassistant (LinuxServer.io)
+    da_DK: Homeassistant (LinuxServer.io)
+    de_DE: Homeassistant (LinuxServer.io)
+    el_GR: Homeassistant (LinuxServer.io)
+    en_GB: Homeassistant (LinuxServer.io)
+    es_ES: Homeassistant (LinuxServer.io)
+    fr_FR: Homeassistant (LinuxServer.io)
+    ga_IE: Homeassistant (LinuxServer.io)
+    hr_HR: Homeassistant (LinuxServer.io)
+    hu_HU: Homeassistant (LinuxServer.io)
+    it_IT: Homeassistant (LinuxServer.io)
+    ja_JP: Homeassistant (LinuxServer.io)
+    ko_KR: Homeassistant (LinuxServer.io)
+    ml_IN: Homeassistant (LinuxServer.io)
+    nb_NO: Homeassistant (LinuxServer.io)
+    nl_NL: Homeassistant (LinuxServer.io)
+    pl_PL: Homeassistant (LinuxServer.io)
+    pt_BR: Homeassistant (LinuxServer.io)
+    ro_RO: Homeassistant (LinuxServer.io)
+    ru_RU: Homeassistant (LinuxServer.io)
+    sk_SK: Homeassistant (LinuxServer.io)
+    sv_SE: Homeassistant (LinuxServer.io)
+    tr_TR: Homeassistant (LinuxServer.io)
     zh_CN: Homeassistant（LinuxServer.io）
+    zh_TW: Homeassistant（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhomeassistant
   port_map: '8123'

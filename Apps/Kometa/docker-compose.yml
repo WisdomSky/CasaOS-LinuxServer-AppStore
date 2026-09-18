@@ -53,17 +53,92 @@ x-casaos:
   main: app
   description:
     en_US: Kometa is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+    ca_ES: Kometa és una eina potent dissenyada per donar-vos un control complet sobre les vostres biblioteques multimèdia. Amb Kometa, podeu portar la vostra personalització al següent nivell, amb un control granular sobre metadades, col·leccions, superposicions i molt més.
+    cs_CZ: Kometa je výkonný nástroj navržený tak, aby vám poskytl úplnou kontrolu nad vašimi mediálními knihovnami. S Kometou můžete posunout své úpravy na další úroveň s detailní kontrolou nad metadaty, kolekcemi, překryvy a mnoha dalšími prvky.
+    da_DK: Kometa er et kraftfuldt værktøj designet til at give dig fuld kontrol over dine mediebiblioteker. Med Kometa kan du tage din tilpasning til det næste niveau med detaljeret kontrol over metadata, samlinger, overlays og meget mere.
+    de_DE: Kometa ist ein leistungsstarkes Tool, mit dem Sie Ihre Mediatheken vollständig verwalten können. Mit Kometa erreichen Sie eine neue Dimension der Individualisierung – dank detaillierter Kontrolle über Metadaten, Sammlungen, Overlays und vieles mehr.
+    el_GR: Το Kometa είναι ένα ισχυρό εργαλείο που έχει σχεδιαστεί για να σας παρέχει πλήρη έλεγχο στις βιβλιοθήκες πολυμέσων σας. Με το Kometa, μπορείτε να αναβαθμίσετε την προσαρμογή σας, με λεπτομερή έλεγχο των μεταδεδομένων, των συλλογών, των επικαλύψεων και πολλών άλλων.
+    en_GB: Kometa is a powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customisation to the next level, with granular control over metadata, collections, overlays, and much more.
+    es_ES: Kometa es una potente herramienta diseñada para brindarte control total sobre tus bibliotecas multimedia. Con Kometa, puedes llevar la personalización al siguiente nivel, con un control preciso sobre metadatos, colecciones, superposiciones y mucho más.
+    fr_FR: Kometa est un outil puissant conçu pour vous offrir un contrôle total sur vos bibliothèques multimédias. Grâce à Kometa, vous pouvez optimiser votre contenu et le personnaliser en profondeur grâce à un contrôle précis des métadonnées, des collections, des superpositions et bien plus encore.
+    ga_IE: Is uirlis chumhachtach í Kometa atá deartha chun smacht iomlán a thabhairt duit ar do leabharlanna meán. Le Kometa, is féidir leat do shaincheapadh a thabhairt go dtí an chéad leibhéal eile, le rialú mionsonraithe ar mheiteashonraí, bailiúcháin, forleaganacha, agus i bhfad níos mó.
+    hr_HR: Kometa je moćan alat osmišljen kako bi vam pružio potpunu kontrolu nad vašim medijskim bibliotekama. S Kometom možete podići svoju prilagodbu na višu razinu, s detaljnom kontrolom nad metapodacima, kolekcijama, slojevima i još mnogo toga.
+    hu_HU: A Kometa egy hatékony eszköz, amely teljes kontrollt biztosít a médiakönyvtárak felett. A Kometa segítségével a következő szintre emelheted a testreszabásodat, részletesen szabályozhatod a metaadatokat, a gyűjteményeket, az átfedéseket és sok mást.
+    it_IT: Kometa è un potente strumento progettato per offrirti il controllo completo sulle tue librerie multimediali. Con Kometa, puoi portare la personalizzazione a un livello superiore, con un controllo granulare su metadati, raccolte, sovrapposizioni e molto altro.
+    ja_JP: Kometaは、メディアライブラリを完全にコントロールできる強力なツールです。Kometaを使えば、メタデータ、コレクション、オーバーレイなど、あらゆる要素を細かく制御することで、カスタマイズのレベルをさらに高めることができます。
+    ko_KR: Kometa는 미디어 라이브러리를 완벽하게 제어할 수 있도록 설계된 강력한 도구입니다. Kometa를 사용하면 메타데이터, 컬렉션, 오버레이 등을 세부적으로 제어하여 미디어 라이브러리를 한 단계 더 높은 수준으로 맞춤 설정할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ മീഡിയ ലൈബ്രറികളിൽ പൂർണ്ണ നിയന്ത്രണം നൽകുന്നതിനായി രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്ന ഒരു ശക്തമായ ഉപകരണമാണ് കൊമെറ്റ. കൊമെറ്റ ഉപയോഗിച്ച്, മെറ്റാഡാറ്റ, ശേഖരങ്ങൾ, ഓവർലേകൾ എന്നിവയിലും മറ്റും സൂക്ഷ്മമായ നിയന്ത്രണം ഉപയോഗിച്ച് നിങ്ങളുടെ ഇഷ്‌ടാനുസൃതമാക്കലിനെ അടുത്ത ഘട്ടത്തിലേക്ക് കൊണ്ടുപോകാൻ കഴിയും.
+    nb_NO: Kometa er et kraftig verktøy som er utviklet for å gi deg full kontroll over mediebibliotekene dine. Med Kometa kan du ta tilpasningen din til neste nivå, med detaljert kontroll over metadata, samlinger, overlegg og mye mer.
+    nl_NL: Kometa is een krachtige tool die is ontworpen om u volledige controle over uw mediabibliotheken te geven. Met Kometa kunt u uw aanpassingsmogelijkheden naar een hoger niveau tillen, met gedetailleerde controle over metadata, collecties, overlays en nog veel meer.
+    pl_PL: Kometa to potężne narzędzie, które zapewnia pełną kontrolę nad bibliotekami multimediów. Dzięki Komecie możesz przenieść swoją personalizację na wyższy poziom, zapewniając szczegółową kontrolę nad metadanymi, kolekcjami, nakładkami i wieloma innymi elementami.
+    pt_BR: O Kometa é uma ferramenta poderosa projetada para lhe dar controle total sobre suas bibliotecas de mídia. Com o Kometa, você pode levar sua personalização a um novo patamar, com controle preciso sobre metadados, coleções, sobreposições e muito mais.
+    ro_RO: Kometa este un instrument puternic, conceput pentru a vă oferi control complet asupra bibliotecilor dvs. media. Cu Kometa, puteți duce personalizarea la nivelul următor, având un control granular asupra metadatelor, colecțiilor, suprapunerilor și multe altele.
+    ru_RU: Kometa — это мощный инструмент, разработанный для предоставления вам полного контроля над вашими медиатеками. С помощью Kometa вы можете вывести настройку на новый уровень, получив детальный контроль над метаданными, коллекциями, наложениями и многим другим.
+    sk_SK: Kometa je výkonný nástroj navrhnutý tak, aby vám poskytol úplnú kontrolu nad vašimi mediálnymi knižnicami. S Kometou môžete posunúť svoje prispôsobenie na vyššiu úroveň s detailnou kontrolou nad metadátami, kolekciami, prekrytiami a mnohým ďalším.
+    sv_SE: Kometa är ett kraftfullt verktyg utformat för att ge dig fullständig kontroll över dina mediebibliotek. Med Kometa kan du ta din anpassning till nästa nivå, med detaljerad kontroll över metadata, samlingar, överlägg och mycket mer.
+    tr_TR: Kometa, medya kütüphaneleriniz üzerinde tam kontrol sağlamak üzere tasarlanmış güçlü bir araçtır. Kometa ile, meta veriler, koleksiyonlar, katmanlar ve çok daha fazlası üzerinde ayrıntılı kontrol sağlayarak özelleştirmenizi bir üst seviyeye taşıyabilirsiniz.
     zh_CN: Kometa 是一个帮助你完全掌控媒体库的强大工具。它提供对元数据、合集、叠加层等内容的精细控制，让你进一步定制媒体库。
+    zh_TW: Kometa 是一個幫助你完全掌控媒體庫的強大工具。它提供對後設資料、合集、疊加層等內容的精細控制，讓你進一步定製媒體庫。
   tagline:
     en_US: A powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customization to the next level, with granular control over metadata, collections, overlays, and much more.
+    ca_ES: Una eina potent dissenyada per donar-vos un control complet sobre les vostres biblioteques multimèdia. Amb Kometa, podeu portar la personalització al següent nivell, amb un control granular sobre metadades, col·leccions, superposicions i molt més.
+    cs_CZ: Výkonný nástroj navržený tak, aby vám poskytl úplnou kontrolu nad vašimi mediálními knihovnami. S Kometou můžete posunout své úpravy na další úroveň s detailní kontrolou nad metadaty, kolekcemi, překryvy a mnoha dalšími funkcemi.
+    da_DK: Et kraftfuldt værktøj designet til at give dig fuld kontrol over dine mediebiblioteker. Med Kometa kan du tage din tilpasning til det næste niveau med detaljeret kontrol over metadata, samlinger, overlays og meget mere.
+    de_DE: Kometa ist ein leistungsstarkes Tool, mit dem Sie Ihre Mediatheken vollständig kontrollieren können. Dank detaillierter Steuerungsmöglichkeiten für Metadaten, Sammlungen, Overlays und vieles mehr erreichen Sie ein neues Level an Individualisierung.
+    el_GR: Ένα ισχυρό εργαλείο σχεδιασμένο για να σας παρέχει πλήρη έλεγχο στις βιβλιοθήκες πολυμέσων σας. Με το Kometa, μπορείτε να αναβαθμίσετε την προσαρμογή σας, με λεπτομερή έλεγχο των μεταδεδομένων, των συλλογών, των επικαλύψεων και πολλών άλλων.
+    en_GB: A powerful tool designed to give you complete control over your media libraries. With Kometa, you can take your customisation to the next level, with granular control over metadata, collections, overlays, and much more.
+    es_ES: Una potente herramienta diseñada para brindarte control total sobre tus bibliotecas multimedia. Con Kometa, puedes llevar la personalización al siguiente nivel, con un control preciso sobre metadatos, colecciones, superposiciones y mucho más.
+    fr_FR: Kometa est un outil puissant conçu pour vous offrir un contrôle total sur vos bibliothèques multimédias. Grâce à lui, vous pouvez optimiser votre contenu et le personnaliser en profondeur grâce à un contrôle précis des métadonnées, des collections, des superpositions et bien plus encore.
+    ga_IE: Uirlis chumhachtach atá deartha chun smacht iomlán a thabhairt duit ar do leabharlanna meán. Le Kometa, is féidir leat do shaincheapadh a thabhairt go dtí an chéad leibhéal eile, le rialú mionsonraithe ar mheiteashonraí, bailiúcháin, forleaganacha, agus i bhfad níos mó.
+    hr_HR: Moćan alat osmišljen kako bi vam pružio potpunu kontrolu nad vašim medijskim bibliotekama. S Kometom možete podići svoju prilagodbu na višu razinu, s detaljnom kontrolom nad metapodacima, kolekcijama, slojevima i još mnogo toga.
+    hu_HU: Egy hatékony eszköz, amely teljes kontrollt biztosít médiakönyvtárai felett. A Kometa segítségével a következő szintre emelheti testreszabását, részletesen szabályozhatja a metaadatokat, a gyűjteményeket, az átfedéseket és sok mást.
+    it_IT: Uno strumento potente progettato per offrirti il controllo completo sulle tue librerie multimediali. Con Kometa, puoi portare la personalizzazione a un livello superiore, con un controllo granulare su metadati, raccolte, sovrapposizioni e molto altro.
+    ja_JP: メディアライブラリを完全にコントロールできる強力なツールです。Kometaを使えば、メタデータ、コレクション、オーバーレイなど、あらゆる要素を細かく制御することで、カスタマイズのレベルをさらに高めることができます。
+    ko_KR: Kometa는 미디어 라이브러리를 완벽하게 제어할 수 있도록 설계된 강력한 도구입니다. Kometa를 사용하면 메타데이터, 컬렉션, 오버레이 등을 세밀하게 제어하여 미디어 라이브러리를 한 단계 더 높은 수준으로 맞춤 설정할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ മീഡിയ ലൈബ്രറികളിൽ പൂർണ്ണ നിയന്ത്രണം നൽകുന്നതിനായി രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്ന ഒരു ശക്തമായ ഉപകരണം. കൊമെറ്റ ഉപയോഗിച്ച്, മെറ്റാഡാറ്റ, ശേഖരങ്ങൾ, ഓവർലേകൾ എന്നിവയിലും മറ്റും സൂക്ഷ്മമായ നിയന്ത്രണത്തോടെ നിങ്ങളുടെ ഇഷ്ടാനുസൃതമാക്കൽ അടുത്ത ഘട്ടത്തിലേക്ക് കൊണ്ടുപോകാൻ കഴിയും.
+    nb_NO: Et kraftig verktøy designet for å gi deg full kontroll over mediebibliotekene dine. Med Kometa kan du ta tilpasningen din til neste nivå, med detaljert kontroll over metadata, samlinger, overlegg og mye mer.
+    nl_NL: Een krachtige tool die u volledige controle geeft over uw mediabibliotheken. Met Kometa tilt u uw aanpassingsmogelijkheden naar een hoger niveau, met gedetailleerde controle over metadata, collecties, overlays en nog veel meer.
+    pl_PL: Potężne narzędzie zaprojektowane z myślą o pełnej kontroli nad bibliotekami multimediów. Dzięki Komecie możesz przenieść swoją personalizację na wyższy poziom, zapewniając szczegółową kontrolę nad metadanymi, kolekcjami, nakładkami i wieloma innymi elementami.
+    pt_BR: Uma ferramenta poderosa projetada para lhe dar controle total sobre suas bibliotecas de mídia. Com o Kometa, você pode levar sua personalização a um novo patamar, com controle preciso sobre metadados, coleções, sobreposições e muito mais.
+    ro_RO: Un instrument puternic conceput pentru a vă oferi control complet asupra bibliotecilor dvs. media. Cu Kometa, puteți duce personalizarea la nivelul următor, cu control granular asupra metadatelor, colecțiilor, suprapunerilor și multe altele.
+    ru_RU: Мощный инструмент, разработанный для предоставления вам полного контроля над вашими медиатеками. С Kometa вы можете вывести настройку на новый уровень, получив детальный контроль над метаданными, коллекциями, наложениями и многим другим.
+    sk_SK: Výkonný nástroj navrhnutý tak, aby vám poskytol úplnú kontrolu nad vašimi mediálnymi knižnicami. S Kometou môžete posunúť svoje prispôsobenie na vyššiu úroveň s detailnou kontrolou nad metadátami, kolekciami, prekrytiami a mnohým ďalším.
+    sv_SE: Ett kraftfullt verktyg utformat för att ge dig fullständig kontroll över dina mediebibliotek. Med Kometa kan du ta din anpassning till nästa nivå, med detaljerad kontroll över metadata, samlingar, överlägg och mycket mer.
+    tr_TR: Medya kütüphaneleriniz üzerinde tam kontrol sahibi olmanızı sağlayan güçlü bir araç. Kometa ile meta veriler, koleksiyonlar, katmanlar ve çok daha fazlası üzerinde ayrıntılı kontrol sağlayarak özelleştirmenizi bir üst seviyeye taşıyabilirsiniz.
     zh_CN: 精细管理媒体库元数据、合集和封面叠加层。
+    zh_TW: 精細管理媒體庫後設資料、合集和封面疊加層。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kometa-banner.png
   title:
     en_US: Kometa (LinuxServer.io)
+    ca_ES: Kometa (LinuxServer.io)
+    cs_CZ: Kometa (LinuxServer.io)
+    da_DK: Kometa (LinuxServer.io)
+    de_DE: Kometa (LinuxServer.io)
+    el_GR: Kometa (LinuxServer.io)
+    en_GB: Kometa (LinuxServer.io)
+    es_ES: Kometa (LinuxServer.io)
+    fr_FR: Kometa (LinuxServer.io)
+    ga_IE: Kometa (LinuxServer.io)
+    hr_HR: Kometa (LinuxServer.io)
+    hu_HU: Kometa (LinuxServer.io)
+    it_IT: Kometa (LinuxServer.io)
+    ja_JP: Kometa (LinuxServer.io)
+    ko_KR: Kometa (LinuxServer.io)
+    ml_IN: Kometa (LinuxServer.io)
+    nb_NO: Kometa (LinuxServer.io)
+    nl_NL: Kometa (LinuxServer.io)
+    pl_PL: Kometa (LinuxServer.io)
+    pt_BR: Kometa (LinuxServer.io)
+    ro_RO: Kometa (LinuxServer.io)
+    ru_RU: Kometa (LinuxServer.io)
+    sk_SK: Kometa (LinuxServer.io)
+    sv_SE: Kometa (LinuxServer.io)
+    tr_TR: Kometa (LinuxServer.io)
     zh_CN: Kometa（LinuxServer.io）
+    zh_TW: Kometa（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkometa
   port_map: '80'

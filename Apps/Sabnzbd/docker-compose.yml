@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+    ca_ES: Sabnzbd fa que Usenet sigui el més senzill i eficient possible automatitzant tot el que podem. Només cal afegir un fitxer .nzb. SABnzbd pren el relleu a partir d'aquí, on es descarregarà, verificarà, repararà, extreurà i arxivarà automàticament sense cap interacció humana.
+    cs_CZ: Sabnzbd automatizuje vše, co je v našich silách, a dělá Usenet co nejjednodušším a nejefektívnějším. Stačí přidat příponu .nzb. SABnzbd se pak postará o to, aby se přípona .nzb automaticky stáhla, ověřila, opravila, rozbalila a archivovala bez lidské interakce.
+    da_DK: Sabnzbd gør Usenet så enkelt og strømlinet som muligt ved at automatisere alt, hvad vi kan. Alt du skal gøre er at tilføje en .nzb. SABnzbd tager over derfra, hvor den automatisk downloades, verificeres, repareres, udpakkes og arkiveres uden nogen menneskelig interaktion.
+    de_DE: 'Sabnzbd macht Usenet so einfach und effizient wie möglich, indem wir alles automatisieren, was möglich ist. Sie müssen lediglich eine .nzb-Datei hinzufügen. Sabnzbd übernimmt den Rest: Die Datei wird automatisch heruntergeladen, überprüft, repariert, extrahiert und archiviert – ganz ohne Ihr Zutun.'
+    el_GR: Το Sabnzbd κάνει το Usenet όσο το δυνατόν πιο απλό και βελτιστοποιημένο, αυτοματοποιώντας ό,τι μπορούμε. Το μόνο που έχετε να κάνετε είναι να προσθέσετε ένα αρχείο .nzb. Το SABnzbd αναλαμβάνει από εκεί, όπου θα λαμβάνεται, θα επαληθεύεται, θα επιδιορθώνεται, θα εξάγεται και θα αρχειοθετείται αυτόματα χωρίς καμία ανθρώπινη παρέμβαση.
+    en_GB: Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. Sabnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+    es_ES: 'SABnzbd simplifica al máximo el uso de Usenet automatizando todos los procesos posibles. Solo tienes que añadir un archivo .nzb. SABnzbd se encarga del resto: lo descarga, verifica, repara, extrae y archiva automáticamente, sin necesidad de intervención humana.'
+    fr_FR: "SABnzbd simplifie et optimise au maximum l'utilisation d'Usenet en automatisant un maximum de tâches. Il vous suffit d'ajouter un fichier .nzbd. SABnzbd prend ensuite le relais\_: téléchargement, vérification, réparation, extraction et archivage se font automatiquement, sans aucune intervention humaine."
+    ga_IE: Déanann Sabnzbd Usenet chomh simplí agus chomh sruthlínithe agus is féidir trí gach rud is féidir linn a uathoibriú. Níl le déanamh agat ach .nzb a chur leis. Glacann SABnzbd seilbh as sin, áit a ndéanfar é a íoslódáil, a fhíorú, a dheisiú, a bhaint amach agus a chomhdú go huathoibríoch gan aon idirghníomhaíocht dhaonna.
+    hr_HR: Sabnzbd čini Usenet što jednostavnijim i optimiziranijim automatizirajući sve što možemo. Sve što trebate učiniti je dodati .nzb. SABnzbd preuzima odatle, gdje će se automatski preuzeti, provjeriti, popraviti, izdvojiti i pohraniti bez ljudske interakcije.
+    hu_HU: A Sabnzbd a lehető legegyszerűbbé és legoptimálisabbá teszi a Usenet használatát azáltal, hogy mindent automatizál. Csak hozzá kell adni egy .nzb kiterjesztést. A SABnzbd átveszi a feladatot, ahol automatikusan letölti, ellenőrzi, javítja, kicsomagolja és archiválja azt, emberi beavatkozás nélkül.
+    it_IT: Sabnzbd semplifica e ottimizza l'utilizzo di Usenet automatizzando ogni aspetto. Tutto ciò che devi fare è aggiungere un file .nzb. Sabnzbd si occuperà del resto, scaricandolo, verificandolo, riparandolo, estraendolo e archiviandolo automaticamente, senza alcun intervento umano.
+    ja_JP: Sabnzbdは、可能な限りあらゆる処理を自動化することで、Usenetをシンプルかつ効率的に利用できるようにしています。必要なのは.nzbファイルを追加するだけ。あとはSABnzbdがすべて自動的に処理し、ダウンロード、検証、修復、抽出、そしてファイルへの保存まで、一切の人手を介さずに完了します。
+    ko_KR: Sabnzbd는 가능한 모든 것을 자동화하여 Usenet을 최대한 간편하고 효율적으로 만들어줍니다. 사용자는 .nzb 파일만 추가하면 됩니다. Sabnzbd는 그 이후의 모든 과정을 자동으로 처리하여 파일을 다운로드, 검증, 복구, 압축 해제하고 저장합니다. 사람의 개입은 전혀 필요하지 않습니다.
+    ml_IN: സബ്‌നെറ്റ്‌നെറ്റ്‌ സാധ്യമായതെല്ലാം ഓട്ടോമേറ്റ് ചെയ്‌തുകൊണ്ട് സബ്‌നെറ്റ്‌നെറ്റ്‌ കഴിയുന്നത്ര ലളിതവും ലളിതവുമാക്കുന്നു. നിങ്ങൾ ചെയ്യേണ്ടത് ഒരു .nzb ചേർക്കുക എന്നതാണ്. അവിടെ നിന്ന് SABnzbd അത് സ്വയമേവ ഡൗൺലോഡ് ചെയ്യുകയും പരിശോധിക്കുകയും നന്നാക്കുകയും എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുകയും മനുഷ്യ ഇടപെടലുകളില്ലാതെ ഫയൽ ചെയ്യുകയും ചെയ്യും.
+    nb_NO: Sabnzbd gjør Usenet så enkelt og strømlinjeformet som mulig ved å automatisere alt vi kan. Alt du trenger å gjøre er å legge til en .nzb. SABnzbd tar over derfra, hvor den automatisk lastes ned, verifiseres, repareres, pakkes ut og arkiveres uten null menneskelig interaksjon.
+    nl_NL: Sabnzbd maakt Usenet zo eenvoudig en gestroomlijnd mogelijk door alles wat we kunnen te automatiseren. Het enige wat u hoeft te doen, is een .nzb-bestand toevoegen. SABnzbd neemt het vanaf dat moment over en zorgt ervoor dat het bestand automatisch wordt gedownload, gecontroleerd, gerepareerd, uitgepakt en gearchiveerd, zonder enige menselijke tussenkomst.
+    pl_PL: Sabnzbd maksymalnie upraszcza i usprawnia Usenet, automatyzując wszystko, co możliwe. Wystarczy dodać rozszerzenie .nzb. SABnzbd przejmuje kontrolę nad resztą, automatycznie pobierając, weryfikując, naprawiając, rozpakowując i archiwizując plik bez ingerencji człowieka.
+    pt_BR: O SABnzbd simplifica e otimiza ao máximo o uso da Usenet, automatizando tudo o que for possível. Basta adicionar um arquivo .nzb. O SABnzbd assume o controle a partir daí, baixando, verificando, reparando, extraindo e arquivando o arquivo automaticamente, sem qualquer intervenção humana.
+    ro_RO: Sabnzbd face Usenet cât mai simplu și eficient posibil prin automatizarea a tot ceea ce putem face. Tot ce trebuie să faceți este să adăugați un fișier .nzb. SABnzbd preia controlul de acolo, unde va fi descărcat automat, verificat, reparat, extras și arhivat fără nicio interacțiune umană.
+    ru_RU: 'Sabnzbd делает Usenet максимально простым и удобным, автоматизируя все возможные процессы. Вам нужно всего лишь добавить файл .nzb. SABnzbd возьмет на себя все остальное: файл будет автоматически загружен, проверен, исправлен, распакован и сохранен без какого-либо участия человека.'
+    sk_SK: Sabnzbd robí Usenet čo najjednoduchším a najefektívnejším automatizáciou všetkého, čo sa dá. Všetko, čo musíte urobiť, je pridať príponu .nzb. SABnzbd prevezme kontrolu odtiaľ, kde sa súbory automaticky stiahnu, overia, opravia, rozbalia a uložia bez akejkoľvek ľudskej interakcie.
+    sv_SE: Sabnzbd gör Usenet så enkelt och strömlinjeformat som möjligt genom att automatisera allt vi kan. Allt du behöver göra är att lägga till en .nzb. SABnzbd tar över därifrån, där den automatiskt laddas ner, verifieras, repareras, extraheras och arkiveras utan någon mänsklig interaktion.
+    tr_TR: Sabnzbd, mümkün olan her şeyi otomatikleştirerek Usenet'i olabildiğince basit ve sorunsuz hale getiriyor. Tek yapmanız gereken bir .nzb dosyası eklemek. SABnzbd gerisini hallediyor; dosya otomatik olarak indiriliyor, doğrulanıyor, onarılıyor, çıkarılıyor ve hiçbir insan müdahalesi olmadan arşivleniyor.
     zh_CN: SABnzbd 通过尽可能自动化处理流程，让 Usenet 使用变得简单顺畅。你只需添加一个 NZB 文件，它就会自动完成下载、校验、修复、解压和归档，无需人工干预。
+    zh_TW: SABnzbd 透過儘可能自動化處理流程，讓 Usenet 使用變得簡單順暢。你只需新增一個 NZB 檔案，它就會自動完成下載、校驗、修復、解壓和歸檔，無需人工干預。
   tagline:
     en_US: Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an. Nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+    ca_ES: Simplifica i optimitza al màxim Usenet automatitzant tot el que podem. Només cal afegir un fitxer .Nzb. SABnzbd pren el relleu, on es descarregarà, verificarà, repararà, extreurà i arxivarà automàticament sense cap interacció humana.
+    cs_CZ: Automatizuje vše, co je v našich silách, a dělá Usenet co nejjednodušším a nejefektívnějším. Stačí přidat .Nzb. SABnzbd převezme kontrolu odtud, kde se data automaticky stáhnou, ověří, opraví, extrahují a uloží bez lidské interakce.
+    da_DK: Gør Usenet så enkelt og strømlinet som muligt ved at automatisere alt, hvad vi kan. Alt du skal gøre er at tilføje en .Nzbd. SABnzbd tager over derfra, hvor det automatisk downloades, verificeres, repareres, udpakkes og arkiveres uden nogen menneskelig interaktion.
+    de_DE: 'Wir gestalten Usenet so einfach und effizient wie möglich, indem wir alles automatisieren, was möglich ist. Sie müssen lediglich eine .nzb-Datei hinzufügen. SABnzbd übernimmt dann den Rest: Die Datei wird automatisch heruntergeladen, überprüft, repariert, extrahiert und archiviert – ganz ohne menschliches Zutun.'
+    el_GR: Κάνει το Usenet όσο το δυνατόν πιο απλό και βελτιστοποιημένο, αυτοματοποιώντας ό,τι μπορούμε. Το μόνο που έχετε να κάνετε είναι να προσθέσετε ένα Nzb. Το SABnzbd αναλαμβάνει από εκεί, όπου θα λαμβάνεται, θα επαληθεύεται, θα επιδιορθώνεται, θα εξάγεται και θα αρχειοθετείται αυτόματα χωρίς καμία ανθρώπινη παρέμβαση.
+    en_GB: Makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an. Nzb. Sabnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+    es_ES: 'Simplifica y optimiza al máximo Usenet automatizando todo lo posible. Solo tienes que añadir un archivo .nzbd. SABnzbd se encarga del resto: lo descarga, verifica, repara, extrae y archiva automáticamente sin intervención humana.'
+    fr_FR: "Nous simplifions et optimisons au maximum l'utilisation d'Usenet en automatisant tout ce qui est possible. Il vous suffit d'ajouter un fichier .nzbd. SABnzbd prend ensuite le relais\_: le fichier sera automatiquement téléchargé, vérifié, réparé, extrait et archivé, sans aucune intervention humaine."
+    ga_IE: Déanann sé Usenet chomh simplí agus chomh sruthlínithe agus is féidir trí gach rud is féidir linn a uathoibriú. Níl le déanamh agat ach .Nzb a chur leis. Glacann SABnzbd seilbh as sin, áit a ndéanfar é a íoslódáil, a fhíorú, a dheisiú, a bhaint amach agus a chomhdú go huathoibríoch gan aon idirghníomhaíocht dhaonna.
+    hr_HR: Čini Usenet što jednostavnijim i optimiziranijim automatizirajući sve što možemo. Sve što trebate učiniti je dodati .Nzb. SABnzbd preuzima odatle, gdje će se automatski preuzeti, provjeriti, popraviti, izdvojiti i pohraniti bez ljudske interakcije.
+    hu_HU: A Usenet működését a lehető legegyszerűbbé és legoptimálisabbá teszi azáltal, hogy mindent automatizál. Csak hozzá kell adni egy .Nzb fájlt. A SABnzbd veszi át a feladatot, ahol automatikusan letölti, ellenőrzi, javítja, kicsomagolja és archiválja az adatokat, emberi beavatkozás nélkül.
+    it_IT: Rende Usenet il più semplice e intuitivo possibile, automatizzando tutto il possibile. Tutto ciò che devi fare è aggiungere un file .nzb. SABnzbd si occuperà del resto, scaricandolo, verificandolo, riparandolo, estraendolo e archiviandolo automaticamente, senza alcun intervento umano.
+    ja_JP: Usenet を可能な限りシンプルかつ効率的にするために、あらゆることを自動化します。必要なのは .nzb ファイルを追加するだけです。SABnzbd がその後を引き継ぎ、自動的にダウンロード、検証、修復、抽出、ファイル保存を行い、人間の介入は一切不要です。
+    ko_KR: Usenet을 최대한 간편하고 효율적으로 만들기 위해 가능한 모든 것을 자동화합니다. 사용자는 .nzb 확장자만 추가하면 됩니다. SABnzbd가 자동으로 다운로드, 검증, 복구, 압축 해제 및 저장 작업을 수행하여 사람의 개입 없이 모든 작업을 처리합니다.
+    ml_IN: നമുക്ക് കഴിയുന്നതെല്ലാം ഓട്ടോമേറ്റ് ചെയ്തുകൊണ്ട് യൂസ്‌നെറ്റിനെ കഴിയുന്നത്ര ലളിതവും ലളിതവുമാക്കുന്നു. നിങ്ങൾ ചെയ്യേണ്ടത് ഒരു Nzb ചേർക്കുക മാത്രമാണ്. SABnzbd അവിടെ നിന്ന് ഏറ്റെടുക്കുന്നു, അവിടെ നിന്ന് അത് യാന്ത്രികമായി ഡൗൺലോഡ് ചെയ്യപ്പെടുകയും പരിശോധിക്കുകയും നന്നാക്കുകയും എക്‌സ്‌ട്രാക്റ്റ് ചെയ്യുകയും മനുഷ്യ ഇടപെടലുകളില്ലാതെ ഫയൽ ചെയ്യുകയും ചെയ്യും.
+    nb_NO: Gjør Usenet så enkelt og strømlinjeformet som mulig ved å automatisere alt vi kan. Alt du trenger å gjøre er å legge til en .Nzbd. SABnzbd tar over derfra, hvor den automatisk lastes ned, verifiseres, repareres, pakkes ut og arkiveres uten menneskelig interaksjon.
+    nl_NL: We maken Usenet zo eenvoudig en gestroomlijnd mogelijk door alles wat we kunnen te automatiseren. Het enige wat u hoeft te doen, is een .nzb-bestand toevoegen. SABnzbd neemt het vanaf dat moment over en zorgt ervoor dat het bestand automatisch wordt gedownload, geverifieerd, gerepareerd, uitgepakt en gearchiveerd, zonder enige menselijke tussenkomst.
+    pl_PL: Uprościliśmy i usprawniliśmy Usenet, automatyzując wszystko, co możliwe. Wystarczy dodać Nzb. SABnzbd przejmuje kontrolę, a dane zostaną automatycznie pobrane, zweryfikowane, naprawione, wyodrębnione i zapisane bez ingerencji człowieka.
+    pt_BR: Tornamos a Usenet o mais simples e ágil possível, automatizando tudo o que podemos. Tudo o que você precisa fazer é adicionar um arquivo .nzb. O SABnzbd assume o controle a partir daí, baixando, verificando, reparando, extraindo e arquivando o arquivo automaticamente, sem nenhuma intervenção humana.
+    ro_RO: Simplifică și eficientizează Usenet cât mai mult posibil prin automatizarea a tot ceea ce putem face. Tot ce trebuie să faceți este să adăugați un fișier .Nzb. SABnzbd preia controlul de acolo, unde va fi descărcat automat, verificat, reparat, extras și arhivat fără nicio interacțiune umană.
+    ru_RU: Мы делаем Usenet максимально простым и удобным, автоматизируя все возможные процессы. Вам нужно всего лишь добавить файл .nzb. SABnzbd берет на себя дальнейшую работу, автоматически загружая, проверяя, исправляя, извлекая и сохраняя его без участия человека.
+    sk_SK: Robí Usenet čo najjednoduchším a najefektívnejším automatizáciou všetkého, čo sa dá. Všetko, čo musíte urobiť, je pridať .Nzb. SABnzbd prevezme kontrolu odtiaľ, kde sa automaticky stiahne, overí, opraví, extrahuje a uloží bez nulovej ľudskej interakcie.
+    sv_SE: Gör Usenet så enkelt och strömlinjeformat som möjligt genom att automatisera allt vi kan. Allt du behöver göra är att lägga till en .Nzbd. SABnzbd tar över därifrån, där det automatiskt laddas ner, verifieras, repareras, extraheras och arkiveras utan någon mänsklig interaktion.
+    tr_TR: Her şeyi otomatikleştirerek Usenet'i olabildiğince basit ve sorunsuz hale getiriyoruz. Tek yapmanız gereken bir .nzb dosyası eklemek. SABnzbd gerisini hallediyor; dosya otomatik olarak indiriliyor, doğrulanıyor, onarılıyor, çıkarılıyor ve hiçbir insan müdahalesi olmadan arşivleniyor.
     zh_CN: 自动下载、校验、修复和解压 Usenet 内容。
+    zh_TW: 自動下載、校驗、修復和解壓 Usenet 內容。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png
   title:
     en_US: Sabnzbd (LinuxServer.io)
+    ca_ES: Sabnzbd (LinuxServer.io)
+    cs_CZ: Sabnzbd (LinuxServer.io)
+    da_DK: Sabnzbd (LinuxServer.io)
+    de_DE: Sabnzbd (LinuxServer.io)
+    el_GR: Sabnzbd (LinuxServer.io)
+    en_GB: Sabnzbd (LinuxServer.io)
+    es_ES: Sabnzbd (LinuxServer.io)
+    fr_FR: Sabnzbd (LinuxServer.io)
+    ga_IE: Sabnzbd (LinuxServer.io)
+    hr_HR: Sabnzbd (LinuxServer.io)
+    hu_HU: Sabnzbd (LinuxServer.io)
+    it_IT: Sabnzbd (LinuxServer.io)
+    ja_JP: Sabnzbd (LinuxServer.io)
+    ko_KR: Sabnzbd (LinuxServer.io)
+    ml_IN: Sabnzbd (LinuxServer.io)
+    nb_NO: Sabnzbd (LinuxServer.io)
+    nl_NL: Sabnzbd (LinuxServer.io)
+    pl_PL: Sabnzbd (LinuxServer.io)
+    pt_BR: Sabnzbd (LinuxServer.io)
+    ro_RO: Sabnzbd (LinuxServer.io)
+    ru_RU: Sabnzbd (LinuxServer.io)
+    sk_SK: Sabnzbd (LinuxServer.io)
+    sv_SE: Sabnzbd (LinuxServer.io)
+    tr_TR: Sabnzbd (LinuxServer.io)
     zh_CN: Sabnzbd（LinuxServer.io）
+    zh_TW: Sabnzbd（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversabnzbd
   port_map: '8080'

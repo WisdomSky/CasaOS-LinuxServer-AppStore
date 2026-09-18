@@ -25,17 +25,92 @@ x-casaos:
   main: app
   description:
     en_US: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    ca_ES: Synclounge és una eina de tercers que et permet veure Plex sincronitzat amb els teus amics i familiars, siguis on siguis.
+    cs_CZ: Synclounge je nástroj třetí strany, který vám umožňuje sledovat Plex synchronizovaně s přáteli/rodinou, ať jste kdekoli.
+    da_DK: Synclounge er et tredjepartsværktøj, der giver dig mulighed for at se Plex synkroniseret med dine venner/familie, uanset hvor du er.
+    de_DE: Synclounge ist ein Drittanbieter-Tool, mit dem Sie Plex synchron mit Ihren Freunden/Ihrer Familie ansehen können, egal wo Sie sich befinden.
+    el_GR: Το Synclounge είναι ένα εργαλείο τρίτου κατασκευαστή που σας επιτρέπει να παρακολουθείτε το Plex συγχρονισμένα με τους φίλους/την οικογένειά σας, όπου κι αν βρίσκεστε.
+    en_GB: Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    es_ES: Synclounge es una herramienta de terceros que te permite ver Plex sincronizado con tus amigos o familiares, estés donde estés.
+    fr_FR: Synclounge est un outil tiers qui vous permet de regarder Plex en synchronisation avec vos amis/votre famille, où que vous soyez.
+    ga_IE: Is uirlis tríú páirtí é Synclounge a ligeann duit féachaint ar Plex i sioncrón le do chairde/teaghlach, cibé áit a bhfuil tú.
+    hr_HR: Synclounge je alat treće strane koji vam omogućuje sinkronizirano gledanje Plexa s prijateljima/obitelji, gdje god se nalazili.
+    hu_HU: A Synclounge egy harmadik féltől származó eszköz, amely lehetővé teszi, hogy a Plexet szinkronban nézd a barátaiddal/családoddal, bárhol is vagy.
+    it_IT: Synclounge è uno strumento di terze parti che ti permette di guardare Plex in sincronia con i tuoi amici/familiari, ovunque tu sia.
+    ja_JP: Syncloungeは、どこにいても友人や家族とPlexを同期して視聴できるサードパーティ製ツールです。
+    ko_KR: Synclounge는 어디에 있든 친구/가족과 Plex 콘텐츠를 동기화하여 시청할 수 있도록 해주는 타사 도구입니다.
+    ml_IN: നിങ്ങൾ എവിടെയായിരുന്നാലും നിങ്ങളുടെ സുഹൃത്തുക്കളുമായും കുടുംബാംഗങ്ങളുമായും സമന്വയിപ്പിച്ച് പ്ലെക്സ് കാണാൻ നിങ്ങളെ അനുവദിക്കുന്ന ഒരു മൂന്നാം കക്ഷി ഉപകരണമാണ് സിങ്ക്ലൗഞ്ച്.
+    nb_NO: Synclounge er et tredjepartsverktøy som lar deg se Plex synkronisert med venner/familie, uansett hvor du er.
+    nl_NL: Synclounge is een tool van derden waarmee je Plex synchroon met je vrienden/familie kunt bekijken, waar je ook bent.
+    pl_PL: Synclounge to narzędzie innej firmy, które umożliwia oglądanie Plex w synchronizacji ze znajomymi/rodziną, niezależnie od tego, gdzie jesteś.
+    pt_BR: O Synclounge é uma ferramenta de terceiros que permite assistir ao Plex em sincronia com seus amigos/familiares, onde quer que você esteja.
+    ro_RO: Synclounge este un instrument terț care vă permite să vizionați Plex sincronizat cu prietenii/familia, oriunde v-ați afla.
+    ru_RU: Synclounge — это сторонний инструмент, позволяющий синхронно смотреть контент Plex с друзьями/семьей, где бы вы ни находились.
+    sk_SK: Synclounge je nástroj tretej strany, ktorý vám umožňuje sledovať Plex synchronizovane s priateľmi/rodinou, nech ste kdekoľvek.
+    sv_SE: Synclounge är ett tredjepartsverktyg som låter dig titta på Plex synkroniserat med dina vänner/familj, var du än är.
+    tr_TR: Synclounge, nerede olursanız olun arkadaşlarınız/ailenizle Plex'i senkronize bir şekilde izlemenizi sağlayan üçüncü taraf bir araçtır.
     zh_CN: SyncLounge 是一个第三方工具，让你无论身在何处，都能与朋友和家人同步观看 Plex 内容。
+    zh_TW: SyncLounge 是一個第三方工具，讓你無論身在何處，都能與朋友和家人同步觀看 Plex 內容。
   tagline:
     en_US: A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    ca_ES: Una eina de tercers que et permet veure Plex en sincronia amb els teus amics i familiars, siguis on siguis.
+    cs_CZ: Nástroj třetí strany, který vám umožňuje sledovat Plex synchronizovaně s přáteli/rodinou, ať jste kdekoli.
+    da_DK: Et tredjepartsværktøj, der giver dig mulighed for at se Plex synkroniseret med dine venner/familie, uanset hvor du er.
+    de_DE: Ein Drittanbieter-Tool, mit dem Sie Plex synchron mit Ihren Freunden/Ihrer Familie ansehen können, egal wo Sie sich befinden.
+    el_GR: Ένα εργαλείο τρίτου μέρους που σας επιτρέπει να παρακολουθείτε Plex συγχρονισμένα με τους φίλους/την οικογένειά σας, όπου κι αν βρίσκεστε.
+    en_GB: A third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.
+    es_ES: Una herramienta de terceros que te permite ver Plex sincronizado con tus amigos/familiares, estés donde estés.
+    fr_FR: Un outil tiers qui vous permet de regarder Plex en synchronisation avec vos amis/votre famille, où que vous soyez.
+    ga_IE: Uirlis tríú páirtí a ligeann duit féachaint ar Plex i sioncrón le do chairde/teaghlach, cibé áit a bhfuil tú.
+    hr_HR: Alat treće strane koji vam omogućuje sinkronizirano gledanje Plexa s prijateljima/obitelji, gdje god se nalazili.
+    hu_HU: Egy harmadik féltől származó eszköz, amely lehetővé teszi, hogy a Plexet szinkronban nézd a barátaiddal/családoddal, bárhol is vagy.
+    it_IT: Uno strumento di terze parti che ti permette di guardare Plex in sincronia con i tuoi amici/familiari, ovunque tu sia.
+    ja_JP: どこにいても、友人や家族とPlexを同期して視聴できるサードパーティ製ツール。
+    ko_KR: 어디에 있든 친구/가족과 동기화하여 Plex를 시청할 수 있도록 해주는 타사 도구입니다.
+    ml_IN: നിങ്ങൾ എവിടെയായിരുന്നാലും നിങ്ങളുടെ സുഹൃത്തുക്കളുമായും കുടുംബാംഗങ്ങളുമായും സമന്വയിപ്പിച്ച് പ്ലെക്സ് കാണാൻ നിങ്ങളെ അനുവദിക്കുന്ന ഒരു മൂന്നാം കക്ഷി ഉപകരണം.
+    nb_NO: Et tredjepartsverktøy som lar deg se Plex synkronisert med venner/familie, uansett hvor du er.
+    nl_NL: Een tool van derden waarmee je Plex synchroon met je vrienden/familie kunt bekijken, waar je ook bent.
+    pl_PL: Narzędzie innej firmy, dzięki któremu możesz oglądać Plex w synchronizacji ze znajomymi/rodziną, gdziekolwiek jesteś.
+    pt_BR: Uma ferramenta de terceiros que permite assistir ao Plex em sincronia com seus amigos/familiares, onde quer que você esteja.
+    ro_RO: Un instrument terț care vă permite să vizionați Plex în sincronizare cu prietenii/familia, oriunde v-ați afla.
+    ru_RU: Сторонний инструмент, позволяющий смотреть Plex синхронно с друзьями/семьей, где бы вы ни находились.
+    sk_SK: Nástroj tretej strany, ktorý vám umožňuje sledovať Plex synchronizovane s priateľmi/rodinou, nech ste kdekoľvek.
+    sv_SE: Ett tredjepartsverktyg som låter dig titta på Plex synkroniserat med dina vänner/familj, var du än är.
+    tr_TR: Plex'i nerede olursanız olun arkadaşlarınız/ailenizle senkronize bir şekilde izlemenizi sağlayan üçüncü taraf bir araç.
     zh_CN: 与亲友同步观看 Plex 内容。
+    zh_TW: 與親友同步觀看 Plex 內容。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
   title:
     en_US: Synclounge (LinuxServer.io)
+    ca_ES: Synclounge (LinuxServer.io)
+    cs_CZ: Synclounge (LinuxServer.io)
+    da_DK: Synclounge (LinuxServer.io)
+    de_DE: Synclounge (LinuxServer.io)
+    el_GR: Synclounge (LinuxServer.io)
+    en_GB: Synclounge (LinuxServer.io)
+    es_ES: Synclounge (LinuxServer.io)
+    fr_FR: Synclounge (LinuxServer.io)
+    ga_IE: Synclounge (LinuxServer.io)
+    hr_HR: Synclounge (LinuxServer.io)
+    hu_HU: Synclounge (LinuxServer.io)
+    it_IT: Synclounge (LinuxServer.io)
+    ja_JP: Synclounge (LinuxServer.io)
+    ko_KR: Synclounge (LinuxServer.io)
+    ml_IN: Synclounge (LinuxServer.io)
+    nb_NO: Synclounge (LinuxServer.io)
+    nl_NL: Synclounge (LinuxServer.io)
+    pl_PL: Synclounge (LinuxServer.io)
+    pt_BR: Synclounge (LinuxServer.io)
+    ro_RO: Synclounge (LinuxServer.io)
+    ru_RU: Synclounge (LinuxServer.io)
+    sk_SK: Synclounge (LinuxServer.io)
+    sv_SE: Synclounge (LinuxServer.io)
+    tr_TR: Synclounge (LinuxServer.io)
     zh_CN: Synclounge（LinuxServer.io）
+    zh_TW: Synclounge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversynclounge
   port_map: '8088'

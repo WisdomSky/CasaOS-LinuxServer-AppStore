@@ -40,17 +40,92 @@ x-casaos:
   main: app
   description:
     en_US: VLC Media Player is a free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+    ca_ES: VLC Media Player és un reproductor i framework multiplataforma gratuït i de codi obert que ofereix un rendiment fiable en diversos dispositius.
+    cs_CZ: VLC Media Player je bezplatný a open source multiplatformní multimediální přehrávač a framework, který poskytuje spolehlivý výkon na více zařízeních.
+    da_DK: VLC Media Player er en gratis og open source-multimedieafspiller og et framework til flere platforme, der leverer pålidelig ydeevne på tværs af flere enheder.
+    de_DE: Der VLC Media Player ist ein kostenloser und quelloffener, plattformübergreifender Multimedia-Player und ein Framework, das auf verschiedenen Geräten zuverlässige Leistung bietet.
+    el_GR: Το VLC Media Player είναι ένα δωρεάν και ανοιχτού κώδικα πρόγραμμα αναπαραγωγής πολυμέσων και framework για όλες τις πλατφόρμες που προσφέρει αξιόπιστη απόδοση σε πολλαπλές συσκευές.
+    en_GB: Vlc Media Player is a free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+    es_ES: VLC Media Player es un reproductor multimedia y un marco de trabajo multiplataforma gratuito y de código abierto que ofrece un rendimiento fiable en múltiples dispositivos.
+    fr_FR: VLC Media Player est un lecteur multimédia et un framework multiplateforme gratuit et open source qui offre des performances fiables sur plusieurs appareils.
+    ga_IE: Is seinnteoir agus creat ilmheán tras-ardáin saor in aisce agus foinse oscailte é VLC Media Player a sholáthraíonn feidhmíocht iontaofa ar fud ilghléasanna.
+    hr_HR: VLC Media Player je besplatni multimedijski player i okvir otvorenog koda za više platformi koji pruža pouzdane performanse na više uređaja.
+    hu_HU: A VLC Media Player egy ingyenes és nyílt forráskódú, platformfüggetlen multimédia-lejátszó és keretrendszer, amely megbízható teljesítményt nyújt több eszközön.
+    it_IT: VLC Media Player è un lettore multimediale e framework multipiattaforma gratuito e open source che offre prestazioni affidabili su diversi dispositivi.
+    ja_JP: VLC Media Playerは、複数のデバイスで安定したパフォーマンスを提供する、無料のオープンソースのクロスプラットフォームマルチメディアプレーヤーおよびフレームワークです。
+    ko_KR: VLC 미디어 플레이어는 다양한 기기에서 안정적인 성능을 제공하는 무료 오픈 소스 크로스 플랫폼 멀티미디어 플레이어 및 프레임워크입니다.
+    ml_IN: ഒന്നിലധികം ഉപകരണങ്ങളിൽ വിശ്വസനീയമായ പ്രകടനം നൽകുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ക്രോസ്-പ്ലാറ്റ്‌ഫോം മൾട്ടിമീഡിയ പ്ലെയറും ഫ്രെയിംവർക്കുമാണ് വിഎൽസി മീഡിയ പ്ലെയർ.
+    nb_NO: VLC Media Player er en gratis og åpen kildekode-multimediaspiller og et rammeverk for flere plattformer som leverer pålitelig ytelse på tvers av flere enheter.
+    nl_NL: VLC Media Player is een gratis en open source, platformonafhankelijke multimediaspeler en framework dat betrouwbare prestaties levert op diverse apparaten.
+    pl_PL: VLC Media Player to darmowy i otwarty odtwarzacz multimedialny o charakterze międzyplatformowym, który gwarantuje niezawodną wydajność na wielu urządzeniach.
+    pt_BR: O VLC Media Player é um reprodutor e framework multimídia multiplataforma gratuito e de código aberto que oferece desempenho confiável em diversos dispositivos.
+    ro_RO: VLC Media Player este un player multimedia și framework gratuit și open source, multiplatformă, care oferă performanțe fiabile pe mai multe dispozitive.
+    ru_RU: VLC Media Player — это бесплатный мультимедийный проигрыватель и платформа с открытым исходным кодом, работающая на разных платформах и обеспечивающая надежную работу.
+    sk_SK: VLC Media Player je bezplatný a open source multiplatformový multimediálny prehrávač a framework, ktorý poskytuje spoľahlivý výkon na viacerých zariadeniach.
+    sv_SE: VLC Media Player är en gratis och öppen källkodsbaserad multimediaspelare och ett ramverk för flera plattformar som levererar pålitlig prestanda över flera enheter.
+    tr_TR: VLC Media Player, birden fazla cihazda güvenilir performans sağlayan, ücretsiz ve açık kaynaklı, platformlar arası bir multimedya oynatıcı ve çerçevesidir.
     zh_CN: VLC Media Player 是免费、开源、跨平台的多媒体播放器和框架，可在多种设备上提供可靠的播放表现。
+    zh_TW: VLC Media Player 是免費、開源、跨平臺的多媒體播放器和框架，可在多種裝置上提供可靠的播放表現。
   tagline:
     en_US: A free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+    ca_ES: Un reproductor multimèdia i framework multiplataforma gratuït i de codi obert que ofereix un rendiment fiable en diversos dispositius.
+    cs_CZ: Bezplatný a otevřený multiplatformní multimediální přehrávač a framework, který poskytuje spolehlivý výkon na více zařízeních.
+    da_DK: En gratis og open source-multimedieafspiller og -framework til flere platforme, der leverer pålidelig ydeevne på tværs af flere enheder.
+    de_DE: Ein kostenloser und quelloffener plattformübergreifender Multimedia-Player und Framework, der auf verschiedenen Geräten zuverlässige Leistung bietet.
+    el_GR: Ένα δωρεάν και ανοιχτού κώδικα πρόγραμμα αναπαραγωγής πολυμέσων και framework για όλες τις πλατφόρμες που προσφέρει αξιόπιστη απόδοση σε πολλαπλές συσκευές.
+    en_GB: A free and open source cross-platform multimedia player and framework that delivers dependable performance across multiple devices.
+    es_ES: Un reproductor y marco multimedia multiplataforma, gratuito y de código abierto, que ofrece un rendimiento fiable en múltiples dispositivos.
+    fr_FR: Un lecteur multimédia et un framework multiplateformes, libres et open source, offrant des performances fiables sur plusieurs appareils.
+    ga_IE: Seinnteoir agus creat ilmheán tras-ardáin saor in aisce agus foinse oscailte a sholáthraíonn feidhmíocht iontaofa ar fud ilghléasanna.
+    hr_HR: Besplatni multimedijski player i okvir otvorenog koda za više platformi koji pruža pouzdane performanse na više uređaja.
+    hu_HU: Egy ingyenes és nyílt forráskódú, platformfüggetlen multimédia-lejátszó és keretrendszer, amely megbízható teljesítményt nyújt több eszközön.
+    it_IT: Un lettore multimediale e framework multipiattaforma gratuito e open source che offre prestazioni affidabili su diversi dispositivi.
+    ja_JP: 複数のデバイスで安定したパフォーマンスを提供する、無料かつオープンソースのクロスプラットフォームマルチメディアプレーヤーおよびフレームワーク。
+    ko_KR: 다양한 기기에서 안정적인 성능을 제공하는 무료 오픈 소스 크로스 플랫폼 멀티미디어 플레이어 및 프레임워크입니다.
+    ml_IN: ഒന്നിലധികം ഉപകരണങ്ങളിൽ വിശ്വസനീയമായ പ്രകടനം നൽകുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ക്രോസ്-പ്ലാറ്റ്‌ഫോം മൾട്ടിമീഡിയ പ്ലെയറും ഫ്രെയിംവർക്കും.
+    nb_NO: En gratis og åpen kildekode-multimediaspiller og -rammeverk for flere plattformer som leverer pålitelig ytelse på tvers av flere enheter.
+    nl_NL: Een gratis en open source, platformonafhankelijke multimediaspeler en framework dat betrouwbare prestaties levert op diverse apparaten.
+    pl_PL: Darmowy i otwarty odtwarzacz multimedialny o charakterze międzyplatformowym, który zapewnia niezawodną wydajność na wielu urządzeniach.
+    pt_BR: Um reprodutor e framework multimídia multiplataforma, gratuito e de código aberto, que oferece desempenho confiável em diversos dispositivos.
+    ro_RO: Un player multimedia și framework gratuit și open source, multiplatformă, care oferă performanțe fiabile pe mai multe dispozitive.
+    ru_RU: Бесплатный мультимедийный плеер и платформа с открытым исходным кодом, работающие на разных платформах и обеспечивающие надежную работу.
+    sk_SK: Bezplatný a otvorený multiplatformový multimediálny prehrávač a framework, ktorý poskytuje spoľahlivý výkon na viacerých zariadeniach.
+    sv_SE: En fri och öppen källkod för plattformar och multimediasystem som levererar pålitlig prestanda över flera enheter.
+    tr_TR: Birden fazla cihazda güvenilir performans sağlayan, ücretsiz ve açık kaynaklı, platformlar arası bir multimedya oynatıcı ve çerçevesi.
     zh_CN: 免费、开源的跨平台多媒体播放器。
+    zh_TW: 免費、開源的跨平臺多媒體播放器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vlc-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vlc-logo.png
   title:
     en_US: Vlc (LinuxServer.io)
+    ca_ES: Vlc (LinuxServer.io)
+    cs_CZ: Vlc (LinuxServer.io)
+    da_DK: Vlc (LinuxServer.io)
+    de_DE: Vlc (LinuxServer.io)
+    el_GR: Vlc (LinuxServer.io)
+    en_GB: Vlc (LinuxServer.io)
+    es_ES: Vlc (LinuxServer.io)
+    fr_FR: Vlc (LinuxServer.io)
+    ga_IE: Vlc (LinuxServer.io)
+    hr_HR: Vlc (LinuxServer.io)
+    hu_HU: Vlc (LinuxServer.io)
+    it_IT: Vlc (LinuxServer.io)
+    ja_JP: Vlc (LinuxServer.io)
+    ko_KR: Vlc (LinuxServer.io)
+    ml_IN: Vlc (LinuxServer.io)
+    nb_NO: Vlc (LinuxServer.io)
+    nl_NL: Vlc (LinuxServer.io)
+    pl_PL: Vlc (LinuxServer.io)
+    pt_BR: Vlc (LinuxServer.io)
+    ro_RO: Vlc (LinuxServer.io)
+    ru_RU: Vlc (LinuxServer.io)
+    sk_SK: Vlc (LinuxServer.io)
+    sv_SE: Vlc (LinuxServer.io)
+    tr_TR: Vlc (LinuxServer.io)
     zh_CN: Vlc（LinuxServer.io）
+    zh_TW: Vlc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservervlc
   port_map: '3000'

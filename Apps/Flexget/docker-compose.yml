@@ -52,17 +52,92 @@ x-casaos:
   main: app
   description:
     en_US: Flexget is a multipurpose automation tool for all of your media.
+    ca_ES: Flexget és una eina d'automatització multiús per a tots els teus mitjans.
+    cs_CZ: Flexget je víceúčelový automatizační nástroj pro všechna vaše média.
+    da_DK: Flexget er et alsidigt automatiseringsværktøj til alle dine medier.
+    de_DE: Flexget ist ein vielseitiges Automatisierungstool für all Ihre Medien.
+    el_GR: Το Flexget είναι ένα πολυχρηστικό εργαλείο αυτοματισμού για όλα τα μέσα σας.
+    en_GB: Flexget is a multipurpose automation tool for all of your media.
+    es_ES: Flexget es una herramienta de automatización multiusos para todos tus medios.
+    fr_FR: Flexget est un outil d'automatisation polyvalent pour tous vos médias.
+    ga_IE: Is uirlis uathoibrithe ilchuspóireach é Flexget do do chuid meán go léir.
+    hr_HR: Flexget je višenamjenski alat za automatizaciju za sve vaše medije.
+    hu_HU: A Flexget egy többcélú automatizáló eszköz az összes médiafelületedhez.
+    it_IT: Flexget è uno strumento di automazione multifunzionale per tutti i tuoi contenuti multimediali.
+    ja_JP: Flexgetは、あらゆるメディアに対応する多目的自動化ツールです。
+    ko_KR: Flexget은 모든 미디어를 위한 다목적 자동화 도구입니다.
+    ml_IN: നിങ്ങളുടെ എല്ലാ മീഡിയയ്ക്കുമുള്ള ഒരു മൾട്ടിപർപ്പസ് ഓട്ടോമേഷൻ ഉപകരണമാണ് ഫ്ലെക്സ്ജെറ്റ്.
+    nb_NO: Flexget er et flerbruks automatiseringsverktøy for alle mediene dine.
+    nl_NL: Flexget is een veelzijdige automatiseringstool voor al uw media.
+    pl_PL: Flexget to wielofunkcyjne narzędzie do automatyzacji wszelkich multimediów.
+    pt_BR: Flexget é uma ferramenta de automação multifuncional para todas as suas mídias.
+    ro_RO: Flexget este un instrument de automatizare multifuncțional pentru toate mediile tale.
+    ru_RU: Flexget — это многофункциональный инструмент автоматизации для всех ваших медиафайлов.
+    sk_SK: Flexget je viacúčelový automatizačný nástroj pre všetky vaše médiá.
+    sv_SE: Flexget är ett mångsidigt automatiseringsverktyg för alla dina medier.
+    tr_TR: Flexget, tüm medya işlemleriniz için çok amaçlı bir otomasyon aracıdır.
     zh_CN: FlexGet 是一个适用于各种媒体内容的多用途自动化工具。
+    zh_TW: FlexGet 是一個適用於各種媒體內容的多用途自動化工具。
   tagline:
     en_US: A multipurpose automation tool for all of your media.
+    ca_ES: Una eina d'automatització multiusos per a tots els teus mitjans.
+    cs_CZ: Víceúčelový automatizační nástroj pro všechna vaše média.
+    da_DK: Et alsidigt automatiseringsværktøj til alle dine medier.
+    de_DE: Ein vielseitiges Automatisierungstool für all Ihre Medien.
+    el_GR: Ένα πολυχρηστικό εργαλείο αυτοματισμού για όλα τα πολυμέσα σας.
+    en_GB: A multipurpose automation tool for all of your media.
+    es_ES: Una herramienta de automatización multiusos para todos tus medios.
+    fr_FR: Un outil d'automatisation polyvalent pour tous vos médias.
+    ga_IE: Uirlis uathoibrithe ilchuspóireach do do chuid meán go léir.
+    hr_HR: Višenamjenski alat za automatizaciju za sve vaše medije.
+    hu_HU: Többcélú automatizáló eszköz minden médiatartalmához.
+    it_IT: Uno strumento di automazione multifunzione per tutti i tuoi contenuti multimediali.
+    ja_JP: あらゆるメディアに対応する多目的自動化ツール。
+    ko_KR: 모든 미디어를 위한 다목적 자동화 도구입니다.
+    ml_IN: നിങ്ങളുടെ എല്ലാ മീഡിയയ്ക്കുമുള്ള ഒരു മൾട്ടിപർപ്പസ് ഓട്ടോമേഷൻ ഉപകരണം.
+    nb_NO: Et allsidig automatiseringsverktøy for alle mediene dine.
+    nl_NL: Een multifunctionele automatiseringstool voor al uw media.
+    pl_PL: Wielofunkcyjne narzędzie do automatyzacji wszystkich Twoich multimediów.
+    pt_BR: Uma ferramenta de automação multifuncional para todas as suas mídias.
+    ro_RO: Un instrument de automatizare multifuncțional pentru toate conținuturile tale media.
+    ru_RU: Многофункциональный инструмент автоматизации для всех ваших медиафайлов.
+    sk_SK: Viacúčelový automatizačný nástroj pre všetky vaše médiá.
+    sv_SE: Ett mångsidigt automatiseringsverktyg för alla dina medier.
+    tr_TR: Medya işlemlerinizin tamamı için çok amaçlı bir otomasyon aracı.
     zh_CN: 为各类媒体任务提供自动化。
+    zh_TW: 為各類媒體任務提供自動化。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flexget-banner.png
   title:
     en_US: Flexget (LinuxServer.io)
+    ca_ES: Flexget (LinuxServer.io)
+    cs_CZ: Flexget (LinuxServer.io)
+    da_DK: Flexget (LinuxServer.io)
+    de_DE: Flexget (LinuxServer.io)
+    el_GR: Flexget (LinuxServer.io)
+    en_GB: Flexget (LinuxServer.io)
+    es_ES: Flexget (LinuxServer.io)
+    fr_FR: Flexget (LinuxServer.io)
+    ga_IE: Flexget (LinuxServer.io)
+    hr_HR: Flexget (LinuxServer.io)
+    hu_HU: Flexget (LinuxServer.io)
+    it_IT: Flexget (LinuxServer.io)
+    ja_JP: Flexget (LinuxServer.io)
+    ko_KR: Flexget (LinuxServer.io)
+    ml_IN: Flexget (LinuxServer.io)
+    nb_NO: Flexget (LinuxServer.io)
+    nl_NL: Flexget (LinuxServer.io)
+    pl_PL: Flexget (LinuxServer.io)
+    pt_BR: Flexget (LinuxServer.io)
+    ro_RO: Flexget (LinuxServer.io)
+    ru_RU: Flexget (LinuxServer.io)
+    sk_SK: Flexget (LinuxServer.io)
+    sv_SE: Flexget (LinuxServer.io)
+    tr_TR: Flexget (LinuxServer.io)
     zh_CN: Flexget（LinuxServer.io）
+    zh_TW: Flexget（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverflexget
   port_map: '5050'

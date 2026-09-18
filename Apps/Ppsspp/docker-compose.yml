@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: PPSSPP is a free and open-source PSP emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series and Symbian with a focus on speed and portability.
+    ca_ES: PPSSPP és un emulador de PSP gratuït i de codi obert per a Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series i Symbian, centrat en la velocitat i la portabilitat.
+    cs_CZ: PPSSPP je bezplatný emulátor PSP s otevřeným zdrojovým kódem pro Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series a Symbian se zaměřením na rychlost a přenositelnost.
+    da_DK: PPSSPP er en gratis og open source PSP-emulator til Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series og Symbian med fokus på hastighed og bærbarhed.
+    de_DE: PPSSPP ist ein kostenloser und quelloffener PSP-Emulator für Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series und Symbian mit Fokus auf Geschwindigkeit und Portabilität.
+    el_GR: Το PPSSPP είναι ένας δωρεάν και ανοιχτού κώδικα εξομοιωτής PSP για Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series και Symbian με έμφαση στην ταχύτητα και τη φορητότητα.
+    en_GB: Ppsspp is a free and open-source Psp emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, Blackberry 10, Meego, Pandora, Xbox Series and Symbian with a focus on speed and portability.
+    es_ES: PPSSPP es un emulador de PSP gratuito y de código abierto para Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series y Symbian, centrado en la velocidad y la portabilidad.
+    fr_FR: PPSSPP est un émulateur PSP gratuit et open source pour Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series et Symbian, axé sur la vitesse et la portabilité.
+    ga_IE: Is aithriseoir PSP saor in aisce agus foinse oscailte é PPSSPP do Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series agus Symbian le fócas ar luas agus iniomparthacht.
+    hr_HR: PPSSPP je besplatni emulator PSP-a otvorenog koda za Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandoru, Xbox Series i Symbian s naglaskom na brzinu i prenosivost.
+    hu_HU: A PPSSPP egy ingyenes és nyílt forráskódú PSP emulátor Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series és Symbian rendszerekre, amelynek középpontjában a sebesség és a hordozhatóság áll.
+    it_IT: PPSSPP è un emulatore PSP gratuito e open-source per Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series e Symbian, con particolare attenzione alla velocità e alla portabilità.
+    ja_JP: PPSSPPは、Windows、macOS、Linux、iOS、Android、Nintendo Wii U、Nintendo Switch、BlackBerry 10、MeeGo、Pandora、Xbox Series、Symbianに対応した、速度と携帯性を重視した無料のオープンソースPSPエミュレータです。
+    ko_KR: PPSSPP는 Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series 및 Symbian용 무료 오픈 소스 PSP 에뮬레이터로, 속도와 휴대성에 중점을 두고 있습니다.
+    ml_IN: വേഗതയിലും പോർട്ടബിലിറ്റിയിലും ശ്രദ്ധ കേന്ദ്രീകരിച്ച്, വിൻഡോസ്, മാകോസ്, ലിനക്സ്, ഐഒഎസ്, ആൻഡ്രോയിഡ്, നിൻടെൻഡോ വൈ യു, നിൻടെൻഡോ സ്വിച്ച്, ബ്ലാക്ക്‌ബെറി 10, മീഗോ, പണ്ടോറ, എക്സ്ബോക്സ് സീരീസ്, സിംബിയൻ എന്നിവയ്‌ക്കായുള്ള ഒരു സൗജന്യവും ഓപ്പൺ സോഴ്‌സ് പിഎസ്‌പി എമുലേറ്ററുമാണ് പിപിഎസ്എസ്പിപി.
+    nb_NO: PPSSPP er en gratis og åpen kildekode-PSP-emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series og Symbian med fokus på hastighet og bærbarhet.
+    nl_NL: PPSSPP is een gratis en open-source PSP-emulator voor Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series en Symbian, met de nadruk op snelheid en draagbaarheid.
+    pl_PL: PPSSPP to darmowy i otwartoźródłowy emulator PSP dla systemów Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series i Symbian, kładący nacisk na szybkość i przenośność.
+    pt_BR: O PPSSPP é um emulador de PSP gratuito e de código aberto para Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series e Symbian, com foco em velocidade e portabilidade.
+    ro_RO: PPSSPP este un emulator PSP gratuit și open-source pentru Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series și Symbian, cu accent pe viteză și portabilitate.
+    ru_RU: PPSSPP — это бесплатный эмулятор PSP с открытым исходным кодом для Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series и Symbian, ориентированный на скорость и портативность.
+    sk_SK: PPSSPP je bezplatný emulátor PSP s otvoreným zdrojovým kódom pre Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series a Symbian so zameraním na rýchlosť a prenosnosť.
+    sv_SE: PPSSPP är en gratis och öppen källkodsbaserad PSP-emulator för Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series och Symbian med fokus på hastighet och portabilitet.
+    tr_TR: PPSSPP, hız ve taşınabilirliğe odaklanan, Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series ve Symbian işletim sistemleri için ücretsiz ve açık kaynaklı bir PSP emülatörüdür.
     zh_CN: PPSSPP 是一款免费的开源 PSP 模拟器，支持 Windows、macOS、Linux、iOS、Android、Nintendo Wii U、Nintendo Switch、BlackBerry 10、MeeGo、Pandora、Xbox Series 和 Symbian，重点是速度和可移植性。
+    zh_TW: PPSSPP 是一款免費的開源 PSP 模擬器，支援 Windows、macOS、Linux、iOS、Android、Nintendo Wii U、Nintendo Switch、BlackBerry 10、MeeGo、Pandora、Xbox Series 和 Symbian，重點是速度和可移植性。
   tagline:
     en_US: A free and open-source PSP emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series and Symbian with a focus on speed and portability.
+    ca_ES: Un emulador de PSP gratuït i de codi obert per a Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series i Symbian amb un enfocament en la velocitat i la portabilitat.
+    cs_CZ: Bezplatný emulátor PSP s otevřeným zdrojovým kódem pro Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series a Symbian se zaměřením na rychlost a přenositelnost.
+    da_DK: En gratis og open source PSP-emulator til Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series og Symbian med fokus på hastighed og bærbarhed.
+    de_DE: Ein kostenloser und quelloffener PSP-Emulator für Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series und Symbian mit Fokus auf Geschwindigkeit und Portabilität.
+    el_GR: Ένας δωρεάν και ανοιχτού κώδικα εξομοιωτής PSP για Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series και Symbian με έμφαση στην ταχύτητα και τη φορητότητα.
+    en_GB: A free and open-source Psp emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, Blackberry 10, Meego, Pandora, Xbox Series and Symbian with a focus on speed and portability.
+    es_ES: Un emulador de PSP gratuito y de código abierto para Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series y Symbian, centrado en la velocidad y la portabilidad.
+    fr_FR: Un émulateur PSP gratuit et open source pour Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series et Symbian, axé sur la vitesse et la portabilité.
+    ga_IE: Aithriseoir PSP saor in aisce agus foinse oscailte do Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series agus Symbian le fócas ar luas agus iniomparthacht.
+    hr_HR: Besplatni emulator PSP-a otvorenog koda za Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandoru, Xbox Series i Symbian s naglaskom na brzinu i prenosivost.
+    hu_HU: Ingyenes és nyílt forráskódú PSP emulátor Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series és Symbian rendszerekre, a sebességre és a hordozhatóságra összpontosítva.
+    it_IT: Un emulatore PSP gratuito e open-source per Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series e Symbian, con particolare attenzione alla velocità e alla portabilità.
+    ja_JP: Windows、macOS、Linux、iOS、Android、Nintendo Wii U、Nintendo Switch、BlackBerry 10、MeeGo、Pandora、Xbox Series、Symbianに対応した、速度と携帯性を重視した無料のオープンソースPSPエミュレータです。
+    ko_KR: Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series 및 Symbian에서 사용할 수 있는 무료 오픈 소스 PSP 에뮬레이터로, 속도와 휴대성에 중점을 두었습니다.
+    ml_IN: വേഗതയിലും പോർട്ടബിലിറ്റിയിലും ശ്രദ്ധ കേന്ദ്രീകരിച്ച്, വിൻഡോസ്, മാക്ഒഎസ്, ലിനക്സ്, ഐഒഎസ്, ആൻഡ്രോയിഡ്, നിൻടെൻഡോ വൈ യു, നിൻടെൻഡോ സ്വിച്ച്, ബ്ലാക്ക്‌ബെറി 10, മീഗോ, പാൻഡോറ, എക്സ്ബോക്സ് സീരീസ്, സിംബിയൻ എന്നിവയ്‌ക്കായുള്ള ഒരു സൗജന്യവും ഓപ്പൺ സോഴ്‌സ് പിഎസ്‌പി എമുലേറ്റർ.
+    nb_NO: En gratis og åpen kildekode-PSP-emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series og Symbian med fokus på hastighet og bærbarhet.
+    nl_NL: Een gratis en open-source PSP-emulator voor Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series en Symbian, met de nadruk op snelheid en draagbaarheid.
+    pl_PL: Darmowy i otwartoźródłowy emulator PSP dla systemów Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series i Symbian, kładący nacisk na szybkość i przenośność.
+    pt_BR: Um emulador de PSP gratuito e de código aberto para Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series e Symbian, com foco em velocidade e portabilidade.
+    ro_RO: Un emulator PSP gratuit și open-source pentru Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series și Symbian, cu accent pe viteză și portabilitate.
+    ru_RU: Бесплатный эмулятор PSP с открытым исходным кодом для Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series и Symbian, ориентированный на скорость и портативность.
+    sk_SK: Bezplatný emulátor PSP s otvoreným zdrojovým kódom pre Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series a Symbian so zameraním na rýchlosť a prenosnosť.
+    sv_SE: En gratis och öppen källkods-PSP-emulator för Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series och Symbian med fokus på hastighet och portabilitet.
+    tr_TR: Hız ve taşınabilirliğe odaklanan, Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series ve Symbian işletim sistemleri için ücretsiz ve açık kaynaklı bir PSP emülatörü.
     zh_CN: 注重速度与可移植性的开源 PSP 模拟器。
+    zh_TW: 注重速度與可移植性的開源 PSP 模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ppsspp-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ppsspp-logo.png
   title:
     en_US: Ppsspp (LinuxServer.io)
+    ca_ES: Ppsspp (LinuxServer.io)
+    cs_CZ: Ppsspp (LinuxServer.io)
+    da_DK: Ppsspp (LinuxServer.io)
+    de_DE: Ppsspp (LinuxServer.io)
+    el_GR: Ppsspp (LinuxServer.io)
+    en_GB: Ppsspp (LinuxServer.io)
+    es_ES: Ppsspp (LinuxServer.io)
+    fr_FR: Ppsspp (LinuxServer.io)
+    ga_IE: Ppsspp (LinuxServer.io)
+    hr_HR: Ppsspp (LinuxServer.io)
+    hu_HU: Ppsspp (LinuxServer.io)
+    it_IT: Ppsspp (LinuxServer.io)
+    ja_JP: Ppsspp (LinuxServer.io)
+    ko_KR: Ppsspp (LinuxServer.io)
+    ml_IN: Ppsspp (LinuxServer.io)
+    nb_NO: Ppsspp (LinuxServer.io)
+    nl_NL: Ppsspp (LinuxServer.io)
+    pl_PL: Ppsspp (LinuxServer.io)
+    pt_BR: Ppsspp (LinuxServer.io)
+    ro_RO: Ppsspp (LinuxServer.io)
+    ru_RU: Ppsspp (LinuxServer.io)
+    sk_SK: Ppsspp (LinuxServer.io)
+    sv_SE: Ppsspp (LinuxServer.io)
+    tr_TR: Ppsspp (LinuxServer.io)
     zh_CN: Ppsspp（LinuxServer.io）
+    zh_TW: Ppsspp（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverppsspp
   port_map: '3000'

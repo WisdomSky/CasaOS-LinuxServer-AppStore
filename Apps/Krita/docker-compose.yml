@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.
+    ca_ES: Krita és un programa de pintura professional GRATUÏT i de codi obert. Està fet per artistes que volen veure eines artístiques assequibles per a tothom.
+    cs_CZ: Krita je profesionální BEZPLATNÝ a open source program pro malování. Je vytvořen umělci, kteří chtějí vidět cenově dostupné umělecké nástroje pro každého.
+    da_DK: Krita er et professionelt GRATIS og open source-maleprogram. Det er lavet af kunstnere, der ønsker at se overkommelige kunstværktøjer til alle.
+    de_DE: Krita ist ein professionelles, kostenloses Open-Source-Malprogramm. Es wurde von Künstlern entwickelt, die sich erschwingliche Kunstwerkzeuge für jedermann wünschen.
+    el_GR: Το Krita είναι ένα επαγγελματικό ΔΩΡΕΑΝ και ανοιχτού κώδικα πρόγραμμα ζωγραφικής. Δημιουργήθηκε από καλλιτέχνες που θέλουν να δουν οικονομικά εργαλεία τέχνης για όλους.
+    en_GB: Krita is a professional Free and open source painting program. It is made by artists that want to see affordable art tools for everyone.
+    es_ES: Krita es un programa de pintura profesional, gratuito y de código abierto. Fue creado por artistas que desean que las herramientas artísticas sean accesibles para todos.
+    fr_FR: Krita est un logiciel de peinture professionnel, gratuit et libre de droits. Il a été créé par des artistes soucieux de rendre les outils artistiques accessibles à tous.
+    ga_IE: Is clár péintéireachta gairmiúil SAOR IN AISCE agus foinse oscailte é Krita. Tá sé déanta ag ealaíontóirí ar mian leo uirlisí ealaíne inacmhainne a fheiceáil do gach duine.
+    hr_HR: Krita je profesionalni BESPLATNI program za slikanje otvorenog koda. Izradili su ga umjetnici koji žele vidjeti pristupačne umjetničke alate za sve.
+    hu_HU: A Krita egy professzionális, INGYENES és nyílt forráskódú festőprogram. Olyan művészek készítették, akik megfizethető művészeti eszközöket szeretnének látni mindenki számára.
+    it_IT: Krita è un programma di pittura professionale GRATUITO e open source. È stato creato da artisti che desiderano rendere gli strumenti artistici accessibili a tutti.
+    ja_JP: Kritaは、プロ仕様の無料オープンソースペイントソフトです。誰もが手頃な価格で使える画材ツールを提供したいというアーティストたちの願いから開発されました。
+    ko_KR: Krita는 전문가용 무료 오픈 소스 그림 프로그램입니다. 누구나 부담 없이 미술 도구를 사용할 수 있기를 바라는 예술가들이 만들었습니다.
+    ml_IN: കൃത ഒരു പ്രൊഫഷണൽ സൗജന്യവും ഓപ്പൺ സോഴ്‌സ് പെയിന്റിംഗ് പ്രോഗ്രാമാണ്. എല്ലാവർക്കും താങ്ങാനാവുന്ന വിലയിൽ കലാ ഉപകരണങ്ങൾ കാണാൻ ആഗ്രഹിക്കുന്ന കലാകാരന്മാരാണ് ഇത് നിർമ്മിച്ചിരിക്കുന്നത്.
+    nb_NO: Krita er et profesjonelt GRATIS og åpen kildekode-malerprogram. Det er laget av kunstnere som ønsker å se rimelige kunstverktøy for alle.
+    nl_NL: Krita is een professioneel, gratis en open source tekenprogramma. Het is gemaakt door kunstenaars die betaalbare tekenprogramma's voor iedereen beschikbaar willen maken.
+    pl_PL: Krita to profesjonalny, BEZPŁATNY i otwarty program do malowania. Został stworzony przez artystów, którzy chcą mieć niedrogie narzędzia artystyczne dla każdego.
+    pt_BR: O Krita é um programa de pintura profissional, GRATUITO e de código aberto. Ele foi criado por artistas que desejam que todos tenham acesso a ferramentas de arte acessíveis.
+    ro_RO: Krita este un program profesional de pictură GRATUIT și open source. Este creat de artiști care își doresc instrumente artistice accesibile tuturor.
+    ru_RU: Krita — это профессиональная БЕСПЛАТНАЯ программа для рисования с открытым исходным кодом. Она создана художниками, которые хотят, чтобы инструменты для творчества были доступны каждому.
+    sk_SK: Krita je profesionálny BEZPLATNÝ a open source program na maľovanie. Vytvorili ho umelci, ktorí chcú vidieť cenovo dostupné umelecké nástroje pre každého.
+    sv_SE: Krita är ett professionellt GRATIS och öppen källkodsprogram för målning. Det är skapat av konstnärer som vill se prisvärda konstverktyg för alla.
+    tr_TR: Krita, profesyonel, ÜCRETSİZ ve açık kaynaklı bir resim programıdır. Herkes için uygun fiyatlı sanat araçları görmek isteyen sanatçılar tarafından geliştirilmiştir.
     zh_CN: Krita 是一款专业、免费、开源的绘画软件，由希望让所有人都能获得价格可负担的艺术工具的艺术家开发。
+    zh_TW: Krita 是一款專業、免費、開源的繪畫軟體，由希望讓所有人都能獲得價格可負擔的藝術工具的藝術家開發。
   tagline:
     en_US: A professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.
+    ca_ES: Un programa de pintura professional GRATUÏT i de codi obert. Està fet per artistes que volen veure eines artístiques assequibles per a tothom.
+    cs_CZ: Profesionální BEZPLATNÝ a open source program pro malování. Je vytvořen umělci, kteří chtějí vidět cenově dostupné umělecké nástroje pro každého.
+    da_DK: Et professionelt GRATIS og open source-maleprogram. Det er lavet af kunstnere, der ønsker at se overkommelige kunstværktøjer til alle.
+    de_DE: Ein professionelles, kostenloses Open-Source-Malprogramm. Es wurde von Künstlern entwickelt, die sich erschwingliche Kunstwerkzeuge für jedermann wünschen.
+    el_GR: Ένα επαγγελματικό ΔΩΡΕΑΝ και ανοιχτού κώδικα πρόγραμμα ζωγραφικής. Δημιουργήθηκε από καλλιτέχνες που θέλουν να δουν οικονομικά εργαλεία τέχνης για όλους.
+    en_GB: A professional Free and open source painting program. It is made by artists that want to see affordable art tools for everyone.
+    es_ES: Un programa de pintura profesional, gratuito y de código abierto. Creado por artistas que desean que las herramientas artísticas sean accesibles para todos.
+    fr_FR: Un logiciel de peinture professionnel, gratuit et libre de droits. Il est conçu par des artistes soucieux de rendre les outils artistiques accessibles à tous.
+    ga_IE: Clár péintéireachta gairmiúil SAOR IN AISCE agus foinse oscailte. Tá sé déanta ag ealaíontóirí ar mian leo uirlisí ealaíne inacmhainne a fheiceáil do gach duine.
+    hr_HR: Profesionalni BESPLATNI program za slikanje otvorenog koda. Izradili su ga umjetnici koji žele vidjeti pristupačne umjetničke alate za sve.
+    hu_HU: Egy professzionális, INGYENES és nyílt forráskódú festőprogram. Olyan művészek készítették, akik megfizethető művészeti eszközöket szeretnének látni mindenki számára.
+    it_IT: Un programma di pittura professionale, GRATUITO e open source. È stato creato da artisti che desiderano rendere gli strumenti artistici accessibili a tutti.
+    ja_JP: プロ仕様の無料オープンソースペイントソフト。誰もが手頃な価格で使える画材ツールを求めるアーティストたちによって開発されました。
+    ko_KR: 전문적인 무료 오픈 소스 그림 프로그램입니다. 누구나 부담 없이 사용할 수 있는 미술 도구를 만들고 싶어하는 예술가들이 개발했습니다.
+    ml_IN: ഒരു പ്രൊഫഷണൽ സൗജന്യവും ഓപ്പൺ സോഴ്‌സ് പെയിന്റിംഗ് പ്രോഗ്രാം. എല്ലാവർക്കും താങ്ങാനാവുന്ന വിലയിൽ കലാ ഉപകരണങ്ങൾ കാണാൻ ആഗ്രഹിക്കുന്ന കലാകാരന്മാരാണ് ഇത് നിർമ്മിച്ചിരിക്കുന്നത്.
+    nb_NO: Et profesjonelt GRATIS og åpen kildekode-malerprogram. Det er laget av kunstnere som ønsker å se rimelige kunstverktøy for alle.
+    nl_NL: Een professioneel, GRATIS en open source tekenprogramma. Het is gemaakt door kunstenaars die betaalbare tekengereedschappen voor iedereen beschikbaar willen maken.
+    pl_PL: Profesjonalny, darmowy i otwarty program do malowania. Stworzony przez artystów, którzy chcą mieć niedrogie narzędzia artystyczne dla każdego.
+    pt_BR: Um programa de pintura profissional, GRATUITO e de código aberto. Foi criado por artistas que desejam ferramentas de arte acessíveis a todos.
+    ro_RO: Un program profesional de pictură GRATUIT și open source. Este creat de artiști care își doresc instrumente artistice accesibile pentru toată lumea.
+    ru_RU: Профессиональная БЕСПЛАТНАЯ программа для рисования с открытым исходным кодом. Она создана художниками, которые хотят, чтобы инструменты для творчества были доступны каждому.
+    sk_SK: Profesionálny BEZPLATNÝ a open source program na maľovanie. Vytvorili ho umelci, ktorí chcú vidieť cenovo dostupné umelecké nástroje pre každého.
+    sv_SE: Ett professionellt GRATIS och öppen källkodsprogram för målning. Det är skapat av konstnärer som vill se prisvärda konstverktyg för alla.
+    tr_TR: Profesyonel, ÜCRETSİZ ve açık kaynaklı bir resim programı. Herkesin uygun fiyatlı sanat araçlarına sahip olmasını isteyen sanatçılar tarafından geliştirilmiştir.
     zh_CN: 为艺术家打造的免费开源绘画软件。
+    zh_TW: 為藝術家打造的免費開源繪畫軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/krita-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/krita-logo.png
   title:
     en_US: Krita (LinuxServer.io)
+    ca_ES: Krita (LinuxServer.io)
+    cs_CZ: Krita (LinuxServer.io)
+    da_DK: Krita (LinuxServer.io)
+    de_DE: Krita (LinuxServer.io)
+    el_GR: Krita (LinuxServer.io)
+    en_GB: Krita (LinuxServer.io)
+    es_ES: Krita (LinuxServer.io)
+    fr_FR: Krita (LinuxServer.io)
+    ga_IE: Krita (LinuxServer.io)
+    hr_HR: Krita (LinuxServer.io)
+    hu_HU: Krita (LinuxServer.io)
+    it_IT: Krita (LinuxServer.io)
+    ja_JP: Krita (LinuxServer.io)
+    ko_KR: Krita (LinuxServer.io)
+    ml_IN: Krita (LinuxServer.io)
+    nb_NO: Krita (LinuxServer.io)
+    nl_NL: Krita (LinuxServer.io)
+    pl_PL: Krita (LinuxServer.io)
+    pt_BR: Krita (LinuxServer.io)
+    ro_RO: Krita (LinuxServer.io)
+    ru_RU: Krita (LinuxServer.io)
+    sk_SK: Krita (LinuxServer.io)
+    sv_SE: Krita (LinuxServer.io)
+    tr_TR: Krita (LinuxServer.io)
     zh_CN: Krita（LinuxServer.io）
+    zh_TW: Krita（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkrita
   port_map: '3000'

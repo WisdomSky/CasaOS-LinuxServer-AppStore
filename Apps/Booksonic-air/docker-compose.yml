@@ -58,9 +58,62 @@ x-casaos:
       Booksonic 让你随时随地访问自己拥有的有声书。平台目前包括：Booksonic Air，用于串流有声书的服务器，是原 Booksonic 服务器的继任者，基于 Airsonic；以及 Booksonic App，基于 DSub 的 Android 应用，用于连接 Booksonic Air 服务器。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/booksonic-air/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    es_ES: 'Visita la página principal: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    fr_FR: "Consultez la page d'accueil\_: https://hub.docker.com/r/linuxserver/booksonic-air/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/booksonic-air/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/booksonic-air/'
+    zh_TW: |-
+      Booksonic 讓你隨時隨地訪問自己擁有的有聲書。平臺目前包括：Booksonic Air，用於串流有聲書的伺服器，是原 Booksonic 伺服器的繼任者，基於 Airsonic；以及 Booksonic App，基於 DSub 的 Android 應用，用於連線 Booksonic Air 伺服器。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/booksonic-air/
   tagline:
     en_US: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.'
     zh_CN: 随时随地收听自己的有声书。
+    ca_ES: 'Una plataforma per accedir als audiollibres que tens allà on siguis. Actualment, la plataforma consta de: * Booksonic Air: un servidor per a la transmissió en temps real dels teus audiollibres, successor del servidor original de Booksonic i basat en Airsonic. * Booksonic App: una aplicació per a Android basada en DSub per connectar-se als servidors de Booksonic-Air.'
+    cs_CZ: 'Platforma pro přístup k audioknihám, které vlastníte, ať jste kdekoli. V současné době platforma zahrnuje: * Booksonic Air – server pro streamování audioknih, nástupce původního serveru Booksonic a založený na platformě Airsonic. * Booksonic App – aplikaci pro Android založenou na DSub pro připojení k serverům Booksonic-Air.'
+    da_DK: 'En platform til adgang til de lydbøger, du ejer, uanset hvor du er. I øjeblikket består platformen af: * Booksonic Air - En server til streaming af dine lydbøger, efterfølgeren til den originale Booksonic-server og baseret på Airsonic. * Booksonic App - En DSub-baseret Android-app til forbindelse til Booksonic-Air-servere.'
+    de_DE: 'Eine Plattform, mit der Sie überall auf Ihre Hörbücher zugreifen können. Aktuell besteht die Plattform aus: * Booksonic Air – Ein Server zum Streamen Ihrer Hörbücher, Nachfolger des ursprünglichen Booksonic-Servers und basierend auf Airsonic. * Booksonic App – Eine DSub-basierte Android-App zur Verbindung mit Booksonic-Air-Servern.'
+    el_GR: 'Μια πλατφόρμα για πρόσβαση στα ηχητικά βιβλία που έχετε στην κατοχή σας όπου κι αν βρίσκεστε. Προς το παρόν, η πλατφόρμα αποτελείται από: * Booksonic Air - Ένας διακομιστής για τη ροή των ηχητικών βιβλίων σας, διάδοχος του αρχικού διακομιστή Booksonic και βασισμένος στον Airsonic. * Booksonic App - Μια εφαρμογή Android που βασίζεται σε DSub για σύνδεση με τους διακομιστές Booksonic-Air.'
+    en_GB: 'A platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An Dsub based Android app for connection to Booksonic-Air servers.'
+    es_ES: 'Una plataforma para acceder a tus audiolibros estés donde estés. Actualmente, la plataforma consta de: * Booksonic Air: un servidor para reproducir tus audiolibros en streaming, sucesor del servidor Booksonic original y basado en Airsonic. * Aplicación Booksonic: una aplicación para Android basada en D-Sub para conectarse a los servidores Booksonic-Air.'
+    fr_FR: "Une plateforme pour accéder à vos livres audio où que vous soyez. Actuellement, la plateforme comprend\_: * Booksonic Air\_: un serveur de streaming pour vos livres audio, successeur du serveur Booksonic original et basé sur Airsonic. * L’application Booksonic\_: une application Android basée sur DSub pour la connexion aux serveurs Booksonic Air."
+    ga_IE: 'Ardán chun rochtain a fháil ar do chlosleabhair is cuma cén áit a bhfuil tú. Faoi láthair, is iad seo a leanas na nithe seo a leanas atá san ardán: * Booksonic Air - Freastalaí chun do chlosleabhair a shruthú, comharba ar an bhfreastalaí bunaidh Booksonic agus bunaithe ar Airsonic. * Aip Booksonic - Aip Android bunaithe ar DSub chun ceangal le freastalaithe Booksonic-Air.'
+    hr_HR: 'Platforma za pristup audioknjigama koje posjedujete gdje god se nalazili. Trenutno se platforma sastoji od: * Booksonic Air - Poslužitelja za streaming audioknjiga, nasljednika izvornog Booksonic poslužitelja i temeljenog na Airsonicu. * Booksonic App - Android aplikacije temeljene na DSub-u za povezivanje s Booksonic-Air poslužiteljima.'
+    hu_HU: 'Egy platform, ahol bárhol hozzáférhetsz a hangoskönyveidhez. Jelenleg a platform a következőket tartalmazza: * Booksonic Air - Egy szerver a hangoskönyveid streameléséhez, az eredeti Booksonic szerver utódja, az Airsonicon alapul. * Booksonic alkalmazás - Egy DSub alapú Android alkalmazás a Booksonic-Air szervereihez való csatlakozáshoz.'
+    it_IT: 'Una piattaforma per accedere agli audiolibri di tua proprietà ovunque ti trovi. Al momento la piattaforma è composta da: * Booksonic Air - Un server per lo streaming dei tuoi audiolibri, successore del server Booksonic originale e basato su Airsonic. * Booksonic App - Un''app Android basata su DSub per la connessione ai server Booksonic-Air.'
+    ja_JP: どこにいても所有しているオーディオブックにアクセスできるプラットフォーム。現在、このプラットフォームは以下の要素で構成されています。* Booksonic Air - オーディオブックをストリーミングするためのサーバー。オリジナルの Booksonic サーバーの後継であり、Airsonic をベースにしています。* Booksonic App - Booksonic-Air サーバーに接続するための DSub ベースの Android アプリ。
+    ko_KR: 어디에 있든 소유하고 있는 오디오북에 액세스할 수 있는 플랫폼입니다. 현재 플랫폼은 다음과 같이 구성되어 있습니다. * Booksonic Air - 오디오북 스트리밍 서버로, 기존 Booksonic 서버의 후속 버전이며 Airsonic을 기반으로 합니다. * Booksonic 앱 - Booksonic-Air 서버에 연결하기 위한 DSub 기반 Android 앱입니다.
+    ml_IN: 'നിങ്ങൾ എവിടെയായിരുന്നാലും നിങ്ങളുടെ കൈവശമുള്ള ഓഡിയോബുക്കുകൾ ആക്‌സസ് ചെയ്യുന്നതിനുള്ള ഒരു പ്ലാറ്റ്‌ഫോം. നിലവിൽ പ്ലാറ്റ്‌ഫോമിൽ ഇവ ഉൾപ്പെടുന്നു: * ബുക്ക്‌സോണിക് എയർ - നിങ്ങളുടെ ഓഡിയോബുക്കുകൾ സ്ട്രീം ചെയ്യുന്നതിനുള്ള ഒരു സെർവർ, യഥാർത്ഥ ബുക്ക്‌സോണിക് സെർവറിന്റെ പിൻഗാമിയും എയർസോണിക് അടിസ്ഥാനമാക്കിയുള്ളതുമാണ്. * ബുക്ക്‌സോണിക് ആപ്പ് - ബുക്ക്‌സോണിക്-എയർ സെർവറുകളുമായി ബന്ധിപ്പിക്കുന്നതിനുള്ള ഒരു DSub അധിഷ്ഠിത Android ആപ്പ്.'
+    nb_NO: 'En plattform for tilgang til lydbøkene du eier uansett hvor du er. For øyeblikket består plattformen av: * Booksonic Air – En server for strømming av lydbøkene dine, etterfølgeren til den originale Booksonic-serveren og basert på Airsonic. * Booksonic App – En DSub-basert Android-app for tilkobling til Booksonic-Air-servere.'
+    nl_NL: 'Een platform waarmee je overal toegang hebt tot je audioboeken. Momenteel bestaat het platform uit: * Booksonic Air - Een server voor het streamen van je audioboeken, de opvolger van de originele Booksonic-server en gebaseerd op Airsonic. * Booksonic App - Een op DSub gebaseerde Android-app voor verbinding met Booksonic-Air-servers.'
+    pl_PL: 'Platforma umożliwiająca dostęp do audiobooków, które posiadasz, gdziekolwiek jesteś. Obecnie platforma składa się z: * Booksonic Air – serwera do strumieniowego przesyłania audiobooków, następcy oryginalnego serwera Booksonic i opartego na Airsonic. * Booksonic App – aplikacji na Androida opartej na DSub, umożliwiającej połączenie z serwerami Booksonic-Air.'
+    pt_BR: 'Uma plataforma para acessar seus audiolivros onde quer que você esteja. No momento, a plataforma consiste em: * Booksonic Air - Um servidor para streaming de seus audiolivros, sucessor do servidor Booksonic original e baseado em Airsonic. * Aplicativo Booksonic - Um aplicativo Android baseado em DSub para conexão com os servidores Booksonic-Air.'
+    ro_RO: 'O platformă pentru accesarea cărților audio pe care le dețineți oriunde v-ați afla. În prezent, platforma este formată din: * Booksonic Air - Un server pentru redarea în flux a cărților audio, succesorul serverului original Booksonic și bazat pe Airsonic. * Booksonic App - O aplicație Android bazată pe DSub pentru conectarea la serverele Booksonic-Air.'
+    ru_RU: 'Платформа для доступа к вашим аудиокнигам, где бы вы ни находились. В настоящее время платформа включает в себя: * Booksonic Air — сервер для потоковой передачи ваших аудиокниг, преемник оригинального сервера Booksonic и основанный на Airsonic. * Приложение Booksonic — Android-приложение на основе DSub для подключения к серверам Booksonic-Air.'
+    sk_SK: 'Platforma pre prístup k audioknihám, ktoré vlastníte, nech ste kdekoľvek. Momentálne platforma pozostáva z: * Booksonic Air – servera na streamovanie audiokníh, nástupcu pôvodného servera Booksonic a založeného na Airsonicu. * Booksonic App – aplikácie pre Android založenej na DSub na pripojenie k serverom Booksonic-Air.'
+    sv_SE: 'En plattform för att komma åt dina ljudböcker var du än befinner dig. För närvarande består plattformen av: * Booksonic Air - En server för att streama dina ljudböcker, efterföljare till den ursprungliga Booksonic-servern och baserad på Airsonic. * Booksonic App - En DSub-baserad Android-app för anslutning till Booksonic-Air-servrar.'
+    tr_TR: 'Sahip olduğunuz sesli kitaplara nerede olursanız olun erişmenizi sağlayan bir platform. Şu anda platform şunlardan oluşmaktadır: * Booksonic Air - Sesli kitaplarınızı yayınlamak için kullanılan, orijinal Booksonic sunucusunun halefi ve Airsonic tabanlı bir sunucu. * Booksonic Uygulaması - Booksonic-Air sunucularına bağlanmak için DSub tabanlı bir Android uygulaması.'
+    zh_TW: 隨時隨地收聽自己的有聲書。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png
@@ -68,6 +121,31 @@ x-casaos:
   title:
     en_US: Booksonic air
     zh_CN: Booksonic air
+    ca_ES: Booksonic air
+    cs_CZ: Booksonic air
+    da_DK: Booksonic air
+    de_DE: Booksonic air
+    el_GR: Booksonic air
+    en_GB: Booksonic air
+    es_ES: Booksonic air
+    fr_FR: Booksonic air
+    ga_IE: Booksonic air
+    hr_HR: Booksonic air
+    hu_HU: Booksonic air
+    it_IT: Booksonic air
+    ja_JP: Booksonic air
+    ko_KR: Booksonic air
+    ml_IN: Booksonic air
+    nb_NO: Booksonic air
+    nl_NL: Booksonic air
+    pl_PL: Booksonic air
+    pt_BR: Booksonic air
+    ro_RO: Booksonic air
+    ru_RU: Booksonic air
+    sk_SK: Booksonic air
+    sv_SE: Booksonic air
+    tr_TR: Booksonic air
+    zh_TW: Booksonic air
   category: Others
   project_url: https://booksonic.org/
   port_map: '4040'

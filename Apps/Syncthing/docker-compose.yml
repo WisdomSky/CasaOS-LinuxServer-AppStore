@@ -48,17 +48,92 @@ x-casaos:
   main: app
   description:
     en_US: Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+    ca_ES: Syncthing substitueix la sincronització propietaris i els serveis al núvol per quelcom obert, fiable i descentralitzat. Les teves dades són només teves i tu mereixes triar on s'emmagatzemen, si es comparteixen amb tercers i com es transmeten per Internet.
+    cs_CZ: Syncthing nahrazuje proprietární synchronizační a cloudové služby něčím otevřeným, důvěryhodným a decentralizovaným. Vaše data jsou jen vaše data a vy si zasloužíte vybrat, kde budou uložena, zda budou sdílena s nějakou třetí stranou a jak budou přenášena přes internet.
+    da_DK: Syncthing erstatter proprietære synkroniserings- og cloudtjenester med noget åbent, troværdigt og decentraliseret. Dine data er kun dine data, og du har ret til at vælge, hvor de gemmes, om de deles med tredjeparter, og hvordan de overføres over internettet.
+    de_DE: Syncthing ersetzt proprietäre Synchronisierungs- und Cloud-Dienste durch eine offene, vertrauenswürdige und dezentrale Lösung. Ihre Daten gehören Ihnen allein, und Sie entscheiden, wo sie gespeichert werden, ob sie an Dritte weitergegeben werden und wie sie über das Internet übertragen werden.
+    el_GR: Το Synching αντικαθιστά τις ιδιόκτητες υπηρεσίες συγχρονισμού και cloud με κάτι ανοιχτό, αξιόπιστο και αποκεντρωμένο. Τα δεδομένα σας είναι αποκλειστικά δικά σας δεδομένα και εσείς αξίζετε να επιλέξετε πού θα αποθηκευτούν, αν θα κοινοποιηθούν σε τρίτους και πώς θα μεταδοθούν μέσω του Διαδικτύου.
+    en_GB: Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralised. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+    es_ES: Syncthing reemplaza los servicios de sincronización y en la nube propietarios con una solución abierta, confiable y descentralizada. Tus datos son solo tuyos y tienes derecho a elegir dónde se almacenan, si se comparten con terceros y cómo se transmiten por internet.
+    fr_FR: Syncthing remplace les services propriétaires de synchronisation et de cloud par une solution ouverte, fiable et décentralisée. Vos données vous appartiennent et vous avez le droit de choisir où elles sont stockées, si elles sont partagées avec des tiers et comment elles transitent sur Internet.
+    ga_IE: Cuireann Syncthing rud éigin oscailte, iontaofa agus díláraithe in ionad seirbhísí sioncrónaithe agus scamall dílseánaigh. Is iad do shonraí féin do shonraí féin agus is tusa atá freagrach as a roghnú cá háit a stóráiltear iad, an roinnfear iad le tríú páirtí agus conas a tharchuirtear iad thar an Idirlíon.
+    hr_HR: Syncthing zamjenjuje vlasničke usluge sinkronizacije i oblaka nečim otvorenim, pouzdanim i decentraliziranim. Vaši podaci su samo vaši podaci i zaslužujete odabrati gdje će se pohraniti, hoće li se dijeliti s nekom trećom stranom i kako će se prenositi putem interneta.
+    hu_HU: A Syncthing a saját fejlesztésű szinkronizálási és felhőszolgáltatásokat valami nyílt, megbízható és decentralizált megoldással helyettesíti. Az adataid kizárólag a te adataid, és neked kell eldöntened, hogy hol tároljuk őket, megosztjuk-e őket harmadik féllel, és hogyan továbbítjuk azokat az interneten keresztül.
+    it_IT: Syncthing sostituisce i servizi di sincronizzazione e cloud proprietari con una soluzione aperta, affidabile e decentralizzata. I tuoi dati sono solo tuoi e hai il diritto di scegliere dove vengono archiviati, se vengono condivisi con terze parti e come vengono trasmessi su Internet.
+    ja_JP: Syncthingは、独自の同期サービスやクラウドサービスを、オープンで信頼性が高く、分散型のサービスに置き換えます。あなたのデータはあなただけのものです。データの保存場所、第三者との共有の有無、インターネット上での送信方法など、すべてあなたが選択する権利があります。
+    ko_KR: Syncthing은 독점적인 동기화 및 클라우드 서비스를 개방적이고 신뢰할 수 있으며 탈중앙화된 시스템으로 대체합니다. 사용자의 데이터는 오롯이 사용자의 소유이며, 데이터 저장 위치, 제3자 공유 여부, 인터넷 전송 방식 등을 직접 선택할 권리가 있습니다.
+    ml_IN: സിങ്ക്തിംഗ് എന്നത് പ്രൊപ്രൈറ്ററി സിങ്ക്, ക്ലൗഡ് സേവനങ്ങൾ എന്നിവയ്ക്ക് പകരം തുറന്നതും വിശ്വസനീയവും വികേന്ദ്രീകൃതവുമായ ഒന്ന് സ്ഥാപിക്കുന്നു. നിങ്ങളുടെ ഡാറ്റ നിങ്ങളുടെ മാത്രമാണ്, അത് എവിടെ സൂക്ഷിക്കണമെന്നും, മൂന്നാം കക്ഷിയുമായി പങ്കിടണമെന്നും, ഇന്റർനെറ്റിലൂടെ എങ്ങനെ കൈമാറ്റം ചെയ്യണമെന്നും നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കാൻ അർഹതയുണ്ട്.
+    nb_NO: Syncthing erstatter proprietære synkroniserings- og skytjenester med noe åpent, pålitelig og desentralisert. Dine data er dine data alene, og du fortjener å velge hvor de lagres, om de deles med en tredjepart og hvordan de overføres over Internett.
+    nl_NL: Syncthing vervangt propriëtaire synchronisatie- en clouddiensten door een open, betrouwbare en gedecentraliseerde oplossing. Uw gegevens zijn van u en u heeft het recht om te kiezen waar ze worden opgeslagen, of ze worden gedeeld met derden en hoe ze via internet worden verzonden.
+    pl_PL: Syncthing zastępuje zastrzeżone usługi synchronizacji i chmury czymś otwartym, godnym zaufania i zdecentralizowanym. Twoje dane należą tylko do Ciebie i masz prawo decydować, gdzie będą przechowywane, czy będą udostępniane osobom trzecim i jak będą przesyłane przez internet.
+    pt_BR: O Syncthing substitui os serviços proprietários de sincronização e nuvem por uma solução aberta, confiável e descentralizada. Seus dados são exclusivamente seus e você merece escolher onde eles são armazenados, se serão compartilhados com terceiros e como serão transmitidos pela internet.
+    ro_RO: Syncthing înlocuiește sincronizarea proprietară și serviciile cloud cu ceva deschis, de încredere și descentralizat. Datele tale sunt doar ale tale și meriți să alegi unde sunt stocate, dacă sunt partajate cu o terță parte și cum sunt transmise prin internet.
+    ru_RU: Syncthing заменяет проприетарные сервисы синхронизации и облачные сервисы на что-то открытое, заслуживающее доверия и децентрализованное. Ваши данные — это только ваши данные, и вы имеете право выбирать, где они хранятся, передаются ли третьим лицам и как они передаются через Интернет.
+    sk_SK: Syncthing nahrádza proprietárne synchronizačné a cloudové služby niečím otvoreným, dôveryhodným a decentralizovaným. Vaše údaje sú len vaše údaje a vy si zaslúžite vybrať, kde budú uložené, či budú zdieľané s nejakou treťou stranou a ako budú prenášané cez internet.
+    sv_SE: Syncthing ersätter proprietära synkroniserings- och molntjänster med något öppet, pålitligt och decentraliserat. Dina data är dina data och du förtjänar att välja var de lagras, om de delas med någon tredje part och hur de överförs över internet.
+    tr_TR: Syncthing, tescilli senkronizasyon ve bulut hizmetlerinin yerini açık, güvenilir ve merkeziyetsiz bir şeyle değiştiriyor. Verileriniz yalnızca size aittir ve nerede saklanacağına, üçüncü bir tarafla paylaşılıp paylaşılmayacağına ve internet üzerinden nasıl iletileceğine siz karar verme hakkına sahipsiniz.
     zh_CN: Syncthing 以开放、可信、去中心化的方式替代专有同步和云服务。你的数据应由你自己掌控，包括存储位置、是否与第三方共享，以及如何通过互联网传输。
+    zh_TW: Syncthing 以開放、可信、去中心化的方式替代專有同步和雲服務。你的資料應由你自己掌控，包括儲存位置、是否與第三方共享，以及如何透過網際網路傳輸。
   tagline:
     en_US: Replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+    ca_ES: Substitueix la sincronització propietaris i els serveis al núvol per quelcom obert, fiable i descentralitzat. Les teves dades són només teves i tu mereixes triar on s'emmagatzemen, si es comparteixen amb tercers i com es transmeten per Internet.
+    cs_CZ: Nahrazuje proprietární synchronizační a cloudové služby něčím otevřeným, důvěryhodným a decentralizovaným. Vaše data jsou jen vaše data a vy si zasloužíte vybrat, kde budou uložena, zda budou sdílena s nějakou třetí stranou a jak budou přenášena přes internet.
+    da_DK: Erstatter proprietære synkroniserings- og cloudtjenester med noget åbent, troværdigt og decentraliseret. Dine data er kun dine data, og du har ret til at vælge, hvor de gemmes, om de deles med tredjeparter, og hvordan de overføres via internettet.
+    de_DE: Ersetzt proprietäre Synchronisierungs- und Cloud-Dienste durch eine offene, vertrauenswürdige und dezentrale Lösung. Ihre Daten gehören Ihnen allein, und Sie haben das Recht zu entscheiden, wo sie gespeichert werden, ob sie an Dritte weitergegeben werden und wie sie über das Internet übertragen werden.
+    el_GR: Αντικαθιστά τις ιδιόκτητες υπηρεσίες συγχρονισμού και cloud με κάτι ανοιχτό, αξιόπιστο και αποκεντρωμένο. Τα δεδομένα σας είναι αποκλειστικά δικά σας δεδομένα και εσείς αξίζετε να επιλέξετε πού θα αποθηκευτούν, αν θα κοινοποιηθούν σε τρίτους και πώς θα μεταδοθούν μέσω του Διαδικτύου.
+    en_GB: Replaces proprietary sync and cloud services with something open, trustworthy and decentralised. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+    es_ES: Sustituye los servicios de sincronización y en la nube propietarios por una solución abierta, fiable y descentralizada. Tus datos son solo tuyos y tienes derecho a elegir dónde se almacenan, si se comparten con terceros y cómo se transmiten por internet.
+    fr_FR: Ce système remplace les services propriétaires de synchronisation et de cloud par une solution ouverte, fiable et décentralisée. Vos données vous appartiennent et vous avez le droit de choisir où elles sont stockées, si elles sont partagées avec des tiers et comment elles transitent sur Internet.
+    ga_IE: Cuireann sé rud éigin oscailte, iontaofa agus díláraithe in ionad sioncrónaithe dílseánaigh agus seirbhísí scamall. Is iad do shonraí féin do shonraí féin agus is tusa atá freagrach as a roghnú cá háit a stóráiltear iad, an roinnfear iad le tríú páirtí agus conas a tharchuirfear iad thar an Idirlíon.
+    hr_HR: Zamjenjuje vlasničku sinkronizaciju i usluge u oblaku nečim otvorenim, pouzdanim i decentraliziranim. Vaši podaci su samo vaši podaci i zaslužujete birati gdje će se pohraniti, hoće li se dijeliti s nekom trećom stranom i kako će se prenositi putem interneta.
+    hu_HU: A zárt szinkronizációt és felhőszolgáltatásokat valami nyílt, megbízható és decentralizált megoldással helyettesíti. Az adataid kizárólag a te adataid, és neked kell eldöntened, hogy hol tároljuk őket, megosztjuk-e őket harmadik féllel, és hogyan továbbítjuk azokat az interneten keresztül.
+    it_IT: Sostituisce i servizi di sincronizzazione e cloud proprietari con qualcosa di aperto, affidabile e decentralizzato. I tuoi dati sono solo tuoi e hai il diritto di scegliere dove vengono archiviati, se vengono condivisi con terze parti e come vengono trasmessi su Internet.
+    ja_JP: 独自の同期サービスやクラウドサービスを、オープンで信頼性が高く、分散型のサービスに置き換えます。あなたのデータはあなただけのものです。データの保存場所、第三者との共有の有無、インターネット上での送信方法など、すべてあなたが選択する権利があります。
+    ko_KR: 독점적인 동기화 및 클라우드 서비스를 개방적이고 신뢰할 수 있으며 분산된 시스템으로 대체합니다. 귀하의 데이터는 오직 귀하의 것이며, 데이터 저장 위치, 제3자 공유 여부, 인터넷을 통한 전송 방식 등을 직접 선택할 권리가 있습니다.
+    ml_IN: പ്രൊപ്രൈറ്ററി സിങ്ക്, ക്ലൗഡ് സേവനങ്ങൾ എന്നിവ തുറന്നതും വിശ്വസനീയവും വികേന്ദ്രീകൃതവുമായ ഒന്ന് ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കുന്നു. നിങ്ങളുടെ ഡാറ്റ നിങ്ങളുടെ മാത്രമാണ്, അത് എവിടെ സൂക്ഷിക്കണമെന്നും, മൂന്നാം കക്ഷിയുമായി പങ്കിടണമെന്നും, ഇന്റർനെറ്റിലൂടെ എങ്ങനെ കൈമാറ്റം ചെയ്യണമെന്നും തിരഞ്ഞെടുക്കാൻ നിങ്ങൾക്ക് അർഹതയുണ്ട്.
+    nb_NO: Erstatter proprietære synkroniserings- og skytjenester med noe åpent, pålitelig og desentralisert. Dine data er dine data alene, og du fortjener å velge hvor de lagres, om de deles med en tredjepart og hvordan de overføres over Internett.
+    nl_NL: Vervangt propriëtaire synchronisatie- en clouddiensten door iets open, betrouwbaars en gedecentraliseerds. Uw gegevens zijn van u en u heeft het recht om te kiezen waar ze worden opgeslagen, of ze worden gedeeld met derden en hoe ze via internet worden verzonden.
+    pl_PL: Zastępuje zastrzeżone usługi synchronizacji i chmury czymś otwartym, godnym zaufania i zdecentralizowanym. Twoje dane należą tylko do Ciebie i masz prawo decydować, gdzie będą przechowywane, czy będą udostępniane osobom trzecim i jak będą przesyłane przez internet.
+    pt_BR: Substitui serviços proprietários de sincronização e nuvem por algo aberto, confiável e descentralizado. Seus dados são seus e somente seus, e você merece escolher onde eles são armazenados, se serão compartilhados com terceiros e como serão transmitidos pela internet.
+    ro_RO: Înlocuiește sincronizarea proprietară și serviciile cloud cu ceva deschis, de încredere și descentralizat. Datele tale sunt doar ale tale și meriți să alegi unde sunt stocate, dacă sunt partajate cu o terță parte și cum sunt transmise prin internet.
+    ru_RU: Заменяет проприетарные сервисы синхронизации и облачные сервисы на что-то открытое, заслуживающее доверия и децентрализованное. Ваши данные — это только ваши данные, и вы имеете право выбирать, где они хранятся, передаются ли третьим лицам и как они передаются через Интернет.
+    sk_SK: Nahrádza proprietárne synchronizačné a cloudové služby niečím otvoreným, dôveryhodným a decentralizovaným. Vaše údaje sú len vaše údaje a vy si zaslúžite vybrať, kde budú uložené, či budú zdieľané s nejakou treťou stranou a ako budú prenášané cez internet.
+    sv_SE: Ersätter proprietära synkroniserings- och molntjänster med något öppet, pålitligt och decentraliserat. Dina data är dina data och du förtjänar att välja var de lagras, om de delas med någon tredje part och hur de överförs över internet.
+    tr_TR: Tescilli senkronizasyon ve bulut hizmetlerinin yerini açık, güvenilir ve merkeziyetsiz bir şeyle değiştirir. Verileriniz yalnızca size aittir ve nerede saklanacağına, üçüncü bir tarafla paylaşılıp paylaşılmayacağına ve internet üzerinden nasıl iletileceğine karar verme hakkına sahipsiniz.
     zh_CN: 开放、可信、去中心化的文件同步工具。
+    zh_TW: 開放、可信、去中心化的檔案同步工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png
   title:
     en_US: Syncthing (LinuxServer.io)
+    ca_ES: Syncthing (LinuxServer.io)
+    cs_CZ: Syncthing (LinuxServer.io)
+    da_DK: Syncthing (LinuxServer.io)
+    de_DE: Syncthing (LinuxServer.io)
+    el_GR: Syncthing (LinuxServer.io)
+    en_GB: Syncthing (LinuxServer.io)
+    es_ES: Syncthing (LinuxServer.io)
+    fr_FR: Syncthing (LinuxServer.io)
+    ga_IE: Syncthing (LinuxServer.io)
+    hr_HR: Syncthing (LinuxServer.io)
+    hu_HU: Syncthing (LinuxServer.io)
+    it_IT: Syncthing (LinuxServer.io)
+    ja_JP: Syncthing (LinuxServer.io)
+    ko_KR: Syncthing (LinuxServer.io)
+    ml_IN: Syncthing (LinuxServer.io)
+    nb_NO: Syncthing (LinuxServer.io)
+    nl_NL: Syncthing (LinuxServer.io)
+    pl_PL: Syncthing (LinuxServer.io)
+    pt_BR: Syncthing (LinuxServer.io)
+    ro_RO: Syncthing (LinuxServer.io)
+    ru_RU: Syncthing (LinuxServer.io)
+    sk_SK: Syncthing (LinuxServer.io)
+    sv_SE: Syncthing (LinuxServer.io)
+    tr_TR: Syncthing (LinuxServer.io)
     zh_CN: Syncthing（LinuxServer.io）
+    zh_TW: Syncthing（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversyncthing
   version: 2.1.5

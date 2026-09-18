@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Webgrabplus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+    ca_ES: Webgrabplus és un capturador EPG XMLTV incremental multisite. Recull dades de guies de programes de televisió de llocs web seleccionats per als vostres canals preferits.
+    cs_CZ: Webgrabplus je vícestránkový inkrementální program pro získávání EPG ve formátu XML. Shromažďuje data televizních programů z vybraných stránek s televizními programy pro vaše oblíbené kanály.
+    da_DK: Webgrabplus er en inkrementel xmltv epg-grabber til flere websteder. Den indsamler tv-programguidedata fra udvalgte tv-guidewebsteder for dine yndlingskanaler.
+    de_DE: Webgrabplus ist ein Multi-Site-Incremental-XMLTV-EPG-Grabber. Er sammelt TV-Programmführerdaten von ausgewählten TV-Guide-Websites für Ihre Lieblingssender.
+    el_GR: Το Webgrabplus είναι ένα πρόγραμμα συλλογής epg xmltv με δυνατότητα σταδιακής καταγραφής πολλαπλών τοποθεσιών. Συλλέγει δεδομένα οδηγών τηλεοπτικών προγραμμάτων από επιλεγμένους ιστότοπους tvguide για τα αγαπημένα σας κανάλια.
+    en_GB: Webgrabplus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+    es_ES: Webgrabplus es un extractor incremental de guías de programación XMLTV para múltiples sitios. Recopila datos de guías de programación de televisión de sitios web seleccionados para tus canales favoritos.
+    fr_FR: Webgrabplus est un outil de récupération incrémentale des guides des programmes TV (EPG) XMLTV multi-sites. Il collecte les données des guides des programmes TV de sites sélectionnés pour vos chaînes préférées.
+    ga_IE: Is greimitheoir epg xmltv incriminteach ilshuíomh é Webgrabplus. Bailíonn sé sonraí treoirchlár teilifíse ó shuíomhanna treoirchlár teilifíse roghnaithe do do chainéil is fearr leat.
+    hr_HR: Webgrabplus je inkrementalni xmltv EPG grabber s više web-mjesta. Prikuplja podatke TV vodiča s odabranih web-mjesta s TV vodičima za vaše omiljene kanale.
+    hu_HU: A Webgrabplus egy többoldalas, inkrementális xmltv epg grabber. TV-műsorújság adatokat gyűjt a kiválasztott tv-műsorújság oldalakról a kedvenc csatornáidhoz.
+    it_IT: Webgrabplus è un programma incrementale multi-sito per l'acquisizione di EPG TV in formato XML. Raccoglie i dati della guida ai programmi TV da siti selezionati per i tuoi canali preferiti.
+    ja_JP: Webgrabplusは、複数のサイトから増分的にXMLTV EPGデータを収集するツールです。お気に入りのチャンネルのテレビ番組表データを、選択したテレビ番組表サイトから収集します。
+    ko_KR: Webgrabplus는 여러 사이트를 대상으로 XML TV EPG 데이터를 점진적으로 수집하는 프로그램입니다. 사용자가 선호하는 채널의 TV 프로그램 가이드 데이터를 선택한 TV 가이드 사이트에서 수집합니다.
+    ml_IN: വെബ്‌ഗ്രാബ്പ്ലസ് ഒരു മൾട്ടി-സൈറ്റ് ഇൻക്രിമെന്റൽ എക്സ്എംഎൽടിവി എപിജി ഗ്രാബറാണ്. നിങ്ങളുടെ പ്രിയപ്പെട്ട ചാനലുകൾക്കായി തിരഞ്ഞെടുത്ത ടിവിഗൈഡ് സൈറ്റുകളിൽ നിന്ന് ടിവി-പ്രോഗ്രാം ഗൈഡ് ഡാറ്റ ഇത് ശേഖരിക്കുന്നു.
+    nb_NO: Webgrabplus er en flersidet inkrementell xmltv epg-grabber. Den samler inn TV-programguidedata fra utvalgte TV-guidenettsteder for favorittkanalene dine.
+    nl_NL: Webgrabplus is een incrementele XMLTV EPG-grabber voor meerdere websites. Het verzamelt tv-programmagidsgegevens van geselecteerde tv-gidswebsites voor uw favoriete zenders.
+    pl_PL: Webgrabplus to wielostanowiskowy, przyrostowy program do przechwytywania EPG XMLTV. Gromadzi dane z przewodnika telewizyjnego z wybranych serwisów TVGuide dla Twoich ulubionych kanałów.
+    pt_BR: O Webgrabplus é um programa para coletar dados de guias de programação (EPG) incrementais de vários sites usando XMLTV. Ele coleta dados de guias de programação de sites selecionados para seus canais favoritos.
+    ro_RO: Webgrabplus este un instrument de captare incrementală a ghidurilor de programe TV (EPG) XMLTV, multi-site. Acesta colectează date despre ghidurile de programe TV de pe site-uri TVguide selectate pentru canalele tale preferate.
+    ru_RU: Webgrabplus — это многосайтовый инкрементальный граббер XML-телепрограмм с телегидом для ваших любимых каналов. Он собирает данные телепрограммы с выбранных сайтов телегида.
+    sk_SK: Webgrabplus je viacstránkový inkrementálny program na získavanie EPPG vo formáte XML. Zbiera dáta televíznych programov z vybraných stránok s TV sprievodcami pre vaše obľúbené kanály.
+    sv_SE: Webgrabplus är en flerkanalig inkrementell xmltv epg-grabber. Den samlar in tv-programguidedata från utvalda tv-guidesajter för dina favoritkanaler.
+    tr_TR: Webgrabplus, çoklu site artımlı XMLTV EPG veri toplama aracıdır. Seçtiğiniz TV rehberi sitelerinden favori kanallarınız için TV program rehberi verilerini toplar.
     zh_CN: WebGrab+Plus 是一个支持多站点的增量 XMLTV 电子节目指南采集器，可从选定的电视节目网站收集你喜欢的频道的节目信息。
+    zh_TW: WebGrab+Plus 是一個支援多站點的增量 XMLTV 電子節目指南採集器，可從選定的電視節目網站收集你喜歡的頻道的節目資訊。
   tagline:
     en_US: A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+    ca_ES: Un capturador EPG XMLTV incremental multisite. Recull dades de guies de programes de televisió de llocs web seleccionats per als vostres canals preferits.
+    cs_CZ: Vícestránkový inkrementální program pro získávání EPG dat v XML. Shromažďuje data televizních programů z vybraných stránek s televizními programy pro vaše oblíbené kanály.
+    da_DK: En trinvis xmltv epg-grabber til flere websteder. Den indsamler tv-programguidedata fra udvalgte tv-guidewebsteder for dine yndlingskanaler.
+    de_DE: Ein Multi-Site-Incremental-XMLTV-EPG-Grabber. Er sammelt TV-Programmführerdaten von ausgewählten TV-Guide-Websites für Ihre Lieblingssender.
+    el_GR: Ένα πρόγραμμα συλλογής epg xmltv με δυνατότητα σταδιακής μετατροπής σε πολλαπλές τοποθεσίες. Συλλέγει δεδομένα οδηγών τηλεοπτικών προγραμμάτων από επιλεγμένους ιστότοπους tvguide για τα αγαπημένα σας κανάλια.
+    en_GB: A multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.
+    es_ES: Un extractor incremental de guías de programación XMLTV para múltiples sitios. Recopila datos de guías de programación de televisión de sitios web seleccionados para tus canales favoritos.
+    fr_FR: Un outil de récupération incrémentale des guides des programmes TV (EPG) XMLTV multi-sites. Il collecte les données des guides des programmes TV de sites sélectionnés pour vos chaînes préférées.
+    ga_IE: Greamaire epg xmltv incriminteach ilshuíomh. Bailíonn sé sonraí treoirchlár teilifíse ó shuíomhanna treoirchlár teilifíse roghnaithe do do chainéil is fearr leat.
+    hr_HR: Višestranični inkrementalni xmltv EPG grabber. Prikuplja podatke TV vodiča s odabranih stranica s TV vodičima za vaše omiljene kanale.
+    hu_HU: Többoldalas, inkrementális xmltv epg grabber. TV-műsorújság adatokat gyűjt a kiválasztott tv-műsorújság oldalakról a kedvenc csatornáidhoz.
+    it_IT: Un programma per l'acquisizione incrementale di EPG (guida ai programmi TV) da più siti web in formato XML. Raccoglie i dati della guida ai programmi TV da siti selezionati per i tuoi canali preferiti.
+    ja_JP: 複数のサイトに対応した増分型XMLTV EPGグラバー。お気に入りのチャンネルのテレビ番組表データを、選択したTVガイドサイトから収集します。
+    ko_KR: 여러 사이트에서 XML TV EPG를 점진적으로 수집하는 프로그램입니다. 사용자가 선호하는 채널의 TV 프로그램 가이드 데이터를 선택한 TV 가이드 사이트에서 수집합니다.
+    ml_IN: ഒരു മൾട്ടി-സൈറ്റ് ഇൻക്രിമെന്റൽ എക്സ്എംഎൽടിവി എപിജി ഗ്രാബർ. നിങ്ങളുടെ പ്രിയപ്പെട്ട ചാനലുകൾക്കായി തിരഞ്ഞെടുത്ത ടിവിഗൈഡ് സൈറ്റുകളിൽ നിന്ന് ടിവി-പ്രോഗ്രാം ഗൈഡ് ഡാറ്റ ഇത് ശേഖരിക്കുന്നു.
+    nb_NO: En flersidet inkrementell xmltv epg-grabber. Den samler inn TV-programguidedata fra utvalgte TV-guidenettsteder for favorittkanalene dine.
+    nl_NL: Een incrementele XMLTV EPG-grabber voor meerdere websites. Deze verzamelt tv-programmagidsgegevens van geselecteerde tv-gidswebsites voor uw favoriete zenders.
+    pl_PL: Wielostanowiskowy, przyrostowy program do przechwytywania EPG XMLTV. Gromadzi dane z przewodnika telewizyjnego z wybranych serwisów TVGuide dla Twoich ulubionych kanałów.
+    pt_BR: Um coletor incremental de EPG XMLTV para múltiplos sites. Ele coleta dados de guias de programação de TV de sites selecionados para seus canais favoritos.
+    ro_RO: Un instrument de captare incrementală a ghidurilor de programe TV (EPG) XMLTV pentru mai multe site-uri. Colectează date despre ghidurile de programe TV de pe site-uri TVguide selectate pentru canalele tale preferate.
+    ru_RU: Многосайтовый инкрементальный граббер XMLTV EPG. Он собирает данные телепрограммы с выбранных сайтов телепрограмм для ваших любимых каналов.
+    sk_SK: Viacstránkový inkrementálny program na získavanie EPG vo formáte XML. Zbiera údaje o televíznych programoch z vybraných stránok s TV sprievodcami pre vaše obľúbené kanály.
+    sv_SE: En flerkanalig inkrementell xmltv epg-grabber. Den samlar in tv-programguidedata från utvalda tv-guidesajter för dina favoritkanaler.
+    tr_TR: Çoklu site üzerinden artımlı XMLTV EPG veri toplama aracı. Seçtiğiniz TV rehberi sitelerinden favori kanallarınız için TV program rehberi verilerini toplar.
     zh_CN: 从多个电视节目网站增量采集 XMLTV 节目指南。
+    zh_TW: 從多個電視節目網站增量採集 XMLTV 節目指南。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg
   thumbnail: https://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg
   title:
     en_US: Webgrabplus (LinuxServer.io)
+    ca_ES: Webgrabplus (LinuxServer.io)
+    cs_CZ: Webgrabplus (LinuxServer.io)
+    da_DK: Webgrabplus (LinuxServer.io)
+    de_DE: Webgrabplus (LinuxServer.io)
+    el_GR: Webgrabplus (LinuxServer.io)
+    en_GB: Webgrabplus (LinuxServer.io)
+    es_ES: Webgrabplus (LinuxServer.io)
+    fr_FR: Webgrabplus (LinuxServer.io)
+    ga_IE: Webgrabplus (LinuxServer.io)
+    hr_HR: Webgrabplus (LinuxServer.io)
+    hu_HU: Webgrabplus (LinuxServer.io)
+    it_IT: Webgrabplus (LinuxServer.io)
+    ja_JP: Webgrabplus (LinuxServer.io)
+    ko_KR: Webgrabplus (LinuxServer.io)
+    ml_IN: Webgrabplus (LinuxServer.io)
+    nb_NO: Webgrabplus (LinuxServer.io)
+    nl_NL: Webgrabplus (LinuxServer.io)
+    pl_PL: Webgrabplus (LinuxServer.io)
+    pt_BR: Webgrabplus (LinuxServer.io)
+    ro_RO: Webgrabplus (LinuxServer.io)
+    ru_RU: Webgrabplus (LinuxServer.io)
+    sk_SK: Webgrabplus (LinuxServer.io)
+    sv_SE: Webgrabplus (LinuxServer.io)
+    tr_TR: Webgrabplus (LinuxServer.io)
     zh_CN: Webgrabplus（LinuxServer.io）
+    zh_TW: Webgrabplus（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebgrabplus
   port_map: '80'

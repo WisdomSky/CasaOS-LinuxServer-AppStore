@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Bitcoin Knots can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    ca_ES: Bitcoin Knots es pot utilitzar com a client d'escriptori per a pagaments regulars o com a utilitat de servidor de node complet per a comerciants i altres serveis de pagament.
+    cs_CZ: Bitcoin Knots lze použít jako desktopového klienta pro běžné platby nebo jako plnohodnotný node serverový nástroj pro obchodníky a další platební služby.
+    da_DK: Bitcoin Knots kan bruges som en desktopklient til regelmæssige betalinger eller som et komplet nodeserverværktøj til handlende og andre betalingstjenester.
+    de_DE: Bitcoin Knots kann als Desktop-Client für reguläre Zahlungen oder als Full-Node-Server-Utility für Händler und andere Zahlungsdienste verwendet werden.
+    el_GR: Το Bitcoin Knots μπορεί να χρησιμοποιηθεί ως επιτραπέζιος υπολογιστής-πελάτης για τακτικές πληρωμές ή ως πλήρες βοηθητικό πρόγραμμα διακομιστή κόμβων για εμπόρους και άλλες υπηρεσίες πληρωμών.
+    en_GB: Bitcoin Knots can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    es_ES: Bitcoin Knots se puede utilizar como cliente de escritorio para pagos regulares o como una utilidad de servidor de nodo completo para comerciantes y otros servicios de pago.
+    fr_FR: Bitcoin Knots peut être utilisé comme client de bureau pour les paiements réguliers ou comme serveur de nœud complet pour les commerçants et autres services de paiement.
+    ga_IE: Is féidir Bitcoin Knots a úsáid mar chliant deisce le haghaidh íocaíochtaí rialta nó mar fhóntas freastalaí nód iomlán do thrádálaithe agus do sheirbhísí íocaíochta eile.
+    hr_HR: Bitcoin Knots se može koristiti kao desktop klijent za redovna plaćanja ili kao potpuni uslužni program za node server za trgovce i druge platne usluge.
+    hu_HU: A Bitcoin Knots használható asztali kliensként rendszeres fizetésekhez, vagy teljes értékű csomópont-kiszolgáló segédprogramként kereskedők és más fizetési szolgáltatások számára.
+    it_IT: Bitcoin Knots può essere utilizzato come client desktop per i pagamenti tradizionali o come server nodo completo per commercianti e altri servizi di pagamento.
+    ja_JP: Bitcoin Knotsは、通常の支払いのためのデスクトップクライアントとして、または加盟店やその他の決済サービス向けのフルノードサーバーユーティリティとして使用できます。
+    ko_KR: Bitcoin Knots는 일반 결제를 위한 데스크톱 클라이언트로 사용하거나 판매자 및 기타 결제 서비스를 위한 풀 노드 서버 유틸리티로 사용할 수 있습니다.
+    ml_IN: പതിവ് പേയ്‌മെന്റുകൾക്കായി ഒരു ഡെസ്‌ക്‌ടോപ്പ് ക്ലയന്റായോ അല്ലെങ്കിൽ വ്യാപാരികൾക്കും മറ്റ് പേയ്‌മെന്റ് സേവനങ്ങൾക്കുമുള്ള ഒരു പൂർണ്ണ നോഡ് സെർവർ യൂട്ടിലിറ്റിയായോ ബിറ്റ്‌കോയിൻ നോട്ട്സ് ഉപയോഗിക്കാം.
+    nb_NO: Bitcoin Knots kan brukes som en skrivebordsklient for vanlige betalinger eller som et komplett nodeserververktøy for selgere og andre betalingstjenester.
+    nl_NL: Bitcoin Knots kan worden gebruikt als desktopclient voor reguliere betalingen of als een volwaardige node-server voor handelaars en andere betaaldiensten.
+    pl_PL: Bitcoin Knots można używać jako klienta stacjonarnego do regularnych płatności lub jako pełnoprawnego narzędzia serwerowego dla sprzedawców i innych usług płatniczych.
+    pt_BR: O Bitcoin Knots pode ser usado como um cliente de desktop para pagamentos regulares ou como um utilitário de servidor completo para comerciantes e outros serviços de pagamento.
+    ro_RO: Bitcoin Knots poate fi folosit ca client desktop pentru plăți regulate sau ca utilitar complet pentru serverul de noduri pentru comercianți și alte servicii de plată.
+    ru_RU: Bitcoin Knots можно использовать как настольный клиент для обычных платежей или как полнофункциональную серверную утилиту для продавцов и других платежных сервисов.
+    sk_SK: Bitcoin Knots sa dá použiť ako desktopový klient pre pravidelné platby alebo ako plnohodnotný nástroj pre uzlový server pre obchodníkov a iné platobné služby.
+    sv_SE: Bitcoin Knots kan användas som en skrivbordsklient för regelbundna betalningar eller som ett komplett nodserververktyg för handlare och andra betalningstjänster.
+    tr_TR: Bitcoin Knots, normal ödemeler için masaüstü istemcisi olarak veya satıcılar ve diğer ödeme hizmetleri için tam teşekküllü bir düğüm sunucu aracı olarak kullanılabilir.
     zh_CN: Bitcoin Knots 可作为桌面客户端用于日常支付，也可作为全节点服务器工具为商户和其他支付服务提供支持。
+    zh_TW: Bitcoin Knots 可作為桌面客戶端用於日常支付，也可作為全節點伺服器工具為商戶和其他支付服務提供支援。
   tagline:
     en_US: Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    ca_ES: Es pot utilitzar com a client d'escriptori per a pagaments regulars o com a utilitat de servidor de node complet per a comerciants i altres serveis de pagament.
+    cs_CZ: Lze jej použít jako desktopového klienta pro běžné platby nebo jako plnohodnotný serverový nástroj pro obchodníky a další platební služby.
+    da_DK: Kan bruges som en desktopklient til regelmæssige betalinger eller som et komplet nodeserverværktøj til handlende og andre betalingstjenester.
+    de_DE: Kann als Desktop-Client für reguläre Zahlungen oder als vollständiges Node-Server-Dienstprogramm für Händler und andere Zahlungsdienste verwendet werden.
+    el_GR: Μπορεί να χρησιμοποιηθεί ως επιτραπέζιος υπολογιστής-πελάτης για τακτικές πληρωμές ή ως πλήρες βοηθητικό πρόγραμμα διακομιστή κόμβων για εμπόρους και άλλες υπηρεσίες πληρωμών.
+    en_GB: Can be used as a desktop client for regular payments or as a full node server utility for merchants and other payment services.
+    es_ES: Puede utilizarse como cliente de escritorio para pagos regulares o como una utilidad de servidor de nodo completo para comerciantes y otros servicios de pago.
+    fr_FR: Peut être utilisé comme client de bureau pour les paiements réguliers ou comme serveur complet pour les commerçants et autres services de paiement.
+    ga_IE: Is féidir é a úsáid mar chliant deisce le haghaidh íocaíochtaí rialta nó mar fhóntas freastalaí nóid iomlán do cheannaithe agus do sheirbhísí íocaíochta eile.
+    hr_HR: Može se koristiti kao desktop klijent za redovna plaćanja ili kao potpuni uslužni program node servera za trgovce i druge platne usluge.
+    hu_HU: Használható asztali kliensként rendszeres fizetésekhez, vagy teljes értékű csomópont-kiszolgáló segédprogramként kereskedők és más fizetési szolgáltatások számára.
+    it_IT: Può essere utilizzato come client desktop per i pagamenti standard o come server Node completo per commercianti e altri servizi di pagamento.
+    ja_JP: 通常の決済用のデスクトップクライアントとして、または加盟店やその他の決済サービス向けのフルノードサーバーユーティリティとして使用できます。
+    ko_KR: 일반 결제를 위한 데스크톱 클라이언트로 사용하거나, 가맹점 및 기타 결제 서비스를 위한 완전한 노드 서버 유틸리티로 사용할 수 있습니다.
+    ml_IN: പതിവ് പേയ്‌മെന്റുകൾക്കായി ഒരു ഡെസ്‌ക്‌ടോപ്പ് ക്ലയന്റായോ അല്ലെങ്കിൽ വ്യാപാരികൾക്കും മറ്റ് പേയ്‌മെന്റ് സേവനങ്ങൾക്കുമുള്ള ഒരു പൂർണ്ണ നോഡ് സെർവർ യൂട്ടിലിറ്റിയായോ ഉപയോഗിക്കാം.
+    nb_NO: Kan brukes som en skrivebordsklient for vanlige betalinger eller som et komplett nodeserververktøy for selgere og andre betalingstjenester.
+    nl_NL: Kan worden gebruikt als desktopclient voor reguliere betalingen of als volwaardig serverprogramma voor webwinkels en andere betaaldiensten.
+    pl_PL: Można go używać jako klienta stacjonarnego do regularnych płatności lub jako pełnoprawnego serwera węzłowego dla sprzedawców i innych usług płatniczych.
+    pt_BR: Pode ser usado como um cliente de desktop para pagamentos regulares ou como um utilitário de servidor Node completo para comerciantes e outros serviços de pagamento.
+    ro_RO: Poate fi folosit ca client desktop pentru plăți regulate sau ca utilitar server cu nod complet pentru comercianți și alte servicii de plată.
+    ru_RU: Может использоваться как настольный клиент для обычных платежей или как полноценная серверная утилита для продавцов и других платежных сервисов.
+    sk_SK: Môže byť použitý ako desktopový klient pre pravidelné platby alebo ako plnohodnotný nástroj pre uzlový server pre obchodníkov a iné platobné služby.
+    sv_SE: Kan användas som en skrivbordsklient för regelbundna betalningar eller som ett komplett nodserververktyg för handlare och andra betaltjänster.
+    tr_TR: Hem normal ödemeler için masaüstü istemcisi olarak, hem de satıcılar ve diğer ödeme hizmetleri için tam teşekküllü bir Node.js sunucu aracı olarak kullanılabilir.
     zh_CN: 用于日常支付或商户服务的比特币客户端。
+    zh_TW: 用於日常支付或商戶服務的比特幣客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bitcoin-knots-logo.png
   title:
     en_US: Bitcoin knots (LinuxServer.io)
+    ca_ES: Bitcoin knots (LinuxServer.io)
+    cs_CZ: Bitcoin knots (LinuxServer.io)
+    da_DK: Bitcoin knots (LinuxServer.io)
+    de_DE: Bitcoin knots (LinuxServer.io)
+    el_GR: Bitcoin knots (LinuxServer.io)
+    en_GB: Bitcoin knots (LinuxServer.io)
+    es_ES: Bitcoin knots (LinuxServer.io)
+    fr_FR: Bitcoin knots (LinuxServer.io)
+    ga_IE: Bitcoin knots (LinuxServer.io)
+    hr_HR: Bitcoin knots (LinuxServer.io)
+    hu_HU: Bitcoin knots (LinuxServer.io)
+    it_IT: Bitcoin knots (LinuxServer.io)
+    ja_JP: Bitcoin knots (LinuxServer.io)
+    ko_KR: Bitcoin knots (LinuxServer.io)
+    ml_IN: Bitcoin knots (LinuxServer.io)
+    nb_NO: Bitcoin knots (LinuxServer.io)
+    nl_NL: Bitcoin knots (LinuxServer.io)
+    pl_PL: Bitcoin knots (LinuxServer.io)
+    pt_BR: Bitcoin knots (LinuxServer.io)
+    ro_RO: Bitcoin knots (LinuxServer.io)
+    ru_RU: Bitcoin knots (LinuxServer.io)
+    sk_SK: Bitcoin knots (LinuxServer.io)
+    sv_SE: Bitcoin knots (LinuxServer.io)
+    tr_TR: Bitcoin knots (LinuxServer.io)
     zh_CN: Bitcoin knots（LinuxServer.io）
+    zh_TW: Bitcoin knots（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbitcoinknots
   port_map: '3000'

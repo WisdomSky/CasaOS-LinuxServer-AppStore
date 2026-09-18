@@ -58,9 +58,59 @@ x-casaos:
   description:
     en_US: SteamOS is an Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern AMD/Intel GPUs on a real Linux Host
     zh_CN: SteamOS 是 Valve Software 开发的基于 Arch 的 Linux 发行版。此容器提供原生 Arch 安装，并加入 Steam 软件仓库以支持相关软件。它仅能在配备现代 AMD 或 Intel GPU 的真实 Linux 主机上运行。
+    ca_ES: SteamOS és una distribució de Linux basada en Arch creada per Valve Software. Aquest contenidor és una instal·lació estàndard d'Arch amb repositoris de Steam afegits per a la compatibilitat amb programari. Aquest contenidor només funcionarà amb GPU AMD/Intel modernes en un host Linux real.
+    cs_CZ: SteamOS je linuxová distribuce založená na Archu od společnosti Valve Software. Tento kontejner je základní instalace Archu s přidanými repozitáři Steam pro softwarovou podporu. Tento kontejner bude fungovat pouze s moderními grafickými kartami AMD/Intel na skutečném Linuxovém hostiteli.
+    da_DK: SteamOS er en Arch-baseret Linux-distribution lavet af Valve Software. Denne container er en standard Arch-installation med tilføjede Steam-repositories til softwaresupport. Denne container fungerer kun med moderne AMD/Intel GPU'er på en rigtig Linux-vært.
+    de_DE: SteamOS ist eine auf Arch Linux basierende Distribution von Valve Software. Dieser Container ist eine Standardinstallation von Arch Linux mit zusätzlichen Steam-Repositories für Softwareunterstützung. Er funktioniert nur mit modernen AMD/Intel-Grafikkarten auf einem echten Linux-Hostsystem.
+    el_GR: Το SteamOS είναι μια διανομή Linux που βασίζεται στο Arch και δημιουργήθηκε από την Valve Software. Αυτό το container είναι μια απλή εγκατάσταση του Arch με αποθετήρια Steam για υποστήριξη λογισμικού. Αυτό το container θα λειτουργεί μόνο με σύγχρονες GPU AMD/Intel σε έναν πραγματικό κεντρικό υπολογιστή Linux.
+    en_GB: Steamos is an Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern Amd/Intel Gpus on a real Linux Host
+    es_ES: SteamOS es una distribución de Linux basada en Arch, creada por Valve Software. Este contenedor es una instalación estándar de Arch con los repositorios de Steam añadidos para la compatibilidad con software. Este contenedor solo funcionará con GPU modernas de AMD/Intel en un host Linux real.
+    fr_FR: SteamOS est une distribution Linux basée sur Arch, développée par Valve Software. Ce conteneur est une installation Arch standard à laquelle ont été ajoutés les dépôts Steam pour la prise en charge des logiciels. Ce conteneur fonctionnera uniquement avec les GPU AMD/Intel modernes sur un véritable hôte Linux.
+    ga_IE: Is dáileadh Linux bunaithe ar Arch é SteamOS arna dhéanamh ag Valve Software. Is suiteáil vanilla Arch é an coimeádán seo le stórtha Steam curtha leis chun tacú le bogearraí. Ní oibreoidh an coimeádán seo ach le GPUanna nua-aimseartha AMD/Intel ar Óstach Linux fíor.
+    hr_HR: SteamOS je Linux distribucija temeljena na Archu koju je izradio Valve Software. Ovaj kontejner je obična Arch instalacija s dodanim Steam repozitorijima za softversku podršku. Ovaj kontejner će raditi samo s modernim AMD/Intel GPU-ima na pravom Linux hostu.
+    hu_HU: A SteamOS egy Arch alapú Linux disztribúció, amelyet a Valve Software készített. Ez a konténer egy hagyományos Arch telepítés, amelyhez Steam repository-k is hozzáadhatók a szoftvertámogatás érdekében. Ez a konténer csak modern AMD/Intel GPU-kkal fog működni egy valódi Linux hoszton.
+    it_IT: SteamOS è una distribuzione Linux basata su Arch Linux, creata da Valve Software. Questo container è un'installazione standard di Arch con l'aggiunta dei repository di Steam per il supporto software. Questo container funzionerà solo con GPU AMD/Intel moderne su un vero sistema host Linux.
+    ja_JP: SteamOSは、Valve Softwareが開発したArchベースのLinuxディストリビューションです。このコンテナは、ソフトウェアサポートのためにSteamリポジトリを追加した、標準的なArchインストールです。このコンテナは、実際のLinuxホスト上の最新のAMD/Intel GPUでのみ動作します。
+    ko_KR: SteamOS는 Valve Software에서 제작한 Arch 기반 Linux 배포판입니다. 이 컨테이너는 소프트웨어 지원을 위해 Steam 저장소가 추가된 기본 Arch 설치 환경입니다. 이 컨테이너는 최신 AMD/Intel GPU가 탑재된 실제 Linux 호스트에서만 작동합니다.
+    ml_IN: വാൽവ് സോഫ്റ്റ്‌വെയർ നിർമ്മിച്ച ഒരു ആർച്ച് അധിഷ്ഠിത ലിനക്സ് വിതരണമാണ് സ്റ്റീംഒഎസ്. സോഫ്റ്റ്‌വെയർ പിന്തുണയ്ക്കായി സ്റ്റീം റിപ്പോസിറ്ററികൾ ചേർത്തിട്ടുള്ള ഒരു വാനില ആർച്ച് ഇൻസ്റ്റാളാണ് ഈ കണ്ടെയ്നർ. യഥാർത്ഥ ലിനക്സ് ഹോസ്റ്റിലെ ആധുനിക എഎംഡി/ഇന്റൽ ജിപിയുകളിൽ മാത്രമേ ഈ കണ്ടെയ്നർ പ്രവർത്തിക്കൂ.
+    nb_NO: SteamOS er en Arch-basert Linux-distribusjon laget av Valve Software. Denne containeren er en vanlig Arch-installasjon med Steam-repositorier lagt til for programvarestøtte. Denne containeren vil bare fungere med moderne AMD/Intel GPU-er på en ekte Linux-vert.
+    nl_NL: SteamOS is een op Arch gebaseerde Linux-distributie, ontwikkeld door Valve Software. Deze container is een standaard Arch-installatie met toegevoegde Steam-repositories voor softwareondersteuning. Deze container werkt alleen met moderne AMD/Intel GPU's op een echte Linux-host.
+    pl_PL: SteamOS to dystrybucja Linuksa oparta na Arch, stworzona przez Valve Software. Ten kontener to zwykła instalacja Arch z dodanymi repozytoriami Steam w celu zapewnienia wsparcia dla oprogramowania. Kontener będzie działał tylko z nowoczesnymi kartami graficznymi AMD/Intel na prawdziwym hoście Linux.
+    pt_BR: SteamOS é uma distribuição Linux baseada em Arch, criada pela Valve Software. Este contêiner é uma instalação padrão do Arch com os repositórios do Steam adicionados para suporte a softwares. Este contêiner funcionará apenas com GPUs AMD/Intel modernas em um host Linux real.
+    ro_RO: SteamOS este o distribuție Linux bazată pe Arch, creată de Valve Software. Acest container este o instalare Arch standard cu repozitorii Steam adăugate pentru suport software. Acest container va funcționa doar cu GPU-uri AMD/Intel moderne pe o gazdă Linux reală.
+    ru_RU: SteamOS — это дистрибутив Linux на основе Arch, разработанный компанией Valve Software. Этот контейнер представляет собой стандартную установку Arch с добавленными репозиториями Steam для поддержки программного обеспечения. Этот контейнер будет работать только с современными видеокартами AMD/Intel на реальном хосте Linux.
+    sk_SK: SteamOS je distribúcia Linuxu založená na Arche od spoločnosti Valve Software. Tento kontajner je základná inštalácia Archu s pridanými repozitármi Steam pre softvérovú podporu. Tento kontajner bude fungovať iba s modernými grafickými kartami AMD/Intel na skutočnom hostiteľskom systéme Linux.
+    sv_SE: SteamOS är en Arch-baserad Linuxdistribution skapad av Valve Software. Denna container är en vanlig Arch-installation med Steam-arkiv tillagda för programvarusupport. Containern fungerar endast med moderna AMD/Intel-grafikprocessorer på en riktig Linux-värd.
+    tr_TR: SteamOS, Valve Software tarafından geliştirilen Arch tabanlı bir Linux dağıtımıdır. Bu konteyner, yazılım desteği için Steam depoları eklenmiş, standart bir Arch kurulumudur. Bu konteyner yalnızca gerçek bir Linux ana bilgisayarında modern AMD/Intel GPU'larla çalışacaktır.
+    zh_TW: SteamOS 是 Valve Software 開發的基於 Arch 的 Linux 發行版。此容器提供原生 Arch 安裝，並加入 Steam 軟體倉庫以支援相關軟體。它僅能在配備現代 AMD 或 Intel GPU 的真實 Linux 主機上執行。
   tagline:
     en_US: An Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern AMD/Intel GPUs on a real Linux Host
     zh_CN: 带有 Steam 软件仓库的 Arch Linux 容器。
+    ca_ES: Una distribució de Linux basada en Arch creada per Valve Software. Aquest contenidor és una instal·lació estàndard d'Arch amb repositoris de Steam afegits per a la compatibilitat amb programari. Aquest contenidor només funcionarà amb GPU AMD/Intel modernes en un host Linux real.
+    cs_CZ: Distribuce Linuxu založená na Archu od společnosti Valve Software. Tento kontejner je základní instalace Archu s přidanými repozitáři Steam pro softwarovou podporu. Tento kontejner bude fungovat pouze s moderními grafickými kartami AMD/Intel na skutečném Linuxovém hostiteli.
+    da_DK: En Arch-baseret Linux-distribution lavet af Valve Software. Denne container er en standard Arch-installation med Steam-repositories tilføjet til softwaresupport. Denne container fungerer kun med moderne AMD/Intel GPU'er på en rigtig Linux-vært.
+    de_DE: Eine von Valve Software entwickelte, auf Arch Linux basierende Distribution. Dieser Container ist eine Standardinstallation von Arch mit hinzugefügten Steam-Repositories für Softwareunterstützung. Er funktioniert ausschließlich mit modernen AMD/Intel-Grafikkarten auf einem echten Linux-Host.
+    el_GR: Μια διανομή Linux που βασίζεται στο Arch και δημιουργήθηκε από την Valve Software. Αυτό το container είναι μια απλή εγκατάσταση του Arch με προσθήκες αποθετηρίων Steam για υποστήριξη λογισμικού. Αυτό το container θα λειτουργεί μόνο με σύγχρονες GPU AMD/Intel σε έναν πραγματικό κεντρικό υπολογιστή Linux.
+    en_GB: An Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. This container will only work with modern Amd/Intel Gpus on a real Linux Host
+    es_ES: Una distribución de Linux basada en Arch, creada por Valve Software. Este contenedor es una instalación estándar de Arch con repositorios de Steam añadidos para la compatibilidad con software. Este contenedor solo funcionará con GPU modernas de AMD/Intel en un host Linux real.
+    fr_FR: Une distribution Linux basée sur Arch, développée par Valve Software. Ce conteneur est une installation Arch standard à laquelle ont été ajoutés les dépôts Steam pour la compatibilité logicielle. Ce conteneur ne fonctionnera qu'avec les GPU AMD/Intel modernes sur un véritable hôte Linux.
+    ga_IE: Dáileadh Linux bunaithe ar Arch arna dhéanamh ag Valve Software. Is suiteáil vanilla Arch é an coimeádán seo le stórtha Steam curtha leis chun tacú le bogearraí. Ní oibreoidh an coimeádán seo ach le GPUanna nua-aimseartha AMD/Intel ar Óstach Linux fíor.
+    hr_HR: Linux distribucija temeljena na Archu koju je izradio Valve Software. Ovaj kontejner je obična Arch instalacija s dodanim Steam repozitorijima za softversku podršku. Ovaj kontejner će raditi samo s modernim AMD/Intel GPU-ima na pravom Linux hostu.
+    hu_HU: Egy Arch alapú Linux disztribúció, amelyet a Valve Software készített. Ez a konténer egy hagyományos Arch telepítés Steam repositorykkal a szoftvertámogatás érdekében. Ez a konténer csak modern AMD/Intel GPU-kkal fog működni egy valódi Linux hoszton.
+    it_IT: Una distribuzione Linux basata su Arch Linux, realizzata da Valve Software. Questo container è un'installazione standard di Arch con l'aggiunta dei repository di Steam per il supporto software. Questo container funzionerà solo con GPU AMD/Intel moderne su un vero sistema host Linux.
+    ja_JP: Valve Softwareが開発したArchベースのLinuxディストリビューションです。このコンテナは、ソフトウェアサポートのためにSteamリポジトリを追加した、標準的なArchインストールです。このコンテナは、実際のLinuxホスト上の最新のAMD/Intel GPUでのみ動作します。
+    ko_KR: Valve Software에서 제작한 Arch 기반 Linux 배포판입니다. 이 컨테이너는 소프트웨어 지원을 위해 Steam 저장소가 추가된 기본 Arch 설치본입니다. 이 컨테이너는 실제 Linux 호스트에서 최신 AMD/Intel GPU를 사용할 때만 작동합니다.
+    ml_IN: വാൽവ് സോഫ്റ്റ്‌വെയർ നിർമ്മിച്ച ഒരു ആർച്ച് അധിഷ്ഠിത ലിനക്സ് വിതരണം. സോഫ്റ്റ്‌വെയർ പിന്തുണയ്ക്കായി സ്റ്റീം റിപ്പോസിറ്ററികൾ ചേർത്തിട്ടുള്ള ഒരു വാനില ആർച്ച് ഇൻസ്റ്റാളാണ് ഈ കണ്ടെയ്നർ. യഥാർത്ഥ ലിനക്സ് ഹോസ്റ്റിലെ ആധുനിക എഎംഡി/ഇന്റൽ ജിപിയുകളിൽ മാത്രമേ ഈ കണ്ടെയ്നർ പ്രവർത്തിക്കൂ.
+    nb_NO: En Arch-basert Linux-distribusjon laget av Valve Software. Denne containeren er en vanlig Arch-installasjon med Steam-repositorier lagt til for programvarestøtte. Denne containeren vil bare fungere med moderne AMD/Intel GPU-er på en ekte Linux-vert.
+    nl_NL: Een op Arch gebaseerde Linux-distributie gemaakt door Valve Software. Deze container is een standaard Arch-installatie met toegevoegde Steam-repositories voor softwareondersteuning. Deze container werkt alleen met moderne AMD/Intel GPU's op een echte Linux-host.
+    pl_PL: Dystrybucja Linuksa oparta na Archu, stworzona przez Valve Software. Ten kontener to zwykła instalacja Archu z dodanymi repozytoriami Steam w celu zapewnienia wsparcia dla oprogramowania. Kontener będzie działał tylko z nowoczesnymi kartami graficznymi AMD/Intel na prawdziwym hoście Linux.
+    pt_BR: Uma distribuição Linux baseada em Arch, criada pela Valve Software. Este contêiner é uma instalação padrão do Arch com os repositórios do Steam adicionados para suporte a softwares. Este contêiner funcionará apenas com GPUs AMD/Intel modernas em um host Linux real.
+    ro_RO: O distribuție Linux bazată pe Arch, creată de Valve Software. Acest container este o instalare Arch standard cu repozitorii Steam adăugate pentru suport software. Acest container va funcționa doar cu GPU-uri AMD/Intel moderne pe o gazdă Linux reală.
+    ru_RU: Дистрибутив Linux на основе Arch, разработанный Valve Software. Этот контейнер представляет собой стандартную установку Arch с добавленными репозиториями Steam для поддержки программного обеспечения. Этот контейнер будет работать только с современными видеокартами AMD/Intel на реальном хосте Linux.
+    sk_SK: Distribúcia Linuxu založená na Arche od spoločnosti Valve Software. Tento kontajner je základná inštalácia Archu s pridanými repozitármi Steam pre softvérovú podporu. Tento kontajner bude fungovať iba s modernými grafickými kartami AMD/Intel na skutočnom hostiteľskom systéme Linux.
+    sv_SE: En Arch-baserad Linuxdistribution skapad av Valve Software. Denna container är en vanlig Arch-installation med Steam-arkiv tillagda för programvarusupport. Containern fungerar endast med moderna AMD/Intel-grafikprocessorer på en riktig Linux-värd.
+    tr_TR: Valve Software tarafından geliştirilen Arch tabanlı bir Linux dağıtımı. Bu konteyner, yazılım desteği için Steam depoları eklenmiş, standart bir Arch kurulumudur. Bu konteyner yalnızca gerçek bir Linux ana bilgisayarında modern AMD/Intel GPU'larla çalışacaktır.
+    zh_TW: 帶有 Steam 軟體倉庫的 Arch Linux 容器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steamos-logo.png
@@ -68,6 +118,31 @@ x-casaos:
   title:
     en_US: Steamos
     zh_CN: Steamos
+    ca_ES: Steamos
+    cs_CZ: Steamos
+    da_DK: Steamos
+    de_DE: Steamos
+    el_GR: Steamos
+    en_GB: Steamos
+    es_ES: Steamos
+    fr_FR: Steamos
+    ga_IE: Steamos
+    hr_HR: Steamos
+    hu_HU: Steamos
+    it_IT: Steamos
+    ja_JP: Steamos
+    ko_KR: Steamos
+    ml_IN: Steamos
+    nb_NO: Steamos
+    nl_NL: Steamos
+    pl_PL: Steamos
+    pt_BR: Steamos
+    ro_RO: Steamos
+    ru_RU: Steamos
+    sk_SK: Steamos
+    sv_SE: Steamos
+    tr_TR: Steamos
+    zh_TW: Steamos
   category: Others
   id: wisdomsky.linuxserver.linuxserversteamos
   version: version-2024-12-20

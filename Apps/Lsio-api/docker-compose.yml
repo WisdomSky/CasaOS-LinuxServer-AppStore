@@ -33,9 +33,59 @@ x-casaos:
   description:
     en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/lsio-api for details.
     zh_CN: 此容器需要特别注意。使用前请阅读相关说明：https://hub.docker.com/r/linuxserver/lsio-api
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.docker.com/r/linuxserver/lsio-api per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.docker.com/r/linuxserver/lsio-api.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.docker.com/r/linuxserver/lsio-api for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.docker.com/r/linuxserver/lsio-api.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Ανατρέξτε στη διεύθυνση https://hub.docker.com/r/linuxserver/lsio-api για λεπτομέρειες.
+    en_GB: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/lsio-api for details.
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.docker.com/r/linuxserver/lsio-api para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/lsio-api pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.docker.com/r/linuxserver/lsio-api le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.docker.com/r/linuxserver/lsio-api.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.docker.com/r/linuxserver/lsio-api oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.docker.com/r/linuxserver/lsio-api.
+    ja_JP: このコンテナは特別な注意が必要です。詳細はhttps://hub.docker.com/r/linuxserver/lsio-apiをご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.docker.com/r/linuxserver/lsio-api 를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub.docker.com/r/linuxserver/lsio-api പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.docker.com/r/linuxserver/lsio-api for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/lsio-api voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły znajdziesz na stronie https://hub.docker.com/r/linuxserver/lsio-api.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/lsio-api para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.docker.com/r/linuxserver/lsio-api pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.docker.com/r/linuxserver/lsio-api.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.docker.com/r/linuxserver/lsio-api.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.docker.com/r/linuxserver/lsio-api för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.docker.com/r/linuxserver/lsio-api adresini kontrol edin.
+    zh_TW: 此容器需要特別注意。使用前請閱讀相關說明：https://hub.docker.com/r/linuxserver/lsio-api
   tagline:
     en_US: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/lsio-api for details.
     zh_CN: 此容器需要特殊配置，请先阅读使用说明。
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.Docker.com/r/linuxserver/lsio-api per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/lsio-api.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.Docker.com/r/linuxserver/lsio-api for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.Docker.com/r/linuxserver/lsio-api.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Ανατρέξτε στη διεύθυνση https://hub.Docker.com/r/linuxserver/lsio-api για λεπτομέρειες.
+    en_GB: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/lsio-api for details.
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/lsio-api para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/lsio-api pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/lsio-api le haghaidh tuilleadh sonraí.
+    hr_HR: Ovom kontejneru treba posvetiti posebnu pozornost. Za detalje posjetite https://hub.Docker.com/r/linuxserver/lsio-api.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/lsio-api oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.Docker.com/r/linuxserver/lsio-api.
+    ja_JP: このコンテナには特別な注意が必要です。詳細は https://hub.docker.com/r/linuxserver/lsio-api をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/lsio-api 를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub. Docker. Com/r/linuxserver/lsio-api പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.Docker.com/r/linuxserver/lsio-api for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/lsio-api voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły można znaleźć na stronie https://hub.Docker.Com/r/linuxserver/lsio-api.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/lsio-api para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/lsio-api pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Пожалуйста, ознакомьтесь с подробностями на странице https://hub.Docker.com/r/linuxserver/lsio-api.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.Docker.com/r/linuxserver/lsio-api.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.Docker.com/r/linuxserver/lsio-api för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.Docker.com/r/linuxserver/lsio-api adresini kontrol edin.
+    zh_TW: 此容器需要特殊配置，請先閱讀使用說明。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
@@ -43,6 +93,31 @@ x-casaos:
   title:
     en_US: Lsio api
     zh_CN: Lsio api
+    ca_ES: Lsio api
+    cs_CZ: Lsio api
+    da_DK: Lsio api
+    de_DE: Lsio api
+    el_GR: Lsio api
+    en_GB: Lsio api
+    es_ES: Lsio api
+    fr_FR: Lsio api
+    ga_IE: Lsio api
+    hr_HR: Lsio api
+    hu_HU: Lsio api
+    it_IT: Lsio api
+    ja_JP: Lsio api
+    ko_KR: Lsio api
+    ml_IN: Lsio api
+    nb_NO: Lsio api
+    nl_NL: Lsio api
+    pl_PL: Lsio api
+    pt_BR: Lsio api
+    ro_RO: Lsio api
+    ru_RU: Lsio api
+    sk_SK: Lsio api
+    sv_SE: Lsio api
+    tr_TR: Lsio api
+    zh_TW: Lsio api
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverlsioapi

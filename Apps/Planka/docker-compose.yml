@@ -69,17 +69,92 @@ x-casaos:
   main: app
   description:
     en_US: Planka is an elegant open source project tracking tool.
+    ca_ES: Planka és una elegant eina de seguiment de projectes de codi obert.
+    cs_CZ: Planka je elegantní nástroj pro sledování projektů s otevřeným zdrojovým kódem.
+    da_DK: Planka er et elegant open source-værktøj til projektsporing.
+    de_DE: Planka ist ein elegantes Open-Source-Tool zur Projektverfolgung.
+    el_GR: Το Planka είναι ένα κομψό εργαλείο παρακολούθησης έργων ανοιχτού κώδικα.
+    en_GB: Planka is an elegant open source project tracking tool.
+    es_ES: Planka es una elegante herramienta de código abierto para el seguimiento de proyectos.
+    fr_FR: Planka est un outil élégant de suivi de projet open source.
+    ga_IE: Is uirlis rianaithe tionscadail foinse oscailte galánta é Planka.
+    hr_HR: Planka je elegantan alat za praćenje projekata otvorenog koda.
+    hu_HU: A Planka egy elegáns, nyílt forráskódú projektkövető eszköz.
+    it_IT: Planka è un elegante strumento open source per il monitoraggio dei progetti.
+    ja_JP: Plankaは、洗練されたオープンソースのプロジェクト追跡ツールです。
+    ko_KR: Planka는 세련된 오픈 소스 프로젝트 추적 도구입니다.
+    ml_IN: പ്ലാങ്ക ഒരു മനോഹരമായ ഓപ്പൺ സോഴ്‌സ് പ്രോജക്റ്റ് ട്രാക്കിംഗ് ഉപകരണമാണ്.
+    nb_NO: Planka er et elegant verktøy for sporing av prosjekter med åpen kildekode.
+    nl_NL: Planka is een elegant open source-projectvolgsysteem.
+    pl_PL: Planka to eleganckie narzędzie typu open source do śledzenia projektów.
+    pt_BR: Planka é uma ferramenta elegante de código aberto para acompanhamento de projetos.
+    ro_RO: Planka este un instrument elegant, open source, de urmărire a proiectelor.
+    ru_RU: Planka — это элегантный инструмент для отслеживания проектов с открытым исходным кодом.
+    sk_SK: Planka je elegantný nástroj na sledovanie projektov s otvoreným zdrojovým kódom.
+    sv_SE: Planka är ett elegant verktyg för projektuppföljning med öppen källkod.
+    tr_TR: Planka, şık bir açık kaynak kodlu proje takip aracıdır.
     zh_CN: Planka 是一款优雅的开源项目追踪工具。
+    zh_TW: Planka 是一款優雅的開源專案追蹤工具。
   tagline:
     en_US: An elegant open source project tracking tool.
+    ca_ES: Una elegant eina de seguiment de projectes de codi obert.
+    cs_CZ: Elegantní nástroj pro sledování projektů s otevřeným zdrojovým kódem.
+    da_DK: Et elegant open source-værktøj til projektsporing.
+    de_DE: Ein elegantes Open-Source-Projektverfolgungstool.
+    el_GR: Ένα κομψό εργαλείο παρακολούθησης έργων ανοιχτού κώδικα.
+    en_GB: An elegant open source project tracking tool.
+    es_ES: Una elegante herramienta de seguimiento de proyectos de código abierto.
+    fr_FR: Un outil élégant de suivi de projets open source.
+    ga_IE: Uirlis rianaithe tionscadail foinse oscailte galánta.
+    hr_HR: Elegantni alat za praćenje projekata otvorenog koda.
+    hu_HU: Egy elegáns, nyílt forráskódú projektkövető eszköz.
+    it_IT: Un elegante strumento open source per il monitoraggio dei progetti.
+    ja_JP: 洗練されたオープンソースのプロジェクト追跡ツール。
+    ko_KR: 세련된 오픈 소스 프로젝트 추적 도구입니다.
+    ml_IN: ഒരു മനോഹരമായ ഓപ്പൺ സോഴ്‌സ് പ്രോജക്റ്റ് ട്രാക്കിംഗ് ഉപകരണം.
+    nb_NO: Et elegant verktøy for sporing av prosjekter med åpen kildekode.
+    nl_NL: Een elegant hulpmiddel voor het volgen van open source-projecten.
+    pl_PL: Eleganckie narzędzie typu open source do śledzenia projektów.
+    pt_BR: Uma ferramenta elegante de código aberto para acompanhamento de projetos.
+    ro_RO: Un instrument elegant de urmărire a proiectelor open source.
+    ru_RU: Элегантный инструмент для отслеживания проектов с открытым исходным кодом.
+    sk_SK: Elegantný nástroj na sledovanie projektov s otvoreným zdrojovým kódom.
+    sv_SE: Ett elegant verktyg för projektuppföljning med öppen källkod.
+    tr_TR: Şık bir açık kaynak kodlu proje takip aracı.
     zh_CN: 简洁优雅的开源项目追踪工具。
+    zh_TW: 簡潔優雅的開源專案追蹤工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/planka-logo.png
   title:
     en_US: Planka (LinuxServer.io)
+    ca_ES: Planka (LinuxServer.io)
+    cs_CZ: Planka (LinuxServer.io)
+    da_DK: Planka (LinuxServer.io)
+    de_DE: Planka (LinuxServer.io)
+    el_GR: Planka (LinuxServer.io)
+    en_GB: Planka (LinuxServer.io)
+    es_ES: Planka (LinuxServer.io)
+    fr_FR: Planka (LinuxServer.io)
+    ga_IE: Planka (LinuxServer.io)
+    hr_HR: Planka (LinuxServer.io)
+    hu_HU: Planka (LinuxServer.io)
+    it_IT: Planka (LinuxServer.io)
+    ja_JP: Planka (LinuxServer.io)
+    ko_KR: Planka (LinuxServer.io)
+    ml_IN: Planka (LinuxServer.io)
+    nb_NO: Planka (LinuxServer.io)
+    nl_NL: Planka (LinuxServer.io)
+    pl_PL: Planka (LinuxServer.io)
+    pt_BR: Planka (LinuxServer.io)
+    ro_RO: Planka (LinuxServer.io)
+    ru_RU: Planka (LinuxServer.io)
+    sk_SK: Planka (LinuxServer.io)
+    sv_SE: Planka (LinuxServer.io)
+    tr_TR: Planka (LinuxServer.io)
     zh_CN: Planka（LinuxServer.io）
+    zh_TW: Planka（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverplanka
   port_map: '1337'

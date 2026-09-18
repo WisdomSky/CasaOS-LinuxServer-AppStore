@@ -37,17 +37,92 @@ x-casaos:
   main: app
   description:
     en_US: Pwndrop is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
+    ca_ES: Pwndrop és un servei d'allotjament de fitxers autodesplegable per enviar càrregues útils de red teaming o compartir fitxers privats de manera segura a través d'HTTP i WebDAV.
+    cs_CZ: Pwndrop je samonastavitelná služba pro hostování souborů, která umožňuje odesílání dat typu red teaming nebo bezpečné sdílení vašich soukromých souborů přes HTTP a WebDAV.
+    da_DK: Pwndrop er en selvudrullende filhostingtjeneste til at sende red teaming-nyttelaster eller sikkert dele dine private filer via HTTP og WebDAV.
+    de_DE: Pwndrop ist ein selbstbereitstellender Dateihosting-Dienst zum Versenden von Red-Teaming-Payloads oder zum sicheren Teilen Ihrer privaten Dateien über HTTP und WebDAV.
+    el_GR: Το Pwndrop είναι μια αυτοαναπτυσσόμενη υπηρεσία φιλοξενίας αρχείων για την αποστολή red teaming payloads ή την ασφαλή κοινή χρήση των ιδιωτικών σας αρχείων μέσω HTTP και WebDAV.
+    en_GB: Pwndrop is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over Http and Webdav.
+    es_ES: Pwndrop es un servicio de alojamiento de archivos autodesplegable para enviar cargas útiles de pruebas de penetración o compartir de forma segura sus archivos privados a través de HTTP y WebDAV.
+    fr_FR: Pwndrop est un service d'hébergement de fichiers auto-déployable permettant d'envoyer des charges utiles pour les tests d'intrusion ou de partager en toute sécurité vos fichiers privés via HTTP et WebDAV.
+    ga_IE: Is seirbhís óstála comhad féin-imscartha é Pwndrop chun ualaí foirne dearga a sheoladh amach nó do chuid comhad príobháideacha a roinnt go slán thar HTTP agus WebDAV.
+    hr_HR: Pwndrop je samostalno instalirajuća usluga hostinga datoteka za slanje crvenih teaming podataka ili sigurno dijeljenje vaših privatnih datoteka putem HTTP-a i WebDAV-a.
+    hu_HU: A Pwndrop egy önállóan telepíthető fájltárhely-szolgáltatás, amellyel red teaming hasznos adatokat küldhet, vagy biztonságosan megoszthatja privát fájljait HTTP és WebDAV kapcsolaton keresztül.
+    it_IT: Pwndrop è un servizio di hosting di file auto-distribuibile per l'invio di payload per il red teaming o per la condivisione sicura di file privati tramite HTTP e WebDAV.
+    ja_JP: Pwndropは、レッドチーム用のペイロードを送信したり、HTTPおよびWebDAV経由でプライベートファイルを安全に共有したりするための、自己展開型のファイルホスティングサービスです。
+    ko_KR: Pwndrop은 레드팀 공격용 페이로드를 전송하거나 HTTP 및 WebDAV를 통해 개인 파일을 안전하게 공유할 수 있는 자체 배포형 파일 호스팅 서비스입니다.
+    ml_IN: റെഡ് ടീമിംഗ് പേലോഡുകൾ അയയ്ക്കുന്നതിനോ HTTP, WebDAV എന്നിവയിലൂടെ നിങ്ങളുടെ സ്വകാര്യ ഫയലുകൾ സുരക്ഷിതമായി പങ്കിടുന്നതിനോ ഉള്ള ഒരു സ്വയം വിന്യസിക്കാവുന്ന ഫയൽ ഹോസ്റ്റിംഗ് സേവനമാണ് Pwndrop.
+    nb_NO: Pwndrop er en selvutrullerbar filhostingstjeneste for å sende ut red teaming-nyttelaster eller for sikker deling av private filer over HTTP og WebDAV.
+    nl_NL: Pwndrop is een zelf te implementeren bestandshostingservice voor het versturen van red teaming-payloads of het veilig delen van uw privébestanden via HTTP en WebDAV.
+    pl_PL: Pwndrop to samowdrażająca się usługa hostingu plików, która umożliwia wysyłanie ładunków typu red teaming lub bezpieczne udostępnianie prywatnych plików za pośrednictwem protokołów HTTP i WebDAV.
+    pt_BR: O Pwndrop é um serviço de hospedagem de arquivos auto-implantável para o envio de payloads de teste de intrusão (red teaming) ou para o compartilhamento seguro de seus arquivos privados via HTTP e WebDAV.
+    ro_RO: Pwndrop este un serviciu de găzduire de fișiere auto-implementabil pentru trimiterea de sarcini de tip red teaming sau partajarea în siguranță a fișierelor private prin HTTP și WebDAV.
+    ru_RU: Pwndrop — это саморазвертываемый сервис для размещения файлов, предназначенный для отправки вредоносных программ для тестирования на проникновение или безопасного обмена личными файлами по протоколам HTTP и WebDAV.
+    sk_SK: Pwndrop je samonasaditeľná služba na hosťovanie súborov, ktorá umožňuje odosielanie dát v rámci Red Teaming alebo bezpečné zdieľanie vašich súkromných súborov cez HTTP a WebDAV.
+    sv_SE: Pwndrop är en självdistribuerbar filhostingstjänst för att skicka ut red teaming-nyttolaster eller säkert dela dina privata filer via HTTP och WebDAV.
+    tr_TR: Pwndrop, sızma testleri için kullanılan zararlı yazılımları göndermek veya özel dosyalarınızı HTTP ve WebDAV üzerinden güvenli bir şekilde paylaşmak için kullanabileceğiniz, kendi kendine kurulabilen bir dosya barındırma hizmetidir.
     zh_CN: Pwndrop 是一个可自行部署的文件托管服务，用于发送红队测试载荷，或通过 HTTP 和 WebDAV 安全分享私人文件。
+    zh_TW: Pwndrop 是一個可自行部署的檔案託管服務，用於傳送紅隊測試載荷，或透過 HTTP 和 WebDAV 安全分享私人檔案。
   tagline:
     en_US: A self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV.
+    ca_ES: Un servei d'allotjament de fitxers autodesplegable per enviar càrregues útils de red teaming o compartir fitxers privats de manera segura mitjançant HTTP i WebDAV.
+    cs_CZ: Samostatně nasaditelná služba pro hostování souborů pro odesílání dat typu red teaming nebo bezpečné sdílení vašich soukromých souborů přes HTTP a WebDAV.
+    da_DK: En selvudrullende filhostingtjeneste til afsendelse af red teaming-nyttelast eller sikker deling af dine private filer via HTTP og WebDAV.
+    de_DE: Ein selbstbereitstellender Dateihosting-Dienst zum Versenden von Red-Teaming-Payloads oder zum sicheren Teilen Ihrer privaten Dateien über HTTP und WebDAV.
+    el_GR: Μια αυτοαναπτυσσόμενη υπηρεσία φιλοξενίας αρχείων για την αποστολή red teaming payloads ή την ασφαλή κοινή χρήση των ιδιωτικών σας αρχείων μέσω HTTP και WebDAV.
+    en_GB: A self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over Http and Webdav.
+    es_ES: Un servicio de alojamiento de archivos autodesplegable para enviar cargas útiles de pruebas de penetración o compartir de forma segura sus archivos privados a través de HTTP y WebDAV.
+    fr_FR: Un service d'hébergement de fichiers auto-déployable pour l'envoi de charges utiles d'équipe rouge ou le partage sécurisé de vos fichiers privés via HTTP et WebDAV.
+    ga_IE: Seirbhís óstála comhad féin-imscartha chun ualaí foirne dearga a sheoladh amach nó do chuid comhad príobháideacha a roinnt go slán thar HTTP agus WebDAV.
+    hr_HR: Samostalno instalirajuća usluga hostinga datoteka za slanje crvenih teaming podataka ili sigurno dijeljenje vaših privatnih datoteka putem HTTP-a i WebDAV-a.
+    hu_HU: Öntelepíthető fájltárhely-szolgáltatás red teaming hasznos adatok küldéséhez vagy privát fájlok biztonságos megosztásához HTTP és WebDAV protokollon keresztül.
+    it_IT: Un servizio di hosting di file auto-implementabile per l'invio di payload per il red teaming o per la condivisione sicura di file privati tramite HTTP e WebDAV.
+    ja_JP: レッドチーム用のペイロードを送信したり、HTTPおよびWebDAV経由でプライベートファイルを安全に共有したりするための、自己展開型のファイルホスティングサービス。
+    ko_KR: 레드팀 공격 페이로드를 전송하거나 HTTP 및 WebDAV를 통해 개인 파일을 안전하게 공유할 수 있는 자체 배포형 파일 호스팅 서비스입니다.
+    ml_IN: റെഡ് ടീമിംഗ് പേലോഡുകൾ അയയ്ക്കുന്നതിനോ HTTP, WebDAV എന്നിവയിലൂടെ നിങ്ങളുടെ സ്വകാര്യ ഫയലുകൾ സുരക്ഷിതമായി പങ്കിടുന്നതിനോ ഉള്ള ഒരു സ്വയം വിന്യസിക്കാവുന്ന ഫയൽ ഹോസ്റ്റിംഗ് സേവനം.
+    nb_NO: En selvutplasserbar filhostingstjeneste for å sende ut Red Teaming-nyttelaster eller for sikker deling av private filer over HTTP og WebDAV.
+    nl_NL: Een zelf inzetbare bestandshostingservice voor het versturen van red teaming-payloads of het veilig delen van uw privébestanden via HTTP en WebDAV.
+    pl_PL: Samodzielnie wdrażalna usługa hostingu plików umożliwiająca wysyłanie ładunków typu red teaming lub bezpieczne udostępnianie prywatnych plików za pośrednictwem protokołów HTTP i WebDAV.
+    pt_BR: Um serviço de hospedagem de arquivos auto-implantável para envio de payloads de teste de intrusão ou compartilhamento seguro de seus arquivos privados via HTTP e WebDAV.
+    ro_RO: Un serviciu de găzduire de fișiere auto-implementabil pentru trimiterea de sarcini de tip red teaming sau partajarea în siguranță a fișierelor private prin HTTP și WebDAV.
+    ru_RU: Самостоятельно развертываемый сервис для размещения файлов, предназначенный для отправки полезных нагрузок для тестирования на проникновение или безопасного обмена личными файлами по протоколам HTTP и WebDAV.
+    sk_SK: Samonasaditeľná služba na hosťovanie súborov na odosielanie dátových dát typu red teaming alebo bezpečné zdieľanie vašich súkromných súborov cez HTTP a WebDAV.
+    sv_SE: En självdistribuerbar filhostingstjänst för att skicka ut red teaming-nyttolaster eller säkert dela dina privata filer via HTTP och WebDAV.
+    tr_TR: HTTP ve WebDAV üzerinden sızma testleri için kullanılan zararlı yazılımları göndermek veya özel dosyalarınızı güvenli bir şekilde paylaşmak için kullanabileceğiniz, kendi kendine kurulabilen bir dosya barındırma hizmeti.
     zh_CN: 通过 HTTP 和 WebDAV 安全分享文件。
+    zh_TW: 透過 HTTP 和 WebDAV 安全分享檔案。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png
   thumbnail: https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png
   title:
     en_US: Pwndrop (LinuxServer.io)
+    ca_ES: Pwndrop (LinuxServer.io)
+    cs_CZ: Pwndrop (LinuxServer.io)
+    da_DK: Pwndrop (LinuxServer.io)
+    de_DE: Pwndrop (LinuxServer.io)
+    el_GR: Pwndrop (LinuxServer.io)
+    en_GB: Pwndrop (LinuxServer.io)
+    es_ES: Pwndrop (LinuxServer.io)
+    fr_FR: Pwndrop (LinuxServer.io)
+    ga_IE: Pwndrop (LinuxServer.io)
+    hr_HR: Pwndrop (LinuxServer.io)
+    hu_HU: Pwndrop (LinuxServer.io)
+    it_IT: Pwndrop (LinuxServer.io)
+    ja_JP: Pwndrop (LinuxServer.io)
+    ko_KR: Pwndrop (LinuxServer.io)
+    ml_IN: Pwndrop (LinuxServer.io)
+    nb_NO: Pwndrop (LinuxServer.io)
+    nl_NL: Pwndrop (LinuxServer.io)
+    pl_PL: Pwndrop (LinuxServer.io)
+    pt_BR: Pwndrop (LinuxServer.io)
+    ro_RO: Pwndrop (LinuxServer.io)
+    ru_RU: Pwndrop (LinuxServer.io)
+    sk_SK: Pwndrop (LinuxServer.io)
+    sv_SE: Pwndrop (LinuxServer.io)
+    tr_TR: Pwndrop (LinuxServer.io)
     zh_CN: Pwndrop（LinuxServer.io）
+    zh_TW: Pwndrop（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpwndrop
   port_map: '8080'

@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: 'digiKam: Professional Photo Management with the Power of Open Source'
+    ca_ES: 'digiKam: Gestió professional de fotos amb el poder del codi obert'
+    cs_CZ: 'digiKam: Profesionální správa fotografií s využitím open source technologií'
+    da_DK: 'digiKam: Professionel fotohåndtering med kraften fra open source'
+    de_DE: 'digiKam: Professionelles Fotomanagement mit der Leistungsfähigkeit von Open Source'
+    el_GR: 'digiKam: Επαγγελματική Διαχείριση Φωτογραφιών με τη Δύναμη του Ανοιχτού Κώδικα'
+    en_GB: 'digiKam: Professional Photo Management with the Power of Open Source'
+    es_ES: 'digiKam: Gestión profesional de fotos con el poder del código abierto.'
+    fr_FR: "digiKam\_: Gestion professionnelle des photos grâce à la puissance de l’open source"
+    ga_IE: 'digiKam: Bainistíocht Ghairmiúil Grianghraf le Cumhacht na Foinse Oscailte'
+    hr_HR: 'digiKam: Profesionalno upravljanje fotografijama uz pomoć otvorenog koda'
+    hu_HU: 'digiKam: Professzionális fotókezelés a nyílt forráskód erejével'
+    it_IT: 'digiKam: Gestione professionale delle foto con la potenza dell''open source'
+    ja_JP: digiKam：オープンソースの力でプロフェッショナルな写真管理を実現
+    ko_KR: 'digiKam: 오픈 소스의 강력한 기능을 활용한 전문가급 사진 관리 솔루션'
+    ml_IN: 'digiKam: ഓപ്പൺ സോഴ്‌സിന്റെ ശക്തിയോടെ പ്രൊഫഷണൽ ഫോട്ടോ മാനേജ്‌മെന്റ്'
+    nb_NO: 'digiKam: Profesjonell fotohåndtering med kraften fra åpen kildekode'
+    nl_NL: 'digiKam: Professioneel fotobeheer met de kracht van open source'
+    pl_PL: 'digiKam: Profesjonalne zarządzanie zdjęciami z mocą oprogramowania Open Source'
+    pt_BR: 'digiKam: Gerenciamento profissional de fotos com o poder do código aberto.'
+    ro_RO: 'digiKam: Management profesional al fotografiilor cu puterea open source-ului'
+    ru_RU: 'digiKam: Профессиональное управление фотографиями с использованием возможностей открытого исходного кода.'
+    sk_SK: 'digiKam: Profesionálna správa fotografií s využitím open source zdrojového kódu'
+    sv_SE: 'digiKam: Professionell fotohantering med kraften i öppen källkod'
+    tr_TR: 'digiKam: Açık Kaynak Yazılımın Gücüyle Profesyonel Fotoğraf Yönetimi'
     zh_CN: digiKam：由开源技术驱动的专业照片管理软件。
+    zh_TW: digiKam：由開源技術驅動的專業照片管理軟體。
   tagline:
     en_US: 'digiKam: Professional Photo Management with the Power of Open Source'
+    ca_ES: 'digiKam: Gestió professional de fotos amb el poder del codi obert'
+    cs_CZ: 'digiKam: Profesionální správa fotografií s využitím open source technologií'
+    da_DK: 'digiKam: Professionel fotohåndtering med kraften fra open source'
+    de_DE: 'digiKam: Professionelles Fotomanagement mit der Leistungsfähigkeit von Open Source'
+    el_GR: 'digiKam: Επαγγελματική Διαχείριση Φωτογραφιών με τη Δύναμη του Ανοιχτού Κώδικα'
+    en_GB: 'digiKam: Professional Photo Management with the Power of Open Source'
+    es_ES: 'digiKam: Gestión profesional de fotos con el poder del código abierto.'
+    fr_FR: "digiKam\_: Gestion professionnelle des photos grâce à la puissance de l’open source"
+    ga_IE: 'digiKam: Bainistíocht Ghairmiúil Grianghraf le Cumhacht na Foinse Oscailte'
+    hr_HR: 'digiKam: Profesionalno upravljanje fotografijama uz pomoć otvorenog koda'
+    hu_HU: 'digiKam: Professzionális fotókezelés a nyílt forráskód erejével'
+    it_IT: 'digiKam: Gestione professionale delle foto con la potenza dell''open source'
+    ja_JP: digiKam：オープンソースの力でプロフェッショナルな写真管理を実現
+    ko_KR: 'digiKam: 오픈 소스의 강력한 기능을 활용한 전문가급 사진 관리 솔루션'
+    ml_IN: 'digiKam: ഓപ്പൺ സോഴ്‌സിന്റെ ശക്തിയോടെ പ്രൊഫഷണൽ ഫോട്ടോ മാനേജ്‌മെന്റ്'
+    nb_NO: 'digiKam: Profesjonell fotohåndtering med kraften fra åpen kildekode'
+    nl_NL: 'digiKam: Professioneel fotobeheer met de kracht van open source'
+    pl_PL: 'digiKam: Profesjonalne zarządzanie zdjęciami z mocą oprogramowania Open Source'
+    pt_BR: 'digiKam: Gerenciamento profissional de fotos com o poder do código aberto.'
+    ro_RO: 'digiKam: Management profesional al fotografiilor cu puterea open source-ului'
+    ru_RU: 'digiKam: Профессиональное управление фотографиями с использованием возможностей открытого исходного кода.'
+    sk_SK: 'digiKam: Profesionálna správa fotografií s využitím open source zdrojového kódu'
+    sv_SE: 'digiKam: Professionell fotohantering med kraften i öppen källkod'
+    tr_TR: 'digiKam: Açık Kaynak Yazılımın Gücüyle Profesyonel Fotoğraf Yönetimi'
     zh_CN: 开源的专业照片管理软件。
+    zh_TW: 開源的專業照片管理軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png
   title:
     en_US: Digikam (LinuxServer.io)
+    ca_ES: Digikam (LinuxServer.io)
+    cs_CZ: Digikam (LinuxServer.io)
+    da_DK: Digikam (LinuxServer.io)
+    de_DE: Digikam (LinuxServer.io)
+    el_GR: Digikam (LinuxServer.io)
+    en_GB: Digikam (LinuxServer.io)
+    es_ES: Digikam (LinuxServer.io)
+    fr_FR: Digikam (LinuxServer.io)
+    ga_IE: Digikam (LinuxServer.io)
+    hr_HR: Digikam (LinuxServer.io)
+    hu_HU: Digikam (LinuxServer.io)
+    it_IT: Digikam (LinuxServer.io)
+    ja_JP: Digikam (LinuxServer.io)
+    ko_KR: Digikam (LinuxServer.io)
+    ml_IN: Digikam (LinuxServer.io)
+    nb_NO: Digikam (LinuxServer.io)
+    nl_NL: Digikam (LinuxServer.io)
+    pl_PL: Digikam (LinuxServer.io)
+    pt_BR: Digikam (LinuxServer.io)
+    ro_RO: Digikam (LinuxServer.io)
+    ru_RU: Digikam (LinuxServer.io)
+    sk_SK: Digikam (LinuxServer.io)
+    sv_SE: Digikam (LinuxServer.io)
+    tr_TR: Digikam (LinuxServer.io)
     zh_CN: Digikam（LinuxServer.io）
+    zh_TW: Digikam（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdigikam
   port_map: '3000'

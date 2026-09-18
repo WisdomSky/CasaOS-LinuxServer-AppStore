@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
+    ca_ES: Mstream és un servidor de reproducció de música personal. Pots utilitzar mStream per reproduir la teva música des de l'ordinador de casa a qualsevol dispositiu, en qualsevol lloc. Hi ha aplicacions mòbils disponibles tant per a Android com per a iPhone.
+    cs_CZ: Mstream je osobní hudební streamovací server. Pomocí mStream můžete streamovat hudbu z domácího počítače do jakéhokoli zařízení, kamkoli. K dispozici jsou mobilní aplikace pro Android i iPhone.
+    da_DK: Mstream er en personlig musikstreamingserver. Du kan bruge mStream til at streame din musik fra din hjemmecomputer til enhver enhed, hvor som helst. Der findes mobilapps til både Android og iPhone.
+    de_DE: Mstream ist ein persönlicher Musikstreaming-Server. Mit mstream können Sie Ihre Musik von Ihrem Heimcomputer auf jedes beliebige Gerät streamen, egal wo Sie sind. Es gibt mobile Apps für Android und iPhone.
+    el_GR: Το Mstream είναι ένας προσωπικός διακομιστής ροής μουσικής. Μπορείτε να χρησιμοποιήσετε το mStream για να μεταδώσετε τη μουσική σας από τον οικιακό σας υπολογιστή σε οποιαδήποτε συσκευή, οπουδήποτε. Υπάρχουν διαθέσιμες εφαρμογές για κινητά τόσο για Android όσο και για iPhone.
+    en_GB: Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
+    es_ES: Mstream es un servidor personal de transmisión de música. Puedes usar mStream para transmitir tu música desde tu computadora a cualquier dispositivo, en cualquier lugar. Hay aplicaciones móviles disponibles para Android y iPhone.
+    fr_FR: Mstream est un serveur de streaming musical personnel. Vous pouvez l'utiliser pour diffuser votre musique depuis votre ordinateur vers n'importe quel appareil, où que vous soyez. Des applications mobiles sont disponibles pour Android et iPhone.
+    ga_IE: Is freastalaí sruthú ceoil pearsanta é Mstream. Is féidir leat mStream a úsáid chun do cheol a shruthú ó do ríomhaire baile chuig aon fheiste, áit ar bith. Tá aipeanna soghluaiste ar fáil do Android agus iPhone araon.
+    hr_HR: Mstream je osobni poslužitelj za streaming glazbe. mStream možete koristiti za streaming glazbe s kućnog računala na bilo koji uređaj, bilo gdje. Dostupne su mobilne aplikacije za Android i iPhone.
+    hu_HU: Az Mstream egy személyes zenei streaming szerver. Az mStream segítségével zenéit otthoni számítógépéről bármilyen eszközre, bárhová streamelheti. Vannak mobilalkalmazások Androidra és iPhone-ra is.
+    it_IT: mStream è un server personale per lo streaming musicale. Puoi utilizzare mStream per riprodurre in streaming la tua musica dal computer di casa a qualsiasi dispositivo, ovunque ti trovi. Sono disponibili app per dispositivi mobili sia Android che iPhone.
+    ja_JP: mstreamは、個人向けの音楽ストリーミングサーバーです。mstreamを使えば、自宅のパソコンからあらゆるデバイスへ、いつでもどこでも音楽をストリーミング再生できます。AndroidとiPhoneの両方に対応したモバイルアプリも提供されています。
+    ko_KR: mStream은 개인 음악 스트리밍 서버입니다. mStream을 사용하면 집 컴퓨터에서 언제 어디서든 원하는 기기로 음악을 스트리밍할 수 있습니다. 안드로이드와 아이폰용 모바일 앱도 제공됩니다.
+    ml_IN: എംസ്ട്രീം ഒരു വ്യക്തിഗത സംഗീത സ്ട്രീമിംഗ് സെർവറാണ്. നിങ്ങളുടെ വീട്ടിലെ കമ്പ്യൂട്ടറിൽ നിന്ന് ഏത് ഉപകരണത്തിലേക്കും എവിടെയും സംഗീതം സ്ട്രീം ചെയ്യാൻ നിങ്ങൾക്ക് mStream ഉപയോഗിക്കാം. Android, iPhone എന്നിവയ്‌ക്കായി മൊബൈൽ ആപ്പുകൾ ലഭ്യമാണ്.
+    nb_NO: Mstream er en personlig musikkstrømmeserver. Du kan bruke mStream til å strømme musikken din fra hjemmedatamaskinen din til hvilken som helst enhet, hvor som helst. Det finnes mobilapper tilgjengelig for både Android og iPhone.
+    nl_NL: Mstream is een persoonlijke muziekstreamingserver. Met mstream stream je muziek vanaf je computer naar elk apparaat, waar dan ook. Er zijn mobiele apps beschikbaar voor zowel Android als iPhone.
+    pl_PL: Mstream to osobisty serwer streamingu muzyki. Za pomocą mStream możesz przesyłać muzykę z komputera domowego na dowolne urządzenie, w dowolnym miejscu. Dostępne są aplikacje mobilne na Androida i iPhone'a.
+    pt_BR: O mStream é um servidor pessoal de streaming de música. Você pode usar o mStream para transmitir sua música do seu computador para qualquer dispositivo, em qualquer lugar. Há aplicativos móveis disponíveis para Android e iPhone.
+    ro_RO: Mstream este un server personal de streaming muzical. Poți folosi mStream pentru a reda muzică de pe computerul de acasă pe orice dispozitiv, oriunde. Există aplicații mobile disponibile atât pentru Android, cât și pentru iPhone.
+    ru_RU: MStream — это персональный сервер потоковой передачи музыки. Вы можете использовать MStream для потоковой передачи музыки со своего домашнего компьютера на любое устройство в любом месте. Доступны мобильные приложения для Android и iPhone.
+    sk_SK: Mstream je osobný server na streamovanie hudby. Pomocou mStream môžete streamovať hudbu z domáceho počítača do akéhokoľvek zariadenia, kdekoľvek. K dispozícii sú mobilné aplikácie pre Android aj iPhone.
+    sv_SE: Mstream är en personlig musikströmningsserver. Du kan använda mStream för att strömma din musik från din hemdator till vilken enhet som helst, var som helst. Det finns mobilappar tillgängliga för både Android och iPhone.
+    tr_TR: Mstream kişisel bir müzik akış sunucusudur. Mstream'i kullanarak müziğinizi ev bilgisayarınızdan herhangi bir cihaza, her yerden aktarabilirsiniz. Hem Android hem de iPhone için mobil uygulamaları mevcuttur.
     zh_CN: mStream 是一款个人音乐串流服务器，可将家中电脑上的音乐传输到任何地点的设备。它提供 Android 和 iPhone 移动应用。
+    zh_TW: mStream 是一款個人音樂串流伺服器，可將家中電腦上的音樂傳輸到任何地點的裝置。它提供 Android 和 iPhone 移動應用。
   tagline:
     en_US: A personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
+    ca_ES: Un servidor de reproducció de música personal. Pots utilitzar mStream per reproduir la teva música des de l'ordinador de casa a qualsevol dispositiu, en qualsevol lloc. Hi ha aplicacions mòbils disponibles tant per a Android com per a iPhone.
+    cs_CZ: Osobní server pro streamování hudby. Pomocí mStream můžete streamovat hudbu z domácího počítače do jakéhokoli zařízení, kamkoli. K dispozici jsou mobilní aplikace pro Android i iPhone.
+    da_DK: En personlig musikstreamingserver. Du kan bruge mStream til at streame din musik fra din hjemmecomputer til enhver enhed, hvor som helst. Der findes mobilapps til både Android og iPhone.
+    de_DE: Ein persönlicher Musik-Streaming-Server. Mit mStream können Sie Ihre Musik von Ihrem Heimcomputer auf jedes beliebige Gerät streamen, egal wo Sie sind. Es gibt mobile Apps für Android und iPhone.
+    el_GR: Ένας προσωπικός διακομιστής ροής μουσικής. Μπορείτε να χρησιμοποιήσετε το mStream για να κάνετε streaming της μουσικής σας από τον οικιακό σας υπολογιστή σε οποιαδήποτε συσκευή, οπουδήποτε. Υπάρχουν διαθέσιμες εφαρμογές για κινητά τόσο για Android όσο και για iPhone.
+    en_GB: A personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.
+    es_ES: Un servidor personal de transmisión de música. Con mStream, puedes transmitir tu música desde tu ordenador a cualquier dispositivo, en cualquier lugar. Hay aplicaciones móviles disponibles para Android y iPhone.
+    fr_FR: Un serveur de streaming musical personnel. Avec mStream, diffusez votre musique depuis votre ordinateur vers n'importe quel appareil, où que vous soyez. Des applications mobiles sont disponibles pour Android et iPhone.
+    ga_IE: Freastalaí sruthú ceoil pearsanta. Is féidir leat mStream a úsáid chun do cheol a shruthú ó do ríomhaire baile chuig aon fheiste, áit ar bith. Tá aipeanna soghluaiste ar fáil do Android agus iPhone araon.
+    hr_HR: Osobni poslužitelj za streaming glazbe. mStream možete koristiti za streaming glazbe s kućnog računala na bilo koji uređaj, bilo gdje. Dostupne su mobilne aplikacije za Android i iPhone.
+    hu_HU: Személyes zenei streaming szerver. Az mStream segítségével otthoni számítógépedről bárhová, bármilyen eszközre streamelheted a zenéidet. Vannak mobilalkalmazások Androidra és iPhone-ra is.
+    it_IT: Un server personale per lo streaming musicale. Con mStream puoi riprodurre in streaming la tua musica dal computer di casa a qualsiasi dispositivo, ovunque ti trovi. Sono disponibili app per dispositivi mobili Android e iPhone.
+    ja_JP: 個人用音楽ストリーミングサーバー。mStreamを使えば、自宅のパソコンからあらゆるデバイスへ、いつでもどこでも音楽をストリーミング再生できます。AndroidとiPhoneの両方に対応したモバイルアプリも利用可能です。
+    ko_KR: 개인 음악 스트리밍 서버인 mStream을 사용하면 집 컴퓨터에서 언제 어디서든 원하는 기기로 음악을 스트리밍할 수 있습니다. 안드로이드와 아이폰용 모바일 앱도 제공됩니다.
+    ml_IN: ഒരു വ്യക്തിഗത സംഗീത സ്ട്രീമിംഗ് സെർവർ. നിങ്ങളുടെ വീട്ടിലെ കമ്പ്യൂട്ടറിൽ നിന്ന് ഏത് ഉപകരണത്തിലേക്കും എവിടെയും സംഗീതം സ്ട്രീം ചെയ്യാൻ നിങ്ങൾക്ക് mStream ഉപയോഗിക്കാം. Android, iPhone എന്നിവയ്‌ക്കായി മൊബൈൽ ആപ്പുകൾ ലഭ്യമാണ്.
+    nb_NO: En personlig musikkstrømmeserver. Du kan bruke mStream til å strømme musikken din fra hjemmedatamaskinen til hvilken som helst enhet, hvor som helst. Det finnes mobilapper tilgjengelig for både Android og iPhone.
+    nl_NL: Een persoonlijke muziekstreamingserver. Met mStream stream je je muziek vanaf je computer naar elk apparaat, waar dan ook. Er zijn mobiele apps beschikbaar voor zowel Android als iPhone.
+    pl_PL: Osobisty serwer streamingu muzyki. Za pomocą mStream możesz przesyłać muzykę z komputera domowego na dowolne urządzenie, w dowolnym miejscu. Dostępne są aplikacje mobilne na Androida i iPhone'a.
+    pt_BR: Um servidor pessoal de streaming de música. Você pode usar o mStream para transmitir sua música do seu computador para qualquer dispositivo, em qualquer lugar. Há aplicativos móveis disponíveis para Android e iPhone.
+    ro_RO: Un server personal de streaming muzical. Poți folosi mStream pentru a reda muzică de pe computerul de acasă pe orice dispozitiv, oriunde. Există aplicații mobile disponibile atât pentru Android, cât și pentru iPhone.
+    ru_RU: Персональный сервер потоковой передачи музыки. С помощью mStream вы можете транслировать музыку со своего домашнего компьютера на любое устройство в любом месте. Доступны мобильные приложения для Android и iPhone.
+    sk_SK: Osobný server na streamovanie hudby. Pomocou služby mStream môžete streamovať hudbu z domáceho počítača do akéhokoľvek zariadenia, kdekoľvek. K dispozícii sú mobilné aplikácie pre Android aj iPhone.
+    sv_SE: En personlig musikströmningsserver. Du kan använda mStream för att strömma din musik från din hemdator till vilken enhet som helst, var som helst. Det finns mobilappar tillgängliga för både Android och iPhone.
+    tr_TR: Kişisel bir müzik yayın sunucusu. mStream'i kullanarak müziğinizi ev bilgisayarınızdan herhangi bir cihaza, her yerden aktarabilirsiniz. Hem Android hem de iPhone için mobil uygulamaları mevcuttur.
     zh_CN: 随时随地串流家中电脑上的音乐。
+    zh_TW: 隨時隨地串流家中電腦上的音樂。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png
   title:
     en_US: Mstream (LinuxServer.io)
+    ca_ES: Mstream (LinuxServer.io)
+    cs_CZ: Mstream (LinuxServer.io)
+    da_DK: Mstream (LinuxServer.io)
+    de_DE: Mstream (LinuxServer.io)
+    el_GR: Mstream (LinuxServer.io)
+    en_GB: Mstream (LinuxServer.io)
+    es_ES: Mstream (LinuxServer.io)
+    fr_FR: Mstream (LinuxServer.io)
+    ga_IE: Mstream (LinuxServer.io)
+    hr_HR: Mstream (LinuxServer.io)
+    hu_HU: Mstream (LinuxServer.io)
+    it_IT: Mstream (LinuxServer.io)
+    ja_JP: Mstream (LinuxServer.io)
+    ko_KR: Mstream (LinuxServer.io)
+    ml_IN: Mstream (LinuxServer.io)
+    nb_NO: Mstream (LinuxServer.io)
+    nl_NL: Mstream (LinuxServer.io)
+    pl_PL: Mstream (LinuxServer.io)
+    pt_BR: Mstream (LinuxServer.io)
+    ro_RO: Mstream (LinuxServer.io)
+    ru_RU: Mstream (LinuxServer.io)
+    sk_SK: Mstream (LinuxServer.io)
+    sv_SE: Mstream (LinuxServer.io)
+    tr_TR: Mstream (LinuxServer.io)
     zh_CN: Mstream（LinuxServer.io）
+    zh_TW: Mstream（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermstream
   port_map: '3000'

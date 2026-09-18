@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
+    ca_ES: Kdenlive és un potent programa d'edició de vídeo multiplataforma, gratuït i de codi obert, creat per la comunitat KDE. Ric en funcions i preparat per a la producció.
+    cs_CZ: Kdenlive je výkonný bezplatný a open source multiplatformní program pro editaci videa, vytvořený komunitou KDE. Bohatý na funkcích a připravený pro produkci.
+    da_DK: Kdenlive er et kraftfuldt gratis og open source-videoredigeringsprogram til flere platforme, lavet af KDE-fællesskabet. Funktionsrigt og produktionsklart.
+    de_DE: Kdenlive ist ein leistungsstarkes, kostenloses und quelloffenes, plattformübergreifendes Videobearbeitungsprogramm der KDE-Community. Es bietet umfangreiche Funktionen und ist sofort einsatzbereit.
+    el_GR: Το Kdenlive είναι ένα ισχυρό, δωρεάν και ανοιχτού κώδικα, cross-platform πρόγραμμα επεξεργασίας βίντεο, που δημιουργήθηκε από την κοινότητα του KDE. Πλούσιο σε δυνατότητες και έτοιμο για παραγωγή.
+    en_GB: Kdenlive is a powerful free and open source cross-platform video editing program made by the Kde community. Feature rich and production ready.
+    es_ES: Kdenlive es un potente programa de edición de vídeo multiplataforma, gratuito y de código abierto, creado por la comunidad KDE. Repleto de funciones y listo para la producción.
+    fr_FR: Kdenlive est un puissant logiciel de montage vidéo multiplateforme, libre et open source, développé par la communauté KDE. Il offre de nombreuses fonctionnalités et est prêt pour la production.
+    ga_IE: Is clár eagarthóireachta físe tras-ardáin cumhachtach saor in aisce agus foinse oscailte é Kdenlive, arna dhéanamh ag pobal KDE. Tá sé lán le gnéithe agus réidh le haghaidh léiriúcháin.
+    hr_HR: Kdenlive je moćan, besplatan i otvorenog koda višeplatformski program za uređivanje videa, koji je izradila KDE zajednica. Bogat je značajkama i spreman za produkciju.
+    hu_HU: A Kdenlive egy hatékony, ingyenes és nyílt forráskódú, platformfüggetlen videószerkesztő program, amelyet a KDE közösség készített. Funkciógazdag és produkciós használatra kész.
+    it_IT: Kdenlive è un potente programma di editing video gratuito e open source, multipiattaforma, creato dalla comunità KDE. Ricco di funzionalità e pronto per la produzione.
+    ja_JP: Kdenliveは、KDEコミュニティによって開発された、強力な無料かつオープンソースのクロスプラットフォーム動画編集プログラムです。豊富な機能を備え、すぐに実用化できます。
+    ko_KR: Kdenlive는 KDE 커뮤니티에서 개발한 강력한 무료 오픈 소스 크로스 플랫폼 비디오 편집 프로그램입니다. 다양한 기능을 갖추고 있어 바로 전문가 수준의 작업을 할 수 있습니다.
+    ml_IN: കെഡിഇ കമ്മ്യൂണിറ്റി നിർമ്മിച്ച ശക്തമായ ഒരു സ്വതന്ത്ര, ഓപ്പൺ സോഴ്‌സ് ക്രോസ്-പ്ലാറ്റ്‌ഫോം വീഡിയോ എഡിറ്റിംഗ് പ്രോഗ്രാമാണ് കെഡൻലൈവ്. സവിശേഷതകളാൽ സമ്പന്നവും നിർമ്മാണത്തിന് തയ്യാറായതുമാണ്.
+    nb_NO: Kdenlive er et kraftig gratis og åpen kildekode-videoredigeringsprogram for flere plattformer, laget av KDE-fellesskapet. Funksjonsrikt og produksjonsklart.
+    nl_NL: Kdenlive is een krachtig, gratis en open source, platformonafhankelijk videobewerkingsprogramma, ontwikkeld door de KDE-community. Het is rijk aan functies en direct klaar voor professioneel gebruik.
+    pl_PL: Kdenlive to potężny, darmowy i otwarty program do edycji wideo, działający na wielu platformach, stworzony przez społeczność KDE. Bogaty w funkcje i gotowy do produkcji.
+    pt_BR: O Kdenlive é um poderoso programa de edição de vídeo multiplataforma, gratuito e de código aberto, desenvolvido pela comunidade KDE. Repleto de recursos e pronto para produção.
+    ro_RO: Kdenlive este un program puternic de editare video, gratuit și open-source, multiplatformă, creat de comunitatea KDE. Bogat în funcții și pregătit pentru producție.
+    ru_RU: Kdenlive — это мощная бесплатная кроссплатформенная программа для редактирования видео с открытым исходным кодом, созданная сообществом KDE. Она обладает богатым функционалом и готова к использованию в производственных целях.
+    sk_SK: Kdenlive je výkonný bezplatný a open source multiplatformový program na úpravu videa, ktorý vytvorila komunita KDE. Je bohatý na funkcie a pripravený na produkciu.
+    sv_SE: Kdenlive är ett kraftfullt gratis och plattformsoberoende videoredigeringsprogram med öppen källkod, skapat av KDE-communityn. Funktionsrikt och produktionsklart.
+    tr_TR: Kdenlive, KDE topluluğu tarafından geliştirilen güçlü, ücretsiz ve açık kaynaklı, platformlar arası bir video düzenleme programıdır. Özellik bakımından zengin ve üretime hazır.
     zh_CN: Kdenlive 是由 KDE 社区开发的强大、免费、开源且跨平台的视频编辑软件，功能丰富，可用于正式制作。
+    zh_TW: Kdenlive 是由 KDE 社群開發的強大、免費、開源且跨平臺的影片編輯軟體，功能豐富，可用於正式製作。
   tagline:
     en_US: A powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.
+    ca_ES: Un potent programa d'edició de vídeo multiplataforma, gratuït i de codi obert, creat per la comunitat KDE. Ric en funcions i preparat per a la producció.
+    cs_CZ: Výkonný bezplatný a open source multiplatformní program pro editaci videa vytvořený komunitou KDE. Bohatý na funkcích a připravený pro produkci.
+    da_DK: Et kraftfuldt gratis og open source-videoredigeringsprogram til flere platforme, lavet af KDE-fællesskabet. Funktionsrigt og klar til produktion.
+    de_DE: Ein leistungsstarkes, kostenloses und quelloffenes plattformübergreifendes Videobearbeitungsprogramm der KDE-Community. Funktionsreich und produktionsreif.
+    el_GR: Ένα ισχυρό, δωρεάν και ανοιχτού κώδικα, cross-platform πρόγραμμα επεξεργασίας βίντεο, κατασκευασμένο από την κοινότητα του KDE. Πλούσιο σε λειτουργίες και έτοιμο για παραγωγή.
+    en_GB: A powerful free and open source cross-platform video editing program made by the Kde community. Feature rich and production ready.
+    es_ES: Un potente programa de edición de vídeo multiplataforma, gratuito y de código abierto, creado por la comunidad KDE. Repleto de funciones y listo para la producción.
+    fr_FR: Un puissant logiciel de montage vidéo multiplateforme, libre et gratuit, développé par la communauté KDE. Riche en fonctionnalités et prêt pour la production.
+    ga_IE: Clár eagarthóireachta físe tras-ardáin cumhachtach saor in aisce agus foinse oscailte, déanta ag pobal KDE. Saibhir ghnéithe agus réidh le haghaidh léiriúcháin.
+    hr_HR: Moćan besplatni program za uređivanje videa otvorenog koda, za više platformi, koji je izradila KDE zajednica. Bogat je značajkama i spreman za produkciju.
+    hu_HU: Egy hatékony, ingyenes és nyílt forráskódú, platformfüggetlen videószerkesztő program, amelyet a KDE közösség készített. Funkciógazdag és produkciós használatra kész.
+    it_IT: Un potente programma di editing video gratuito e open source, multipiattaforma, creato dalla community di KDE. Ricco di funzionalità e pronto per la produzione.
+    ja_JP: KDEコミュニティが開発した、強力な無料かつオープンソースのクロスプラットフォーム動画編集プログラム。豊富な機能を備え、すぐに実用化できます。
+    ko_KR: KDE 커뮤니티에서 개발한 강력한 무료 오픈 소스 크로스 플랫폼 비디오 편집 프로그램입니다. 다양한 기능을 갖추고 있어 바로 제작에 활용할 수 있습니다.
+    ml_IN: കെഡിഇ കമ്മ്യൂണിറ്റി നിർമ്മിച്ച ശക്തമായ ഒരു സ്വതന്ത്ര, ഓപ്പൺ സോഴ്‌സ് ക്രോസ്-പ്ലാറ്റ്‌ഫോം വീഡിയോ എഡിറ്റിംഗ് പ്രോഗ്രാം. സവിശേഷതകളാൽ സമ്പന്നവും നിർമ്മാണത്തിന് തയ്യാറായതുമാണ്.
+    nb_NO: Et kraftig gratis og åpen kildekode-videoredigeringsprogram for flere plattformer laget av KDE-fellesskapet. Funksjonsrikt og produksjonsklart.
+    nl_NL: Een krachtig, gratis en open source, platformonafhankelijk videobewerkingsprogramma, ontwikkeld door de KDE-community. Rijk aan functies en direct klaar voor productie.
+    pl_PL: Potężny, darmowy i otwarty program do edycji wideo, działający na wielu platformach, stworzony przez społeczność KDE. Bogaty w funkcje i gotowy do produkcji.
+    pt_BR: Um poderoso programa de edição de vídeo multiplataforma, gratuito e de código aberto, desenvolvido pela comunidade KDE. Repleto de recursos e pronto para produção.
+    ro_RO: Un program puternic de editare video, gratuit și open-source, multiplatformă, creat de comunitatea KDE. Bogat în funcții și pregătit pentru producție.
+    ru_RU: Мощная бесплатная кроссплатформенная программа для видеомонтажа с открытым исходным кодом, созданная сообществом KDE. Многофункциональная и готовая к использованию в производственных целях.
+    sk_SK: Výkonný bezplatný a open source multiplatformový program na úpravu videa vytvorený komunitou KDE. Bohatý na funkcie a pripravený na produkciu.
+    sv_SE: Ett kraftfullt gratis och plattformsoberoende videoredigeringsprogram med öppen källkod, skapat av KDE-communityn. Funktionsrikt och produktionsklart.
+    tr_TR: KDE topluluğu tarafından geliştirilen, güçlü, ücretsiz ve açık kaynaklı, platformlar arası bir video düzenleme programı. Özellik bakımından zengin ve üretime hazır.
     zh_CN: 由 KDE 社区开发的开源视频编辑器。
+    zh_TW: 由 KDE 社群開發的開源影片編輯器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kdenlive-logo.png
   title:
     en_US: Kdenlive (LinuxServer.io)
+    ca_ES: Kdenlive (LinuxServer.io)
+    cs_CZ: Kdenlive (LinuxServer.io)
+    da_DK: Kdenlive (LinuxServer.io)
+    de_DE: Kdenlive (LinuxServer.io)
+    el_GR: Kdenlive (LinuxServer.io)
+    en_GB: Kdenlive (LinuxServer.io)
+    es_ES: Kdenlive (LinuxServer.io)
+    fr_FR: Kdenlive (LinuxServer.io)
+    ga_IE: Kdenlive (LinuxServer.io)
+    hr_HR: Kdenlive (LinuxServer.io)
+    hu_HU: Kdenlive (LinuxServer.io)
+    it_IT: Kdenlive (LinuxServer.io)
+    ja_JP: Kdenlive (LinuxServer.io)
+    ko_KR: Kdenlive (LinuxServer.io)
+    ml_IN: Kdenlive (LinuxServer.io)
+    nb_NO: Kdenlive (LinuxServer.io)
+    nl_NL: Kdenlive (LinuxServer.io)
+    pl_PL: Kdenlive (LinuxServer.io)
+    pt_BR: Kdenlive (LinuxServer.io)
+    ro_RO: Kdenlive (LinuxServer.io)
+    ru_RU: Kdenlive (LinuxServer.io)
+    sk_SK: Kdenlive (LinuxServer.io)
+    sv_SE: Kdenlive (LinuxServer.io)
+    tr_TR: Kdenlive (LinuxServer.io)
     zh_CN: Kdenlive（LinuxServer.io）
+    zh_TW: Kdenlive（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkdenlive
   port_map: '3000'

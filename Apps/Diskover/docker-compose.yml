@@ -44,17 +44,92 @@ x-casaos:
   main: app
   description:
     en_US: Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    ca_ES: Diskover és un indexador de sistemes de fitxers de codi obert que utilitza Elasticsearch per indexar i gestionar dades en sistemes d'emmagatzematge heterogenis.
+    cs_CZ: Diskover je indexátor souborových systémů s otevřeným zdrojovým kódem, který využívá Elasticsearch k indexování a správě dat napříč heterogenními úložnými systémy.
+    da_DK: Diskover er en open source-filsystemindekser, der bruger Elasticsearch til at indeksere og administrere data på tværs af heterogene lagringssystemer.
+    de_DE: Diskover ist ein Open-Source-Dateisystemindexer, der Elasticsearch verwendet, um Daten über heterogene Speichersysteme hinweg zu indizieren und zu verwalten.
+    el_GR: Το Discover είναι ένα πρόγραμμα ευρετηρίασης συστημάτων αρχείων ανοιχτού κώδικα που χρησιμοποιεί το Elasticsearch για την ευρετηρίαση και τη διαχείριση δεδομένων σε ετερογενή συστήματα αποθήκευσης.
+    en_GB: Diskover is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    es_ES: Diskover es un indexador de sistemas de archivos de código abierto que utiliza Elasticsearch para indexar y gestionar datos en sistemas de almacenamiento heterogéneos.
+    fr_FR: Diskover est un indexeur de systèmes de fichiers open source qui utilise Elasticsearch pour indexer et gérer les données sur des systèmes de stockage hétérogènes.
+    ga_IE: Is innéacsóir córais comhad foinse oscailte é Diskover a úsáideann Elasticsearch chun sonraí a innéacsú agus a bhainistiú ar fud córas stórála héagsúla.
+    hr_HR: Diskover je indeksator datotečnog sustava otvorenog koda koji koristi Elasticsearch za indeksiranje i upravljanje podacima na heterogenim sustavima za pohranu.
+    hu_HU: A Diskover egy nyílt forráskódú fájlrendszer-indexelő, amely az Elasticsearch szolgáltatást használja az adatok indexelésére és kezelésére heterogén tárolórendszerekben.
+    it_IT: Diskover è un indicizzatore di file system open source che utilizza Elasticsearch per indicizzare e gestire i dati su sistemi di archiviazione eterogenei.
+    ja_JP: Diskoverは、Elasticsearchを使用して異種ストレージシステム全体にわたるデータをインデックス化および管理するオープンソースのファイルシステムインデクサーです。
+    ko_KR: Diskover는 Elasticsearch를 사용하여 이기종 스토리지 시스템 전반의 데이터를 인덱싱하고 관리하는 오픈 소스 파일 시스템 인덱서입니다.
+    ml_IN: വൈവിധ്യമാർന്ന സ്റ്റോറേജ് സിസ്റ്റങ്ങളിലുടനീളം ഡാറ്റ സൂചികയിലാക്കാനും കൈകാര്യം ചെയ്യാനും ഇലാസ്റ്റിക് സെർച്ച് ഉപയോഗിക്കുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് ഫയൽ സിസ്റ്റം ഇൻഡെക്സറാണ് ഡിസ്‌കോവർ.
+    nb_NO: Diskover er en indekserer for filsystemer med åpen kildekode som bruker Elasticsearch til å indeksere og administrere data på tvers av heterogene lagringssystemer.
+    nl_NL: Diskover is een open source bestandssysteemindexer die Elasticsearch gebruikt om gegevens te indexeren en te beheren in heterogene opslagsystemen.
+    pl_PL: Diskover to indeksator systemu plików o otwartym kodzie źródłowym, który wykorzystuje Elasticsearch do indeksowania i zarządzania danymi w heterogenicznych systemach pamięci masowej.
+    pt_BR: Diskover é um indexador de sistemas de arquivos de código aberto que utiliza o Elasticsearch para indexar e gerenciar dados em sistemas de armazenamento heterogêneos.
+    ro_RO: Diskover este un indexator de sisteme de fișiere open source care folosește Elasticsearch pentru a indexa și gestiona date pe sisteme de stocare eterogene.
+    ru_RU: Diskover — это индексатор файловых систем с открытым исходным кодом, использующий Elasticsearch для индексирования и управления данными в разнородных системах хранения.
+    sk_SK: Diskover je indexátor súborového systému s otvoreným zdrojovým kódom, ktorý používa Elasticsearch na indexovanie a správu údajov v heterogénnych úložných systémoch.
+    sv_SE: Diskover är en indexerare för filsystem med öppen källkod som använder Elasticsearch för att indexera och hantera data över heterogena lagringssystem.
+    tr_TR: Diskover, farklı depolama sistemlerindeki verileri indekslemek ve yönetmek için Elasticsearch kullanan açık kaynaklı bir dosya sistemi indeksleme aracıdır.
     zh_CN: Diskover 是一个开源文件系统索引工具，使用 Elasticsearch 对不同存储系统中的数据进行索引和管理。
+    zh_TW: Diskover 是一個開原始檔系統索引工具，使用 Elasticsearch 對不同儲存系統中的資料進行索引和管理。
   tagline:
     en_US: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    ca_ES: Un indexador de sistemes de fitxers de codi obert que utilitza Elasticsearch per indexar i gestionar dades en sistemes d'emmagatzematge heterogenis.
+    cs_CZ: Indexer souborového systému s otevřeným zdrojovým kódem, který využívá Elasticsearch k indexování a správě dat napříč heterogenními úložnými systémy.
+    da_DK: En open source-filsystemindekser, der bruger Elasticsearch til at indeksere og administrere data på tværs af heterogene lagringssystemer.
+    de_DE: Ein Open-Source-Dateisystemindexer, der Elasticsearch verwendet, um Daten über heterogene Speichersysteme hinweg zu indizieren und zu verwalten.
+    el_GR: Ένα ευρετήριο συστήματος αρχείων ανοιχτού κώδικα που χρησιμοποιεί το Elasticsearch για την ευρετηρίαση και τη διαχείριση δεδομένων σε ετερογενή συστήματα αποθήκευσης.
+    en_GB: An open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.
+    es_ES: Un indexador de sistemas de archivos de código abierto que utiliza Elasticsearch para indexar y gestionar datos en sistemas de almacenamiento heterogéneos.
+    fr_FR: Un indexeur de systèmes de fichiers open source qui utilise Elasticsearch pour indexer et gérer les données sur des systèmes de stockage hétérogènes.
+    ga_IE: Innéacsóir córais comhad foinse oscailte a úsáideann Elasticsearch chun sonraí a innéacsú agus a bhainistiú ar fud córas stórála héagsúla.
+    hr_HR: Indekser datotečnog sustava otvorenog koda koji koristi Elasticsearch za indeksiranje i upravljanje podacima u heterogenim sustavima za pohranu.
+    hu_HU: Egy nyílt forráskódú fájlrendszer-indexelő, amely az Elasticsearch szolgáltatást használja az adatok indexelésére és kezelésére heterogén tárolórendszerekben.
+    it_IT: Un indicizzatore di file system open source che utilizza Elasticsearch per indicizzare e gestire i dati su sistemi di archiviazione eterogenei.
+    ja_JP: Elasticsearchを使用して、異種ストレージシステム全体にわたるデータのインデックス作成と管理を行うオープンソースのファイルシステムインデクサー。
+    ko_KR: 다양한 스토리지 시스템 전반에 걸쳐 데이터를 인덱싱하고 관리하기 위해 Elasticsearch를 사용하는 오픈 소스 파일 시스템 인덱서입니다.
+    ml_IN: വൈവിധ്യമാർന്ന സംഭരണ സംവിധാനങ്ങളിലുടനീളം ഡാറ്റ സൂചികയിലാക്കാനും കൈകാര്യം ചെയ്യാനും ഇലാസ്റ്റിക് സെർച്ച് ഉപയോഗിക്കുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് ഫയൽ സിസ്റ്റം ഇൻഡെക്‌സർ.
+    nb_NO: En indekser for filsystemer med åpen kildekode som bruker Elasticsearch til å indeksere og administrere data på tvers av heterogene lagringssystemer.
+    nl_NL: Een open source bestandssysteemindexer die Elasticsearch gebruikt om gegevens te indexeren en te beheren in heterogene opslagsystemen.
+    pl_PL: Indeksator systemu plików o otwartym kodzie źródłowym, który wykorzystuje Elasticsearch do indeksowania i zarządzania danymi w heterogenicznych systemach pamięci masowej.
+    pt_BR: Um indexador de sistema de arquivos de código aberto que usa o Elasticsearch para indexar e gerenciar dados em sistemas de armazenamento heterogêneos.
+    ro_RO: Un indexator de sisteme de fișiere open source care folosește Elasticsearch pentru a indexa și gestiona date pe sisteme de stocare eterogene.
+    ru_RU: Индексатор файловых систем с открытым исходным кодом, использующий Elasticsearch для индексирования и управления данными в разнородных системах хранения.
+    sk_SK: Indexátor súborového systému s otvoreným zdrojovým kódom, ktorý používa Elasticsearch na indexovanie a správu údajov v heterogénnych úložných systémoch.
+    sv_SE: En indexerare för filsystem med öppen källkod som använder Elasticsearch för att indexera och hantera data över heterogena lagringssystem.
+    tr_TR: Farklı depolama sistemlerindeki verileri indekslemek ve yönetmek için Elasticsearch kullanan açık kaynaklı bir dosya sistemi indeksleyici.
     zh_CN: 使用 Elasticsearch 索引和管理文件系统数据。
+    zh_TW: 使用 Elasticsearch 索引和管理檔案系統資料。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   thumbnail: https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png
   title:
     en_US: Diskover (LinuxServer.io)
+    ca_ES: Diskover (LinuxServer.io)
+    cs_CZ: Diskover (LinuxServer.io)
+    da_DK: Diskover (LinuxServer.io)
+    de_DE: Diskover (LinuxServer.io)
+    el_GR: Diskover (LinuxServer.io)
+    en_GB: Diskover (LinuxServer.io)
+    es_ES: Diskover (LinuxServer.io)
+    fr_FR: Diskover (LinuxServer.io)
+    ga_IE: Diskover (LinuxServer.io)
+    hr_HR: Diskover (LinuxServer.io)
+    hu_HU: Diskover (LinuxServer.io)
+    it_IT: Diskover (LinuxServer.io)
+    ja_JP: Diskover (LinuxServer.io)
+    ko_KR: Diskover (LinuxServer.io)
+    ml_IN: Diskover (LinuxServer.io)
+    nb_NO: Diskover (LinuxServer.io)
+    nl_NL: Diskover (LinuxServer.io)
+    pl_PL: Diskover (LinuxServer.io)
+    pt_BR: Diskover (LinuxServer.io)
+    ro_RO: Diskover (LinuxServer.io)
+    ru_RU: Diskover (LinuxServer.io)
+    sk_SK: Diskover (LinuxServer.io)
+    sv_SE: Diskover (LinuxServer.io)
+    tr_TR: Diskover (LinuxServer.io)
     zh_CN: Diskover（LinuxServer.io）
+    zh_TW: Diskover（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdiskover
   port_map: '80'

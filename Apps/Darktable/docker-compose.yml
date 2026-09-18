@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: darktable is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.
+    ca_ES: darktable és una aplicació de flux de treball de fotografia de codi obert i desenvolupador de RAW. Una taula de llum virtual i un quart fosc per a fotògrafs. Gestiona els negatius digitals en una base de dades, permet visualitzar-los a través d'una taula de llum amb zoom i permet revelar imatges RAW i millorar-les.
+    cs_CZ: darktable je open source aplikace pro pracovní postupy v oblasti fotografování a vývoj RAW souborů. Virtuální světelný stůl a temná komora pro fotografy. Spravuje vaše digitální negativy v databázi, umožňuje vám je prohlížet pomocí přizpůsobitelného světelného stolu a umožňuje vám vyvolávat a vylepšovat RAW snímky.
+    da_DK: darktable er et open source-program til fotograferingsworkflows og RAW-udvikling. Et virtuelt lysbord og mørkekammer for fotografer. Det administrerer dine digitale negativer i en database, lader dig se dem gennem et zoombart lysbord og gør det muligt at fremkalde RAW-billeder og forbedre dem.
+    de_DE: darktable ist eine Open-Source-Anwendung für den Fotografie-Workflow und die RAW-Entwicklung. Sie bietet Fotografen eine virtuelle Lichttisch- und Dunkelkammerfunktion. Die Anwendung verwaltet Ihre digitalen Negative in einer Datenbank, ermöglicht deren Betrachtung durch einen zoombaren Lichttisch und erlaubt die Entwicklung und Optimierung von RAW-Bildern.
+    el_GR: Το darktable είναι μια εφαρμογή ανοιχτού κώδικα για τη ροή εργασίας φωτογραφίας και έναν προγραμματιστή RAW. Ένας εικονικός πίνακας φωτισμού και σκοτεινός θάλαμος για φωτογράφους. Διαχειρίζεται τα ψηφιακά σας αρνητικά σε μια βάση δεδομένων, σας επιτρέπει να τα βλέπετε μέσω ενός πίνακα φωτισμού με δυνατότητα ζουμ και σας επιτρέπει να αναπτύσσετε εικόνες RAW και να τις βελτιώνετε.
+    en_GB: darktable is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.
+    es_ES: darktable es una aplicación de código abierto para el flujo de trabajo fotográfico y el revelado de archivos RAW. Una mesa de luz y un cuarto oscuro virtuales para fotógrafos. Gestiona tus negativos digitales en una base de datos, te permite visualizarlos mediante una mesa de luz con zoom y te permite revelar y mejorar imágenes RAW.
+    fr_FR: darktable est une application open source de gestion de flux de travail photographique et de développement RAW. Véritable chambre noire virtuelle, elle permet aux photographes de gérer leurs négatifs numériques dans une base de données, de les visualiser sur une table lumineuse zoomable et de développer et améliorer leurs images RAW.
+    ga_IE: Is feidhmchlár sreabha oibre grianghrafadóireachta foinse oscailte agus forbróir amh é darktable. Bord solais agus seomra dorcha fíorúil do ghrianghrafadóirí. Bainistíonn sé do dhiúltacha digiteacha i mbunachar sonraí, ligeann sé duit iad a fheiceáil trí bhord solais insúmáilte agus cuireann sé ar do chumas íomhánna amha a fhorbairt agus a fheabhsú.
+    hr_HR: darktable je aplikacija otvorenog koda za radni proces u fotografiji i program za razvoj RAW datoteka. Virtualni svjetlosni stol i tamna komora za fotografe. Upravlja vašim digitalnim negativima u bazi podataka, omogućuje vam njihov pregled kroz zumirajući svjetlosni stol te vam omogućuje razvijanje RAW slika i njihovo poboljšanje.
+    hu_HU: A darktable egy nyílt forráskódú fotózási munkafolyamat-alkalmazás és RAW-fejlesztő. Virtuális fényasztal és sötétkamra fotósok számára. Kezeli a digitális negatívokat egy adatbázisban, lehetővé teszi azok megtekintését egy nagyítható fényasztalon keresztül, valamint lehetővé teszi RAW képek előhívását és javítását.
+    it_IT: darktable è un'applicazione open source per la gestione del flusso di lavoro fotografico e lo sviluppo di file RAW. Un tavolo luminoso e una camera oscura virtuali per i fotografi. Gestisce i negativi digitali in un database, consente di visualizzarli tramite un tavolo luminoso zoomabile e permette di sviluppare e migliorare le immagini RAW.
+    ja_JP: darktableは、オープンソースの写真撮影ワークフローアプリケーションであり、RAW現像ソフトです。写真家のための仮想ライトテーブル兼暗室と言えるでしょう。デジタルネガをデータベースで管理し、ズーム可能なライトテーブルを通して表示できるほか、RAW画像の現像や補正も可能です。
+    ko_KR: darktable은 오픈 소스 사진 워크플로우 애플리케이션이자 RAW 현상 프로그램입니다. 사진가를 위한 가상 라이트 테이블 및 암실이라고 할 수 있죠. 데이터베이스에 디지털 네거티브를 관리하고, 확대/축소 가능한 라이트 테이블을 통해 이미지를 미리 볼 수 있으며, RAW 이미지를 현상하고 보정할 수 있습니다.
+    ml_IN: darktable ഒരു ഓപ്പൺ സോഴ്‌സ് ഫോട്ടോഗ്രാഫി വർക്ക്ഫ്ലോ ആപ്ലിക്കേഷനും റോ ഡെവലപ്പറുമാണ്. ഫോട്ടോഗ്രാഫർമാർക്കുള്ള ഒരു വെർച്വൽ ലൈറ്റ്ടേബിളും ഡാർക്ക്‌റൂമും. ഇത് നിങ്ങളുടെ ഡിജിറ്റൽ നെഗറ്റീവുകളെ ഒരു ഡാറ്റാബേസിൽ കൈകാര്യം ചെയ്യുന്നു, സൂം ചെയ്യാവുന്ന ലൈറ്റ്ടേബിളിലൂടെ അവയെ കാണാൻ നിങ്ങളെ അനുവദിക്കുന്നു, കൂടാതെ റോ ഇമേജുകൾ വികസിപ്പിക്കാനും മെച്ചപ്പെടുത്താനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്നു.
+    nb_NO: darktable er et åpen kildekode-program for arbeidsflyt for fotografering og RAW-utvikler. Et virtuelt lysbord og mørkerom for fotografer. Det administrerer digitale negativer i en database, lar deg se dem gjennom et zoombart lysbord og lar deg fremkalle RAW-bilder og forbedre dem.
+    nl_NL: Darktable is een open source workflow-applicatie voor fotografie en een raw-ontwikkelaar. Het is een virtuele lichtbak en donkere kamer voor fotografen. Je beheert je digitale negatieven in een database, je kunt ze bekijken via een inzoombaar scherm en je kunt raw-afbeeldingen ontwikkelen en verbeteren.
+    pl_PL: Darktable to aplikacja open source do zarządzania przepływem pracy w fotografii i wywoływania plików RAW. Wirtualny stół podświetlany i ciemnia dla fotografów. Zarządza cyfrowymi negatywami w bazie danych, umożliwia ich przeglądanie za pomocą stołu podświetlanego z funkcją zoomu oraz wywoływanie i ulepszanie obrazów RAW.
+    pt_BR: O darktable é um aplicativo de código aberto para fluxo de trabalho fotográfico e revelação de arquivos RAW. Uma mesa de luz e câmara escura virtuais para fotógrafos. Ele gerencia seus negativos digitais em um banco de dados, permite visualizá-los através de uma mesa de luz com zoom e possibilita revelar e aprimorar imagens RAW.
+    ro_RO: darktable este o aplicație open source pentru fluxul de lucru fotografic și un dezvoltator de fișiere RAW. O masă luminoasă virtuală și o cameră obscură pentru fotografi. Gestionează negativele digitale într-o bază de date, îți permite să le vizualizezi printr-o masă luminoasă cu zoom și îți permite să developezi imagini RAW și să le îmbunătățești.
+    ru_RU: Darktable — это приложение с открытым исходным кодом для обработки фотографий и работы с RAW-файлами. Виртуальный световой стол и фотолаборатория для фотографов. Оно управляет цифровыми негативами в базе данных, позволяет просматривать их с помощью масштабируемого светового стола и дает возможность обрабатывать и улучшать RAW-изображения.
+    sk_SK: darktable je open source aplikácia pre pracovný postup pri fotografovaní a vývojár RAW obrázkov. Virtuálny svetelný stôl a tmavá komora pre fotografov. Spravuje vaše digitálne negatívy v databáze, umožňuje vám ich prezerať cez priblížiteľný svetelný stôl a umožňuje vám vyvolávať a vylepšovať RAW obrázky.
+    sv_SE: darktable är ett fotoarbetsflödesprogram med öppen källkod och en raw-utvecklare. Ett virtuellt ljusbord och mörkrum för fotografer. Det hanterar dina digitala negativ i en databas, låter dig visa dem genom ett zoombart ljusbord och gör att du kan framkalla råbilder och förbättra dem.
+    tr_TR: darktable, açık kaynaklı bir fotoğrafçılık iş akışı uygulaması ve RAW geliştiricisidir. Fotoğrafçılar için sanal bir ışık masası ve karanlık odadır. Dijital negatiflerinizi bir veritabanında yönetir, yakınlaştırılabilir bir ışık masası aracılığıyla görüntülemenizi sağlar ve RAW görüntüleri geliştirmenize ve iyileştirmenize olanak tanır.
     zh_CN: darktable 是一款开源摄影工作流程应用和 RAW 图像处理工具，相当于摄影师的虚拟灯箱与暗房。它在数据库中管理数码底片，提供可缩放灯箱以浏览照片，并支持 RAW 图像显影和增强。
+    zh_TW: darktable 是一款開源攝影工作流程應用和 RAW 影象處理工具，相當於攝影師的虛擬燈箱與暗房。它在資料庫中管理數碼底片，提供可縮放燈箱以瀏覽照片，並支援 RAW 影象顯影和增強。
   tagline:
     en_US: An open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.
+    ca_ES: Una aplicació de flux de treball de fotografia de codi obert i un desenvolupador de RAW. Una taula de llum virtual i un quart fosc per a fotògrafs. Gestiona els negatius digitals en una base de dades, permet visualitzar-los a través d'una taula de llum amb zoom i permet revelar imatges RAW i millorar-les.
+    cs_CZ: Aplikace s otevřeným zdrojovým kódem pro práci s fotografiemi a vývojář RAW souborů. Virtuální světelný stůl a temná komora pro fotografy. Spravuje vaše digitální negativy v databázi, umožňuje je prohlížet pomocí přibližovacího světelného stolu a umožňuje vyvolávat a vylepšovat RAW snímky.
+    da_DK: En open source-applikation til fotograferingsworkflow og RAW-udvikler. Et virtuelt lysbord og mørkekammer til fotografer. Det administrerer dine digitale negativer i en database, lader dig se dem gennem et zoombart lysbord og gør det muligt at fremkalde RAW-billeder og forbedre dem.
+    de_DE: Eine Open-Source-Anwendung für den Fotografie-Workflow und die RAW-Entwicklung. Ein virtueller Leuchttisch und eine Dunkelkammer für Fotografen. Sie verwaltet Ihre digitalen Negative in einer Datenbank, ermöglicht deren Betrachtung durch einen zoombaren Leuchttisch und erlaubt die Entwicklung und Optimierung von RAW-Bildern.
+    el_GR: Μια εφαρμογή ανοιχτού κώδικα για τη ροή εργασίας φωτογραφίας και έναν προγραμματιστή RAW. Ένας εικονικός πίνακας φωτισμού και ένας σκοτεινός θάλαμος για φωτογράφους. Διαχειρίζεται τα ψηφιακά σας αρνητικά σε μια βάση δεδομένων, σας επιτρέπει να τα βλέπετε μέσω ενός πίνακα φωτισμού με δυνατότητα ζουμ και σας επιτρέπει να αναπτύσσετε εικόνες RAW και να τις βελτιώνετε.
+    en_GB: An open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.
+    es_ES: Aplicación de código abierto para el flujo de trabajo fotográfico y revelado de archivos RAW. Mesa de luz y cuarto oscuro virtuales para fotógrafos. Gestiona tus negativos digitales en una base de datos, te permite visualizarlos mediante una mesa de luz con zoom y te permite revelar y mejorar imágenes RAW.
+    fr_FR: Une application open source de gestion de flux de travail photographique et de développement RAW. Une table lumineuse et une chambre noire virtuelles pour les photographes. Elle gère vos négatifs numériques dans une base de données, vous permet de les visualiser sur une table lumineuse zoomable et vous offre la possibilité de développer et d'améliorer vos images RAW.
+    ga_IE: Feidhmchlár sreabha oibre grianghrafadóireachta foinse oscailte agus forbróir amh. Bord solais agus seomra dorcha fíorúil do ghrianghrafadóirí. Bainistíonn sé do dhiúltacha digiteacha i mbunachar sonraí, ligeann sé duit iad a fheiceáil trí bhord solais insúmáilte agus cuireann sé ar do chumas íomhánna amha a fhorbairt agus iad a fheabhsú.
+    hr_HR: Aplikacija otvorenog koda za radni proces u fotografiji i program za RAW formate. Virtualni svjetlosni stol i tamna komora za fotografe. Upravlja vašim digitalnim negativima u bazi podataka, omogućuje vam njihov pregled kroz zumirajući svjetlosni stol te vam omogućuje razvijanje RAW slika i njihovo poboljšanje.
+    hu_HU: Egy nyílt forráskódú fotózási munkafolyamat-alkalmazás és nyers képek fejlesztője. Virtuális fényasztal és sötétkamra fotósoknak. Kezeli digitális negatívjait egy adatbázisban, lehetővé teszi azok megtekintését egy nagyítható fényasztalon keresztül, valamint nyers képek előhívását és javítását.
+    it_IT: Un'applicazione open source per la gestione del flusso di lavoro fotografico e lo sviluppo di file RAW. Un tavolo luminoso e una camera oscura virtuali per i fotografi. Gestisce i negativi digitali in un database, permette di visualizzarli tramite un tavolo luminoso zoomabile e consente di sviluppare e migliorare le immagini RAW.
+    ja_JP: オープンソースの写真撮影ワークフローアプリケーションおよびRAW現像ソフト。写真家のための仮想ライトテーブルと暗室です。デジタルネガをデータベースで管理し、ズーム可能なライトテーブルを通して表示できるほか、RAW画像の現像と補正も可能です。
+    ko_KR: 오픈 소스 사진 워크플로우 애플리케이션이자 RAW 현상 프로그램입니다. 사진가를 위한 가상 라이트 테이블 및 암실 기능을 제공하며, 디지털 네거티브를 데이터베이스에 저장하고, 확대/축소 가능한 라이트 테이블을 통해 미리 볼 수 있으며, RAW 이미지를 현상하고 보정할 수 있습니다.
+    ml_IN: ഒരു ഓപ്പൺ സോഴ്‌സ് ഫോട്ടോഗ്രാഫി വർക്ക്ഫ്ലോ ആപ്ലിക്കേഷനും റോ ഡെവലപ്പറും. ഫോട്ടോഗ്രാഫർമാർക്കുള്ള ഒരു വെർച്വൽ ലൈറ്റ്‌ടേബിളും ഡാർക്ക്‌റൂമും. ഇത് നിങ്ങളുടെ ഡിജിറ്റൽ നെഗറ്റീവുകളെ ഒരു ഡാറ്റാബേസിൽ കൈകാര്യം ചെയ്യുന്നു, സൂം ചെയ്യാവുന്ന ലൈറ്റ്‌ടേബിളിലൂടെ അവയെ കാണാൻ നിങ്ങളെ അനുവദിക്കുന്നു, കൂടാതെ റോ ഇമേജുകൾ വികസിപ്പിക്കാനും മെച്ചപ്പെടുത്താനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്നു.
+    nb_NO: En åpen kildekode-applikasjon for fotograferingsarbeidsflyt og råutvikler. Et virtuelt lysbord og mørkerom for fotografer. Den administrerer digitale negativer i en database, lar deg se dem gjennom et zoombart lysbord og lar deg fremkalle råbilder og forbedre dem.
+    nl_NL: Een open source workflow-applicatie voor fotografie en raw-ontwikkelaar. Een virtuele lichtbak en donkere kamer voor fotografen. Het beheert je digitale negatieven in een database, laat je ze bekijken via een inzoombaar scherm en stelt je in staat raw-afbeeldingen te ontwikkelen en te verbeteren.
+    pl_PL: Aplikacja open source do zarządzania przepływem pracy z fotografiami i wywoływania plików RAW. Wirtualny stół podświetlany i ciemnia dla fotografów. Zarządza cyfrowymi negatywami w bazie danych, umożliwia ich przeglądanie za pomocą stołu podświetlanego z funkcją zoomu oraz wywoływanie i ulepszanie obrazów RAW.
+    pt_BR: Um aplicativo de código aberto para fluxo de trabalho fotográfico e revelação de arquivos RAW. Uma mesa de luz e câmara escura virtuais para fotógrafos. Ele gerencia seus negativos digitais em um banco de dados, permite visualizá-los através de uma mesa de luz com zoom e possibilita revelar e aprimorar imagens RAW.
+    ro_RO: O aplicație open source pentru fluxul de lucru fotografic și dezvoltare de fișiere RAW. O masă luminoasă virtuală și o cameră obscură pentru fotografi. Gestionează negativele digitale într-o bază de date, îți permite să le vizualizezi printr-o masă luminoasă cu zoom și îți permite să developezi imagini RAW și să le îmbunătățești.
+    ru_RU: Приложение с открытым исходным кодом для обработки фотографий и создания RAW-файлов. Виртуальный световой стол и фотолаборатория для фотографов. Оно управляет цифровыми негативами в базе данных, позволяет просматривать их с помощью масштабируемого светового стола и дает возможность обрабатывать и улучшать RAW-изображения.
+    sk_SK: Aplikácia s otvoreným zdrojovým kódom pre pracovný postup pri fotografovaní a vývojár RAW obrázkov. Virtuálny svetelný stôl a tmavá komora pre fotografov. Spravuje vaše digitálne negatívy v databáze, umožňuje vám ich prezerať cez priblížiteľný svetelný stôl a umožňuje vám vyvolávať a vylepšovať RAW obrázky.
+    sv_SE: En öppen källkodsapplikation för fotoarbetsflöden och framkallare av råbilder. Ett virtuellt ljusbord och mörkrum för fotografer. Den hanterar dina digitala negativ i en databas, låter dig visa dem genom ett zoombart ljusbord och gör att du kan framkalla råbilder och förbättra dem.
+    tr_TR: Açık kaynaklı bir fotoğrafçılık iş akışı uygulaması ve RAW geliştirici. Fotoğrafçılar için sanal bir ışık masası ve karanlık oda. Dijital negatiflerinizi bir veritabanında yönetir, yakınlaştırılabilir bir ışık masası aracılığıyla görüntülemenizi sağlar ve RAW görüntüleri geliştirmenize ve iyileştirmenize olanak tanır.
     zh_CN: 开源摄影工作流程与 RAW 图像处理软件。
+    zh_TW: 開源攝影工作流程與 RAW 影象處理軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png
   title:
     en_US: Darktable (LinuxServer.io)
+    ca_ES: Darktable (LinuxServer.io)
+    cs_CZ: Darktable (LinuxServer.io)
+    da_DK: Darktable (LinuxServer.io)
+    de_DE: Darktable (LinuxServer.io)
+    el_GR: Darktable (LinuxServer.io)
+    en_GB: Darktable (LinuxServer.io)
+    es_ES: Darktable (LinuxServer.io)
+    fr_FR: Darktable (LinuxServer.io)
+    ga_IE: Darktable (LinuxServer.io)
+    hr_HR: Darktable (LinuxServer.io)
+    hu_HU: Darktable (LinuxServer.io)
+    it_IT: Darktable (LinuxServer.io)
+    ja_JP: Darktable (LinuxServer.io)
+    ko_KR: Darktable (LinuxServer.io)
+    ml_IN: Darktable (LinuxServer.io)
+    nb_NO: Darktable (LinuxServer.io)
+    nl_NL: Darktable (LinuxServer.io)
+    pl_PL: Darktable (LinuxServer.io)
+    pt_BR: Darktable (LinuxServer.io)
+    ro_RO: Darktable (LinuxServer.io)
+    ru_RU: Darktable (LinuxServer.io)
+    sk_SK: Darktable (LinuxServer.io)
+    sv_SE: Darktable (LinuxServer.io)
+    tr_TR: Darktable (LinuxServer.io)
     zh_CN: Darktable（LinuxServer.io）
+    zh_TW: Darktable（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdarktable
   port_map: '3000'

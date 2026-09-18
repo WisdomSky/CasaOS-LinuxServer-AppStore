@@ -37,17 +37,92 @@ x-casaos:
   main: app
   description:
     en_US: Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation
+    ca_ES: Luanti (anteriorment Minetest) és una plataforma de creació de jocs amb vòxel de codi obert amb modding i creació de jocs fàcils.
+    cs_CZ: Luanti (dříve Minetest) je open source platforma pro tvorbu voxelových her s možností snadného modování a tvorby her.
+    da_DK: Luanti (tidligere Minetest) er en open source voxel-spilplatform med nem modding og spiloprettelse.
+    de_DE: Luanti (ehemals Minetest) ist eine Open-Source-Voxel-Spieleentwicklungsplattform mit einfacher Modding- und Spieleentwicklungsfunktion.
+    el_GR: Το Luanti (πρώην Minetest) είναι μια πλατφόρμα δημιουργίας παιχνιδιών voxel ανοιχτού κώδικα με εύκολο modding και δημιουργία παιχνιδιών.
+    en_GB: Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation
+    es_ES: Luanti (anteriormente Minetest) es una plataforma de código abierto para la creación de juegos basados en vóxeles, con facilidad para modificar y crear juegos.
+    fr_FR: Luanti (anciennement Minetest) est une plateforme open source de création de jeux voxel, offrant des fonctionnalités de modding et de création de jeux simplifiées.
+    ga_IE: Is ardán cruthaithe cluichí voxel foinse oscailte é Luanti (Minetest roimhe seo) le modhnú agus cruthú cluichí éasca.
+    hr_HR: Luanti (prije Minetest) je platforma otvorenog koda za izradu voksel igara s jednostavnim modiranjem i stvaranjem igara.
+    hu_HU: A Luanti (korábban Minetest) egy nyílt forráskódú voxel játékkészítő platform, amely egyszerű moddolást és játékkészítést kínál.
+    it_IT: Luanti (precedentemente Minetest) è una piattaforma open source per la creazione di giochi voxel con funzionalità di modding e creazione di giochi semplificate.
+    ja_JP: Luanti（旧Minetest）は、簡単に改造やゲーム作成ができるオープンソースのボクセルゲーム作成プラットフォームです。
+    ko_KR: 'Luanti(이전 명칭: Minetest)는 손쉬운 모딩 및 게임 제작 기능을 갖춘 오픈 소스 복셀 게임 제작 플랫폼입니다.'
+    ml_IN: ലുവാണ്ടി (മുമ്പ് മിനെറ്റെസ്റ്റ്) എളുപ്പത്തിൽ മോഡ് ചെയ്യാനും ഗെയിം സൃഷ്ടിക്കാനുമുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് വോക്‌സൽ ഗെയിം-ക്രിയേഷൻ പ്ലാറ്റ്‌ഫോമാണ്.
+    nb_NO: Luanti (tidligere Minetest) er en åpen kildekode-plattform for vokselspill med enkel modding og spillutvikling.
+    nl_NL: Luanti (voorheen Minetest) is een open source voxel-gameplatform met eenvoudige modding- en gamecreatiemogelijkheden.
+    pl_PL: Luanti (dawniej Minetest) to platforma open source do tworzenia gier w technologii voxel, która umożliwia łatwe modowanie i tworzenie gier
+    pt_BR: Luanti (anteriormente Minetest) é uma plataforma de código aberto para criação de jogos voxel, com facilidade para criação e modificação de jogos.
+    ro_RO: Luanti (fosta Minetest) este o platformă open source pentru crearea de jocuri voxel, cu modding și creare de jocuri ușor de realizat.
+    ru_RU: Luanti (ранее Minetest) — это платформа для создания воксельных игр с открытым исходным кодом, отличающаяся простотой в модификации и разработке игр.
+    sk_SK: Luanti (predtým Minetest) je open source platforma na tvorbu voxelových hier s jednoduchým modovaním a tvorbou hier.
+    sv_SE: Luanti (tidigare Minetest) är en öppen källkodsplattform för voxel-spelskapande med enkel modding och spelskapande
+    tr_TR: Luanti (eski adıyla Minetest), kolay modlama ve oyun oluşturma imkanı sunan açık kaynaklı bir voksel oyun geliştirme platformudur.
     zh_CN: Luanti（原名 Minetest）是一个开源体素游戏创作平台，便于开发模组和制作游戏。
+    zh_TW: Luanti（原名 Minetest）是一個開源體素遊戲創作平臺，便於開發模組和製作遊戲。
   tagline:
     en_US: (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation
+    ca_ES: (anteriorment Minetest) és una plataforma de creació de jocs amb vòxel de codi obert amb una fàcil creació de jocs i modificació.
+    cs_CZ: (dříve Minetest) je open source platforma pro tvorbu voxelových her s možností snadného modování a tvorby her.
+    da_DK: (tidligere Minetest) er en open source voxel-spilplatform med nem modding og spiloprettelse
+    de_DE: (ehemals Minetest) ist eine Open-Source-Voxel-Spieleentwicklungsplattform mit einfacher Modding- und Spieleerstellungsfunktion.
+    el_GR: (πρώην Minetest) είναι μια πλατφόρμα δημιουργίας παιχνιδιών voxel ανοιχτού κώδικα με εύκολο modding και δημιουργία παιχνιδιών.
+    en_GB: (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation
+    es_ES: (anteriormente Minetest) es una plataforma de creación de juegos de vóxeles de código abierto con fácil modificación y creación de juegos.
+    fr_FR: (anciennement Minetest) est une plateforme open source de création de jeux voxel avec des outils de modding et de création de jeux faciles à utiliser.
+    ga_IE: (Minetest roimhe seo) ardán cruthaithe cluichí voxel foinse oscailte le modhnú agus cruthú cluichí éasca
+    hr_HR: (prije Minetest) je platforma otvorenog koda za izradu voksel igara s jednostavnim modiranjem i stvaranjem igara.
+    hu_HU: (korábban Minetest) egy nyílt forráskódú voxel játékkészítő platform, amely egyszerű moddolást és játékkészítést kínál.
+    it_IT: (precedentemente Minetest) è una piattaforma open source per la creazione di giochi voxel con funzionalità di modding e creazione di giochi semplificate.
+    ja_JP: （旧称Minetest）は、簡単に改造やゲーム作成ができるオープンソースのボクセルゲーム作成プラットフォームです。
+    ko_KR: '(이전 명칭: Minetest)는 손쉬운 모딩과 게임 제작 기능을 갖춘 오픈 소스 복셀 게임 제작 플랫폼입니다.'
+    ml_IN: (മുമ്പ് മിനെറ്റെസ്റ്റ്) എളുപ്പത്തിൽ മോഡ് ചെയ്യാനും ഗെയിം സൃഷ്ടിക്കാനുമുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് വോക്‌സൽ ഗെയിം-ക്രിയേഷൻ പ്ലാറ്റ്‌ഫോമാണ്.
+    nb_NO: (tidligere Minetest) er en åpen kildekode-plattform for vokselspill med enkel modding og spillutvikling
+    nl_NL: (voorheen Minetest) is een open source platform voor het maken van voxelgames met eenvoudige modding- en game-ontwikkelingsmogelijkheden.
+    pl_PL: (dawniej Minetest) to platforma open source do tworzenia gier w technologii voxel, która umożliwia łatwe modowanie i tworzenie gier
+    pt_BR: (anteriormente Minetest) é uma plataforma de código aberto para criação de jogos voxel, com facilidade para criação e modificação de jogos.
+    ro_RO: (fosta Minetest) este o platformă open source pentru crearea de jocuri voxel, cu modding și creare de jocuri ușor de realizat.
+    ru_RU: (ранее Minetest) — это платформа для создания воксельных игр с открытым исходным кодом, отличающаяся простотой модификации и разработки игр.
+    sk_SK: (predtým Minetest) je open source platforma na tvorbu voxelových hier s jednoduchým modovaním a tvorbou hier
+    sv_SE: (tidigare Minetest) är en öppen källkodsplattform för voxelspelskapande med enkel modding och spelskapande
+    tr_TR: (Eski adıyla Minetest) kolay modlama ve oyun oluşturma imkanı sunan açık kaynaklı bir voksel oyun oluşturma platformudur.
     zh_CN: 便于模组开发和游戏创作的开源体素平台。
+    zh_TW: 便於模組開發和遊戲創作的開源體素平臺。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minetest-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minetest-icon.png
   title:
     en_US: Luanti (LinuxServer.io)
+    ca_ES: Luanti (LinuxServer.io)
+    cs_CZ: Luanti (LinuxServer.io)
+    da_DK: Luanti (LinuxServer.io)
+    de_DE: Luanti (LinuxServer.io)
+    el_GR: Luanti (LinuxServer.io)
+    en_GB: Luanti (LinuxServer.io)
+    es_ES: Luanti (LinuxServer.io)
+    fr_FR: Luanti (LinuxServer.io)
+    ga_IE: Luanti (LinuxServer.io)
+    hr_HR: Luanti (LinuxServer.io)
+    hu_HU: Luanti (LinuxServer.io)
+    it_IT: Luanti (LinuxServer.io)
+    ja_JP: Luanti (LinuxServer.io)
+    ko_KR: Luanti (LinuxServer.io)
+    ml_IN: Luanti (LinuxServer.io)
+    nb_NO: Luanti (LinuxServer.io)
+    nl_NL: Luanti (LinuxServer.io)
+    pl_PL: Luanti (LinuxServer.io)
+    pt_BR: Luanti (LinuxServer.io)
+    ro_RO: Luanti (LinuxServer.io)
+    ru_RU: Luanti (LinuxServer.io)
+    sk_SK: Luanti (LinuxServer.io)
+    sv_SE: Luanti (LinuxServer.io)
+    tr_TR: Luanti (LinuxServer.io)
     zh_CN: Luanti（LinuxServer.io）
+    zh_TW: Luanti（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverluanti
   port_map: '30000'

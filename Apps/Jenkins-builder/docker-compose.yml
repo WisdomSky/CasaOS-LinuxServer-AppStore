@@ -34,9 +34,59 @@ x-casaos:
   description:
     en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
     zh_CN: 此容器需要特别注意。使用前请阅读相关说明：https://hub.docker.com/r/linuxserver/jenkins-builder
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.docker.com/r/linuxserver/jenkins-builder per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.docker.com/r/linuxserver/jenkins-builder.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.docker.com/r/linuxserver/jenkins-builder for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.docker.com/r/linuxserver/jenkins-builder.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.docker.com/r/linuxserver/jenkins-builder.
+    en_GB: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/jenkins-builder for details.
+    es_ES: Este contenedor requiere especial atención. Para más detalles, consulte https://hub.docker.com/r/linuxserver/jenkins-builder.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/jenkins-builder pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.docker.com/r/linuxserver/jenkins-builder le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.docker.com/r/linuxserver/jenkins-builder.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.docker.com/r/linuxserver/jenkins-builder oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.docker.com/r/linuxserver/jenkins-builder.
+    ja_JP: このコンテナは特別な注意が必要です。詳細はhttps://hub.docker.com/r/linuxserver/jenkins-builder をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.docker.com/r/linuxserver/jenkins-builder 를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub.docker.com/r/linuxserver/jenkins-builder പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.docker.com/r/linuxserver/jenkins-builder for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/jenkins-builder voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły znajdziesz na stronie https://hub.docker.com/r/linuxserver/jenkins-builder.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/jenkins-builder para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.docker.com/r/linuxserver/jenkins-builder pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.docker.com/r/linuxserver/jenkins-builder.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.docker.com/r/linuxserver/jenkins-builder.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.docker.com/r/linuxserver/jenkins-builder för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.docker.com/r/linuxserver/jenkins-builder adresini kontrol edin.
+    zh_TW: 此容器需要特別注意。使用前請閱讀相關說明：https://hub.docker.com/r/linuxserver/jenkins-builder
   tagline:
     en_US: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/jenkins-builder for details. '
     zh_CN: 此容器需要特殊配置，请先阅读使用说明。
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.Docker.com/r/linuxserver/jenkins-builder per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/jenkins-builder.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.Docker.com/r/linuxserver/jenkins-builder for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.Docker.com/r/linuxserver/jenkins-builder.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.Docker.com/r/linuxserver/jenkins-builder.
+    en_GB: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/jenkins-builder for details. '
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.Docker.Com/r/linuxserver/jenkins-builder para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/jenkins-builder pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/jenkins-builder le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.Docker.com/r/linuxserver/jenkins-builder.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/jenkins-builder oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.Docker.com/r/linuxserver/jenkins-builder.
+    ja_JP: このコンテナには特別な注意が必要です。詳細は https://hub.docker.com/r/linuxserver/jenkins-builder をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.Com/r/linuxserver/jenkins-builder를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub. Docker. Com/r/linuxserver/jenkins-builder പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.Docker.com/r/linuxserver/jenkins-builder for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/jenkins-builder voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły można znaleźć na stronie https://hub.Docker.Com/r/linuxserver/jenkins-builder.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/jenkins-builder para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/jenkins-builder pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.Docker.com/r/linuxserver/jenkins-builder.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.Docker.com/r/linuxserver/jenkins-builder.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.Docker.com/r/linuxserver/jenkins-builder för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.Docker.com/r/linuxserver/jenkins-builder adresini kontrol edin.
+    zh_TW: 此容器需要特殊配置，請先閱讀使用說明。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
@@ -44,6 +94,31 @@ x-casaos:
   title:
     en_US: Jenkins builder
     zh_CN: Jenkins builder
+    ca_ES: Jenkins builder
+    cs_CZ: Jenkins builder
+    da_DK: Jenkins builder
+    de_DE: Jenkins builder
+    el_GR: Jenkins builder
+    en_GB: Jenkins builder
+    es_ES: Jenkins builder
+    fr_FR: Jenkins builder
+    ga_IE: Jenkins builder
+    hr_HR: Jenkins builder
+    hu_HU: Jenkins builder
+    it_IT: Jenkins builder
+    ja_JP: Jenkins builder
+    ko_KR: Jenkins builder
+    ml_IN: Jenkins builder
+    nb_NO: Jenkins builder
+    nl_NL: Jenkins builder
+    pl_PL: Jenkins builder
+    pt_BR: Jenkins builder
+    ro_RO: Jenkins builder
+    ru_RU: Jenkins builder
+    sk_SK: Jenkins builder
+    sv_SE: Jenkins builder
+    tr_TR: Jenkins builder
+    zh_TW: Jenkins builder
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverjenkinsbuilder

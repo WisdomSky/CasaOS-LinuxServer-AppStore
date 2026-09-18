@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Doplarr_rs is a Discord bot for requesting media through *arr backends, written in Rust.
+    ca_ES: Doplarr_rs és un bot de Discord per sol·licitar contingut multimèdia a través de backends *arr, escrit en Rust.
+    cs_CZ: Doplarr_rs je Discord bot pro vyžádání médií přes *arr backendy, napsaný v Rustu.
+    da_DK: Doplarr_rs er en Discord-bot til at anmode om medier via *arr backends, skrevet i Rust.
+    de_DE: Doplarr_rs ist ein in Rust geschriebener Discord-Bot zum Anfordern von Medien über *arr-Backends.
+    el_GR: Το Doplarr_rs είναι ένα bot του Discord για την αναζήτηση πολυμέσων μέσω backends *arr, γραμμένο σε Rust.
+    en_GB: Doplarr_rs is a Discord bot for requesting media through *arr backends, written in Rust.
+    es_ES: Doplarr_rs es un bot de Discord para solicitar contenido multimedia a través de backends *arr, escrito en Rust.
+    fr_FR: Doplarr_rs est un bot Discord permettant de demander des médias via des backends *arr, écrit en Rust.
+    ga_IE: Is bot Discord é Doplarr_rs chun meáin a iarraidh trí chláir chúil *arr, scríofa i Rust.
+    hr_HR: Doplarr_rs je Discord bot za traženje medija putem *arr backenda, napisan u Rustu.
+    hu_HU: A Doplarr_rs egy Discord bot média igényléséhez *arr backendeken keresztül, Rust nyelven írva.
+    it_IT: Doplarr_rs è un bot Discord per la richiesta di contenuti multimediali tramite backend *arr, scritto in Rust.
+    ja_JP: Doplarr_rsは、Rustで書かれた、*arrバックエンドを介してメディアをリクエストするためのDiscordボットです。
+    ko_KR: Doplarr_rs는 Rust로 작성된 *arr 백엔드를 통해 미디어를 요청하는 Discord 봇입니다.
+    ml_IN: റസ്റ്റിൽ എഴുതിയ *arr ബാക്കെൻഡുകളിലൂടെ മീഡിയ അഭ്യർത്ഥിക്കുന്നതിനുള്ള ഒരു ഡിസ്‌കോർഡ് ബോട്ടാണ് ഡോപ്ലാർ_ആർഎസ്.
+    nb_NO: Doplarr_rs er en Discord-bot for å forespørre media gjennom *arr-backends, skrevet i Rust.
+    nl_NL: Doplarr_rs is een Discord-bot voor het aanvragen van media via *arr-backends, geschreven in Rust.
+    pl_PL: Doplarr_rs to bot Discord służący do żądania multimediów poprzez back-end *arr, napisany w języku Rust.
+    pt_BR: Doplarr_rs é um bot do Discord para solicitar mídia através de backends *arr, escrito em Rust.
+    ro_RO: Doplarr_rs este un bot Discord pentru solicitarea de fișiere media prin backend-urile *arr, scris în Rust.
+    ru_RU: Doplarr_rs — это Discord-бот для запроса медиафайлов через *arr-бэкенды, написанный на Rust.
+    sk_SK: Doplarr_rs je Discord bot na vyžiadanie médií cez *arr backendy, napísaný v Ruste.
+    sv_SE: Doplarr_rs är en Discord-bot för att begära media via *arr-backends, skriven i Rust.
+    tr_TR: Doplarr_rs, Rust dilinde yazılmış, *arr arka uçları aracılığıyla medya dosyaları istemek için kullanılan bir Discord botudur.
     zh_CN: Doplarr_rs 是用 Rust 编写的 Discord 机器人，可通过 *arr 后端请求媒体内容。
+    zh_TW: Doplarr_rs 是用 Rust 編寫的 Discord 機器人，可透過 *arr 後端請求媒體內容。
   tagline:
     en_US: A Discord bot for requesting media through *arr backends, written in Rust.
+    ca_ES: Un bot de Discord per sol·licitar contingut multimèdia a través de backends *arr, escrit en Rust.
+    cs_CZ: Bot pro Discord pro vyžádání médií přes backendy *arr, napsaný v Rustu.
+    da_DK: En Discord-bot til at anmode om medier via *arr backends, skrevet i Rust.
+    de_DE: Ein in Rust geschriebener Discord-Bot zum Anfordern von Medien über *arr-Backends.
+    el_GR: Ένα bot Discord για αίτημα πολυμέσων μέσω backends *arr, γραμμένο σε Rust.
+    en_GB: A Discord bot for requesting media through *arr backends, written in Rust.
+    es_ES: Un bot de Discord para solicitar contenido multimedia a través de backends *arr, escrito en Rust.
+    fr_FR: Un bot Discord permettant de demander des médias via des backends *arr, écrit en Rust.
+    ga_IE: Bot Discord le haghaidh meáin a iarraidh trí chláir chúltaca *arr, scríofa i Rust.
+    hr_HR: Discord bot za traženje medija putem *arr backenda, napisan u Rustu.
+    hu_HU: Egy Discord bot média igényléséhez *arr backendeken keresztül, Rust nyelven írva.
+    it_IT: Un bot Discord per richiedere contenuti multimediali tramite backend *arr, scritto in Rust.
+    ja_JP: Rustで書かれた、*arrバックエンドを介してメディアをリクエストするためのDiscordボット。
+    ko_KR: Rust로 작성된, *arr 백엔드를 통해 미디어를 요청하는 Discord 봇입니다.
+    ml_IN: റസ്റ്റിൽ എഴുതിയ, *arr ബാക്കെൻഡുകളിലൂടെ മീഡിയ അഭ്യർത്ഥിക്കുന്നതിനുള്ള ഒരു ഡിസ്‌കോർഡ് ബോട്ട്.
+    nb_NO: En Discord-bot for å forespørre media gjennom *arr-backends, skrevet i Rust.
+    nl_NL: Een Discord-bot voor het aanvragen van media via *arr-backends, geschreven in Rust.
+    pl_PL: Bot Discord służący do żądania multimediów poprzez back-end *arr, napisany w języku Rust.
+    pt_BR: Um bot do Discord para solicitar mídia através de backends *arr, escrito em Rust.
+    ro_RO: Un bot Discord pentru solicitarea de fișiere media prin backend-uri *arr, scris în Rust.
+    ru_RU: Discord-бот для запроса медиафайлов через *arr-бэкенды, написанный на Rust.
+    sk_SK: Bot pre Discord na vyžiadanie médií cez *arr backendy, napísaný v Ruste.
+    sv_SE: En Discord-bot för att begära media via *arr-backends, skriven i Rust.
+    tr_TR: Rust dilinde yazılmış, *arr arka uçları aracılığıyla medya dosyaları istemek için kullanılan bir Discord botu.
     zh_CN: 使用 Rust 编写的 Discord 媒体请求机器人。
+    zh_TW: 使用 Rust 編寫的 Discord 媒體請求機器人。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr_rs-logo.png
   title:
     en_US: Doplarr_rs (LinuxServer.io)
+    ca_ES: Doplarr_rs (LinuxServer.io)
+    cs_CZ: Doplarr_rs (LinuxServer.io)
+    da_DK: Doplarr_rs (LinuxServer.io)
+    de_DE: Doplarr_rs (LinuxServer.io)
+    el_GR: Doplarr_rs (LinuxServer.io)
+    en_GB: Doplarr_rs (LinuxServer.io)
+    es_ES: Doplarr_rs (LinuxServer.io)
+    fr_FR: Doplarr_rs (LinuxServer.io)
+    ga_IE: Doplarr_rs (LinuxServer.io)
+    hr_HR: Doplarr_rs (LinuxServer.io)
+    hu_HU: Doplarr_rs (LinuxServer.io)
+    it_IT: Doplarr_rs (LinuxServer.io)
+    ja_JP: Doplarr_rs (LinuxServer.io)
+    ko_KR: Doplarr_rs (LinuxServer.io)
+    ml_IN: Doplarr_rs (LinuxServer.io)
+    nb_NO: Doplarr_rs (LinuxServer.io)
+    nl_NL: Doplarr_rs (LinuxServer.io)
+    pl_PL: Doplarr_rs (LinuxServer.io)
+    pt_BR: Doplarr_rs (LinuxServer.io)
+    ro_RO: Doplarr_rs (LinuxServer.io)
+    ru_RU: Doplarr_rs (LinuxServer.io)
+    sk_SK: Doplarr_rs (LinuxServer.io)
+    sv_SE: Doplarr_rs (LinuxServer.io)
+    tr_TR: Doplarr_rs (LinuxServer.io)
     zh_CN: Doplarr_rs（LinuxServer.io）
+    zh_TW: Doplarr_rs（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverdoplarrrs
   port_map: '80'

@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: KeePassXC is a free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).
+    ca_ES: KeePassXC és un gestor de contrasenyes gratuït i de codi obert. Va començar com una bifurcació comunitària de KeePassX (que en si mateixa era un port multiplataforma de KeePass).
+    cs_CZ: KeePassXC je bezplatný správce hesel s otevřeným zdrojovým kódem. Začal jako komunitní fork KeePassX (který je sám o sobě multiplatformním portem KeePassu).
+    da_DK: KeePassXC er en gratis og open source-adgangskodehåndtering. Det startede som en community fork af KeePassX (i sig selv en cross-platform port af KeePass).
+    de_DE: KeePassXC ist ein kostenloser und quelloffener Passwortmanager. Er entstand als Community-Fork von KeePassX (selbst eine plattformübergreifende Portierung von KeePass).
+    el_GR: Το KeePassXC είναι ένας δωρεάν και ανοιχτού κώδικα διαχειριστής κωδικών πρόσβασης. Ξεκίνησε ως ένα community fork του KeePassX (το οποίο είναι και αυτό μια διαπλατφορμική μεταφορά του KeePass).
+    en_GB: Keepassxc is a free and open-source password manager. It started as a community fork of Keepassx (itself a cross-platform port of Keepass).
+    es_ES: KeePassXC es un gestor de contraseñas gratuito y de código abierto. Surgió como una bifurcación de la comunidad de KeePassX (que a su vez es una adaptación multiplataforma de KeePass).
+    fr_FR: KeePassXC est un gestionnaire de mots de passe gratuit et open source. Il a été initialement développé par la communauté à partir de KeePassX (lui-même un portage multiplateforme de KeePass).
+    ga_IE: Is bainisteoir pasfhocal foinse oscailte agus saor in aisce é KeePassXC. Thosaigh sé mar fhorc pobail de KeePassX (port tras-ardáin de KeePass féin).
+    hr_HR: KeePassXC je besplatni upravitelj lozinki otvorenog koda. Započeo je kao community fork KeePassX-a (koji je sam po sebi višeplatformski port KeePass-a).
+    hu_HU: A KeePassXC egy ingyenes és nyílt forráskódú jelszókezelő. A KeePassX közösségi elágazásaként indult (ami maga a KeePass platformfüggetlen portja).
+    it_IT: KeePassXC è un gestore di password gratuito e open source. È nato come fork della community di KeePassX (a sua volta una versione multipiattaforma di KeePass).
+    ja_JP: KeePassXCは、無料のオープンソースパスワードマネージャーです。KeePassX（それ自体がKeePassのクロスプラットフォーム移植版）のコミュニティフォークとして始まりました。
+    ko_KR: KeePassXC는 무료 오픈 소스 비밀번호 관리자입니다. KeePassX(KeePass의 크로스 플랫폼 포팅 버전)를 기반으로 커뮤니티에서 개발되어 시작되었습니다.
+    ml_IN: കീപാസ്എക്സ്സി ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് പാസ്‌വേഡ് മാനേജറുമാണ്. കീപാസ്എക്സിന്റെ (കീപാസിന്റെ ക്രോസ്-പ്ലാറ്റ്‌ഫോം പോർട്ട്) ഒരു കമ്മ്യൂണിറ്റി ഫോർക്ക് ആയാണ് ഇത് ആരംഭിച്ചത്.
+    nb_NO: KeePassXC er en gratis passordbehandler med åpen kildekode. Den startet som en fellesskapsfork av KeePassX (i seg selv en plattformuavhengig portering av KeePass).
+    nl_NL: KeePassXC is een gratis en open-source wachtwoordmanager. Het begon als een community-fork van KeePassX (zelf een platformonafhankelijke versie van KeePass).
+    pl_PL: KeePassXC to darmowy i open source'owy menedżer haseł. Powstał jako społecznościowy fork KeePassX (który sam w sobie jest wieloplatformowym portem KeePass).
+    pt_BR: O KeePassXC é um gerenciador de senhas gratuito e de código aberto. Ele surgiu como um fork da comunidade do KeePassX (que por sua vez era uma versão multiplataforma do KeePass).
+    ro_RO: KeePassXC este un manager de parole gratuit și open-source. A început ca o ramură comunitară a KeePassX (la rândul său, un port multi-platformă al KeePass).
+    ru_RU: KeePassXC — это бесплатный менеджер паролей с открытым исходным кодом. Он начинался как форк KeePassX (который, в свою очередь, является кроссплатформенной версией KeePass).
+    sk_SK: KeePassXC je bezplatný správca hesiel s otvoreným zdrojovým kódom. Začal ako komunitná fork KeePassX (ktorý je sám o sebe multiplatformovým portom KeePassu).
+    sv_SE: KeePassXC är en gratis lösenordshanterare med öppen källkod. Den började som en community fork av KeePassX (som i sig är en plattformsoberoende portning av KeePass).
+    tr_TR: KeePassXC, ücretsiz ve açık kaynaklı bir parola yöneticisidir. KeePassX'in (kendisi de KeePass'in platformlar arası bir sürümü) topluluk tarafından geliştirilen bir sürümü olarak ortaya çıkmıştır.
     zh_CN: KeePassXC 是一款免费的开源密码管理器，最初是 KeePassX 的社区分支，而 KeePassX 本身是 KeePass 的跨平台移植版。
+    zh_TW: KeePassXC 是一款免費的開源密碼管理器，最初是 KeePassX 的社群分支，而 KeePassX 本身是 KeePass 的跨平臺移植版。
   tagline:
     en_US: A free and open-source password manager. It started as a community fork of KeePassX (itself a cross-platform port of KeePass).
+    ca_ES: Un gestor de contrasenyes gratuït i de codi obert. Va començar com una bifurcació comunitària de KeePassX (que en si mateixa era un port multiplataforma de KeePass).
+    cs_CZ: Bezplatný správce hesel s otevřeným zdrojovým kódem. Začal jako komunitní fork KeePassX (sám o sobě multiplatformní port KeePassu).
+    da_DK: En gratis og open source-adgangskodehåndtering. Det startede som en community fork af KeePassX (i sig selv en cross-platform port af KeePass).
+    de_DE: Ein kostenloser und quelloffener Passwortmanager. Er entstand als Community-Fork von KeePassX (selbst eine plattformübergreifende Portierung von KeePass).
+    el_GR: Ένας δωρεάν και ανοιχτού κώδικα διαχειριστής κωδικών πρόσβασης. Ξεκίνησε ως ένα community fork του KeePassX (το οποίο είναι και αυτό μια διαπλατφορμική μεταφορά του KeePass).
+    en_GB: A free and open-source password manager. It started as a community fork of Keepassx (itself a cross-platform port of Keepass).
+    es_ES: Un gestor de contraseñas gratuito y de código abierto. Comenzó como una bifurcación comunitaria de KeePassX (que a su vez es una adaptación multiplataforma de KeePass).
+    fr_FR: Un gestionnaire de mots de passe gratuit et open source. Il a débuté comme une version dérivée communautaire de KeePassX (lui-même un portage multiplateforme de KeePass).
+    ga_IE: Bainisteoir pasfhocal foinse oscailte agus saor in aisce. Thosaigh sé mar fhorc pobail de KeePassX (port tras-ardáin de KeePass féin).
+    hr_HR: Besplatni upravitelj lozinki otvorenog koda. Započeo je kao community fork KeePassX-a (koji je sam po sebi višeplatformski port KeePass-a).
+    hu_HU: Egy ingyenes és nyílt forráskódú jelszókezelő. A KeePassX közösségi elágazásaként indult (ami maga a KeePass platformfüggetlen portja).
+    it_IT: Un gestore di password gratuito e open source. È nato come fork della community di KeePassX (a sua volta una versione multipiattaforma di KeePass).
+    ja_JP: 無料のオープンソースパスワードマネージャー。KeePassX（KeePassのクロスプラットフォーム移植版）のコミュニティフォークとして開発が始まった。
+    ko_KR: 무료 오픈소스 비밀번호 관리자입니다. KeePassX(KeePass 자체의 크로스 플랫폼 포팅 버전)를 기반으로 커뮤니티에서 개발되어 시작되었습니다.
+    ml_IN: ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് പാസ്‌വേഡ് മാനേജറും. കീപാസ്എക്‌സിന്റെ (കീപാസിന്റെ ഒരു ക്രോസ്-പ്ലാറ്റ്‌ഫോം പോർട്ട്) ഒരു കമ്മ്യൂണിറ്റി ഫോർക്ക് ആയിട്ടാണ് ഇത് ആരംഭിച്ചത്.
+    nb_NO: En gratis passordbehandler med åpen kildekode. Den startet som en fellesskapsfork av KeePassX (i seg selv en plattformuavhengig portering av KeePass).
+    nl_NL: Een gratis en open-source wachtwoordmanager. Het begon als een community-fork van KeePassX (zelf een platformonafhankelijke versie van KeePass).
+    pl_PL: Darmowy i otwarty menedżer haseł. Początkowo był społecznościowym forkiem KeePassX (który sam w sobie był wieloplatformowym portem KeePass).
+    pt_BR: Um gerenciador de senhas gratuito e de código aberto. Ele surgiu como um fork da comunidade do KeePassX (que por sua vez é uma adaptação multiplataforma do KeePass).
+    ro_RO: Un manager de parole gratuit și open-source. A început ca o ramură comunitară a KeePassX (ea însăși o versiune multiplatformă a KeePass).
+    ru_RU: Бесплатный менеджер паролей с открытым исходным кодом. Он начинался как форк KeePassX (который, в свою очередь, является кроссплатформенной версией KeePass).
+    sk_SK: Bezplatný správca hesiel s otvoreným zdrojovým kódom. Začal ako komunitný fork KeePassX (ktorý je sám o sebe multiplatformovým portom KeePassu).
+    sv_SE: En gratis lösenordshanterare med öppen källkod. Den började som en community fork av KeePassX (i sig själv en plattformsoberoende portning av KeePass).
+    tr_TR: Ücretsiz ve açık kaynaklı bir parola yöneticisi. KeePassX'in (kendisi de KeePass'in platformlar arası bir uyarlaması) topluluk tarafından geliştirilen bir sürümü olarak başladı.
     zh_CN: 免费的开源跨平台密码管理器。
+    zh_TW: 免費的開源跨平臺密碼管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/keepassxc-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/keepassxc-logo.png
   title:
     en_US: Keepassxc (LinuxServer.io)
+    ca_ES: Keepassxc (LinuxServer.io)
+    cs_CZ: Keepassxc (LinuxServer.io)
+    da_DK: Keepassxc (LinuxServer.io)
+    de_DE: Keepassxc (LinuxServer.io)
+    el_GR: Keepassxc (LinuxServer.io)
+    en_GB: Keepassxc (LinuxServer.io)
+    es_ES: Keepassxc (LinuxServer.io)
+    fr_FR: Keepassxc (LinuxServer.io)
+    ga_IE: Keepassxc (LinuxServer.io)
+    hr_HR: Keepassxc (LinuxServer.io)
+    hu_HU: Keepassxc (LinuxServer.io)
+    it_IT: Keepassxc (LinuxServer.io)
+    ja_JP: Keepassxc (LinuxServer.io)
+    ko_KR: Keepassxc (LinuxServer.io)
+    ml_IN: Keepassxc (LinuxServer.io)
+    nb_NO: Keepassxc (LinuxServer.io)
+    nl_NL: Keepassxc (LinuxServer.io)
+    pl_PL: Keepassxc (LinuxServer.io)
+    pt_BR: Keepassxc (LinuxServer.io)
+    ro_RO: Keepassxc (LinuxServer.io)
+    ru_RU: Keepassxc (LinuxServer.io)
+    sk_SK: Keepassxc (LinuxServer.io)
+    sv_SE: Keepassxc (LinuxServer.io)
+    tr_TR: Keepassxc (LinuxServer.io)
     zh_CN: Keepassxc（LinuxServer.io）
+    zh_TW: Keepassxc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkeepassxc
   port_map: '3000'

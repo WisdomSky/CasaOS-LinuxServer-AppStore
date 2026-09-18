@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: KiCad - A Cross Platform and Open Source Electronics Design Automation Suite.
+    ca_ES: 'KiCad: un conjunt d''automatització del disseny electrònic multiplataforma i de codi obert.'
+    cs_CZ: KiCad - multiplatformní a open source sada pro automatizaci návrhu elektroniky.
+    da_DK: KiCad - En platformsbaseret og open source-pakke til automatisering af elektronikdesign.
+    de_DE: KiCad – Eine plattformübergreifende Open-Source-Suite zur Automatisierung des Elektronikdesigns.
+    el_GR: KiCad - Μια σουίτα αυτοματισμού σχεδιασμού ηλεκτρονικών ειδών ανοιχτού κώδικα και πολλαπλών πλατφορμών.
+    en_GB: Kicad - A Cross Platform and Open Source Electronics Design Automation Suite.
+    es_ES: 'KiCad: una suite de automatización del diseño electrónico multiplataforma y de código abierto.'
+    fr_FR: KiCad - Une suite logicielle d'automatisation de la conception électronique multiplateforme et open source.
+    ga_IE: KiCad - Sraith Uathoibrithe Dearaidh Leictreonaice Tras-Ardáin agus Foinse Oscailte.
+    hr_HR: KiCad - višeplatformski i otvoreni programski paket za automatizaciju dizajna elektronike.
+    hu_HU: KiCad - Egy többplatformos és nyílt forráskódú elektronikai tervezés-automatizálási csomag.
+    it_IT: KiCad - Una suite di automazione per la progettazione elettronica multipiattaforma e open source.
+    ja_JP: KiCad - クロスプラットフォーム対応のオープンソース電子設計自動化スイート。
+    ko_KR: KiCad - 크로스 플랫폼 오픈 소스 전자 설계 자동화 제품군.
+    ml_IN: കികാഡ് - ഒരു ക്രോസ് പ്ലാറ്റ്‌ഫോമും ഓപ്പൺ സോഴ്‌സ് ഇലക്ട്രോണിക്‌സ് ഡിസൈൻ ഓട്ടോമേഷൻ സ്യൂട്ടും.
+    nb_NO: KiCad – En plattformuavhengig og åpen kildekode-pakke for elektronikkdesign.
+    nl_NL: KiCad - Een platformonafhankelijke en open-source suite voor elektronica-ontwerpautomatisering.
+    pl_PL: KiCad — wieloplatformowy i otwarty pakiet oprogramowania do automatyzacji projektowania urządzeń elektronicznych.
+    pt_BR: KiCad - Um pacote de automação de projetos eletrônicos multiplataforma e de código aberto.
+    ro_RO: KiCad - O suită de automatizare a proiectării electronice, multiplatformă și open source.
+    ru_RU: KiCad — кроссплатформенный пакет программного обеспечения для автоматизации проектирования электронных устройств с открытым исходным кодом.
+    sk_SK: KiCad - multiplatformový a open source balík pre automatizáciu návrhu elektroniky.
+    sv_SE: KiCad - En plattformsoberoende och öppen källkodsbaserad elektronikdesignssvit.
+    tr_TR: KiCad - Çapraz Platform ve Açık Kaynak Kodlu Elektronik Tasarım Otomasyon Paketi.
     zh_CN: KiCad 是一套跨平台、开源的电子设计自动化软件。
+    zh_TW: KiCad 是一套跨平臺、開源的電子設計自動化軟體。
   tagline:
     en_US: A Cross Platform and Open Source Electronics Design Automation Suite.
+    ca_ES: Un conjunt d'automatització del disseny electrònic multiplataforma i de codi obert.
+    cs_CZ: Sada pro automatizaci návrhu elektroniky s otevřeným zdrojovým kódem a více platformami.
+    da_DK: En platformsuafhængig og open source-pakke til automatisering af elektronikdesign.
+    de_DE: Eine plattformübergreifende und Open-Source-Suite für die Elektronikentwicklungsautomatisierung.
+    el_GR: Μια σουίτα αυτοματισμού σχεδιασμού ηλεκτρονικών ειδών ανοιχτού κώδικα και πολλαπλών πλατφορμών.
+    en_GB: A Cross Platform and Open Source Electronics Design Automation Suite.
+    es_ES: Un conjunto de herramientas de automatización del diseño electrónico multiplataforma y de código abierto.
+    fr_FR: Une suite logicielle d'automatisation de la conception électronique multiplateforme et open source.
+    ga_IE: Sraith Uathoibrithe Dearaidh Leictreonaice Tras-Ardán agus Foinse Oscailte.
+    hr_HR: Višeplatformski i otvoreni paket za automatizaciju dizajna elektronike.
+    hu_HU: Többplatformos és nyílt forráskódú elektronikai tervezés-automatizálási csomag.
+    it_IT: Una suite di automazione per la progettazione elettronica multipiattaforma e open source.
+    ja_JP: クロスプラットフォーム対応のオープンソース電子設計自動化スイート。
+    ko_KR: 크로스 플랫폼 및 오픈 소스 전자 설계 자동화 제품군.
+    ml_IN: ഒരു ക്രോസ് പ്ലാറ്റ്‌ഫോമും ഓപ്പൺ സോഴ്‌സ് ഇലക്ട്രോണിക്‌സ് ഡിസൈൻ ഓട്ടോമേഷൻ സ്യൂട്ടും.
+    nb_NO: En plattformuavhengig og åpen kildekode-pakke for elektronikkdesign.
+    nl_NL: Een platformonafhankelijke en open-source suite voor het ontwerpen en automatiseren van elektronica.
+    pl_PL: Pakiet oprogramowania typu open source do automatyzacji projektowania urządzeń elektronicznych.
+    pt_BR: Um pacote de automação de projetos eletrônicos multiplataforma e de código aberto.
+    ro_RO: O suită de automatizare a proiectării electronice, multiplatformă și open source.
+    ru_RU: Кроссплатформенный пакет программного обеспечения для автоматизации проектирования электронных устройств с открытым исходным кодом.
+    sk_SK: Multiplatformový a open source balík automatizácie návrhu elektroniky.
+    sv_SE: En plattformsoberoende och öppen källkodsbaserad elektronikdesignssvit.
+    tr_TR: Çapraz Platform ve Açık Kaynak Kodlu Elektronik Tasarım Otomasyon Paketi.
     zh_CN: 跨平台开源电子设计自动化套件。
+    zh_TW: 跨平臺開源電子設計自動化套件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kicad-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kicad-logo.png
   title:
     en_US: Kicad (LinuxServer.io)
+    ca_ES: Kicad (LinuxServer.io)
+    cs_CZ: Kicad (LinuxServer.io)
+    da_DK: Kicad (LinuxServer.io)
+    de_DE: Kicad (LinuxServer.io)
+    el_GR: Kicad (LinuxServer.io)
+    en_GB: Kicad (LinuxServer.io)
+    es_ES: Kicad (LinuxServer.io)
+    fr_FR: Kicad (LinuxServer.io)
+    ga_IE: Kicad (LinuxServer.io)
+    hr_HR: Kicad (LinuxServer.io)
+    hu_HU: Kicad (LinuxServer.io)
+    it_IT: Kicad (LinuxServer.io)
+    ja_JP: Kicad (LinuxServer.io)
+    ko_KR: Kicad (LinuxServer.io)
+    ml_IN: Kicad (LinuxServer.io)
+    nb_NO: Kicad (LinuxServer.io)
+    nl_NL: Kicad (LinuxServer.io)
+    pl_PL: Kicad (LinuxServer.io)
+    pt_BR: Kicad (LinuxServer.io)
+    ro_RO: Kicad (LinuxServer.io)
+    ru_RU: Kicad (LinuxServer.io)
+    sk_SK: Kicad (LinuxServer.io)
+    sv_SE: Kicad (LinuxServer.io)
+    tr_TR: Kicad (LinuxServer.io)
     zh_CN: Kicad（LinuxServer.io）
+    zh_TW: Kicad（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkicad
   port_map: '3000'

@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.
+    ca_ES: L'aplicació Modrinth és un llançador únic i de codi obert que et permet jugar als teus mods preferits i mantenir-los actualitzats, tot en un petit paquet.
+    cs_CZ: Aplikace Modrinth je unikátní launcher s otevřeným zdrojovým kódem, který vám umožňuje hrát vaše oblíbené mody a udržovat je aktuální, a to vše v jednom úhledném malém balíčku.
+    da_DK: Modrinth App er en unik open source-launcher, der giver dig mulighed for at spille dine yndlingsmods og holde dem opdaterede, alt sammen i én smart lille pakke.
+    de_DE: Die Modrinth App ist ein einzigartiger Open-Source-Launcher, mit dem Sie Ihre Lieblings-Mods spielen und auf dem neuesten Stand halten können – alles in einem praktischen kleinen Paket.
+    el_GR: Η εφαρμογή Modrinth είναι ένα μοναδικό πρόγραμμα εκκίνησης ανοιχτού κώδικα που σας επιτρέπει να παίζετε τα αγαπημένα σας mods και να τα διατηρείτε ενημερωμένα, όλα σε ένα κομψό μικρό πακέτο.
+    en_GB: Modrinth App is a unique, open source launcher that allows you to play your favourite mods, and keep them up to date, all in one neat little package.
+    es_ES: Modrinth App es un lanzador único de código abierto que te permite jugar a tus mods favoritos y mantenerlos actualizados, todo en un práctico paquete.
+    fr_FR: Modrinth App est un lanceur unique et open source qui vous permet de jouer à vos mods préférés et de les maintenir à jour, le tout dans un seul et même petit paquet pratique.
+    ga_IE: Is lainseálaí uathúil foinse oscailte é Aip Modrinth a ligeann duit do mhodhanna is fearr leat a imirt, agus iad a choinneáil cothrom le dáta, i bpacáiste beag néata amháin.
+    hr_HR: Modrinth aplikacija je jedinstveni program otvorenog koda koji vam omogućuje igranje omiljenih modova i njihovo ažuriranje, sve u jednom urednom malom paketu.
+    hu_HU: A Modrinth alkalmazás egy egyedi, nyílt forráskódú indítóalkalmazás, amely lehetővé teszi kedvenc modjaid lejátszását és naprakészen tartását, mindezt egyetlen kis csomagban.
+    it_IT: Modrinth App è un launcher open source unico nel suo genere che ti permette di giocare alle tue mod preferite e di mantenerle aggiornate, il tutto in un unico pratico pacchetto.
+    ja_JP: Modrinth Appは、お気に入りのMODをプレイしたり、常に最新の状態に保ったりできる、ユニークなオープンソースのランチャーです。すべてが1つの便利なパッケージにまとめられています。
+    ko_KR: Modrinth 앱은 좋아하는 모드를 플레이하고 최신 상태로 유지할 수 있도록 해주는 독특한 오픈 소스 런처로, 이 모든 기능을 하나의 깔끔한 패키지에서 제공합니다.
+    ml_IN: മോഡ്രിംത്ത് ആപ്പ് ഒരു സവിശേഷമായ, ഓപ്പൺ സോഴ്‌സ് ലോഞ്ചറാണ്, അത് നിങ്ങളുടെ പ്രിയപ്പെട്ട മോഡുകൾ പ്ലേ ചെയ്യാനും അവ കാലികമായി നിലനിർത്താനും അനുവദിക്കുന്നു, എല്ലാം ഒരു ചെറിയ പാക്കേജിൽ.
+    nb_NO: Modrinth-appen er en unik, åpen kildekode-lansering som lar deg spille favorittmoddene dine og holde dem oppdaterte, alt i én fin liten pakke.
+    nl_NL: Modrinth App is een unieke, open source launcher waarmee je je favoriete mods kunt spelen en up-to-date kunt houden, allemaal in één handig klein pakketje.
+    pl_PL: Modrinth App to wyjątkowy, open source'owy program uruchamiający, który umożliwia granie w ulubione mody i ich aktualizację, a wszystko to w jednym, schludnym pakiecie.
+    pt_BR: O Modrinth App é um lançador exclusivo e de código aberto que permite jogar seus mods favoritos e mantê-los atualizados, tudo em um único pacote compacto e organizado.
+    ro_RO: Aplicația Modrinth este un lansator unic, open source, care îți permite să joci modurile tale preferate și să le menții actualizate, totul într-un pachet mic și elegant.
+    ru_RU: Modrinth App — это уникальный лаунчер с открытым исходным кодом, который позволяет запускать ваши любимые моды и поддерживать их в актуальном состоянии — всё в одном удобном компактном пакете.
+    sk_SK: Aplikácia Modrinth je unikátny spúšťač s otvoreným zdrojovým kódom, ktorý vám umožňuje hrať vaše obľúbené mody a udržiavať ich aktuálne, a to všetko v jednom úhľadnom malom balení.
+    sv_SE: Modrinth-appen är en unik, öppen källkodsbaserad launcher som låter dig spela dina favoritmoddar och hålla dem uppdaterade, allt i ett snyggt litet paket.
+    tr_TR: Modrinth App, en sevdiğiniz modları oynamanıza ve güncel tutmanıza olanak tanıyan, benzersiz, açık kaynaklı bir başlatıcıdır; hepsi tek bir kullanışlı pakette.
     zh_CN: Modrinth App 是一款独特的开源启动器，让你在一个简洁的应用中游玩喜欢的模组，并保持模组更新。
+    zh_TW: Modrinth App 是一款獨特的開源啟動器，讓你在一個簡潔的應用中游玩喜歡的模組，並保持模組更新。
   tagline:
     en_US: A unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.
+    ca_ES: Un llançador únic i de codi obert que et permet jugar als teus mods preferits i mantenir-los actualitzats, tot en un petit paquet.
+    cs_CZ: Unikátní launcher s otevřeným zdrojovým kódem, který vám umožní hrát vaše oblíbené mody a udržovat je aktuální, to vše v jednom úhledném malém balíčku.
+    da_DK: En unik open source-launcher, der giver dig mulighed for at spille dine yndlingsmods og holde dem opdaterede, alt sammen i én smart lille pakke.
+    de_DE: Ein einzigartiger Open-Source-Launcher, mit dem Sie Ihre Lieblings-Mods spielen und auf dem neuesten Stand halten können – alles in einem praktischen kleinen Paket.
+    el_GR: Ένα μοναδικό πρόγραμμα εκκίνησης ανοιχτού κώδικα που σας επιτρέπει να παίζετε τα αγαπημένα σας mods και να τα διατηρείτε ενημερωμένα, όλα σε ένα κομψό μικρό πακέτο.
+    en_GB: A unique, open source launcher that allows you to play your favourite mods, and keep them up to date, all in one neat little package.
+    es_ES: Un lanzador único de código abierto que te permite jugar a tus mods favoritos y mantenerlos actualizados, todo en un práctico paquete.
+    fr_FR: Un lanceur unique et open source qui vous permet de jouer à vos mods préférés et de les maintenir à jour, le tout dans un seul et même petit paquet bien pratique.
+    ga_IE: Lainseálaí uathúil foinse oscailte a ligeann duit do mhodhanna is fearr leat a imirt, agus iad a choinneáil cothrom le dáta, i bpacáiste beag néata amháin.
+    hr_HR: Jedinstveni pokretač otvorenog koda koji vam omogućuje igranje vaših omiljenih modova i njihovo ažuriranje, sve u jednom urednom malom paketu.
+    hu_HU: Egy egyedi, nyílt forráskódú indítóprogram, amely lehetővé teszi kedvenc modjaid lejátszását és naprakészen tartását, mindezt egyetlen kis csomagban.
+    it_IT: Un launcher open source unico che ti permette di giocare alle tue mod preferite e di mantenerle aggiornate, tutto in un unico pratico pacchetto.
+    ja_JP: お気に入りのMODをプレイしたり、常に最新の状態に保ったりできる、ユニークなオープンソースのランチャー。すべてが1つの便利なパッケージにまとまっています。
+    ko_KR: 좋아하는 모드를 플레이하고 최신 상태로 유지할 수 있는 독특한 오픈 소스 런처로, 이 모든 기능을 하나의 깔끔한 패키지에서 제공합니다.
+    ml_IN: നിങ്ങളുടെ പ്രിയപ്പെട്ട മോഡുകൾ പ്ലേ ചെയ്യാനും അവ കാലികമായി നിലനിർത്താനും അനുവദിക്കുന്ന ഒരു അതുല്യമായ, ഓപ്പൺ സോഴ്‌സ് ലോഞ്ചർ, എല്ലാം ഒരു ചെറിയ പാക്കേജിൽ.
+    nb_NO: En unik, åpen kildekode-launcher som lar deg spille favorittmoddene dine og holde dem oppdaterte, alt i én fin liten pakke.
+    nl_NL: Een unieke, open source launcher waarmee je je favoriete mods kunt spelen en up-to-date kunt houden, allemaal in één handig pakketje.
+    pl_PL: Unikalny, open source'owy program uruchamiający, który umożliwia granie w ulubione mody i ich aktualizację, a wszystko to w jednym, schludnym pakiecie.
+    pt_BR: Um lançador único e de código aberto que permite jogar seus mods favoritos e mantê-los atualizados, tudo em um único pacote compacto e organizado.
+    ro_RO: Un lansator unic, open source, care îți permite să joci modurile tale preferate și să le menții la zi, totul într-un pachet mic și elegant.
+    ru_RU: Уникальный лаунчер с открытым исходным кодом, который позволяет запускать ваши любимые моды и поддерживать их в актуальном состоянии — всё в одном удобном компактном пакете.
+    sk_SK: Unikátny launcher s otvoreným zdrojovým kódom, ktorý vám umožňuje hrať vaše obľúbené mody a udržiavať ich aktuálne, a to všetko v jednom úhľadnom malom balení.
+    sv_SE: En unik launcher med öppen källkod som låter dig spela dina favoritmoddar och hålla dem uppdaterade, allt i ett snyggt litet paket.
+    tr_TR: Eşsiz, açık kaynaklı bir başlatıcı olan bu araç, en sevdiğiniz modları oynamanıza ve güncel tutmanıza olanak tanır; hepsi tek bir kullanışlı pakette.
     zh_CN: 集中启动、管理和更新游戏模组。
+    zh_TW: 集中啟動、管理和更新遊戲模組。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/modrinth-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/modrinth-logo.png
   title:
     en_US: Modrinth (LinuxServer.io)
+    ca_ES: Modrinth (LinuxServer.io)
+    cs_CZ: Modrinth (LinuxServer.io)
+    da_DK: Modrinth (LinuxServer.io)
+    de_DE: Modrinth (LinuxServer.io)
+    el_GR: Modrinth (LinuxServer.io)
+    en_GB: Modrinth (LinuxServer.io)
+    es_ES: Modrinth (LinuxServer.io)
+    fr_FR: Modrinth (LinuxServer.io)
+    ga_IE: Modrinth (LinuxServer.io)
+    hr_HR: Modrinth (LinuxServer.io)
+    hu_HU: Modrinth (LinuxServer.io)
+    it_IT: Modrinth (LinuxServer.io)
+    ja_JP: Modrinth (LinuxServer.io)
+    ko_KR: Modrinth (LinuxServer.io)
+    ml_IN: Modrinth (LinuxServer.io)
+    nb_NO: Modrinth (LinuxServer.io)
+    nl_NL: Modrinth (LinuxServer.io)
+    pl_PL: Modrinth (LinuxServer.io)
+    pt_BR: Modrinth (LinuxServer.io)
+    ro_RO: Modrinth (LinuxServer.io)
+    ru_RU: Modrinth (LinuxServer.io)
+    sk_SK: Modrinth (LinuxServer.io)
+    sv_SE: Modrinth (LinuxServer.io)
+    tr_TR: Modrinth (LinuxServer.io)
     zh_CN: Modrinth（LinuxServer.io）
+    zh_TW: Modrinth（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermodrinth
   port_map: '3000'

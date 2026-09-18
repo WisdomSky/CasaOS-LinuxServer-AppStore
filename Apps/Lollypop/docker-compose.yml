@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.
+    ca_ES: Lollypop és un reproductor de música modern i lleuger dissenyat per funcionar excel·lentment a l'entorn d'escriptori GNOME.
+    cs_CZ: Lollypop je lehký moderní hudební přehrávač navržený pro vynikající fungování v prostředí GNOME.
+    da_DK: Lollypop er en let, moderne musikafspiller designet til at fungere fremragende på GNOME-skrivebordsmiljøet.
+    de_DE: Lollypop ist ein schlanker, moderner Musikplayer, der speziell für die GNOME-Desktopumgebung entwickelt wurde.
+    el_GR: Το Lollypop είναι ένα ελαφρύ, μοντέρνο πρόγραμμα αναπαραγωγής μουσικής σχεδιασμένο να λειτουργεί άψογα στο περιβάλλον εργασίας GNOME.
+    en_GB: Lollypop is a lightweight modern music player designed to work excellently on the Gnome desktop environment.
+    es_ES: Lollypop es un reproductor de música moderno y ligero diseñado para funcionar a la perfección en el entorno de escritorio GNOME.
+    fr_FR: Lollypop est un lecteur de musique moderne et léger, conçu pour fonctionner parfaitement sous l'environnement de bureau GNOME.
+    ga_IE: Is seinnteoir ceoil nua-aimseartha éadrom é Lollypop atá deartha chun oibriú go han-mhaith ar thimpeallacht deisce GNOME.
+    hr_HR: Lollypop je lagani moderni glazbeni player dizajniran za izvrstan rad u GNOME desktop okruženju.
+    hu_HU: A Lollypop egy könnyű, modern zenelejátszó, amelyet úgy terveztek, hogy kiválóan működjön a GNOME asztali környezetben.
+    it_IT: Lollypop è un lettore musicale moderno e leggero, progettato per funzionare in modo eccellente nell'ambiente desktop GNOME.
+    ja_JP: Lollypopは、GNOMEデスクトップ環境で優れた動作を発揮するように設計された、軽量でモダンな音楽プレーヤーです。
+    ko_KR: Lollypop은 GNOME 데스크톱 환경에서 탁월하게 작동하도록 설계된 가볍고 현대적인 음악 플레이어입니다.
+    ml_IN: ഗ്നോം ഡെസ്ക്ടോപ്പ് പരിതസ്ഥിതിയിൽ മികച്ച രീതിയിൽ പ്രവർത്തിക്കുന്നതിനായി രൂപകൽപ്പന ചെയ്ത ഒരു ഭാരം കുറഞ്ഞ ആധുനിക മ്യൂസിക് പ്ലെയറാണ് ലോലിപോപ്പ്.
+    nb_NO: Lollypop er en lett, moderne musikkspiller designet for å fungere utmerket på GNOME-skrivebordsmiljøet.
+    nl_NL: Lollypop is een lichtgewicht, moderne muziekspeler die uitstekend werkt in de GNOME-desktopomgeving.
+    pl_PL: Lollypop to lekki, nowoczesny odtwarzacz muzyki zaprojektowany do doskonałej pracy w środowisku graficznym GNOME.
+    pt_BR: Lollypop é um reprodutor de música moderno e leve, projetado para funcionar perfeitamente no ambiente de desktop GNOME.
+    ro_RO: Lollypop este un player muzical modern și ușor, conceput să funcționeze excelent pe mediul desktop GNOME.
+    ru_RU: Lollypop — это легковесный современный музыкальный плеер, разработанный для превосходной работы в среде рабочего стола GNOME.
+    sk_SK: Lollypop je ľahký moderný hudobný prehrávač navrhnutý pre vynikajúci výkon v prostredí GNOME.
+    sv_SE: Lollypop är en lätt och modern musikspelare designad för att fungera utmärkt i GNOME-skrivbordsmiljön.
+    tr_TR: Lollypop, GNOME masaüstü ortamında mükemmel şekilde çalışmak üzere tasarlanmış, hafif ve modern bir müzik oynatıcısıdır.
     zh_CN: Lollypop 是一款轻量、现代的音乐播放器，专为在 GNOME 桌面环境中良好运行而设计。
+    zh_TW: Lollypop 是一款輕量、現代的音樂播放器，專為在 GNOME 桌面環境中良好執行而設計。
   tagline:
     en_US: A lightweight modern music player designed to work excellently on the GNOME desktop environment.
+    ca_ES: Un reproductor de música modern i lleuger dissenyat per funcionar excel·lentment a l'entorn d'escriptori GNOME.
+    cs_CZ: Lehký moderní hudební přehrávač navržený pro vynikající fungování v prostředí GNOME.
+    da_DK: En let, moderne musikafspiller designet til at fungere fremragende i GNOME-skrivebordsmiljøet.
+    de_DE: Ein leichter, moderner Musikplayer, der für die optimale Funktion unter der GNOME-Desktopumgebung entwickelt wurde.
+    el_GR: Ένα ελαφρύ, σύγχρονο πρόγραμμα αναπαραγωγής μουσικής σχεδιασμένο να λειτουργεί άριστα στο περιβάλλον εργασίας GNOME.
+    en_GB: A lightweight modern music player designed to work excellently on the Gnome desktop environment.
+    es_ES: Un reproductor de música moderno y ligero diseñado para funcionar a la perfección en el entorno de escritorio GNOME.
+    fr_FR: Un lecteur de musique moderne et léger, conçu pour fonctionner parfaitement sous l'environnement de bureau GNOME.
+    ga_IE: Seinnteoir ceoil nua-aimseartha éadrom atá deartha chun oibriú go han-mhaith ar thimpeallacht deisce GNOME.
+    hr_HR: Lagani moderni glazbeni player dizajniran za izvrstan rad u GNOME desktop okruženju.
+    hu_HU: Egy könnyű, modern zenelejátszó, amelyet úgy terveztek, hogy kiválóan működjön a GNOME asztali környezetben.
+    it_IT: Un lettore musicale moderno e leggero, progettato per funzionare in modo ottimale nell'ambiente desktop GNOME.
+    ja_JP: GNOMEデスクトップ環境で優れた動作を発揮するように設計された、軽量でモダンな音楽プレーヤー。
+    ko_KR: GNOME 데스크톱 환경에서 탁월한 성능을 발휘하도록 설계된 가볍고 현대적인 음악 플레이어입니다.
+    ml_IN: ഗ്നോം ഡെസ്ക്ടോപ്പ് പരിതസ്ഥിതിയിൽ മികച്ച രീതിയിൽ പ്രവർത്തിക്കാൻ രൂപകൽപ്പന ചെയ്ത ഒരു ഭാരം കുറഞ്ഞ ആധുനിക മ്യൂസിക് പ്ലെയർ.
+    nb_NO: En lett, moderne musikkspiller designet for å fungere utmerket på GNOME-skrivebordsmiljøet.
+    nl_NL: Een lichtgewicht, moderne muziekspeler die uitstekend werkt in de GNOME-desktopomgeving.
+    pl_PL: Lekki, nowoczesny odtwarzacz muzyki zaprojektowany do doskonałej pracy w środowisku graficznym GNOME.
+    pt_BR: Um reprodutor de música moderno e leve, projetado para funcionar perfeitamente no ambiente de desktop GNOME.
+    ro_RO: Un player muzical modern și ușor, conceput să funcționeze excelent în mediul desktop GNOME.
+    ru_RU: Легкий современный музыкальный плеер, разработанный для превосходной работы в среде рабочего стола GNOME.
+    sk_SK: Ľahký moderný hudobný prehrávač navrhnutý pre vynikajúci chod v prostredí GNOME.
+    sv_SE: En lätt och modern musikspelare utformad för att fungera utmärkt i GNOME-skrivbordsmiljön.
+    tr_TR: GNOME masaüstü ortamında mükemmel şekilde çalışmak üzere tasarlanmış, hafif ve modern bir müzik çalar.
     zh_CN: 为 GNOME 桌面设计的轻量音乐播放器。
+    zh_TW: 為 GNOME 桌面設計的輕量音樂播放器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lollypop-icon.png
   title:
     en_US: Lollypop (LinuxServer.io)
+    ca_ES: Lollypop (LinuxServer.io)
+    cs_CZ: Lollypop (LinuxServer.io)
+    da_DK: Lollypop (LinuxServer.io)
+    de_DE: Lollypop (LinuxServer.io)
+    el_GR: Lollypop (LinuxServer.io)
+    en_GB: Lollypop (LinuxServer.io)
+    es_ES: Lollypop (LinuxServer.io)
+    fr_FR: Lollypop (LinuxServer.io)
+    ga_IE: Lollypop (LinuxServer.io)
+    hr_HR: Lollypop (LinuxServer.io)
+    hu_HU: Lollypop (LinuxServer.io)
+    it_IT: Lollypop (LinuxServer.io)
+    ja_JP: Lollypop (LinuxServer.io)
+    ko_KR: Lollypop (LinuxServer.io)
+    ml_IN: Lollypop (LinuxServer.io)
+    nb_NO: Lollypop (LinuxServer.io)
+    nl_NL: Lollypop (LinuxServer.io)
+    pl_PL: Lollypop (LinuxServer.io)
+    pt_BR: Lollypop (LinuxServer.io)
+    ro_RO: Lollypop (LinuxServer.io)
+    ru_RU: Lollypop (LinuxServer.io)
+    sk_SK: Lollypop (LinuxServer.io)
+    sv_SE: Lollypop (LinuxServer.io)
+    tr_TR: Lollypop (LinuxServer.io)
     zh_CN: Lollypop（LinuxServer.io）
+    zh_TW: Lollypop（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlollypop
   port_map: '3000'

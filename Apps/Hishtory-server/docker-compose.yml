@@ -41,17 +41,92 @@ x-casaos:
   main: app
   description:
     en_US: hiSHtory is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.
+    ca_ES: hiSHtory és un millor historial de shell. Emmagatzema l'historial de shell en context (en quin directori has executat l'ordre, si ha tingut èxit o no, quant de temps ha trigat, etc.). Tot això s'emmagatzema localment i s'encripta de principi a fi per sincronitzar-se amb tots els altres ordinadors.
+    cs_CZ: hiSHtory je lepší historie shellu. Ukládá historii shellu v kontextu (ve kterém adresáři jste příkaz spustili, zda byl úspěšný nebo neúspěšný, jak dlouho to trvalo atd.). Vše je uloženo lokálně a šifrováno end-to-end pro synchronizaci se všemi vašimi ostatními počítači.
+    da_DK: hiSHtory er en bedre shell-historik. Den gemmer din shell-historik i kontekst (hvilken mappe du kørte kommandoen i, om den lykkedes eller mislykkedes, hvor lang tid det tog osv.). Alt dette gemmes lokalt og end-to-end-krypteret til synkronisering med alle dine andre computere.
+    de_DE: hiSHtory ist eine verbesserte Shell-Historie. Sie speichert Ihre Shell-Historie im Kontext (in welchem Verzeichnis Sie den Befehl ausgeführt haben, ob er erfolgreich war oder fehlgeschlagen ist, wie lange er gedauert hat usw.). Alle Daten werden lokal und Ende-zu-Ende-verschlüsselt gespeichert, um sie mit all Ihren anderen Computern zu synchronisieren.
+    el_GR: Το hiSHtory είναι ένα καλύτερο ιστορικό κελύφους. Αποθηκεύει το ιστορικό του κελύφους σας στο περιβάλλον του (σε ποιον κατάλογο εκτελέσατε την εντολή, αν ήταν επιτυχής ή απέτυχε, πόσο χρόνο χρειάστηκε, κ.λπ.). Όλα αυτά αποθηκεύονται τοπικά και κρυπτογραφούνται από άκρο σε άκρο για συγχρονισμό με όλους τους άλλους υπολογιστές σας.
+    en_GB: hiSHtory is a better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.
+    es_ES: hiSHtory es un historial de comandos mejorado. Almacena tu historial de comandos en contexto (en qué directorio ejecutaste el comando, si tuvo éxito o no, cuánto tiempo tardó, etc.). Todo esto se almacena localmente y se cifra de extremo a extremo para sincronizarlo con todos tus demás ordenadores.
+    fr_FR: hiSHtory est une version améliorée de l'historique de vos commandes. Il conserve votre historique en contexte (répertoire d'exécution, résultat, durée, etc.). Ces données sont stockées localement et chiffrées de bout en bout pour une synchronisation optimale sur tous vos ordinateurs.
+    ga_IE: Is stair bhlaosc níos fearr é hiSHtory. Stórálann sé do stair bhlaosc i gcomhthéacs (cén eolaire inar rith tú an t-ordú, cibé ar éirigh leis nó nár éirigh leis, cá fhad a thóg sé, srl.). Stóráiltear é seo go léir go háitiúil agus criptithe ó cheann ceann le haghaidh sioncrónú le do ríomhairí eile go léir.
+    hr_HR: hiSHtory je bolja povijest ljuske. Pohranjuje vašu povijest ljuske u kontekstu (u kojem ste direktoriju pokrenuli naredbu, je li uspjela ili nije, koliko je vremena trebalo itd.). Sve se to pohranjuje lokalno i šifrirano od početka do kraja za sinkronizaciju sa svim vašim ostalim računalima.
+    hu_HU: A hiSHtory egy jobb shell előzményfájl. Kontextusban tárolja a shell előzményeket (melyik könyvtárban futtattad a parancsot, hogy sikeresen vagy sikertelenül, mennyi ideig tartott stb.). Mindez helyben tárolódik, és végponttól végpontig titkosítva van, hogy szinkronizálható legyen az összes többi számítógépeddel.
+    it_IT: hiSHtory è una cronologia della shell migliorata. Memorizza la cronologia della shell nel suo contesto (in quale directory è stato eseguito il comando, se ha avuto successo o meno, quanto tempo ci è voluto, ecc.). Tutto ciò viene memorizzato localmente e crittografato end-to-end per la sincronizzazione con tutti gli altri computer.
+    ja_JP: hiSHtoryは、より優れたシェル履歴管理ツールです。コマンドを実行したディレクトリ、実行の成否、実行時間など、シェル履歴をコンテキスト情報とともに保存します。これらの情報はすべてローカルに保存され、エンドツーエンドで暗号化されているため、他のすべてのコンピュータと同期できます。
+    ko_KR: hiSHtory는 더욱 향상된 셸 히스토리 관리 도구입니다. 명령어를 실행한 디렉토리, 성공 여부, 소요 시간 등 컨텍스트 정보를 함께 저장해 줍니다. 이 모든 정보는 로컬에 저장되며, 다른 모든 컴퓨터와의 동기화를 위해 종단 간 암호화됩니다.
+    ml_IN: hiSHtory ഒരു മികച്ച ഷെൽ ചരിത്രമാണ്. ഇത് നിങ്ങളുടെ ഷെൽ ചരിത്രം സന്ദർഭത്തിൽ സംഭരിക്കുന്നു (നിങ്ങൾ ഏത് ഡയറക്ടറിയിലാണ് കമാൻഡ് പ്രവർത്തിപ്പിച്ചത്, അത് വിജയിച്ചോ പരാജയപ്പെട്ടോ, എത്ര സമയമെടുത്തു, മുതലായവ). ഇതെല്ലാം ലോക്കലായി സംഭരിക്കുകയും നിങ്ങളുടെ മറ്റ് എല്ലാ കമ്പ്യൂട്ടറുകളിലേക്കും സമന്വയിപ്പിക്കുന്നതിനായി എൻഡ്-ടു-എൻഡ് എൻക്രിപ്റ്റ് ചെയ്യുകയും ചെയ്യുന്നു.
+    nb_NO: hiSHtory er en bedre skallhistorikk. Den lagrer skallhistorikken din i kontekst (hvilken katalog du kjørte kommandoen i, om den lyktes eller mislyktes, hvor lang tid det tok osv.). Alt dette lagres lokalt og ende-til-ende-kryptert for synkronisering med alle de andre datamaskinene dine.
+    nl_NL: hiSHtory is een verbeterde versie van de shellgeschiedenis. Het slaat je shellgeschiedenis op in de juiste context (in welke map je de opdracht hebt uitgevoerd, of deze is geslaagd of mislukt, hoe lang deze heeft geduurd, enz.). Dit alles wordt lokaal opgeslagen en end-to-end versleuteld, zodat het gesynchroniseerd kan worden met al je andere computers.
+    pl_PL: hiSHtory to lepsza historia powłoki. Przechowuje historię powłoki w kontekście (w jakim katalogu uruchomiono polecenie, czy zakończyło się sukcesem, czy niepowodzeniem, ile czasu to zajęło itp.). Wszystko to jest przechowywane lokalnie i szyfrowane metodą end-to-end, co umożliwia synchronizację na wszystkich innych komputerach.
+    pt_BR: O hiSHtory é um histórico de shell aprimorado. Ele armazena seu histórico de shell em contexto (em qual diretório você executou o comando, se ele foi bem-sucedido ou falhou, quanto tempo levou, etc.). Tudo isso é armazenado localmente e criptografado de ponta a ponta para sincronização com todos os seus outros computadores.
+    ro_RO: hiSHtory este un istoric shell mai bun. Stochează istoricul shell în context (în ce director ați executat comanda, dacă a reușit sau nu, cât timp a durat etc.). Toate acestea sunt stocate local și criptate end-to-end pentru sincronizare cu toate celelalte computere.
+    ru_RU: hiSHtory — это улучшенная история командной строки. Она хранит вашу историю команд в контексте (какой директории вы запускали команду, успешность или неудача, время выполнения и т. д.). Все это хранится локально и шифруется сквозным шифрованием для синхронизации со всеми вашими другими компьютерами.
+    sk_SK: hiSHtory je lepšia história shellu. Ukladá históriu shellu v kontexte (v akom adresári ste príkaz spustili, či bol úspešný alebo neúspešný, ako dlho to trvalo atď.). Všetko je uložené lokálne a šifrované od začiatku do konca pre synchronizáciu so všetkými vašimi ostatnými počítačmi.
+    sv_SE: hiSHtory är en bättre skalhistorik. Den lagrar din skalhistorik i kontext (vilken katalog du körde kommandot i, om det lyckades eller misslyckades, hur lång tid det tog, etc.). Allt detta lagras lokalt och krypteras från början till slut för synkronisering med alla dina andra datorer.
+    tr_TR: hiSHtory, daha iyi bir shell geçmişi sunar. Shell geçmişinizi bağlam içinde saklar (komutu hangi dizinde çalıştırdığınız, başarılı olup olmadığı, ne kadar sürdüğü vb.). Tüm bu bilgiler yerel olarak saklanır ve diğer tüm bilgisayarlarınızla senkronize edilebilmesi için uçtan uca şifrelenir.
     zh_CN: hiSHtory 提供更完善的 Shell 命令历史记录。它保存命令的执行目录、成功或失败状态、耗时等上下文。数据保存在本地，并通过端到端加密同步到你的其他电脑。
+    zh_TW: hiSHtory 提供更完善的 Shell 命令歷史記錄。它儲存命令的執行目錄、成功或失敗狀態、耗時等上下文。資料儲存在本地，並透過端到端加密同步到你的其他電腦。
   tagline:
     en_US: A better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.
+    ca_ES: Un millor historial de shell. Emmagatzema l'historial de shell en context (en quin directori has executat l'ordre, si ha tingut èxit o no, quant de temps ha trigat, etc.). Tot això s'emmagatzema localment i xifrat de principi a fi per sincronitzar-se amb tots els altres ordinadors.
+    cs_CZ: Lepší historie shellu. Ukládá historii shellu v kontextu (ve kterém adresáři jste příkaz spustili, zda byl úspěšný nebo neúspěšný, jak dlouho to trvalo atd.). Vše je uloženo lokálně a šifrováno end-to-end pro synchronizaci se všemi vašimi ostatními počítači.
+    da_DK: En bedre shell-historik. Den gemmer din shell-historik i kontekst (hvilken mappe du kørte kommandoen i, om den lykkedes eller mislykkedes, hvor lang tid det tog osv.). Alt dette gemmes lokalt og end-to-end-krypteret til synkronisering med alle dine andre computere.
+    de_DE: Eine verbesserte Shell-Historie. Sie speichert Ihre Shell-Historie im Kontext (in welchem Verzeichnis Sie den Befehl ausgeführt haben, ob er erfolgreich war oder fehlgeschlagen ist, wie lange er gedauert hat usw.). Alle Daten werden lokal und Ende-zu-Ende-verschlüsselt gespeichert und mit all Ihren anderen Computern synchronisiert.
+    el_GR: Ένα καλύτερο ιστορικό κελύφους. Αποθηκεύει το ιστορικό κελύφους σας στο περιβάλλον του (σε ποιον κατάλογο εκτελέσατε την εντολή, αν ήταν επιτυχής ή απέτυχε, πόσο χρόνο χρειάστηκε, κ.λπ.). Όλα αυτά αποθηκεύονται τοπικά και κρυπτογραφούνται από άκρο σε άκρο για συγχρονισμό με όλους τους άλλους υπολογιστές σας.
+    en_GB: A better shell history. It stores your shell history in context (what directory you ran the command in, whether it succeeded or failed, how long it took, etc). This is all stored locally and end-to-end encrypted for syncing to to all your other computers.
+    es_ES: Un historial de comandos mejorado. Almacena tu historial de comandos en contexto (en qué directorio ejecutaste el comando, si tuvo éxito o no, cuánto tiempo tardó, etc.). Todo esto se guarda localmente y se cifra de extremo a extremo para sincronizarlo con todos tus demás ordenadores.
+    fr_FR: Un historique de commandes amélioré. Il conserve votre historique de commandes dans son contexte (répertoire d'exécution, résultat, durée, etc.). Toutes ces données sont stockées localement et chiffrées de bout en bout pour une synchronisation optimale sur tous vos ordinateurs.
+    ga_IE: Stair bhlaosc níos fearr. Stórálann sé do stair bhlaosc i gcomhthéacs (cén eolaire inar rith tú an t-ordú, cibé ar éirigh leis nó nár éirigh leis, cá fhad a thóg sé, srl.). Stóráiltear é seo go léir go háitiúil agus criptithe ó cheann ceann le haghaidh sioncrónú le do ríomhairí eile go léir.
+    hr_HR: Bolja povijest ljuske. Pohranjuje vašu povijest ljuske u kontekstu (u kojem ste direktoriju pokrenuli naredbu, je li uspjela ili nije, koliko je vremena trebalo itd.). Sve se to pohranjuje lokalno i šifrirano od početka do kraja za sinkronizaciju sa svim vašim ostalim računalima.
+    hu_HU: Jobb shell előzmények. Kontextusban tárolja a shell előzményeket (melyik könyvtárban futtattad a parancsot, hogy sikeresen vagy sikertelenül, mennyi ideig tartott stb.). Mindez helyben tárolódik, és végponttól végpontig titkosítva van, hogy szinkronizálható legyen az összes többi számítógépeddel.
+    it_IT: Una cronologia della shell migliorata. Memorizza la cronologia della shell nel suo contesto (in quale directory è stato eseguito il comando, se ha avuto successo o meno, quanto tempo ci è voluto, ecc.). Tutto ciò viene memorizzato localmente e crittografato end-to-end per la sincronizzazione con tutti gli altri computer.
+    ja_JP: より優れたシェル履歴機能。シェル履歴をコンテキスト（コマンドを実行したディレクトリ、実行の成否、実行時間など）とともに保存します。これらの情報はすべてローカルに保存され、エンドツーエンドで暗号化されているため、他のすべてのコンピュータと同期できます。
+    ko_KR: 향상된 셸 기록 기능입니다. 명령어를 실행한 디렉토리, 성공 여부, 소요 시간 등 컨텍스트 정보를 함께 저장합니다. 이 모든 정보는 로컬에 저장되며, 다른 모든 컴퓨터와 동기화할 수 있도록 종단 간 암호화됩니다.
+    ml_IN: മെച്ചപ്പെട്ട ഷെൽ ചരിത്രം. ഇത് നിങ്ങളുടെ ഷെൽ ചരിത്രം സന്ദർഭത്തിൽ സംഭരിക്കുന്നു (നിങ്ങൾ ഏത് ഡയറക്ടറിയിലാണ് കമാൻഡ് പ്രവർത്തിപ്പിച്ചത്, അത് വിജയിച്ചോ പരാജയപ്പെട്ടോ, എത്ര സമയമെടുത്തു, മുതലായവ). ഇതെല്ലാം ലോക്കലായി സംഭരിക്കുകയും നിങ്ങളുടെ മറ്റ് എല്ലാ കമ്പ്യൂട്ടറുകളിലേക്കും സമന്വയിപ്പിക്കുന്നതിനായി എൻഡ്-ടു-എൻഡ് എൻക്രിപ്റ്റ് ചെയ്യുകയും ചെയ്യുന്നു.
+    nb_NO: En bedre skallhistorikk. Den lagrer skallhistorikken din i kontekst (hvilken katalog du kjørte kommandoen i, om den lyktes eller mislyktes, hvor lang tid det tok osv.). Alt dette lagres lokalt og ende-til-ende-kryptert for synkronisering med alle de andre datamaskinene dine.
+    nl_NL: Een betere shellgeschiedenis. Deze slaat je shellgeschiedenis op in context (in welke map je de opdracht hebt uitgevoerd, of deze is geslaagd of mislukt, hoe lang het duurde, enz.). Dit alles wordt lokaal opgeslagen en end-to-end versleuteld voor synchronisatie met al je andere computers.
+    pl_PL: Lepsza historia powłoki. Przechowuje historię powłoki w kontekście (w jakim katalogu uruchomiono polecenie, czy zakończyło się sukcesem, czy niepowodzeniem, ile czasu to zajęło itp.). Wszystko to jest przechowywane lokalnie i szyfrowane metodą end-to-end, co umożliwia synchronizację na wszystkich innych komputerach.
+    pt_BR: Um histórico de shell aprimorado. Ele armazena seu histórico de shell contextualizado (em qual diretório você executou o comando, se ele foi bem-sucedido ou falhou, quanto tempo levou, etc.). Tudo isso é armazenado localmente e criptografado de ponta a ponta para sincronização com todos os seus outros computadores.
+    ro_RO: Un istoric shell mai bun. Stochează istoricul shell în context (în ce director ați executat comanda, dacă a reușit sau nu, cât timp a durat etc.). Toate acestea sunt stocate local și criptate end-to-end pentru sincronizare cu toate celelalte computere.
+    ru_RU: Улучшенная история командной строки. Она хранит вашу историю команд в контексте (какой директории вы запускали команду, успешность или неудача, время выполнения и т. д.). Все это хранится локально и шифруется сквозным шифрованием для синхронизации со всеми вашими другими компьютерами.
+    sk_SK: Lepšia história shellu. Ukladá históriu shellu v kontexte (v akom adresári ste príkaz spustili, či bol úspešný alebo neúspešný, ako dlho to trvalo atď.). Toto všetko je uložené lokálne a šifrované od začiatku do konca pre synchronizáciu so všetkými vašimi ostatnými počítačmi.
+    sv_SE: En bättre skalhistorik. Den lagrar din skalhistorik i sitt sammanhang (vilken katalog du körde kommandot i, om det lyckades eller misslyckades, hur lång tid det tog, etc.). Allt detta lagras lokalt och krypteras från början till slut för synkronisering med alla dina andra datorer.
+    tr_TR: Daha iyi bir komut geçmişi. Komut geçmişinizi bağlam içinde saklar (komutu hangi dizinde çalıştırdığınız, başarılı olup olmadığı, ne kadar sürdüğü vb.). Tüm bu bilgiler yerel olarak saklanır ve diğer tüm bilgisayarlarınızla senkronize edilebilmesi için uçtan uca şifrelenir.
     zh_CN: 记录命令执行上下文并加密同步 Shell 历史。
+    zh_TW: 記錄命令執行上下文並加密同步 Shell 歷史。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hishtory-server-icon.png
   title:
     en_US: Hishtory server (LinuxServer.io)
+    ca_ES: Hishtory server (LinuxServer.io)
+    cs_CZ: Hishtory server (LinuxServer.io)
+    da_DK: Hishtory server (LinuxServer.io)
+    de_DE: Hishtory server (LinuxServer.io)
+    el_GR: Hishtory server (LinuxServer.io)
+    en_GB: Hishtory server (LinuxServer.io)
+    es_ES: Hishtory server (LinuxServer.io)
+    fr_FR: Hishtory server (LinuxServer.io)
+    ga_IE: Hishtory server (LinuxServer.io)
+    hr_HR: Hishtory server (LinuxServer.io)
+    hu_HU: Hishtory server (LinuxServer.io)
+    it_IT: Hishtory server (LinuxServer.io)
+    ja_JP: Hishtory server (LinuxServer.io)
+    ko_KR: Hishtory server (LinuxServer.io)
+    ml_IN: Hishtory server (LinuxServer.io)
+    nb_NO: Hishtory server (LinuxServer.io)
+    nl_NL: Hishtory server (LinuxServer.io)
+    pl_PL: Hishtory server (LinuxServer.io)
+    pt_BR: Hishtory server (LinuxServer.io)
+    ro_RO: Hishtory server (LinuxServer.io)
+    ru_RU: Hishtory server (LinuxServer.io)
+    sk_SK: Hishtory server (LinuxServer.io)
+    sv_SE: Hishtory server (LinuxServer.io)
+    tr_TR: Hishtory server (LinuxServer.io)
     zh_CN: Hishtory server（LinuxServer.io）
+    zh_TW: Hishtory server（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhishtoryserver
   port_map: '8080'

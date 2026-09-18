@@ -50,9 +50,59 @@ x-casaos:
   description:
     en_US: Plex-meta-manager is a Python 3 script that can be continuously run using YAML configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
     zh_CN: Plex Meta Manager 是一个 Python 3 脚本，可使用 YAML 配置持续运行，按计划更新媒体库中电影、电视剧和合集的元数据，并通过多种方式自动创建合集。详细使用方法见项目 Wiki。
+    ca_ES: Plex-meta-manager és un script de Python 3 que es pot executar contínuament mitjançant fitxers de configuració YAML per actualitzar de manera programada les metadades de les pel·lícules, programes i col·leccions de les biblioteques, així com per crear col·leccions automàticament basades en diversos mètodes detallats a la wiki.
+    cs_CZ: Plex-meta-manager je skript v Pythonu 3, který lze průběžně spouštět pomocí konfiguračních souborů YAML pro aktualizaci metadat filmů, pořadů a kolekcí ve vašich knihovnách podle plánu a také pro automatické vytváření kolekcí na základě různých metod, které jsou podrobně popsány na wiki.
+    da_DK: Plex-meta-manager er et Python 3-script, der kan køres kontinuerligt ved hjælp af YAML-konfigurationsfiler for at opdatere metadataene for film, serier og samlinger i dine biblioteker efter en tidsplan, samt automatisk opbygge samlinger baseret på forskellige metoder, der alle er beskrevet i wikien.
+    de_DE: Plex-meta-manager ist ein Python 3-Skript, das mithilfe von YAML-Konfigurationsdateien kontinuierlich ausgeführt werden kann, um die Metadaten der Filme, Serien und Sammlungen in Ihren Bibliotheken nach einem Zeitplan zu aktualisieren sowie automatisch Sammlungen auf der Grundlage verschiedener Methoden zu erstellen, die alle im Wiki detailliert beschrieben sind.
+    el_GR: Το Plex-meta-manager είναι ένα σενάριο Python 3 που μπορεί να εκτελείται συνεχώς χρησιμοποιώντας αρχεία διαμόρφωσης YAML για να ενημερώνει με χρονοδιάγραμμα τα μεταδεδομένα των ταινιών, των εκπομπών και των συλλογών στις βιβλιοθήκες σας, καθώς και να δημιουργεί αυτόματα συλλογές με βάση διάφορες μεθόδους που περιγράφονται λεπτομερώς στο wiki.
+    en_GB: Plex-meta-manager is a Python 3 script that can be continuously run using Yaml configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
+    es_ES: Plex-meta-manager es un script de Python 3 que se puede ejecutar continuamente utilizando archivos de configuración YAML para actualizar periódicamente los metadatos de las películas, series y colecciones de tus bibliotecas, así como para crear automáticamente colecciones basadas en varios métodos, todos ellos detallados en la wiki.
+    fr_FR: Plex-meta-manager est un script Python 3 qui peut être exécuté en continu à l'aide de fichiers de configuration YAML pour mettre à jour de manière planifiée les métadonnées des films, des séries et des collections de vos bibliothèques, ainsi que pour créer automatiquement des collections basées sur diverses méthodes, toutes détaillées dans le wiki.
+    ga_IE: Is script Python 3 é Plex-meta-manager is féidir a rith go leanúnach ag baint úsáide as comhaid chumraíochta YAML chun meiteashonraí na scannán, na seónna agus na mbailiúchán i do leabharlanna a nuashonrú de réir sceidil chomh maith le bailiúcháin a thógáil go huathoibríoch bunaithe ar mhodhanna éagsúla atá mionsonraithe go léir sa vicí.
+    hr_HR: Plex-meta-manager je Python 3 skripta koja se može kontinuirano pokretati pomoću YAML konfiguracijskih datoteka za ažuriranje metapodataka filmova, emisija i kolekcija u vašim bibliotekama prema rasporedu, kao i za automatsku izgradnju kolekcija na temelju različitih metoda detaljno opisanih u wikiju.
+    hu_HU: A Plex-meta-manager egy Python 3 szkript, amely folyamatosan futtatható YAML konfigurációs fájlok segítségével, hogy ütemterv szerint frissítse a könyvtárakban található filmek, műsorok és gyűjtemények metaadatait, valamint automatikusan létrehozzon gyűjteményeket a wikin részletesen ismertetett módszerek alapján.
+    it_IT: Plex-meta-manager è uno script Python 3 che può essere eseguito continuamente utilizzando file di configurazione YAML per aggiornare a intervalli regolari i metadati di film, serie TV e collezioni nelle tue librerie, nonché per creare automaticamente collezioni in base a diversi metodi, tutti descritti in dettaglio nella wiki.
+    ja_JP: Plex-meta-managerは、YAML設定ファイルを使用して継続的に実行できるPython 3スクリプトです。このスクリプトは、ライブラリ内の映画、番組、コレクションのメタデータをスケジュールに基づいて更新したり、wikiに詳述されているさまざまな方法に基づいてコレクションを自動的に構築したりできます。
+    ko_KR: Plex-meta-manager는 YAML 설정 파일을 사용하여 지속적으로 실행할 수 있는 Python 3 스크립트로, 라이브러리에 있는 영화, 프로그램 및 컬렉션의 메타데이터를 예약된 시간에 업데이트하고, 위키에 자세히 설명된 다양한 방법을 기반으로 컬렉션을 자동으로 생성할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ ലൈബ്രറികളിലെ സിനിമകൾ, ഷോകൾ, ശേഖരങ്ങൾ എന്നിവയുടെ മെറ്റാഡാറ്റ ഒരു ഷെഡ്യൂളിൽ അപ്‌ഡേറ്റ് ചെയ്യുന്നതിനും വിക്കിയിൽ വിശദമായി വിവരിച്ചിരിക്കുന്ന വിവിധ രീതികളെ അടിസ്ഥാനമാക്കി ശേഖരങ്ങൾ സ്വയമേവ നിർമ്മിക്കുന്നതിനും YAML കോൺഫിഗറേഷൻ ഫയലുകൾ ഉപയോഗിച്ച് തുടർച്ചയായി പ്രവർത്തിപ്പിക്കാൻ കഴിയുന്ന ഒരു പൈത്തൺ 3 സ്ക്രിപ്റ്റാണ് Plex-meta-manager.
+    nb_NO: Plex-meta-manager er et Python 3-skript som kan kjøres kontinuerlig ved hjelp av YAML-konfigurasjonsfiler for å oppdatere metadataene til filmer, serier og samlinger i bibliotekene dine etter en bestemt tidsplan, samt automatisk bygge samlinger basert på ulike metoder som alle er beskrevet i wikien.
+    nl_NL: Plex-meta-manager is een Python 3-script dat continu kan worden uitgevoerd met behulp van YAML-configuratiebestanden om de metadata van de films, series en collecties in je bibliotheken volgens een schema bij te werken en om automatisch collecties te bouwen op basis van verschillende methoden, die allemaal in de wiki worden beschreven.
+    pl_PL: Plex-meta-manager to skrypt w języku Python 3, który można uruchamiać w sposób ciągły przy użyciu plików konfiguracyjnych YAML w celu aktualizowania według harmonogramu metadanych filmów, programów i kolekcji w bibliotekach, a także automatycznego tworzenia kolekcji na podstawie różnych metod szczegółowo opisanych w wiki.
+    pt_BR: O Plex-meta-manager é um script em Python 3 que pode ser executado continuamente usando arquivos de configuração YAML para atualizar, de acordo com uma programação, os metadados de filmes, séries e coleções em suas bibliotecas, além de criar coleções automaticamente com base em vários métodos, todos detalhados na wiki.
+    ro_RO: Plex-meta-manager este un script Python 3 care poate fi rulat continuu folosind fișiere de configurare YAML pentru a actualiza, conform unui program, metadatele filmelor, emisiunilor și colecțiilor din bibliotecile dvs., precum și pentru a construi automat colecții pe baza diverselor metode detaliate în wiki.
+    ru_RU: Plex-meta-manager — это скрипт на Python 3, который можно запускать непрерывно с помощью конфигурационных файлов YAML для обновления метаданных фильмов, сериалов и коллекций в ваших библиотеках по расписанию, а также для автоматического создания коллекций на основе различных методов, подробно описанных в вики.
+    sk_SK: Plex-meta-manager je skript Pythonu 3, ktorý je možné nepretržite spúšťať pomocou konfiguračných súborov YAML na aktualizáciu metadát filmov, relácií a kolekcií vo vašich knižniciach podľa plánu, ako aj na automatické vytváranie kolekcií na základe rôznych metód, ktoré sú podrobne opísané vo wiki.
+    sv_SE: Plex-meta-manager är ett Python 3-skript som kan köras kontinuerligt med YAML-konfigurationsfiler för att schemalägga uppdateringar av metadata för filmer, serier och samlingar i dina bibliotek samt automatiskt bygga samlingar baserat på olika metoder som alla beskrivs i wikin.
+    tr_TR: Plex-meta-manager, kütüphanelerinizdeki filmlerin, dizilerin ve koleksiyonların meta verilerini belirli bir program dahilinde güncellemek ve wiki'de ayrıntılı olarak açıklanan çeşitli yöntemlere dayalı olarak otomatik olarak koleksiyonlar oluşturmak için YAML yapılandırma dosyaları kullanılarak sürekli olarak çalıştırılabilen bir Python 3 betiğidir.
+    zh_TW: Plex Meta Manager 是一個 Python 3 指令碼，可使用 YAML 配置持續執行，按計劃更新媒體庫中電影、電視劇和合集的後設資料，並透過多種方式自動建立合集。詳細使用方法見專案 Wiki。
   tagline:
     en_US: A Python 3 script that can be continuously run using YAML configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
     zh_CN: 按计划更新 Plex 元数据并自动创建合集。
+    ca_ES: Un script de Python 3 que es pot executar contínuament mitjançant fitxers de configuració YAML per actualitzar de manera programada les metadades de les pel·lícules, programes i col·leccions de les biblioteques, així com crear col·leccions automàticament basades en diversos mètodes detallats a la wiki.
+    cs_CZ: Skript Pythonu 3, který lze průběžně spouštět pomocí konfiguračních souborů YAML pro aktualizaci metadat filmů, pořadů a kolekcí ve vašich knihovnách podle plánu a také pro automatické vytváření kolekcí na základě různých metod, které jsou podrobně popsány na wiki.
+    da_DK: Et Python 3-script, der kan køres kontinuerligt ved hjælp af YAML-konfigurationsfiler for at opdatere metadataene for film, serier og samlinger i dine biblioteker efter en tidsplan, samt automatisk opbygge samlinger baseret på forskellige metoder, der alle er beskrevet i wikien.
+    de_DE: Ein Python 3-Skript, das mithilfe von YAML-Konfigurationsdateien kontinuierlich ausgeführt werden kann, um die Metadaten der Filme, Serien und Sammlungen in Ihren Bibliotheken nach einem Zeitplan zu aktualisieren sowie automatisch Sammlungen auf der Grundlage verschiedener Methoden zu erstellen, die alle im Wiki detailliert beschrieben sind.
+    el_GR: Ένα σενάριο Python 3 που μπορεί να εκτελείται συνεχώς χρησιμοποιώντας αρχεία διαμόρφωσης YAML για να ενημερώνει με χρονοδιάγραμμα τα μεταδεδομένα των ταινιών, των εκπομπών και των συλλογών στις βιβλιοθήκες σας, καθώς και να δημιουργεί αυτόματα συλλογές με βάση διάφορες μεθόδους που περιγράφονται λεπτομερώς στο wiki.
+    en_GB: A Python 3 script that can be continuously run using Yaml configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.
+    es_ES: Un script de Python 3 que se puede ejecutar continuamente utilizando archivos de configuración YAML para actualizar periódicamente los metadatos de las películas, series y colecciones de tus bibliotecas, así como para crear automáticamente colecciones basadas en varios métodos, todos ellos detallados en la wiki.
+    fr_FR: Un script Python 3 qui peut être exécuté en continu à l'aide de fichiers de configuration YAML pour mettre à jour de manière planifiée les métadonnées des films, des séries et des collections de vos bibliothèques, ainsi que pour créer automatiquement des collections basées sur diverses méthodes, toutes détaillées dans le wiki.
+    ga_IE: Script Python 3 is féidir a rith go leanúnach ag baint úsáide as comhaid chumraíochta YAML chun meiteashonraí na scannán, na seónna agus na mbailiúchán i do leabharlanna a nuashonrú de réir sceidil chomh maith le bailiúcháin a thógáil go huathoibríoch bunaithe ar mhodhanna éagsúla atá mionsonraithe go léir sa vicí.
+    hr_HR: Python 3 skripta koja se može kontinuirano izvršavati pomoću YAML konfiguracijskih datoteka za ažuriranje metapodataka filmova, emisija i kolekcija u vašim bibliotekama prema rasporedu, kao i za automatsku izgradnju kolekcija na temelju različitih metoda detaljno opisanih u wikiju.
+    hu_HU: Egy Python 3 szkript, amely folyamatosan futtatható YAML konfigurációs fájlok használatával, hogy ütemterv szerint frissítse a könyvtárakban található filmek, műsorok és gyűjtemények metaadatait, valamint automatikusan létrehozzon gyűjteményeket a wikin részletesen ismertetett különféle módszerek alapján.
+    it_IT: Uno script Python 3 che può essere eseguito continuamente utilizzando file di configurazione YAML per aggiornare a intervalli regolari i metadati di film, serie TV e collezioni nelle tue librerie, nonché per creare automaticamente collezioni in base a diversi metodi, tutti descritti in dettaglio nella wiki.
+    ja_JP: YAML設定ファイルを使用して継続的に実行できるPython 3スクリプトです。ライブラリ内の映画、番組、コレクションのメタデータをスケジュールに基づいて更新したり、wikiで詳しく説明されているさまざまな方法に基づいてコレクションを自動的に構築したりできます。
+    ko_KR: 이 Python 3 스크립트는 YAML 설정 파일을 사용하여 지속적으로 실행될 수 있으며, 라이브러리에 있는 영화, 프로그램 및 컬렉션의 메타데이터를 정기적으로 업데이트하고, 위키에 자세히 설명된 다양한 방법을 기반으로 컬렉션을 자동으로 구축할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ ലൈബ്രറികളിലെ സിനിമകൾ, ഷോകൾ, ശേഖരങ്ങൾ എന്നിവയുടെ മെറ്റാഡാറ്റ ഒരു ഷെഡ്യൂളിൽ അപ്‌ഡേറ്റ് ചെയ്യുന്നതിനും വിക്കിയിൽ വിശദമായി വിവരിച്ചിരിക്കുന്ന വിവിധ രീതികളെ അടിസ്ഥാനമാക്കി ശേഖരങ്ങൾ സ്വയമേവ നിർമ്മിക്കുന്നതിനും YAML കോൺഫിഗറേഷൻ ഫയലുകൾ ഉപയോഗിച്ച് തുടർച്ചയായി പ്രവർത്തിപ്പിക്കാൻ കഴിയുന്ന ഒരു പൈത്തൺ 3 സ്ക്രിപ്റ്റ്.
+    nb_NO: Et Python 3-skript som kan kjøres kontinuerlig ved hjelp av YAML-konfigurasjonsfiler for å oppdatere metadataene til filmer, serier og samlinger i bibliotekene dine etter en bestemt tidsplan, samt automatisk bygge samlinger basert på ulike metoder som alle er beskrevet i wikien.
+    nl_NL: Een Python 3-script dat continu kan worden uitgevoerd met behulp van YAML-configuratiebestanden om de metadata van de films, series en collecties in je bibliotheken volgens een schema bij te werken, en om automatisch collecties te bouwen op basis van verschillende methoden die allemaal in de wiki worden beschreven.
+    pl_PL: Skrypt w języku Python 3, który można uruchamiać w sposób ciągły przy użyciu plików konfiguracyjnych YAML w celu aktualizowania według harmonogramu metadanych filmów, programów i kolekcji w bibliotekach, a także automatycznego tworzenia kolekcji na podstawie różnych metod szczegółowo opisanych w wiki.
+    pt_BR: Um script em Python 3 que pode ser executado continuamente usando arquivos de configuração YAML para atualizar, de acordo com uma programação, os metadados de filmes, séries e coleções em suas bibliotecas, bem como criar coleções automaticamente com base em vários métodos, todos detalhados na wiki.
+    ro_RO: Un script Python 3 care poate fi rulat continuu folosind fișiere de configurare YAML pentru a actualiza programat metadatele filmelor, emisiunilor și colecțiilor din bibliotecile dvs., precum și pentru a construi automat colecții bazate pe diverse metode detaliate în wiki.
+    ru_RU: Скрипт на Python 3, который можно непрерывно запускать с помощью конфигурационных файлов YAML для обновления метаданных фильмов, сериалов и коллекций в ваших библиотеках по расписанию, а также для автоматического создания коллекций на основе различных методов, подробно описанных в вики.
+    sk_SK: Skript Pythonu 3, ktorý je možné nepretržite spúšťať pomocou konfiguračných súborov YAML na aktualizáciu metadát filmov, relácií a kolekcií vo vašich knižniciach podľa plánu, ako aj na automatické vytváranie kolekcií na základe rôznych metód, ktoré sú podrobne opísané vo wiki.
+    sv_SE: Ett Python 3-skript som kan köras kontinuerligt med YAML-konfigurationsfiler för att schemalägga uppdateringar av metadata för filmer, serier och samlingar i dina bibliotek samt automatiskt bygga samlingar baserat på olika metoder som alla beskrivs i wikin.
+    tr_TR: Bu Python 3 betiği, YAML yapılandırma dosyaları kullanılarak sürekli olarak çalıştırılabilir ve kütüphanelerinizdeki filmlerin, dizilerin ve koleksiyonların meta verilerini belirli bir program dahilinde güncelleyebilir; ayrıca wiki'de ayrıntılı olarak açıklanan çeşitli yöntemlere dayalı olarak otomatik olarak koleksiyonlar oluşturabilir.
+    zh_TW: 按計劃更新 Plex 後設資料並自動建立合集。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-meta-manager-banner.png
@@ -60,6 +110,31 @@ x-casaos:
   title:
     en_US: Plex meta-manager
     zh_CN: Plex meta-manager
+    ca_ES: Plex meta-manager
+    cs_CZ: Plex meta-manager
+    da_DK: Plex meta-manager
+    de_DE: Plex meta-manager
+    el_GR: Plex meta-manager
+    en_GB: Plex meta-manager
+    es_ES: Plex meta-manager
+    fr_FR: Plex meta-manager
+    ga_IE: Plex meta-manager
+    hr_HR: Plex meta-manager
+    hu_HU: Plex meta-manager
+    it_IT: Plex meta-manager
+    ja_JP: Plex meta-manager
+    ko_KR: Plex meta-manager
+    ml_IN: Plex meta-manager
+    nb_NO: Plex meta-manager
+    nl_NL: Plex meta-manager
+    pl_PL: Plex meta-manager
+    pt_BR: Plex meta-manager
+    ro_RO: Plex meta-manager
+    ru_RU: Plex meta-manager
+    sk_SK: Plex meta-manager
+    sv_SE: Plex meta-manager
+    tr_TR: Plex meta-manager
+    zh_TW: Plex meta-manager
   category: Others
   id: wisdomsky.linuxserver.linuxserverplexmetamanager
   version: 1.21.1

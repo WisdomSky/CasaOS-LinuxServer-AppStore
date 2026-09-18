@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    ca_ES: Joplin és una aplicació gratuïta i de codi obert per prendre notes i fer tasques pendents, que pot gestionar un gran nombre de notes organitzades en quaderns.
+    cs_CZ: Joplin je bezplatná aplikace s otevřeným zdrojovým kódem pro psaní poznámek a úkolů, která zvládne velké množství poznámek uspořádaných do zápisníků.
+    da_DK: Joplin er et gratis, open source-program til notetagning og to-do, der kan håndtere et stort antal noter organiseret i notesbøger.
+    de_DE: Joplin ist eine kostenlose Open-Source-Anwendung zum Erstellen von Notizen und Aufgaben, die eine große Anzahl von Notizen in Notizbüchern verwalten kann.
+    el_GR: Το Joplin είναι μια δωρεάν εφαρμογή λήψης σημειώσεων και εργασιών ανοιχτού κώδικα, η οποία μπορεί να χειριστεί μεγάλο αριθμό σημειώσεων οργανωμένων σε σημειωματάρια.
+    en_GB: Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    es_ES: Joplin es una aplicación gratuita de código abierto para tomar notas y gestionar listas de tareas, que puede manejar una gran cantidad de notas organizadas en cuadernos.
+    fr_FR: Joplin est une application gratuite et open source de prise de notes et de gestion de tâches, capable de gérer un grand nombre de notes organisées en carnets.
+    ga_IE: Is feidhmchlár saor in aisce foinse oscailte é Joplin chun nótaí a thógáil agus rudaí le déanamh, ar féidir leis líon mór nótaí atá eagraithe i leabhair nótaí a láimhseáil.
+    hr_HR: Joplin je besplatna aplikacija otvorenog koda za bilješke i popis obaveza koja može obraditi veliki broj bilješki organiziranih u bilježnice.
+    hu_HU: A Joplin egy ingyenes, nyílt forráskódú jegyzetelő és teendőkezelő alkalmazás, amely nagyszámú, jegyzetfüzetekbe rendezett jegyzetet képes kezelni.
+    it_IT: Joplin è un'applicazione gratuita e open source per prendere appunti e gestire le attività, in grado di gestire un gran numero di note organizzate in quaderni.
+    ja_JP: Joplinは、無料のオープンソースのメモ作成およびToDo管理アプリケーションで、ノートブックに整理された多数のメモを扱うことができます。
+    ko_KR: Joplin은 무료 오픈 소스 메모 및 할 일 관리 애플리케이션으로, 노트북 형태로 정리된 많은 수의 메모를 관리할 수 있습니다.
+    ml_IN: ജോപ്ലിൻ ഒരു സൌജന്യ, ഓപ്പൺ സോഴ്‌സ് നോട്ട് എടുക്കലും ചെയ്യേണ്ടതുമായ ആപ്ലിക്കേഷനാണ്, ഇതിന് നോട്ട്ബുക്കുകളായി ക്രമീകരിച്ചിരിക്കുന്ന ധാരാളം കുറിപ്പുകൾ കൈകാര്യം ചെയ്യാൻ കഴിയും.
+    nb_NO: Joplin er et gratis, åpen kildekode-program for notatskriving og gjøremål, som kan håndtere et stort antall notater organisert i notatbøker.
+    nl_NL: Joplin is een gratis, open source notitie- en to-do-applicatie die een groot aantal notities in notitieboeken kan beheren.
+    pl_PL: Joplin to bezpłatna, otwarta aplikacja do robienia notatek i tworzenia list zadań, która potrafi zarządzać dużą liczbą notatek uporządkowanych w notatnikach.
+    pt_BR: Joplin é um aplicativo gratuito e de código aberto para anotações e listas de tarefas, capaz de lidar com um grande número de notas organizadas em cadernos.
+    ro_RO: Joplin este o aplicație gratuită, open source, de luare de notițe și de activități, care poate gestiona un număr mare de notițe organizate în caiete.
+    ru_RU: Joplin — это бесплатное приложение с открытым исходным кодом для создания заметок и составления списков дел, которое может обрабатывать большое количество заметок, организованных в блокноты.
+    sk_SK: Joplin je bezplatná aplikácia s otvoreným zdrojovým kódom na zapisovanie poznámok a úloh, ktorá dokáže spracovať veľké množstvo poznámok usporiadaných do zápisníkov.
+    sv_SE: Joplin är ett gratis antecknings- och att-göra-program med öppen källkod, som kan hantera ett stort antal anteckningar organiserade i anteckningsböcker.
+    tr_TR: Joplin, çok sayıda notu defterler halinde düzenleyebilen, ücretsiz ve açık kaynaklı bir not alma ve yapılacaklar listesi uygulamasıdır.
     zh_CN: Joplin 是一款免费、开源的笔记和待办事项应用，可处理大量按笔记本组织的笔记。
+    zh_TW: Joplin 是一款免費、開源的筆記和待辦事項應用，可處理大量按筆記本組織的筆記。
   tagline:
     en_US: A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    ca_ES: Una aplicació gratuïta i de codi obert per prendre notes i fer tasques pendents, que pot gestionar un gran nombre de notes organitzades en quaderns.
+    cs_CZ: Bezplatná aplikace s otevřeným zdrojovým kódem pro psaní poznámek a úkolů, která zvládne velké množství poznámek uspořádaných do zápisníků.
+    da_DK: En gratis, open source-applikation til notetagning og to-do, der kan håndtere et stort antal noter organiseret i notesbøger.
+    de_DE: Eine kostenlose Open-Source-Anwendung zum Erstellen von Notizen und Aufgaben, die eine große Anzahl von Notizen in Notizbüchern verwalten kann.
+    el_GR: Μια δωρεάν εφαρμογή ανοιχτού κώδικα για λήψη σημειώσεων και εργασίες, η οποία μπορεί να χειριστεί μεγάλο αριθμό σημειώσεων οργανωμένων σε σημειωματάρια.
+    en_GB: A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+    es_ES: Una aplicación gratuita de código abierto para tomar notas y gestionar listas de tareas, capaz de manejar una gran cantidad de notas organizadas en libretas.
+    fr_FR: Une application gratuite et open source de prise de notes et de gestion de tâches, capable de gérer un grand nombre de notes organisées en carnets.
+    ga_IE: Feidhmchlár saor in aisce foinse oscailte le haghaidh nótaí a thógáil agus rudaí le déanamh, ar féidir leis líon mór nótaí atá eagraithe i leabhair nótaí a láimhseáil.
+    hr_HR: Besplatna aplikacija otvorenog koda za bilješke i popis obaveza koja može obraditi veliki broj bilješki organiziranih u bilježnice.
+    hu_HU: Egy ingyenes, nyílt forráskódú jegyzetelő és teendőkezelő alkalmazás, amely képes nagyszámú, jegyzetfüzetekbe rendezett jegyzetet kezelni.
+    it_IT: Un'applicazione gratuita e open source per prendere appunti e gestire elenchi di cose da fare, in grado di gestire un gran numero di note organizzate in quaderni.
+    ja_JP: 無料でオープンソースのメモ作成・ToDoリスト作成アプリケーションで、ノートブックに整理された多数のメモを扱うことができます。
+    ko_KR: 무료 오픈 소스 메모 및 할 일 관리 애플리케이션으로, 노트북 형식으로 정리된 많은 양의 메모를 관리할 수 있습니다.
+    ml_IN: നോട്ട്ബുക്കുകളിൽ ക്രമീകരിച്ചിരിക്കുന്ന ധാരാളം കുറിപ്പുകൾ കൈകാര്യം ചെയ്യാൻ കഴിയുന്ന ഒരു സൗജന്യ, ഓപ്പൺ സോഴ്‌സ് നോട്ട് എടുക്കലും ചെയ്യേണ്ടതുമായ ആപ്ലിക്കേഷൻ.
+    nb_NO: Et gratis, åpen kildekode-program for notatskriving og gjøremål, som kan håndtere et stort antall notater organisert i notatbøker.
+    nl_NL: Een gratis, open source notitie- en to-do-applicatie die een groot aantal notities in notitieboeken kan beheren.
+    pl_PL: Bezpłatna aplikacja typu open source do robienia notatek i tworzenia list zadań, która potrafi zarządzać dużą liczbą notatek uporządkowanych w notatnikach.
+    pt_BR: Um aplicativo gratuito e de código aberto para anotações e listas de tarefas, capaz de lidar com um grande número de notas organizadas em cadernos.
+    ro_RO: O aplicație gratuită, open source, pentru luarea de notițe și gestionarea activităților, care poate gestiona un număr mare de notițe organizate în caiete.
+    ru_RU: Бесплатное приложение с открытым исходным кодом для ведения заметок и составления списков дел, способное обрабатывать большое количество заметок, организованных в блокноты.
+    sk_SK: Bezplatná aplikácia s otvoreným zdrojovým kódom na zapisovanie poznámok a úloh, ktorá dokáže spracovať veľké množstvo poznámok usporiadaných do zápisníkov.
+    sv_SE: En gratis antecknings- och att-göra-applikation med öppen källkod, som kan hantera ett stort antal anteckningar organiserade i anteckningsböcker.
+    tr_TR: Ücretsiz, açık kaynaklı bir not alma ve yapılacaklar listesi uygulaması olup, çok sayıda notu defterler halinde düzenleyerek yönetebilir.
     zh_CN: 开源笔记和待办事项管理应用。
+    zh_TW: 開源筆記和待辦事項管理應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/joplin-logo.png
   title:
     en_US: Joplin (LinuxServer.io)
+    ca_ES: Joplin (LinuxServer.io)
+    cs_CZ: Joplin (LinuxServer.io)
+    da_DK: Joplin (LinuxServer.io)
+    de_DE: Joplin (LinuxServer.io)
+    el_GR: Joplin (LinuxServer.io)
+    en_GB: Joplin (LinuxServer.io)
+    es_ES: Joplin (LinuxServer.io)
+    fr_FR: Joplin (LinuxServer.io)
+    ga_IE: Joplin (LinuxServer.io)
+    hr_HR: Joplin (LinuxServer.io)
+    hu_HU: Joplin (LinuxServer.io)
+    it_IT: Joplin (LinuxServer.io)
+    ja_JP: Joplin (LinuxServer.io)
+    ko_KR: Joplin (LinuxServer.io)
+    ml_IN: Joplin (LinuxServer.io)
+    nb_NO: Joplin (LinuxServer.io)
+    nl_NL: Joplin (LinuxServer.io)
+    pl_PL: Joplin (LinuxServer.io)
+    pt_BR: Joplin (LinuxServer.io)
+    ro_RO: Joplin (LinuxServer.io)
+    ru_RU: Joplin (LinuxServer.io)
+    sk_SK: Joplin (LinuxServer.io)
+    sv_SE: Joplin (LinuxServer.io)
+    tr_TR: Joplin (LinuxServer.io)
     zh_CN: Joplin（LinuxServer.io）
+    zh_TW: Joplin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverjoplin
   port_map: '3000'

@@ -46,17 +46,92 @@ x-casaos:
   main: app
   description:
     en_US: syslog-ng allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+    ca_ES: syslog-ng us permet recopilar, analitzar, classificar, reescriure i correlacionar registres de tota la vostra infraestructura de manera flexible i emmagatzemar-los o encaminar-los a eines d'anàlisi de registres.
+    cs_CZ: syslog-ng vám umožňuje flexibilně shromažďovat, analyzovat, klasifikovat, přepisovat a korelovat protokoly z celé vaší infrastruktury a ukládat je nebo směrovat do nástrojů pro analýzu protokolů.
+    da_DK: syslog-ng giver dig mulighed for fleksibelt at indsamle, analysere, klassificere, omskrive og korrelere logs fra hele din infrastruktur og gemme eller rute dem til loganalyseværktøjer.
+    de_DE: Mit syslog-ng können Sie Protokolle aus Ihrer gesamten Infrastruktur flexibel erfassen, analysieren, klassifizieren, umschreiben und korrelieren sowie speichern oder an Protokollanalysetools weiterleiten.
+    el_GR: Το syslog-ng σάς επιτρέπει να συλλέγετε, να αναλύετε, να ταξινομείτε, να ξαναγράφετε και να συσχετίζετε αρχεία καταγραφής με ευελιξία από ολόκληρη την υποδομή σας και να τα αποθηκεύετε ή να τα δρομολογείτε σε εργαλεία ανάλυσης αρχείων καταγραφής.
+    en_GB: syslog-ng allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+    es_ES: syslog-ng le permite recopilar, analizar, clasificar, reescribir y correlacionar de forma flexible los registros de toda su infraestructura, y almacenarlos o enrutarlos a herramientas de análisis de registros.
+    fr_FR: syslog-ng vous permet de collecter, d'analyser, de classer, de réécrire et de corréler de manière flexible les journaux provenant de l'ensemble de votre infrastructure, puis de les stocker ou de les acheminer vers des outils d'analyse de journaux.
+    ga_IE: Le syslog-ng is féidir leat logaí a bhailiú, a pharsáil, a aicmiú, a athscríobh agus a chomhghaolú go solúbtha ó do bhonneagar agus iad a stóráil nó a threorú chuig uirlisí anailíse logaí.
+    hr_HR: syslog-ng vam omogućuje fleksibilno prikupljanje, parsiranje, klasificiranje, prepisivanje i korelaciju logova iz cijele vaše infrastrukture te njihovo pohranjivanje ili usmjeravanje prema alatima za analizu logova.
+    hu_HU: A syslog-ng lehetővé teszi a naplók rugalmas gyűjtését, elemzését, osztályozását, átírását és korrelációját az infrastruktúrából, valamint tárolását vagy naplóelemző eszközökhöz való továbbítását.
+    it_IT: syslog-ng consente di raccogliere, analizzare, classificare, riscrivere e correlare in modo flessibile i log provenienti da tutta l'infrastruttura e di archiviarli o instradarli verso strumenti di analisi dei log.
+    ja_JP: syslog-ngを使用すると、インフラストラクチャ全体からログを柔軟に収集、解析、分類、書き換え、関連付け、保存したり、ログ分析ツールにルーティングしたりできます。
+    ko_KR: syslog-ng를 사용하면 인프라 전반에서 로그를 유연하게 수집, 구문 분석, 분류, 재작성 및 상호 연관시키고 로그 분석 도구에 저장하거나 전송할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ ഇൻഫ്രാസ്ട്രക്ചറിൽ നിന്നുള്ള ലോഗുകൾ ശേഖരിക്കാനും, വിശകലനം ചെയ്യാനും, തരംതിരിക്കാനും, മാറ്റിയെഴുതാനും, പരസ്പരബന്ധിതമാക്കാനും, ലോഗ് വിശകലന ഉപകരണങ്ങളിലേക്ക് സംഭരിക്കാനോ റൂട്ട് ചെയ്യാനോ syslog-ng നിങ്ങളെ അനുവദിക്കുന്നു.
+    nb_NO: syslog-ng lar deg fleksibelt samle inn, analysere, klassifisere, omskrive og korrelere logger fra hele infrastrukturen din, og lagre eller rute dem til logganalyseverktøy.
+    nl_NL: Met syslog-ng kunt u op flexibele wijze logbestanden uit uw gehele infrastructuur verzamelen, parseren, classificeren, herschrijven en correleren, en deze opslaan of doorsturen naar loganalysetools.
+    pl_PL: Dzięki syslog-ng możesz elastycznie zbierać, analizować, klasyfikować, przepisywać i korelować dzienniki z całej infrastruktury oraz przechowywać je lub kierować do narzędzi do analizy dzienników.
+    pt_BR: O syslog-ng permite coletar, analisar, classificar, reescrever e correlacionar logs de toda a sua infraestrutura de forma flexível, armazenando-os ou encaminhando-os para ferramentas de análise de logs.
+    ro_RO: syslog-ng vă permite să colectați, să analizați, să clasificați, să rescrieți și să corelați în mod flexibil jurnalele din întreaga infrastructură și să le stocați sau să le direcționați către instrumente de analiză a jurnalelor.
+    ru_RU: syslog-ng позволяет гибко собирать, анализировать, классифицировать, перезаписывать и сопоставлять журналы со всей вашей инфраструктуры, а также хранить или направлять их в инструменты анализа журналов.
+    sk_SK: syslog-ng vám umožňuje flexibilne zhromažďovať, analyzovať, klasifikovať, prepisovať a korelovať protokoly z celej vašej infraštruktúry a ukladať ich alebo smerovať do nástrojov na analýzu protokolov.
+    sv_SE: Med syslog-ng kan du flexibelt samla in, analysera, klassificera, skriva om och korrelera loggar från hela din infrastruktur och lagra eller dirigera dem till logganalysverktyg.
+    tr_TR: syslog-ng, altyapınız genelindeki günlükleri esnek bir şekilde toplamanıza, ayrıştırmanıza, sınıflandırmanıza, yeniden yazmanıza ve ilişkilendirmenize ve bunları günlük analiz araçlarına depolamanıza veya yönlendirmenize olanak tanır.
     zh_CN: syslog-ng 可灵活地收集、解析、分类、改写和关联整个基础设施中的日志，并将其存储或转发到日志分析工具。
+    zh_TW: syslog-ng 可靈活地收集、解析、分類、改寫和關聯整個基礎設施中的日誌，並將其儲存或轉發到日誌分析工具。
   tagline:
     en_US: Allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+    ca_ES: Us permet recopilar, analitzar, classificar, reescriure i correlacionar registres de tota la infraestructura de manera flexible i emmagatzemar-los o encaminar-los a eines d'anàlisi de registres.
+    cs_CZ: Umožňuje flexibilně shromažďovat, analyzovat, klasifikovat, přepisovat a korelovat protokoly z celé vaší infrastruktury a ukládat je nebo směrovat do nástrojů pro analýzu protokolů.
+    da_DK: Giver dig mulighed for fleksibelt at indsamle, analysere, klassificere, omskrive og korrelere logs fra hele din infrastruktur og gemme eller dirigere dem til loganalyseværktøjer.
+    de_DE: Ermöglicht das flexible Sammeln, Analysieren, Klassifizieren, Umschreiben und Korrelieren von Protokollen aus Ihrer gesamten Infrastruktur sowie deren Speicherung oder Weiterleitung an Protokollanalysetools.
+    el_GR: Σας επιτρέπει να συλλέγετε, να αναλύετε, να ταξινομείτε, να ξαναγράφετε και να συσχετίζετε αρχεία καταγραφής με ευελιξία από ολόκληρη την υποδομή σας και να τα αποθηκεύετε ή να τα δρομολογείτε σε εργαλεία ανάλυσης αρχείων καταγραφής.
+    en_GB: Allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.
+    es_ES: Le permite recopilar, analizar, clasificar, reescribir y correlacionar de forma flexible los registros de toda su infraestructura, y almacenarlos o enrutarlos a herramientas de análisis de registros.
+    fr_FR: Permet de collecter, d'analyser, de classer, de réécrire et de corréler de manière flexible les journaux provenant de l'ensemble de votre infrastructure, et de les stocker ou de les acheminer vers des outils d'analyse de journaux.
+    ga_IE: Ligeann sé duit logaí a bhailiú, a pharsáil, a aicmiú, a athscríobh agus a chomhghaolú go solúbtha ó do bhonneagar agus iad a stóráil nó a threorú chuig uirlisí anailíse logaí.
+    hr_HR: Omogućuje vam fleksibilno prikupljanje, raščlanjivanje, klasificiranje, prepisivanje i korelaciju zapisnika iz cijele vaše infrastrukture te njihovo pohranjivanje ili usmjeravanje prema alatima za analizu zapisnika.
+    hu_HU: Lehetővé teszi a naplók rugalmas gyűjtését, elemzését, osztályozását, átírását és korrelációját az infrastruktúrájából, valamint tárolását vagy naplóelemző eszközökhöz való továbbítását.
+    it_IT: Consente di raccogliere, analizzare, classificare, riscrivere e correlare in modo flessibile i log provenienti da tutta l'infrastruttura e di archiviarli o instradarli verso strumenti di analisi dei log.
+    ja_JP: インフラストラクチャ全体からログを柔軟に収集、解析、分類、書き換え、関連付け、保存したり、ログ分析ツールにルーティングしたりすることができます。
+    ko_KR: 인프라 전반에서 로그를 유연하게 수집, 구문 분석, 분류, 재작성 및 상호 연관시키고, 이를 로그 분석 도구에 저장하거나 전송할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ ഇൻഫ്രാസ്ട്രക്ചറിൽ നിന്നുള്ള ലോഗുകൾ ശേഖരിക്കാനും, വിശകലനം ചെയ്യാനും, തരംതിരിക്കാനും, മാറ്റിയെഴുതാനും, പരസ്പരബന്ധിതമാക്കാനും, ലോഗ് വിശകലന ഉപകരണങ്ങളിലേക്ക് സംഭരിക്കാനോ റൂട്ട് ചെയ്യാനോ നിങ്ങളെ അനുവദിക്കുന്നു.
+    nb_NO: Lar deg fleksibelt samle inn, analysere, klassifisere, omskrive og korrelere logger fra hele infrastrukturen din, og lagre eller rute dem til logganalyseverktøy.
+    nl_NL: Hiermee kunt u op flexibele wijze logbestanden uit uw gehele infrastructuur verzamelen, analyseren, classificeren, herschrijven en correleren, en deze opslaan of doorsturen naar tools voor loganalyse.
+    pl_PL: Umożliwia elastyczne zbieranie, analizowanie, klasyfikowanie, przepisywanie i korelowanie logów z całej infrastruktury oraz ich przechowywanie lub kierowanie do narzędzi do analizy logów.
+    pt_BR: Permite coletar, analisar, classificar, reescrever e correlacionar logs de toda a sua infraestrutura de forma flexível, armazenando-os ou encaminhando-os para ferramentas de análise de logs.
+    ro_RO: Vă permite să colectați, să analizați, să clasificați, să rescrieți și să corelați în mod flexibil jurnalele din întreaga infrastructură și să le stocați sau să le direcționați către instrumente de analiză a jurnalelor.
+    ru_RU: Позволяет гибко собирать, анализировать, классифицировать, перезаписывать и сопоставлять журналы со всей вашей инфраструктуры, а также хранить или направлять их в инструменты анализа журналов.
+    sk_SK: Umožňuje vám flexibilne zhromažďovať, analyzovať, klasifikovať, prepisovať a korelovať protokoly z celej vašej infraštruktúry a ukladať ich alebo smerovať do nástrojov na analýzu protokolov.
+    sv_SE: Gör att du flexibelt kan samla in, analysera, klassificera, skriva om och korrelera loggar från hela din infrastruktur och lagra eller dirigera dem till logganalysverktyg.
+    tr_TR: Altyapınız genelindeki günlükleri esnek bir şekilde toplamanıza, ayrıştırmanıza, sınıflandırmanıza, yeniden yazmanıza ve ilişkilendirmenize ve bunları günlük analiz araçlarına depolamanıza veya yönlendirmenize olanak tanır.
     zh_CN: 集中收集、处理和转发基础设施日志。
+    zh_TW: 集中收集、處理和轉發基礎設施日誌。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
   title:
     en_US: Syslog ng (LinuxServer.io)
+    ca_ES: Syslog ng (LinuxServer.io)
+    cs_CZ: Syslog ng (LinuxServer.io)
+    da_DK: Syslog ng (LinuxServer.io)
+    de_DE: Syslog ng (LinuxServer.io)
+    el_GR: Syslog ng (LinuxServer.io)
+    en_GB: Syslog ng (LinuxServer.io)
+    es_ES: Syslog ng (LinuxServer.io)
+    fr_FR: Syslog ng (LinuxServer.io)
+    ga_IE: Syslog ng (LinuxServer.io)
+    hr_HR: Syslog ng (LinuxServer.io)
+    hu_HU: Syslog ng (LinuxServer.io)
+    it_IT: Syslog ng (LinuxServer.io)
+    ja_JP: Syslog ng (LinuxServer.io)
+    ko_KR: Syslog ng (LinuxServer.io)
+    ml_IN: Syslog ng (LinuxServer.io)
+    nb_NO: Syslog ng (LinuxServer.io)
+    nl_NL: Syslog ng (LinuxServer.io)
+    pl_PL: Syslog ng (LinuxServer.io)
+    pt_BR: Syslog ng (LinuxServer.io)
+    ro_RO: Syslog ng (LinuxServer.io)
+    ru_RU: Syslog ng (LinuxServer.io)
+    sk_SK: Syslog ng (LinuxServer.io)
+    sv_SE: Syslog ng (LinuxServer.io)
+    tr_TR: Syslog ng (LinuxServer.io)
     zh_CN: Syslog ng（LinuxServer.io）
+    zh_TW: Syslog ng（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversyslogng
   version: 4.11.0

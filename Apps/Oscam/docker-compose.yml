@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Oscam is an Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.
+    ca_ES: Oscam és un programari de mòdul d'accés condicional de codi obert que s'utilitza per descodificar transmissions DVB mitjançant targetes intel·ligents. És alhora un servidor i un client.
+    cs_CZ: Oscam je open source software s podmíněným přístupem (Conditional Access Module), který se používá pro dekódování DVB vysílání pomocí čipových karet. Je to server i klient.
+    da_DK: Oscam er et open source-softwareprogram til betinget adgangsmodul, der bruges til at dekode DVB-transmissioner ved hjælp af smartkort. Det er både en server og en klient.
+    de_DE: Oscam ist eine Open-Source-Software für bedingten Zugriff, die zur Entschlüsselung von DVB-Übertragungen mithilfe von Smartcards verwendet wird. Sie fungiert sowohl als Server als auch als Client.
+    el_GR: Το Oscam είναι ένα λογισμικό ανοιχτού κώδικα με δυνατότητα συνθήκης πρόσβασης που χρησιμοποιείται για την αποκωδικοποίηση μεταδόσεων DVB χρησιμοποιώντας έξυπνες κάρτες. Είναι ταυτόχρονα διακομιστής και πελάτης.
+    en_GB: Oscam is an Open Source Conditional Access Module software used for descrambling Dvb transmissions using smart cards. It's both a server and a client.
+    es_ES: Oscam es un software de módulo de acceso condicional de código abierto que se utiliza para descifrar transmisiones DVB mediante tarjetas inteligentes. Funciona tanto como servidor como cliente.
+    fr_FR: Oscam est un logiciel open source de module d'accès conditionnel utilisé pour le décryptage des transmissions DVB à l'aide de cartes à puce. Il fait office à la fois de serveur et de client.
+    ga_IE: Is bogearraí Modúl Rochtana Coinníollach Foinse Oscailte é Oscam a úsáidtear chun tarchuir DVB a dhí-scrambláil ag baint úsáide as cártaí cliste. Is freastalaí agus cliant araon é.
+    hr_HR: Oscam je softver otvorenog koda za uvjetni pristup (Conditional Access Module) koji se koristi za dekodiranje DVB prijenosa pomoću pametnih kartica. To je i poslužitelj i klijent.
+    hu_HU: Az Oscam egy nyílt forráskódú feltételes hozzáférési modul (CAM), amely DVB-adások dekódolására szolgál intelligens kártyák segítségével. Egyszerre szerver és kliens is.
+    it_IT: Oscam è un software open source per la decodifica di moduli di accesso condizionato (CAM) utilizzato per decodificare le trasmissioni DVB tramite smart card. Funziona sia come server che come client.
+    ja_JP: Oscamは、スマートカードを使用してDVB放送のスクランブルを解除するために使用されるオープンソースの条件付きアクセスモジュールソフトウェアです。サーバーとクライアントの両方の機能を備えています。
+    ko_KR: Oscam은 스마트 카드를 사용하여 DVB 전송을 복호화하는 데 사용되는 오픈 소스 조건부 액세스 모듈 소프트웨어입니다. 서버와 클라이언트 역할을 모두 수행합니다.
+    ml_IN: സ്മാർട്ട് കാർഡുകൾ ഉപയോഗിച്ച് ഡിവിബി ട്രാൻസ്മിഷനുകൾ ഡീസ്ക്രാമ്പ് ചെയ്യുന്നതിന് ഉപയോഗിക്കുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് കണ്ടീഷണൽ ആക്‌സസ് മൊഡ്യൂൾ സോഫ്റ്റ്‌വെയറാണ് ഓസ്‌കാം. ഇത് ഒരു സെർവറും ക്ലയന്റും ആണ്.
+    nb_NO: Oscam er en programvare for åpen kildekode-tilgangsmoduler som brukes til å dekode DVB-sendinger ved hjelp av smartkort. Det er både en server og en klient.
+    nl_NL: Oscam is open-source Conditional Access Module-software die wordt gebruikt voor het decoderen van DVB-uitzendingen met behulp van smartcards. Het is zowel een server als een client.
+    pl_PL: Oscam to oprogramowanie typu Open Source, oparte na module dostępu warunkowego, służące do dekodowania transmisji DVB za pomocą kart inteligentnych. Jest zarówno serwerem, jak i klientem.
+    pt_BR: O Oscam é um software de Módulo de Acesso Condicional de código aberto usado para decodificar transmissões DVB utilizando cartões inteligentes. Ele funciona tanto como servidor quanto como cliente.
+    ro_RO: Oscam este un software open source de tip modul de acces condiționat, utilizat pentru decriptarea transmisiilor DVB folosind carduri inteligente. Este atât server, cât și client.
+    ru_RU: Oscam — это программное обеспечение с открытым исходным кодом для модуля условного доступа, используемое для дескремблирования DVB-передач с помощью смарт-карт. Оно выполняет функции как сервера, так и клиента.
+    sk_SK: Oscam je softvér s otvoreným zdrojovým kódom pre modul podmieneného prístupu (Conditional Access Module), ktorý sa používa na dekódovanie DVB prenosov pomocou inteligentných kariet. Je to server aj klient.
+    sv_SE: Oscam är en programvara för öppen källkod för villkorlig åtkomstmodul som används för att avkoda DVB-sändningar med hjälp av smartkort. Det är både en server och en klient.
+    tr_TR: Oscam, akıllı kartlar kullanarak DVB yayınlarının şifresini çözmek için kullanılan açık kaynaklı bir Koşullu Erişim Modülü yazılımıdır. Hem sunucu hem de istemci işlevi görür.
     zh_CN: OSCam 是开源条件访问模块软件，可使用智能卡对 DVB 传输进行解扰，同时具有服务器和客户端功能。
+    zh_TW: OSCam 是開源條件訪問模組軟體，可使用智慧卡對 DVB 傳輸進行解擾，同時具有伺服器和客戶端功能。
   tagline:
     en_US: An Open Source Conditional Access Module software used for descrambling DVB transmissions using smart cards. It's both a server and a client.
+    ca_ES: Un programari de mòdul d'accés condicional de codi obert utilitzat per descodificar transmissions DVB mitjançant targetes intel·ligents. És tant un servidor com un client.
+    cs_CZ: Software s otevřeným zdrojovým kódem pro modul podmíněného přístupu (Conditional Access Module) používaný pro dekódování DVB přenosů pomocí čipových karet. Je to server i klient.
+    da_DK: En Open Source Conditional Access Module-software, der bruges til at dekode DVB-transmissioner ved hjælp af smartkort. Det er både en server og en klient.
+    de_DE: Eine Open-Source-Software für bedingten Zugriff, die zur Entschlüsselung von DVB-Übertragungen mithilfe von Smartcards verwendet wird. Sie fungiert sowohl als Server als auch als Client.
+    el_GR: Ένα λογισμικό ανοιχτού κώδικα με δυνατότητα πρόσβασης υπό όρους που χρησιμοποιείται για την αποκωδικοποίηση μεταδόσεων DVB χρησιμοποιώντας έξυπνες κάρτες. Είναι ταυτόχρονα διακομιστής και πελάτης.
+    en_GB: An Open Source Conditional Access Module software used for descrambling Dvb transmissions using smart cards. It's both a server and a client.
+    es_ES: Software de módulo de acceso condicional de código abierto (OCAM) utilizado para descifrar transmisiones DVB mediante tarjetas inteligentes. Funciona tanto como servidor como cliente.
+    fr_FR: Module d'accès conditionnel open source utilisé pour le décryptage des transmissions DVB à l'aide de cartes à puce. Il fait office à la fois de serveur et de client.
+    ga_IE: Bogearraí Modúl Rochtana Coinníollach Foinse Oscailte a úsáidtear chun tarchuir DVB a dhí-scrambláil ag baint úsáide as cártaí cliste. Is freastalaí agus cliant araon é.
+    hr_HR: Softver otvorenog koda za uvjetni pristup (Conditional Access Module) koji se koristi za dekodiranje DVB prijenosa pomoću pametnih kartica. To je i poslužitelj i klijent.
+    hu_HU: Egy nyílt forráskódú feltételes hozzáférési modul (CAM) szoftver, amelyet DVB-adások dekódolására használnak intelligens kártyák segítségével. Szerver és kliens is egyben.
+    it_IT: Un software Open Source Conditional Access Module (CAM) utilizzato per decodificare le trasmissioni DVB tramite smart card. Funziona sia come server che come client.
+    ja_JP: スマートカードを使用してDVB放送のスクランブルを解除するために使用される、オープンソースの条件付きアクセスモジュール（CAM）ソフトウェア。サーバーとクライアントの両方の機能を備えています。
+    ko_KR: 스마트 카드를 사용하여 DVB 전송을 복호화하는 데 사용되는 오픈 소스 조건부 액세스 모듈 소프트웨어입니다. 서버와 클라이언트 역할을 모두 수행합니다.
+    ml_IN: സ്മാർട്ട് കാർഡുകൾ ഉപയോഗിച്ച് DVB ട്രാൻസ്മിഷനുകൾ ഡീസ്ക്രാമ്പ് ചെയ്യുന്നതിന് ഉപയോഗിക്കുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് കണ്ടീഷണൽ ആക്‌സസ് മൊഡ്യൂൾ സോഫ്റ്റ്‌വെയർ. ഇത് ഒരു സെർവറും ക്ലയന്റും ആണ്.
+    nb_NO: En åpen kildekode-programvare for betinget tilgangsmodul som brukes til å dekryptere DVB-sendinger ved hjelp av smartkort. Den er både en server og en klient.
+    nl_NL: Open source Conditional Access Module-software die wordt gebruikt voor het decoderen van DVB-uitzendingen met behulp van smartcards. Het is zowel een server als een client.
+    pl_PL: Oprogramowanie Open Source w postaci modułu dostępu warunkowego, służące do dekodowania transmisji DVB za pomocą kart inteligentnych. Jest zarówno serwerem, jak i klientem.
+    pt_BR: Um software de Módulo de Acesso Condicional de código aberto usado para decodificar transmissões DVB usando cartões inteligentes. Ele funciona tanto como servidor quanto como cliente.
+    ro_RO: Un software Open Source Conditional Access Module folosit pentru decriptarea transmisiilor DVB folosind carduri inteligente. Este atât server, cât și client.
+    ru_RU: Программное обеспечение с открытым исходным кодом для модуля условного доступа, используемое для дескремблирования DVB-передач с помощью смарт-карт. Оно выполняет функции как сервера, так и клиента.
+    sk_SK: Softvér s otvoreným zdrojovým kódom pre modul podmieneného prístupu (Conditional Access Module), ktorý sa používa na dekódovanie prenosov DVB pomocou inteligentných kariet. Je to server aj klient.
+    sv_SE: En programvara för öppen källkod för villkorlig åtkomstmodul som används för att avkoda DVB-sändningar med hjälp av smartkort. Den fungerar både som server och klient.
+    tr_TR: Akıllı kartlar kullanarak DVB yayınlarının şifresini çözmek için kullanılan açık kaynaklı bir Koşullu Erişim Modülü yazılımıdır. Hem sunucu hem de istemci işlevi görür.
     zh_CN: 使用智能卡解扰 DVB 传输的开源软件。
+    zh_TW: 使用智慧卡解擾 DVB 傳輸的開源軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png
   title:
     en_US: Oscam (LinuxServer.io)
+    ca_ES: Oscam (LinuxServer.io)
+    cs_CZ: Oscam (LinuxServer.io)
+    da_DK: Oscam (LinuxServer.io)
+    de_DE: Oscam (LinuxServer.io)
+    el_GR: Oscam (LinuxServer.io)
+    en_GB: Oscam (LinuxServer.io)
+    es_ES: Oscam (LinuxServer.io)
+    fr_FR: Oscam (LinuxServer.io)
+    ga_IE: Oscam (LinuxServer.io)
+    hr_HR: Oscam (LinuxServer.io)
+    hu_HU: Oscam (LinuxServer.io)
+    it_IT: Oscam (LinuxServer.io)
+    ja_JP: Oscam (LinuxServer.io)
+    ko_KR: Oscam (LinuxServer.io)
+    ml_IN: Oscam (LinuxServer.io)
+    nb_NO: Oscam (LinuxServer.io)
+    nl_NL: Oscam (LinuxServer.io)
+    pl_PL: Oscam (LinuxServer.io)
+    pt_BR: Oscam (LinuxServer.io)
+    ro_RO: Oscam (LinuxServer.io)
+    ru_RU: Oscam (LinuxServer.io)
+    sk_SK: Oscam (LinuxServer.io)
+    sv_SE: Oscam (LinuxServer.io)
+    tr_TR: Oscam (LinuxServer.io)
     zh_CN: Oscam（LinuxServer.io）
+    zh_TW: Oscam（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveroscam
   port_map: '8888'

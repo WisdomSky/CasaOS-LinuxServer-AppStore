@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Kali-linux - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
+    ca_ES: Kali-linux és una distribució de Linux per a proves de penetració avançades que s'utilitza per a proves de penetració, hacking ètic i avaluacions de seguretat de xarxa. KALI LINUX™ és una marca comercial d'OffSec.
+    cs_CZ: Kali-linux – je linuxová distribuce pro pokročilé penetrační testování, která se používá pro penetrační testování, etické hackování a hodnocení síťové bezpečnosti. KALI LINUX™ je ochranná známka společnosti OffSec.
+    da_DK: Kali-linux - er en Linux-distribution til avanceret penetrationstestning, der bruges til penetrationstestning, etisk hacking og vurderinger af netværkssikkerhed. KALI LINUX ™ er et varemærke tilhørende OffSec.
+    de_DE: Kali Linux ist eine fortschrittliche Linux-Distribution für Penetrationstests, Ethical Hacking und Netzwerk-Sicherheitsbewertungen. KALI LINUX™ ist eine Marke von OffSec.
+    el_GR: Kali-linux - είναι μια διανομή Linux για προηγμένες δοκιμές διείσδυσης που χρησιμοποιείται για δοκιμές διείσδυσης, ηθικό hacking και αξιολογήσεις ασφάλειας δικτύου. Το KALI LINUX ™ είναι εμπορικό σήμα της OffSec.
+    en_GB: Kali-linux - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. Kali Linux ™ is a trademark of Offsec.
+    es_ES: Kali Linux es una distribución de Linux avanzada para pruebas de penetración, utilizada para hacking ético y evaluaciones de seguridad de redes. KALI LINUX™ es una marca registrada de OffSec.
+    fr_FR: Kali Linux est une distribution Linux avancée dédiée aux tests d'intrusion, au piratage éthique et aux évaluations de sécurité réseau. Kali Linux™ est une marque déposée d'OffSec.
+    ga_IE: Kali-linux - is dáileadh Linux um Thástáil Treáite Ardleibhéil é a úsáidtear le haghaidh Tástála Treáite, Hacaireacht Eiticiúil agus measúnuithe slándála líonra. Is trádmharc de chuid OffSec é KALI LINUX ™.
+    hr_HR: Kali-linux - je napredna Linux distribucija za testiranje penetracije koja se koristi za testiranje penetracije, etičko hakiranje i procjene mrežne sigurnosti. KALI LINUX ™ je zaštitni znak tvrtke OffSec.
+    hu_HU: Kali-linux – egy fejlett behatolásvizsgálati Linux disztribúció, amelyet behatolásvizsgálatra, etikus hackelésre és hálózati biztonsági értékelésekre használnak. A KALI LINUX™ az OffSec védjegye.
+    it_IT: Kali Linux è una distribuzione Linux avanzata per il penetration testing, utilizzata per test di penetrazione, ethical hacking e valutazioni della sicurezza di rete. KALI LINUX™ è un marchio registrato di OffSec.
+    ja_JP: Kali Linuxは、ペネトレーションテスト、倫理的ハッキング、ネットワークセキュリティ評価に使用される高度なペネトレーションテスト用Linuxディストリビューションです。KALI LINUX™はOffSecの商標です。
+    ko_KR: Kali Linux는 침투 테스트, 윤리적 해킹 및 네트워크 보안 평가에 사용되는 고급 침투 테스트용 Linux 배포판입니다. KALI LINUX™는 OffSec의 상표입니다.
+    ml_IN: കാലി-ലിനക്സ് - പെനട്രേഷൻ ടെസ്റ്റിംഗ്, എത്തിക്കൽ ഹാക്കിംഗ്, നെറ്റ്‌വർക്ക് സുരക്ഷാ വിലയിരുത്തലുകൾ എന്നിവയ്ക്കായി ഉപയോഗിക്കുന്ന ഒരു അഡ്വാൻസ്ഡ് പെനട്രേഷൻ ടെസ്റ്റിംഗ് ലിനക്സ് വിതരണമാണ്. കാലി ലിനക്സ് ™ ഓഫ്‌സെക്കിന്റെ ഒരു വ്യാപാരമുദ്രയാണ്.
+    nb_NO: Kali-linux – er en Linux-distribusjon for avansert penetrasjonstesting som brukes til penetrasjonstesting, etisk hacking og nettverkssikkerhetsvurderinger. KALI LINUX™ er et varemerke for OffSec.
+    nl_NL: Kali Linux is een geavanceerde Linux-distributie voor penetratietesten, ethisch hacken en netwerkbeveiligingsanalyses. KALI LINUX™ is een handelsmerk van OffSec.
+    pl_PL: Kali-linux – dystrybucja Linuksa do zaawansowanych testów penetracyjnych, wykorzystywana do testów penetracyjnych, etycznego hakowania i oceny bezpieczeństwa sieci. KALI LINUX™ jest znakiem towarowym OffSec.
+    pt_BR: Kali Linux é uma distribuição Linux avançada para testes de penetração, hacking ético e avaliações de segurança de rede. KALI LINUX™ é uma marca registrada da OffSec.
+    ro_RO: Kali-linux - este o distribuție Linux pentru testarea avansată a penetrării (Advanced Penetration Testing), utilizată pentru testarea penetrării, hacking etic și evaluarea securității rețelei. KALI LINUX™ este o marcă înregistrată a OffSec.
+    ru_RU: Kali-Linux — это продвинутый дистрибутив Linux для тестирования на проникновение, этичного хакинга и оценки сетевой безопасности. KALI LINUX™ является товарным знаком OffSec.
+    sk_SK: Kali-linux – je distribúcia Linuxu pre pokročilé penetračné testovanie, ktorá sa používa na penetračné testovanie, etické hackovanie a hodnotenie sieťovej bezpečnosti. KALI LINUX™ je ochranná známka spoločnosti OffSec.
+    sv_SE: Kali-linux – är en Linux-distribution för avancerad penetrationstestning som används för penetrationstestning, etisk hackning och nätverkssäkerhetsbedömningar. KALI LINUX™ är ett varumärke som tillhör OffSec.
+    tr_TR: Kali Linux, sızma testleri, etik hackleme ve ağ güvenliği değerlendirmeleri için kullanılan gelişmiş bir sızma testi Linux dağıtımıdır. KALI LINUX™ OffSec'in tescilli ticari markasıdır.
     zh_CN: Kali Linux 是用于渗透测试、道德黑客活动和网络安全评估的高级 Linux 发行版。KALI LINUX™ 是 OffSec 的商标。
+    zh_TW: Kali Linux 是用於滲透測試、道德駭客活動和網路安全評估的高階 Linux 發行版。KALI LINUX™ 是 OffSec 的商標。
   tagline:
     en_US: is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec.
+    ca_ES: és una distribució Linux de proves de penetració avançades que s'utilitza per a proves de penetració, hacking ètic i avaluacions de seguretat de xarxa. KALI LINUX™ és una marca comercial d'OffSec.
+    cs_CZ: je linuxová distribuce pro pokročilé penetrační testování používaná pro penetrační testování, etické hackování a hodnocení síťové bezpečnosti. KALI LINUX™ je ochranná známka společnosti OffSec.
+    da_DK: er en Linux-distribution til avanceret penetrationstestning, der bruges til penetrationstestning, etisk hacking og vurderinger af netværkssikkerhed. KALI LINUX ™ er et varemærke tilhørende OffSec.
+    de_DE: Kali Linux™ ist eine fortschrittliche Linux-Distribution für Penetrationstests, Ethical Hacking und Netzwerk-Sicherheitsbewertungen. Kali Linux™ ist eine Marke von OffSec.
+    el_GR: είναι μια διανομή Linux για προηγμένες δοκιμές διείσδυσης που χρησιμοποιείται για δοκιμές διείσδυσης, ηθικό hacking και αξιολογήσεις ασφάλειας δικτύου. Το KALI LINUX ™ είναι εμπορικό σήμα της OffSec.
+    en_GB: is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. Kali Linux ™ is a trademark of Offsec.
+    es_ES: KALI LINUX™ es una distribución de Linux avanzada para pruebas de penetración, hacking ético y evaluaciones de seguridad de redes. KALI LINUX™ es una marca registrada de OffSec.
+    fr_FR: Kali Linux est une distribution Linux avancée dédiée aux tests d'intrusion, au piratage éthique et aux évaluations de sécurité réseau. Kali Linux™ est une marque déposée d'OffSec.
+    ga_IE: Is dáileadh Linux um Thástáil Treáite Ardleibhéil é KALI LINUX ™ a úsáidtear le haghaidh Tástála Treáite, Hacaireacht Eiticiúil agus measúnuithe slándála líonra. Is trádmharc de chuid OffSec é KALI LINUX ™.
+    hr_HR: je napredna Linux distribucija za testiranje penetracije koja se koristi za testiranje penetracije, etičko hakiranje i procjene mrežne sigurnosti. KALI LINUX ™ je zaštitni znak tvrtke OffSec.
+    hu_HU: egy fejlett behatolásvizsgálati Linux disztribúció, amelyet behatolásvizsgálathoz, etikus hackeléshez és hálózati biztonsági értékelésekhez használnak. A KALI LINUX™ az OffSec védjegye.
+    it_IT: KALI LINUX™ è una distribuzione Linux avanzata per il penetration testing, utilizzata per test di penetrazione, ethical hacking e valutazioni della sicurezza di rete.
+    ja_JP: KALI LINUX™は、侵入テスト、倫理的ハッキング、ネットワークセキュリティ評価に使用される高度な侵入テスト用Linuxディストリビューションです。KALI LINUX™はOffSecの商標です。
+    ko_KR: KALI LINUX™는 침투 테스트, 윤리적 해킹 및 네트워크 보안 평가에 사용되는 고급 침투 테스트용 Linux 배포판입니다. KALI LINUX™는 OffSec의 상표입니다.
+    ml_IN: പെനട്രേഷൻ ടെസ്റ്റിംഗ്, എത്തിക്കൽ ഹാക്കിംഗ്, നെറ്റ്‌വർക്ക് സുരക്ഷാ വിലയിരുത്തലുകൾ എന്നിവയ്ക്കായി ഉപയോഗിക്കുന്ന ഒരു അഡ്വാൻസ്ഡ് പെനട്രേഷൻ ടെസ്റ്റിംഗ് ലിനക്സ് വിതരണമാണ്. കാലി ലിനക്സ് ™ ഓഫ്‌സെക്കിന്റെ ഒരു വ്യാപാരമുദ്രയാണ്.
+    nb_NO: er en Linux-distribusjon for avansert penetrasjonstesting som brukes til penetrasjonstesting, etisk hacking og vurderinger av nettverkssikkerhet. KALI LINUX ™ er et varemerke for OffSec.
+    nl_NL: Kali Linux™ is een geavanceerde Linux-distributie voor penetratietesten, ethisch hacken en netwerkbeveiligingsbeoordelingen. Kali Linux™ is een handelsmerk van OffSec.
+    pl_PL: to dystrybucja Linuksa do zaawansowanych testów penetracyjnych, wykorzystywana do testów penetracyjnych, etycznego hakowania i oceny bezpieczeństwa sieci. KALI LINUX™ jest znakiem towarowym OffSec.
+    pt_BR: Kali Linux é uma distribuição Linux avançada para testes de penetração, hacking ético e avaliações de segurança de rede. Kali Linux™ é uma marca registrada da OffSec.
+    ro_RO: este o distribuție Linux de testare avansată a penetrării (Advanced Penetration Testing) utilizată pentru testarea penetrării, hacking etic și evaluarea securității rețelei. KALI LINUX™ este o marcă înregistrată a OffSec.
+    ru_RU: KALI LINUX™ — это продвинутый дистрибутив Linux для тестирования на проникновение, этичного хакинга и оценки сетевой безопасности. KALI LINUX™ является товарным знаком OffSec.
+    sk_SK: je distribúcia Linuxu pre pokročilé penetračné testovanie, ktorá sa používa na penetračné testovanie, etické hackovanie a hodnotenie sieťovej bezpečnosti. KALI LINUX ™ je ochranná známka spoločnosti OffSec.
+    sv_SE: är en Linux-distribution för avancerad penetrationstestning som används för penetrationstestning, etisk hackning och nätverkssäkerhetsbedömningar. KALI LINUX ™ är ett varumärke som tillhör OffSec.
+    tr_TR: KALI LINUX, sızma testleri, etik hackleme ve ağ güvenliği değerlendirmeleri için kullanılan gelişmiş bir sızma testi Linux dağıtımıdır. KALI LINUX™ OffSec'in ticari markasıdır.
     zh_CN: 用于渗透测试和网络安全评估的 Linux 发行版。
+    zh_TW: 用於滲透測試和網路安全評估的 Linux 發行版。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kali-logo.png
   title:
     en_US: Kali linux (LinuxServer.io)
+    ca_ES: Kali linux (LinuxServer.io)
+    cs_CZ: Kali linux (LinuxServer.io)
+    da_DK: Kali linux (LinuxServer.io)
+    de_DE: Kali linux (LinuxServer.io)
+    el_GR: Kali linux (LinuxServer.io)
+    en_GB: Kali linux (LinuxServer.io)
+    es_ES: Kali linux (LinuxServer.io)
+    fr_FR: Kali linux (LinuxServer.io)
+    ga_IE: Kali linux (LinuxServer.io)
+    hr_HR: Kali linux (LinuxServer.io)
+    hu_HU: Kali linux (LinuxServer.io)
+    it_IT: Kali linux (LinuxServer.io)
+    ja_JP: Kali linux (LinuxServer.io)
+    ko_KR: Kali linux (LinuxServer.io)
+    ml_IN: Kali linux (LinuxServer.io)
+    nb_NO: Kali linux (LinuxServer.io)
+    nl_NL: Kali linux (LinuxServer.io)
+    pl_PL: Kali linux (LinuxServer.io)
+    pt_BR: Kali linux (LinuxServer.io)
+    ro_RO: Kali linux (LinuxServer.io)
+    ru_RU: Kali linux (LinuxServer.io)
+    sk_SK: Kali linux (LinuxServer.io)
+    sv_SE: Kali linux (LinuxServer.io)
+    tr_TR: Kali linux (LinuxServer.io)
     zh_CN: Kali linux（LinuxServer.io）
+    zh_TW: Kali linux（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkalilinux
   port_map: '3000'

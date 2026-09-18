@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: 'SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear'
+    ca_ES: 'SickGear proporciona gestió de programes de televisió i/o anime, detecta nous episodis, enllaça aplicacions de descàrrega i molt més. Per a més informació sobre SickGear, visiteu el seu lloc web i consulteu-lo: https://github.com/SickGear/SickGear'
+    cs_CZ: 'SickGear umožňuje správu televizních pořadů a/nebo anime, detekuje nové epizody, odkazuje na aplikace pro stahování a další. Více informací o SickGear naleznete na jejich webových stránkách: https://github.com/SickGear/SickGear'
+    da_DK: 'SickGear håndterer tv-serier og/eller anime, registrerer nye episoder, linker til download-apps og meget mere. For mere information om SickGear, besøg deres hjemmeside og tjek det ud: https://github.com/SickGear/SickGear'
+    de_DE: 'SickGear dient der Verwaltung von Fernsehserien und/oder Anime, erkennt neue Folgen, verlinkt Download-Apps und vieles mehr. Weitere Informationen zu SickGear finden Sie auf der Website: https://github.com/SickGear/SickGear'
+    el_GR: 'Το SickGear παρέχει διαχείριση τηλεοπτικών εκπομπών ή/και Anime, ανιχνεύει νέα επεισόδια, συνδέει εφαρμογές λήψης και πολλά άλλα. Για περισσότερες πληροφορίες σχετικά με το SickGear, επισκεφθείτε την ιστοσελίδα τους: https://github.com/SickGear/SickGear'
+    en_GB: 'Sickgear provides management of Tv shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on Sickgear visit their website and check it out: https://github.com/SickGear/SickGear'
+    es_ES: 'SickGear ofrece gestión de series de televisión y/o anime, detecta nuevos episodios, enlaza aplicaciones de descarga y mucho más. Para obtener más información sobre SickGear, visita su sitio web: https://github.com/SickGear/SickGear'
+    fr_FR: "SickGear permet de gérer les séries TV et/ou les animés, de détecter les nouveaux épisodes, de se connecter aux applications de téléchargement, et bien plus encore… Pour en savoir plus sur SickGear, rendez-vous sur leur site web\_: https://github.com/SickGear/SickGear"
+    ga_IE: 'Cuireann SickGear bainistíocht ar fáil ar chláir teilifíse agus/nó Anime, braitheann sé eipeasóidí nua, nascann sé aipeanna íoslódála, agus níos mó. Chun tuilleadh eolais a fháil faoi SickGear, tabhair cuairt ar a suíomh Gréasáin agus féach air: https://github.com/SickGear/SickGear'
+    hr_HR: 'SickGear omogućuje upravljanje TV emisijama i/ili animeima, otkriva nove epizode, povezuje aplikacije za preuzimanje i još mnogo toga. Za više informacija o SickGearu posjetite njihovu web stranicu: https://github.com/SickGear/SickGear'
+    hu_HU: 'A SickGear biztosítja a tévéműsorok és/vagy animék kezelését, új epizódok észlelését, letöltőalkalmazások összekapcsolását és egyebeket. További információkért a SickGearről látogassa meg weboldalukat: https://github.com/SickGear/SickGear'
+    it_IT: 'SickGear permette di gestire serie TV e/o anime, rileva i nuovi episodi, collega le app per il download e molto altro. Per maggiori informazioni su SickGear, visita il loro sito web: https://github.com/SickGear/SickGear'
+    ja_JP: SickGearは、テレビ番組やアニメの管理機能を提供し、新しいエピソードを検出し、ダウンロードアプリと連携するなど、さまざまな機能を備えています。SickGearの詳細については、ウェブサイト（https://github.com/SickGear/SickGear）をご覧ください。
+    ko_KR: SickGear는 TV 프로그램 및 애니메이션 관리 기능을 제공하며, 새 에피소드를 감지하고 다운로더 앱을 연동하는 등의 기능을 제공합니다. SickGear에 대한 자세한 정보는 웹사이트(https://github.com/SickGear/SickGear)에서 확인하세요.
+    ml_IN: 'ടിവി ഷോകളുടെയും/അല്ലെങ്കിൽ ആനിമേഷന്റെയും മാനേജ്‌മെന്റ് സിക്ക്‌ഗിയർ നൽകുന്നു, പുതിയ എപ്പിസോഡുകൾ കണ്ടെത്തുന്നു, ഡൗൺലോഡർ ആപ്പുകളുടെ ലിങ്കുകൾ നൽകുന്നു, തുടങ്ങിയവ.. സിക്ക്‌ഗിയറിനെക്കുറിച്ചുള്ള കൂടുതൽ വിവരങ്ങൾക്ക് അവരുടെ വെബ്‌സൈറ്റ് സന്ദർശിച്ച് പരിശോധിക്കുക: https://github.com/SickGear/SickGear'
+    nb_NO: 'SickGear tilbyr administrasjon av TV-serier og/eller anime, den oppdager nye episoder, lenker nedlastingsapper og mer. For mer informasjon om SickGear, besøk nettstedet deres og sjekk det ut: https://github.com/SickGear/SickGear'
+    nl_NL: 'SickGear biedt een platform voor het beheren van tv-series en/of anime, detecteert nieuwe afleveringen, koppelt download-apps en nog veel meer. Ga voor meer informatie over SickGear naar hun website: https://github.com/SickGear/SickGear'
+    pl_PL: 'SickGear umożliwia zarządzanie programami TV i/lub anime, wykrywa nowe odcinki, łączy aplikacje do pobierania i wiele więcej. Aby uzyskać więcej informacji na temat SickGear, odwiedź ich stronę internetową: https://github.com/SickGear/SickGear'
+    pt_BR: 'O SickGear permite gerenciar séries de TV e/ou animes, detecta novos episódios, conecta aplicativos de download e muito mais. Para mais informações sobre o SickGear, visite o site deles: https://github.com/SickGear/SickGear'
+    ro_RO: 'SickGear oferă servicii de gestionare a emisiunilor TV și/sau anime-urilor, detectează episoade noi, oferă linkuri către aplicații de descărcare și multe altele. Pentru mai multe informații despre SickGear, vizitați site-ul lor web: https://github.com/SickGear/SickGear'
+    ru_RU: 'SickGear обеспечивает управление телешоу и/или аниме, распознает новые серии, связывает приложения для загрузки и многое другое. Для получения дополнительной информации о SickGear посетите их веб-сайт и ознакомьтесь с ним: https://github.com/SickGear/SickGear'
+    sk_SK: 'SickGear poskytuje správu televíznych relácií a/alebo anime, detekuje nové epizódy, prepojuje aplikácie na sťahovanie a mnoho ďalšieho. Viac informácií o SickGear nájdete na ich webovej stránke: https://github.com/SickGear/SickGear'
+    sv_SE: 'SickGear hanterar TV-program och/eller Anime, upptäcker nya avsnitt, länkar till nedladdningsappar och mer. För mer information om SickGear, besök deras webbplats och kolla in den: https://github.com/SickGear/SickGear'
+    tr_TR: 'SickGear, TV şovlarının ve/veya animelerin yönetimini sağlar, yeni bölümleri tespit eder, indirme uygulamalarına bağlantı verir ve daha fazlasını yapar. SickGear hakkında daha fazla bilgi için web sitelerini ziyaret edin ve inceleyin: https://github.com/SickGear/SickGear'
     zh_CN: SickGear 提供电视剧和动画管理功能，可检测新集、连接下载应用等。更多信息请访问：https://github.com/SickGear/SickGear
+    zh_TW: SickGear 提供電視劇和動畫管理功能，可檢測新集、連線下載應用等。更多資訊請訪問：https://github.com/SickGear/SickGear
   tagline:
     en_US: 'Provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. . For more information on SickGear visit their website and check it out: https://github. Com/SickGear/SickGear'
+    ca_ES: 'Proporciona gestió de programes de televisió i/o anime, detecta nous episodis, enllaça aplicacions de descàrrega i molt més. Per a més informació sobre SickGear, visiteu el seu lloc web: https://github.com/SickGear/SickGear'
+    cs_CZ: 'Umožňuje správu televizních pořadů a/nebo anime, detekuje nové epizody, odkazy na aplikace pro stahování a další. Více informací o SickGear naleznete na jejich webových stránkách: https://github.com/SickGear/SickGear'
+    da_DK: 'Giver mulighed for at administrere tv-serier og/eller anime, registrerer nye episoder, linker til download-apps og meget mere. For mere information om SickGear, besøg deres hjemmeside og tjek det ud: https://github.com/SickGear/SickGear'
+    de_DE: 'SickGear bietet Verwaltungsmöglichkeiten für Fernsehsendungen und/oder Anime, erkennt neue Folgen, verlinkt Download-Apps und vieles mehr. Weitere Informationen zu SickGear finden Sie auf der Website: https://github.com/SickGear/SickGear'
+    el_GR: 'Παρέχει διαχείριση τηλεοπτικών εκπομπών ή/και Anime, ανιχνεύει νέα επεισόδια, συνδέει εφαρμογές λήψης και πολλά άλλα. . Για περισσότερες πληροφορίες σχετικά με το SickGear, επισκεφθείτε την ιστοσελίδα τους: https://github.com/SickGear/SickGear'
+    en_GB: 'Provides management of Tv shows and/or Anime, it detects new episodes, links downloader apps, and more. . For more information on Sickgear visit their website and check it out: https://github. Com/Sickgear/Sickgear'
+    es_ES: 'Permite gestionar series de televisión y/o anime, detecta nuevos episodios, enlaza aplicaciones de descarga y mucho más. Para obtener más información sobre SickGear, visita su sitio web: https://github.com/SickGear/SickGear'
+    fr_FR: "Permet de gérer les séries TV et/ou les animés, détecte les nouveaux épisodes, intègre des applications de téléchargement et bien plus encore. Pour plus d'informations sur SickGear, rendez-vous sur leur site web\_: https://github.com/SickGear/SickGear"
+    ga_IE: 'Cuireann sé bainistíocht ar fáil ar chláir teilifíse agus/nó Anime, braitheann sé eipeasóidí nua, nascann sé aipeanna íoslódála, agus tuilleadh. Chun tuilleadh eolais a fháil faoi SickGear, tabhair cuairt ar a suíomh Gréasáin agus féach air: https://github.com/SickGear/SickGear'
+    hr_HR: 'Omogućuje upravljanje TV emisijama i/ili animeima, otkriva nove epizode, povezuje aplikacije za preuzimanje i još mnogo toga. Za više informacija o SickGearu posjetite njihovu web stranicu: https://github.com/SickGear/SickGear'
+    hu_HU: 'Lehetővé teszi a TV-műsorok és/vagy animék kezelését, új epizódok észlelését, letöltőalkalmazások összekapcsolását és egyebeket. További információkért a SickGearről látogassa meg weboldalukat: https://github.com/SickGear/SickGear'
+    it_IT: 'Consente la gestione di serie TV e/o anime, rileva i nuovi episodi, collega le app di download e altro ancora. Per ulteriori informazioni su SickGear, visita il loro sito web e dai un''occhiata: https://github.com/SickGear/SickGear'
+    ja_JP: テレビ番組やアニメの管理機能を提供し、新しいエピソードを検出し、ダウンロードアプリと連携するなど、さまざまな機能を備えています。SickGearの詳細については、ウェブサイト（https://github.com/SickGear/SickGear）をご覧ください。
+    ko_KR: TV 프로그램 및 애니메이션 관리 기능을 제공하며, 새 에피소드를 감지하고 다운로더 앱을 연결하는 등의 기능을 제공합니다. SickGear에 대한 자세한 정보는 웹사이트(https://github.com/SickGear/SickGear)에서 확인하세요.
+    ml_IN: 'ടിവി ഷോകളുടെയും/അല്ലെങ്കിൽ ആനിമേഷന്റെയും മാനേജ്മെന്റ് നൽകുന്നു, പുതിയ എപ്പിസോഡുകൾ കണ്ടെത്തുന്നു, ഡൗൺലോഡർ ആപ്പുകളുടെ ലിങ്കുകൾ നൽകുന്നു, തുടങ്ങിയവ. . സിക്ക് ഗിയറിനെക്കുറിച്ച് കൂടുതലറിയാൻ അവരുടെ വെബ്സൈറ്റ് സന്ദർശിച്ച് പരിശോധിക്കുക: https://github. Com/SickGear/SickGear'
+    nb_NO: 'Gir administrasjon av TV-serier og/eller anime, oppdager nye episoder, lenker nedlastingsapper og mer. For mer informasjon om SickGear, besøk nettstedet deres og sjekk det ut: https://github.com/SickGear/SickGear'
+    nl_NL: 'Biedt beheermogelijkheden voor tv-series en/of anime, detecteert nieuwe afleveringen, koppelt download-apps en meer. Ga voor meer informatie over SickGear naar hun website: https://github.com/SickGear/SickGear'
+    pl_PL: 'Umożliwia zarządzanie programami TV i/lub anime, wykrywa nowe odcinki, łączy aplikacje do pobierania i wiele więcej. Aby uzyskać więcej informacji o SickGear, odwiedź ich stronę internetową: https://github.com/SickGear/SickGear'
+    pt_BR: 'Permite o gerenciamento de séries de TV e/ou animes, detecta novos episódios, conecta aplicativos de download e muito mais. Para mais informações sobre o SickGear, visite o site deles: https://github.com/SickGear/SickGear'
+    ro_RO: 'Oferă gestionarea emisiunilor TV și/sau a anime-urilor, detectează episoade noi, oferă linkuri către aplicații de descărcare și multe altele. Pentru mai multe informații despre SickGear, vizitați site-ul lor web: https://github.com/SickGear/SickGear'
+    ru_RU: 'SickGear обеспечивает управление телешоу и/или аниме, отслеживает новые серии, связывает приложения для загрузки и многое другое. Для получения дополнительной информации о SickGear посетите их веб-сайт: https://github.com/SickGear/SickGear'
+    sk_SK: 'Poskytuje správu televíznych relácií a/alebo anime, detekuje nové epizódy, prepojuje aplikácie na sťahovanie a mnoho ďalšieho. Viac informácií o SickGear nájdete na ich webovej stránke: https://github.com/SickGear/SickGear'
+    sv_SE: 'Hanterar TV-program och/eller Anime, upptäcker nya avsnitt, länkar till nedladdningsappar och mer. För mer information om SickGear, besök deras webbplats och kolla in den: https://github.com/SickGear/SickGear'
+    tr_TR: 'Dizi ve/veya animelerin yönetimini sağlar, yeni bölümleri tespit eder, indirme uygulamalarına bağlantı verir ve daha fazlasını sunar. SickGear hakkında daha fazla bilgi için web sitelerini ziyaret edin ve inceleyin: https://github.com/SickGear/SickGear'
     zh_CN: 追踪电视剧与动画新集，并连接下载应用。
+    zh_TW: 追蹤電視劇與動畫新集，並連線下載應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickgear-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickgear-logo.png
   title:
     en_US: Sickgear (LinuxServer.io)
+    ca_ES: Sickgear (LinuxServer.io)
+    cs_CZ: Sickgear (LinuxServer.io)
+    da_DK: Sickgear (LinuxServer.io)
+    de_DE: Sickgear (LinuxServer.io)
+    el_GR: Sickgear (LinuxServer.io)
+    en_GB: Sickgear (LinuxServer.io)
+    es_ES: Sickgear (LinuxServer.io)
+    fr_FR: Sickgear (LinuxServer.io)
+    ga_IE: Sickgear (LinuxServer.io)
+    hr_HR: Sickgear (LinuxServer.io)
+    hu_HU: Sickgear (LinuxServer.io)
+    it_IT: Sickgear (LinuxServer.io)
+    ja_JP: Sickgear (LinuxServer.io)
+    ko_KR: Sickgear (LinuxServer.io)
+    ml_IN: Sickgear (LinuxServer.io)
+    nb_NO: Sickgear (LinuxServer.io)
+    nl_NL: Sickgear (LinuxServer.io)
+    pl_PL: Sickgear (LinuxServer.io)
+    pt_BR: Sickgear (LinuxServer.io)
+    ro_RO: Sickgear (LinuxServer.io)
+    ru_RU: Sickgear (LinuxServer.io)
+    sk_SK: Sickgear (LinuxServer.io)
+    sv_SE: Sickgear (LinuxServer.io)
+    tr_TR: Sickgear (LinuxServer.io)
     zh_CN: Sickgear（LinuxServer.io）
+    zh_TW: Sickgear（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversickgear
   port_map: '8081'

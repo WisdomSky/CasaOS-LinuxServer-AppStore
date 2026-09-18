@@ -49,17 +49,92 @@ x-casaos:
   main: app
   description:
     en_US: Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+    ca_ES: Ubooquity és un servidor domèstic gratuït, lleuger i fàcil d'utilitzar per als teus còmics i llibres electrònics. Fes-lo servir per accedir als teus fitxers des de qualsevol lloc, amb una tauleta, un lector electrònic, un telèfon o un ordinador.
+    cs_CZ: Ubooquity je bezplatný, lehký a snadno použitelný domácí server pro vaše komiksy a elektronické knihy. Použijte ho pro přístup k souborům odkudkoli, ať už pomocí tabletu, čtečky elektronických knih, telefonu nebo počítače.
+    da_DK: Ubooquity er en gratis, let og brugervenlig hjemmeserver til dine tegneserier og e-bøger. Brug den til at få adgang til dine filer hvor som helst, med en tablet, en e-læser, en telefon eller en computer.
+    de_DE: Ubooquity ist ein kostenloser, ressourcenschonender und benutzerfreundlicher Heimserver für Ihre Comics und E-Books. Greifen Sie damit von überall auf Ihre Dateien zu – mit Tablet, E-Reader, Smartphone oder Computer.
+    el_GR: Το Ubooquity είναι ένας δωρεάν, ελαφρύς και εύχρηστος οικιακός διακομιστής για τα κόμικς και τα ηλεκτρονικά σας βιβλία. Χρησιμοποιήστε τον για να έχετε πρόσβαση στα αρχεία σας από οπουδήποτε, με ένα tablet, ένα ηλεκτρονικό αναγνώστη, ένα τηλέφωνο ή έναν υπολογιστή.
+    en_GB: Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+    es_ES: 'Ubooquity es un servidor doméstico gratuito, ligero y fácil de usar para tus cómics y libros electrónicos. Úsalo para acceder a tus archivos desde cualquier lugar: tableta, lector electrónico, teléfono o computadora.'
+    fr_FR: Ubooquity est un serveur domestique gratuit, léger et facile à utiliser pour vos bandes dessinées et vos livres numériques. Accédez à vos fichiers où que vous soyez, depuis une tablette, une liseuse, un téléphone ou un ordinateur.
+    ga_IE: Is freastalaí baile saor in aisce, éadrom agus éasca le húsáid é Ubooquity do do ghreannáin agus do ríomhleabhair. Bain úsáid as chun rochtain a fháil ar do chuid comhad ó áit ar bith, le táibléad, léitheoir ríomhleabhair, fón nó ríomhaire.
+    hr_HR: Ubooquity je besplatan, lagan i jednostavan za korištenje kućni poslužitelj za vaše stripove i e-knjige. Koristite ga za pristup datotekama s bilo kojeg mjesta, putem tableta, e-čitača, telefona ili računala.
+    hu_HU: Az Ubooquity egy ingyenes, könnyű és könnyen használható otthoni szerver képregényeid és e-könyveid számára. Használd fájljaid eléréséhez bárhonnan, tabletről, e-könyv olvasóval, telefonról vagy számítógépről.
+    it_IT: Ubooquity è un server domestico gratuito, leggero e facile da usare per i tuoi fumetti ed ebook. Usalo per accedere ai tuoi file ovunque ti trovi, con un tablet, un e-reader, uno smartphone o un computer.
+    ja_JP: Ubooquityは、コミックや電子書籍のための、無料で軽量かつ使いやすいホームサーバーです。タブレット、電子書籍リーダー、スマートフォン、パソコンなど、あらゆるデバイスからファイルにアクセスできます。
+    ko_KR: Ubooquity는 만화와 전자책을 위한 무료의 가볍고 사용하기 쉬운 홈 서버입니다. 태블릿, 전자책 리더기, 스마트폰 또는 컴퓨터를 사용하여 어디서든 파일에 액세스할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ കോമിക്‌സിനും ഇ-ബുക്കുകൾക്കും വേണ്ടിയുള്ള സൌജന്യവും ഭാരം കുറഞ്ഞതും ഉപയോഗിക്കാൻ എളുപ്പമുള്ളതുമായ ഒരു ഹോം സെർവറാണ് Ubooquity. ഒരു ടാബ്‌ലെറ്റ്, ഇ-റീഡർ, ഫോൺ അല്ലെങ്കിൽ കമ്പ്യൂട്ടർ എന്നിവ ഉപയോഗിച്ച് എവിടെ നിന്നും നിങ്ങളുടെ ഫയലുകൾ ആക്‌സസ് ചെയ്യാൻ ഇത് ഉപയോഗിക്കുക.
+    nb_NO: Ubooquity er en gratis, lett og brukervennlig hjemmeserver for tegneserier og e-bøker. Bruk den til å få tilgang til filene dine hvor som helst, med et nettbrett, en e-leser, en telefon eller en datamaskin.
+    nl_NL: Ubooquity is een gratis, lichtgewicht en gebruiksvriendelijke thuisserver voor je strips en e-books. Gebruik het om overal toegang te krijgen tot je bestanden, met een tablet, e-reader, telefoon of computer.
+    pl_PL: Ubooquity to darmowy, lekki i łatwy w obsłudze serwer domowy dla Twoich komiksów i ebooków. Korzystaj z niego, aby uzyskać dostęp do swoich plików z dowolnego miejsca – za pomocą tabletu, czytnika e-booków, telefonu lub komputera.
+    pt_BR: O Ubooquity é um servidor doméstico gratuito, leve e fácil de usar para seus quadrinhos e ebooks. Use-o para acessar seus arquivos de qualquer lugar, com um tablet, um e-reader, um celular ou um computador.
+    ro_RO: Ubooquity este un server de acasă gratuit, ușor și ușor de utilizat pentru benzile desenate și cărțile tale electronice. Folosește-l pentru a accesa fișierele tale de oriunde, cu o tabletă, un cititor electronic, un telefon sau un computer.
+    ru_RU: 'Ubooquity — это бесплатный, легкий и простой в использовании домашний сервер для ваших комиксов и электронных книг. Используйте его для доступа к своим файлам из любого места: с планшета, электронной книги, телефона или компьютера.'
+    sk_SK: Ubooquity je bezplatný, ľahký a ľahko použiteľný domáci server pre vaše komiksy a elektronické knihy. Použite ho na prístup k súborom odkiaľkoľvek, pomocou tabletu, čítačky elektronických kníh, telefónu alebo počítača.
+    sv_SE: Ubooquity är en gratis, lätt och lättanvänd hemmaserver för dina serier och e-böcker. Använd den för att komma åt dina filer var du än är, med en surfplatta, en e-läsare, en telefon eller en dator.
+    tr_TR: Ubooquity, çizgi romanlarınız ve e-kitaplarınız için ücretsiz, hafif ve kullanımı kolay bir ev sunucusudur. Tablet, e-okuyucu, telefon veya bilgisayar kullanarak dosyalarınıza her yerden erişebilirsiniz.
     zh_CN: Ubooquity 是免费、轻量、易用的漫画和电子书家用服务器。你可以通过平板电脑、电子阅读器、手机或电脑，随时随地访问自己的文件。
+    zh_TW: Ubooquity 是免費、輕量、易用的漫畫和電子書家用伺服器。你可以透過平板電腦、電子閱讀器、手機或電腦，隨時隨地訪問自己的檔案。
   tagline:
     en_US: A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+    ca_ES: Un servidor domèstic gratuït, lleuger i fàcil d'utilitzar per als teus còmics i llibres electrònics. Fes-lo servir per accedir als teus fitxers des de qualsevol lloc, amb una tauleta, un lector electrònic, un telèfon o un ordinador.
+    cs_CZ: Bezplatný, lehký a snadno použitelný domácí server pro vaše komiksy a elektronické knihy. Použijte jej pro přístup k souborům odkudkoli, z tabletu, elektronické čtečky, telefonu nebo počítače.
+    da_DK: En gratis, let og brugervenlig hjemmeserver til dine tegneserier og e-bøger. Brug den til at få adgang til dine filer hvor som helst, med en tablet, en e-læser, en telefon eller en computer.
+    de_DE: Ein kostenloser, ressourcenschonender und benutzerfreundlicher Heimserver für Ihre Comics und E-Books. Greifen Sie damit von überall auf Ihre Dateien zu – mit Tablet, E-Reader, Smartphone oder Computer.
+    el_GR: Ένας δωρεάν, ελαφρύς και εύχρηστος οικιακός διακομιστής για τα κόμικς και τα ηλεκτρονικά σας βιβλία. Χρησιμοποιήστε τον για να έχετε πρόσβαση στα αρχεία σας από οπουδήποτε, με ένα tablet, ένα ηλεκτρονικό αναγνώστη, ένα τηλέφωνο ή έναν υπολογιστή.
+    en_GB: A free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+    es_ES: 'Un servidor doméstico gratuito, ligero y fácil de usar para tus cómics y libros electrónicos. Úsalo para acceder a tus archivos desde cualquier lugar: tableta, lector electrónico, teléfono o computadora.'
+    fr_FR: Un serveur domestique gratuit, léger et facile à utiliser pour vos bandes dessinées et vos livres numériques. Accédez à vos fichiers où que vous soyez, depuis une tablette, une liseuse, un téléphone ou un ordinateur.
+    ga_IE: Freastalaí baile saor in aisce, éadrom agus éasca le húsáid do do ghreannáin agus do ríomhleabhair. Bain úsáid as chun rochtain a fháil ar do chuid comhad ó áit ar bith, le táibléad, léitheoir ríomhleabhair, fón nó ríomhaire.
+    hr_HR: Besplatan, lagan i jednostavan za korištenje kućni poslužitelj za vaše stripove i e-knjige. Koristite ga za pristup datotekama s bilo kojeg mjesta, putem tableta, e-čitača, telefona ili računala.
+    hu_HU: Egy ingyenes, könnyű és könnyen használható otthoni szerver képregényeidhez és e-könyveidhez. Használd fájljaid eléréséhez bárhonnan, tabletről, e-könyv olvasóval, telefonról vagy számítógépről.
+    it_IT: Un server domestico gratuito, leggero e facile da usare per i tuoi fumetti ed ebook. Usalo per accedere ai tuoi file ovunque ti trovi, con un tablet, un e-reader, uno smartphone o un computer.
+    ja_JP: コミックや電子書籍のための、無料かつ軽量で使いやすいホームサーバーです。タブレット、電子書籍リーダー、スマートフォン、パソコンなど、どこからでもファイルにアクセスできます。
+    ko_KR: 만화와 전자책을 위한 무료의 가볍고 사용하기 쉬운 홈 서버입니다. 태블릿, 전자책 리더기, 스마트폰 또는 컴퓨터를 사용하여 어디서든 파일에 액세스할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ കോമിക്‌സിനും ഇ-ബുക്കുകൾക്കും വേണ്ടി സൗജന്യവും ഭാരം കുറഞ്ഞതും ഉപയോഗിക്കാൻ എളുപ്പമുള്ളതുമായ ഒരു ഹോം സെർവർ. ഒരു ടാബ്‌ലെറ്റ്, ഇ-റീഡർ, ഫോൺ അല്ലെങ്കിൽ കമ്പ്യൂട്ടർ എന്നിവ ഉപയോഗിച്ച് എവിടെ നിന്നും നിങ്ങളുടെ ഫയലുകൾ ആക്‌സസ് ചെയ്യാൻ ഇത് ഉപയോഗിക്കുക.
+    nb_NO: En gratis, lett og brukervennlig hjemmeserver for tegneserier og e-bøker. Bruk den til å få tilgang til filene dine hvor som helst, med et nettbrett, en e-leser, en telefon eller en datamaskin.
+    nl_NL: Een gratis, lichtgewicht en gebruiksvriendelijke thuisserver voor je strips en e-books. Gebruik hem om overal toegang te krijgen tot je bestanden, met een tablet, e-reader, telefoon of computer.
+    pl_PL: Darmowy, lekki i łatwy w obsłudze serwer domowy dla Twoich komiksów i e-booków. Korzystaj z niego, aby uzyskać dostęp do swoich plików z dowolnego miejsca – za pomocą tabletu, czytnika e-booków, telefonu lub komputera.
+    pt_BR: Um servidor doméstico gratuito, leve e fácil de usar para seus quadrinhos e ebooks. Acesse seus arquivos de qualquer lugar, com um tablet, um e-reader, um celular ou um computador.
+    ro_RO: Un server de acasă gratuit, ușor și ușor de utilizat pentru benzile desenate și cărțile electronice. Folosește-l pentru a accesa fișierele de oriunde, cu o tabletă, un cititor electronic, un telefon sau un computer.
+    ru_RU: 'Бесплатный, легкий и простой в использовании домашний сервер для ваших комиксов и электронных книг. Используйте его для доступа к файлам из любого места: с планшета, электронной книги, телефона или компьютера.'
+    sk_SK: Bezplatný, ľahký a ľahko použiteľný domáci server pre vaše komiksy a elektronické knihy. Použite ho na prístup k súborom odkiaľkoľvek, pomocou tabletu, čítačky elektronických kníh, telefónu alebo počítača.
+    sv_SE: En gratis, lätt och lättanvänd hemmaserver för dina serier och e-böcker. Använd den för att komma åt dina filer var du än är, med en surfplatta, en e-läsare, en telefon eller en dator.
+    tr_TR: Çizgi romanlarınız ve e-kitaplarınız için ücretsiz, hafif ve kullanımı kolay bir ev sunucusu. Tablet, e-okuyucu, telefon veya bilgisayar kullanarak dosyalarınıza her yerden erişebilirsiniz.
     zh_CN: 随时随地访问自己的漫画和电子书。
+    zh_TW: 隨時隨地訪問自己的漫畫和電子書。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png
   title:
     en_US: Ubooquity (LinuxServer.io)
+    ca_ES: Ubooquity (LinuxServer.io)
+    cs_CZ: Ubooquity (LinuxServer.io)
+    da_DK: Ubooquity (LinuxServer.io)
+    de_DE: Ubooquity (LinuxServer.io)
+    el_GR: Ubooquity (LinuxServer.io)
+    en_GB: Ubooquity (LinuxServer.io)
+    es_ES: Ubooquity (LinuxServer.io)
+    fr_FR: Ubooquity (LinuxServer.io)
+    ga_IE: Ubooquity (LinuxServer.io)
+    hr_HR: Ubooquity (LinuxServer.io)
+    hu_HU: Ubooquity (LinuxServer.io)
+    it_IT: Ubooquity (LinuxServer.io)
+    ja_JP: Ubooquity (LinuxServer.io)
+    ko_KR: Ubooquity (LinuxServer.io)
+    ml_IN: Ubooquity (LinuxServer.io)
+    nb_NO: Ubooquity (LinuxServer.io)
+    nl_NL: Ubooquity (LinuxServer.io)
+    pl_PL: Ubooquity (LinuxServer.io)
+    pt_BR: Ubooquity (LinuxServer.io)
+    ro_RO: Ubooquity (LinuxServer.io)
+    ru_RU: Ubooquity (LinuxServer.io)
+    sk_SK: Ubooquity (LinuxServer.io)
+    sv_SE: Ubooquity (LinuxServer.io)
+    tr_TR: Ubooquity (LinuxServer.io)
     zh_CN: Ubooquity（LinuxServer.io）
+    zh_TW: Ubooquity（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverubooquity
   version: 3.1.0

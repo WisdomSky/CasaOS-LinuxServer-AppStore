@@ -53,9 +53,59 @@ x-casaos:
   description:
     en_US: Openvscode-server provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
     zh_CN: Openvscode-server 提供一个在远程机器上运行服务器、并允许通过现代网页浏览器访问的 VS Code 版本。
+    ca_ES: Openvscode-server proporciona una versió de VS Code que executa un servidor en una màquina remota i permet l'accés a través d'un navegador web modern.
+    cs_CZ: Openvscode-server poskytuje verzi VS Code, která spouští server na vzdáleném počítači a umožňuje přístup prostřednictvím moderního webového prohlížeče.
+    da_DK: Openvscode-server leverer en version af VS Code, der kører en server på en fjernmaskine og giver adgang via en moderne webbrowser.
+    de_DE: Openvscode-server bietet eine Version von VS Code, die einen Server auf einem entfernten Rechner ausführt und den Zugriff über einen modernen Webbrowser ermöglicht.
+    el_GR: Το Openvscode-server παρέχει μια έκδοση του VS Code που εκτελεί έναν διακομιστή σε ένα απομακρυσμένο μηχάνημα και επιτρέπει την πρόσβαση μέσω ενός σύγχρονου προγράμματος περιήγησης ιστού.
+    en_GB: Openvscode-server provides a version of Vs Code that runs a server on a remote machine and allows access through a modern web browser.
+    es_ES: Openvscode-server proporciona una versión de VS Code que ejecuta un servidor en una máquina remota y permite el acceso a través de un navegador web moderno.
+    fr_FR: Openvscode-server fournit une version de VS Code qui exécute un serveur sur une machine distante et permet d'y accéder via un navigateur web moderne.
+    ga_IE: Soláthraíonn Openvscode-server leagan de VS Code a ritheann freastalaí ar mheaisín iargúlta agus a cheadaíonn rochtain trí bhrabhsálaí gréasáin nua-aimseartha.
+    hr_HR: Openvscode-server pruža verziju VS Codea koja pokreće poslužitelj na udaljenom računalu i omogućuje pristup putem modernog web preglednika.
+    hu_HU: Az Openvscode-server a VS Code egy olyan verzióját biztosítja, amely egy távoli gépen futtat egy szervert, és lehetővé teszi a hozzáférést egy modern webböngészőn keresztül.
+    it_IT: Openvscode-server fornisce una versione di VS Code che esegue un server su una macchina remota e consente l'accesso tramite un moderno browser web.
+    ja_JP: Openvscode-serverは、リモートマシン上でサーバーを実行し、最新のWebブラウザ経由でアクセスできるようにするVS Codeのバージョンを提供します。
+    ko_KR: Openvscode-server는 원격 컴퓨터에서 서버를 실행하고 최신 웹 브라우저를 통해 액세스할 수 있도록 하는 VS Code 버전을 제공합니다.
+    ml_IN: ഒരു റിമോട്ട് മെഷീനിൽ ഒരു സെർവർ പ്രവർത്തിപ്പിക്കുകയും ഒരു ആധുനിക വെബ് ബ്രൗസറിലൂടെ ആക്‌സസ് അനുവദിക്കുകയും ചെയ്യുന്ന VS കോഡിന്റെ ഒരു പതിപ്പ് Openvscode-server നൽകുന്നു.
+    nb_NO: Openvscode-server tilbyr en versjon av VS Code som kjører en server på en ekstern maskin og tillater tilgang gjennom en moderne nettleser.
+    nl_NL: Openvscode-server biedt een versie van VS Code die een server op een externe machine uitvoert en toegang mogelijk maakt via een moderne webbrowser.
+    pl_PL: Openvscode-server to wersja VS Code, która uruchamia serwer na zdalnej maszynie i umożliwia dostęp za pomocą nowoczesnej przeglądarki internetowej.
+    pt_BR: O Openvscode-server fornece uma versão do VS Code que executa um servidor em uma máquina remota e permite o acesso por meio de um navegador web moderno.
+    ro_RO: Openvscode-server oferă o versiune de VS Code care rulează un server pe o mașină la distanță și permite accesul printr-un browser web modern.
+    ru_RU: Openvscode-server предоставляет версию VS Code, которая запускает сервер на удаленном компьютере и обеспечивает доступ через современный веб-браузер.
+    sk_SK: Openvscode-server poskytuje verziu VS Code, ktorá spúšťa server na vzdialenom počítači a umožňuje prístup prostredníctvom moderného webového prehliadača.
+    sv_SE: Openvscode-server tillhandahåller en version av VS Code som kör en server på en fjärrdator och tillåter åtkomst via en modern webbläsare.
+    tr_TR: Openvscode-server, uzak bir makinede sunucu çalıştıran ve modern bir web tarayıcısı aracılığıyla erişime olanak tanıyan bir VS Code sürümü sunar.
+    zh_TW: Openvscode-server 提供一個在遠端機器上執行伺服器、並允許透過現代網頁瀏覽器訪問的 VS Code 版本。
   tagline:
     en_US: Provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser.
     zh_CN: 通过现代浏览器访问远程 VS Code。
+    ca_ES: Proporciona una versió de VS Code que executa un servidor en una màquina remota i permet l'accés a través d'un navegador web modern.
+    cs_CZ: Poskytuje verzi VS Code, která spouští server na vzdáleném počítači a umožňuje přístup prostřednictvím moderního webového prohlížeče.
+    da_DK: Tilbyder en version af VS Code, der kører en server på en fjernmaskine og giver adgang via en moderne webbrowser.
+    de_DE: Bietet eine Version von VS Code, die einen Server auf einem entfernten Rechner ausführt und den Zugriff über einen modernen Webbrowser ermöglicht.
+    el_GR: Παρέχει μια έκδοση του VS Code που εκτελεί έναν διακομιστή σε ένα απομακρυσμένο μηχάνημα και επιτρέπει την πρόσβαση μέσω ενός σύγχρονου προγράμματος περιήγησης ιστού.
+    en_GB: Provides a version of Vs Code that runs a server on a remote machine and allows access through a modern web browser.
+    es_ES: Proporciona una versión de VS Code que ejecuta un servidor en una máquina remota y permite el acceso a través de un navegador web moderno.
+    fr_FR: Fournit une version de VS Code qui exécute un serveur sur une machine distante et permet d'y accéder via un navigateur web moderne.
+    ga_IE: Soláthraíonn sé leagan de VS Code a ritheann freastalaí ar mheaisín iargúlta agus a cheadaíonn rochtain trí bhrabhsálaí gréasáin nua-aimseartha.
+    hr_HR: Pruža verziju VS Codea koja pokreće poslužitelj na udaljenom računalu i omogućuje pristup putem modernog web preglednika.
+    hu_HU: A VS Code egy olyan verzióját biztosítja, amely egy távoli gépen futtat egy szervert, és lehetővé teszi a hozzáférést egy modern webböngészőn keresztül.
+    it_IT: Fornisce una versione di VS Code che esegue un server su una macchina remota e consente l'accesso tramite un browser web moderno.
+    ja_JP: リモートマシン上でサーバーを実行し、最新のWebブラウザ経由でアクセスできるようにするVS Codeのバージョンを提供します。
+    ko_KR: 원격 컴퓨터에서 서버를 실행하고 최신 웹 브라우저를 통해 액세스할 수 있는 VS Code 버전을 제공합니다.
+    ml_IN: ഒരു റിമോട്ട് മെഷീനിൽ ഒരു സെർവർ പ്രവർത്തിപ്പിക്കുകയും ഒരു ആധുനിക വെബ് ബ്രൗസറിലൂടെ ആക്‌സസ് അനുവദിക്കുകയും ചെയ്യുന്ന VS കോഡിന്റെ ഒരു പതിപ്പ് നൽകുന്നു.
+    nb_NO: Tilbyr en versjon av VS Code som kjører en server på en ekstern maskin og tillater tilgang via en moderne nettleser.
+    nl_NL: Biedt een versie van VS Code die een server op een externe machine uitvoert en toegang mogelijk maakt via een moderne webbrowser.
+    pl_PL: Udostępnia wersję programu VS Code, która uruchamia serwer na zdalnej maszynie i umożliwia dostęp za pomocą nowoczesnej przeglądarki internetowej.
+    pt_BR: Fornece uma versão do VS Code que executa um servidor em uma máquina remota e permite o acesso por meio de um navegador web moderno.
+    ro_RO: Oferă o versiune de VS Code care rulează un server pe o mașină la distanță și permite accesul printr-un browser web modern.
+    ru_RU: Предоставляет версию VS Code, которая запускает сервер на удаленном компьютере и обеспечивает доступ через современный веб-браузер.
+    sk_SK: Poskytuje verziu VS Code, ktorá spúšťa server na vzdialenom počítači a umožňuje prístup prostredníctvom moderného webového prehliadača.
+    sv_SE: Tillhandahåller en version av VS Code som kör en server på en fjärrdator och tillåter åtkomst via en modern webbläsare.
+    tr_TR: Bu, uzak bir makinede sunucu çalıştıran ve modern bir web tarayıcısı aracılığıyla erişime olanak tanıyan bir VS Code sürümü sağlar.
+    zh_TW: 透過現代瀏覽器訪問遠端 VS Code。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png
@@ -63,6 +113,31 @@ x-casaos:
   title:
     en_US: Openvscode server
     zh_CN: Openvscode server
+    ca_ES: Openvscode server
+    cs_CZ: Openvscode server
+    da_DK: Openvscode server
+    de_DE: Openvscode server
+    el_GR: Openvscode server
+    en_GB: Openvscode server
+    es_ES: Openvscode server
+    fr_FR: Openvscode server
+    ga_IE: Openvscode server
+    hr_HR: Openvscode server
+    hu_HU: Openvscode server
+    it_IT: Openvscode server
+    ja_JP: Openvscode server
+    ko_KR: Openvscode server
+    ml_IN: Openvscode server
+    nb_NO: Openvscode server
+    nl_NL: Openvscode server
+    pl_PL: Openvscode server
+    pt_BR: Openvscode server
+    ro_RO: Openvscode server
+    ru_RU: Openvscode server
+    sk_SK: Openvscode server
+    sv_SE: Openvscode server
+    tr_TR: Openvscode server
+    zh_TW: Openvscode server
   category: Others
   port_map: '3000'
   id: wisdomsky.linuxserver.linuxserveropenvscodeserver

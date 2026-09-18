@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: 'QDirStat Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.'
+    ca_ES: 'Estadístiques de directori basades en QDirStat en Qt: KDirStat sense cap KDE -- de l''autor del KDirStat original.'
+    cs_CZ: 'Statistiky adresářů QDirStat založené na Qt: KDirStat bez KDE -- od autora původního souboru KDirStat.'
+    da_DK: 'QDirStat Qt-baseret mappestatistik: KDirStat uden KDE -- fra forfatteren af den originale KDirStat.'
+    de_DE: 'QDirStat Qt-basierte Verzeichnisstatistik: KDirStat ohne KDE -- vom Autor des ursprünglichen KDirStat.'
+    el_GR: 'Στατιστικά καταλόγου QDirStat που βασίζονται σε Qt: KDirStat χωρίς KDE -- από τον συγγραφέα του αρχικού KDirStat.'
+    en_GB: 'Qdirstat Qt-based directory statistics: Kdirstat without any Kde -- from the author of the original Kdirstat.'
+    es_ES: 'Estadísticas de directorio basadas en Qt (QDirStat): KDirStat sin KDE -- del autor del KDirStat original.'
+    fr_FR: "Statistiques de répertoires basées sur Qt\_: KDirStat sans KDE – par l’auteur du KDirStat original."
+    ga_IE: 'Staitisticí eolaire bunaithe ar Qt: KDirStat gan aon KDE -- ó údar an KDirStat bhunaidh.'
+    hr_HR: 'QDirStat Statistika direktorija temeljena na Qt-u: KDirStat bez ikakvog KDE-a -- od autora originalnog KDirStata.'
+    hu_HU: 'QDirStat Qt-alapú könyvtárstatisztikák: KDirStat KDE nélkül -- az eredeti KDirStat szerzőjétől.'
+    it_IT: 'QDirStat Statistiche di directory basate su Qt: KDirStat senza KDE -- dall''autore del KDirStat originale.'
+    ja_JP: 'QDirStat Qt ベースのディレクトリ統計: KDE なしの KDirStat -- オリジナルの KDirStat の作者より。'
+    ko_KR: QDirStat은 Qt 기반 디렉터리 통계 도구입니다. KDE 환경이 적용되지 않은 KDirStat이라고 할 수 있으며, 오리지널 KDirStat 개발자가 만들었습니다.
+    ml_IN: 'QDirStat Qt-അധിഷ്ഠിത ഡയറക്ടറി സ്ഥിതിവിവരക്കണക്കുകൾ: ഒരു KDE-യും ഇല്ലാത്ത KDirStat -- യഥാർത്ഥ KDirStat-ന്റെ രചയിതാവിൽ നിന്ന്.'
+    nb_NO: 'QDirStat Qt-basert katalogstatistikk: KDirStat uten KDE -- fra forfatteren av den originale KDirStat.'
+    nl_NL: 'QDirStat, op Qt gebaseerde directorystatistieken: KDirStat zonder KDE -- van de auteur van het originele KDirStat.'
+    pl_PL: 'QDirStat Statystyki katalogowe oparte na Qt: KDirStat bez środowiska KDE — od autora oryginalnego KDirStat.'
+    pt_BR: 'Estatísticas de diretórios baseadas em QDirStat (baseadas em Qt): KDirStat sem KDE -- do autor do KDirStat original.'
+    ro_RO: 'Statistici ale directoarelor bazate pe Qt: KDirStat fără KDE -- de la autorul KDirStat-ului original.'
+    ru_RU: 'QDirStat — статистика каталогов на основе Qt: KDirStat без KDE — от автора оригинального KDirStat.'
+    sk_SK: 'Štatistiky adresárov QDirStat založené na Qt: KDirStat bez KDE -- od autora pôvodného KDirStat.'
+    sv_SE: 'QDirStat Qt-baserad katalogstatistik: KDirStat utan KDE -- från författaren till den ursprungliga KDirStat.'
+    tr_TR: 'QDirStat Qt tabanlı dizin istatistikleri: KDE gerektirmeyen KDirStat -- orijinal KDirStat''ın yazarından.'
     zh_CN: QDirStat 是基于 Qt 的目录统计工具，相当于不依赖 KDE 的 KDirStat，由原版 KDirStat 的作者开发。
+    zh_TW: QDirStat 是基於 Qt 的目錄統計工具，相當於不依賴 KDE 的 KDirStat，由原版 KDirStat 的作者開發。
   tagline:
     en_US: 'Qt-based directory statistics: KDirStat without any KDE -- from the author of the original KDirStat.'
+    ca_ES: 'Estadístiques de directoris basades en Qt: KDirStat sense cap KDE -- de l''autor del KDirStat original.'
+    cs_CZ: 'Statistiky adresářů založené na Qt: KDirStat bez KDE -- od autora původního KDirStat.'
+    da_DK: 'Qt-baseret mappestatistik: KDirStat uden KDE -- fra forfatteren af den originale KDirStat.'
+    de_DE: 'Qt-basierte Verzeichnisstatistik: KDirStat ohne KDE -- vom Autor des ursprünglichen KDirStat.'
+    el_GR: 'Στατιστικά καταλόγου που βασίζονται σε Qt: KDirStat χωρίς KDE -- από τον συγγραφέα του αρχικού KDirStat.'
+    en_GB: 'Qt-based directory statistics: Kdirstat without any Kde -- from the author of the original Kdirstat.'
+    es_ES: 'Estadísticas de directorio basadas en Qt: KDirStat sin KDE -- del autor del KDirStat original.'
+    fr_FR: "Statistiques de répertoires basées sur Qt\_: KDirStat sans KDE – par l’auteur du KDirStat original."
+    ga_IE: 'Staitisticí eolaire bunaithe ar Qt: KDirStat gan aon KDE -- ó údar an bhunleagan de KDirStat.'
+    hr_HR: 'Statistika direktorija temeljena na Qt-u: KDirStat bez ikakvog KDE-a -- od autora originalnog KDirStata.'
+    hu_HU: 'Qt-alapú könyvtárstatisztikák: KDirStat KDE nélkül -- az eredeti KDirStat szerzőjétől.'
+    it_IT: 'Statistiche di directory basate su Qt: KDirStat senza KDE -- dall''autore del KDirStat originale.'
+    ja_JP: Qtベースのディレクトリ統計情報：KDE不要のKDirStat -- オリジナルKDirStatの作者より。
+    ko_KR: 'Qt 기반 디렉터리 통계: KDE 환경이 없는 KDirStat -- 오리지널 KDirStat 개발자가 만든 버전입니다.'
+    ml_IN: 'Qt-അധിഷ്ഠിത ഡയറക്ടറി സ്ഥിതിവിവരക്കണക്കുകൾ: KDE ഇല്ലാതെ KDirStat -- യഥാർത്ഥ KDirStat ന്റെ രചയിതാവിൽ നിന്ന്.'
+    nb_NO: 'Qt-basert katalogstatistikk: KDirStat uten KDE -- fra forfatteren av den originale KDirStat.'
+    nl_NL: 'Op Qt gebaseerde directorystatistieken: KDirStat zonder KDE -- van de auteur van het originele KDirStat.'
+    pl_PL: 'Statystyki katalogów oparte na Qt: KDirStat bez środowiska KDE — od autora oryginalnego KDirStat.'
+    pt_BR: 'Estatísticas de diretório baseadas em Qt: KDirStat sem o KDE -- do autor do KDirStat original.'
+    ro_RO: 'Statistici ale directoarelor bazate pe Qt: KDirStat fără KDE -- de la autorul KDirStat-ului original.'
+    ru_RU: 'Статистика каталогов на основе Qt: KDirStat без KDE — от автора оригинального KDirStat.'
+    sk_SK: 'Štatistiky adresárov založené na Qt: KDirStat bez KDE -- od autora pôvodného KDirStat.'
+    sv_SE: 'Qt-baserad katalogstatistik: KDirStat utan KDE -- från författaren till den ursprungliga KDirStat.'
+    tr_TR: 'Qt tabanlı dizin istatistikleri: KDE gerektirmeyen KDirStat -- orijinal KDirStat''ın yazarından.'
     zh_CN: 基于 Qt 的目录空间统计工具。
+    zh_TW: 基於 Qt 的目錄空間統計工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png
   title:
     en_US: Qdirstat (LinuxServer.io)
+    ca_ES: Qdirstat (LinuxServer.io)
+    cs_CZ: Qdirstat (LinuxServer.io)
+    da_DK: Qdirstat (LinuxServer.io)
+    de_DE: Qdirstat (LinuxServer.io)
+    el_GR: Qdirstat (LinuxServer.io)
+    en_GB: Qdirstat (LinuxServer.io)
+    es_ES: Qdirstat (LinuxServer.io)
+    fr_FR: Qdirstat (LinuxServer.io)
+    ga_IE: Qdirstat (LinuxServer.io)
+    hr_HR: Qdirstat (LinuxServer.io)
+    hu_HU: Qdirstat (LinuxServer.io)
+    it_IT: Qdirstat (LinuxServer.io)
+    ja_JP: Qdirstat (LinuxServer.io)
+    ko_KR: Qdirstat (LinuxServer.io)
+    ml_IN: Qdirstat (LinuxServer.io)
+    nb_NO: Qdirstat (LinuxServer.io)
+    nl_NL: Qdirstat (LinuxServer.io)
+    pl_PL: Qdirstat (LinuxServer.io)
+    pt_BR: Qdirstat (LinuxServer.io)
+    ro_RO: Qdirstat (LinuxServer.io)
+    ru_RU: Qdirstat (LinuxServer.io)
+    sk_SK: Qdirstat (LinuxServer.io)
+    sv_SE: Qdirstat (LinuxServer.io)
+    tr_TR: Qdirstat (LinuxServer.io)
     zh_CN: Qdirstat（LinuxServer.io）
+    zh_TW: Qdirstat（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverqdirstat
   port_map: '3000'

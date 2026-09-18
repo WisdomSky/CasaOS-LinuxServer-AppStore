@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Kavita is a fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family!
+    ca_ES: Kavita és un servidor de lectura multiplataforma ràpid i ric en funcions. Creat amb l'objectiu de ser una solució completa per a totes les vostres necessitats de lectura. Configura el teu propi servidor i comparteix la teva col·lecció de lectures amb els teus amics i familiars!
+    cs_CZ: Kavita je rychlý, funkčně bohatý multiplatformní čtecí server. Byl vytvořen s cílem být kompletním řešením pro všechny vaše čtenářské potřeby. Nastavte si vlastní server a sdílejte svou sbírku knih s přáteli a rodinou!
+    da_DK: Kavita er en hurtig, funktionsrig læseserver på tværs af platforme. Bygget med fokus på at være en komplet løsning til alle dine læsebehov. Opsæt din egen server, og del din læsesamling med dine venner og familie!
+    de_DE: Kavita ist ein schneller, funktionsreicher und plattformübergreifender Leseserver. Er wurde als Komplettlösung für all Ihre Lesebedürfnisse entwickelt. Richten Sie Ihren eigenen Server ein und teilen Sie Ihre Lesesammlung mit Freunden und Familie!
+    el_GR: Το Kavita είναι ένας γρήγορος, πλούσιος σε λειτουργίες, διαπλατφορμικός διακομιστής ανάγνωσης. Κατασκευασμένος με στόχο να αποτελέσει μια ολοκληρωμένη λύση για όλες τις ανάγκες ανάγνωσής σας. Ρυθμίστε τον δικό σας διακομιστή και μοιραστείτε τη συλλογή ανάγνωσής σας με τους φίλους και την οικογένειά σας!
+    en_GB: Kavita is a fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family!
+    es_ES: Kavita es un servidor de lectura rápido, completo y multiplataforma. Diseñado para ser una solución integral para todas tus necesidades de lectura. ¡Configura tu propio servidor y comparte tu colección de libros con tus amigos y familiares!
+    fr_FR: "Kavita est un serveur de lecture multiplateforme rapide et riche en fonctionnalités. Conçu pour répondre à tous vos besoins de lecture, il vous permet de configurer votre propre serveur et de partager votre bibliothèque avec vos proches\_!"
+    ga_IE: Is freastalaí léitheoireachta tras-ardáin, tapa, saibhir i ngnéithe é Kavita. Tógtha le fócas ar réiteach iomlán a bheith ann do do chuid riachtanas léitheoireachta go léir. Socraigh do fhreastalaí féin agus roinn do bhailiúchán léitheoireachta le do chairde agus do theaghlach!
+    hr_HR: Kavita je brz, bogat značajkama, višeplatformski poslužitelj za čitanje. Izgrađen s fokusom na cjelovito rješenje za sve vaše potrebe za čitanjem. Postavite vlastiti poslužitelj i podijelite svoju kolekciju čitanja s prijateljima i obitelji!
+    hu_HU: A Kavita egy gyors, funkciókban gazdag, több platformon is elérhető olvasószerver. Úgy tervezték, hogy teljes körű megoldást nyújtson minden olvasási igényedre. Állítsd be saját szerveredet, és oszd meg olvasmánygyűjteményedet barátaiddal és családoddal!
+    it_IT: Kavita è un server di lettura veloce, ricco di funzionalità e multipiattaforma. È stato progettato per essere una soluzione completa per tutte le tue esigenze di lettura. Configura il tuo server e condividi la tua collezione di libri con amici e familiari!
+    ja_JP: Kavitaは、高速で機能豊富なクロスプラットフォーム対応の読書サーバーです。あらゆる読書ニーズに対応する総合的なソリューションとなるよう設計されています。独自のサーバーをセットアップして、読書コレクションを友人や家族と共有しましょう！
+    ko_KR: Kavita는 빠르고 기능이 풍부하며 다양한 플랫폼을 지원하는 전자책 서버입니다. 모든 독서 요구 사항을 충족하는 완벽한 솔루션을 제공하는 데 중점을 두고 개발되었습니다. 나만의 서버를 설정하고 친구 및 가족과 독서 컬렉션을 공유하세요!
+    ml_IN: കവിത ഒരു വേഗതയേറിയതും, സവിശേഷതകളാൽ സമ്പന്നവുമായ, ക്രോസ്-പ്ലാറ്റ്‌ഫോം വായനാ സെർവറാണ്. നിങ്ങളുടെ എല്ലാ വായനാ ആവശ്യങ്ങൾക്കും ഒരു പൂർണ്ണ പരിഹാരമാകുക എന്ന ലക്ഷ്യത്തോടെയാണ് ഇത് നിർമ്മിച്ചിരിക്കുന്നത്. നിങ്ങളുടെ സ്വന്തം സെർവർ സജ്ജീകരിച്ച് നിങ്ങളുടെ വായനാ ശേഖരം നിങ്ങളുടെ സുഹൃത്തുക്കളുമായും കുടുംബാംഗങ്ങളുമായും പങ്കിടുക!
+    nb_NO: Kavita er en rask, funksjonsrik, plattformuavhengig leseserver. Bygget med fokus på å være en komplett løsning for alle dine lesebehov. Sett opp din egen server og del lesesamlingen din med venner og familie!
+    nl_NL: Kavita is een snelle, veelzijdige en platformonafhankelijke leesserver. Ontwikkeld met als doel een complete oplossing te bieden voor al uw leesbehoeften. Stel uw eigen server in en deel uw leescollectie met vrienden en familie!
+    pl_PL: Kavita to szybki, bogaty w funkcje, wieloplatformowy serwer do czytania. Stworzony z myślą o kompleksowym rozwiązaniu wszystkich Twoich potrzeb czytelniczych. Skonfiguruj własny serwer i udostępnij swoją kolekcję lektur znajomym i rodzinie!
+    pt_BR: Kavita é um servidor de leitura multiplataforma rápido e repleto de recursos. Desenvolvido com foco em ser uma solução completa para todas as suas necessidades de leitura. Configure seu próprio servidor e compartilhe sua coleção de livros com seus amigos e familiares!
+    ro_RO: Kavita este un server de lectură rapid, bogat în funcții și multiplatformă. Construit cu scopul de a fi o soluție completă pentru toate nevoile tale de lectură. Configurați-vă propriul server și distribuiți colecția de lectură cu prietenii și familia!
+    ru_RU: Kavita — это быстрый, многофункциональный кроссплатформенный сервер для чтения. Он разработан с учетом всех ваших потребностей в чтении. Настройте собственный сервер и поделитесь своей коллекцией книг с друзьями и семьей!
+    sk_SK: Kavita je rýchly, funkčne bohatý multiplatformový čitateľský server. Bol vytvorený s dôrazom na komplexné riešenie pre všetky vaše čitateľské potreby. Nastavte si vlastný server a zdieľajte svoju zbierku čítania s priateľmi a rodinou!
+    sv_SE: Kavita är en snabb, funktionsrik och plattformsoberoende lässerver. Byggd med fokus på att vara en komplett lösning för alla dina läsbehov. Konfigurera din egen server och dela din lässamling med dina vänner och familj!
+    tr_TR: Kavita, hızlı, özellik açısından zengin ve platformlar arası bir okuma sunucusudur. Tüm okuma ihtiyaçlarınız için eksiksiz bir çözüm olma hedefiyle geliştirilmiştir. Kendi sunucunuzu kurun ve okuma koleksiyonunuzu arkadaşlarınız ve ailenizle paylaşın!
     zh_CN: Kavita 是一款快速、功能丰富、跨平台的阅读服务器，旨在为各种阅读需求提供完整方案。你可以搭建自己的服务器，并与朋友和家人分享阅读收藏。
+    zh_TW: Kavita 是一款快速、功能豐富、跨平臺的閱讀伺服器，旨在為各種閱讀需求提供完整方案。你可以搭建自己的伺服器，並與朋友和家人分享閱讀收藏。
   tagline:
     en_US: A fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
+    ca_ES: Un servidor de lectura ràpid, ric en funcions i multiplataforma. Creat amb l'objectiu de ser una solució completa per a totes les vostres necessitats de lectura. Configura el teu propi servidor i comparteix la teva col·lecció de lectures amb els teus amics i familiars.
+    cs_CZ: Rychlý, funkčně bohatý a multiplatformní čtecí server. Vytvořen s cílem být kompletním řešením pro všechny vaše čtenářské potřeby. Nastavte si vlastní server a sdílejte svou sbírku čtení s přáteli a rodinou.
+    da_DK: En hurtig, funktionsrig læseserver på tværs af platforme. Bygget med fokus på at være en komplet løsning til alle dine læsebehov. Opsæt din egen server, og del din læsesamling med dine venner og familie.
+    de_DE: Ein schneller, funktionsreicher und plattformübergreifender Leseserver. Entwickelt als Komplettlösung für all Ihre Lesebedürfnisse. Richten Sie Ihren eigenen Server ein und teilen Sie Ihre Lesesammlung mit Freunden und Familie.
+    el_GR: Ένας γρήγορος, πλούσιος σε λειτουργίες, διαπλατφορμικός διακομιστής ανάγνωσης. Κατασκευασμένος με στόχο να αποτελέσει μια ολοκληρωμένη λύση για όλες τις ανάγκες ανάγνωσής σας. Ρυθμίστε τον δικό σας διακομιστή και μοιραστείτε τη συλλογή ανάγνωσής σας με τους φίλους και την οικογένειά σας.
+    en_GB: A fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
+    es_ES: Un servidor de lectura rápido, completo y multiplataforma. Diseñado para ser la solución integral para todas tus necesidades de lectura. Configura tu propio servidor y comparte tu colección de libros con tus amigos y familiares.
+    fr_FR: Un serveur de lecture multiplateforme rapide et riche en fonctionnalités. Conçu pour répondre à tous vos besoins de lecture. Configurez votre propre serveur et partagez votre bibliothèque avec vos proches.
+    ga_IE: Freastalaí léitheoireachta tras-ardáin, tapa, saibhir ó thaobh gnéithe de. Tógtha le fócas ar réiteach iomlán a bheith ann do do chuid riachtanas léitheoireachta go léir. Socraigh do fhreastalaí féin agus roinn do bhailiúchán léitheoireachta le do chairde agus do theaghlach.
+    hr_HR: Brz, bogat značajkama, višeplatformski poslužitelj za čitanje. Izgrađen s fokusom na cjelovito rješenje za sve vaše potrebe čitanja. Postavite vlastiti poslužitelj i podijelite svoju kolekciju čitanja s prijateljima i obitelji.
+    hu_HU: Egy gyors, funkciókban gazdag, több platformon is elérhető olvasószerver. Úgy tervezték, hogy teljes körű megoldást nyújtson minden olvasási igényedre. Állítsd be saját szerveredet, és oszd meg olvasmánygyűjteményedet barátaiddal és családoddal.
+    it_IT: Un server di lettura veloce, ricco di funzionalità e multipiattaforma. Progettato per essere una soluzione completa per tutte le tue esigenze di lettura. Configura il tuo server e condividi la tua collezione di libri con amici e familiari.
+    ja_JP: 高速で機能豊富なクロスプラットフォーム対応の読書サーバー。あらゆる読書ニーズに対応する総合ソリューションを目指して開発されました。独自のサーバーをセットアップして、読書コレクションを友人や家族と共有しましょう。
+    ko_KR: 빠르고 기능이 풍부하며 다양한 플랫폼을 지원하는 전자책 서버입니다. 모든 독서 요구 사항을 충족하는 완벽한 솔루션을 목표로 개발되었습니다. 나만의 서버를 설정하고 친구 및 가족과 독서 컬렉션을 공유하세요.
+    ml_IN: വേഗതയേറിയതും, സവിശേഷതകളാൽ സമ്പന്നവുമായ, ക്രോസ്-പ്ലാറ്റ്‌ഫോം വായനാ സെർവർ. നിങ്ങളുടെ എല്ലാ വായനാ ആവശ്യങ്ങൾക്കും ഒരു പൂർണ്ണ പരിഹാരമാകുക എന്ന ലക്ഷ്യത്തോടെ നിർമ്മിച്ചതാണ്. നിങ്ങളുടെ സ്വന്തം സെർവർ സജ്ജീകരിച്ച് നിങ്ങളുടെ വായനാ ശേഖരം നിങ്ങളുടെ സുഹൃത്തുക്കളുമായും കുടുംബാംഗങ്ങളുമായും പങ്കിടുക.
+    nb_NO: En rask, funksjonsrik, plattformuavhengig leseserver. Bygget med fokus på å være en komplett løsning for alle dine lesebehov. Sett opp din egen server og del lesesamlingen din med venner og familie.
+    nl_NL: Een snelle, veelzijdige en platformonafhankelijke leesserver. Ontworpen als een complete oplossing voor al uw leesbehoeften. Stel uw eigen server in en deel uw leescollectie met vrienden en familie.
+    pl_PL: Szybki, bogaty w funkcje, wieloplatformowy serwer do czytania. Stworzony z myślą o kompleksowym rozwiązaniu wszystkich Twoich potrzeb czytelniczych. Skonfiguruj własny serwer i udostępniaj swoją kolekcję lektur znajomym i rodzinie.
+    pt_BR: Um servidor de leitura rápido, repleto de recursos e multiplataforma. Desenvolvido com foco em ser uma solução completa para todas as suas necessidades de leitura. Configure seu próprio servidor e compartilhe sua coleção de livros com seus amigos e familiares.
+    ro_RO: Un server de lectură rapid, bogat în funcții, multiplatformă. Construit cu scopul de a fi o soluție completă pentru toate nevoile tale de lectură. Configurați-vă propriul server și distribuiți colecția de lectură cu prietenii și familia.
+    ru_RU: Быстрый, многофункциональный кроссплатформенный сервер для чтения. Разработан с учетом всех ваших потребностей в чтении. Настройте собственный сервер и поделитесь своей коллекцией книг с друзьями и семьей.
+    sk_SK: Rýchly, multiplatformový čitateľský server s bohatými funkciami. Vytvorený s dôrazom na komplexné riešenie pre všetky vaše čitateľské potreby. Nastavte si vlastný server a zdieľajte svoju zbierku čítania s priateľmi a rodinou.
+    sv_SE: En snabb, funktionsrik och plattformsoberoende lässerver. Byggd med fokus på att vara en komplett lösning för alla dina läsbehov. Konfigurera din egen server och dela din lässamling med dina vänner och familj.
+    tr_TR: Hızlı, özellik bakımından zengin, platformlar arası bir okuma sunucusu. Tüm okuma ihtiyaçlarınız için eksiksiz bir çözüm olma hedefiyle geliştirilmiştir. Kendi sunucunuzu kurun ve okuma koleksiyonunuzu arkadaşlarınız ve ailenizle paylaşın.
     zh_CN: 搭建自己的跨平台阅读服务器。
+    zh_TW: 搭建自己的跨平臺閱讀伺服器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kavita-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kavita-logo.png
   title:
     en_US: Kavita (LinuxServer.io)
+    ca_ES: Kavita (LinuxServer.io)
+    cs_CZ: Kavita (LinuxServer.io)
+    da_DK: Kavita (LinuxServer.io)
+    de_DE: Kavita (LinuxServer.io)
+    el_GR: Kavita (LinuxServer.io)
+    en_GB: Kavita (LinuxServer.io)
+    es_ES: Kavita (LinuxServer.io)
+    fr_FR: Kavita (LinuxServer.io)
+    ga_IE: Kavita (LinuxServer.io)
+    hr_HR: Kavita (LinuxServer.io)
+    hu_HU: Kavita (LinuxServer.io)
+    it_IT: Kavita (LinuxServer.io)
+    ja_JP: Kavita (LinuxServer.io)
+    ko_KR: Kavita (LinuxServer.io)
+    ml_IN: Kavita (LinuxServer.io)
+    nb_NO: Kavita (LinuxServer.io)
+    nl_NL: Kavita (LinuxServer.io)
+    pl_PL: Kavita (LinuxServer.io)
+    pt_BR: Kavita (LinuxServer.io)
+    ro_RO: Kavita (LinuxServer.io)
+    ru_RU: Kavita (LinuxServer.io)
+    sk_SK: Kavita (LinuxServer.io)
+    sv_SE: Kavita (LinuxServer.io)
+    tr_TR: Kavita (LinuxServer.io)
     zh_CN: Kavita（LinuxServer.io）
+    zh_TW: Kavita（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverkavita
   port_map: '5000'

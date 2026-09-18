@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Calligra is an office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+    ca_ES: Calligra és un paquet ofimàtic i d'arts gràfiques de KDE. Està disponible per a ordinadors d'escriptori, tauletes i telèfons intel·ligents. Conté aplicacions per a processament de textos, fulls de càlcul, presentacions, gràfics vectorials i edició de bases de dades.
+    cs_CZ: Calligra je kancelářský a grafický balík od KDE. Je k dispozici pro stolní počítače, tablety a chytré telefony. Obsahuje aplikace pro zpracování textu, tabulky, prezentace, vektorovou grafiku a úpravu databází.
+    da_DK: Calligra er en kontor- og grafikpakke fra KDE. Den er tilgængelig til stationære pc'er, tablets og smartphones. Den indeholder programmer til tekstbehandling, regneark, præsentationer, vektorgrafik og redigering af databaser.
+    de_DE: Calligra ist eine Office- und Grafiksoftware-Suite von KDE. Sie ist für Desktop-PCs, Tablet-Computer und Smartphones verfügbar. Sie enthält Anwendungen für Textverarbeitung, Tabellenkalkulation, Präsentationen, Vektorgrafiken und Datenbankbearbeitung.
+    el_GR: Το Calligra είναι μια σουίτα γραφείου και γραφικών τεχνών από το KDE. Είναι διαθέσιμη για επιτραπέζιους υπολογιστές, tablet και smartphone. Περιέχει εφαρμογές για επεξεργασία κειμένου, υπολογιστικά φύλλα, παρουσιάσεις, διανυσματικά γραφικά και επεξεργασία βάσεων δεδομένων.
+    en_GB: Calligra is an office and graphic art suite by Kde. It is available for desktop Pcs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+    es_ES: Calligra es una suite ofimática y de diseño gráfico de KDE. Está disponible para ordenadores de sobremesa, tabletas y teléfonos inteligentes. Incluye aplicaciones para procesamiento de textos, hojas de cálculo, presentaciones, gráficos vectoriales y edición de bases de datos.
+    fr_FR: Calligra est une suite bureautique et graphique développée par KDE. Elle est disponible pour ordinateurs de bureau, tablettes et smartphones. Elle comprend des applications de traitement de texte, de tableur, de présentation, de graphisme vectoriel et de gestion de bases de données.
+    ga_IE: Is sraith oifige agus ealaíne grafaice ó KDE é Calligra. Tá sé ar fáil do ríomhairí deisce, táibléid agus fóin chliste. Tá feidhmchláir ann le haghaidh próiseála focal, scarbhileoga, cur i láthair, grafaicí veicteora agus eagarthóireacht bunachar sonraí.
+    hr_HR: Calligra je uredski i grafički paket tvrtke KDE. Dostupan je za stolna računala, tablete i pametne telefone. Sadrži aplikacije za obradu teksta, proračunske tablice, prezentacije, vektorsku grafiku i uređivanje baza podataka.
+    hu_HU: A Calligra egy KDE irodai és grafikai programcsomag. Elérhető asztali számítógépekre, táblagépekre és okostelefonokra. Tartalmaz alkalmazásokat szövegszerkesztéshez, táblázatkezeléshez, prezentációkhoz, vektorgrafikához és adatbázis-szerkesztéshez.
+    it_IT: Calligra è una suite per ufficio e grafica sviluppata da KDE. È disponibile per PC desktop, tablet e smartphone. Include applicazioni per l'elaborazione testi, i fogli di calcolo, le presentazioni, la grafica vettoriale e la modifica di database.
+    ja_JP: Calligraは、KDEが開発したオフィスおよびグラフィックアートスイートです。デスクトップPC、タブレットPC、スマートフォンで利用可能です。ワープロ、表計算、プレゼンテーション、ベクターグラフィック、データベース編集などのアプリケーションが含まれています。
+    ko_KR: Calligra는 KDE에서 개발한 오피스 및 그래픽 아트 제품군입니다. 데스크톱 PC, 태블릿 컴퓨터, 스마트폰에서 사용할 수 있으며, 워드 프로세싱, 스프레드시트, 프레젠테이션, 벡터 그래픽, 데이터베이스 편집 등의 애플리케이션을 포함하고 있습니다.
+    ml_IN: കെഡിഇയുടെ ഒരു ഓഫീസ്, ഗ്രാഫിക് ആർട്ട് സ്യൂട്ടാണ് കാലിഗ്ര. ഡെസ്ക്ടോപ്പ് പിസികൾ, ടാബ്‌ലെറ്റ് കമ്പ്യൂട്ടറുകൾ, സ്മാർട്ട്‌ഫോണുകൾ എന്നിവയിൽ ഇത് ലഭ്യമാണ്. വേഡ് പ്രോസസ്സിംഗ്, സ്പ്രെഡ്‌ഷീറ്റുകൾ, പ്രസന്റേഷൻ, വെക്റ്റർ ഗ്രാഫിക്സ്, ഡാറ്റാബേസുകൾ എഡിറ്റിംഗ് എന്നിവയ്ക്കുള്ള ആപ്ലിക്കേഷനുകൾ ഇതിൽ അടങ്ങിയിരിക്കുന്നു.
+    nb_NO: Calligra er en kontor- og grafikkprogrampakke fra KDE. Den er tilgjengelig for stasjonære PC-er, nettbrett og smarttelefoner. Den inneholder programmer for tekstbehandling, regneark, presentasjoner, vektorgrafikk og redigering av databaser.
+    nl_NL: Calligra is een kantoor- en grafische softwarepakket van KDE. Het is beschikbaar voor desktop-pc's, tablets en smartphones. Het bevat toepassingen voor tekstverwerking, spreadsheets, presentaties, vectorafbeeldingen en het bewerken van databases.
+    pl_PL: Calligra to pakiet biurowy i graficzny stworzony przez środowisko KDE. Jest dostępny na komputery stacjonarne, tablety i smartfony. Zawiera aplikacje do edycji tekstu, arkuszy kalkulacyjnych, prezentacji, grafiki wektorowej i edycji baz danych.
+    pt_BR: O Calligra é um pacote de aplicativos de escritório e design gráfico da KDE. Está disponível para computadores desktop, tablets e smartphones. Contém aplicativos para processamento de texto, planilhas, apresentações, gráficos vetoriais e edição de bancos de dados.
+    ro_RO: Calligra este o suită de programe de birou și grafică dezvoltată de KDE. Este disponibilă pentru PC-uri desktop, tablete și smartphone-uri. Conține aplicații pentru procesare de text, foi de calcul, prezentări, grafică vectorială și editare de baze de date.
+    ru_RU: Calligra — это офисный и графический пакет от KDE. Он доступен для настольных ПК, планшетных компьютеров и смартфонов. В него входят приложения для обработки текстов, электронных таблиц, создания презентаций, векторной графики и редактирования баз данных.
+    sk_SK: Calligra je kancelársky a grafický balík od KDE. Je dostupný pre stolné počítače, tablety a smartfóny. Obsahuje aplikácie na spracovanie textu, tabuľky, prezentácie, vektorovú grafiku a úpravu databáz.
+    sv_SE: Calligra är ett kontors- och grafikprogram från KDE. Det är tillgängligt för stationära datorer, surfplattor och smartphones. Det innehåller program för ordbehandling, kalkylblad, presentationer, vektorgrafik och redigering av databaser.
+    tr_TR: Calligra, KDE tarafından geliştirilen bir ofis ve grafik tasarım yazılım paketidir. Masaüstü bilgisayarlar, tablet bilgisayarlar ve akıllı telefonlar için mevcuttur. Kelime işlem, elektronik tablo, sunum, vektör grafikleri ve veritabanı düzenleme uygulamaları içerir.
     zh_CN: Calligra 是 KDE 开发的办公和图形创作套件，适用于桌面电脑、平板电脑和智能手机。它包含文字处理、电子表格、演示文稿、矢量图形和数据库编辑应用。
+    zh_TW: Calligra 是 KDE 開發的辦公和圖形創作套件，適用於桌面電腦、平板電腦和智慧手機。它包含文書處理、電子表格、簡報、向量圖形和資料庫編輯應用。
   tagline:
     en_US: An office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+    ca_ES: Un paquet d'oficina i arts gràfiques de KDE. Està disponible per a ordinadors d'escriptori, tauletes i telèfons intel·ligents. Conté aplicacions per a processament de textos, fulls de càlcul, presentacions, gràfics vectorials i edició de bases de dades.
+    cs_CZ: Kancelářský a grafický balík od KDE. Je k dispozici pro stolní počítače, tablety a chytré telefony. Obsahuje aplikace pro zpracování textu, tabulky, prezentace, vektorovou grafiku a úpravu databází.
+    da_DK: En kontor- og grafikpakke fra KDE. Den er tilgængelig til stationære pc'er, tablets og smartphones. Den indeholder programmer til tekstbehandling, regneark, præsentationer, vektorgrafik og redigering af databaser.
+    de_DE: Eine Office- und Grafiksoftware-Suite von KDE. Sie ist für Desktop-PCs, Tablet-Computer und Smartphones verfügbar. Sie enthält Anwendungen für Textverarbeitung, Tabellenkalkulation, Präsentationen, Vektorgrafiken und Datenbankbearbeitung.
+    el_GR: Μια σουίτα γραφείου και γραφικών τεχνών από το KDE. Είναι διαθέσιμη για επιτραπέζιους υπολογιστές, tablet και smartphone. Περιέχει εφαρμογές για επεξεργασία κειμένου, υπολογιστικά φύλλα, παρουσιάσεις, διανυσματικά γραφικά και επεξεργασία βάσεων δεδομένων.
+    en_GB: An office and graphic art suite by Kde. It is available for desktop Pcs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+    es_ES: Suite ofimática y de diseño gráfico de KDE. Disponible para ordenadores de sobremesa, tabletas y smartphones. Incluye aplicaciones para procesamiento de textos, hojas de cálculo, presentaciones, gráficos vectoriales y edición de bases de datos.
+    fr_FR: Suite bureautique et de graphisme développée par KDE. Disponible pour ordinateurs de bureau, tablettes et smartphones. Elle comprend des applications de traitement de texte, de tableur, de présentation, de graphisme vectoriel et de gestion de bases de données.
+    ga_IE: Sraith oifige agus ealaíne grafaice ó KDE. Tá sé ar fáil do ríomhairí deisce, táibléid agus fóin chliste. Tá feidhmchláir ann le haghaidh próiseála focal, scarbhileoga, cur i láthair, grafaicí veicteora agus eagarthóireacht bunachar sonraí.
+    hr_HR: KDE-ov uredski i grafički paket. Dostupan je za stolna računala, tablete i pametne telefone. Sadrži aplikacije za obradu teksta, proračunske tablice, prezentacije, vektorsku grafiku i uređivanje baza podataka.
+    hu_HU: KDE irodai és grafikai programcsomag. Elérhető asztali számítógépekre, táblagépekre és okostelefonokra. Tartalmaz alkalmazásokat szövegszerkesztéshez, táblázatkezeléshez, prezentációkhoz, vektorgrafikához és adatbázis-szerkesztéshez.
+    it_IT: Una suite per ufficio e grafica sviluppata da KDE. È disponibile per PC desktop, tablet e smartphone. Include applicazioni per l'elaborazione testi, i fogli di calcolo, le presentazioni, la grafica vettoriale e la modifica di database.
+    ja_JP: KDEが開発したオフィスおよびグラフィックアートスイート。デスクトップPC、タブレットPC、スマートフォンで利用可能。ワープロ、表計算、プレゼンテーション、ベクターグラフィック、データベース編集などのアプリケーションが含まれている。
+    ko_KR: KDE에서 개발한 오피스 및 그래픽 디자인 소프트웨어 제품군입니다. 데스크톱 PC, 태블릿 컴퓨터, 스마트폰에서 사용할 수 있으며, 워드 프로세싱, 스프레드시트, 프레젠테이션, 벡터 그래픽, 데이터베이스 편집 등의 애플리케이션을 포함하고 있습니다.
+    ml_IN: കെഡിഇയുടെ ഒരു ഓഫീസ്, ഗ്രാഫിക് ആർട്ട് സ്യൂട്ട്. ഡെസ്ക്ടോപ്പ് പിസികൾ, ടാബ്‌ലെറ്റ് കമ്പ്യൂട്ടറുകൾ, സ്മാർട്ട്‌ഫോണുകൾ എന്നിവയിൽ ഇത് ലഭ്യമാണ്. വേഡ് പ്രോസസ്സിംഗ്, സ്‌പ്രെഡ്‌ഷീറ്റുകൾ, പ്രസന്റേഷൻ, വെക്റ്റർ ഗ്രാഫിക്സ്, ഡാറ്റാബേസുകൾ എഡിറ്റിംഗ് എന്നിവയ്‌ക്കുള്ള ആപ്ലിക്കേഷനുകൾ ഇതിൽ അടങ്ങിയിരിക്കുന്നു.
+    nb_NO: En kontor- og grafikkpakke fra KDE. Den er tilgjengelig for stasjonære PC-er, nettbrett og smarttelefoner. Den inneholder programmer for tekstbehandling, regneark, presentasjoner, vektorgrafikk og redigering av databaser.
+    nl_NL: Een kantoor- en grafisch softwarepakket van KDE. Het is beschikbaar voor desktop-pc's, tablets en smartphones. Het bevat toepassingen voor tekstverwerking, spreadsheets, presentaties, vectorafbeeldingen en het bewerken van databases.
+    pl_PL: Pakiet biurowy i graficzny od KDE. Dostępny na komputery stacjonarne, tablety i smartfony. Zawiera aplikacje do edycji tekstu, arkuszy kalkulacyjnych, prezentacji, grafiki wektorowej i edycji baz danych.
+    pt_BR: Um pacote de aplicativos de escritório e design gráfico da KDE. Está disponível para computadores desktop, tablets e smartphones. Contém aplicativos para processamento de texto, planilhas, apresentações, gráficos vetoriais e edição de bancos de dados.
+    ro_RO: O suită de programe de birou și grafică de la KDE. Este disponibilă pentru PC-uri desktop, tablete și smartphone-uri. Conține aplicații pentru procesare de text, foi de calcul, prezentări, grafică vectorială și editare de baze de date.
+    ru_RU: Офисный и графический пакет от KDE. Доступен для настольных ПК, планшетных компьютеров и смартфонов. Включает приложения для обработки текстов, электронных таблиц, создания презентаций, векторной графики и редактирования баз данных.
+    sk_SK: Kancelársky a grafický balík od KDE. Je dostupný pre stolné počítače, tablety a smartfóny. Obsahuje aplikácie na spracovanie textu, tabuľky, prezentácie, vektorovú grafiku a úpravu databáz.
+    sv_SE: En kontors- och grafiksvit från KDE. Den är tillgänglig för stationära datorer, surfplattor och smartphones. Den innehåller program för ordbehandling, kalkylblad, presentationer, vektorgrafik och redigering av databaser.
+    tr_TR: KDE tarafından geliştirilen bir ofis ve grafik tasarım yazılım paketidir. Masaüstü bilgisayarlar, tablet bilgisayarlar ve akıllı telefonlar için mevcuttur. Kelime işlem, elektronik tablo, sunum, vektör grafikleri ve veritabanı düzenleme uygulamaları içerir.
     zh_CN: KDE 开发的办公与图形创作套件。
+    zh_TW: KDE 開發的辦公與圖形創作套件。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calligra-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calligra-logo.png
   title:
     en_US: Calligra (LinuxServer.io)
+    ca_ES: Calligra (LinuxServer.io)
+    cs_CZ: Calligra (LinuxServer.io)
+    da_DK: Calligra (LinuxServer.io)
+    de_DE: Calligra (LinuxServer.io)
+    el_GR: Calligra (LinuxServer.io)
+    en_GB: Calligra (LinuxServer.io)
+    es_ES: Calligra (LinuxServer.io)
+    fr_FR: Calligra (LinuxServer.io)
+    ga_IE: Calligra (LinuxServer.io)
+    hr_HR: Calligra (LinuxServer.io)
+    hu_HU: Calligra (LinuxServer.io)
+    it_IT: Calligra (LinuxServer.io)
+    ja_JP: Calligra (LinuxServer.io)
+    ko_KR: Calligra (LinuxServer.io)
+    ml_IN: Calligra (LinuxServer.io)
+    nb_NO: Calligra (LinuxServer.io)
+    nl_NL: Calligra (LinuxServer.io)
+    pl_PL: Calligra (LinuxServer.io)
+    pt_BR: Calligra (LinuxServer.io)
+    ro_RO: Calligra (LinuxServer.io)
+    ru_RU: Calligra (LinuxServer.io)
+    sk_SK: Calligra (LinuxServer.io)
+    sv_SE: Calligra (LinuxServer.io)
+    tr_TR: Calligra (LinuxServer.io)
     zh_CN: Calligra（LinuxServer.io）
+    zh_TW: Calligra（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservercalligra
   port_map: '3000'

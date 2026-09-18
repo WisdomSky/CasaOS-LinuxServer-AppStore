@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Telegram is a cloud-based mobile and desktop messaging app.
+    ca_ES: Telegram és una aplicació de missatgeria per a mòbils i escriptoris basada en el núvol.
+    cs_CZ: Telegram je cloudová aplikace pro mobilní zařízení a počítače.
+    da_DK: Telegram er en cloudbaseret beskedapp til mobil og desktop.
+    de_DE: Telegram ist eine cloudbasierte Messaging-App für Mobilgeräte und Desktop-Computer.
+    el_GR: Το Telegram είναι μια εφαρμογή ανταλλαγής μηνυμάτων που βασίζεται στο cloud για κινητά και υπολογιστές.
+    en_GB: Telegram is a cloud-based mobile and desktop messaging app.
+    es_ES: Telegram es una aplicación de mensajería móvil y de escritorio basada en la nube.
+    fr_FR: Telegram est une application de messagerie mobile et de bureau basée sur le cloud.
+    ga_IE: Is aip teachtaireachtaí scamallbhunaithe é Telegram do ghléasanna soghluaiste agus deisce.
+    hr_HR: Telegram je aplikacija za razmjenu poruka u oblaku za mobilne uređaje i računala.
+    hu_HU: A Telegram egy felhőalapú mobil és asztali üzenetküldő alkalmazás.
+    it_IT: Telegram è un'applicazione di messaggistica per dispositivi mobili e desktop basata sul cloud.
+    ja_JP: Telegramは、クラウドベースのモバイルおよびデスクトップ向けメッセージングアプリです。
+    ko_KR: 텔레그램은 클라우드 기반의 모바일 및 데스크톱 메시징 앱입니다.
+    ml_IN: ടെലിഗ്രാം ഒരു ക്ലൗഡ് അധിഷ്ഠിത മൊബൈൽ, ഡെസ്ക്ടോപ്പ് സന്ദേശമയയ്ക്കൽ ആപ്ലിക്കേഷനാണ്.
+    nb_NO: Telegram er en skybasert meldingsapp for mobil og datamaskin.
+    nl_NL: Telegram is een cloudgebaseerde berichtenapp voor mobiele telefoons en desktops.
+    pl_PL: Telegram to oparta na chmurze aplikacja do przesyłania wiadomości, dostępna na urządzeniach mobilnych i komputerach stacjonarnych.
+    pt_BR: O Telegram é um aplicativo de mensagens para dispositivos móveis e computadores baseado na nuvem.
+    ro_RO: Telegram este o aplicație de mesagerie mobilă și desktop bazată pe cloud.
+    ru_RU: Telegram — это облачное приложение для обмена сообщениями на мобильных устройствах и компьютерах.
+    sk_SK: Telegram je cloudová aplikácia na odosielanie správ pre mobilné zariadenia a počítače.
+    sv_SE: Telegram är en molnbaserad meddelandeapp för mobil och dator.
+    tr_TR: Telegram, bulut tabanlı bir mobil ve masaüstü mesajlaşma uygulamasıdır.
     zh_CN: Telegram 是一款基于云的移动端和桌面端消息应用。
+    zh_TW: Telegram 是一款基於雲的移動端和桌面端訊息應用。
   tagline:
     en_US: A cloud-based mobile and desktop messaging app.
+    ca_ES: Una aplicació de missatgeria per a mòbils i escriptori basada en el núvol.
+    cs_CZ: Cloudová aplikace pro mobilní zařízení a počítače.
+    da_DK: En cloudbaseret beskedapp til mobil og desktop.
+    de_DE: Eine cloudbasierte Messaging-App für Mobilgeräte und Desktop-Computer.
+    el_GR: Μια εφαρμογή ανταλλαγής μηνυμάτων που βασίζεται στο cloud για κινητά και υπολογιστές.
+    en_GB: A cloud-based mobile and desktop messaging app.
+    es_ES: Una aplicación de mensajería móvil y de escritorio basada en la nube.
+    fr_FR: Une application de messagerie mobile et de bureau basée sur le cloud.
+    ga_IE: Aip teachtaireachtaí soghluaiste agus deisce atá bunaithe ar an scamall.
+    hr_HR: Aplikacija za razmjenu poruka za mobilne uređaje i računala u oblaku.
+    hu_HU: Felhőalapú mobil és asztali üzenetküldő alkalmazás.
+    it_IT: Un'applicazione di messaggistica per dispositivi mobili e desktop basata sul cloud.
+    ja_JP: クラウドベースのモバイルおよびデスクトップ向けメッセージングアプリ。
+    ko_KR: 클라우드 기반 모바일 및 데스크톱 메시징 앱.
+    ml_IN: ക്ലൗഡ് അധിഷ്ഠിത മൊബൈൽ, ഡെസ്ക്ടോപ്പ് സന്ദേശമയയ്ക്കൽ ആപ്പ്.
+    nb_NO: En skybasert meldingsapp for mobil og datamaskin.
+    nl_NL: Een cloudgebaseerde berichtenapp voor mobiele telefoons en desktops.
+    pl_PL: Aplikacja do przesyłania wiadomości na urządzenia mobilne i komputery stacjonarne oparta na chmurze.
+    pt_BR: Um aplicativo de mensagens para dispositivos móveis e computadores baseado na nuvem.
+    ro_RO: O aplicație de mesagerie mobilă și desktop bazată pe cloud.
+    ru_RU: Облачное приложение для обмена сообщениями на мобильных устройствах и компьютерах.
+    sk_SK: Cloudová aplikácia na odosielanie správ pre mobilné zariadenia a počítače.
+    sv_SE: En molnbaserad meddelandeapp för mobil och dator.
+    tr_TR: Bulut tabanlı bir mobil ve masaüstü mesajlaşma uygulaması.
     zh_CN: 基于云的移动与桌面消息应用。
+    zh_TW: 基於雲的移動與桌面訊息應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/telegram-logo.png
   title:
     en_US: Telegram (LinuxServer.io)
+    ca_ES: Telegram (LinuxServer.io)
+    cs_CZ: Telegram (LinuxServer.io)
+    da_DK: Telegram (LinuxServer.io)
+    de_DE: Telegram (LinuxServer.io)
+    el_GR: Telegram (LinuxServer.io)
+    en_GB: Telegram (LinuxServer.io)
+    es_ES: Telegram (LinuxServer.io)
+    fr_FR: Telegram (LinuxServer.io)
+    ga_IE: Telegram (LinuxServer.io)
+    hr_HR: Telegram (LinuxServer.io)
+    hu_HU: Telegram (LinuxServer.io)
+    it_IT: Telegram (LinuxServer.io)
+    ja_JP: Telegram (LinuxServer.io)
+    ko_KR: Telegram (LinuxServer.io)
+    ml_IN: Telegram (LinuxServer.io)
+    nb_NO: Telegram (LinuxServer.io)
+    nl_NL: Telegram (LinuxServer.io)
+    pl_PL: Telegram (LinuxServer.io)
+    pt_BR: Telegram (LinuxServer.io)
+    ro_RO: Telegram (LinuxServer.io)
+    ru_RU: Telegram (LinuxServer.io)
+    sk_SK: Telegram (LinuxServer.io)
+    sv_SE: Telegram (LinuxServer.io)
+    tr_TR: Telegram (LinuxServer.io)
     zh_CN: Telegram（LinuxServer.io）
+    zh_TW: Telegram（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservertelegram
   port_map: '3000'

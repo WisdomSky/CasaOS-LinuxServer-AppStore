@@ -60,17 +60,92 @@ x-casaos:
   main: app
   description:
     en_US: Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
+    ca_ES: Your_spotify és una aplicació autoallotjada que fa un seguiment del que escoltes i t'ofereix un tauler de control per explorar les estadístiques al respecte! Està composta per un servidor web que consulta l'API de Spotify de tant en tant i una aplicació web on pots explorar les teves estadístiques.
+    cs_CZ: Your_spotify je samostatně hostovaná aplikace, která sleduje, co posloucháte, a nabízí vám přehled statistik o vaší hudbě! Skládá se z webového serveru, který čas od času dotazuje Spotify API, a webové aplikace, ve které si můžete prohlížet statistiky.
+    da_DK: Your_spotify er en selvhostet applikation, der sporer, hvad du lytter til, og tilbyder dig et dashboard, hvor du kan udforske statistik om det! Den består af en webserver, der af og til afstemmer Spotify API'en, og en webapplikation, hvor du kan udforske din statistik.
+    de_DE: Your_spotify ist eine selbstgehostete Anwendung, die Ihre Hörgewohnheiten aufzeichnet und Ihnen ein Dashboard mit entsprechenden Statistiken bietet! Sie besteht aus einem Webserver, der regelmäßig die Spotify-API abfragt, und einer Webanwendung, in der Sie Ihre Statistiken einsehen können.
+    el_GR: Το Your_spotify είναι μια αυτοφιλοξενούμενη εφαρμογή που παρακολουθεί τι ακούτε και σας προσφέρει έναν πίνακα ελέγχου για να εξερευνήσετε στατιστικά στοιχεία σχετικά με αυτό! Αποτελείται από έναν διακομιστή ιστού που πραγματοποιεί έρευνες στο API του Spotify κατά καιρούς και μια εφαρμογή ιστού στην οποία μπορείτε να εξερευνήσετε τα στατιστικά σας.
+    en_GB: Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify Api every now and then and a web application on which you can explore your statistics.
+    es_ES: Your_spotify es una aplicación autoalojada que registra lo que escuchas y te ofrece un panel de control para explorar las estadísticas. Está compuesta por un servidor web que consulta la API de Spotify periódicamente y una aplicación web donde puedes explorar tus estadísticas.
+    fr_FR: Your_spotify est une application auto-hébergée qui enregistre vos écoutes et vous propose un tableau de bord pour consulter vos statistiques. Elle se compose d'un serveur web qui interroge régulièrement l'API Spotify et d'une application web permettant d'accéder à vos statistiques.
+    ga_IE: Is feidhmchlár féinóstáilte é Your_spotify a rianaíonn a bhfuil á éisteacht agat agus a chuireann painéal ar fáil duit chun staitisticí a iniúchadh faoi! Tá sé comhdhéanta de fhreastalaí gréasáin a dhéanann suirbhé ar API Spotify anois is arís agus feidhmchlár gréasáin ar féidir leat do staitisticí a iniúchadh air.
+    hr_HR: Your_spotify je samostalno hostana aplikacija koja prati što slušate i nudi vam nadzornu ploču za istraživanje statistike o tome! Sastoji se od web poslužitelja koji povremeno ispituje Spotify API i web aplikacije na kojoj možete istraživati svoju statistiku.
+    hu_HU: A Your_spotify egy saját tárhelyen futó alkalmazás, amely nyomon követi, hogy mit hallgatsz, és egy irányítópultot kínál a statisztikák megtekintéséhez! Egy webszerverből áll, amely időnként lekérdezi a Spotify API-t, és egy webes alkalmazásból, amelyen megtekintheted a statisztikáidat.
+    it_IT: Your_spotify è un'applicazione self-hosted che tiene traccia di ciò che ascolti e ti offre una dashboard per esplorare le statistiche relative! È composta da un server web che interroga periodicamente l'API di Spotify e da un'applicazione web tramite la quale puoi consultare le tue statistiche.
+    ja_JP: Your_spotifyは、あなたが聴いている音楽を追跡し、その統計情報を確認できるダッシュボードを提供する、セルフホスト型のアプリケーションです。Spotify APIを定期的にポーリングするWebサーバーと、統計情報を確認できるWebアプリケーションで構成されています。
+    ko_KR: Your_spotify는 사용자가 듣는 음악을 추적하고 관련 통계를 확인할 수 있는 대시보드를 제공하는 자체 호스팅 애플리케이션입니다! 이 애플리케이션은 Spotify API를 주기적으로 폴링하는 웹 서버와 통계를 살펴볼 수 있는 웹 애플리케이션으로 구성되어 있습니다.
+    ml_IN: Your_spotify എന്നത് നിങ്ങൾ കേൾക്കുന്നത് ട്രാക്ക് ചെയ്യുകയും അതിനെക്കുറിച്ചുള്ള സ്ഥിതിവിവരക്കണക്കുകൾ പര്യവേക്ഷണം ചെയ്യുന്നതിനുള്ള ഒരു ഡാഷ്‌ബോർഡ് വാഗ്ദാനം ചെയ്യുകയും ചെയ്യുന്ന ഒരു സ്വയം ഹോസ്റ്റ് ചെയ്ത ആപ്ലിക്കേഷനാണ്! ഇടയ്ക്കിടെ Spotify API പോൾ ചെയ്യുന്ന ഒരു വെബ് സെർവറും നിങ്ങളുടെ സ്ഥിതിവിവരക്കണക്കുകൾ പര്യവേക്ഷണം ചെയ്യാൻ കഴിയുന്ന ഒരു വെബ് ആപ്ലിക്കേഷനും ഇതിൽ അടങ്ങിയിരിക്കുന്നു.
+    nb_NO: Your_spotify er en selvhostet applikasjon som sporer hva du lytter til og tilbyr deg et dashbord hvor du kan utforske statistikk om det! Den består av en webserver som av og til sjekker Spotify API-et, og en webapplikasjon der du kan utforske statistikken din.
+    nl_NL: Your_spotify is een zelfgehoste applicatie die bijhoudt waarnaar je luistert en je een dashboard biedt om statistieken hierover te bekijken! Het bestaat uit een webserver die zo nu en dan de Spotify API raadpleegt en een webapplicatie waarop je je statistieken kunt inzien.
+    pl_PL: Your_spotify to samodzielnie hostowana aplikacja, która śledzi to, czego słuchasz, i oferuje panel do przeglądania statystyk! Składa się z serwera WWW, który co jakiś czas odpytuje API Spotify, oraz aplikacji WWW, w której możesz przeglądać swoje statystyki.
+    pt_BR: O Your_spotify é um aplicativo auto-hospedado que monitora o que você ouve e oferece um painel para você explorar as estatísticas! Ele é composto por um servidor web que consulta a API do Spotify periodicamente e um aplicativo web no qual você pode acessar suas estatísticas.
+    ro_RO: Your_spotify este o aplicație auto-găzduită care urmărește ce asculți și îți oferă un tablou de bord pentru a explora statisticile aferente! Este compusă dintr-un server web care verifică API-ul Spotify din când în când și o aplicație web pe care îți poți explora statisticile.
+    ru_RU: Your_spotify — это приложение с самостоятельным размещением, которое отслеживает то, что вы слушаете, и предлагает вам панель управления для просмотра статистики! Оно состоит из веб-сервера, который периодически опрашивает API Spotify, и веб-приложения, в котором вы можете просматривать свою статистику.
+    sk_SK: Your_spotify je samostatne hostovaná aplikácia, ktorá sleduje, čo počúvate, a ponúka vám prehľad štatistík o tom! Skladá sa z webového servera, ktorý občas dotazuje Spotify API, a webovej aplikácie, v ktorej si môžete prezrieť svoje štatistiky.
+    sv_SE: Your_spotify är en egenhostad applikation som spårar vad du lyssnar på och erbjuder dig en instrumentpanel för att utforska statistik om det! Den består av en webbserver som då och då kontrollerar Spotifys API och en webbapplikation där du kan utforska din statistik.
+    tr_TR: Your_spotify, dinlediklerinizi takip eden ve istatistiklerinizi inceleyebileceğiniz bir kontrol paneli sunan, kendi sunucunuzda barındırdığınız bir uygulamadır! Spotify API'sini belirli aralıklarla sorgulayan bir web sunucusu ve istatistiklerinizi inceleyebileceğiniz bir web uygulamasından oluşmaktadır.
     zh_CN: Your_spotify 是一款可自行托管的应用，可追踪你的收听记录，并提供统计探索面板。它由定期查询 Spotify API 的网页服务器，以及用于查看统计信息的网页应用组成。
+    zh_TW: Your_spotify 是一款可自行託管的應用，可追蹤你的收聽記錄，並提供統計探索麵板。它由定期查詢 Spotify API 的網頁伺服器，以及用於檢視統計資訊的網頁應用組成。
   tagline:
     en_US: A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics.
+    ca_ES: Una aplicació autoallotjada que fa un seguiment del que escoltes i t'ofereix un tauler de control per explorar estadístiques al respecte. Està composta per un servidor web que consulta l'API de Spotify de tant en tant i una aplicació web on pots explorar les teves estadístiques.
+    cs_CZ: Aplikace hostovaná na vlastním serveru, která sleduje, co posloucháte, a nabízí vám přehled statistik o vaší hudbě. Skládá se z webového serveru, který čas od času dotazuje Spotify API, a webové aplikace, ve které si můžete prohlížet statistiky.
+    da_DK: En selvhostet applikation, der sporer, hvad du lytter til, og tilbyder dig et dashboard, hvor du kan udforske statistik om det. Den består af en webserver, der af og til afstemmer Spotify API'en, og en webapplikation, hvor du kan udforske din statistik.
+    de_DE: Eine selbstgehostete Anwendung, die Ihre Hörgewohnheiten aufzeichnet und Ihnen ein Dashboard mit entsprechenden Statistiken bietet. Sie besteht aus einem Webserver, der regelmäßig die Spotify-API abfragt, und einer Webanwendung, in der Sie Ihre Statistiken einsehen können.
+    el_GR: Μια αυτο-φιλοξενούμενη εφαρμογή που παρακολουθεί τι ακούτε και σας προσφέρει έναν πίνακα ελέγχου για να εξερευνήσετε στατιστικά στοιχεία σχετικά με αυτό. Αποτελείται από έναν διακομιστή ιστού που πραγματοποιεί ραντεβού με το API του Spotify κατά καιρούς και μια εφαρμογή ιστού στην οποία μπορείτε να εξερευνήσετε τα στατιστικά σας.
+    en_GB: A self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it. It's composed of a web server which polls the Spotify Api every now and then and a web application on which you can explore your statistics.
+    es_ES: Una aplicación autoalojada que registra lo que escuchas y te ofrece un panel de control para explorar las estadísticas. Se compone de un servidor web que consulta la API de Spotify periódicamente y una aplicación web donde puedes explorar tus estadísticas.
+    fr_FR: Une application auto-hébergée qui enregistre vos écoutes et vous propose un tableau de bord pour consulter les statistiques. Elle se compose d'un serveur web qui interroge régulièrement l'API Spotify et d'une application web permettant d'accéder à vos statistiques.
+    ga_IE: Feidhmchlár féinóstáilte a rianaíonn a bhfuil á éisteacht agat leis agus a chuireann painéal ar fáil duit chun staitisticí a iniúchadh faoi. Tá sé comhdhéanta de fhreastalaí gréasáin a dhéanann suirbhé ar API Spotify ó am go ham agus feidhmchlár gréasáin ar féidir leat do staitisticí a iniúchadh air.
+    hr_HR: Samostalno hostana aplikacija koja prati što slušate i nudi vam nadzornu ploču za istraživanje statistike o tome. Sastoji se od web poslužitelja koji povremeno ispituje Spotify API i web aplikacije na kojoj možete istražiti svoju statistiku.
+    hu_HU: Egy saját tárhelyen futó alkalmazás, amely nyomon követi, hogy mit hallgatsz, és egy irányítópultot kínál a statisztikák megtekintéséhez. Egy webszerverből áll, amely időnként lekérdezi a Spotify API-t, és egy webes alkalmazásból, amelyen megtekintheted a statisztikáidat.
+    it_IT: Un'applicazione self-hosted che tiene traccia di ciò che ascolti e ti offre una dashboard per esplorare le statistiche relative. È composta da un server web che interroga periodicamente l'API di Spotify e da un'applicazione web tramite la quale puoi consultare le tue statistiche.
+    ja_JP: ユーザーが聴いている音楽を追跡し、その統計情報を確認できるダッシュボードを提供する、セルフホスト型のアプリケーションです。Spotify APIを定期的にポーリングするWebサーバーと、統計情報を確認できるWebアプリケーションで構成されています。
+    ko_KR: 사용자가 무엇을 듣는지 추적하고 관련 통계를 살펴볼 수 있는 대시보드를 제공하는 자체 호스팅 애플리케이션입니다. 주기적으로 Spotify API를 폴링하는 웹 서버와 통계를 확인할 수 있는 웹 애플리케이션으로 구성되어 있습니다.
+    ml_IN: നിങ്ങൾ കേൾക്കുന്നത് ട്രാക്ക് ചെയ്യുകയും അതിനെക്കുറിച്ചുള്ള സ്ഥിതിവിവരക്കണക്കുകൾ പര്യവേക്ഷണം ചെയ്യുന്നതിനുള്ള ഒരു ഡാഷ്‌ബോർഡ് വാഗ്ദാനം ചെയ്യുകയും ചെയ്യുന്ന ഒരു സ്വയം ഹോസ്റ്റഡ് ആപ്ലിക്കേഷൻ. ഇടയ്ക്കിടെ സ്‌പോട്ടിഫൈ API പോൾ ചെയ്യുന്ന ഒരു വെബ് സെർവറും നിങ്ങളുടെ സ്ഥിതിവിവരക്കണക്കുകൾ പര്യവേക്ഷണം ചെയ്യാൻ കഴിയുന്ന ഒരു വെബ് ആപ്ലിക്കേഷനും ഇതിൽ അടങ്ങിയിരിക്കുന്നു.
+    nb_NO: En selvhostet applikasjon som sporer hva du lytter til og tilbyr deg et dashbord for å utforske statistikk om det. Den består av en webserver som av og til sjekker Spotify API, og en webapplikasjon der du kan utforske statistikken din.
+    nl_NL: Een zelfgehoste applicatie die bijhoudt waarnaar je luistert en je een dashboard biedt om statistieken hierover te bekijken. Het bestaat uit een webserver die regelmatig de Spotify API raadpleegt en een webapplicatie waarop je je statistieken kunt inzien.
+    pl_PL: Samodzielnie hostowana aplikacja, która śledzi, czego słuchasz, i oferuje panel do przeglądania statystyk. Składa się z serwera WWW, który co jakiś czas odpytuje API Spotify, oraz aplikacji WWW, w której możesz przeglądać swoje statystyki.
+    pt_BR: Um aplicativo auto-hospedado que monitora o que você ouve e oferece um painel para explorar estatísticas sobre isso. É composto por um servidor web que consulta a API do Spotify periodicamente e um aplicativo web no qual você pode explorar suas estatísticas.
+    ro_RO: O aplicație auto-găzduită care urmărește ce asculți și îți oferă un tablou de bord pentru a explora statisticile aferente. Este compusă dintr-un server web care verifică API-ul Spotify din când în când și o aplicație web pe care poți explora statisticile tale.
+    ru_RU: Приложение с возможностью самостоятельного размещения, которое отслеживает ваши прослушиваемые треки и предоставляет панель управления для просмотра статистики. Оно состоит из веб-сервера, который периодически опрашивает API Spotify, и веб-приложения, в котором вы можете просматривать свою статистику.
+    sk_SK: Aplikácia s vlastným hostingom, ktorá sleduje, čo počúvate, a ponúka vám prehľad štatistík o tejto hudbe. Pozostáva z webového servera, ktorý občas dotazuje Spotify API, a webovej aplikácie, v ktorej si môžete prezrieť svoje štatistiky.
+    sv_SE: En egenhostad applikation som spårar vad du lyssnar på och erbjuder dig en instrumentpanel för att utforska statistik om det. Den består av en webbserver som då och då kontrollerar Spotifys API och en webbapplikation där du kan utforska din statistik.
+    tr_TR: Dinlediğiniz müzikleri takip eden ve istatistikleri inceleyebileceğiniz bir kontrol paneli sunan, kendi sunucunuzda barındırdığınız bir uygulama. Spotify API'sini belirli aralıklarla sorgulayan bir web sunucusu ve istatistiklerinizi inceleyebileceğiniz bir web uygulamasından oluşmaktadır.
     zh_CN: 自行托管的 Spotify 收听统计面板。
+    zh_TW: 自行託管的 Spotify 收聽統計面板。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/your_spotify-logo.png
   title:
     en_US: Your_spotify (LinuxServer.io)
+    ca_ES: Your_spotify (LinuxServer.io)
+    cs_CZ: Your_spotify (LinuxServer.io)
+    da_DK: Your_spotify (LinuxServer.io)
+    de_DE: Your_spotify (LinuxServer.io)
+    el_GR: Your_spotify (LinuxServer.io)
+    en_GB: Your_spotify (LinuxServer.io)
+    es_ES: Your_spotify (LinuxServer.io)
+    fr_FR: Your_spotify (LinuxServer.io)
+    ga_IE: Your_spotify (LinuxServer.io)
+    hr_HR: Your_spotify (LinuxServer.io)
+    hu_HU: Your_spotify (LinuxServer.io)
+    it_IT: Your_spotify (LinuxServer.io)
+    ja_JP: Your_spotify (LinuxServer.io)
+    ko_KR: Your_spotify (LinuxServer.io)
+    ml_IN: Your_spotify (LinuxServer.io)
+    nb_NO: Your_spotify (LinuxServer.io)
+    nl_NL: Your_spotify (LinuxServer.io)
+    pl_PL: Your_spotify (LinuxServer.io)
+    pt_BR: Your_spotify (LinuxServer.io)
+    ro_RO: Your_spotify (LinuxServer.io)
+    ru_RU: Your_spotify (LinuxServer.io)
+    sk_SK: Your_spotify (LinuxServer.io)
+    sv_SE: Your_spotify (LinuxServer.io)
+    tr_TR: Your_spotify (LinuxServer.io)
     zh_CN: Your_spotify（LinuxServer.io）
+    zh_TW: Your_spotify（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveryourspotify
   port_map: '80'

@@ -83,9 +83,62 @@ x-casaos:
       Netboot.xyz 可通过 PXE，在 BIOS 中从一个入口启动多种操作系统安装器或工具，无需另行寻找启动介质。它使用 iPXE 提供友好的菜单，便于选择操作系统、特定版本和启动参数。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/netbootxyz/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    es_ES: 'Visite la página principal: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/netbootxyz/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/netbootxyz/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/netbootxyz/'
+    zh_TW: |-
+      Netboot.xyz 可透過 PXE，在 BIOS 中從一個入口啟動多種作業系統安裝器或工具，無需另行尋找啟動介質。它使用 iPXE 提供友好的選單，便於選擇作業系統、特定版本和啟動引數。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/netbootxyz/
   tagline:
     en_US: 'A way to PXE boot various operating system installers or utilities from one place within the BIOS without the need of having to go retrieve the media to run the tool. IPXE is used to provide a user friendly menu from within the BIOS that lets you easily choose the operating system you want along with any specific types of versions or bootable flags. '
     zh_CN: 通过 PXE 网络启动多种系统安装器和工具。
+    ca_ES: Una manera d'arrencar PXE diversos instal·ladors o utilitats del sistema operatiu des d'un sol lloc dins de la BIOS sense haver d'anar a recuperar el suport per executar l'eina. IPXE s'utilitza per proporcionar un menú fàcil d'utilitzar des de la BIOS que permet triar fàcilment el sistema operatiu que es vol juntament amb qualsevol tipus específic de versió o indicador d'arrencada.
+    cs_CZ: Způsob, jak spustit různé instalační programy nebo utility operačního systému pomocí PXE z jednoho místa v systému BIOS, aniž by bylo nutné vyhledat médium pro spuštění nástroje. IPXE se používá k poskytnutí uživatelsky přívětivé nabídky v systému BIOS, která umožňuje snadno vybrat požadovaný operační systém spolu s případnými konkrétními typy verzí nebo bootovacími příznaky.
+    da_DK: En måde at PXE-starte forskellige operativsysteminstallationsprogrammer eller værktøjer fra ét sted i BIOS uden at skulle hente mediet for at køre værktøjet. IPXE bruges til at give en brugervenlig menu i BIOS, der giver dig mulighed for nemt at vælge det ønskede operativsystem sammen med specifikke versionstyper eller bootbare flag.
+    de_DE: IPXE ermöglicht das Booten verschiedener Betriebssystem-Installationsprogramme oder -Dienstprogramme per PXE direkt vom BIOS aus, ohne dass die Installationsmedien benötigt werden. IPXE bietet ein benutzerfreundliches Menü im BIOS, über das Sie das gewünschte Betriebssystem sowie spezifische Versionen oder Boot-Optionen auswählen können.
+    el_GR: Ένας τρόπος για την εκκίνηση μέσω PXE διαφόρων προγραμμάτων εγκατάστασης ή βοηθητικών προγραμμάτων λειτουργικών συστημάτων από ένα σημείο μέσα στο BIOS χωρίς να χρειάζεται να ανακτήσετε το μέσο για να εκτελέσετε το εργαλείο. Το IPXE χρησιμοποιείται για να παρέχει ένα φιλικό προς το χρήστη μενού μέσα από το BIOS που σας επιτρέπει να επιλέξετε εύκολα το λειτουργικό σύστημα που θέλετε μαζί με τυχόν συγκεκριμένους τύπους εκδόσεων ή σημαίες εκκίνησης.
+    en_GB: 'A way to Pxe boot various operating system installers or utilities from one place within the Bios without the need of having to go retrieve the media to run the tool. Ipxe is used to provide a user friendly menu from within the Bios that lets you easily choose the operating system you want along with any specific types of versions or bootable flags. '
+    es_ES: Una forma de arrancar mediante PXE diversos instaladores o utilidades del sistema operativo desde un único lugar en la BIOS, sin necesidad de acceder al medio de instalación. IPXE proporciona un menú intuitivo en la BIOS que permite seleccionar fácilmente el sistema operativo deseado, junto con versiones específicas o indicadores de arranque.
+    fr_FR: IPXE permet de démarrer différents programmes d'installation de systèmes d'exploitation ou utilitaires directement depuis le BIOS, sans avoir à extraire le support d'installation. Ce protocole offre un menu convivial au sein du BIOS, permettant de sélectionner facilement le système d'exploitation souhaité, ainsi que sa version et ses options de démarrage.
+    ga_IE: Bealach chun suiteálaithe nó fóntais éagsúla córas oibriúcháin a thosú le PXE ó áit amháin laistigh den BIOS gan an gá na meáin a aisghabháil chun an uirlis a rith. Úsáidtear IPXE chun roghchlár atá furasta le húsáid a sholáthar laistigh den BIOS a ligeann duit an córas oibriúcháin is mian leat a roghnú go héasca mar aon le haon chineálacha sonracha leaganacha nó bratacha tosaithe.
+    hr_HR: Način PXE pokretanja raznih instalacijskih programa ili uslužnih programa operativnog sustava s jednog mjesta unutar BIOS-a bez potrebe za dohvaćanjem medija za pokretanje alata. IPXE se koristi za pružanje korisničkog izbornika unutar BIOS-a koji vam omogućuje jednostavan odabir željenog operativnog sustava zajedno sa svim specifičnim vrstama verzija ili zastavicama za pokretanje.
+    hu_HU: Egy módszer arra, hogy különféle operációsrendszer-telepítőket vagy segédprogramokat PXE-vel, egyetlen helyről indítsunk a BIOS-on belül anélkül, hogy az eszköz futtatásához le kellene kérni az adathordozót. Az IPXE egy felhasználóbarát menü biztosítására szolgál a BIOS-on belül, amely lehetővé teszi a kívánt operációs rendszer egyszerű kiválasztását, valamint a konkrét verziókat vagy a rendszerindítási jelzőket.
+    it_IT: Un metodo per avviare tramite PXE vari programmi di installazione o utilità del sistema operativo da un'unica posizione all'interno del BIOS, senza la necessità di recuperare il supporto di installazione. IPXE viene utilizzato per fornire un menu intuitivo all'interno del BIOS che consente di scegliere facilmente il sistema operativo desiderato, insieme a eventuali versioni specifiche o flag di avvio.
+    ja_JP: BIOS内の1か所から、様々なオペレーティングシステムのインストーラーやユーティリティをPXEブートする方法です。ツールを実行するためにメディアを取り出す必要はありません。IPXEは、BIOS内からユーザーフレンドリーなメニューを提供し、必要なオペレーティングシステム、特定のバージョン、またはブートフラグを簡単に選択できるようにします。
+    ko_KR: IPXE는 BIOS에서 한 곳에서 다양한 운영 체제 설치 프로그램이나 유틸리티를 PXE 부팅하는 방법으로, 설치 미디어를 꺼내서 실행할 필요가 없습니다. IPXE는 BIOS 내에서 사용자 친화적인 메뉴를 제공하여 원하는 운영 체제와 특정 버전 또는 부팅 플래그를 쉽게 선택할 수 있도록 해줍니다.
+    ml_IN: ബയോസിനുള്ളിൽ തന്നെ വിവിധ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം ഇൻസ്റ്റാളറുകളോ യൂട്ടിലിറ്റികളോ ഒരു സ്ഥലത്ത് നിന്ന് തന്നെ PXE ബൂട്ട് ചെയ്യുന്നതിനുള്ള ഒരു മാർഗം, ഉപകരണം പ്രവർത്തിപ്പിക്കുന്നതിന് മീഡിയ വീണ്ടെടുക്കേണ്ട ആവശ്യമില്ല. നിങ്ങൾക്ക് ആവശ്യമുള്ള ഓപ്പറേറ്റിംഗ് സിസ്റ്റം, ഏതെങ്കിലും പ്രത്യേക തരം പതിപ്പുകൾ അല്ലെങ്കിൽ ബൂട്ടബിൾ ഫ്ലാഗുകൾ എന്നിവ എളുപ്പത്തിൽ തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്ന ഒരു ഉപയോക്തൃ സൗഹൃദ മെനു BIOS-ൽ നിന്ന് നൽകുന്നതിന് IPXE ഉപയോഗിക്കുന്നു.
+    nb_NO: En måte å PXE-oppstarte diverse operativsysteminstallasjonsprogrammer eller verktøy fra ett sted i BIOS uten å måtte hente mediet for å kjøre verktøyet. IPXE brukes til å gi en brukervennlig meny fra BIOS som lar deg enkelt velge operativsystemet du ønsker, sammen med spesifikke versjonstyper eller oppstartbare flagg.
+    nl_NL: IPXE biedt een gebruiksvriendelijk menu in het BIOS waarmee je via PXE verschillende installatieprogramma's of hulpprogramma's voor besturingssystemen kunt starten, zonder dat je de installatiemedia hoeft te pakken. IPXE maakt het mogelijk om eenvoudig het gewenste besturingssysteem te selecteren, inclusief eventuele specifieke versies of opstartopties.
+    pl_PL: Sposób na uruchomienie instalatorów lub narzędzi różnych systemów operacyjnych w trybie PXE z jednego miejsca w BIOS-ie, bez konieczności pobierania nośnika w celu uruchomienia narzędzia. IPXE zapewnia przyjazne dla użytkownika menu w BIOS-ie, które pozwala łatwo wybrać system operacyjny wraz z konkretnymi wersjami lub flagami rozruchowymi.
+    pt_BR: O IPXE permite inicializar vários instaladores de sistemas operacionais ou utilitários via PXE a partir de um único local na BIOS, sem a necessidade de acessar a mídia para executar a ferramenta. Ele oferece um menu intuitivo na BIOS que facilita a escolha do sistema operacional desejado, juntamente com versões específicas ou opções de inicialização.
+    ro_RO: O modalitate de a boota prin PXE diverse programe de instalare sau utilitare ale sistemului de operare dintr-un singur loc în BIOS, fără a fi nevoie să recuperați mediul de stocare pentru a rula instrumentul. IPXE este utilizat pentru a oferi un meniu ușor de utilizat din BIOS, care vă permite să alegeți cu ușurință sistemul de operare dorit, împreună cu orice tipuri specifice de versiuni sau semnalizatoare de bootare.
+    ru_RU: IPXE — это способ загрузки различных установщиков операционных систем или утилит из одного места в BIOS без необходимости извлекать установочные носители для запуска инструмента. IPXE используется для предоставления удобного меню в BIOS, которое позволяет легко выбрать нужную операционную систему, а также любые конкретные типы версий или загрузочные флаги.
+    sk_SK: Spôsob, ako spustiť rôzne inštalačné programy alebo nástroje operačného systému pomocou PXE z jedného miesta v systéme BIOS bez nutnosti načítavať médium na spustenie nástroja. IPXE sa používa na poskytnutie užívateľsky prívetivého menu v systéme BIOS, ktoré vám umožňuje jednoducho vybrať požadovaný operačný systém spolu s akýmikoľvek konkrétnymi typmi verzií alebo bootovacími príznakmi.
+    sv_SE: Ett sätt att PXE-starta olika installationsprogram eller verktyg för operativsystem från ett ställe i BIOS utan att behöva hämta media för att köra verktyget. IPXE används för att tillhandahålla en användarvänlig meny inifrån BIOS som låter dig enkelt välja önskat operativsystem tillsammans med specifika versionstyper eller startbara flaggor.
+    tr_TR: IPXE, işletim sistemi yükleyicilerini veya yardımcı programlarını, aracı çalıştırmak için medyayı almaya gerek kalmadan, BIOS içinden tek bir yerden PXE önyükleme yöntemiyle çalıştırmanın bir yoludur. IPXE, BIOS içinden kullanıcı dostu bir menü sağlayarak, istediğiniz işletim sistemini ve belirli sürüm türlerini veya önyüklenebilir bayrakları kolayca seçmenize olanak tanır.
+    zh_TW: 透過 PXE 網路啟動多種系統安裝器和工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/netbootxyz.png
@@ -93,6 +146,31 @@ x-casaos:
   title:
     en_US: Netbootxyz
     zh_CN: Netbootxyz
+    ca_ES: Netbootxyz
+    cs_CZ: Netbootxyz
+    da_DK: Netbootxyz
+    de_DE: Netbootxyz
+    el_GR: Netbootxyz
+    en_GB: Netbootxyz
+    es_ES: Netbootxyz
+    fr_FR: Netbootxyz
+    ga_IE: Netbootxyz
+    hr_HR: Netbootxyz
+    hu_HU: Netbootxyz
+    it_IT: Netbootxyz
+    ja_JP: Netbootxyz
+    ko_KR: Netbootxyz
+    ml_IN: Netbootxyz
+    nb_NO: Netbootxyz
+    nl_NL: Netbootxyz
+    pl_PL: Netbootxyz
+    pt_BR: Netbootxyz
+    ro_RO: Netbootxyz
+    ru_RU: Netbootxyz
+    sk_SK: Netbootxyz
+    sv_SE: Netbootxyz
+    tr_TR: Netbootxyz
+    zh_TW: Netbootxyz
   category: Others
   project_url: https://netboot.xyz/
   port_map: '3000'

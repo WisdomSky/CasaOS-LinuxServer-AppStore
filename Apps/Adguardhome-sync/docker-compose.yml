@@ -37,17 +37,92 @@ x-casaos:
   main: app
   description:
     en_US: Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.
+    ca_ES: Adguardhome-sync és una eina per sincronitzar la configuració d'AdGuardHome amb instàncies de rèplica.
+    cs_CZ: Adguardhome-sync je nástroj pro synchronizaci konfigurace AdGuardHome s replikovanými instancemi.
+    da_DK: Adguardhome-sync er et værktøj til at synkronisere AdGuardHome-konfiguration med replika-instanser.
+    de_DE: Adguardhome-sync ist ein Tool zum Synchronisieren der AdGuardHome-Konfiguration mit Replikatinstanzen.
+    el_GR: Το Adguardhome-sync είναι ένα εργαλείο για τον συγχρονισμό της διαμόρφωσης του AdGuardHome με αντίγραφα παρουσιών.
+    en_GB: Adguardhome-sync is a tool to synchronise Adguardhome config to replica instances.
+    es_ES: Adguardhome-sync es una herramienta para sincronizar la configuración de AdGuardHome con las instancias de réplica.
+    fr_FR: Adguardhome-sync est un outil permettant de synchroniser la configuration d'AdGuardHome avec les instances répliquées.
+    ga_IE: Is uirlis é Adguardhome-sync chun cumraíocht AdGuardHome a shioncrónú le cóipeanna macasamhla.
+    hr_HR: Adguardhome-sync je alat za sinkronizaciju AdGuardHome konfiguracije s replikama instanci.
+    hu_HU: Az Adguardhome-sync egy eszköz az AdGuardHome konfigurációjának szinkronizálására a replika példányokkal.
+    it_IT: Adguardhome-sync è uno strumento per sincronizzare la configurazione di AdGuardHome con le istanze di replica.
+    ja_JP: Adguardhome-syncは、AdGuardHomeの設定をレプリカインスタンスに同期するためのツールです。
+    ko_KR: Adguardhome-sync는 AdGuardHome 구성을 복제 인스턴스와 동기화하는 도구입니다.
+    ml_IN: AdGuardhome-sync എന്നത് AdGuardHome കോൺഫിഗറേഷനെ പകർപ്പെടുക്കൽ സന്ദർഭങ്ങളിലേക്ക് സമന്വയിപ്പിക്കുന്നതിനുള്ള ഒരു ഉപകരണമാണ്.
+    nb_NO: Adguardhome-sync er et verktøy for å synkronisere AdGuardHome-konfigurasjon med replikaforekomster.
+    nl_NL: Adguardhome-sync is een tool om de AdGuardHome-configuratie te synchroniseren met replica-instanties.
+    pl_PL: Adguardhome-sync to narzędzie umożliwiające synchronizację konfiguracji AdGuardHome z replikami.
+    pt_BR: O Adguardhome-sync é uma ferramenta para sincronizar a configuração do AdGuardHome com instâncias de réplica.
+    ro_RO: Adguardhome-sync este un instrument pentru sincronizarea configurației AdGuardHome cu instanțele replică.
+    ru_RU: Adguardhome-sync — это инструмент для синхронизации конфигурации AdGuardHome с реплицированными экземплярами.
+    sk_SK: Adguardhome-sync je nástroj na synchronizáciu konfigurácie AdGuardHome s replikačnými inštanciami.
+    sv_SE: Adguardhome-sync är ett verktyg för att synkronisera AdGuardHome-konfigurationen till replikinstanser.
+    tr_TR: Adguardhome-sync, AdGuardHome yapılandırmasını çoğaltma örnekleriyle senkronize etmek için kullanılan bir araçtır.
     zh_CN: Adguardhome-sync 是一个将 AdGuard Home 配置同步到副本实例的工具。
+    zh_TW: Adguardhome-sync 是一個將 AdGuard Home 配置同步到副本例項的工具。
   tagline:
     en_US: A tool to synchronize AdGuardHome config to replica instances.
+    ca_ES: Una eina per sincronitzar la configuració d'AdGuardHome amb les instàncies de rèplica.
+    cs_CZ: Nástroj pro synchronizaci konfigurace AdGuardHome s replikovanými instancemi.
+    da_DK: Et værktøj til at synkronisere AdGuardHome-konfiguration med replika-instanser.
+    de_DE: Ein Tool zur Synchronisierung der AdGuardHome-Konfiguration mit Replikatinstanzen.
+    el_GR: Ένα εργαλείο για τον συγχρονισμό της διαμόρφωσης του AdGuardHome με αντίγραφα παρουσιών.
+    en_GB: A tool to synchronise Adguardhome config to replica instances.
+    es_ES: Una herramienta para sincronizar la configuración de AdGuardHome con las instancias de réplica.
+    fr_FR: Un outil permettant de synchroniser la configuration d'AdGuardHome avec les instances répliquées.
+    ga_IE: Uirlis chun cumraíocht AdGuardHome a shioncrónú le cóipeanna macasamhla.
+    hr_HR: Alat za sinkronizaciju AdGuardHome konfiguracije s replikama instanci.
+    hu_HU: Egy eszköz az AdGuardHome konfigurációjának szinkronizálásához a replika példányokkal.
+    it_IT: Uno strumento per sincronizzare la configurazione di AdGuardHome con le istanze di replica.
+    ja_JP: AdGuardHomeの設定をレプリカインスタンスに同期するためのツール。
+    ko_KR: AdGuardHome 설정을 복제 인스턴스와 동기화하는 도구입니다.
+    ml_IN: AdGuardHome കോൺഫിഗറേഷൻ പകർപ്പെടുക്കൽ സംഭവങ്ങളിലേക്ക് സമന്വയിപ്പിക്കുന്നതിനുള്ള ഒരു ഉപകരണം.
+    nb_NO: Et verktøy for å synkronisere AdGuardHome-konfigurasjon med replikaforekomster.
+    nl_NL: Een tool om de AdGuardHome-configuratie te synchroniseren met replica-instanties.
+    pl_PL: Narzędzie umożliwiające synchronizację konfiguracji AdGuardHome z replikami.
+    pt_BR: Uma ferramenta para sincronizar a configuração do AdGuardHome com instâncias de réplica.
+    ro_RO: Un instrument pentru sincronizarea configurației AdGuardHome cu instanțele replică.
+    ru_RU: Инструмент для синхронизации конфигурации AdGuardHome с репликами.
+    sk_SK: Nástroj na synchronizáciu konfigurácie AdGuardHome s replikačnými inštanciami.
+    sv_SE: Ett verktyg för att synkronisera AdGuardHome-konfigurationen till replikinstanser.
+    tr_TR: AdGuardHome yapılandırmasını çoğaltma örnekleriyle senkronize etmek için kullanılan bir araç.
     zh_CN: 在多个实例之间同步 AdGuard Home 配置。
+    zh_TW: 在多個例項之間同步 AdGuard Home 配置。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png
   title:
     en_US: Adguardhome sync (LinuxServer.io)
+    ca_ES: Adguardhome sync (LinuxServer.io)
+    cs_CZ: Adguardhome sync (LinuxServer.io)
+    da_DK: Adguardhome sync (LinuxServer.io)
+    de_DE: Adguardhome sync (LinuxServer.io)
+    el_GR: Adguardhome sync (LinuxServer.io)
+    en_GB: Adguardhome sync (LinuxServer.io)
+    es_ES: Adguardhome sync (LinuxServer.io)
+    fr_FR: Adguardhome sync (LinuxServer.io)
+    ga_IE: Adguardhome sync (LinuxServer.io)
+    hr_HR: Adguardhome sync (LinuxServer.io)
+    hu_HU: Adguardhome sync (LinuxServer.io)
+    it_IT: Adguardhome sync (LinuxServer.io)
+    ja_JP: Adguardhome sync (LinuxServer.io)
+    ko_KR: Adguardhome sync (LinuxServer.io)
+    ml_IN: Adguardhome sync (LinuxServer.io)
+    nb_NO: Adguardhome sync (LinuxServer.io)
+    nl_NL: Adguardhome sync (LinuxServer.io)
+    pl_PL: Adguardhome sync (LinuxServer.io)
+    pt_BR: Adguardhome sync (LinuxServer.io)
+    ro_RO: Adguardhome sync (LinuxServer.io)
+    ru_RU: Adguardhome sync (LinuxServer.io)
+    sk_SK: Adguardhome sync (LinuxServer.io)
+    sv_SE: Adguardhome sync (LinuxServer.io)
+    tr_TR: Adguardhome sync (LinuxServer.io)
     zh_CN: Adguardhome sync（LinuxServer.io）
+    zh_TW: Adguardhome sync（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveradguardhomesync
   port_map: '8080'

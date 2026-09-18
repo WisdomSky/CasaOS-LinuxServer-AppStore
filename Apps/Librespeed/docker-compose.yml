@@ -69,17 +69,92 @@ x-casaos:
   main: app
   description:
     en_US: Librespeed is a very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
+    ca_ES: Librespeed és un test de velocitat molt lleuger implementat en Javascript, utilitzant XMLHttpRequest i Web Workers. Sense Flash, sense Java, sense Websocket, sense bajanades.
+    cs_CZ: Librespeed je velmi lehký Speedtest implementovaný v Javascriptu, který používá XMLHttpRequest a Web Workers. Žádný Flash, žádná Java, žádný Websocket, žádné kecy.
+    da_DK: Librespeed er en meget let Speedtest implementeret i Javascript, der bruger XMLHttpRequest og Web Workers. Ingen Flash, ingen Java, ingen Websocket, intet vrøvl.
+    de_DE: Librespeed ist ein extrem schlanker Geschwindigkeitstest, der in JavaScript implementiert ist und XMLHttpRequest sowie Web Worker nutzt. Kein Flash, kein Java, kein WebSocket, kein Schnickschnack.
+    el_GR: Το Librespeed είναι ένα πολύ ελαφρύ Speedtest που υλοποιείται σε Javascript, χρησιμοποιώντας XMLHttpRequest και Web Workers. Χωρίς Flash, χωρίς Java, χωρίς Websocket, χωρίς ανοησίες.
+    en_GB: Librespeed is a very lightweight Speedtest implemented in Javascript, using Xmlhttprequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
+    es_ES: Librespeed es una prueba de velocidad muy ligera implementada en Javascript, que utiliza XMLHttpRequest y Web Workers. Sin Flash, sin Java, sin Websockets, sin complicaciones.
+    fr_FR: Librespeed est un test de vitesse très léger, implémenté en JavaScript, utilisant XMLHttpRequest et les Web Workers. Sans Flash, sans Java, sans WebSocket, sans fioritures.
+    ga_IE: Is tástáil luas an-éadrom é Librespeed atá curtha i bhfeidhm i Javascript, ag baint úsáide as XMLHttpRequest agus Web Workers. Gan Flash, Gan Java, Gan Websocket, Gan Bhriathra.
+    hr_HR: Librespeed je vrlo lagani Speedtest implementiran u Javascriptu, koristeći XMLHttpRequest i Web Workere. Bez Flasha, bez Jave, bez Websocketa, bez gluposti.
+    hu_HU: A Librespeed egy nagyon könnyűsúlyú sebességteszt, amely Javascriptben van megvalósítva, XMLHttpRequest és Web Workers használatával. Nincs Flash, nincs Java, nincs Websocket, nincs baromság.
+    it_IT: Librespeed è un test di velocità estremamente leggero, implementato in Javascript, che utilizza XMLHttpRequest e Web Workers. Niente Flash, niente Java, niente WebSocket, niente fronzoli.
+    ja_JP: Librespeedは、XMLHttpRequestとWeb Workersを使用してJavaScriptで実装された、非常に軽量なスピードテストツールです。Flash、Java、WebSocketは一切使用していません。余計なものは一切不要です。
+    ko_KR: Librespeed는 XMLHttpRequest와 Web Workers를 사용하여 JavaScript로 구현된 매우 가벼운 속도 테스트 프로그램입니다. Flash, Java, WebSocket 등 불필요한 기술은 전혀 사용하지 않았습니다.
+    ml_IN: XMLHttpRequest ഉം വെബ് വർക്കറുകളും ഉപയോഗിച്ച് ജാവാസ്ക്രിപ്റ്റിൽ നടപ്പിലാക്കിയ വളരെ ഭാരം കുറഞ്ഞ സ്പീഡ് ടെസ്റ്റാണ് ലിബ്രെസ്പീഡ്. ഫ്ലാഷ് ഇല്ല, ജാവ ഇല്ല, വെബ്‌സോക്കറ്റ് ഇല്ല, ബുൾഷിറ്റ് ഇല്ല.
+    nb_NO: Librespeed er en veldig lettvekts hastighetstest implementert i Javascript, ved hjelp av XMLHttpRequest og Web Workers. Ingen Flash, ingen Java, ingen Websocket, ikke noe tull.
+    nl_NL: Librespeed is een zeer lichtgewicht snelheidstest, geïmplementeerd in JavaScript met behulp van XMLHttpRequest en Web Workers. Geen Flash, geen Java, geen WebSocket, geen onzin.
+    pl_PL: Librespeed to bardzo lekki test prędkości zaimplementowany w Javascript, wykorzystujący XMLHttpRequest i Web Workers. Bez Flasha, Javy, Websocketów i innych pierdół.
+    pt_BR: Librespeed é um teste de velocidade muito leve implementado em Javascript, usando XMLHttpRequest e Web Workers. Sem Flash, sem Java, sem Websocket, sem complicações.
+    ro_RO: Librespeed este un test de viteză foarte ușor implementat în Javascript, folosind XMLHttpRequest și Web Workers. Fără Flash, fără Java, fără Websocket, fără prostii.
+    ru_RU: Librespeed — это очень легковесный тест скорости, реализованный на JavaScript с использованием XMLHttpRequest и Web Workers. Никакого Flash, никакого Java, никаких Websocket, никакой ерунды.
+    sk_SK: Librespeed je veľmi ľahký Speedtest implementovaný v Javascripte, ktorý používa XMLHttpRequest a Web Workers. Žiadny Flash, žiadna Java, žiadny Websocket, žiadne kecy.
+    sv_SE: Librespeed är ett mycket lättviktigt hastighetstest implementerat i Javascript, med XMLHttpRequest och Web Workers. Ingen Flash, ingen Java, ingen Websocket, inget skitsnack.
+    tr_TR: Librespeed, XMLHttpRequest ve Web Workers kullanan, Javascript ile geliştirilmiş çok hafif bir hız testi aracıdır. Flash yok, Java yok, WebSocket yok, gereksiz hiçbir şey yok.
     zh_CN: LibreSpeed 是用 JavaScript 实现的轻量测速工具，使用 XMLHttpRequest 和 Web Workers，不依赖 Flash、Java 或 WebSocket，简洁直接。
+    zh_TW: LibreSpeed 是用 JavaScript 實現的輕量測速工具，使用 XMLHttpRequest 和 Web Workers，不依賴 Flash、Java 或 WebSocket，簡潔直接。
   tagline:
     en_US: A very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
+    ca_ES: Un test de velocitat molt lleuger implementat en Javascript, utilitzant XMLHttpRequest i Web Workers. Sense Flash, sense Java, sense Websocket, sense bajanades.
+    cs_CZ: Velmi lehký Speedtest implementovaný v Javascriptu s využitím XMLHttpRequest a Web Workerů. Žádný Flash, žádná Java, žádný Websocket, žádné kecy.
+    da_DK: En meget let Speedtest implementeret i Javascript, der bruger XMLHttpRequest og Web Workers. Ingen Flash, ingen Java, ingen Websocket, intet vrøvl.
+    de_DE: Ein extrem schlanker Speedtest, implementiert in JavaScript, mit XMLHttpRequest und Web Workern. Kein Flash, kein Java, kein WebSocket, kein Schnickschnack.
+    el_GR: Ένα πολύ ελαφρύ Speedtest υλοποιημένο σε Javascript, χρησιμοποιώντας XMLHttpRequest και Web Workers. Χωρίς Flash, χωρίς Java, χωρίς Websocket, χωρίς ανοησίες.
+    en_GB: A very lightweight Speedtest implemented in Javascript, using Xmlhttprequest and Web Workers. No Flash, No Java, No Websocket, No Bullshit.
+    es_ES: Una prueba de velocidad muy ligera implementada en Javascript, utilizando XMLHttpRequest y Web Workers. Sin Flash, sin Java, sin Websockets, sin complicaciones.
+    fr_FR: Un test de vitesse ultra-léger, implémenté en JavaScript, utilisant XMLHttpRequest et les Web Workers. Sans Flash, sans Java, sans WebSocket, sans fioritures.
+    ga_IE: Tástáil Luas an-éadrom curtha i bhfeidhm i Javascript, ag baint úsáide as XMLHttpRequest agus Web Workers. Gan Flash, Gan Java, Gan Websocket, Gan Bhriathra.
+    hr_HR: Vrlo lagani Speedtest implementiran u Javascriptu, koristeći XMLHttpRequest i Web Workere. Bez Flasha, bez Jave, bez Websocketa, bez gluposti.
+    hu_HU: Egy nagyon pehelykönnyű sebességteszt Javascriptben implementálva, XMLHttpRequest és Web Workers használatával. Nincs Flash, nincs Java, nincs Websocket, semmi baromság.
+    it_IT: Un test di velocità estremamente leggero, implementato in Javascript, utilizzando XMLHttpRequest e Web Workers. Niente Flash, niente Java, niente WebSocket, niente fronzoli.
+    ja_JP: JavaScriptで実装された非常に軽量なスピードテスト。XMLHttpRequestとWeb Workerを使用。Flash、Java、WebSocketは一切不要。余計なものは一切なし。
+    ko_KR: XMLHttpRequest와 Web Workers를 사용하여 JavaScript로 구현된 매우 가벼운 속도 테스트입니다. 플래시, 자바, 웹소켓 등 불필요한 기술은 전혀 사용하지 않았습니다.
+    ml_IN: XMLHttpRequest ഉം വെബ് വർക്കറുകളും ഉപയോഗിച്ച് ജാവാസ്ക്രിപ്റ്റിൽ നടപ്പിലാക്കിയ വളരെ ഭാരം കുറഞ്ഞ സ്പീഡ് ടെസ്റ്റ്. ഫ്ലാഷ് ഇല്ല, ജാവ ഇല്ല, വെബ്‌സോക്കറ്റ് ഇല്ല, ബുൾഷിറ്റ് ഇല്ല.
+    nb_NO: En veldig lettvektshastighetstest implementert i Javascript, ved bruk av XMLHttpRequest og Web Workers. Ingen Flash, ingen Java, ingen Websocket, ikke noe tull.
+    nl_NL: Een zeer lichte snelheidstest, geïmplementeerd in JavaScript met behulp van XMLHttpRequest en Web Workers. Geen Flash, geen Java, geen WebSocket, geen onzin.
+    pl_PL: Bardzo lekki test prędkości zaimplementowany w Javascript, z wykorzystaniem XMLHttpRequest i Web Workers. Bez Flasha, Javy, Websocketów i zbędnych bajerów.
+    pt_BR: Um teste de velocidade muito leve implementado em Javascript, usando XMLHttpRequest e Web Workers. Sem Flash, sem Java, sem Websocket, sem complicações.
+    ro_RO: Un test de viteză foarte ușor implementat în Javascript, folosind XMLHttpRequest și Web Workers. Fără Flash, fără Java, fără Websocket, fără prostii.
+    ru_RU: Очень лёгкий тест скорости, реализованный на JavaScript с использованием XMLHttpRequest и WebWorks. Никакого Flash, никакого Java, никаких WebSocket, никакой ерунды.
+    sk_SK: Veľmi ľahký Speedtest implementovaný v Javascripte s použitím XMLHttpRequest a Web Workers. Žiadny Flash, žiadna Java, žiadny Websocket, žiadne kecy.
+    sv_SE: Ett mycket lättviktigt hastighetstest implementerat i Javascript, med XMLHttpRequest och Web Workers. Ingen Flash, ingen Java, ingen Websocket, inget skitsnack.
+    tr_TR: XMLHttpRequest ve Web Workers kullanarak Javascript ile geliştirilmiş, oldukça hafif bir Hız Testi uygulaması. Flash yok, Java yok, WebSocket yok, gereksiz hiçbir şey yok.
     zh_CN: 无需 Flash、Java 或 WebSocket 的轻量测速工具。
+    zh_TW: 無需 Flash、Java 或 WebSocket 的輕量測速工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/librespeed/speedtest/master/.logo/logo3.png
   thumbnail: https://raw.githubusercontent.com/librespeed/speedtest/master/.logo/logo3.png
   title:
     en_US: Librespeed (LinuxServer.io)
+    ca_ES: Librespeed (LinuxServer.io)
+    cs_CZ: Librespeed (LinuxServer.io)
+    da_DK: Librespeed (LinuxServer.io)
+    de_DE: Librespeed (LinuxServer.io)
+    el_GR: Librespeed (LinuxServer.io)
+    en_GB: Librespeed (LinuxServer.io)
+    es_ES: Librespeed (LinuxServer.io)
+    fr_FR: Librespeed (LinuxServer.io)
+    ga_IE: Librespeed (LinuxServer.io)
+    hr_HR: Librespeed (LinuxServer.io)
+    hu_HU: Librespeed (LinuxServer.io)
+    it_IT: Librespeed (LinuxServer.io)
+    ja_JP: Librespeed (LinuxServer.io)
+    ko_KR: Librespeed (LinuxServer.io)
+    ml_IN: Librespeed (LinuxServer.io)
+    nb_NO: Librespeed (LinuxServer.io)
+    nl_NL: Librespeed (LinuxServer.io)
+    pl_PL: Librespeed (LinuxServer.io)
+    pt_BR: Librespeed (LinuxServer.io)
+    ro_RO: Librespeed (LinuxServer.io)
+    ru_RU: Librespeed (LinuxServer.io)
+    sk_SK: Librespeed (LinuxServer.io)
+    sv_SE: Librespeed (LinuxServer.io)
+    tr_TR: Librespeed (LinuxServer.io)
     zh_CN: Librespeed（LinuxServer.io）
+    zh_TW: Librespeed（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlibrespeed
   port_map: '80'

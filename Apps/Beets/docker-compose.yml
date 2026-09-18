@@ -1,7 +1,7 @@
 name: linuxserver-beets
 services:
   app:
-    image: linuxserver/beets:2.14.0
+    image: linuxserver/beets:2.14.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -39,18 +39,93 @@ x-casaos:
   main: app
   description:
     en_US: Beets is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
+    ca_ES: Beets és un gestor de biblioteques musicals i no, en general, un reproductor de música. Inclou un simple complement de reproductor i un reproductor experimental basat en web, però generalment deixa la reproducció real del so a eines especialitzades.
+    cs_CZ: Beets je správce hudební knihovny a z větší části ne hudební přehrávač. Obsahuje jednoduchý plugin pro přehrávač a experimentální webový přehrávač, ale samotnou reprodukci zvuku obecně ponechává specializovaným nástrojům.
+    da_DK: Beets er en musikbiblioteksadministrator og for det meste ikke en musikafspiller. Den inkluderer et simpelt afspiller-plugin og en eksperimentel webbaseret afspiller, men den overlader generelt den faktiske lydgengivelse til specialiserede værktøjer.
+    de_DE: Beets ist ein Musikbibliothek-Manager und in erster Linie kein Musikplayer. Es enthält zwar ein einfaches Player-Plugin und einen experimentellen webbasierten Player, überlässt die eigentliche Klangwiedergabe aber in der Regel spezialisierten Tools.
+    el_GR: Το Beets είναι ένας διαχειριστής μουσικής βιβλιοθήκης και, ως επί το πλείστον, δεν είναι πρόγραμμα αναπαραγωγής μουσικής. Περιλαμβάνει ένα απλό πρόσθετο αναπαραγωγής και ένα πειραματικό πρόγραμμα αναπαραγωγής μέσω διαδικτύου, αλλά γενικά αφήνει την πραγματική αναπαραγωγή ήχου σε εξειδικευμένα εργαλεία.
+    en_GB: Beets is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
+    es_ES: Beets es un gestor de bibliotecas musicales y, principalmente, no un reproductor de música. Incluye un sencillo complemento de reproducción y un reproductor web experimental, pero en general deja la reproducción de sonido a herramientas especializadas.
+    fr_FR: Beets est un gestionnaire de bibliothèque musicale et non, à proprement parler, un lecteur de musique. Il inclut bien un plugin de lecture simple et un lecteur web expérimental, mais laisse généralement la reproduction sonore proprement dite à des outils spécialisés.
+    ga_IE: Is bainisteoir leabharlainne ceoil é Beets agus ní seinnteoir ceoil é den chuid is mó. Tá breiseán simplí seinnteora agus seinnteoir gréasánbhunaithe turgnamhach ann, ach is gnách go bhfágtar atáirgeadh fuaime iarbhír faoi uirlisí speisialaithe.
+    hr_HR: Beets je upravitelj glazbene biblioteke i uglavnom nije glazbeni player. Uključuje jednostavan dodatak za player i eksperimentalni web-bazirani player, ali općenito prepušta stvarnu reprodukciju zvuka specijaliziranim alatima.
+    hu_HU: A Beets egy zenekönyvtár-kezelő, és többnyire nem zenelejátszó. Tartalmaz egy egyszerű lejátszóbővítményt és egy kísérleti, webalapú lejátszót, de a tényleges hangvisszaadást általában speciális eszközökre bízza.
+    it_IT: Beets è un gestore di librerie musicali e non, per la maggior parte, un lettore musicale. Include un semplice plugin per la riproduzione e un lettore sperimentale basato sul Web, ma in genere lascia la riproduzione audio vera e propria a strumenti specializzati.
+    ja_JP: Beetsは音楽ライブラリ管理ソフトであり、基本的には音楽プレーヤーではありません。シンプルなプレーヤープラグインと実験的なWebベースのプレーヤーは含まれていますが、実際の音声再生は基本的に専用ツールに任せています。
+    ko_KR: Beets는 음악 라이브러리 관리자이지, 대부분 음악 플레이어는 아닙니다. 간단한 플레이어 플러그인과 실험적인 웹 기반 플레이어를 포함하고 있기는 하지만, 실제 소리 재생은 대부분 전문 도구에 맡깁니다.
+    ml_IN: ബീറ്റ്‌സ് ഒരു മ്യൂസിക് ലൈബ്രറി മാനേജരാണ്, മിക്കവാറും ഒരു മ്യൂസിക് പ്ലെയറല്ല. ഇതിൽ ഒരു ലളിതമായ പ്ലെയർ പ്ലഗിൻ, ഒരു പരീക്ഷണാത്മക വെബ് അധിഷ്ഠിത പ്ലെയർ എന്നിവ ഉൾപ്പെടുന്നു, പക്ഷേ ഇത് സാധാരണയായി യഥാർത്ഥ ശബ്‌ദ പുനരുൽപാദനത്തെ പ്രത്യേക ഉപകരണങ്ങൾക്ക് വിടുന്നു.
+    nb_NO: Beets er en musikkbibliotekbehandler og for det meste ikke en musikkspiller. Den inkluderer en enkel avspillerplugin og en eksperimentell nettbasert spiller, men den overlater vanligvis den faktiske lydgjengivelsen til spesialiserte verktøy.
+    nl_NL: Beets is een muziekbibliotheekbeheerder en grotendeels geen muziekspeler. Het bevat wel een eenvoudige afspeelplug-in en een experimentele webgebaseerde speler, maar de daadwerkelijke geluidsweergave wordt over het algemeen overgelaten aan gespecialiseerde tools.
+    pl_PL: Beets to menedżer biblioteki muzycznej, a nie, w przeważającej mierze, odtwarzacz muzyki. Zawiera prostą wtyczkę do odtwarzacza i eksperymentalny odtwarzacz internetowy, ale generalnie pozostawia faktyczne odtwarzanie dźwięku wyspecjalizowanym narzędziom.
+    pt_BR: O Beets é um gerenciador de biblioteca musical e não, em sua maior parte, um reprodutor de música. Ele inclui um plugin de reprodução simples e um reprodutor experimental baseado na Web, mas geralmente deixa a reprodução de som propriamente dita para ferramentas especializadas.
+    ro_RO: Beets este un manager de bibliotecă muzicală și nu, în mare parte, un player muzical. Include un plugin simplu pentru player și un player web experimental, dar, în general, lasă reproducerea sunetului în seama instrumentelor specializate.
+    ru_RU: Beets — это менеджер музыкальной библиотеки, а не, по большей части, музыкальный плеер. Он включает в себя простой плагин плеера и экспериментальный веб-плеер, но в целом фактическое воспроизведение звука осуществляется специализированными инструментами.
+    sk_SK: Beets je správca hudobných knižníc a z väčšej časti nie je hudobný prehrávač. Obsahuje jednoduchý doplnok prehrávača a experimentálny webový prehrávač, ale samotnú reprodukciu zvuku vo všeobecnosti ponecháva na špecializované nástroje.
+    sv_SE: Beets är en musikbibliotekshanterare och till största delen inte en musikspelare. Den innehåller ett enkelt spelarplugin och en experimentell webbaserad spelare, men den överlåter i allmänhet den faktiska ljudåtergivningen till specialiserade verktyg.
+    tr_TR: Beets, çoğunlukla bir müzik çalar değil, bir müzik kütüphanesi yöneticisidir. Basit bir oynatıcı eklentisi ve deneysel bir web tabanlı oynatıcı içerir, ancak genel olarak gerçek ses üretimini uzmanlaşmış araçlara bırakır.
     zh_CN: Beets 主要是一款音乐库管理器，而不是音乐播放器。它包含一个简单的播放器插件和一个实验性的网页播放器，但通常将实际音频播放交给专门的工具。
+    zh_TW: Beets 主要是一款音樂庫管理器，而不是音樂播放器。它包含一個簡單的播放器外掛和一個實驗性的網頁播放器，但通常將實際音訊播放交給專門的工具。
   tagline:
     en_US: A music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
+    ca_ES: Un gestor de biblioteques musicals i no, en general, un reproductor de música. Inclou un simple complement de reproductor i un reproductor experimental basat en web, però generalment deixa la reproducció real del so a eines especialitzades.
+    cs_CZ: Správce hudební knihovny, nikoli přehrávač hudby. Obsahuje jednoduchý plugin pro přehrávač a experimentální webový přehrávač, ale samotnou reprodukci zvuku obecně ponechává specializovaným nástrojům.
+    da_DK: En musikbiblioteksadministrator og for det meste ikke en musikafspiller. Den inkluderer et simpelt afspiller-plugin og en eksperimentel webbaseret afspiller, men den overlader generelt den faktiske lydgengivelse til specialiserede værktøjer.
+    de_DE: Es handelt sich eher um einen Musikbibliotheksmanager als um einen Musikplayer. Zwar enthält er ein einfaches Player-Plugin und einen experimentellen webbasierten Player, die eigentliche Klangwiedergabe überlässt er jedoch in der Regel spezialisierten Tools.
+    el_GR: Ένας διαχειριστής μουσικής βιβλιοθήκης και όχι, ως επί το πλείστον, μια συσκευή αναπαραγωγής μουσικής. Περιλαμβάνει ένα απλό πρόσθετο αναπαραγωγής και μια πειραματική συσκευή αναπαραγωγής μέσω διαδικτύου, αλλά γενικά αφήνει την πραγματική αναπαραγωγή ήχου σε εξειδικευμένα εργαλεία.
+    en_GB: A music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.
+    es_ES: Se trata principalmente de un gestor de bibliotecas musicales, no de un reproductor de música. Incluye un sencillo complemento de reproducción y un reproductor web experimental, pero generalmente deja la reproducción de sonido a herramientas especializadas.
+    fr_FR: Il s'agit d'un gestionnaire de bibliothèque musicale et non, pour l'essentiel, d'un lecteur de musique. Il inclut bien un plugin de lecture simple et un lecteur Web expérimental, mais il laisse généralement la reproduction sonore proprement dite à des outils spécialisés.
+    ga_IE: Bainisteoir leabharlainne ceoil agus ní seinnteoir ceoil den chuid is mó é. Tá breiseán simplí seinnteora agus seinnteoir gréasánbhunaithe turgnamhach ann, ach is gnách go bhfágtar atáirgeadh fuaime iarbhír faoi uirlisí speisialaithe.
+    hr_HR: Upravitelj glazbene biblioteke, a ne, uglavnom, glazbeni player. Uključuje jednostavan dodatak za player i eksperimentalni web-bazirani player, ali općenito prepušta stvarnu reprodukciju zvuka specijaliziranim alatima.
+    hu_HU: Egy zenei könyvtárkezelő, és többnyire nem zenelejátszó. Tartalmaz egy egyszerű lejátszóbővítményt és egy kísérleti webes lejátszót, de a tényleges hangvisszaadást általában speciális eszközökre bízza.
+    it_IT: Si tratta di un gestore di librerie musicali, non, per la maggior parte, di un lettore musicale. Include un semplice plugin per la riproduzione e un lettore sperimentale basato sul Web, ma in generale lascia la riproduzione audio vera e propria a strumenti specializzati.
+    ja_JP: これは音楽ライブラリ管理ソフトであり、基本的には音楽プレーヤーではありません。シンプルなプレーヤープラグインと実験的なWebベースのプレーヤーは含まれていますが、実際の音声再生は基本的に専用ツールに任せています。
+    ko_KR: 이 프로그램은 음악 라이브러리 관리자이지, 대부분 음악 플레이어는 아닙니다. 간단한 플레이어 플러그인과 실험적인 웹 기반 플레이어가 포함되어 있긴 하지만, 실제 소리 재생은 전문 도구에 맡기는 것이 일반적입니다.
+    ml_IN: ഒരു മ്യൂസിക് ലൈബ്രറി മാനേജർ, മിക്കവാറും ഒരു മ്യൂസിക് പ്ലെയർ അല്ല. ഇതിൽ ഒരു ലളിതമായ പ്ലെയർ പ്ലഗിൻ, ഒരു പരീക്ഷണാത്മക വെബ് അധിഷ്ഠിത പ്ലെയർ എന്നിവ ഉൾപ്പെടുന്നു, പക്ഷേ ഇത് സാധാരണയായി യഥാർത്ഥ ശബ്‌ദ പുനരുൽപാദനം പ്രത്യേക ഉപകരണങ്ങൾക്ക് വിടുന്നു.
+    nb_NO: En musikkbibliotekbehandler og for det meste ikke en musikkspiller. Den inkluderer en enkel avspillerplugin og en eksperimentell nettbasert spiller, men den overlater vanligvis den faktiske lydgjengivelsen til spesialiserte verktøy.
+    nl_NL: Het is een muziekbibliotheekbeheerder en over het algemeen geen muziekspeler. Het bevat wel een eenvoudige afspeelplug-in en een experimentele webgebaseerde speler, maar de daadwerkelijke geluidsweergave wordt doorgaans overgelaten aan gespecialiseerde tools.
+    pl_PL: Menedżer biblioteki muzycznej, a nie, w większości przypadków, odtwarzacz muzyki. Zawiera prostą wtyczkę do odtwarzacza i eksperymentalny odtwarzacz internetowy, ale generalnie pozostawia faktyczne odtwarzanie dźwięku wyspecjalizowanym narzędziom.
+    pt_BR: Trata-se de um gerenciador de biblioteca musical e, em sua maior parte, não de um reprodutor de música. Ele inclui um plugin de reprodução simples e um reprodutor experimental baseado na Web, mas, em geral, deixa a reprodução de som propriamente dita para ferramentas especializadas.
+    ro_RO: Un manager de bibliotecă muzicală și nu, în mare parte, un player muzical. Include un plugin simplu pentru player și un player web experimental, dar, în general, lasă reproducerea sunetului în seama instrumentelor specializate.
+    ru_RU: Это скорее менеджер музыкальной библиотеки, а не, по большей части, музыкальный плеер. Он включает в себя простой плагин плеера и экспериментальный веб-плеер, но в целом фактическое воспроизведение звука остается прерогативой специализированных инструментов.
+    sk_SK: Správca hudobnej knižnice, nie z väčšej časti hudobný prehrávač. Obsahuje jednoduchý doplnok prehrávača a experimentálny webový prehrávač, ale samotnú reprodukciu zvuku vo všeobecnosti ponecháva na špecializované nástroje.
+    sv_SE: En musikbibliotekshanterare och till största delen inte en musikspelare. Den innehåller ett enkelt spelarplugin och en experimentell webbaserad spelare, men den lämnar i allmänhet själva ljudåtergivningen till specialiserade verktyg.
+    tr_TR: Bu, büyük ölçüde bir müzik kütüphanesi yöneticisidir, müzik çalar değildir. Basit bir çalar eklentisi ve deneysel bir web tabanlı çalar içerir, ancak genel olarak gerçek ses üretimini uzmanlaşmış araçlara bırakır.
     zh_CN: 整理和管理音乐库。
+    zh_TW: 整理和管理音樂庫。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png
   title:
     en_US: Beets (LinuxServer.io)
+    ca_ES: Beets (LinuxServer.io)
+    cs_CZ: Beets (LinuxServer.io)
+    da_DK: Beets (LinuxServer.io)
+    de_DE: Beets (LinuxServer.io)
+    el_GR: Beets (LinuxServer.io)
+    en_GB: Beets (LinuxServer.io)
+    es_ES: Beets (LinuxServer.io)
+    fr_FR: Beets (LinuxServer.io)
+    ga_IE: Beets (LinuxServer.io)
+    hr_HR: Beets (LinuxServer.io)
+    hu_HU: Beets (LinuxServer.io)
+    it_IT: Beets (LinuxServer.io)
+    ja_JP: Beets (LinuxServer.io)
+    ko_KR: Beets (LinuxServer.io)
+    ml_IN: Beets (LinuxServer.io)
+    nb_NO: Beets (LinuxServer.io)
+    nl_NL: Beets (LinuxServer.io)
+    pl_PL: Beets (LinuxServer.io)
+    pt_BR: Beets (LinuxServer.io)
+    ro_RO: Beets (LinuxServer.io)
+    ru_RU: Beets (LinuxServer.io)
+    sk_SK: Beets (LinuxServer.io)
+    sv_SE: Beets (LinuxServer.io)
+    tr_TR: Beets (LinuxServer.io)
     zh_CN: Beets（LinuxServer.io）
+    zh_TW: Beets（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbeets
   port_map: '8337'
-  version: 2.14.0
+  version: 2.14.1

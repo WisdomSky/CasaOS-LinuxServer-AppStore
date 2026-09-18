@@ -1,7 +1,7 @@
 name: linuxserver-lychee
 services:
   app:
-    image: linuxserver/lychee:7.8.3
+    image: linuxserver/lychee:7.8.4
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -72,18 +72,93 @@ x-casaos:
   main: app
   description:
     en_US: Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    ca_ES: Lychee és una eina gratuïta de gestió de fotos que s'executa al vostre servidor o espai web. La instal·lació és qüestió de segons. Pugeu, gestioneu i compartiu fotos com si fos una aplicació nativa. Lychee inclou tot el que necessiteu i totes les vostres fotos s'emmagatzemen de forma segura.
+    cs_CZ: Lychee je bezplatný nástroj pro správu fotografií, který běží na vašem serveru nebo webovém prostoru. Instalace je otázkou několika sekund. Nahrávejte, spravujte a sdílejte fotografie jako z nativní aplikace. Lychee obsahuje vše, co potřebujete, a všechny vaše fotografie jsou bezpečně uloženy.
+    da_DK: Lychee er et gratis fotohåndteringsværktøj, der kører på din server eller dit webhotel. Installationen tager kun få sekunder. Upload, administrer og del fotos, som om det var fra en native applikation. Lychee leveres med alt, hvad du behøver, og alle dine fotos er gemt sikkert.
+    de_DE: Lychee ist ein kostenloses Fotoverwaltungstool, das auf Ihrem Server oder Webspace läuft. Die Installation dauert nur wenige Sekunden. Laden Sie Fotos hoch, verwalten und teilen Sie sie wie in einer nativen Anwendung. Lychee bietet alles, was Sie benötigen, und Ihre Fotos werden sicher gespeichert.
+    el_GR: Το Lychee είναι ένα δωρεάν εργαλείο διαχείρισης φωτογραφιών, το οποίο εκτελείται στον διακομιστή ή στον διαδικτυακό σας χώρο. Η εγκατάσταση είναι θέμα δευτερολέπτων. Ανεβάστε, διαχειριστείτε και μοιραστείτε φωτογραφίες όπως από μια εγγενή εφαρμογή. Το Lychee συνοδεύεται από όλα όσα χρειάζεστε και όλες οι φωτογραφίες σας αποθηκεύονται με ασφάλεια.
+    en_GB: Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    es_ES: Lychee es una herramienta gratuita de gestión de fotos que se ejecuta en tu servidor o espacio web. Su instalación es cuestión de segundos. Sube, gestiona y comparte fotos como si fuera una aplicación nativa. Lychee incluye todo lo que necesitas y todas tus fotos se almacenan de forma segura.
+    fr_FR: Lychee est un outil gratuit de gestion de photos, fonctionnant sur votre serveur ou espace web. Son installation est instantanée. Importez, gérez et partagez vos photos comme avec une application native. Lychee inclut tout le nécessaire et vos photos sont stockées en toute sécurité.
+    ga_IE: Is uirlis bainistíochta grianghraf saor in aisce é Lychee, a ritheann ar do fhreastalaí nó ar do spás gréasáin. Ní thógann sé ach cúpla soicind é a shuiteáil. Uaslódáil, bainistigh agus roinn grianghraif amhail is dá mba rud é go ndéanfá é ó fheidhmchlár dúchasach. Tagann Lychee le gach rud a theastaíonn uait agus stóráiltear do ghrianghraif go slán.
+    hr_HR: Lychee je besplatni alat za upravljanje fotografijama koji se pokreće na vašem poslužitelju ili web-prostoru. Instalacija je stvar sekundi. Prenesite, upravljajte i dijelite fotografije kao iz izvorne aplikacije. Lychee dolazi sa svime što vam je potrebno i sve vaše fotografije su sigurno pohranjene.
+    hu_HU: A Lychee egy ingyenes fotókezelő eszköz, amely a szervereden vagy webtárhelyeden fut. A telepítés másodpercek kérdése. Tölts fel, kezelj és ossz meg fotókat, mint egy natív alkalmazásból. A Lychee mindent tartalmaz, amire szükséged van, és minden fotód biztonságosan tárolódik.
+    it_IT: Lychee è uno strumento gratuito per la gestione delle foto, che funziona sul tuo server o sul tuo spazio web. L'installazione richiede solo pochi secondi. Carica, gestisci e condividi le foto come da un'applicazione nativa. Lychee include tutto il necessario e tutte le tue foto sono archiviate in modo sicuro.
+    ja_JP: Lycheeは、サーバーまたはウェブスペース上で動作する無料の写真管理ツールです。インストールはわずか数秒で完了します。ネイティブアプリのように、写真のアップロード、管理、共有が可能です。Lycheeには必要な機能がすべて揃っており、すべての写真は安全に保存されます。
+    ko_KR: Lychee는 서버 또는 웹 공간에서 실행되는 무료 사진 관리 도구입니다. 설치는 몇 초 만에 완료됩니다. 마치 기본 애플리케이션처럼 사진을 업로드, 관리 및 공유할 수 있습니다. Lychee는 필요한 모든 기능을 제공하며 모든 사진은 안전하게 저장됩니다.
+    ml_IN: ലിച്ചി ഒരു സൌജന്യ ഫോട്ടോ മാനേജ്മെന്റ് ഉപകരണമാണ്, അത് നിങ്ങളുടെ സെർവറിലോ വെബ്-സ്പേസിലോ പ്രവർത്തിക്കുന്നു. ഇൻസ്റ്റാൾ ചെയ്യുന്നത് നിമിഷങ്ങൾക്കുള്ളിൽ മാത്രമാണ്. ഒരു നേറ്റീവ് ആപ്ലിക്കേഷനിൽ നിന്നുള്ളതുപോലെ ഫോട്ടോകൾ അപ്‌ലോഡ് ചെയ്യുക, കൈകാര്യം ചെയ്യുക, പങ്കിടുക. നിങ്ങൾക്ക് ആവശ്യമുള്ളതെല്ലാം ലിച്ചിയിൽ ലഭ്യമാണ്, നിങ്ങളുടെ എല്ലാ ഫോട്ടോകളും സുരക്ഷിതമായി സൂക്ഷിക്കുന്നു.
+    nb_NO: Lychee er et gratis verktøy for fotobehandling som kjører på serveren eller webhotellet ditt. Installasjonen tar bare noen sekunder. Last opp, administrer og del bilder som fra et innebygd program. Lychee leveres med alt du trenger, og alle bildene dine lagres sikkert.
+    nl_NL: Lychee is een gratis tool voor fotobeheer die op uw eigen server of webhosting draait. De installatie duurt slechts enkele seconden. Upload, beheer en deel foto's alsof het een native app is. Lychee wordt geleverd met alles wat u nodig hebt en al uw foto's worden veilig opgeslagen.
+    pl_PL: Lychee to darmowe narzędzie do zarządzania zdjęciami, działające na Twoim serwerze lub w przestrzeni internetowej. Instalacja zajmuje zaledwie kilka sekund. Przesyłaj, zarządzaj i udostępniaj zdjęcia jak z natywnej aplikacji. Lychee zawiera wszystko, czego potrzebujesz, a wszystkie Twoje zdjęcia są bezpiecznie przechowywane.
+    pt_BR: O Lychee é uma ferramenta gratuita de gerenciamento de fotos que funciona no seu servidor ou espaço web. A instalação leva apenas alguns segundos. Faça upload, gerencie e compartilhe fotos como se estivesse usando um aplicativo nativo. O Lychee vem com tudo o que você precisa e todas as suas fotos são armazenadas com segurança.
+    ro_RO: Lychee este un instrument gratuit de gestionare a fotografiilor, care rulează pe serverul sau spațiul web. Instalarea este o chestiune de secunde. Încarcă, gestionează și partajează fotografii ca dintr-o aplicație nativă. Lychee vine cu tot ce ai nevoie și toate fotografiile tale sunt stocate în siguranță.
+    ru_RU: Lychee — это бесплатный инструмент для управления фотографиями, работающий на вашем сервере или в веб-пространстве. Установка занимает считанные секунды. Загружайте, управляйте и делитесь фотографиями, как в обычном приложении. Lychee включает в себя все необходимое, и все ваши фотографии хранятся в безопасности.
+    sk_SK: Lychee je bezplatný nástroj na správu fotografií, ktorý beží na vašom serveri alebo webovom priestore. Inštalácia je otázkou niekoľkých sekúnd. Nahrávajte, spravujte a zdieľajte fotografie ako z natívnej aplikácie. Lychee obsahuje všetko, čo potrebujete, a všetky vaše fotografie sú bezpečne uložené.
+    sv_SE: Lychee är ett gratis fotohanteringsverktyg som körs på din server eller ditt webbutrymme. Installationen är en fråga om sekunder. Ladda upp, hantera och dela foton som från en inbyggd applikation. Lychee levereras med allt du behöver och alla dina foton lagras säkert.
+    tr_TR: Lychee, sunucunuzda veya web alanınızda çalışan ücretsiz bir fotoğraf yönetim aracıdır. Kurulumu saniyeler sürer. Fotoğraflarınızı tıpkı yerel bir uygulamadan yükler, yönetir ve paylaşırsınız. Lychee, ihtiyacınız olan her şeyle birlikte gelir ve tüm fotoğraflarınız güvenli bir şekilde saklanır.
     zh_CN: Lychee 是一款免费照片管理工具，可运行在你的服务器或网站空间中，安装只需片刻。它让你像使用原生应用一样上传、管理和分享照片，提供所需的完整功能，并安全保存所有照片。
+    zh_TW: Lychee 是一款免費照片管理工具，可執行在你的伺服器或網站空間中，安裝只需片刻。它讓你像使用原生應用一樣上傳、管理和分享照片，提供所需的完整功能，並安全儲存所有照片。
   tagline:
     en_US: A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    ca_ES: Una eina gratuïta de gestió de fotos, que s'executa al vostre servidor o espai web. La instal·lació és qüestió de segons. Pugeu, gestioneu i compartiu fotos com si fos una aplicació nativa. Lychee inclou tot el que necessiteu i totes les vostres fotos s'emmagatzemen de forma segura.
+    cs_CZ: Bezplatný nástroj pro správu fotografií, který běží na vašem serveru nebo webovém prostoru. Instalace je otázkou několika sekund. Nahrávejte, spravujte a sdílejte fotografie jako z nativní aplikace. Lychee obsahuje vše, co potřebujete, a všechny vaše fotografie jsou bezpečně uloženy.
+    da_DK: Et gratis fotohåndteringsværktøj, der kører på din server eller dit webhotel. Installation tager kun få sekunder. Upload, administrer og del fotos, som om det var fra en native applikation. Lychee leveres med alt, hvad du behøver, og alle dine fotos er gemt sikkert.
+    de_DE: Lychee ist ein kostenloses Fotoverwaltungstool, das auf Ihrem Server oder Webspace läuft. Die Installation dauert nur wenige Sekunden. Laden Sie Fotos hoch, verwalten und teilen Sie sie wie mit einer nativen Anwendung. Lychee bietet alles, was Sie brauchen, und Ihre Fotos werden sicher gespeichert.
+    el_GR: Ένα δωρεάν εργαλείο διαχείρισης φωτογραφιών, το οποίο εκτελείται στον διακομιστή ή στον διαδικτυακό σας χώρο. Η εγκατάσταση είναι θέμα δευτερολέπτων. Ανεβάστε, διαχειριστείτε και μοιραστείτε φωτογραφίες όπως από μια εγγενή εφαρμογή. Το Lychee συνοδεύεται από όλα όσα χρειάζεστε και όλες οι φωτογραφίες σας αποθηκεύονται με ασφάλεια.
+    en_GB: A free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+    es_ES: Una herramienta gratuita para gestionar fotos que se ejecuta en tu servidor o espacio web. Su instalación es cuestión de segundos. Sube, gestiona y comparte fotos como si fuera una aplicación nativa. Lychee incluye todo lo que necesitas y todas tus fotos se almacenan de forma segura.
+    fr_FR: Un outil gratuit de gestion de photos, fonctionnant sur votre serveur ou espace web. L'installation est instantanée. Importez, gérez et partagez vos photos comme avec une application native. Lychee inclut tout le nécessaire et vos photos sont stockées en toute sécurité.
+    ga_IE: Uirlis bainistíochta grianghraf saor in aisce, a ritheann ar do fhreastalaí nó ar do spás gréasáin. Ní thógann sé ach cúpla soicind a shuiteáil. Uaslódáil, bainistigh agus roinn grianghraif amhail is dá mba rud é go ndéanfá é ó fheidhmchlár dúchasach. Tagann Lychee le gach rud a theastaíonn uait agus stóráiltear do ghrianghraif go slán.
+    hr_HR: Besplatni alat za upravljanje fotografijama koji se pokreće na vašem poslužitelju ili web prostoru. Instalacija je stvar sekundi. Prenesite, upravljajte i dijelite fotografije kao iz izvorne aplikacije. Lychee dolazi sa svime što vam je potrebno i sve vaše fotografije su sigurno pohranjene.
+    hu_HU: Egy ingyenes fotókezelő eszköz, amely a szervereden vagy webtárhelyeden fut. A telepítés másodpercek kérdése. Tölts fel, kezelj és ossz meg fotókat, mint egy natív alkalmazásból. A Lychee mindent tartalmaz, amire szükséged van, és minden fotód biztonságosan tárolódik.
+    it_IT: Uno strumento gratuito per la gestione delle foto, che funziona sul tuo server o sul tuo spazio web. L'installazione richiede solo pochi secondi. Carica, gestisci e condividi le foto come da un'applicazione nativa. Lychee include tutto il necessario e tutte le tue foto sono archiviate in modo sicuro.
+    ja_JP: サーバーまたはウェブスペース上で動作する無料の写真管理ツールです。インストールはわずか数秒で完了します。ネイティブアプリのように写真をアップロード、管理、共有できます。Lycheeには必要な機能がすべて揃っており、すべての写真は安全に保存されます。
+    ko_KR: Lychee는 서버 또는 웹 공간에서 실행되는 무료 사진 관리 도구입니다. 설치는 몇 초밖에 걸리지 않습니다. 마치 기본 애플리케이션처럼 사진을 업로드, 관리 및 공유할 수 있습니다. Lychee에는 필요한 모든 기능이 포함되어 있으며 모든 사진은 안전하게 저장됩니다.
+    ml_IN: നിങ്ങളുടെ സെർവറിലോ വെബ്-സ്‌പെയ്‌സിലോ പ്രവർത്തിക്കുന്ന ഒരു സൗജന്യ ഫോട്ടോ-മാനേജ്‌മെന്റ് ഉപകരണം. ഇൻസ്റ്റാൾ ചെയ്യുന്നത് നിമിഷങ്ങൾക്കുള്ളിൽ മാത്രമാണ്. ഒരു നേറ്റീവ് ആപ്ലിക്കേഷനിൽ നിന്നുള്ളതുപോലെ ഫോട്ടോകൾ അപ്‌ലോഡ് ചെയ്യുക, കൈകാര്യം ചെയ്യുക, പങ്കിടുക. നിങ്ങൾക്ക് ആവശ്യമുള്ളതെല്ലാം ലിച്ചിയിൽ ലഭ്യമാണ്, നിങ്ങളുടെ എല്ലാ ഫോട്ടോകളും സുരക്ഷിതമായി സൂക്ഷിക്കുന്നു.
+    nb_NO: Et gratis verktøy for fotobehandling som kjører på serveren eller webhotellet ditt. Installasjonen tar bare noen sekunder. Last opp, administrer og del bilder som fra et innebygd program. Lychee leveres med alt du trenger, og alle bildene dine lagres sikkert.
+    nl_NL: Een gratis tool voor fotobeheer die op uw eigen server of webruimte draait. De installatie duurt slechts enkele seconden. Upload, beheer en deel foto's alsof het een native app is. Lychee biedt alles wat u nodig hebt en al uw foto's worden veilig opgeslagen.
+    pl_PL: Darmowe narzędzie do zarządzania zdjęciami, działające na Twoim serwerze lub w przestrzeni internetowej. Instalacja zajmuje kilka sekund. Przesyłaj, zarządzaj i udostępniaj zdjęcia jak z natywnej aplikacji. Lychee zawiera wszystko, czego potrzebujesz, a wszystkie Twoje zdjęcia są bezpiecznie przechowywane.
+    pt_BR: Uma ferramenta gratuita de gerenciamento de fotos que funciona no seu servidor ou espaço web. A instalação leva apenas alguns segundos. Faça upload, gerencie e compartilhe fotos como se estivesse usando um aplicativo nativo. O Lychee vem com tudo o que você precisa e todas as suas fotos são armazenadas com segurança.
+    ro_RO: Un instrument gratuit de gestionare a fotografiilor, care rulează pe serverul sau spațiul web. Instalarea este o chestiune de secunde. Încarcă, gestionează și partajează fotografii ca dintr-o aplicație nativă. Lychee vine cu tot ce ai nevoie și toate fotografiile tale sunt stocate în siguranță.
+    ru_RU: Бесплатный инструмент для управления фотографиями, работающий на вашем сервере или в веб-пространстве. Установка занимает считанные секунды. Загружайте, управляйте и делитесь фотографиями, как в обычном приложении. Lychee включает в себя все необходимое, и все ваши фотографии хранятся в безопасности.
+    sk_SK: Bezplatný nástroj na správu fotografií, ktorý beží na vašom serveri alebo webovom priestore. Inštalácia je otázkou niekoľkých sekúnd. Nahrávajte, spravujte a zdieľajte fotografie ako z natívnej aplikácie. Lychee obsahuje všetko, čo potrebujete, a všetky vaše fotografie sú bezpečne uložené.
+    sv_SE: Ett gratis fotohanteringsverktyg som körs på din server eller ditt webbutrymme. Installationen är på några sekunder. Ladda upp, hantera och dela foton som från en inbyggd applikation. Lychee levereras med allt du behöver och alla dina foton lagras säkert.
+    tr_TR: Sunucunuzda veya web alanınızda çalışan ücretsiz bir fotoğraf yönetim aracı. Kurulumu saniyeler sürer. Fotoğraflarınızı tıpkı yerel bir uygulamadan yükler gibi yükleyin, yönetin ve paylaşın. Lychee, ihtiyacınız olan her şeyle birlikte gelir ve tüm fotoğraflarınız güvenli bir şekilde saklanır.
     zh_CN: 自行托管、上传、管理和分享照片。
+    zh_TW: 自行託管、上傳、管理和分享照片。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png
   title:
     en_US: Lychee (LinuxServer.io)
+    ca_ES: Lychee (LinuxServer.io)
+    cs_CZ: Lychee (LinuxServer.io)
+    da_DK: Lychee (LinuxServer.io)
+    de_DE: Lychee (LinuxServer.io)
+    el_GR: Lychee (LinuxServer.io)
+    en_GB: Lychee (LinuxServer.io)
+    es_ES: Lychee (LinuxServer.io)
+    fr_FR: Lychee (LinuxServer.io)
+    ga_IE: Lychee (LinuxServer.io)
+    hr_HR: Lychee (LinuxServer.io)
+    hu_HU: Lychee (LinuxServer.io)
+    it_IT: Lychee (LinuxServer.io)
+    ja_JP: Lychee (LinuxServer.io)
+    ko_KR: Lychee (LinuxServer.io)
+    ml_IN: Lychee (LinuxServer.io)
+    nb_NO: Lychee (LinuxServer.io)
+    nl_NL: Lychee (LinuxServer.io)
+    pl_PL: Lychee (LinuxServer.io)
+    pt_BR: Lychee (LinuxServer.io)
+    ro_RO: Lychee (LinuxServer.io)
+    ru_RU: Lychee (LinuxServer.io)
+    sk_SK: Lychee (LinuxServer.io)
+    sv_SE: Lychee (LinuxServer.io)
+    tr_TR: Lychee (LinuxServer.io)
     zh_CN: Lychee（LinuxServer.io）
+    zh_TW: Lychee（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlychee
   port_map: '80'
-  version: 7.8.3
+  version: 7.8.4

@@ -191,17 +191,92 @@ x-casaos:
   main: app
   description:
     en_US: Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
+    ca_ES: Mastodon és un servidor de xarxa social gratuït i de codi obert basat en ActivityPub on els usuaris poden seguir amics i descobrir-ne de nous.
+    cs_CZ: Mastodon je bezplatný server sociální sítě s otevřeným zdrojovým kódem založený na platformě ActivityPub, kde mohou uživatelé sledovat své přátele a objevovat nové.
+    da_DK: Mastodon er en gratis, open source social netværksserver baseret på ActivityPub, hvor brugerne kan følge venner og opdage nye.
+    de_DE: Mastodon ist ein kostenloser Open-Source-Social-Network-Server, der auf ActivityPub basiert und auf dem Benutzer Freunden folgen und neue Freunde entdecken können.
+    el_GR: Το Mastodon είναι ένας δωρεάν, ανοιχτού κώδικα διακομιστής κοινωνικής δικτύωσης που βασίζεται στο ActivityPub, όπου οι χρήστες μπορούν να ακολουθούν φίλους και να ανακαλύπτουν νέους.
+    en_GB: Mastodon is a free, open-source social network server based on Activitypub where users can follow friends and discover new ones..
+    es_ES: Mastodon es un servidor de red social gratuito y de código abierto basado en ActivityPub donde los usuarios pueden seguir a sus amigos y descubrir a otros nuevos.
+    fr_FR: Mastodon est un serveur de réseau social gratuit et open source basé sur ActivityPub, où les utilisateurs peuvent suivre leurs amis et en découvrir de nouveaux.
+    ga_IE: Is freastalaí líonra sóisialta foinse oscailte saor in aisce é Mastodon atá bunaithe ar ActivityPub inar féidir le húsáideoirí cairde a leanúint agus cinn nua a aimsiú.
+    hr_HR: Mastodon je besplatna društvena mreža otvorenog koda temeljena na ActivityPubu gdje korisnici mogu pratiti prijatelje i otkrivati nove.
+    hu_HU: A Mastodon egy ingyenes, nyílt forráskódú közösségi hálózati szerver, amely az ActivityPub-on alapul, ahol a felhasználók követhetik barátaikat és újakat fedezhetnek fel.
+    it_IT: Mastodon è un server di social network gratuito e open-source basato su ActivityPub, dove gli utenti possono seguire i propri amici e scoprirne di nuovi.
+    ja_JP: Mastodonは、ActivityPubをベースにした無料のオープンソースソーシャルネットワークサーバーで、ユーザーは友人をフォローしたり、新しい友人を見つけたりすることができます。
+    ko_KR: 마스토돈은 ActivityPub을 기반으로 하는 무료 오픈 소스 소셜 네트워크 서버로, 사용자는 친구를 팔로우하고 새로운 친구를 찾을 수 있습니다.
+    ml_IN: ആക്ടിവിറ്റിപബ് അടിസ്ഥാനമാക്കിയുള്ള ഒരു സൗജന്യ, ഓപ്പൺ സോഴ്‌സ് സോഷ്യൽ നെറ്റ്‌വർക്ക് സെർവറാണ് മാസ്റ്റോഡൺ, ഉപയോക്താക്കൾക്ക് സുഹൃത്തുക്കളെ പിന്തുടരാനും പുതിയവരെ കണ്ടെത്താനും ഇവിടെ കഴിയും.
+    nb_NO: Mastodon er en gratis, åpen kildekode-basert sosial nettverksserver basert på ActivityPub hvor brukere kan følge venner og oppdage nye.
+    nl_NL: Mastodon is een gratis, open-source sociaal netwerkserver gebaseerd op ActivityPub, waar gebruikers vrienden kunnen volgen en nieuwe vrienden kunnen ontdekken.
+    pl_PL: Mastodon to darmowy, otwartoźródłowy serwer sieci społecznościowej oparty na ActivityPub, w którym użytkownicy mogą obserwować znajomych i odkrywać nowych.
+    pt_BR: Mastodon é um servidor de rede social gratuito e de código aberto baseado no ActivityPub, onde os usuários podem seguir amigos e descobrir novos.
+    ro_RO: Mastodon este un server de rețea socială gratuit, open-source, bazat pe ActivityPub, unde utilizatorii își pot urmări prietenii și pot descoperi alții noi.
+    ru_RU: Mastodon — это бесплатный сервер социальной сети с открытым исходным кодом, основанный на ActivityPub, где пользователи могут следить за друзьями и находить новых.
+    sk_SK: Mastodon je bezplatný server sociálnej siete s otvoreným zdrojovým kódom založený na platforme ActivityPub, kde môžu používatelia sledovať priateľov a objavovať nových.
+    sv_SE: Mastodon är ett gratis, öppen källkodsbaserat socialt nätverk baserat på ActivityPub där användare kan följa vänner och upptäcka nya.
+    tr_TR: Mastodon, kullanıcıların arkadaşlarını takip edebilecekleri ve yeni arkadaşlar keşfedebilecekleri, ActivityPub tabanlı ücretsiz, açık kaynaklı bir sosyal ağ sunucusudur.
     zh_CN: Mastodon 是一款基于 ActivityPub 的免费开源社交网络服务器，用户可关注朋友并结识新朋友。
+    zh_TW: Mastodon 是一款基於 ActivityPub 的免費開源社交網路伺服器，使用者可關注朋友並結識新朋友。
   tagline:
     en_US: A free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. .
+    ca_ES: Un servidor de xarxa social gratuït i de codi obert basat en ActivityPub on els usuaris poden seguir amics i descobrir-ne de nous.
+    cs_CZ: Bezplatný server sociální sítě s otevřeným zdrojovým kódem založený na platformě ActivityPub, kde mohou uživatelé sledovat přátele a objevovat nové.
+    da_DK: En gratis, open source social netværksserver baseret på ActivityPub, hvor brugerne kan følge venner og opdage nye.
+    de_DE: Ein kostenloser Open-Source-Social-Network-Server auf Basis von ActivityPub, auf dem Nutzer Freunden folgen und neue Freunde entdecken können.
+    el_GR: Ένας δωρεάν, ανοιχτού κώδικα διακομιστής κοινωνικής δικτύωσης που βασίζεται στο ActivityPub, όπου οι χρήστες μπορούν να ακολουθούν φίλους και να ανακαλύπτουν νέους.
+    en_GB: A free, open-source social network server based on Activitypub where users can follow friends and discover new ones. .
+    es_ES: Un servidor de red social gratuito y de código abierto basado en ActivityPub donde los usuarios pueden seguir a sus amigos y descubrir a otros nuevos.
+    fr_FR: Un serveur de réseau social gratuit et open source basé sur ActivityPub où les utilisateurs peuvent suivre leurs amis et en découvrir de nouveaux.
+    ga_IE: Freastalaí líonra sóisialta foinse oscailte saor in aisce bunaithe ar ActivityPub inar féidir le húsáideoirí cairde a leanúint agus cinn nua a aimsiú.
+    hr_HR: Besplatna društvena mreža otvorenog koda temeljena na ActivityPubu gdje korisnici mogu pratiti prijatelje i otkrivati nove.
+    hu_HU: Egy ingyenes, nyílt forráskódú közösségi hálózati szerver, amely az ActivityPub-on alapul, ahol a felhasználók követhetik barátaikat és újakat fedezhetnek fel.
+    it_IT: Un server di social network gratuito e open-source basato su ActivityPub, dove gli utenti possono seguire i propri amici e scoprirne di nuovi.
+    ja_JP: ActivityPubをベースにした、無料のオープンソースソーシャルネットワークサーバー。ユーザーは友達をフォローしたり、新しい友達を見つけたりできる。
+    ko_KR: ActivityPub 기반의 무료 오픈소스 소셜 네트워크 서버로, 사용자는 친구를 팔로우하고 새로운 친구를 찾을 수 있습니다.
+    ml_IN: ആക്ടിവിറ്റിപബ് അടിസ്ഥാനമാക്കിയുള്ള ഒരു സൗജന്യ, ഓപ്പൺ സോഴ്‌സ് സോഷ്യൽ നെറ്റ്‌വർക്ക് സെർവർ, ഉപയോക്താക്കൾക്ക് സുഹൃത്തുക്കളെ പിന്തുടരാനും പുതിയവരെ കണ്ടെത്താനും കഴിയും. .
+    nb_NO: En gratis, åpen kildekode-server for sosiale nettverk basert på ActivityPub der brukere kan følge venner og oppdage nye.
+    nl_NL: Een gratis, open-source sociale netwerkserver gebaseerd op ActivityPub, waar gebruikers vrienden kunnen volgen en nieuwe vrienden kunnen ontdekken.
+    pl_PL: Bezpłatny, otwartoźródłowy serwer sieci społecznościowej oparty na ActivityPub, na którym użytkownicy mogą obserwować znajomych i odkrywać nowych.
+    pt_BR: Um servidor de rede social gratuito e de código aberto baseado no ActivityPub, onde os usuários podem seguir amigos e descobrir novos.
+    ro_RO: Un server de rețea socială gratuit, open-source, bazat pe ActivityPub, unde utilizatorii își pot urmări prietenii și pot descoperi alții noi.
+    ru_RU: Бесплатный сервер социальной сети с открытым исходным кодом, основанный на ActivityPub, где пользователи могут следить за друзьями и находить новых.
+    sk_SK: Bezplatný server sociálnej siete s otvoreným zdrojovým kódom založený na platforme ActivityPub, kde môžu používatelia sledovať priateľov a objavovať nových.
+    sv_SE: En gratis, öppen källkodsbaserad social nätverksserver baserad på ActivityPub där användare kan följa vänner och upptäcka nya.
+    tr_TR: Kullanıcıların arkadaşlarını takip edebilecekleri ve yeni arkadaşlar keşfedebilecekleri, ActivityPub tabanlı ücretsiz, açık kaynaklı bir sosyal ağ sunucusu.
     zh_CN: 基于 ActivityPub 的开源社交网络服务器。
+    zh_TW: 基於 ActivityPub 的開源社交網路伺服器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png
   title:
     en_US: Mastodon (LinuxServer.io)
+    ca_ES: Mastodon (LinuxServer.io)
+    cs_CZ: Mastodon (LinuxServer.io)
+    da_DK: Mastodon (LinuxServer.io)
+    de_DE: Mastodon (LinuxServer.io)
+    el_GR: Mastodon (LinuxServer.io)
+    en_GB: Mastodon (LinuxServer.io)
+    es_ES: Mastodon (LinuxServer.io)
+    fr_FR: Mastodon (LinuxServer.io)
+    ga_IE: Mastodon (LinuxServer.io)
+    hr_HR: Mastodon (LinuxServer.io)
+    hu_HU: Mastodon (LinuxServer.io)
+    it_IT: Mastodon (LinuxServer.io)
+    ja_JP: Mastodon (LinuxServer.io)
+    ko_KR: Mastodon (LinuxServer.io)
+    ml_IN: Mastodon (LinuxServer.io)
+    nb_NO: Mastodon (LinuxServer.io)
+    nl_NL: Mastodon (LinuxServer.io)
+    pl_PL: Mastodon (LinuxServer.io)
+    pt_BR: Mastodon (LinuxServer.io)
+    ro_RO: Mastodon (LinuxServer.io)
+    ru_RU: Mastodon (LinuxServer.io)
+    sk_SK: Mastodon (LinuxServer.io)
+    sv_SE: Mastodon (LinuxServer.io)
+    tr_TR: Mastodon (LinuxServer.io)
     zh_CN: Mastodon（LinuxServer.io）
+    zh_TW: Mastodon（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermastodon
   port_map: '80'

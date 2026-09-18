@@ -51,9 +51,62 @@ x-casaos:
       Snapdrop 可在浏览器中分享局域网文件，灵感来自 Apple AirDrop。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/snapdrop/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/snapdrop/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/snapdrop/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/snapdrop/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/snapdrop/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
+    es_ES: 'Visita la página principal: https://hub.docker.com/r/linuxserver/snapdrop/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/snapdrop/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/snapdrop/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/snapdrop/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/snapdrop/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/snapdrop/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/snapdrop/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/snapdrop/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/snapdrop/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/snapdrop/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/snapdrop/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/snapdrop/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/snapdrop/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/snapdrop/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/snapdrop/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/snapdrop/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/snapdrop/'
+    zh_TW: |-
+      Snapdrop 可在瀏覽器中分享區域網檔案，靈感來自 Apple AirDrop。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/snapdrop/
   tagline:
     en_US: 'A local file sharing in your browser. Inspired by Apple''s Airdrop. '
     zh_CN: 在浏览器中进行局域网文件分享。
+    ca_ES: Una funció per compartir fitxers localment al navegador. Inspirada en l'Airdrop d'Apple.
+    cs_CZ: Lokální sdílení souborů ve vašem prohlížeči. Inspirováno službou Airdrop od Applu.
+    da_DK: Lokal fildeling i din browser. Inspireret af Apples Airdrop.
+    de_DE: Lokale Dateifreigabe im Browser. Inspiriert von Apples Airdrop.
+    el_GR: Μια τοπική κοινή χρήση αρχείων στο πρόγραμμα περιήγησής σας. Εμπνευσμένο από το Airdrop της Apple.
+    en_GB: 'A local file sharing in your browser. Inspired by Apple''s Airdrop. '
+    es_ES: Compartir archivos localmente en tu navegador. Inspirado en AirDrop de Apple.
+    fr_FR: Un système de partage de fichiers locaux intégré à votre navigateur. Inspiré d'AirDrop d'Apple.
+    ga_IE: Comhroinnt comhad áitiúil i do bhrabhsálaí. Spreagtha ag Airdrop Apple.
+    hr_HR: Lokalno dijeljenje datoteka u vašem pregledniku. Inspirirano Appleovim Airdropom.
+    hu_HU: Helyi fájlmegosztás a böngésződben. Az Apple Airdropja ihlette.
+    it_IT: Condivisione di file locale direttamente nel browser. Ispirato ad AirDrop di Apple.
+    ja_JP: ブラウザ上でローカルファイルを共有できる機能。AppleのAirDropにヒントを得ました。
+    ko_KR: 웹 브라우저에서 로컬 파일을 공유하는 기능입니다. 애플의 에어드롭에서 영감을 받았습니다.
+    ml_IN: നിങ്ങളുടെ ബ്രൗസറിൽ ഒരു ലോക്കൽ ഫയൽ പങ്കിടൽ. ആപ്പിളിന്റെ എയർഡ്രോപ്പിൽ നിന്ന് പ്രചോദനം ഉൾക്കൊണ്ടത്.
+    nb_NO: Lokal fildeling i nettleseren din. Inspirert av Apples Airdrop.
+    nl_NL: Bestanden lokaal delen via je browser. Geïnspireerd door Apple's AirDrop.
+    pl_PL: Lokalne udostępnianie plików w przeglądarce. Zainspirowane przez Airdrop firmy Apple.
+    pt_BR: Compartilhamento local de arquivos no seu navegador. Inspirado no AirDrop da Apple.
+    ro_RO: O partajare locală de fișiere în browser. Inspirat de Airdrop de la Apple.
+    ru_RU: Локальный обмен файлами в вашем браузере. Вдохновлено сервисом AirDrop от Apple.
+    sk_SK: Lokálne zdieľanie súborov vo vašom prehliadači. Inšpirované službou Airdrop od spoločnosti Apple.
+    sv_SE: Lokal fildelning i din webbläsare. Inspirerad av Apples Airdrop.
+    tr_TR: Tarayıcınızda yerel dosya paylaşımı. Apple'ın AirDrop'undan esinlenilmiştir.
+    zh_TW: 在瀏覽器中進行區域網檔案分享。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snapdrop-icon.png
@@ -61,6 +114,31 @@ x-casaos:
   title:
     en_US: Snapdrop
     zh_CN: Snapdrop
+    ca_ES: Snapdrop
+    cs_CZ: Snapdrop
+    da_DK: Snapdrop
+    de_DE: Snapdrop
+    el_GR: Snapdrop
+    en_GB: Snapdrop
+    es_ES: Snapdrop
+    fr_FR: Snapdrop
+    ga_IE: Snapdrop
+    hr_HR: Snapdrop
+    hu_HU: Snapdrop
+    it_IT: Snapdrop
+    ja_JP: Snapdrop
+    ko_KR: Snapdrop
+    ml_IN: Snapdrop
+    nb_NO: Snapdrop
+    nl_NL: Snapdrop
+    pl_PL: Snapdrop
+    pt_BR: Snapdrop
+    ro_RO: Snapdrop
+    ru_RU: Snapdrop
+    sk_SK: Snapdrop
+    sv_SE: Snapdrop
+    tr_TR: Snapdrop
+    zh_TW: Snapdrop
   category: Others
   project_url: https://github.com/RobinLinus/snapdrop
   port_map: '80'

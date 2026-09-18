@@ -40,17 +40,92 @@ x-casaos:
   main: app
   description:
     en_US: Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
+    ca_ES: Chromium és un projecte de navegador de codi obert que té com a objectiu crear una manera més segura, ràpida i estable perquè tots els usuaris puguin experimentar la web.
+    cs_CZ: Chromium je open-source projekt prohlížeče, jehož cílem je vytvořit bezpečnější, rychlejší a stabilnější způsob, jakým mohou všichni uživatelé prožívat web.
+    da_DK: Chromium er et open source-browserprojekt, der har til formål at skabe en sikrere, hurtigere og mere stabil måde for alle brugere at opleve internettet.
+    de_DE: Chromium ist ein Open-Source-Browserprojekt, das darauf abzielt, allen Nutzern ein sichereres, schnelleres und stabileres Erlebnis im Internet zu ermöglichen.
+    el_GR: Το Chromium είναι ένα πρόγραμμα περιήγησης ανοιχτού κώδικα που στοχεύει στη δημιουργία ενός ασφαλέστερου, ταχύτερου και πιο σταθερού τρόπου για όλους τους χρήστες να χρησιμοποιούν τον ιστό.
+    en_GB: Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
+    es_ES: Chromium es un proyecto de navegador de código abierto que tiene como objetivo crear una forma más segura, rápida y estable para que todos los usuarios experimenten la web.
+    fr_FR: Chromium est un projet de navigateur open source qui vise à offrir à tous les utilisateurs une expérience web plus sûre, plus rapide et plus stable.
+    ga_IE: Is tionscadal brabhsálaí foinse oscailte é Chromium a bhfuil sé mar aidhm aige bealach níos sábháilte, níos tapúla agus níos cobhsaí a thógáil do gach úsáideoir chun taithí a fháil ar an ngréasán.
+    hr_HR: Chromium je projekt preglednika otvorenog koda koji ima za cilj izgraditi sigurniji, brži i stabilniji način korištenja weba za sve korisnike.
+    hu_HU: A Chromium egy nyílt forráskódú böngészőprojekt, amelynek célja, hogy biztonságosabb, gyorsabb és stabilabb módot teremtsen minden felhasználó számára az internetezés megtapasztalására.
+    it_IT: Chromium è un progetto browser open source che mira a creare un'esperienza web più sicura, veloce e stabile per tutti gli utenti.
+    ja_JP: Chromiumは、すべてのユーザーがより安全で、より高速で、より安定した方法でウェブを体験できるようにすることを目指すオープンソースのブラウザプロジェクトです。
+    ko_KR: 크로뮴은 모든 사용자가 더 안전하고 빠르며 안정적인 방식으로 웹을 경험할 수 있도록 하는 것을 목표로 하는 오픈 소스 브라우저 프로젝트입니다.
+    ml_IN: എല്ലാ ഉപയോക്താക്കൾക്കും വെബ് അനുഭവിക്കുന്നതിനായി സുരക്ഷിതവും വേഗതയേറിയതും കൂടുതൽ സ്ഥിരതയുള്ളതുമായ ഒരു മാർഗം നിർമ്മിക്കാൻ ലക്ഷ്യമിടുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് ബ്രൗസർ പ്രോജക്റ്റാണ് Chromium.
+    nb_NO: Chromium er et nettleserprosjekt med åpen kildekode som har som mål å bygge en tryggere, raskere og mer stabil måte for alle brukere å oppleve nettet på.
+    nl_NL: Chromium is een open-source browserproject dat tot doel heeft een veiligere, snellere en stabielere manier te creëren voor alle gebruikers om het web te ervaren.
+    pl_PL: Chromium to projekt przeglądarki typu open source, którego celem jest zbudowanie bezpieczniejszego, szybszego i bardziej stabilnego sposobu korzystania z sieci dla wszystkich użytkowników.
+    pt_BR: O Chromium é um projeto de navegador de código aberto que visa criar uma maneira mais segura, rápida e estável para todos os usuários interagirem com a web.
+    ro_RO: Chromium este un proiect de browser open-source care își propune să construiască o modalitate mai sigură, mai rapidă și mai stabilă pentru ca toți utilizatorii să navigheze pe web.
+    ru_RU: Chromium — это проект браузера с открытым исходным кодом, цель которого — создать более безопасный, быстрый и стабильный способ работы в интернете для всех пользователей.
+    sk_SK: Chromium je projekt prehliadača s otvoreným zdrojovým kódom, ktorého cieľom je vytvoriť bezpečnejší, rýchlejší a stabilnejší spôsob, ako môžu všetci používatelia používať web.
+    sv_SE: Chromium är ett webbläsarprojekt med öppen källkod som syftar till att bygga ett säkrare, snabbare och mer stabilt sätt för alla användare att uppleva webben.
+    tr_TR: Chromium, tüm kullanıcıların web deneyimini daha güvenli, daha hızlı ve daha istikrarlı hale getirmeyi amaçlayan açık kaynaklı bir tarayıcı projesidir.
     zh_CN: Chromium 是一个开源浏览器项目，旨在为所有用户提供更安全、更快速、更稳定的网页浏览体验。
+    zh_TW: Chromium 是一個開源瀏覽器專案，旨在為所有使用者提供更安全、更快速、更穩定的網頁瀏覽體驗。
   tagline:
     en_US: An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
+    ca_ES: Un projecte de navegador de codi obert que pretén construir una manera més segura, ràpida i estable perquè tots els usuaris puguin experimentar la web.
+    cs_CZ: Projekt prohlížeče s otevřeným zdrojovým kódem, jehož cílem je vytvořit bezpečnější, rychlejší a stabilnější způsob, jakým mohou všichni uživatelé procházet web.
+    da_DK: Et open source-browserprojekt, der har til formål at skabe en sikrere, hurtigere og mere stabil måde for alle brugere at opleve internettet.
+    de_DE: Ein Open-Source-Browserprojekt, das darauf abzielt, allen Nutzern ein sichereres, schnelleres und stabileres Erlebnis im Internet zu ermöglichen.
+    el_GR: Ένα έργο προγράμματος περιήγησης ανοιχτού κώδικα που στοχεύει στη δημιουργία ενός ασφαλέστερου, ταχύτερου και πιο σταθερού τρόπου για όλους τους χρήστες να βιώνουν τον ιστό.
+    en_GB: An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.
+    es_ES: Un proyecto de navegador de código abierto que tiene como objetivo crear una forma más segura, rápida y estable para que todos los usuarios disfruten de la web.
+    fr_FR: Un projet de navigateur open source visant à créer une expérience web plus sûre, plus rapide et plus stable pour tous les utilisateurs.
+    ga_IE: Tionscadal brabhsálaí foinse oscailte a bhfuil sé mar aidhm aige bealach níos sábháilte, níos tapúla agus níos cobhsaí a thógáil do gach úsáideoir chun taithí a fháil ar an ngréasán.
+    hr_HR: Projekt preglednika otvorenog koda čiji je cilj izgraditi sigurniji, brži i stabilniji način korištenja weba za sve korisnike.
+    hu_HU: Egy nyílt forráskódú böngészőprojekt, amelynek célja, hogy biztonságosabb, gyorsabb és stabilabb módot teremtsen minden felhasználó számára az internetezés megtapasztalására.
+    it_IT: Un progetto di browser open source che mira a creare un modo più sicuro, veloce e stabile per tutti gli utenti di navigare sul web.
+    ja_JP: すべてのユーザーがより安全で、より高速で、より安定した方法でウェブを体験できるようにすることを目指す、オープンソースのブラウザプロジェクト。
+    ko_KR: 모든 사용자가 더 안전하고 빠르며 안정적인 웹 환경을 경험할 수 있도록 하는 것을 목표로 하는 오픈 소스 브라우저 프로젝트입니다.
+    ml_IN: എല്ലാ ഉപയോക്താക്കൾക്കും വെബ് അനുഭവിക്കുന്നതിനായി സുരക്ഷിതവും വേഗതയേറിയതും കൂടുതൽ സ്ഥിരതയുള്ളതുമായ ഒരു മാർഗം നിർമ്മിക്കാൻ ലക്ഷ്യമിടുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ് ബ്രൗസർ പ്രോജക്റ്റ്.
+    nb_NO: Et nettleserprosjekt med åpen kildekode som har som mål å bygge en tryggere, raskere og mer stabil måte for alle brukere å oppleve nettet på.
+    nl_NL: Een open-source browserproject dat tot doel heeft een veiligere, snellere en stabielere manier te creëren voor alle gebruikers om het web te ervaren.
+    pl_PL: Projekt przeglądarki o otwartym kodzie źródłowym, którego celem jest zbudowanie bezpieczniejszego, szybszego i bardziej stabilnego sposobu korzystania z sieci dla wszystkich użytkowników.
+    pt_BR: Um projeto de navegador de código aberto que visa construir uma maneira mais segura, rápida e estável para todos os usuários experimentarem a web.
+    ro_RO: Un proiect de browser open-source care își propune să construiască o modalitate mai sigură, mai rapidă și mai stabilă pentru ca toți utilizatorii să experimenteze internetul.
+    ru_RU: Проект браузера с открытым исходным кодом, цель которого — создать более безопасный, быстрый и стабильный способ работы в интернете для всех пользователей.
+    sk_SK: Projekt prehliadača s otvoreným zdrojovým kódom, ktorého cieľom je vytvoriť bezpečnejší, rýchlejší a stabilnejší spôsob, ako môžu všetci používatelia používať web.
+    sv_SE: Ett webbläsarprojekt med öppen källkod som syftar till att bygga ett säkrare, snabbare och mer stabilt sätt för alla användare att uppleva webben.
+    tr_TR: Tüm kullanıcıların internet deneyimini daha güvenli, daha hızlı ve daha istikrarlı hale getirmeyi amaçlayan açık kaynaklı bir tarayıcı projesi.
     zh_CN: 致力于安全、快速和稳定上网体验的开源浏览器。
+    zh_TW: 致力於安全、快速和穩定上網體驗的開源瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chromium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chromium-logo.png
   title:
     en_US: Chromium (LinuxServer.io)
+    ca_ES: Chromium (LinuxServer.io)
+    cs_CZ: Chromium (LinuxServer.io)
+    da_DK: Chromium (LinuxServer.io)
+    de_DE: Chromium (LinuxServer.io)
+    el_GR: Chromium (LinuxServer.io)
+    en_GB: Chromium (LinuxServer.io)
+    es_ES: Chromium (LinuxServer.io)
+    fr_FR: Chromium (LinuxServer.io)
+    ga_IE: Chromium (LinuxServer.io)
+    hr_HR: Chromium (LinuxServer.io)
+    hu_HU: Chromium (LinuxServer.io)
+    it_IT: Chromium (LinuxServer.io)
+    ja_JP: Chromium (LinuxServer.io)
+    ko_KR: Chromium (LinuxServer.io)
+    ml_IN: Chromium (LinuxServer.io)
+    nb_NO: Chromium (LinuxServer.io)
+    nl_NL: Chromium (LinuxServer.io)
+    pl_PL: Chromium (LinuxServer.io)
+    pt_BR: Chromium (LinuxServer.io)
+    ro_RO: Chromium (LinuxServer.io)
+    ru_RU: Chromium (LinuxServer.io)
+    sk_SK: Chromium (LinuxServer.io)
+    sv_SE: Chromium (LinuxServer.io)
+    tr_TR: Chromium (LinuxServer.io)
     zh_CN: Chromium（LinuxServer.io）
+    zh_TW: Chromium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverchromium
   port_map: '3000'

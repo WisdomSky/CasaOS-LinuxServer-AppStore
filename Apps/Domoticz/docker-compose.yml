@@ -51,9 +51,62 @@ x-casaos:
       Domoticz 是家庭自动化系统，可监控和配置灯具、开关，以及温度、雨量、风速、紫外线、电力、燃气、水等各类传感器和仪表。通知和警报可发送到移动设备。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/domoticz/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/domoticz/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/domoticz/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/domoticz/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/domoticz/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/domoticz/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/domoticz/'
+    es_ES: 'Visite la página principal: https://hub.docker.com/r/linuxserver/domoticz/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/domoticz/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/domoticz/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/domoticz/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/domoticz/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/domoticz/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/domoticz/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/domoticz/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/domoticz/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/domoticz/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/domoticz/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/domoticz/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/domoticz/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/domoticz/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/domoticz/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/domoticz/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/domoticz/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/domoticz/'
+    zh_TW: |-
+      Domoticz 是家庭自動化系統，可監控和配置燈具、開關，以及溫度、雨量、風速、紫外線、電力、燃氣、水等各類感測器和儀表。通知和警報可傳送到移動裝置。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/domoticz/
   tagline:
     en_US: 'A Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.'
     zh_CN: 监控和控制灯具、开关及各类家庭传感器。
+    ca_ES: 'Un sistema domòtic que permet monitoritzar i configurar diversos dispositius com ara: llums, interruptors, diversos sensors/mesuradors com ara temperatura, pluja, vent, raigs UV, electrògen, gas, aigua i molt més. Les notificacions/alertes es poden enviar a qualsevol dispositiu mòbil.'
+    cs_CZ: 'Systém domácí automatizace, který vám umožňuje monitorovat a konfigurovat různá zařízení, jako jsou: světla, spínače, různé senzory/měřiče, jako je teplota, déšť, vítr, UV záření, elektřina, plyn, voda a mnoho dalšího. Oznámení/upozornění lze zasílat na jakékoli mobilní zařízení.'
+    da_DK: 'Et hjemmeautomationssystem, der giver dig mulighed for at overvåge og konfigurere forskellige enheder som: lys, kontakter, forskellige sensorer/målere som temperatur, regn, vind, UV, elektricitet, gas, vand og meget mere. Notifikationer/advarsler kan sendes til enhver mobil enhed.'
+    de_DE: Ein Hausautomatisierungssystem, mit dem Sie verschiedene Geräte wie Lampen, Schalter und Sensoren/Messgeräte (z. B. für Temperatur, Regen, Wind, UV-Strahlung, Strom, Gas, Wasser usw.) überwachen und konfigurieren können. Benachrichtigungen/Warnungen lassen sich an jedes mobile Gerät senden.
+    el_GR: 'Ένα σύστημα αυτοματισμού σπιτιού που σας επιτρέπει να παρακολουθείτε και να διαμορφώνετε διάφορες συσκευές όπως: Φώτα, διακόπτες, διάφορους αισθητήρες/μετρητές όπως Θερμοκρασία, Βροχή, Άνεμος, UV, Ηλεκτρισμός, Αέριο, Νερό και πολλά άλλα. Οι ειδοποιήσεις/ειδοποιήσεις μπορούν να αποσταλούν σε οποιαδήποτε κινητή συσκευή.'
+    en_GB: 'A Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, Uv, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.'
+    es_ES: Un sistema de automatización del hogar que permite monitorear y configurar diversos dispositivos como luces, interruptores, sensores y medidores de temperatura, lluvia, viento, rayos UV, electricidad, gas, agua y mucho más. Se pueden enviar notificaciones y alertas a cualquier dispositivo móvil.
+    fr_FR: "Un système domotique permettant de surveiller et de configurer divers appareils\_: éclairages, interrupteurs, capteurs et compteurs (température, pluie, vent, UV, électricité, gaz, eau, etc.). Des notifications et alertes peuvent être envoyées sur tout appareil mobile."
+    ga_IE: 'Córas Uathoibrithe Baile a ligeann duit gléasanna éagsúla a mhonatóiriú agus a chumrú ar nós: Soilse, Lasca, braiteoirí/méadair éagsúla ar nós Teocht, Báisteach, Gaoth, UV, Leictreachas, Gás, Uisce agus i bhfad níos mó. Is féidir fógraí/foláirimh a sheoladh chuig aon ghléas soghluaiste.'
+    hr_HR: 'Sustav za automatizaciju doma koji vam omogućuje praćenje i konfiguriranje raznih uređaja poput: svjetala, prekidača, raznih senzora/mjerača poput temperature, kiše, vjetra, UV zračenja, struje, plina, vode i još mnogo toga. Obavijesti/upozorenja mogu se slati na bilo koji mobilni uređaj.'
+    hu_HU: 'Egy otthonautomatizálási rendszer, amely lehetővé teszi különféle eszközök figyelését és konfigurálását, például: lámpák, kapcsolók, különféle érzékelők/mérők, például hőmérséklet, eső, szél, UV, elektra, gáz, víz és még sok más. Az értesítések/riasztások bármilyen mobileszközre elküldhetők.'
+    it_IT: Un sistema di domotica che consente di monitorare e configurare diversi dispositivi come luci, interruttori, vari sensori/contatori per temperatura, pioggia, vento, raggi UV, elettricità, gas, acqua e molto altro. È possibile inviare notifiche/avvisi a qualsiasi dispositivo mobile.
+    ja_JP: 照明、スイッチ、温度、雨量、風速、紫外線、電気、ガス、水など、さまざまなセンサーやメーターといった各種機器を監視・設定できるホームオートメーションシステムです。通知やアラートはあらゆるモバイルデバイスに送信できます。
+    ko_KR: 조명, 스위치, 온도, 강우, 풍향, 자외선, 전기, 가스, 수도 등 다양한 센서/계측기를 모니터링하고 설정할 수 있는 홈 자동화 시스템입니다. 알림/경고는 모든 모바일 기기로 전송됩니다.
+    ml_IN: ലൈറ്റുകൾ, സ്വിച്ചുകൾ, താപനില, മഴ, കാറ്റ്, യുവി, ഇലക്ട്ര, ഗ്യാസ്, വെള്ളം തുടങ്ങിയ വിവിധ സെൻസറുകൾ/മീറ്ററുകൾ പോലുള്ള വിവിധ ഉപകരണങ്ങൾ നിരീക്ഷിക്കാനും കോൺഫിഗർ ചെയ്യാനും നിങ്ങളെ അനുവദിക്കുന്ന ഒരു ഹോം ഓട്ടോമേഷൻ സിസ്റ്റം. ഏത് മൊബൈൽ ഉപകരണത്തിലേക്കും അറിയിപ്പുകൾ/അലേർട്ടുകൾ അയയ്ക്കാൻ കഴിയും.
+    nb_NO: 'Et hjemmeautomatiseringssystem som lar deg overvåke og konfigurere diverse enheter som: lys, brytere, diverse sensorer/målere som temperatur, regn, vind, UV, elektrisitet, gass, vann og mye mer. Varsler/varsler kan sendes til enhver mobil enhet.'
+    nl_NL: 'Een domoticasysteem waarmee u diverse apparaten kunt bewaken en configureren, zoals: verlichting, schakelaars, diverse sensoren/meters voor temperatuur, regen, wind, UV-straling, elektriciteit, gas, water en nog veel meer. Meldingen/waarschuwingen kunnen naar elk mobiel apparaat worden verzonden.'
+    pl_PL: 'System automatyki domowej, który umożliwia monitorowanie i konfigurowanie różnych urządzeń, takich jak: oświetlenie, przełączniki, czujniki/mierniki temperatury, deszczu, wiatru, promieniowania UV, Electra, gazu, wody i wiele innych. Powiadomienia/alerty można wysyłać na dowolne urządzenie mobilne.'
+    pt_BR: Um sistema de automação residencial que permite monitorar e configurar diversos dispositivos, como luzes, interruptores, sensores/medidores de temperatura, chuva, vento, UV, eletricidade, gás, água e muito mais. Notificações/alertas podem ser enviados para qualquer dispositivo móvel.
+    ro_RO: 'Un sistem de automatizare a locuinței care vă permite să monitorizați și să configurați diverse dispozitive precum: lumini, întrerupătoare, diverși senzori/contoare precum temperatură, ploaie, vânt, UV, electricitate, gaz, apă și multe altele. Notificările/alertele pot fi trimise către orice dispozitiv mobil.'
+    ru_RU: 'Система домашней автоматизации, позволяющая отслеживать и настраивать различные устройства, такие как: освещение, выключатели, различные датчики/измерители температуры, дождя, ветра, УФ-излучения, электричества, газа, воды и многое другое. Уведомления/оповещения могут отправляться на любое мобильное устройство.'
+    sk_SK: 'Systém domácej automatizácie, ktorý vám umožňuje monitorovať a konfigurovať rôzne zariadenia, ako napríklad: svetlá, spínače, rôzne senzory/merače, ako napríklad teplota, dážď, vietor, UV žiarenie, elektrina, plyn, voda a mnoho ďalších. Upozornenia/upozornenia je možné odosielať na akékoľvek mobilné zariadenie.'
+    sv_SE: 'Ett hemautomationssystem som låter dig övervaka och konfigurera olika enheter som: lampor, strömbrytare, olika sensorer/mätare som temperatur, regn, vind, UV, elektricitet, gas, vatten och mycket mer. Aviseringar/larm kan skickas till vilken mobil enhet som helst.'
+    tr_TR: Ev otomasyon sistemi, ışıklar, anahtarlar, sıcaklık, yağmur, rüzgar, UV, elektrik, gaz, su ve daha birçok sensör/ölçüm cihazı gibi çeşitli cihazları izlemenizi ve yapılandırmanızı sağlar. Bildirimler/uyarılar herhangi bir mobil cihaza gönderilebilir.
+    zh_TW: 監控和控制燈具、開關及各類家庭感測器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/domoticz/domoticz/raw/master/www/images/logo.png
@@ -61,6 +114,31 @@ x-casaos:
   title:
     en_US: Domoticz
     zh_CN: Domoticz
+    ca_ES: Domoticz
+    cs_CZ: Domoticz
+    da_DK: Domoticz
+    de_DE: Domoticz
+    el_GR: Domoticz
+    en_GB: Domoticz
+    es_ES: Domoticz
+    fr_FR: Domoticz
+    ga_IE: Domoticz
+    hr_HR: Domoticz
+    hu_HU: Domoticz
+    it_IT: Domoticz
+    ja_JP: Domoticz
+    ko_KR: Domoticz
+    ml_IN: Domoticz
+    nb_NO: Domoticz
+    nl_NL: Domoticz
+    pl_PL: Domoticz
+    pt_BR: Domoticz
+    ro_RO: Domoticz
+    ru_RU: Domoticz
+    sk_SK: Domoticz
+    sv_SE: Domoticz
+    tr_TR: Domoticz
+    zh_TW: Domoticz
   category: Others
   project_url: https://www.domoticz.com
   port_map: '8080'

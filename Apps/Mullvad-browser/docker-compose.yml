@@ -45,17 +45,92 @@ x-casaos:
   main: app
   description:
     en_US: The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN.
+    ca_ES: El navegador Mullvad és un navegador web centrat en la privadesa, desenvolupat en col·laboració entre Mullvad VPN i el projecte Tor. Està dissenyat per minimitzar el rastreig i les empremtes dactilars. Es podria dir que és un navegador Tor per utilitzar sense la xarxa Tor. En canvi, el podeu utilitzar amb una VPN de confiança.
+    cs_CZ: Prohlížeč Mullvad je webový prohlížeč zaměřený na soukromí, vyvinutý ve spolupráci mezi Mullvad VPN a projektem Tor. Je navržen tak, aby minimalizoval sledování a otisky prstů. Dalo by se říci, že je to prohlížeč Tor, který lze používat bez sítě Tor. Místo toho jej můžete používat s důvěryhodnou VPN.
+    da_DK: Mullvad Browser er en privatlivsfokuseret webbrowser udviklet i et samarbejde mellem Mullvad VPN og Tor Project. Den er designet til at minimere sporing og fingeraftryk. Man kan sige, at det er en Tor Browser, der kan bruges uden Tor-netværket. I stedet kan du bruge den med en pålidelig VPN.
+    de_DE: Der Mullvad Browser ist ein datenschutzorientierter Webbrowser, der in Zusammenarbeit zwischen Mullvad VPN und dem Tor-Projekt entwickelt wurde. Er minimiert Tracking und Fingerprinting. Man könnte sagen, er ist ein Tor-Browser, der ohne das Tor-Netzwerk genutzt werden kann. Stattdessen lässt er sich mit einem vertrauenswürdigen VPN verwenden.
+    el_GR: Το Mullvad Browser είναι ένα πρόγραμμα περιήγησης ιστού που εστιάζει στην προστασία της ιδιωτικής ζωής και αναπτύχθηκε σε συνεργασία μεταξύ του Mullvad VPN και του Tor Project. Έχει σχεδιαστεί για να ελαχιστοποιεί την παρακολούθηση και τα δακτυλικά αποτυπώματα. Θα μπορούσατε να πείτε ότι είναι ένα πρόγραμμα περιήγησης Tor για χρήση χωρίς το δίκτυο Tor. Αντίθετα, μπορείτε να το χρησιμοποιήσετε με ένα αξιόπιστο VPN.
+    en_GB: The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad Vpn and the Tor Project. It’s designed to minimise tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy Vpn.
+    es_ES: El navegador Mullvad es un navegador web centrado en la privacidad, desarrollado en colaboración entre Mullvad VPN y el Proyecto Tor. Está diseñado para minimizar el rastreo y la identificación de la actividad del usuario. Podríamos decir que es un navegador Tor que se puede usar sin la red Tor. En su lugar, se puede usar con una VPN de confianza.
+    fr_FR: Le navigateur Mullvad est un navigateur web axé sur la protection de la vie privée, développé en collaboration par Mullvad VPN et le projet Tor. Il est conçu pour minimiser le suivi et l'identification de votre activité en ligne. On pourrait le décrire comme un navigateur Tor utilisable sans le réseau Tor. En effet, il s'utilise avec un VPN fiable.
+    ga_IE: Is brabhsálaí gréasáin atá dírithe ar phríobháideacht é Brabhsálaí Mullvad a forbraíodh i gcomhar idir Mullvad VPN agus Tionscadal Tor. Tá sé deartha chun rianú agus méarloirg a íoslaghdú. D’fhéadfá a rá gur Brabhsálaí Tor é le húsáid gan Líonra Tor. Ina áit sin, is féidir leat é a úsáid le VPN iontaofa.
+    hr_HR: Mullvad preglednik je web preglednik usmjeren na privatnost, razvijen u suradnji između Mullvad VPN-a i Tor projekta. Dizajniran je kako bi se smanjilo praćenje i otiske prstiju. Moglo bi se reći da je to Tor preglednik za korištenje bez Tor mreže. Umjesto toga, možete ga koristiti s pouzdanim VPN-om.
+    hu_HU: A Mullvad böngésző egy adatvédelemre összpontosító webböngésző, amelyet a Mullvad VPN és a Tor Project együttműködésében fejlesztettek ki. Úgy tervezték, hogy minimalizálja a követést és az ujjlenyomat-vételt. Mondhatni, hogy ez egy Tor böngésző, amelyet a Tor hálózat nélkül is használhatunk. Ehelyett egy megbízható VPN-nel használható.
+    it_IT: Il browser Mullvad è un browser web incentrato sulla privacy, sviluppato in collaborazione tra Mullvad VPN e il progetto Tor. È progettato per ridurre al minimo il tracciamento e la creazione di impronte digitali. Si potrebbe dire che è un browser Tor utilizzabile anche senza la rete Tor. In alternativa, è possibile utilizzarlo con una VPN affidabile.
+    ja_JP: Mullvad Browserは、Mullvad VPNとTorプロジェクトの共同開発による、プライバシー重視のウェブブラウザです。トラッキングとフィンガープリンティングを最小限に抑えるように設計されています。Torネットワークを使わずにTorブラウザとして利用できると言えるでしょう。代わりに、信頼できるVPNと併用して使用できます。
+    ko_KR: Mullvad 브라우저는 Mullvad VPN과 Tor 프로젝트의 협력으로 개발된 개인정보 보호에 중점을 둔 웹 브라우저입니다. 추적 및 핑거프린팅을 최소화하도록 설계되었습니다. Tor 네트워크 없이 사용할 수 있는 Tor 브라우저라고 할 수 있으며, 신뢰할 수 있는 VPN과 함께 사용할 수 있습니다.
+    ml_IN: Mullvad VPN ഉം Tor Project ഉം സഹകരിച്ച് വികസിപ്പിച്ചെടുത്ത സ്വകാര്യതയെ കേന്ദ്രീകരിച്ചുള്ള ഒരു വെബ് ബ്രൗസറാണ് Mullvad ബ്രൗസർ. ട്രാക്കിംഗും ഫിംഗർപ്രിന്റിംഗും കുറയ്ക്കുന്നതിനായാണ് ഇത് രൂപകൽപ്പന ചെയ്തിരിക്കുന്നത്. Tor നെറ്റ്‌വർക്ക് ഇല്ലാതെ ഉപയോഗിക്കാൻ ഒരു Tor ബ്രൗസർ ആണെന്ന് നിങ്ങൾക്ക് പറയാം. പകരം, നിങ്ങൾക്ക് ഇത് വിശ്വസനീയമായ ഒരു VPN ഉപയോഗിച്ച് ഉപയോഗിക്കാം.
+    nb_NO: Mullvad-nettleseren er en personvernfokusert nettleser utviklet i et samarbeid mellom Mullvad VPN og Tor-prosjektet. Den er designet for å minimere sporing og fingeravtrykk. Man kan si at det er en Tor-nettleser som kan brukes uten Tor-nettverket. I stedet kan du bruke den med en pålitelig VPN.
+    nl_NL: De Mullvad Browser is een privacygerichte webbrowser die is ontwikkeld in een samenwerking tussen Mullvad VPN en het Tor Project. Het is ontworpen om tracking en fingerprinting te minimaliseren. Je zou het een Tor Browser kunnen noemen die je kunt gebruiken zonder het Tor-netwerk. In plaats daarvan kun je hem gebruiken met een betrouwbare VPN.
+    pl_PL: Mullvad Browser to przeglądarka internetowa skoncentrowana na prywatności, opracowana we współpracy Mullvad VPN i Tor Project. Została zaprojektowana tak, aby zminimalizować śledzenie i odciski palców. Można powiedzieć, że to przeglądarka Tor, której można używać bez sieci Tor. Zamiast tego można jej używać z zaufaną siecią VPN.
+    pt_BR: O Mullvad Browser é um navegador web focado em privacidade, desenvolvido em colaboração entre a Mullvad VPN e o Projeto Tor. Ele foi projetado para minimizar o rastreamento e a identificação do usuário. Pode-se dizer que é um navegador Tor para usar sem a rede Tor. Em vez disso, você pode usá-lo com uma VPN confiável.
+    ro_RO: Browserul Mullvad este un browser web axat pe confidențialitate, dezvoltat în colaborare între Mullvad VPN și Proiectul Tor. Este conceput pentru a minimiza urmărirea și amprentarea. Ai putea spune că este un browser Tor pe care îl poți folosi fără rețeaua Tor. În schimb, îl poți folosi cu un VPN de încredere.
+    ru_RU: Mullvad Browser — это веб-браузер, ориентированный на конфиденциальность, разработанный в сотрудничестве между Mullvad VPN и проектом Tor. Он предназначен для минимизации отслеживания и идентификации пользователей. Можно сказать, это браузер Tor, который можно использовать без сети Tor. Вместо этого его можно использовать с надежным VPN.
+    sk_SK: Prehliadač Mullvad je webový prehliadač zameraný na súkromie, ktorý bol vyvinutý v spolupráci medzi sieťou Mullvad VPN a projektom Tor. Je navrhnutý tak, aby minimalizoval sledovanie a odtlačky prstov. Dalo by sa povedať, že ide o prehliadač Tor, ktorý sa používa bez siete Tor. Namiesto toho ho môžete používať s dôveryhodnou sieťou VPN.
+    sv_SE: Mullvad Browser är en integritetsfokuserad webbläsare som utvecklats i ett samarbete mellan Mullvad VPN och Tor-projektet. Den är utformad för att minimera spårning och fingeravtryck. Man skulle kunna säga att det är en Tor-webbläsare att använda utan Tor-nätverket. Istället kan du använda den med en pålitlig VPN.
+    tr_TR: Mullvad Browser, Mullvad VPN ve Tor Projesi iş birliğiyle geliştirilen, gizliliğe odaklı bir web tarayıcısıdır. İzleme ve parmak izi alma işlemlerini en aza indirgemek için tasarlanmıştır. Tor Ağı olmadan kullanabileceğiniz bir Tor Tarayıcısı diyebilirsiniz. Bunun yerine, güvenilir bir VPN ile kullanabilirsiniz.
     zh_CN: Mullvad Browser 是 Mullvad VPN 与 Tor Project 联合开发的注重隐私的网页浏览器，旨在尽量减少追踪和浏览器指纹识别。可以将其理解为不使用 Tor 网络的 Tor Browser；你可以改为搭配可信的 VPN 使用。
+    zh_TW: Mullvad Browser 是 Mullvad VPN 與 Tor Project 聯合開發的注重隱私的網頁瀏覽器，旨在儘量減少追蹤和瀏覽器指紋識別。可以將其理解為不使用 Tor 網路的 Tor Browser；你可以改為搭配可信的 VPN 使用。
   tagline:
     en_US: The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN.
+    ca_ES: El navegador Mullvad és un navegador web centrat en la privadesa, desenvolupat en col·laboració entre Mullvad VPN i el projecte Tor. Està dissenyat per minimitzar el rastreig i les empremtes dactilars. Es podria dir que és un navegador Tor per utilitzar sense la xarxa Tor. En canvi, el podeu utilitzar amb una VPN de confiança.
+    cs_CZ: Prohlížeč Mullvad je webový prohlížeč zaměřený na soukromí, vyvinutý ve spolupráci mezi Mullvad VPN a projektem Tor. Je navržen tak, aby minimalizoval sledování a otisky prstů. Dalo by se říci, že je to prohlížeč Tor, který lze používat bez sítě Tor. Místo toho jej můžete používat s důvěryhodnou VPN.
+    da_DK: Mullvad Browser er en privatlivsfokuseret webbrowser udviklet i et samarbejde mellem Mullvad VPN og Tor Project. Den er designet til at minimere sporing og fingeraftryk. Man kan sige, at det er en Tor Browser, der kan bruges uden Tor-netværket. I stedet kan du bruge den med en pålidelig VPN.
+    de_DE: Der Mullvad Browser ist ein datenschutzorientierter Webbrowser, der in Zusammenarbeit zwischen Mullvad VPN und dem Tor-Projekt entwickelt wurde. Er minimiert Tracking und Fingerprinting. Man könnte sagen, er ist ein Tor-Browser, der ohne das Tor-Netzwerk genutzt werden kann. Stattdessen lässt er sich mit einem vertrauenswürdigen VPN verwenden.
+    el_GR: Το Mullvad Browser είναι ένα πρόγραμμα περιήγησης ιστού που εστιάζει στην προστασία της ιδιωτικής ζωής και αναπτύχθηκε σε συνεργασία μεταξύ του Mullvad VPN και του Tor Project. Έχει σχεδιαστεί για να ελαχιστοποιεί την παρακολούθηση και τα δακτυλικά αποτυπώματα. Θα μπορούσατε να πείτε ότι είναι ένα πρόγραμμα περιήγησης Tor για χρήση χωρίς το δίκτυο Tor. Αντίθετα, μπορείτε να το χρησιμοποιήσετε με ένα αξιόπιστο VPN.
+    en_GB: The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad Vpn and the Tor Project. It’s designed to minimise tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy Vpn.
+    es_ES: El navegador Mullvad es un navegador web centrado en la privacidad, desarrollado en colaboración entre Mullvad VPN y el Proyecto Tor. Está diseñado para minimizar el rastreo y la identificación de la actividad del usuario. Podríamos decir que es un navegador Tor que se puede usar sin la red Tor. En su lugar, se puede usar con una VPN de confianza.
+    fr_FR: Le navigateur Mullvad est un navigateur web axé sur la confidentialité, développé en collaboration entre Mullvad VPN et le projet Tor. Il est conçu pour minimiser le suivi et l'identification de votre activité en ligne. On pourrait le décrire comme un navigateur Tor utilisable sans le réseau Tor. En effet, il s'utilise avec un VPN fiable.
+    ga_IE: Is brabhsálaí gréasáin atá dírithe ar phríobháideacht é Brabhsálaí Mullvad a forbraíodh i gcomhar idir Mullvad VPN agus Tionscadal Tor. Tá sé deartha chun rianú agus méarloirg a íoslaghdú. D’fhéadfá a rá gur Brabhsálaí Tor é le húsáid gan Líonra Tor. Ina áit sin, is féidir leat é a úsáid le VPN iontaofa.
+    hr_HR: Mullvad preglednik je web preglednik usmjeren na privatnost, razvijen u suradnji između Mullvad VPN-a i Tor projekta. Dizajniran je kako bi se smanjilo praćenje i otiske prstiju. Moglo bi se reći da je to Tor preglednik za korištenje bez Tor mreže. Umjesto toga, možete ga koristiti s pouzdanim VPN-om.
+    hu_HU: A Mullvad böngésző egy adatvédelemre összpontosító webböngésző, amelyet a Mullvad VPN és a Tor Project együttműködésében fejlesztettek ki. Úgy tervezték, hogy minimalizálja a követést és az ujjlenyomat-vételt. Mondhatni, hogy ez egy Tor böngésző, amelyet a Tor hálózat nélkül is használhatunk. Ehelyett egy megbízható VPN-nel használható.
+    it_IT: Il browser Mullvad è un browser web incentrato sulla privacy, sviluppato in collaborazione tra Mullvad VPN e il progetto Tor. È progettato per ridurre al minimo il tracciamento e la creazione di impronte digitali. Si potrebbe dire che è un browser Tor utilizzabile anche senza la rete Tor. In alternativa, è possibile utilizzarlo con una VPN affidabile.
+    ja_JP: Mullvad Browserは、Mullvad VPNとTorプロジェクトの共同開発による、プライバシー重視のウェブブラウザです。トラッキングとフィンガープリンティングを最小限に抑えるように設計されています。Torネットワークを使わずにTorブラウザとして利用できると言えるでしょう。代わりに、信頼できるVPNと併用して使用できます。
+    ko_KR: Mullvad 브라우저는 Mullvad VPN과 Tor 프로젝트의 협력으로 개발된 개인정보 보호에 중점을 둔 웹 브라우저입니다. 추적 및 핑거프린팅을 최소화하도록 설계되었습니다. Tor 네트워크 없이 사용할 수 있는 Tor 브라우저라고 할 수 있으며, 신뢰할 수 있는 VPN과 함께 사용할 수 있습니다.
+    ml_IN: Mullvad VPN ഉം Tor Project ഉം സഹകരിച്ച് വികസിപ്പിച്ചെടുത്ത സ്വകാര്യതയെ കേന്ദ്രീകരിച്ചുള്ള ഒരു വെബ് ബ്രൗസറാണ് Mullvad ബ്രൗസർ. ട്രാക്കിംഗും ഫിംഗർപ്രിന്റിംഗും കുറയ്ക്കുന്നതിനായാണ് ഇത് രൂപകൽപ്പന ചെയ്തിരിക്കുന്നത്. Tor നെറ്റ്‌വർക്ക് ഇല്ലാതെ ഉപയോഗിക്കാൻ ഒരു Tor ബ്രൗസർ ആണെന്ന് നിങ്ങൾക്ക് പറയാം. പകരം, നിങ്ങൾക്ക് ഇത് വിശ്വസനീയമായ ഒരു VPN ഉപയോഗിച്ച് ഉപയോഗിക്കാം.
+    nb_NO: Mullvad-nettleseren er en personvernfokusert nettleser utviklet i et samarbeid mellom Mullvad VPN og Tor-prosjektet. Den er designet for å minimere sporing og fingeravtrykk. Man kan si at det er en Tor-nettleser som kan brukes uten Tor-nettverket. I stedet kan du bruke den med en pålitelig VPN.
+    nl_NL: De Mullvad Browser is een privacygerichte webbrowser, ontwikkeld in een samenwerking tussen Mullvad VPN en het Tor Project. Het is ontworpen om tracking en fingerprinting te minimaliseren. Je zou het een Tor Browser kunnen noemen, maar dan zonder het Tor-netwerk. Je kunt hem in plaats daarvan gebruiken met een betrouwbare VPN.
+    pl_PL: Mullvad Browser to przeglądarka internetowa skoncentrowana na prywatności, opracowana we współpracy Mullvad VPN i Tor Project. Została zaprojektowana tak, aby zminimalizować śledzenie i odciski palców. Można powiedzieć, że to przeglądarka Tor, której można używać bez sieci Tor. Zamiast tego można jej używać z zaufaną siecią VPN.
+    pt_BR: O Mullvad Browser é um navegador web focado em privacidade, desenvolvido em colaboração entre a Mullvad VPN e o Projeto Tor. Ele foi projetado para minimizar o rastreamento e a identificação do usuário. Pode-se dizer que é um navegador Tor para usar sem a rede Tor. Em vez disso, você pode usá-lo com uma VPN confiável.
+    ro_RO: Browserul Mullvad este un browser web axat pe confidențialitate, dezvoltat în colaborare între Mullvad VPN și Proiectul Tor. Este conceput pentru a minimiza urmărirea și amprentarea. Ai putea spune că este un browser Tor pe care îl poți folosi fără rețeaua Tor. În schimb, îl poți folosi cu un VPN de încredere.
+    ru_RU: Mullvad Browser — это веб-браузер, ориентированный на конфиденциальность, разработанный в сотрудничестве между Mullvad VPN и проектом Tor. Он предназначен для минимизации отслеживания и идентификации пользователей. Можно сказать, это браузер Tor, который можно использовать без сети Tor. Вместо этого его можно использовать с надежным VPN.
+    sk_SK: Prehliadač Mullvad je webový prehliadač zameraný na súkromie, ktorý bol vyvinutý v spolupráci medzi sieťou Mullvad VPN a projektom Tor. Je navrhnutý tak, aby minimalizoval sledovanie a odtlačky prstov. Dalo by sa povedať, že ide o prehliadač Tor, ktorý sa používa bez siete Tor. Namiesto toho ho môžete používať s dôveryhodnou sieťou VPN.
+    sv_SE: Mullvad Browser är en integritetsfokuserad webbläsare som utvecklats i ett samarbete mellan Mullvad VPN och Tor-projektet. Den är utformad för att minimera spårning och fingeravtryck. Man skulle kunna säga att det är en Tor-webbläsare att använda utan Tor-nätverket. Istället kan du använda den med en pålitlig VPN.
+    tr_TR: Mullvad Browser, Mullvad VPN ve Tor Projesi iş birliğiyle geliştirilen, gizliliğe odaklı bir web tarayıcısıdır. İzleme ve parmak izi alma işlemlerini en aza indirgemek için tasarlanmıştır. Tor Ağı olmadan kullanabileceğiniz bir Tor Tarayıcısı diyebilirsiniz. Bunun yerine, güvenilir bir VPN ile kullanabilirsiniz.
     zh_CN: 减少追踪和浏览器指纹识别的隐私浏览器。
+    zh_TW: 減少追蹤和瀏覽器指紋識別的隱私瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png
   title:
     en_US: Mullvad browser (LinuxServer.io)
+    ca_ES: Mullvad browser (LinuxServer.io)
+    cs_CZ: Mullvad browser (LinuxServer.io)
+    da_DK: Mullvad browser (LinuxServer.io)
+    de_DE: Mullvad browser (LinuxServer.io)
+    el_GR: Mullvad browser (LinuxServer.io)
+    en_GB: Mullvad browser (LinuxServer.io)
+    es_ES: Mullvad browser (LinuxServer.io)
+    fr_FR: Mullvad browser (LinuxServer.io)
+    ga_IE: Mullvad browser (LinuxServer.io)
+    hr_HR: Mullvad browser (LinuxServer.io)
+    hu_HU: Mullvad browser (LinuxServer.io)
+    it_IT: Mullvad browser (LinuxServer.io)
+    ja_JP: Mullvad browser (LinuxServer.io)
+    ko_KR: Mullvad browser (LinuxServer.io)
+    ml_IN: Mullvad browser (LinuxServer.io)
+    nb_NO: Mullvad browser (LinuxServer.io)
+    nl_NL: Mullvad browser (LinuxServer.io)
+    pl_PL: Mullvad browser (LinuxServer.io)
+    pt_BR: Mullvad browser (LinuxServer.io)
+    ro_RO: Mullvad browser (LinuxServer.io)
+    ru_RU: Mullvad browser (LinuxServer.io)
+    sk_SK: Mullvad browser (LinuxServer.io)
+    sv_SE: Mullvad browser (LinuxServer.io)
+    tr_TR: Mullvad browser (LinuxServer.io)
     zh_CN: Mullvad browser（LinuxServer.io）
+    zh_TW: Mullvad browser（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermullvadbrowser
   port_map: '3000'

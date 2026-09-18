@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Radarr - A fork of Sonarr to work with movies à la Couchpotato.
+    ca_ES: Radarr - Una bifurcació de Sonarr per treballar amb pel·lícules a l'estil Couchpotato.
+    cs_CZ: Radarr - Odnož Sonarru pro práci s filmy podobně jako Couchpotato.
+    da_DK: Radarr - En forgrening af Sonarr til at arbejde med film à la Couchpotato.
+    de_DE: Radarr – Eine Abspaltung von Sonarr zur Bearbeitung von Filmen im Couchpotato-Stil.
+    el_GR: Radarr - Μια διακλάδωση του Sonarr για να δουλεύετε με ταινίες à la Couchpotato.
+    en_GB: Radarr - A fork of Sonarr to work with movies à la Couchpotato.
+    es_ES: 'Radarr: una bifurcación de Sonarr para trabajar con películas al estilo Couchpotato.'
+    fr_FR: Radarr - Une version dérivée de Sonarr pour gérer les films à la manière de Couchpotato.
+    ga_IE: Radarr - Forc de Sonarr chun oibriú le scannáin cosúil le Couchpotato.
+    hr_HR: Radarr - Fork Sonarra za rad s filmovima poput Couchpotata.
+    hu_HU: Radarr - A Sonarr egy elágazása, amivel filmeket lehet készíteni Couchpotato stílusban.
+    it_IT: Radarr - Una versione modificata di Sonarr per lavorare con i film alla maniera di Couchpotato.
+    ja_JP: Radarr - Couchpotatoのように映画を扱うためのSonarrのフォーク。
+    ko_KR: Radarr - Sonarr를 기반으로 Couchpotato 스타일로 영화를 편집할 수 있도록 만든 버전입니다.
+    ml_IN: റഡാർ - എ ലാ കൂച്ച്പൊട്ടാറ്റോ എന്ന സിനിമയുമായി പ്രവർത്തിക്കാൻ സോണാറിന്റെ ഒരു ഫോർക്ക്.
+    nb_NO: Radarr – En forgrening av Sonarr for å jobbe med filmer à la Couchpotato.
+    nl_NL: Radarr - Een fork van Sonarr om mee te werken aan films, net zoals op Couchpotato.
+    pl_PL: Radarr - odnoga aplikacji Sonarr umożliwiająca oglądanie filmów w stylu Couchpotato.
+    pt_BR: Radarr - Uma versão modificada do Sonarr para trabalhar com filmes à la Couchpotato.
+    ro_RO: Radarr - O ramură a Sonarr pentru lucrul cu filme la Couchpotato.
+    ru_RU: Radarr — это ответвление Sonarr, предназначенное для работы с фильмами по принципу Couchpotato.
+    sk_SK: Radarr - Odnož Sonarru pre prácu s filmami podobným Couchpotato.
+    sv_SE: Radarr - En förgrening av Sonarr för att arbeta med filmer à la Couchpotato.
+    tr_TR: Radarr - Sonarr'ın Couchpotato tarzında filmlerle çalışmak için geliştirilmiş bir versiyonu.
     zh_CN: Radarr 是 Sonarr 的分支，将其功能用于电影管理，方式类似 CouchPotato。
+    zh_TW: Radarr 是 Sonarr 的分支，將其功能用於電影管理，方式類似 CouchPotato。
   tagline:
     en_US: A fork of Sonarr to work with movies à la Couchpotato.
+    ca_ES: Una bifurcació de Sonarr per treballar amb pel·lícules a l'estil Couchpotato.
+    cs_CZ: Fork Sonarru pro práci s filmy ve stylu Couchpotato.
+    da_DK: En forgrening af Sonarr til at arbejde med film à la Couchpotato.
+    de_DE: Eine Abspaltung von Sonarr zur Bearbeitung von Filmen im Stil von Couchpotato.
+    el_GR: Μια δόση Sonarr για να δουλεύεις με ταινίες à la Couchpotato.
+    en_GB: A fork of Sonarr to work with movies à la Couchpotato.
+    es_ES: Una versión modificada de Sonarr para trabajar con películas al estilo Couchpotato.
+    fr_FR: Une version dérivée de Sonarr pour gérer les films à la Couchpotato.
+    ga_IE: Forc de Sonarr chun oibriú le scannáin cosúil le Couchpotato.
+    hr_HR: Fork Sonarra za rad s filmovima poput Couchpotata.
+    hu_HU: Egy kis Sonarr a kanapéburgonya-szerű filmekhez.
+    it_IT: Una versione modificata di Sonarr per lavorare con i film alla maniera di Couchpotato.
+    ja_JP: Couchpotatoのように映画を扱うためのSonarrのフォーク。
+    ko_KR: Sonarr를 기반으로 Couchpotato처럼 영화를 편집할 수 있도록 만든 버전입니다.
+    ml_IN: എ ലാ കൂച്ച്പൊട്ടാറ്റോ എന്ന സിനിമയിൽ പ്രവർത്തിക്കാൻ സോണാറിന്റെ ഒരു ഫോർക്ക്.
+    nb_NO: En forgrening av Sonarr for å jobbe med filmer à la Couchpotato.
+    nl_NL: Een fork van Sonarr om mee te werken aan films, net zoals op Couchpotato.
+    pl_PL: Wersja Sonarra umożliwiająca pracę z filmami w stylu Couchpotato.
+    pt_BR: Uma versão modificada do Sonarr para trabalhar com filmes à la Couchpotato.
+    ro_RO: O ramură a Sonarr pentru a lucra cu filme à la Couchpotato.
+    ru_RU: Модификация Sonarr для работы с фильмами в стиле Couchpotato.
+    sk_SK: Fork Sonarru na prácu s filmami podobným Couchpotato.
+    sv_SE: En förgrening av Sonarr för att arbeta med filmer à la Couchpotato.
+    tr_TR: Sonarr'ın Couchpotato tarzında filmlerle çalışmak için geliştirilmiş bir versiyonu.
     zh_CN: 基于 Sonarr 的电影管理工具。
+    zh_TW: 基於 Sonarr 的電影管理工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png
   title:
     en_US: Radarr (LinuxServer.io)
+    ca_ES: Radarr (LinuxServer.io)
+    cs_CZ: Radarr (LinuxServer.io)
+    da_DK: Radarr (LinuxServer.io)
+    de_DE: Radarr (LinuxServer.io)
+    el_GR: Radarr (LinuxServer.io)
+    en_GB: Radarr (LinuxServer.io)
+    es_ES: Radarr (LinuxServer.io)
+    fr_FR: Radarr (LinuxServer.io)
+    ga_IE: Radarr (LinuxServer.io)
+    hr_HR: Radarr (LinuxServer.io)
+    hu_HU: Radarr (LinuxServer.io)
+    it_IT: Radarr (LinuxServer.io)
+    ja_JP: Radarr (LinuxServer.io)
+    ko_KR: Radarr (LinuxServer.io)
+    ml_IN: Radarr (LinuxServer.io)
+    nb_NO: Radarr (LinuxServer.io)
+    nl_NL: Radarr (LinuxServer.io)
+    pl_PL: Radarr (LinuxServer.io)
+    pt_BR: Radarr (LinuxServer.io)
+    ro_RO: Radarr (LinuxServer.io)
+    ru_RU: Radarr (LinuxServer.io)
+    sk_SK: Radarr (LinuxServer.io)
+    sv_SE: Radarr (LinuxServer.io)
+    tr_TR: Radarr (LinuxServer.io)
     zh_CN: Radarr（LinuxServer.io）
+    zh_TW: Radarr（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverradarr
   port_map: '7878'

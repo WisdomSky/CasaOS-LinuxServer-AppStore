@@ -45,17 +45,92 @@ x-casaos:
   main: app
   description:
     en_US: Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
+    ca_ES: Emby organitza vídeo, música, televisió en directe i fotos de biblioteques multimèdia personals i els transmet a televisors intel·ligents, dispositius de reproducció en temps real i dispositius mòbils. Aquest contenidor està empaquetat com un servidor multimèdia Emby independent.
+    cs_CZ: Emby organizuje video, hudbu, živé televizní vysílání a fotografie z osobních mediálních knihoven a streamuje je do chytrých televizorů, streamovacích boxů a mobilních zařízení. Tento kontejner je zabalen jako samostatný mediální server Emby.
+    da_DK: Emby organiserer video, musik, live-tv og fotos fra personlige mediebiblioteker og streamer dem til smart-tv'er, streamingbokse og mobile enheder. Denne container er pakket som en separat emby-medieserver.
+    de_DE: Emby organisiert Videos, Musik, Live-TV und Fotos aus persönlichen Mediatheken und streamt sie auf Smart-TVs, Streaming-Boxen und Mobilgeräte. Dieser Container ist als eigenständiger Emby Media Server verpackt.
+    el_GR: Το Emby οργανώνει βίντεο, μουσική, ζωντανή τηλεοπτική μετάδοση και φωτογραφίες από προσωπικές βιβλιοθήκες πολυμέσων και τα μεταδίδει σε έξυπνες τηλεοράσεις, streaming boxes και κινητές συσκευές. Αυτό το κοντέινερ είναι συσκευασμένο ως αυτόνομος διακομιστής πολυμέσων emby.
+    en_GB: Emby organises video, music, live Tv, and photos from personal media libraries and streams them to smart Tvs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
+    es_ES: Emby organiza vídeos, música, televisión en directo y fotos de bibliotecas multimedia personales y los transmite a televisores inteligentes, reproductores multimedia y dispositivos móviles. Este contenedor se presenta como un servidor multimedia Emby independiente.
+    fr_FR: Emby organise les vidéos, la musique, la télévision en direct et les photos de vos bibliothèques multimédias personnelles et les diffuse sur les téléviseurs connectés, les boîtiers multimédias et les appareils mobiles. Ce conteneur est fourni sous forme de serveur multimédia Emby autonome.
+    ga_IE: Eagraíonn Emby físeáin, ceol, teilifís bheo, agus grianghraif ó leabharlanna meán pearsanta agus sruthaíonn sé iad chuig teilifíseáin chliste, boscaí sruthú agus gléasanna soghluaiste. Tá an coimeádán seo pacáistithe mar Fhreastalaí Meán emby neamhspleách.
+    hr_HR: Emby organizira videozapise, glazbu, TV program uživo i fotografije iz osobnih medijskih biblioteka i struji ih na pametne televizore, streaming boxove i mobilne uređaje. Ovaj kontejner je pakiran kao samostalni emby medijski poslužitelj.
+    hu_HU: Az Emby videókat, zenéket, élő TV-adásokat és fényképeket rendszerez a személyes médiakönyvtárakból, és streameli azokat okostévékre, streaming boxokra és mobileszközökre. Ez a konténer önálló emby médiaszerverként van csomagolva.
+    it_IT: Emby organizza video, musica, TV in diretta e foto dalle librerie multimediali personali e li trasmette in streaming a smart TV, dispositivi di streaming e dispositivi mobili. Questo contenitore è distribuito come Emby Media Server autonomo.
+    ja_JP: Embyは、個人のメディアライブラリからビデオ、音楽、ライブTV、写真などを整理し、スマートTV、ストリーミングボックス、モバイルデバイスにストリーミング配信します。このコンテナは、スタンドアロンのEmbyメディアサーバーとしてパッケージ化されています。
+    ko_KR: Emby는 개인 미디어 라이브러리의 비디오, 음악, 실시간 TV 및 사진을 정리하여 스마트 TV, 스트리밍 박스 및 모바일 장치로 스트리밍합니다. 이 컨테이너는 독립형 Emby 미디어 서버로 패키징되어 있습니다.
+    ml_IN: എംബി വ്യക്തിഗത മീഡിയ ലൈബ്രറികളിൽ നിന്നുള്ള വീഡിയോ, സംഗീതം, ലൈവ് ടിവി, ഫോട്ടോകൾ എന്നിവ സംഘടിപ്പിക്കുകയും സ്മാർട്ട് ടിവികളിലേക്കും സ്ട്രീമിംഗ് ബോക്സുകളിലേക്കും മൊബൈൽ ഉപകരണങ്ങളിലേക്കും സ്ട്രീം ചെയ്യുകയും ചെയ്യുന്നു. ഈ കണ്ടെയ്നർ ഒരു സ്റ്റാൻഡ്-എലോൺ എംബി മീഡിയ സെർവറായി പാക്കേജുചെയ്‌തിരിക്കുന്നു.
+    nb_NO: Emby organiserer video, musikk, direktesendt TV og bilder fra personlige mediebiblioteker og strømmer dem til smart-TV-er, strømmebokser og mobile enheter. Denne containeren er pakket som en frittstående emby-medieserver.
+    nl_NL: Emby organiseert video's, muziek, live tv en foto's uit persoonlijke mediabibliotheken en streamt deze naar smart-tv's, streamingboxen en mobiele apparaten. Deze container is verpakt als een zelfstandige Emby Media Server.
+    pl_PL: Emby porządkuje wideo, muzykę, telewizję na żywo i zdjęcia z osobistych bibliotek multimediów i przesyła je strumieniowo do telewizorów Smart TV, dekoderów streamingowych i urządzeń mobilnych. Ten kontener jest dostępny jako samodzielny serwer multimediów Emby.
+    pt_BR: O Emby organiza vídeos, músicas, TV ao vivo e fotos de bibliotecas de mídia pessoais e os transmite para smart TVs, dispositivos de streaming e dispositivos móveis. Este pacote é disponibilizado como um servidor de mídia Emby independente.
+    ro_RO: Emby organizează videoclipuri, muzică, emisiuni TV în direct și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server media Emby independent.
+    ru_RU: Emby организует видео, музыку, прямые трансляции и фотографии из личных медиатек и передает их на смарт-телевизоры, стриминговые приставки и мобильные устройства. Этот контейнер поставляется в виде автономного медиасервера Emby.
+    sk_SK: Emby organizuje video, hudbu, živé televízne vysielanie a fotografie z osobných mediálnych knižníc a streamuje ich do inteligentných televízorov, streamovacích boxov a mobilných zariadení. Tento kontajner je zabalený ako samostatný mediálny server Emby.
+    sv_SE: Emby organiserar video, musik, live-TV och foton från personliga mediebibliotek och streamar dem till smarta TV-apparater, streamingboxar och mobila enheter. Denna container är paketerad som en fristående emby-mediaserver.
+    tr_TR: Emby, kişisel medya kütüphanelerindeki videoları, müzikleri, canlı TV yayınlarını ve fotoğrafları düzenleyerek akıllı TV'lere, yayın kutularına ve mobil cihazlara aktarır. Bu konteyner, bağımsız bir Emby Medya Sunucusu olarak paketlenmiştir.
     zh_CN: Emby 可整理个人媒体库中的视频、音乐、直播电视和照片，并将其串流到智能电视、流媒体盒子和移动设备。此容器提供独立的 Emby Media Server。
+    zh_TW: Emby 可整理個人媒體庫中的影片、音樂、直播電視和照片，並將其串流到智慧電視、流媒體盒子和移動裝置。此容器提供獨立的 Emby Media Server。
   tagline:
     en_US: Organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
+    ca_ES: Organitza vídeo, música, televisió en directe i fotos de biblioteques multimèdia personals i els transmet a televisors intel·ligents, dispositius de reproducció en temps real i dispositius mòbils. Aquest contenidor està empaquetat com un servidor multimèdia Emby independent.
+    cs_CZ: Organizuje video, hudbu, živé televizní vysílání a fotografie z osobních mediálních knihoven a streamuje je do chytrých televizorů, streamovacích boxů a mobilních zařízení. Tento kontejner je zabalen jako samostatný mediální server Emby.
+    da_DK: Organiserer video, musik, live-tv og fotos fra personlige mediebiblioteker og streamer dem til smart-tv'er, streamingbokse og mobile enheder. Denne container er pakket som en separat emby-medieserver.
+    de_DE: Organisiert Videos, Musik, Live-TV und Fotos aus persönlichen Mediatheken und streamt sie auf Smart-TVs, Streaming-Boxen und Mobilgeräte. Dieser Container ist als eigenständiger Emby Media Server verpackt.
+    el_GR: Οργανώνει βίντεο, μουσική, ζωντανές τηλεοπτικές μεταδόσεις και φωτογραφίες από προσωπικές βιβλιοθήκες πολυμέσων και τα μεταδίδει σε έξυπνες τηλεοράσεις, συσκευές streaming και κινητές συσκευές. Αυτό το κοντέινερ είναι συσκευασμένο ως αυτόνομος διακομιστής πολυμέσων Emby.
+    en_GB: Organises video, music, live Tv, and photos from personal media libraries and streams them to smart Tvs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
+    es_ES: Organiza vídeos, música, televisión en directo y fotos de bibliotecas multimedia personales y los transmite a televisores inteligentes, reproductores multimedia y dispositivos móviles. Este contenedor se presenta como un servidor multimedia Emby independiente.
+    fr_FR: Ce serveur multimédia emby organise les vidéos, la musique, la télévision en direct et les photos de vos bibliothèques personnelles et les diffuse sur les téléviseurs connectés, les boîtiers multimédias et les appareils mobiles. Il est fourni sous forme de serveur multimédia emby autonome.
+    ga_IE: Eagraíonn sé físeáin, ceol, teilifís bheo, agus grianghraif ó leabharlanna meán pearsanta agus sruthaíonn sé iad chuig teilifíseáin chliste, boscaí sruthú agus gléasanna soghluaiste. Tá an coimeádán seo pacáistithe mar Fhreastalaí Meán emby neamhspleách.
+    hr_HR: Organizira videozapise, glazbu, TV emisije uživo i fotografije iz osobnih medijskih biblioteka i struji ih na pametne televizore, streaming boxove i mobilne uređaje. Ovaj kontejner je pakiran kao samostalni emby medijski poslužitelj.
+    hu_HU: Videókat, zenéket, élő TV-adásokat és fényképeket rendszerez a személyes médiakönyvtárakból, és streameli azokat okostévékre, streaming boxokra és mobileszközökre. Ez a konténer önálló emby médiaszerverként van csomagolva.
+    it_IT: Organizza video, musica, TV in diretta e foto dalle librerie multimediali personali e li trasmette in streaming a smart TV, dispositivi di streaming e dispositivi mobili. Questo contenitore è distribuito come Emby Media Server autonomo.
+    ja_JP: 個人のメディアライブラリからビデオ、音楽、ライブTV、写真などを整理し、スマートTV、ストリーミングボックス、モバイルデバイスにストリーミング配信します。このコンテナは、スタンドアロンのEmbyメディアサーバーとしてパッケージ化されています。
+    ko_KR: 개인 미디어 라이브러리의 비디오, 음악, 실시간 TV 및 사진을 정리하고 스마트 TV, 스트리밍 박스 및 모바일 장치로 스트리밍합니다. 이 컨테이너는 독립형 Emby 미디어 서버로 패키징되어 있습니다.
+    ml_IN: വ്യക്തിഗത മീഡിയ ലൈബ്രറികളിൽ നിന്നുള്ള വീഡിയോ, സംഗീതം, ലൈവ് ടിവി, ഫോട്ടോകൾ എന്നിവ സംഘടിപ്പിക്കുകയും സ്മാർട്ട് ടിവികളിലേക്കും സ്ട്രീമിംഗ് ബോക്സുകളിലേക്കും മൊബൈൽ ഉപകരണങ്ങളിലേക്കും സ്ട്രീം ചെയ്യുകയും ചെയ്യുന്നു. ഈ കണ്ടെയ്നർ ഒരു സ്റ്റാൻഡ്-എലോൺ എംബി മീഡിയ സെർവറായി പാക്കേജുചെയ്‌തിരിക്കുന്നു.
+    nb_NO: Organiserer video, musikk, direktesendt TV og bilder fra personlige mediebiblioteker og strømmer dem til smart-TV-er, strømmebokser og mobile enheter. Denne containeren er pakket som en frittstående Emby Media Server.
+    nl_NL: Organiseert video's, muziek, live tv en foto's uit persoonlijke mediabibliotheken en streamt deze naar smart-tv's, streamingboxen en mobiele apparaten. Deze container is verpakt als een zelfstandige Emby Media Server.
+    pl_PL: Porządkuje wideo, muzykę, telewizję na żywo i zdjęcia z osobistych bibliotek multimediów i przesyła je strumieniowo do telewizorów Smart TV, dekoderów streamingowych i urządzeń mobilnych. Ten kontener jest dostępny jako samodzielny serwer multimediów Emby.
+    pt_BR: Organiza vídeos, músicas, TV ao vivo e fotos de bibliotecas de mídia pessoais e os transmite para smart TVs, dispositivos de streaming e dispositivos móveis. Este contêiner é distribuído como um servidor de mídia emby independente.
+    ro_RO: Organizează videoclipuri, muzică, emisiuni TV în direct și fotografii din bibliotecile media personale și le transmite în flux către televizoare inteligente, dispozitive de streaming și dispozitive mobile. Acest container este ambalat ca un server media Emby independent.
+    ru_RU: Организует видео, музыку, прямые трансляции и фотографии из личных медиатек и передает их на смарт-телевизоры, стриминговые приставки и мобильные устройства. Этот контейнер поставляется в виде автономного медиасервера Emby.
+    sk_SK: Organizuje video, hudbu, živé televízne vysielanie a fotografie z osobných mediálnych knižníc a streamuje ich do inteligentných televízorov, streamovacích boxov a mobilných zariadení. Tento kontajner je zabalený ako samostatný mediálny server Emby.
+    sv_SE: Organiserar video, musik, live-TV och foton från personliga mediebibliotek och streamar dem till smarta TV-apparater, streamingboxar och mobila enheter. Denna behållare är paketerad som en fristående emby-mediaserver.
+    tr_TR: Kişisel medya kütüphanelerindeki videoları, müzikleri, canlı TV yayınlarını ve fotoğrafları düzenler ve bunları akıllı TV'lere, yayın kutularına ve mobil cihazlara aktarır. Bu konteyner, bağımsız bir emby Medya Sunucusu olarak paketlenmiştir.
     zh_CN: 整理个人媒体库并串流到电视和移动设备。
+    zh_TW: 整理個人媒體庫並串流到電視和移動裝置。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   title:
     en_US: Emby (LinuxServer.io)
+    ca_ES: Emby (LinuxServer.io)
+    cs_CZ: Emby (LinuxServer.io)
+    da_DK: Emby (LinuxServer.io)
+    de_DE: Emby (LinuxServer.io)
+    el_GR: Emby (LinuxServer.io)
+    en_GB: Emby (LinuxServer.io)
+    es_ES: Emby (LinuxServer.io)
+    fr_FR: Emby (LinuxServer.io)
+    ga_IE: Emby (LinuxServer.io)
+    hr_HR: Emby (LinuxServer.io)
+    hu_HU: Emby (LinuxServer.io)
+    it_IT: Emby (LinuxServer.io)
+    ja_JP: Emby (LinuxServer.io)
+    ko_KR: Emby (LinuxServer.io)
+    ml_IN: Emby (LinuxServer.io)
+    nb_NO: Emby (LinuxServer.io)
+    nl_NL: Emby (LinuxServer.io)
+    pl_PL: Emby (LinuxServer.io)
+    pt_BR: Emby (LinuxServer.io)
+    ro_RO: Emby (LinuxServer.io)
+    ru_RU: Emby (LinuxServer.io)
+    sk_SK: Emby (LinuxServer.io)
+    sv_SE: Emby (LinuxServer.io)
+    tr_TR: Emby (LinuxServer.io)
     zh_CN: Emby（LinuxServer.io）
+    zh_TW: Emby（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveremby
   version: 4.10.0

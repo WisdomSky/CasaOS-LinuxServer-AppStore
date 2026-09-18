@@ -1,7 +1,7 @@
 name: linuxserver-blade-of-agony
 services:
   app:
-    image: linuxserver/blade-of-agony:3.1.20260910
+    image: linuxserver/blade-of-agony:3.1.20260917
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -35,18 +35,93 @@ x-casaos:
   main: app
   description:
     en_US: 'Wolfenstein: Blade of Agony is a story-driven WWII shooter inspired by Wolfenstein and Doom.'
+    ca_ES: 'Wolfenstein: Blade of Agony és un joc de trets de la Segona Guerra Mundial basat en una història inspirat en Wolfenstein i Doom.'
+    cs_CZ: 'Wolfenstein: Blade of Agony je příběhově řízená střílečka z druhé světové války inspirovaná hrami Wolfenstein a Doom.'
+    da_DK: 'Wolfenstein: Blade of Agony er et historiedrevet skydespil om 2. verdenskrig inspireret af Wolfenstein og Doom.'
+    de_DE: 'Wolfenstein: Blade of Agony ist ein storygetriebener Zweiter-Weltkrieg-Shooter, der von Wolfenstein und Doom inspiriert wurde.'
+    el_GR: 'Το Wolfenstein: Blade of Agony είναι ένα παιχνίδι σκοποβολής του Β'' Παγκοσμίου Πολέμου εμπνευσμένο από τους Wolfenstein και Doom.'
+    en_GB: 'Wolfenstein: Blade of Agony is a story-driven Wwii shooter inspired by Wolfenstein and Doom.'
+    es_ES: 'Wolfenstein: Blade of Agony es un juego de disparos ambientado en la Segunda Guerra Mundial con una historia profunda, inspirado en Wolfenstein y Doom.'
+    fr_FR: 'Wolfenstein : Blade of Agony est un jeu de tir scénarisé se déroulant pendant la Seconde Guerre mondiale, inspiré par Wolfenstein et Doom.'
+    ga_IE: 'Wolfenstein: Is cluiche lámhach faoin Dara Cogadh Domhanda é Blade of Agony atá bunaithe ar an scéal agus atá spreagtha ag Wolfenstein agus Doom.'
+    hr_HR: 'Wolfenstein: Blade of Agony je pucačina o Drugom svjetskom ratu inspirirana pričom Wolfensteina i Dooma.'
+    hu_HU: 'A Wolfenstein: Blade of Agony egy történetközpontú, második világháborús lövöldözős játék, amelyet a Wolfenstein és a Doom ihletett.'
+    it_IT: 'Wolfenstein: Blade of Agony è uno sparatutto ambientato nella Seconda Guerra Mondiale, con una forte componente narrativa, ispirato a Wolfenstein e Doom.'
+    ja_JP: 'Wolfenstein: Blade of Agonyは、WolfensteinとDoomに影響を受けた、ストーリー重視の第二次世界大戦を舞台にしたシューティングゲームです。'
+    ko_KR: 'Wolfenstein: Blade of Agony는 Wolfenstein과 Doom에서 영감을 받은 스토리 중심의 2차 세계 대전 슈팅 게임입니다.'
+    ml_IN: 'വോൾഫെൻസ്റ്റൈൻ: ബ്ലേഡ് ഓഫ് അഗോണി, വോൾഫെൻസ്റ്റൈൻ, ഡൂം എന്നിവയിൽ നിന്ന് പ്രചോദനം ഉൾക്കൊണ്ട് രണ്ടാം ലോകമഹായുദ്ധകാലത്തെ ഒരു കഥാധിഷ്ഠിത ഷൂട്ടറാണ്.'
+    nb_NO: 'Wolfenstein: Blade of Agony er et historiedrevet skytespill basert på andre verdenskrig inspirert av Wolfenstein og Doom.'
+    nl_NL: 'Wolfenstein: Blade of Agony is een verhaalgedreven WOII-shooter, geïnspireerd door Wolfenstein en Doom.'
+    pl_PL: 'Wolfenstein: Blade of Agony to oparta na fabule strzelanka rozgrywająca się w czasie II wojny światowej, inspirowana grami Wolfenstein i Doom.'
+    pt_BR: 'Wolfenstein: Blade of Agony é um jogo de tiro da Segunda Guerra Mundial com foco na narrativa, inspirado em Wolfenstein e Doom.'
+    ro_RO: 'Wolfenstein: Blade of Agony este un shooter cu poveste, inspirat de Wolfenstein și Doom, în cel de-al Doilea Război Mondial.'
+    ru_RU: 'Wolfenstein: Blade of Agony — это сюжетный шутер о Второй мировой войне, вдохновлённый Wolfenstein и Doom.'
+    sk_SK: 'Wolfenstein: Blade of Agony je príbehová strieľačka z druhej svetovej vojny inšpirovaná hrami Wolfenstein a Doom.'
+    sv_SE: 'Wolfenstein: Blade of Agony är ett berättelsedrivet andra världskriget-skjutspel inspirerat av Wolfenstein och Doom.'
+    tr_TR: 'Wolfenstein: Blade of Agony, Wolfenstein ve Doom''dan esinlenilmiş, hikaye odaklı bir II. Dünya Savaşı nişancı oyunudur.'
     zh_CN: 'Wolfenstein: Blade of Agony 是一款以剧情为核心的二战射击游戏，灵感来自《德军总部》和《毁灭战士》。'
+    zh_TW: 'Wolfenstein: Blade of Agony 是一款以劇情為核心的二戰射擊遊戲，靈感來自《德軍總部》和《毀滅戰士》。'
   tagline:
     en_US: A story-driven WWII shooter inspired by Wolfenstein and Doom.
+    ca_ES: Un joc de trets de la Segona Guerra Mundial amb una història inspirada en Wolfenstein i Doom.
+    cs_CZ: Příběhová střílečka z druhé světové války inspirovaná hrami Wolfenstein a Doom.
+    da_DK: Et historiedrevet 2. verdenskrigsskydespil inspireret af Wolfenstein og Doom.
+    de_DE: Ein storygetriebener Zweiter-Weltkrieg-Shooter, inspiriert von Wolfenstein und Doom.
+    el_GR: Ένα παιχνίδι σκοποβολής του Β' Παγκοσμίου Πολέμου εμπνευσμένο από τους Wolfenstein και Doom, βασισμένο στην ιστορία.
+    en_GB: A story-driven Wwii shooter inspired by Wolfenstein and Doom.
+    es_ES: Un juego de disparos ambientado en la Segunda Guerra Mundial con una historia profunda, inspirado en Wolfenstein y Doom.
+    fr_FR: Un jeu de tir scénarisé sur la Seconde Guerre mondiale, inspiré par Wolfenstein et Doom.
+    ga_IE: Cluiche lámhachóra faoin Dara Cogadh Domhanda atá bunaithe ar scéal agus spreagtha ag Wolfenstein agus Doom.
+    hr_HR: Pucačina iz Drugog svjetskog rata inspirirana pričom Wolfensteina i Dooma.
+    hu_HU: Egy történetvezérelt második világháborús lövöldözős játék, amelyet a Wolfenstein és a Doom ihletett.
+    it_IT: Uno sparatutto ambientato nella Seconda Guerra Mondiale, con una forte componente narrativa, ispirato a Wolfenstein e Doom.
+    ja_JP: WolfensteinとDoomにインスパイアされた、ストーリー重視の第二次世界大戦シューティングゲーム。
+    ko_KR: 울펜슈타인과 둠에서 영감을 받은 스토리 중심의 2차 세계 대전 배경 슈팅 게임입니다.
+    ml_IN: വോൾഫെൻസ്റ്റൈനിൽ നിന്നും ഡൂമിൽ നിന്നും പ്രചോദനം ഉൾക്കൊണ്ട് കഥാധിഷ്ഠിതമായ രണ്ടാം ലോകമഹായുദ്ധ ഷൂട്ടർ.
+    nb_NO: Et historiedrevet skytespill basert på andre verdenskrig inspirert av Wolfenstein og Doom.
+    nl_NL: Een verhaalgedreven WOII-shooter, geïnspireerd door Wolfenstein en Doom.
+    pl_PL: Oparta na faktach strzelanka z czasów II wojny światowej, inspirowana Wolfensteinem i Doomem.
+    pt_BR: Um jogo de tiro da Segunda Guerra Mundial com foco na narrativa, inspirado em Wolfenstein e Doom.
+    ro_RO: Un shooter cu poveste, inspirat de Wolfenstein și Doom, în cel de-al Doilea Război Mondial.
+    ru_RU: Сюжетный шутер о Второй мировой войне, вдохновлённый Wolfenstein и Doom.
+    sk_SK: Príbehová strieľačka z druhej svetovej vojny inšpirovaná hrami Wolfenstein a Doom.
+    sv_SE: Ett berättelsedrivet andra världskriget-skjutspel inspirerat av Wolfenstein och Doom.
+    tr_TR: Wolfenstein ve Doom'dan esinlenilmiş, hikaye odaklı bir II. Dünya Savaşı nişan oyunu.
     zh_CN: 受《德军总部》和《毁灭战士》启发的二战射击游戏。
+    zh_TW: 受《德軍總部》和《毀滅戰士》啟發的二戰射擊遊戲。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boa-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boa-logo.png
   title:
     en_US: Blade of-agony (LinuxServer.io)
+    ca_ES: Blade of-agony (LinuxServer.io)
+    cs_CZ: Blade of-agony (LinuxServer.io)
+    da_DK: Blade of-agony (LinuxServer.io)
+    de_DE: Blade of-agony (LinuxServer.io)
+    el_GR: Blade of-agony (LinuxServer.io)
+    en_GB: Blade of-agony (LinuxServer.io)
+    es_ES: Blade of-agony (LinuxServer.io)
+    fr_FR: Blade of-agony (LinuxServer.io)
+    ga_IE: Blade of-agony (LinuxServer.io)
+    hr_HR: Blade of-agony (LinuxServer.io)
+    hu_HU: Blade of-agony (LinuxServer.io)
+    it_IT: Blade of-agony (LinuxServer.io)
+    ja_JP: Blade of-agony (LinuxServer.io)
+    ko_KR: Blade of-agony (LinuxServer.io)
+    ml_IN: Blade of-agony (LinuxServer.io)
+    nb_NO: Blade of-agony (LinuxServer.io)
+    nl_NL: Blade of-agony (LinuxServer.io)
+    pl_PL: Blade of-agony (LinuxServer.io)
+    pt_BR: Blade of-agony (LinuxServer.io)
+    ro_RO: Blade of-agony (LinuxServer.io)
+    ru_RU: Blade of-agony (LinuxServer.io)
+    sk_SK: Blade of-agony (LinuxServer.io)
+    sv_SE: Blade of-agony (LinuxServer.io)
+    tr_TR: Blade of-agony (LinuxServer.io)
     zh_CN: Blade of-agony（LinuxServer.io）
+    zh_TW: Blade of-agony（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbladeofagony
   port_map: '3000'
-  version: 3.1.20260910
+  version: 3.1.20260917

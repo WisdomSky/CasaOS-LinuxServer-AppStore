@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
+    ca_ES: El navegador Brave és un navegador web ràpid, privat i segur per a PC, Mac i mòbil.
+    cs_CZ: Prohlížeč Brave je rychlý, soukromý a bezpečný webový prohlížeč pro PC, Mac a mobilní zařízení.
+    da_DK: Brave-browseren er en hurtig, privat og sikker webbrowser til pc, Mac og mobil.
+    de_DE: Der Brave-Browser ist ein schneller, privater und sicherer Webbrowser für PC, Mac und Mobilgeräte.
+    el_GR: Το πρόγραμμα περιήγησης Brave είναι ένα γρήγορο, ιδιωτικό και ασφαλές πρόγραμμα περιήγησης ιστού για PC, Mac και κινητά.
+    en_GB: The Brave browser is a fast, private and secure web browser for Pc, Mac and mobile.
+    es_ES: El navegador Brave es un navegador web rápido, privado y seguro para PC, Mac y dispositivos móviles.
+    fr_FR: Le navigateur Brave est un navigateur web rapide, privé et sécurisé pour PC, Mac et appareils mobiles.
+    ga_IE: Is brabhsálaí gréasáin tapa, príobháideach agus slán é Brave browser do ríomhaire, Mac agus soghluaiste.
+    hr_HR: Brave preglednik je brz, privatan i siguran web preglednik za PC, Mac i mobilne uređaje.
+    hu_HU: A Brave böngésző egy gyors, privát és biztonságos webböngésző PC-re, Mac-re és mobilra.
+    it_IT: Il browser Brave è un browser web veloce, privato e sicuro per PC, Mac e dispositivi mobili.
+    ja_JP: Braveブラウザは、PC、Mac、モバイル端末向けの高速でプライベートかつ安全なウェブブラウザです。
+    ko_KR: Brave 브라우저는 PC, Mac 및 모바일에서 사용할 수 있는 빠르고 개인 정보 보호 및 보안이 뛰어난 웹 브라우저입니다.
+    ml_IN: പിസി, മാക്, മൊബൈൽ എന്നിവയ്‌ക്കായുള്ള വേഗതയേറിയതും സ്വകാര്യവും സുരക്ഷിതവുമായ വെബ് ബ്രൗസറാണ് ബ്രേവ് ബ്രൗസർ.
+    nb_NO: Brave-nettleseren er en rask, privat og sikker nettleser for PC, Mac og mobil.
+    nl_NL: De Brave-browser is een snelle, privacyvriendelijke en veilige webbrowser voor pc, Mac en mobiele apparaten.
+    pl_PL: Przeglądarka Brave to szybka, prywatna i bezpieczna przeglądarka internetowa dla komputerów PC, Mac i urządzeń mobilnych.
+    pt_BR: O navegador Brave é um navegador web rápido, privado e seguro para PC, Mac e dispositivos móveis.
+    ro_RO: Browserul Brave este un browser web rapid, privat și sigur pentru PC, Mac și mobil.
+    ru_RU: Браузер Brave — это быстрый, конфиденциальный и безопасный веб-браузер для ПК, Mac и мобильных устройств.
+    sk_SK: Prehliadač Brave je rýchly, súkromný a bezpečný webový prehliadač pre PC, Mac a mobilné zariadenia.
+    sv_SE: Brave-webbläsaren är en snabb, privat och säker webbläsare för PC, Mac och mobil.
+    tr_TR: Brave tarayıcısı, PC, Mac ve mobil cihazlar için hızlı, gizli ve güvenli bir web tarayıcısıdır.
     zh_CN: Brave 是一款适用于 PC、Mac 和移动设备的快速、安全且注重隐私的网页浏览器。
+    zh_TW: Brave 是一款適用於 PC、Mac 和移動裝置的快速、安全且注重隱私的網頁瀏覽器。
   tagline:
     en_US: A fast, private and secure web browser for PC, Mac and mobile.
+    ca_ES: Un navegador web ràpid, privat i segur per a PC, Mac i mòbil.
+    cs_CZ: Rychlý, soukromý a bezpečný webový prohlížeč pro PC, Mac a mobilní zařízení.
+    da_DK: En hurtig, privat og sikker webbrowser til pc, Mac og mobil.
+    de_DE: Ein schneller, privater und sicherer Webbrowser für PC, Mac und Mobilgeräte.
+    el_GR: Ένα γρήγορο, ιδιωτικό και ασφαλές πρόγραμμα περιήγησης ιστού για PC, Mac και κινητά.
+    en_GB: A fast, private and secure web browser for Pc, Mac and mobile.
+    es_ES: Un navegador web rápido, privado y seguro para PC, Mac y dispositivos móviles.
+    fr_FR: Un navigateur web rapide, privé et sécurisé pour PC, Mac et appareils mobiles.
+    ga_IE: Brabhsálaí gréasáin tapa, príobháideach agus slán do ríomhaire, Mac agus soghluaiste.
+    hr_HR: Brz, privatan i siguran web preglednik za PC, Mac i mobilne uređaje.
+    hu_HU: Gyors, privát és biztonságos webböngésző PC-re, Mac-re és mobilra.
+    it_IT: Un browser web veloce, privato e sicuro per PC, Mac e dispositivi mobili.
+    ja_JP: PC、Mac、モバイル端末向けの、高速でプライベートかつ安全なウェブブラウザ。
+    ko_KR: PC, Mac 및 모바일에서 사용할 수 있는 빠르고, 개인 정보 보호가 철저하며, 안전한 웹 브라우저입니다.
+    ml_IN: പിസി, മാക്, മൊബൈൽ എന്നിവയ്‌ക്കായുള്ള വേഗതയേറിയതും സ്വകാര്യവും സുരക്ഷിതവുമായ വെബ് ബ്രൗസർ.
+    nb_NO: En rask, privat og sikker nettleser for PC, Mac og mobil.
+    nl_NL: Een snelle, privacyvriendelijke en veilige webbrowser voor pc, Mac en mobiel.
+    pl_PL: Szybka, prywatna i bezpieczna przeglądarka internetowa na komputery PC, Mac i urządzenia mobilne.
+    pt_BR: Um navegador web rápido, privado e seguro para PC, Mac e dispositivos móveis.
+    ro_RO: Un browser web rapid, privat și sigur pentru PC, Mac și mobil.
+    ru_RU: Быстрый, конфиденциальный и безопасный веб-браузер для ПК, Mac и мобильных устройств.
+    sk_SK: Rýchly, súkromný a bezpečný webový prehliadač pre PC, Mac a mobilné zariadenia.
+    sv_SE: En snabb, privat och säker webbläsare för PC, Mac och mobil.
+    tr_TR: PC, Mac ve mobil cihazlar için hızlı, gizli ve güvenli bir web tarayıcısı.
     zh_CN: 快速、注重隐私的跨平台浏览器。
+    zh_TW: 快速、注重隱私的跨平臺瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/brave-logo.png
   title:
     en_US: Brave (LinuxServer.io)
+    ca_ES: Brave (LinuxServer.io)
+    cs_CZ: Brave (LinuxServer.io)
+    da_DK: Brave (LinuxServer.io)
+    de_DE: Brave (LinuxServer.io)
+    el_GR: Brave (LinuxServer.io)
+    en_GB: Brave (LinuxServer.io)
+    es_ES: Brave (LinuxServer.io)
+    fr_FR: Brave (LinuxServer.io)
+    ga_IE: Brave (LinuxServer.io)
+    hr_HR: Brave (LinuxServer.io)
+    hu_HU: Brave (LinuxServer.io)
+    it_IT: Brave (LinuxServer.io)
+    ja_JP: Brave (LinuxServer.io)
+    ko_KR: Brave (LinuxServer.io)
+    ml_IN: Brave (LinuxServer.io)
+    nb_NO: Brave (LinuxServer.io)
+    nl_NL: Brave (LinuxServer.io)
+    pl_PL: Brave (LinuxServer.io)
+    pt_BR: Brave (LinuxServer.io)
+    ro_RO: Brave (LinuxServer.io)
+    ru_RU: Brave (LinuxServer.io)
+    sk_SK: Brave (LinuxServer.io)
+    sv_SE: Brave (LinuxServer.io)
+    tr_TR: Brave (LinuxServer.io)
     zh_CN: Brave（LinuxServer.io）
+    zh_TW: Brave（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbrave
   port_map: '3000'

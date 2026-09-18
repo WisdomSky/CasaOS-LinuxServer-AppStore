@@ -40,17 +40,92 @@ x-casaos:
   main: app
   description:
     en_US: Helium is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
+    ca_ES: Helium és un navegador web basat en Chromium fet per a persones, amb amor. La privadesa és el primer amb bloqueig d'anuncis imparcial.
+    cs_CZ: Helium je webový prohlížeč založený na Chromu, vytvořený pro lidi s láskou. Soukromí na prvním místě s objektivním blokováním reklam.
+    da_DK: Helium er en Chromium-baseret webbrowser, der er skabt til mennesker med kærlighed. Privatliv først med upartisk annonceblokering.
+    de_DE: Helium ist ein auf Chromium basierender Webbrowser, der mit viel Liebe und für Menschen entwickelt wurde. Datenschutz steht an erster Stelle, inklusive unvoreingenommener Werbeblockierung.
+    el_GR: Το Helium είναι ένα πρόγραμμα περιήγησης ιστού που βασίζεται στο Chromium, φτιαγμένο για ανθρώπους, με αγάπη. Προτεραιότητα στην ιδιωτικότητα με αμερόληπτο αποκλεισμό διαφημίσεων.
+    en_GB: Helium is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
+    es_ES: Helium es un navegador web basado en Chromium, creado con cariño y pensando en las personas. Prioriza la privacidad con un bloqueo de anuncios imparcial.
+    fr_FR: Helium est un navigateur web basé sur Chromium, conçu pour les utilisateurs, avec passion. Le respect de la vie privée est au cœur de sa conception, avec un blocage des publicités impartial.
+    ga_IE: Is brabhsálaí gréasáin bunaithe ar Chromium é Helium atá déanta do dhaoine, le grá. Príobháideacht ar dtús le blocáil fógraí neamhchlaonta.
+    hr_HR: Helium je web preglednik temeljen na Chromiumu, napravljen za ljude, s ljubavlju. Privatnost na prvom mjestu s nepristranim blokiranjem oglasa.
+    hu_HU: A Helium egy Chromium alapú webböngésző, amelyet embereknek, szeretettel készítettek. Az adatvédelem az elsődleges, elfogulatlan hirdetésblokkolóval.
+    it_IT: Helium è un browser web basato su Chromium, creato con amore e pensato per le persone. La privacy è al primo posto, con un blocco degli annunci imparziale.
+    ja_JP: Heliumは、ユーザーのために愛情を込めて作られたChromiumベースのウェブブラウザです。プライバシーを最優先し、偏りのない広告ブロック機能を提供します。
+    ko_KR: Helium은 사람들을 위해, 애정을 담아 만든 Chromium 기반 웹 브라우저입니다. 개인정보 보호를 최우선으로 하며, 편견 없는 광고 차단 기능을 제공합니다.
+    ml_IN: ഹീലിയം എന്നത് ആളുകൾക്കായി, സ്നേഹത്തോടെ നിർമ്മിച്ച ഒരു ക്രോമിയം അധിഷ്ഠിത വെബ് ബ്രൗസറാണ്. നിഷ്പക്ഷമായ പരസ്യ ബ്ലോക്കിംഗിലൂടെ സ്വകാര്യതയ്ക്ക് പ്രഥമസ്ഥാനം.
+    nb_NO: Helium er en Chromium-basert nettleser laget for mennesker, med kjærlighet. Personvern først med objektiv annonseblokkering.
+    nl_NL: Helium is een op Chromium gebaseerde webbrowser, gemaakt voor mensen, met liefde. Privacy staat voorop, met een onpartijdige advertentieblokkering.
+    pl_PL: Helium to przeglądarka internetowa oparta na Chromium, stworzona z miłością dla ludzi. Prywatność na pierwszym miejscu, z bezstronnym blokowaniem reklam.
+    pt_BR: O Helium é um navegador web baseado no Chromium, feito para pessoas, com carinho. Prioriza a privacidade e oferece bloqueio de anúncios imparcial.
+    ro_RO: Helium este un browser web bazat pe Chromium, creat pentru oameni, cu dragoste. Confidențialitatea pe primul loc, cu blocare imparțială a reclamelor.
+    ru_RU: Helium — это веб-браузер на основе Chromium, созданный для людей с любовью. Конфиденциальность превыше всего, а блокировка рекламы — беспристрастная.
+    sk_SK: Helium je webový prehliadač založený na prehliadači Chromium, vytvorený pre ľudí s láskou. Súkromie je na prvom mieste s nestranným blokovaním reklám.
+    sv_SE: Helium är en webbläsare baserad på Chromium, skapad för människor, med kärlek. Integritet först med opartisk annonsblockering.
+    tr_TR: Helium, insanlar için sevgiyle geliştirilmiş, Chromium tabanlı bir web tarayıcısıdır. Gizliliği ön planda tutar ve tarafsız reklam engelleme özelliğine sahiptir.
     zh_CN: Helium 是一款基于 Chromium、以用户为中心的网页浏览器。它将隐私放在首位，并提供不偏袒广告商的广告拦截功能。
+    zh_TW: Helium 是一款基於 Chromium、以使用者為中心的網頁瀏覽器。它將隱私放在首位，並提供不偏袒廣告商的廣告攔截功能。
   tagline:
     en_US: A Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
+    ca_ES: Un navegador web basat en Chromium fet per a la gent, amb amor. La privadesa és el primer amb bloqueig d'anuncis imparcial.
+    cs_CZ: Webový prohlížeč založený na Chromu, vytvořený pro lidi s láskou. Soukromí na prvním místě s nestranným blokováním reklam.
+    da_DK: En Chromium-baseret webbrowser skabt til mennesker, med kærlighed. Privatliv først med upartisk annonceblokering.
+    de_DE: Ein Chromium-basierter Webbrowser, mit Liebe für Menschen entwickelt. Datenschutz steht an erster Stelle, inklusive unvoreingenommener Werbeblockierung.
+    el_GR: Ένα πρόγραμμα περιήγησης ιστού που βασίζεται στο Chromium, φτιαγμένο για ανθρώπους, με αγάπη. Προτεραιότητα στην ιδιωτικότητα με αμερόληπτο μπλοκάρισμα διαφημίσεων.
+    en_GB: A Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.
+    es_ES: Un navegador web basado en Chromium, creado con cariño y pensando en las personas. Priorizamos la privacidad con un bloqueo de anuncios imparcial.
+    fr_FR: Un navigateur web basé sur Chromium, conçu pour les utilisateurs, avec passion. Priorité à la confidentialité grâce à un blocage de publicités impartial.
+    ga_IE: Brabhsálaí gréasáin bunaithe ar Chromium atá déanta do dhaoine, le grá. Príobháideacht ar dtús le blocáil fógraí neamhchlaonta.
+    hr_HR: Web preglednik temeljen na Chromiumu, stvoren za ljude, s ljubavlju. Privatnost na prvom mjestu s nepristranim blokiranjem oglasa.
+    hu_HU: Egy Chromium alapú webböngésző, amelyet embereknek készítettek, szeretettel. Adatvédelem az első, objektív hirdetésblokkolóval.
+    it_IT: Un browser web basato su Chromium, creato per le persone, con amore. La privacy al primo posto, con un blocco degli annunci imparziale.
+    ja_JP: 人々のために、愛情を込めて作られたChromiumベースのウェブブラウザ。プライバシーを最優先し、偏りのない広告ブロック機能を提供します。
+    ko_KR: 사람들을 위해, 애정을 담아 만든 크로뮴 기반 웹 브라우저입니다. 개인정보 보호를 최우선으로 하며, 편견 없는 광고 차단 기능을 제공합니다.
+    ml_IN: ആളുകൾക്കായി, സ്നേഹത്തോടെ നിർമ്മിച്ച ഒരു Chromium അധിഷ്ഠിത വെബ് ബ്രൗസർ. നിഷ്പക്ഷമായ പരസ്യ-തടയലോടെ സ്വകാര്യതയ്ക്ക് പ്രഥമസ്ഥാനം.
+    nb_NO: En Chromium-basert nettleser laget for mennesker, med kjærlighet. Personvern først med objektiv annonseblokkering.
+    nl_NL: Een op Chromium gebaseerde webbrowser, gemaakt voor mensen, met liefde. Privacy staat voorop, met een onpartijdige advertentieblokkering.
+    pl_PL: Przeglądarka internetowa oparta na Chromium, stworzona z miłością dla ludzi. Prywatność na pierwszym miejscu, z bezstronnym blokowaniem reklam.
+    pt_BR: Um navegador web baseado no Chromium, feito para pessoas, com carinho. Privacidade em primeiro lugar, com bloqueio de anúncios imparcial.
+    ro_RO: Un browser web bazat pe Chromium, creat pentru oameni, cu dragoste. Confidențialitatea pe primul loc, cu blocare imparțială a reclamelor.
+    ru_RU: Веб-браузер на основе Chromium, созданный для людей с любовью. Конфиденциальность превыше всего, беспристрастная блокировка рекламы.
+    sk_SK: Webový prehliadač založený na prehliadači Chromium, vytvorený pre ľudí s láskou. Súkromie na prvom mieste s nestranným blokovaním reklám.
+    sv_SE: En Chromium-baserad webbläsare gjord för människor, med kärlek. Integritet först med opartisk annonsblockering.
+    tr_TR: İnsanlar için sevgiyle tasarlanmış, Chromium tabanlı bir web tarayıcısı. Önce gizlilik, sonra tarafsız reklam engelleme.
     zh_CN: 注重隐私并内置广告拦截的 Chromium 浏览器。
+    zh_TW: 注重隱私並內建廣告攔截的 Chromium 瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/helium-logo.png
   title:
     en_US: Helium (LinuxServer.io)
+    ca_ES: Helium (LinuxServer.io)
+    cs_CZ: Helium (LinuxServer.io)
+    da_DK: Helium (LinuxServer.io)
+    de_DE: Helium (LinuxServer.io)
+    el_GR: Helium (LinuxServer.io)
+    en_GB: Helium (LinuxServer.io)
+    es_ES: Helium (LinuxServer.io)
+    fr_FR: Helium (LinuxServer.io)
+    ga_IE: Helium (LinuxServer.io)
+    hr_HR: Helium (LinuxServer.io)
+    hu_HU: Helium (LinuxServer.io)
+    it_IT: Helium (LinuxServer.io)
+    ja_JP: Helium (LinuxServer.io)
+    ko_KR: Helium (LinuxServer.io)
+    ml_IN: Helium (LinuxServer.io)
+    nb_NO: Helium (LinuxServer.io)
+    nl_NL: Helium (LinuxServer.io)
+    pl_PL: Helium (LinuxServer.io)
+    pt_BR: Helium (LinuxServer.io)
+    ro_RO: Helium (LinuxServer.io)
+    ru_RU: Helium (LinuxServer.io)
+    sk_SK: Helium (LinuxServer.io)
+    sv_SE: Helium (LinuxServer.io)
+    tr_TR: Helium (LinuxServer.io)
     zh_CN: Helium（LinuxServer.io）
+    zh_TW: Helium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhelium
   port_map: '3000'

@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: melonDS aims at providing fast and accurate Nintendo DS emulation.
+    ca_ES: melonDS té com a objectiu proporcionar una emulació ràpida i precisa de la Nintendo DS.
+    cs_CZ: Cílem melonDS je poskytovat rychlou a přesnou emulaci Nintendo DS.
+    da_DK: melonDS sigter mod at levere hurtig og præcis Nintendo DS-emulering.
+    de_DE: melonDS hat sich zum Ziel gesetzt, eine schnelle und präzise Nintendo DS-Emulation zu bieten.
+    el_GR: Το melonDS στοχεύει στην παροχή γρήγορης και ακριβούς εξομοίωσης Nintendo DS.
+    en_GB: melonDS aims at providing fast and accurate Nintendo Ds emulation.
+    es_ES: melonDS tiene como objetivo proporcionar una emulación de Nintendo DS rápida y precisa.
+    fr_FR: melonDS a pour objectif de fournir une émulation Nintendo DS rapide et précise.
+    ga_IE: Tá sé mar aidhm ag melonDS aithris Nintendo DS tapa agus cruinn a sholáthar.
+    hr_HR: melonDS ima za cilj pružiti brzu i točnu emulaciju Nintendo DS-a.
+    hu_HU: A melonDS célja a gyors és pontos Nintendo DS emuláció biztosítása.
+    it_IT: melonDS si propone di offrire un'emulazione del Nintendo DS veloce e precisa.
+    ja_JP: melonDSは、高速かつ正確なニンテンドーDSエミュレーションを提供することを目指しています。
+    ko_KR: melonDS는 빠르고 정확한 닌텐도 DS 에뮬레이션을 제공하는 것을 목표로 합니다.
+    ml_IN: വേഗതയേറിയതും കൃത്യവുമായ നിൻടെൻഡോ ഡിഎസ് എമുലേഷൻ നൽകുക എന്നതാണ് melonDS ലക്ഷ്യമിടുന്നത്.
+    nb_NO: melonDS har som mål å tilby rask og nøyaktig Nintendo DS-emulering.
+    nl_NL: melonDS streeft ernaar snelle en nauwkeurige Nintendo DS-emulatie te bieden.
+    pl_PL: melonDS ma na celu zapewnienie szybkiej i dokładnej emulacji Nintendo DS.
+    pt_BR: O objetivo do melonDS é fornecer emulação rápida e precisa do Nintendo DS.
+    ro_RO: melonDS își propune să ofere o emulare Nintendo DS rapidă și precisă.
+    ru_RU: melonDS стремится обеспечить быструю и точную эмуляцию Nintendo DS.
+    sk_SK: Cieľom melonDS je poskytovať rýchlu a presnú emuláciu Nintendo DS.
+    sv_SE: melonDS strävar efter att tillhandahålla snabb och korrekt Nintendo DS-emulering.
+    tr_TR: melonDS, hızlı ve doğru Nintendo DS emülasyonu sağlamayı amaçlamaktadır.
     zh_CN: melonDS 致力于提供快速且准确的 Nintendo DS 模拟体验。
+    zh_TW: melonDS 致力於提供快速且準確的 Nintendo DS 模擬體驗。
   tagline:
     en_US: Aims at providing fast and accurate Nintendo DS emulation.
+    ca_ES: Té com a objectiu proporcionar una emulació ràpida i precisa de la Nintendo DS.
+    cs_CZ: Cílem je poskytnout rychlou a přesnou emulaci Nintendo DS.
+    da_DK: Sigter mod at levere hurtig og præcis Nintendo DS-emulering.
+    de_DE: Ziel ist eine schnelle und präzise Nintendo DS-Emulation.
+    el_GR: Στοχεύει στην παροχή γρήγορης και ακριβούς εξομοίωσης Nintendo DS.
+    en_GB: Aims at providing fast and accurate Nintendo Ds emulation.
+    es_ES: Su objetivo es proporcionar una emulación de Nintendo DS rápida y precisa.
+    fr_FR: 'Objectif : fournir une émulation Nintendo DS rapide et précise.'
+    ga_IE: Tá sé mar aidhm aige aithris Nintendo DS tapa agus cruinn a sholáthar.
+    hr_HR: Cilj je pružiti brzu i točnu emulaciju Nintendo DS-a.
+    hu_HU: Célja a gyors és pontos Nintendo DS emuláció biztosítása.
+    it_IT: L'obiettivo è fornire un'emulazione del Nintendo DS rapida e precisa.
+    ja_JP: 高速かつ正確なニンテンドーDSエミュレーションの提供を目指しています。
+    ko_KR: 빠르고 정확한 닌텐도 DS 에뮬레이션을 제공하는 것을 목표로 합니다.
+    ml_IN: വേഗതയേറിയതും കൃത്യവുമായ നിൻടെൻഡോ ഡിഎസ് എമുലേഷൻ നൽകുകയെന്നതാണ് ലക്ഷ്യം.
+    nb_NO: Sikter på å tilby rask og nøyaktig Nintendo DS-emulering.
+    nl_NL: Het doel is om snelle en nauwkeurige Nintendo DS-emulatie te bieden.
+    pl_PL: Celem jest zapewnienie szybkiej i dokładnej emulacji Nintendo DS.
+    pt_BR: Tem como objetivo fornecer emulação rápida e precisa do Nintendo DS.
+    ro_RO: Scopul este de a oferi o emulare rapidă și precisă a Nintendo DS.
+    ru_RU: Цель проекта — обеспечить быструю и точную эмуляцию Nintendo DS.
+    sk_SK: Cieľom je poskytnúť rýchlu a presnú emuláciu Nintendo DS.
+    sv_SE: Syftar till att tillhandahålla snabb och korrekt Nintendo DS-emulering.
+    tr_TR: Hızlı ve doğru Nintendo DS emülasyonu sağlamayı amaçlamaktadır.
     zh_CN: 快速、准确的 Nintendo DS 模拟器。
+    zh_TW: 快速、準確的 Nintendo DS 模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/melonds-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/melonds-logo.png
   title:
     en_US: Melonds (LinuxServer.io)
+    ca_ES: Melonds (LinuxServer.io)
+    cs_CZ: Melonds (LinuxServer.io)
+    da_DK: Melonds (LinuxServer.io)
+    de_DE: Melonds (LinuxServer.io)
+    el_GR: Melonds (LinuxServer.io)
+    en_GB: Melonds (LinuxServer.io)
+    es_ES: Melonds (LinuxServer.io)
+    fr_FR: Melonds (LinuxServer.io)
+    ga_IE: Melonds (LinuxServer.io)
+    hr_HR: Melonds (LinuxServer.io)
+    hu_HU: Melonds (LinuxServer.io)
+    it_IT: Melonds (LinuxServer.io)
+    ja_JP: Melonds (LinuxServer.io)
+    ko_KR: Melonds (LinuxServer.io)
+    ml_IN: Melonds (LinuxServer.io)
+    nb_NO: Melonds (LinuxServer.io)
+    nl_NL: Melonds (LinuxServer.io)
+    pl_PL: Melonds (LinuxServer.io)
+    pt_BR: Melonds (LinuxServer.io)
+    ro_RO: Melonds (LinuxServer.io)
+    ru_RU: Melonds (LinuxServer.io)
+    sk_SK: Melonds (LinuxServer.io)
+    sv_SE: Melonds (LinuxServer.io)
+    tr_TR: Melonds (LinuxServer.io)
     zh_CN: Melonds（LinuxServer.io）
+    zh_TW: Melonds（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermelonds
   port_map: '3000'

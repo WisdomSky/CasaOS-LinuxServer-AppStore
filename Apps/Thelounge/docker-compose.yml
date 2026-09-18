@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Thelounge (a fork of shoutIRC) is a web IRC client that you host on your own server.
+    ca_ES: Thelounge (una bifurcació de shoutIRC) és un client web d'IRC que allotgeu al vostre propi servidor.
+    cs_CZ: Thelounge (odnože shoutIRC) je webový IRC klient, který hostujete na svém vlastním serveru.
+    da_DK: Thelounge (en forgrening af shoutIRC) er en web-IRC-klient, som du hoster på din egen server.
+    de_DE: Thelounge (eine Abspaltung von shoutIRC) ist ein webbasierter IRC-Client, den Sie auf Ihrem eigenen Server hosten.
+    el_GR: Το Thelounge (μια διακλάδωση του shoutIRC) είναι ένα πρόγραμμα-πελάτης IRC ιστού που φιλοξενείτε στον δικό σας διακομιστή.
+    en_GB: Thelounge (a fork of shoutIRC) is a web Irc client that you host on your own server.
+    es_ES: Thelounge (una bifurcación de shoutIRC) es un cliente web de IRC que se aloja en tu propio servidor.
+    fr_FR: Thelounge (une version dérivée de shoutIRC) est un client IRC web que vous hébergez sur votre propre serveur.
+    ga_IE: Is cliant gréasáin IRC é Thelounge (forc de shoutIRC) a óstálann tú ar do fhreastalaí féin.
+    hr_HR: Thelounge (ogranak shoutIRC-a) je web IRC klijent koji hostirate na vlastitom serveru.
+    hu_HU: A Thelounge (a shoutIRC egy elágazása) egy webes IRC kliens, amelyet a saját szervereden üzemeltetsz.
+    it_IT: Thelounge (un fork di shoutIRC) è un client IRC web che si ospita sul proprio server.
+    ja_JP: Thelounge（shoutIRCの派生版）は、自分のサーバー上でホストするWebベースのIRCクライアントです。
+    ko_KR: Thelounge(ShoutIRC의 포크 버전)는 사용자가 직접 서버에 호스팅하는 웹 IRC 클라이언트입니다.
+    ml_IN: നിങ്ങളുടെ സ്വന്തം സെർവറിൽ ഹോസ്റ്റ് ചെയ്യുന്ന ഒരു വെബ് ഐആർസി ക്ലയന്റാണ് ദിലോഞ്ച് (ഷൗട്ട്ഐആർസിയുടെ ഒരു ഫോർക്ക്).
+    nb_NO: Thelounge (en forgrening av shoutIRC) er en IRC-klient på nett som du er vert for på din egen server.
+    nl_NL: Thelounge (een afsplitsing van shoutIRC) is een webgebaseerde IRC-client die je op je eigen server host.
+    pl_PL: Thelounge (odgałęzienie shoutIRC) to internetowy klient IRC, który możesz hostować na własnym serwerze.
+    pt_BR: O Thelounge (um fork do shoutIRC) é um cliente IRC baseado na web que você hospeda em seu próprio servidor.
+    ro_RO: Thelounge (o ramură a shoutIRC) este un client IRC web pe care îl găzduiești pe propriul server.
+    ru_RU: Thelounge (форк shoutIRC) — это веб-IRC-клиент, который вы размещаете на собственном сервере.
+    sk_SK: Thelounge (odnota shoutIRC) je webový IRC klient, ktorého hostujete na svojom vlastnom serveri.
+    sv_SE: Thelounge (en förgrening av shoutIRC) är en webb-IRC-klient som du hostar på din egen server.
+    tr_TR: Thelounge (shoutIRC'nin bir türevi) kendi sunucunuzda barındırdığınız bir web IRC istemcisidir.
     zh_CN: The Lounge 是 shoutIRC 的分支，是一个运行在你自己服务器上的网页 IRC 客户端。
+    zh_TW: The Lounge 是 shoutIRC 的分支，是一個執行在你自己伺服器上的網頁 IRC 客戶端。
   tagline:
     en_US: (a fork of shoutIRC) is a web IRC client that you host on your own server.
+    ca_ES: (una bifurcació de shoutIRC) és un client IRC web que allotgeu al vostre propi servidor.
+    cs_CZ: (odnože shoutIRC) je webový IRC klient, kterého hostujete na svém vlastním serveru.
+    da_DK: (en forgrening af shoutIRC) er en web-IRC-klient, som du hoster på din egen server.
+    de_DE: (eine Abspaltung von shoutIRC) ist ein Web-IRC-Client, den Sie auf Ihrem eigenen Server hosten.
+    el_GR: (μια διακλάδωση του shoutIRC) είναι ένας διαδικτυακός IRC client που φιλοξενείτε στον δικό σας διακομιστή.
+    en_GB: (a fork of shoutIRC) is a web Irc client that you host on your own server.
+    es_ES: (una bifurcación de shoutIRC) es un cliente web de IRC que usted aloja en su propio servidor.
+    fr_FR: (une version dérivée de shoutIRC) est un client IRC web que vous hébergez sur votre propre serveur.
+    ga_IE: (forc de shoutIRC) is cliant gréasáin IRC é a óstálann tú ar do fhreastalaí féin.
+    hr_HR: (fork od shoutIRC) je web IRC klijent koji hostirate na vlastitom poslužitelju.
+    hu_HU: (a shoutIRC egy elágazása) egy webes IRC kliens, amelyet a saját szervereden tárolsz.
+    it_IT: (una versione derivata di shoutIRC) è un client IRC web che si ospita sul proprio server.
+    ja_JP: （shoutIRCのフォーク）は、自分のサーバーでホストするWeb IRCクライアントです。
+    ko_KR: (ShoutIRC의 포크 버전인) 이 웹 IRC 클라이언트는 사용자가 직접 서버에 호스팅합니다.
+    ml_IN: (shoutIRC യുടെ ഒരു ഫോർക്ക്) എന്നത് നിങ്ങളുടെ സ്വന്തം സെർവറിൽ ഹോസ്റ്റ് ചെയ്യുന്ന ഒരു വെബ് IRC ക്ലയന്റാണ്.
+    nb_NO: (en forgrening av shoutIRC) er en IRC-klient på nett som du er vert for på din egen server.
+    nl_NL: (een fork van shoutIRC) is een webgebaseerde IRC-client die je op je eigen server host.
+    pl_PL: (odgałęzienie shoutIRC) jest internetowym klientem IRC, który hostujesz na własnym serwerze.
+    pt_BR: (uma derivação do shoutIRC) é um cliente IRC baseado na web que você hospeda em seu próprio servidor.
+    ro_RO: (o bifurcație a shoutIRC) este un client IRC web pe care îl găzduiești pe propriul server.
+    ru_RU: (форк shoutIRC) — это веб-IRC-клиент, который вы размещаете на собственном сервере.
+    sk_SK: (odnož shoutIRC) je webový IRC klient, ktorého hostujete na svojom vlastnom serveri.
+    sv_SE: (en förgrening av shoutIRC) är en webb-IRC-klient som du är värd för på din egen server.
+    tr_TR: (shoutIRC'nin bir çatalı olan) kendi sunucunuzda barındırdığınız bir web IRC istemcisidir.
     zh_CN: 自行托管的网页 IRC 客户端。
+    zh_TW: 自行託管的網頁 IRC 客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/thelounge/thelounge/master/client/public/img/logo-vertical-transparent-bg.svg
   thumbnail: https://raw.githubusercontent.com/thelounge/thelounge/master/client/public/img/logo-vertical-transparent-bg.svg
   title:
     en_US: Thelounge (LinuxServer.io)
+    ca_ES: Thelounge (LinuxServer.io)
+    cs_CZ: Thelounge (LinuxServer.io)
+    da_DK: Thelounge (LinuxServer.io)
+    de_DE: Thelounge (LinuxServer.io)
+    el_GR: Thelounge (LinuxServer.io)
+    en_GB: Thelounge (LinuxServer.io)
+    es_ES: Thelounge (LinuxServer.io)
+    fr_FR: Thelounge (LinuxServer.io)
+    ga_IE: Thelounge (LinuxServer.io)
+    hr_HR: Thelounge (LinuxServer.io)
+    hu_HU: Thelounge (LinuxServer.io)
+    it_IT: Thelounge (LinuxServer.io)
+    ja_JP: Thelounge (LinuxServer.io)
+    ko_KR: Thelounge (LinuxServer.io)
+    ml_IN: Thelounge (LinuxServer.io)
+    nb_NO: Thelounge (LinuxServer.io)
+    nl_NL: Thelounge (LinuxServer.io)
+    pl_PL: Thelounge (LinuxServer.io)
+    pt_BR: Thelounge (LinuxServer.io)
+    ro_RO: Thelounge (LinuxServer.io)
+    ru_RU: Thelounge (LinuxServer.io)
+    sk_SK: Thelounge (LinuxServer.io)
+    sv_SE: Thelounge (LinuxServer.io)
+    tr_TR: Thelounge (LinuxServer.io)
     zh_CN: Thelounge（LinuxServer.io）
+    zh_TW: Thelounge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverthelounge
   port_map: '9000'

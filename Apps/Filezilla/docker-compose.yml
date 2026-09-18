@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: FIleZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
+    ca_ES: El client FIleZilla és un client FTP, FTPS i SFTP multiplataforma ràpid i fiable amb moltes funcions útils i una interfície gràfica d'usuari intuïtiva.
+    cs_CZ: FileZilla Client je rychlý a spolehlivý multiplatformní FTP, FTPS a SFTP klient s mnoha užitečnými funkcemi a intuitivním grafickým uživatelským rozhraním.
+    da_DK: FIleZilla Client er en hurtig og pålidelig FTP-, FTPS- og SFTP-klient på tværs af platforme med masser af nyttige funktioner og en intuitiv grafisk brugergrænseflade.
+    de_DE: FileZilla Client ist ein schneller und zuverlässiger plattformübergreifender FTP-, FTPS- und SFTP-Client mit vielen nützlichen Funktionen und einer intuitiven grafischen Benutzeroberfläche.
+    el_GR: Το FIleZilla Client είναι ένα γρήγορο και αξιόπιστο πρόγραμμα-πελάτης FTP, FTPS και SFTP για όλες τις πλατφόρμες με πολλές χρήσιμες λειτουργίες και ένα εύχρηστο γραφικό περιβάλλον χρήστη.
+    en_GB: Filezilla Client is a fast and reliable cross-platform Ftp, Ftps and Sftp client with lots of useful features and an intuitive graphical user interface.
+    es_ES: FileZilla Client es un cliente FTP, FTPS y SFTP multiplataforma rápido y fiable, con muchas funciones útiles y una interfaz gráfica de usuario intuitiva.
+    fr_FR: FileZilla Client est un client FTP, FTPS et SFTP multiplateforme rapide et fiable, doté de nombreuses fonctionnalités utiles et d'une interface utilisateur graphique intuitive.
+    ga_IE: Is cliant tras-ardáin FTP, FTPS agus SFTP tapa agus iontaofa é Cliant FIleZilla le neart gnéithe úsáideacha agus comhéadan úsáideora grafach iomasach.
+    hr_HR: FIleZilla Client je brz i pouzdan višeplatformski FTP, FTPS i SFTP klijent s mnoštvom korisnih značajki i intuitivnim grafičkim korisničkim sučeljem.
+    hu_HU: A FIleZilla Client egy gyors és megbízható, többplatformos FTP, FTPS és SFTP kliens, számos hasznos funkcióval és intuitív grafikus felhasználói felülettel.
+    it_IT: FileZilla Client è un client FTP, FTPS e SFTP multipiattaforma veloce e affidabile, dotato di numerose funzionalità utili e di un'interfaccia utente grafica intuitiva.
+    ja_JP: FileZilla Clientは、高速で信頼性の高いクロスプラットフォーム対応のFTP、FTPS、SFTPクライアントであり、多くの便利な機能と直感的なグラフィカルユーザーインターフェースを備えています。
+    ko_KR: FileZilla Client는 빠르고 안정적인 크로스 플랫폼 FTP, FTPS 및 SFTP 클라이언트로, 다양한 유용한 기능과 직관적인 그래픽 사용자 인터페이스를 제공합니다.
+    ml_IN: FIleZilla ക്ലയന്റ് എന്നത് വേഗതയേറിയതും വിശ്വസനീയവുമായ ഒരു ക്രോസ്-പ്ലാറ്റ്‌ഫോം FTP, FTPS, SFTP ക്ലയന്റാണ്, ഉപയോഗപ്രദമായ ധാരാളം സവിശേഷതകളും അവബോധജന്യമായ ഗ്രാഫിക്കൽ യൂസർ ഇന്റർഫേസും ഇതിനുണ്ട്.
+    nb_NO: FIleZilla Client er en rask og pålitelig FTP-, FTPS- og SFTP-klient på tvers av plattformer med mange nyttige funksjoner og et intuitivt grafisk brukergrensesnitt.
+    nl_NL: FileZilla Client is een snelle en betrouwbare, platformonafhankelijke FTP-, FTPS- en SFTP-client met veel handige functies en een intuïtieve grafische gebruikersinterface.
+    pl_PL: FIleZilla Client to szybki i niezawodny wieloplatformowy klient FTP, FTPS i SFTP z wieloma przydatnymi funkcjami i intuicyjnym graficznym interfejsem użytkownika.
+    pt_BR: O FileZilla Client é um cliente FTP, FTPS e SFTP multiplataforma rápido e confiável, com diversos recursos úteis e uma interface gráfica intuitiva.
+    ro_RO: Clientul FIleZilla este un client FTP, FTPS și SFTP multiplatformă rapid și fiabil, cu o mulțime de funcții utile și o interfață grafică intuitivă.
+    ru_RU: FileZilla Client — это быстрый и надежный кроссплатформенный FTP, FTPS и SFTP-клиент с множеством полезных функций и интуитивно понятным графическим пользовательским интерфейсом.
+    sk_SK: FIleZilla Client je rýchly a spoľahlivý multiplatformový FTP, FTPS a SFTP klient s množstvom užitočných funkcií a intuitívnym grafickým používateľským rozhraním.
+    sv_SE: FIleZilla Client är en snabb och pålitlig FTP-, FTPS- och SFTP-klient för flera plattformar med många användbara funktioner och ett intuitivt grafiskt användargränssnitt.
+    tr_TR: FileZilla Client, birçok kullanışlı özelliğe ve sezgisel bir grafik kullanıcı arayüzüne sahip, hızlı ve güvenilir, platformlar arası bir FTP, FTPS ve SFTP istemcisidir.
     zh_CN: FileZilla Client 是一款快速、可靠、跨平台的 FTP、FTPS 和 SFTP 客户端，具有丰富的实用功能和直观的图形界面。
+    zh_TW: FileZilla Client 是一款快速、可靠、跨平臺的 FTP、FTPS 和 SFTP 客戶端，具有豐富的實用功能和直觀的圖形介面。
   tagline:
     en_US: Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
+    ca_ES: Client és un client FTP, FTPS i SFTP multiplataforma ràpid i fiable amb moltes funcions útils i una interfície gràfica d'usuari intuïtiva.
+    cs_CZ: Client je rychlý a spolehlivý multiplatformní FTP, FTPS a SFTP klient s mnoha užitečnými funkcemi a intuitivním grafickým uživatelským rozhraním.
+    da_DK: Client er en hurtig og pålidelig FTP-, FTPS- og SFTP-klient på tværs af platforme med masser af nyttige funktioner og en intuitiv grafisk brugergrænseflade.
+    de_DE: Client ist ein schneller und zuverlässiger plattformübergreifender FTP-, FTPS- und SFTP-Client mit vielen nützlichen Funktionen und einer intuitiven grafischen Benutzeroberfläche.
+    el_GR: Το Client είναι ένα γρήγορο και αξιόπιστο πρόγραμμα-πελάτης FTP, FTPS και SFTP για όλες τις πλατφόρμες με πολλές χρήσιμες λειτουργίες και ένα εύχρηστο γραφικό περιβάλλον χρήστη.
+    en_GB: Client is a fast and reliable cross-platform Ftp, Ftps and Sftp client with lots of useful features and an intuitive graphical user interface.
+    es_ES: Client es un cliente FTP, FTPS y SFTP multiplataforma rápido y fiable, con muchas funciones útiles y una interfaz gráfica de usuario intuitiva.
+    fr_FR: Ce client est un client FTP, FTPS et SFTP multiplateforme rapide et fiable, doté de nombreuses fonctionnalités utiles et d'une interface utilisateur graphique intuitive.
+    ga_IE: Is cliant FTP, FTPS agus SFTP tras-ardáin tapa agus iontaofa é an cliant a bhfuil neart gnéithe úsáideacha agus comhéadan úsáideora grafach iomasach aige.
+    hr_HR: Client je brz i pouzdan višeplatformski FTP, FTPS i SFTP klijent s mnoštvom korisnih značajki i intuitivnim grafičkim korisničkim sučeljem.
+    hu_HU: A Client egy gyors és megbízható, többplatformos FTP, FTPS és SFTP kliens, számos hasznos funkcióval és intuitív grafikus felhasználói felülettel.
+    it_IT: Client è un client FTP, FTPS e SFTP multipiattaforma veloce e affidabile, dotato di numerose funzionalità utili e di un'interfaccia utente grafica intuitiva.
+    ja_JP: Clientは、高速で信頼性の高いクロスプラットフォーム対応のFTP、FTPS、SFTPクライアントであり、多くの便利な機能と直感的なグラフィカルユーザーインターフェースを備えています。
+    ko_KR: Client는 빠르고 안정적인 크로스 플랫폼 FTP, FTPS 및 SFTP 클라이언트로, 다양한 유용한 기능과 직관적인 그래픽 사용자 인터페이스를 제공합니다.
+    ml_IN: ധാരാളം ഉപയോഗപ്രദമായ സവിശേഷതകളും അവബോധജന്യമായ ഗ്രാഫിക്കൽ യൂസർ ഇന്റർഫേസും ഉള്ള വേഗതയേറിയതും വിശ്വസനീയവുമായ ഒരു ക്രോസ്-പ്ലാറ്റ്ഫോം FTP, FTPS, SFTP ക്ലയന്റാണ് ക്ലയന്റ്.
+    nb_NO: Client er en rask og pålitelig FTP-, FTPS- og SFTP-klient på tvers av plattformer med mange nyttige funksjoner og et intuitivt grafisk brukergrensesnitt.
+    nl_NL: Client is een snelle en betrouwbare, platformonafhankelijke FTP-, FTPS- en SFTP-client met veel handige functies en een intuïtieve grafische gebruikersinterface.
+    pl_PL: Client to szybki i niezawodny wieloplatformowy klient FTP, FTPS i SFTP z wieloma przydatnymi funkcjami i intuicyjnym graficznym interfejsem użytkownika.
+    pt_BR: O Client é um cliente FTP, FTPS e SFTP multiplataforma rápido e confiável, com diversos recursos úteis e uma interface gráfica intuitiva.
+    ro_RO: Clientul este un client FTP, FTPS și SFTP multiplatformă rapid și fiabil, cu o mulțime de funcții utile și o interfață grafică intuitivă.
+    ru_RU: Это быстрый и надежный кроссплатформенный FTP, FTPS и SFTP-клиент с множеством полезных функций и интуитивно понятным графическим пользовательским интерфейсом.
+    sk_SK: Client je rýchly a spoľahlivý multiplatformový FTP, FTPS a SFTP klient s množstvom užitočných funkcií a intuitívnym grafickým používateľským rozhraním.
+    sv_SE: Client är en snabb och pålitlig plattformsoberoende FTP-, FTPS- och SFTP-klient med många användbara funktioner och ett intuitivt grafiskt användargränssnitt.
+    tr_TR: Bu istemci, birçok kullanışlı özelliğe ve sezgisel bir grafik kullanıcı arayüzüne sahip, hızlı ve güvenilir, platformlar arası bir FTP, FTPS ve SFTP istemcisidir.
     zh_CN: 快速可靠的 FTP、FTPS 和 SFTP 客户端。
+    zh_TW: 快速可靠的 FTP、FTPS 和 SFTP 客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
   title:
     en_US: Filezilla (LinuxServer.io)
+    ca_ES: Filezilla (LinuxServer.io)
+    cs_CZ: Filezilla (LinuxServer.io)
+    da_DK: Filezilla (LinuxServer.io)
+    de_DE: Filezilla (LinuxServer.io)
+    el_GR: Filezilla (LinuxServer.io)
+    en_GB: Filezilla (LinuxServer.io)
+    es_ES: Filezilla (LinuxServer.io)
+    fr_FR: Filezilla (LinuxServer.io)
+    ga_IE: Filezilla (LinuxServer.io)
+    hr_HR: Filezilla (LinuxServer.io)
+    hu_HU: Filezilla (LinuxServer.io)
+    it_IT: Filezilla (LinuxServer.io)
+    ja_JP: Filezilla (LinuxServer.io)
+    ko_KR: Filezilla (LinuxServer.io)
+    ml_IN: Filezilla (LinuxServer.io)
+    nb_NO: Filezilla (LinuxServer.io)
+    nl_NL: Filezilla (LinuxServer.io)
+    pl_PL: Filezilla (LinuxServer.io)
+    pt_BR: Filezilla (LinuxServer.io)
+    ro_RO: Filezilla (LinuxServer.io)
+    ru_RU: Filezilla (LinuxServer.io)
+    sk_SK: Filezilla (LinuxServer.io)
+    sv_SE: Filezilla (LinuxServer.io)
+    tr_TR: Filezilla (LinuxServer.io)
     zh_CN: Filezilla（LinuxServer.io）
+    zh_TW: Filezilla（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfilezilla
   port_map: '3000'

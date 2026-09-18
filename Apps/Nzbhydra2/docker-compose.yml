@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Nzbhydra2 is a meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.
+    ca_ES: Nzbhydra2 és una aplicació de metacerca per a indexadors NZB, la successora espiritual de NZBmegasearcH i una evolució de l'aplicació original NZBHydra. Proporciona fàcil accés a diversos indexadors basats en dades en brut i newznab.
+    cs_CZ: Nzbhydra2 je metavyhledávací aplikace pro indexátory NZB, duchovní nástupce NZBmegasearcH a vývoj původní aplikace NZBHydra. Poskytuje snadný přístup k řadě indexátorů založených na RAW i newznab.
+    da_DK: Nzbhydra2 er en metasøgeapplikation til NZB-indeksere, den åndelige efterfølger til NZBmegasearcH og en videreudvikling af den oprindelige applikation NZBHydra. Den giver nem adgang til en række rå og newznab-baserede indeksere.
+    de_DE: Nzbhydra2 ist eine Metasuchanwendung für NZB-Indexer, der geistige Nachfolger von NZBmegasearcH und eine Weiterentwicklung der ursprünglichen Anwendung NZBHydra. Sie ermöglicht den einfachen Zugriff auf eine Reihe von Rohdaten- und Newznab-basierten Indexern.
+    el_GR: Το Nzbhydra2 είναι μια εφαρμογή μετα-αναζήτησης για ευρετήρια NZB, ο πνευματικός διάδοχος του NZBmegasearchH και μια εξέλιξη της αρχικής εφαρμογής NZBHydra. Παρέχει εύκολη πρόσβαση σε μια σειρά από ευρετήρια που βασίζονται σε raw και newznab.
+    en_GB: Nzbhydra2 is a meta search application for Nzb indexers, the spiritual successor to Nzbmegasearch, and an evolution of the original application Nzbhydra. It provides easy access to a number of raw and newznab based indexers.
+    es_ES: Nzbhydra2 es una aplicación de metabúsqueda para indexadores NZB, sucesora espiritual de NZBmegasearcH y evolución de la aplicación original NZBHydra. Proporciona acceso sencillo a varios indexadores basados en raw y newznab.
+    fr_FR: Nzbhydra2 est une application de métarecherche pour les indexeurs NZB, successeur de NZBmegasearcH et évolution de l'application originale NZBHydra. Elle offre un accès simplifié à de nombreux indexeurs basés sur les données brutes et Newznab.
+    ga_IE: Is feidhmchlár meitea-chuardaigh é Nzbhydra2 do innéacsóirí NZB, comharba spioradálta NZBmegasearcH, agus éabhlóid ar an bhfeidhmchlár bunaidh NZBHydra. Soláthraíonn sé rochtain éasca ar roinnt innéacsóirí amha agus bunaithe ar newznab.
+    hr_HR: Nzbhydra2 je meta-pretraživačka aplikacija za NZB indeksatore, duhovni nasljednik NZBmegasearcH-a i evolucija izvorne aplikacije NZBHydra. Omogućuje jednostavan pristup brojnim indeksatorima temeljenim na sirovim i novim podacima iz baze podataka.
+    hu_HU: Az Nzbhydra2 egy metakereső alkalmazás NZB indexelőkhöz, az NZBmegasearcH spirituális utódja, és az eredeti NZBHydra alkalmazás továbbfejlesztése. Könnyű hozzáférést biztosít számos nyers és newznab alapú indexelőhöz.
+    it_IT: Nzbhydra2 è un'applicazione di metaricerca per indicizzatori NZB, successore spirituale di NZBmegasearcH e evoluzione dell'applicazione originale NZBHydra. Fornisce un facile accesso a numerosi indicizzatori basati su file raw e newznab.
+    ja_JP: Nzbhydra2は、NZBインデクサー向けのメタ検索アプリケーションであり、NZBmegasearcHの後継機であり、オリジナルアプリケーションNZBHydraの進化版です。多数のrawおよびnewznabベースのインデクサーに簡単にアクセスできます。
+    ko_KR: Nzbhydra2는 NZB 인덱서를 위한 메타 검색 애플리케이션으로, NZBmegasearcH의 정신적 계승자이자 기존 애플리케이션인 NZBHydra의 진화된 버전입니다. 다양한 raw 및 newznab 기반 인덱서에 쉽게 접근할 수 있도록 지원합니다.
+    ml_IN: NZBmegasearcH ന്റെ ആത്മീയ പിൻഗാമിയായ NZB ഇൻഡെക്സറുകൾക്കായുള്ള ഒരു മെറ്റാ സെർച്ച് ആപ്ലിക്കേഷനാണ് Nzbhydra2, കൂടാതെ യഥാർത്ഥ ആപ്ലിക്കേഷനായ NZBHydra യുടെ പരിണാമവുമാണ്. ഇത് നിരവധി റോ, ന്യൂസ്നാബ് അധിഷ്ഠിത ഇൻഡെക്സറുകളിലേക്ക് എളുപ്പത്തിൽ പ്രവേശനം നൽകുന്നു.
+    nb_NO: Nzbhydra2 er en metasøkapplikasjon for NZB-indeksere, den åndelige etterfølgeren til NZBmegasearcH, og en videreutvikling av den opprinnelige applikasjonen NZBHydra. Den gir enkel tilgang til en rekke rå- og newznab-baserte indeksere.
+    nl_NL: Nzbhydra2 is een metazoektoepassing voor NZB-indexers, de spirituele opvolger van NZBmegasearcH en een evolutie van de oorspronkelijke toepassing NZBHydra. Het biedt gemakkelijke toegang tot een aantal raw- en newznab-gebaseerde indexers.
+    pl_PL: Nzbhydra2 to aplikacja metawyszukiwarki dla indeksatorów NZB, duchowy następca NZBmegasearcH i ewolucja oryginalnej aplikacji NZBHydra. Zapewnia łatwy dostęp do wielu indeksatorów bazujących na surowych i nowych danych.
+    pt_BR: Nzbhydra2 é um aplicativo de metabusca para indexadores NZB, o sucessor espiritual do NZBmegasearch e uma evolução do aplicativo original NZBHydra. Ele fornece acesso fácil a diversos indexadores baseados em raw e newznab.
+    ro_RO: Nzbhydra2 este o aplicație de meta-căutare pentru indexorii NZB, succesorul spiritual al NZBmegasearcH și o evoluție a aplicației originale NZBHydra. Oferă acces facil la o serie de indexori bazați pe date brute și newznab.
+    ru_RU: Nzbhydra2 — это приложение для метапоиска по NZB-индексаторам, идейный преемник NZBmegasearcH и эволюция оригинального приложения NZBHydra. Оно обеспечивает легкий доступ к ряду индексаторов, работающих как с необработанными данными, так и с данными в формате newznab.
+    sk_SK: Nzbhydra2 je metavyhľadávacia aplikácia pre indexátorov NZB, duchovný nástupca NZBmegasearcH a vývoj pôvodnej aplikácie NZBHydra. Poskytuje jednoduchý prístup k množstvu indexátorov založených na RAW a newznab.
+    sv_SE: Nzbhydra2 är en metasökapplikation för NZB-indexerare, den andliga efterföljaren till NZBmegasearcH, och en utveckling av den ursprungliga applikationen NZBHydra. Den ger enkel åtkomst till ett antal råa och newznab-baserade indexerare.
+    tr_TR: Nzbhydra2, NZB indeksleyicileri için bir meta arama uygulamasıdır, NZBmegasearcH'ın manevi halefidir ve orijinal uygulama NZBHydra'nın bir evrimidir. Birçok ham ve newznab tabanlı indeksleyiciye kolay erişim sağlar.
     zh_CN: NZBHydra2 是面向 NZB 索引器的聚合搜索应用，是 NZBmegasearcH 理念上的继任者，也是原版 NZBHydra 的演进版本。它可方便地访问多个原生或基于 newznab 的索引器。
+    zh_TW: NZBHydra2 是面向 NZB 索引器的聚合搜尋應用，是 NZBmegasearcH 理念上的繼任者，也是原版 NZBHydra 的演進版本。它可方便地訪問多個原生或基於 newznab 的索引器。
   tagline:
     en_US: A meta search application for NZB indexers, the spiritual successor to NZBmegasearcH, and an evolution of the original application NZBHydra. It provides easy access to a number of raw and newznab based indexers.
+    ca_ES: Una aplicació de metacerca per a indexadors NZB, la successora espiritual de NZBmegasearcH i una evolució de l'aplicació original NZBHydra. Proporciona un accés fàcil a diversos indexadors basats en dades en brut i newznab.
+    cs_CZ: Aplikace pro meta vyhledávání pro indexátory NZB, duchovní nástupce NZBmegasearcH a vývoj původní aplikace NZBHydra. Poskytuje snadný přístup k řadě indexátorů založených na RAW i newznab.
+    da_DK: En metasøgeapplikation til NZB-indeksere, den spirituelle efterfølger til NZBmegasearcH og en videreudvikling af den oprindelige applikation NZBHydra. Den giver nem adgang til en række rå og newznab-baserede indeksere.
+    de_DE: Eine Metasuchanwendung für NZB-Indexer, der geistige Nachfolger von NZBmegasearcH und eine Weiterentwicklung der ursprünglichen Anwendung NZBHydra. Sie ermöglicht den einfachen Zugriff auf eine Reihe von Rohdaten- und Newznab-basierten Indexern.
+    el_GR: Μια εφαρμογή μετα-αναζήτησης για ευρετήρια NZB, ο πνευματικός διάδοχος του NZBmegasearchH και μια εξέλιξη της αρχικής εφαρμογής NZBHydra. Παρέχει εύκολη πρόσβαση σε μια σειρά από ευρετήρια που βασίζονται σε raw και newznab.
+    en_GB: A meta search application for Nzb indexers, the spiritual successor to Nzbmegasearch, and an evolution of the original application Nzbhydra. It provides easy access to a number of raw and newznab based indexers.
+    es_ES: Una aplicación de metabúsqueda para indexadores NZB, sucesora espiritual de NZBmegasearcH y evolución de la aplicación original NZBHydra. Proporciona acceso sencillo a varios indexadores basados en raw y newznab.
+    fr_FR: Application de métarecherche pour indexeurs NZB, successeur spirituel de NZBmegasearcH et évolution de l'application originale NZBHydra. Elle offre un accès simplifié à de nombreux indexeurs utilisant les données brutes et Newznab.
+    ga_IE: Feidhmchlár meitea-chuardaigh do innéacsóirí NZB, comharba spioradálta NZBmegasearcH, agus éabhlóid ar an bhfeidhmchlár bunaidh NZBHydra. Soláthraíonn sé rochtain éasca ar roinnt innéacsóirí amha agus bunaithe ar newznab.
+    hr_HR: Aplikacija za meta pretraživanje za NZB indeksatore, duhovni nasljednik NZBmegasearcH-a i evolucija originalne aplikacije NZBHydra. Omogućuje jednostavan pristup brojnim indeksatorima temeljenim na sirovim i novim podacima iz baze podataka.
+    hu_HU: Egy metakereső alkalmazás NZB indexelőkhöz, az NZBmegasearcH spirituális utódja, és az eredeti NZBHydra alkalmazás továbbfejlesztése. Könnyű hozzáférést biztosít számos nyers és newznab alapú indexelőhöz.
+    it_IT: Un'applicazione di metaricerca per indicizzatori NZB, successore spirituale di NZBmegasearcH e evoluzione dell'applicazione originale NZBHydra. Fornisce un facile accesso a numerosi indicizzatori basati su file raw e newznab.
+    ja_JP: NZBインデクサー向けのメタ検索アプリケーションであり、NZBmegasearcHの後継機であり、オリジナルアプリケーションNZBHydraの進化版です。多数のrawおよびnewznabベースのインデクサーに簡単にアクセスできます。
+    ko_KR: NZB 인덱서를 위한 메타 검색 애플리케이션으로, NZBmegasearcH의 정신적 계승자이자 기존 애플리케이션인 NZBHydra의 진화된 버전입니다. 다양한 raw 및 newznab 기반 인덱서에 쉽게 접근할 수 있도록 지원합니다.
+    ml_IN: NZB സൂചികക്കാർക്കായുള്ള ഒരു മെറ്റാ തിരയൽ ആപ്ലിക്കേഷൻ, NZBmegasearcH ന്റെ ആത്മീയ പിൻഗാമി, യഥാർത്ഥ ആപ്ലിക്കേഷനായ NZBHydra യുടെ പരിണാമം. ഇത് നിരവധി റോ, ന്യൂസ്‌നാബ് അധിഷ്ഠിത സൂചികകളിലേക്ക് എളുപ്പത്തിൽ ആക്‌സസ് നൽകുന്നു.
+    nb_NO: En metasøkapplikasjon for NZB-indeksere, den åndelige etterfølgeren til NZBmegasearcH, og en videreutvikling av den opprinnelige applikasjonen NZBHydra. Den gir enkel tilgang til en rekke rå- og newznab-baserte indeksere.
+    nl_NL: Een metazoekapplicatie voor NZB-indexers, de spirituele opvolger van NZBmegasearcH en een evolutie van de oorspronkelijke applicatie NZBHydra. Het biedt gemakkelijke toegang tot een aantal raw- en newznab-gebaseerde indexers.
+    pl_PL: Aplikacja metawyszukiwarki dla indeksatorów NZB, duchowy następca NZBmegasearcH i ewolucja oryginalnej aplikacji NZBHydra. Zapewnia łatwy dostęp do wielu indeksatorów bazujących na surowych danych i danych newznab.
+    pt_BR: Um aplicativo de metabusca para indexadores NZB, o sucessor espiritual do NZBmegasearch e uma evolução do aplicativo original NZBHydra. Ele fornece acesso fácil a diversos indexadores baseados em raw e newznab.
+    ro_RO: O aplicație de meta-căutare pentru indexatori NZB, succesorul spiritual al NZBmegasearcH și o evoluție a aplicației originale NZBHydra. Aceasta oferă acces facil la o serie de indexatori bazați pe date brute și newznab.
+    ru_RU: Приложение для метапоиска по NZB-индексаторам, идейный преемник NZBmegasearcH и эволюция оригинального приложения NZBHydra. Оно обеспечивает легкий доступ к ряду индексаторов, работающих как с необработанными данными, так и с данными в формате NewZNAB.
+    sk_SK: Aplikácia meta vyhľadávania pre indexátorov NZB, duchovný nástupca NZBmegasearcH a vývoj pôvodnej aplikácie NZBHydra. Poskytuje jednoduchý prístup k množstvu indexátorov založených na RAW a newznab.
+    sv_SE: En metasökapplikation för NZB-indexerare, den andliga efterföljaren till NZBmegasearcH, och en utveckling av den ursprungliga applikationen NZBHydra. Den ger enkel åtkomst till ett antal råa och newznab-baserade indexerare.
+    tr_TR: NZB indeksleyicileri için bir meta arama uygulaması olan bu uygulama, NZBmegasearcH'ın manevi halefi ve orijinal uygulama NZBHydra'nın bir evrimidir. Birçok ham ve newznab tabanlı indeksleyiciye kolay erişim sağlar.
     zh_CN: 集中搜索多个 NZB 索引服务。
+    zh_TW: 集中搜尋多個 NZB 索引服務。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
   title:
     en_US: Nzbhydra2 (LinuxServer.io)
+    ca_ES: Nzbhydra2 (LinuxServer.io)
+    cs_CZ: Nzbhydra2 (LinuxServer.io)
+    da_DK: Nzbhydra2 (LinuxServer.io)
+    de_DE: Nzbhydra2 (LinuxServer.io)
+    el_GR: Nzbhydra2 (LinuxServer.io)
+    en_GB: Nzbhydra2 (LinuxServer.io)
+    es_ES: Nzbhydra2 (LinuxServer.io)
+    fr_FR: Nzbhydra2 (LinuxServer.io)
+    ga_IE: Nzbhydra2 (LinuxServer.io)
+    hr_HR: Nzbhydra2 (LinuxServer.io)
+    hu_HU: Nzbhydra2 (LinuxServer.io)
+    it_IT: Nzbhydra2 (LinuxServer.io)
+    ja_JP: Nzbhydra2 (LinuxServer.io)
+    ko_KR: Nzbhydra2 (LinuxServer.io)
+    ml_IN: Nzbhydra2 (LinuxServer.io)
+    nb_NO: Nzbhydra2 (LinuxServer.io)
+    nl_NL: Nzbhydra2 (LinuxServer.io)
+    pl_PL: Nzbhydra2 (LinuxServer.io)
+    pt_BR: Nzbhydra2 (LinuxServer.io)
+    ro_RO: Nzbhydra2 (LinuxServer.io)
+    ru_RU: Nzbhydra2 (LinuxServer.io)
+    sk_SK: Nzbhydra2 (LinuxServer.io)
+    sv_SE: Nzbhydra2 (LinuxServer.io)
+    tr_TR: Nzbhydra2 (LinuxServer.io)
     zh_CN: Nzbhydra2（LinuxServer.io）
+    zh_TW: Nzbhydra2（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservernzbhydra2
   port_map: '5076'

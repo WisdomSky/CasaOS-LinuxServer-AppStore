@@ -1,7 +1,7 @@
 name: linuxserver-yaak
 services:
   app:
-    image: linuxserver/yaak:2026.7.1
+    image: linuxserver/yaak:2026.8.0
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,18 +36,93 @@ x-casaos:
   main: app
   description:
     en_US: Yaak is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
+    ca_ES: Yaak és un client d'API d'escriptori per organitzar i executar sol·licituds REST, GraphQL i gRPC. Està construït amb Tauri, Rust i ReactJS.
+    cs_CZ: Yaak je desktopový API klient pro organizaci a provádění požadavků REST, GraphQL a gRPC. Je vytvořen s využitím Tauri, Rust a ReactJS.
+    da_DK: Yaak er en desktop API-klient til organisering og udførelse af REST-, GraphQL- og gRPC-anmodninger. Den er bygget ved hjælp af Tauri, Rust og ReactJS.
+    de_DE: Yaak ist ein Desktop-API-Client zum Organisieren und Ausführen von REST-, GraphQL- und gRPC-Anfragen. Er basiert auf Tauri, Rust und ReactJS.
+    el_GR: Το Yaak είναι ένα πρόγραμμα-πελάτης API για επιτραπέζιους υπολογιστές για την οργάνωση και εκτέλεση αιτημάτων REST, GraphQL και gRPC. Έχει δημιουργηθεί με τη χρήση Tauri, Rust και ReactJS.
+    en_GB: Yaak is a desktop Api client for organising and executing Rest, Graphql, and gRPC requests. It's built using Tauri, Rust, and Reactjs.
+    es_ES: Yaak es un cliente API de escritorio para organizar y ejecutar solicitudes REST, GraphQL y gRPC. Está desarrollado con Tauri, Rust y ReactJS.
+    fr_FR: Yaak est un client API de bureau permettant d'organiser et d'exécuter des requêtes REST, GraphQL et gRPC. Il est développé avec Tauri, Rust et ReactJS.
+    ga_IE: Is cliant API deisce é Yaak chun iarratais REST, GraphQL, agus gRPC a eagrú agus a fhorghníomhú. Tá sé tógtha ag baint úsáide as Tauri, Rust, agus ReactJS.
+    hr_HR: Yaak je desktop API klijent za organiziranje i izvršavanje REST, GraphQL i gRPC zahtjeva. Izgrađen je korištenjem Taurija, Rusta i ReactJS-a.
+    hu_HU: A Yaak egy asztali API kliens REST, GraphQL és gRPC kérések rendszerezéséhez és végrehajtásához. Tauri, Rust és ReactJS használatával készült.
+    it_IT: Yaak è un client API desktop per organizzare ed eseguire richieste REST, GraphQL e gRPC. È sviluppato utilizzando Tauri, Rust e ReactJS.
+    ja_JP: Yaakは、REST、GraphQL、gRPCリクエストの整理と実行を行うためのデスクトップAPIクライアントです。Tauri、Rust、ReactJSを使用して構築されています。
+    ko_KR: Yaak은 REST, GraphQL 및 gRPC 요청을 구성하고 실행하기 위한 데스크톱 API 클라이언트입니다. Tauri, Rust 및 ReactJS를 사용하여 구축되었습니다.
+    ml_IN: REST, GraphQL, gRPC അഭ്യർത്ഥനകൾ സംഘടിപ്പിക്കുന്നതിനും നടപ്പിലാക്കുന്നതിനുമുള്ള ഒരു ഡെസ്ക്ടോപ്പ് API ക്ലയന്റാണ് യാക്ക്. ടൗറി, റസ്റ്റ്, റിയാക്ട്ജെഎസ് എന്നിവ ഉപയോഗിച്ചാണ് ഇത് നിർമ്മിച്ചിരിക്കുന്നത്.
+    nb_NO: Yaak er en API-klient for skrivebordsbruk for organisering og utførelse av REST-, GraphQL- og gRPC-forespørsler. Den er bygget med Tauri, Rust og ReactJS.
+    nl_NL: Yaak is een desktop API-client voor het organiseren en uitvoeren van REST-, GraphQL- en gRPC-verzoeken. Het is gebouwd met Tauri, Rust en ReactJS.
+    pl_PL: Yaak to klient API na komputery stacjonarne, który służy do organizowania i wykonywania żądań REST, GraphQL i gRPC. Został stworzony w oparciu o Tauri, Rust i ReactJS.
+    pt_BR: Yaak é um cliente de API para desktop que organiza e executa requisições REST, GraphQL e gRPC. Ele foi desenvolvido usando Tauri, Rust e ReactJS.
+    ro_RO: Yaak este un client API desktop pentru organizarea și executarea cererilor REST, GraphQL și gRPC. Este construit folosind Tauri, Rust și ReactJS.
+    ru_RU: Yaak — это настольный API-клиент для организации и выполнения REST, GraphQL и gRPC запросов. Он разработан с использованием Tauri, Rust и ReactJS.
+    sk_SK: Yaak je desktopový API klient na organizovanie a vykonávanie požiadaviek REST, GraphQL a gRPC. Je vytvorený pomocou Tauri, Rust a ReactJS.
+    sv_SE: Yaak är en API-klient för skrivbordsmiljöer för att organisera och exekvera REST-, GraphQL- och gRPC-förfrågningar. Den är byggd med Tauri, Rust och ReactJS.
+    tr_TR: Yaak, REST, GraphQL ve gRPC isteklerini düzenlemek ve yürütmek için kullanılan bir masaüstü API istemcisidir. Tauri, Rust ve ReactJS kullanılarak geliştirilmiştir.
     zh_CN: Yaak 是一款桌面 API 客户端，用于组织和执行 REST、GraphQL 和 gRPC 请求，使用 Tauri、Rust 和 ReactJS 构建。
+    zh_TW: Yaak 是一款桌面 API 客戶端，用於組織和執行 REST、GraphQL 和 gRPC 請求，使用 Tauri、Rust 和 ReactJS 構建。
   tagline:
     en_US: A desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS.
+    ca_ES: Un client d'API d'escriptori per organitzar i executar sol·licituds REST, GraphQL i gRPC. Està construït amb Tauri, Rust i ReactJS.
+    cs_CZ: Desktopový API klient pro organizaci a spouštění požadavků REST, GraphQL a gRPC. Je vytvořen s využitím Tauri, Rust a ReactJS.
+    da_DK: En desktop API-klient til organisering og udførelse af REST-, GraphQL- og gRPC-anmodninger. Den er bygget ved hjælp af Tauri, Rust og ReactJS.
+    de_DE: Ein Desktop-API-Client zum Organisieren und Ausführen von REST-, GraphQL- und gRPC-Anfragen. Er basiert auf Tauri, Rust und ReactJS.
+    el_GR: Ένα πρόγραμμα-πελάτης API για επιτραπέζιους υπολογιστές για την οργάνωση και εκτέλεση αιτημάτων REST, GraphQL και gRPC. Έχει δημιουργηθεί με χρήση Tauri, Rust και ReactJS.
+    en_GB: A desktop Api client for organising and executing Rest, Graphql, and gRPC requests. It's built using Tauri, Rust, and Reactjs.
+    es_ES: Un cliente API de escritorio para organizar y ejecutar solicitudes REST, GraphQL y gRPC. Está desarrollado con Tauri, Rust y ReactJS.
+    fr_FR: Client API de bureau pour organiser et exécuter des requêtes REST, GraphQL et gRPC. Développé avec Tauri, Rust et ReactJS.
+    ga_IE: Cliant API deisce chun iarratais REST, GraphQL, agus gRPC a eagrú agus a fhorghníomhú. Tá sé tógtha ag baint úsáide as Tauri, Rust, agus ReactJS.
+    hr_HR: API klijent za stolna računala za organiziranje i izvršavanje REST, GraphQL i gRPC zahtjeva. Izgrađen je korištenjem Taurija, Rusta i ReactJS-a.
+    hu_HU: Egy asztali API kliens REST, GraphQL és gRPC kérések rendszerezéséhez és végrehajtásához. Tauri, Rust és ReactJS használatával készült.
+    it_IT: Un client API desktop per organizzare ed eseguire richieste REST, GraphQL e gRPC. È stato sviluppato utilizzando Tauri, Rust e ReactJS.
+    ja_JP: REST、GraphQL、gRPCリクエストの整理と実行を行うためのデスクトップAPIクライアントです。Tauri、Rust、ReactJSを使用して構築されています。
+    ko_KR: REST, GraphQL 및 gRPC 요청을 구성하고 실행하기 위한 데스크톱 API 클라이언트입니다. Tauri, Rust 및 ReactJS를 사용하여 구축되었습니다.
+    ml_IN: REST, GraphQL, gRPC അഭ്യർത്ഥനകൾ സംഘടിപ്പിക്കുന്നതിനും നടപ്പിലാക്കുന്നതിനുമുള്ള ഒരു ഡെസ്ക്ടോപ്പ് API ക്ലയന്റ്. ടൗരി, റസ്റ്റ്, ReactJS എന്നിവ ഉപയോഗിച്ചാണ് ഇത് നിർമ്മിച്ചിരിക്കുന്നത്.
+    nb_NO: En API-klient for skrivebordsbruk for organisering og utførelse av REST-, GraphQL- og gRPC-forespørsler. Den er bygget med Tauri, Rust og ReactJS.
+    nl_NL: Een desktop API-client voor het organiseren en uitvoeren van REST-, GraphQL- en gRPC-verzoeken. De client is ontwikkeld met Tauri, Rust en ReactJS.
+    pl_PL: Klient API na komputery stacjonarne do organizowania i wykonywania żądań REST, GraphQL i gRPC. Został stworzony w oparciu o Tauri, Rust i ReactJS.
+    pt_BR: Um cliente de API para desktop que organiza e executa requisições REST, GraphQL e gRPC. Ele foi desenvolvido usando Tauri, Rust e ReactJS.
+    ro_RO: Un client API desktop pentru organizarea și executarea cererilor REST, GraphQL și gRPC. Este construit folosind Tauri, Rust și ReactJS.
+    ru_RU: Настольный API-клиент для организации и выполнения REST, GraphQL и gRPC запросов. Он разработан с использованием Tauri, Rust и ReactJS.
+    sk_SK: Klient API pre desktop na organizovanie a vykonávanie požiadaviek REST, GraphQL a gRPC. Je vytvorený pomocou Tauri, Rust a ReactJS.
+    sv_SE: En API-klient för skrivbordsmiljöer för att organisera och köra REST-, GraphQL- och gRPC-förfrågningar. Den är byggd med Tauri, Rust och ReactJS.
+    tr_TR: REST, GraphQL ve gRPC isteklerini düzenlemek ve yürütmek için kullanılan bir masaüstü API istemcisidir. Tauri, Rust ve ReactJS kullanılarak geliştirilmiştir.
     zh_CN: 用于 REST、GraphQL 和 gRPC 的桌面 API 客户端。
+    zh_TW: 用於 REST、GraphQL 和 gRPC 的桌面 API 客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/yaak-logo.png
   title:
     en_US: Yaak (LinuxServer.io)
+    ca_ES: Yaak (LinuxServer.io)
+    cs_CZ: Yaak (LinuxServer.io)
+    da_DK: Yaak (LinuxServer.io)
+    de_DE: Yaak (LinuxServer.io)
+    el_GR: Yaak (LinuxServer.io)
+    en_GB: Yaak (LinuxServer.io)
+    es_ES: Yaak (LinuxServer.io)
+    fr_FR: Yaak (LinuxServer.io)
+    ga_IE: Yaak (LinuxServer.io)
+    hr_HR: Yaak (LinuxServer.io)
+    hu_HU: Yaak (LinuxServer.io)
+    it_IT: Yaak (LinuxServer.io)
+    ja_JP: Yaak (LinuxServer.io)
+    ko_KR: Yaak (LinuxServer.io)
+    ml_IN: Yaak (LinuxServer.io)
+    nb_NO: Yaak (LinuxServer.io)
+    nl_NL: Yaak (LinuxServer.io)
+    pl_PL: Yaak (LinuxServer.io)
+    pt_BR: Yaak (LinuxServer.io)
+    ro_RO: Yaak (LinuxServer.io)
+    ru_RU: Yaak (LinuxServer.io)
+    sk_SK: Yaak (LinuxServer.io)
+    sv_SE: Yaak (LinuxServer.io)
+    tr_TR: Yaak (LinuxServer.io)
     zh_CN: Yaak（LinuxServer.io）
+    zh_TW: Yaak（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveryaak
   port_map: '3000'
-  version: 2026.7.1
+  version: 2026.8.0

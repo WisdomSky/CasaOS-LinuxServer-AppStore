@@ -45,9 +45,62 @@ x-casaos:
       EmbyStat 是一个个人网页服务器，可从本地 Emby 服务器计算各种统计信息。将其安装在服务器上，即可生成丰富的统计数据。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/embystat/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/embystat/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/embystat/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/embystat/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/embystat/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/embystat/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/embystat/'
+    es_ES: 'Visite la página principal: https://hub.docker.com/r/linuxserver/embystat/'
+    fr_FR: "Consultez la page d'accueil\_: https://hub.docker.com/r/linuxserver/embystat/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/embystat/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/embystat/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/embystat/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/embystat/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/embystat/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/embystat/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/embystat/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/embystat/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/embystat/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/embystat/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/embystat/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/embystat/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/embystat/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/embystat/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/embystat/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/embystat/'
+    zh_TW: |-
+      EmbyStat 是一個個人網頁伺服器，可從本地 Emby 伺服器計算各種統計資訊。將其安裝在伺服器上，即可生成豐富的統計資料。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/embystat/
   tagline:
     en_US: A personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.
     zh_CN: 分析本地 Emby 服务器的媒体统计信息。
+    ca_ES: Un servidor web personal que pot calcular tot tipus d'estadístiques des del vostre servidor Emby (local). Només cal que l'instal·leu al vostre servidor i deixeu que ell calculi tot tipus de coses divertides.
+    cs_CZ: Osobní webový server, který dokáže vypočítat nejrůznější statistiky z vašeho (lokálního) Emby serveru. Stačí si ho nainstalovat na server a nechat ho vypočítávat nejrůznější zábavné věci.
+    da_DK: En personlig webserver, der kan beregne alle mulige slags statistikker fra din (lokale) Emby-server. Bare installer den på din server, og lad ham beregne alle mulige sjove ting.
+    de_DE: Ein persönlicher Webserver, der alle möglichen Statistiken von Ihrem (lokalen) Emby-Server berechnen kann. Installieren Sie ihn einfach auf Ihrem Server und lassen Sie ihn allerlei interessante Daten ermitteln.
+    el_GR: Ένας προσωπικός διακομιστής ιστού που μπορεί να υπολογίσει κάθε είδους στατιστικά στοιχεία από τον (τοπικό) διακομιστή Emby. Απλώς εγκαταστήστε τον στον διακομιστή σας και αφήστε τον να υπολογίσει κάθε είδους διασκεδαστικά πράγματα.
+    en_GB: A personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.
+    es_ES: Un servidor web personal que puede calcular todo tipo de estadísticas desde tu servidor Emby (local). Simplemente instálalo en tu servidor y deja que calcule todo tipo de datos interesantes.
+    fr_FR: Un serveur web personnel capable de calculer toutes sortes de statistiques à partir de votre serveur Emby (local). Installez-le simplement sur votre serveur et laissez-le effectuer toutes sortes de calculs intéressants.
+    ga_IE: Freastalaí gréasáin pearsanta ar féidir leis gach saghas staitisticí a ríomh ó do fhreastalaí Emby (áitiúil). Suiteáil é seo ar do fhreastalaí agus lig dó gach saghas rudaí spraíúla a ríomh.
+    hr_HR: Osobni web poslužitelj koji može izračunati sve vrste statistike s vašeg (lokalnog) Emby poslužitelja. Samo ga instalirajte na svoj poslužitelj i pustite ga da izračuna sve vrste zabavnih stvari.
+    hu_HU: Egy személyes webszerver, ami mindenféle statisztikát ki tud számolni a (helyi) Emby szerveredről. Csak telepítsd a szerveredre, és máris mindenféle érdekességet kiszámol.
+    it_IT: Un server web personale in grado di calcolare ogni tipo di statistica dal tuo server Emby (locale). Basta installarlo sul tuo server e lasciare che calcoli un sacco di cose interessanti.
+    ja_JP: あなたの（ローカル）Embyサーバーからあらゆる種類の統計情報を計算できる個人用ウェブサーバーです。サーバーにインストールするだけで、様々な楽しい計算結果が得られます。
+    ko_KR: (로컬) Emby 서버에서 다양한 통계를 계산할 수 있는 개인 웹 서버입니다. 서버에 설치하기만 하면 온갖 재미있는 계산 결과를 얻을 수 있습니다.
+    ml_IN: നിങ്ങളുടെ (ലോക്കൽ) എംബി സെർവറിൽ നിന്ന് എല്ലാത്തരം സ്ഥിതിവിവരക്കണക്കുകളും കണക്കാക്കാൻ കഴിയുന്ന ഒരു സ്വകാര്യ വെബ് സെർവർ. ഇത് നിങ്ങളുടെ സെർവറിൽ ഇൻസ്റ്റാൾ ചെയ്യുക, അയാൾക്ക് എല്ലാത്തരം രസകരമായ കാര്യങ്ങളും കണക്കാക്കാൻ അനുവദിക്കുക.
+    nb_NO: En personlig webserver som kan beregne all slags statistikk fra din (lokale) Emby-server. Bare installer dette på serveren din, og la ham beregne alle slags morsomme ting.
+    nl_NL: Een persoonlijke webserver die allerlei statistieken kan berekenen op basis van je (lokale) Emby-server. Installeer hem gewoon op je server en laat hem allerlei leuke dingen berekenen.
+    pl_PL: Osobisty serwer WWW, który może obliczać wszelkiego rodzaju statystyki z Twojego (lokalnego) serwera Emby. Wystarczy go zainstalować na serwerze i pozwolić mu obliczać wszelkiego rodzaju ciekawe rzeczy.
+    pt_BR: Um servidor web pessoal capaz de calcular todos os tipos de estatísticas do seu servidor Emby (local). Basta instalá-lo no seu servidor e deixar que ele calcule todo tipo de informação interessante.
+    ro_RO: Un server web personal care poate calcula tot felul de statistici de pe serverul tău Emby (local). Instalează-l pe serverul tău și lasă-l pe el să calculeze tot felul de lucruri distractive.
+    ru_RU: Персональный веб-сервер, способный вычислять всевозможную статистику с вашего (локального) сервера Emby. Просто установите его на свой сервер и позвольте ему вычислять всевозможные интересные вещи.
+    sk_SK: Osobný webový server, ktorý dokáže vypočítať všetky druhy štatistík z vášho (lokálneho) Emby servera. Stačí si ho nainštalovať na server a nechať ho vypočítavať všetky možné zábavné veci.
+    sv_SE: En personlig webbserver som kan beräkna alla möjliga sorters statistik från din (lokala) Emby-server. Installera bara detta på din server och låt honom beräkna alla möjliga roliga saker.
+    tr_TR: (Yerel) Emby sunucunuzdan her türlü istatistiği hesaplayabilen kişisel bir web sunucusu. Bunu sunucunuza kurun ve bırakın o her türlü eğlenceli şeyi hesaplasın.
+    zh_TW: 分析本地 Emby 伺服器的媒體統計資訊。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/embystat-logo.png
@@ -55,6 +108,31 @@ x-casaos:
   title:
     en_US: Embystat
     zh_CN: Embystat
+    ca_ES: Embystat
+    cs_CZ: Embystat
+    da_DK: Embystat
+    de_DE: Embystat
+    el_GR: Embystat
+    en_GB: Embystat
+    es_ES: Embystat
+    fr_FR: Embystat
+    ga_IE: Embystat
+    hr_HR: Embystat
+    hu_HU: Embystat
+    it_IT: Embystat
+    ja_JP: Embystat
+    ko_KR: Embystat
+    ml_IN: Embystat
+    nb_NO: Embystat
+    nl_NL: Embystat
+    pl_PL: Embystat
+    pt_BR: Embystat
+    ro_RO: Embystat
+    ru_RU: Embystat
+    sk_SK: Embystat
+    sv_SE: Embystat
+    tr_TR: Embystat
+    zh_TW: Embystat
   category: Others
   project_url: https://github.com/mregni/EmbyStat
   port_map: '6555'

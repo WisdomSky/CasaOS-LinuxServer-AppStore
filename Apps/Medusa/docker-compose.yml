@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Medusa is an automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    ca_ES: Medusa és un gestor automàtic de videoteca per a programes de televisió. Està a l'aguait dels nous episodis dels teus programes preferits i, quan es publiquen, fa la seva màgia.
+    cs_CZ: Medusa je automatický správce videotéky pro televizní pořady. Hledá nové epizody vašich oblíbených pořadů a když jsou zveřejněny, udělá svá zázraky.
+    da_DK: Medusa er en automatisk videobiblioteksadministrator til tv-serier. Den holder øje med nye episoder af dine yndlingsserier, og når de bliver lagt ud, virker den magisk.
+    de_DE: Medusa ist ein automatischer Videobibliothek-Manager für Fernsehsendungen. Er sucht nach neuen Folgen Ihrer Lieblingssendungen und sobald diese veröffentlicht werden, entfaltet er seine Magie.
+    el_GR: Το Medusa είναι ένας αυτόματος διαχειριστής βιβλιοθήκης βίντεο για τηλεοπτικές εκπομπές. Παρακολουθεί για νέα επεισόδια των αγαπημένων σας εκπομπών και όταν αυτά δημοσιεύονται, κάνει τα θαύματα του.
+    en_GB: Medusa is an automatic Video Library Manager for Tv Shows. It watches for new episodes of your favourite shows, and when they are posted it does its magic.
+    es_ES: Medusa es un gestor automático de videotecas para series de televisión. Busca nuevos episodios de tus series favoritas y, cuando se publican, hace su magia.
+    fr_FR: Medusa est un gestionnaire de vidéothèque automatique pour les séries télévisées. Il surveille les nouveaux épisodes de vos séries préférées et, dès leur publication, il fait des merveilles.
+    ga_IE: Is Bainisteoir Leabharlann Físeáin uathoibríoch é Medusa do Chláir Teilifíse. Bíonn sé ag faire amach d’eipeasóidí nua de do chláir is fearr leat, agus nuair a phostáiltear iad, déanann sé a dhraíocht.
+    hr_HR: Medusa je automatski upravitelj videoteke za TV emisije. Prati nove epizode vaših omiljenih emisija i čini svoju magiju kada se objave.
+    hu_HU: A Medusa egy automatikus videótár-kezelő tévéműsorokhoz. Figyeli kedvenc műsoraid új epizódjait, és amikor azok megjelennek, varázslatot csinál.
+    it_IT: Medusa è un gestore automatico di videoteca per serie TV. Monitora la disponibilità di nuovi episodi dei tuoi programmi preferiti e, non appena vengono pubblicati, fa tutto il necessario.
+    ja_JP: Medusaは、テレビ番組用の自動ビデオライブラリマネージャーです。お気に入りの番組の新しいエピソードを監視し、公開されると自動的に処理を実行します。
+    ko_KR: 메두사는 TV 프로그램용 자동 비디오 라이브러리 관리 프로그램입니다. 좋아하는 프로그램의 새 에피소드를 감지하여 업로드되면 자동으로 관리해줍니다.
+    ml_IN: ടിവി ഷോകൾക്കായുള്ള ഒരു ഓട്ടോമാറ്റിക് വീഡിയോ ലൈബ്രറി മാനേജരാണ് മെഡൂസ. നിങ്ങളുടെ പ്രിയപ്പെട്ട ഷോകളുടെ പുതിയ എപ്പിസോഡുകൾ ഇത് കാണുന്നു, അവ പോസ്റ്റ് ചെയ്യുമ്പോൾ അത് അതിന്റെ മാജിക് ചെയ്യുന്നു.
+    nb_NO: Medusa er en automatisk videobibliotekbehandler for TV-serier. Den ser etter nye episoder av favorittprogrammene dine, og når de legges ut, gjør den sin magi.
+    nl_NL: Medusa is een automatisch videobibliotheekbeheersysteem voor tv-series. Het houdt de bibliotheek in de gaten voor nieuwe afleveringen van je favoriete series en zodra deze beschikbaar zijn, doet het systeem zijn werk.
+    pl_PL: Medusa to automatyczny menedżer biblioteki wideo dla programów telewizyjnych. Wyszukuje nowe odcinki Twoich ulubionych programów i po ich opublikowaniu działa cuda.
+    pt_BR: Medusa é um gerenciador automático de videoteca para séries de TV. Ele monitora a disponibilidade de novos episódios dos seus programas favoritos e, quando são publicados, faz a sua mágica.
+    ro_RO: Medusa este un manager automat de bibliotecă video pentru emisiuni TV. Caută episoade noi din emisiunile tale preferate și, odată ce acestea sunt postate, își face magia.
+    ru_RU: Medusa — это автоматизированный менеджер видеотеки для телешоу. Он отслеживает новые серии ваших любимых сериалов, и когда они появляются, делает свою работу.
+    sk_SK: Medusa je automatický správca videotéky pre televízne programy. Hľadá nové epizódy vašich obľúbených programov a keď sú zverejnené, robí svoje zázraky.
+    sv_SE: Medusa är en automatisk videobibliotekshanterare för TV-program. Den letar efter nya avsnitt av dina favoritprogram, och när de publiceras gör den sin magi.
+    tr_TR: Medusa, TV dizileri için otomatik bir Video Kütüphanesi Yöneticisidir. En sevdiğiniz dizilerin yeni bölümlerini takip eder ve yayınlandıklarında sihirli dokunuşunu yapar.
     zh_CN: Medusa 是电视剧视频库的自动管理器。它会关注你喜欢的剧集，在新一集发布后自动进行处理。
+    zh_TW: Medusa 是電視劇影片庫的自動管理器。它會關注你喜歡的劇集，在新一集釋出後自動進行處理。
   tagline:
     en_US: An automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    ca_ES: Un gestor automàtic de videoteca per a programes de televisió. Està atent als nous episodis dels teus programes preferits i, quan es publiquen, fa la seva màgia.
+    cs_CZ: Automatický správce videotéky pro televizní pořady. Hledá nové epizody vašich oblíbených pořadů a když jsou zveřejněny, udělá svá zázraky.
+    da_DK: En automatisk videobiblioteksadministrator til tv-serier. Den holder øje med nye episoder af dine yndlingsserier, og når de bliver lagt ud, virker den magisk.
+    de_DE: Ein automatischer Videobibliothek-Manager für Fernsehsendungen. Er sucht nach neuen Folgen Ihrer Lieblingssendungen und sobald diese veröffentlicht werden, entfaltet er seine Magie.
+    el_GR: Ένας αυτόματος διαχειριστής βιβλιοθήκης βίντεο για τηλεοπτικές εκπομπές. Παρακολουθεί για νέα επεισόδια των αγαπημένων σας εκπομπών και όταν αυτά δημοσιεύονται, κάνει τα μαγικά του.
+    en_GB: An automatic Video Library Manager for Tv Shows. It watches for new episodes of your favourite shows, and when they are posted it does its magic.
+    es_ES: Un gestor automático de videoteca para series de televisión. Busca nuevos episodios de tus series favoritas y, cuando se publican, hace su magia.
+    fr_FR: Un gestionnaire de vidéothèque automatique pour vos séries TV. Il surveille les nouveaux épisodes de vos séries préférées et, dès leur publication, il fait des merveilles.
+    ga_IE: Bainisteoir Leabharlann Físeáin uathoibríoch do Chláir Teilifíse. Bíonn sé ag faire amach d’eipeasóidí nua de do chláir is fearr leat, agus nuair a phostáiltear iad déanann sé a dhraíocht.
+    hr_HR: Automatski upravitelj videoteke za TV emisije. Prati nove epizode vaših omiljenih emisija i čini svoju magiju kada se objave.
+    hu_HU: Automatikus videótár-kezelő tévéműsorokhoz. Figyeli kedvenc műsoraid új epizódjait, és amikor azok feltöltésre kerülnek, varázslatot csinál.
+    it_IT: Un gestore automatico di videoteca per serie TV. Monitora la presenza di nuovi episodi dei tuoi programmi preferiti e, non appena vengono pubblicati, fa tutto il necessario.
+    ja_JP: テレビ番組用の自動ビデオライブラリマネージャー。お気に入りの番組の新しいエピソードを監視し、公開されると自動的に処理します。
+    ko_KR: TV 프로그램용 자동 비디오 라이브러리 관리 프로그램입니다. 좋아하는 프로그램의 새 에피소드를 감지하여 업로드되면 자동으로 관리해 줍니다.
+    ml_IN: ടിവി ഷോകൾക്കായുള്ള ഒരു ഓട്ടോമാറ്റിക് വീഡിയോ ലൈബ്രറി മാനേജർ. ഇത് നിങ്ങളുടെ പ്രിയപ്പെട്ട ഷോകളുടെ പുതിയ എപ്പിസോഡുകൾ കാണുന്നു, അവ പോസ്റ്റ് ചെയ്യുമ്പോൾ അത് അതിന്റെ മാജിക് ചെയ്യുന്നു.
+    nb_NO: En automatisk videobibliotekbehandler for TV-serier. Den ser etter nye episoder av favorittprogrammene dine, og når de legges ut, gjør den sin magi.
+    nl_NL: Een automatische videobibliotheekbeheerder voor tv-series. Hij houdt je favoriete series in de gaten en zodra ze online staan, doet hij zijn werk.
+    pl_PL: Automatyczny menedżer biblioteki wideo dla programów telewizyjnych. Wyszukuje nowe odcinki Twoich ulubionych programów i po ich opublikowaniu działa jak za dotknięciem czarodziejskiej różdżki.
+    pt_BR: Um gerenciador automático de videoteca para séries de TV. Ele monitora a disponibilidade de novos episódios dos seus programas favoritos e, quando são publicados, faz a sua mágica.
+    ro_RO: Un manager automat de bibliotecă video pentru emisiuni TV. Caută episoade noi din emisiunile tale preferate și, odată ce sunt postate, își face magia.
+    ru_RU: Автоматический менеджер видеотеки для телешоу. Он отслеживает новые серии ваших любимых сериалов, и когда они появляются, делает свою работу.
+    sk_SK: Automatický správca videotéky pre televízne programy. Hľadá nové epizódy vašich obľúbených programov a keď sú zverejnené, robí svoje zázraky.
+    sv_SE: En automatisk videobibliotekshanterare för TV-program. Den letar efter nya avsnitt av dina favoritprogram och gör sin magi när de publiceras.
+    tr_TR: Dizi video kütüphaneniz için otomatik bir yönetici. En sevdiğiniz dizilerin yeni bölümlerini takip eder ve yayınlandıklarında sihirli işlemini gerçekleştirir.
     zh_CN: 自动追踪电视剧新集的媒体库管理器。
+    zh_TW: 自動追蹤電視劇新集的媒體庫管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png
   title:
     en_US: Medusa (LinuxServer.io)
+    ca_ES: Medusa (LinuxServer.io)
+    cs_CZ: Medusa (LinuxServer.io)
+    da_DK: Medusa (LinuxServer.io)
+    de_DE: Medusa (LinuxServer.io)
+    el_GR: Medusa (LinuxServer.io)
+    en_GB: Medusa (LinuxServer.io)
+    es_ES: Medusa (LinuxServer.io)
+    fr_FR: Medusa (LinuxServer.io)
+    ga_IE: Medusa (LinuxServer.io)
+    hr_HR: Medusa (LinuxServer.io)
+    hu_HU: Medusa (LinuxServer.io)
+    it_IT: Medusa (LinuxServer.io)
+    ja_JP: Medusa (LinuxServer.io)
+    ko_KR: Medusa (LinuxServer.io)
+    ml_IN: Medusa (LinuxServer.io)
+    nb_NO: Medusa (LinuxServer.io)
+    nl_NL: Medusa (LinuxServer.io)
+    pl_PL: Medusa (LinuxServer.io)
+    pt_BR: Medusa (LinuxServer.io)
+    ro_RO: Medusa (LinuxServer.io)
+    ru_RU: Medusa (LinuxServer.io)
+    sk_SK: Medusa (LinuxServer.io)
+    sv_SE: Medusa (LinuxServer.io)
+    tr_TR: Medusa (LinuxServer.io)
     zh_CN: Medusa（LinuxServer.io）
+    zh_TW: Medusa（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermedusa
   port_map: '8081'

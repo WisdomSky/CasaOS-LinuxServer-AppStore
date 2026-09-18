@@ -40,9 +40,59 @@ x-casaos:
   description:
     en_US: Rdesktop - Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.
     zh_CN: Rdesktop 提供包含完整桌面环境的容器，涵盖 Alpine、Ubuntu、Arch 和 Fedora 的多种常见桌面风格，并可通过 RDP 访问。
+    ca_ES: 'Rdesktop: contenidors que contenen entorns d''escriptori complets en moltes versions populars per a Alpine, Ubuntu, Arch i Fedora accessibles via RDP.'
+    cs_CZ: Rdesktop – Kontejnery obsahující plnohodnotná desktopová prostředí v mnoha populárních variantách pro Alpine, Ubuntu, Arch a Fedoru, přístupné přes RDP.
+    da_DK: Rdesktop - Containere, der indeholder komplette skrivebordsmiljøer i mange populære varianter til Alpine, Ubuntu, Arch og Fedora, tilgængelige via RDP.
+    de_DE: Rdesktop – Container mit vollständigen Desktop-Umgebungen in vielen gängigen Varianten für Alpine, Ubuntu, Arch und Fedora, die über RDP zugänglich sind.
+    el_GR: Rdesktop - Κοντέινερ που περιέχουν πλήρη περιβάλλοντα επιφάνειας εργασίας σε πολλές δημοφιλείς εκδόσεις για Alpine, Ubuntu, Arch και Fedora, προσβάσιμα μέσω RDP.
+    en_GB: Rdesktop - Containers containing full desktop environments in many popular flavours for Alpine, Ubuntu, Arch, and Fedora accessible via Rdp.
+    es_ES: 'Rdesktop: contenedores que contienen entornos de escritorio completos en muchas variantes populares para Alpine, Ubuntu, Arch y Fedora, accesibles a través de RDP.'
+    fr_FR: Rdesktop - Conteneurs contenant des environnements de bureau complets dans de nombreuses variantes populaires pour Alpine, Ubuntu, Arch et Fedora, accessibles via RDP.
+    ga_IE: Rdesktop - Coimeádáin ina bhfuil timpeallachtaí deisce iomlána i mórán blasanna coitianta do Alpine, Ubuntu, Arch, agus Fedora atá inrochtana trí RDP.
+    hr_HR: Rdesktop - Kontejneri koji sadrže potpuna desktop okruženja u mnogim popularnim verzijama za Alpine, Ubuntu, Arch i Fedoru, dostupni putem RDP-a.
+    hu_HU: Rdesktop – Teljes asztali környezeteket tartalmazó konténerek számos népszerű Alpine, Ubuntu, Arch és Fedora verzióban, RDP-n keresztül elérhetően.
+    it_IT: Rdesktop - Container contenenti ambienti desktop completi in molte delle varianti più diffuse di Alpine, Ubuntu, Arch e Fedora, accessibili tramite RDP.
+    ja_JP: Rdesktop - Alpine、Ubuntu、Arch、Fedoraなど、多くの人気ディストリビューションの完全なデスクトップ環境を格納したコンテナ。RDP経由でアクセス可能。
+    ko_KR: Rdesktop - Alpine, Ubuntu, Arch, Fedora 등 다양한 인기 배포판의 완벽한 데스크톱 환경을 담고 있는 컨테이너로, RDP를 통해 접속할 수 있습니다.
+    ml_IN: Rdesktop - ആൽപൈൻ, ഉബുണ്ടു, ആർച്ച്, ഫെഡോറ എന്നിവയ്‌ക്കായി RDP വഴി ആക്‌സസ് ചെയ്യാവുന്ന നിരവധി ജനപ്രിയ ഫ്ലേവറുകളിൽ പൂർണ്ണ ഡെസ്‌ക്‌ടോപ്പ് പരിതസ്ഥിതികൾ ഉൾക്കൊള്ളുന്ന കണ്ടെയ്‌നറുകൾ.
+    nb_NO: Rdesktop – Containere som inneholder komplette skrivebordsmiljøer i mange populære varianter for Alpine, Ubuntu, Arch og Fedora, tilgjengelig via RDP.
+    nl_NL: Rdesktop - Containers met complete desktopomgevingen in diverse populaire varianten voor Alpine, Ubuntu, Arch en Fedora, toegankelijk via RDP.
+    pl_PL: Rdesktop — kontenery zawierające pełne środowiska graficzne w wielu popularnych wersjach dla Alpine, Ubuntu, Arch i Fedora, dostępne przez RDP.
+    pt_BR: Rdesktop - Contêineres contendo ambientes de desktop completos em diversas distribuições populares para Alpine, Ubuntu, Arch e Fedora, acessíveis via RDP.
+    ro_RO: Rdesktop - Containere care conțin medii desktop complete în multe variante populare pentru Alpine, Ubuntu, Arch și Fedora, accesibile prin RDP.
+    ru_RU: Rdesktop — контейнеры, содержащие полноценные среды рабочего стола во многих популярных дистрибутивах Alpine, Ubuntu, Arch и Fedora, доступные через RDP.
+    sk_SK: Rdesktop – Kontajnery obsahujúce kompletné desktopové prostredia v mnohých populárnych verziách pre Alpine, Ubuntu, Arch a Fedoru, prístupné cez RDP.
+    sv_SE: Rdesktop – Behållare som innehåller fullständiga skrivbordsmiljöer i många populära versioner för Alpine, Ubuntu, Arch och Fedora, tillgängliga via RDP.
+    tr_TR: Rdesktop - Alpine, Ubuntu, Arch ve Fedora gibi birçok popüler dağıtım için tam masaüstü ortamları içeren ve RDP üzerinden erişilebilen konteynerler.
+    zh_TW: Rdesktop 提供包含完整桌面環境的容器，涵蓋 Alpine、Ubuntu、Arch 和 Fedora 的多種常見桌面風格，並可透過 RDP 訪問。
   tagline:
     en_US: 'Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP. '
     zh_CN: 通过 RDP 访问多种 Linux 桌面环境。
+    ca_ES: Contenidors que contenen entorns d'escriptori complets en moltes versions populars per a Alpine, Ubuntu, Arch i Fedora accessibles via RDP.
+    cs_CZ: Kontejnery obsahující plnohodnotná desktopová prostředí v mnoha populárních variantách pro Alpine, Ubuntu, Arch a Fedoru, přístupné přes RDP.
+    da_DK: Containere, der indeholder komplette skrivebordsmiljøer i mange populære varianter til Alpine, Ubuntu, Arch og Fedora, tilgængelige via RDP.
+    de_DE: Container mit vollständigen Desktop-Umgebungen in vielen gängigen Varianten für Alpine, Ubuntu, Arch und Fedora, die über RDP zugänglich sind.
+    el_GR: Κοντέινερ που περιέχουν πλήρη περιβάλλοντα επιφάνειας εργασίας σε πολλές δημοφιλείς εκδόσεις για Alpine, Ubuntu, Arch και Fedora, προσβάσιμα μέσω RDP.
+    en_GB: 'Containers containing full desktop environments in many popular flavours for Alpine, Ubuntu, Arch, and Fedora accessible via Rdp. '
+    es_ES: Contenedores que contienen entornos de escritorio completos en muchas variantes populares para Alpine, Ubuntu, Arch y Fedora, accesibles a través de RDP.
+    fr_FR: Conteneurs contenant des environnements de bureau complets dans de nombreuses variantes populaires pour Alpine, Ubuntu, Arch et Fedora, accessibles via RDP.
+    ga_IE: Coimeádáin ina bhfuil timpeallachtaí deisce iomlána i mórán blasanna coitianta do Alpine, Ubuntu, Arch, agus Fedora atá inrochtana trí RDP.
+    hr_HR: Kontejneri koji sadrže potpuna desktop okruženja u mnogim popularnim verzijama za Alpine, Ubuntu, Arch i Fedoru, dostupni putem RDP-a.
+    hu_HU: Teljes asztali környezeteket tartalmazó konténerek számos népszerű Alpine, Ubuntu, Arch és Fedora verzióban, RDP-n keresztül elérhetően.
+    it_IT: Container contenenti ambienti desktop completi in molte delle varianti più diffuse di Alpine, Ubuntu, Arch e Fedora, accessibili tramite RDP.
+    ja_JP: Alpine、Ubuntu、Arch、Fedoraなど、多くの人気ディストリビューションの完全なデスクトップ環境を格納したコンテナ。RDP経由でアクセス可能。
+    ko_KR: Alpine, Ubuntu, Arch, Fedora 등 다양한 인기 배포판의 완벽한 데스크톱 환경을 포함하는 컨테이너를 RDP를 통해 이용할 수 있습니다.
+    ml_IN: ആൽപൈൻ, ഉബുണ്ടു, ആർച്ച്, ഫെഡോറ എന്നിവയ്‌ക്കായി RDP വഴി ആക്‌സസ് ചെയ്യാവുന്ന നിരവധി ജനപ്രിയ ഫ്ലേവറുകളിൽ പൂർണ്ണ ഡെസ്‌ക്‌ടോപ്പ് പരിതസ്ഥിതികൾ അടങ്ങിയ കണ്ടെയ്‌നറുകൾ.
+    nb_NO: Beholdere som inneholder komplette skrivebordsmiljøer i mange populære varianter for Alpine, Ubuntu, Arch og Fedora, tilgjengelig via RDP.
+    nl_NL: Containers met complete desktopomgevingen in diverse populaire varianten voor Alpine, Ubuntu, Arch en Fedora, toegankelijk via RDP.
+    pl_PL: Kontenery zawierające pełne środowiska graficzne w wielu popularnych wersjach dla Alpine, Ubuntu, Arch i Fedora, dostępne przez RDP.
+    pt_BR: Contêineres contendo ambientes de desktop completos em diversas distribuições populares para Alpine, Ubuntu, Arch e Fedora, acessíveis via RDP.
+    ro_RO: Containere care conțin medii desktop complete în multe variante populare pentru Alpine, Ubuntu, Arch și Fedora, accesibile prin RDP.
+    ru_RU: Контейнеры, содержащие полноценные среды рабочего стола во многих популярных дистрибутивах Alpine, Ubuntu, Arch и Fedora, доступные через RDP.
+    sk_SK: Kontajnery obsahujúce kompletné desktopové prostredia v mnohých populárnych verziách pre Alpine, Ubuntu, Arch a Fedoru, prístupné cez RDP.
+    sv_SE: Behållare som innehåller fullständiga skrivbordsmiljöer i många populära versioner för Alpine, Ubuntu, Arch och Fedora, tillgängliga via RDP.
+    tr_TR: Alpine, Ubuntu, Arch ve Fedora gibi birçok popüler dağıtım için tam masaüstü ortamlarını içeren ve RDP üzerinden erişilebilen konteynerler.
+    zh_TW: 透過 RDP 訪問多種 Linux 桌面環境。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png
@@ -50,6 +100,31 @@ x-casaos:
   title:
     en_US: Rdesktop
     zh_CN: Rdesktop
+    ca_ES: Rdesktop
+    cs_CZ: Rdesktop
+    da_DK: Rdesktop
+    de_DE: Rdesktop
+    el_GR: Rdesktop
+    en_GB: Rdesktop
+    es_ES: Rdesktop
+    fr_FR: Rdesktop
+    ga_IE: Rdesktop
+    hr_HR: Rdesktop
+    hu_HU: Rdesktop
+    it_IT: Rdesktop
+    ja_JP: Rdesktop
+    ko_KR: Rdesktop
+    ml_IN: Rdesktop
+    nb_NO: Rdesktop
+    nl_NL: Rdesktop
+    pl_PL: Rdesktop
+    pt_BR: Rdesktop
+    ro_RO: Rdesktop
+    ru_RU: Rdesktop
+    sk_SK: Rdesktop
+    sv_SE: Rdesktop
+    tr_TR: Rdesktop
+    zh_TW: Rdesktop
   category: Others
   id: wisdomsky.linuxserver.linuxserverrdesktop
   version: arch-kde-version-arch-2025-01-10

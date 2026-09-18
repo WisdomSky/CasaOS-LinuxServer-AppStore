@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: MAME is a free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
+    ca_ES: MAME és un emulador gratuït i de codi obert dissenyat per emular el maquinari de jocs arcade, consoles de videojocs, ordinadors antics i altres sistemes de programari en ordinadors personals moderns.
+    cs_CZ: MAME je bezplatný emulátor s otevřeným zdrojovým kódem určený k emulaci hardwaru arkádových her, herních konzolí, starých počítačů a dalších systémů v softwaru na moderních osobních počítačích.
+    da_DK: MAME er en gratis og open source-emulator designet til at efterligne hardwaren fra arkadespil, spillekonsoller, gamle computere og andre systemer i software på moderne personlige computere.
+    de_DE: MAME ist ein kostenloser Open-Source-Emulator, der die Hardware von Arcade-Spielen, Videospielkonsolen, alten Computern und anderen Systemen in Software auf modernen PCs emuliert.
+    el_GR: Το MAME είναι ένας δωρεάν και ανοιχτού κώδικα εξομοιωτής που έχει σχεδιαστεί για να μιμείται το υλικό των arcade παιχνιδιών, των κονσολών βιντεοπαιχνιδιών, των παλιών υπολογιστών και άλλων συστημάτων σε λογισμικό σε σύγχρονους προσωπικούς υπολογιστές.
+    en_GB: Mame is a free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
+    es_ES: MAME es un emulador gratuito y de código abierto diseñado para emular el hardware de juegos arcade, consolas de videojuegos, ordenadores antiguos y otros sistemas mediante software en ordenadores personales modernos.
+    fr_FR: MAME est un émulateur gratuit et open source conçu pour émuler le matériel des jeux d'arcade, des consoles de jeux vidéo, des anciens ordinateurs et autres systèmes par logiciel sur les ordinateurs personnels modernes.
+    ga_IE: Is aithriseoir foinse oscailte agus saor in aisce é MAME atá deartha chun crua-earraí cluichí stuara, consóil físchluichí, seanríomhairí agus córais eile a aithris i mbogearraí ar ríomhairí pearsanta nua-aimseartha.
+    hr_HR: MAME je besplatni emulator otvorenog koda dizajniran za emulaciju hardvera arkadnih igara, konzola za videoigre, starih računala i drugih sustava u softveru na modernim osobnim računalima.
+    hu_HU: A MAME egy ingyenes és nyílt forráskódú emulátor, amelyet arra terveztek, hogy emulálja az arcade játékok, videojáték-konzolok, régi számítógépek és más rendszerek hardverét szoftverekben a modern személyi számítógépeken.
+    it_IT: MAME è un emulatore gratuito e open-source progettato per emulare l'hardware di giochi arcade, console per videogiochi, vecchi computer e altri sistemi tramite software su moderni personal computer.
+    ja_JP: MAMEは、アーケードゲーム、ビデオゲーム機、古いコンピュータ、その他のシステムのハードウェアを、現代のパーソナルコンピュータ上でソフトウェアとしてエミュレートするために設計された、無料のオープンソースエミュレータです。
+    ko_KR: MAME는 아케이드 게임, 비디오 게임 콘솔, 구형 컴퓨터 및 기타 시스템의 하드웨어를 최신 개인용 컴퓨터에서 소프트웨어로 에뮬레이션하도록 설계된 무료 오픈 소스 에뮬레이터입니다.
+    ml_IN: ആർക്കേഡ് ഗെയിമുകൾ, വീഡിയോ ഗെയിം കൺസോളുകൾ, പഴയ കമ്പ്യൂട്ടറുകൾ, ആധുനിക പേഴ്സണൽ കമ്പ്യൂട്ടറുകളിലെ സോഫ്റ്റ്‌വെയറിലെ മറ്റ് സിസ്റ്റങ്ങൾ എന്നിവയുടെ ഹാർഡ്‌വെയർ അനുകരിക്കുന്നതിനായി രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് എമുലേറ്ററുമാണ് MAME.
+    nb_NO: MAME er en gratis og åpen kildekode-emulator designet for å etterligne maskinvaren til arkadespill, spillkonsoller, gamle datamaskiner og andre systemer i programvare på moderne personlige datamaskiner.
+    nl_NL: MAME is een gratis en open-source emulator die is ontworpen om de hardware van arcadekasten, videogameconsoles, oude computers en andere systemen in software te emuleren op moderne pc's.
+    pl_PL: MAME to darmowy i otwarty emulator przeznaczony do emulowania sprzętu gier arcade, konsol do gier wideo, starych komputerów i innych systemów za pomocą oprogramowania na nowoczesnych komputerach osobistych.
+    pt_BR: O MAME é um emulador gratuito e de código aberto projetado para emular o hardware de jogos de arcade, consoles de videogame, computadores antigos e outros sistemas em software em computadores pessoais modernos.
+    ro_RO: MAME este un emulator gratuit și open-source conceput pentru a emula hardware-ul jocurilor arcade, consolelor de jocuri video, computerelor vechi și altor sisteme în software pe computerele personale moderne.
+    ru_RU: MAME — это бесплатный эмулятор с открытым исходным кодом, предназначенный для программной эмуляции аппаратного обеспечения аркадных игр, игровых консолей, старых компьютеров и других систем на современных персональных компьютерах.
+    sk_SK: MAME je bezplatný emulátor s otvoreným zdrojovým kódom určený na emuláciu hardvéru arkádových hier, herných konzol, starých počítačov a iných systémov v softvéri na moderných osobných počítačoch.
+    sv_SE: MAME är en gratis emulator med öppen källkod utformad för att emulera hårdvaran i arkadspel, spelkonsoler, gamla datorer och andra system i programvara på moderna persondatorer.
+    tr_TR: MAME, atari oyunlarının, video oyun konsollarının, eski bilgisayarların ve diğer sistemlerin donanımını modern kişisel bilgisayarlarda yazılım aracılığıyla taklit etmek üzere tasarlanmış ücretsiz ve açık kaynaklı bir emülatördür.
     zh_CN: MAME 是一款免费的开源模拟器，旨在通过现代个人电脑上的软件模拟街机、游戏主机、旧式计算机和其他系统的硬件。
+    zh_TW: MAME 是一款免費的開源模擬器，旨在透過現代個人電腦上的軟體模擬街機、遊戲主機、舊式計算機和其他系統的硬體。
   tagline:
     en_US: A free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
+    ca_ES: Un emulador gratuït i de codi obert dissenyat per emular el maquinari de jocs d'arcade, consoles de videojocs, ordinadors antics i altres sistemes de programari en ordinadors personals moderns.
+    cs_CZ: Bezplatný emulátor s otevřeným zdrojovým kódem určený k emulaci hardwaru arkádových her, herních konzolí, starých počítačů a dalších systémů v softwaru na moderních osobních počítačích.
+    da_DK: En gratis og open source-emulator designet til at efterligne hardwaren fra arkadespil, spillekonsoller, gamle computere og andre systemer i software på moderne personlige computere.
+    de_DE: Ein kostenloser Open-Source-Emulator, der die Hardware von Arcade-Spielen, Videospielkonsolen, alten Computern und anderen Systemen in Software auf modernen PCs emuliert.
+    el_GR: Ένας δωρεάν και ανοιχτού κώδικα εξομοιωτής σχεδιασμένος για να μιμείται το υλικό των arcade παιχνιδιών, των κονσολών βιντεοπαιχνιδιών, των παλιών υπολογιστών και άλλων συστημάτων σε λογισμικό σε σύγχρονους προσωπικούς υπολογιστές.
+    en_GB: A free and open-source emulator designed to emulate the hardware of arcade games, video game consoles, old computers and other systems in software on modern personal computers.
+    es_ES: Un emulador gratuito y de código abierto diseñado para emular el hardware de juegos arcade, consolas de videojuegos, ordenadores antiguos y otros sistemas mediante software en ordenadores personales modernos.
+    fr_FR: Un émulateur gratuit et open source conçu pour émuler le matériel des jeux d'arcade, des consoles de jeux vidéo, des anciens ordinateurs et autres systèmes par logiciel sur les ordinateurs personnels modernes.
+    ga_IE: Aithriseoir saor in aisce agus foinse oscailte atá deartha chun crua-earraí cluichí stuara, consóil físchluichí, seanríomhairí agus córais eile a aithris i mbogearraí ar ríomhairí pearsanta nua-aimseartha.
+    hr_HR: Besplatni emulator otvorenog koda dizajniran za emulaciju hardvera arkadnih igara, konzola za videoigre, starih računala i drugih sustava u softveru na modernim osobnim računalima.
+    hu_HU: Egy ingyenes és nyílt forráskódú emulátor, amelyet arra terveztek, hogy emulálja az arcade játékok, videojáték-konzolok, régi számítógépek és más rendszerek hardverét szoftverekben modern személyi számítógépeken.
+    it_IT: Un emulatore gratuito e open-source progettato per emulare l'hardware di giochi arcade, console per videogiochi, vecchi computer e altri sistemi tramite software su moderni personal computer.
+    ja_JP: アーケードゲーム、ビデオゲーム機、旧型コンピュータ、その他のシステムのハードウェアを、現代のパーソナルコンピュータ上でソフトウェアとしてエミュレートするために設計された、無料のオープンソースエミュレータ。
+    ko_KR: 아케이드 게임, 비디오 게임 콘솔, 구형 컴퓨터 및 기타 시스템의 하드웨어를 최신 개인용 컴퓨터에서 소프트웨어로 에뮬레이션하도록 설계된 무료 오픈 소스 에뮬레이터입니다.
+    ml_IN: ആർക്കേഡ് ഗെയിമുകൾ, വീഡിയോ ഗെയിം കൺസോളുകൾ, പഴയ കമ്പ്യൂട്ടറുകൾ, ആധുനിക പേഴ്സണൽ കമ്പ്യൂട്ടറുകളിലെ സോഫ്റ്റ്‌വെയറിലെ മറ്റ് സിസ്റ്റങ്ങൾ എന്നിവയുടെ ഹാർഡ്‌വെയർ അനുകരിക്കാൻ രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് എമുലേറ്ററും.
+    nb_NO: En gratis og åpen kildekode-emulator designet for å emulere maskinvaren til arkadespill, spillkonsoller, gamle datamaskiner og andre systemer i programvare på moderne personlige datamaskiner.
+    nl_NL: Een gratis en open-source emulator die is ontworpen om de hardware van arcadekasten, videogameconsoles, oude computers en andere systemen in software te emuleren op moderne pc's.
+    pl_PL: Bezpłatny i otwartoźródłowy emulator przeznaczony do emulowania sprzętu gier arcade, konsol do gier wideo, starych komputerów i innych systemów za pomocą oprogramowania na nowoczesnych komputerach osobistych.
+    pt_BR: Um emulador gratuito e de código aberto projetado para emular o hardware de jogos de arcade, consoles de videogame, computadores antigos e outros sistemas em software em computadores pessoais modernos.
+    ro_RO: Un emulator gratuit și open-source conceput pentru a emula hardware-ul jocurilor arcade, consolelor de jocuri video, computerelor vechi și altor sisteme în software pe computerele personale moderne.
+    ru_RU: Бесплатный эмулятор с открытым исходным кодом, предназначенный для программной эмуляции аппаратного обеспечения аркадных игр, игровых консолей, старых компьютеров и других систем на современных персональных компьютерах.
+    sk_SK: Bezplatný emulátor s otvoreným zdrojovým kódom určený na emuláciu hardvéru arkádových hier, herných konzol, starých počítačov a iných systémov v softvéri na moderných osobných počítačoch.
+    sv_SE: En gratis emulator med öppen källkod utformad för att emulera hårdvaran i arkadspel, spelkonsoler, gamla datorer och andra system i programvara på moderna persondatorer.
+    tr_TR: Modern kişisel bilgisayarlarda atari oyunlarının, video oyun konsollarının, eski bilgisayarların ve diğer sistemlerin donanımını yazılım aracılığıyla taklit etmek için tasarlanmış, ücretsiz ve açık kaynaklı bir emülatör.
     zh_CN: 模拟街机、游戏主机和旧式计算机硬件。
+    zh_TW: 模擬街機、遊戲主機和舊式計算機硬體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mame-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mame-logo.png
   title:
     en_US: Mame (LinuxServer.io)
+    ca_ES: Mame (LinuxServer.io)
+    cs_CZ: Mame (LinuxServer.io)
+    da_DK: Mame (LinuxServer.io)
+    de_DE: Mame (LinuxServer.io)
+    el_GR: Mame (LinuxServer.io)
+    en_GB: Mame (LinuxServer.io)
+    es_ES: Mame (LinuxServer.io)
+    fr_FR: Mame (LinuxServer.io)
+    ga_IE: Mame (LinuxServer.io)
+    hr_HR: Mame (LinuxServer.io)
+    hu_HU: Mame (LinuxServer.io)
+    it_IT: Mame (LinuxServer.io)
+    ja_JP: Mame (LinuxServer.io)
+    ko_KR: Mame (LinuxServer.io)
+    ml_IN: Mame (LinuxServer.io)
+    nb_NO: Mame (LinuxServer.io)
+    nl_NL: Mame (LinuxServer.io)
+    pl_PL: Mame (LinuxServer.io)
+    pt_BR: Mame (LinuxServer.io)
+    ro_RO: Mame (LinuxServer.io)
+    ru_RU: Mame (LinuxServer.io)
+    sk_SK: Mame (LinuxServer.io)
+    sv_SE: Mame (LinuxServer.io)
+    tr_TR: Mame (LinuxServer.io)
     zh_CN: Mame（LinuxServer.io）
+    zh_TW: Mame（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermame
   port_map: '3000'

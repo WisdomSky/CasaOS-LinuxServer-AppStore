@@ -106,9 +106,59 @@ x-casaos:
   description:
     en_US: Doplarr is an *arr request bot for Discord.'
     zh_CN: Doplarr 是一个面向 Discord 的 *arr 媒体请求机器人。
+    ca_ES: Doplarr és un bot de sol·licitud *arr per a Discord.
+    cs_CZ: Doplarr je bot pro Discord, který vyřizuje žádosti o *arr.
+    da_DK: Doplarr er en *arr-anmodningsbot til Discord.
+    de_DE: Doplarr ist ein *arr-Anfragebot für Discord.
+    el_GR: Το Doplarr είναι ένα bot αιτήματος *arr για το Discord.
+    en_GB: Doplarr is an *arr request bot for Discord.'
+    es_ES: Doplarr es un bot de solicitudes *arr para Discord.
+    fr_FR: Doplarr est un bot de requêtes *arr pour Discord.
+    ga_IE: Is bot iarratais *arr do Discord é Doplarr.
+    hr_HR: Doplarr je bot za zahtjeve *arr za Discord.
+    hu_HU: A Doplarr egy *arr kéréseket kezelő bot a Discordhoz.
+    it_IT: Doplarr è un bot di richiesta *arr per Discord.
+    ja_JP: DoplarrはDiscord用の*arrリクエストボットです。
+    ko_KR: Doplarr는 Discord용 *arr 요청 봇입니다.
+    ml_IN: ഡിസ്കോർഡിനുള്ള ഒരു *arr request ബോട്ട് ആണ് ഡോപ്ലർ.'
+    nb_NO: Doplarr er en *arr-forespørselsbot for Discord.
+    nl_NL: Doplarr is een *arr-verzoekbot voor Discord.
+    pl_PL: Doplarr jest botem do wysyłania próśb o *arr na platformę Discord.
+    pt_BR: Doplarr é um bot de pedidos *arr para Discord.
+    ro_RO: Doplarr este un bot de cereri *arr pentru Discord.
+    ru_RU: Doplarr — это бот для обработки запросов *arr* в Discord.
+    sk_SK: Doplarr je bot na vytváranie *arr požiadaviek pre Discord.
+    sv_SE: Doplarr är en *arr-förfrågningsbot för Discord.
+    tr_TR: Doplarr, Discord için bir *arr istek botudur.
+    zh_TW: Doplarr 是一個面向 Discord 的 *arr 媒體請求機器人。
   tagline:
     en_US: An *arr request bot for Discord. '
     zh_CN: 通过 Discord 为 *arr 应用提交媒体请求。
+    ca_ES: Un bot de sol·licitud *arr per a Discord.
+    cs_CZ: Bot pro vyřizování požadavků *arr pro Discord.
+    da_DK: En *arr-anmodningsbot til Discord.
+    de_DE: Ein *arr-Anfragebot für Discord.
+    el_GR: Ένα bot αιτήματος *arr για το Discord.
+    en_GB: An *arr request bot for Discord. '
+    es_ES: Un bot de solicitudes *arr para Discord.
+    fr_FR: Un bot de requêtes *arr pour Discord.
+    ga_IE: Bot iarratais *arr do Discord.
+    hr_HR: Bot za zahtjeve *arr za Discord.
+    hu_HU: Egy *arr kérés bot a Discordhoz.
+    it_IT: Un bot di richiesta *arr per Discord.
+    ja_JP: Discord用の*arrリクエストボット。
+    ko_KR: 디스코드용 *arr 요청 봇입니다.
+    ml_IN: ഡിസ്കോർഡിനുള്ള ഒരു *arr അഭ്യർത്ഥന ബോട്ട്. '
+    nb_NO: En *arr-forespørselsbot for Discord.
+    nl_NL: Een *arr-verzoekbot voor Discord.
+    pl_PL: Bot żądający *arr dla Discorda.
+    pt_BR: Um bot de pedidos *arr para o Discord.
+    ro_RO: Un bot cu cereri *arr pentru Discord.
+    ru_RU: Бот для обработки запросов *arr в Discord.
+    sk_SK: Bot pre požiadavky *arr pre Discord.
+    sv_SE: En *arr-förfrågningsbot för Discord.
+    tr_TR: Discord için bir *arr istek botu.
+    zh_TW: 透過 Discord 為 *arr 應用提交媒體請求。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
@@ -116,6 +166,31 @@ x-casaos:
   title:
     en_US: Doplarr
     zh_CN: Doplarr
+    ca_ES: Doplarr
+    cs_CZ: Doplarr
+    da_DK: Doplarr
+    de_DE: Doplarr
+    el_GR: Doplarr
+    en_GB: Doplarr
+    es_ES: Doplarr
+    fr_FR: Doplarr
+    ga_IE: Doplarr
+    hr_HR: Doplarr
+    hu_HU: Doplarr
+    it_IT: Doplarr
+    ja_JP: Doplarr
+    ko_KR: Doplarr
+    ml_IN: Doplarr
+    nb_NO: Doplarr
+    nl_NL: Doplarr
+    pl_PL: Doplarr
+    pt_BR: Doplarr
+    ro_RO: Doplarr
+    ru_RU: Doplarr
+    sk_SK: Doplarr
+    sv_SE: Doplarr
+    tr_TR: Doplarr
+    zh_TW: Doplarr
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverdoplarr

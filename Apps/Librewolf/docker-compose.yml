@@ -40,17 +40,92 @@ x-casaos:
   main: app
   description:
     en_US: LibreWolf is a custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.
+    ca_ES: LibreWolf és una versió personalitzada i independent del Firefox, amb els objectius principals de la privadesa, la seguretat i la llibertat de l'usuari. LibreWolf també pretén eliminar tota la telemetria, la recopilació de dades i les molèsties, així com desactivar les funcions anti-llibertat com ara la DRM.
+    cs_CZ: LibreWolf je vlastní a nezávislá verze Firefoxu, jejímž primárním cílem je ochrana soukromí, bezpečnost a uživatelská svoboda. LibreWolf se také snaží odstranit veškerou telemetrii, sběr dat a obtěžující funkce a také deaktivovat funkce narušující svobodu, jako je DRM.
+    da_DK: LibreWolf er en brugerdefineret og uafhængig version af Firefox med de primære mål om privatliv, sikkerhed og brugerfrihed. LibreWolf sigter også mod at fjerne al telemetri, dataindsamling og irritationsmomenter, samt deaktivere anti-frihedsfunktioner som DRM.
+    de_DE: LibreWolf ist eine angepasste und unabhängige Version von Firefox mit dem Hauptziel, Datenschutz, Sicherheit und Benutzerfreiheit zu gewährleisten. LibreWolf zielt außerdem darauf ab, jegliche Telemetrie, Datenerfassung und sonstige Belästigungen zu entfernen sowie einschränkende Funktionen wie DRM zu deaktivieren.
+    el_GR: Το LibreWolf είναι μια προσαρμοσμένη και ανεξάρτητη έκδοση του Firefox, με κύριους στόχους την προστασία της ιδιωτικής ζωής, την ασφάλεια και την ελευθερία των χρηστών. Το LibreWolf στοχεύει επίσης στην αφαίρεση όλων των τηλεμετρικών δεδομένων, της συλλογής δεδομένων και των ενοχλητικών στοιχείων, καθώς και στην απενεργοποίηση λειτουργιών που παραβιάζουν την ελευθερία, όπως το DRM.
+    en_GB: Librewolf is a custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. Librewolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like Drm.
+    es_ES: LibreWolf es una versión personalizada e independiente de Firefox, cuyos objetivos principales son la privacidad, la seguridad y la libertad del usuario. LibreWolf también busca eliminar la telemetría, la recopilación de datos y las molestias, además de desactivar funciones que restringen la libertad, como la gestión de derechos digitales (DRM).
+    fr_FR: LibreWolf est une version personnalisée et indépendante de Firefox, axée sur la confidentialité, la sécurité et la liberté des utilisateurs. LibreWolf vise également à supprimer toute télémétrie, collecte de données et autres désagréments, ainsi qu'à désactiver les fonctionnalités liberticides telles que les DRM.
+    ga_IE: Is leagan saincheaptha agus neamhspleách de Firefox é LibreWolf, agus is iad na príomhchuspóirí príobháideachta, slándála agus saoirse úsáideora. Tá sé mar aidhm ag LibreWolf freisin an teileamaitríocht, bailiú sonraí agus crá croí go léir a bhaint, chomh maith le gnéithe frith-shaoirse cosúil le DRM a dhíchumasú.
+    hr_HR: LibreWolf je prilagođena i neovisna verzija Firefoxa, s primarnim ciljevima privatnosti, sigurnosti i korisničke slobode. LibreWolf također ima za cilj ukloniti svu telemetriju, prikupljanje podataka i smetnje, kao i onemogućiti značajke protiv slobode poput DRM-a.
+    hu_HU: A LibreWolf a Firefox egy testreszabott és független verziója, amelynek elsődleges céljai az adatvédelem, a biztonság és a felhasználói szabadság. A LibreWolf célja továbbá az összes telemetriai, adatgyűjtési és bosszantó funkció eltávolítása, valamint a szabadságot korlátozó funkciók, például a DRM letiltása.
+    it_IT: LibreWolf è una versione personalizzata e indipendente di Firefox, con l'obiettivo primario di tutelare la privacy, la sicurezza e la libertà dell'utente. LibreWolf si propone inoltre di eliminare la telemetria, la raccolta di dati e le relative frustrazioni, nonché di disabilitare funzionalità che limitano la libertà, come il DRM.
+    ja_JP: LibreWolfは、プライバシー、セキュリティ、そしてユーザーの自由を最優先に考えた、Firefoxの独自バージョンです。LibreWolfは、テレメトリ、データ収集、その他の煩わしい機能をすべて排除し、DRMなどの自由を阻害する機能を無効にすることも目指しています。
+    ko_KR: LibreWolf는 개인 정보 보호, 보안 및 사용자 자유를 최우선 목표로 하는 맞춤형 독립형 Firefox 버전입니다. LibreWolf는 또한 모든 원격 측정, 데이터 수집 및 불편한 요소들을 제거하고 DRM과 같은 자유를 제한하는 기능들을 비활성화하는 것을 목표로 합니다.
+    ml_IN: സ്വകാര്യത, സുരക്ഷ, ഉപയോക്തൃ സ്വാതന്ത്ര്യം എന്നിവയാണ് പ്രധാന ലക്ഷ്യങ്ങൾ. എല്ലാ ടെലിമെട്രി, ഡാറ്റ ശേഖരണം, ശല്യപ്പെടുത്തലുകൾ എന്നിവ നീക്കം ചെയ്യുന്നതിനൊപ്പം DRM പോലുള്ള സ്വാതന്ത്ര്യ വിരുദ്ധ സവിശേഷതകൾ പ്രവർത്തനരഹിതമാക്കാനും ലിബ്രെവുൾഫ് ലക്ഷ്യമിടുന്നു.
+    nb_NO: LibreWolf er en tilpasset og uavhengig versjon av Firefox, med hovedmål om personvern, sikkerhet og brukerfrihet. LibreWolf har også som mål å fjerne all telemetri, datainnsamling og irritasjonsmomenter, samt deaktivere frihetsfjernende funksjoner som DRM.
+    nl_NL: LibreWolf is een aangepaste en onafhankelijke versie van Firefox, met als belangrijkste doelen privacy, beveiliging en gebruikersvrijheid. LibreWolf streeft er ook naar alle telemetrie, gegevensverzameling en irritaties te verwijderen, en vrijheidsbeperkende functies zoals DRM uit te schakelen.
+    pl_PL: LibreWolf to niestandardowa i niezależna wersja przeglądarki Firefox, której głównymi celami są prywatność, bezpieczeństwo i wolność użytkownika. LibreWolf ma również na celu usunięcie wszelkich danych telemetrycznych, gromadzenie danych i uciążliwych elementów, a także wyłączenie funkcji ograniczających wolność, takich jak DRM.
+    pt_BR: O LibreWolf é uma versão personalizada e independente do Firefox, com os objetivos principais de privacidade, segurança e liberdade do usuário. O LibreWolf também visa remover toda a telemetria, coleta de dados e incômodos, além de desativar recursos que restringem a liberdade, como o DRM.
+    ro_RO: LibreWolf este o versiune personalizată și independentă a Firefox, cu obiective principale de confidențialitate, securitate și libertate a utilizatorului. LibreWolf își propune, de asemenea, să elimine toate telemetriile, colectarea de date și toate problemele, precum și să dezactiveze funcțiile anti-libertate, cum ar fi DRM.
+    ru_RU: LibreWolf — это собственная, независимая версия Firefox, основными целями которой являются конфиденциальность, безопасность и свобода пользователей. LibreWolf также стремится удалить всю телеметрию, сбор данных и раздражающие факторы, а также отключить функции, ограничивающие свободу, такие как DRM.
+    sk_SK: LibreWolf je vlastná a nezávislá verzia Firefoxu, ktorej hlavnými cieľmi súkromia, bezpečnosti a slobody používateľov. LibreWolf sa tiež zameriava na odstránenie všetkej telemetrie, zhromažďovania údajov a nepríjemností, ako aj na vypnutie funkcií narúšajúcich slobodu, ako je DRM.
+    sv_SE: LibreWolf är en anpassad och oberoende version av Firefox, med de primära målen integritet, säkerhet och användarfrihet. LibreWolf strävar också efter att ta bort all telemetri, datainsamling och irritationsmoment, samt inaktivera frihetsfientliga funktioner som DRM.
+    tr_TR: LibreWolf, gizlilik, güvenlik ve kullanıcı özgürlüğünü temel hedef olarak belirleyen, Firefox'un özel ve bağımsız bir sürümüdür. LibreWolf ayrıca tüm telemetri, veri toplama ve rahatsız edici unsurları ortadan kaldırmayı ve DRM gibi özgürlük karşıtı özellikleri devre dışı bırakmayı amaçlamaktadır.
     zh_CN: LibreWolf 是经过定制的 Firefox 独立版本，主要目标是保护隐私、安全和用户自由。它旨在移除遥测、数据收集和令人困扰的功能，并禁用 DRM 等限制用户自由的功能。
+    zh_TW: LibreWolf 是經過定製的 Firefox 獨立版本，主要目標是保護隱私、安全和使用者自由。它旨在移除遙測、資料收集和令人困擾的功能，並禁用 DRM 等限制使用者自由的功能。
   tagline:
     en_US: A custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like DRM.
+    ca_ES: Una versió personalitzada i independent del Firefox, amb els objectius principals de la privadesa, la seguretat i la llibertat de l'usuari. LibreWolf també pretén eliminar tota la telemetria, la recopilació de dades i les molèsties, així com desactivar les funcions anti-llibertat com ara el DRM.
+    cs_CZ: Vlastní a nezávislá verze Firefoxu, jejímž primárním cílem je ochrana soukromí, bezpečnost a uživatelská svoboda. LibreWolf si také klade za cíl odstranit veškerou telemetrii, sběr dat a obtěžující funkce a také deaktivovat funkce narušující svobodu, jako je DRM.
+    da_DK: En brugerdefineret og uafhængig version af Firefox med de primære mål om privatliv, sikkerhed og brugerfrihed. LibreWolf sigter også mod at fjerne al telemetri, dataindsamling og irritationsmomenter, samt deaktivere anti-frihedsfunktioner som DRM.
+    de_DE: LibreWolf ist eine angepasste und unabhängige Version von Firefox mit dem Hauptziel, Datenschutz, Sicherheit und Nutzerfreiheit zu gewährleisten. LibreWolf zielt außerdem darauf ab, jegliche Telemetrie, Datenerfassung und sonstige Belästigungen zu entfernen sowie einschränkende Funktionen wie DRM zu deaktivieren.
+    el_GR: Μια προσαρμοσμένη και ανεξάρτητη έκδοση του Firefox, με κύριους στόχους την προστασία της ιδιωτικής ζωής, την ασφάλεια και την ελευθερία των χρηστών. Το LibreWolf στοχεύει επίσης στην αφαίρεση όλων των τηλεμετρικών, συλλεκτικών δεδομένων και ενοχλητικών στοιχείων, καθώς και στην απενεργοποίηση λειτουργιών που παραβιάζουν την ελευθερία, όπως το DRM.
+    en_GB: A custom and independent version of Firefox, with the primary goals of privacy, security and user freedom. Librewolf also aims to remove all the telemetry, data collection and annoyances, as well as disabling anti-freedom features like Drm.
+    es_ES: LibreWolf es una versión personalizada e independiente de Firefox, centrada en la privacidad, la seguridad y la libertad del usuario. Además, busca eliminar la telemetría, la recopilación de datos y las molestias, así como desactivar funciones que atentan contra la libertad, como la gestión de derechos digitales (DRM).
+    fr_FR: LibreWolf est une version personnalisée et indépendante de Firefox, axée sur la confidentialité, la sécurité et la liberté des utilisateurs. Elle vise également à supprimer toute télémétrie, collecte de données et autres désagréments, ainsi qu'à désactiver les fonctionnalités liberticides telles que les DRM.
+    ga_IE: Leagan saincheaptha agus neamhspleách de Firefox, leis na príomhchuspóirí príobháideachta, slándála agus saoirse úsáideora. Tá sé mar aidhm ag LibreWolf freisin an teileamaitríocht, bailiú sonraí agus crá croí go léir a bhaint, chomh maith le gnéithe frith-shaoirse cosúil le DRM a dhíchumasú.
+    hr_HR: Prilagođena i neovisna verzija Firefoxa, s primarnim ciljevima privatnosti, sigurnosti i korisničke slobode. LibreWolf također ima za cilj ukloniti svu telemetriju, prikupljanje podataka i smetnje, kao i onemogućiti značajke protiv slobode poput DRM-a.
+    hu_HU: A Firefox egy testreszabott és független verziója, amelynek elsődleges céljai az adatvédelem, a biztonság és a felhasználói szabadság. A LibreWolf célja továbbá az összes telemetriai, adatgyűjtési és bosszantó funkció eltávolítása, valamint a szabadságot korlátozó funkciók, például a DRM letiltása.
+    it_IT: Una versione personalizzata e indipendente di Firefox, con l'obiettivo primario di tutelare la privacy, la sicurezza e la libertà dell'utente. LibreWolf si propone inoltre di eliminare la telemetria, la raccolta di dati e le relative frustrazioni, disabilitando al contempo funzionalità che limitano la libertà, come il DRM.
+    ja_JP: プライバシー、セキュリティ、そしてユーザーの自由を最優先に考えた、独自開発のFirefox。LibreWolfは、テレメトリ、データ収集、その他の煩わしい機能をすべて排除し、DRMなどの自由を阻害する機能も無効化することを目指しています。
+    ko_KR: LibreWolf는 개인 정보 보호, 보안 및 사용자 자유를 최우선 목표로 하는 맞춤형 독립형 Firefox 버전입니다. 또한 모든 원격 측정, 데이터 수집 및 불편한 요소들을 제거하고 DRM과 같은 자유를 제한하는 기능들을 비활성화하는 것을 목표로 합니다.
+    ml_IN: സ്വകാര്യത, സുരക്ഷ, ഉപയോക്തൃ സ്വാതന്ത്ര്യം എന്നിവയാണ് പ്രധാന ലക്ഷ്യങ്ങൾ. എല്ലാ ടെലിമെട്രി, ഡാറ്റ ശേഖരണം, ശല്യപ്പെടുത്തലുകൾ എന്നിവ നീക്കം ചെയ്യുന്നതിനൊപ്പം DRM പോലുള്ള സ്വാതന്ത്ര്യ വിരുദ്ധ സവിശേഷതകൾ പ്രവർത്തനരഹിതമാക്കാനും ലിബ്രെവുൾഫ് ലക്ഷ്യമിടുന്നു.
+    nb_NO: En tilpasset og uavhengig versjon av Firefox, med hovedmål om personvern, sikkerhet og brukerfrihet. LibreWolf har også som mål å fjerne all telemetri, datainnsamling og irritasjonsmomenter, samt deaktivere frihetsfjernende funksjoner som DRM.
+    nl_NL: Een aangepaste en onafhankelijke versie van Firefox, met als belangrijkste doelen privacy, beveiliging en gebruikersvrijheid. LibreWolf streeft er ook naar alle telemetrie, gegevensverzameling en irritaties te verwijderen, en vrijheidsbeperkende functies zoals DRM uit te schakelen.
+    pl_PL: Niestandardowa i niezależna wersja przeglądarki Firefox, której głównymi celami są prywatność, bezpieczeństwo i wolność użytkownika. LibreWolf ma również na celu usunięcie wszelkich danych telemetrycznych, gromadzenie danych i uciążliwych elementów, a także wyłączenie funkcji ograniczających wolność, takich jak DRM.
+    pt_BR: Uma versão personalizada e independente do Firefox, com os objetivos principais de privacidade, segurança e liberdade do usuário. O LibreWolf também visa remover toda a telemetria, coleta de dados e incômodos, além de desativar recursos que restringem a liberdade, como o DRM.
+    ro_RO: O versiune personalizată și independentă de Firefox, cu obiective principale de confidențialitate, securitate și libertate a utilizatorului. LibreWolf își propune, de asemenea, să elimine toate datele de telemetrie, colectarea de date și alte probleme, precum și să dezactiveze funcțiile anti-libertate, cum ar fi DRM.
+    ru_RU: LibreWolf — это собственная, независимая версия Firefox, основными целями которой являются конфиденциальность, безопасность и свобода пользователей. LibreWolf также стремится удалить всю телеметрию, сбор данных и раздражающие факторы, а также отключить функции, ограничивающие свободу, такие как DRM.
+    sk_SK: Prispôsobená a nezávislá verzia Firefoxu, ktorej hlavnými cieľmi súkromia, bezpečnosti a slobody používateľov. LibreWolf sa tiež zameriava na odstránenie všetkej telemetrie, zhromažďovania údajov a nepríjemností, ako aj na vypnutie funkcií narúšajúcich slobodu, ako je DRM.
+    sv_SE: En anpassad och oberoende version av Firefox, med de primära målen integritet, säkerhet och användarfrihet. LibreWolf strävar också efter att ta bort all telemetri, datainsamling och irritationsmoment, samt inaktivera frihetsfientliga funktioner som DRM.
+    tr_TR: Firefox'un özel ve bağımsız bir sürümü olan LibreWolf'un temel amaçları gizlilik, güvenlik ve kullanıcı özgürlüğüdür. LibreWolf ayrıca tüm telemetri, veri toplama ve rahatsız edici unsurları ortadan kaldırmayı ve DRM gibi özgürlük karşıtı özellikleri devre dışı bırakmayı hedeflemektedir.
     zh_CN: 注重隐私、安全和用户自由的 Firefox 独立版本。
+    zh_TW: 注重隱私、安全和使用者自由的 Firefox 獨立版本。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/librewolf-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/librewolf-logo.png
   title:
     en_US: Librewolf (LinuxServer.io)
+    ca_ES: Librewolf (LinuxServer.io)
+    cs_CZ: Librewolf (LinuxServer.io)
+    da_DK: Librewolf (LinuxServer.io)
+    de_DE: Librewolf (LinuxServer.io)
+    el_GR: Librewolf (LinuxServer.io)
+    en_GB: Librewolf (LinuxServer.io)
+    es_ES: Librewolf (LinuxServer.io)
+    fr_FR: Librewolf (LinuxServer.io)
+    ga_IE: Librewolf (LinuxServer.io)
+    hr_HR: Librewolf (LinuxServer.io)
+    hu_HU: Librewolf (LinuxServer.io)
+    it_IT: Librewolf (LinuxServer.io)
+    ja_JP: Librewolf (LinuxServer.io)
+    ko_KR: Librewolf (LinuxServer.io)
+    ml_IN: Librewolf (LinuxServer.io)
+    nb_NO: Librewolf (LinuxServer.io)
+    nl_NL: Librewolf (LinuxServer.io)
+    pl_PL: Librewolf (LinuxServer.io)
+    pt_BR: Librewolf (LinuxServer.io)
+    ro_RO: Librewolf (LinuxServer.io)
+    ru_RU: Librewolf (LinuxServer.io)
+    sk_SK: Librewolf (LinuxServer.io)
+    sv_SE: Librewolf (LinuxServer.io)
+    tr_TR: Librewolf (LinuxServer.io)
     zh_CN: Librewolf（LinuxServer.io）
+    zh_TW: Librewolf（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlibrewolf
   port_map: '3000'

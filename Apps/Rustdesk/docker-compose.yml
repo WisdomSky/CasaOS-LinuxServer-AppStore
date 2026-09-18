@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.
+    ca_ES: RustDesk és una alternativa de control remot de codi obert amb totes les funcions per a l'autoallotjament i la seguretat amb una configuració mínima.
+    cs_CZ: RustDesk je plně vybavená open source alternativa pro vzdálené ovládání pro vlastní hosting a zabezpečení s minimální konfigurací.
+    da_DK: RustDesk er et fuldt udstyret open source fjernbetjeningsalternativ til selvhosting og sikkerhed med minimal konfiguration.
+    de_DE: RustDesk ist eine voll ausgestattete Open-Source-Fernsteuerungsalternative für Selbsthosting und Sicherheit mit minimalem Konfigurationsaufwand.
+    el_GR: Το RustDesk είναι μια πλήρως λειτουργική εναλλακτική λύση τηλεχειρισμού ανοιχτού κώδικα για αυτο-φιλοξενία και ασφάλεια με ελάχιστη διαμόρφωση.
+    en_GB: Rustdesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.
+    es_ES: RustDesk es una alternativa de control remoto de código abierto con todas las funciones para el autoalojamiento y la seguridad con una configuración mínima.
+    fr_FR: RustDesk est une solution de contrôle à distance open source complète, offrant une solution d'auto-hébergement et de sécurité avec une configuration minimale.
+    ga_IE: Is rogha eile rialaithe iargúlta foinse oscailte lánghnéitheach é RustDesk le haghaidh féinóstála agus slándála le cumraíocht íosta.
+    hr_HR: RustDesk je potpuno opremljena alternativa za daljinsko upravljanje otvorenog koda za samostalni hosting i sigurnost s minimalnom konfiguracijom.
+    hu_HU: A RustDesk egy teljes funkcionalitású, nyílt forráskódú távirányító alternatíva az önálló tárhelyszolgáltatáshoz és a biztonsághoz, minimális konfigurációval.
+    it_IT: RustDesk è un'alternativa open source completa per il controllo remoto, ideale per l'hosting autonomo e la sicurezza, con una configurazione minima.
+    ja_JP: RustDeskは、最小限の設定でセルフホスティングとセキュリティを実現する、フル機能搭載のオープンソースのリモートコントロール代替ツールです。
+    ko_KR: RustDesk는 최소한의 설정으로 자체 호스팅 및 보안을 제공하는 모든 기능을 갖춘 오픈 소스 원격 제어 솔루션입니다.
+    ml_IN: കുറഞ്ഞ കോൺഫിഗറേഷനിൽ സ്വയം ഹോസ്റ്റിംഗിനും സുരക്ഷയ്ക്കുമായി പൂർണ്ണ ഫീച്ചർ ചെയ്ത ഓപ്പൺ സോഴ്‌സ് റിമോട്ട് കൺട്രോൾ ബദലാണ് റസ്റ്റ്ഡെസ്ക്.
+    nb_NO: RustDesk er et fullfunksjonelt åpen kildekode-alternativ for fjernkontroll for selvhosting og sikkerhet med minimal konfigurasjon.
+    nl_NL: RustDesk is een volledig functioneel, open source alternatief voor beheer op afstand, geschikt voor zelfhosting en beveiliging met minimale configuratie.
+    pl_PL: RustDesk to w pełni funkcjonalne, otwarte oprogramowanie do zdalnego sterowania, alternatywne dla samodzielnego hostingu i zapewniające bezpieczeństwo przy minimalnej konfiguracji.
+    pt_BR: RustDesk é uma alternativa de controle remoto de código aberto completa para hospedagem própria e segurança com configuração mínima.
+    ro_RO: RustDesk este o alternativă completă de control de la distanță open source pentru auto-găzduire și securitate cu o configurare minimă.
+    ru_RU: RustDesk — это полнофункциональная альтернатива с открытым исходным кодом для удаленного управления, обеспечивающая самостоятельный хостинг и безопасность при минимальной настройке.
+    sk_SK: RustDesk je plne funkčná alternatíva diaľkového ovládania s otvoreným zdrojovým kódom pre vlastný hosting a zabezpečenie s minimálnou konfiguráciou.
+    sv_SE: RustDesk är ett fullfjädrat öppen källkodsalternativ för fjärrkontroll för självhosting och säkerhet med minimal konfiguration.
+    tr_TR: RustDesk, minimum yapılandırmayla kendi sunucunuzda barındırma ve güvenlik için tam özellikli, açık kaynaklı bir uzaktan kontrol alternatifidir.
     zh_CN: RustDesk 是一个功能完整的开源远程控制替代方案，支持自行托管，注重安全，且仅需少量配置。
+    zh_TW: RustDesk 是一個功能完整的開源遠端控制替代方案，支援自行託管，注重安全，且僅需少量配置。
   tagline:
     en_US: A full-featured open source remote control alternative for self-hosting and security with minimal configuration.
+    ca_ES: Una alternativa de control remot de codi obert amb totes les funcions per a l'autoallotjament i la seguretat amb una configuració mínima.
+    cs_CZ: Plně funkční alternativa dálkového ovládání s otevřeným zdrojovým kódem pro vlastní hosting a zabezpečení s minimální konfigurací.
+    da_DK: Et fuldt udstyret open source fjernbetjeningsalternativ til selvhosting og sikkerhed med minimal konfiguration.
+    de_DE: Eine vollwertige Open-Source-Fernsteuerungsalternative für Selbsthosting und Sicherheit mit minimalem Konfigurationsaufwand.
+    el_GR: Μια πλήρως λειτουργική εναλλακτική λύση τηλεχειρισμού ανοιχτού κώδικα για αυτο-φιλοξενία και ασφάλεια με ελάχιστη διαμόρφωση.
+    en_GB: A full-featured open source remote control alternative for self-hosting and security with minimal configuration.
+    es_ES: Una alternativa de control remoto de código abierto con todas las funciones para autoalojamiento y seguridad con una configuración mínima.
+    fr_FR: Une solution de contrôle à distance open source complète, offrant auto-hébergement et sécurité avec une configuration minimale.
+    ga_IE: Rogha eile rialaithe iargúlta foinse oscailte lánghnéitheach le haghaidh féinóstála agus slándála le cumraíocht íosta.
+    hr_HR: Potpuno opremljena alternativa daljinskog upravljanja otvorenog koda za samostalno hostiranje i sigurnost s minimalnom konfiguracijom.
+    hu_HU: Teljes funkcionalitású, nyílt forráskódú távirányító alternatíva saját tárhelyhez és biztonsághoz minimális konfigurációval.
+    it_IT: Un'alternativa open source completa per il controllo remoto, ideale per l'hosting autonomo e la sicurezza, con una configurazione minima.
+    ja_JP: 最小限の設定で、自己ホスティングとセキュリティを実現する、フル機能搭載のオープンソースリモートコントロール代替ソリューション。
+    ko_KR: 최소한의 설정으로 자체 호스팅 및 보안을 지원하는, 모든 기능을 갖춘 오픈 소스 원격 제어 솔루션입니다.
+    ml_IN: കുറഞ്ഞ കോൺഫിഗറേഷനോടുകൂടിയ സ്വയം-ഹോസ്റ്റിംഗിനും സുരക്ഷയ്ക്കുമായി ഒരു പൂർണ്ണ ഫീച്ചർ ഓപ്പൺ സോഴ്‌സ് റിമോട്ട് കൺട്രോൾ ബദൽ.
+    nb_NO: Et fullfunksjonelt alternativ til åpen kildekode for fjernkontroll for selvhosting og sikkerhet med minimal konfigurasjon.
+    nl_NL: Een volledig functioneel open-source alternatief voor beheer op afstand, geschikt voor zelfhosting en beveiliging met minimale configuratie.
+    pl_PL: W pełni funkcjonalne, otwarte oprogramowanie do zdalnego sterowania, zapewniające bezpieczeństwo i możliwość samodzielnego hostingu, wymagające jedynie minimalnej konfiguracji.
+    pt_BR: Uma alternativa de controle remoto de código aberto completa para hospedagem própria e segurança com configuração mínima.
+    ro_RO: O alternativă completă de control de la distanță open source pentru auto-găzduire și securitate cu configurare minimă.
+    ru_RU: Полнофункциональная альтернатива с открытым исходным кодом для удаленного управления, обеспечивающая самостоятельное размещение и безопасность с минимальной настройкой.
+    sk_SK: Plne vybavená alternatíva diaľkového ovládania s otvoreným zdrojovým kódom pre vlastný hosting a zabezpečenie s minimálnou konfiguráciou.
+    sv_SE: Ett fullfjädrat alternativ med öppen källkod för fjärrkontroll för självhosting och säkerhet med minimal konfiguration.
+    tr_TR: Minimum yapılandırma gerektiren, kendi sunucunuzda barındırma ve güvenlik için tam özellikli, açık kaynaklı bir uzaktan kumanda alternatifi.
     zh_CN: 配置简单、支持自行托管的开源远程控制工具。
+    zh_TW: 配置簡單、支援自行託管的開源遠端控制工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png
   title:
     en_US: Rustdesk (LinuxServer.io)
+    ca_ES: Rustdesk (LinuxServer.io)
+    cs_CZ: Rustdesk (LinuxServer.io)
+    da_DK: Rustdesk (LinuxServer.io)
+    de_DE: Rustdesk (LinuxServer.io)
+    el_GR: Rustdesk (LinuxServer.io)
+    en_GB: Rustdesk (LinuxServer.io)
+    es_ES: Rustdesk (LinuxServer.io)
+    fr_FR: Rustdesk (LinuxServer.io)
+    ga_IE: Rustdesk (LinuxServer.io)
+    hr_HR: Rustdesk (LinuxServer.io)
+    hu_HU: Rustdesk (LinuxServer.io)
+    it_IT: Rustdesk (LinuxServer.io)
+    ja_JP: Rustdesk (LinuxServer.io)
+    ko_KR: Rustdesk (LinuxServer.io)
+    ml_IN: Rustdesk (LinuxServer.io)
+    nb_NO: Rustdesk (LinuxServer.io)
+    nl_NL: Rustdesk (LinuxServer.io)
+    pl_PL: Rustdesk (LinuxServer.io)
+    pt_BR: Rustdesk (LinuxServer.io)
+    ro_RO: Rustdesk (LinuxServer.io)
+    ru_RU: Rustdesk (LinuxServer.io)
+    sk_SK: Rustdesk (LinuxServer.io)
+    sv_SE: Rustdesk (LinuxServer.io)
+    tr_TR: Rustdesk (LinuxServer.io)
     zh_CN: Rustdesk（LinuxServer.io）
+    zh_TW: Rustdesk（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverrustdesk
   port_map: '3000'

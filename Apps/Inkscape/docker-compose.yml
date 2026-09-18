@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
+    ca_ES: L'Inkscape és un programari de gràfics vectorials de qualitat professional que funciona en ordinadors d'escriptori Linux, Mac OS X i Windows.
+    cs_CZ: Inkscape je profesionální software pro vektorovou grafiku, který běží na stolních počítačích s operačními systémy Linux, Mac OS X a Windows.
+    da_DK: Inkscape er professionel vektorgrafiksoftware af høj kvalitet, der kører på Linux-, Mac OS X- og Windows-stationære computere.
+    de_DE: Inkscape ist eine professionelle Vektorgrafiksoftware, die auf Linux-, Mac OS X- und Windows-Desktop-Computern läuft.
+    el_GR: Το Inkscape είναι ένα επαγγελματικό λογισμικό διανυσματικών γραφικών που εκτελείται σε επιτραπέζιους υπολογιστές Linux, Mac OS X και Windows.
+    en_GB: Inkscape is professional quality vector graphics software which runs on Linux, Mac Os X and Windows desktop computers.
+    es_ES: Inkscape es un software de gráficos vectoriales de calidad profesional que funciona en ordenadores de sobremesa Linux, Mac OS X y Windows.
+    fr_FR: Inkscape est un logiciel de graphisme vectoriel de qualité professionnelle qui fonctionne sur les ordinateurs de bureau Linux, Mac OS X et Windows.
+    ga_IE: Is bogearraí grafaicí veicteoir gairmiúla é Inkscape a ritheann ar ríomhairí deisce Linux, Mac OS X agus Windows.
+    hr_HR: Inkscape je profesionalni softver za vektorsku grafiku koji radi na Linux, Mac OS X i Windows računalima.
+    hu_HU: Az Inkscape egy professzionális minőségű vektorgrafikus szoftver, amely Linux, Mac OS X és Windows asztali számítógépeken fut.
+    it_IT: Inkscape è un software di grafica vettoriale di livello professionale che funziona su computer desktop Linux, Mac OS X e Windows.
+    ja_JP: Inkscapeは、Linux、Mac OS X、Windowsのデスクトップコンピュータで動作する、プロ仕様のベクターグラフィックソフトウェアです。
+    ko_KR: Inkscape는 Linux, Mac OS X 및 Windows 데스크톱 컴퓨터에서 실행되는 전문가급 벡터 그래픽 소프트웨어입니다.
+    ml_IN: ലിനക്സ്, മാക് ഒഎസ് എക്സ്, വിൻഡോസ് ഡെസ്ക്ടോപ്പ് കമ്പ്യൂട്ടറുകളിൽ പ്രവർത്തിക്കുന്ന പ്രൊഫഷണൽ നിലവാരമുള്ള വെക്റ്റർ ഗ്രാഫിക്സ് സോഫ്റ്റ്‌വെയറാണ് ഇങ്ക്സ്കേപ്പ്.
+    nb_NO: Inkscape er profesjonell vektorgrafikkprogramvare av høy kvalitet som kjører på Linux-, Mac OS X- og Windows-stasjonære datamaskiner.
+    nl_NL: Inkscape is professionele vectorgrafische software die draait op Linux, Mac OS X en Windows desktopcomputers.
+    pl_PL: Inkscape to profesjonalne oprogramowanie do tworzenia grafiki wektorowej, które działa na komputerach stacjonarnych z systemami Linux, Mac OS X i Windows.
+    pt_BR: O Inkscape é um software profissional de gráficos vetoriais que funciona em computadores desktop Linux, Mac OS X e Windows.
+    ro_RO: Inkscape este un software de grafică vectorială de calitate profesională care rulează pe computere desktop Linux, Mac OS X și Windows.
+    ru_RU: Inkscape — это профессиональное программное обеспечение для работы с векторной графикой, совместимое с настольными компьютерами под управлением Linux, Mac OS X и Windows.
+    sk_SK: Inkscape je profesionálny softvér pre vektorovú grafiku, ktorý beží na stolových počítačoch so systémom Linux, Mac OS X a Windows.
+    sv_SE: Inkscape är en professionell vektorgrafikprogramvara av hög kvalitet som körs på Linux-, Mac OS X- och Windows-stationära datorer.
+    tr_TR: Inkscape, Linux, Mac OS X ve Windows masaüstü bilgisayarlarda çalışan profesyonel kalitede bir vektör grafik yazılımıdır.
     zh_CN: Inkscape 是专业级矢量图形软件，可在 Linux、Mac OS X 和 Windows 桌面电脑上运行。
+    zh_TW: Inkscape 是專業級向量圖形軟體，可在 Linux、Mac OS X 和 Windows 桌面電腦上執行。
   tagline:
     en_US: Professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
+    ca_ES: Programari de gràfics vectorials de qualitat professional que funciona en ordinadors d'escriptori Linux, Mac OS X i Windows.
+    cs_CZ: Profesionální software pro vektorovou grafiku, který běží na stolních počítačích s Linuxem, Mac OS X a Windows.
+    da_DK: Professionel vektorgrafiksoftware af høj kvalitet, der kører på Linux-, Mac OS X- og Windows-stationære computere.
+    de_DE: Professionelle Vektorgrafiksoftware, die auf Linux-, Mac OS X- und Windows-Desktop-Computern läuft.
+    el_GR: Λογισμικό διανυσματικών γραφικών επαγγελματικής ποιότητας που εκτελείται σε επιτραπέζιους υπολογιστές Linux, Mac OS X και Windows.
+    en_GB: Professional quality vector graphics software which runs on Linux, Mac Os X and Windows desktop computers.
+    es_ES: Software de gráficos vectoriales de calidad profesional que funciona en ordenadores de sobremesa Linux, Mac OS X y Windows.
+    fr_FR: Logiciel de graphisme vectoriel de qualité professionnelle fonctionnant sur les ordinateurs de bureau Linux, Mac OS X et Windows.
+    ga_IE: Bogearraí grafaicí veicteoir ar ardchaighdeán a ritheann ar ríomhairí deisce Linux, Mac OS X agus Windows.
+    hr_HR: Profesionalni softver za vektorsku grafiku koji radi na Linux, Mac OS X i Windows stolnim računalima.
+    hu_HU: Professzionális minőségű vektorgrafikus szoftver, amely Linux, Mac OS X és Windows asztali számítógépeken fut.
+    it_IT: Software di grafica vettoriale di qualità professionale, compatibile con computer desktop Linux, Mac OS X e Windows.
+    ja_JP: Linux、Mac OS X、Windowsのデスクトップコンピュータで動作する、プロ仕様のベクターグラフィックソフトウェア。
+    ko_KR: 리눅스, 맥 OS X 및 윈도우 데스크톱 컴퓨터에서 실행되는 전문가급 품질의 벡터 그래픽 소프트웨어입니다.
+    ml_IN: ലിനക്സ്, മാക് ഒഎസ് എക്സ്, വിൻഡോസ് ഡെസ്ക്ടോപ്പ് കമ്പ്യൂട്ടറുകളിൽ പ്രവർത്തിക്കുന്ന പ്രൊഫഷണൽ നിലവാരമുള്ള വെക്റ്റർ ഗ്രാഫിക്സ് സോഫ്റ്റ്‌വെയർ.
+    nb_NO: Profesjonell vektorgrafikkprogramvare av høy kvalitet som kjører på Linux-, Mac OS X- og Windows-stasjonære datamaskiner.
+    nl_NL: Professionele vectorgrafische software van hoge kwaliteit die draait op Linux, Mac OS X en Windows desktopcomputers.
+    pl_PL: Profesjonalne oprogramowanie do tworzenia grafiki wektorowej, działające na komputerach stacjonarnych z systemami Linux, Mac OS X i Windows.
+    pt_BR: Software profissional de gráficos vetoriais que funciona em computadores desktop Linux, Mac OS X e Windows.
+    ro_RO: Software de grafică vectorială de calitate profesională care rulează pe computere desktop Linux, Mac OS X și Windows.
+    ru_RU: Профессиональное программное обеспечение для векторной графики, работающее на настольных компьютерах под управлением Linux, Mac OS X и Windows.
+    sk_SK: Profesionálny softvér pre vektorovú grafiku, ktorý beží na stolových počítačoch so systémom Linux, Mac OS X a Windows.
+    sv_SE: Professionell vektorgrafikprogramvara av hög kvalitet som körs på Linux-, Mac OS X- och Windows-stationära datorer.
+    tr_TR: Linux, Mac OS X ve Windows masaüstü bilgisayarlarda çalışan profesyonel kalitede vektör grafik yazılımı.
     zh_CN: 跨平台的专业矢量图形软件。
+    zh_TW: 跨平臺的專業向量圖形軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/inkscape-logo.png
   title:
     en_US: Inkscape (LinuxServer.io)
+    ca_ES: Inkscape (LinuxServer.io)
+    cs_CZ: Inkscape (LinuxServer.io)
+    da_DK: Inkscape (LinuxServer.io)
+    de_DE: Inkscape (LinuxServer.io)
+    el_GR: Inkscape (LinuxServer.io)
+    en_GB: Inkscape (LinuxServer.io)
+    es_ES: Inkscape (LinuxServer.io)
+    fr_FR: Inkscape (LinuxServer.io)
+    ga_IE: Inkscape (LinuxServer.io)
+    hr_HR: Inkscape (LinuxServer.io)
+    hu_HU: Inkscape (LinuxServer.io)
+    it_IT: Inkscape (LinuxServer.io)
+    ja_JP: Inkscape (LinuxServer.io)
+    ko_KR: Inkscape (LinuxServer.io)
+    ml_IN: Inkscape (LinuxServer.io)
+    nb_NO: Inkscape (LinuxServer.io)
+    nl_NL: Inkscape (LinuxServer.io)
+    pl_PL: Inkscape (LinuxServer.io)
+    pt_BR: Inkscape (LinuxServer.io)
+    ro_RO: Inkscape (LinuxServer.io)
+    ru_RU: Inkscape (LinuxServer.io)
+    sk_SK: Inkscape (LinuxServer.io)
+    sv_SE: Inkscape (LinuxServer.io)
+    tr_TR: Inkscape (LinuxServer.io)
     zh_CN: Inkscape（LinuxServer.io）
+    zh_TW: Inkscape（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverinkscape
   port_map: '3000'

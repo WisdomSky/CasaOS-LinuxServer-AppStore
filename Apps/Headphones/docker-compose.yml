@@ -43,9 +43,62 @@ x-casaos:
       Headphones 是用 Python 编写的自动音乐下载器，可使用 NZB 和 Torrent。它支持 SABnzbd、NZBget、Transmission、µTorrent 和 Blackhole。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/headphones/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/headphones/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/headphones/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/headphones/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/headphones/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/headphones/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/headphones/'
+    es_ES: 'Visita la página principal: https://hub.docker.com/r/linuxserver/headphones/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/headphones/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/headphones/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/headphones/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/headphones/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/headphones/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/headphones/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/headphones/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/headphones/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/headphones/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/headphones/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/headphones/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/headphones/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/headphones/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/headphones/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/headphones/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/headphones/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/headphones/'
+    zh_TW: |-
+      Headphones 是用 Python 編寫的自動音樂下載器，可使用 NZB 和 Torrent。它支援 SABnzbd、NZBget、Transmission、µTorrent 和 Blackhole。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/headphones/
   tagline:
     en_US: An automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole.
     zh_CN: 自动下载和管理来自 NZB 与 Torrent 的音乐。
+    ca_ES: Un descarregador de música automatitzat per a NZB i Torrent, escrit en Python. Admet SABnzbd, NZBget, Transmission, µTorrent i Blackhole.
+    cs_CZ: Automatizovaný stahovač hudby pro NZB a Torrent, napsaný v Pythonu. Podporuje SABnzbd, NZBget, Transmission, µTorrent a Blackhole.
+    da_DK: En automatiseret musikdownloader til NZB og Torrent, skrevet i Python. Den understøtter SABnzbd, NZBget, Transmission, µTorrent og Blackhole.
+    de_DE: Ein automatisierter Musik-Downloader für NZB und Torrent, geschrieben in Python. Er unterstützt SABnzbd, NZBget, Transmission, µTorrent und Blackhole.
+    el_GR: Ένα αυτοματοποιημένο πρόγραμμα λήψης μουσικής για NZB και Torrent, γραμμένο σε Python. Υποστηρίζει SABnzbd, NZBget, Transmission, µTorrent και Blackhole.
+    en_GB: An automated music downloader for Nzb and Torrent, written in Python. It supports Sabnzbd, Nzbget, Transmission, µTorrent and Blackhole.
+    es_ES: Un descargador automático de música para NZB y Torrent, escrito en Python. Es compatible con SABnzbd, NZBget, Transmission, µTorrent y Blackhole.
+    fr_FR: Téléchargeur de musique automatisé pour NZB et Torrent, écrit en Python. Compatible avec SABnzbd, NZBget, Transmission, µTorrent et Blackhole.
+    ga_IE: Íoslódálaí ceoil uathoibrithe do NZB agus Torrent, scríofa i Python. Tacaíonn sé le SABnzbd, NZBget, Transmission, µTorrent agus Blackhole.
+    hr_HR: Automatizirani program za preuzimanje glazbe za NZB i Torrent, napisan u Pythonu. Podržava SABnzbd, NZBget, Transmission, µTorrent i Blackhole.
+    hu_HU: Egy automatizált zeneletöltő NZB és Torrent fájlokhoz, Python nyelven írva. Támogatja a SABnzbd, NZBget, Transmission, µTorrent és Blackhole fájlokat.
+    it_IT: Un programma automatico per scaricare musica in formato NZB e Torrent, scritto in Python. Supporta SABnzbd, NZBget, Transmission, µTorrent e Blackhole.
+    ja_JP: Pythonで書かれた、NZBおよびTorrentに対応した自動音楽ダウンロードツールです。SABnzbd、NZBget、Transmission、µTorrent、Blackholeをサポートしています。
+    ko_KR: 파이썬으로 작성된 NZB 및 토렌트 음악 자동 다운로더입니다. SABnzbd, NZBget, Transmission, µTorrent 및 Blackhole을 지원합니다.
+    ml_IN: പൈത്തണിൽ എഴുതിയ, NZB, Torrent എന്നിവയ്‌ക്കായുള്ള ഒരു ഓട്ടോമേറ്റഡ് മ്യൂസിക് ഡൗൺലോഡർ. ഇത് SABnzbd, NZBget, ട്രാൻസ്മിഷൻ, µTorrent, Blackhole എന്നിവയെ പിന്തുണയ്ക്കുന്നു.
+    nb_NO: En automatisert musikknedlaster for NZB og Torrent, skrevet i Python. Den støtter SABnzbd, NZBget, Transmission, µTorrent og Blackhole.
+    nl_NL: Een geautomatiseerd muziekdownloadprogramma voor NZB en Torrent, geschreven in Python. Het ondersteunt SABnzbd, NZBget, Transmission, µTorrent en Blackhole.
+    pl_PL: Zautomatyzowany program do pobierania muzyki z NZB i Torrentów, napisany w Pythonie. Obsługuje SABnzbd, NZBget, Transmission, µTorrent i Blackhole.
+    pt_BR: Um programa para baixar músicas automaticamente em NZB e Torrent, escrito em Python. Ele suporta SABnzbd, NZBget, Transmission, µTorrent e Blackhole.
+    ro_RO: Un program automat de descărcare a muzicii pentru NZB și Torrent, scris în Python. Acceptă SABnzbd, NZBget, Transmission, µTorrent și Blackhole.
+    ru_RU: Автоматизированная программа для загрузки музыки из NZB-архивов и торрентов, написанная на Python. Поддерживает SABnzbd, NZBget, Transmission, µTorrent и Blackhole.
+    sk_SK: Automatizovaný sťahovač hudby pre NZB a Torrent, napísaný v jazyku Python. Podporuje SABnzbd, NZBget, Transmission, µTorrent a Blackhole.
+    sv_SE: En automatiserad musiknedladdare för NZB och Torrent, skriven i Python. Den stöder SABnzbd, NZBget, Transmission, µTorrent och Blackhole.
+    tr_TR: Python ile yazılmış, NZB ve Torrent için otomatik müzik indirme programı. SABnzbd, NZBget, Transmission, µTorrent ve Blackhole'u destekler.
+    zh_TW: 自動下載和管理來自 NZB 與 Torrent 的音樂。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-icon.png
@@ -53,6 +106,31 @@ x-casaos:
   title:
     en_US: Headphones
     zh_CN: Headphones
+    ca_ES: Headphones
+    cs_CZ: Headphones
+    da_DK: Headphones
+    de_DE: Headphones
+    el_GR: Headphones
+    en_GB: Headphones
+    es_ES: Headphones
+    fr_FR: Headphones
+    ga_IE: Headphones
+    hr_HR: Headphones
+    hu_HU: Headphones
+    it_IT: Headphones
+    ja_JP: Headphones
+    ko_KR: Headphones
+    ml_IN: Headphones
+    nb_NO: Headphones
+    nl_NL: Headphones
+    pl_PL: Headphones
+    pt_BR: Headphones
+    ro_RO: Headphones
+    ru_RU: Headphones
+    sk_SK: Headphones
+    sv_SE: Headphones
+    tr_TR: Headphones
+    zh_TW: Headphones
   category: Others
   project_url: https://github.com/rembo10/headphones
   port_map: '8181'

@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+    ca_ES: VSCodium és una distribució binària amb llicència lliure i impulsada per la comunitat de l'editor VS Code de Microsoft.
+    cs_CZ: VSCodium je komunitně řízená, volně licencovaná binární distribuce editoru VS Code od společnosti Microsoft.
+    da_DK: VSCodium er en community-drevet, frit licenseret binær distribution af Microsofts editor VS Code.
+    de_DE: VSCodium ist eine von der Community entwickelte, frei lizenzierte Binärdistribution des Microsoft-Editors VS Code.
+    el_GR: Το VSCodium είναι μια δυαδική διανομή του προγράμματος επεξεργασίας VS Code της Microsoft, η οποία καθοδηγείται από την κοινότητα και διατίθεται ελεύθερα με άδεια χρήσης.
+    en_GB: Vscodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor Vs Code.
+    es_ES: VSCodium es una distribución binaria del editor VS Code de Microsoft, impulsada por la comunidad y con licencia libre.
+    fr_FR: VSCodium est une distribution binaire libre et gérée par la communauté de l'éditeur VS Code de Microsoft.
+    ga_IE: Is dáileadh dénártha faoi stiúir an phobail, ceadúnaithe go saor, d'eagarthóir VS Code Microsoft é VSCodium.
+    hr_HR: VSCodium je binarna distribucija Microsoftovog editora VS Code, slobodno licencirana i vođena od strane zajednice.
+    hu_HU: A VSCodium a Microsoft VS Code szerkesztőjének közösség által fejlesztett, szabadon licencelhető bináris disztribúciója.
+    it_IT: VSCodium è una distribuzione binaria dell'editor VS Code di Microsoft, gestita dalla comunità e rilasciata con licenza libera.
+    ja_JP: VSCodiumは、コミュニティ主導で開発された、MicrosoftのエディタであるVS Codeのフリーライセンスのバイナリディストリビューションです。
+    ko_KR: VSCodium은 마이크로소프트의 VS Code 에디터를 커뮤니티 주도로 개발 및 배포하는 무료 라이선스 바이너리 버전입니다.
+    ml_IN: വിഎസ് കോഡിയം എന്നത് മൈക്രോസോഫ്റ്റിന്റെ എഡിറ്ററായ വിഎസ് കോഡിന്റെ ഒരു കമ്മ്യൂണിറ്റി നിയന്ത്രിതവും സ്വതന്ത്രമായി ലൈസൻസ് ചെയ്തതുമായ ബൈനറി വിതരണമാണ്.
+    nb_NO: VSCodium er en fellesskapsdrevet, fritt lisensiert binærdistribusjon av Microsofts editor VS Code.
+    nl_NL: VSCodium is een door de community ontwikkelde, vrij gelicentieerde binaire distributie van Microsofts editor VS Code.
+    pl_PL: VSCodium to oparta na społeczności, udostępniana na wolnej licencji, binarna dystrybucja edytora VS Code firmy Microsoft.
+    pt_BR: O VSCodium é uma distribuição binária do editor VS Code da Microsoft, licenciada gratuitamente e mantida pela comunidade.
+    ro_RO: VSCodium este o distribuție binară, condusă de comunitate și licențiată liber, a editorului VS Code de la Microsoft.
+    ru_RU: VSCodium — это разрабатываемая сообществом, свободно распространяемая бинарная версия редактора VS Code от Microsoft.
+    sk_SK: VSCodium je komunitne riadená, voľne licencovaná binárna distribúcia editora VS Code od spoločnosti Microsoft.
+    sv_SE: VSCodium är en community-driven, fritt licensierad binärdistribution av Microsofts editor VS Code.
+    tr_TR: VSCodium, Microsoft'un VS Code editörünün topluluk tarafından geliştirilen, ücretsiz lisanslı bir ikili dağıtımıdır.
     zh_CN: VSCodium 是由社区推动、采用自由许可证的微软 VS Code 编辑器二进制发行版。
+    zh_TW: VSCodium 是由社群推動、採用自由許可證的微軟 VS Code 編輯器二進位制發行版。
   tagline:
     en_US: A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+    ca_ES: Una distribució binària amb llicència lliure i impulsada per la comunitat de l'editor VS Code de Microsoft.
+    cs_CZ: Komunitně řízená, volně licencovaná binární distribuce editoru VS Code od společnosti Microsoft.
+    da_DK: En community-drevet, frit licenseret binær distribution af Microsofts editor VS Code.
+    de_DE: Eine von der Community entwickelte, frei lizenzierte Binärdistribution des Microsoft-Editors VS Code.
+    el_GR: Μια δυαδική διανομή του προγράμματος επεξεργασίας VS Code της Microsoft, η οποία καθοδηγείται από την κοινότητα και διαθέτει ελεύθερη άδεια χρήσης.
+    en_GB: A community-driven, freely-licensed binary distribution of Microsoft’s editor Vs Code.
+    es_ES: Una distribución binaria del editor VS Code de Microsoft, impulsada por la comunidad y con licencia libre.
+    fr_FR: Une distribution binaire libre et gérée par la communauté de l'éditeur VS Code de Microsoft.
+    ga_IE: Dáileadh dénártha faoi stiúir an phobail, ceadúnaithe go saor, d'eagarthóir VS Code Microsoft.
+    hr_HR: Zajednički vođena, slobodno licencirana binarna distribucija Microsoftovog editora VS Code.
+    hu_HU: A Microsoft VS Code szerkesztőjének közösség által fejlesztett, szabadon licencelhető bináris disztribúciója.
+    it_IT: Una distribuzione binaria dell'editor VS Code di Microsoft, gestita dalla comunità e rilasciata con licenza libera.
+    ja_JP: MicrosoftのエディタVS Codeの、コミュニティ主導型でフリーライセンスのバイナリ配布版。
+    ko_KR: 커뮤니티 주도로 개발된, 무료 라이선스가 적용된 마이크로소프트 VS 코드 에디터의 바이너리 배포판입니다.
+    ml_IN: മൈക്രോസോഫ്റ്റിന്റെ എഡിറ്ററായ VS കോഡിന്റെ, കമ്മ്യൂണിറ്റി നിയന്ത്രിതവും സ്വതന്ത്രമായി ലൈസൻസ് ചെയ്തതുമായ ഒരു ബൈനറി ഡിസ്ട്രിബ്യൂഷൻ.
+    nb_NO: En fellesskapsdrevet, fritt lisensiert binærdistribusjon av Microsofts editor VS Code.
+    nl_NL: Een door de community gedreven, vrij gelicentieerde binaire distributie van Microsofts editor VS Code.
+    pl_PL: Społecznościowa, objęta wolną licencją dystrybucja binarna edytora VS Code firmy Microsoft.
+    pt_BR: Uma distribuição binária do editor VS Code da Microsoft, licenciada gratuitamente e mantida pela comunidade.
+    ro_RO: O distribuție binară, licențiată gratuit și condusă de comunitate, a editorului VS Code de la Microsoft.
+    ru_RU: Разработанный сообществом, свободно распространяемый бинарный дистрибутив редактора Microsoft VS Code.
+    sk_SK: Komunitou riadená, voľne licencovaná binárna distribúcia editora VS Code od spoločnosti Microsoft.
+    sv_SE: En community-driven, fritt licensierad binärdistribution av Microsofts editor VS Code.
+    tr_TR: Microsoft'un VS Code editörünün topluluk tarafından geliştirilen, ücretsiz lisanslı ikili dağıtımı.
     zh_CN: 社区维护、采用自由许可证的 VS Code 二进制发行版。
+    zh_TW: 社群維護、採用自由許可證的 VS Code 二進位制發行版。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
   title:
     en_US: Vscodium (LinuxServer.io)
+    ca_ES: Vscodium (LinuxServer.io)
+    cs_CZ: Vscodium (LinuxServer.io)
+    da_DK: Vscodium (LinuxServer.io)
+    de_DE: Vscodium (LinuxServer.io)
+    el_GR: Vscodium (LinuxServer.io)
+    en_GB: Vscodium (LinuxServer.io)
+    es_ES: Vscodium (LinuxServer.io)
+    fr_FR: Vscodium (LinuxServer.io)
+    ga_IE: Vscodium (LinuxServer.io)
+    hr_HR: Vscodium (LinuxServer.io)
+    hu_HU: Vscodium (LinuxServer.io)
+    it_IT: Vscodium (LinuxServer.io)
+    ja_JP: Vscodium (LinuxServer.io)
+    ko_KR: Vscodium (LinuxServer.io)
+    ml_IN: Vscodium (LinuxServer.io)
+    nb_NO: Vscodium (LinuxServer.io)
+    nl_NL: Vscodium (LinuxServer.io)
+    pl_PL: Vscodium (LinuxServer.io)
+    pt_BR: Vscodium (LinuxServer.io)
+    ro_RO: Vscodium (LinuxServer.io)
+    ru_RU: Vscodium (LinuxServer.io)
+    sk_SK: Vscodium (LinuxServer.io)
+    sv_SE: Vscodium (LinuxServer.io)
+    tr_TR: Vscodium (LinuxServer.io)
     zh_CN: Vscodium（LinuxServer.io）
+    zh_TW: Vscodium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservervscodium
   port_map: '3000'

@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
+    ca_ES: 'Webtop: contenidors basats en Alpine, Ubuntu, Fedora i Arch que contenen entorns d''escriptori complets en versions oficialment compatibles, accessibles a través de qualsevol navegador web modern.'
+    cs_CZ: Webtop - kontejnery založené na systémech Alpine, Ubuntu, Fedora a Arch obsahující plnohodnotná desktopová prostředí v oficiálně podporovaných verzích, přístupná prostřednictvím jakéhokoli moderního webového prohlížeče.
+    da_DK: Webtop - Alpine-, Ubuntu-, Fedora- og Arch-baserede containere, der indeholder komplette skrivebordsmiljøer i officielt understøttede versioner, der er tilgængelige via enhver moderne webbrowser.
+    de_DE: Webtop – Container auf Basis von Alpine, Ubuntu, Fedora und Arch, die vollständige Desktop-Umgebungen in offiziell unterstützten Varianten enthalten und über jeden modernen Webbrowser zugänglich sind.
+    el_GR: Webtop - Κοντέινερ βασισμένα σε Alpine, Ubuntu, Fedora και Arch που περιέχουν πλήρη περιβάλλοντα επιφάνειας εργασίας σε επίσημα υποστηριζόμενες εκδόσεις, προσβάσιμες μέσω οποιουδήποτε σύγχρονου προγράμματος περιήγησης ιστού.
+    en_GB: Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavours accessible via any modern web browser.
+    es_ES: 'Webtop: contenedores basados en Alpine, Ubuntu, Fedora y Arch que contienen entornos de escritorio completos en versiones oficialmente compatibles, accesibles a través de cualquier navegador web moderno.'
+    fr_FR: Webtop - Conteneurs basés sur Alpine, Ubuntu, Fedora et Arch contenant des environnements de bureau complets dans des versions officiellement prises en charge, accessibles via n'importe quel navigateur web moderne.
+    ga_IE: Webtop - Coimeádáin bunaithe ar Alpine, Ubuntu, Fedora, agus Arch ina bhfuil timpeallachtaí deisce iomlána i mblasanna a dtacaítear leo go hoifigiúil agus atá inrochtana trí aon bhrabhsálaí gréasáin nua-aimseartha.
+    hr_HR: Webtop - kontejneri temeljeni na Alpineu, Ubuntuu, Fedori i Archu koji sadrže potpuna desktop okruženja u službeno podržanim verzijama dostupnima putem bilo kojeg modernog web preglednika.
+    hu_HU: Webtop - Alpine, Ubuntu, Fedora és Arch alapú konténerek, amelyek teljes asztali környezeteket tartalmaznak hivatalosan támogatott verziókban, amelyek bármely modern webböngészőn keresztül elérhetők.
+    it_IT: Webtop - Container basati su Alpine, Ubuntu, Fedora e Arch che contengono ambienti desktop completi in versioni ufficialmente supportate, accessibili tramite qualsiasi browser web moderno.
+    ja_JP: Webtop - Alpine、Ubuntu、Fedora、Archベースのコンテナで、公式にサポートされているフレーバーの完全なデスクトップ環境が含まれており、最新のWebブラウザからアクセスできます。
+    ko_KR: Webtop은 Alpine, Ubuntu, Fedora 및 Arch 기반 컨테이너로, 공식적으로 지원되는 배포판의 완전한 데스크톱 환경을 제공하며 모든 최신 웹 브라우저를 통해 접근할 수 있습니다.
+    ml_IN: വെബ്‌ടോപ്പ് - ആൽപൈൻ, ഉബുണ്ടു, ഫെഡോറ, ആർച്ച് എന്നിവയെ അടിസ്ഥാനമാക്കിയുള്ള കണ്ടെയ്‌നറുകൾ, ഔദ്യോഗികമായി പിന്തുണയ്‌ക്കുന്ന ഫ്ലേവറുകളിൽ പൂർണ്ണ ഡെസ്‌ക്‌ടോപ്പ് പരിതസ്ഥിതികൾ ഉൾക്കൊള്ളുന്നു, ഏത് ആധുനിക വെബ് ബ്രൗസറിലൂടെയും ആക്‌സസ് ചെയ്യാനാകും.
+    nb_NO: Webtop – Alpine-, Ubuntu-, Fedora- og Arch-baserte containere som inneholder komplette skrivebordsmiljøer i offisielt støttede versjoner, tilgjengelig via enhver moderne nettleser.
+    nl_NL: Webtop - Containers gebaseerd op Alpine, Ubuntu, Fedora en Arch, met complete desktopomgevingen in officieel ondersteunde varianten, toegankelijk via elke moderne webbrowser.
+    pl_PL: Webtop — kontenery oparte na systemach Alpine, Ubuntu, Fedora i Arch, zawierające kompletne środowiska graficzne w oficjalnie obsługiwanych wersjach, dostępne za pośrednictwem dowolnej nowoczesnej przeglądarki internetowej.
+    pt_BR: Webtop - Contêineres baseados em Alpine, Ubuntu, Fedora e Arch que contêm ambientes de desktop completos em versões oficialmente suportadas, acessíveis por meio de qualquer navegador web moderno.
+    ro_RO: Webtop - containere bazate pe Alpine, Ubuntu, Fedora și Arch care conțin medii desktop complete în versiuni acceptate oficial, accesibile prin orice browser web modern.
+    ru_RU: Webtop — контейнеры на основе Alpine, Ubuntu, Fedora и Arch, содержащие полноценные среды рабочего стола в официально поддерживаемых вариантах, доступные через любой современный веб-браузер.
+    sk_SK: Webtop – kontajnery založené na systémoch Alpine, Ubuntu, Fedora a Arch obsahujúce plnohodnotné desktopové prostredia v oficiálne podporovaných verziách, prístupné prostredníctvom ľubovoľného moderného webového prehliadača.
+    sv_SE: Webtop - Alpine-, Ubuntu-, Fedora- och Arch-baserade containrar som innehåller fullständiga skrivbordsmiljöer i officiellt stödda versioner, tillgängliga via alla moderna webbläsare.
+    tr_TR: Webtop - Alpine, Ubuntu, Fedora ve Arch tabanlı, resmi olarak desteklenen sürümlerde tam masaüstü ortamları içeren ve herhangi bir modern web tarayıcısı üzerinden erişilebilen konteynerler.
     zh_CN: Webtop 提供基于 Alpine、Ubuntu、Fedora 和 Arch 的容器，包含官方支持的各种完整桌面环境，可通过任意现代网页浏览器访问。
+    zh_TW: Webtop 提供基於 Alpine、Ubuntu、Fedora 和 Arch 的容器，包含官方支援的各種完整桌面環境，可透過任意現代網頁瀏覽器訪問。
   tagline:
     en_US: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.
+    ca_ES: Contenidors basats en Alpine, Ubuntu, Fedora i Arch que contenen entorns d'escriptori complets en versions oficialment compatibles accessibles a través de qualsevol navegador web modern.
+    cs_CZ: Kontejnery založené na systémech Alpine, Ubuntu, Fedora a Arch obsahující plnohodnotná desktopová prostředí v oficiálně podporovaných verzích, přístupná prostřednictvím jakéhokoli moderního webového prohlížeče.
+    da_DK: Alpine-, Ubuntu-, Fedora- og Arch-baserede containere, der indeholder komplette skrivebordsmiljøer i officielt understøttede versioner, der er tilgængelige via enhver moderne webbrowser.
+    de_DE: Alpine-, Ubuntu-, Fedora- und Arch-basierte Container enthalten vollständige Desktop-Umgebungen in offiziell unterstützten Varianten, die über jeden modernen Webbrowser zugänglich sind.
+    el_GR: Κοντέινερ που βασίζονται σε Alpine, Ubuntu, Fedora και Arch και περιέχουν πλήρη περιβάλλοντα επιφάνειας εργασίας σε επίσημα υποστηριζόμενες εκδόσεις, προσβάσιμες μέσω οποιουδήποτε σύγχρονου προγράμματος περιήγησης ιστού.
+    en_GB: Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavours accessible via any modern web browser.
+    es_ES: Contenedores basados en Alpine, Ubuntu, Fedora y Arch que contienen entornos de escritorio completos en versiones oficialmente compatibles, accesibles a través de cualquier navegador web moderno.
+    fr_FR: Conteneurs basés sur Alpine, Ubuntu, Fedora et Arch contenant des environnements de bureau complets dans des versions officiellement prises en charge, accessibles via n'importe quel navigateur web moderne.
+    ga_IE: Coimeádáin bunaithe ar Alpine, Ubuntu, Fedora, agus Arch ina bhfuil timpeallachtaí deisce iomlána i mblasanna a dtacaítear leo go hoifigiúil agus atá inrochtana trí aon bhrabhsálaí gréasáin nua-aimseartha.
+    hr_HR: Kontejneri temeljeni na Alpineu, Ubuntuu, Fedori i Archu koji sadrže potpuna desktop okruženja u službeno podržanim verzijama dostupnima putem bilo kojeg modernog web preglednika.
+    hu_HU: Alpine, Ubuntu, Fedora és Arch alapú konténerek, amelyek teljes asztali környezeteket tartalmaznak hivatalosan támogatott verziókban, amelyek bármely modern webböngészőn keresztül elérhetők.
+    it_IT: Container basati su Alpine, Ubuntu, Fedora e Arch contenenti ambienti desktop completi in versioni ufficialmente supportate, accessibili tramite qualsiasi browser web moderno.
+    ja_JP: Alpine、Ubuntu、Fedora、Archベースのコンテナには、公式にサポートされているフレーバーの完全なデスクトップ環境が含まれており、最新のWebブラウザからアクセスできます。
+    ko_KR: Alpine, Ubuntu, Fedora 및 Arch 기반 컨테이너는 공식적으로 지원되는 배포판의 완전한 데스크톱 환경을 포함하고 있으며, 모든 최신 웹 브라우저를 통해 액세스할 수 있습니다.
+    ml_IN: ആൽപൈൻ, ഉബുണ്ടു, ഫെഡോറ, ആർച്ച് എന്നിവ അടിസ്ഥാനമാക്കിയുള്ള കണ്ടെയ്‌നറുകൾ, ഔദ്യോഗികമായി പിന്തുണയ്‌ക്കുന്ന ഫ്ലേവറുകളിൽ പൂർണ്ണ ഡെസ്‌ക്‌ടോപ്പ് പരിതസ്ഥിതികൾ ഉൾക്കൊള്ളുന്നു, ഏത് ആധുനിക വെബ് ബ്രൗസറിലൂടെയും ആക്‌സസ് ചെയ്യാനാകും.
+    nb_NO: Alpine-, Ubuntu-, Fedora- og Arch-baserte containere som inneholder komplette skrivebordsmiljøer i offisielt støttede versjoner som er tilgjengelige via enhver moderne nettleser.
+    nl_NL: Containers gebaseerd op Alpine, Ubuntu, Fedora en Arch Linux, met complete desktopomgevingen in officieel ondersteunde varianten, toegankelijk via elke moderne webbrowser.
+    pl_PL: Kontenery oparte na systemach Alpine, Ubuntu, Fedora i Arch, zawierające pełne środowiska graficzne w oficjalnie obsługiwanych wersjach, dostępne za pośrednictwem dowolnej nowoczesnej przeglądarki internetowej.
+    pt_BR: Contêineres baseados em Alpine, Ubuntu, Fedora e Arch contendo ambientes de desktop completos em versões oficialmente suportadas, acessíveis por meio de qualquer navegador web moderno.
+    ro_RO: Containere bazate pe Alpine, Ubuntu, Fedora și Arch care conțin medii desktop complete în versiuni oficial acceptate, accesibile prin orice browser web modern.
+    ru_RU: Контейнеры на основе Alpine, Ubuntu, Fedora и Arch, содержащие полноценные среды рабочего стола в официально поддерживаемых вариантах, доступные через любой современный веб-браузер.
+    sk_SK: Kontajnery založené na systémoch Alpine, Ubuntu, Fedora a Arch obsahujúce plnohodnotné desktopové prostredia v oficiálne podporovaných verziách, ktoré sú prístupné prostredníctvom ľubovoľného moderného webového prehliadača.
+    sv_SE: Alpine-, Ubuntu-, Fedora- och Arch-baserade containrar som innehåller fullständiga skrivbordsmiljöer i officiellt stödda versioner som är tillgängliga via vilken modern webbläsare som helst.
+    tr_TR: Alpine, Ubuntu, Fedora ve Arch tabanlı konteynerler, herhangi bir modern web tarayıcısı üzerinden erişilebilen, resmi olarak desteklenen sürümlerde tam masaüstü ortamları içermektedir.
     zh_CN: 通过现代浏览器访问完整 Linux 桌面。
+    zh_TW: 透過現代瀏覽器訪問完整 Linux 桌面。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png
   title:
     en_US: Webtop (LinuxServer.io)
+    ca_ES: Webtop (LinuxServer.io)
+    cs_CZ: Webtop (LinuxServer.io)
+    da_DK: Webtop (LinuxServer.io)
+    de_DE: Webtop (LinuxServer.io)
+    el_GR: Webtop (LinuxServer.io)
+    en_GB: Webtop (LinuxServer.io)
+    es_ES: Webtop (LinuxServer.io)
+    fr_FR: Webtop (LinuxServer.io)
+    ga_IE: Webtop (LinuxServer.io)
+    hr_HR: Webtop (LinuxServer.io)
+    hu_HU: Webtop (LinuxServer.io)
+    it_IT: Webtop (LinuxServer.io)
+    ja_JP: Webtop (LinuxServer.io)
+    ko_KR: Webtop (LinuxServer.io)
+    ml_IN: Webtop (LinuxServer.io)
+    nb_NO: Webtop (LinuxServer.io)
+    nl_NL: Webtop (LinuxServer.io)
+    pl_PL: Webtop (LinuxServer.io)
+    pt_BR: Webtop (LinuxServer.io)
+    ro_RO: Webtop (LinuxServer.io)
+    ru_RU: Webtop (LinuxServer.io)
+    sk_SK: Webtop (LinuxServer.io)
+    sv_SE: Webtop (LinuxServer.io)
+    tr_TR: Webtop (LinuxServer.io)
     zh_CN: Webtop（LinuxServer.io）
+    zh_TW: Webtop（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebtop
   port_map: '3000'

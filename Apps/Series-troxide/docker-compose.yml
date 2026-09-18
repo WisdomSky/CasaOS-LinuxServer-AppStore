@@ -37,9 +37,59 @@ x-casaos:
   description:
     en_US: Series Troxide a Simple and Modern Series Tracker
     zh_CN: Series Troxide 是一款简洁、现代的剧集追踪工具。
+    ca_ES: Sèrie Troxide, un rastrejador de sèries senzill i modern
+    cs_CZ: Série Troxide – jednoduchý a moderní sledovač sérií
+    da_DK: Series Troxide, en simpel og moderne serietracker
+    de_DE: Series Troxide – ein einfacher und moderner Serienzähler
+    el_GR: Σειρά Troxide ένα απλό και σύγχρονο πρόγραμμα παρακολούθησης σειρών
+    en_GB: Series Troxide a Simple and Modern Series Tracker
+    es_ES: 'Serie Troxide: un rastreador de series simple y moderno.'
+    fr_FR: Série Troxide, un traqueur de série simple et moderne
+    ga_IE: Sraith Troxide Rianaitheoir Sraithe Simplí agus Nua-Aimseartha
+    hr_HR: Serija Troxide - jednostavan i moderan alat za praćenje serija
+    hu_HU: Troxide sorozat – egy egyszerű és modern sorozatkövető
+    it_IT: 'Serie Troxide: un tracker di serie semplice e moderno'
+    ja_JP: シリーズTroxide：シンプルでモダンなシリーズトラッカー
+    ko_KR: '트록사이드 시리즈: 심플하고 모던한 시리즈 트래커'
+    ml_IN: സീരീസ് ട്രോക്സൈഡ് ലളിതവും ആധുനികവുമായ ഒരു സീരീസ് ട്രാക്കർ
+    nb_NO: Series Troxide, en enkel og moderne seriesporer
+    nl_NL: Series Troxide, een eenvoudige en moderne serietracker.
+    pl_PL: Seria Troxide – prosty i nowoczesny system śledzenia serii
+    pt_BR: 'Série Troxide: um rastreador de séries simples e moderno.'
+    ro_RO: Seria Troxide, un sistem de urmărire a seriilor simplu și modern
+    ru_RU: Series Troxide — простой и современный трекер серий.
+    sk_SK: Séria Troxide – jednoduchý a moderný sledovač sérií
+    sv_SE: Series Troxide en enkel och modern seriespårare
+    tr_TR: 'Troxide Serisi: Basit ve Modern Bir Seri Takip Cihazı'
+    zh_TW: Series Troxide 是一款簡潔、現代的劇集追蹤工具。
   tagline:
     en_US: A Simple and Modern Series Tracker
     zh_CN: 简洁现代的剧集追踪工具。
+    ca_ES: Un rastrejador de sèries senzill i modern
+    cs_CZ: Jednoduchý a moderní sledovač seriálů
+    da_DK: En simpel og moderne serietracker
+    de_DE: Ein einfacher und moderner Serienzähler
+    el_GR: Ένα απλό και μοντέρνο πρόγραμμα παρακολούθησης σειρών
+    en_GB: A Simple and Modern Series Tracker
+    es_ES: Un rastreador de series simple y moderno.
+    fr_FR: Un traqueur de série simple et moderne
+    ga_IE: Rianaitheoir Sraith Simplí agus Nua-Aimseartha
+    hr_HR: Jednostavan i moderan alat za praćenje serija
+    hu_HU: Egyszerű és modern sorozatkövető
+    it_IT: Un tracker di serie semplice e moderno
+    ja_JP: シンプルでモダンなシリーズトラッカー
+    ko_KR: 간단하고 현대적인 시리즈 추적기
+    ml_IN: ലളിതവും ആധുനികവുമായ ഒരു സീരീസ് ട്രാക്കർ
+    nb_NO: En enkel og moderne seriesporing
+    nl_NL: Een eenvoudige en moderne serietracker
+    pl_PL: Prosty i nowoczesny tracker seriali
+    pt_BR: Um rastreador de séries simples e moderno
+    ro_RO: Un tracker de serii simplu și modern
+    ru_RU: Простой и современный трекер сериалов
+    sk_SK: Jednoduchý a moderný sledovač seriálov
+    sv_SE: En enkel och modern seriespårare
+    tr_TR: Basit ve Modern Bir Seri Takip Cihazı
+    zh_TW: 簡潔現代的劇集追蹤工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/series-troxide-logo.png
@@ -47,6 +97,31 @@ x-casaos:
   title:
     en_US: Series troxide
     zh_CN: Series troxide
+    ca_ES: Series troxide
+    cs_CZ: Series troxide
+    da_DK: Series troxide
+    de_DE: Series troxide
+    el_GR: Series troxide
+    en_GB: Series troxide
+    es_ES: Series troxide
+    fr_FR: Series troxide
+    ga_IE: Series troxide
+    hr_HR: Series troxide
+    hu_HU: Series troxide
+    it_IT: Series troxide
+    ja_JP: Series troxide
+    ko_KR: Series troxide
+    ml_IN: Series troxide
+    nb_NO: Series troxide
+    nl_NL: Series troxide
+    pl_PL: Series troxide
+    pt_BR: Series troxide
+    ro_RO: Series troxide
+    ru_RU: Series troxide
+    sk_SK: Series troxide
+    sv_SE: Series troxide
+    tr_TR: Series troxide
+    zh_TW: Series troxide
   category: Others
   id: wisdomsky.linuxserver.linuxserverseriestroxide
   version: 0.5.1

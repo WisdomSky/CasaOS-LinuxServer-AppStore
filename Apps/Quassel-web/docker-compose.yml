@@ -64,9 +64,62 @@ x-casaos:
       Quassel Web 是 Quassel 的网页客户端，需要连接 Quassel Core 实例；本商店也提供对应容器。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/quassel-web/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/quassel-web/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/quassel-web/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/quassel-web/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/quassel-web/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
+    es_ES: 'Visite la página principal: https://hub.docker.com/r/linuxserver/quassel-web/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/quassel-web/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/quassel-web/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/quassel-web/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/quassel-web/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/quassel-web/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/quassel-web/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/quassel-web/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/quassel-web/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/quassel-web/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/quassel-web/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/quassel-web/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/quassel-web/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/quassel-web/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/quassel-web/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/quassel-web/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/quassel-web/'
+    zh_TW: |-
+      Quassel Web 是 Quassel 的網頁客戶端，需要連線 Quassel Core 例項；本商店也提供對應容器。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/quassel-web/
   tagline:
     en_US: A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.
     zh_CN: 通过网页连接 Quassel IRC 核心。
+    ca_ES: Un client web per a Quassel. Tingueu en compte que cal una instància de Quassel-Core; tenim un contenidor disponible aquí.
+    cs_CZ: Webový klient pro Quassel. Je vyžadována instance Quassel-Core, kontejner máme k dispozici zde.
+    da_DK: En webklient til Quassel. Bemærk at en Quassel-Core-instans er påkrævet. Vi har en container tilgængelig her.
+    de_DE: Ein Webclient für Quassel. Bitte beachten Sie, dass eine Quassel-Core-Instanz erforderlich ist; ein entsprechender Container ist hier verfügbar.
+    el_GR: Ένα πρόγραμμα-πελάτης ιστού για το Quassel. Σημειώστε ότι απαιτείται μια παρουσία Quassel-Core, έχουμε διαθέσιμο ένα κοντέινερ εδώ.
+    en_GB: A web client for Quassel. Note that a Quassel-Core instance is required, we have a container available here.
+    es_ES: Un cliente web para Quassel. Tenga en cuenta que se requiere una instancia de Quassel-Core; aquí disponemos de un contenedor.
+    fr_FR: "Client web pour Quassel. Veuillez noter qu'une instance Quassel-Core est requise\_; un conteneur est disponible ici."
+    ga_IE: Cliant gréasáin do Quassel. Tabhair faoi deara go bhfuil sampla Quassel-Core ag teastáil, tá coimeádán againn ar fáil anseo.
+    hr_HR: Web klijent za Quassel. Imajte na umu da je potrebna instanca Quassel-Core, imamo kontejner dostupan ovdje.
+    hu_HU: Egy webes kliens a Quasselhez. Fontos megjegyezni, hogy Quassel-Core példány szükséges hozzá, ehhez egy konténer áll rendelkezésre itt.
+    it_IT: Un client web per Quassel. Si noti che è necessaria un'istanza di Quassel-Core; un container è disponibile qui.
+    ja_JP: Quassel用のWebクライアントです。Quassel-Coreインスタンスが必要です。コンテナはこちらから入手できます。
+    ko_KR: Quassel용 웹 클라이언트입니다. Quassel-Core 인스턴스가 필요하며, 여기에서 컨테이너를 다운로드할 수 있습니다.
+    ml_IN: ക്വാസ്സലിനുള്ള ഒരു വെബ് ക്ലയന്റ്. ഒരു ക്വാസ്സൽ-കോർ ഇൻസ്റ്റൻസ് ആവശ്യമാണെന്ന് ശ്രദ്ധിക്കുക, ഞങ്ങൾക്ക് ഇവിടെ ഒരു കണ്ടെയ്നർ ലഭ്യമാണ്.
+    nb_NO: En webklient for Quassel. Merk at en Quassel-Core-instans er nødvendig. Vi har en container tilgjengelig her.
+    nl_NL: Een webclient voor Quassel. Houd er rekening mee dat een Quassel-Core-instantie vereist is; we hebben hier een container beschikbaar.
+    pl_PL: 'Klient webowy dla Quassel. Uwaga: wymagana jest instancja Quassel-Core, mamy tutaj dostępny kontener.'
+    pt_BR: Um cliente web para Quassel. Observe que é necessária uma instância do Quassel-Core; temos um contêiner disponível aqui.
+    ro_RO: Un client web pentru Quassel. Rețineți că este necesară o instanță Quassel-Core, avem un container disponibil aici.
+    ru_RU: Веб-клиент для Quassel. Обратите внимание, что требуется экземпляр Quassel-Core, контейнер которого доступен здесь.
+    sk_SK: Webový klient pre Quassel. Upozorňujeme, že je potrebná inštancia Quassel-Core, máme k dispozícii kontajner tu.
+    sv_SE: En webbklient för Quassel. Observera att en Quassel-Core-instans krävs, vi har en container tillgänglig här.
+    tr_TR: Quassel için bir web istemcisi. Quassel-Core örneğinin gerekli olduğunu unutmayın, burada bir konteynerimiz mevcut.
+    zh_TW: 透過網頁連線 Quassel IRC 核心。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-icon.png
@@ -74,6 +127,31 @@ x-casaos:
   title:
     en_US: Quassel web
     zh_CN: Quassel web
+    ca_ES: Quassel web
+    cs_CZ: Quassel web
+    da_DK: Quassel web
+    de_DE: Quassel web
+    el_GR: Quassel web
+    en_GB: Quassel web
+    es_ES: Quassel web
+    fr_FR: Quassel web
+    ga_IE: Quassel web
+    hr_HR: Quassel web
+    hu_HU: Quassel web
+    it_IT: Quassel web
+    ja_JP: Quassel web
+    ko_KR: Quassel web
+    ml_IN: Quassel web
+    nb_NO: Quassel web
+    nl_NL: Quassel web
+    pl_PL: Quassel web
+    pt_BR: Quassel web
+    ro_RO: Quassel web
+    ru_RU: Quassel web
+    sk_SK: Quassel web
+    sv_SE: Quassel web
+    tr_TR: Quassel web
+    zh_TW: Quassel web
   category: Others
   project_url: https://github.com/magne4000/quassel-webserver
   port_map: '64080'

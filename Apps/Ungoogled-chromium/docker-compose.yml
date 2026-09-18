@@ -40,17 +40,92 @@ x-casaos:
   main: app
   description:
     en_US: Ungoogled Chromium is Google Chromium, sans dependency on Google web services.
+    ca_ES: Chromium sense Google és Google Chromium, sense dependència dels serveis web de Google.
+    cs_CZ: Nevygooglený Chromium je Google Chromium, bez závislosti na webových službách Google.
+    da_DK: Ungoogled Chromium er Google Chromium, uden afhængighed af Googles webtjenester.
+    de_DE: Ungoogled Chromium ist Google Chromium, jedoch ohne Abhängigkeit von Google-Webdiensten.
+    el_GR: Το Ungoogled Chromium είναι το Google Chromium, χωρίς εξάρτηση από τις υπηρεσίες ιστού της Google.
+    en_GB: Ungoogled Chromium is Google Chromium, sans dependency on Google web services.
+    es_ES: Ungoogled Chromium es Google Chromium, sin depender de los servicios web de Google.
+    fr_FR: Ungoogled Chromium est Google Chromium, sans dépendance aux services web de Google.
+    ga_IE: Is é Google Chromium é Ungoogled Chromium, gan spleáchas ar sheirbhísí gréasáin Google.
+    hr_HR: Neguglani Chromium je Google Chromium, bez ovisnosti o Googleovim web servisima.
+    hu_HU: A Google-ben nem keresett Chromium valójában Google Chromium, amely nem függ a Google webszolgáltatásaitól.
+    it_IT: Ungoogled Chromium è Google Chromium, senza dipendenza dai servizi web di Google.
+    ja_JP: Ungoogled Chromiumは、Googleのウェブサービスに依存しないGoogle Chromiumです。
+    ko_KR: Ungoogled Chromium은 Google 웹 서비스에 대한 의존성이 없는 Google Chromium입니다.
+    ml_IN: ഗൂഗിൾ ചെയ്യാത്ത ക്രോമിയം എന്നത് ഗൂഗിൾ വെബ് സേവനങ്ങളെ ആശ്രയിക്കാതെ പ്രവർത്തിക്കുന്ന ഗൂഗിൾ ക്രോമിയം ആണ്.
+    nb_NO: Ungoogled Chromium er Google Chromium, uten avhengighet av Googles nettjenester.
+    nl_NL: Ungoogled Chromium is Google Chromium, maar dan zonder afhankelijkheid van Google-webdiensten.
+    pl_PL: Niewyszukany w Google Chromium to Google Chromium, który nie jest zależny od usług sieciowych Google.
+    pt_BR: O Chromium sem Google é o Chromium do Google, sem a dependência dos serviços web do Google.
+    ro_RO: Chromium nelocalizat este Google Chromium, fără dependență de serviciile web Google.
+    ru_RU: Ungoogled Chromium — это Google Chromium, не зависящий от веб-сервисов Google.
+    sk_SK: Nevygooglený Chromium je Google Chromium, bez závislosti od webových služieb Google.
+    sv_SE: Avgooglade Chromium är Google Chromium, utan beroende av Googles webbtjänster.
+    tr_TR: Ungoogled Chromium, Google web hizmetlerine bağımlılığı olmayan Google Chromium'dur.
     zh_CN: Ungoogled Chromium 是移除了对 Google 网页服务依赖的 Google Chromium 版本。
+    zh_TW: Ungoogled Chromium 是移除了對 Google 網頁服務依賴的 Google Chromium 版本。
   tagline:
     en_US: Google Chromium, sans dependency on Google web services.
+    ca_ES: Google Chromium, sense dependència dels serveis web de Google.
+    cs_CZ: Google Chromium bez závislosti na webových službách Google.
+    da_DK: Google Chromium er ikke afhængig af Googles webtjenester.
+    de_DE: Google Chromium, ohne Abhängigkeit von Google-Webdiensten.
+    el_GR: Google Chromium, χωρίς εξάρτηση από τις υπηρεσίες ιστού της Google.
+    en_GB: Google Chromium, sans dependency on Google web services.
+    es_ES: Google Chromium, sin depender de los servicios web de Google.
+    fr_FR: Google Chromium, sans dépendance aux services web de Google.
+    ga_IE: Google Chromium, gan spleáchas ar sheirbhísí gréasáin Google.
+    hr_HR: Google Chromium, bez ovisnosti o Googleovim web servisima.
+    hu_HU: A Google Chromium nem függ a Google webszolgáltatásaitól.
+    it_IT: Google Chromium, senza dipendenza dai servizi web di Google.
+    ja_JP: Google Chromiumを、Googleのウェブサービスへの依存なしに実装。
+    ko_KR: 구글 웹 서비스에 의존하지 않는 구글 크로미디입니다.
+    ml_IN: ഗൂഗിൾ വെബ് സേവനങ്ങളെ ആശ്രയിക്കാതെ ഗൂഗിൾ ക്രോമിയം.
+    nb_NO: Google Chromium er ikke avhengig av Googles nettjenester.
+    nl_NL: Google Chromium, zonder afhankelijkheid van Google-webdiensten.
+    pl_PL: Google Chromium, bez zależności od usług sieciowych Google.
+    pt_BR: Google Chromium, sem dependência dos serviços web do Google.
+    ro_RO: Google Chromium, fără dependență de serviciile web Google.
+    ru_RU: Google Chromium, не зависящий от веб-сервисов Google.
+    sk_SK: Google Chromium bez závislosti od webových služieb Google.
+    sv_SE: Google Chromium, utan beroende av Googles webbtjänster.
+    tr_TR: Google web hizmetlerine bağımlılık içermeyen Google Chromium.
     zh_CN: 移除 Google 网页服务依赖的 Chromium。
+    zh_TW: 移除 Google 網頁服務依賴的 Chromium。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ungoogled-chromium-logo.png
   title:
     en_US: Ungoogled chromium (LinuxServer.io)
+    ca_ES: Ungoogled chromium (LinuxServer.io)
+    cs_CZ: Ungoogled chromium (LinuxServer.io)
+    da_DK: Ungoogled chromium (LinuxServer.io)
+    de_DE: Ungoogled chromium (LinuxServer.io)
+    el_GR: Ungoogled chromium (LinuxServer.io)
+    en_GB: Ungoogled chromium (LinuxServer.io)
+    es_ES: Ungoogled chromium (LinuxServer.io)
+    fr_FR: Ungoogled chromium (LinuxServer.io)
+    ga_IE: Ungoogled chromium (LinuxServer.io)
+    hr_HR: Ungoogled chromium (LinuxServer.io)
+    hu_HU: Ungoogled chromium (LinuxServer.io)
+    it_IT: Ungoogled chromium (LinuxServer.io)
+    ja_JP: Ungoogled chromium (LinuxServer.io)
+    ko_KR: Ungoogled chromium (LinuxServer.io)
+    ml_IN: Ungoogled chromium (LinuxServer.io)
+    nb_NO: Ungoogled chromium (LinuxServer.io)
+    nl_NL: Ungoogled chromium (LinuxServer.io)
+    pl_PL: Ungoogled chromium (LinuxServer.io)
+    pt_BR: Ungoogled chromium (LinuxServer.io)
+    ro_RO: Ungoogled chromium (LinuxServer.io)
+    ru_RU: Ungoogled chromium (LinuxServer.io)
+    sk_SK: Ungoogled chromium (LinuxServer.io)
+    sv_SE: Ungoogled chromium (LinuxServer.io)
+    tr_TR: Ungoogled chromium (LinuxServer.io)
     zh_CN: Ungoogled chromium（LinuxServer.io）
+    zh_TW: Ungoogled chromium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverungoogledchromium
   port_map: '3000'

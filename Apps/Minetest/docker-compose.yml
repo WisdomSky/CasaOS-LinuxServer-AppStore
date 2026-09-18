@@ -49,9 +49,62 @@ x-casaos:
       Minetest 服务器提供近乎无限世界的方块沙盒游戏与游戏引擎，灵感来自 InfiniMiner、Minecraft 等游戏。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/minetest/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/minetest/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/minetest/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/minetest/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/minetest/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/minetest/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/minetest/'
+    es_ES: 'Visita la página principal: https://hub.docker.com/r/linuxserver/minetest/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/minetest/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/minetest/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/minetest/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/minetest/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/minetest/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/minetest/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/minetest/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/minetest/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/minetest/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/minetest/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/minetest/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/minetest/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/minetest/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/minetest/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/minetest/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/minetest/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/minetest/'
+    zh_TW: |-
+      Minetest 伺服器提供近乎無限世界的方塊沙盒遊戲與遊戲引擎，靈感來自 InfiniMiner、Minecraft 等遊戲。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/minetest/
   tagline:
     en_US: '(server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like. '
     zh_CN: 拥有近乎无限世界的方块沙盒游戏与引擎。
+    ca_ES: (servidor) és un joc de tipus sandbox de blocs de món gairebé infinit i un motor de joc, inspirat en InfiniMiner, Minecraft i similars.
+    cs_CZ: (server) je bloková sandboxová hra a herní engine s téměř nekonečným světem, inspirovaná InfiniMinerem, Minecraftem a podobnými hrami.
+    da_DK: (server) er et næsten uendelig-verden blok-sandkassespil og en spilmotor, inspireret af InfiniMiner, Minecraft og lignende.
+    de_DE: (Server) ist ein Block-Sandbox-Spiel mit nahezu unendlicher Welt und eine Spiel-Engine, inspiriert von InfiniMiner, Minecraft und ähnlichen Spielen.
+    el_GR: Το (server) είναι ένα παιχνίδι sandbox με σχεδόν άπειρο κόσμο και μια μηχανή παιχνιδιών, εμπνευσμένη από το InfiniMiner, το Minecraft και τα παρόμοια.
+    en_GB: '(server) is a near-infinite-world block sandbox game and a game engine, inspired by Infiniminer, Minecraft, and the like. '
+    es_ES: (servidor) es un juego sandbox de bloques de mundo casi infinito y un motor de juego, inspirado en InfiniMiner, Minecraft y similares.
+    fr_FR: (serveur) est un jeu de type bac à sable à monde quasi infini et un moteur de jeu, inspiré par InfiniMiner, Minecraft et autres.
+    ga_IE: Is cluiche bosca gainimh bloc beagnach gan teorainn agus inneall cluiche é (freastalaí), spreagtha ag InfiniMiner, Minecraft, agus a leithéidí.
+    hr_HR: (server) je igra s gotovo beskonačnim svijetom blokova i sandboxa, inspirirana InfiniMinerom, Minecraftom i sličnim igrama.
+    hu_HU: A (szerver) egy közel végtelen világú blokk sandbox játék és játékmotor, amelyet az InfiniMiner, a Minecraft és hasonlók ihlettek.
+    it_IT: (server) è un gioco sandbox a blocchi con un mondo quasi infinito e un motore di gioco, ispirato a InfiniMiner, Minecraft e simili.
+    ja_JP: （サーバー）は、InfiniMiner、Minecraftなどに触発された、ほぼ無限の世界のブロックサンドボックスゲームおよびゲームエンジンです。
+    ko_KR: (서버)는 InfiniMiner, Minecraft 등에서 영감을 받은 거의 무한한 세계를 가진 블록 샌드박스 게임이자 게임 엔진입니다.
+    ml_IN: (സെർവർ) എന്നത് ഇൻഫിനിമൈനർ, മൈൻക്രാഫ്റ്റ് എന്നിവയിൽ നിന്ന് പ്രചോദനം ഉൾക്കൊണ്ട ഒരു അനന്തമായ ലോക ബ്ലോക്ക് സാൻഡ്‌ബോക്‌സ് ഗെയിമും ഗെയിം എഞ്ചിനുമാണ്.
+    nb_NO: (server) er et nesten uendelig-verden blokk-sandkassespill og en spillmotor, inspirert av InfiniMiner, Minecraft og lignende.
+    nl_NL: (server) is een blokkensandboxspel met een bijna oneindige wereld en een bijbehorende game-engine, geïnspireerd door InfiniMiner, Minecraft en soortgelijke spellen.
+    pl_PL: (serwer) jest grą typu sandbox o niemal nieskończonym świecie bloków i silnikiem gry, inspirowaną InfiniMiner, Minecraft i podobnymi grami.
+    pt_BR: (server) é um jogo sandbox de blocos com um mundo quase infinito e um motor de jogo, inspirado em InfiniMiner, Minecraft e similares.
+    ro_RO: (server) este un joc sandbox cu blocuri, cu o lume aproape infinită, și un motor de joc, inspirat de InfiniMiner, Minecraft și altele asemenea.
+    ru_RU: (сервер) — это блочная песочница с почти бесконечным миром и игровой движок, вдохновлённый InfiniMiner, Minecraft и подобными играми.
+    sk_SK: (server) je hra s takmer nekonečným svetom typu blokový sandbox a herný engine, inšpirovaný hrami InfiniMiner, Minecraft a podobnými.
+    sv_SE: (server) är ett sandboxspel med en nästan oändlig värld och en spelmotor, inspirerad av InfiniMiner, Minecraft och liknande.
+    tr_TR: (Sunucu), InfiniMiner, Minecraft ve benzerlerinden esinlenilmiş, neredeyse sonsuz bir dünyaya sahip blok tabanlı bir kum havuzu oyunu ve oyun motorudur.
+    zh_TW: 擁有近乎無限世界的方塊沙盒遊戲與引擎。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png
@@ -59,6 +112,31 @@ x-casaos:
   title:
     en_US: Minetest
     zh_CN: Minetest
+    ca_ES: Minetest
+    cs_CZ: Minetest
+    da_DK: Minetest
+    de_DE: Minetest
+    el_GR: Minetest
+    en_GB: Minetest
+    es_ES: Minetest
+    fr_FR: Minetest
+    ga_IE: Minetest
+    hr_HR: Minetest
+    hu_HU: Minetest
+    it_IT: Minetest
+    ja_JP: Minetest
+    ko_KR: Minetest
+    ml_IN: Minetest
+    nb_NO: Minetest
+    nl_NL: Minetest
+    pl_PL: Minetest
+    pt_BR: Minetest
+    ro_RO: Minetest
+    ru_RU: Minetest
+    sk_SK: Minetest
+    sv_SE: Minetest
+    tr_TR: Minetest
+    zh_TW: Minetest
   category: Others
   project_url: http://www.minetest.net/
   id: wisdomsky.linuxserver.linuxserverminetest

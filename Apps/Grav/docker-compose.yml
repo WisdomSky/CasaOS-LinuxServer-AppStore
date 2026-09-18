@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Grav is a Fast, Simple, and Flexible, file-based Web-platform.
+    ca_ES: Grav és una plataforma web ràpida, senzilla i flexible basada en fitxers.
+    cs_CZ: Grav je rychlá, jednoduchá a flexibilní webová platforma založená na souborech.
+    da_DK: Grav er en hurtig, enkel og fleksibel, filbaseret webplatform.
+    de_DE: Grav ist eine schnelle, einfache und flexible, dateibasierte Webplattform.
+    el_GR: Το Grav είναι μια γρήγορη, απλή και ευέλικτη διαδικτυακή πλατφόρμα που βασίζεται σε αρχεία.
+    en_GB: Grav is a Fast, Simple, and Flexible, file-based Web-platform.
+    es_ES: Grav es una plataforma web rápida, sencilla y flexible, basada en archivos.
+    fr_FR: Grav est une plateforme Web rapide, simple et flexible, basée sur les fichiers.
+    ga_IE: Is ardán Gréasáin atá gasta, simplí agus solúbtha, bunaithe ar chomhaid é Grav.
+    hr_HR: Grav je brza, jednostavna i fleksibilna web platforma temeljena na datotekama.
+    hu_HU: A Grav egy gyors, egyszerű és rugalmas, fájl alapú webplatform.
+    it_IT: Grav è una piattaforma web basata su file, veloce, semplice e flessibile.
+    ja_JP: Gravは、高速でシンプルかつ柔軟なファイルベースのWebプラットフォームです。
+    ko_KR: Grav는 빠르고 간편하며 유연한 파일 기반 웹 플랫폼입니다.
+    ml_IN: ഗ്രാവ് വേഗതയേറിയതും ലളിതവും വഴക്കമുള്ളതുമായ ഫയൽ അധിഷ്ഠിത വെബ്-പ്ലാറ്റ്‌ഫോമാണ്.
+    nb_NO: Grav er en rask, enkel og fleksibel, filbasert nettplattform.
+    nl_NL: Grav is een snel, eenvoudig en flexibel, op bestanden gebaseerd webplatform.
+    pl_PL: Grav to szybka, prosta i elastyczna platforma internetowa oparta na plikach.
+    pt_BR: Grav é uma plataforma web baseada em arquivos, rápida, simples e flexível.
+    ro_RO: Grav este o platformă web rapidă, simplă și flexibilă, bazată pe fișiere.
+    ru_RU: Grav — это быстрая, простая и гибкая веб-платформа, основанная на работе с файлами.
+    sk_SK: Grav je rýchla, jednoduchá a flexibilná webová platforma založená na súboroch.
+    sv_SE: Grav är en snabb, enkel och flexibel, filbaserad webbplattform.
+    tr_TR: Grav, hızlı, basit ve esnek, dosya tabanlı bir web platformudur.
     zh_CN: Grav 是一个基于文件的网页平台，强调快速、简单和灵活。
+    zh_TW: Grav 是一個基於檔案的網頁平臺，強調快速、簡單和靈活。
   tagline:
     en_US: A Fast, Simple, and Flexible, file-based Web-platform.
+    ca_ES: Una plataforma web ràpida, senzilla i flexible, basada en fitxers.
+    cs_CZ: Rychlá, jednoduchá a flexibilní webová platforma založená na souborech.
+    da_DK: En hurtig, enkel og fleksibel, filbaseret webplatform.
+    de_DE: Eine schnelle, einfache und flexible, dateibasierte Webplattform.
+    el_GR: Μια γρήγορη, απλή και ευέλικτη πλατφόρμα ιστού που βασίζεται σε αρχεία.
+    en_GB: A Fast, Simple, and Flexible, file-based Web-platform.
+    es_ES: Una plataforma web rápida, sencilla y flexible, basada en archivos.
+    fr_FR: Une plateforme Web rapide, simple et flexible, basée sur les fichiers.
+    ga_IE: Ardán Gréasáin atá tapa, simplí agus solúbtha, bunaithe ar chomhaid.
+    hr_HR: Brza, jednostavna i fleksibilna web-platforma temeljena na datotekama.
+    hu_HU: Gyors, egyszerű és rugalmas, fájl alapú webplatform.
+    it_IT: Una piattaforma web veloce, semplice e flessibile, basata su file.
+    ja_JP: 高速、シンプル、そして柔軟なファイルベースのWebプラットフォーム。
+    ko_KR: 빠르고 간편하며 유연한 파일 기반 웹 플랫폼.
+    ml_IN: വേഗതയേറിയതും ലളിതവും വഴക്കമുള്ളതുമായ ഫയൽ അധിഷ്ഠിത വെബ്-പ്ലാറ്റ്ഫോം.
+    nb_NO: En rask, enkel og fleksibel, filbasert nettplattform.
+    nl_NL: Een snel, eenvoudig en flexibel, op bestanden gebaseerd webplatform.
+    pl_PL: Szybka, prosta i elastyczna platforma internetowa oparta na plikach.
+    pt_BR: Uma plataforma web baseada em arquivos, rápida, simples e flexível.
+    ro_RO: O platformă web rapidă, simplă și flexibilă, bazată pe fișiere.
+    ru_RU: Быстрая, простая и гибкая веб-платформа на основе файлов.
+    sk_SK: Rýchla, jednoduchá a flexibilná webová platforma založená na súboroch.
+    sv_SE: En snabb, enkel och flexibel, filbaserad webbplattform.
+    tr_TR: Hızlı, basit ve esnek, dosya tabanlı bir web platformu.
     zh_CN: 快速、简单、灵活的文件式网站平台。
+    zh_TW: 快速、簡單、靈活的檔案式網站平臺。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
   title:
     en_US: Grav (LinuxServer.io)
+    ca_ES: Grav (LinuxServer.io)
+    cs_CZ: Grav (LinuxServer.io)
+    da_DK: Grav (LinuxServer.io)
+    de_DE: Grav (LinuxServer.io)
+    el_GR: Grav (LinuxServer.io)
+    en_GB: Grav (LinuxServer.io)
+    es_ES: Grav (LinuxServer.io)
+    fr_FR: Grav (LinuxServer.io)
+    ga_IE: Grav (LinuxServer.io)
+    hr_HR: Grav (LinuxServer.io)
+    hu_HU: Grav (LinuxServer.io)
+    it_IT: Grav (LinuxServer.io)
+    ja_JP: Grav (LinuxServer.io)
+    ko_KR: Grav (LinuxServer.io)
+    ml_IN: Grav (LinuxServer.io)
+    nb_NO: Grav (LinuxServer.io)
+    nl_NL: Grav (LinuxServer.io)
+    pl_PL: Grav (LinuxServer.io)
+    pt_BR: Grav (LinuxServer.io)
+    ro_RO: Grav (LinuxServer.io)
+    ru_RU: Grav (LinuxServer.io)
+    sk_SK: Grav (LinuxServer.io)
+    sv_SE: Grav (LinuxServer.io)
+    tr_TR: Grav (LinuxServer.io)
     zh_CN: Grav（LinuxServer.io）
+    zh_TW: Grav（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergrav
   port_map: '80'

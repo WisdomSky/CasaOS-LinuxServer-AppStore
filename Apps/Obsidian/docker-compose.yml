@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.
+    ca_ES: Obsidian és una aplicació per prendre notes que et permet crear, enllaçar i organitzar les teves notes al teu dispositiu, amb centenars de complements i temes per personalitzar el teu flux de treball. També pots publicar les teves notes en línia, accedir-hi fora de línia i sincronitzar-les de manera segura amb xifratge de principi a fi.
+    cs_CZ: Obsidian je aplikace pro psaní poznámek, která vám umožňuje vytvářet, propojovat a organizovat poznámky v zařízení pomocí stovek pluginů a šablon pro přizpůsobení pracovního postupu. Své poznámky můžete také publikovat online, přistupovat k nim offline a bezpečně je synchronizovat pomocí end-to-end šifrování.
+    da_DK: Obsidian er en note-app, der giver dig mulighed for at oprette, linke og organisere dine noter på din enhed med hundredvis af plugins og temaer, der kan tilpasse din arbejdsgang. Du kan også udgive dine noter online, få adgang til dem offline og synkronisere dem sikkert med end-to-end-kryptering.
+    de_DE: Obsidian ist eine Notiz-App, mit der Sie Ihre Notizen auf Ihrem Gerät erstellen, verknüpfen und organisieren können. Hunderte von Plugins und Designs ermöglichen die individuelle Anpassung Ihres Workflows. Sie können Ihre Notizen online veröffentlichen, offline darauf zugreifen und sie dank Ende-zu-Ende-Verschlüsselung sicher synchronisieren.
+    el_GR: Το Obsidian είναι μια εφαρμογή λήψης σημειώσεων που σας επιτρέπει να δημιουργείτε, να συνδέετε και να οργανώνετε τις σημειώσεις σας στη συσκευή σας, με εκατοντάδες πρόσθετα και θέματα για να προσαρμόσετε τη ροή εργασίας σας. Μπορείτε επίσης να δημοσιεύσετε τις σημειώσεις σας στο διαδίκτυο, να έχετε πρόσβαση σε αυτές εκτός σύνδεσης και να τις συγχρονίσετε με ασφάλεια με κρυπτογράφηση από άκρο σε άκρο.
+    en_GB: Obsidian is a note-taking app that lets you create, link, and organise your notes on your device, with hundreds of plugins and themes to customise your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.
+    es_ES: Obsidian es una aplicación para tomar notas que te permite crear, vincular y organizar tus apuntes en tu dispositivo, con cientos de complementos y temas para personalizar tu flujo de trabajo. También puedes publicar tus notas en línea, acceder a ellas sin conexión y sincronizarlas de forma segura con cifrado de extremo a extremo.
+    fr_FR: Obsidian est une application de prise de notes qui vous permet de créer, de lier et d'organiser vos notes sur votre appareil, grâce à des centaines d'extensions et de thèmes pour personnaliser votre flux de travail. Vous pouvez également publier vos notes en ligne, y accéder hors ligne et les synchroniser en toute sécurité grâce au chiffrement de bout en bout.
+    ga_IE: Is aip nótaí é Obsidian a ligeann duit do nótaí a chruthú, a nascadh agus a eagrú ar do ghléas, le na céadta breiseán agus téama chun do shreabhadh oibre a shaincheapadh. Is féidir leat do nótaí a fhoilsiú ar líne freisin, rochtain a fháil orthu as líne, agus iad a shioncronú go slán le criptiú ó cheann ceann go ceann.
+    hr_HR: Obsidian je aplikacija za bilješke koja vam omogućuje stvaranje, povezivanje i organiziranje bilješki na vašem uređaju, sa stotinama dodataka i tema za prilagodbu vašeg tijeka rada. Također možete objavljivati svoje bilješke online, pristupati im offline i sigurno ih sinkronizirati pomoću end-to-end enkripcije.
+    hu_HU: Az Obsidian egy jegyzetelő alkalmazás, amellyel jegyzeteket hozhatsz létre, kapcsolhatsz össze és rendszerezhetsz az eszközödön, több száz bővítménnyel és témával a munkafolyamat testreszabásához. Jegyzeteidet online is közzéteheted, offline is elérheted, és biztonságosan szinkronizálhatod őket végpontok közötti titkosítással.
+    it_IT: Obsidian è un'app per prendere appunti che ti permette di creare, collegare e organizzare le tue note sul tuo dispositivo, con centinaia di plugin e temi per personalizzare il tuo flusso di lavoro. Puoi anche pubblicare le tue note online, accedervi offline e sincronizzarle in modo sicuro con la crittografia end-to-end.
+    ja_JP: Obsidianは、デバイス上でメモを作成、リンク、整理できるノートアプリです。数百種類のプラグインとテーマでワークフローをカスタマイズできます。また、メモをオンラインで公開したり、オフラインでアクセスしたり、エンドツーエンド暗号化で安全に同期したりすることも可能です。
+    ko_KR: Obsidian은 기기에서 메모를 작성하고, 연결하고, 정리할 수 있는 메모 작성 앱입니다. 수백 가지의 플러그인과 테마를 통해 작업 흐름을 맞춤 설정할 수 있으며, 메모를 온라인에 게시하고 오프라인에서 액세스할 수 있을 뿐 아니라 종단 간 암호화를 통해 안전하게 동기화할 수도 있습니다.
+    ml_IN: നിങ്ങളുടെ വർക്ക്ഫ്ലോ ഇഷ്ടാനുസൃതമാക്കാൻ നൂറുകണക്കിന് പ്ലഗിനുകളും തീമുകളും ഉപയോഗിച്ച് നിങ്ങളുടെ ഉപകരണത്തിൽ കുറിപ്പുകൾ സൃഷ്ടിക്കാനും ലിങ്ക് ചെയ്യാനും ഓർഗനൈസ് ചെയ്യാനും നിങ്ങളെ അനുവദിക്കുന്ന ഒരു കുറിപ്പ് എടുക്കൽ ആപ്പാണ് ഒബ്സിഡിയൻ. നിങ്ങൾക്ക് നിങ്ങളുടെ കുറിപ്പുകൾ ഓൺലൈനായി പ്രസിദ്ധീകരിക്കാനും ഓഫ്‌ലൈനിൽ ആക്‌സസ് ചെയ്യാനും എൻഡ്-ടു-എൻഡ് എൻക്രിപ്ഷൻ ഉപയോഗിച്ച് സുരക്ഷിതമായി സമന്വയിപ്പിക്കാനും കഴിയും.
+    nb_NO: Obsidian er en notatapp som lar deg opprette, koble til og organisere notater på enheten din, med hundrevis av programtillegg og temaer for å tilpasse arbeidsflyten din. Du kan også publisere notatene dine på nettet, få tilgang til dem offline og synkronisere dem sikkert med ende-til-ende-kryptering.
+    nl_NL: Obsidian is een notitie-app waarmee je notities kunt maken, koppelen en organiseren op je apparaat, met honderden plug-ins en thema's om je workflow aan te passen. Je kunt je notities ook online publiceren, offline raadplegen en veilig synchroniseren met end-to-end-versleuteling.
+    pl_PL: Obsidian to aplikacja do robienia notatek, która pozwala tworzyć, łączyć i porządkować notatki na urządzeniu, oferując setki wtyczek i motywów, które dostosują Twój proces pracy. Możesz również publikować notatki online, uzyskiwać do nich dostęp offline i bezpiecznie synchronizować je dzięki pełnemu szyfrowaniu.
+    pt_BR: O Obsidian é um aplicativo para anotações que permite criar, vincular e organizar suas notas no seu dispositivo, com centenas de plugins e temas para personalizar seu fluxo de trabalho. Você também pode publicar suas notas online, acessá-las offline e sincronizá-las com segurança usando criptografia de ponta a ponta.
+    ro_RO: Obsidian este o aplicație de luare de notițe care îți permite să creezi, să conectezi și să organizezi notițele pe dispozitiv, cu sute de pluginuri și teme pentru a-ți personaliza fluxul de lucru. De asemenea, poți să-ți publici notițele online, să le accesezi offline și să le sincronizezi în siguranță cu criptare end-to-end.
+    ru_RU: Obsidian — это приложение для создания заметок, позволяющее создавать, связывать и систематизировать заметки на вашем устройстве, с сотнями плагинов и тем для настройки рабочего процесса. Вы также можете публиковать свои заметки онлайн, получать к ним доступ в автономном режиме и безопасно синхронизировать их с помощью сквозного шифрования.
+    sk_SK: Obsidian je aplikácia na zapisovanie poznámok, ktorá vám umožňuje vytvárať, prepájať a organizovať poznámky na vašom zariadení pomocou stoviek doplnkov a tém na prispôsobenie vášho pracovného postupu. Svoje poznámky môžete tiež publikovať online, pristupovať k nim offline a bezpečne ich synchronizovať pomocou šifrovania end-to-end.
+    sv_SE: Obsidian är en anteckningsapp som låter dig skapa, länka och organisera dina anteckningar på din enhet, med hundratals plugins och teman för att anpassa ditt arbetsflöde. Du kan också publicera dina anteckningar online, komma åt dem offline och synkronisera dem säkert med end-to-end-kryptering.
+    tr_TR: Obsidian, yüzlerce eklenti ve tema ile iş akışınızı özelleştirmenize olanak tanıyan, cihazınızda notlar oluşturmanıza, bağlantı kurmanıza ve düzenlemenize imkan veren bir not alma uygulamasıdır. Ayrıca notlarınızı çevrimiçi olarak yayınlayabilir, çevrimdışı olarak erişebilir ve uçtan uca şifreleme ile güvenli bir şekilde senkronize edebilirsiniz.
     zh_CN: Obsidian 是一款笔记应用，可在自己的设备上创建、关联和整理笔记，并通过数百种插件和主题定制工作流程。你还可以在线发布笔记、离线访问笔记，并使用端到端加密进行安全同步。
+    zh_TW: Obsidian 是一款筆記應用，可在自己的裝置上建立、關聯和整理筆記，並透過數百種外掛和主題定製工作流程。你還可以線上釋出筆記、離線訪問筆記，並使用端到端加密進行安全同步。
   tagline:
     en_US: A note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.
+    ca_ES: Una aplicació per prendre notes que et permet crear, enllaçar i organitzar les teves notes al dispositiu, amb centenars de complements i temes per personalitzar el teu flux de treball. També pots publicar les teves notes en línia, accedir-hi fora de línia i sincronitzar-les de manera segura amb xifratge de principi a fi.
+    cs_CZ: Aplikace pro psaní poznámek, která vám umožňuje vytvářet, propojovat a organizovat poznámky v zařízení. Nabízí stovky pluginů a šablon pro přizpůsobení pracovního postupu. Své poznámky můžete také publikovat online, přistupovat k nim offline a bezpečně je synchronizovat pomocí end-to-end šifrování.
+    da_DK: En note-app, der giver dig mulighed for at oprette, linke og organisere dine noter på din enhed med hundredvis af plugins og temaer, der kan tilpasse din arbejdsgang. Du kan også udgive dine noter online, få adgang til dem offline og synkronisere dem sikkert med end-to-end-kryptering.
+    de_DE: Eine Notiz-App, mit der Sie Ihre Notizen auf Ihrem Gerät erstellen, verknüpfen und organisieren können. Hunderte von Plugins und Designs ermöglichen die individuelle Anpassung Ihres Workflows. Sie können Ihre Notizen online veröffentlichen, offline darauf zugreifen und sie dank Ende-zu-Ende-Verschlüsselung sicher synchronisieren.
+    el_GR: Μια εφαρμογή λήψης σημειώσεων που σας επιτρέπει να δημιουργείτε, να συνδέετε και να οργανώνετε τις σημειώσεις σας στη συσκευή σας, με εκατοντάδες πρόσθετα και θέματα για να προσαρμόσετε τη ροή εργασίας σας. Μπορείτε επίσης να δημοσιεύσετε τις σημειώσεις σας στο διαδίκτυο, να έχετε πρόσβαση σε αυτές εκτός σύνδεσης και να τις συγχρονίζετε με ασφάλεια με κρυπτογράφηση από άκρο σε άκρο.
+    en_GB: A note-taking app that lets you create, link, and organise your notes on your device, with hundreds of plugins and themes to customise your workflow. You can also publish your notes online, access them offline, and sync them securely with end-to-end encryption.
+    es_ES: Una aplicación para tomar notas que te permite crear, vincular y organizar tus apuntes en tu dispositivo, con cientos de complementos y temas para personalizar tu flujo de trabajo. También puedes publicar tus notas en línea, acceder a ellas sin conexión y sincronizarlas de forma segura con cifrado de extremo a extremo.
+    fr_FR: Une application de prise de notes qui vous permet de créer, de lier et d'organiser vos notes sur votre appareil, avec des centaines d'extensions et de thèmes pour personnaliser votre flux de travail. Vous pouvez également publier vos notes en ligne, y accéder hors ligne et les synchroniser en toute sécurité grâce au chiffrement de bout en bout.
+    ga_IE: Aip nótaí a ligeann duit do nótaí a chruthú, a nascadh agus a eagrú ar do ghléas, le na céadta breiseán agus téama chun do shreabhadh oibre a shaincheapadh. Is féidir leat do nótaí a fhoilsiú ar líne freisin, rochtain a fháil orthu as líne, agus iad a shioncronú go slán le criptiú ó cheann ceann go ceann.
+    hr_HR: Aplikacija za bilješke koja vam omogućuje stvaranje, povezivanje i organiziranje bilješki na vašem uređaju, sa stotinama dodataka i tema za prilagodbu vašeg tijeka rada. Također možete objavljivati svoje bilješke online, pristupati im offline i sigurno ih sinkronizirati uz end-to-end enkripciju.
+    hu_HU: Egy jegyzetkészítő alkalmazás, amellyel jegyzeteket hozhatsz létre, csatolhatsz és rendszerezhetsz az eszközödön, több száz bővítménnyel és témával a munkafolyamat testreszabásához. Jegyzeteidet online is közzéteheted, offline is elérheted, és biztonságosan szinkronizálhatod őket végpontok közötti titkosítással.
+    it_IT: Un'app per prendere appunti che ti permette di creare, collegare e organizzare le tue note sul dispositivo, con centinaia di plugin e temi per personalizzare il tuo flusso di lavoro. Puoi anche pubblicare le tue note online, accedervi offline e sincronizzarle in modo sicuro con la crittografia end-to-end.
+    ja_JP: デバイス上でメモを作成、リンク、整理できるメモアプリ。数百種類のプラグインとテーマでワークフローをカスタマイズできます。メモはオンラインで公開したり、オフラインでアクセスしたり、エンドツーエンド暗号化で安全に同期することも可能です。
+    ko_KR: 이 필기 앱을 사용하면 기기에서 메모를 작성하고, 연결하고, 정리할 수 있으며, 수백 가지의 플러그인과 테마로 작업 흐름을 맞춤 설정할 수 있습니다. 또한 메모를 온라인에 게시하고, 오프라인에서 액세스하고, 종단 간 암호화를 통해 안전하게 동기화할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ വർക്ക്ഫ്ലോ ഇഷ്ടാനുസൃതമാക്കാൻ നൂറുകണക്കിന് പ്ലഗിനുകളും തീമുകളും ഉപയോഗിച്ച് നിങ്ങളുടെ ഉപകരണത്തിൽ കുറിപ്പുകൾ സൃഷ്ടിക്കാനും ലിങ്ക് ചെയ്യാനും ഓർഗനൈസ് ചെയ്യാനും നിങ്ങളെ അനുവദിക്കുന്ന ഒരു കുറിപ്പെടുക്കൽ ആപ്പ്. നിങ്ങൾക്ക് നിങ്ങളുടെ കുറിപ്പുകൾ ഓൺലൈനായി പ്രസിദ്ധീകരിക്കാനും ഓഫ്‌ലൈനിൽ ആക്‌സസ് ചെയ്യാനും എൻഡ്-ടു-എൻഡ് എൻക്രിപ്ഷൻ ഉപയോഗിച്ച് സുരക്ഷിതമായി സമന്വയിപ്പിക്കാനും കഴിയും.
+    nb_NO: En notatapp som lar deg opprette, koble til og organisere notater på enheten din, med hundrevis av programtillegg og temaer for å tilpasse arbeidsflyten din. Du kan også publisere notatene dine på nettet, få tilgang til dem offline og synkronisere dem sikkert med ende-til-ende-kryptering.
+    nl_NL: Een notitie-app waarmee je notities kunt maken, koppelen en organiseren op je apparaat, met honderden plug-ins en thema's om je workflow aan te passen. Je kunt je notities ook online publiceren, offline raadplegen en veilig synchroniseren met end-to-end-versleuteling.
+    pl_PL: Aplikacja do robienia notatek, która pozwala tworzyć, łączyć i porządkować notatki na urządzeniu, z setkami wtyczek i motywów, które dostosowują Twój proces pracy. Możesz również publikować notatki online, uzyskiwać do nich dostęp offline i bezpiecznie synchronizować je dzięki pełnemu szyfrowaniu.
+    pt_BR: Um aplicativo para anotações que permite criar, vincular e organizar suas notas no seu dispositivo, com centenas de plugins e temas para personalizar seu fluxo de trabalho. Você também pode publicar suas notas online, acessá-las offline e sincronizá-las com segurança usando criptografia de ponta a ponta.
+    ro_RO: O aplicație de luare de notițe care îți permite să creezi, să conectezi și să organizezi notițele pe dispozitiv, cu sute de pluginuri și teme pentru a-ți personaliza fluxul de lucru. De asemenea, poți să-ți publici notițele online, să le accesezi offline și să le sincronizezi în siguranță cu criptare end-to-end.
+    ru_RU: Приложение для создания заметок, позволяющее создавать, связывать и систематизировать заметки на вашем устройстве, с сотнями плагинов и тем для настройки рабочего процесса. Вы также можете публиковать свои заметки онлайн, получать к ним доступ в автономном режиме и безопасно синхронизировать их с помощью сквозного шифрования.
+    sk_SK: Aplikácia na zapisovanie poznámok, ktorá vám umožňuje vytvárať, prepájať a organizovať poznámky na vašom zariadení so stovkami doplnkov a tém na prispôsobenie vášho pracovného postupu. Svoje poznámky môžete tiež publikovať online, pristupovať k nim offline a bezpečne ich synchronizovať pomocou šifrovania end-to-end.
+    sv_SE: En anteckningsapp som låter dig skapa, länka och organisera dina anteckningar på din enhet, med hundratals plugin-program och teman för att anpassa ditt arbetsflöde. Du kan också publicera dina anteckningar online, komma åt dem offline och synkronisera dem säkert med end-to-end-kryptering.
+    tr_TR: Cihazınızda notlar oluşturmanıza, bağlantı kurmanıza ve düzenlemenize olanak tanıyan, yüzlerce eklenti ve temayla iş akışınızı özelleştirebileceğiniz bir not alma uygulaması. Ayrıca notlarınızı çevrimiçi olarak yayınlayabilir, çevrimdışı olarak erişebilir ve uçtan uca şifreleme ile güvenli bir şekilde senkronize edebilirsiniz.
     zh_CN: 在本地创建、关联和整理笔记。
+    zh_TW: 在本地建立、關聯和整理筆記。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/obsidian-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/obsidian-logo.png
   title:
     en_US: Obsidian (LinuxServer.io)
+    ca_ES: Obsidian (LinuxServer.io)
+    cs_CZ: Obsidian (LinuxServer.io)
+    da_DK: Obsidian (LinuxServer.io)
+    de_DE: Obsidian (LinuxServer.io)
+    el_GR: Obsidian (LinuxServer.io)
+    en_GB: Obsidian (LinuxServer.io)
+    es_ES: Obsidian (LinuxServer.io)
+    fr_FR: Obsidian (LinuxServer.io)
+    ga_IE: Obsidian (LinuxServer.io)
+    hr_HR: Obsidian (LinuxServer.io)
+    hu_HU: Obsidian (LinuxServer.io)
+    it_IT: Obsidian (LinuxServer.io)
+    ja_JP: Obsidian (LinuxServer.io)
+    ko_KR: Obsidian (LinuxServer.io)
+    ml_IN: Obsidian (LinuxServer.io)
+    nb_NO: Obsidian (LinuxServer.io)
+    nl_NL: Obsidian (LinuxServer.io)
+    pl_PL: Obsidian (LinuxServer.io)
+    pt_BR: Obsidian (LinuxServer.io)
+    ro_RO: Obsidian (LinuxServer.io)
+    ru_RU: Obsidian (LinuxServer.io)
+    sk_SK: Obsidian (LinuxServer.io)
+    sv_SE: Obsidian (LinuxServer.io)
+    tr_TR: Obsidian (LinuxServer.io)
     zh_CN: Obsidian（LinuxServer.io）
+    zh_TW: Obsidian（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverobsidian
   port_map: '3000'

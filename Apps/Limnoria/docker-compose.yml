@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Limnoria A robust, full-featured, and user/programmer-friendly Python IRC bot, with many existing plugins. Successor of the well-known Supybot.
+    ca_ES: Limnoria Un bot IRC Python robust, amb totes les funcions i fàcil d'usar/programar, amb molts complements existents. Successor del conegut Supybot.
+    cs_CZ: Limnoria Robustní, plně funkční a uživatelsky/programátorsky přívětivý IRC bot v Pythonu s mnoha existujícími pluginy. Nástupce známého Supybotu.
+    da_DK: Limnoria En robust, fuldt udstyret og bruger-/programmørvenlig Python IRC-bot med mange eksisterende plugins. Efterfølgeren til den velkendte Supybot.
+    de_DE: Limnoria ist ein robuster, funktionsreicher und benutzerfreundlicher Python-IRC-Bot mit zahlreichen Plugins. Er ist der Nachfolger des bekannten Supybot.
+    el_GR: Limnoria Ένα ισχυρό, πλήρως λειτουργικό και φιλικό προς τον χρήστη/προγραμματιστή Python IRC bot, με πολλά υπάρχοντα πρόσθετα. Διάδοχος του γνωστού Supybot.
+    en_GB: Limnoria A robust, full-featured, and user/programmer-friendly Python Irc bot, with many existing plugins. Successor of the well-known Supybot.
+    es_ES: Limnoria es un bot de IRC en Python robusto, completo y fácil de usar tanto para usuarios como para programadores, con numerosos complementos disponibles. Es el sucesor del conocido Supybot.
+    fr_FR: Limnoria est un bot IRC Python robuste, complet et convivial pour les utilisateurs et les programmeurs, doté de nombreux plugins existants. Il succède au célèbre Supybot.
+    ga_IE: Limnoria Bot IRC Python láidir, lán-ghnéitheach, agus atá furasta le húsáid/ríomhchlárú, le go leor breiseán atá ann cheana féin. Comharba an Supybot aitheanta.
+    hr_HR: Limnoria Robustan, potpuno opremljen i korisniku/programeru prilagođen Python IRC bot, s mnogim postojećim dodacima. Nasljednik dobro poznatog Supybota.
+    hu_HU: Limnoria Egy robusztus, teljes funkcionalitású és felhasználó-/programozóbarát Python IRC bot, számos meglévő bővítménnyel. A jól ismert Supybot utódja.
+    it_IT: Limnoria è un bot IRC Python robusto, completo e facile da usare sia per gli utenti che per i programmatori, con numerosi plugin già disponibili. È il successore del noto Supybot.
+    ja_JP: Limnoriaは、堅牢で多機能、かつユーザーとプログラマーにとって使いやすいPython製IRCボットで、多くの既存プラグインを備えています。有名なSupybotの後継です。
+    ko_KR: Limnoria는 강력하고 다양한 기능을 갖춘 사용자/프로그래머 친화적인 Python IRC 봇으로, 다양한 플러그인이 이미 제공됩니다. 유명한 Supybot의 후속 제품입니다.
+    ml_IN: ലിംനോറിയ നിലവിലുള്ള നിരവധി പ്ലഗിനുകളുള്ള, കരുത്തുറ്റതും, പൂർണ്ണ സവിശേഷതയുള്ളതും, ഉപയോക്തൃ/പ്രോഗ്രാമർ-സൗഹൃദവുമായ പൈത്തൺ ഐആർസി ബോട്ട്. അറിയപ്പെടുന്ന സൂപ്പർബോട്ടിന്റെ പിൻഗാമി.
+    nb_NO: Limnoria En robust, funksjonsrik og bruker-/programmeringsvennlig Python IRC-bot med mange eksisterende programtillegg. Etterfølgeren til den velkjente Supybot.
+    nl_NL: Limnoria is een robuuste, complete en gebruiksvriendelijke Python IRC-bot voor zowel gebruikers als programmeurs, met veel bestaande plugins. Het is de opvolger van de bekende Supybot.
+    pl_PL: Limnoria – solidny, w pełni funkcjonalny i przyjazny dla użytkownika/programisty bot IRC w Pythonie, z wieloma istniejącymi wtyczkami. Następca znanego Supybota.
+    pt_BR: Limnoria é um bot de IRC em Python robusto, completo e fácil de usar/programar, com muitos plugins já existentes. Sucessor do conhecido Supybot.
+    ro_RO: Limnoria Un bot IRC Python robust, complet funcțional și ușor de utilizat/programat, cu multe plugin-uri existente. Succesorul cunoscutului Supybot.
+    ru_RU: Limnoria — это надёжный, полнофункциональный и удобный для пользователя/программиста IRC-бот на Python с множеством существующих плагинов. Преемник известного Supybot.
+    sk_SK: Limnoria Robustný, plne funkčný a užívateľsky/programátorsky prívetivý IRC bot v jazyku Python s mnohými existujúcimi pluginmi. Nástupca známeho Supybota.
+    sv_SE: Limnoria En robust, fullfjädrad och användar-/programmeringsvänlig Python IRC-bot, med många befintliga plugins. Efterföljaren till den välkända Supybot.
+    tr_TR: Limnoria, çok sayıda eklentisi bulunan, sağlam, özellikli ve kullanıcı/programcı dostu bir Python IRC botudur. Tanınmış Supybot'un halefidir.
     zh_CN: Limnoria 是一个稳健、功能完整且对用户和开发者友好的 Python IRC 机器人，已有大量插件。它是知名项目 Supybot 的继任者。
+    zh_TW: Limnoria 是一個穩健、功能完整且對使用者和開發者友好的 Python IRC 機器人，已有大量外掛。它是知名專案 Supybot 的繼任者。
   tagline:
     en_US: A robust, full-featured, and user/programmer-friendly Python IRC bot, with many existing plugins. Successor of the well-known Supybot.
+    ca_ES: Un bot IRC Python robust, complet i fàcil d'usar per a l'usuari/programador, amb molts complements existents. Successor del conegut Supybot.
+    cs_CZ: Robustní, plně funkční a uživatelsky/programátorsky přívětivý IRC bot v Pythonu s mnoha existujícími pluginy. Nástupce známého Supybota.
+    da_DK: En robust, fuldt udstyret og bruger-/programmørvenlig Python IRC-bot med mange eksisterende plugins. Efterfølgeren til den velkendte Supybot.
+    de_DE: Ein robuster, funktionsreicher und benutzerfreundlicher Python-IRC-Bot mit vielen bestehenden Plugins. Nachfolger des bekannten Supybot.
+    el_GR: Ένα ισχυρό, πλήρως λειτουργικό και φιλικό προς τον χρήστη/προγραμματιστή Python IRC bot, με πολλά υπάρχοντα πρόσθετα (plugins). Διάδοχος του γνωστού Supybot.
+    en_GB: A robust, full-featured, and user/programmer-friendly Python Irc bot, with many existing plugins. Successor of the well-known Supybot.
+    es_ES: Un bot de IRC en Python robusto, completo y fácil de usar tanto para usuarios como para programadores, con numerosos complementos ya existentes. Sucesor del conocido Supybot.
+    fr_FR: Un bot IRC Python robuste, complet et convivial pour les utilisateurs et les programmeurs, avec de nombreux plugins existants. Successeur du célèbre Supybot.
+    ga_IE: Bot IRC Python láidir, lán-ghnéitheach, agus furasta le húsáid/ríomhchlárú, le go leor breiseán atá ann cheana féin. Comharba an Supybot aitheanta.
+    hr_HR: Robustan, potpuno opremljen i korisniku/programeru prilagođen Python IRC bot, s mnogim postojećim dodacima. Nasljednik dobro poznatog Supybota.
+    hu_HU: Egy robusztus, teljes funkcionalitású és felhasználó-/programozóbarát Python IRC bot, számos meglévő bővítménnyel. A jól ismert Supybot utódja.
+    it_IT: Un bot IRC Python robusto, completo e intuitivo sia per gli utenti che per i programmatori, con numerosi plugin già disponibili. Successore del noto Supybot.
+    ja_JP: 堅牢で多機能、かつユーザーとプログラマーにとって使いやすいPython製IRCボット。多数の既存プラグインも利用可能。有名なSupybotの後継。
+    ko_KR: 다양한 플러그인을 갖춘 강력하고 기능이 풍부하며 사용자/프로그래머 친화적인 Python IRC 봇입니다. 유명한 Supybot의 후속 제품입니다.
+    ml_IN: നിലവിലുള്ള നിരവധി പ്ലഗിനുകളുള്ള, കരുത്തുറ്റതും, പൂർണ്ണ സവിശേഷതകളുള്ളതും, ഉപയോക്തൃ/പ്രോഗ്രാമർ-സൗഹൃദവുമായ പൈത്തൺ ഐആർസി ബോട്ട്. അറിയപ്പെടുന്ന സൂപ്പർബോട്ടിന്റെ പിൻഗാമി.
+    nb_NO: En robust, fullfunksjonell og bruker-/programmeringsvennlig Python IRC-bot, med mange eksisterende programtillegg. Etterfølgeren til den velkjente Supybot.
+    nl_NL: Een robuuste, complete en gebruiksvriendelijke Python IRC-bot voor zowel gebruikers als programmeurs, met veel bestaande plugins. De opvolger van de bekende Supybot.
+    pl_PL: Solidny, w pełni funkcjonalny i przyjazny dla użytkownika/programisty bot IRC w Pythonie, z wieloma istniejącymi wtyczkami. Następca znanego Supybota.
+    pt_BR: Um bot de IRC em Python robusto, completo e fácil de usar/programar, com muitos plugins já existentes. Sucessor do conhecido Supybot.
+    ro_RO: Un bot IRC Python robust, complet funcțional și ușor de utilizat/programat, cu multe plugin-uri existente. Succesorul cunoscutului Supybot.
+    ru_RU: Надежный, полнофункциональный и удобный для пользователя/программиста IRC-бот на Python с множеством существующих плагинов. Преемник известного Supybot.
+    sk_SK: Robustný, plne funkčný a užívateľsky/programátorsky prívetivý IRC bot v jazyku Python s mnohými existujúcimi pluginmi. Nástupca známeho Supybota.
+    sv_SE: En robust, fullfjädrad och användar-/programmeringsvänlig Python IRC-bot, med många befintliga plugins. Efterföljaren till den välkända Supybot.
+    tr_TR: Çok sayıda eklentiye sahip, sağlam, tam özellikli ve kullanıcı/programcı dostu bir Python IRC botu. Tanınmış Supybot'un halefi.
     zh_CN: 功能丰富、支持插件的 Python IRC 机器人。
+    zh_TW: 功能豐富、支援外掛的 Python IRC 機器人。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/limnoria-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/limnoria-icon.png
   title:
     en_US: Limnoria (LinuxServer.io)
+    ca_ES: Limnoria (LinuxServer.io)
+    cs_CZ: Limnoria (LinuxServer.io)
+    da_DK: Limnoria (LinuxServer.io)
+    de_DE: Limnoria (LinuxServer.io)
+    el_GR: Limnoria (LinuxServer.io)
+    en_GB: Limnoria (LinuxServer.io)
+    es_ES: Limnoria (LinuxServer.io)
+    fr_FR: Limnoria (LinuxServer.io)
+    ga_IE: Limnoria (LinuxServer.io)
+    hr_HR: Limnoria (LinuxServer.io)
+    hu_HU: Limnoria (LinuxServer.io)
+    it_IT: Limnoria (LinuxServer.io)
+    ja_JP: Limnoria (LinuxServer.io)
+    ko_KR: Limnoria (LinuxServer.io)
+    ml_IN: Limnoria (LinuxServer.io)
+    nb_NO: Limnoria (LinuxServer.io)
+    nl_NL: Limnoria (LinuxServer.io)
+    pl_PL: Limnoria (LinuxServer.io)
+    pt_BR: Limnoria (LinuxServer.io)
+    ro_RO: Limnoria (LinuxServer.io)
+    ru_RU: Limnoria (LinuxServer.io)
+    sk_SK: Limnoria (LinuxServer.io)
+    sv_SE: Limnoria (LinuxServer.io)
+    tr_TR: Limnoria (LinuxServer.io)
     zh_CN: Limnoria（LinuxServer.io）
+    zh_TW: Limnoria（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlimnoria
   port_map: '8080'

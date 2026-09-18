@@ -41,17 +41,92 @@ x-casaos:
   main: app
   description:
     en_US: Pydio-cells is the nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
+    ca_ES: Pydio-cells és la plataforma de compartició de fitxers de nova generació per a organitzacions. És una reescriptura completa del projecte Pydio utilitzant el llenguatge Go seguint una arquitectura de microserveis.
+    cs_CZ: Pydio-cells je platforma pro sdílení souborů nové generace pro organizace. Jedná se o kompletní přepracování projektu Pydio s využitím jazyka Go, které vychází z architektury mikroslužeb.
+    da_DK: Pydio-cells er næste generations fildelingsplatform for organisationer. Det er en fuldstændig omskrivning af Pydio-projektet ved hjælp af Go-sproget efter en mikroservicearkitektur.
+    de_DE: Pydio-cells ist die Dateiaustauschplattform der nächsten Generation für Unternehmen. Es handelt sich um eine vollständige Neuentwicklung des Pydio-Projekts in der Programmiersprache Go, basierend auf einer Microservice-Architektur.
+    el_GR: Το Pydio-cells είναι η πλατφόρμα κοινής χρήσης αρχείων επόμενης γενιάς για οργανισμούς. Είναι μια πλήρης επανεγγραφή του έργου Pydio χρησιμοποιώντας τη γλώσσα Go ακολουθώντας μια αρχιτεκτονική μικρο-υπηρεσιών.
+    en_GB: Pydio-cells is the nextgen file sharing platform for organisations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
+    es_ES: Pydio-cells es la plataforma de intercambio de archivos de última generación para organizaciones. Se trata de una reescritura completa del proyecto Pydio, desarrollada en el lenguaje Go y basada en una arquitectura de microservicios.
+    fr_FR: Pydio-cells est la plateforme de partage de fichiers nouvelle génération pour les organisations. Il s'agit d'une réécriture complète du projet Pydio, réalisée en Go et basée sur une architecture de microservices.
+    ga_IE: Is é Pydio-cells an t-ardán comhroinnte comhad den chéad ghlúin eile d'eagraíochtaí. Is athscríobh iomlán é ar thionscadal Pydio ag baint úsáide as an teanga Go de réir ailtireacht micrisheirbhíse.
+    hr_HR: Pydio-cells je platforma za dijeljenje datoteka sljedeće generacije za organizacije. To je potpuno prepisana verzija Pydio projekta korištenjem Go jezika prateći mikroservisnu arhitekturu.
+    hu_HU: A Pydio-cells a következő generációs fájlmegosztó platform szervezetek számára. Ez a Pydio projekt teljes átdolgozása Go nyelven, mikroszolgáltatás-architektúrát követve.
+    it_IT: Pydio-cells è la piattaforma di condivisione file di nuova generazione per le organizzazioni. Si tratta di una riscrittura completa del progetto Pydio, realizzata in linguaggio Go e basata su un'architettura a microservizi.
+    ja_JP: Pydio-cellsは、組織向けの次世代ファイル共有プラットフォームです。マイクロサービスアーキテクチャを採用し、Go言語を用いてPydioプロジェクトを完全に書き直したものです。
+    ko_KR: Pydio-cells는 조직을 위한 차세대 파일 공유 플랫폼입니다. 마이크로서비스 아키텍처를 기반으로 Go 언어를 사용하여 Pydio 프로젝트를 완전히 재작성한 것입니다.
+    ml_IN: സ്ഥാപനങ്ങൾക്കായുള്ള അടുത്ത തലമുറ ഫയൽ പങ്കിടൽ പ്ലാറ്റ്‌ഫോമാണ് പൈഡിയോ-സെല്ലുകൾ. മൈക്രോ-സർവീസ് ആർക്കിടെക്ചറിനെ പിന്തുടർന്ന് ഗോ ഭാഷ ഉപയോഗിച്ചുള്ള പൈഡിയോ പ്രോജക്റ്റിന്റെ പൂർണ്ണമായ പുനരാലേഖനമാണിത്.
+    nb_NO: Pydio-cells er neste generasjons fildelingsplattform for organisasjoner. Det er en fullstendig omskriving av Pydio-prosjektet ved hjelp av Go-språket etter en mikrotjenestearkitektur.
+    nl_NL: Pydio-cells is het platform voor bestandsdeling van de volgende generatie voor organisaties. Het is een volledig herschreven versie van het Pydio-project, geschreven in Go en gebaseerd op een microservice-architectuur.
+    pl_PL: Pydio-cells to platforma do udostępniania plików nowej generacji dla organizacji. Jest to całkowicie przepisana wersja projektu Pydio z wykorzystaniem języka Go i architektury mikrousług.
+    pt_BR: Pydio-cells é a plataforma de compartilhamento de arquivos de última geração para organizações. Trata-se de uma reescrita completa do projeto Pydio, utilizando a linguagem Go e seguindo uma arquitetura de microsserviços.
+    ro_RO: Pydio-cells este platforma de partajare a fișierelor de generație următoare pentru organizații. Este o rescriere completă a proiectului Pydio folosind limbajul Go, urmând o arhitectură de microservicii.
+    ru_RU: Pydio-cells — это платформа нового поколения для обмена файлами в организациях. Это полностью переписанный проект Pydio на языке Go с использованием микросервисной архитектуры.
+    sk_SK: Pydio-cells je platforma na zdieľanie súborov novej generácie pre organizácie. Ide o kompletné prepísanie projektu Pydio pomocou jazyka Go, ktoré vychádza z architektúry mikroservisov.
+    sv_SE: Pydio-cells är nästa generations fildelningsplattform för organisationer. Det är en fullständig omskrivning av Pydio-projektet med hjälp av Go-språket enligt en mikrotjänstarkitektur.
+    tr_TR: Pydio-cells, kuruluşlar için yeni nesil dosya paylaşım platformudur. Mikro hizmet mimarisine sahip, Go dili kullanılarak Pydio projesinin tamamen yeniden yazılmış bir versiyonudur.
     zh_CN: Pydio Cells 是面向组织的新一代文件共享平台。它使用 Go 语言和微服务架构，对 Pydio 项目进行了完整重写。
+    zh_TW: Pydio Cells 是面向組織的新一代檔案共享平臺。它使用 Go 語言和微服務架構，對 Pydio 專案進行了完整重寫。
   tagline:
     en_US: The nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
+    ca_ES: La plataforma de compartició d'arxius de nova generació per a organitzacions. És una reescriptura completa del projecte Pydio utilitzant el llenguatge Go seguint una arquitectura de microserveis.
+    cs_CZ: Platforma pro sdílení souborů nové generace pro organizace. Jedná se o kompletní přepracování projektu Pydio s využitím jazyka Go a architektury mikroslužeb.
+    da_DK: Næste generations fildelingsplatform for organisationer. Det er en fuldstændig omskrivning af Pydio-projektet ved hjælp af Go-sproget efter en mikroservicearkitektur.
+    de_DE: Die Dateiaustauschplattform der nächsten Generation für Unternehmen. Es handelt sich um eine vollständige Neuentwicklung des Pydio-Projekts in der Programmiersprache Go, basierend auf einer Microservice-Architektur.
+    el_GR: Η πλατφόρμα κοινής χρήσης αρχείων επόμενης γενιάς για οργανισμούς. Είναι μια πλήρης επανεγγραφή του έργου Pydio χρησιμοποιώντας τη γλώσσα Go ακολουθώντας μια αρχιτεκτονική μικρο-υπηρεσιών.
+    en_GB: The nextgen file sharing platform for organisations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.
+    es_ES: La plataforma de intercambio de archivos de última generación para organizaciones. Se trata de una reescritura completa del proyecto Pydio, desarrollada en el lenguaje Go y basada en una arquitectura de microservicios.
+    fr_FR: Plateforme de partage de fichiers nouvelle génération pour les entreprises. Il s'agit d'une réécriture complète du projet Pydio, utilisant le langage Go et suivant une architecture de microservices.
+    ga_IE: An t-ardán comhroinnte comhad den chéad ghlúin eile d'eagraíochtaí. Is athscríobh iomlán é ar thionscadal Pydio ag baint úsáide as an teanga Go de réir ailtireacht micrisheirbhíse.
+    hr_HR: Platforma za dijeljenje datoteka sljedeće generacije za organizacije. To je potpuno prepisivanje Pydio projekta korištenjem Go jezika prateći arhitekturu mikroservisa.
+    hu_HU: A következő generációs fájlmegosztó platform szervezetek számára. Ez a Pydio projekt teljes átdolgozása Go nyelven, mikroszolgáltatás-architektúrát követve.
+    it_IT: La piattaforma di condivisione file di nuova generazione per le organizzazioni. Si tratta di una riscrittura completa del progetto Pydio, realizzata in linguaggio Go e basata su un'architettura a microservizi.
+    ja_JP: 組織向けの次世代ファイル共有プラットフォーム。マイクロサービスアーキテクチャを採用し、Go言語を用いてPydioプロジェクトを完全に書き直したものです。
+    ko_KR: 차세대 기업용 파일 공유 플랫폼입니다. 마이크로서비스 아키텍처를 기반으로 Go 언어를 사용하여 Pydio 프로젝트를 완전히 재작성했습니다.
+    ml_IN: ഓർഗനൈസേഷനുകൾക്കായുള്ള നെക്സ്റ്റ്ജെൻ ഫയൽ പങ്കിടൽ പ്ലാറ്റ്‌ഫോം. മൈക്രോ-സർവീസ് ആർക്കിടെക്ചറിനെ പിന്തുടർന്ന് ഗോ ഭാഷ ഉപയോഗിച്ചുള്ള പിഡിയോ പ്രോജക്റ്റിന്റെ പൂർണ്ണമായ പുനരാലേഖനമാണിത്.
+    nb_NO: Neste generasjons fildelingsplattform for organisasjoner. Det er en fullstendig omskriving av Pydio-prosjektet ved bruk av Go-språket etter en mikrotjenestearkitektur.
+    nl_NL: Het platform voor bestandsdeling van de volgende generatie voor organisaties. Het is een volledig herontwikkeld Pydio-project, geschreven in Go en gebaseerd op een microservice-architectuur.
+    pl_PL: Platforma do udostępniania plików nowej generacji dla organizacji. Jest to w pełni przepisana wersja projektu Pydio, oparta na języku Go i architekturze mikrousług.
+    pt_BR: A plataforma de compartilhamento de arquivos de última geração para organizações. Trata-se de uma reescrita completa do projeto Pydio, utilizando a linguagem Go e seguindo uma arquitetura de microsserviços.
+    ro_RO: Platforma de partajare a fișierelor de generație următoare pentru organizații. Este o rescriere completă a proiectului Pydio folosind limbajul Go, urmând o arhitectură de microservicii.
+    ru_RU: Платформа нового поколения для обмена файлами в организациях. Это полностью переписанный проект Pydio на языке Go с использованием микросервисной архитектуры.
+    sk_SK: Platforma na zdieľanie súborov novej generácie pre organizácie. Ide o kompletné prepísanie projektu Pydio pomocou jazyka Go, ktoré sleduje architektúru mikroservisov.
+    sv_SE: Nästa generations fildelningsplattform för organisationer. Det är en fullständig omskrivning av Pydio-projektet med Go-språket enligt en mikrotjänstarkitektur.
+    tr_TR: Kuruluşlar için yeni nesil dosya paylaşım platformu. Mikro hizmet mimarisine sahip, Go dili kullanılarak Pydio projesinin tamamen yeniden yazılmış bir versiyonudur.
     zh_CN: 面向组织的文件共享平台。
+    zh_TW: 面向組織的檔案共享平臺。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pydio-cells-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pydio-cells-icon.png
   title:
     en_US: Pydio cells (LinuxServer.io)
+    ca_ES: Pydio cells (LinuxServer.io)
+    cs_CZ: Pydio cells (LinuxServer.io)
+    da_DK: Pydio cells (LinuxServer.io)
+    de_DE: Pydio cells (LinuxServer.io)
+    el_GR: Pydio cells (LinuxServer.io)
+    en_GB: Pydio cells (LinuxServer.io)
+    es_ES: Pydio cells (LinuxServer.io)
+    fr_FR: Pydio cells (LinuxServer.io)
+    ga_IE: Pydio cells (LinuxServer.io)
+    hr_HR: Pydio cells (LinuxServer.io)
+    hu_HU: Pydio cells (LinuxServer.io)
+    it_IT: Pydio cells (LinuxServer.io)
+    ja_JP: Pydio cells (LinuxServer.io)
+    ko_KR: Pydio cells (LinuxServer.io)
+    ml_IN: Pydio cells (LinuxServer.io)
+    nb_NO: Pydio cells (LinuxServer.io)
+    nl_NL: Pydio cells (LinuxServer.io)
+    pl_PL: Pydio cells (LinuxServer.io)
+    pt_BR: Pydio cells (LinuxServer.io)
+    ro_RO: Pydio cells (LinuxServer.io)
+    ru_RU: Pydio cells (LinuxServer.io)
+    sk_SK: Pydio cells (LinuxServer.io)
+    sv_SE: Pydio cells (LinuxServer.io)
+    tr_TR: Pydio cells (LinuxServer.io)
     zh_CN: Pydio cells（LinuxServer.io）
+    zh_TW: Pydio cells（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpydiocells
   port_map: '8080'

@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Steam is the ultimate destination for playing, discussing, and creating games.
+    ca_ES: Steam és la destinació definitiva per jugar, debatre i crear jocs.
+    cs_CZ: Steam je ideálním místem pro hraní, diskuze a tvorbu her.
+    da_DK: Steam er den ultimative destination til at spille, diskutere og skabe spil.
+    de_DE: Steam ist die ultimative Plattform zum Spielen, Diskutieren und Erstellen von Spielen.
+    el_GR: Το Steam είναι ο απόλυτος προορισμός για παιχνίδι, συζήτηση και δημιουργία παιχνιδιών.
+    en_GB: Steam is the ultimate destination for playing, discussing, and creating games.
+    es_ES: Steam es el destino definitivo para jugar, debatir y crear videojuegos.
+    fr_FR: Steam est la plateforme idéale pour jouer, discuter et créer des jeux.
+    ga_IE: Is é Steam an ceann scríbe deiridh le haghaidh cluichí a imirt, a phlé agus a chruthú.
+    hr_HR: Steam je vrhunsko odredište za igranje, raspravu i stvaranje igara.
+    hu_HU: A Steam a játékok készítésének, megvitatásának és lejátszásának végső helye.
+    it_IT: Steam è la piattaforma ideale per giocare, discutere e creare videogiochi.
+    ja_JP: Steamは、ゲームをプレイしたり、議論したり、制作したりするための究極のプラットフォームです。
+    ko_KR: Steam은 게임을 플레이하고, 토론하고, 제작하는 최고의 플랫폼입니다.
+    ml_IN: കളിക്കാനും ചർച്ച ചെയ്യാനും ഗെയിമുകൾ സൃഷ്ടിക്കാനുമുള്ള ആത്യന്തിക ലക്ഷ്യസ്ഥാനമാണ് സ്റ്റീം.
+    nb_NO: Steam er det ultimate stedet for å spille, diskutere og lage spill.
+    nl_NL: Steam is dé ultieme plek om games te spelen, te bespreken en te maken.
+    pl_PL: Steam to najlepsze miejsce do grania, omawiania i tworzenia gier.
+    pt_BR: O Steam é o destino definitivo para jogar, discutir e criar jogos.
+    ro_RO: Steam este destinația ideală pentru a juca, a discuta și a crea jocuri.
+    ru_RU: Steam — это идеальное место для игр, обсуждений и создания игр.
+    sk_SK: Steam je dokonalým miestom na hranie, diskusiu a tvorbu hier.
+    sv_SE: Steam är den ultimata platsen för att spela, diskutera och skapa spel.
+    tr_TR: Steam, oyun oynamak, oyunlar hakkında konuşmak ve oyunlar yaratmak için en ideal platformdur.
     zh_CN: Steam 是一个用于游玩、讨论和创作游戏的平台。
+    zh_TW: Steam 是一個用於遊玩、討論和創作遊戲的平臺。
   tagline:
     en_US: The ultimate destination for playing, discussing, and creating games.
+    ca_ES: El destí definitiu per jugar, debatre i crear jocs.
+    cs_CZ: Dokonalé místo pro hraní, diskuze a tvorbu her.
+    da_DK: Det ultimative sted at spille, diskutere og skabe spil.
+    de_DE: Die ultimative Anlaufstelle zum Spielen, Diskutieren und Entwickeln von Spielen.
+    el_GR: Ο απόλυτος προορισμός για παιχνίδι, συζήτηση και δημιουργία παιχνιδιών.
+    en_GB: The ultimate destination for playing, discussing, and creating games.
+    es_ES: El destino definitivo para jugar, debatir y crear juegos.
+    fr_FR: Le lieu de référence pour jouer, discuter et créer des jeux.
+    ga_IE: An ceann scríbe deiridh le haghaidh imirt, plé agus cruthú cluichí.
+    hr_HR: Vrhunsko odredište za igranje, raspravu i stvaranje igara.
+    hu_HU: A játék, a beszélgetés és a játékok készítésének végső helyszíne.
+    it_IT: La destinazione ideale per giocare, discutere e creare videogiochi.
+    ja_JP: ゲームをプレイしたり、議論したり、制作したりするための究極の場所。
+    ko_KR: 게임을 즐기고, 토론하고, 창작하는 최고의 공간.
+    ml_IN: കളിക്കാനും ചർച്ച ചെയ്യാനും ഗെയിമുകൾ സൃഷ്ടിക്കാനുമുള്ള ആത്യന്തിക ലക്ഷ്യം.
+    nb_NO: Det ultimate stedet for å spille, diskutere og lage spill.
+    nl_NL: De ultieme bestemming voor het spelen, bespreken en creëren van games.
+    pl_PL: Najlepsze miejsce do grania, omawiania i tworzenia gier.
+    pt_BR: O destino definitivo para jogar, discutir e criar jogos.
+    ro_RO: Destinația supremă pentru a te juca, a discuta și a crea jocuri.
+    ru_RU: Лучшее место для игр, обсуждений и создания игр.
+    sk_SK: Dokonalé miesto na hranie, diskusiu a tvorbu hier.
+    sv_SE: Den ultimata destinationen för att spela, diskutera och skapa spel.
+    tr_TR: Oyun oynamak, oyun hakkında konuşmak ve oyun yaratmak için en ideal adres.
     zh_CN: 用于游玩、讨论和创作游戏的平台。
+    zh_TW: 用於遊玩、討論和創作遊戲的平臺。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steam-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/steam-logo.png
   title:
     en_US: Steam (LinuxServer.io)
+    ca_ES: Steam (LinuxServer.io)
+    cs_CZ: Steam (LinuxServer.io)
+    da_DK: Steam (LinuxServer.io)
+    de_DE: Steam (LinuxServer.io)
+    el_GR: Steam (LinuxServer.io)
+    en_GB: Steam (LinuxServer.io)
+    es_ES: Steam (LinuxServer.io)
+    fr_FR: Steam (LinuxServer.io)
+    ga_IE: Steam (LinuxServer.io)
+    hr_HR: Steam (LinuxServer.io)
+    hu_HU: Steam (LinuxServer.io)
+    it_IT: Steam (LinuxServer.io)
+    ja_JP: Steam (LinuxServer.io)
+    ko_KR: Steam (LinuxServer.io)
+    ml_IN: Steam (LinuxServer.io)
+    nb_NO: Steam (LinuxServer.io)
+    nl_NL: Steam (LinuxServer.io)
+    pl_PL: Steam (LinuxServer.io)
+    pt_BR: Steam (LinuxServer.io)
+    ro_RO: Steam (LinuxServer.io)
+    ru_RU: Steam (LinuxServer.io)
+    sk_SK: Steam (LinuxServer.io)
+    sv_SE: Steam (LinuxServer.io)
+    tr_TR: Steam (LinuxServer.io)
     zh_CN: Steam（LinuxServer.io）
+    zh_TW: Steam（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversteam
   port_map: '3000'

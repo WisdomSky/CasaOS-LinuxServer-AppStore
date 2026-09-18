@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: PyCharm offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.
+    ca_ES: PyCharm ofereix compatibilitat predefinida per a Python, bases de dades, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI i molt més.
+    cs_CZ: PyCharm nabízí ihned po instalaci podporu pro Python, databáze, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI a další.
+    da_DK: PyCharm tilbyder standard support til Python, databaser, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI og mere.
+    de_DE: PyCharm bietet sofort einsatzbereite Unterstützung für Python, Datenbanken, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI und mehr.
+    el_GR: Το PyCharm προσφέρει άμεση υποστήριξη για Python, βάσεις δεδομένων, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI και πολλά άλλα.
+    en_GB: Pycharm offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, Pytorch, Tensorflow, Hugging Face, Django, Flask, Fastapi, and more.
+    es_ES: PyCharm ofrece soporte inmediato para Python, bases de datos, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI y mucho más.
+    fr_FR: PyCharm offre une prise en charge prête à l'emploi de Python, des bases de données, de Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI et bien plus encore.
+    ga_IE: Cuireann PyCharm tacaíocht réamhdhéanta ar fáil do Python, bunachair shonraí, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, agus go leor eile.
+    hr_HR: PyCharm nudi gotovu podršku za Python, baze podataka, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI i još mnogo toga.
+    hu_HU: A PyCharm azonnal használható támogatást kínál Pythonhoz, adatbázisokhoz, Jupyterhez, Githez, Condához, PyTorchhoz, TensorFlow-hoz, Hugging Face-hez, Django-hoz, Flask-hoz, FastAPI-hoz és egyebekhez.
+    it_IT: PyCharm offre supporto immediato per Python, database, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI e altro ancora.
+    ja_JP: PyCharmは、Python、データベース、Jupyter、Git、Conda、PyTorch、TensorFlow、Hugging Face、Django、Flask、FastAPIなど、さまざまなツールをすぐに使える状態でサポートしています。
+    ko_KR: PyCharm은 Python, 데이터베이스, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI 등을 기본적으로 지원합니다.
+    ml_IN: പൈത്തൺ, ഡാറ്റാബേസുകൾ, ജൂപ്പിറ്റർ, ഗിറ്റ്, കോണ്ട, പൈടോർച്ച്, ടെൻസർഫ്ലോ, ഹഗ്ഗിംഗ് ഫേസ്, ജാങ്കോ, ഫ്ലാസ്ക്, ഫാസ്റ്റ്എപിഐ എന്നിവയ്ക്കും മറ്റും പൈചാർം ഔട്ട്-ഓഫ്-ദി-ബോക്സ് പിന്തുണ വാഗ്ദാനം ചെയ്യുന്നു.
+    nb_NO: PyCharm tilbyr ferdig støtte for Python, databaser, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI og mer.
+    nl_NL: PyCharm biedt direct ondersteuning voor Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI en meer.
+    pl_PL: PyCharm oferuje gotowe wsparcie dla Pythona, baz danych, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI i innych.
+    pt_BR: O PyCharm oferece suporte imediato para Python, bancos de dados, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI e muito mais.
+    ro_RO: PyCharm oferă suport predefinit pentru Python, baze de date, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI și multe altele.
+    ru_RU: PyCharm предлагает встроенную поддержку Python, баз данных, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI и многого другого.
+    sk_SK: PyCharm ponúka okamžitú podporu pre Python, databázy, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI a ďalšie.
+    sv_SE: PyCharm erbjuder färdigt stöd för Python, databaser, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI och mer.
+    tr_TR: PyCharm, Python, veritabanları, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI ve daha fazlası için kullanıma hazır destek sunar.
     zh_CN: PyCharm 开箱即用地支持 Python、数据库、Jupyter、Git、Conda、PyTorch、TensorFlow、Hugging Face、Django、Flask、FastAPI 等工具和技术。
+    zh_TW: PyCharm 開箱即用地支援 Python、資料庫、Jupyter、Git、Conda、PyTorch、TensorFlow、Hugging Face、Django、Flask、FastAPI 等工具和技術。
   tagline:
     en_US: Offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, and more.
+    ca_ES: Ofereix compatibilitat preconfigurada per a Python, bases de dades, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI i més.
+    cs_CZ: Nabízí okamžitou podporu pro Python, databáze, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI a další.
+    da_DK: Tilbyder standardunderstøttelse af Python, databaser, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI og mere.
+    de_DE: Bietet sofort einsatzbereite Unterstützung für Python, Datenbanken, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI und mehr.
+    el_GR: Προσφέρει άμεση υποστήριξη για Python, βάσεις δεδομένων, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI και πολλά άλλα.
+    en_GB: Offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, Pytorch, Tensorflow, Hugging Face, Django, Flask, Fastapi, and more.
+    es_ES: Ofrece compatibilidad inmediata con Python, bases de datos, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI y mucho más.
+    fr_FR: Offre une prise en charge prête à l'emploi de Python, des bases de données, de Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI et bien plus encore.
+    ga_IE: Cuireann sé tacaíocht réamhdhéanta ar fáil do Python, bunachair shonraí, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI, agus tuilleadh.
+    hr_HR: Nudi gotovu podršku za Python, baze podataka, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI i još mnogo toga.
+    hu_HU: Azonnali támogatást kínál Pythonhoz, adatbázisokhoz, Jupyterhez, Githez, Condához, PyTorchhoz, TensorFlow-hoz, Hugging Face-hez, Djangohoz, Flaskhoz, FastAPI-hoz és egyebekhez.
+    it_IT: Offre supporto immediato per Python, database, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI e altro ancora.
+    ja_JP: Python、データベース、Jupyter、Git、Conda、PyTorch、TensorFlow、Hugging Face、Django、Flask、FastAPIなど、多数のツールをすぐに使用できる状態でサポートします。
+    ko_KR: Python, 데이터베이스, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI 등을 기본적으로 지원합니다.
+    ml_IN: പൈത്തൺ, ഡാറ്റാബേസുകൾ, ജൂപ്പിറ്റർ, ജിറ്റ്, കോണ്ട, പൈടോർച്ച്, ടെൻസർഫ്ലോ, ഹഗ്ഗിംഗ് ഫേസ്, ജാങ്കോ, ഫ്ലാസ്ക്, ഫാസ്റ്റ്എപിഐ, എന്നിവയ്ക്കും മറ്റും ഔട്ട്-ഓഫ്-ദി-ബോക്സ് പിന്തുണ വാഗ്ദാനം ചെയ്യുന്നു.
+    nb_NO: Tilbyr ferdig støtte for Python, databaser, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI og mer.
+    nl_NL: Biedt direct ondersteuning voor Python, databases, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI en meer.
+    pl_PL: Oferuje gotowe wsparcie dla Pythona, baz danych, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI i innych.
+    pt_BR: Oferece suporte imediato para Python, bancos de dados, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI e muito mais.
+    ro_RO: Oferă suport predefinit pentru Python, baze de date, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI și multe altele.
+    ru_RU: Предлагает готовую поддержку для Python, баз данных, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI и многого другого.
+    sk_SK: Ponúka okamžitú podporu pre Python, databázy, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI a ďalšie.
+    sv_SE: Erbjuder färdigt stöd för Python, databaser, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI och mer.
+    tr_TR: Python, veritabanları, Jupyter, Git, Conda, PyTorch, TensorFlow, Hugging Face, Django, Flask, FastAPI ve daha fazlası için kullanıma hazır destek sunar.
     zh_CN: 支持 Python 开发、数据科学和网页框架的 IDE。
+    zh_TW: 支援 Python 開發、資料科學和網頁框架的 IDE。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pycharm-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pycharm-logo.png
   title:
     en_US: Pycharm (LinuxServer.io)
+    ca_ES: Pycharm (LinuxServer.io)
+    cs_CZ: Pycharm (LinuxServer.io)
+    da_DK: Pycharm (LinuxServer.io)
+    de_DE: Pycharm (LinuxServer.io)
+    el_GR: Pycharm (LinuxServer.io)
+    en_GB: Pycharm (LinuxServer.io)
+    es_ES: Pycharm (LinuxServer.io)
+    fr_FR: Pycharm (LinuxServer.io)
+    ga_IE: Pycharm (LinuxServer.io)
+    hr_HR: Pycharm (LinuxServer.io)
+    hu_HU: Pycharm (LinuxServer.io)
+    it_IT: Pycharm (LinuxServer.io)
+    ja_JP: Pycharm (LinuxServer.io)
+    ko_KR: Pycharm (LinuxServer.io)
+    ml_IN: Pycharm (LinuxServer.io)
+    nb_NO: Pycharm (LinuxServer.io)
+    nl_NL: Pycharm (LinuxServer.io)
+    pl_PL: Pycharm (LinuxServer.io)
+    pt_BR: Pycharm (LinuxServer.io)
+    ro_RO: Pycharm (LinuxServer.io)
+    ru_RU: Pycharm (LinuxServer.io)
+    sk_SK: Pycharm (LinuxServer.io)
+    sv_SE: Pycharm (LinuxServer.io)
+    tr_TR: Pycharm (LinuxServer.io)
     zh_CN: Pycharm（LinuxServer.io）
+    zh_TW: Pycharm（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpycharm
   port_map: '3000'

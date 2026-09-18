@@ -34,9 +34,59 @@ x-casaos:
   description:
     en_US: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
     zh_CN: Feed2toot 会自动解析 RSS 订阅源，识别新文章，并将其发布到 Mastodon 社交网络。
+    ca_ES: Feed2toot analitza automàticament els canals RSS, identifica les noves publicacions i les publica a la xarxa social Mastodon.
+    cs_CZ: Feed2toot automaticky analyzuje RSS kanály, identifikuje nové příspěvky a zveřejňuje je na sociální síti Mastodon.
+    da_DK: Feed2toot analyserer automatisk RSS-feeds, identificerer nye opslag og lægger dem op på det sociale netværk Mastodon.
+    de_DE: Feed2toot analysiert automatisch RSS-Feeds, identifiziert neue Beiträge und veröffentlicht sie im sozialen Netzwerk Mastodon.
+    el_GR: Το Feed2toot αναλύει αυτόματα τις ροές RSS, εντοπίζει νέες αναρτήσεις και τις δημοσιεύει στο κοινωνικό δίκτυο Mastodon.
+    en_GB: Feed2toot automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
+    es_ES: Feed2toot analiza automáticamente las fuentes RSS, identifica las nuevas publicaciones y las publica en la red social Mastodon.
+    fr_FR: Feed2toot analyse automatiquement les flux RSS, identifie les nouveaux messages et les publie sur le réseau social Mastodon.
+    ga_IE: Déanann Feed2toot fothaí rss a pharsáil go huathoibríoch, aithníonn sé poist nua agus postálann sé iad ar líonra sóisialta Mastodon.
+    hr_HR: Feed2toot automatski analizira RSS feedove, identificira nove objave i objavljuje ih na društvenoj mreži Mastodon.
+    hu_HU: A Feed2toot automatikusan elemzi az RSS-hírcsatornákat, azonosítja az új bejegyzéseket, és közzéteszi azokat a Mastodon közösségi hálózaton.
+    it_IT: Feed2toot analizza automaticamente i feed RSS, identifica i nuovi post e li pubblica sul social network Mastodon.
+    ja_JP: Feed2tootはRSSフィードを自動的に解析し、新しい投稿を識別して、Mastodonソーシャルネットワークに投稿します。
+    ko_KR: Feed2toot은 RSS 피드를 자동으로 분석하여 새 게시물을 식별하고 마스토돈 소셜 네트워크에 게시합니다.
+    ml_IN: Feed2toot ആർഎസ്എസ് ഫീഡുകൾ സ്വയമേവ പാഴ്‌സ് ചെയ്യുകയും പുതിയ പോസ്റ്റുകൾ തിരിച്ചറിയുകയും മാസ്റ്റോഡൺ സോഷ്യൽ നെറ്റ്‌വർക്കിൽ പോസ്റ്റ് ചെയ്യുകയും ചെയ്യുന്നു.
+    nb_NO: Feed2toot analyserer automatisk RSS-feeder, identifiserer nye innlegg og legger dem ut på det sosiale nettverket Mastodon.
+    nl_NL: Feed2toot analyseert automatisch RSS-feeds, identificeert nieuwe berichten en plaatst deze op het sociale netwerk Mastodon.
+    pl_PL: Feed2toot automatycznie analizuje kanały RSS, identyfikuje nowe posty i publikuje je w sieci społecznościowej Mastodon.
+    pt_BR: O Feed2toot analisa automaticamente feeds RSS, identifica novas publicações e as publica na rede social Mastodon.
+    ro_RO: Feed2toot analizează automat fluxurile RSS, identifică postările noi și le postează pe rețeaua socială Mastodon.
+    ru_RU: Feed2toot автоматически анализирует RSS-ленты, идентифицирует новые публикации и размещает их в социальной сети Mastodon.
+    sk_SK: Feed2toot automaticky analyzuje RSS kanály, identifikuje nové príspevky a uverejňuje ich na sociálnej sieti Mastodon.
+    sv_SE: Feed2toot analyserar automatiskt RSS-flöden, identifierar nya inlägg och publicerar dem på det sociala nätverket Mastodon.
+    tr_TR: Feed2toot, RSS akışlarını otomatik olarak ayrıştırır, yeni gönderileri belirler ve bunları Mastodon sosyal ağına yayınlar.
+    zh_TW: Feed2toot 會自動解析 RSS 訂閱源，識別新文章，並將其釋出到 Mastodon 社交網路。
   tagline:
     en_US: 'Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network. '
     zh_CN: 自动将 RSS 中的新文章发布到 Mastodon。
+    ca_ES: Analitza automàticament els canals RSS, identifica les noves publicacions i les publica a la xarxa social Mastodon.
+    cs_CZ: Automaticky analyzuje RSS kanály, identifikuje nové příspěvky a zveřejňuje je na sociální síti Mastodon.
+    da_DK: Analyserer automatisk RSS-feeds, identificerer nye opslag og lægger dem op på det sociale netværk Mastodon.
+    de_DE: Automatische Analyse von RSS-Feeds, Erkennung neuer Beiträge und Veröffentlichung dieser im sozialen Netzwerk Mastodon.
+    el_GR: Αναλύει αυτόματα τις ροές RSS, εντοπίζει νέες αναρτήσεις και τις δημοσιεύει στο κοινωνικό δίκτυο Mastodon.
+    en_GB: 'Automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network. '
+    es_ES: Analiza automáticamente las fuentes RSS, identifica las nuevas publicaciones y las publica en la red social Mastodon.
+    fr_FR: Analyse automatiquement les flux RSS, identifie les nouveaux messages et les publie sur le réseau social Mastodon.
+    ga_IE: Déanann sé fothaí rss a pharsáil go huathoibríoch, aithníonn sé poist nua agus postálann sé iad ar líonra sóisialta Mastodon.
+    hr_HR: Automatski analizira RSS feedove, identificira nove objave i objavljuje ih na društvenoj mreži Mastodon.
+    hu_HU: Automatikusan elemzi az RSS-hírcsatornákat, azonosítja az új bejegyzéseket, és közzéteszi azokat a Mastodon közösségi hálózaton.
+    it_IT: Analizza automaticamente i feed RSS, identifica i nuovi post e li pubblica sul social network Mastodon.
+    ja_JP: RSSフィードを自動的に解析し、新しい投稿を特定して、Mastodonソーシャルネットワークに投稿します。
+    ko_KR: RSS 피드를 자동으로 분석하고, 새 게시물을 식별하여 마스토돈 소셜 네트워크에 게시합니다.
+    ml_IN: ആർഎസ്എസ് ഫീഡുകൾ സ്വയമേവ പാഴ്‌സ് ചെയ്യുന്നു, പുതിയ പോസ്റ്റുകൾ തിരിച്ചറിയുന്നു, മാസ്റ്റോഡൺ സോഷ്യൽ നെറ്റ്‌വർക്കിൽ പോസ്റ്റ് ചെയ്യുന്നു.
+    nb_NO: Analyserer automatisk RSS-feeder, identifiserer nye innlegg og legger dem ut på det sosiale nettverket Mastodon.
+    nl_NL: Analyseert automatisch RSS-feeds, identificeert nieuwe berichten en plaatst deze op het sociale netwerk Mastodon.
+    pl_PL: Automatycznie analizuje kanały RSS, identyfikuje nowe wpisy i publikuje je w sieci społecznościowej Mastodon.
+    pt_BR: Analisa automaticamente feeds RSS, identifica novas publicações e as publica na rede social Mastodon.
+    ro_RO: Analizează automat fluxurile RSS, identifică postările noi și le postează pe rețeaua socială Mastodon.
+    ru_RU: Автоматически анализирует RSS-ленты, идентифицирует новые публикации и размещает их в социальной сети Mastodon.
+    sk_SK: Automaticky analyzuje RSS kanály, identifikuje nové príspevky a uverejňuje ich na sociálnej sieti Mastodon.
+    sv_SE: Analyserar automatiskt RSS-flöden, identifierar nya inlägg och publicerar dem på det sociala nätverket Mastodon.
+    tr_TR: RSS akışlarını otomatik olarak ayrıştırır, yeni gönderileri belirler ve Mastodon sosyal ağına yayınlar.
+    zh_TW: 自動將 RSS 中的新文章釋出到 Mastodon。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
@@ -44,6 +94,31 @@ x-casaos:
   title:
     en_US: Feed2toot
     zh_CN: Feed2toot
+    ca_ES: Feed2toot
+    cs_CZ: Feed2toot
+    da_DK: Feed2toot
+    de_DE: Feed2toot
+    el_GR: Feed2toot
+    en_GB: Feed2toot
+    es_ES: Feed2toot
+    fr_FR: Feed2toot
+    ga_IE: Feed2toot
+    hr_HR: Feed2toot
+    hu_HU: Feed2toot
+    it_IT: Feed2toot
+    ja_JP: Feed2toot
+    ko_KR: Feed2toot
+    ml_IN: Feed2toot
+    nb_NO: Feed2toot
+    nl_NL: Feed2toot
+    pl_PL: Feed2toot
+    pt_BR: Feed2toot
+    ro_RO: Feed2toot
+    ru_RU: Feed2toot
+    sk_SK: Feed2toot
+    sv_SE: Feed2toot
+    tr_TR: Feed2toot
+    zh_TW: Feed2toot
   category: Others
   id: wisdomsky.linuxserver.linuxserverfeed2toot
   version: 0.17.20250110

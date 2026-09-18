@@ -1,7 +1,7 @@
 name: linuxserver-lazylibrarian
 services:
   app:
-    image: linuxserver/lazylibrarian:version-e87009c2
+    image: linuxserver/lazylibrarian:version-0e5e6c28
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -43,18 +43,93 @@ x-casaos:
   main: app
   description:
     en_US: Lazylibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. This container is based on the DobyTang fork.
+    ca_ES: Lazylibrarian és un programa per seguir autors i obtenir metadades per a totes les teves necessitats de lectura digital. Utilitza una combinació de Goodreads Librarything i opcionalment GoogleBooks com a fonts d'informació sobre autors i llibres. Aquest contenidor es basa en la bifurcació DobyTang.
+    cs_CZ: Lazylibrarian je program pro sledování autorů a získávání metadat pro všechny vaše potřeby digitálního čtení. Jako zdroje informací o autorovi a knize využívá kombinaci Goodreads Librarything a volitelně GoogleBooks. Tento kontejner je založen na platformě DobyTang.
+    da_DK: Lazylibrarian er et program til at følge forfattere og indsamle metadata til alle dine digitale læsebehov. Det bruger en kombination af Goodreads Librarything og eventuelt Google Books som kilder til forfatter- og boginformation. Denne container er baseret på DobyTang-forken.
+    de_DE: Lazylibrarian ist ein Programm, mit dem Sie Autoren folgen und Metadaten für all Ihre digitalen Lesebedürfnisse abrufen können. Es nutzt eine Kombination aus Goodreads, LibraryThing und optional Google Books als Quellen für Autoren- und Buchinformationen. Diese Plattform basiert auf dem DobyTang-Fork.
+    el_GR: Το Lazylibrarian είναι ένα πρόγραμμα για την παρακολούθηση συγγραφέων και την ανάκτηση μεταδεδομένων για όλες τις ανάγκες ψηφιακής ανάγνωσης. Χρησιμοποιεί έναν συνδυασμό του Goodreads Librarything και προαιρετικά του GoogleBooks ως πηγές για πληροφορίες συγγραφέων και βιβλίων. Αυτό το κοντέινερ βασίζεται στο πιρούνι DobyTang.
+    en_GB: Lazylibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally Googlebooks as sources for author info and book info. This container is based on the Dobytang fork.
+    es_ES: Lazylibrarian es un programa para seguir a autores y obtener metadatos para todas tus necesidades de lectura digital. Utiliza una combinación de Goodreads Librarything y, opcionalmente, Google Books como fuentes de información sobre autores y libros. Este contenedor se basa en la bifurcación de DobyTang.
+    fr_FR: Lazylibrarian est un programme permettant de suivre des auteurs et de récupérer des métadonnées pour tous vos besoins de lecture numérique. Il utilise une combinaison de Goodreads Librarything et, en option, de Google Livres comme sources d'informations sur les auteurs et les livres. Ce conteneur est basé sur la version dérivée de DobyTang.
+    ga_IE: Is clár é Lazylibrarian chun údair a leanúint agus meiteashonraí a bhailiú do do chuid riachtanas léitheoireachta digiteach go léir. Úsáideann sé meascán de Goodreads Librarything agus GoogleBooks más mian leat mar fhoinsí d'fhaisnéis faoi údair agus faoi leabhair. Tá an coimeádán seo bunaithe ar fhorc DobyTang.
+    hr_HR: Lazylibrarian je program za praćenje autora i prikupljanje metapodataka za sve vaše potrebe digitalnog čitanja. Koristi kombinaciju Goodreads Librarythinga i opcionalno GoogleBooksa kao izvora za informacije o autorima i knjigama. Ovaj kontejner temelji se na DobyTang forku.
+    hu_HU: A Lazylibrarian egy olyan program, amellyel követheted a szerzőket és metaadatokat gyűjthetsz le minden digitális olvasási igényedhez. A Goodreads Librarything és opcionálisan a GoogleBooks kombinációját használja a szerzői és könyvadatok forrásaként. Ez a konténer a DobyTang forkon alapul.
+    it_IT: Lazylibrarian è un programma che permette di seguire gli autori e raccogliere metadati per tutte le proprie esigenze di lettura digitale. Utilizza una combinazione di Goodreads, LibraryThing e, facoltativamente, Google Libri come fonti per informazioni su autori e libri. Questo contenitore è basato sul fork di DobyTang.
+    ja_JP: Lazylibrarianは、著者情報やデジタル読書に必要なメタデータを取得するプログラムです。著者情報と書籍情報のソースとして、Goodreads Librarythingと、必要に応じてGoogle Booksを組み合わせて使用します。このコンテナはDobyTangのフォークをベースにしています。
+    ko_KR: Lazylibrarian은 저자를 추적하고 모든 디지털 독서에 필요한 메타데이터를 수집하는 프로그램입니다. Goodreads Librarything과 선택적으로 GoogleBooks를 저자 및 도서 정보 소스로 사용합니다. 이 컨테이너는 DobyTang 포크를 기반으로 합니다.
+    ml_IN: Lazylibrarian എന്നത് രചയിതാക്കളെ പിന്തുടരാനും നിങ്ങളുടെ എല്ലാ ഡിജിറ്റൽ വായനാ ആവശ്യങ്ങൾക്കും മെറ്റാഡാറ്റ നേടാനുമുള്ള ഒരു പ്രോഗ്രാമാണ്. രചയിതാവിന്റെ വിവരങ്ങൾക്കും പുസ്തക വിവരങ്ങൾക്കുമുള്ള ഉറവിടങ്ങളായി Goodreads Librarything, ഓപ്ഷണലായി GoogleBooks എന്നിവയുടെ സംയോജനമാണ് ഇത് ഉപയോഗിക്കുന്നത്. ഈ കണ്ടെയ്നർ DobyTang ഫോർക്കിനെ അടിസ്ഥാനമാക്കിയുള്ളതാണ്.
+    nb_NO: Lazylibrarian er et program for å følge forfattere og hente metadata for alle dine digitale lesebehov. Det bruker en kombinasjon av Goodreads Librarything og eventuelt Google Books som kilder for forfatter- og bokinformasjon. Denne beholderen er basert på DobyTang-forken.
+    nl_NL: Lazylibrarian is een programma waarmee je auteurs kunt volgen en metadata kunt verzamelen voor al je digitale leesbehoeften. Het maakt gebruik van een combinatie van Goodreads, Librarything en optioneel Google Books als bronnen voor auteurs- en boekinformatie. Deze container is gebaseerd op de DobyTang-fork.
+    pl_PL: Lazylibrarian to program do śledzenia autorów i pozyskiwania metadanych na potrzeby wszystkich cyfrowych lektur. Wykorzystuje połączenie Goodreads Librarything i opcjonalnie GoogleBooks jako źródeł informacji o autorach i książkach. Ten kontener bazuje na forku DobyTang.
+    pt_BR: Lazylibrarian é um programa para seguir autores e obter metadados para todas as suas necessidades de leitura digital. Ele usa uma combinação do Goodreads Librarything e, opcionalmente, do Google Books como fontes de informações sobre autores e livros. Este contêiner é baseado no fork DobyTang.
+    ro_RO: Lazylibrarian este un program pentru urmărirea autorilor și obținerea metadatelor pentru toate nevoile tale de lectură digitală. Folosește o combinație între Goodreads Librarything și, opțional, GoogleBooks ca surse pentru informații despre autori și cărți. Acest container se bazează pe fork-ul DobyTang.
+    ru_RU: Lazylibrarian — это программа для отслеживания авторов и получения метаданных для всех ваших потребностей в цифровом чтении. Она использует комбинацию Goodreads Librarything и, при необходимости, GoogleBooks в качестве источников информации об авторах и книгах. Этот контейнер основан на форке DobyTang.
+    sk_SK: Lazylibrarian je program na sledovanie autorov a získavanie metadát pre všetky vaše potreby digitálneho čítania. Ako zdroje informácií o autorovi a knihe používa kombináciu Goodreads Librarything a voliteľne GoogleBooks. Tento kontajner je založený na rozvetve DobyTang.
+    sv_SE: Lazylibrarian är ett program för att följa författare och hämta metadata för alla dina digitala läsbehov. Det använder en kombination av Goodreads Librarything och eventuellt Google Books som källor för författar- och bokinformation. Denna container är baserad på DobyTang-forken.
+    tr_TR: Lazylibrarian, yazarları takip etmek ve tüm dijital okuma ihtiyaçlarınız için meta verileri toplamak üzere tasarlanmış bir programdır. Yazar bilgileri ve kitap bilgileri için Goodreads, Librarything ve isteğe bağlı olarak GoogleBooks'u kaynak olarak kullanır. Bu konteyner, DobyTang çatalına dayanmaktadır.
     zh_CN: LazyLibrarian 可关注作者并获取数字阅读所需的元数据。它使用 Goodreads、LibraryThing，以及可选的 Google Books 作为作者和图书信息来源。此容器基于 DobyTang 分支。
+    zh_TW: LazyLibrarian 可關注作者並獲取數字閱讀所需的後設資料。它使用 Goodreads、LibraryThing，以及可選的 Google Books 作為作者和圖書資訊來源。此容器基於 DobyTang 分支。
   tagline:
     en_US: A program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. This container is based on the DobyTang fork.
+    ca_ES: Un programa per seguir autors i obtenir metadades per a totes les teves necessitats de lectura digital. Utilitza una combinació de Goodreads Librarything i opcionalment GoogleBooks com a fonts d'informació sobre autors i llibres. Aquest contenidor es basa en la bifurcació DobyTang.
+    cs_CZ: Program pro sledování autorů a získávání metadat pro všechny vaše potřeby digitálního čtení. Využívá kombinaci Goodreads Librarything a volitelně GoogleBooks jako zdroje informací o autorovi a knize. Tento kontejner je založen na platformě DobyTang.
+    da_DK: Et program til at følge forfattere og indsamle metadata til alle dine digitale læsebehov. Det bruger en kombination af Goodreads Librarything og eventuelt Google Books som kilder til forfatter- og boginformation. Denne container er baseret på DobyTang-forken.
+    de_DE: Ein Programm, mit dem Sie Autoren folgen und Metadaten für all Ihre digitalen Lesebedürfnisse abrufen können. Es nutzt eine Kombination aus Goodreads, LibraryThing und optional Google Books als Quellen für Autoren- und Buchinformationen. Dieses Programm basiert auf dem DobyTang-Fork.
+    el_GR: Ένα πρόγραμμα για την παρακολούθηση συγγραφέων και την ανάκτηση μεταδεδομένων για όλες τις ανάγκες ψηφιακής ανάγνωσης. Χρησιμοποιεί έναν συνδυασμό του Goodreads Librarything και προαιρετικά του GoogleBooks ως πηγές για πληροφορίες συγγραφέων και βιβλίων. Αυτό το κοντέινερ βασίζεται στο πιρούνι DobyTang.
+    en_GB: A program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally Googlebooks as sources for author info and book info. This container is based on the Dobytang fork.
+    es_ES: Un programa para seguir a autores y obtener metadatos para todas tus necesidades de lectura digital. Utiliza una combinación de Goodreads Librarything y, opcionalmente, Google Books como fuentes de información sobre autores y libros. Este contenedor se basa en la bifurcación de DobyTang.
+    fr_FR: Un programme permettant de suivre les auteurs et de récupérer les métadonnées pour tous vos besoins de lecture numérique. Il utilise une combinaison de Goodreads Librarything et, en option, de Google Livres comme sources d'informations sur les auteurs et les livres. Ce conteneur est basé sur la version dérivée de DobyTang.
+    ga_IE: Clár chun údair a leanúint agus meiteashonraí a bhailiú do do chuid riachtanas léitheoireachta digiteach go léir. Úsáideann sé meascán de Goodreads Librarything agus GoogleBooks más mian leat mar fhoinsí d'fhaisnéis faoi údair agus faoi leabhair. Tá an coimeádán seo bunaithe ar fhorc DobyTang.
+    hr_HR: Program za praćenje autora i prikupljanje metapodataka za sve vaše potrebe digitalnog čitanja. Koristi kombinaciju Goodreads Librarythinga i opcionalno GoogleBooksa kao izvora za informacije o autorima i knjigama. Ovaj spremnik temelji se na DobyTang forku.
+    hu_HU: Egy program szerzők követésére és metaadatok lekérésére minden digitális olvasási igényhez. A Goodreads Librarything és opcionálisan a Google Books kombinációját használja szerzői és könyvadatok forrásaként. Ez a konténer a DobyTang elágazáson alapul.
+    it_IT: Un programma per seguire gli autori e raccogliere metadati per tutte le tue esigenze di lettura digitale. Utilizza una combinazione di Goodreads, LibraryThing e, facoltativamente, Google Libri come fonti per informazioni su autori e libri. Questo contenitore è basato sul fork di DobyTang.
+    ja_JP: 著者情報やデジタル読書に必要なメタデータを取得するプログラムです。著者情報と書籍情報のソースとして、Goodreads、Librarything、そして必要に応じてGoogle Booksを組み合わせて使用します。このコンテナはDobyTangのフォークをベースにしています。
+    ko_KR: 저자 정보를 추적하고 디지털 독서에 필요한 메타데이터를 수집하는 프로그램입니다. Goodreads Librarything과 선택적으로 GoogleBooks를 저자 및 도서 정보 소스로 활용합니다. 이 컨테이너는 DobyTang 포크를 기반으로 합니다.
+    ml_IN: നിങ്ങളുടെ എല്ലാ ഡിജിറ്റൽ വായനാ ആവശ്യങ്ങൾക്കും വേണ്ടി എഴുത്തുകാരെ പിന്തുടരാനും മെറ്റാഡാറ്റ നേടാനുമുള്ള ഒരു പ്രോഗ്രാം. രചയിതാവിന്റെ വിവരങ്ങൾക്കും പുസ്തക വിവരങ്ങൾക്കുമുള്ള ഉറവിടങ്ങളായി ഗുഡ്‌റീഡ്‌സ് ലൈബ്രറിതിംഗ്, ഓപ്ഷണലായി ഗൂഗിൾബുക്കുകൾ എന്നിവയുടെ സംയോജനമാണ് ഇത് ഉപയോഗിക്കുന്നത്. ഈ കണ്ടെയ്‌നർ ഡോബിടാങ് ഫോർക്കിനെ അടിസ്ഥാനമാക്കിയുള്ളതാണ്.
+    nb_NO: Et program for å følge forfattere og hente metadata for alle dine digitale lesebehov. Det bruker en kombinasjon av Goodreads Librarything og eventuelt Google Books som kilder for forfatter- og bokinformasjon. Denne beholderen er basert på DobyTang-forken.
+    nl_NL: Een programma om auteurs te volgen en metadata te verzamelen voor al je digitale leesbehoeften. Het maakt gebruik van een combinatie van Goodreads Librarything en optioneel Google Books als bronnen voor auteurs- en boekinformatie. Deze container is gebaseerd op de DobyTang-fork.
+    pl_PL: Program do śledzenia autorów i pobierania metadanych na potrzeby wszystkich cyfrowych lektur. Wykorzystuje połączenie Goodreads Librarything i opcjonalnie GoogleBooks jako źródeł informacji o autorach i książkach. Ten kontener jest oparty na forku DobyTang.
+    pt_BR: Um programa para seguir autores e obter metadados para todas as suas necessidades de leitura digital. Ele utiliza uma combinação do Goodreads Librarything e, opcionalmente, do Google Books como fontes de informações sobre autores e livros. Este contêiner é baseado no fork DobyTang.
+    ro_RO: Un program pentru urmărirea autorilor și obținerea metadatelor pentru toate nevoile tale de lectură digitală. Folosește o combinație între Goodreads Librarything și, opțional, GoogleBooks ca surse pentru informații despre autori și cărți. Acest container se bazează pe fork-ul DobyTang.
+    ru_RU: Программа для отслеживания авторов и получения метаданных для всех ваших потребностей в цифровом чтении. Она использует комбинацию Goodreads Librarything и, при необходимости, GoogleBooks в качестве источников информации об авторах и книгах. Этот контейнер основан на форке DobyTang.
+    sk_SK: Program na sledovanie autorov a získavanie metadát pre všetky vaše potreby digitálneho čítania. Ako zdroje informácií o autorovi a knihe používa kombináciu Goodreads Librarything a voliteľne GoogleBooks. Tento kontajner je založený na rozvetvení DobyTang.
+    sv_SE: Ett program för att följa författare och hämta metadata för alla dina digitala läsbehov. Det använder en kombination av Goodreads Librarything och eventuellt Google Books som källor för författar- och bokinformation. Denna behållare är baserad på DobyTang-forken.
+    tr_TR: Dijital okuma ihtiyaçlarınız için yazarları takip eden ve meta verileri toplayan bir program. Yazar bilgileri ve kitap bilgileri için Goodreads, Librarything ve isteğe bağlı olarak GoogleBooks'u kaynak olarak kullanır. Bu konteyner, DobyTang çatalına dayanmaktadır.
     zh_CN: 关注作者并收集电子书元数据。
+    zh_TW: 關注作者並收集電子書後設資料。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png
   title:
     en_US: Lazylibrarian (LinuxServer.io)
+    ca_ES: Lazylibrarian (LinuxServer.io)
+    cs_CZ: Lazylibrarian (LinuxServer.io)
+    da_DK: Lazylibrarian (LinuxServer.io)
+    de_DE: Lazylibrarian (LinuxServer.io)
+    el_GR: Lazylibrarian (LinuxServer.io)
+    en_GB: Lazylibrarian (LinuxServer.io)
+    es_ES: Lazylibrarian (LinuxServer.io)
+    fr_FR: Lazylibrarian (LinuxServer.io)
+    ga_IE: Lazylibrarian (LinuxServer.io)
+    hr_HR: Lazylibrarian (LinuxServer.io)
+    hu_HU: Lazylibrarian (LinuxServer.io)
+    it_IT: Lazylibrarian (LinuxServer.io)
+    ja_JP: Lazylibrarian (LinuxServer.io)
+    ko_KR: Lazylibrarian (LinuxServer.io)
+    ml_IN: Lazylibrarian (LinuxServer.io)
+    nb_NO: Lazylibrarian (LinuxServer.io)
+    nl_NL: Lazylibrarian (LinuxServer.io)
+    pl_PL: Lazylibrarian (LinuxServer.io)
+    pt_BR: Lazylibrarian (LinuxServer.io)
+    ro_RO: Lazylibrarian (LinuxServer.io)
+    ru_RU: Lazylibrarian (LinuxServer.io)
+    sk_SK: Lazylibrarian (LinuxServer.io)
+    sv_SE: Lazylibrarian (LinuxServer.io)
+    tr_TR: Lazylibrarian (LinuxServer.io)
     zh_CN: Lazylibrarian（LinuxServer.io）
+    zh_TW: Lazylibrarian（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlazylibrarian
   port_map: '5299'
-  version: version-e87009c2
+  version: version-0e5e6c28

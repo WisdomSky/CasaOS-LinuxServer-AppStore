@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium
+    ca_ES: Spotube és un client de Spotify de codi obert i multiplataforma compatible amb múltiples plataformes que utilitza l'API de dades de Spotify i YouTube, Piped.video o JioSaavn com a font d'àudio, eliminant la necessitat de Spotify Premium.
+    cs_CZ: Spotube je open source multiplatformní klient Spotify kompatibilní s různými platformami, který využívá datové API Spotify a YouTube, Piped.video nebo JioSaavn jako zdroj zvuku, čímž eliminuje potřebu Spotify Premium.
+    da_DK: Spotube er en open source, cross-platform Spotify-klient, der er kompatibel på tværs af flere platforme, og som bruger Spotifys data-API og YouTube, Piped.video eller JioSaavn som lydkilde, hvilket eliminerer behovet for Spotify Premium.
+    de_DE: Spotube ist ein Open-Source-Spotify-Client für verschiedene Plattformen, der mit mehreren Systemen kompatibel ist und die Daten-API von Spotify sowie YouTube, Piped.video oder JioSaavn als Audioquelle nutzt. Dadurch wird Spotify Premium überflüssig.
+    el_GR: Το Spotube είναι ένα πρόγραμμα-πελάτης Spotify ανοιχτού κώδικα, συμβατό με πολλαπλές πλατφόρμες, που χρησιμοποιεί το API δεδομένων του Spotify και το YouTube, το Piped.video ή το JioSaavn ως πηγή ήχου, εξαλείφοντας την ανάγκη για Spotify Premium.
+    en_GB: Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data Api and Youtube, Piped.video or Jiosaavn as an audio source, eliminating the need for Spotify Premium
+    es_ES: Spotube es un cliente de Spotify de código abierto y multiplataforma compatible con múltiples plataformas que utilizan la API de datos de Spotify y YouTube, Piped.video o JioSaavn como fuente de audio, eliminando la necesidad de Spotify Premium.
+    fr_FR: Spotube est un client Spotify open source et multiplateforme, compatible avec de nombreuses plateformes. Il utilise l'API de données de Spotify et YouTube, Piped.video ou JioSaavn comme source audio, ce qui permet de se passer de Spotify Premium.
+    ga_IE: Is cliant Spotify foinse oscailte, tras-ardáin é Spotube atá comhoiriúnach le hardáin éagsúla a úsáideann API sonraí Spotify agus YouTube, Piped.video nó JioSaavn mar fhoinse fuaime, rud a chuireann deireadh leis an ngá atá le Spotify Premium.
+    hr_HR: Spotube je Spotify klijent otvorenog koda, kompatibilan s više platformi, koristeći Spotifyjev podatkovni API i YouTube, Piped.video ili JioSaavn kao izvor zvuka, eliminirajući potrebu za Spotify Premiumom.
+    hu_HU: A Spotube egy nyílt forráskódú, platformfüggetlen Spotify kliens, amely több platformon is kompatibilis, a Spotify adat API-ját, valamint a YouTube-ot, a Piped.videot vagy a JioSaavn-t használja hangforrásként, így nincs szükség Spotify Premiumra.
+    it_IT: Spotube è un client Spotify open source e multipiattaforma, compatibile con diverse piattaforme, che utilizza l'API dati di Spotify e YouTube, Piped.video o JioSaavn come sorgenti audio, eliminando la necessità di Spotify Premium.
+    ja_JP: Spotubeは、SpotifyのデータAPIとYouTube、Piped.video、またはJioSaavnをオーディオソースとして利用する、複数のプラットフォームに対応したオープンソースのクロスプラットフォームSpotifyクライアントであり、Spotify Premiumは不要です。
+    ko_KR: Spotube는 Spotify의 데이터 API와 YouTube, Piped.video 또는 JioSaavn을 오디오 소스로 활용하여 여러 플랫폼에서 호환되는 오픈 소스 크로스 플랫폼 Spotify 클라이언트입니다. 따라서 Spotify Premium 구독이 필요하지 않습니다.
+    ml_IN: സ്‌പോട്ടിഫൈയുടെ ഡാറ്റ API, YouTube, Piped.video അല്ലെങ്കിൽ JioSaavn എന്നിവ ഓഡിയോ സ്രോതസ്സായി ഉപയോഗിക്കുന്ന, ഒന്നിലധികം പ്ലാറ്റ്‌ഫോമുകളിൽ പൊരുത്തപ്പെടുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ്, ക്രോസ്-പ്ലാറ്റ്‌ഫോം സ്‌പോട്ടിഫൈ ക്ലയന്റാണ് സ്‌പോട്ടിഫൈ ക്ലയന്റ്, ഇത് സ്‌പോട്ടിഫൈ പ്രീമിയത്തിന്റെ ആവശ്യകത ഇല്ലാതാക്കുന്നു.
+    nb_NO: Spotube er en åpen kildekode, plattformuavhengig Spotify-klient som er kompatibel på tvers av flere plattformer og bruker Spotifys data-API og YouTube, Piped.video eller JioSaavn som lydkilde, noe som eliminerer behovet for Spotify Premium.
+    nl_NL: Spotube is een open source, platformonafhankelijke Spotify-client die compatibel is met meerdere platforms. De client maakt gebruik van de data-API van Spotify en YouTube, Piped.video of JioSaavn als audiobron, waardoor een Spotify Premium-abonnement overbodig is.
+    pl_PL: Spotube to klient Spotify o otwartym kodzie źródłowym, działający na wielu platformach i wykorzystujący API danych Spotify oraz YouTube, Piped.video lub JioSaavn jako źródło dźwięku, co eliminuje potrzebę posiadania Spotify Premium
+    pt_BR: O Spotube é um cliente Spotify de código aberto e multiplataforma, compatível com diversas plataformas, que utiliza a API de dados do Spotify e o YouTube, Piped.video ou JioSaavn como fonte de áudio, eliminando a necessidade do Spotify Premium.
+    ro_RO: Spotube este un client Spotify open source, multiplatformă, compatibil pe mai multe platforme, care utilizează API-ul de date Spotify și YouTube, Piped.video sau JioSaavn ca sursă audio, eliminând necesitatea Spotify Premium.
+    ru_RU: Spotube — это кроссплатформенный клиент Spotify с открытым исходным кодом, совместимый с различными платформами и использующий API данных Spotify, а также YouTube, Piped.video или JioSaavn в качестве источника аудио, что устраняет необходимость в Spotify Premium.
+    sk_SK: Spotube je open source, multiplatformový klient Spotify kompatibilný s viacerými platformami, ktorý využíva dátové API Spotify a YouTube, Piped.video alebo JioSaavn ako zdroj zvuku, čím eliminuje potrebu Spotify Premium.
+    sv_SE: Spotube är en plattformsoberoende Spotify-klient med öppen källkod, kompatibel med flera plattformar, med Spotifys data-API och YouTube, Piped.video eller JioSaavn som ljudkälla, vilket eliminerar behovet av Spotify Premium.
+    tr_TR: Spotify Premium'a olan ihtiyacı ortadan kaldıran Spotify Premium, Spotify'ın veri API'sini ve YouTube, Piped.video veya JioSaavn'ı ses kaynağı olarak kullanan, birden fazla platformda uyumlu, açık kaynaklı, platformlar arası bir Spotify istemcisidir.
     zh_CN: Spotube 是一款开源、跨平台的 Spotify 客户端，使用 Spotify 数据 API，并以 YouTube、Piped.video 或 JioSaavn 作为音源，无需 Spotify Premium。
+    zh_TW: Spotube 是一款開源、跨平臺的 Spotify 客戶端，使用 Spotify 資料 API，並以 YouTube、Piped.video 或 JioSaavn 作為音源，無需 Spotify Premium。
   tagline:
     en_US: An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped. Video or JioSaavn as an audio source, eliminating the need for Spotify Premium
+    ca_ES: Un client de Spotify de codi obert i multiplataforma compatible amb múltiples plataformes que utilitza l'API de dades de Spotify i YouTube, Piped Video o JioSaavn com a font d'àudio, eliminant la necessitat de Spotify Premium.
+    cs_CZ: Open source multiplatformní klient Spotify kompatibilní s různými platformami využívající datové API Spotify a YouTube, Piped.Video nebo JioSaavn jako zdroj zvuku, čímž eliminuje potřebu Spotify Premium.
+    da_DK: En open source, cross-platform Spotify-klient, der er kompatibel på tværs af flere platforme, og som bruger Spotifys data-API og YouTube, Piped, Video eller JioSaavn som lydkilde, hvilket eliminerer behovet for Spotify Premium.
+    de_DE: Ein Open-Source-Spotify-Client für verschiedene Plattformen, der die Spotify-Daten-API und YouTube, Piped.Video oder JioSaavn als Audioquelle nutzt und somit Spotify Premium überflüssig macht.
+    el_GR: Ένα πρόγραμμα-πελάτης Spotify ανοιχτού κώδικα, συμβατό με πολλαπλές πλατφόρμες, που χρησιμοποιεί το API δεδομένων του Spotify και το YouTube, Piped. Βίντεο ή JioSaavn ως πηγή ήχου, εξαλείφοντας την ανάγκη για Spotify Premium.
+    en_GB: An open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data Api and Youtube, Piped. Video or Jiosaavn as an audio source, eliminating the need for Spotify Premium
+    es_ES: Un cliente de Spotify de código abierto y multiplataforma compatible con múltiples plataformas que utilizan la API de datos de Spotify y YouTube, Piped. Video o JioSaavn como fuente de audio, eliminando la necesidad de Spotify Premium.
+    fr_FR: Un client Spotify open source et multiplateforme, compatible avec de nombreuses plateformes et utilisant l'API de données de Spotify ainsi que YouTube, Piped Video ou JioSaavn comme source audio, éliminant ainsi le besoin d'un abonnement Spotify Premium.
+    ga_IE: Cliant Spotify foinse oscailte, tras-ardáin atá comhoiriúnach le hardáin éagsúla ag baint úsáide as API sonraí Spotify agus YouTube, Piped. Video nó JioSaavn mar fhoinse fuaime, rud a chuireann deireadh leis an ngá atá le Spotify Premium.
+    hr_HR: Spotify klijent otvorenog koda, kompatibilan s više platformi, koristeći Spotifyjev podatkovni API i YouTube, Piped, Video ili JioSaavn kao izvor zvuka, eliminirajući potrebu za Spotify Premiumom.
+    hu_HU: Egy nyílt forráskódú, több platformon kompatibilis Spotify kliens, amely a Spotify adat API-ját, valamint a YouTube-ot, a Piped. Video-t vagy a JioSaavn-t használja hangforrásként, így nincs szükség Spotify Premiumra.
+    it_IT: Un client Spotify open source e multipiattaforma, compatibile con diverse piattaforme, che utilizza l'API dati di Spotify e YouTube, Piped.Video o JioSaavn come sorgenti audio, eliminando la necessità di Spotify Premium.
+    ja_JP: SpotifyのデータAPIとYouTube、Piped.Video、またはJioSaavnをオーディオソースとして利用し、複数のプラットフォームで互換性のあるオープンソースのクロスプラットフォームSpotifyクライアント。Spotify Premiumは不要です。
+    ko_KR: Spotify의 데이터 API와 YouTube, Piped.Video 또는 JioSaavn을 오디오 소스로 활용하여 여러 플랫폼에서 호환되는 오픈 소스 크로스 플랫폼 Spotify 클라이언트입니다. 따라서 Spotify Premium 구독이 필요하지 않습니다.
+    ml_IN: സ്‌പോട്ടിഫൈയുടെ ഡാറ്റ API, യൂട്യൂബ്, പൈപ്പ്ഡ്. വീഡിയോ അല്ലെങ്കിൽ ജിയോസാവ്ൻ എന്നിവ ഓഡിയോ സ്രോതസ്സായി ഉപയോഗിച്ച് ഒന്നിലധികം പ്ലാറ്റ്‌ഫോമുകളിൽ പൊരുത്തപ്പെടുന്ന ഒരു ഓപ്പൺ സോഴ്‌സ്, ക്രോസ്-പ്ലാറ്റ്‌ഫോം സ്‌പോട്ടിഫൈ ക്ലയന്റ്, സ്‌പോട്ടിഫൈ പ്രീമിയത്തിന്റെ ആവശ്യകത ഇല്ലാതാക്കുന്നു.
+    nb_NO: En åpen kildekode, plattformuavhengig Spotify-klient som er kompatibel på tvers av flere plattformer, og som bruker Spotifys data-API og YouTube, Piped, Video eller JioSaavn som lydkilde, noe som eliminerer behovet for Spotify Premium.
+    nl_NL: Een open source, platformonafhankelijke Spotify-client die compatibel is met meerdere platformen en gebruikmaakt van de data-API van Spotify en YouTube, Piped.Video of JioSaavn als audiobron, waardoor Spotify Premium overbodig is.
+    pl_PL: Klient Spotify o otwartym kodzie źródłowym, wieloplatformowy, kompatybilny z wieloma platformami, wykorzystujący API danych Spotify oraz YouTube, Piped. Video lub JioSaavn jako źródło dźwięku, eliminując potrzebę Spotify Premium.
+    pt_BR: Um cliente Spotify de código aberto e multiplataforma, compatível com diversas plataformas, que utiliza a API de dados do Spotify e o YouTube, Piped Video ou JioSaavn como fonte de áudio, eliminando a necessidade do Spotify Premium.
+    ro_RO: Un client Spotify open source, multiplatformă, compatibil pe mai multe platforme, utilizând API-ul de date Spotify și YouTube, Piped Video sau JioSaavn ca sursă audio, eliminând necesitatea Spotify Premium.
+    ru_RU: Открытый кроссплатформенный клиент Spotify, совместимый с различными платформами, использующий API данных Spotify и YouTube, Piped.Video или JioSaavn в качестве источника аудио, что устраняет необходимость в Spotify Premium.
+    sk_SK: Open source multiplatformový klient Spotify kompatibilný s viacerými platformami využívajúci dátové API Spotify a YouTube, Piped.Video alebo JioSaavn ako zdroj zvuku, čím eliminuje potrebu Spotify Premium.
+    sv_SE: En öppen källkod, plattformsoberoende Spotify-klient kompatibel över flera plattformar med Spotifys data-API och YouTube, Piped, Video eller JioSaavn som ljudkälla, vilket eliminerar behovet av Spotify Premium.
+    tr_TR: Spotify'ın veri API'sini ve YouTube, Piped.Video veya JioSaavn'ı ses kaynağı olarak kullanan, birden fazla platformda uyumlu, açık kaynaklı, platformlar arası bir Spotify istemcisi; Spotify Premium'a olan ihtiyacı ortadan kaldırır.
     zh_CN: 使用多种音源的开源跨平台 Spotify 客户端。
+    zh_TW: 使用多種音源的開源跨平臺 Spotify 客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/spotube-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/spotube-logo.png
   title:
     en_US: Spotube (LinuxServer.io)
+    ca_ES: Spotube (LinuxServer.io)
+    cs_CZ: Spotube (LinuxServer.io)
+    da_DK: Spotube (LinuxServer.io)
+    de_DE: Spotube (LinuxServer.io)
+    el_GR: Spotube (LinuxServer.io)
+    en_GB: Spotube (LinuxServer.io)
+    es_ES: Spotube (LinuxServer.io)
+    fr_FR: Spotube (LinuxServer.io)
+    ga_IE: Spotube (LinuxServer.io)
+    hr_HR: Spotube (LinuxServer.io)
+    hu_HU: Spotube (LinuxServer.io)
+    it_IT: Spotube (LinuxServer.io)
+    ja_JP: Spotube (LinuxServer.io)
+    ko_KR: Spotube (LinuxServer.io)
+    ml_IN: Spotube (LinuxServer.io)
+    nb_NO: Spotube (LinuxServer.io)
+    nl_NL: Spotube (LinuxServer.io)
+    pl_PL: Spotube (LinuxServer.io)
+    pt_BR: Spotube (LinuxServer.io)
+    ro_RO: Spotube (LinuxServer.io)
+    ru_RU: Spotube (LinuxServer.io)
+    sk_SK: Spotube (LinuxServer.io)
+    sv_SE: Spotube (LinuxServer.io)
+    tr_TR: Spotube (LinuxServer.io)
     zh_CN: Spotube（LinuxServer.io）
+    zh_TW: Spotube（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverspotube
   port_map: '3000'

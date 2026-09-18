@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.
+    ca_ES: Opera és un navegador web multiplataforma desenvolupat per la seva empresa homònima, Opera. El navegador està basat en Chromium, però es distingeix d'altres navegadors basats en Chromium (Chrome, Edge, etc.) per la seva interfície d'usuari i altres característiques.
+    cs_CZ: Opera je multiplatformní webový prohlížeč vyvinutý společností Opera, která je stejnojmennou společností. Prohlížeč je založen na Chromiu, ale od ostatních prohlížečů založených na Chromiu (Chrome, Edge atd.) se odlišuje svým uživatelským rozhraním a dalšími funkcemi.
+    da_DK: Opera er en webbrowser til flere platforme udviklet af navnefirmaet Opera. Browseren er baseret på Chromium, men adskiller sig fra andre Chromium-baserede browsere (Chrome, Edge osv.) gennem sin brugergrænseflade og andre funktioner.
+    de_DE: Opera ist ein plattformübergreifender Webbrowser, der vom gleichnamigen Unternehmen Opera entwickelt wurde. Der Browser basiert auf Chromium, unterscheidet sich aber von anderen Chromium-basierten Browsern (Chrome, Edge usw.) durch seine Benutzeroberfläche und weitere Funktionen.
+    el_GR: Το Opera είναι ένα πρόγραμμα περιήγησης ιστού πολλαπλών πλατφορμών που αναπτύχθηκε από την ομώνυμη εταιρεία Opera. Το πρόγραμμα περιήγησης βασίζεται στο Chromium, αλλά διαφέρει από άλλα προγράμματα περιήγησης που βασίζονται στο Chromium (Chrome, Edge, κ.λπ.) μέσω του περιβάλλοντος εργασίας χρήστη και άλλων λειτουργιών του.
+    en_GB: Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.
+    es_ES: Opera es un navegador web multiplataforma desarrollado por la empresa homónima Opera. El navegador está basado en Chromium, pero se distingue de otros navegadores basados en Chromium (Chrome, Edge, etc.) por su interfaz de usuario y otras características.
+    fr_FR: Opera est un navigateur web multiplateforme développé par la société du même nom, Opera. Basé sur Chromium, il se distingue des autres navigateurs utilisant Chromium (Chrome, Edge, etc.) par son interface utilisateur et ses fonctionnalités.
+    ga_IE: Is brabhsálaí gréasáin il-ardáin é Opera arna fhorbairt ag a chomhlacht comhainmneach Opera. Tá an brabhsálaí bunaithe ar Chromium, ach déanann sé idirdhealú idir é féin agus brabhsálaithe eile bunaithe ar Chromium (Chrome, Edge, srl.) trína chomhéadan úsáideora agus gnéithe eile.
+    hr_HR: Opera je višeplatformski web preglednik koji je razvila istoimena tvrtka Opera. Preglednik se temelji na Chromiumu, ali se razlikuje od ostalih preglednika temeljenih na Chromiumu (Chrome, Edge itd.) svojim korisničkim sučeljem i drugim značajkama.
+    hu_HU: Az Opera egy többplatformos webböngésző, amelyet névadó cége, az Opera fejlesztett ki. A böngésző a Chromiumon alapul, de felhasználói felülete és egyéb funkciói révén különbözteti meg magát a többi Chromium-alapú böngészőtől (Chrome, Edge stb.).
+    it_IT: Opera è un browser web multipiattaforma sviluppato dall'omonima azienda. Il browser è basato su Chromium, ma si distingue dagli altri browser basati su Chromium (Chrome, Edge, ecc.) per la sua interfaccia utente e altre funzionalità.
+    ja_JP: Operaは、その名の由来となったOpera社が開発したマルチプラットフォーム対応のウェブブラウザです。このブラウザはChromiumをベースとしていますが、ユーザーインターフェースやその他の機能において、他のChromiumベースのブラウザ（Chrome、Edgeなど）とは一線を画しています。
+    ko_KR: Opera는 Opera사에서 개발한 멀티 플랫폼 웹 브라우저입니다. 이 브라우저는 크로미움(Chromium)을 기반으로 하지만, 사용자 인터페이스 및 기타 기능에서 다른 크로미움 기반 브라우저(Chrome, Edge 등)와 차별화됩니다.
+    ml_IN: ഓപ്പറ എന്ന പേരിൽ അറിയപ്പെടുന്ന കമ്പനി വികസിപ്പിച്ചെടുത്ത ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം വെബ് ബ്രൗസറാണ് ഓപ്പറ. ഈ ബ്രൗസർ ക്രോമിയത്തെ അടിസ്ഥാനമാക്കിയുള്ളതാണ്, പക്ഷേ അതിന്റെ ഉപയോക്തൃ ഇന്റർഫേസും മറ്റ് സവിശേഷതകളും കാരണം മറ്റ് ക്രോമിയം അധിഷ്ഠിത ബ്രൗസറുകളിൽ നിന്ന് (ക്രോം, എഡ്ജ്, മുതലായവ) ഇത് വ്യത്യസ്തമാണ്.
+    nb_NO: Opera er en nettleser for flere plattformer utviklet av navneselskapet Opera. Nettleseren er basert på Chromium, men skiller seg fra andre Chromium-baserte nettlesere (Chrome, Edge osv.) gjennom brukergrensesnittet og andre funksjoner.
+    nl_NL: Opera is een multiplatform webbrowser ontwikkeld door het gelijknamige bedrijf Opera. De browser is gebaseerd op Chromium, maar onderscheidt zich van andere op Chromium gebaseerde browsers (Chrome, Edge, enz.) door zijn gebruikersinterface en andere functies.
+    pl_PL: Opera to wieloplatformowa przeglądarka internetowa opracowana przez firmę Opera, która jest jej twórcą. Przeglądarka jest oparta na Chromium, ale wyróżnia się na tle innych przeglądarek opartych na Chromium (Chrome, Edge itp.) interfejsem użytkownika i innymi funkcjami.
+    pt_BR: O Opera é um navegador web multiplataforma desenvolvido pela empresa de mesmo nome, a Opera. O navegador é baseado no Chromium, mas se diferencia de outros navegadores baseados no Chromium (Chrome, Edge, etc.) por sua interface de usuário e outros recursos.
+    ro_RO: Opera este un browser web multiplatformă dezvoltat de compania omonimă, Opera. Browserul este bazat pe Chromium, dar se distinge de alte browsere bazate pe Chromium (Chrome, Edge etc.) prin interfața sa cu utilizatorul și alte caracteristici.
+    ru_RU: Opera — это многоплатформенный веб-браузер, разработанный одноименной компанией Opera. Браузер основан на Chromium, но отличается от других браузеров на основе Chromium (Chrome, Edge и т. д.) своим пользовательским интерфейсом и другими функциями.
+    sk_SK: Opera je multiplatformový webový prehliadač vyvinutý rovnomennou spoločnosťou Opera. Prehliadač je založený na prehliadači Chromium, ale od ostatných prehliadačov založených na tomto prehliadači (Chrome, Edge atď.) sa odlišuje používateľským rozhraním a ďalšími funkciami.
+    sv_SE: Opera är en webbläsare för flera plattformar utvecklad av dess namngivna företag Opera. Webbläsaren är baserad på Chromium, men skiljer sig från andra Chromium-baserade webbläsare (Chrome, Edge, etc.) genom sitt användargränssnitt och andra funktioner.
+    tr_TR: Opera, adını taşıyan şirket Opera tarafından geliştirilen çok platformlu bir web tarayıcısıdır. Tarayıcı Chromium tabanlıdır, ancak kullanıcı arayüzü ve diğer özellikleriyle diğer Chromium tabanlı tarayıcılardan (Chrome, Edge, vb.) ayrılır.
     zh_CN: Opera 是由同名公司开发的跨平台网页浏览器。它基于 Chromium，但通过用户界面和其他功能，与 Chrome、Edge 等 Chromium 浏览器形成区别。
+    zh_TW: Opera 是由同名公司開發的跨平臺網頁瀏覽器。它基於 Chromium，但透過使用者介面和其他功能，與 Chrome、Edge 等 Chromium 瀏覽器形成區別。
   tagline:
     en_US: A multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc. ) through its user interface and other features.
+    ca_ES: Un navegador web multiplataforma desenvolupat per l'empresa homònima Opera. El navegador està basat en Chromium, però es distingeix d'altres navegadors basats en Chromium (Chrome, Edge, etc.) per la seva interfície d'usuari i altres característiques.
+    cs_CZ: Multiplatformní webový prohlížeč vyvinutý společností Opera, která po něm vytvořila stejnou platformu. Prohlížeč je založen na Chromiu, ale od ostatních prohlížečů založených na Chromiu (Chrome, Edge atd.) se odlišuje svým uživatelským rozhraním a dalšími funkcemi.
+    da_DK: En webbrowser til flere platforme udviklet af navnefirmaet Opera. Browseren er baseret på Chromium, men adskiller sig fra andre Chromium-baserede browsere (Chrome, Edge osv.) gennem sin brugergrænseflade og andre funktioner.
+    de_DE: Opera ist ein plattformübergreifender Webbrowser, der vom gleichnamigen Unternehmen entwickelt wurde. Der Browser basiert auf Chromium, unterscheidet sich aber durch seine Benutzeroberfläche und weitere Funktionen von anderen Chromium-basierten Browsern (Chrome, Edge usw.).
+    el_GR: Ένα πρόγραμμα περιήγησης ιστού πολλαπλών πλατφορμών που αναπτύχθηκε από την ομώνυμη εταιρεία Opera. Το πρόγραμμα περιήγησης βασίζεται στο Chromium, αλλά διαφέρει από άλλα προγράμματα περιήγησης που βασίζονται στο Chromium (Chrome, Edge, κ.λπ.) μέσω του περιβάλλοντος εργασίας χρήστη και άλλων λειτουργιών του.
+    en_GB: A multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc. ) through its user interface and other features.
+    es_ES: Un navegador web multiplataforma desarrollado por la empresa homónima Opera. El navegador está basado en Chromium, pero se distingue de otros navegadores basados en Chromium (Chrome, Edge, etc.) por su interfaz de usuario y otras características.
+    fr_FR: Opera est un navigateur web multiplateforme développé par la société du même nom. Basé sur Chromium, il se distingue des autres navigateurs utilisant Chromium (Chrome, Edge, etc.) par son interface utilisateur et ses fonctionnalités.
+    ga_IE: Brabhsálaí gréasáin il-ardáin arna fhorbairt ag a chomhlacht comhainmneach Opera. Tá an brabhsálaí bunaithe ar Chromium, ach déanann sé idirdhealú idir é féin agus brabhsálaithe eile bunaithe ar Chromium (Chrome, Edge, srl.) trína chomhéadan úsáideora agus gnéithe eile.
+    hr_HR: Višeplatformski web preglednik koji je razvila istoimena tvrtka Opera. Preglednik se temelji na Chromiumu, ali se razlikuje od ostalih preglednika temeljenih na Chromiumu (Chrome, Edge itd.) svojim korisničkim sučeljem i drugim značajkama.
+    hu_HU: Egy többplatformos webböngésző, amelyet névadó cége, az Opera fejlesztett ki. A böngésző a Chromiumon alapul, de felhasználói felülete és egyéb funkciói révén különbözteti meg magát a többi Chromium-alapú böngészőtől (Chrome, Edge stb.).
+    it_IT: Un browser web multipiattaforma sviluppato dall'omonima azienda Opera. Il browser è basato su Chromium, ma si distingue dagli altri browser basati su Chromium (Chrome, Edge, ecc.) per la sua interfaccia utente e altre funzionalità.
+    ja_JP: 同名のOpera社が開発したマルチプラットフォーム対応のウェブブラウザ。Chromiumをベースとしているが、ユーザーインターフェースやその他の機能において、他のChromiumベースのブラウザ（Chrome、Edgeなど）とは一線を画している。
+    ko_KR: Opera사에서 개발한 멀티 플랫폼 웹 브라우저입니다. Chromium 기반이지만, 사용자 인터페이스 및 기타 기능에서 다른 Chromium 기반 브라우저(Chrome, Edge 등)와 차별화됩니다.
+    ml_IN: ഓപ്പറ എന്ന പേരിൽ തന്നെ അറിയപ്പെടുന്ന കമ്പനി വികസിപ്പിച്ചെടുത്ത ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം വെബ് ബ്രൗസർ. ഈ ബ്രൗസർ ക്രോമിയത്തെ അടിസ്ഥാനമാക്കിയുള്ളതാണ്, പക്ഷേ അതിന്റെ ഉപയോക്തൃ ഇന്റർഫേസും മറ്റ് സവിശേഷതകളും കാരണം മറ്റ് ക്രോമിയം അധിഷ്ഠിത ബ്രൗസറുകളിൽ നിന്ന് (ക്രോം, എഡ്ജ്, മുതലായവ) വേറിട്ടുനിൽക്കുന്നു.
+    nb_NO: En nettleser for flere plattformer utviklet av navneselskapet Opera. Nettleseren er basert på Chromium, men skiller seg fra andre Chromium-baserte nettlesere (Chrome, Edge osv.) gjennom brukergrensesnittet og andre funksjoner.
+    nl_NL: Een multiplatform webbrowser ontwikkeld door het gelijknamige bedrijf Opera. De browser is gebaseerd op Chromium, maar onderscheidt zich van andere op Chromium gebaseerde browsers (Chrome, Edge, enz.) door zijn gebruikersinterface en andere functies.
+    pl_PL: Wieloplatformowa przeglądarka internetowa opracowana przez firmę Opera, której jest twórcą. Przeglądarka jest oparta na Chromium, ale wyróżnia się na tle innych przeglądarek opartych na Chromium (Chrome, Edge itp.) interfejsem użytkownika i innymi funkcjami.
+    pt_BR: Um navegador web multiplataforma desenvolvido pela empresa de mesmo nome, Opera. O navegador é baseado no Chromium, mas se diferencia de outros navegadores baseados no Chromium (Chrome, Edge, etc.) por sua interface de usuário e outros recursos.
+    ro_RO: Un browser web multiplatformă dezvoltat de compania omonimă, Opera. Browserul este bazat pe Chromium, dar se distinge de alte browsere bazate pe Chromium (Chrome, Edge etc.) prin interfața sa cu utilizatorul și alte caracteristici.
+    ru_RU: Многоплатформенный веб-браузер, разработанный одноименной компанией Opera. Браузер основан на Chromium, но отличается от других браузеров на основе Chromium (Chrome, Edge и др.) своим пользовательским интерфейсом и другими функциями.
+    sk_SK: Multiplatformový webový prehliadač vyvinutý rovnomennou spoločnosťou Opera. Prehliadač je založený na prehliadači Chromium, ale od ostatných prehliadačov založených na tomto prehliadači (Chrome, Edge atď.) sa odlišuje používateľským rozhraním a ďalšími funkciami.
+    sv_SE: En webbläsare för flera plattformar utvecklad av dess namngivna företag Opera. Webbläsaren är baserad på Chromium, men skiljer sig från andra Chromium-baserade webbläsare (Chrome, Edge, etc.) genom sitt användargränssnitt och andra funktioner.
+    tr_TR: Opera adlı şirket tarafından geliştirilen çok platformlu bir web tarayıcısı. Tarayıcı Chromium tabanlıdır, ancak kullanıcı arayüzü ve diğer özellikleriyle diğer Chromium tabanlı tarayıcılardan (Chrome, Edge, vb.) ayrılır.
     zh_CN: 具有独特界面和功能的 Chromium 浏览器。
+    zh_TW: 具有獨特介面和功能的 Chromium 瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/opera-icon.png
   title:
     en_US: Opera (LinuxServer.io)
+    ca_ES: Opera (LinuxServer.io)
+    cs_CZ: Opera (LinuxServer.io)
+    da_DK: Opera (LinuxServer.io)
+    de_DE: Opera (LinuxServer.io)
+    el_GR: Opera (LinuxServer.io)
+    en_GB: Opera (LinuxServer.io)
+    es_ES: Opera (LinuxServer.io)
+    fr_FR: Opera (LinuxServer.io)
+    ga_IE: Opera (LinuxServer.io)
+    hr_HR: Opera (LinuxServer.io)
+    hu_HU: Opera (LinuxServer.io)
+    it_IT: Opera (LinuxServer.io)
+    ja_JP: Opera (LinuxServer.io)
+    ko_KR: Opera (LinuxServer.io)
+    ml_IN: Opera (LinuxServer.io)
+    nb_NO: Opera (LinuxServer.io)
+    nl_NL: Opera (LinuxServer.io)
+    pl_PL: Opera (LinuxServer.io)
+    pt_BR: Opera (LinuxServer.io)
+    ro_RO: Opera (LinuxServer.io)
+    ru_RU: Opera (LinuxServer.io)
+    sk_SK: Opera (LinuxServer.io)
+    sv_SE: Opera (LinuxServer.io)
+    tr_TR: Opera (LinuxServer.io)
     zh_CN: Opera（LinuxServer.io）
+    zh_TW: Opera（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveropera
   port_map: '3000'

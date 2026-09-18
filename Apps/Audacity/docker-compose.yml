@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+    ca_ES: L'Audacity és un editor i gravador d'àudio multipista fàcil d'utilitzar. Desenvolupat per un grup de voluntaris com a codi obert.
+    cs_CZ: Audacity je snadno použitelný vícestopý zvukový editor a rekordér. Vyvinuto skupinou dobrovolníků jako open source.
+    da_DK: Audacity er et brugervenligt lydredigeringsprogram og -optagerprogram til flere spor. Udviklet af en gruppe frivillige som open source.
+    de_DE: Audacity ist ein benutzerfreundlicher Mehrspur-Audioeditor und -Recorder. Er wurde von einer Gruppe Freiwilliger als Open-Source-Software entwickelt.
+    el_GR: Το Audacity είναι ένα εύχρηστο πρόγραμμα επεξεργασίας και εγγραφής ήχου πολλαπλών κομματιών. Αναπτύχθηκε από μια ομάδα εθελοντών ως ανοιχτού κώδικα.
+    en_GB: Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+    es_ES: Audacity es un editor y grabador de audio multipista fácil de usar. Desarrollado por un grupo de voluntarios como software de código abierto.
+    fr_FR: Audacity est un éditeur et enregistreur audio multipiste facile à utiliser. Développé par un groupe de bénévoles, il est disponible en logiciel libre.
+    ga_IE: Is eagarthóir agus taifeadán fuaime ilrian éasca le húsáid é Audacity. Forbartha ag grúpa oibrithe deonacha mar fhoinse oscailte.
+    hr_HR: Audacity je jednostavan za korištenje, višekanalni audio editor i snimač. Razvio ga je grupa volontera kao otvoreni kod.
+    hu_HU: Az Audacity egy könnyen használható, többsávos hangszerkesztő és -felvevő. Önkéntesek egy csoportja fejlesztette nyílt forráskódúként.
+    it_IT: Audacity è un editor e registratore audio multitraccia facile da usare. Sviluppato da un gruppo di volontari come software open source.
+    ja_JP: Audacityは、使いやすいマルチトラックオーディオ編集・録音ソフトです。ボランティアグループによってオープンソースとして開発されました。
+    ko_KR: Audacity는 사용하기 쉬운 멀티트랙 오디오 편집 및 녹음 프로그램입니다. 자원 봉사자 그룹에 의해 오픈 소스로 개발되었습니다.
+    ml_IN: ഉപയോഗിക്കാൻ എളുപ്പമുള്ള, മൾട്ടി-ട്രാക്ക് ഓഡിയോ എഡിറ്ററും റെക്കോർഡറുമാണ് ഓഡാസിറ്റി. ഒരു കൂട്ടം സന്നദ്ധപ്രവർത്തകർ ഓപ്പൺ സോഴ്‌സായി വികസിപ്പിച്ചെടുത്തത്.
+    nb_NO: Audacity er et brukervennlig flerspors lydredigeringsprogram og -opptaker. Utviklet av en gruppe frivillige som åpen kildekode.
+    nl_NL: Audacity is een gebruiksvriendelijke audio-editor en -recorder met meerdere sporen. Het is ontwikkeld door een groep vrijwilligers als open source-programma.
+    pl_PL: Audacity to łatwy w użyciu, wielościeżkowy edytor i rejestrator audio. Stworzony przez grupę wolontariuszy jako oprogramowanie open source.
+    pt_BR: O Audacity é um editor e gravador de áudio multitrack fácil de usar. Desenvolvido por um grupo de voluntários como software livre.
+    ro_RO: Audacity este un editor și înregistrator audio multipistă ușor de utilizat. Dezvoltat de un grup de voluntari ca sursă deschisă.
+    ru_RU: Audacity — это простой в использовании многодорожечный аудиоредактор и программа для записи звука. Разработана группой волонтеров как программное обеспечение с открытым исходным кодом.
+    sk_SK: Audacity je ľahko použiteľný viacstopový zvukový editor a rekordér. Vyvinutý skupinou dobrovoľníkov ako open source.
+    sv_SE: Audacity är en lättanvänd ljudredigerare och -inspelare för flera spår. Utvecklad av en grupp volontärer som öppen källkod.
+    tr_TR: Audacity, kullanımı kolay, çok kanallı bir ses düzenleme ve kayıt programıdır. Gönüllülerden oluşan bir grup tarafından açık kaynak kodlu olarak geliştirilmiştir.
     zh_CN: Audacity 是一款易于使用的多轨音频编辑和录制软件，由志愿者团队以开源方式开发。
+    zh_TW: Audacity 是一款易於使用的多軌音訊編輯和錄製軟體，由志願者團隊以開源方式開發。
   tagline:
     en_US: An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+    ca_ES: Un editor i gravador d'àudio multipista fàcil d'utilitzar. Desenvolupat per un grup de voluntaris com a codi obert.
+    cs_CZ: Snadno použitelný vícestopý zvukový editor a rekordér. Vyvinuto skupinou dobrovolníků jako open source.
+    da_DK: En brugervenlig lydredigerings- og optager med flere spor. Udviklet af en gruppe frivillige som open source.
+    de_DE: Ein benutzerfreundlicher Mehrspur-Audioeditor und -Recorder. Entwickelt von einer Gruppe Freiwilliger als Open Source.
+    el_GR: Ένα εύχρηστο πρόγραμμα επεξεργασίας και εγγραφής ήχου πολλαπλών κομματιών. Αναπτύχθηκε από μια ομάδα εθελοντών ως ανοιχτού κώδικα.
+    en_GB: An easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+    es_ES: Un editor y grabador de audio multipista fácil de usar. Desarrollado por un grupo de voluntarios como software de código abierto.
+    fr_FR: Un éditeur et enregistreur audio multipiste facile à utiliser. Développé par un groupe de bénévoles en tant que logiciel libre.
+    ga_IE: Eagarthóir agus taifeadán fuaime ilrian atá éasca le húsáid. Forbartha ag grúpa oibrithe deonacha mar fhoinse oscailte.
+    hr_HR: Jednostavan za korištenje, višekanalni audio editor i snimač. Razvijen od strane grupe volontera kao otvoreni kod.
+    hu_HU: Egy könnyen használható, többsávos hangszerkesztő és -felvevő. Önkéntesek egy csoportja fejlesztette nyílt forráskódúként.
+    it_IT: Un editor e registratore audio multitraccia facile da usare. Sviluppato da un gruppo di volontari come software open source.
+    ja_JP: 使いやすいマルチトラックオーディオ編集・録音ソフト。ボランティアグループによってオープンソースとして開発されました。
+    ko_KR: 사용하기 쉬운 멀티트랙 오디오 편집 및 녹음 프로그램입니다. 자원 봉사자 그룹이 오픈 소스로 개발했습니다.
+    ml_IN: ഉപയോഗിക്കാൻ എളുപ്പമുള്ള, മൾട്ടി-ട്രാക്ക് ഓഡിയോ എഡിറ്ററും റെക്കോർഡറും. ഒരു കൂട്ടം സന്നദ്ധപ്രവർത്തകർ ഓപ്പൺ സോഴ്‌സായി വികസിപ്പിച്ചെടുത്തത്.
+    nb_NO: En brukervennlig flerspors lydredigerer og -opptaker. Utviklet av en gruppe frivillige som åpen kildekode.
+    nl_NL: Een gebruiksvriendelijke audio-editor en -recorder met meerdere sporen. Ontwikkeld door een groep vrijwilligers als open source.
+    pl_PL: Łatwy w użyciu, wielościeżkowy edytor i rejestrator audio. Opracowany przez grupę wolontariuszy jako oprogramowanie open source.
+    pt_BR: Um editor e gravador de áudio multitrack fácil de usar. Desenvolvido por um grupo de voluntários como software livre.
+    ro_RO: Un editor și înregistrator audio multi-pistă ușor de utilizat. Dezvoltat de un grup de voluntari ca sursă deschisă.
+    ru_RU: Простой в использовании многодорожечный аудиоредактор и программа для записи. Разработана группой волонтеров как программное обеспечение с открытым исходным кодом.
+    sk_SK: Ľahko použiteľný viacstopový zvukový editor a rekordér. Vyvinutý skupinou dobrovoľníkov ako open source.
+    sv_SE: En lättanvänd ljudredigerare och -inspelare för flera spår. Utvecklad av en grupp volontärer som öppen källkod.
+    tr_TR: Kullanımı kolay, çok kanallı ses düzenleyici ve kaydedici. Gönüllülerden oluşan bir grup tarafından açık kaynak kodlu olarak geliştirilmiştir.
     zh_CN: 易用的开源多轨音频编辑与录制工具。
+    zh_TW: 易用的開源多軌音訊編輯與錄製工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
   title:
     en_US: Audacity (LinuxServer.io)
+    ca_ES: Audacity (LinuxServer.io)
+    cs_CZ: Audacity (LinuxServer.io)
+    da_DK: Audacity (LinuxServer.io)
+    de_DE: Audacity (LinuxServer.io)
+    el_GR: Audacity (LinuxServer.io)
+    en_GB: Audacity (LinuxServer.io)
+    es_ES: Audacity (LinuxServer.io)
+    fr_FR: Audacity (LinuxServer.io)
+    ga_IE: Audacity (LinuxServer.io)
+    hr_HR: Audacity (LinuxServer.io)
+    hu_HU: Audacity (LinuxServer.io)
+    it_IT: Audacity (LinuxServer.io)
+    ja_JP: Audacity (LinuxServer.io)
+    ko_KR: Audacity (LinuxServer.io)
+    ml_IN: Audacity (LinuxServer.io)
+    nb_NO: Audacity (LinuxServer.io)
+    nl_NL: Audacity (LinuxServer.io)
+    pl_PL: Audacity (LinuxServer.io)
+    pt_BR: Audacity (LinuxServer.io)
+    ro_RO: Audacity (LinuxServer.io)
+    ru_RU: Audacity (LinuxServer.io)
+    sk_SK: Audacity (LinuxServer.io)
+    sv_SE: Audacity (LinuxServer.io)
+    tr_TR: Audacity (LinuxServer.io)
     zh_CN: Audacity（LinuxServer.io）
+    zh_TW: Audacity（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveraudacity
   port_map: '3000'

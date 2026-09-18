@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    ca_ES: Flycast és un emulador multiplataforma per a Sega Dreamcast, Naomi, Naomi 2 i Atomiswave derivat de Reicast.
+    cs_CZ: Flycast je multiplatformní emulátor her pro Sega Dreamcast, Naomi, Naomi 2 a Atomiswave, odvozený od reicastu.
+    da_DK: Flycast er en multi-platform Sega Dreamcast, Naomi, Naomi 2 og Atomiswave emulator afledt af reicast.
+    de_DE: Flycast ist ein plattformübergreifender Emulator für Sega Dreamcast, Naomi, Naomi 2 und Atomiswave, der von reicast abgeleitet ist.
+    el_GR: Το Flycast είναι ένας εξομοιωτής πολλαπλών πλατφορμών για τα Sega Dreamcast, Naomi, Naomi 2 και Atomiswave που προέρχεται από το reicast.
+    en_GB: Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    es_ES: Flycast es un emulador multiplataforma para Sega Dreamcast, Naomi, Naomi 2 y Atomiswave, derivado de reicast.
+    fr_FR: Flycast est un émulateur multiplateforme Sega Dreamcast, Naomi, Naomi 2 et Atomiswave dérivé de reicast.
+    ga_IE: Is aithriseoir il-ardáin Sega Dreamcast, Naomi, Naomi 2, agus Atomiswave é Flycast atá díorthaithe ó reicast.
+    hr_HR: Flycast je multiplatformski emulator za Sega Dreamcast, Naomi, Naomi 2 i Atomiswave, izveden iz Reicasta.
+    hu_HU: A Flycast egy többplatformos Sega Dreamcast, Naomi, Naomi 2 és Atomiswave emulátor, amely a reicastból származik.
+    it_IT: Flycast è un emulatore multipiattaforma per Sega Dreamcast, Naomi, Naomi 2 e Atomiswave, derivato da reicast.
+    ja_JP: Flycastは、reicastをベースに開発された、セガドリームキャスト、Naomi、Naomi 2、およびAtomiswaveに対応したマルチプラットフォームエミュレータです。
+    ko_KR: Flycast는 reicast를 기반으로 개발된 멀티 플랫폼 Sega Dreamcast, Naomi, Naomi 2 및 Atomiswave 에뮬레이터입니다.
+    ml_IN: റീകാസ്റ്റിൽ നിന്ന് ഉരുത്തിരിഞ്ഞ ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം സെഗ ഡ്രീംകാസ്റ്റ്, നവോമി, നവോമി 2, ആറ്റോമിസ്വേവ് എമുലേറ്ററാണ് ഫ്ലൈകാസ്റ്റ്.
+    nb_NO: Flycast er en multiplattform Sega Dreamcast, Naomi, Naomi 2 og Atomiswave emulator avledet fra reicast.
+    nl_NL: Flycast is een multiplatform-emulator voor Sega Dreamcast, Naomi, Naomi 2 en Atomiswave, afgeleid van reicast.
+    pl_PL: Flycast to wieloplatformowy emulator konsol Sega Dreamcast, Naomi, Naomi 2 i Atomiswave, pochodzący od reicast.
+    pt_BR: Flycast é um emulador multiplataforma para Sega Dreamcast, Naomi, Naomi 2 e Atomiswave, derivado do reicast.
+    ro_RO: Flycast este un emulator multi-platformă pentru Sega Dreamcast, Naomi, Naomi 2 și Atomiswave, derivat din reicast.
+    ru_RU: Flycast — это мультиплатформенный эмулятор Sega Dreamcast, Naomi, Naomi 2 и Atomiswave, созданный на основе reicast.
+    sk_SK: Flycast je multiplatformový emulátor hier Sega Dreamcast, Naomi, Naomi 2 a Atomiswave odvodený od reicastu.
+    sv_SE: Flycast är en multiplattforms-emulator för Sega Dreamcast, Naomi, Naomi 2 och Atomiswave, härledd från reicast.
+    tr_TR: Flycast, reicast'ten türetilmiş, Sega Dreamcast, Naomi, Naomi 2 ve Atomiswave oyun konsollarını destekleyen çok platformlu bir emülatördür.
     zh_CN: Flycast 是源自 reicast 的多平台模拟器，支持 Sega Dreamcast、Naomi、Naomi 2 和 Atomiswave。
+    zh_TW: Flycast 是源自 reicast 的多平臺模擬器，支援 Sega Dreamcast、Naomi、Naomi 2 和 Atomiswave。
   tagline:
     en_US: A multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    ca_ES: Un emulador multiplataforma per a Sega Dreamcast, Naomi, Naomi 2 i Atomiswave derivat de Reicast.
+    cs_CZ: Multiplatformní emulátor her Sega Dreamcast, Naomi, Naomi 2 a Atomiswave odvozený od reicastu.
+    da_DK: En multiplatform Sega Dreamcast, Naomi, Naomi 2 og Atomiswave emulator afledt af reicast.
+    de_DE: Ein plattformübergreifender Emulator für Sega Dreamcast, Naomi, Naomi 2 und Atomiswave, abgeleitet von reicast.
+    el_GR: Ένας εξομοιωτής Sega Dreamcast, Naomi, Naomi 2 και Atomiswave για πολλές πλατφόρμες που προέρχεται από το reicast.
+    en_GB: A multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.
+    es_ES: Un emulador multiplataforma para Sega Dreamcast, Naomi, Naomi 2 y Atomiswave, derivado de reicast.
+    fr_FR: Un émulateur multiplateforme Sega Dreamcast, Naomi, Naomi 2 et Atomiswave dérivé de reicast.
+    ga_IE: Aithriseoir il-ardáin Sega Dreamcast, Naomi, Naomi 2, agus Atomiswave díorthaithe ó reicast.
+    hr_HR: Višeplatformski emulator za Sega Dreamcast, Naomi, Naomi 2 i Atomiswave, izveden iz reicasta.
+    hu_HU: Egy többplatformos Sega Dreamcast, Naomi, Naomi 2 és Atomiswave emulátor, amely a reicastból származik.
+    it_IT: Un emulatore multipiattaforma per Sega Dreamcast, Naomi, Naomi 2 e Atomiswave derivato da reicast.
+    ja_JP: reicastをベースにした、セガドリームキャスト、Naomi、Naomi 2、Atomiswaveに対応したマルチプラットフォームエミュレータ。
+    ko_KR: reicast를 기반으로 개발된 멀티 플랫폼 세가 드림캐스트, 나오미, 나오미 2, 아토미스웨이브 에뮬레이터입니다.
+    ml_IN: റീകാസ്റ്റിൽ നിന്ന് ഉരുത്തിരിഞ്ഞ ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം സെഗ ഡ്രീംകാസ്റ്റ്, നവോമി, നവോമി 2, ആറ്റോമിസ്‌വേവ് എമുലേറ്റർ.
+    nb_NO: En multiplattform Sega Dreamcast, Naomi, Naomi 2 og Atomiswave-emulator avledet fra reicast.
+    nl_NL: Een multiplatform-emulator voor Sega Dreamcast, Naomi, Naomi 2 en Atomiswave, afgeleid van reicast.
+    pl_PL: Wieloplatformowy emulator Sega Dreamcast, Naomi, Naomi 2 i Atomiswave pochodzący od reicast.
+    pt_BR: Um emulador multiplataforma para Sega Dreamcast, Naomi, Naomi 2 e Atomiswave derivado do reicast.
+    ro_RO: Un emulator multi-platformă pentru Sega Dreamcast, Naomi, Naomi 2 și Atomiswave, derivat din reicast.
+    ru_RU: Многоплатформенный эмулятор Sega Dreamcast, Naomi, Naomi 2 и Atomiswave, созданный на основе reicast.
+    sk_SK: Multiplatformový emulátor hier Sega Dreamcast, Naomi, Naomi 2 a Atomiswave odvodený od reicastu.
+    sv_SE: En multiplattforms-emulator för Sega Dreamcast, Naomi, Naomi 2 och Atomiswave härledd från reicast.
+    tr_TR: Reicast'ten türetilmiş, çok platformlu bir Sega Dreamcast, Naomi, Naomi 2 ve Atomiswave emülatörü.
     zh_CN: 模拟 Dreamcast、Naomi 和 Atomiswave 等平台。
+    zh_TW: 模擬 Dreamcast、Naomi 和 Atomiswave 等平臺。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/flycast-logo.png
   title:
     en_US: Flycast (LinuxServer.io)
+    ca_ES: Flycast (LinuxServer.io)
+    cs_CZ: Flycast (LinuxServer.io)
+    da_DK: Flycast (LinuxServer.io)
+    de_DE: Flycast (LinuxServer.io)
+    el_GR: Flycast (LinuxServer.io)
+    en_GB: Flycast (LinuxServer.io)
+    es_ES: Flycast (LinuxServer.io)
+    fr_FR: Flycast (LinuxServer.io)
+    ga_IE: Flycast (LinuxServer.io)
+    hr_HR: Flycast (LinuxServer.io)
+    hu_HU: Flycast (LinuxServer.io)
+    it_IT: Flycast (LinuxServer.io)
+    ja_JP: Flycast (LinuxServer.io)
+    ko_KR: Flycast (LinuxServer.io)
+    ml_IN: Flycast (LinuxServer.io)
+    nb_NO: Flycast (LinuxServer.io)
+    nl_NL: Flycast (LinuxServer.io)
+    pl_PL: Flycast (LinuxServer.io)
+    pt_BR: Flycast (LinuxServer.io)
+    ro_RO: Flycast (LinuxServer.io)
+    ru_RU: Flycast (LinuxServer.io)
+    sk_SK: Flycast (LinuxServer.io)
+    sv_SE: Flycast (LinuxServer.io)
+    tr_TR: Flycast (LinuxServer.io)
     zh_CN: Flycast（LinuxServer.io）
+    zh_TW: Flycast（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverflycast
   port_map: '3000'

@@ -53,17 +53,92 @@ x-casaos:
   main: app
   description:
     en_US: Faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
+    ca_ES: Faster-whisper és una reimplementació del model Whisper d'OpenAI utilitzant CTranslate2, que és un motor d'inferència ràpid per a models de Transformer. Aquest contenidor proporciona un servidor de protocol Wyoming per a faster-whisper.
+    cs_CZ: Faster-whisper je reimplementace modelu Whisper od OpenAI s využitím CTranslate2, což je rychlý inferenční engine pro modely Transformer. Tento kontejner poskytuje server protokolu Wyoming pro faster-whisper.
+    da_DK: Faster-whisper er en genimplementering af OpenAIs Whisper-model ved hjælp af CTranslate2, som er en hurtig inferensmotor til Transformer-modeller. Denne container leverer en Wyoming-protokolserver til hurtigere hvisken.
+    de_DE: Faster-Whisper ist eine Neuimplementierung des Whisper-Modells von OpenAI unter Verwendung von CTranslate2, einer schnellen Inferenz-Engine für Transformer-Modelle. Dieser Container stellt einen Wyoming-Protokollserver für Faster-Whisper bereit.
+    el_GR: Το Faster-whisper είναι μια επανεφαρμογή του μοντέλου Whisper της OpenAI χρησιμοποιώντας το CTranslate2, το οποίο είναι μια μηχανή γρήγορης συμπερασματολογίας για μοντέλα Transformer. Αυτό το κοντέινερ παρέχει έναν διακομιστή πρωτοκόλλου Wyoming για το faster-whisper.
+    en_GB: Faster-whisper is a reimplementation of Openai's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
+    es_ES: Faster-whisper es una reimplementación del modelo Whisper de OpenAI que utiliza CTranslate2, un motor de inferencia rápido para modelos Transformer. Este contenedor proporciona un servidor con protocolo Wyoming para Faster-whisper.
+    fr_FR: Faster-whisper est une réimplémentation du modèle Whisper d'OpenAI utilisant CTranslate2, un moteur d'inférence rapide pour les modèles Transformer. Ce conteneur fournit un serveur de protocole Wyoming pour Faster-whisper.
+    ga_IE: Is athchur i bhfeidhm ar mhúnla Whisper OpenAI é Faster-whisper ag baint úsáide as CTranslate2, arb é inneall inference tapa é do mhúnlaí Transformer. Soláthraíonn an coimeádán seo freastalaí prótacail Wyoming le haghaidh cogarnaíochta níos tapúla.
+    hr_HR: Faster-whisper je reimplementacija OpenAI-jevog Whisper modela korištenjem CTranslate2, koji je mehanizam za brzo zaključivanje za Transformer modele. Ovaj kontejner pruža Wyoming protokol poslužitelj za faster-whisper.
+    hu_HU: A Faster-whisper az OpenAI Whisper modelljének egy újraimplementációja a CTranslate2 használatával, amely egy gyors következtetőmotor Transformer modellekhez. Ez a konténer egy Wyoming protokoll szervert biztosít a Faster-whisperhez.
+    it_IT: Faster-whisper è una reimplementazione del modello Whisper di OpenAI che utilizza CTranslate2, un motore di inferenza veloce per i modelli Transformer. Questo container fornisce un server di protocollo Wyoming per Faster-whisper.
+    ja_JP: Faster-whisperは、OpenAIのWhisperモデルをCTranslate2（Transformerモデル向けの高速推論エンジン）を使用して再実装したものです。このコンテナは、faster-whisper用のWyomingプロトコルサーバーを提供します。
+    ko_KR: Faster-whisper는 CTranslate2를 사용하여 OpenAI의 Whisper 모델을 재구현한 것으로, CTranslate2는 Transformer 모델을 위한 빠른 추론 엔진입니다. 이 컨테이너는 Faster-whisper를 위한 Wyoming 프로토콜 서버를 제공합니다.
+    ml_IN: ട്രാൻസ്‌ഫോർമർ മോഡലുകൾക്കായുള്ള ഒരു ഫാസ്റ്റ് ഇൻഫെറേഷൻ എഞ്ചിനായ CTranslate2 ഉപയോഗിച്ചുള്ള OpenAI യുടെ വിസ്പർ മോഡലിന്റെ പുനർനിർമ്മാണമാണ് ഫാസ്റ്റർ-വിസ്പർ. ഈ കണ്ടെയ്‌നർ ഫാസ്റ്റർ-വിസ്പറിനായി ഒരു വ്യോമിംഗ് പ്രോട്ടോക്കോൾ സെർവർ നൽകുന്നു.
+    nb_NO: Faster-whisper er en ny implementering av OpenAIs Whisper-modell ved bruk av CTranslate2, som er en rask inferensmotor for Transformer-modeller. Denne containeren tilbyr en Wyoming-protokollserver for raskere hvisking.
+    nl_NL: Faster-whisper is een herimplementatie van OpenAI's Whisper-model met behulp van CTranslate2, een snelle inferentie-engine voor Transformer-modellen. Deze container biedt een Wyoming-protocolserver voor Faster-whisper.
+    pl_PL: Faster-Whisper to reimplementacja modelu Whisper firmy OpenAI z wykorzystaniem CTranslate2, szybkiego silnika inferencyjnego dla modeli Transformer. Ten kontener udostępnia serwer protokołu Wyoming dla Faster-Whisper.
+    pt_BR: Faster-whisper é uma reimplementação do modelo Whisper da OpenAI usando o CTranslate2, um mecanismo de inferência rápido para modelos Transformer. Este contêiner fornece um servidor de protocolo Wyoming para o Faster-whisper.
+    ro_RO: Faster-whisper este o reimplementare a modelului Whisper al OpenAI folosind CTranslate2, care este un motor de inferență rapid pentru modelele Transformer. Acest container oferă un server de protocol Wyoming pentru faster-whisper.
+    ru_RU: Faster-whisper — это переработанная версия модели Whisper от OpenAI с использованием CTranslate2, быстрого механизма вывода для моделей Transformer. Этот контейнер предоставляет сервер протокола Wyoming для Faster-whisper.
+    sk_SK: Faster-whisper je reimplementácia modelu Whisper od OpenAI pomocou CTranslate2, čo je rýchly inferenčný engine pre modely Transformer. Tento kontajner poskytuje server protokolu Wyoming pre faster-whisper.
+    sv_SE: Faster-whisper är en omimplementering av OpenAI:s Whisper-modell med hjälp av CTranslate2, en snabb inferensmotor för Transformer-modeller. Denna container tillhandahåller en Wyoming-protokollserver för snabbare whisper.
+    tr_TR: Faster-whisper, Transformer modelleri için hızlı bir çıkarım motoru olan CTranslate2 kullanılarak OpenAI'nin Whisper modelinin yeniden uygulanmış halidir. Bu konteyner, faster-whisper için bir Wyoming protokol sunucusu sağlar.
     zh_CN: Faster-whisper 使用 CTranslate2 重新实现 OpenAI 的 Whisper 模型；CTranslate2 是面向 Transformer 模型的快速推理引擎。此容器为 faster-whisper 提供 Wyoming 协议服务器。
+    zh_TW: Faster-whisper 使用 CTranslate2 重新實現 OpenAI 的 Whisper 模型；CTranslate2 是面向 Transformer 模型的快速推理引擎。此容器為 faster-whisper 提供 Wyoming 協議伺服器。
   tagline:
     en_US: A reimplementation of OpenAI's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
+    ca_ES: Una reimplementació del model Whisper d'OpenAI utilitzant CTranslate2, que és un motor d'inferència ràpid per a models Transformer. Aquest contenidor proporciona un servidor de protocol Wyoming per a un whisper més ràpid.
+    cs_CZ: Reimplementace modelu Whisper od OpenAI s využitím CTranslate2, což je rychlý inferenční engine pro modely Transformer. Tento kontejner poskytuje server protokolu Wyoming pro rychlejší „whisper“.
+    da_DK: En genimplementering af OpenAIs Whisper-model ved hjælp af CTranslate2, som er en hurtig inferensmotor til Transformer-modeller. Denne container leverer en Wyoming-protokolserver til hurtigere hvisken.
+    de_DE: Eine Neuimplementierung des Whisper-Modells von OpenAI mit CTranslate2, einer schnellen Inferenz-Engine für Transformer-Modelle. Dieser Container stellt einen Wyoming-Protokollserver für schnelleres Whisper bereit.
+    el_GR: Μια επανεφαρμογή του μοντέλου Whisper του OpenAI χρησιμοποιώντας το CTranslate2, το οποίο είναι μια μηχανή γρήγορης συμπερασματολογίας για μοντέλα Transformer. Αυτό το κοντέινερ παρέχει έναν διακομιστή πρωτοκόλλου του Wyoming για ταχύτερο whisper.
+    en_GB: A reimplementation of Openai's Whisper model using CTranslate2, which is a fast inference engine for Transformer models. This container provides a Wyoming protocol server for faster-whisper.
+    es_ES: Reimplementación del modelo Whisper de OpenAI mediante CTranslate2, un motor de inferencia rápido para modelos Transformer. Este contenedor proporciona un servidor de protocolo Wyoming para faster-whisper.
+    fr_FR: Réimplémentation du modèle Whisper d'OpenAI utilisant CTranslate2, un moteur d'inférence rapide pour les modèles Transformer. Ce conteneur fournit un serveur de protocole Wyoming pour une exécution plus rapide de Whisper.
+    ga_IE: Athchur i bhfeidhm ar mhúnla Whisper OpenAI ag baint úsáide as CTranslate2, arb é inneall mear-thástáil é do mhúnlaí Transformer. Soláthraíonn an coimeádán seo freastalaí prótacail Wyoming le haghaidh cogarnaíochta níos tapúla.
+    hr_HR: Reimplementacija OpenAI-jevog Whisper modela korištenjem CTranslate2, brzog mehanizma za zaključivanje za Transformer modele. Ovaj kontejner pruža Wyoming protokol poslužitelj za brži "whisper" model.
+    hu_HU: Az OpenAI Whisper modelljének újraimplementációja a CTranslate2 használatával, amely egy gyors következtetőmotor Transformer modellekhez. Ez a konténer egy Wyoming protokoll szervert biztosít a gyorsabb suttogáshoz.
+    it_IT: Una reimplementazione del modello Whisper di OpenAI che utilizza CTranslate2, un motore di inferenza veloce per i modelli Transformer. Questo container fornisce un server di protocollo Wyoming per faster-whisper.
+    ja_JP: OpenAIのWhisperモデルをCTranslate2（Transformerモデル向けの高速推論エンジン）を使用して再実装したものです。このコンテナは、より高速なWhisperのためのWyomingプロトコルサーバーを提供します。
+    ko_KR: CTranslate2를 사용하여 OpenAI의 Whisper 모델을 재구현한 것입니다. CTranslate2는 Transformer 모델을 위한 빠른 추론 엔진입니다. 이 컨테이너는 faster-whisper를 위한 Wyoming 프로토콜 서버를 제공합니다.
+    ml_IN: ട്രാൻസ്‌ഫോർമർ മോഡലുകൾക്കായുള്ള ഒരു ഫാസ്റ്റ് ഇൻഫെറേഷൻ എഞ്ചിനായ CTranslate2 ഉപയോഗിച്ചുള്ള OpenAI യുടെ വിസ്പർ മോഡലിന്റെ പുനർനിർമ്മാണം. ഈ കണ്ടെയ്‌നർ ഫാസ്റ്റർ-വിസ്പറിനായി ഒരു വ്യോമിംഗ് പ്രോട്ടോക്കോൾ സെർവർ നൽകുന്നു.
+    nb_NO: En reimplementering av OpenAIs Whisper-modell ved bruk av CTranslate2, som er en rask inferensmotor for Transformer-modeller. Denne containeren tilbyr en Wyoming-protokollserver for raskere hvisking.
+    nl_NL: Een herimplementatie van OpenAI's Whisper-model met behulp van CTranslate2, een snelle inferentie-engine voor Transformer-modellen. Deze container biedt een Wyoming-protocolserver voor faster-whisper.
+    pl_PL: Reimplementacja modelu Whisper firmy OpenAI z wykorzystaniem CTranslate2, szybkiego silnika inferencyjnego dla modeli Transformer. Ten kontener udostępnia serwer protokołu Wyoming do szybszego szeptania.
+    pt_BR: Uma reimplementação do modelo Whisper da OpenAI usando o CTranslate2, um mecanismo de inferência rápido para modelos Transformer. Este contêiner fornece um servidor de protocolo Wyoming para o faster-whisper.
+    ro_RO: O reimplementare a modelului Whisper al OpenAI folosind CTranslate2, un motor de inferență rapid pentru modelele Transformer. Acest container oferă un server de protocol Wyoming pentru un whisper mai rapid.
+    ru_RU: Переработанная реализация модели Whisper от OpenAI с использованием CTranslate2, быстрого механизма вывода для моделей Transformer. Этот контейнер предоставляет сервер протокола Wyoming для более быстрой работы Whisper.
+    sk_SK: Reimplementácia modelu Whisper od OpenAI pomocou CTranslate2, čo je rýchly inferenčný engine pre modely Transformer. Tento kontajner poskytuje server protokolu Wyoming pre rýchlejšie šepkanie.
+    sv_SE: En återimplementering av OpenAI:s Whisper-modell med hjälp av CTranslate2, en snabb inferensmotor för Transformer-modeller. Denna container tillhandahåller en Wyoming-protokollserver för snabbare whisper.
+    tr_TR: OpenAI'nin Whisper modelinin, Transformer modelleri için hızlı bir çıkarım motoru olan CTranslate2 kullanılarak yeniden uygulanması. Bu konteyner, daha hızlı Whisper için bir Wyoming protokol sunucusu sağlar.
     zh_CN: 通过 Wyoming 协议提供 Whisper 语音识别服务。
+    zh_TW: 透過 Wyoming 協議提供 Whisper 語音識別服務。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: ''
   title:
     en_US: Faster whisper (LinuxServer.io)
+    ca_ES: Faster whisper (LinuxServer.io)
+    cs_CZ: Faster whisper (LinuxServer.io)
+    da_DK: Faster whisper (LinuxServer.io)
+    de_DE: Faster whisper (LinuxServer.io)
+    el_GR: Faster whisper (LinuxServer.io)
+    en_GB: Faster whisper (LinuxServer.io)
+    es_ES: Faster whisper (LinuxServer.io)
+    fr_FR: Faster whisper (LinuxServer.io)
+    ga_IE: Faster whisper (LinuxServer.io)
+    hr_HR: Faster whisper (LinuxServer.io)
+    hu_HU: Faster whisper (LinuxServer.io)
+    it_IT: Faster whisper (LinuxServer.io)
+    ja_JP: Faster whisper (LinuxServer.io)
+    ko_KR: Faster whisper (LinuxServer.io)
+    ml_IN: Faster whisper (LinuxServer.io)
+    nb_NO: Faster whisper (LinuxServer.io)
+    nl_NL: Faster whisper (LinuxServer.io)
+    pl_PL: Faster whisper (LinuxServer.io)
+    pt_BR: Faster whisper (LinuxServer.io)
+    ro_RO: Faster whisper (LinuxServer.io)
+    ru_RU: Faster whisper (LinuxServer.io)
+    sk_SK: Faster whisper (LinuxServer.io)
+    sv_SE: Faster whisper (LinuxServer.io)
+    tr_TR: Faster whisper (LinuxServer.io)
     zh_CN: Faster whisper（LinuxServer.io）
+    zh_TW: Faster whisper（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfasterwhisper
   port_map: '10300'

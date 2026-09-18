@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Budge is an open source 'budgeting with envelopes' personal finance app.
+    ca_ES: Budge és una aplicació de finances personals de codi obert per a "pressuposts amb sobres".
+    cs_CZ: Budge je open source aplikace pro osobní finance typu „rozpočet s obálkami“.
+    da_DK: Budge er en open source-app til personlig økonomi, der bruger 'budgettering med kuverter'.
+    de_DE: Budge ist eine Open-Source-App für persönliche Finanzen, die auf dem Prinzip „Budgetplanung mit Umschlägen“ basiert.
+    el_GR: Το Budge είναι μια εφαρμογή προσωπικών οικονομικών ανοιχτού κώδικα για «προϋπολογισμό με φακέλους».
+    en_GB: Budge is an open source 'budgeting with envelopes' personal finance app.
+    es_ES: Budge es una aplicación de finanzas personales de código abierto que permite gestionar el presupuesto mediante sobres.
+    fr_FR: Budge est une application de finances personnelles open source de type « budget avec des enveloppes ».
+    ga_IE: Is aip airgeadais phearsanta foinse oscailte í Budge a dhéanann buiséadú le clúdaigh litreach.
+    hr_HR: Budge je aplikacija za osobne financije otvorenog koda za "budžetiranje s kuvertama".
+    hu_HU: A Budge egy nyílt forráskódú „borítékokkal történő költségvetés-tervezés” nevű személyes pénzügyi alkalmazás.
+    it_IT: Budge è un'app open source per la gestione del budget personale tramite buste.
+    ja_JP: Budgeは、封筒を使った予算管理を行うオープンソースの個人向け家計管理アプリです。
+    ko_KR: Budge는 '봉투를 이용한 예산 관리'를 지향하는 오픈 소스 개인 재정 관리 앱입니다.
+    ml_IN: ബഡ്ജ് ഒരു ഓപ്പൺ സോഴ്‌സ് 'എൻവലപ്പുകളുള്ള ബജറ്റിംഗ്' പേഴ്‌സണൽ ഫിനാൻസ് ആപ്പാണ്.
+    nb_NO: Budge er en åpen kildekode-app for personlig økonomi, «budsjettering med konvolutter».
+    nl_NL: Budge is een open source app voor persoonlijke financiën waarmee je kunt budgetteren met behulp van enveloppen.
+    pl_PL: Budge to aplikacja do zarządzania finansami osobistymi, oparta na otwartym kodzie źródłowym, służąca do budżetowania za pomocą kopert.
+    pt_BR: Budge é um aplicativo de finanças pessoais de código aberto para "orçamento com envelopes".
+    ro_RO: Budge este o aplicație open source de finanțe personale pentru „bugetare cu plicuri”.
+    ru_RU: Budge — это приложение для управления личными финансами с открытым исходным кодом, предназначенное для составления бюджета с помощью конвертов.
+    sk_SK: Budge je open source aplikácia pre osobné financie typu „rozpočet s obálkami“.
+    sv_SE: Budge är en öppen källkodsapp för personlig ekonomi med "kuvertbudgetering".
+    tr_TR: Budge, açık kaynaklı, "zarf yöntemiyle bütçeleme" özelliğine sahip bir kişisel finans uygulamasıdır.
     zh_CN: Budge 是一款采用“信封预算法”的开源个人财务应用。
+    zh_TW: Budge 是一款採用“信封預演算法”的開源個人財務應用。
   tagline:
     en_US: An open source 'budgeting with envelopes' personal finance app.
+    ca_ES: Una aplicació de finances personals de codi obert per a "pressupost amb sobres".
+    cs_CZ: Osobní finanční aplikace s otevřeným zdrojovým kódem pro „rozpočet s obálkami“.
+    da_DK: En open source-app til personlig økonomi, der bruger 'budgettering med kuverter'.
+    de_DE: Eine Open-Source-App für persönliche Finanzen, die auf dem Prinzip „Budgetplanung mit Umschlägen“ basiert.
+    el_GR: Μια εφαρμογή προσωπικών οικονομικών ανοιχτού κώδικα «προϋπολογισμού με φακέλους».
+    en_GB: An open source 'budgeting with envelopes' personal finance app.
+    es_ES: Una aplicación de finanzas personales de código abierto para "presupuestar con sobres".
+    fr_FR: Une application de finances personnelles open source de type « budget avec des enveloppes ».
+    ga_IE: Aip airgeadais phearsanta foinse oscailte le haghaidh 'buiséadú le clúdaigh litreach'.
+    hr_HR: Aplikacija za osobne financije otvorenog koda za 'proračun s omotnicama'.
+    hu_HU: Egy nyílt forráskódú „borítékokkal történő költségvetés-tervezés” személyes pénzügyi alkalmazás.
+    it_IT: Un'app open source per la gestione del budget personale tramite buste.
+    ja_JP: オープンソースの「封筒を使った予算管理」個人向け家計管理アプリ。
+    ko_KR: 봉투를 이용한 예산 관리 기능을 제공하는 오픈 소스 개인 재정 관리 앱입니다.
+    ml_IN: '''എൻവലപ്പുകളുള്ള ബജറ്റിംഗ്'' എന്ന ഓപ്പൺ സോഴ്‌സ് പേഴ്സണൽ ഫിനാൻസ് ആപ്പ്.'
+    nb_NO: En åpen kildekode-app for personlig økonomi, «budsjettering med konvolutter».
+    nl_NL: Een open source app voor persoonlijke financiën, genaamd 'budgetteren met enveloppen'.
+    pl_PL: Otwarta aplikacja do zarządzania finansami osobistymi, umożliwiająca „budżetowanie za pomocą kopert”.
+    pt_BR: Um aplicativo de finanças pessoais de código aberto para "orçamento com envelopes".
+    ro_RO: O aplicație open source pentru finanțe personale „bugetare cu plicuri”.
+    ru_RU: Приложение для управления личными финансами с открытым исходным кодом, работающее по принципу «составление бюджета с помощью конвертов».
+    sk_SK: Aplikácia pre osobné financie s otvoreným zdrojovým kódom „rozpočtovanie s obálkami“.
+    sv_SE: En öppen källkodsapp för personlig ekonomi med "budgetering med kuvert".
+    tr_TR: Açık kaynaklı, 'zarf yöntemiyle bütçeleme' özelliğine sahip kişisel finans uygulaması.
     zh_CN: 采用信封预算法的开源个人财务应用。
+    zh_TW: 採用信封預演算法的開源個人財務應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
   thumbnail: ''
   title:
     en_US: Budge (LinuxServer.io)
+    ca_ES: Budge (LinuxServer.io)
+    cs_CZ: Budge (LinuxServer.io)
+    da_DK: Budge (LinuxServer.io)
+    de_DE: Budge (LinuxServer.io)
+    el_GR: Budge (LinuxServer.io)
+    en_GB: Budge (LinuxServer.io)
+    es_ES: Budge (LinuxServer.io)
+    fr_FR: Budge (LinuxServer.io)
+    ga_IE: Budge (LinuxServer.io)
+    hr_HR: Budge (LinuxServer.io)
+    hu_HU: Budge (LinuxServer.io)
+    it_IT: Budge (LinuxServer.io)
+    ja_JP: Budge (LinuxServer.io)
+    ko_KR: Budge (LinuxServer.io)
+    ml_IN: Budge (LinuxServer.io)
+    nb_NO: Budge (LinuxServer.io)
+    nl_NL: Budge (LinuxServer.io)
+    pl_PL: Budge (LinuxServer.io)
+    pt_BR: Budge (LinuxServer.io)
+    ro_RO: Budge (LinuxServer.io)
+    ru_RU: Budge (LinuxServer.io)
+    sk_SK: Budge (LinuxServer.io)
+    sv_SE: Budge (LinuxServer.io)
+    tr_TR: Budge (LinuxServer.io)
     zh_CN: Budge（LinuxServer.io）
+    zh_TW: Budge（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbudge
   port_map: '80'

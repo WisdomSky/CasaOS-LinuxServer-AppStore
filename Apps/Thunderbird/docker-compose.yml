@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Thunderbird is a free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.
+    ca_ES: Thunderbird és un gestor d'informació personal gratuït i de codi obert que s'utilitza principalment com a client de correu electrònic amb un calendari i una llibreta de contactes, així com com a lector de canals RSS, client de xat i client de notícies.
+    cs_CZ: Thunderbird je bezplatný a open-source správce osobních údajů, který se používá především jako e-mailový klient s kalendářem a adresářem, ale také jako čtečka RSS kanálů, chatovací klient a klient pro zprávy.
+    da_DK: Thunderbird er en gratis og open source-software til personlig informationshåndtering, der primært bruges som en e-mail-klient med en kalender og kontaktbog, samt en RSS-feedlæser, chatklient og nyhedsklient.
+    de_DE: Thunderbird ist ein kostenloser und quelloffener persönlicher Informationsmanager, der hauptsächlich als E-Mail-Client mit Kalender und Adressbuch sowie als RSS-Feed-Reader, Chat-Client und News-Client verwendet wird.
+    el_GR: Το Thunderbird είναι ένα δωρεάν και ανοιχτού κώδικα πρόγραμμα διαχείρισης προσωπικών πληροφοριών που χρησιμοποιείται κυρίως ως πρόγραμμα-πελάτης ηλεκτρονικού ταχυδρομείου με ημερολόγιο και βιβλίο επαφών, καθώς και ως πρόγραμμα ανάγνωσης ροών RSS, πρόγραμμα-πελάτης συνομιλίας και πρόγραμμα-πελάτης ειδήσεων.
+    en_GB: Thunderbird is a free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an Rss feed reader, chat client, and news client.
+    es_ES: Thunderbird es un gestor de información personal gratuito y de código abierto que se utiliza principalmente como cliente de correo electrónico con calendario y agenda de contactos, así como lector de fuentes RSS, cliente de chat y cliente de noticias.
+    fr_FR: Thunderbird est un gestionnaire d'informations personnelles gratuit et open source, principalement utilisé comme client de messagerie électronique avec calendrier et carnet d'adresses, ainsi que comme lecteur de flux RSS, client de chat et client de news.
+    ga_IE: Is bainisteoir faisnéise pearsanta foinse oscailte agus saor in aisce é Thunderbird a úsáidtear go príomha mar chliant ríomhphoist le féilire agus leabhar teagmhála, chomh maith le léitheoir beatha RSS, cliant comhrá, agus cliant nuachta.
+    hr_HR: Thunderbird je besplatni program za upravljanje osobnim podacima otvorenog koda koji se prvenstveno koristi kao klijent e-pošte s kalendarom i adresom, kao i kao čitač RSS feedova, klijent za chat i klijent za vijesti.
+    hu_HU: A Thunderbird egy ingyenes és nyílt forráskódú személyesadat-kezelő, amelyet elsősorban e-mail kliensként használnak naptárral és névjegyzékkel, valamint RSS-hírcsatorna-olvasóként, csevegőkliensként és hírkliensként.
+    it_IT: Thunderbird è un gestore di informazioni personali gratuito e open source, utilizzato principalmente come client di posta elettronica con calendario e rubrica, nonché come lettore di feed RSS, client di chat e client di notizie.
+    ja_JP: Thunderbirdは、主に電子メールクライアントとして使用される無料のオープンソースの個人情報管理ソフトで、カレンダーや連絡先帳の機能に加え、RSSフィードリーダー、チャットクライアント、ニュースクライアントとしても利用できます。
+    ko_KR: 썬더버드는 무료 오픈소스 개인 정보 관리 프로그램으로, 주로 이메일 클라이언트, 캘린더, 연락처 관리 기능은 물론 RSS 피드 리더, 채팅 클라이언트, 뉴스 클라이언트로도 사용됩니다.
+    ml_IN: തണ്ടർബേഡ് ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് വ്യക്തിഗത വിവര മാനേജറാണ്, ഇത് പ്രാഥമികമായി ഒരു കലണ്ടർ, കോൺടാക്റ്റ്ബുക്ക് എന്നിവയുള്ള ഒരു ഇ-മെയിൽ ക്ലയന്റായും, ഒരു RSS ഫീഡ് റീഡർ, ചാറ്റ് ക്ലയന്റ്, വാർത്താ ക്ലയന്റ് എന്നിവയായും ഉപയോഗിക്കുന്നു.
+    nb_NO: Thunderbird er en gratis og åpen kildekode-tjeneste for personlig informasjonsbehandler som primært brukes som en e-postklient med kalender og kontaktbok, samt en RSS-feedleser, chatklient og nyhetsklient.
+    nl_NL: Thunderbird is een gratis en open-source programma voor persoonlijk informatiebeheer dat voornamelijk wordt gebruikt als e-mailclient met een agenda en contactenlijst, maar ook als RSS-feedlezer, chatclient en nieuwsclient.
+    pl_PL: Thunderbird to darmowy i otwartoźródłowy program do zarządzania informacjami osobistymi, wykorzystywany przede wszystkim jako klient poczty e-mail z kalendarzem i książką kontaktów, a także jako czytnik kanałów RSS, klient czatu i klient wiadomości.
+    pt_BR: O Thunderbird é um gerenciador de informações pessoais gratuito e de código aberto, usado principalmente como cliente de e-mail com calendário e agenda de contatos, além de leitor de feeds RSS, cliente de bate-papo e leitor de notícias.
+    ro_RO: Thunderbird este un manager de informații personale gratuit și open-source, utilizat în principal ca client de e-mail cu calendar și agendă, precum și ca cititor de fluxuri RSS, client de chat și client de știri.
+    ru_RU: Thunderbird — это бесплатный менеджер личной информации с открытым исходным кодом, используемый в основном в качестве почтового клиента с календарем и телефонной книгой, а также в качестве программы для чтения RSS-лент, чата и новостного приложения.
+    sk_SK: Thunderbird je bezplatný a open-source správca osobných údajov, ktorý sa používa predovšetkým ako e-mailový klient s kalendárom a adresárom, ako aj ako čítačka RSS kanálov, chatovací klient a klient správ.
+    sv_SE: Thunderbird är en gratis och öppen källkodsbaserad personlig informationshanterare som främst används som en e-postklient med kalender och kontaktbok, samt en RSS-flödesläsare, chattklient och nyhetsklient.
+    tr_TR: Thunderbird, öncelikle takvim ve kişi defteri içeren bir e-posta istemcisi, ayrıca RSS besleme okuyucusu, sohbet istemcisi ve haber istemcisi olarak kullanılan ücretsiz ve açık kaynaklı bir kişisel bilgi yönetim programıdır.
     zh_CN: Thunderbird 是免费、开源的个人信息管理器，主要作为电子邮件客户端使用，同时包含日历、通讯录、RSS 阅读器、聊天客户端和新闻组客户端。
+    zh_TW: Thunderbird 是免費、開源的個人資訊管理器，主要作為電子郵件客戶端使用，同時包含日曆、通訊錄、RSS 閱讀器、聊天客戶端和新聞組客戶端。
   tagline:
     en_US: A free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an RSS feed reader, chat client, and news client.
+    ca_ES: Un gestor d'informació personal gratuït i de codi obert que s'utilitza principalment com a client de correu electrònic amb un calendari i una llibreta de contactes, així com com a lector de canals RSS, client de xat i client de notícies.
+    cs_CZ: Bezplatný a open-source správce osobních údajů, který se používá především jako e-mailový klient s kalendářem a adresářem, ale také jako čtečka RSS kanálů, chatovací klient a klient pro zprávy.
+    da_DK: En gratis og open source-funktion til personlig informationshåndtering, der primært bruges som en e-mail-klient med en kalender og kontaktbog, samt en RSS-feedlæser, chatklient og nyhedsklient.
+    de_DE: Ein kostenloser und quelloffener persönlicher Informationsmanager, der hauptsächlich als E-Mail-Client mit Kalender und Adressbuch sowie als RSS-Feed-Reader, Chat-Client und News-Client genutzt wird.
+    el_GR: Ένας δωρεάν και ανοιχτού κώδικα διαχειριστής προσωπικών πληροφοριών που χρησιμοποιείται κυρίως ως πρόγραμμα-πελάτης ηλεκτρονικού ταχυδρομείου με ημερολόγιο και βιβλίο επαφών, καθώς και ως αναγνώστης ροών RSS, πρόγραμμα-πελάτης συνομιλίας και πρόγραμμα-πελάτης ειδήσεων.
+    en_GB: A free and open-source personal information manager primarily used as an e-mail client with a calendar and contactbook, as well as an Rss feed reader, chat client, and news client.
+    es_ES: Un gestor de información personal gratuito y de código abierto que se utiliza principalmente como cliente de correo electrónico con calendario y agenda de contactos, así como lector de fuentes RSS, cliente de chat y cliente de noticias.
+    fr_FR: Un gestionnaire d'informations personnelles gratuit et open source, principalement utilisé comme client de messagerie électronique avec calendrier et carnet d'adresses, ainsi que comme lecteur de flux RSS, client de chat et client de news.
+    ga_IE: Bainisteoir faisnéise pearsanta foinse oscailte agus saor in aisce a úsáidtear go príomha mar chliant ríomhphoist le féilire agus leabhar teagmhála, chomh maith le léitheoir beatha RSS, cliant comhrá, agus cliant nuachta.
+    hr_HR: Besplatni program za upravljanje osobnim podacima otvorenog koda koji se prvenstveno koristi kao klijent e-pošte s kalendarom i adresom, kao i kao čitač RSS feedova, klijent za chat i klijent za vijesti.
+    hu_HU: Egy ingyenes és nyílt forráskódú személyes adatkezelő, amelyet elsősorban e-mail kliensként használnak naptárral és névjegyzékkel, valamint RSS-hírcsatorna-olvasóként, csevegőkliensként és hírkliensként.
+    it_IT: Un gestore di informazioni personali gratuito e open-source, utilizzato principalmente come client di posta elettronica con calendario e rubrica, nonché come lettore di feed RSS, client di chat e client di notizie.
+    ja_JP: 主に電子メールクライアントとして使用される、無料のオープンソースの個人情報管理ソフト。カレンダーと連絡先帳の機能に加え、RSSフィードリーダー、チャットクライアント、ニュースクライアントとしても利用できる。
+    ko_KR: 무료 오픈소스 개인 정보 관리 프로그램으로, 주로 이메일 클라이언트, 캘린더 및 연락처 기능을 제공하며, RSS 피드 리더, 채팅 클라이언트, 뉴스 클라이언트로도 사용됩니다.
+    ml_IN: കലണ്ടറും കോൺടാക്റ്റ്ബുക്കും ഉള്ള ഒരു ഇ-മെയിൽ ക്ലയന്റായും, ഒരു RSS ഫീഡ് റീഡർ, ചാറ്റ് ക്ലയന്റ്, വാർത്താ ക്ലയന്റ് എന്നിവയായും പ്രാഥമികമായി ഉപയോഗിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് വ്യക്തിഗത വിവര മാനേജർ.
+    nb_NO: En gratis og åpen kildekode-programvare for personlig informasjon som primært brukes som en e-postklient med kalender og kontaktbok, samt en RSS-feedleser, chatklient og nyhetsklient.
+    nl_NL: Een gratis en open-source programma voor het beheren van persoonlijke informatie, dat voornamelijk gebruikt wordt als e-mailclient met een agenda en contactenlijst, maar ook als RSS-feedlezer, chatclient en nieuwsclient.
+    pl_PL: Bezpłatny i otwartoźródłowy program do zarządzania informacjami osobistymi, wykorzystywany przede wszystkim jako klient poczty e-mail z kalendarzem i książką kontaktów, a także jako czytnik kanałów RSS, klient czatu i klient wiadomości.
+    pt_BR: Um gerenciador de informações pessoais gratuito e de código aberto, usado principalmente como cliente de e-mail com calendário e agenda de contatos, além de leitor de feeds RSS, cliente de bate-papo e leitor de notícias.
+    ro_RO: Un manager de informații personale gratuit și open-source, utilizat în principal ca client de e-mail cu calendar și agendă, precum și ca cititor de fluxuri RSS, client de chat și client de știri.
+    ru_RU: Бесплатный менеджер личной информации с открытым исходным кодом, используемый в основном как почтовый клиент с календарем и телефонной книгой, а также как программа для чтения RSS-лент, чат-клиент и новостной клиент.
+    sk_SK: Bezplatný a open-source správca osobných údajov, ktorý sa používa predovšetkým ako e-mailový klient s kalendárom a adresárom, ako aj ako čítačka RSS kanálov, chatovací klient a klient správ.
+    sv_SE: En gratis och öppen källkodshantering för personlig information som främst används som en e-postklient med kalender och kontaktbok, samt en RSS-flödesläsare, chattklient och nyhetsklient.
+    tr_TR: Ücretsiz ve açık kaynaklı bir kişisel bilgi yönetim programı olup, öncelikle takvim ve rehber içeren bir e-posta istemcisi, ayrıca RSS besleme okuyucusu, sohbet istemcisi ve haber istemcisi olarak kullanılır.
     zh_CN: 集成邮件、日历、联系人和订阅阅读的客户端。
+    zh_TW: 整合郵件、日曆、聯絡人和訂閱閱讀的客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/thunderbird-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/thunderbird-logo.png
   title:
     en_US: Thunderbird (LinuxServer.io)
+    ca_ES: Thunderbird (LinuxServer.io)
+    cs_CZ: Thunderbird (LinuxServer.io)
+    da_DK: Thunderbird (LinuxServer.io)
+    de_DE: Thunderbird (LinuxServer.io)
+    el_GR: Thunderbird (LinuxServer.io)
+    en_GB: Thunderbird (LinuxServer.io)
+    es_ES: Thunderbird (LinuxServer.io)
+    fr_FR: Thunderbird (LinuxServer.io)
+    ga_IE: Thunderbird (LinuxServer.io)
+    hr_HR: Thunderbird (LinuxServer.io)
+    hu_HU: Thunderbird (LinuxServer.io)
+    it_IT: Thunderbird (LinuxServer.io)
+    ja_JP: Thunderbird (LinuxServer.io)
+    ko_KR: Thunderbird (LinuxServer.io)
+    ml_IN: Thunderbird (LinuxServer.io)
+    nb_NO: Thunderbird (LinuxServer.io)
+    nl_NL: Thunderbird (LinuxServer.io)
+    pl_PL: Thunderbird (LinuxServer.io)
+    pt_BR: Thunderbird (LinuxServer.io)
+    ro_RO: Thunderbird (LinuxServer.io)
+    ru_RU: Thunderbird (LinuxServer.io)
+    sk_SK: Thunderbird (LinuxServer.io)
+    sv_SE: Thunderbird (LinuxServer.io)
+    tr_TR: Thunderbird (LinuxServer.io)
     zh_CN: Thunderbird（LinuxServer.io）
+    zh_TW: Thunderbird（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverthunderbird
   port_map: '3000'

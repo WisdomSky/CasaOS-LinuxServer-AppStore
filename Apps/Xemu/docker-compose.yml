@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: xemu is a free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.
+    ca_ES: xemu és una aplicació gratuïta i de codi obert que emula la consola de jocs Xbox original de Microsoft, permetent a la gent jugar als seus jocs originals de Xbox en sistemes Windows, macOS i Linux.
+    cs_CZ: xemu je bezplatná aplikace s otevřeným zdrojovým kódem, která emuluje původní herní konzoli Microsoft Xbox a umožňuje lidem hrát jejich původní hry pro Xbox na systémech Windows, macOS a Linux.
+    da_DK: xemu er et gratis og open source-program, der emulerer den originale Microsoft Xbox-spilkonsol, hvilket gør det muligt for folk at spille deres originale Xbox-spil på Windows-, macOS- og Linux-systemer.
+    de_DE: xemu ist eine kostenlose Open-Source-Anwendung, die die originale Microsoft Xbox-Spielkonsole emuliert und es Benutzern ermöglicht, ihre originalen Xbox-Spiele auf Windows-, macOS- und Linux-Systemen zu spielen.
+    el_GR: Το xemu είναι μια δωρεάν εφαρμογή ανοιχτού κώδικα που μιμείται την αρχική κονσόλα παιχνιδιών Microsoft Xbox, επιτρέποντας στους χρήστες να παίζουν τα αρχικά τους παιχνίδια Xbox σε συστήματα Windows, macOS και Linux.
+    en_GB: xemu is a free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.
+    es_ES: xemu es una aplicación gratuita y de código abierto que emula la consola de juegos original Microsoft Xbox, lo que permite a los usuarios jugar a sus juegos originales de Xbox en sistemas Windows, macOS y Linux.
+    fr_FR: Xemu est une application gratuite et open source qui émule la console de jeux Microsoft Xbox originale, permettant ainsi de jouer à ses jeux Xbox originaux sur les systèmes Windows, macOS et Linux.
+    ga_IE: Is feidhmchlár saor in aisce agus foinse oscailte é xemu a dhéanann aithris ar chonsól cluiche bunaidh Microsoft Xbox, rud a chuireann ar chumas daoine a gcluichí Xbox bunaidh a imirt ar chórais Windows, macOS, agus Linux.
+    hr_HR: xemu je besplatna aplikacija otvorenog koda koja emulira originalnu Microsoft Xbox igraću konzolu, omogućujući ljudima igranje svojih originalnih Xbox igara na Windows, macOS i Linux sustavima.
+    hu_HU: Az xemu egy ingyenes és nyílt forráskódú alkalmazás, amely az eredeti Microsoft Xbox játékkonzolt emulálja, lehetővé téve a felhasználók számára, hogy eredeti Xbox játékaikat Windows, macOS és Linux rendszereken játsszák.
+    it_IT: XEMU è un'applicazione gratuita e open-source che emula la console di gioco originale Microsoft Xbox, consentendo agli utenti di giocare ai loro giochi Xbox originali su sistemi Windows, macOS e Linux.
+    ja_JP: xemuは、オリジナルのMicrosoft Xboxゲーム機をエミュレートする無料のオープンソースアプリケーションであり、Windows、macOS、Linuxシステム上でオリジナルのXboxゲームをプレイすることを可能にします。
+    ko_KR: Xemu는 오리지널 Microsoft Xbox 게임 콘솔을 에뮬레이션하는 무료 오픈 소스 애플리케이션으로, 사용자가 Windows, macOS 및 Linux 시스템에서 오리지널 Xbox 게임을 플레이할 수 있도록 해줍니다.
+    ml_IN: xemu എന്നത് യഥാർത്ഥ മൈക്രോസോഫ്റ്റ് എക്സ്ബോക്സ് ഗെയിം കൺസോളിനെ അനുകരിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ആപ്ലിക്കേഷനുമാണ്, ഇത് ആളുകളെ വിൻഡോസ്, മാകോസ്, ലിനക്സ് സിസ്റ്റങ്ങളിൽ അവരുടെ യഥാർത്ഥ എക്സ്ബോക്സ് ഗെയിമുകൾ കളിക്കാൻ പ്രാപ്തമാക്കുന്നു.
+    nb_NO: xemu er et gratis og åpen kildekode-program som emulerer den originale Microsoft Xbox-spillkonsollen, slik at folk kan spille sine originale Xbox-spill på Windows-, macOS- og Linux-systemer.
+    nl_NL: Xemu is een gratis en open-source applicatie die de originele Microsoft Xbox-spelconsole emuleert, waardoor mensen hun originele Xbox-spellen kunnen spelen op Windows-, macOS- en Linux-systemen.
+    pl_PL: xemu to darmowa aplikacja o otwartym kodzie źródłowym, która emuluje oryginalną konsolę gier Microsoft Xbox, umożliwiając użytkownikom granie w oryginalne gry Xbox na komputerach Windows, macOS i Linux.
+    pt_BR: O xemu é um aplicativo gratuito e de código aberto que emula o console de jogos Xbox original da Microsoft, permitindo que as pessoas joguem seus jogos originais do Xbox em sistemas Windows, macOS e Linux.
+    ro_RO: xemu este o aplicație gratuită și open-source care emulează consola de jocuri Microsoft Xbox originală, permițând utilizatorilor să joace jocurile Xbox originale pe sistemele Windows, macOS și Linux.
+    ru_RU: Xemu — это бесплатное приложение с открытым исходным кодом, которое эмулирует оригинальную игровую консоль Microsoft Xbox, позволяя пользователям играть в свои оригинальные игры Xbox на системах Windows, macOS и Linux.
+    sk_SK: xemu je bezplatná aplikácia s otvoreným zdrojovým kódom, ktorá emuluje pôvodnú hernú konzolu Microsoft Xbox a umožňuje ľuďom hrať ich pôvodné hry pre Xbox na systémoch Windows, macOS a Linux.
+    sv_SE: xemu är ett gratis program med öppen källkod som emulerar den ursprungliga Microsoft Xbox-spelkonsolen, vilket gör det möjligt för användare att spela sina ursprungliga Xbox-spel på Windows-, macOS- och Linux-system.
+    tr_TR: Xemu, orijinal Microsoft Xbox oyun konsolunu taklit eden, ücretsiz ve açık kaynaklı bir uygulamadır ve kullanıcıların orijinal Xbox oyunlarını Windows, macOS ve Linux sistemlerinde oynamalarına olanak tanır.
     zh_CN: xemu 是免费、开源的应用，可模拟初代 Microsoft Xbox 游戏主机，让用户在 Windows、macOS 和 Linux 系统上游玩初代 Xbox 游戏。
+    zh_TW: xemu 是免費、開源的應用，可模擬初代 Microsoft Xbox 遊戲主機，讓使用者在 Windows、macOS 和 Linux 系統上游玩初代 Xbox 遊戲。
   tagline:
     en_US: A free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.
+    ca_ES: Una aplicació gratuïta i de codi obert que emula la consola de jocs Xbox original de Microsoft, permetent que la gent jugui als seus jocs originals de Xbox en sistemes Windows, macOS i Linux.
+    cs_CZ: Bezplatná aplikace s otevřeným zdrojovým kódem, která emuluje původní herní konzoli Microsoft Xbox a umožňuje lidem hrát jejich původní hry pro Xbox na systémech Windows, macOS a Linux.
+    da_DK: En gratis og open source-applikation, der emulerer den originale Microsoft Xbox-spilkonsol, så folk kan spille deres originale Xbox-spil på Windows-, macOS- og Linux-systemer.
+    de_DE: Eine kostenlose Open-Source-Anwendung, die die originale Microsoft Xbox-Spielkonsole emuliert und es Nutzern ermöglicht, ihre originalen Xbox-Spiele auf Windows-, macOS- und Linux-Systemen zu spielen.
+    el_GR: Μια δωρεάν εφαρμογή ανοιχτού κώδικα που μιμείται την αρχική κονσόλα παιχνιδιών Microsoft Xbox, επιτρέποντας στους χρήστες να παίζουν τα αρχικά τους παιχνίδια Xbox σε συστήματα Windows, macOS και Linux.
+    en_GB: A free and open-source application that emulates the original Microsoft Xbox game console, enabling people to play their original Xbox games on Windows, macOS, and Linux systems.
+    es_ES: Una aplicación gratuita y de código abierto que emula la consola de juegos original Microsoft Xbox, lo que permite a los usuarios jugar a sus juegos originales de Xbox en sistemas Windows, macOS y Linux.
+    fr_FR: Une application gratuite et open source qui émule la console de jeux Microsoft Xbox originale, permettant aux utilisateurs de jouer à leurs jeux Xbox originaux sur les systèmes Windows, macOS et Linux.
+    ga_IE: Feidhmchlár saor in aisce agus foinse oscailte a dhéanann aithris ar chonsól cluiche bunaidh Microsoft Xbox, rud a chuireann ar chumas daoine a gcluichí Xbox bunaidh a imirt ar chórais Windows, macOS, agus Linux.
+    hr_HR: Besplatna aplikacija otvorenog koda koja emulira originalnu Microsoft Xbox igraću konzolu, omogućujući ljudima igranje originalnih Xbox igara na Windows, macOS i Linux sustavima.
+    hu_HU: Egy ingyenes és nyílt forráskódú alkalmazás, amely az eredeti Microsoft Xbox játékkonzolt emulálja, lehetővé téve a felhasználók számára, hogy eredeti Xbox játékaikat Windows, macOS és Linux rendszereken játsszák.
+    it_IT: Un'applicazione gratuita e open-source che emula la console di gioco originale Microsoft Xbox, consentendo agli utenti di giocare ai loro titoli Xbox originali su sistemi Windows, macOS e Linux.
+    ja_JP: オリジナルのMicrosoft Xboxゲーム機をエミュレートする無料のオープンソースアプリケーションで、Windows、macOS、Linuxシステム上でオリジナルのXboxゲームをプレイできるようになります。
+    ko_KR: 마이크로소프트 Xbox 게임 콘솔을 에뮬레이션하는 무료 오픈 소스 애플리케이션으로, Windows, macOS 및 Linux 시스템에서 오리지널 Xbox 게임을 플레이할 수 있도록 해줍니다.
+    ml_IN: യഥാർത്ഥ മൈക്രോസോഫ്റ്റ് എക്സ്ബോക്സ് ഗെയിം കൺസോളിനെ അനുകരിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ആപ്ലിക്കേഷനാണിത്, ഇത് വിൻഡോസ്, മാകോസ്, ലിനക്സ് സിസ്റ്റങ്ങളിൽ ആളുകൾക്ക് അവരുടെ യഥാർത്ഥ എക്സ്ബോക്സ് ഗെയിമുകൾ കളിക്കാൻ പ്രാപ്തമാക്കുന്നു.
+    nb_NO: Et gratis program med åpen kildekode som emulerer den originale Microsoft Xbox-spillkonsollen, slik at folk kan spille sine originale Xbox-spill på Windows-, macOS- og Linux-systemer.
+    nl_NL: Een gratis en open-source applicatie die de originele Microsoft Xbox-spelconsole emuleert, waardoor mensen hun originele Xbox-spellen kunnen spelen op Windows-, macOS- en Linux-systemen.
+    pl_PL: Bezpłatna aplikacja typu open source, która emuluje oryginalną konsolę gier Microsoft Xbox, umożliwiając użytkownikom granie w oryginalne gry Xbox na komputerach Windows, macOS i Linux.
+    pt_BR: Um aplicativo gratuito e de código aberto que emula o console de jogos Xbox original da Microsoft, permitindo que as pessoas joguem seus jogos originais do Xbox em sistemas Windows, macOS e Linux.
+    ro_RO: O aplicație gratuită și open-source care emulează consola de jocuri Microsoft Xbox originală, permițând utilizatorilor să joace jocurile Xbox originale pe sistemele Windows, macOS și Linux.
+    ru_RU: Бесплатное приложение с открытым исходным кодом, эмулирующее оригинальную игровую консоль Microsoft Xbox, позволяющее пользователям играть в свои оригинальные игры Xbox на системах Windows, macOS и Linux.
+    sk_SK: Bezplatná aplikácia s otvoreným zdrojovým kódom, ktorá emuluje pôvodnú hernú konzolu Microsoft Xbox a umožňuje ľuďom hrať ich pôvodné hry pre Xbox na systémoch Windows, macOS a Linux.
+    sv_SE: En gratis och öppen källkodsapplikation som emulerar den ursprungliga Microsoft Xbox-spelkonsolen, vilket gör det möjligt för användare att spela sina ursprungliga Xbox-spel på Windows-, macOS- och Linux-system.
+    tr_TR: Orijinal Microsoft Xbox oyun konsolunu taklit eden, ücretsiz ve açık kaynaklı bir uygulama. Bu uygulama sayesinde kullanıcılar orijinal Xbox oyunlarını Windows, macOS ve Linux sistemlerinde oynayabiliyor.
     zh_CN: 在桌面系统上模拟初代 Xbox。
+    zh_TW: 在桌面系統上模擬初代 Xbox。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/xemu-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/xemu-logo.png
   title:
     en_US: Xemu (LinuxServer.io)
+    ca_ES: Xemu (LinuxServer.io)
+    cs_CZ: Xemu (LinuxServer.io)
+    da_DK: Xemu (LinuxServer.io)
+    de_DE: Xemu (LinuxServer.io)
+    el_GR: Xemu (LinuxServer.io)
+    en_GB: Xemu (LinuxServer.io)
+    es_ES: Xemu (LinuxServer.io)
+    fr_FR: Xemu (LinuxServer.io)
+    ga_IE: Xemu (LinuxServer.io)
+    hr_HR: Xemu (LinuxServer.io)
+    hu_HU: Xemu (LinuxServer.io)
+    it_IT: Xemu (LinuxServer.io)
+    ja_JP: Xemu (LinuxServer.io)
+    ko_KR: Xemu (LinuxServer.io)
+    ml_IN: Xemu (LinuxServer.io)
+    nb_NO: Xemu (LinuxServer.io)
+    nl_NL: Xemu (LinuxServer.io)
+    pl_PL: Xemu (LinuxServer.io)
+    pt_BR: Xemu (LinuxServer.io)
+    ro_RO: Xemu (LinuxServer.io)
+    ru_RU: Xemu (LinuxServer.io)
+    sk_SK: Xemu (LinuxServer.io)
+    sv_SE: Xemu (LinuxServer.io)
+    tr_TR: Xemu (LinuxServer.io)
     zh_CN: Xemu（LinuxServer.io）
+    zh_TW: Xemu（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverxemu
   port_map: '3000'

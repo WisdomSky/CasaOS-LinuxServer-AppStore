@@ -1,7 +1,7 @@
 name: linuxserver-firefox
 services:
   app:
-    image: linuxserver/firefox:1155.0.1
+    image: linuxserver/firefox:1.2404.1
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -40,18 +40,93 @@ x-casaos:
   main: app
   description:
     en_US: Firefox Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    ca_ES: El navegador Firefox, també conegut com a Mozilla Firefox o simplement Firefox, és un navegador web gratuït i de codi obert desenvolupat per la Fundació Mozilla i la seva filial, Mozilla Corporation. Firefox utilitza el motor de disseny Gecko per renderitzar pàgines web, que implementa estàndards web actuals i futurs.
+    cs_CZ: Prohlížeč Firefox, známý také jako Mozilla Firefox nebo jednoduše Firefox, je bezplatný webový prohlížeč s otevřeným zdrojovým kódem vyvinutý nadací Mozilla Foundation a její dceřinou společností Mozilla Corporation. Firefox k vykreslování webových stránek používá rozvržení Gecko, které implementuje současné i očekávané webové standardy.
+    da_DK: Firefox Browser, også kendt som Mozilla Firefox eller blot Firefox, er en gratis og open source webbrowser udviklet af Mozilla Foundation og dets datterselskab, Mozilla Corporation. Firefox bruger Gecko-layoutmotoren til at gengive websider, som implementerer aktuelle og forventede webstandarder.
+    de_DE: Der Firefox-Browser, auch bekannt als Mozilla Firefox oder einfach Firefox, ist ein kostenloser Open-Source-Webbrowser, der von der Mozilla Foundation und ihrer Tochtergesellschaft, der Mozilla Corporation, entwickelt wurde. Firefox verwendet die Gecko-Layout-Engine zur Darstellung von Webseiten, die aktuelle und zukünftige Webstandards implementiert.
+    el_GR: Το πρόγραμμα περιήγησης Firefox, γνωστό και ως Mozilla Firefox ή απλά Firefox, είναι ένα δωρεάν και ανοιχτού κώδικα πρόγραμμα περιήγησης ιστού που αναπτύχθηκε από το Ίδρυμα Mozilla και τη θυγατρική του, την Mozilla Corporation. Ο Firefox χρησιμοποιεί τη μηχανή διάταξης Gecko για την απόδοση ιστοσελίδων, η οποία εφαρμόζει τρέχοντα και αναμενόμενα πρότυπα ιστού.
+    en_GB: Firefox Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    es_ES: Firefox Browser, también conocido como Mozilla Firefox o simplemente Firefox, es un navegador web gratuito y de código abierto desarrollado por la Fundación Mozilla y su filial, Mozilla Corporation. Firefox utiliza el motor de renderizado Gecko para mostrar las páginas web, el cual implementa los estándares web actuales y futuros.
+    fr_FR: Firefox, également connu sous le nom de Mozilla Firefox ou simplement Firefox, est un navigateur web libre et gratuit développé par la Fondation Mozilla et sa filiale, la Mozilla Corporation. Firefox utilise le moteur de rendu Gecko pour l'affichage des pages web, lequel implémente les standards web actuels et futurs.
+    ga_IE: Is brabhsálaí gréasáin saor in aisce agus foinse oscailte é Brabhsálaí Firefox, ar a dtugtar Mozilla Firefox nó Firefox go simplí freisin, arna fhorbairt ag Fondúireacht Mozilla agus a fochuideachta, Mozilla Corporation. Úsáideann Firefox inneall leagan amach Gecko chun leathanaigh ghréasáin a rindreáil, rud a chuireann caighdeáin ghréasáin reatha agus réamh-mheasta i bhfeidhm.
+    hr_HR: Firefox preglednik, također poznat kao Mozilla Firefox ili jednostavno Firefox, besplatni je web preglednik otvorenog koda koji je razvila Mozilla Foundation i njezina podružnica, Mozilla Corporation. Firefox koristi Gecko mehanizam za prikaz web stranica, koji implementira trenutne i očekivane web standarde.
+    hu_HU: A Firefox böngésző, más néven Mozilla Firefox vagy egyszerűen Firefox, egy ingyenes és nyílt forráskódú webböngésző, amelyet a Mozilla Alapítvány és leányvállalata, a Mozilla Corporation fejlesztett ki. A Firefox a Gecko layout motort használja a weboldalak megjelenítéséhez, amely a jelenlegi és a várható webes szabványokat valósítja meg.
+    it_IT: Firefox Browser, noto anche come Mozilla Firefox o semplicemente Firefox, è un browser web gratuito e open source sviluppato dalla Mozilla Foundation e dalla sua sussidiaria, la Mozilla Corporation. Firefox utilizza il motore di rendering Gecko per visualizzare le pagine web, implementando gli standard web attuali e futuri.
+    ja_JP: Firefoxブラウザ（Mozilla Firefox、または単にFirefoxとも呼ばれる）は、Mozilla Foundationとその子会社であるMozilla Corporationによって開発された、無料のオープンソースWebブラウザです。Firefoxは、WebページのレンダリングにGeckoレイアウトエンジンを使用しており、現在のWeb標準と将来のWeb標準を実装しています。
+    ko_KR: 파이어폭스 브라우저(Mozilla Firefox 또는 간단히 Firefox라고도 함)는 모질라 재단과 그 자회사인 모질라 코퍼레이션이 개발한 무료 오픈 소스 웹 브라우저입니다. 파이어폭스는 현재 및 향후 웹 표준을 구현하는 게코 레이아웃 엔진을 사용하여 웹 페이지를 렌더링합니다.
+    ml_IN: മോസില്ല ഫയർഫോക്സ് അല്ലെങ്കിൽ ലളിതമായി ഫയർഫോക്സ് എന്നും അറിയപ്പെടുന്ന ഫയർഫോക്സ് ബ്രൗസർ, മോസില്ല ഫൗണ്ടേഷനും അതിന്റെ അനുബന്ധ സ്ഥാപനമായ മോസില്ല കോർപ്പറേഷനും വികസിപ്പിച്ചെടുത്ത ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് വെബ് ബ്രൗസറാണ്. വെബ് പേജുകൾ റെൻഡർ ചെയ്യാൻ ഫയർഫോക്സ് ഗെക്കോ ലേഔട്ട് എഞ്ചിൻ ഉപയോഗിക്കുന്നു, ഇത് നിലവിലുള്ളതും പ്രതീക്ഷിക്കുന്നതുമായ വെബ് മാനദണ്ഡങ്ങൾ നടപ്പിലാക്കുന്നു.
+    nb_NO: Firefox-nettleseren, også kjent som Mozilla Firefox eller bare Firefox, er en gratis nettleser med åpen kildekode utviklet av Mozilla Foundation og datterselskapet Mozilla Corporation. Firefox bruker Gecko-layoutmotoren for å gjengi nettsider, som implementerer gjeldende og forventede nettstandarder.
+    nl_NL: Firefox Browser, ook wel bekend als Mozilla Firefox of simpelweg Firefox, is een gratis en open-source webbrowser ontwikkeld door de Mozilla Foundation en haar dochteronderneming, de Mozilla Corporation. Firefox gebruikt de Gecko-layoutengine om webpagina's weer te geven, die voldoet aan de huidige en toekomstige webstandaarden.
+    pl_PL: Przeglądarka Firefox, znana również jako Mozilla Firefox lub po prostu Firefox, to darmowa i otwartoźródłowa przeglądarka internetowa opracowana przez Fundację Mozilla i jej spółkę zależną, Mozilla Corporation. Firefox wykorzystuje silnik Gecko do renderowania stron internetowych, który implementuje obecne i przewidywane standardy sieciowe.
+    pt_BR: O Firefox Browser, também conhecido como Mozilla Firefox ou simplesmente Firefox, é um navegador web gratuito e de código aberto desenvolvido pela Mozilla Foundation e sua subsidiária, a Mozilla Corporation. O Firefox utiliza o mecanismo de renderização Gecko para renderizar páginas web, implementando os padrões web atuais e futuros.
+    ro_RO: Browserul Firefox, cunoscut și sub numele de Mozilla Firefox sau, pur și simplu, Firefox, este un browser web gratuit și open-source dezvoltat de Fundația Mozilla și filiala sa, Mozilla Corporation. Firefox folosește motorul de aspect Gecko pentru a reda pagini web, implementând standarde web actuale și viitoare.
+    ru_RU: Браузер Firefox, также известный как Mozilla Firefox или просто Firefox, — это бесплатный веб-браузер с открытым исходным кодом, разработанный фондом Mozilla Foundation и его дочерней компанией Mozilla Corporation. Firefox использует механизм рендеринга Gecko для отображения веб-страниц, который реализует текущие и ожидаемые веб-стандарты.
+    sk_SK: Prehliadač Firefox, tiež známy ako Mozilla Firefox alebo jednoducho Firefox, je bezplatný webový prehliadač s otvoreným zdrojovým kódom vyvinutý nadáciou Mozilla Foundation a jej dcérskou spoločnosťou Mozilla Corporation. Firefox používa na vykresľovanie webových stránok rozvrhovací engine Gecko, ktorý implementuje súčasné a očakávané webové štandardy.
+    sv_SE: Firefox Browser, även känd som Mozilla Firefox eller helt enkelt Firefox, är en gratis webbläsare med öppen källkod som utvecklats av Mozilla Foundation och dess dotterbolag, Mozilla Corporation. Firefox använder layoutmotorn Gecko för att rendera webbsidor, vilket implementerar aktuella och förväntade webbstandarder.
+    tr_TR: Firefox Tarayıcısı, Mozilla Firefox veya kısaca Firefox olarak da bilinen, Mozilla Vakfı ve iştiraki Mozilla Şirketi tarafından geliştirilen ücretsiz ve açık kaynaklı bir web tarayıcısıdır. Firefox, mevcut ve gelecekteki web standartlarını uygulayan Gecko sayfa düzenleme motorunu kullanarak web sayfalarını oluşturur.
     zh_CN: Firefox Browser 又称 Mozilla Firefox 或 Firefox，是由 Mozilla 基金会及其子公司 Mozilla Corporation 开发的免费开源网页浏览器。Firefox 使用 Gecko 排版引擎渲染网页，支持当前及预期的网页标准。
+    zh_TW: Firefox Browser 又稱 Mozilla Firefox 或 Firefox，是由 Mozilla 基金會及其子公司 Mozilla Corporation 開發的免費開源網頁瀏覽器。Firefox 使用 Gecko 排版引擎渲染網頁，支援當前及預期的網頁標準。
   tagline:
     en_US: Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    ca_ES: El navegador, també conegut com a Mozilla Firefox o simplement Firefox, és un navegador web gratuït i de codi obert desenvolupat per la Fundació Mozilla i la seva filial, Mozilla Corporation. Firefox utilitza el motor de disseny Gecko per renderitzar pàgines web, que implementa estàndards web actuals i futurs.
+    cs_CZ: Prohlížeč, známý také jako Mozilla Firefox nebo jednoduše Firefox, je bezplatný webový prohlížeč s otevřeným zdrojovým kódem vyvinutý nadací Mozilla Foundation a její dceřinou společností Mozilla Corporation. Firefox k vykreslování webových stránek používá rozvržení Gecko, které implementuje současné i očekávané webové standardy.
+    da_DK: Browser, også kendt som Mozilla Firefox eller blot Firefox, er en gratis og open source webbrowser udviklet af Mozilla Foundation og dets datterselskab, Mozilla Corporation. Firefox bruger Gecko-layoutmotoren til at gengive websider, som implementerer aktuelle og forventede webstandarder.
+    de_DE: Der Browser, auch bekannt als Mozilla Firefox oder einfach Firefox, ist ein kostenloser Open-Source-Webbrowser, der von der Mozilla Foundation und ihrer Tochtergesellschaft, der Mozilla Corporation, entwickelt wird. Firefox verwendet die Gecko-Layout-Engine zum Rendern von Webseiten, die aktuelle und zukünftige Webstandards implementiert.
+    el_GR: Το πρόγραμμα περιήγησης, γνωστό και ως Mozilla Firefox ή απλά Firefox, είναι ένα δωρεάν και ανοιχτού κώδικα πρόγραμμα περιήγησης ιστού που αναπτύχθηκε από το Ίδρυμα Mozilla και τη θυγατρική του, την Mozilla Corporation. Ο Firefox χρησιμοποιεί τη μηχανή διάταξης Gecko για την απόδοση ιστοσελίδων, η οποία εφαρμόζει τρέχοντα και αναμενόμενα πρότυπα ιστού.
+    en_GB: Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    es_ES: Firefox, también conocido como Mozilla Firefox o simplemente Firefox, es un navegador web gratuito y de código abierto desarrollado por la Fundación Mozilla y su filial, la Corporación Mozilla. Firefox utiliza el motor de renderizado Gecko para mostrar las páginas web, el cual implementa los estándares web actuales y futuros.
+    fr_FR: Le navigateur Mozilla Firefox, également connu sous le nom de Firefox, est un navigateur web libre et gratuit développé par la Fondation Mozilla et sa filiale, la Mozilla Corporation. Firefox utilise le moteur de rendu Gecko pour l'affichage des pages web, lequel implémente les standards web actuels et futurs.
+    ga_IE: Is brabhsálaí gréasáin saor in aisce agus foinse oscailte é Brabhsálaí, ar a dtugtar Mozilla Firefox nó Firefox go simplí freisin, arna fhorbairt ag Fondúireacht Mozilla agus a fochuideachta, Mozilla Corporation. Úsáideann Firefox inneall leagan amach Gecko chun leathanaigh ghréasáin a rindreáil, rud a chuireann caighdeáin ghréasáin reatha agus réamh-mheasta i bhfeidhm.
+    hr_HR: Preglednik, također poznat kao Mozilla Firefox ili jednostavno Firefox, besplatni je web preglednik otvorenog koda koji je razvila Mozilla Foundation i njezina podružnica, Mozilla Corporation. Firefox koristi Gecko mehanizam za prikaz web stranica, koji implementira trenutne i očekivane web standarde.
+    hu_HU: A Browser, más néven Mozilla Firefox vagy egyszerűen Firefox, egy ingyenes és nyílt forráskódú webböngésző, amelyet a Mozilla Alapítvány és leányvállalata, a Mozilla Corporation fejlesztett ki. A Firefox a Gecko layout motort használja a weboldalak megjelenítéséhez, amely a jelenlegi és a várható webes szabványokat valósítja meg.
+    it_IT: Firefox, noto anche come Mozilla Firefox o semplicemente Firefox, è un browser web gratuito e open source sviluppato dalla Mozilla Foundation e dalla sua sussidiaria, la Mozilla Corporation. Firefox utilizza il motore di rendering Gecko per visualizzare le pagine web, implementando gli standard web attuali e futuri.
+    ja_JP: Firefox（Mozilla Firefox、または単にFirefoxとも呼ばれる）は、Mozilla Foundationとその子会社であるMozilla Corporationによって開発された、無料のオープンソースWebブラウザです。Firefoxは、現在および将来のWeb標準を実装したGeckoレイアウトエンジンを使用してWebページをレンダリングします。
+    ko_KR: 모질라 파이어폭스(Mozilla Firefox) 또는 간단히 파이어폭스라고도 불리는 이 브라우저는 모질라 재단과 그 자회사인 모질라 코퍼레이션이 개발한 무료 오픈 소스 웹 브라우저입니다. 파이어폭스는 현재 및 향후 웹 표준을 구현하는 게코(Gecko) 레이아웃 엔진을 사용하여 웹 페이지를 렌더링합니다.
+    ml_IN: മോസില്ല ഫയർഫോക്സ് അല്ലെങ്കിൽ ലളിതമായി ഫയർഫോക്സ് എന്നും അറിയപ്പെടുന്ന ബ്രൗസർ, മോസില്ല ഫൗണ്ടേഷനും അതിന്റെ അനുബന്ധ സ്ഥാപനമായ മോസില്ല കോർപ്പറേഷനും വികസിപ്പിച്ചെടുത്ത ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് വെബ് ബ്രൗസറാണ്. വെബ് പേജുകൾ റെൻഡർ ചെയ്യാൻ ഫയർഫോക്സ് ഗെക്കോ ലേഔട്ട് എഞ്ചിൻ ഉപയോഗിക്കുന്നു, ഇത് നിലവിലുള്ളതും പ്രതീക്ഷിക്കുന്നതുമായ വെബ് മാനദണ്ഡങ്ങൾ നടപ്പിലാക്കുന്നു.
+    nb_NO: Nettleser, også kjent som Mozilla Firefox eller bare Firefox, er en gratis og åpen kildekode-nettleser utviklet av Mozilla Foundation og datterselskapet Mozilla Corporation. Firefox bruker Gecko-layoutmotoren for å gjengi nettsider, som implementerer gjeldende og forventede nettstandarder.
+    nl_NL: Firefox, ook wel bekend als Mozilla Firefox of simpelweg Firefox, is een gratis en open-source webbrowser ontwikkeld door de Mozilla Foundation en haar dochteronderneming, de Mozilla Corporation. Firefox gebruikt de Gecko-engine voor het weergeven van webpagina's, die voldoet aan de huidige en toekomstige webstandaarden.
+    pl_PL: Przeglądarka internetowa, znana również jako Mozilla Firefox lub po prostu Firefox, to darmowa i otwartoźródłowa przeglądarka internetowa opracowana przez Fundację Mozilla i jej spółkę zależną, Mozilla Corporation. Firefox wykorzystuje silnik Gecko do renderowania stron internetowych, który implementuje obecne i przewidywane standardy sieciowe.
+    pt_BR: O Firefox, também conhecido como Mozilla Firefox ou simplesmente Firefox, é um navegador web gratuito e de código aberto desenvolvido pela Mozilla Foundation e sua subsidiária, a Mozilla Corporation. O Firefox utiliza o mecanismo de renderização Gecko para renderizar páginas web, implementando os padrões web atuais e futuros.
+    ro_RO: Browser, cunoscut și sub numele de Mozilla Firefox sau pur și simplu Firefox, este un browser web gratuit și open-source dezvoltat de Fundația Mozilla și filiala sa, Mozilla Corporation. Firefox folosește motorul de aspect Gecko pentru a reda pagini web, care implementează standarde web actuale și viitoare.
+    ru_RU: Браузер Firefox, также известный как Mozilla Firefox или просто Firefox, — это бесплатный веб-браузер с открытым исходным кодом, разработанный фондом Mozilla Foundation и его дочерней компанией Mozilla Corporation. Firefox использует механизм рендеринга Gecko для отображения веб-страниц, который реализует текущие и ожидаемые веб-стандарты.
+    sk_SK: Prehliadač, tiež známy ako Mozilla Firefox alebo jednoducho Firefox, je bezplatný webový prehliadač s otvoreným zdrojovým kódom vyvinutý nadáciou Mozilla Foundation a jej dcérskou spoločnosťou Mozilla Corporation. Firefox používa na vykresľovanie webových stránok rozvrhovací engine Gecko, ktorý implementuje súčasné a očakávané webové štandardy.
+    sv_SE: Webbläsare, även känd som Mozilla Firefox eller helt enkelt Firefox, är en gratis webbläsare med öppen källkod som utvecklats av Mozilla Foundation och dess dotterbolag, Mozilla Corporation. Firefox använder layoutmotorn Gecko för att rendera webbsidor, vilket implementerar aktuella och förväntade webbstandarder.
+    tr_TR: Mozilla Firefox veya kısaca Firefox olarak da bilinen tarayıcı, Mozilla Vakfı ve iştiraki Mozilla Şirketi tarafından geliştirilen ücretsiz ve açık kaynaklı bir web tarayıcısıdır. Firefox, mevcut ve gelecekteki web standartlarını uygulayan Gecko sayfa düzenleme motorunu kullanarak web sayfalarını oluşturur.
     zh_CN: 使用 Gecko 引擎的免费开源浏览器。
+    zh_TW: 使用 Gecko 引擎的免費開源瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png
   title:
     en_US: Firefox (LinuxServer.io)
+    ca_ES: Firefox (LinuxServer.io)
+    cs_CZ: Firefox (LinuxServer.io)
+    da_DK: Firefox (LinuxServer.io)
+    de_DE: Firefox (LinuxServer.io)
+    el_GR: Firefox (LinuxServer.io)
+    en_GB: Firefox (LinuxServer.io)
+    es_ES: Firefox (LinuxServer.io)
+    fr_FR: Firefox (LinuxServer.io)
+    ga_IE: Firefox (LinuxServer.io)
+    hr_HR: Firefox (LinuxServer.io)
+    hu_HU: Firefox (LinuxServer.io)
+    it_IT: Firefox (LinuxServer.io)
+    ja_JP: Firefox (LinuxServer.io)
+    ko_KR: Firefox (LinuxServer.io)
+    ml_IN: Firefox (LinuxServer.io)
+    nb_NO: Firefox (LinuxServer.io)
+    nl_NL: Firefox (LinuxServer.io)
+    pl_PL: Firefox (LinuxServer.io)
+    pt_BR: Firefox (LinuxServer.io)
+    ro_RO: Firefox (LinuxServer.io)
+    ru_RU: Firefox (LinuxServer.io)
+    sk_SK: Firefox (LinuxServer.io)
+    sv_SE: Firefox (LinuxServer.io)
+    tr_TR: Firefox (LinuxServer.io)
     zh_CN: Firefox（LinuxServer.io）
+    zh_TW: Firefox（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfirefox
   port_map: '3000'
-  version: 1155.0.1
+  version: 1.2404.1

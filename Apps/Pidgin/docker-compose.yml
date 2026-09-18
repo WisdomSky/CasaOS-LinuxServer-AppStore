@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Pidgin is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
+    ca_ES: Pidgin és un programa de xat que et permet iniciar sessió a comptes de diverses xarxes de xat simultàniament. Això vol dir que pots xatejar amb amics a XMPP i estar assegut en un canal IRC alhora.
+    cs_CZ: Pidgin je chatovací program, který vám umožňuje přihlásit se k účtům na více chatovacích sítích současně. To znamená, že můžete chatovat s přáteli na XMPP a zároveň sedět v IRC kanálu.
+    da_DK: Pidgin er et chatprogram, der giver dig mulighed for at logge ind på konti på flere chatnetværk samtidigt. Det betyder, at du kan chatte med venner på XMPP og sidde i en IRC-kanal på samme tid.
+    de_DE: Pidgin ist ein Chatprogramm, mit dem man sich gleichzeitig in Konten mehrerer Chatnetzwerke einloggen kann. Das bedeutet, dass man beispielsweise gleichzeitig mit Freunden über XMPP chatten und sich in einem IRC-Kanal befinden kann.
+    el_GR: Το Pidgin είναι ένα πρόγραμμα συνομιλίας που σας επιτρέπει να συνδέεστε σε λογαριασμούς σε πολλά δίκτυα συνομιλίας ταυτόχρονα. Αυτό σημαίνει ότι μπορείτε να συνομιλείτε με φίλους στο XMPP και να βρίσκεστε σε ένα κανάλι IRC ταυτόχρονα.
+    en_GB: Pidgin is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on Xmpp and sitting in an Irc channel at the same time.
+    es_ES: Pidgin es un programa de chat que te permite iniciar sesión en cuentas de varias redes de chat simultáneamente. Esto significa que puedes chatear con amigos en XMPP y estar en un canal de IRC al mismo tiempo.
+    fr_FR: Pidgin est un logiciel de messagerie instantanée qui permet de se connecter simultanément à plusieurs réseaux de chat. Vous pouvez ainsi discuter avec des amis sur XMPP et participer à une conversation sur IRC en même temps.
+    ga_IE: Is clár comhrá é Pidgin a ligeann duit logáil isteach i gcuntais ar il-líonraí comhrá ag an am céanna. Ciallaíonn sé seo gur féidir leat a bheith ag comhrá le cairde ar XMPP agus i do shuí i gcainéal IRC ag an am céanna.
+    hr_HR: Pidgin je program za chat koji vam omogućuje istovremenu prijavu na račune na više mreža za chat. To znači da možete istovremeno razgovarati s prijateljima na XMPP-u i biti na IRC kanalu.
+    hu_HU: A Pidgin egy csevegőprogram, amellyel egyszerre több csevegőhálózat fiókjába is bejelentkezhetsz. Ez azt jelenti, hogy egyszerre cseveghetsz a barátaiddal az XMPP-n, és egy IRC csatornán is lehetsz.
+    it_IT: Pidgin è un programma di chat che permette di accedere contemporaneamente ad account su diverse reti di chat. Questo significa che è possibile chattare con gli amici su XMPP e partecipare a una conversazione su un canale IRC nello stesso momento.
+    ja_JP: Pidginは、複数のチャットネットワークに同時にログインできるチャットプログラムです。つまり、XMPPで友達とチャットしながら、同時にIRCチャンネルに参加することも可能です。
+    ko_KR: 피진은 여러 채팅 네트워크 계정에 동시에 로그인할 수 있는 채팅 프로그램입니다. 즉, XMPP에서 친구들과 채팅하면서 동시에 IRC 채널에도 참여할 수 있습니다.
+    ml_IN: ഒന്നിലധികം ചാറ്റ് നെറ്റ്‌വർക്കുകളിലെ അക്കൗണ്ടുകളിലേക്ക് ഒരേസമയം ലോഗിൻ ചെയ്യാൻ നിങ്ങളെ അനുവദിക്കുന്ന ഒരു ചാറ്റ് പ്രോഗ്രാമാണ് പിഡ്ജിൻ. ഇതിനർത്ഥം നിങ്ങൾക്ക് ഒരേ സമയം XMPP-യിൽ സുഹൃത്തുക്കളുമായി ചാറ്റ് ചെയ്യാനും ഒരു IRC ചാനലിൽ ഇരിക്കാനും കഴിയും എന്നാണ്.
+    nb_NO: Pidgin er et chatprogram som lar deg logge inn på kontoer på flere chatnettverk samtidig. Dette betyr at du kan chatte med venner på XMPP og sitte i en IRC-kanal samtidig.
+    nl_NL: Pidgin is een chatprogramma waarmee je tegelijkertijd kunt inloggen op accounts van meerdere chatnetwerken. Dit betekent dat je bijvoorbeeld tegelijkertijd met vrienden kunt chatten via XMPP en in een IRC-kanaal kunt zitten.
+    pl_PL: Pidgin to program do czatów, który pozwala logować się do kont w wielu sieciach jednocześnie. Oznacza to, że możesz jednocześnie rozmawiać ze znajomymi na XMPP i korzystać z kanału IRC.
+    pt_BR: Pidgin é um programa de bate-papo que permite que você acesse contas em várias redes de bate-papo simultaneamente. Isso significa que você pode estar conversando com amigos no XMPP e participando de um canal IRC ao mesmo tempo.
+    ro_RO: Pidgin este un program de chat care vă permite să vă conectați simultan la conturi de pe mai multe rețele de chat. Aceasta înseamnă că puteți discuta cu prietenii pe XMPP și să fiți pe un canal IRC în același timp.
+    ru_RU: Pidgin — это программа для чата, которая позволяет одновременно входить в учетные записи в нескольких чат-сетях. Это означает, что вы можете общаться с друзьями по протоколу XMPP и одновременно находиться в IRC-канале.
+    sk_SK: Pidgin je chatovací program, ktorý vám umožňuje prihlásiť sa do účtov na viacerých chatovacích sieťach súčasne. To znamená, že môžete chatovať s priateľmi na XMPP a zároveň byť v IRC kanáli.
+    sv_SE: Pidgin är ett chattprogram som låter dig logga in på konton på flera chattnätverk samtidigt. Det betyder att du kan chatta med vänner på XMPP och sitta i en IRC-kanal samtidigt.
+    tr_TR: Pidgin, aynı anda birden fazla sohbet ağındaki hesaplara giriş yapmanızı sağlayan bir sohbet programıdır. Bu, XMPP'de arkadaşlarınızla sohbet ederken aynı anda bir IRC kanalında oturabileceğiniz anlamına gelir.
     zh_CN: Pidgin 是一款聊天程序，可同时登录多个聊天网络的账户。例如，你可以一边在 XMPP 上与朋友聊天，一边参与 IRC 频道。
+    zh_TW: Pidgin 是一款聊天程式，可同時登入多個聊天網路的賬戶。例如，你可以一邊在 XMPP 上與朋友聊天，一邊參與 IRC 頻道。
   tagline:
     en_US: A chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
+    ca_ES: Un programa de xat que et permet iniciar sessió a comptes de diverses xarxes de xat simultàniament. Això vol dir que pots xatejar amb amics a XMPP i estar assegut en un canal IRC alhora.
+    cs_CZ: Chatovací program, který vám umožňuje přihlásit se k účtům na více chatovacích sítích současně. To znamená, že si můžete chatovat s přáteli na XMPP a zároveň být na IRC kanálu.
+    da_DK: Et chatprogram, der lader dig logge ind på konti på flere chatnetværk samtidigt. Det betyder, at du kan chatte med venner på XMPP og sidde i en IRC-kanal på samme tid.
+    de_DE: Ein Chatprogramm, mit dem man sich gleichzeitig in Konten mehrerer Chatnetzwerke einloggen kann. So kann man beispielsweise gleichzeitig mit Freunden über XMPP chatten und sich in einem IRC-Kanal befinden.
+    el_GR: Ένα πρόγραμμα συνομιλίας που σας επιτρέπει να συνδέεστε σε λογαριασμούς σε πολλά δίκτυα συνομιλίας ταυτόχρονα. Αυτό σημαίνει ότι μπορείτε να συνομιλείτε με φίλους στο XMPP και να βρίσκεστε σε ένα κανάλι IRC ταυτόχρονα.
+    en_GB: A chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on Xmpp and sitting in an Irc channel at the same time.
+    es_ES: Un programa de chat que te permite iniciar sesión en cuentas de varias redes de chat simultáneamente. Esto significa que puedes chatear con amigos en XMPP y estar en un canal de IRC al mismo tiempo.
+    fr_FR: Un logiciel de messagerie instantanée qui vous permet de vous connecter simultanément à plusieurs réseaux de chat. Vous pouvez ainsi discuter avec vos amis sur XMPP et participer à un canal IRC en même temps.
+    ga_IE: Clár comhrá a ligeann duit logáil isteach i gcuntais ar il-líonraí comhrá ag an am céanna. Ciallaíonn sé seo gur féidir leat a bheith ag comhrá le cairde ar XMPP agus i do shuí i gcainéal IRC ag an am céanna.
+    hr_HR: Program za chat koji vam omogućuje istovremenu prijavu na račune na više mreža za chat. To znači da možete istovremeno razgovarati s prijateljima na XMPP-u i biti na IRC kanalu.
+    hu_HU: Egy csevegőprogram, amely lehetővé teszi, hogy egyszerre több csevegőhálózat fiókjába is bejelentkezz. Ez azt jelenti, hogy egyszerre cseveghetsz barátaiddal az XMPP-n, és egy IRC csatornán is ülhetsz.
+    it_IT: Un programma di chat che permette di accedere contemporaneamente ad account su più reti di chat. Questo significa che è possibile chattare con gli amici su XMPP e partecipare a un canale IRC nello stesso momento.
+    ja_JP: 複数のチャットネットワークに同時にログインできるチャットプログラム。つまり、XMPPで友達とチャットしながら、同時にIRCチャンネルに参加できるということです。
+    ko_KR: 여러 채팅 네트워크 계정에 동시에 로그인할 수 있는 채팅 프로그램입니다. 즉, XMPP에서 친구들과 채팅하면서 동시에 IRC 채널에 참여할 수 있습니다.
+    ml_IN: ഒന്നിലധികം ചാറ്റ് നെറ്റ്‌വർക്കുകളിലെ അക്കൗണ്ടുകളിലേക്ക് ഒരേസമയം ലോഗിൻ ചെയ്യാൻ നിങ്ങളെ അനുവദിക്കുന്ന ഒരു ചാറ്റ് പ്രോഗ്രാം. ഇതിനർത്ഥം നിങ്ങൾക്ക് ഒരേ സമയം XMPP-യിൽ സുഹൃത്തുക്കളുമായി ചാറ്റ് ചെയ്യാനും ഒരു IRC ചാനലിൽ ഇരിക്കാനും കഴിയും എന്നാണ്.
+    nb_NO: Et chatprogram som lar deg logge inn på kontoer på flere chatnettverk samtidig. Dette betyr at du kan chatte med venner på XMPP og sitte i en IRC-kanal samtidig.
+    nl_NL: Een chatprogramma waarmee je tegelijkertijd kunt inloggen op accounts van meerdere chatnetwerken. Dit betekent dat je bijvoorbeeld tegelijkertijd met vrienden kunt chatten op XMPP en in een IRC-kanaal kunt zitten.
+    pl_PL: Program do czatu, który pozwala logować się do kont w wielu sieciach czatowych jednocześnie. Oznacza to, że możesz jednocześnie czatować ze znajomymi na XMPP i korzystać z kanału IRC.
+    pt_BR: Um programa de bate-papo que permite acessar contas em várias redes de bate-papo simultaneamente. Isso significa que você pode conversar com amigos no XMPP e estar em um canal de IRC ao mesmo tempo.
+    ro_RO: Un program de chat care vă permite să vă conectați simultan la conturi de pe mai multe rețele de chat. Aceasta înseamnă că puteți discuta cu prietenii pe XMPP și să fiți pe un canal IRC în același timp.
+    ru_RU: Программа для чата, позволяющая одновременно входить в учетные записи в нескольких чат-сетях. Это означает, что вы можете общаться с друзьями по протоколу XMPP и одновременно находиться в IRC-канале.
+    sk_SK: Chatovací program, ktorý vám umožňuje prihlásiť sa do účtov na viacerých chatovacích sieťach súčasne. To znamená, že môžete chatovať s priateľmi na XMPP a zároveň byť v IRC kanáli.
+    sv_SE: Ett chattprogram som låter dig logga in på konton på flera chattnätverk samtidigt. Det betyder att du kan chatta med vänner på XMPP och sitta i en IRC-kanal samtidigt.
+    tr_TR: Aynı anda birden fazla sohbet ağındaki hesaplara giriş yapmanızı sağlayan bir sohbet programı. Bu, XMPP'de arkadaşlarınızla sohbet ederken aynı anda bir IRC kanalında da bulunabileceğiniz anlamına gelir.
     zh_CN: 同时登录多个即时通信网络。
+    zh_TW: 同時登入多個即時通訊網路。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png
   title:
     en_US: Pidgin (LinuxServer.io)
+    ca_ES: Pidgin (LinuxServer.io)
+    cs_CZ: Pidgin (LinuxServer.io)
+    da_DK: Pidgin (LinuxServer.io)
+    de_DE: Pidgin (LinuxServer.io)
+    el_GR: Pidgin (LinuxServer.io)
+    en_GB: Pidgin (LinuxServer.io)
+    es_ES: Pidgin (LinuxServer.io)
+    fr_FR: Pidgin (LinuxServer.io)
+    ga_IE: Pidgin (LinuxServer.io)
+    hr_HR: Pidgin (LinuxServer.io)
+    hu_HU: Pidgin (LinuxServer.io)
+    it_IT: Pidgin (LinuxServer.io)
+    ja_JP: Pidgin (LinuxServer.io)
+    ko_KR: Pidgin (LinuxServer.io)
+    ml_IN: Pidgin (LinuxServer.io)
+    nb_NO: Pidgin (LinuxServer.io)
+    nl_NL: Pidgin (LinuxServer.io)
+    pl_PL: Pidgin (LinuxServer.io)
+    pt_BR: Pidgin (LinuxServer.io)
+    ro_RO: Pidgin (LinuxServer.io)
+    ru_RU: Pidgin (LinuxServer.io)
+    sk_SK: Pidgin (LinuxServer.io)
+    sv_SE: Pidgin (LinuxServer.io)
+    tr_TR: Pidgin (LinuxServer.io)
     zh_CN: Pidgin（LinuxServer.io）
+    zh_TW: Pidgin（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpidgin
   port_map: '3000'

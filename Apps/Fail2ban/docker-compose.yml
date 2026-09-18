@@ -91,17 +91,92 @@ x-casaos:
   main: app
   description:
     en_US: Fail2ban is a daemon to ban hosts that cause multiple authentication errors.
+    ca_ES: Fail2ban és un dimoni per prohibir els hosts que causen múltiples errors d'autenticació.
+    cs_CZ: Fail2ban je démon, který zakazuje hostitele, kteří způsobují více chyb při ověřování.
+    da_DK: Fail2ban er en dæmon til at udelukke værter, der forårsager flere godkendelsesfejl.
+    de_DE: Fail2ban ist ein Daemon, der Hosts sperrt, die mehrere Authentifizierungsfehler verursachen.
+    el_GR: Το Fail2ban είναι ένας δαίμονας που απαγορεύει κεντρικούς υπολογιστές που προκαλούν πολλαπλά σφάλματα ελέγχου ταυτότητας.
+    en_GB: Fail2ban is a daemon to ban hosts that cause multiple authentication errors.
+    es_ES: Fail2ban es un demonio que bloquea los hosts que provocan múltiples errores de autenticación.
+    fr_FR: Fail2ban est un démon permettant de bannir les hôtes qui provoquent de multiples erreurs d'authentification.
+    ga_IE: Is daemon é Fail2ban chun óstach a thoirmeasc a chruthaíonn il-earráidí fíordheimhnithe.
+    hr_HR: Fail2ban je demon koji zabranjuje hostove koji uzrokuju višestruke pogreške u autentifikaciji.
+    hu_HU: A Fail2ban egy démon, amely kitiltja a többszörös hitelesítési hibákat okozó hosztokat.
+    it_IT: Fail2ban è un demone che blocca gli host che causano molteplici errori di autenticazione.
+    ja_JP: Fail2banは、複数の認証エラーを引き起こすホストをブロックするデーモンです。
+    ko_KR: Fail2ban은 인증 오류를 반복적으로 발생시키는 호스트를 차단하는 데몬입니다.
+    ml_IN: ഒന്നിലധികം പ്രാമാണീകരണ പിശകുകൾക്ക് കാരണമാകുന്ന ഹോസ്റ്റുകളെ നിരോധിക്കുന്നതിനുള്ള ഒരു ഡെമൺ ആണ് Fail2ban.
+    nb_NO: Fail2ban er en daemon for å utestenge verter som forårsaker flere autentiseringsfeil.
+    nl_NL: Fail2ban is een daemon die hosts blokkeert die meerdere authenticatiefouten veroorzaken.
+    pl_PL: Fail2ban to demon służący do blokowania hostów powodujących wiele błędów uwierzytelniania.
+    pt_BR: Fail2ban é um daemon para bloquear hosts que causam múltiplos erros de autenticação.
+    ro_RO: Fail2ban este un daemon care interzice gazdele care cauzează erori multiple de autentificare.
+    ru_RU: Fail2ban — это демон для блокировки хостов, вызывающих множественные ошибки аутентификации.
+    sk_SK: Fail2ban je démon, ktorý zakazuje hostiteľské systémy, ktoré spôsobujú viacero chýb pri autentifikácii.
+    sv_SE: Fail2ban är en daemon för att förbjuda värdar som orsakar flera autentiseringsfel.
+    tr_TR: Fail2ban, birden fazla kimlik doğrulama hatasına neden olan sunucuları engellemek için kullanılan bir arka plan programıdır.
     zh_CN: Fail2ban 是一个守护进程，用于封禁多次触发身份验证错误的主机。
+    zh_TW: Fail2ban 是一個守護程序，用於封禁多次觸發身份驗證錯誤的主機。
   tagline:
     en_US: A daemon to ban hosts that cause multiple authentication errors.
+    ca_ES: Un dimoni per prohibir els hosts que causen múltiples errors d'autenticació.
+    cs_CZ: Démon pro zablokování hostitelů, které způsobují více chyb při ověřování.
+    da_DK: En dæmon til at udelukke værter, der forårsager flere godkendelsesfejl.
+    de_DE: Ein Daemon zum Sperren von Hosts, die mehrere Authentifizierungsfehler verursachen.
+    el_GR: Ένας δαίμονας για τον αποκλεισμό κεντρικών υπολογιστών που προκαλούν πολλαπλά σφάλματα ελέγχου ταυτότητας.
+    en_GB: A daemon to ban hosts that cause multiple authentication errors.
+    es_ES: Un demonio para bloquear los hosts que provocan múltiples errores de autenticación.
+    fr_FR: Un démon permettant de bannir les hôtes qui provoquent de multiples erreurs d'authentification.
+    ga_IE: Daemon chun óstach a thoirmeasc a chruthaíonn il-earráidí fíordheimhnithe.
+    hr_HR: Daemon za zabranu hostova koji uzrokuju višestruke pogreške u autentifikaciji.
+    hu_HU: Egy démon, amely tiltja a többszörös hitelesítési hibákat okozó hosztokat.
+    it_IT: Un demone per bloccare gli host che causano molteplici errori di autenticazione.
+    ja_JP: 複数の認証エラーを引き起こすホストをブロックするデーモン。
+    ko_KR: 인증 오류를 반복적으로 일으키는 호스트를 차단하는 데몬입니다.
+    ml_IN: ഒന്നിലധികം പ്രാമാണീകരണ പിശകുകൾക്ക് കാരണമാകുന്ന ഹോസ്റ്റുകളെ നിരോധിക്കുന്നതിനുള്ള ഒരു ഡെമൺ.
+    nb_NO: En daemon for å utestenge verter som forårsaker flere autentiseringsfeil.
+    nl_NL: Een daemon om hosts te blokkeren die meerdere authenticatiefouten veroorzaken.
+    pl_PL: Demon blokujący hosty powodujące wielokrotne błędy uwierzytelniania.
+    pt_BR: Um serviço (daemon) para banir hosts que causam múltiplos erros de autenticação.
+    ro_RO: Un daemon pentru interzicerea gazdelor care cauzează erori multiple de autentificare.
+    ru_RU: Демон для блокировки хостов, вызывающих множественные ошибки аутентификации.
+    sk_SK: Démon na zablokovanie hostiteľov, ktoré spôsobujú viacero chýb pri autentifikácii.
+    sv_SE: En daemon för att förbjuda värdar som orsakar flera autentiseringsfel.
+    tr_TR: Birden fazla kimlik doğrulama hatasına neden olan sunucuları engellemek için kullanılan bir arka plan programı.
     zh_CN: 封禁反复触发身份验证错误的主机。
+    zh_TW: 封禁反覆觸發身份驗證錯誤的主機。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/fail2ban-logo.png
   title:
     en_US: Fail2ban (LinuxServer.io)
+    ca_ES: Fail2ban (LinuxServer.io)
+    cs_CZ: Fail2ban (LinuxServer.io)
+    da_DK: Fail2ban (LinuxServer.io)
+    de_DE: Fail2ban (LinuxServer.io)
+    el_GR: Fail2ban (LinuxServer.io)
+    en_GB: Fail2ban (LinuxServer.io)
+    es_ES: Fail2ban (LinuxServer.io)
+    fr_FR: Fail2ban (LinuxServer.io)
+    ga_IE: Fail2ban (LinuxServer.io)
+    hr_HR: Fail2ban (LinuxServer.io)
+    hu_HU: Fail2ban (LinuxServer.io)
+    it_IT: Fail2ban (LinuxServer.io)
+    ja_JP: Fail2ban (LinuxServer.io)
+    ko_KR: Fail2ban (LinuxServer.io)
+    ml_IN: Fail2ban (LinuxServer.io)
+    nb_NO: Fail2ban (LinuxServer.io)
+    nl_NL: Fail2ban (LinuxServer.io)
+    pl_PL: Fail2ban (LinuxServer.io)
+    pt_BR: Fail2ban (LinuxServer.io)
+    ro_RO: Fail2ban (LinuxServer.io)
+    ru_RU: Fail2ban (LinuxServer.io)
+    sk_SK: Fail2ban (LinuxServer.io)
+    sv_SE: Fail2ban (LinuxServer.io)
+    tr_TR: Fail2ban (LinuxServer.io)
     zh_CN: Fail2ban（LinuxServer.io）
+    zh_TW: Fail2ban（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfail2ban
   port_map: '80'

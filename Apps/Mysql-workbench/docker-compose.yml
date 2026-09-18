@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: MySQL Workbench is a unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
+    ca_ES: MySQL Workbench és una eina visual unificada per a arquitectes de bases de dades, desenvolupadors i administradors de bases de dades. MySQL Workbench proporciona modelatge de dades, desenvolupament SQL i eines d'administració completes per a la configuració del servidor, l'administració d'usuaris, les còpies de seguretat i molt més.
+    cs_CZ: MySQL Workbench je jednotný vizuální nástroj pro databázové architekty, vývojáře a správce databází. MySQL Workbench poskytuje modelování dat, vývoj v SQL a komplexní nástroje pro správu serverů, správu uživatelů, zálohování a mnoho dalšího.
+    da_DK: MySQL Workbench er et samlet visuelt værktøj til databasearkitekter, udviklere og databaseadministratorer. MySQL Workbench leverer datamodellering, SQL-udvikling og omfattende administrationsværktøjer til serverkonfiguration, brugeradministration, backup og meget mere.
+    de_DE: MySQL Workbench ist ein einheitliches visuelles Werkzeug für Datenbankarchitekten, Entwickler und Datenbankadministratoren. MySQL Workbench bietet Datenmodellierung, SQL-Entwicklung und umfassende Verwaltungswerkzeuge für Serverkonfiguration, Benutzerverwaltung, Datensicherung und vieles mehr.
+    el_GR: Το MySQL Workbench είναι ένα ενοποιημένο οπτικό εργαλείο για αρχιτέκτονες βάσεων δεδομένων, προγραμματιστές και διαχειριστές βάσεων δεδομένων. Το MySQL Workbench παρέχει μοντελοποίηση δεδομένων, ανάπτυξη SQL και ολοκληρωμένα εργαλεία διαχείρισης για τη διαμόρφωση διακομιστή, τη διαχείριση χρηστών, την δημιουργία αντιγράφων ασφαλείας και πολλά άλλα.
+    en_GB: Mysql Workbench is a unified visual tool for database architects, developers, and Dbas. Mysql Workbench provides data modelling, Sql development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
+    es_ES: MySQL Workbench es una herramienta visual unificada para arquitectos de bases de datos, desarrolladores y administradores de bases de datos (DBA). MySQL Workbench proporciona modelado de datos, desarrollo SQL y herramientas de administración integrales para la configuración del servidor, la administración de usuarios, las copias de seguridad y mucho más.
+    fr_FR: MySQL Workbench est un outil visuel unifié destiné aux architectes, développeurs et administrateurs de bases de données. Il offre des fonctionnalités de modélisation des données, de développement SQL et des outils d'administration complets pour la configuration des serveurs, la gestion des utilisateurs, les sauvegardes et bien plus encore.
+    ga_IE: Is uirlis amhairc aontaithe é MySQL Workbench d'ailtirí bunachar sonraí, d'fhorbróirí, agus d'údaráis bunachar sonraí. Soláthraíonn MySQL Workbench samhaltú sonraí, forbairt SQL, agus uirlisí riaracháin chuimsitheacha le haghaidh cumraíocht freastalaí, riarachán úsáideoirí, cúltaca, agus i bhfad níos mó.
+    hr_HR: MySQL Workbench je objedinjeni vizualni alat za arhitekte baza podataka, razvojne programere i administratore baza podataka. MySQL Workbench pruža modeliranje podataka, SQL razvoj i sveobuhvatne alate za administraciju poslužitelja, administraciju korisnika, sigurnosno kopiranje i još mnogo toga.
+    hu_HU: A MySQL Workbench egy egységes vizuális eszköz adatbázis-architektusok, fejlesztők és adatbázis-adminisztrátorok számára. A MySQL Workbench adatmodellezési, SQL-fejlesztési és átfogó adminisztrációs eszközöket biztosít a szerverkonfigurációhoz, a felhasználók adminisztrációjához, a biztonsági mentéshez és sok máshoz.
+    it_IT: MySQL Workbench è uno strumento visivo unificato per architetti di database, sviluppatori e amministratori di database. MySQL Workbench offre strumenti di modellazione dati, sviluppo SQL e funzionalità di amministrazione complete per la configurazione del server, la gestione degli utenti, il backup e molto altro.
+    ja_JP: MySQL Workbenchは、データベースアーキテクト、開発者、およびDBA向けの統合ビジュアルツールです。MySQL Workbenchは、データモデリング、SQL開発、およびサーバー構成、ユーザー管理、バックアップなど、包括的な管理ツールを提供します。
+    ko_KR: MySQL Workbench는 데이터베이스 설계자, 개발자 및 DBA를 위한 통합 시각적 도구입니다. MySQL Workbench는 데이터 모델링, SQL 개발은 물론 서버 구성, 사용자 관리, 백업 등을 위한 포괄적인 관리 도구를 제공합니다.
+    ml_IN: ഡാറ്റാബേസ് ആർക്കിടെക്റ്റുകൾ, ഡെവലപ്പർമാർ, DBA-കൾ എന്നിവർക്കായുള്ള ഏകീകൃത വിഷ്വൽ ഉപകരണമാണ് MySQL വർക്ക്ബെഞ്ച്. സെർവർ കോൺഫിഗറേഷൻ, യൂസർ അഡ്മിനിസ്ട്രേഷൻ, ബാക്കപ്പ് എന്നിവയ്‌ക്കും അതിലേറെ കാര്യങ്ങൾക്കുമായി ഡാറ്റ മോഡലിംഗ്, SQL വികസനം, സമഗ്രമായ അഡ്മിനിസ്ട്രേഷൻ ഉപകരണങ്ങൾ എന്നിവ MySQL വർക്ക്ബെഞ്ച് നൽകുന്നു.
+    nb_NO: MySQL Workbench er et samlet visuelt verktøy for databasearkitekter, utviklere og databaseadministratorer. MySQL Workbench tilbyr datamodellering, SQL-utvikling og omfattende administrasjonsverktøy for serverkonfigurasjon, brukeradministrasjon, sikkerhetskopiering og mye mer.
+    nl_NL: MySQL Workbench is een uniforme, visuele tool voor databasearchitecten, ontwikkelaars en databasebeheerders. MySQL Workbench biedt tools voor datamodellering, SQL-ontwikkeling en uitgebreid beheer voor serverconfiguratie, gebruikersbeheer, back-ups en nog veel meer.
+    pl_PL: MySQL Workbench to ujednolicone narzędzie wizualne dla architektów baz danych, programistów i administratorów baz danych. MySQL Workbench oferuje narzędzia do modelowania danych, tworzenia kodu SQL oraz kompleksowe narzędzia administracyjne do konfiguracji serwera, zarządzania użytkownikami, tworzenia kopii zapasowych i wielu innych.
+    pt_BR: O MySQL Workbench é uma ferramenta visual unificada para arquitetos de banco de dados, desenvolvedores e administradores de banco de dados (DBAs). O MySQL Workbench oferece modelagem de dados, desenvolvimento SQL e ferramentas abrangentes de administração para configuração de servidor, administração de usuários, backup e muito mais.
+    ro_RO: MySQL Workbench este un instrument vizual unificat pentru arhitecți de baze de date, dezvoltatori și administratori de baze de date. MySQL Workbench oferă modelare a datelor, dezvoltare SQL și instrumente complete de administrare pentru configurarea serverului, administrarea utilizatorilor, backup și multe altele.
+    ru_RU: MySQL Workbench — это унифицированный визуальный инструмент для архитекторов баз данных, разработчиков и администраторов баз данных. MySQL Workbench предоставляет инструменты для моделирования данных, разработки SQL-запросов и комплексного администрирования, включая настройку серверов, управление пользователями, резервное копирование и многое другое.
+    sk_SK: MySQL Workbench je jednotný vizuálny nástroj pre databázových architektov, vývojárov a správcov databáz. MySQL Workbench poskytuje modelovanie dát, vývoj SQL a komplexné nástroje na správu pre konfiguráciu servera, správu používateľov, zálohovanie a mnoho ďalšieho.
+    sv_SE: MySQL Workbench är ett enhetligt visuellt verktyg för databasarkitekter, utvecklare och databaseringschefer. MySQL Workbench tillhandahåller datamodellering, SQL-utveckling och omfattande administrationsverktyg för serverkonfiguration, användaradministration, säkerhetskopiering och mycket mer.
+    tr_TR: MySQL Workbench, veritabanı mimarları, geliştiricileri ve veritabanı yöneticileri için birleşik bir görsel araçtır. MySQL Workbench, veri modelleme, SQL geliştirme ve sunucu yapılandırması, kullanıcı yönetimi, yedekleme ve daha birçok konuda kapsamlı yönetim araçları sunar.
     zh_CN: MySQL Workbench 为数据库架构师、开发者和 DBA 提供统一的可视化工具，包括数据建模、SQL 开发，以及服务器配置、用户管理、备份等全面管理功能。
+    zh_TW: MySQL Workbench 為資料庫架構師、開發者和 DBA 提供統一的視覺化工具，包括資料建模、SQL 開發，以及伺服器配置、使用者管理、備份等全面管理功能。
   tagline:
     en_US: A unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
+    ca_ES: Una eina visual unificada per a arquitectes de bases de dades, desenvolupadors i administradors de bases de dades. MySQL Workbench proporciona modelatge de dades, desenvolupament SQL i eines d'administració completes per a la configuració del servidor, l'administració d'usuaris, les còpies de seguretat i molt més.
+    cs_CZ: MySQL Workbench je jednotný vizuální nástroj pro databázové architekty, vývojáře a správce databází. Nabízí modelování dat, vývoj v SQL a komplexní nástroje pro správu serverů, správu uživatelů, zálohování a mnoho dalšího.
+    da_DK: Et samlet visuelt værktøj til databasearkitekter, udviklere og databaseadministratorer. MySQL Workbench leverer datamodellering, SQL-udvikling og omfattende administrationsværktøjer til serverkonfiguration, brugeradministration, backup og meget mere.
+    de_DE: MySQL Workbench ist ein einheitliches visuelles Werkzeug für Datenbankarchitekten, Entwickler und Datenbankadministratoren. Es bietet Datenmodellierung, SQL-Entwicklung und umfassende Verwaltungswerkzeuge für Serverkonfiguration, Benutzerverwaltung, Datensicherung und vieles mehr.
+    el_GR: Ένα ενοποιημένο οπτικό εργαλείο για αρχιτέκτονες βάσεων δεδομένων, προγραμματιστές και διαχειριστές βάσεων δεδομένων. Το MySQL Workbench παρέχει μοντελοποίηση δεδομένων, ανάπτυξη SQL και ολοκληρωμένα εργαλεία διαχείρισης για τη διαμόρφωση διακομιστή, τη διαχείριση χρηστών, την δημιουργία αντιγράφων ασφαλείας και πολλά άλλα.
+    en_GB: A unified visual tool for database architects, developers, and Dbas. Mysql Workbench provides data modelling, Sql development, and comprehensive administration tools for server configuration, user administration, backup, and much more.
+    es_ES: Una herramienta visual unificada para arquitectos de bases de datos, desarrolladores y administradores de bases de datos. MySQL Workbench ofrece modelado de datos, desarrollo SQL y herramientas de administración integrales para la configuración del servidor, la administración de usuarios, las copias de seguridad y mucho más.
+    fr_FR: MySQL Workbench est un outil visuel unifié destiné aux architectes, développeurs et administrateurs de bases de données. Il offre des fonctionnalités de modélisation des données, de développement SQL et des outils d'administration complets pour la configuration des serveurs, la gestion des utilisateurs, les sauvegardes et bien plus encore.
+    ga_IE: Uirlis amhairc aontaithe d'ailtirí bunachar sonraí, forbróirí, agus DBAnna. Soláthraíonn MySQL Workbench samhaltú sonraí, forbairt SQL, agus uirlisí riaracháin chuimsitheacha le haghaidh cumraíocht freastalaí, riarachán úsáideoirí, cúltaca, agus i bhfad níos mó.
+    hr_HR: Ujedinjeni vizualni alat za arhitekte baza podataka, razvojne programere i administratore baza podataka. MySQL Workbench pruža modeliranje podataka, SQL razvoj i sveobuhvatne alate za administraciju poslužitelja, administraciju korisnika, sigurnosno kopiranje i još mnogo toga.
+    hu_HU: Egységes vizuális eszköz adatbázis-architektusok, fejlesztők és adatbázis-adminisztrátorok számára. A MySQL Workbench adatmodellezési, SQL-fejlesztési és átfogó adminisztrációs eszközöket biztosít a szerverkonfigurációhoz, a felhasználók adminisztrációjához, a biztonsági mentéshez és sok máshoz.
+    it_IT: Uno strumento visivo unificato per architetti di database, sviluppatori e amministratori di database. MySQL Workbench offre modellazione dei dati, sviluppo SQL e strumenti di amministrazione completi per la configurazione del server, la gestione degli utenti, il backup e molto altro.
+    ja_JP: データベース設計者、開発者、およびDBA向けの統合ビジュアルツール。MySQL Workbenchは、データモデリング、SQL開発、およびサーバー構成、ユーザー管理、バックアップなどを含む包括的な管理ツールを提供します。
+    ko_KR: MySQL Workbench는 데이터베이스 설계자, 개발자 및 DBA를 위한 통합 시각화 도구입니다. 데이터 모델링, SQL 개발은 물론 서버 구성, 사용자 관리, 백업 등을 위한 포괄적인 관리 도구를 제공합니다.
+    ml_IN: ഡാറ്റാബേസ് ആർക്കിടെക്റ്റുകൾ, ഡെവലപ്പർമാർ, ഡിബിഎകൾ എന്നിവയ്‌ക്കായുള്ള ഏകീകൃത വിഷ്വൽ ഉപകരണം. MySQL വർക്ക്ബെഞ്ച് ഡാറ്റ മോഡലിംഗ്, SQL വികസനം, സെർവർ കോൺഫിഗറേഷൻ, ഉപയോക്തൃ അഡ്മിനിസ്ട്രേഷൻ, ബാക്കപ്പ് എന്നിവയ്‌ക്കും അതിലേറെ കാര്യങ്ങൾക്കുമായി സമഗ്രമായ അഡ്മിനിസ്ട്രേഷൻ ഉപകരണങ്ങൾ നൽകുന്നു.
+    nb_NO: Et enhetlig visuelt verktøy for databasearkitekter, utviklere og databaseadministratorer. MySQL Workbench tilbyr datamodellering, SQL-utvikling og omfattende administrasjonsverktøy for serverkonfigurasjon, brukeradministrasjon, sikkerhetskopiering og mye mer.
+    nl_NL: Een uniforme visuele tool voor databasearchitecten, ontwikkelaars en databasebeheerders. MySQL Workbench biedt tools voor datamodellering, SQL-ontwikkeling en uitgebreid beheer voor serverconfiguratie, gebruikersbeheer, back-ups en nog veel meer.
+    pl_PL: Zunifikowane narzędzie wizualne dla architektów baz danych, programistów i administratorów baz danych. MySQL Workbench oferuje modelowanie danych, programowanie SQL oraz kompleksowe narzędzia administracyjne do konfiguracji serwera, zarządzania użytkownikami, tworzenia kopii zapasowych i wielu innych.
+    pt_BR: Uma ferramenta visual unificada para arquitetos de banco de dados, desenvolvedores e administradores de banco de dados (DBAs). O MySQL Workbench oferece modelagem de dados, desenvolvimento SQL e ferramentas abrangentes de administração para configuração de servidor, administração de usuários, backup e muito mais.
+    ro_RO: Un instrument vizual unificat pentru arhitecți de baze de date, dezvoltatori și administratori de baze de date. MySQL Workbench oferă modelare a datelor, dezvoltare SQL și instrumente complete de administrare pentru configurarea serverului, administrarea utilizatorilor, backup și multe altele.
+    ru_RU: Единый визуальный инструмент для архитекторов баз данных, разработчиков и администраторов баз данных. MySQL Workbench предоставляет инструменты для моделирования данных, разработки SQL-запросов и комплексного администрирования, включая настройку серверов, управление пользователями, резервное копирование и многое другое.
+    sk_SK: Jednotný vizuálny nástroj pre databázových architektov, vývojárov a správcov databáz. MySQL Workbench poskytuje modelovanie dát, vývoj SQL a komplexné nástroje na správu pre konfiguráciu servera, správu používateľov, zálohovanie a mnoho ďalšieho.
+    sv_SE: Ett enhetligt visuellt verktyg för databasarkitekter, utvecklare och databaseringsansvariga. MySQL Workbench tillhandahåller datamodellering, SQL-utveckling och omfattande administrationsverktyg för serverkonfiguration, användaradministration, säkerhetskopiering och mycket mer.
+    tr_TR: Veritabanı mimarları, geliştiricileri ve veritabanı yöneticileri için birleşik bir görsel araç. MySQL Workbench, veri modelleme, SQL geliştirme ve sunucu yapılandırması, kullanıcı yönetimi, yedekleme ve daha fazlası için kapsamlı yönetim araçları sağlar.
     zh_CN: 用于 MySQL 建模、开发和管理的可视化工具。
+    zh_TW: 用於 MySQL 建模、開發和管理的視覺化工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
   title:
     en_US: Mysql workbench (LinuxServer.io)
+    ca_ES: Mysql workbench (LinuxServer.io)
+    cs_CZ: Mysql workbench (LinuxServer.io)
+    da_DK: Mysql workbench (LinuxServer.io)
+    de_DE: Mysql workbench (LinuxServer.io)
+    el_GR: Mysql workbench (LinuxServer.io)
+    en_GB: Mysql workbench (LinuxServer.io)
+    es_ES: Mysql workbench (LinuxServer.io)
+    fr_FR: Mysql workbench (LinuxServer.io)
+    ga_IE: Mysql workbench (LinuxServer.io)
+    hr_HR: Mysql workbench (LinuxServer.io)
+    hu_HU: Mysql workbench (LinuxServer.io)
+    it_IT: Mysql workbench (LinuxServer.io)
+    ja_JP: Mysql workbench (LinuxServer.io)
+    ko_KR: Mysql workbench (LinuxServer.io)
+    ml_IN: Mysql workbench (LinuxServer.io)
+    nb_NO: Mysql workbench (LinuxServer.io)
+    nl_NL: Mysql workbench (LinuxServer.io)
+    pl_PL: Mysql workbench (LinuxServer.io)
+    pt_BR: Mysql workbench (LinuxServer.io)
+    ro_RO: Mysql workbench (LinuxServer.io)
+    ru_RU: Mysql workbench (LinuxServer.io)
+    sk_SK: Mysql workbench (LinuxServer.io)
+    sv_SE: Mysql workbench (LinuxServer.io)
+    tr_TR: Mysql workbench (LinuxServer.io)
     zh_CN: Mysql workbench（LinuxServer.io）
+    zh_TW: Mysql workbench（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermysqlworkbench
   port_map: '3000'

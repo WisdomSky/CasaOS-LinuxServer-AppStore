@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Freshrss is a free, self-hostable aggregator for rss feeds.
+    ca_ES: Freshrss és un agregador gratuït i autoallotjable per a canals RSS.
+    cs_CZ: Freshrss je bezplatný, samostatně hostovatelný agregátor RSS kanálů.
+    da_DK: Freshrss er en gratis, selvhostende aggregator til RSS-feeds.
+    de_DE: Freshrss ist ein kostenloser, selbstgehosteter Aggregator für RSS-Feeds.
+    el_GR: Το Freshrss είναι ένας δωρεάν, αυτο-φιλοξενούμενος συσσωρευτής για ροές RSS.
+    en_GB: Freshrss is a free, self-hostable aggregator for rss feeds.
+    es_ES: Freshrss es un agregador gratuito y autoalojado de fuentes RSS.
+    fr_FR: Freshrss est un agrégateur gratuit et auto-hébergeable de flux RSS.
+    ga_IE: Is comhiomlánaitheoir saor in aisce, féin-óstála é Freshrss do fhothaí RSS.
+    hr_HR: Freshrss je besplatni, samostalno hostabilni agregator za RSS feedove.
+    hu_HU: A Freshrss egy ingyenes, önállóan tárhelyen tárolható RSS-hírcsatornák aggregátora.
+    it_IT: Freshrss è un aggregatore di feed RSS gratuito e autogestibile.
+    ja_JP: Freshrssは、RSSフィードを無料で集約できる、セルフホスティング型のサービスです。
+    ko_KR: Freshrss는 무료로 자체 호스팅 가능한 RSS 피드 통합 서비스입니다.
+    ml_IN: RSS ഫീഡുകൾക്കായി സൌജന്യമായി സ്വയം ഹോസ്റ്റ് ചെയ്യാവുന്ന ഒരു അഗ്രഗേറ്ററാണ് ഫ്രെഷ്സ്.
+    nb_NO: Freshrss er en gratis, selvhostbar aggregator for RSS-feeder.
+    nl_NL: Freshrss is een gratis, zelf te hosten aggregator voor RSS-feeds.
+    pl_PL: Freshrss to darmowy, hostowany na własnym serwerze agregator kanałów RSS.
+    pt_BR: Freshrss é um agregador de feeds RSS gratuito e auto-hospedável.
+    ro_RO: Freshrss este un agregator gratuit, auto-găzduit, pentru fluxuri RSS.
+    ru_RU: Freshrss — это бесплатный агрегатор RSS-лент, который можно разместить на собственном сервере.
+    sk_SK: Freshrss je bezplatný, samostatne hostovateľný agregátor RSS kanálov.
+    sv_SE: Freshrss är en gratis, självhostande aggregator för RSS-flöden.
+    tr_TR: Freshrss, RSS yayınları için ücretsiz, kendi sunucunuzda barındırabileceğiniz bir toplayıcıdır.
     zh_CN: FreshRSS 是一款免费、可自行托管的 RSS 订阅聚合器。
+    zh_TW: FreshRSS 是一款免費、可自行託管的 RSS 訂閱聚合器。
   tagline:
     en_US: A free, self-hostable aggregator for rss feeds.
+    ca_ES: Un agregador gratuït i autoallotjable per a canals RSS.
+    cs_CZ: Bezplatný, samostatně hostovatelný agregátor RSS kanálů.
+    da_DK: En gratis, selvhostbar aggregator til RSS-feeds.
+    de_DE: Ein kostenloser, selbsthostbarer Aggregator für RSS-Feeds.
+    el_GR: Ένας δωρεάν, αυτο-φιλοξενούμενος συσσωρευτής για ροές RSS.
+    en_GB: A free, self-hostable aggregator for rss feeds.
+    es_ES: Un agregador gratuito y autoalojado para feeds RSS.
+    fr_FR: Un agrégateur gratuit et auto-hébergeable pour les flux RSS.
+    ga_IE: Comhiomlánaitheoir saor in aisce, féinóstála do fhothaí RSS.
+    hr_HR: Besplatni, samostalno hostabilni agregator za RSS feedove.
+    hu_HU: Ingyenes, önállóan tárhelyen tárolható RSS-hírcsatornák aggregátora.
+    it_IT: Un aggregatore gratuito e autogestibile per feed RSS.
+    ja_JP: RSSフィード用の無料かつ自己ホスト可能なアグリゲーター。
+    ko_KR: RSS 피드를 위한 무료 자체 호스팅 가능 애그리게이터입니다.
+    ml_IN: ആർഎസ്എസ് ഫീഡുകൾക്കായി ഒരു സൌജന്യ, സ്വയം ഹോസ്റ്റ് ചെയ്യാവുന്ന അഗ്രഗേറ്റർ.
+    nb_NO: En gratis, selvhostbar aggregator for RSS-feeder.
+    nl_NL: Een gratis, zelf te hosten aggregator voor RSS-feeds.
+    pl_PL: Bezpłatny, hostowany na własnym serwerze agregator kanałów RSS.
+    pt_BR: Um agregador de feeds RSS gratuito e auto-hospedável.
+    ro_RO: Un agregator gratuit, auto-găzduit, pentru fluxuri RSS.
+    ru_RU: Бесплатный агрегатор RSS-лент с возможностью самостоятельного размещения.
+    sk_SK: Bezplatný, samostatne hostovateľný agregátor RSS kanálov.
+    sv_SE: En gratis, självhostbar aggregator för RSS-flöden.
+    tr_TR: Ücretsiz, kendi sunucunuzda barındırabileceğiniz bir RSS yayın toplayıcı.
     zh_CN: 可自行托管的免费 RSS 阅读器。
+    zh_TW: 可自行託管的免費 RSS 閱讀器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-banner.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-banner.png
   title:
     en_US: Freshrss (LinuxServer.io)
+    ca_ES: Freshrss (LinuxServer.io)
+    cs_CZ: Freshrss (LinuxServer.io)
+    da_DK: Freshrss (LinuxServer.io)
+    de_DE: Freshrss (LinuxServer.io)
+    el_GR: Freshrss (LinuxServer.io)
+    en_GB: Freshrss (LinuxServer.io)
+    es_ES: Freshrss (LinuxServer.io)
+    fr_FR: Freshrss (LinuxServer.io)
+    ga_IE: Freshrss (LinuxServer.io)
+    hr_HR: Freshrss (LinuxServer.io)
+    hu_HU: Freshrss (LinuxServer.io)
+    it_IT: Freshrss (LinuxServer.io)
+    ja_JP: Freshrss (LinuxServer.io)
+    ko_KR: Freshrss (LinuxServer.io)
+    ml_IN: Freshrss (LinuxServer.io)
+    nb_NO: Freshrss (LinuxServer.io)
+    nl_NL: Freshrss (LinuxServer.io)
+    pl_PL: Freshrss (LinuxServer.io)
+    pt_BR: Freshrss (LinuxServer.io)
+    ro_RO: Freshrss (LinuxServer.io)
+    ru_RU: Freshrss (LinuxServer.io)
+    sk_SK: Freshrss (LinuxServer.io)
+    sv_SE: Freshrss (LinuxServer.io)
+    tr_TR: Freshrss (LinuxServer.io)
     zh_CN: Freshrss（LinuxServer.io）
+    zh_TW: Freshrss（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfreshrss
   port_map: '80'

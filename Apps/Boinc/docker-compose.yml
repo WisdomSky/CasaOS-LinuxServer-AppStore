@@ -40,17 +40,92 @@ x-casaos:
   main: app
   description:
     en_US: BOINC is a platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
+    ca_ES: BOINC és una plataforma per a la computació d'alt rendiment a gran escala (milers o milions d'ordinadors). Es pot utilitzar per a la computació voluntària (utilitzant dispositius de consum) o la computació en grid (utilitzant recursos organitzatius). Admet aplicacions virtualitzades, paral·leles i basades en GPU.
+    cs_CZ: BOINC je platforma pro vysoce výkonné výpočty ve velkém měřítku (tisíce nebo miliony počítačů). Lze ji použít pro dobrovolnické výpočty (s využitím spotřebitelských zařízení) nebo gridové výpočty (s využitím organizačních zdrojů). Podporuje virtualizované, paralelní a GPU aplikace.
+    da_DK: BOINC er en platform til højkapacitets databehandling i stor skala (tusindvis eller millioner af computere). Den kan bruges til frivillig databehandling (ved hjælp af forbrugerenheder) eller grid computing (ved hjælp af organisatoriske ressourcer). Den understøtter virtualiserede, parallelle og GPU-baserede applikationer.
+    de_DE: BOINC ist eine Plattform für Hochleistungsrechnen im großen Maßstab (Tausende oder Millionen von Rechnern). Sie kann für freiwilliges Rechnen (mit Endgeräten) oder Grid-Computing (mit Ressourcen von Organisationen) eingesetzt werden. Sie unterstützt virtualisierte, parallele und GPU-basierte Anwendungen.
+    el_GR: Το BOINC είναι μια πλατφόρμα για υπολογιστική υψηλής απόδοσης σε μεγάλη κλίμακα (χιλιάδες ή εκατομμύρια υπολογιστές). Μπορεί να χρησιμοποιηθεί για εθελοντική υπολογιστική (χρησιμοποιώντας συσκευές καταναλωτών) ή υπολογιστική πλέγματος (χρησιμοποιώντας πόρους οργανισμού). Υποστηρίζει εικονικές, παράλληλες και εφαρμογές που βασίζονται σε GPU.
+    en_GB: Boinc is a platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualised, parallel, and Gpu-based applications.
+    es_ES: BOINC es una plataforma para computación de alto rendimiento a gran escala (miles o millones de ordenadores). Puede utilizarse para computación distribuida (con dispositivos de consumo) o computación en malla (con recursos de organizaciones). Admite aplicaciones virtualizadas, paralelas y basadas en GPU.
+    fr_FR: BOINC est une plateforme de calcul haute performance à grande échelle (des milliers, voire des millions d'ordinateurs). Elle peut être utilisée pour le calcul distribué (avec des appareils grand public) ou le calcul distribué (avec les ressources d'une organisation). Elle prend en charge les applications virtualisées, parallèles et basées sur le GPU.
+    ga_IE: Is ardán é BOINC le haghaidh ríomhaireachta ard-tréchur ar scála mór (na mílte nó na milliúin ríomhairí). Is féidir é a úsáid le haghaidh ríomhaireachta deonaí (ag baint úsáide as gléasanna tomhaltóirí) nó ríomhaireachta eangaí (ag baint úsáide as acmhainní eagraíochtúla). Tacaíonn sé le feidhmchláir fhíorúlaithe, comhthreomhara agus GPU-bhunaithe.
+    hr_HR: BOINC je platforma za visokopropusno računalstvo na velikoj skali (tisuće ili milijuni računala). Može se koristiti za dobrovoljno računalstvo (korištenjem potrošačkih uređaja) ili mrežno računalstvo (korištenjem organizacijskih resursa). Podržava virtualizirane, paralelne i GPU-bazirane aplikacije.
+    hu_HU: A BOINC egy platform nagy áteresztőképességű számítástechnikához nagy léptékben (több ezer vagy több millió számítógép). Használható önkéntes számítástechnikához (fogyasztói eszközök használatával) vagy grid számítástechnikához (szervezeti erőforrások használatával). Támogatja a virtualizált, párhuzamos és GPU-alapú alkalmazásokat.
+    it_IT: BOINC è una piattaforma per il calcolo ad alte prestazioni su larga scala (migliaia o milioni di computer). Può essere utilizzata per il calcolo distribuito volontario (utilizzando dispositivi di consumo) o per il calcolo distribuito (utilizzando risorse aziendali). Supporta applicazioni virtualizzate, parallele e basate su GPU.
+    ja_JP: BOINCは、大規模（数千台から数百万台）な高スループットコンピューティングのためのプラットフォームです。ボランティアコンピューティング（一般消費者向けデバイスを使用）やグリッドコンピューティング（組織のリソースを使用）に利用できます。仮想化、並列処理、GPUベースのアプリケーションをサポートしています。
+    ko_KR: BOINC는 대규모(수천 또는 수백만 대의 컴퓨터)에서 고처리량 컴퓨팅을 위한 플랫폼입니다. 개인 기기 사용 컴퓨팅(자원봉사 컴퓨팅)이나 조직 자원 사용 그리드 컴퓨팅에 모두 활용 가능합니다. 가상화, 병렬 처리 및 GPU 기반 애플리케이션을 지원합니다.
+    ml_IN: BOINC എന്നത് വലിയ തോതിലുള്ള (ആയിരക്കണക്കിന് അല്ലെങ്കിൽ ദശലക്ഷക്കണക്കിന് കമ്പ്യൂട്ടറുകൾ) ഉയർന്ന ത്രൂപുട്ട് കമ്പ്യൂട്ടിംഗിനുള്ള ഒരു പ്ലാറ്റ്‌ഫോമാണ്. ഇത് വോളണ്ടിയർ കമ്പ്യൂട്ടിംഗിനും (ഉപഭോക്തൃ ഉപകരണങ്ങൾ ഉപയോഗിച്ച്) ഗ്രിഡ് കമ്പ്യൂട്ടിംഗിനും (ഓർഗനൈസേഷണൽ റിസോഴ്‌സുകൾ ഉപയോഗിച്ച്) ഉപയോഗിക്കാം. ഇത് വെർച്വലൈസ്ഡ്, പാരലൽ, GPU അടിസ്ഥാനമാക്കിയുള്ള ആപ്ലിക്കേഷനുകളെ പിന്തുണയ്ക്കുന്നു.
+    nb_NO: BOINC er en plattform for høykapasitets databehandling i stor skala (tusenvis eller millioner av datamaskiner). Den kan brukes til frivillig databehandling (ved bruk av forbrukerenheter) eller grid computing (ved bruk av organisasjonsressurser). Den støtter virtualiserte, parallelle og GPU-baserte applikasjoner.
+    nl_NL: BOINC is een platform voor grootschalige computerberekeningen met hoge doorvoer (duizenden of miljoenen computers). Het kan worden gebruikt voor vrijwilligerswerk (met behulp van consumentenapparaten) of gridcomputing (met behulp van de middelen van een organisatie). Het ondersteunt gevirtualiseerde, parallelle en GPU-gebaseerde applicaties.
+    pl_PL: BOINC to platforma do obliczeń o wysokiej przepustowości na dużą skalę (tysiące lub miliony komputerów). Może być wykorzystywana do obliczeń wolontariackich (z wykorzystaniem urządzeń konsumenckich) lub obliczeń gridowych (z wykorzystaniem zasobów organizacji). Obsługuje aplikacje zwirtualizowane, równoległe i oparte na GPU.
+    pt_BR: O BOINC é uma plataforma para computação de alto desempenho em larga escala (milhares ou milhões de computadores). Pode ser usado para computação voluntária (utilizando dispositivos de consumo) ou computação em grade (utilizando recursos organizacionais). Suporta aplicações virtualizadas, paralelas e baseadas em GPU.
+    ro_RO: BOINC este o platformă pentru calcul de mare randament la scară largă (mii sau milioane de computere). Poate fi utilizată pentru calcul voluntar (folosind dispozitive de consum) sau calcul grid (folosind resurse organizaționale). Acceptă aplicații virtualizate, paralele și bazate pe GPU.
+    ru_RU: BOINC — это платформа для высокопроизводительных вычислений в больших масштабах (тысячи или миллионы компьютеров). Она может использоваться для добровольных вычислений (с использованием потребительских устройств) или распределенных вычислений (с использованием ресурсов организации). Она поддерживает виртуализированные, параллельные и основанные на графических процессорах (GPU) приложения.
+    sk_SK: BOINC je platforma pre vysokovýkonné výpočty vo veľkom meradle (tisíce alebo milióny počítačov). Môže byť použitá pre dobrovoľnícke výpočty (s využitím spotrebiteľských zariadení) alebo gridové výpočty (s využitím organizačných zdrojov). Podporuje virtualizované, paralelné a GPU-založené aplikácie.
+    sv_SE: BOINC är en plattform för högkapacitetsberäkning i stor skala (tusentals eller miljontals datorer). Den kan användas för volontärberäkning (med konsumentenheter) eller nätberäkning (med organisationsresurser). Den stöder virtualiserade, parallella och GPU-baserade applikationer.
+    tr_TR: BOINC, büyük ölçekli (binlerce veya milyonlarca bilgisayar) yüksek verimli hesaplama için bir platformdur. Gönüllü hesaplama (tüketici cihazları kullanarak) veya şebeke hesaplama (kurumsal kaynaklar kullanarak) için kullanılabilir. Sanallaştırılmış, paralel ve GPU tabanlı uygulamaları destekler.
     zh_CN: BOINC 是一个支持数千乃至数百万台计算机的高吞吐计算平台。它可用于利用个人设备的志愿计算，也可用于利用机构资源的网格计算，并支持虚拟化、并行计算和基于 GPU 的应用。
+    zh_TW: BOINC 是一個支援數千乃至數百萬臺計算機的高吞吐計算平臺。它可用於利用個人裝置的志願計算，也可用於利用機構資源的網格計算，並支援虛擬化、平行計算和基於 GPU 的應用。
   tagline:
     en_US: A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.
+    ca_ES: Una plataforma per a la computació d'alt rendiment a gran escala (milers o milions d'ordinadors). Es pot utilitzar per a la computació voluntària (utilitzant dispositius de consum) o la computació en grid (utilitzant recursos organitzatius). Admet aplicacions virtualitzades, paral·leles i basades en GPU.
+    cs_CZ: Platforma pro vysoce výkonné výpočty ve velkém měřítku (tisíce nebo miliony počítačů). Lze ji použít pro dobrovolnické výpočty (s využitím spotřebitelských zařízení) nebo gridové výpočty (s využitím organizačních zdrojů). Podporuje virtualizované, paralelní a GPU aplikace.
+    da_DK: En platform til højkapacitets databehandling i stor skala (tusindvis eller millioner af computere). Den kan bruges til frivillig databehandling (ved hjælp af forbrugerenheder) eller grid computing (ved hjælp af organisatoriske ressourcer). Den understøtter virtualiserede, parallelle og GPU-baserede applikationer.
+    de_DE: Eine Plattform für Hochleistungsrechnen im großen Maßstab (Tausende oder Millionen von Computern). Sie kann für freiwilliges Rechnen (mit Endgeräten) oder Grid-Computing (mit Ressourcen von Organisationen) genutzt werden. Sie unterstützt virtualisierte, parallele und GPU-basierte Anwendungen.
+    el_GR: Μια πλατφόρμα για υπολογιστική υψηλής απόδοσης σε μεγάλη κλίμακα (χιλιάδες ή εκατομμύρια υπολογιστές). Μπορεί να χρησιμοποιηθεί για εθελοντική υπολογιστική (χρησιμοποιώντας συσκευές καταναλωτών) ή υπολογιστική πλέγματος (χρησιμοποιώντας πόρους οργανισμού). Υποστηρίζει εικονικές, παράλληλες και εφαρμογές που βασίζονται σε GPU.
+    en_GB: A platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualised, parallel, and Gpu-based applications.
+    es_ES: Plataforma para computación de alto rendimiento a gran escala (miles o millones de ordenadores). Puede utilizarse para computación distribuida (con dispositivos de consumo) o computación en malla (con recursos de organizaciones). Admite aplicaciones virtualizadas, paralelas y basadas en GPU.
+    fr_FR: Plateforme de calcul haute performance à grande échelle (des milliers, voire des millions d'ordinateurs), elle peut être utilisée pour le calcul distribué (avec des appareils grand public) ou le calcul distribué (avec les ressources d'une organisation). Elle prend en charge les applications virtualisées, parallèles et basées sur le GPU.
+    ga_IE: Ardán le haghaidh ríomhaireachta ard-tréchur ar scála mór (na mílte nó na milliúin ríomhairí). Is féidir é a úsáid le haghaidh ríomhaireachta deonaí (ag baint úsáide as gléasanna tomhaltóirí) nó ríomhaireachta eangaí (ag baint úsáide as acmhainní eagraíochtúla). Tacaíonn sé le feidhmchláir fhíorúlaithe, comhthreomhara agus GPU-bhunaithe.
+    hr_HR: Platforma za visokopropusno računalstvo velikih razmjera (tisuće ili milijuni računala). Može se koristiti za dobrovoljno računalstvo (korištenjem potrošačkih uređaja) ili mrežno računalstvo (korištenjem organizacijskih resursa). Podržava virtualizirane, paralelne i aplikacije temeljene na GPU-u.
+    hu_HU: Nagy áteresztőképességű számítástechnikai platform nagy léptékben (több ezer vagy több millió számítógép). Használható önkéntes számítástechnikához (fogyasztói eszközök használatával) vagy grid számítástechnikához (szervezeti erőforrások használatával). Támogatja a virtualizált, párhuzamos és GPU-alapú alkalmazásokat.
+    it_IT: Una piattaforma per il calcolo ad alte prestazioni su larga scala (migliaia o milioni di computer). Può essere utilizzata per il calcolo distribuito volontario (utilizzando dispositivi di consumo) o per il calcolo distribuito (utilizzando risorse aziendali). Supporta applicazioni virtualizzate, parallele e basate su GPU.
+    ja_JP: 大規模（数千台から数百万台）な高スループットコンピューティングのためのプラットフォーム。ボランティアコンピューティング（一般消費者向けデバイスを使用）やグリッドコンピューティング（組織のリソースを使用）に利用できます。仮想化、並列処理、GPUベースのアプリケーションをサポートします。
+    ko_KR: 수천 또는 수백만 대의 컴퓨터를 활용한 대규모 고처리량 컴퓨팅 플랫폼입니다. 개인용 기기를 사용하는 자원봉사 컴퓨팅이나 조직 자원을 활용하는 그리드 컴퓨팅에 모두 사용할 수 있습니다. 가상화, 병렬 처리 및 GPU 기반 애플리케이션을 지원합니다.
+    ml_IN: വലിയ തോതിൽ (ആയിരക്കണക്കിന് അല്ലെങ്കിൽ ദശലക്ഷക്കണക്കിന് കമ്പ്യൂട്ടറുകൾ) ഉയർന്ന ത്രൂപുട്ട് കമ്പ്യൂട്ടിംഗിനുള്ള ഒരു പ്ലാറ്റ്‌ഫോം. ഇത് വോളണ്ടിയർ കമ്പ്യൂട്ടിംഗിനും (ഉപഭോക്തൃ ഉപകരണങ്ങൾ ഉപയോഗിച്ച്) ഗ്രിഡ് കമ്പ്യൂട്ടിംഗിനും (ഓർഗനൈസേഷണൽ റിസോഴ്‌സുകൾ ഉപയോഗിച്ച്) ഉപയോഗിക്കാം. ഇത് വെർച്വലൈസ്ഡ്, പാരലൽ, ജിപിയു അടിസ്ഥാനമാക്കിയുള്ള ആപ്ലിക്കേഷനുകളെ പിന്തുണയ്ക്കുന്നു.
+    nb_NO: En plattform for høykapasitets databehandling i stor skala (tusenvis eller millioner av datamaskiner). Den kan brukes til frivillig databehandling (ved bruk av forbrukerenheter) eller grid computing (ved bruk av organisasjonsressurser). Den støtter virtualiserte, parallelle og GPU-baserte applikasjoner.
+    nl_NL: Een platform voor grootschalige computerberekeningen met hoge doorvoer (duizenden of miljoenen computers). Het kan worden gebruikt voor vrijwilligerswerk (met behulp van consumentenapparaten) of gridcomputing (met behulp van de middelen van een organisatie). Het ondersteunt gevirtualiseerde, parallelle en GPU-gebaseerde applicaties.
+    pl_PL: Platforma do obliczeń o wysokiej przepustowości na dużą skalę (tysiące lub miliony komputerów). Może być wykorzystywana do obliczeń wolontariackich (z wykorzystaniem urządzeń konsumenckich) lub obliczeń gridowych (z wykorzystaniem zasobów organizacji). Obsługuje aplikacje zwirtualizowane, równoległe i oparte na GPU.
+    pt_BR: Uma plataforma para computação de alto desempenho em larga escala (milhares ou milhões de computadores). Pode ser usada para computação voluntária (utilizando dispositivos de consumo) ou computação em grade (utilizando recursos organizacionais). Suporta aplicações virtualizadas, paralelas e baseadas em GPU.
+    ro_RO: O platformă pentru calcul de mare randament la scară largă (mii sau milioane de computere). Poate fi utilizată pentru calcul voluntar (folosind dispozitive de consum) sau calcul grid (folosind resurse organizaționale). Acceptă aplicații virtualizate, paralele și bazate pe GPU.
+    ru_RU: Платформа для высокопроизводительных вычислений в больших масштабах (тысячи или миллионы компьютеров). Может использоваться для добровольных вычислений (с использованием потребительских устройств) или распределенных вычислений (с использованием ресурсов организации). Поддерживает виртуализированные, параллельные и основанные на графических процессорах (GPU) приложения.
+    sk_SK: Platforma pre vysokovýkonné výpočty vo veľkom meradle (tisíce alebo milióny počítačov). Môže byť použitá pre dobrovoľnícke výpočty (s využitím spotrebiteľských zariadení) alebo gridové výpočty (s využitím organizačných zdrojov). Podporuje virtualizované, paralelné a GPU-založené aplikácie.
+    sv_SE: En plattform för högkapacitetsberäkning i stor skala (tusentals eller miljontals datorer). Den kan användas för volontärberäkning (med konsumentenheter) eller nätberäkning (med organisationsresurser). Den stöder virtualiserade, parallella och GPU-baserade applikationer.
+    tr_TR: Büyük ölçekli (binlerce veya milyonlarca bilgisayar) yüksek verimli hesaplama için bir platform. Gönüllü hesaplama (tüketici cihazları kullanarak) veya şebeke hesaplama (kurumsal kaynakları kullanarak) için kullanılabilir. Sanallaştırılmış, paralel ve GPU tabanlı uygulamaları destekler.
     zh_CN: 面向大规模志愿计算和网格计算的平台。
+    zh_TW: 面向大規模志願計算和網格計算的平臺。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
   thumbnail: https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg
   title:
     en_US: Boinc (LinuxServer.io)
+    ca_ES: Boinc (LinuxServer.io)
+    cs_CZ: Boinc (LinuxServer.io)
+    da_DK: Boinc (LinuxServer.io)
+    de_DE: Boinc (LinuxServer.io)
+    el_GR: Boinc (LinuxServer.io)
+    en_GB: Boinc (LinuxServer.io)
+    es_ES: Boinc (LinuxServer.io)
+    fr_FR: Boinc (LinuxServer.io)
+    ga_IE: Boinc (LinuxServer.io)
+    hr_HR: Boinc (LinuxServer.io)
+    hu_HU: Boinc (LinuxServer.io)
+    it_IT: Boinc (LinuxServer.io)
+    ja_JP: Boinc (LinuxServer.io)
+    ko_KR: Boinc (LinuxServer.io)
+    ml_IN: Boinc (LinuxServer.io)
+    nb_NO: Boinc (LinuxServer.io)
+    nl_NL: Boinc (LinuxServer.io)
+    pl_PL: Boinc (LinuxServer.io)
+    pt_BR: Boinc (LinuxServer.io)
+    ro_RO: Boinc (LinuxServer.io)
+    ru_RU: Boinc (LinuxServer.io)
+    sk_SK: Boinc (LinuxServer.io)
+    sv_SE: Boinc (LinuxServer.io)
+    tr_TR: Boinc (LinuxServer.io)
     zh_CN: Boinc（LinuxServer.io）
+    zh_TW: Boinc（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverboinc
   port_map: '8080'

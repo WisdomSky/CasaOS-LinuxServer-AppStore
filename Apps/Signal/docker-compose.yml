@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Signal is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.
+    ca_ES: Signal és una aplicació de missatgeria que prioritza la privadesa. És gratuïta i fàcil d'utilitzar, amb un xifratge de punta a punta potent que manté la teva comunicació completament privada.
+    cs_CZ: Signal je aplikace pro zasílání zpráv, jejímž základem je soukromí. Je bezplatná a snadno se používá a disponuje silným end-to-end šifrováním, které udržuje vaši komunikaci zcela v soukromí.
+    da_DK: Signal er en beskedapp med privatliv i centrum. Den er gratis og nem at bruge med stærk end-to-end-kryptering, der holder din kommunikation fuldstændig privat.
+    de_DE: Signal ist eine Messaging-App, bei der Datenschutz oberste Priorität hat. Sie ist kostenlos und einfach zu bedienen und bietet eine starke Ende-zu-Ende-Verschlüsselung, die Ihre Kommunikation absolut privat hält.
+    el_GR: Το Signal είναι μια εφαρμογή ανταλλαγής μηνυμάτων με βασικό στοιχείο την προστασία της ιδιωτικής ζωής. Είναι δωρεάν και εύχρηστη, με ισχυρή κρυπτογράφηση από άκρο σε άκρο που διατηρεί την επικοινωνία σας απόλυτα ιδιωτική.
+    en_GB: Signal is a messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.
+    es_ES: Signal es una aplicación de mensajería que prioriza la privacidad. Es gratuita y fácil de usar, con un sólido cifrado de extremo a extremo que mantiene tus comunicaciones completamente privadas.
+    fr_FR: Signal est une application de messagerie qui place la confidentialité au cœur de ses fonctionnalités. Gratuite et facile à utiliser, elle offre un chiffrement de bout en bout robuste qui garantit la confidentialité absolue de vos communications.
+    ga_IE: Is aip teachtaireachtaí í Signal a bhfuil príobháideacht mar chroílár aici. Tá sí saor in aisce agus éasca le húsáid, le criptiú láidir ó cheann ceann go ceann a choinníonn do chumarsáid go hiomlán príobháideach.
+    hr_HR: Signal je aplikacija za razmjenu poruka čija je privatnost u osnovi. Besplatna je i jednostavna za korištenje, s jakim end-to-end šifriranjem koje vašu komunikaciju čuva potpuno privatnom.
+    hu_HU: A Signal egy üzenetküldő alkalmazás, amelynek középpontjában az adatvédelem áll. Ingyenes és könnyen használható, erős, végponttól végpontig terjedő titkosítással, amely teljesen priváttá teszi a kommunikációdat.
+    it_IT: Signal è un'app di messaggistica che pone la privacy al centro di tutto. È gratuita e facile da usare, con una robusta crittografia end-to-end che mantiene le tue comunicazioni completamente private.
+    ja_JP: Signalは、プライバシーを最優先に考えたメッセージングアプリです。無料で使いやすく、強力なエンドツーエンド暗号化により、通信内容を完全にプライベートに保ちます。
+    ko_KR: Signal은 개인정보 보호를 최우선으로 하는 메시징 앱입니다. 무료이며 사용하기 쉽고, 강력한 종단간 암호화를 통해 모든 통신 내용을 완벽하게 비공개로 유지합니다.
+    ml_IN: സ്വകാര്യതയ്ക്ക് പ്രാധാന്യം നൽകുന്ന ഒരു സന്ദേശമയയ്ക്കൽ ആപ്പാണ് സിഗ്നൽ. ഇത് സൗജന്യവും ഉപയോഗിക്കാൻ എളുപ്പവുമാണ്, ശക്തമായ എൻഡ്-ടു-എൻഡ് എൻക്രിപ്ഷനോടെ നിങ്ങളുടെ ആശയവിനിമയം പൂർണ്ണമായും സ്വകാര്യമായി സൂക്ഷിക്കുന്നു.
+    nb_NO: Signal er en meldingsapp med personvern i sentrum. Den er gratis og enkel å bruke, med sterk ende-til-ende-kryptering som holder kommunikasjonen din helt privat.
+    nl_NL: Signal is een berichtenapp waarbij privacy centraal staat. De app is gratis en gebruiksvriendelijk, met sterke end-to-end-versleuteling die je communicatie volledig privé houdt.
+    pl_PL: Signal to aplikacja do przesyłania wiadomości, której priorytetem jest prywatność. Jest darmowa i łatwa w obsłudze, a dzięki silnemu szyfrowaniu end-to-end Twoja komunikacja pozostaje całkowicie prywatna.
+    pt_BR: O Signal é um aplicativo de mensagens que prioriza a privacidade. É gratuito e fácil de usar, com criptografia de ponta a ponta robusta que mantém suas comunicações totalmente privadas.
+    ro_RO: Signal este o aplicație de mesagerie care pune accentul pe confidențialitate. Este gratuită și ușor de utilizat, cu o criptare end-to-end puternică care îți păstrează comunicarea complet privată.
+    ru_RU: Signal — это мессенджер, в основе которого лежит конфиденциальность. Он бесплатный и простой в использовании, с надежным сквозным шифрованием, обеспечивающим полную конфиденциальность вашей переписки.
+    sk_SK: Signal je aplikácia na posielanie správ, ktorej jadrom je súkromie. Je bezplatná a ľahko sa používa so silným šifrovaním end-to-end, ktoré udržiava vašu komunikáciu úplne súkromnú.
+    sv_SE: Signal är en meddelandeapp med integritet i centrum. Den är gratis och enkel att använda, med stark end-to-end-kryptering som håller din kommunikation helt privat.
+    tr_TR: Signal, gizliliği temel alan bir mesajlaşma uygulamasıdır. Ücretsiz ve kullanımı kolaydır; güçlü uçtan uca şifreleme sayesinde iletişiminiz tamamen gizli kalır.
     zh_CN: Signal 是一款以隐私为核心的消息应用，免费且易于使用，通过强大的端到端加密保护你的通信隐私。
+    zh_TW: Signal 是一款以隱私為核心的訊息應用，免費且易於使用，透過強大的端到端加密保護你的通訊隱私。
   tagline:
     en_US: A messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.
+    ca_ES: Una aplicació de missatgeria amb la privadesa com a element central. És gratuïta i fàcil d'utilitzar, amb un xifratge de punta a punta fort que manté la teva comunicació completament privada.
+    cs_CZ: Aplikace pro zasílání zpráv, jejímž základem je soukromí. Je bezplatná a snadno se používá a má silné end-to-end šifrování, které udržuje vaši komunikaci zcela v soukromí.
+    da_DK: En beskedapp med privatliv i centrum. Den er gratis og nem at bruge med stærk end-to-end-kryptering, der holder din kommunikation fuldstændig privat.
+    de_DE: Eine Messaging-App, bei der Datenschutz an erster Stelle steht. Sie ist kostenlos und einfach zu bedienen und bietet eine starke Ende-zu-Ende-Verschlüsselung, die Ihre Kommunikation absolut privat hält.
+    el_GR: Μια εφαρμογή ανταλλαγής μηνυμάτων με βασικό στοιχείο το απόρρητο. Είναι δωρεάν και εύχρηστη, με ισχυρή κρυπτογράφηση από άκρο σε άκρο που διατηρεί την επικοινωνία σας απόλυτα ιδιωτική.
+    en_GB: A messaging app with privacy at its core. It is free and easy to use, with strong end-to-end encryption that keeps your communication completely private.
+    es_ES: Una aplicación de mensajería que prioriza la privacidad. Es gratuita y fácil de usar, con un sólido cifrado de extremo a extremo que mantiene tus comunicaciones completamente privadas.
+    fr_FR: Une application de messagerie qui place la confidentialité au cœur de ses priorités. Gratuite et facile d'utilisation, elle offre un chiffrement de bout en bout robuste qui garantit la confidentialité absolue de vos communications.
+    ga_IE: Aip teachtaireachtaí a bhfuil príobháideacht mar chroílár aici. Tá sí saor in aisce agus éasca le húsáid, le criptiú láidir ó cheann ceann a choinníonn do chumarsáid go hiomlán príobháideach.
+    hr_HR: Aplikacija za razmjenu poruka čija je privatnost u osnovi. Besplatna je i jednostavna za korištenje, s jakim end-to-end šifriranjem koje vašu komunikaciju čuva potpuno privatnom.
+    hu_HU: Egy üzenetküldő alkalmazás, amelynek középpontjában az adatvédelem áll. Ingyenes és könnyen használható, erős, végponttól végpontig terjedő titkosítással, amely teljesen privátként biztosítja a kommunikációdat.
+    it_IT: Un'app di messaggistica che pone la privacy al centro di tutto. È gratuita e facile da usare, con una robusta crittografia end-to-end che garantisce la completa riservatezza delle tue comunicazioni.
+    ja_JP: プライバシーを最優先に考えたメッセージングアプリ。無料で使いやすく、強力なエンドツーエンド暗号化により、通信内容を完全にプライベートに保ちます。
+    ko_KR: 개인정보 보호를 최우선으로 하는 메시징 앱입니다. 무료이며 사용하기 쉽고, 강력한 종단간 암호화로 모든 통신 내용을 완벽하게 비공개로 유지합니다.
+    ml_IN: സ്വകാര്യതയ്ക്ക് പ്രാധാന്യം നൽകുന്ന ഒരു സന്ദേശമയയ്‌ക്കൽ ആപ്പ്. ഇത് സൗജന്യവും ഉപയോഗിക്കാൻ എളുപ്പവുമാണ്, ശക്തമായ എൻഡ്-ടു-എൻഡ് എൻക്രിപ്ഷനോടെ നിങ്ങളുടെ ആശയവിനിമയം പൂർണ്ണമായും സ്വകാര്യമായി സൂക്ഷിക്കുന്നു.
+    nb_NO: En meldingsapp med personvern i sentrum. Den er gratis og enkel å bruke, med sterk ende-til-ende-kryptering som holder kommunikasjonen din helt privat.
+    nl_NL: Een berichtenapp met privacy als kernwaarde. De app is gratis en gebruiksvriendelijk, met sterke end-to-end-versleuteling die uw communicatie volledig privé houdt.
+    pl_PL: Aplikacja do przesyłania wiadomości, w której prywatność jest priorytetem. Jest darmowa i łatwa w obsłudze, z silnym szyfrowaniem typu end-to-end, które zapewnia całkowitą prywatność komunikacji.
+    pt_BR: Um aplicativo de mensagens com a privacidade como princípio fundamental. É gratuito e fácil de usar, com criptografia de ponta a ponta robusta que mantém sua comunicação totalmente privada.
+    ro_RO: O aplicație de mesagerie care pune accentul pe confidențialitate. Este gratuită și ușor de utilizat, cu criptare end-to-end puternică, care îți păstrează comunicarea complet privată.
+    ru_RU: Приложение для обмена сообщениями, в основе которого лежит конфиденциальность. Оно бесплатное и простое в использовании, с надежным сквозным шифрованием, обеспечивающим полную конфиденциальность вашей переписки.
+    sk_SK: Aplikácia na odosielanie správ, ktorej jadrom je súkromie. Je bezplatná a ľahko sa používa so silným šifrovaním end-to-end, ktoré udržiava vašu komunikáciu úplne súkromnú.
+    sv_SE: En meddelandeapp med integritet i centrum. Den är gratis och enkel att använda, med stark end-to-end-kryptering som håller din kommunikation helt privat.
+    tr_TR: Gizliliği temel alan bir mesajlaşma uygulaması. Ücretsiz ve kullanımı kolaydır; güçlü uçtan uca şifreleme sayesinde iletişiminiz tamamen gizli kalır.
     zh_CN: 以端到端加密保护通信隐私的消息应用。
+    zh_TW: 以端到端加密保護通訊隱私的訊息應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/signal-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/signal-logo.png
   title:
     en_US: Signal (LinuxServer.io)
+    ca_ES: Signal (LinuxServer.io)
+    cs_CZ: Signal (LinuxServer.io)
+    da_DK: Signal (LinuxServer.io)
+    de_DE: Signal (LinuxServer.io)
+    el_GR: Signal (LinuxServer.io)
+    en_GB: Signal (LinuxServer.io)
+    es_ES: Signal (LinuxServer.io)
+    fr_FR: Signal (LinuxServer.io)
+    ga_IE: Signal (LinuxServer.io)
+    hr_HR: Signal (LinuxServer.io)
+    hu_HU: Signal (LinuxServer.io)
+    it_IT: Signal (LinuxServer.io)
+    ja_JP: Signal (LinuxServer.io)
+    ko_KR: Signal (LinuxServer.io)
+    ml_IN: Signal (LinuxServer.io)
+    nb_NO: Signal (LinuxServer.io)
+    nl_NL: Signal (LinuxServer.io)
+    pl_PL: Signal (LinuxServer.io)
+    pt_BR: Signal (LinuxServer.io)
+    ro_RO: Signal (LinuxServer.io)
+    ru_RU: Signal (LinuxServer.io)
+    sk_SK: Signal (LinuxServer.io)
+    sv_SE: Signal (LinuxServer.io)
+    tr_TR: Signal (LinuxServer.io)
     zh_CN: Signal（LinuxServer.io）
+    zh_TW: Signal（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversignal
   port_map: '3000'

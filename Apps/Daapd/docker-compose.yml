@@ -40,9 +40,62 @@ x-casaos:
       DAAP（iTunes）媒体服务器，支持 AirPlay 设备、Apple Remote 及兼容遥控器、Chromecast、MPD 和网络电台。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/daapd/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/daapd/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/daapd/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/daapd/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/daapd/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/daapd/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/daapd/'
+    es_ES: 'Visite la página principal: https://hub.docker.com/r/linuxserver/daapd/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/daapd/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/daapd/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/daapd/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/daapd/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/daapd/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/daapd/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/daapd/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/daapd/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/daapd/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/daapd/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/daapd/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/daapd/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/daapd/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/daapd/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/daapd/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/daapd/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/daapd/'
+    zh_TW: |-
+      DAAP（iTunes）媒體伺服器，支援 AirPlay 裝置、Apple Remote 及相容遙控器、Chromecast、MPD 和網路電臺。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/daapd/
   tagline:
     en_US: '(iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), Chromecast, MPD and internet radio. '
     zh_CN: 支持 AirPlay、Chromecast 和网络电台的媒体服务器。
+    ca_ES: Servidor multimèdia (iTunes) compatible amb dispositius AirPlay, Apple Remote (i compatibles), Chromecast, MPD i ràdio per Internet.
+    cs_CZ: (iTunes) mediální server s podporou zařízení AirPlay, Apple Remote (a kompatibilních), Chromecastu, MPD a internetového rádia.
+    da_DK: (iTunes) medieserver med understøttelse af AirPlay-enheder, Apple Remote (og kompatible enheder), Chromecast, MPD og internetradio.
+    de_DE: (iTunes) Medienserver mit Unterstützung für AirPlay-Geräte, Apple Remote (und kompatible Geräte), Chromecast, MPD und Internetradio.
+    el_GR: Διακομιστής πολυμέσων (iTunes) με υποστήριξη για συσκευές AirPlay, Apple Remote (και συμβατές συσκευές), Chromecast, MPD και διαδικτυακό ραδιόφωνο.
+    en_GB: '(iTunes) media server with support for Airplay devices, Apple Remote (and compatibles), Chromecast, Mpd and internet radio. '
+    es_ES: Servidor multimedia (iTunes) compatible con dispositivos AirPlay, Apple Remote (y compatibles), Chromecast, MPD y radio por internet.
+    fr_FR: Serveur multimédia (iTunes) prenant en charge les appareils AirPlay, Apple Remote (et compatibles), Chromecast, MPD et la radio Internet.
+    ga_IE: Freastalaí meán (iTunes) le tacaíocht do ghléasanna AirPlay, Apple Remote (agus gléasanna comhoiriúnacha), Chromecast, MPD agus raidió idirlín.
+    hr_HR: (iTunes) medijski poslužitelj s podrškom za AirPlay uređaje, Apple Remote (i kompatibilne uređaje), Chromecast, MPD i internetski radio.
+    hu_HU: (iTunes) médiaszerver AirPlay eszközök, Apple Remote (és kompatibilis eszközök), Chromecast, MPD és internetes rádió támogatásával.
+    it_IT: Server multimediale (iTunes) con supporto per dispositivi AirPlay, Apple Remote (e compatibili), Chromecast, MPD e radio internet.
+    ja_JP: AirPlayデバイス、Apple Remote（および互換デバイス）、Chromecast、MPD、インターネットラジオに対応した（iTunes）メディアサーバー。
+    ko_KR: AirPlay 기기, Apple Remote(및 호환 기기), Chromecast, MPD 및 인터넷 라디오를 지원하는 iTunes 미디어 서버입니다.
+    ml_IN: (ഐട്യൂൺസ്) എയർപ്ലേ ഉപകരണങ്ങൾ, ആപ്പിൾ റിമോട്ട് (ഒപ്പം അനുയോജ്യമായവ), ക്രോംകാസ്റ്റ്, എംപിഡി, ഇന്റർനെറ്റ് റേഡിയോ എന്നിവയ്ക്കുള്ള പിന്തുണയുള്ള മീഡിയ സെർവർ.
+    nb_NO: (iTunes) medieserver med støtte for AirPlay-enheter, Apple Remote (og kompatible enheter), Chromecast, MPD og internettradio.
+    nl_NL: (iTunes) mediaserver met ondersteuning voor AirPlay-apparaten, Apple Remote (en compatibele apparaten), Chromecast, MPD en internetradio.
+    pl_PL: Serwer multimedialny (iTunes) obsługujący urządzenia AirPlay, Apple Remote (i kompatybilne), Chromecast, MPD i radio internetowe.
+    pt_BR: Servidor de mídia (iTunes) com suporte para dispositivos AirPlay, Apple Remote (e compatíveis), Chromecast, MPD e rádio via internet.
+    ro_RO: Server media (iTunes) cu suport pentru dispozitive AirPlay, Apple Remote (și compatibile), Chromecast, MPD și radio pe internet.
+    ru_RU: Медиасервер (iTunes) с поддержкой устройств AirPlay, пульта Apple Remote (и совместимых устройств), Chromecast, MPD и интернет-радио.
+    sk_SK: Mediálny server (iTunes) s podporou zariadení AirPlay, Apple Remote (a kompatibilných zariadení), Chromecastu, MPD a internetového rádia.
+    sv_SE: (iTunes) mediaserver med stöd för AirPlay-enheter, Apple Remote (och kompatibla enheter), Chromecast, MPD och internetradio.
+    tr_TR: (iTunes) AirPlay cihazlarını, Apple Remote'u (ve uyumlu cihazları), Chromecast'i, MPD'yi ve internet radyosunu destekleyen medya sunucusu.
+    zh_TW: 支援 AirPlay、Chromecast 和網路電臺的媒體伺服器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/daapd-icon.png
@@ -50,6 +103,31 @@ x-casaos:
   title:
     en_US: Daapd
     zh_CN: Daapd
+    ca_ES: Daapd
+    cs_CZ: Daapd
+    da_DK: Daapd
+    de_DE: Daapd
+    el_GR: Daapd
+    en_GB: Daapd
+    es_ES: Daapd
+    fr_FR: Daapd
+    ga_IE: Daapd
+    hr_HR: Daapd
+    hu_HU: Daapd
+    it_IT: Daapd
+    ja_JP: Daapd
+    ko_KR: Daapd
+    ml_IN: Daapd
+    nb_NO: Daapd
+    nl_NL: Daapd
+    pl_PL: Daapd
+    pt_BR: Daapd
+    ro_RO: Daapd
+    ru_RU: Daapd
+    sk_SK: Daapd
+    sv_SE: Daapd
+    tr_TR: Daapd
+    zh_TW: Daapd
   category: Others
   project_url: https://ejurgensen.github.io/forked-daapd/
   port_map: '3689'

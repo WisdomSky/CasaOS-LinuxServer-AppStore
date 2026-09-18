@@ -21,9 +21,59 @@ x-casaos:
   description:
     en_US: This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
     zh_CN: 此内部工具在 CI 流程中作为桌面沙盒使用，用于对预期正常运行的端点截取屏幕截图。
+    ca_ES: Aquesta eina interna s'utilitza com a sandbox d'escriptori en el nostre procés de CI per fer una captura de pantalla d'un punt final, amb sort, funcional.
+    cs_CZ: Tento interní nástroj se používá jako desktopový sandbox v našem procesu CI k pořízení snímku obrazovky z doufejme funkčního endpointu.
+    da_DK: Dette interne værktøj bruges som en desktop-sandkasse i vores CI-proces til at tage et skærmbillede af et forhåbentlig funktionelt slutpunkt
+    de_DE: Dieses interne Tool dient in unserem CI-Prozess als Desktop-Sandbox, um einen Screenshot eines hoffentlich funktionsfähigen Endpunkts zu erstellen.
+    el_GR: Αυτό το εσωτερικό εργαλείο χρησιμοποιείται ως sandbox επιφάνειας εργασίας στη διαδικασία CI μας για να τραβήξει ένα στιγμιότυπο οθόνης ενός, ελπίζουμε, λειτουργικού τελικού σημείου.
+    en_GB: This internal tool is used as a desktop sandbox in our Ci process to grab a screenshot of a hopefully functional endpoint
+    es_ES: Esta herramienta interna se utiliza como un entorno aislado de escritorio en nuestro proceso de CI para capturar una captura de pantalla de un punto final que, con suerte, funcionará.
+    fr_FR: Cet outil interne est utilisé comme environnement de test de bureau dans notre processus d'intégration continue pour capturer une capture d'écran d'un point de terminaison censé être fonctionnel.
+    ga_IE: Úsáidtear an uirlis inmheánach seo mar bhosca gainimh deisce inár bpróiseas CI chun scáileán a thógáil de chríochphointe feidhmiúil, tá súil againn.
+    hr_HR: Ovaj interni alat se koristi kao sandbox za desktop u našem CI procesu za snimanje zaslona nadamo se funkcionalne krajnje točke.
+    hu_HU: Ez a belső eszköz asztali tesztkörnyezetként szolgál a CI-folyamatunkban, hogy képernyőképet készítsen egy remélhetőleg működő végpontról.
+    it_IT: Questo strumento interno viene utilizzato come ambiente di test (sandbox) nel nostro processo di integrazione continua (CI) per acquisire uno screenshot di un endpoint che si spera funzioni correttamente.
+    ja_JP: この内部ツールは、CIプロセスにおいてデスクトップサンドボックスとして使用され、正常に機能するエンドポイントのスクリーンショットを取得します。
+    ko_KR: 이 내부 도구는 CI 프로세스에서 데스크톱 샌드박스로 사용되어 정상적으로 작동하는 엔드포인트의 스크린샷을 캡처하는 데 사용됩니다.
+    ml_IN: ഞങ്ങളുടെ CI പ്രക്രിയയിൽ, പ്രവർത്തനക്ഷമമായ ഒരു എൻഡ്‌പോയിന്റിന്റെ സ്‌ക്രീൻഷോട്ട് എടുക്കുന്നതിന് ഈ ആന്തരിക ഉപകരണം ഒരു ഡെസ്‌ക്‌ടോപ്പ് സാൻഡ്‌ബോക്‌സായി ഉപയോഗിക്കുന്നു.
+    nb_NO: Dette interne verktøyet brukes som en skrivebordssandkasse i vår CI-prosess for å ta et skjermbilde av et forhåpentligvis funksjonelt endepunkt
+    nl_NL: Deze interne tool wordt in ons CI-proces gebruikt als een desktop-sandbox om een screenshot te maken van een hopelijk functioneel eindpunt.
+    pl_PL: To wewnętrzne narzędzie służy jako piaskownica na pulpicie w naszym procesie CI do wykonywania zrzutów ekranu punktu końcowego, który – miejmy nadzieję – będzie funkcjonalny
+    pt_BR: Essa ferramenta interna é usada como um ambiente de teste (sandbox) em nosso processo de CI para capturar uma imagem de um endpoint que esperamos estar funcionando corretamente.
+    ro_RO: Acest instrument intern este folosit ca un sandbox pe desktop în procesul nostru de integrare continuă pentru a face o captură de ecran a unui endpoint, sperăm, funcțional.
+    ru_RU: Этот внутренний инструмент используется в качестве песочницы на рабочем столе в нашем процессе непрерывной интеграции для получения скриншота, предположительно, работоспособной конечной точки.
+    sk_SK: Tento interný nástroj sa používa ako sandbox na pracovnej ploche v našom procese CI na získanie snímky obrazovky dúfajme, že funkčného koncového bodu.
+    sv_SE: Detta interna verktyg används som en sandlåda för skrivbordet i vår CI-process för att ta en skärmdump av en förhoppningsvis fungerande slutpunkt
+    tr_TR: Bu dahili araç, CI sürecimizde masaüstü sanal ortamı olarak kullanılarak, işlevsel olması umulan bir uç noktanın ekran görüntüsünü almak için kullanılır.
+    zh_TW: 此內部工具在 CI 流程中作為桌面沙盒使用，用於對預期正常執行的端點擷取螢幕截圖。
   tagline:
     en_US: This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
     zh_CN: 用于 CI 流程中截图验证的内部桌面沙盒。
+    ca_ES: Aquesta eina interna s'utilitza com a sandbox d'escriptori en el nostre procés de CI per fer una captura de pantalla d'un punt final, amb sort, funcional.
+    cs_CZ: Tento interní nástroj se používá jako desktopový sandbox v našem procesu CI k pořízení snímku obrazovky z doufejme funkčního endpointu.
+    da_DK: Dette interne værktøj bruges som en desktop-sandkasse i vores CI-proces til at tage et skærmbillede af et forhåbentlig funktionelt slutpunkt
+    de_DE: Dieses interne Tool dient in unserem CI-Prozess als Desktop-Sandbox, um einen Screenshot eines hoffentlich funktionsfähigen Endpunkts zu erstellen.
+    el_GR: Αυτό το εσωτερικό εργαλείο χρησιμοποιείται ως sandbox επιφάνειας εργασίας στη διαδικασία CI μας για να τραβήξει ένα στιγμιότυπο οθόνης ενός, ελπίζουμε, λειτουργικού τελικού σημείου.
+    en_GB: This internal tool is used as a desktop sandbox in our Ci process to grab a screenshot of a hopefully functional endpoint
+    es_ES: Esta herramienta interna se utiliza como un entorno aislado de escritorio en nuestro proceso de CI para capturar una captura de pantalla de un punto final que, con suerte, funcionará.
+    fr_FR: Cet outil interne est utilisé comme environnement de test de bureau dans notre processus d'intégration continue pour capturer une capture d'écran d'un point de terminaison qui, espérons-le, est fonctionnel.
+    ga_IE: Úsáidtear an uirlis inmheánach seo mar bhosca gainimh deisce inár bpróiseas CI chun scáileán a thógáil de chríochphointe feidhmiúil, tá súil againn.
+    hr_HR: Ovaj interni alat se koristi kao sandbox za desktop u našem CI procesu za snimanje zaslona nadamo se funkcionalne krajnje točke.
+    hu_HU: Ez a belső eszköz asztali tesztkörnyezetként szolgál a CI-folyamatunkban, hogy képernyőképet készítsen egy remélhetőleg működő végpontról.
+    it_IT: Questo strumento interno viene utilizzato come ambiente di test (sandbox) nel nostro processo di integrazione continua (CI) per acquisire uno screenshot di un endpoint che si spera funzioni correttamente.
+    ja_JP: この内部ツールは、CIプロセスにおいてデスクトップサンドボックスとして使用され、正常に機能するエンドポイントのスクリーンショットを取得します。
+    ko_KR: 이 내부 도구는 CI 프로세스에서 데스크톱 샌드박스로 사용되어 정상적으로 작동하는 엔드포인트의 스크린샷을 캡처하는 데 사용됩니다.
+    ml_IN: ഞങ്ങളുടെ CI പ്രക്രിയയിൽ, പ്രവർത്തനക്ഷമമായ ഒരു എൻഡ്‌പോയിന്റിന്റെ സ്‌ക്രീൻഷോട്ട് എടുക്കുന്നതിന് ഈ ആന്തരിക ഉപകരണം ഒരു ഡെസ്‌ക്‌ടോപ്പ് സാൻഡ്‌ബോക്‌സായി ഉപയോഗിക്കുന്നു.
+    nb_NO: Dette interne verktøyet brukes som en skrivebordssandkasse i vår CI-prosess for å ta et skjermbilde av et forhåpentligvis funksjonelt endepunkt
+    nl_NL: Deze interne tool wordt in ons CI-proces gebruikt als een desktop-sandbox om een screenshot te maken van een hopelijk functionerend eindpunt.
+    pl_PL: To wewnętrzne narzędzie służy jako piaskownica na pulpicie w naszym procesie CI do wykonywania zrzutów ekranu punktu końcowego, który – miejmy nadzieję – będzie funkcjonalny
+    pt_BR: Essa ferramenta interna é usada como um ambiente de teste (sandbox) em nosso processo de CI para capturar uma imagem de um endpoint que esperamos estar funcionando corretamente.
+    ro_RO: Acest instrument intern este folosit ca un sandbox pe desktop în procesul nostru de integrare continuă pentru a face o captură de ecran a unui endpoint, sperăm, funcțional.
+    ru_RU: Этот внутренний инструмент используется в качестве песочницы на рабочем столе в нашем процессе непрерывной интеграции для получения снимка экрана, предположительно, работоспособной конечной точки.
+    sk_SK: Tento interný nástroj sa používa ako sandbox na pracovnej ploche v našom procese CI na získanie snímky obrazovky dúfajme, že funkčného koncového bodu.
+    sv_SE: Detta interna verktyg används som en sandlåda för skrivbordet i vår CI-process för att ta en skärmdump av en förhoppningsvis fungerande slutpunkt
+    tr_TR: Bu dahili araç, CI sürecimizde masaüstü sanal ortamı olarak kullanılarak, işlevsel olması umulan bir uç noktanın ekran görüntüsünü almak için kullanılır.
+    zh_TW: 用於 CI 流程中截圖驗證的內部桌面沙盒。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://avatars3.githubusercontent.com/u/12324908?s=200&v=4
@@ -31,6 +81,31 @@ x-casaos:
   title:
     en_US: Tester
     zh_CN: Tester
+    ca_ES: Tester
+    cs_CZ: Tester
+    da_DK: Tester
+    de_DE: Tester
+    el_GR: Tester
+    en_GB: Tester
+    es_ES: Tester
+    fr_FR: Tester
+    ga_IE: Tester
+    hr_HR: Tester
+    hu_HU: Tester
+    it_IT: Tester
+    ja_JP: Tester
+    ko_KR: Tester
+    ml_IN: Tester
+    nb_NO: Tester
+    nl_NL: Tester
+    pl_PL: Tester
+    pt_BR: Tester
+    ro_RO: Tester
+    ru_RU: Tester
+    sk_SK: Tester
+    sv_SE: Tester
+    tr_TR: Tester
+    zh_TW: Tester
   category: Others
   id: wisdomsky.linuxserver.linuxservertester
   version: version-66f677b0

@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: FreeCAD is a general-purpose parametric 3D computer-aided design (CAD) modeler and a building information modeling (BIM) software application with finite element method (FEM) support.
+    ca_ES: FreeCAD és un modelador de disseny assistit per ordinador (CAD) 3D paramètric d'ús general i una aplicació de programari de modelatge d'informació d'edificis (BIM) amb suport per al mètode d'elements finits (FEM).
+    cs_CZ: FreeCAD je univerzální parametrický 3D počítačově podporovaný model (CAD) a softwarová aplikace pro informační modelování budov (BIM) s podporou metody konečných prvků (FEM).
+    da_DK: FreeCAD er en generel parametrisk 3D computerstøttet design (CAD) modelleringssoftware og en bygningsinformationsmodelleringssoftware (BIM) med understøttelse af finite element-metoden (FEM).
+    de_DE: FreeCAD ist ein universell einsetzbares parametrisches 3D-CAD-Modellierungsprogramm (Computer-Aided Design) und eine BIM-Softwareanwendung (Building Information Modeling) mit Unterstützung für die Finite-Elemente-Methode (FEM).
+    el_GR: Το FreeCAD είναι ένα γενικής χρήσης παραμετρικό τρισδιάστατο μοντέλο σχεδιασμού με τη βοήθεια υπολογιστή (CAD) και μια εφαρμογή λογισμικού μοντελοποίησης πληροφοριών κτιρίων (BIM) με υποστήριξη μεθόδου πεπερασμένων στοιχείων (FEM).
+    en_GB: Freecad is a general-purpose parametric 3D computer-aided design (Cad) modeler and a building information modelling (Bim) software application with finite element method (Fem) support.
+    es_ES: FreeCAD es un modelador de diseño asistido por ordenador (CAD) paramétrico 3D de propósito general y una aplicación de software de modelado de información de construcción (BIM) con soporte para el método de elementos finitos (FEM).
+    fr_FR: FreeCAD est un modeleur de conception assistée par ordinateur (CAO) paramétrique 3D à usage général et une application logicielle de modélisation des informations du bâtiment (BIM) avec prise en charge de la méthode des éléments finis (MEF).
+    ga_IE: Is samhaltóir dearaidh ríomhchuidithe (CAD) 3T paraiméadrach ilchuspóireach agus feidhmchlár bogearraí samhaltú faisnéise foirgníochta (BIM) é FreeCAD le tacaíocht don mhodh eilimintí críochta (FEM).
+    hr_HR: FreeCAD je opći parametarski 3D program za računalno potpomognuto projektiranje (CAD) i softverska aplikacija za modeliranje informacija o zgradama (BIM) s podrškom za metodu konačnih elemenata (FEM).
+    hu_HU: A FreeCAD egy általános célú parametrikus 3D-s számítógéppel segített tervező (CAD) modellező és épületinformáció-modellező (BIM) szoftveralkalmazás végeselemes módszer (FEM) támogatással.
+    it_IT: FreeCAD è un modellatore CAD (Computer-Aided Design) parametrico 3D di uso generale e un'applicazione software per la modellazione delle informazioni di costruzione (BIM) con supporto per il metodo degli elementi finiti (FEM).
+    ja_JP: FreeCADは、汎用的なパラメトリック3Dコンピュータ支援設計（CAD）モデラーであり、有限要素法（FEM）をサポートするビルディングインフォメーションモデリング（BIM）ソフトウェアアプリケーションです。
+    ko_KR: FreeCAD는 범용 파라메트릭 3D 컴퓨터 지원 설계(CAD) 모델러이자 유한 요소법(FEM)을 지원하는 빌딩 정보 모델링(BIM) 소프트웨어 애플리케이션입니다.
+    ml_IN: ഫ്രീകാഡ് എന്നത് ഒരു പൊതു-ഉദ്ദേശ്യ പാരാമെട്രിക് 3D കമ്പ്യൂട്ടർ-എയ്ഡഡ് ഡിസൈൻ (CAD) മോഡലറും ഫിനിറ്റ് എലമെന്റ് മെത്തേഡ് (FEM) പിന്തുണയുള്ള ഒരു ബിൽഡിംഗ് ഇൻഫർമേഷൻ മോഡലിംഗ് (BIM) സോഫ്റ്റ്‌വെയർ ആപ്ലിക്കേഷനുമാണ്.
+    nb_NO: FreeCAD er en generell parametrisk 3D dataassistert design (CAD) modellerer og et bygningsinformasjonsmodelleringsprogram (BIM) med støtte for endelige elementmetoden (FEM).
+    nl_NL: FreeCAD is een algemeen parametrisch 3D-computerondersteund ontwerpprogramma (CAD) en een softwaretoepassing voor bouwinformatiemodellering (BIM) met ondersteuning voor de eindige-elementenmethode (FEM).
+    pl_PL: FreeCAD to uniwersalny, parametryczny modeler 3D wspomagany komputerowo (CAD) i aplikacja do modelowania informacji o budynku (BIM) z obsługą metody elementów skończonych (MES).
+    pt_BR: O FreeCAD é um modelador CAD paramétrico 3D de uso geral e um aplicativo de software de modelagem de informações da construção (BIM) com suporte ao método de elementos finitos (MEF).
+    ro_RO: FreeCAD este un program de modelare CAD (proiectare asistată de calculator) 3D parametric de uz general și o aplicație software de modelare a informațiilor despre clădiri (BIM) cu suport pentru metoda elementelor finite (FEM).
+    ru_RU: FreeCAD — это универсальный параметрический 3D-редактор для автоматизированного проектирования (САПР) и программное обеспечение для информационного моделирования зданий (BIM) с поддержкой метода конечных элементов (МКЭ).
+    sk_SK: FreeCAD je univerzálny parametrický 3D počítačom podporovaný návrh (CAD) a softvérová aplikácia pre informačné modelovanie budov (BIM) s podporou metódy konečných prvkov (FEM).
+    sv_SE: FreeCAD är en generell parametrisk 3D-datorstödd design (CAD)-modellerare och en programvara för byggnadsinformationsmodellering (BIM) med stöd för finita elementmetoden (FEM).
+    tr_TR: FreeCAD, sonlu eleman yöntemi (FEM) desteğine sahip, genel amaçlı parametrik bir 3 boyutlu bilgisayar destekli tasarım (CAD) modelleme ve yapı bilgi modelleme (BIM) yazılım uygulamasıdır.
     zh_CN: FreeCAD 是通用的参数化三维计算机辅助设计（CAD）建模软件，同时提供建筑信息模型（BIM）功能并支持有限元方法（FEM）。
+    zh_TW: FreeCAD 是通用的引數化三維計算機輔助設計（CAD）建模軟體，同時提供建築資訊模型（BIM）功能並支援有限元方法（FEM）。
   tagline:
     en_US: A general-purpose parametric 3D computer-aided design (CAD) modeler and a building information modeling (BIM) software application with finite element method (FEM) support.
+    ca_ES: Un modelador de disseny assistit per ordinador (CAD) 3D paramètric d'ús general i una aplicació de programari de modelatge d'informació d'edificis (BIM) amb suport del mètode d'elements finits (FEM).
+    cs_CZ: Univerzální parametrický 3D modelovací program pro počítačem podporované navrhování (CAD) a softwarová aplikace pro informační modelování budov (BIM) s podporou metody konečných prvků (FEM).
+    da_DK: En generel parametrisk 3D computerstøttet design (CAD) modelleringsværktøj og en bygningsinformationsmodelleringssoftware (BIM) med understøttelse af finite element-metoden (FEM).
+    de_DE: Ein universell einsetzbarer parametrischer 3D-CAD-Modellierer (Computer-Aided Design) und eine BIM-Softwareanwendung (Building Information Modeling) mit Unterstützung für die Finite-Elemente-Methode (FEM).
+    el_GR: Ένα πρόγραμμα γενικής χρήσης για παραμετρικό τρισδιάστατο σχεδιασμό με τη βοήθεια υπολογιστή (CAD) και μια εφαρμογή λογισμικού για μοντελοποίηση πληροφοριών κτιρίων (BIM) με υποστήριξη της μεθόδου πεπερασμένων στοιχείων (FEM).
+    en_GB: A general-purpose parametric 3D computer-aided design (Cad) modeler and a building information modelling (Bim) software application with finite element method (Fem) support.
+    es_ES: Un modelador 3D paramétrico de diseño asistido por ordenador (CAD) de propósito general y una aplicación de software de modelado de información de construcción (BIM) con soporte para el método de elementos finitos (FEM).
+    fr_FR: Un modeleur paramétrique 3D à usage général pour la conception assistée par ordinateur (CAO) et une application logicielle de modélisation des informations du bâtiment (BIM) avec prise en charge de la méthode des éléments finis (MEF).
+    ga_IE: Samhaltóir deartha ríomhchuidithe (CAD) paraiméadrach 3T ilchuspóireach agus feidhmchlár bogearraí samhaltú faisnéise foirgníochta (BIM) le tacaíocht don mhodh eilimintí críochta (FEM).
+    hr_HR: Općenamjenski parametarski 3D računalno potpomognuto projektiranje (CAD) i softverska aplikacija za modeliranje informacija o zgradi (BIM) s podrškom za metodu konačnih elemenata (FEM).
+    hu_HU: Általános célú parametrikus 3D-s számítógéppel segített tervező (CAD) modellező és épületinformáció-modellező (BIM) szoftveralkalmazás végeselemes módszer (FEM) támogatással.
+    it_IT: Un modellatore CAD (Computer-Aided Design) parametrico 3D di uso generale e un'applicazione software per la modellazione delle informazioni di costruzione (BIM) con supporto per il metodo degli elementi finiti (FEM).
+    ja_JP: 汎用的なパラメトリック3Dコンピュータ支援設計（CAD）モデラーと、有限要素法（FEM）をサポートするビルディングインフォメーションモデリング（BIM）ソフトウェアアプリケーション。
+    ko_KR: 범용 파라메트릭 3D 컴퓨터 지원 설계(CAD) 모델러 및 유한 요소법(FEM)을 지원하는 빌딩 정보 모델링(BIM) 소프트웨어 애플리케이션입니다.
+    ml_IN: ഫിനിറ്റ് എലമെന്റ് മെത്തേഡ് (FEM) പിന്തുണയുള്ള ഒരു പൊതു-ഉദ്ദേശ്യ പാരാമെട്രിക് 3D കമ്പ്യൂട്ടർ-എയ്ഡഡ് ഡിസൈൻ (CAD) മോഡലറും ബിൽഡിംഗ് ഇൻഫർമേഷൻ മോഡലിംഗ് (BIM) സോഫ്റ്റ്‌വെയർ ആപ്ലിക്കേഷനും.
+    nb_NO: En generell parametrisk 3D-dataassistert konstruksjonsmodell (CAD) og et program for bygningsinformasjonsmodellering (BIM) med støtte for endelige elementmetoden (FEM).
+    nl_NL: Een algemeen parametrisch 3D-CAD-modelleerprogramma (computerondersteund ontwerp) en een BIM-softwaretoepassing (bouwinformatiemodellering) met ondersteuning voor de eindige-elementenmethode (FEM).
+    pl_PL: Uniwersalny, parametryczny model 3D wspomagany komputerowo (CAD) i aplikacja do modelowania informacji o budynku (BIM) z obsługą metody elementów skończonych (MES).
+    pt_BR: Um modelador CAD paramétrico 3D de uso geral e um aplicativo de software de modelagem de informações da construção (BIM) com suporte ao método de elementos finitos (MEF).
+    ro_RO: Un modelator CAD (proiectare asistată de calculator) 3D parametric de uz general și o aplicație software de modelare a informațiilor despre clădiri (BIM) cu suport pentru metoda elementelor finite (FEM).
+    ru_RU: Универсальная параметрическая 3D-модельер для автоматизированного проектирования (САПР) и программное обеспечение для информационного моделирования зданий (BIM) с поддержкой метода конечных элементов (МКЭ).
+    sk_SK: Univerzálny parametrický 3D počítačom podporovaný návrh (CAD) a softvérová aplikácia pre informačné modelovanie budov (BIM) s podporou metódy konečných prvkov (FEM).
+    sv_SE: En generell parametrisk 3D-datorstödd design (CAD)-modellerare och en programvara för byggnadsinformationsmodellering (BIM) med stöd för finita elementmetoden (FEM).
+    tr_TR: Sonlu Eleman Yöntemi (FEM) desteğine sahip, genel amaçlı parametrik 3 boyutlu bilgisayar destekli tasarım (CAD) modelleme yazılımı ve yapı bilgi modelleme (BIM) yazılım uygulaması.
     zh_CN: 支持参数化建模、BIM 和有限元分析的开源 CAD。
+    zh_TW: 支援引數化建模、BIM 和有限元分析的開源 CAD。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freecad-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freecad-logo.png
   title:
     en_US: Freecad (LinuxServer.io)
+    ca_ES: Freecad (LinuxServer.io)
+    cs_CZ: Freecad (LinuxServer.io)
+    da_DK: Freecad (LinuxServer.io)
+    de_DE: Freecad (LinuxServer.io)
+    el_GR: Freecad (LinuxServer.io)
+    en_GB: Freecad (LinuxServer.io)
+    es_ES: Freecad (LinuxServer.io)
+    fr_FR: Freecad (LinuxServer.io)
+    ga_IE: Freecad (LinuxServer.io)
+    hr_HR: Freecad (LinuxServer.io)
+    hu_HU: Freecad (LinuxServer.io)
+    it_IT: Freecad (LinuxServer.io)
+    ja_JP: Freecad (LinuxServer.io)
+    ko_KR: Freecad (LinuxServer.io)
+    ml_IN: Freecad (LinuxServer.io)
+    nb_NO: Freecad (LinuxServer.io)
+    nl_NL: Freecad (LinuxServer.io)
+    pl_PL: Freecad (LinuxServer.io)
+    pt_BR: Freecad (LinuxServer.io)
+    ro_RO: Freecad (LinuxServer.io)
+    ru_RU: Freecad (LinuxServer.io)
+    sk_SK: Freecad (LinuxServer.io)
+    sv_SE: Freecad (LinuxServer.io)
+    tr_TR: Freecad (LinuxServer.io)
     zh_CN: Freecad（LinuxServer.io）
+    zh_TW: Freecad（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverfreecad
   port_map: '3000'

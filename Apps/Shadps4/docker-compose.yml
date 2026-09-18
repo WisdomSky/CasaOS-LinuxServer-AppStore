@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
+    ca_ES: shadPS4 és un emulador de PlayStation 4 per a Windows, Linux i macOS escrit en C++.
+    cs_CZ: shadPS4 je raný emulátor PlayStation 4 pro Windows, Linux a macOS napsaný v C++.
+    da_DK: shadPS4 er en tidlig PlayStation 4-emulator til Windows, Linux og macOS skrevet i C++.
+    de_DE: shadPS4 ist ein früher PlayStation 4-Emulator für Windows, Linux und macOS, der in C++ geschrieben wurde.
+    el_GR: Το shadPS4 είναι ένας πρώιμος εξομοιωτής PlayStation 4 για Windows, Linux και macOS γραμμένος σε C++.
+    en_GB: shadPS4 is an early Playstation 4 emulator for Windows, Linux and macOS written in C++.
+    es_ES: shadPS4 es un emulador antiguo de PlayStation 4 para Windows, Linux y macOS escrito en C++.
+    fr_FR: shadPS4 est un émulateur PlayStation 4 primitif pour Windows, Linux et macOS, écrit en C++.
+    ga_IE: Is aithriseoir luath PlayStation 4 é shadPS4 do Windows, Linux agus macOS atá scríofa i C++.
+    hr_HR: shadPS4 je rani emulator PlayStationa 4 za Windows, Linux i macOS napisan u C++.
+    hu_HU: A shadPS4 egy korai PlayStation 4 emulátor Windowsra, Linuxra és macOS-re, C++ nyelven írva.
+    it_IT: shadPS4 è un emulatore di PlayStation 4 dei primi tempi, per Windows, Linux e macOS, scritto in C++.
+    ja_JP: shadPS4は、Windows、Linux、macOS向けにC++で書かれた初期のPlayStation 4エミュレータです。
+    ko_KR: shadPS4는 C++로 작성된 Windows, Linux 및 macOS용 초기 PlayStation 4 에뮬레이터입니다.
+    ml_IN: shadPS4 എന്നത് C++ ഭാഷയിൽ എഴുതിയ വിൻഡോസ്, ലിനക്സ്, മാകോസ് എന്നിവയ്‌ക്കായുള്ള ആദ്യകാല പ്ലേസ്റ്റേഷൻ 4 എമുലേറ്ററാണ്.
+    nb_NO: shadPS4 er en tidlig PlayStation 4-emulator for Windows, Linux og macOS skrevet i C++.
+    nl_NL: shadPS4 is een vroege PlayStation 4-emulator voor Windows, Linux en macOS, geschreven in C++.
+    pl_PL: shadPS4 to jeden z pierwszych emulatorów PlayStation 4 na systemy Windows, Linux i macOS napisany w języku C++.
+    pt_BR: shadPS4 é um emulador antigo de PlayStation 4 para Windows, Linux e macOS, escrito em C++.
+    ro_RO: shadPS4 este un emulator PlayStation 4 timpuriu pentru Windows, Linux și macOS, scris în C++.
+    ru_RU: shadPS4 — это ранний эмулятор PlayStation 4 для Windows, Linux и macOS, написанный на C++.
+    sk_SK: shadPS4 je skorý emulátor PlayStation 4 pre Windows, Linux a macOS napísaný v jazyku C++.
+    sv_SE: shadPS4 är en tidig PlayStation 4-emulator för Windows, Linux och macOS skriven i C++.
+    tr_TR: shadPS4, C++ ile yazılmış, Windows, Linux ve macOS için geliştirilmiş erken dönem bir PlayStation 4 emülatörüdür.
     zh_CN: shadPS4 是用 C++ 编写、处于早期开发阶段的 PlayStation 4 模拟器，支持 Windows、Linux 和 macOS。
+    zh_TW: shadPS4 是用 C++ 編寫、處於早期開發階段的 PlayStation 4 模擬器，支援 Windows、Linux 和 macOS。
   tagline:
     en_US: An early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
+    ca_ES: Un dels primers emuladors de PlayStation 4 per a Windows, Linux i macOS escrit en C++.
+    cs_CZ: Raný emulátor PlayStation 4 pro Windows, Linux a macOS napsaný v C++.
+    da_DK: En tidlig PlayStation 4-emulator til Windows, Linux og macOS skrevet i C++.
+    de_DE: Ein früher PlayStation 4-Emulator für Windows, Linux und macOS, geschrieben in C++.
+    el_GR: Ένας πρώιμος εξομοιωτής PlayStation 4 για Windows, Linux και macOS γραμμένος σε C++.
+    en_GB: An early Playstation 4 emulator for Windows, Linux and macOS written in C++.
+    es_ES: Un emulador antiguo de PlayStation 4 para Windows, Linux y macOS escrito en C++.
+    fr_FR: Un émulateur PlayStation 4 primitif pour Windows, Linux et macOS, écrit en C++.
+    ga_IE: Aithriseoir luath PlayStation 4 do Windows, Linux agus macOS scríofa i C++.
+    hr_HR: Rani emulator PlayStationa 4 za Windows, Linux i macOS napisan u C++.
+    hu_HU: Egy korai PlayStation 4 emulátor Windowsra, Linuxra és macOS-re, C++ nyelven írva.
+    it_IT: Un emulatore per PlayStation 4, risalente ai primi tempi, per Windows, Linux e macOS, scritto in C++.
+    ja_JP: C++で書かれた、Windows、Linux、macOS向けの初期のPlayStation 4エミュレータ。
+    ko_KR: C++로 작성된 Windows, Linux 및 macOS용 초기 PlayStation 4 에뮬레이터입니다.
+    ml_IN: C++ ൽ എഴുതിയ വിൻഡോസ്, ലിനക്സ്, മാകോസ് എന്നിവയ്‌ക്കായുള്ള ആദ്യകാല പ്ലേസ്റ്റേഷൻ 4 എമുലേറ്റർ.
+    nb_NO: En tidlig PlayStation 4-emulator for Windows, Linux og macOS skrevet i C++.
+    nl_NL: Een vroege PlayStation 4-emulator voor Windows, Linux en macOS, geschreven in C++.
+    pl_PL: Wczesny emulator PlayStation 4 dla systemów Windows, Linux i macOS napisany w języku C++.
+    pt_BR: Um dos primeiros emuladores de PlayStation 4 para Windows, Linux e macOS, escrito em C++.
+    ro_RO: Un emulator PlayStation 4 timpuriu pentru Windows, Linux și macOS scris în C++.
+    ru_RU: Ранний эмулятор PlayStation 4 для Windows, Linux и macOS, написанный на C++.
+    sk_SK: Skorý emulátor PlayStation 4 pre Windows, Linux a macOS napísaný v jazyku C++.
+    sv_SE: En tidig PlayStation 4-emulator för Windows, Linux och macOS skriven i C++.
+    tr_TR: Windows, Linux ve macOS için C++ ile yazılmış ilk PlayStation 4 emülatörlerinden biri.
     zh_CN: 处于早期开发阶段的 PlayStation 4 模拟器。
+    zh_TW: 處於早期開發階段的 PlayStation 4 模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png
   title:
     en_US: Shadps4 (LinuxServer.io)
+    ca_ES: Shadps4 (LinuxServer.io)
+    cs_CZ: Shadps4 (LinuxServer.io)
+    da_DK: Shadps4 (LinuxServer.io)
+    de_DE: Shadps4 (LinuxServer.io)
+    el_GR: Shadps4 (LinuxServer.io)
+    en_GB: Shadps4 (LinuxServer.io)
+    es_ES: Shadps4 (LinuxServer.io)
+    fr_FR: Shadps4 (LinuxServer.io)
+    ga_IE: Shadps4 (LinuxServer.io)
+    hr_HR: Shadps4 (LinuxServer.io)
+    hu_HU: Shadps4 (LinuxServer.io)
+    it_IT: Shadps4 (LinuxServer.io)
+    ja_JP: Shadps4 (LinuxServer.io)
+    ko_KR: Shadps4 (LinuxServer.io)
+    ml_IN: Shadps4 (LinuxServer.io)
+    nb_NO: Shadps4 (LinuxServer.io)
+    nl_NL: Shadps4 (LinuxServer.io)
+    pl_PL: Shadps4 (LinuxServer.io)
+    pt_BR: Shadps4 (LinuxServer.io)
+    ro_RO: Shadps4 (LinuxServer.io)
+    ru_RU: Shadps4 (LinuxServer.io)
+    sk_SK: Shadps4 (LinuxServer.io)
+    sv_SE: Shadps4 (LinuxServer.io)
+    tr_TR: Shadps4 (LinuxServer.io)
     zh_CN: Shadps4（LinuxServer.io）
+    zh_TW: Shadps4（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservershadps4
   port_map: '3000'

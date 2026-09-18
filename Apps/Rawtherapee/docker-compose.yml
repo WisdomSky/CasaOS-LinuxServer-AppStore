@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: RawTherapee is a free, cross-platform raw image processing program!
+    ca_ES: RawTherapee és un programa de processament d'imatges en format RAW gratuït i multiplataforma!
+    cs_CZ: RawTherapee je bezplatný multiplatformní program pro zpracování RAW obrázků!
+    da_DK: RawTherapee er et gratis, tværplatformigt program til behandling af rå billeder!
+    de_DE: RawTherapee ist ein kostenloses, plattformübergreifendes Programm zur Rohbildverarbeitung!
+    el_GR: Το RawTherapee είναι ένα δωρεάν, διαπλατφορμικό πρόγραμμα επεξεργασίας ακατέργαστων εικόνων!
+    en_GB: Rawtherapee is a free, cross-platform raw image processing program!
+    es_ES: RawTherapee es un programa gratuito y multiplataforma para el procesamiento de imágenes en formato RAW.
+    fr_FR: RawTherapee est un programme de traitement d'images brutes gratuit et multiplateforme !
+    ga_IE: Is clár próiseála íomhá amh tras-ardáin saor in aisce é RawTherapee!
+    hr_HR: RawTherapee je besplatan, višeplatformski program za obradu RAW slika!
+    hu_HU: A RawTherapee egy ingyenes, több platformon futó nyers képfeldolgozó program!
+    it_IT: RawTherapee è un programma gratuito e multipiattaforma per l'elaborazione di immagini RAW!
+    ja_JP: RawTherapeeは、無料のクロスプラットフォーム対応RAW画像処理プログラムです！
+    ko_KR: RawTherapee는 무료로 이용 가능한 크로스 플랫폼 RAW 이미지 처리 프로그램입니다!
+    ml_IN: RawTherapee ഒരു സൌജന്യ, ക്രോസ്-പ്ലാറ്റ്ഫോം റോ ഇമേജ് പ്രോസസ്സിംഗ് പ്രോഗ്രാമാണ്!
+    nb_NO: RawTherapee er et gratis, plattformuavhengig RAW-bildebehandlingsprogram!
+    nl_NL: RawTherapee is een gratis, platformonafhankelijk programma voor de bewerking van RAW-afbeeldingen!
+    pl_PL: RawTherapee to darmowy, wieloplatformowy program do przetwarzania obrazów w formacie RAW!
+    pt_BR: RawTherapee é um programa gratuito e multiplataforma para processamento de imagens RAW!
+    ro_RO: RawTherapee este un program gratuit și multiplatformă de procesare a imaginilor RAW!
+    ru_RU: RawTherapee — это бесплатная кроссплатформенная программа для обработки RAW-изображений!
+    sk_SK: RawTherapee je bezplatný multiplatformový program na spracovanie RAW obrázkov!
+    sv_SE: RawTherapee är ett gratis, plattformsoberoende program för hantering av råbilder!
+    tr_TR: RawTherapee, ücretsiz ve platformlar arası bir RAW görüntü işleme programıdır!
     zh_CN: RawTherapee 是一款免费的跨平台 RAW 图像处理软件。
+    zh_TW: RawTherapee 是一款免費的跨平臺 RAW 影象處理軟體。
   tagline:
     en_US: A free, cross-platform raw image processing program.
+    ca_ES: Un programa de processament d'imatges en format RAW gratuït i multiplataforma.
+    cs_CZ: Bezplatný multiplatformní program pro zpracování RAW obrázků.
+    da_DK: Et gratis program til behandling af rå billeder på tværs af platforme.
+    de_DE: Ein kostenloses, plattformübergreifendes Programm zur Rohbildverarbeitung.
+    el_GR: Ένα δωρεάν, διαπλατφορμικό πρόγραμμα επεξεργασίας ακατέργαστων εικόνων.
+    en_GB: A free, cross-platform raw image processing program.
+    es_ES: Un programa gratuito y multiplataforma para el procesamiento de imágenes en formato RAW.
+    fr_FR: Un logiciel gratuit de traitement d'images brutes multiplateforme.
+    ga_IE: Clár próiseála íomhá amh tras-ardáin saor in aisce.
+    hr_HR: Besplatni program za obradu RAW slika, koji funkcionira na više platformi.
+    hu_HU: Egy ingyenes, több platformon is használható nyers képfeldolgozó program.
+    it_IT: Un programma gratuito e multipiattaforma per l'elaborazione di immagini RAW.
+    ja_JP: 無料で、複数のプラットフォームに対応したRAW画像処理プログラム。
+    ko_KR: 무료로 이용 가능한 크로스 플랫폼 RAW 이미지 처리 프로그램입니다.
+    ml_IN: ഒരു സൗജന്യ, ക്രോസ്-പ്ലാറ്റ്‌ഫോം റോ ഇമേജ് പ്രോസസ്സിംഗ് പ്രോഗ്രാം.
+    nb_NO: Et gratis, plattformuavhengig program for behandling av råbilder.
+    nl_NL: Een gratis, platformonafhankelijk programma voor de bewerking van RAW-afbeeldingen.
+    pl_PL: Bezpłatny, wieloplatformowy program do przetwarzania obrazów RAW.
+    pt_BR: Um programa gratuito e multiplataforma para processamento de imagens RAW.
+    ro_RO: Un program gratuit și multiplatformă de procesare a imaginilor RAW.
+    ru_RU: Бесплатная кроссплатформенная программа для обработки необработанных изображений.
+    sk_SK: Bezplatný multiplatformový program na spracovanie RAW obrázkov.
+    sv_SE: Ett gratis, plattformsoberoende program för bearbetning av råbilder.
+    tr_TR: Ücretsiz, platformlar arası ham görüntü işleme programı.
     zh_CN: 免费的跨平台 RAW 图像处理软件。
+    zh_TW: 免費的跨平臺 RAW 影象處理軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rawtherapee-logo.png
   title:
     en_US: Rawtherapee (LinuxServer.io)
+    ca_ES: Rawtherapee (LinuxServer.io)
+    cs_CZ: Rawtherapee (LinuxServer.io)
+    da_DK: Rawtherapee (LinuxServer.io)
+    de_DE: Rawtherapee (LinuxServer.io)
+    el_GR: Rawtherapee (LinuxServer.io)
+    en_GB: Rawtherapee (LinuxServer.io)
+    es_ES: Rawtherapee (LinuxServer.io)
+    fr_FR: Rawtherapee (LinuxServer.io)
+    ga_IE: Rawtherapee (LinuxServer.io)
+    hr_HR: Rawtherapee (LinuxServer.io)
+    hu_HU: Rawtherapee (LinuxServer.io)
+    it_IT: Rawtherapee (LinuxServer.io)
+    ja_JP: Rawtherapee (LinuxServer.io)
+    ko_KR: Rawtherapee (LinuxServer.io)
+    ml_IN: Rawtherapee (LinuxServer.io)
+    nb_NO: Rawtherapee (LinuxServer.io)
+    nl_NL: Rawtherapee (LinuxServer.io)
+    pl_PL: Rawtherapee (LinuxServer.io)
+    pt_BR: Rawtherapee (LinuxServer.io)
+    ro_RO: Rawtherapee (LinuxServer.io)
+    ru_RU: Rawtherapee (LinuxServer.io)
+    sk_SK: Rawtherapee (LinuxServer.io)
+    sv_SE: Rawtherapee (LinuxServer.io)
+    tr_TR: Rawtherapee (LinuxServer.io)
     zh_CN: Rawtherapee（LinuxServer.io）
+    zh_TW: Rawtherapee（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverrawtherapee
   port_map: '3000'

@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
+    ca_ES: GZDoom és un port centrat en les funcions de tots els jocs del motor Doom, basat en ZDoom, que afegeix un renderitzador OpenGL i potents capacitats de scripting.
+    cs_CZ: GZDoom je port zaměřený na funkce pro všechny hry s enginem Doom, založený na ZDoomu, který přidává OpenGL renderer a výkonné skriptovací schopnosti.
+    da_DK: GZDoom er en funktionscentreret port til alle Doom-spil, baseret på ZDoom, med en OpenGL-renderer og kraftfulde scriptfunktioner.
+    de_DE: GZDoom ist eine funktionsorientierte Portierung für alle Doom-Engine-Spiele, basierend auf ZDoom, die einen OpenGL-Renderer und leistungsstarke Skripting-Funktionen hinzufügt.
+    el_GR: Το GZDoom είναι μια port με επίκεντρο τις λειτουργίες για όλα τα παιχνίδια Doom engine, βασισμένη στο ZDoom, προσθέτοντας ένα renderer OpenGL και ισχυρές δυνατότητες scripting.
+    en_GB: Gzdoom is a feature centric port for all Doom engine games, based on Zdoom, adding an Opengl renderer and powerful scripting capabilities.
+    es_ES: GZDoom es una versión optimizada para todos los juegos con motor Doom, basada en ZDoom, que añade un renderizador OpenGL y potentes capacidades de scripting.
+    fr_FR: GZDoom est un portage axé sur les fonctionnalités pour tous les jeux utilisant le moteur Doom, basé sur ZDoom, ajoutant un moteur de rendu OpenGL et de puissantes capacités de script.
+    ga_IE: Is port dírithe ar ghnéithe é GZDoom do gach cluiche inneall Doom, bunaithe ar ZDoom, ag cur rindreálaí OpenGL agus cumais scriptithe chumhachtacha leis.
+    hr_HR: GZDoom je port usmjeren na značajke za sve Doom engine igre, baziran na ZDoomu, dodajući OpenGL renderer i moćne mogućnosti skriptiranja.
+    hu_HU: A GZDoom egy funkcióközpontú port az összes Doom motoros játékhoz, ZDoom alapokon, OpenGL renderelőt és hatékony szkriptelési képességeket adva hozzá.
+    it_IT: GZDoom è una versione ottimizzata per tutte le funzionalità dei giochi basati sul motore Doom, derivata da ZDoom, che aggiunge un renderer OpenGL e potenti capacità di scripting.
+    ja_JP: GZDoomは、ZDoomをベースに、OpenGLレンダラーと強力なスクリプト機能を追加した、すべてのDoomエンジンゲーム向けの機能重視の移植版です。
+    ko_KR: GZDoom은 ZDoom을 기반으로 모든 Doom 엔진 게임을 위한 기능 중심의 포팅 버전으로, OpenGL 렌더러와 강력한 스크립팅 기능을 추가했습니다.
+    ml_IN: എല്ലാ ഡൂം എഞ്ചിൻ ഗെയിമുകൾക്കുമുള്ള ഒരു ഫീച്ചർ സെൻട്രിക് പോർട്ടാണ് GZDoom, ZDoom അടിസ്ഥാനമാക്കിയുള്ളതാണ്, ഒരു OpenGL റെൻഡററും ശക്തമായ സ്ക്രിപ്റ്റിംഗ് കഴിവുകളും ചേർക്കുന്നു.
+    nb_NO: GZDoom er en funksjonssentrert portering for alle Doom-motorspill, basert på ZDoom, med en OpenGL-renderer og kraftige skriptfunksjoner.
+    nl_NL: GZDoom is een op functionaliteit gerichte port voor alle Doom-engine games, gebaseerd op ZDoom, met een toegevoegde OpenGL-renderer en krachtige scriptmogelijkheden.
+    pl_PL: GZDoom to skoncentrowany na funkcjach port wszystkich gier na silniku Doom, bazujący na ZDoom, dodający renderer OpenGL i zaawansowane możliwości skryptowania.
+    pt_BR: GZDoom é uma adaptação focada em recursos para todos os jogos com o motor Doom, baseada no ZDoom, adicionando um renderizador OpenGL e poderosas capacidades de script.
+    ro_RO: GZDoom este un port centrat pe caracteristici pentru toate jocurile cu motor Doom, bazat pe ZDoom, adăugând un renderer OpenGL și capacități puternice de scripting.
+    ru_RU: GZDoom — это ориентированный на расширенные возможности порт всех игр на движке Doom, основанный на ZDoom, с добавлением рендерера OpenGL и мощных возможностей для написания скриптов.
+    sk_SK: GZDoom je port zameraný na funkcie pre všetky hry s enginom Doom, založený na ZDoom, ktorý pridáva OpenGL renderer a výkonné skriptovacie možnosti.
+    sv_SE: GZDoom är en funktionscentrerad portning för alla Doom-spel, baserad på ZDoom, med en OpenGL-renderer och kraftfulla skriptfunktioner.
+    tr_TR: GZDoom, ZDoom tabanlı, OpenGL işleyici ve güçlü betik yazma yetenekleri eklenmiş, tüm Doom motoru oyunları için özellik odaklı bir porttur.
     zh_CN: GZDoom 是基于 ZDoom、面向 Doom 引擎游戏的功能丰富的移植版本，加入了 OpenGL 渲染器和强大的脚本功能。
+    zh_TW: GZDoom 是基於 ZDoom、面向 Doom 引擎遊戲的功能豐富的移植版本，加入了 OpenGL 渲染器和強大的指令碼功能。
   tagline:
     en_US: A feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
+    ca_ES: Un port centrat en les funcions de tots els jocs amb motor Doom, basat en ZDoom, que afegeix un renderitzador OpenGL i potents capacitats de scripting.
+    cs_CZ: Port zaměřený na funkce pro všechny hry s enginem Doom, založený na ZDoom, s přidáním rendereru OpenGL a výkonných skriptovacích možností.
+    da_DK: En funktionscentreret port til alle Doom-spil, baseret på ZDoom, med tilføjelse af en OpenGL-renderer og kraftfulde scriptfunktioner.
+    de_DE: Eine funktionsorientierte Portierung für alle Doom-Engine-Spiele, basierend auf ZDoom, mit einem OpenGL-Renderer und leistungsstarken Skripting-Funktionen.
+    el_GR: Μια port με επίκεντρο τα χαρακτηριστικά για όλα τα παιχνίδια Doom engine, βασισμένη στο ZDoom, προσθέτοντας ένα renderer OpenGL και ισχυρές δυνατότητες scripting.
+    en_GB: A feature centric port for all Doom engine games, based on Zdoom, adding an Opengl renderer and powerful scripting capabilities.
+    es_ES: Una versión optimizada para todos los juegos con motor Doom, basada en ZDoom, que añade un renderizador OpenGL y potentes capacidades de scripting.
+    fr_FR: Un portage axé sur les fonctionnalités pour tous les jeux équipés du moteur Doom, basé sur ZDoom, ajoutant un moteur de rendu OpenGL et de puissantes capacités de script.
+    ga_IE: Port dírithe ar ghnéithe do gach cluiche inneall Doom, bunaithe ar ZDoom, ag cur rindreálaí OpenGL agus cumais scriptithe chumhachtacha leis.
+    hr_HR: Port usmjeren na značajke za sve Doom engine igre, baziran na ZDoomu, dodaje OpenGL renderer i moćne mogućnosti skriptiranja.
+    hu_HU: Egy funkcióközpontú port az összes Doom motoros játékhoz, ZDoom alapokon, OpenGL renderelővel és hatékony szkriptelési képességekkel.
+    it_IT: Una versione ottimizzata per tutte le funzionalità dei giochi basati sul motore Doom, derivata da ZDoom, che aggiunge un renderer OpenGL e potenti capacità di scripting.
+    ja_JP: ZDoomをベースに、OpenGLレンダラーと強力なスクリプト機能を追加した、Doomエンジン搭載ゲーム全作品向けの機能重視の移植版。
+    ko_KR: ZDoom을 기반으로 모든 둠 엔진 게임을 위한 기능 중심의 포팅 버전으로, OpenGL 렌더러와 강력한 스크립팅 기능을 추가했습니다.
+    ml_IN: എല്ലാ ഡൂം എഞ്ചിൻ ഗെയിമുകൾക്കുമായി ZDoom അടിസ്ഥാനമാക്കിയുള്ള ഒരു ഫീച്ചർ സെൻട്രിക് പോർട്ട്, ഒരു OpenGL റെൻഡററും ശക്തമായ സ്ക്രിപ്റ്റിംഗ് കഴിവുകളും ചേർക്കുന്നു.
+    nb_NO: En funksjonssentrert portering for alle Doom-motorspill, basert på ZDoom, med en OpenGL-renderer og kraftige skriptfunksjoner.
+    nl_NL: Een op functionaliteit gerichte port voor alle Doom-engine games, gebaseerd op ZDoom, met een OpenGL-renderer en krachtige scriptmogelijkheden.
+    pl_PL: Skoncentrowany na funkcjach port wszystkich gier na silniku Doom, bazujący na ZDoom, dodający renderer OpenGL i zaawansowane możliwości tworzenia skryptów.
+    pt_BR: Uma versão otimizada para todos os jogos com o motor Doom, baseada no ZDoom, que adiciona um renderizador OpenGL e poderosos recursos de script.
+    ro_RO: Un port centrat pe caracteristici pentru toate jocurile cu motor Doom, bazat pe ZDoom, adăugând un renderer OpenGL și capacități puternice de scripting.
+    ru_RU: Функционально-ориентированная версия всех игр на движке Doom, основанная на ZDoom, с добавлением рендерера OpenGL и мощных возможностей для написания скриптов.
+    sk_SK: Port zameraný na funkcie pre všetky hry s enginom Doom, založený na ZDoom, s pridaním OpenGL rendereru a výkonných skriptovacích funkcií.
+    sv_SE: En funktionscentrerad port för alla Doom-spel med spelmotor, baserad på ZDoom, med en OpenGL-renderer och kraftfulla skriptfunktioner.
+    tr_TR: ZDoom tabanlı, OpenGL işleyici ve güçlü betik yazma yetenekleri ekleyen, tüm Doom oyun motoru için özellik odaklı bir port.
     zh_CN: 支持 OpenGL 和强大脚本功能的 Doom 引擎移植版。
+    zh_TW: 支援 OpenGL 和強大指令碼功能的 Doom 引擎移植版。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gzdoom-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gzdoom-logo.png
   title:
     en_US: Gzdoom (LinuxServer.io)
+    ca_ES: Gzdoom (LinuxServer.io)
+    cs_CZ: Gzdoom (LinuxServer.io)
+    da_DK: Gzdoom (LinuxServer.io)
+    de_DE: Gzdoom (LinuxServer.io)
+    el_GR: Gzdoom (LinuxServer.io)
+    en_GB: Gzdoom (LinuxServer.io)
+    es_ES: Gzdoom (LinuxServer.io)
+    fr_FR: Gzdoom (LinuxServer.io)
+    ga_IE: Gzdoom (LinuxServer.io)
+    hr_HR: Gzdoom (LinuxServer.io)
+    hu_HU: Gzdoom (LinuxServer.io)
+    it_IT: Gzdoom (LinuxServer.io)
+    ja_JP: Gzdoom (LinuxServer.io)
+    ko_KR: Gzdoom (LinuxServer.io)
+    ml_IN: Gzdoom (LinuxServer.io)
+    nb_NO: Gzdoom (LinuxServer.io)
+    nl_NL: Gzdoom (LinuxServer.io)
+    pl_PL: Gzdoom (LinuxServer.io)
+    pt_BR: Gzdoom (LinuxServer.io)
+    ro_RO: Gzdoom (LinuxServer.io)
+    ru_RU: Gzdoom (LinuxServer.io)
+    sk_SK: Gzdoom (LinuxServer.io)
+    sv_SE: Gzdoom (LinuxServer.io)
+    tr_TR: Gzdoom (LinuxServer.io)
     zh_CN: Gzdoom（LinuxServer.io）
+    zh_TW: Gzdoom（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergzdoom
   port_map: '3000'

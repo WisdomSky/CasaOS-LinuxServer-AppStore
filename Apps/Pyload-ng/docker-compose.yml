@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    ca_ES: pyLoad és un gestor de descàrregues gratuït i de codi obert escrit en Python i dissenyat per ser extremadament lleuger, fàcilment extensible i totalment gestionable via web.
+    cs_CZ: pyLoad je bezplatný a open source stahovací manažer napsaný v Pythonu, navržený tak, aby byl extrémně lehký, snadno rozšiřitelný a plně spravovatelný přes web.
+    da_DK: pyLoad er en gratis og open source download manager skrevet i Python og designet til at være ekstremt let, let udvidelig og fuldt håndterbar via web.
+    de_DE: pyLoad ist ein kostenloser und quelloffener Download-Manager, der in Python geschrieben ist und extrem ressourcenschonend, leicht erweiterbar und vollständig über das Web verwaltbar ist.
+    el_GR: Το pyLoad είναι ένας δωρεάν και ανοιχτού κώδικα διαχειριστής λήψεων γραμμένος σε Python και σχεδιασμένος να είναι εξαιρετικά ελαφρύς, εύκολα επεκτάσιμος και πλήρως διαχειρίσιμος μέσω διαδικτύου.
+    en_GB: pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    es_ES: pyLoad es un gestor de descargas gratuito y de código abierto escrito en Python y diseñado para ser extremadamente ligero, fácilmente extensible y totalmente gestionable a través de la web.
+    fr_FR: pyLoad est un gestionnaire de téléchargements libre et open source écrit en Python et conçu pour être extrêmement léger, facilement extensible et entièrement gérable via le web.
+    ga_IE: Is bainisteoir íoslódála Saor in Aisce agus Foinse Oscailte é pyLoad atá scríofa i Python agus atá deartha le bheith thar a bheith éadrom, furasta a leathnú agus go hiomlán inbhainistithe tríd an ngréasán.
+    hr_HR: pyLoad je besplatni program za preuzimanje otvorenog koda napisan u Pythonu i dizajniran da bude izuzetno lagan, lako proširiv i u potpunosti upravljiv putem weba.
+    hu_HU: A pyLoad egy ingyenes és nyílt forráskódú letöltéskezelő, amely Pythonban íródott, és rendkívül könnyű, könnyen bővíthető és weben keresztül teljes mértékben kezelhető.
+    it_IT: pyLoad è un gestore di download gratuito e open source scritto in Python, progettato per essere estremamente leggero, facilmente estensibile e completamente gestibile via web.
+    ja_JP: pyLoadは、Pythonで書かれた無料のオープンソースのダウンロードマネージャーで、非常に軽量で拡張しやすく、Web経由で完全に管理できるように設計されています。
+    ko_KR: pyLoad는 파이썬으로 작성된 무료 오픈 소스 다운로드 관리자로, 매우 가볍고 확장성이 뛰어나며 웹을 통해 완벽하게 관리할 수 있도록 설계되었습니다.
+    ml_IN: പൈത്തണിൽ എഴുതിയതും വളരെ ഭാരം കുറഞ്ഞതും എളുപ്പത്തിൽ വികസിപ്പിക്കാവുന്നതും വെബ് വഴി പൂർണ്ണമായും കൈകാര്യം ചെയ്യാവുന്നതുമായ ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ഡൗൺലോഡ് മാനേജറുമാണ് പൈലോഡ്.
+    nb_NO: pyLoad er en gratis og åpen kildekode-nedlastingsbehandler skrevet i Python og designet for å være ekstremt lett, enkelt utvidbar og fullt administrerbar via nettet.
+    nl_NL: pyLoad is een gratis en open source downloadmanager, geschreven in Python en ontworpen om extreem lichtgewicht, gemakkelijk uitbreidbaar en volledig via het web te beheren te zijn.
+    pl_PL: pyLoad to darmowy i otwarty menedżer pobierania plików napisany w Pythonie, zaprojektowany tak, aby był niezwykle lekki, łatwy do rozszerzenia i w pełni zarządzalny z poziomu przeglądarki internetowej.
+    pt_BR: O pyLoad é um gerenciador de downloads gratuito e de código aberto, escrito em Python e projetado para ser extremamente leve, facilmente extensível e totalmente gerenciável via web.
+    ro_RO: pyLoad este un manager de descărcări gratuit și open source, scris în Python și conceput pentru a fi extrem de ușor, ușor extensibil și complet gestionabil prin web.
+    ru_RU: pyLoad — это бесплатный менеджер загрузок с открытым исходным кодом, написанный на Python и разработанный таким образом, чтобы быть чрезвычайно лёгким, легко расширяемым и полностью управляемым через веб-интерфейс.
+    sk_SK: pyLoad je bezplatný a open source správca sťahovania napísaný v jazyku Python a navrhnutý tak, aby bol extrémne ľahký, ľahko rozšíriteľný a plne spravovateľný cez web.
+    sv_SE: pyLoad är en fri och öppen källkodsbaserad nedladdningshanterare skriven i Python och designad för att vara extremt lätt, enkelt utbyggbar och fullt hanterbar via webben.
+    tr_TR: pyLoad, Python ile yazılmış, son derece hafif, kolayca genişletilebilir ve web üzerinden tamamen yönetilebilir şekilde tasarlanmış, ücretsiz ve açık kaynaklı bir indirme yöneticisidir.
     zh_CN: pyLoad 是用 Python 编写的免费开源下载管理器，设计目标是极低的资源占用、易于扩展，以及完全通过网页管理。
+    zh_TW: pyLoad 是用 Python 編寫的免費開源下載管理器，設計目標是極低的資源佔用、易於擴充套件，以及完全透過網頁管理。
   tagline:
     en_US: A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    ca_ES: Un gestor de descàrregues gratuït i de codi obert escrit en Python i dissenyat per ser extremadament lleuger, fàcilment extensible i totalment gestionable via web.
+    cs_CZ: Bezplatný a open source stahovací manažer napsaný v Pythonu, navržený tak, aby byl extrémně lehký, snadno rozšiřitelný a plně spravovatelný přes web.
+    da_DK: En gratis og open source download manager skrevet i Python og designet til at være ekstremt let, let udvidelig og fuldt håndterbar via web.
+    de_DE: Ein kostenloser und quelloffener Download-Manager, geschrieben in Python und so konzipiert, dass er extrem ressourcenschonend, leicht erweiterbar und vollständig über das Web verwaltbar ist.
+    el_GR: Ένας δωρεάν και ανοιχτού κώδικα διαχειριστής λήψεων γραμμένος σε Python και σχεδιασμένος να είναι εξαιρετικά ελαφρύς, εύκολα επεκτάσιμος και πλήρως διαχειρίσιμος μέσω διαδικτύου.
+    en_GB: A Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
+    es_ES: Un gestor de descargas gratuito y de código abierto escrito en Python y diseñado para ser extremadamente ligero, fácilmente extensible y totalmente gestionable a través de la web.
+    fr_FR: Un gestionnaire de téléchargements libre et open source écrit en Python et conçu pour être extrêmement léger, facilement extensible et entièrement gérable via le web.
+    ga_IE: Bainisteoir íoslódála Saor in Aisce agus Foinse Oscailte atá scríofa i Python agus deartha le bheith thar a bheith éadrom, furasta a leathnú agus go hiomlán inbhainistithe tríd an ngréasán.
+    hr_HR: Besplatni program za preuzimanje otvorenog koda napisan u Pythonu i dizajniran da bude izuzetno lagan, lako proširiv i u potpunosti upravljiv putem weba.
+    hu_HU: Egy ingyenes és nyílt forráskódú letöltéskezelő, amely Pythonban íródott, és rendkívül könnyű, könnyen bővíthető és weben keresztül teljes mértékben kezelhető.
+    it_IT: Un gestore di download libero e open source scritto in Python, progettato per essere estremamente leggero, facilmente estendibile e completamente gestibile via web.
+    ja_JP: Pythonで記述された、無料かつオープンソースのダウンロードマネージャー。極めて軽量で、拡張性が高く、Web経由で完全に管理できるように設計されています。
+    ko_KR: 파이썬으로 작성된 무료 오픈 소스 다운로드 관리자로, 매우 가볍고 확장성이 뛰어나며 웹을 통해 완벽하게 관리할 수 있도록 설계되었습니다.
+    ml_IN: പൈത്തണിൽ എഴുതിയതും വളരെ ഭാരം കുറഞ്ഞതും എളുപ്പത്തിൽ വികസിപ്പിക്കാവുന്നതും വെബ് വഴി പൂർണ്ണമായും കൈകാര്യം ചെയ്യാവുന്നതുമായ രീതിയിൽ രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് ഡൗൺലോഡ് മാനേജർ.
+    nb_NO: En gratis og åpen kildekode-nedlastingsbehandler skrevet i Python og designet for å være ekstremt lett, enkelt utvidbar og fullt administrerbar via nettet.
+    nl_NL: Een gratis en open source downloadmanager, geschreven in Python en ontworpen om extreem lichtgewicht, gemakkelijk uitbreidbaar en volledig via het web te beheren te zijn.
+    pl_PL: Bezpłatny i otwarty menedżer pobierania plików napisany w Pythonie, zaprojektowany tak, aby był niezwykle lekki, łatwy do rozszerzenia i w pełni zarządzalny przez sieć.
+    pt_BR: Um gerenciador de downloads gratuito e de código aberto, escrito em Python e projetado para ser extremamente leve, facilmente extensível e totalmente gerenciável via web.
+    ro_RO: Un manager de descărcări gratuit și open source, scris în Python și conceput pentru a fi extrem de ușor, ușor extensibil și complet gestionabil prin web.
+    ru_RU: Бесплатный менеджер загрузок с открытым исходным кодом, написанный на Python и разработанный таким образом, чтобы быть чрезвычайно легким, легко расширяемым и полностью управляемым через веб-интерфейс.
+    sk_SK: Bezplatný a open source správca sťahovania napísaný v jazyku Python a navrhnutý tak, aby bol extrémne ľahký, ľahko rozšíriteľný a plne spravovateľný cez web.
+    sv_SE: En fri och öppen källkodsbaserad nedladdningshanterare skriven i Python och designad för att vara extremt lätt, enkelt utbyggbar och fullt hanterbar via webben.
+    tr_TR: Python ile yazılmış, son derece hafif, kolayca genişletilebilir ve web üzerinden tamamen yönetilebilir şekilde tasarlanmış, ücretsiz ve açık kaynaklı bir indirme yöneticisi.
     zh_CN: 轻量、可扩展的网页下载管理器。
+    zh_TW: 輕量、可擴充套件的網頁下載管理器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png
   title:
     en_US: Pyload ng (LinuxServer.io)
+    ca_ES: Pyload ng (LinuxServer.io)
+    cs_CZ: Pyload ng (LinuxServer.io)
+    da_DK: Pyload ng (LinuxServer.io)
+    de_DE: Pyload ng (LinuxServer.io)
+    el_GR: Pyload ng (LinuxServer.io)
+    en_GB: Pyload ng (LinuxServer.io)
+    es_ES: Pyload ng (LinuxServer.io)
+    fr_FR: Pyload ng (LinuxServer.io)
+    ga_IE: Pyload ng (LinuxServer.io)
+    hr_HR: Pyload ng (LinuxServer.io)
+    hu_HU: Pyload ng (LinuxServer.io)
+    it_IT: Pyload ng (LinuxServer.io)
+    ja_JP: Pyload ng (LinuxServer.io)
+    ko_KR: Pyload ng (LinuxServer.io)
+    ml_IN: Pyload ng (LinuxServer.io)
+    nb_NO: Pyload ng (LinuxServer.io)
+    nl_NL: Pyload ng (LinuxServer.io)
+    pl_PL: Pyload ng (LinuxServer.io)
+    pt_BR: Pyload ng (LinuxServer.io)
+    ro_RO: Pyload ng (LinuxServer.io)
+    ru_RU: Pyload ng (LinuxServer.io)
+    sk_SK: Pyload ng (LinuxServer.io)
+    sv_SE: Pyload ng (LinuxServer.io)
+    tr_TR: Pyload ng (LinuxServer.io)
     zh_CN: Pyload ng（LinuxServer.io）
+    zh_TW: Pyload ng（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverpyloadng
   port_map: '8000'

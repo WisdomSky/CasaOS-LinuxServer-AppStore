@@ -37,17 +37,92 @@ x-casaos:
   main: app
   description:
     en_US: Babybuddy is a buddy for babies! Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
+    ca_ES: Babybuddy és un company per a nadons! Ajuda els cuidadors a fer un seguiment del son, les menjades, els canvis de bolquers, el temps que passen de panxa i molt més per conèixer i predir les necessitats del nadó sense (tantes) conjectures.
+    cs_CZ: Babybuddy je kamarád pro miminka! Pomáhá pečovatelům sledovat spánek, krmení, přebalování, čas na bříšku a další, aby se dozvěděli o potřebách dítěte a mohli je předvídat bez (tolik) dohadů.
+    da_DK: Babybuddy er en babybuddy! Hjælper omsorgspersoner med at spore søvn, amning, bleskift, mavetid og mere for at lære om og forudsige babyens behov uden (lige så meget) gætværk.
+    de_DE: Babybuddy ist ein Begleiter für Babys! Er hilft Betreuungspersonen, Schlaf, Fütterungen, Windelwechsel, Bauchlage und mehr zu verfolgen, um die Bedürfnisse des Babys besser kennenzulernen und vorherzusagen – und das ohne (so viel) Rätselraten.
+    el_GR: Το Babybuddy είναι ένας φίλος για τα μωρά! Βοηθά τους φροντιστές να παρακολουθούν τον ύπνο, τα τάισμα, τις αλλαγές πάνας, τον χρόνο που περνάει η πάνα στην κοιλιά και πολλά άλλα, ώστε να μαθαίνουν και να προβλέπουν τις ανάγκες του μωρού χωρίς (τόσες) πολλές εικασίες.
+    en_GB: Babybuddy is a buddy for babies! Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
+    es_ES: Babybuddy es el compañero ideal para los bebés. Ayuda a los cuidadores a registrar el sueño, las tomas, los cambios de pañal, el tiempo boca abajo y mucho más para conocer y predecir las necesidades del bebé sin tener que adivinar tanto.
+    fr_FR: BabyBuddy est un compagnon idéal pour les bébés ! Il aide les parents à suivre le sommeil, les repas, les changements de couches, le temps passé sur le ventre et bien plus encore afin de mieux connaître et anticiper les besoins de bébé, et ce, avec (autant) de conjectures.
+    ga_IE: Is cara do naíonáin é Babybuddy! Cabhraíonn sé le cúramóirí codladh, beathú, athruithe naipcíní, am bolg agus níos mó a rianú chun foghlaim faoi riachtanais an linbh agus iad a thuar gan (an oiread) buille faoi thuairim.
+    hr_HR: Babybuddy je prijatelj za bebe! Pomaže njegovateljima pratiti san, hranjenje, mijenjanje pelena, vrijeme provedeno na trbuhu i još mnogo toga kako bi saznali i predvidjeli bebine potrebe bez (toliko) nagađanja.
+    hu_HU: A Babybuddy a babák társa! Segít a gondozóknak nyomon követni az alvást, az etetést, a pelenkacserét, a hason fekvést és egyebeket, hogy megismerjék és megjósolják a baba igényeit anélkül, hogy (annyi) találgatással kellene foglalkozniuk.
+    it_IT: Babybuddy è un compagno ideale per i neonati! Aiuta chi si prende cura di loro a monitorare il sonno, le poppate, i cambi di pannolino, il tempo trascorso a pancia in giù e molto altro, per comprendere e prevedere i bisogni del bambino con meno (troppe) congetture.
+    ja_JP: Babybuddyは赤ちゃんのための頼れる相棒です！睡眠、授乳、おむつ交換、うつ伏せ遊びなど、赤ちゃんの様々な行動を記録することで、推測に頼ることなく、赤ちゃんのニーズを理解し、予測するのに役立ちます。
+    ko_KR: 베이비버디는 아기를 위한 친구입니다! 보호자가 수면, 수유, 기저귀 교체, 배앓이 방지 시간 등을 추적하여 아기의 필요를 (더 이상) 추측하지 않고도 파악하고 예측할 수 있도록 도와줍니다.
+    ml_IN: ബേബിബഡി കുഞ്ഞുങ്ങളുടെ ഒരു കൂട്ടുകാരനാണ്! (അത്രയും) ഊഹക്കച്ചവടമില്ലാതെ കുഞ്ഞിന്റെ ആവശ്യങ്ങളെക്കുറിച്ച് പഠിക്കാനും പ്രവചിക്കാനും, ഉറക്കം, ഭക്ഷണം നൽകൽ, ഡയപ്പർ മാറ്റങ്ങൾ, വയറിന്റെ സമയം എന്നിവയും മറ്റും ട്രാക്ക് ചെയ്യാൻ പരിചരണകരെ സഹായിക്കുന്നു.
+    nb_NO: Babybuddy er en kompis for babyer! Hjelper omsorgspersoner med å spore søvn, mating, bleieskift, magetid og mer for å lære om og forutsi babyens behov uten (like mye) gjetting.
+    nl_NL: Babybuddy is een maatje voor baby's! Het helpt verzorgers bij het bijhouden van slaap, voedingen, luierwissels, buikligging en meer, zodat ze de behoeften van hun baby leren kennen en voorspellen zonder (veel) te hoeven gissen.
+    pl_PL: Babybuddy to przyjaciel dla niemowląt! Pomaga opiekunom śledzić sen, karmienia, zmiany pieluszek, czas na brzuszku i wiele innych czynności, aby poznać i przewidzieć potrzeby dziecka bez (zbyt) domysłów.
+    pt_BR: Babybuddy é um amiguinho para bebês! Ajuda os cuidadores a monitorar o sono, as mamadas, as trocas de fraldas, o tempo de bruços e muito mais, para que possam aprender e prever as necessidades do bebê com menos palpites.
+    ro_RO: Babybuddy este un prieten pentru bebeluși! Ajută îngrijitorii să urmărească somnul, hrănirea, schimbarea scutecelor, timpul petrecut pe burtă și multe altele pentru a afla și a prezice nevoile bebelușului fără (la fel de mult) să facă presupuneri.
+    ru_RU: Babybuddy — это друг для малышей! Он помогает родителям отслеживать сон, кормления, смену подгузников, время, проведенное на животике, и многое другое, чтобы узнать и предсказать потребности ребенка без (больших) догадок.
+    sk_SK: Babybuddy je kamarát pre bábätká! Pomáha opatrovateľom sledovať spánok, kŕmenie, prebaľovanie, čas na brušku a ďalšie veci, aby sa dozvedeli o potrebách bábätka a predpovedali ich bez (toľkého) dohadovania.
+    sv_SE: Babybuddy är en kompis för bebisar! Hjälper vårdgivare att spåra sömn, matning, blöjbyten, magläge och mer för att lära sig om och förutsäga barnets behov utan (lika mycket) gissningsarbete.
+    tr_TR: Babybuddy bebekler için bir arkadaş! Bakıcılara uyku, beslenme, bez değiştirme, karın üstü oyun zamanı ve daha fazlasını takip etmelerine yardımcı olarak, bebeğin ihtiyaçlarını (çok fazla) tahmine dayalı olmadan öğrenmelerini ve tahmin etmelerini sağlar.
     zh_CN: Babybuddy 是宝宝的照护助手。它帮助照护者记录睡眠、喂养、换尿布、趴卧练习等活动，从而更好地了解和预测宝宝的需求，减少猜测。
+    zh_TW: Babybuddy 是寶寶的照護助手。它幫助照護者記錄睡眠、餵養、換尿布、趴臥練習等活動，從而更好地瞭解和預測寶寶的需求，減少猜測。
   tagline:
     en_US: A buddy for babies. Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
+    ca_ES: Un company per a nadons. Ajuda els cuidadors a fer un seguiment del son, les menjades, els canvis de bolquers, el temps que passen de panxa i més per conèixer i predir les necessitats del nadó sense (tantes) conjectures.
+    cs_CZ: Kamarád pro miminka. Pomáhá pečovatelům sledovat spánek, krmení, přebalování, čas na bříšku a další, aby se dozvěděli o potřebách dítěte a mohli je předvídat bez (tolik) dohadů.
+    da_DK: En babyven. Hjælper omsorgspersoner med at spore søvn, amning, bleskift, mavetid og mere for at lære om og forudsige babyens behov uden (lige så meget) gætværk.
+    de_DE: Ein hilfreicher Begleiter für Babys. Unterstützt Betreuungspersonen dabei, Schlaf, Fütterungen, Windelwechsel, Bauchlage und mehr zu dokumentieren, um die Bedürfnisse des Babys besser kennenzulernen und vorherzusagen – und das ohne (so viel) Rätselraten.
+    el_GR: Ένας φίλος για μωρά. Βοηθά τους φροντιστές να παρακολουθούν τον ύπνο, τα τάισμα, τις αλλαγές πάνας, τον χρόνο που περνάει η πάνα στην κοιλιά και πολλά άλλα, ώστε να μαθαίνουν και να προβλέπουν τις ανάγκες του μωρού χωρίς (τόσες) πολλές εικασίες.
+    en_GB: A buddy for babies. Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work.
+    es_ES: Un compañero ideal para bebés. Ayuda a los cuidadores a registrar el sueño, las tomas, los cambios de pañal, el tiempo boca abajo y mucho más para conocer y predecir las necesidades del bebé sin tener que adivinar tanto.
+    fr_FR: Un compagnon idéal pour les bébés. Il aide les parents à suivre le sommeil, les repas, les changements de couches, le temps passé sur le ventre et bien plus encore afin de mieux comprendre et anticiper les besoins de bébé, et ce, avec (autant) de conjectures.
+    ga_IE: Cara do naíonáin. Cabhraíonn sé le cúramóirí codladh, beathú, athruithe naipcíní, am bolg agus níos mó a rianú chun foghlaim faoi riachtanais an linbh agus iad a thuar gan (an oiread) buille faoi thuairim.
+    hr_HR: Prijatelj za bebe. Pomaže njegovateljima pratiti san, hranjenje, mijenjanje pelena, vrijeme provedeno na trbuhu i još mnogo toga kako bi saznali i predvidjeli bebine potrebe bez (toliko) nagađanja.
+    hu_HU: Babatárs. Segít a gondozóknak nyomon követni az alvást, az etetést, a pelenkacserét, a hason fekvést és egyebeket, hogy megismerjék és megjósolják a baba igényeit anélkül, hogy (annyi) találgatással kellene foglalkozniuk.
+    it_IT: Un compagno per i neonati. Aiuta chi si prende cura di loro a monitorare il sonno, le poppate, i cambi di pannolino, il tempo trascorso a pancia in giù e altro ancora, per conoscere e prevedere i bisogni del bambino con meno (troppe) congetture.
+    ja_JP: 赤ちゃんのための頼れる相棒。睡眠、授乳、おむつ交換、うつ伏せ遊びなど、赤ちゃんの様々な行動を記録することで、保護者が赤ちゃんのニーズを（推測に頼ることなく）把握し、予測するのに役立ちます。
+    ko_KR: 아기를 위한 친구. 보호자가 수면, 수유, 기저귀 교체, 엎드려 놀기 등을 추적하여 아기의 필요를 (더 이상) 추측하지 않고 파악하고 예측할 수 있도록 도와줍니다.
+    ml_IN: കുഞ്ഞുങ്ങൾക്കുള്ള ഒരു കൂട്ടുകാരൻ. (അത്രയും) ഊഹക്കച്ചവടമില്ലാതെ കുഞ്ഞിന്റെ ആവശ്യങ്ങളെക്കുറിച്ച് പഠിക്കാനും പ്രവചിക്കാനും, ഉറക്കം, ഭക്ഷണം നൽകൽ, ഡയപ്പർ മാറ്റങ്ങൾ, വയറിന്റെ സമയം എന്നിവ ട്രാക്ക് ചെയ്യാൻ പരിചരണം നൽകുന്നവരെ സഹായിക്കുന്നു.
+    nb_NO: En venn for babyer. Hjelper omsorgspersoner med å spore søvn, mating, bleieskift, magetid og mer for å lære om og forutsi babyens behov uten (like mye) gjetting.
+    nl_NL: Een handig hulpmiddel voor baby's. Helpt verzorgers bij het bijhouden van slaap, voedingen, luierwissels, buikligging en meer, zodat ze de behoeften van hun baby beter leren kennen en voorspellen zonder (veel) te hoeven gissen.
+    pl_PL: Przyjaciel dla niemowląt. Pomaga opiekunom śledzić sen, karmienia, zmiany pieluch, czas na brzuszku i wiele innych, aby poznać i przewidzieć potrzeby dziecka bez (tak wielu) domysłów.
+    pt_BR: Um companheiro para bebês. Ajuda os cuidadores a monitorar o sono, as mamadas, as trocas de fraldas, o tempo de bruços e muito mais, para aprender e prever as necessidades do bebê com menos palpites.
+    ro_RO: Un prieten pentru bebeluși. Ajută îngrijitorii să urmărească somnul, hrănirea, schimbarea scutecelor, timpul petrecut pe burtă și multe altele pentru a afla și a prezice nevoile bebelușului fără (la fel de mult) să facă presupuneri.
+    ru_RU: Друг для малышей. Помогает родителям отслеживать сон, кормления, смену подгузников, время, проведенное на животике, и многое другое, чтобы узнать и предсказать потребности ребенка без (больших) догадок.
+    sk_SK: Kamarát pre bábätká. Pomáha opatrovateľom sledovať spánok, kŕmenie, prebaľovanie, čas na brušku a ďalšie, aby sa dozvedeli o potrebách bábätka a predpovedali ich bez (toľkého) dohadovania.
+    sv_SE: En kompis för bebisar. Hjälper vårdgivare att spåra sömn, matning, blöjbyten, magläge och mer för att lära sig om och förutsäga barnets behov utan (lika mycket) gissningsarbete.
+    tr_TR: Bebekler için bir yardımcı. Bakıcılara uyku, beslenme, alt değiştirme, karın üstü oyun zamanı ve daha fazlasını takip etmelerine yardımcı olarak, bebeğin ihtiyaçlarını (çok fazla) tahmine dayalı olmadan öğrenmelerini ve tahmin etmelerini sağlar.
     zh_CN: 记录宝宝的睡眠、喂养和日常照护。
+    zh_TW: 記錄寶寶的睡眠、餵養和日常照護。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png
   title:
     en_US: Babybuddy (LinuxServer.io)
+    ca_ES: Babybuddy (LinuxServer.io)
+    cs_CZ: Babybuddy (LinuxServer.io)
+    da_DK: Babybuddy (LinuxServer.io)
+    de_DE: Babybuddy (LinuxServer.io)
+    el_GR: Babybuddy (LinuxServer.io)
+    en_GB: Babybuddy (LinuxServer.io)
+    es_ES: Babybuddy (LinuxServer.io)
+    fr_FR: Babybuddy (LinuxServer.io)
+    ga_IE: Babybuddy (LinuxServer.io)
+    hr_HR: Babybuddy (LinuxServer.io)
+    hu_HU: Babybuddy (LinuxServer.io)
+    it_IT: Babybuddy (LinuxServer.io)
+    ja_JP: Babybuddy (LinuxServer.io)
+    ko_KR: Babybuddy (LinuxServer.io)
+    ml_IN: Babybuddy (LinuxServer.io)
+    nb_NO: Babybuddy (LinuxServer.io)
+    nl_NL: Babybuddy (LinuxServer.io)
+    pl_PL: Babybuddy (LinuxServer.io)
+    pt_BR: Babybuddy (LinuxServer.io)
+    ro_RO: Babybuddy (LinuxServer.io)
+    ru_RU: Babybuddy (LinuxServer.io)
+    sk_SK: Babybuddy (LinuxServer.io)
+    sv_SE: Babybuddy (LinuxServer.io)
+    tr_TR: Babybuddy (LinuxServer.io)
     zh_CN: Babybuddy（LinuxServer.io）
+    zh_TW: Babybuddy（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbabybuddy
   port_map: '8000'

@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.
+    ca_ES: Eden és un emulador experimental de codi obert per a la Nintendo Switch, creat tenint en compte el rendiment i l'estabilitat.
+    cs_CZ: Eden je experimentální open-source emulátor pro Nintendo Switch, vytvořený s ohledem na výkon a stabilitu.
+    da_DK: Eden er en eksperimentel open source-emulator til Nintendo Switch, bygget med ydeevne og stabilitet i tankerne.
+    de_DE: Eden ist ein experimenteller Open-Source-Emulator für die Nintendo Switch, der mit Blick auf Leistung und Stabilität entwickelt wurde.
+    el_GR: Το Eden είναι ένας πειραματικός εξομοιωτής ανοιχτού κώδικα για το Nintendo Switch, κατασκευασμένος με γνώμονα την απόδοση και τη σταθερότητα.
+    en_GB: Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.
+    es_ES: Eden es un emulador experimental de código abierto para la Nintendo Switch, diseñado teniendo en cuenta el rendimiento y la estabilidad.
+    fr_FR: Eden est un émulateur open source expérimental pour la Nintendo Switch, conçu dans un souci de performance et de stabilité.
+    ga_IE: Is aithriseoir foinse oscailte turgnamhach é Eden don Nintendo Switch, atá tógtha le feidhmíocht agus cobhsaíocht san áireamh.
+    hr_HR: Eden je eksperimentalni emulator otvorenog koda za Nintendo Switch, izgrađen imajući na umu performanse i stabilnost.
+    hu_HU: Az Eden egy kísérleti, nyílt forráskódú emulátor Nintendo Switchre, amelyet a teljesítmény és a stabilitás szem előtt tartásával fejlesztettek ki.
+    it_IT: Eden è un emulatore open-source sperimentale per Nintendo Switch, progettato pensando alle prestazioni e alla stabilità.
+    ja_JP: Edenは、パフォーマンスと安定性を重視して開発された、Nintendo Switch向けの実験的なオープンソースエミュレータです。
+    ko_KR: Eden은 성능과 안정성을 염두에 두고 개발된 닌텐도 스위치용 실험적인 오픈 소스 에뮬레이터입니다.
+    ml_IN: പ്രകടനവും സ്ഥിരതയും മനസ്സിൽ വെച്ചുകൊണ്ട് നിർമ്മിച്ച, നിന്റെൻഡോ സ്വിച്ചിനായുള്ള ഒരു പരീക്ഷണാത്മക ഓപ്പൺ സോഴ്‌സ് എമുലേറ്ററാണ് ഈഡൻ.
+    nb_NO: Eden er en eksperimentell emulator med åpen kildekode for Nintendo Switch, bygget med tanke på ytelse og stabilitet.
+    nl_NL: Eden is een experimentele open-source emulator voor de Nintendo Switch, ontwikkeld met prestaties en stabiliteit als belangrijkste uitgangspunten.
+    pl_PL: Eden to eksperymentalny emulator o otwartym kodzie źródłowym dla konsoli Nintendo Switch, zaprojektowany z myślą o wydajności i stabilności.
+    pt_BR: Eden é um emulador experimental de código aberto para o Nintendo Switch, desenvolvido com foco em desempenho e estabilidade.
+    ro_RO: Eden este un emulator experimental open-source pentru Nintendo Switch, construit având în vedere performanța și stabilitatea.
+    ru_RU: Eden — это экспериментальный эмулятор с открытым исходным кодом для Nintendo Switch, разработанный с учетом производительности и стабильности.
+    sk_SK: Eden je experimentálny open-source emulátor pre Nintendo Switch, vytvorený s ohľadom na výkon a stabilitu.
+    sv_SE: Eden är en experimentell emulator med öppen källkod för Nintendo Switch, byggd med prestanda och stabilitet i åtanke.
+    tr_TR: Eden, performans ve istikrar göz önünde bulundurularak geliştirilmiş, Nintendo Switch için deneysel bir açık kaynak kodlu emülatördür.
     zh_CN: Eden 是一款面向 Nintendo Switch 的实验性开源模拟器，设计重点是性能和稳定性。
+    zh_TW: Eden 是一款面向 Nintendo Switch 的實驗性開源模擬器，設計重點是效能和穩定性。
   tagline:
     en_US: An experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.
+    ca_ES: Un emulador experimental de codi obert per a la Nintendo Switch, creat tenint en compte el rendiment i l'estabilitat.
+    cs_CZ: Experimentální open-source emulátor pro Nintendo Switch, vytvořený s ohledem na výkon a stabilitu.
+    da_DK: En eksperimentel open source-emulator til Nintendo Switch, bygget med ydeevne og stabilitet i tankerne.
+    de_DE: Ein experimenteller Open-Source-Emulator für die Nintendo Switch, der mit Blick auf Leistung und Stabilität entwickelt wurde.
+    el_GR: Ένας πειραματικός εξομοιωτής ανοιχτού κώδικα για το Nintendo Switch, κατασκευασμένος με γνώμονα την απόδοση και τη σταθερότητα.
+    en_GB: An experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.
+    es_ES: Un emulador experimental de código abierto para la Nintendo Switch, diseñado teniendo en cuenta el rendimiento y la estabilidad.
+    fr_FR: Un émulateur open source expérimental pour la Nintendo Switch, conçu dans un souci de performance et de stabilité.
+    ga_IE: Aithriseoir foinse oscailte turgnamhach don Nintendo Switch, tógtha le feidhmíocht agus cobhsaíocht san áireamh.
+    hr_HR: Eksperimentalni emulator otvorenog koda za Nintendo Switch, izgrađen imajući na umu performanse i stabilnost.
+    hu_HU: Egy kísérleti, nyílt forráskódú emulátor Nintendo Switchre, amelyet a teljesítmény és a stabilitás szem előtt tartásával terveztek.
+    it_IT: Un emulatore open-source sperimentale per Nintendo Switch, progettato pensando alle prestazioni e alla stabilità.
+    ja_JP: パフォーマンスと安定性を重視して開発された、Nintendo Switch向けの実験的なオープンソースエミュレーター。
+    ko_KR: 성능과 안정성을 염두에 두고 개발된 닌텐도 스위치용 실험적인 오픈 소스 에뮬레이터입니다.
+    ml_IN: പ്രകടനവും സ്ഥിരതയും മനസ്സിൽ വെച്ചുകൊണ്ട് നിർമ്മിച്ച, നിൻടെൻഡോ സ്വിച്ചിനായുള്ള ഒരു പരീക്ഷണാത്മക ഓപ്പൺ സോഴ്‌സ് എമുലേറ്റർ.
+    nb_NO: En eksperimentell emulator med åpen kildekode for Nintendo Switch, bygget med tanke på ytelse og stabilitet.
+    nl_NL: Een experimentele open-source emulator voor de Nintendo Switch, ontwikkeld met prestaties en stabiliteit in gedachten.
+    pl_PL: Eksperymentalny emulator typu open-source dla konsoli Nintendo Switch, zaprojektowany z myślą o wydajności i stabilności.
+    pt_BR: Um emulador experimental de código aberto para o Nintendo Switch, desenvolvido com foco em desempenho e estabilidade.
+    ro_RO: Un emulator experimental open-source pentru Nintendo Switch, construit având în vedere performanța și stabilitatea.
+    ru_RU: Экспериментальный эмулятор с открытым исходным кодом для Nintendo Switch, разработанный с учетом производительности и стабильности.
+    sk_SK: Experimentálny emulátor s otvoreným zdrojovým kódom pre Nintendo Switch, vytvorený s ohľadom na výkon a stabilitu.
+    sv_SE: En experimentell emulator med öppen källkod för Nintendo Switch, byggd med prestanda och stabilitet i åtanke.
+    tr_TR: Nintendo Switch için performans ve istikrar göz önünde bulundurularak geliştirilmiş deneysel bir açık kaynak kodlu emülatör.
     zh_CN: 注重性能与稳定性的实验性 Switch 模拟器。
+    zh_TW: 注重效能與穩定性的實驗性 Switch 模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/eden-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/eden-logo.png
   title:
     en_US: Eden (LinuxServer.io)
+    ca_ES: Eden (LinuxServer.io)
+    cs_CZ: Eden (LinuxServer.io)
+    da_DK: Eden (LinuxServer.io)
+    de_DE: Eden (LinuxServer.io)
+    el_GR: Eden (LinuxServer.io)
+    en_GB: Eden (LinuxServer.io)
+    es_ES: Eden (LinuxServer.io)
+    fr_FR: Eden (LinuxServer.io)
+    ga_IE: Eden (LinuxServer.io)
+    hr_HR: Eden (LinuxServer.io)
+    hu_HU: Eden (LinuxServer.io)
+    it_IT: Eden (LinuxServer.io)
+    ja_JP: Eden (LinuxServer.io)
+    ko_KR: Eden (LinuxServer.io)
+    ml_IN: Eden (LinuxServer.io)
+    nb_NO: Eden (LinuxServer.io)
+    nl_NL: Eden (LinuxServer.io)
+    pl_PL: Eden (LinuxServer.io)
+    pt_BR: Eden (LinuxServer.io)
+    ro_RO: Eden (LinuxServer.io)
+    ru_RU: Eden (LinuxServer.io)
+    sk_SK: Eden (LinuxServer.io)
+    sv_SE: Eden (LinuxServer.io)
+    tr_TR: Eden (LinuxServer.io)
     zh_CN: Eden（LinuxServer.io）
+    zh_TW: Eden（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservereden
   port_map: '3000'

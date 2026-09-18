@@ -41,17 +41,92 @@ x-casaos:
   main: app
   description:
     en_US: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
+    ca_ES: Changedetection.io ofereix monitorització, notificació i detecció de canvis de pàgines web gratuïtes i de codi obert.
+    cs_CZ: Changedetection.io poskytuje bezplatné, open-source monitorování webových stránek, upozorňování a detekci změn.
+    da_DK: Changedetection.io tilbyder gratis open source-overvågning af websider, notifikationer og ændringsdetektion.
+    de_DE: Changedetection.io bietet kostenlose Open-Source-Webseitenüberwachung, Benachrichtigung und Änderungserkennung.
+    el_GR: Το Changedetection.io παρέχει δωρεάν, ανοιχτού κώδικα παρακολούθηση ιστοσελίδων, ειδοποιήσεις και ανίχνευση αλλαγών.
+    en_GB: Changedetection.io provides free, open-source web page monitoring, notification and change detection.
+    es_ES: Changedetection.io ofrece monitorización, notificación y detección de cambios en páginas web de forma gratuita y con código abierto.
+    fr_FR: Changedetection.io propose un service gratuit et open source de surveillance, de notification et de détection des modifications de pages web.
+    ga_IE: Cuireann Changedetection.io monatóireacht, fógra agus brath athruithe foinse oscailte ar fáil saor in aisce ar leathanaigh ghréasáin.
+    hr_HR: Changedetection.io pruža besplatno, otvoreno kodno praćenje web stranica, obavještavanje i otkrivanje promjena.
+    hu_HU: A Changedetection.io ingyenes, nyílt forráskódú weboldal-figyelést, értesítéseket és változásészlelést biztosít.
+    it_IT: Changedetection.io offre un servizio gratuito e open-source di monitoraggio, notifica e rilevamento delle modifiche alle pagine web.
+    ja_JP: Changedetection.ioは、無料のオープンソースのウェブページ監視、通知、および変更検出機能を提供します。
+    ko_KR: Changedetection.io는 무료 오픈소스 웹 페이지 모니터링, 알림 및 변경 감지 기능을 제공합니다.
+    ml_IN: Changedetection.io സൗജന്യവും ഓപ്പൺ സോഴ്‌സ് വെബ് പേജ് നിരീക്ഷണവും, അറിയിപ്പും, മാറ്റം കണ്ടെത്തലും നൽകുന്നു.
+    nb_NO: Changedetection.io tilbyr gratis overvåking, varsling og endringsdeteksjon av nettsider med åpen kildekode.
+    nl_NL: Changedetection.io biedt gratis, open-source monitoring, notificatie en wijzigingsdetectie van webpagina's.
+    pl_PL: Changedetection.io to bezpłatne, oparte na otwartym kodzie źródłowym narzędzie do monitorowania stron internetowych, powiadamiania o nich i wykrywania zmian.
+    pt_BR: Changedetection.io oferece monitoramento, notificação e detecção de alterações em páginas da web de forma gratuita e de código aberto.
+    ro_RO: Changedetection.io oferă servicii gratuite, open-source, de monitorizare a paginilor web, de notificare și detectare a modificărilor.
+    ru_RU: Changedetection.io предоставляет бесплатный сервис с открытым исходным кодом для мониторинга, оповещения и обнаружения изменений на веб-страницах.
+    sk_SK: Changedetection.io poskytuje bezplatné monitorovanie webových stránok, upozornenia a detekciu zmien s otvoreným zdrojovým kódom.
+    sv_SE: Changedetection.io tillhandahåller gratis övervakning, aviseringar och ändringsdetektering av webbsidor med öppen källkod.
+    tr_TR: Changedetection.io, ücretsiz, açık kaynaklı web sayfası izleme, bildirim ve değişiklik tespiti hizmeti sunar.
     zh_CN: Changedetection.io 提供免费、开源的网页监控、通知和变更检测功能。
+    zh_TW: Changedetection.io 提供免費、開源的網頁監控、通知和變更檢測功能。
   tagline:
     en_US: Provides free, open-source web page monitoring, notification and change detection.
+    ca_ES: Proporciona monitorització, notificació i detecció de canvis de pàgines web gratuïtes i de codi obert.
+    cs_CZ: Poskytuje bezplatné monitorování webových stránek, upozornění a detekci změn s otevřeným zdrojovým kódem.
+    da_DK: Tilbyder gratis open source-overvågning af websider, notifikationer og ændringsdetektion.
+    de_DE: Bietet kostenlose Open-Source-Webseitenüberwachung, Benachrichtigungen und Änderungserkennung.
+    el_GR: Παρέχει δωρεάν, ανοιχτού κώδικα παρακολούθηση ιστοσελίδων, ειδοποιήσεις και ανίχνευση αλλαγών.
+    en_GB: Provides free, open-source web page monitoring, notification and change detection.
+    es_ES: Proporciona monitorización, notificación y detección de cambios en páginas web de forma gratuita y con código abierto.
+    fr_FR: Fournit un système gratuit et open source de surveillance, de notification et de détection des modifications de pages web.
+    ga_IE: Soláthraíonn sé monatóireacht, fógra agus brath athruithe saor in aisce, foinse oscailte ar leathanaigh ghréasáin.
+    hr_HR: Pruža besplatno, otvoreno kodno praćenje web stranica, obavještavanje i otkrivanje promjena.
+    hu_HU: Ingyenes, nyílt forráskódú weboldal-figyelést, értesítéseket és változásészlelést biztosít.
+    it_IT: Offre monitoraggio, notifica e rilevamento delle modifiche delle pagine web in modo gratuito e open-source.
+    ja_JP: 無料のオープンソースWebページ監視、通知、および変更検出機能を提供します。
+    ko_KR: 웹 페이지 모니터링, 알림 및 변경 감지 기능을 무료로 제공하는 오픈 소스 소프트웨어입니다.
+    ml_IN: സൗജന്യവും ഓപ്പൺ സോഴ്‌സ് വെബ് പേജ് നിരീക്ഷണവും, അറിയിപ്പും, മാറ്റം കണ്ടെത്തലും നൽകുന്നു.
+    nb_NO: Tilbyr gratis overvåking, varsling og endringsdeteksjon av nettsider med åpen kildekode.
+    nl_NL: Biedt gratis, open-source monitoring, notificatie en wijzigingsdetectie van webpagina's.
+    pl_PL: Zapewnia bezpłatne, oparte na otwartym kodzie źródłowym monitorowanie stron internetowych, powiadamianie o nich i wykrywanie zmian.
+    pt_BR: Oferece monitoramento, notificação e detecção de alterações em páginas da web de forma gratuita e de código aberto.
+    ro_RO: Oferă monitorizare gratuită și open-source a paginilor web, notificări și detectare a modificărilor.
+    ru_RU: Предоставляет бесплатный мониторинг веб-страниц, уведомления и обнаружение изменений с открытым исходным кодом.
+    sk_SK: Poskytuje bezplatné monitorovanie webových stránok, upozornenia a detekciu zmien s otvoreným zdrojovým kódom.
+    sv_SE: Erbjuder gratis övervakning, avisering och ändringsdetektering av webbsidor med öppen källkod.
+    tr_TR: Ücretsiz, açık kaynaklı web sayfası izleme, bildirim ve değişiklik tespiti sağlar.
     zh_CN: 开源网页变化监测与通知工具。
+    zh_TW: 開源網頁變化監測與通知工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png
   title:
     en_US: Changedetection. Io (LinuxServer.io)
+    ca_ES: Changedetection. Io (LinuxServer.io)
+    cs_CZ: Changedetection. Io (LinuxServer.io)
+    da_DK: Changedetection. Io (LinuxServer.io)
+    de_DE: Changedetection. Io (LinuxServer.io)
+    el_GR: Changedetection. Io (LinuxServer.io)
+    en_GB: Changedetection. Io (LinuxServer.io)
+    es_ES: Changedetection. Io (LinuxServer.io)
+    fr_FR: Changedetection. Io (LinuxServer.io)
+    ga_IE: Changedetection. Io (LinuxServer.io)
+    hr_HR: Changedetection. Io (LinuxServer.io)
+    hu_HU: Changedetection. Io (LinuxServer.io)
+    it_IT: Changedetection. Io (LinuxServer.io)
+    ja_JP: Changedetection. Io (LinuxServer.io)
+    ko_KR: Changedetection. Io (LinuxServer.io)
+    ml_IN: Changedetection. Io (LinuxServer.io)
+    nb_NO: Changedetection. Io (LinuxServer.io)
+    nl_NL: Changedetection. Io (LinuxServer.io)
+    pl_PL: Changedetection. Io (LinuxServer.io)
+    pt_BR: Changedetection. Io (LinuxServer.io)
+    ro_RO: Changedetection. Io (LinuxServer.io)
+    ru_RU: Changedetection. Io (LinuxServer.io)
+    sk_SK: Changedetection. Io (LinuxServer.io)
+    sv_SE: Changedetection. Io (LinuxServer.io)
+    tr_TR: Changedetection. Io (LinuxServer.io)
     zh_CN: Changedetection. Io（LinuxServer.io）
+    zh_TW: Changedetection. Io（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverchangedetectionio
   port_map: '5000'

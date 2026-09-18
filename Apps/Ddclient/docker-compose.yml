@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
+    ca_ES: Ddclient és un client Perl que s'utilitza per actualitzar les entrades DNS dinàmiques dels comptes del proveïdor de serveis de xarxa DNS dinàmic. Originalment va ser escrit per Paul Burry i ara és majoritàriament per wimpunk. Té la capacitat d'actualitzar més que només dyndns i pot obtenir la vostra adreça IP WAN de diverses maneres.
+    cs_CZ: Ddclient je Perlový klient používaný k aktualizaci dynamických DNS záznamů pro účty u poskytovatele síťových služeb Dynamic DNS. Původně jej napsal Paul Burry a nyní jej z velké části napsal wimpunk. Dokáže aktualizovat více než jen dyndns a dokáže načíst vaši WAN IPadresu několika různými způsoby.
+    da_DK: Ddclient er en Perl-klient, der bruges til at opdatere dynamiske DNS-poster for konti på Dynamic DNS Network Service Provider. Den blev oprindeligt skrevet af Paul Burry og er nu primært udviklet af wimpunk. Den har mulighed for at opdatere mere end blot dyndns, og den kan hente din WAN-ip-adresse på et par forskellige måder.
+    de_DE: Ddclient ist ein Perl-Client, der dynamische DNS-Einträge für Konten bei einem DNS-Netzwerkdienstanbieter aktualisiert. Er wurde ursprünglich von Paul Burry entwickelt und wird heute größtenteils von Wimpunk betreut. Ddclient kann neben DynDNS auch andere Dienste aktualisieren und Ihre WAN-IP-Adresse auf verschiedene Arten ermitteln.
+    el_GR: Το Ddclient είναι ένα πρόγραμμα-πελάτης Perl που χρησιμοποιείται για την ενημέρωση δυναμικών καταχωρίσεων DNS για λογαριασμούς στον Πάροχο Υπηρεσιών Δικτύου Δυναμικού DNS. Αρχικά γράφτηκε από τον Paul Burry και τώρα είναι κυρίως από τον wimpunk. Έχει τη δυνατότητα να ενημερώνει περισσότερα από το dyndns και μπορεί να ανακτήσει τη διεύθυνση WAN-iP σας με μερικούς διαφορετικούς τρόπους.
+    en_GB: Ddclient is a Perl client used to update dynamic Dns entries for accounts on Dynamic Dns Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your Wan-ipaddress in a few different ways.
+    es_ES: Ddclient es un cliente Perl que se utiliza para actualizar las entradas de DNS dinámico de las cuentas en un proveedor de servicios de red de DNS dinámico. Fue escrito originalmente por Paul Burry y actualmente su desarrollo corre principalmente a cargo de wimpunk. Tiene la capacidad de actualizar más que solo dyndns y puede obtener su dirección IP WAN de varias maneras.
+    fr_FR: Ddclient est un client Perl permettant de mettre à jour les entrées DNS dynamiques des comptes chez un fournisseur de services DNS dynamiques. Initialement développé par Paul Burry, il est aujourd'hui principalement maintenu par wimpunk. Il peut gérer d'autres types de mises à jour que les seules entrées DNS dynamiques et récupérer votre adresse IP WAN de différentes manières.
+    ga_IE: Is cliant Perl é Ddclient a úsáidtear chun iontrálacha DNS dinimiciúla a nuashonrú do chuntais ar Sholáthraí Seirbhíse Líonra DNS Dinimiciúil. Scríobh Paul Burry é ar dtús agus is é wimpunk is mó a scríobhann é anois. Tá an cumas aige níos mó ná dyndns amháin a nuashonrú agus is féidir leis do sheoladh WAN-IP a fháil ar chúpla bealach éagsúil.
+    hr_HR: Ddclient je Perl klijent koji se koristi za ažuriranje dinamičkih DNS unosa za račune na Dynamic DNS Network Service Provideru. Izvorno ga je napisao Paul Burry, a sada ga uglavnom piše wimpunk. Ima mogućnost ažuriranja više od samog dyndns-a i može dohvatiti vašu WAN-ipadresu na nekoliko različitih načina.
+    hu_HU: A Ddclient egy Perl kliens, amely a Dynamic DNS Network Service Provider fiókjainak dinamikus DNS-bejegyzéseinek frissítésére szolgál. Eredetileg Paul Burry írta, és mostanra főként wimpunk készítette. Nem csak a dyndns frissítésére képes, és a WAN-ip címet is többféleképpen tudja lekérni.
+    it_IT: Ddclient è un client Perl utilizzato per aggiornare le voci DNS dinamiche per gli account su un provider di servizi DNS dinamico (DDNS). È stato originariamente scritto da Paul Burry e ora è principalmente sviluppato da wimpunk. È in grado di aggiornare non solo le voci dyndns, ma anche l'indirizzo IP WAN, e può recuperarlo in diversi modi.
+    ja_JP: ddclientは、ダイナミックDNSネットワークサービスプロバイダのアカウントのダイナミックDNSエントリを更新するために使用されるPerlクライアントです。元々はPaul Burryによって作成され、現在は主にwimpunkによって開発されています。ダイナミックDNSだけでなく、さまざまな情報を更新する機能があり、WAN IPアドレスを複数の方法で取得できます。
+    ko_KR: Ddclient는 동적 DNS 네트워크 서비스 제공업체(DNSPS)의 계정에 대한 동적 DNS 항목을 업데이트하는 데 사용되는 Perl 클라이언트입니다. 원래 Paul Burry가 작성했으며 현재는 wimpunk가 주로 개발하고 있습니다. dyndns 외에도 다양한 항목을 업데이트할 수 있으며 여러 가지 방법으로 WAN IP 주소를 가져올 수 있습니다.
+    ml_IN: ഡൈനാമിക് ഡിഎൻഎസ് നെറ്റ്‌വർക്ക് സർവീസ് പ്രൊവൈഡറിലെ അക്കൗണ്ടുകൾക്കായുള്ള ഡൈനാമിക് ഡിഎൻഎസ് എൻട്രികൾ അപ്‌ഡേറ്റ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന ഒരു പേൾ ക്ലയന്റാണ് ഡിഡിക്ലയന്റ്. ഇത് ആദ്യം പോൾ ബറി എഴുതിയതാണ്, ഇപ്പോൾ ഇത് കൂടുതലും വിംപങ്കാണ്. ഡൈൻഡനുകൾ മാത്രമല്ല, നിങ്ങളുടെ WAN-ipaddress കുറച്ച് വ്യത്യസ്ത രീതികളിൽ ലഭ്യമാക്കാനുള്ള കഴിവ് ഇതിനുണ്ട്.
+    nb_NO: Ddclient er en Perl-klient som brukes til å oppdatere dynamiske DNS-oppføringer for kontoer på Dynamic DNS Network Service Provider. Den ble opprinnelig skrevet av Paul Burry og er nå hovedsakelig laget av wimpunk. Den har muligheten til å oppdatere mer enn bare dyndns, og den kan hente WAN-ip-adressen din på noen forskjellige måter.
+    nl_NL: Ddclient is een Perl-client die wordt gebruikt om dynamische DNS-records bij te werken voor accounts op Dynamic DNS Network Service Providers. Het is oorspronkelijk geschreven door Paul Burry en wordt nu grotendeels door wimpunk ontwikkeld. Het kan meer dan alleen dyndns bijwerken en kan uw WAN-IP-adres op verschillende manieren ophalen.
+    pl_PL: Ddclient to klient Perla służący do aktualizacji dynamicznych wpisów DNS dla kont u dostawcy usług sieciowych dynamicznego DNS. Został pierwotnie napisany przez Paula Burry'ego, a obecnie jest w większości autorstwa Wimpunka. Umożliwia aktualizację nie tylko Dyndns, ale także pobiera adres IP WAN na kilka różnych sposobów.
+    pt_BR: O Ddclient é um cliente Perl usado para atualizar entradas de DNS dinâmico para contas em provedores de serviços de rede DNS dinâmico. Foi originalmente escrito por Paul Burry e agora é mantido principalmente por wimpunk. Ele tem a capacidade de atualizar mais do que apenas o DNS dinâmico e pode obter seu endereço IP WAN de várias maneiras diferentes.
+    ro_RO: Ddclient este un client Perl folosit pentru actualizarea intrărilor DNS dinamice pentru conturile de pe Dynamic DNS Network Service Provider. A fost scris inițial de Paul Burry și acum este în mare parte realizat de wimpunk. Are capacitatea de a actualiza mai mult decât doar dyndns și poate prelua adresa IP WAN în câteva moduri diferite.
+    ru_RU: Ddclient — это клиент на Perl, используемый для обновления динамических DNS-записей для учетных записей в сети Dynamic DNS Network Service Provider. Изначально он был написан Полом Берри, а сейчас в основном используется wimpunk. Он способен обновлять не только динамические DNS-записи, но и получать ваш WAN-IP-адрес несколькими различными способами.
+    sk_SK: Ddclient je Perl klient používaný na aktualizáciu dynamických DNS záznamov pre účty na stránke Dynamic DNS Network Service Provider. Pôvodne ho napísal Paul Burry a teraz ho prevažne napísal wimpunk. Dokáže aktualizovať viac než len dyndns a dokáže načítať vašu WAN IP adresu niekoľkými rôznymi spôsobmi.
+    sv_SE: Ddclient är en Perl-klient som används för att uppdatera dynamiska DNS-poster för konton på Dynamic DNS Network Service Provider. Den skrevs ursprungligen av Paul Burry och är nu mestadels skriven av wimpunk. Den har kapacitet att uppdatera mer än bara dyndns och den kan hämta din WAN-ip-adress på några olika sätt.
+    tr_TR: Ddclient, Dinamik DNS Ağ Servis Sağlayıcısı (DDNS) üzerindeki hesaplar için dinamik DNS kayıtlarını güncellemek için kullanılan bir Perl istemcisidir. Başlangıçta Paul Burry tarafından yazılmış olup, şu anda büyük ölçüde wimpunk tarafından geliştirilmektedir. Sadece dyndns'yi güncellemekle kalmaz, WAN IP adresinizi birkaç farklı şekilde de alabilir.
     zh_CN: Ddclient 是一个 Perl 客户端，用于更新动态 DNS 服务提供商账户中的记录。它最初由 Paul Burry 编写，目前主要由 wimpunk 维护。它不只支持 dyndns，也可通过多种方式获取你的公网 IP 地址。
+    zh_TW: Ddclient 是一個 Perl 客戶端，用於更新動態 DNS 服務提供商賬戶中的記錄。它最初由 Paul Burry 編寫，目前主要由 wimpunk 維護。它不只支援 dyndns，也可透過多種方式獲取你的公網 IP 地址。
   tagline:
     en_US: A Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
+    ca_ES: Un client Perl que s'utilitza per actualitzar les entrades DNS dinàmiques dels comptes del proveïdor de serveis de xarxa DNS dinàmic. Originalment va ser escrit per Paul Burry i ara és majoritàriament per wimpunk. Té la capacitat d'actualitzar més que només dyndns i pot obtenir la vostra adreça IP WAN de diverses maneres.
+    cs_CZ: Perl klient používaný k aktualizaci dynamických DNS záznamů pro účty u poskytovatele síťových služeb Dynamic DNS. Původně jej napsal Paul Burry a nyní jej z velké části napsal wimpunk. Dokáže aktualizovat více než jen dyndns a dokáže načíst vaši WAN-ipadresu několika různými způsoby.
+    da_DK: En Perl-klient, der blev brugt til at opdatere dynamiske DNS-poster for konti på Dynamic DNS Network Service Provider. Den blev oprindeligt skrevet af Paul Burry og er nu hovedsageligt skrevet af wimpunk. Den har mulighed for at opdatere mere end blot dyndns, og den kan hente din WAN-ip-adresse på et par forskellige måder.
+    de_DE: Ein Perl-Client zur Aktualisierung dynamischer DNS-Einträge für Konten bei einem Dynamic-DNS-Netzwerkdienstanbieter. Er wurde ursprünglich von Paul Burry entwickelt und wird nun größtenteils von Wimpunk betreut. Er kann neben DynDNS auch andere Dienste aktualisieren und Ihre WAN-IP-Adresse auf verschiedene Arten ermitteln.
+    el_GR: Ένα πρόγραμμα-πελάτης Perl που χρησιμοποιούνταν για την ενημέρωση δυναμικών καταχωρίσεων DNS για λογαριασμούς στον Πάροχο Υπηρεσιών Δικτύου Δυναμικού DNS. Αρχικά γράφτηκε από τον Paul Burry και τώρα είναι κυρίως από τον wimpunk. Έχει τη δυνατότητα να ενημερώνει περισσότερα από το dyndns και μπορεί να ανακτήσει τη διεύθυνση WAN-iP σας με μερικούς διαφορετικούς τρόπους.
+    en_GB: A Perl client used to update dynamic Dns entries for accounts on Dynamic Dns Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your Wan-ipaddress in a few different ways.
+    es_ES: Un cliente Perl utilizado para actualizar las entradas DNS dinámicas de las cuentas en un proveedor de servicios de red DNS dinámico. Originalmente escrito por Paul Burry, ahora lo desarrolla principalmente wimpunk. Tiene la capacidad de actualizar más que solo dyndns y puede obtener tu dirección IP WAN de varias maneras.
+    fr_FR: Un client Perl permettant de mettre à jour les entrées DNS dynamiques des comptes chez un fournisseur de services DNS dynamiques. Initialement développé par Paul Burry, il est aujourd'hui principalement géré par wimpunk. Il peut gérer d'autres types de mises à jour que les seules entrées DNS dynamiques et récupérer votre adresse IP WAN de différentes manières.
+    ga_IE: Úsáideadh cliant Perl chun iontrálacha DNS dinimiciúla a nuashonrú do chuntais ar Sholáthraí Seirbhíse Líonra DNS Dinimiciúil. Scríobh Paul Burry é ar dtús agus is é wimpunk is mó a scríobhann é anois. Tá an cumas aige níos mó ná dyndns amháin a nuashonrú agus is féidir leis do sheoladh WAN-IP a fháil ar chúpla bealach éagsúil.
+    hr_HR: Perl klijent koji se koristi za ažuriranje dinamičkih DNS unosa za račune na Dynamic DNS Network Service Provider. Izvorno ga je napisao Paul Burry, a sada ga uglavnom piše wimpunk. Ima mogućnost ažuriranja više od samog dyndns-a i može dohvatiti vašu WAN-ipadresu na nekoliko različitih načina.
+    hu_HU: Egy Perl kliens, amely a Dynamic DNS Network Service Provider fiókjainak dinamikus DNS-bejegyzéseinek frissítésére szolgál. Eredetileg Paul Burry írta, ma már főként wimpunk műve. Nem csak a dyndns frissítésére képes, és a WAN-ip címet is többféleképpen tudja lekérni.
+    it_IT: Un client Perl utilizzato per aggiornare le voci DNS dinamiche per gli account su un provider di servizi DNS di rete dinamico (DDNS). Originariamente scritto da Paul Burry, è ora gestito principalmente da wimpunk. È in grado di aggiornare non solo le voci dyndns, ma anche l'indirizzo IP WAN, e può recuperarlo in diversi modi.
+    ja_JP: ダイナミックDNSネットワークサービスプロバイダのアカウントのダイナミックDNSエントリを更新するために使用されるPerlクライアントです。元々はPaul Burry氏によって作成され、現在は主にwimpunk氏によって開発されています。ダイナミックDNSだけでなく、他の情報も更新でき、WAN IPアドレスをいくつかの異なる方法で取得できます。
+    ko_KR: 이 Perl 클라이언트는 동적 DNS 네트워크 서비스 제공업체의 계정에 대한 동적 DNS 항목을 업데이트하는 데 사용됩니다. 원래 Paul Burry가 작성했으며 현재는 wimpunk가 대부분을 담당하고 있습니다. dyndns 외에도 다양한 기능을 제공하며 여러 가지 방법으로 WAN IP 주소를 가져올 수 있습니다.
+    ml_IN: ഡൈനാമിക് ഡിഎൻഎസ് നെറ്റ്‌വർക്ക് സർവീസ് പ്രൊവൈഡറിലെ അക്കൗണ്ടുകൾക്കായി ഡൈനാമിക് ഡിഎൻഎസ് എൻട്രികൾ അപ്‌ഡേറ്റ് ചെയ്യാറുണ്ടായിരുന്ന ഒരു പേൾ ക്ലയന്റ്. ഇത് ആദ്യം പോൾ ബറി എഴുതിയതാണ്, ഇപ്പോൾ ഇത് കൂടുതലും വിംപങ്കാണ്. ഡൈൻഡനുകൾ മാത്രമല്ല, നിങ്ങളുടെ WAN-ipaddress കുറച്ച് വ്യത്യസ്ത രീതികളിൽ ലഭ്യമാക്കാനുള്ള കഴിവ് ഇതിനുണ്ട്.
+    nb_NO: En Perl-klient pleide å oppdatere dynamiske DNS-oppføringer for kontoer på Dynamic DNS Network Service Provider. Den ble opprinnelig skrevet av Paul Burry og er nå hovedsakelig laget av wimpunk. Den har muligheten til å oppdatere mer enn bare dyndns, og den kan hente WAN-IP-adressen din på noen forskjellige måter.
+    nl_NL: Een Perl-client die gebruikt wordt om dynamische DNS-records bij te werken voor accounts op Dynamic DNS Network Service Providers. De client is oorspronkelijk geschreven door Paul Burry en wordt nu grotendeels door wimpunk onderhouden. Hij kan meer dan alleen dyndns bijwerken en kan je WAN-IP-adres op verschillende manieren ophalen.
+    pl_PL: Klient Perla służący do aktualizacji dynamicznych wpisów DNS dla kont u dostawcy usług sieciowych dynamicznego DNS. Został pierwotnie napisany przez Paula Burry'ego, a obecnie jest w większości autorstwa Wimpunka. Umożliwia aktualizację nie tylko Dyndns, ale także pobiera adres IP WAN na kilka różnych sposobów.
+    pt_BR: Um cliente Perl usado para atualizar entradas de DNS dinâmico para contas em provedores de serviços de rede DNS dinâmico. Foi originalmente escrito por Paul Burry e agora é mantido principalmente por wimpunk. Ele tem a capacidade de atualizar mais do que apenas o DNS dinâmico e pode obter seu endereço IP WAN de várias maneiras diferentes.
+    ro_RO: Un client Perl folosit pentru actualizarea intrărilor DNS dinamice pentru conturile de pe Dynamic DNS Network Service Provider. A fost scris inițial de Paul Burry și acum este în mare parte realizat de wimpunk. Are capacitatea de a actualiza mai mult decât doar dyndns și poate prelua adresa IP WAN în câteva moduri diferite.
+    ru_RU: Perl-клиент, используемый для обновления динамических DNS-записей для учетных записей в сети Dynamic DNS Network Service Provider. Первоначально он был написан Полом Берри, а сейчас в основном используется wimpunk. Он способен обновлять не только dyndns, но и получать ваш WAN-IP-адрес несколькими различными способами.
+    sk_SK: Perl klient používaný na aktualizáciu dynamických DNS záznamov pre účty na stránke Dynamic DNS Network Service Provider. Pôvodne ho napísal Paul Burry a teraz ho prevažne napísal wimpunk. Dokáže aktualizovať viac než len dyndns a dokáže načítať vašu WAN-ipadresu niekoľkými rôznymi spôsobmi.
+    sv_SE: En Perl-klient som brukade uppdatera dynamiska DNS-poster för konton på Dynamic DNS Network Service Provider. Den skrevs ursprungligen av Paul Burry och är nu mestadels skriven av wimpunk. Den har kapacitet att uppdatera mer än bara dyndns och den kan hämta din WAN-ip-adress på några olika sätt.
+    tr_TR: Dinamik DNS ağ servis sağlayıcılarındaki hesaplar için dinamik DNS kayıtlarını güncellemek için kullanılan bir Perl istemcisidir. Başlangıçta Paul Burry tarafından yazılmış olup, şu anda büyük ölçüde wimpunk tarafından geliştirilmektedir. Sadece dyndns'yi güncellemekle kalmaz, WAN IP adresinizi birkaç farklı şekilde de alabilir.
     zh_CN: 自动更新动态 DNS 记录的 Perl 客户端。
+    zh_TW: 自動更新動態 DNS 記錄的 Perl 客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png
   title:
     en_US: Ddclient (LinuxServer.io)
+    ca_ES: Ddclient (LinuxServer.io)
+    cs_CZ: Ddclient (LinuxServer.io)
+    da_DK: Ddclient (LinuxServer.io)
+    de_DE: Ddclient (LinuxServer.io)
+    el_GR: Ddclient (LinuxServer.io)
+    en_GB: Ddclient (LinuxServer.io)
+    es_ES: Ddclient (LinuxServer.io)
+    fr_FR: Ddclient (LinuxServer.io)
+    ga_IE: Ddclient (LinuxServer.io)
+    hr_HR: Ddclient (LinuxServer.io)
+    hu_HU: Ddclient (LinuxServer.io)
+    it_IT: Ddclient (LinuxServer.io)
+    ja_JP: Ddclient (LinuxServer.io)
+    ko_KR: Ddclient (LinuxServer.io)
+    ml_IN: Ddclient (LinuxServer.io)
+    nb_NO: Ddclient (LinuxServer.io)
+    nl_NL: Ddclient (LinuxServer.io)
+    pl_PL: Ddclient (LinuxServer.io)
+    pt_BR: Ddclient (LinuxServer.io)
+    ro_RO: Ddclient (LinuxServer.io)
+    ru_RU: Ddclient (LinuxServer.io)
+    sk_SK: Ddclient (LinuxServer.io)
+    sv_SE: Ddclient (LinuxServer.io)
+    tr_TR: Ddclient (LinuxServer.io)
     zh_CN: Ddclient（LinuxServer.io）
+    zh_TW: Ddclient（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverddclient
   port_map: '80'

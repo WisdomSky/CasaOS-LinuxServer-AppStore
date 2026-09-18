@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.
+    ca_ES: Ardour és un esforç col·laboratiu de codi obert d'un equip mundial que inclou músics, programadors i enginyers de gravació professionals.
+    cs_CZ: Ardour je open source projekt, jehož výsledkem je společný projekt celosvětového týmu zahrnujícího hudebníky, programátory a profesionální zvukové inženýry.
+    da_DK: Ardour er et open source-samarbejde mellem et verdensomspændende team, der omfatter musikere, programmører og professionelle lydteknikere.
+    de_DE: Ardour ist ein Open-Source-Projekt, an dem ein weltweites Team aus Musikern, Programmierern und professionellen Toningenieuren zusammenarbeitet.
+    el_GR: Το Ardour είναι μια ανοιχτού κώδικα, συλλογική προσπάθεια μιας παγκόσμιας ομάδας που περιλαμβάνει μουσικούς, προγραμματιστές και επαγγελματίες ηχογράφους.
+    en_GB: Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.
+    es_ES: Ardour es un proyecto de código abierto, fruto de la colaboración de un equipo internacional que incluye músicos, programadores e ingenieros de grabación profesionales.
+    fr_FR: Ardour est un projet open source collaboratif mené par une équipe internationale comprenant des musiciens, des programmeurs et des ingénieurs du son professionnels.
+    ga_IE: Is comhoibriú foinse oscailte é Ardour idir foireann ar fud an domhain, lena n-áirítear ceoltóirí, ríomhchláraitheoirí agus innealtóirí taifeadta gairmiúla.
+    hr_HR: Ardour je program otvorenog koda, rezultat suradnje svjetskog tima koji uključuje glazbenike, programere i profesionalne tonske inženjere.
+    hu_HU: Az Ardour egy nyílt forráskódú, egy világméretű csapat együttműködésén alapuló program, amely zenészeket, programozókat és profi hangmérnököket foglal magában.
+    it_IT: Ardour è un progetto open source, frutto della collaborazione di un team mondiale composto da musicisti, programmatori e ingegneri del suono professionisti.
+    ja_JP: Ardourは、ミュージシャン、プログラマー、プロのレコーディングエンジニアなど、世界中のチームによるオープンソースの共同プロジェクトです。
+    ko_KR: Ardour는 음악가, 프로그래머, 전문 녹음 엔지니어 등 전 세계 팀이 협력하여 만든 오픈 소스 프로젝트입니다.
+    ml_IN: ആർഡോർ എന്നത് സംഗീതജ്ഞർ, പ്രോഗ്രാമർമാർ, പ്രൊഫഷണൽ റെക്കോർഡിംഗ് എഞ്ചിനീയർമാർ എന്നിവരുൾപ്പെടെ ലോകമെമ്പാടുമുള്ള ഒരു ടീമിന്റെ സഹകരണത്തോടെയുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് സംരംഭമാണ്.
+    nb_NO: Ardour er et åpen kildekode-prosjekt, et samarbeid mellom et verdensomspennende team som inkluderer musikere, programmerere og profesjonelle lydteknikere.
+    nl_NL: Ardour is een open source-project, een samenwerkingsverband van een wereldwijd team bestaande uit muzikanten, programmeurs en professionele geluidstechnici.
+    pl_PL: Ardour to projekt typu open source, będący efektem współpracy międzynarodowego zespołu muzyków, programistów i profesjonalnych inżynierów dźwięku.
+    pt_BR: O Ardour é um projeto de código aberto e colaborativo, fruto do trabalho de uma equipe global que inclui músicos, programadores e engenheiros de gravação profissionais.
+    ro_RO: Ardour este un efort colaborativ open source al unei echipe mondiale, care include muzicieni, programatori și ingineri de sunet profesioniști.
+    ru_RU: Ardour — это проект с открытым исходным кодом, результат совместной работы международной команды, в которую входят музыканты, программисты и профессиональные звукорежиссёры.
+    sk_SK: Ardour je open source projekt, výsledkom spolupráce celosvetového tímu, ktorý zahŕňa hudobníkov, programátorov a profesionálnych nahrávacích technikov.
+    sv_SE: Ardour är ett samarbete mellan ett världsomspännande team med öppen källkod, bestående av musiker, programmerare och professionella inspelningstekniker.
+    tr_TR: Ardour, müzisyenler, programcılar ve profesyonel kayıt mühendislerinden oluşan dünya çapında bir ekibin ortak çalışmasıyla ortaya çıkan açık kaynaklı bir projedir.
     zh_CN: Ardour 是一个开源协作项目，由来自世界各地的音乐人、程序员和专业录音工程师共同开发。
+    zh_TW: Ardour 是一個開源協作專案，由來自世界各地的音樂人、程式設計師和專業錄音工程師共同開發。
   tagline:
     en_US: An open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.
+    ca_ES: Un esforç col·laboratiu de codi obert d'un equip mundial que inclou músics, programadors i enginyers de gravació professionals.
+    cs_CZ: Open source, společný projekt celosvětového týmu zahrnujícího hudebníky, programátory a profesionální zvukové inženýry.
+    da_DK: Et open source-samarbejde mellem et verdensomspændende team bestående af musikere, programmører og professionelle lydteknikere.
+    de_DE: Ein Open-Source-Projekt, an dem ein weltweites Team aus Musikern, Programmierern und professionellen Toningenieuren zusammenarbeitet.
+    el_GR: Μια συλλογική προσπάθεια ανοιχτού κώδικα από μια παγκόσμια ομάδα που περιλαμβάνει μουσικούς, προγραμματιστές και επαγγελματίες ηχογράφους.
+    en_GB: An open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.
+    es_ES: Un proyecto de código abierto y colaborativo, fruto del trabajo de un equipo internacional que incluye músicos, programadores e ingenieros de grabación profesionales.
+    fr_FR: Un projet collaboratif et open source d'une équipe mondiale comprenant des musiciens, des programmeurs et des ingénieurs du son professionnels.
+    ga_IE: Comhiarracht foinse oscailte, chomhoibríoch foirne ar fud an domhain lena n-áirítear ceoltóirí, ríomhchláraitheoirí agus innealtóirí taifeadta gairmiúla.
+    hr_HR: Otvoreni kod, zajednički napor svjetskog tima koji uključuje glazbenike, programere i profesionalne tonske inženjere.
+    hu_HU: Egy nyílt forráskódú, egy világméretű csapat együttműködésén alapuló projekt, amelyben zenészek, programozók és profi hangmérnökök vesznek részt.
+    it_IT: Un progetto open source e collaborativo di un team mondiale composto da musicisti, programmatori e ingegneri del suono professionisti.
+    ja_JP: ミュージシャン、プログラマー、プロのレコーディングエンジニアなど、世界中のチームによるオープンソースの共同プロジェクトです。
+    ko_KR: 음악가, 프로그래머, 전문 녹음 엔지니어 등 전 세계 팀이 협력하여 만든 오픈 소스 프로젝트입니다.
+    ml_IN: സംഗീതജ്ഞർ, പ്രോഗ്രാമർമാർ, പ്രൊഫഷണൽ റെക്കോർഡിംഗ് എഞ്ചിനീയർമാർ എന്നിവരടങ്ങുന്ന ലോകമെമ്പാടുമുള്ള ഒരു ടീമിന്റെ സഹകരണത്തോടെയുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് ഉപകരണം.
+    nb_NO: Et åpen kildekode-samarbeid mellom et verdensomspennende team bestående av musikere, programmerere og profesjonelle lydteknikere.
+    nl_NL: Een open source-project, een gezamenlijk initiatief van een wereldwijd team bestaande uit muzikanten, programmeurs en professionele geluidstechnici.
+    pl_PL: Otwarte oprogramowanie, wspólne dzieło ogólnoświatowego zespołu, w którego skład wchodzą muzycy, programiści i profesjonalni inżynierowie dźwięku.
+    pt_BR: Um projeto colaborativo de código aberto, desenvolvido por uma equipe global que inclui músicos, programadores e engenheiros de gravação profissionais.
+    ro_RO: Un efort colaborativ open source al unei echipe mondiale, care include muzicieni, programatori și ingineri de sunet profesioniști.
+    ru_RU: Проект с открытым исходным кодом, созданный в результате совместной работы международной команды, в которую входят музыканты, программисты и профессиональные звукорежиссёры.
+    sk_SK: Open source, spoločný projekt celosvetového tímu zahŕňajúci hudobníkov, programátorov a profesionálnych nahrávacích technikov.
+    sv_SE: Ett samarbete med öppen källkod mellan ett världsomspännande team bestående av musiker, programmerare och professionella inspelningstekniker.
+    tr_TR: Müzisyenler, programcılar ve profesyonel kayıt mühendislerinden oluşan dünya çapındaki bir ekibin açık kaynaklı, iş birliğine dayalı bir çalışması.
     zh_CN: 由音乐人、程序员和录音工程师共同开发的开源软件。
+    zh_TW: 由音樂人、程式設計師和錄音工程師共同開發的開源軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ardour-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ardour-logo.png
   title:
     en_US: Ardour (LinuxServer.io)
+    ca_ES: Ardour (LinuxServer.io)
+    cs_CZ: Ardour (LinuxServer.io)
+    da_DK: Ardour (LinuxServer.io)
+    de_DE: Ardour (LinuxServer.io)
+    el_GR: Ardour (LinuxServer.io)
+    en_GB: Ardour (LinuxServer.io)
+    es_ES: Ardour (LinuxServer.io)
+    fr_FR: Ardour (LinuxServer.io)
+    ga_IE: Ardour (LinuxServer.io)
+    hr_HR: Ardour (LinuxServer.io)
+    hu_HU: Ardour (LinuxServer.io)
+    it_IT: Ardour (LinuxServer.io)
+    ja_JP: Ardour (LinuxServer.io)
+    ko_KR: Ardour (LinuxServer.io)
+    ml_IN: Ardour (LinuxServer.io)
+    nb_NO: Ardour (LinuxServer.io)
+    nl_NL: Ardour (LinuxServer.io)
+    pl_PL: Ardour (LinuxServer.io)
+    pt_BR: Ardour (LinuxServer.io)
+    ro_RO: Ardour (LinuxServer.io)
+    ru_RU: Ardour (LinuxServer.io)
+    sk_SK: Ardour (LinuxServer.io)
+    sv_SE: Ardour (LinuxServer.io)
+    tr_TR: Ardour (LinuxServer.io)
     zh_CN: Ardour（LinuxServer.io）
+    zh_TW: Ardour（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverardour
   port_map: '3000'

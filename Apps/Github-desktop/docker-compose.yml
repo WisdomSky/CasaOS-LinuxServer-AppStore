@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Github Desktop is an open source Electron-based GitHub app. It is written in TypeScript and uses React.
+    ca_ES: Github Desktop és una aplicació GitHub de codi obert basada en Electron. Està escrita en TypeScript i utilitza React.
+    cs_CZ: Github Desktop je open source aplikace pro GitHub založená na platformě Electron. Je napsána v TypeScriptu a používá React.
+    da_DK: Github Desktop er en open source Electron-baseret GitHub-app. Den er skrevet i TypeScript og bruger React.
+    de_DE: GitHub Desktop ist eine Open-Source-Anwendung von GitHub, die auf Electron basiert. Sie ist in TypeScript geschrieben und verwendet React.
+    el_GR: Το Github Desktop είναι μια εφαρμογή GitHub ανοιχτού κώδικα που βασίζεται στο Electron. Είναι γραμμένη σε TypeScript και χρησιμοποιεί React.
+    en_GB: Github Desktop is an open source Electron-based Github app. It is written in Typescript and uses React.
+    es_ES: Github Desktop es una aplicación de GitHub de código abierto basada en Electron. Está escrita en TypeScript y utiliza React.
+    fr_FR: GitHub Desktop est une application GitHub open source basée sur Electron. Elle est écrite en TypeScript et utilise React.
+    ga_IE: Is aip GitHub foinse oscailte atá bunaithe ar Electron é Github Desktop. Tá sé scríofa i TypeScript agus úsáideann sé React.
+    hr_HR: Github Desktop je GitHub aplikacija otvorenog koda temeljena na Electronu. Napisana je u TypeScriptu i koristi React.
+    hu_HU: A Github Desktop egy nyílt forráskódú, Electron-alapú GitHub alkalmazás. TypeScript nyelven íródott és Reactet használ.
+    it_IT: GitHub Desktop è un'applicazione open source per GitHub basata su Electron. È scritta in TypeScript e utilizza React.
+    ja_JP: GitHub Desktopは、オープンソースのElectronベースのGitHubアプリです。TypeScriptで記述されており、Reactを使用しています。
+    ko_KR: GitHub Desktop은 Electron 기반의 오픈 소스 GitHub 앱입니다. TypeScript로 작성되었으며 React를 사용합니다.
+    ml_IN: ഗിത്തബ് ഡെസ്ക്ടോപ്പ് ഒരു ഓപ്പൺ സോഴ്‌സ് ഇലക്ട്രോൺ അധിഷ്ഠിത ഗിറ്റ്ഹബ് ആപ്പാണ്. ഇത് ടൈപ്പ്സ്ക്രിപ്റ്റിൽ എഴുതിയതും റിയാക്റ്റ് ഉപയോഗിക്കുന്നതുമാണ്.
+    nb_NO: Github Desktop er en GitHub-app med åpen kildekode, basert på Electron. Den er skrevet i TypeScript og bruker React.
+    nl_NL: Github Desktop is een open source GitHub-app gebaseerd op Electron. De app is geschreven in TypeScript en maakt gebruik van React.
+    pl_PL: Github Desktop to aplikacja GitHub oparta na Electronie, oparta na otwartym kodzie źródłowym. Jest napisana w TypeScript i wykorzystuje React.
+    pt_BR: O GitHub Desktop é um aplicativo GitHub de código aberto baseado em Electron. Ele é escrito em TypeScript e utiliza React.
+    ro_RO: Github Desktop este o aplicație GitHub open source bazată pe Electron. Este scrisă în TypeScript și folosește React.
+    ru_RU: Github Desktop — это приложение GitHub с открытым исходным кодом, основанное на Electron. Оно написано на TypeScript и использует React.
+    sk_SK: Github Desktop je open source aplikácia pre GitHub založená na platforme Electron. Je napísaná v jazyku TypeScript a používa React.
+    sv_SE: Github Desktop är en GitHub-app baserad på Electron med öppen källkod. Den är skriven i TypeScript och använder React.
+    tr_TR: Github Desktop, açık kaynaklı, Electron tabanlı bir GitHub uygulamasıdır. TypeScript ile yazılmıştır ve React kullanır.
     zh_CN: GitHub Desktop 是一款基于 Electron 的开源 GitHub 应用，使用 TypeScript 和 React 开发。
+    zh_TW: GitHub Desktop 是一款基於 Electron 的開源 GitHub 應用，使用 TypeScript 和 React 開發。
   tagline:
     en_US: An open source Electron-based GitHub app. It is written in TypeScript and uses React.
+    ca_ES: Una aplicació de codi obert basada en Electron per a GitHub. Està escrita en TypeScript i utilitza React.
+    cs_CZ: Open source aplikace pro GitHub založená na platformě Electron. Je napsána v TypeScriptu a používá React.
+    da_DK: En open source Electron-baseret GitHub-app. Den er skrevet i TypeScript og bruger React.
+    de_DE: Eine Open-Source-GitHub-App auf Electron-Basis. Sie ist in TypeScript geschrieben und verwendet React.
+    el_GR: Μια εφαρμογή GitHub ανοιχτού κώδικα που βασίζεται στο Electron. Είναι γραμμένη σε TypeScript και χρησιμοποιεί React.
+    en_GB: An open source Electron-based Github app. It is written in Typescript and uses React.
+    es_ES: Una aplicación de GitHub de código abierto basada en Electron. Está escrita en TypeScript y utiliza React.
+    fr_FR: Une application GitHub open source basée sur Electron. Elle est écrite en TypeScript et utilise React.
+    ga_IE: Aip GitHub foinse oscailte atá bunaithe ar Electron. Tá sé scríofa i TypeScript agus úsáideann sé React.
+    hr_HR: Aplikacija otvorenog koda temeljena na Electronu, dostupna na GitHubu. Napisana je u TypeScriptu i koristi React.
+    hu_HU: Egy nyílt forráskódú, Electron-alapú GitHub alkalmazás. TypeScript nyelven íródott és Reactet használ.
+    it_IT: Un'applicazione open source basata su Electron e disponibile su GitHub. È scritta in TypeScript e utilizza React.
+    ja_JP: オープンソースのElectronベースのGitHubアプリです。TypeScriptで記述されており、Reactを使用しています。
+    ko_KR: Electron 기반의 오픈 소스 GitHub 앱입니다. TypeScript로 작성되었으며 React를 사용합니다.
+    ml_IN: ഇലക്ട്രോൺ അധിഷ്ഠിതമായ ഒരു ഓപ്പൺ സോഴ്‌സ് ഗിറ്റ്ഹബ് ആപ്പ്. ഇത് ടൈപ്പ്സ്ക്രിപ്റ്റിൽ എഴുതിയിരിക്കുന്നു, കൂടാതെ റിയാക്റ്റ് ഉപയോഗിക്കുന്നു.
+    nb_NO: En GitHub-app basert på Electron med åpen kildekode. Den er skrevet i TypeScript og bruker React.
+    nl_NL: Een open source Electron-gebaseerde GitHub-app. De app is geschreven in TypeScript en maakt gebruik van React.
+    pl_PL: Aplikacja GitHub oparta na platformie Electron, oparta na kodzie źródłowym. Jest napisana w TypeScript i wykorzystuje React.
+    pt_BR: Um aplicativo GitHub de código aberto baseado em Electron. Ele foi escrito em TypeScript e utiliza React.
+    ro_RO: O aplicație GitHub open source bazată pe Electron. Este scrisă în TypeScript și folosește React.
+    ru_RU: Приложение с открытым исходным кодом на основе Electron для GitHub. Оно написано на TypeScript и использует React.
+    sk_SK: Open source aplikácia pre GitHub založená na platforme Electron. Je napísaná v jazyku TypeScript a používa React.
+    sv_SE: En GitHub-app baserad på Electron med öppen källkod. Den är skriven i TypeScript och använder React.
+    tr_TR: Açık kaynaklı, Electron tabanlı bir GitHub uygulaması. TypeScript ile yazılmış olup React kullanmaktadır.
     zh_CN: 基于 Electron 的开源 GitHub 桌面应用。
+    zh_TW: 基於 Electron 的開源 GitHub 桌面應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/github-desktop-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/github-desktop-icon.png
   title:
     en_US: Github desktop (LinuxServer.io)
+    ca_ES: Github desktop (LinuxServer.io)
+    cs_CZ: Github desktop (LinuxServer.io)
+    da_DK: Github desktop (LinuxServer.io)
+    de_DE: Github desktop (LinuxServer.io)
+    el_GR: Github desktop (LinuxServer.io)
+    en_GB: Github desktop (LinuxServer.io)
+    es_ES: Github desktop (LinuxServer.io)
+    fr_FR: Github desktop (LinuxServer.io)
+    ga_IE: Github desktop (LinuxServer.io)
+    hr_HR: Github desktop (LinuxServer.io)
+    hu_HU: Github desktop (LinuxServer.io)
+    it_IT: Github desktop (LinuxServer.io)
+    ja_JP: Github desktop (LinuxServer.io)
+    ko_KR: Github desktop (LinuxServer.io)
+    ml_IN: Github desktop (LinuxServer.io)
+    nb_NO: Github desktop (LinuxServer.io)
+    nl_NL: Github desktop (LinuxServer.io)
+    pl_PL: Github desktop (LinuxServer.io)
+    pt_BR: Github desktop (LinuxServer.io)
+    ro_RO: Github desktop (LinuxServer.io)
+    ru_RU: Github desktop (LinuxServer.io)
+    sk_SK: Github desktop (LinuxServer.io)
+    sv_SE: Github desktop (LinuxServer.io)
+    tr_TR: Github desktop (LinuxServer.io)
     zh_CN: Github desktop（LinuxServer.io）
+    zh_TW: Github desktop（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergithubdesktop
   port_map: '3000'

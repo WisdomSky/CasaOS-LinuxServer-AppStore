@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
+    ca_ES: Bazarr és una aplicació complementària a Sonarr i Radarr. Pot gestionar i descarregar subtítols segons les teves necessitats. Tu defineixes les teves preferències per programa de televisió o pel·lícula i Bazarr s'encarrega de tot per tu.
+    cs_CZ: Bazarr je doprovodná aplikace pro Sonarr a Radarr. Dokáže spravovat a stahovat titulky na základě vašich požadavků. Vy si definujete preference podle televizního pořadu nebo filmu a Bazarr se o vše postará za vás.
+    da_DK: Bazarr er en applikation, der fungerer som supplement til Sonarr og Radarr. Den kan administrere og downloade undertekster baseret på dine behov. Du definerer dine præferencer efter tv-serie eller film, og Bazarr tager sig af alt for dig.
+    de_DE: Bazarr ist eine Begleit-App zu Sonarr und Radarr. Sie verwaltet und lädt Untertitel nach Ihren Wünschen herunter. Sie definieren Ihre Präferenzen für Fernsehsendungen oder Filme, und Bazarr kümmert sich um den Rest.
+    el_GR: Το Bazarr είναι μια εφαρμογή που συνοδεύει τα Sonarr και Radarr. Μπορεί να διαχειρίζεται και να κατεβάζει υπότιτλους με βάση τις απαιτήσεις σας. Εσείς ορίζετε τις προτιμήσεις σας ανά τηλεοπτική εκπομπή ή ταινία και το Bazarr φροντίζει για όλα για εσάς.
+    en_GB: Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by Tv show or movie and Bazarr takes care of everything for you.
+    es_ES: Bazarr es una aplicación complementaria de Sonarr y Radarr. Permite gestionar y descargar subtítulos según tus necesidades. Define tus preferencias por serie o película y Bazarr se encarga del resto.
+    fr_FR: Bazarr est une application complémentaire à Sonarr et Radarr. Elle permet de gérer et de télécharger les sous-titres selon vos préférences. Vous définissez vos préférences pour chaque série ou film, et Bazarr s'occupe du reste.
+    ga_IE: Is feidhmchlár comhlach é Bazarr le Sonarr agus Radarr. Is féidir leis fotheidil a bhainistiú agus a íoslódáil bunaithe ar do riachtanais. Sainmhíníonn tú do chuid sainroghanna de réir seó teilifíse nó scannáin agus tugann Bazarr aire do gach rud duit.
+    hr_HR: Bazarr je popratna aplikacija za Sonarr i Radarr. Može upravljati i preuzimati titlove na temelju vaših zahtjeva. Vi definirate svoje postavke prema TV emisiji ili filmu, a Bazarr se brine o svemu za vas.
+    hu_HU: A Bazarr a Sonarr és a Radarr kiegészítő alkalmazása. Feliratokat kezelhet és tölthet le az igényeidnek megfelelően. Megadhatod a preferenciáidat tévéműsor vagy film szerint, és a Bazarr mindent elintéz helyetted.
+    it_IT: Bazarr è un'applicazione complementare a Sonarr e Radarr. Permette di gestire e scaricare i sottotitoli in base alle proprie esigenze. Basta definire le proprie preferenze per serie TV o film e Bazarr si occuperà di tutto il resto.
+    ja_JP: BazarrはSonarrとRadarrのコンパニオンアプリケーションです。ユーザーの要望に基づいて字幕を管理・ダウンロードできます。テレビ番組や映画ごとに好みを設定すれば、Bazarrがすべて自動的に処理してくれます。
+    ko_KR: Bazarr는 Sonarr 및 Radarr의 보조 애플리케이션입니다. 사용자의 요구 사항에 따라 자막을 관리하고 다운로드할 수 있습니다. TV 프로그램이나 영화별로 선호 사항을 설정하면 Bazarr가 모든 것을 처리해 줍니다.
+    ml_IN: സോണാറിനും റഡാറിനും ഒരു സഹകാരി ആപ്ലിക്കേഷനാണ് ബസാർ. നിങ്ങളുടെ ആവശ്യങ്ങൾക്കനുസരിച്ച് സബ്ടൈറ്റിലുകൾ കൈകാര്യം ചെയ്യാനും ഡൗൺലോഡ് ചെയ്യാനും ഇതിന് കഴിയും. ടിവി ഷോയോ സിനിമയോ ഉപയോഗിച്ച് നിങ്ങളുടെ മുൻഗണനകൾ നിങ്ങൾ നിർവചിക്കുന്നു, ബസാർ നിങ്ങൾക്കായി എല്ലാം പരിപാലിക്കുന്നു.
+    nb_NO: Bazarr er en tilleggsapplikasjon til Sonarr og Radarr. Den kan administrere og laste ned undertekster basert på dine behov. Du definerer dine preferanser per TV-program eller film, og Bazarr tar seg av alt for deg.
+    nl_NL: Bazarr is een aanvullende applicatie voor Sonarr en Radarr. Het kan ondertitels beheren en downloaden op basis van jouw wensen. Je definieert je voorkeuren per tv-serie of film en Bazarr regelt de rest voor je.
+    pl_PL: Bazarr to aplikacja towarzysząca Sonarr i Radarr. Umożliwia zarządzanie napisami i pobieranie ich zgodnie z Twoimi wymaganiami. Możesz zdefiniować swoje preferencje dla danego programu telewizyjnego lub filmu, a Bazarr zajmie się wszystkim za Ciebie.
+    pt_BR: O Bazarr é um aplicativo complementar ao Sonarr e ao Radarr. Ele gerencia e baixa legendas de acordo com suas necessidades. Você define suas preferências por série ou filme e o Bazarr cuida de tudo para você.
+    ro_RO: Bazarr este o aplicație complementară pentru Sonarr și Radarr. Poate gestiona și descărca subtitrări în funcție de cerințele tale. Îți definești preferințele în funcție de emisiunea TV sau filmul, iar Bazarr se ocupă de toate acestea pentru tine.
+    ru_RU: Bazarr — это приложение-компаньон для Sonarr и Radarr. Оно позволяет управлять субтитрами и загружать их в соответствии с вашими потребностями. Вы указываете свои предпочтения по телешоу или фильмам, а Bazarr позаботится обо всем остальном за вас.
+    sk_SK: Bazarr je doplnková aplikácia k aplikáciám Sonarr a Radarr. Dokáže spravovať a sťahovať titulky podľa vašich požiadaviek. Vy si definujete preferencie podľa televízneho programu alebo filmu a Bazarr sa o všetko postará za vás.
+    sv_SE: Bazarr är en kompletterande applikation till Sonarr och Radarr. Den kan hantera och ladda ner undertexter baserat på dina behov. Du definierar dina preferenser per TV-program eller film och Bazarr tar hand om allt åt dig.
+    tr_TR: Bazarr, Sonarr ve Radarr'ın yardımcı uygulamasıdır. İhtiyaçlarınıza göre altyazıları yönetebilir ve indirebilirsiniz. Tercihlerinizi dizi veya film bazında tanımlarsınız ve Bazarr sizin için her şeyi halleder.
     zh_CN: Bazarr 是 Sonarr 和 Radarr 的配套应用，可根据你的要求管理和下载字幕。只需按电视剧或电影设置偏好，Bazarr 就会为你处理其余工作。
+    zh_TW: Bazarr 是 Sonarr 和 Radarr 的配套應用，可根據你的要求管理和下載字幕。只需按電視劇或電影設定偏好，Bazarr 就會為你處理其餘工作。
   tagline:
     en_US: A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
+    ca_ES: Una aplicació complementària a Sonarr i Radarr. Pot gestionar i descarregar subtítols segons les teves necessitats. Tu defineixes les teves preferències per programa de televisió o pel·lícula i Bazarr s'encarrega de tot per tu.
+    cs_CZ: Doplňková aplikace pro Sonarr a Radarr. Dokáže spravovat a stahovat titulky na základě vašich požadavků. Vy si definujete preference podle televizního pořadu nebo filmu a Bazarr se o vše postará za vás.
+    da_DK: En supplementapplikation til Sonarr og Radarr. Den kan administrere og downloade undertekster baseret på dine behov. Du definerer dine præferencer efter tv-serie eller film, og Bazarr tager sig af alt for dig.
+    de_DE: Eine Begleit-App zu Sonarr und Radarr. Sie verwaltet und lädt Untertitel nach Ihren Wünschen herunter. Sie definieren Ihre Präferenzen für Fernsehsendungen oder Filme, und Bazarr kümmert sich um den Rest.
+    el_GR: Μια εφαρμογή που συνοδεύει τα Sonarr και Radarr. Μπορεί να διαχειρίζεται και να κατεβάζει υπότιτλους με βάση τις απαιτήσεις σας. Εσείς ορίζετε τις προτιμήσεις σας ανά τηλεοπτική εκπομπή ή ταινία και το Bazarr φροντίζει για όλα για εσάς.
+    en_GB: A companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by Tv show or movie and Bazarr takes care of everything for you.
+    es_ES: Una aplicación complementaria para Sonarr y Radarr. Permite gestionar y descargar subtítulos según tus necesidades. Define tus preferencias por serie o película y Bazarr se encarga del resto.
+    fr_FR: Bazarr est une application complémentaire à Sonarr et Radarr. Elle permet de gérer et de télécharger les sous-titres selon vos préférences. Vous définissez vos critères pour chaque série ou film, et Bazarr s'occupe du reste.
+    ga_IE: Feidhmchlár tionlacain do Sonarr agus Radarr. Is féidir leis fotheidil a bhainistiú agus a íoslódáil bunaithe ar do riachtanais. Sainmhíníonn tú do chuid sainroghanna de réir seó teilifíse nó scannáin agus tabharfaidh Bazarr aire do gach rud duit.
+    hr_HR: Prateća aplikacija za Sonarr i Radarr. Može upravljati i preuzimati titlove na temelju vaših zahtjeva. Vi definirate svoje postavke prema TV emisiji ili filmu, a Bazarr se brine o svemu za vas.
+    hu_HU: A Sonarr és a Radarr kiegészítő alkalmazása. Feliratokat kezelhet és tölthet le az igényeidnek megfelelően. Megadhatod a preferenciáidat tévéműsor vagy film szerint, és a Bazarr mindent elintéz helyetted.
+    it_IT: Un'applicazione complementare a Sonarr e Radarr. Permette di gestire e scaricare i sottotitoli in base alle proprie esigenze. Basta definire le proprie preferenze per serie TV o film e Bazarr si occuperà di tutto il resto.
+    ja_JP: SonarrとRadarrのコンパニオンアプリです。あなたのニーズに合わせて字幕を管理・ダウンロードできます。テレビ番組や映画ごとに好みを設定すれば、Bazarrがすべて自動的に処理してくれます。
+    ko_KR: Sonarr 및 Radarr와 함께 사용할 수 있는 보조 애플리케이션입니다. 사용자의 요구 사항에 따라 자막을 관리하고 다운로드할 수 있습니다. TV 프로그램이나 영화별로 선호 사항을 설정하면 Bazarr가 모든 것을 처리해 줍니다.
+    ml_IN: സോണാറിനും റഡാറിനും ഒരു സഹകാരി ആപ്ലിക്കേഷൻ. നിങ്ങളുടെ ആവശ്യങ്ങൾക്കനുസരിച്ച് സബ്‌ടൈറ്റിലുകൾ കൈകാര്യം ചെയ്യാനും ഡൗൺലോഡ് ചെയ്യാനും ഇതിന് കഴിയും. ടിവി ഷോയോ സിനിമയോ ഉപയോഗിച്ച് നിങ്ങളുടെ മുൻഗണനകൾ നിങ്ങൾ നിർവചിക്കുന്നു, ബസാർ നിങ്ങൾക്കായി എല്ലാം പരിപാലിക്കുന്നു.
+    nb_NO: En tilleggsapplikasjon til Sonarr og Radarr. Den kan administrere og laste ned undertekster basert på dine behov. Du definerer dine preferanser per TV-program eller film, og Bazarr tar seg av alt for deg.
+    nl_NL: Een aanvullende app voor Sonarr en Radarr. Hiermee kunt u ondertitels beheren en downloaden op basis van uw wensen. U definieert uw voorkeuren per tv-serie of film en Bazarr regelt de rest voor u.
+    pl_PL: Aplikacja towarzysząca Sonarr i Radarr. Umożliwia zarządzanie napisami i pobieranie ich zgodnie z Twoimi wymaganiami. Określ swoje preferencje dla programu telewizyjnego lub filmu, a Bazarr zajmie się wszystkim za Ciebie.
+    pt_BR: Um aplicativo complementar ao Sonarr e ao Radarr. Ele gerencia e baixa legendas de acordo com suas necessidades. Você define suas preferências por série ou filme e o Bazarr cuida de tudo para você.
+    ro_RO: O aplicație complementară pentru Sonarr și Radarr. Poate gestiona și descărca subtitrări în funcție de cerințele tale. Îți definești preferințele în funcție de emisiunea TV sau filmul, iar Bazarr se ocupă de toate acestea pentru tine.
+    ru_RU: Приложение-компаньон для Sonarr и Radarr. Оно позволяет управлять субтитрами и загружать их в соответствии с вашими потребностями. Вы указываете свои предпочтения по телешоу или фильмам, а Bazarr позаботится обо всем остальном за вас.
+    sk_SK: Doplnková aplikácia k aplikáciám Sonarr a Radarr. Dokáže spravovať a sťahovať titulky podľa vašich požiadaviek. Vy si definujete preferencie podľa televízneho programu alebo filmu a Bazarr sa o všetko postará za vás.
+    sv_SE: En kompletterande applikation till Sonarr och Radarr. Den kan hantera och ladda ner undertexter baserat på dina behov. Du definierar dina preferenser per TV-program eller film och Bazarr tar hand om allt åt dig.
+    tr_TR: Sonarr ve Radarr'ın yardımcı uygulamasıdır. İhtiyaçlarınıza göre altyazıları yönetebilir ve indirebilirsiniz. Tercihlerinizi dizi veya film bazında tanımlarsınız ve Bazarr sizin için her şeyi halleder.
     zh_CN: 为 Sonarr 和 Radarr 管理、下载字幕。
+    zh_TW: 為 Sonarr 和 Radarr 管理、下載字幕。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
   title:
     en_US: Bazarr (LinuxServer.io)
+    ca_ES: Bazarr (LinuxServer.io)
+    cs_CZ: Bazarr (LinuxServer.io)
+    da_DK: Bazarr (LinuxServer.io)
+    de_DE: Bazarr (LinuxServer.io)
+    el_GR: Bazarr (LinuxServer.io)
+    en_GB: Bazarr (LinuxServer.io)
+    es_ES: Bazarr (LinuxServer.io)
+    fr_FR: Bazarr (LinuxServer.io)
+    ga_IE: Bazarr (LinuxServer.io)
+    hr_HR: Bazarr (LinuxServer.io)
+    hu_HU: Bazarr (LinuxServer.io)
+    it_IT: Bazarr (LinuxServer.io)
+    ja_JP: Bazarr (LinuxServer.io)
+    ko_KR: Bazarr (LinuxServer.io)
+    ml_IN: Bazarr (LinuxServer.io)
+    nb_NO: Bazarr (LinuxServer.io)
+    nl_NL: Bazarr (LinuxServer.io)
+    pl_PL: Bazarr (LinuxServer.io)
+    pt_BR: Bazarr (LinuxServer.io)
+    ro_RO: Bazarr (LinuxServer.io)
+    ru_RU: Bazarr (LinuxServer.io)
+    sk_SK: Bazarr (LinuxServer.io)
+    sv_SE: Bazarr (LinuxServer.io)
+    tr_TR: Bazarr (LinuxServer.io)
     zh_CN: Bazarr（LinuxServer.io）
+    zh_TW: Bazarr（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverbazarr
   port_map: '6767'

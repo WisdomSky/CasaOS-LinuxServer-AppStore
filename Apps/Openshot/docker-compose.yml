@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.
+    ca_ES: OpenShot Video Editor és un editor de vídeo gratuït i de codi obert guardonat per a Linux, Mac i Windows, i es dedica a oferir solucions d'edició i animació de vídeo d'alta qualitat al món.
+    cs_CZ: OpenShot Video Editor je oceňovaný bezplatný editor videa s otevřeným zdrojovým kódem pro Linux, Mac a Windows, který se věnuje poskytování vysoce kvalitních řešení pro střih videa a animaci po celém světě.
+    da_DK: OpenShot Video Editor er et prisvindende gratis open source-videoredigeringsprogram til Linux, Mac og Windows, der er dedikeret til at levere videoredigerings- og animationsløsninger af høj kvalitet til verden.
+    de_DE: OpenShot Video Editor ist ein preisgekrönter kostenloser Open-Source-Videoeditor für Linux, Mac und Windows, der sich zum Ziel gesetzt hat, der Welt hochwertige Lösungen für Videobearbeitung und Animation zu bieten.
+    el_GR: Το OpenShot Video Editor είναι ένα βραβευμένο δωρεάν και ανοιχτού κώδικα πρόγραμμα επεξεργασίας βίντεο για Linux, Mac και Windows, και είναι αφιερωμένο στην παροχή υψηλής ποιότητας λύσεων επεξεργασίας βίντεο και κινουμένων σχεδίων στον κόσμο.
+    en_GB: Openshot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.
+    es_ES: OpenShot Video Editor es un editor de vídeo gratuito y de código abierto, galardonado y compatible con Linux, Mac y Windows, dedicado a ofrecer soluciones de edición de vídeo y animación de alta calidad a todo el mundo.
+    fr_FR: OpenShot Video Editor est un logiciel de montage vidéo gratuit et open source primé, disponible pour Linux, Mac et Windows, et qui a pour vocation de fournir au monde entier des solutions de montage vidéo et d'animation de haute qualité.
+    ga_IE: Is eagarthóir físe foinse oscailte saor in aisce é OpenShot Video Editor atá duaiseach agus atá dírithe ar Linux, Mac, agus Windows, agus tá sé tiomanta do réitigh ardchaighdeáin eagarthóireachta físe agus beochana a sheachadadh don domhan.
+    hr_HR: OpenShot Video Editor je nagrađivani besplatni video editor otvorenog koda za Linux, Mac i Windows, posvećen pružanju visokokvalitetnih rješenja za uređivanje videa i animaciju svijetu.
+    hu_HU: Az OpenShot Video Editor egy díjnyertes, ingyenes és nyílt forráskódú videószerkesztő Linux, Mac és Windows rendszerekre, és elkötelezett amellett, hogy kiváló minőségű videószerkesztési és animációs megoldásokat nyújtson a világ számára.
+    it_IT: OpenShot Video Editor è un editor video gratuito e open source pluripremiato per Linux, Mac e Windows, dedicato a fornire soluzioni di editing video e animazione di alta qualità a livello globale.
+    ja_JP: OpenShot Video Editorは、Linux、Mac、Windowsに対応した、受賞歴のある無料のオープンソースビデオエディターであり、高品質なビデオ編集およびアニメーションソリューションを世界に提供することに専念しています。
+    ko_KR: OpenShot Video Editor는 수상 경력에 빛나는 무료 오픈 소스 비디오 편집기로, Linux, Mac 및 Windows에서 사용할 수 있으며, 전 세계에 고품질 비디오 편집 및 애니메이션 솔루션을 제공하는 데 전념하고 있습니다.
+    ml_IN: ലിനക്സ്, മാക്, വിൻഡോസ് എന്നിവയ്‌ക്കായുള്ള അവാർഡ് നേടിയ സൗജന്യ, ഓപ്പൺ സോഴ്‌സ് വീഡിയോ എഡിറ്ററാണ് ഓപ്പൺഷോട്ട് വീഡിയോ എഡിറ്റർ, ഉയർന്ന നിലവാരമുള്ള വീഡിയോ എഡിറ്റിംഗും ആനിമേഷൻ പരിഹാരങ്ങളും ലോകത്തിന് എത്തിക്കുന്നതിന് സമർപ്പിതമാണ്.
+    nb_NO: OpenShot Video Editor er et prisvinnende gratis videoredigeringsprogram med åpen kildekode for Linux, Mac og Windows, og er dedikert til å levere videoredigerings- og animasjonsløsninger av høy kvalitet til verden.
+    nl_NL: OpenShot Video Editor is een bekroonde, gratis en open-source video-editor voor Linux, Mac en Windows, die zich inzet voor het leveren van hoogwaardige oplossingen voor videobewerking en animatie aan de wereld.
+    pl_PL: OpenShot Video Editor to wielokrotnie nagradzany, darmowy i otwarty edytor wideo dla systemów Linux, Mac i Windows, którego celem jest dostarczanie światu wysokiej jakości rozwiązań do edycji wideo i animacji.
+    pt_BR: O OpenShot Video Editor é um editor de vídeo gratuito e de código aberto premiado para Linux, Mac e Windows, dedicado a fornecer soluções de edição de vídeo e animação de alta qualidade para o mundo.
+    ro_RO: OpenShot Video Editor este un editor video gratuit și open-source premiat pentru Linux, Mac și Windows, dedicat furnizării de soluții de editare video și animație de înaltă calitate în întreaga lume.
+    ru_RU: OpenShot Video Editor — это отмеченный наградами бесплатный видеоредактор с открытым исходным кодом для Linux, Mac и Windows, призванный предоставлять миру высококачественные решения для видеомонтажа и анимации.
+    sk_SK: OpenShot Video Editor je oceňovaný bezplatný editor videa s otvoreným zdrojovým kódom pre Linux, Mac a Windows, ktorý sa venuje poskytovaniu vysokokvalitných riešení pre strih videa a animácie celému svetu.
+    sv_SE: OpenShot Video Editor är en prisbelönt gratis videoredigerare med öppen källkod för Linux, Mac och Windows, och är dedikerad till att leverera högkvalitativa videoredigerings- och animationslösningar till världen.
+    tr_TR: OpenShot Video Editor, Linux, Mac ve Windows için ödüllü, ücretsiz ve açık kaynaklı bir video düzenleme programıdır ve dünyaya yüksek kaliteli video düzenleme ve animasyon çözümleri sunmaya kendini adamıştır.
     zh_CN: OpenShot Video Editor 是一款屡获奖项的免费开源视频编辑器，适用于 Linux、Mac 和 Windows，致力于为全球用户提供高质量的视频编辑和动画制作方案。
+    zh_TW: OpenShot Video Editor 是一款屢獲獎項的免費開源影片編輯器，適用於 Linux、Mac 和 Windows，致力於為全球使用者提供高質量的影片編輯和動畫製作方案。
   tagline:
     en_US: Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.
+    ca_ES: Video Editor és un editor de vídeo gratuït i de codi obert guardonat per a Linux, Mac i Windows, i es dedica a oferir solucions d'edició de vídeo i animació d'alta qualitat al món.
+    cs_CZ: Video Editor je oceňovaný bezplatný a open-source video editor pro Linux, Mac a Windows, který se věnuje poskytování vysoce kvalitních řešení pro střih videa a animaci po celém světě.
+    da_DK: Video Editor er et prisvindende gratis og open source-videoredigeringsprogram til Linux, Mac og Windows, der er dedikeret til at levere videoredigerings- og animationsløsninger af høj kvalitet til verden.
+    de_DE: Video Editor ist ein preisgekrönter kostenloser Open-Source-Videoeditor für Linux, Mac und Windows, der sich zum Ziel gesetzt hat, der Welt hochwertige Lösungen für Videobearbeitung und Animation zu bieten.
+    el_GR: Το Video Editor είναι ένα βραβευμένο δωρεάν και ανοιχτού κώδικα πρόγραμμα επεξεργασίας βίντεο για Linux, Mac και Windows, και είναι αφιερωμένο στην παροχή υψηλής ποιότητας λύσεων επεξεργασίας βίντεο και κινουμένων σχεδίων στον κόσμο.
+    en_GB: Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.
+    es_ES: Video Editor es un editor de vídeo gratuito y de código abierto, galardonado y compatible con Linux, Mac y Windows, dedicado a ofrecer soluciones de edición de vídeo y animación de alta calidad a todo el mundo.
+    fr_FR: Video Editor est un logiciel de montage vidéo gratuit et open source primé, disponible pour Linux, Mac et Windows, et qui se consacre à fournir au monde entier des solutions de montage vidéo et d'animation de haute qualité.
+    ga_IE: Is eagarthóir físe foinse oscailte saor in aisce é Video Editor atá duaiseach agus atá dírithe ar Linux, Mac, agus Windows, agus tá sé tiomanta do réitigh ardchaighdeáin eagarthóireachta físe agus beochana a sheachadadh don domhan.
+    hr_HR: Video Editor je nagrađivani besplatni program za uređivanje videa otvorenog koda za Linux, Mac i Windows, a posvećen je pružanju visokokvalitetnih rješenja za uređivanje videa i animaciju cijelom svijetu.
+    hu_HU: A Video Editor egy díjnyertes, ingyenes és nyílt forráskódú videószerkesztő Linux, Mac és Windows rendszerekre, és elkötelezett amellett, hogy kiváló minőségű videószerkesztési és animációs megoldásokat nyújtson a világ számára.
+    it_IT: Video Editor è un editor video gratuito e open-source pluripremiato per Linux, Mac e Windows, dedicato a fornire soluzioni di editing video e animazione di alta qualità a livello globale.
+    ja_JP: Video Editorは、Linux、Mac、Windowsに対応した、受賞歴のある無料のオープンソースビデオエディターであり、高品質なビデオ編集およびアニメーションソリューションを世界に提供することに専念しています。
+    ko_KR: Video Editor는 수상 경력에 빛나는 무료 오픈 소스 비디오 편집기로 Linux, Mac 및 Windows에서 사용할 수 있으며, 전 세계에 고품질 비디오 편집 및 애니메이션 솔루션을 제공하는 데 전념하고 있습니다.
+    ml_IN: വീഡിയോ എഡിറ്റർ ലിനക്സ്, മാക്, വിൻഡോസ് എന്നിവയ്‌ക്കായുള്ള അവാർഡ് നേടിയ സൗജന്യവും ഓപ്പൺ സോഴ്‌സ് വീഡിയോ എഡിറ്ററുമാണ്, കൂടാതെ ഉയർന്ന നിലവാരമുള്ള വീഡിയോ എഡിറ്റിംഗും ആനിമേഷൻ പരിഹാരങ്ങളും ലോകത്തിന് എത്തിക്കുന്നതിന് സമർപ്പിതമാണ്.
+    nb_NO: Video Editor er et prisvinnende gratis videoredigeringsprogram med åpen kildekode for Linux, Mac og Windows, og er dedikert til å levere videoredigerings- og animasjonsløsninger av høy kvalitet til verden.
+    nl_NL: Video Editor is een bekroonde, gratis en open-source video-editor voor Linux, Mac en Windows, die zich toelegt op het leveren van hoogwaardige oplossingen voor videobewerking en animatie aan de wereld.
+    pl_PL: Video Editor to wielokrotnie nagradzany, darmowy i otwarty edytor wideo dla systemów Linux, Mac i Windows, którego celem jest dostarczanie światu wysokiej jakości rozwiązań do edycji wideo i animacji.
+    pt_BR: O Video Editor é um editor de vídeo gratuito e de código aberto premiado para Linux, Mac e Windows, dedicado a fornecer soluções de edição de vídeo e animação de alta qualidade para o mundo.
+    ro_RO: Video Editor este un editor video gratuit și open-source premiat pentru Linux, Mac și Windows, dedicat furnizării de soluții de editare video și animație de înaltă calitate în întreaga lume.
+    ru_RU: Video Editor — это отмеченный наградами бесплатный видеоредактор с открытым исходным кодом для Linux, Mac и Windows, призванный предоставлять миру высококачественные решения для видеомонтажа и анимации.
+    sk_SK: Video Editor je oceňovaný bezplatný editor videa s otvoreným zdrojovým kódom pre Linux, Mac a Windows, ktorý sa venuje poskytovaniu vysokokvalitných riešení pre strih videa a animácie celému svetu.
+    sv_SE: Video Editor är en prisbelönt gratis videoredigerare med öppen källkod för Linux, Mac och Windows, och är dedikerad till att leverera högkvalitativa videoredigerings- och animationslösningar till världen.
+    tr_TR: Video Editor, Linux, Mac ve Windows için ödüllü, ücretsiz ve açık kaynaklı bir video düzenleme programıdır ve dünyaya yüksek kaliteli video düzenleme ve animasyon çözümleri sunmaya kendini adamıştır.
     zh_CN: 跨平台的免费开源视频编辑器。
+    zh_TW: 跨平臺的免費開源影片編輯器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openshot-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openshot-logo.png
   title:
     en_US: Openshot (LinuxServer.io)
+    ca_ES: Openshot (LinuxServer.io)
+    cs_CZ: Openshot (LinuxServer.io)
+    da_DK: Openshot (LinuxServer.io)
+    de_DE: Openshot (LinuxServer.io)
+    el_GR: Openshot (LinuxServer.io)
+    en_GB: Openshot (LinuxServer.io)
+    es_ES: Openshot (LinuxServer.io)
+    fr_FR: Openshot (LinuxServer.io)
+    ga_IE: Openshot (LinuxServer.io)
+    hr_HR: Openshot (LinuxServer.io)
+    hu_HU: Openshot (LinuxServer.io)
+    it_IT: Openshot (LinuxServer.io)
+    ja_JP: Openshot (LinuxServer.io)
+    ko_KR: Openshot (LinuxServer.io)
+    ml_IN: Openshot (LinuxServer.io)
+    nb_NO: Openshot (LinuxServer.io)
+    nl_NL: Openshot (LinuxServer.io)
+    pl_PL: Openshot (LinuxServer.io)
+    pt_BR: Openshot (LinuxServer.io)
+    ro_RO: Openshot (LinuxServer.io)
+    ru_RU: Openshot (LinuxServer.io)
+    sk_SK: Openshot (LinuxServer.io)
+    sv_SE: Openshot (LinuxServer.io)
+    tr_TR: Openshot (LinuxServer.io)
     zh_CN: Openshot（LinuxServer.io）
+    zh_TW: Openshot（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserveropenshot
   port_map: '3000'

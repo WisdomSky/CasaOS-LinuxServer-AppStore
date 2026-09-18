@@ -54,9 +54,59 @@ x-casaos:
   description:
     en_US: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
     zh_CN: Fleet 提供在线网页界面，用于展示你拥有的一个或多个仓库中维护的镜像。
+    ca_ES: Fleet proporciona una interfície web en línia que mostra un conjunt d'imatges mantingudes d'un o més repositoris propis.
+    cs_CZ: Fleet poskytuje online webové rozhraní, které zobrazuje sadu spravovaných obrazů z jednoho nebo více vlastněných repozitářů.
+    da_DK: Fleet tilbyder en online webgrænseflade, der viser et sæt vedligeholdte billeder fra et eller flere ejede arkiver.
+    de_DE: Fleet bietet eine Online-Weboberfläche, die eine Reihe von gepflegten Images aus einem oder mehreren eigenen Repositories anzeigt.
+    el_GR: Το Fleet παρέχει μια διαδικτυακή διεπαφή ιστού που εμφανίζει ένα σύνολο διατηρούμενων εικόνων από ένα ή περισσότερα ιδιόκτητα αποθετήρια.
+    en_GB: Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
+    es_ES: Fleet proporciona una interfaz web en línea que muestra un conjunto de imágenes mantenidas procedentes de uno o más repositorios propios.
+    fr_FR: Fleet propose une interface web en ligne qui affiche un ensemble d'images mises à jour provenant d'un ou plusieurs dépôts dont elle est propriétaire.
+    ga_IE: Cuireann Fleet comhéadan gréasáin ar líne ar fáil a thaispeánann sraith íomhánna cothabháilte ó stór amháin nó níos mó atá faoi úinéireacht.
+    hr_HR: Fleet pruža online web sučelje koje prikazuje skup održavanih slika iz jednog ili više vlastitih repozitorija.
+    hu_HU: A Fleet egy online webes felületet biztosít, amely egy vagy több saját adattárból származó karbantartott képfájlokat jelenít meg.
+    it_IT: Fleet fornisce un'interfaccia web online che visualizza una serie di immagini gestite provenienti da uno o più repository di proprietà.
+    ja_JP: Fleetは、1つまたは複数の所有リポジトリから管理されている一連のイメージを表示するオンラインWebインターフェースを提供します。
+    ko_KR: Fleet은 하나 이상의 소유 저장소에서 관리되는 이미지 세트를 표시하는 온라인 웹 인터페이스를 제공합니다.
+    ml_IN: ഒന്നോ അതിലധികമോ ഉടമസ്ഥതയിലുള്ള റിപ്പോസിറ്ററികളിൽ നിന്നുള്ള ഒരു കൂട്ടം ചിത്രങ്ങൾ പ്രദർശിപ്പിക്കുന്ന ഒരു ഓൺലൈൻ വെബ് ഇന്റർഫേസ് ഫ്ലീറ്റ് നൽകുന്നു.
+    nb_NO: Fleet tilbyr et nettbasert webgrensesnitt som viser et sett med vedlikeholdte bilder fra ett eller flere eide arkiver.
+    nl_NL: Fleet biedt een online webinterface die een reeks beheerde afbeeldingen uit een of meer eigen opslagplaatsen weergeeft.
+    pl_PL: Fleet udostępnia internetowy interfejs, który wyświetla zestaw utrzymywanych obrazów z jednego lub większej liczby posiadanych repozytoriów.
+    pt_BR: O Fleet fornece uma interface web online que exibe um conjunto de imagens mantidas a partir de um ou mais repositórios próprios.
+    ro_RO: Fleet oferă o interfață web online care afișează un set de imagini întreținute din unul sau mai multe depozite deținute.
+    ru_RU: Fleet предоставляет веб-интерфейс, отображающий набор поддерживаемых образов из одного или нескольких собственных репозиториев.
+    sk_SK: Fleet poskytuje online webové rozhranie, ktoré zobrazuje sadu spravovaných obrázkov z jedného alebo viacerých vlastnených repozitárov.
+    sv_SE: Fleet tillhandahåller ett online-webbgränssnitt som visar en uppsättning underhållna bilder från ett eller flera ägda arkiv.
+    tr_TR: Fleet, bir veya daha fazla sahip olunan depodan alınan ve bakımı yapılan bir dizi görüntüyü görüntüleyen çevrimiçi bir web arayüzü sağlar.
+    zh_TW: Fleet 提供線上網頁介面，用於展示你擁有的一個或多個倉庫中維護的映象。
   tagline:
     en_US: 'Provides an online web interface which displays a set of maintained images from one or more owned repositories. '
     zh_CN: 通过网页查看所维护的容器镜像。
+    ca_ES: Proporciona una interfície web en línia que mostra un conjunt d'imatges mantingudes d'un o més repositoris propis.
+    cs_CZ: Poskytuje online webové rozhraní, které zobrazuje sadu spravovaných obrazů z jednoho nebo více vlastněných repozitářů.
+    da_DK: Tilbyder en online webgrænseflade, der viser et sæt vedligeholdte billeder fra et eller flere ejede arkiver.
+    de_DE: Bietet eine Online-Weboberfläche, die eine Reihe von gepflegten Bildern aus einem oder mehreren eigenen Repositories anzeigt.
+    el_GR: Παρέχει μια διαδικτυακή διεπαφή ιστού που εμφανίζει ένα σύνολο διατηρούμενων εικόνων από ένα ή περισσότερα ιδιόκτητα αποθετήρια.
+    en_GB: 'Provides an online web interface which displays a set of maintained images from one or more owned repositories. '
+    es_ES: Proporciona una interfaz web en línea que muestra un conjunto de imágenes mantenidas procedentes de uno o más repositorios propios.
+    fr_FR: Fournit une interface web en ligne qui affiche un ensemble d'images mises à jour provenant d'un ou plusieurs dépôts détenus.
+    ga_IE: Soláthraíonn sé comhéadan gréasáin ar líne a thaispeánann sraith íomhánna cothabháilte ó stór amháin nó níos mó atá faoi úinéireacht.
+    hr_HR: Pruža online web sučelje koje prikazuje skup održavanih slika iz jednog ili više vlastitih repozitorija.
+    hu_HU: Online webes felületet biztosít, amely egy vagy több saját adattárból származó karbantartott képfájlokat jelenít meg.
+    it_IT: Fornisce un'interfaccia web online che visualizza una serie di immagini gestite provenienti da uno o più repository di proprietà.
+    ja_JP: 1つまたは複数の所有リポジトリから管理されている一連の画像を表示するオンラインWebインターフェースを提供します。
+    ko_KR: 하나 이상의 소유 저장소에서 관리되는 이미지 세트를 표시하는 온라인 웹 인터페이스를 제공합니다.
+    ml_IN: ഒന്നോ അതിലധികമോ ഉടമസ്ഥതയിലുള്ള റിപ്പോസിറ്ററികളിൽ നിന്നുള്ള ഒരു കൂട്ടം ഇമേജുകൾ പ്രദർശിപ്പിക്കുന്ന ഒരു ഓൺലൈൻ വെബ് ഇന്റർഫേസ് നൽകുന്നു.
+    nb_NO: Tilbyr et nettbasert webgrensesnitt som viser et sett med vedlikeholdte bilder fra ett eller flere eide arkiver.
+    nl_NL: Biedt een online webinterface die een set beheerde afbeeldingen uit een of meer eigen repositories weergeeft.
+    pl_PL: Udostępnia internetowy interfejs, który wyświetla zestaw utrzymywanych obrazów z jednego lub większej liczby posiadanych repozytoriów.
+    pt_BR: Fornece uma interface web online que exibe um conjunto de imagens mantidas a partir de um ou mais repositórios próprios.
+    ro_RO: Oferă o interfață web online care afișează un set de imagini întreținute din unul sau mai multe depozite deținute.
+    ru_RU: Предоставляет веб-интерфейс, отображающий набор поддерживаемых образов из одного или нескольких собственных репозиториев.
+    sk_SK: Poskytuje online webové rozhranie, ktoré zobrazuje sadu spravovaných obrázkov z jedného alebo viacerých vlastnených repozitárov.
+    sv_SE: Tillhandahåller ett online-webbgränssnitt som visar en uppsättning underhållna bilder från ett eller flera ägda arkiv.
+    tr_TR: Sahip olunan bir veya daha fazla depodan derlenmiş bir dizi görüntüyü görüntüleyen çevrimiçi bir web arayüzü sağlar.
+    zh_TW: 透過網頁檢視所維護的容器映象。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
@@ -64,6 +114,31 @@ x-casaos:
   title:
     en_US: Fleet
     zh_CN: Fleet
+    ca_ES: Fleet
+    cs_CZ: Fleet
+    da_DK: Fleet
+    de_DE: Fleet
+    el_GR: Fleet
+    en_GB: Fleet
+    es_ES: Fleet
+    fr_FR: Fleet
+    ga_IE: Fleet
+    hr_HR: Fleet
+    hu_HU: Fleet
+    it_IT: Fleet
+    ja_JP: Fleet
+    ko_KR: Fleet
+    ml_IN: Fleet
+    nb_NO: Fleet
+    nl_NL: Fleet
+    pl_PL: Fleet
+    pt_BR: Fleet
+    ro_RO: Fleet
+    ru_RU: Fleet
+    sk_SK: Fleet
+    sv_SE: Fleet
+    tr_TR: Fleet
+    zh_TW: Fleet
   category: Others
   port_map: '8080'
   id: wisdomsky.linuxserver.linuxserverfleet

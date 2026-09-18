@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application.
+    ca_ES: Ferdium és una aplicació d'escriptori que t'ajuda a organitzar com fas servir les teves aplicacions preferides combinant-les en una sola aplicació.
+    cs_CZ: Ferdium je desktopová aplikace, která vám pomůže uspořádat používání vašich oblíbených aplikací jejich sloučením do jedné aplikace.
+    da_DK: Ferdium er en desktop-app, der hjælper dig med at organisere, hvordan du bruger dine yndlingsapps, ved at kombinere dem i én applikation.
+    de_DE: Ferdium ist eine Desktop-Anwendung, die Ihnen hilft, die Nutzung Ihrer Lieblings-Apps zu organisieren, indem sie diese in einer einzigen Anwendung vereint.
+    el_GR: Το Ferdium είναι μια εφαρμογή για υπολογιστές που σας βοηθά να οργανώσετε τον τρόπο με τον οποίο χρησιμοποιείτε τις αγαπημένες σας εφαρμογές, συνδυάζοντάς τες σε μία εφαρμογή.
+    en_GB: Ferdium is a desktop app that helps you organise how you use your favourite apps by combining them into one application.
+    es_ES: Ferdium es una aplicación de escritorio que te ayuda a organizar el uso de tus aplicaciones favoritas combinándolas en una sola aplicación.
+    fr_FR: Ferdium est une application de bureau qui vous aide à organiser l'utilisation de vos applications préférées en les combinant en une seule application.
+    ga_IE: Is aip deisce é Ferdium a chabhraíonn leat d’aipeanna is fearr leat a eagrú trí iad a chomhcheangal in aon fheidhmchlár amháin.
+    hr_HR: Ferdium je desktop aplikacija koja vam pomaže organizirati način korištenja vaših omiljenih aplikacija kombinirajući ih u jednu aplikaciju.
+    hu_HU: A Ferdium egy asztali alkalmazás, amely segít rendszerezni kedvenc alkalmazásaid használatát azáltal, hogy egyetlen alkalmazásba egyesíti őket.
+    it_IT: Ferdium è un'applicazione desktop che ti aiuta a organizzare l'utilizzo delle tue app preferite, riunendole in un'unica applicazione.
+    ja_JP: Ferdiumは、お気に入りのアプリを1つのアプリケーションに統合することで、それらの使用方法を整理するのに役立つデスクトップアプリです。
+    ko_KR: Ferdium은 즐겨 사용하는 앱들을 하나의 애플리케이션으로 통합하여 사용 방식을 체계적으로 정리할 수 있도록 도와주는 데스크톱 앱입니다.
+    ml_IN: നിങ്ങളുടെ പ്രിയപ്പെട്ട ആപ്പുകൾ ഒരു ആപ്ലിക്കേഷനായി സംയോജിപ്പിച്ച് അവ എങ്ങനെ ഉപയോഗിക്കണമെന്ന് ക്രമീകരിക്കാൻ സഹായിക്കുന്ന ഒരു ഡെസ്ക്ടോപ്പ് ആപ്പാണ് ഫെർഡിയം.
+    nb_NO: Ferdium er en skrivebordsapp som hjelper deg med å organisere hvordan du bruker favorittappene dine ved å kombinere dem i én applikasjon.
+    nl_NL: Ferdium is een desktop-app waarmee je je favoriete apps overzichtelijker kunt gebruiken door ze in één applicatie te combineren.
+    pl_PL: Ferdium to aplikacja komputerowa, która pomaga uporządkować sposób korzystania z ulubionych aplikacji poprzez połączenie ich w jedną aplikację.
+    pt_BR: Ferdium é um aplicativo para computador que ajuda você a organizar o uso de seus aplicativos favoritos, combinando-os em um único aplicativo.
+    ro_RO: Ferdium este o aplicație pentru desktop care te ajută să organizezi modul în care utilizezi aplicațiile tale preferate, combinându-le într-o singură aplicație.
+    ru_RU: Ferdium — это настольное приложение, которое помогает упорядочить использование ваших любимых приложений, объединяя их в одном приложении.
+    sk_SK: Ferdium je desktopová aplikácia, ktorá vám pomôže usporiadať si používanie vašich obľúbených aplikácií ich zlúčením do jednej aplikácie.
+    sv_SE: Ferdium är en skrivbordsapp som hjälper dig att organisera hur du använder dina favoritappar genom att kombinera dem i en enda applikation.
+    tr_TR: Ferdium, en sevdiğiniz uygulamaları tek bir uygulamada birleştirerek kullanım şeklinizi düzenlemenize yardımcı olan bir masaüstü uygulamasıdır.
     zh_CN: Ferdium 是一款桌面应用，通过将常用应用整合到一个应用中，帮助你更有条理地使用它们。
+    zh_TW: Ferdium 是一款桌面應用，透過將常用應用整合到一個應用中，幫助你更有條理地使用它們。
   tagline:
     en_US: A desktop app that helps you organize how you use your favourite apps by combining them into one application.
+    ca_ES: Una aplicació d'escriptori que t'ajuda a organitzar com fas servir les teves aplicacions preferides combinant-les en una sola aplicació.
+    cs_CZ: Desktopová aplikace, která vám pomůže uspořádat používání vašich oblíbených aplikací jejich sloučením do jedné aplikace.
+    da_DK: En desktop-app, der hjælper dig med at organisere, hvordan du bruger dine yndlingsapps, ved at kombinere dem i én applikation.
+    de_DE: Eine Desktop-App, die Ihnen hilft, die Nutzung Ihrer Lieblings-Apps zu organisieren, indem sie diese in einer einzigen Anwendung vereint.
+    el_GR: Μια εφαρμογή για υπολογιστές που σας βοηθά να οργανώσετε τον τρόπο χρήσης των αγαπημένων σας εφαρμογών, συνδυάζοντάς τες σε μία εφαρμογή.
+    en_GB: A desktop app that helps you organise how you use your favourite apps by combining them into one application.
+    es_ES: Una aplicación de escritorio que te ayuda a organizar el uso de tus aplicaciones favoritas combinándolas en una sola.
+    fr_FR: Une application de bureau qui vous aide à organiser l'utilisation de vos applications préférées en les combinant dans une seule application.
+    ga_IE: Aip deisce a chabhraíonn leat d’aipeanna is fearr leat a eagrú trína gcomhcheangal in aon fheidhmchlár amháin.
+    hr_HR: Aplikacija za stolna računala koja vam pomaže organizirati način korištenja omiljenih aplikacija kombinirajući ih u jednu aplikaciju.
+    hu_HU: Egy asztali alkalmazás, amely segít rendszerezni kedvenc alkalmazásaid használatát azáltal, hogy egyetlen alkalmazásba egyesíti őket.
+    it_IT: Un'applicazione desktop che ti aiuta a organizzare l'utilizzo delle tue app preferite, raggruppandole in un'unica applicazione.
+    ja_JP: お気に入りのアプリを1つのアプリケーションに統合することで、それらの使用方法を整理するのに役立つデスクトップアプリです。
+    ko_KR: 즐겨 사용하는 앱들을 하나의 애플리케이션으로 통합하여 사용 방식을 정리하는 데 도움을 주는 데스크톱 앱입니다.
+    ml_IN: നിങ്ങളുടെ പ്രിയപ്പെട്ട ആപ്പുകൾ ഒരു ആപ്ലിക്കേഷനായി സംയോജിപ്പിച്ച് അവ എങ്ങനെ ഉപയോഗിക്കണമെന്ന് ക്രമീകരിക്കാൻ സഹായിക്കുന്ന ഒരു ഡെസ്ക്ടോപ്പ് ആപ്പ്.
+    nb_NO: En skrivebordsapp som hjelper deg med å organisere hvordan du bruker favorittappene dine ved å kombinere dem i én applikasjon.
+    nl_NL: Een desktop-app waarmee je je favoriete apps overzichtelijker kunt gebruiken door ze in één applicatie te combineren.
+    pl_PL: Aplikacja komputerowa pomagająca uporządkować sposób korzystania z ulubionych aplikacji poprzez połączenie ich w jedną aplikację.
+    pt_BR: Um aplicativo para desktop que ajuda você a organizar o uso de seus aplicativos favoritos, combinando-os em um único aplicativo.
+    ro_RO: O aplicație desktop care te ajută să organizezi modul în care utilizezi aplicațiile tale preferate, combinându-le într-o singură aplicație.
+    ru_RU: Настольное приложение, которое помогает упорядочить использование ваших любимых приложений, объединяя их в одном приложении.
+    sk_SK: Aplikácia pre počítače, ktorá vám pomôže usporiadať si používanie vašich obľúbených aplikácií ich zlúčením do jednej aplikácie.
+    sv_SE: En skrivbordsapp som hjälper dig att organisera hur du använder dina favoritappar genom att kombinera dem i en enda applikation.
+    tr_TR: Favori uygulamalarınızı tek bir uygulamada birleştirerek kullanım şeklinizi düzenlemenize yardımcı olan bir masaüstü uygulaması.
     zh_CN: 将常用应用整合到一个桌面客户端。
+    zh_TW: 將常用應用整合到一個桌面客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ferdium-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ferdium-logo.png
   title:
     en_US: Ferdium (LinuxServer.io)
+    ca_ES: Ferdium (LinuxServer.io)
+    cs_CZ: Ferdium (LinuxServer.io)
+    da_DK: Ferdium (LinuxServer.io)
+    de_DE: Ferdium (LinuxServer.io)
+    el_GR: Ferdium (LinuxServer.io)
+    en_GB: Ferdium (LinuxServer.io)
+    es_ES: Ferdium (LinuxServer.io)
+    fr_FR: Ferdium (LinuxServer.io)
+    ga_IE: Ferdium (LinuxServer.io)
+    hr_HR: Ferdium (LinuxServer.io)
+    hu_HU: Ferdium (LinuxServer.io)
+    it_IT: Ferdium (LinuxServer.io)
+    ja_JP: Ferdium (LinuxServer.io)
+    ko_KR: Ferdium (LinuxServer.io)
+    ml_IN: Ferdium (LinuxServer.io)
+    nb_NO: Ferdium (LinuxServer.io)
+    nl_NL: Ferdium (LinuxServer.io)
+    pl_PL: Ferdium (LinuxServer.io)
+    pt_BR: Ferdium (LinuxServer.io)
+    ro_RO: Ferdium (LinuxServer.io)
+    ru_RU: Ferdium (LinuxServer.io)
+    sk_SK: Ferdium (LinuxServer.io)
+    sv_SE: Ferdium (LinuxServer.io)
+    tr_TR: Ferdium (LinuxServer.io)
     zh_CN: Ferdium（LinuxServer.io）
+    zh_TW: Ferdium（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverferdium
   port_map: '3000'

@@ -60,9 +60,62 @@ x-casaos:
       Pylon 是网页集成开发环境，后端使用 Node.js，前端使用增强的 JavaScript 和 HTML5。它源自 Cloud9 v2 项目，以 GPL v3 许可证发布。
 
       访问项目主页：https://hub.docker.com/r/linuxserver/pylon/
+    ca_ES: 'Visita la pàgina principal: https://hub.docker.com/r/linuxserver/pylon/'
+    cs_CZ: 'Navštivte domovskou stránku: https://hub.docker.com/r/linuxserver/pylon/'
+    da_DK: 'Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/pylon/'
+    de_DE: 'Besuchen Sie die Homepage: https://hub.docker.com/r/linuxserver/pylon/'
+    el_GR: 'Επισκεφθείτε την αρχική σελίδα: https://hub.docker.com/r/linuxserver/pylon/'
+    en_GB: 'Visit homepage: https://hub.docker.com/r/linuxserver/pylon/'
+    es_ES: 'Visita la página principal: https://hub.docker.com/r/linuxserver/pylon/'
+    fr_FR: "Visitez la page d'accueil\_: https://hub.docker.com/r/linuxserver/pylon/"
+    ga_IE: 'Tabhair cuairt ar an leathanach baile: https://hub.docker.com/r/linuxserver/pylon/'
+    hr_HR: 'Posjetite početnu stranicu: https://hub.docker.com/r/linuxserver/pylon/'
+    hu_HU: 'Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/pylon/'
+    it_IT: 'Visita la homepage: https://hub.docker.com/r/linuxserver/pylon/'
+    ja_JP: ホームページをご覧ください：https://hub.docker.com/r/linuxserver/pylon/
+    ko_KR: '홈페이지 방문: https://hub.docker.com/r/linuxserver/pylon/'
+    ml_IN: 'ഹോംപേജ് സന്ദർശിക്കുക: https://hub.docker.com/r/linuxserver/pylon/'
+    nb_NO: 'Besøk hjemmesiden: https://hub.docker.com/r/linuxserver/pylon/'
+    nl_NL: 'Bezoek de homepage: https://hub.docker.com/r/linuxserver/pylon/'
+    pl_PL: 'Odwiedź stronę główną: https://hub.docker.com/r/linuxserver/pylon/'
+    pt_BR: 'Visite a página inicial: https://hub.docker.com/r/linuxserver/pylon/'
+    ro_RO: 'Vizitați pagina principală: https://hub.docker.com/r/linuxserver/pylon/'
+    ru_RU: 'Перейдите на главную страницу: https://hub.docker.com/r/linuxserver/pylon/'
+    sk_SK: 'Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/pylon/'
+    sv_SE: 'Besök hemsidan: https://hub.docker.com/r/linuxserver/pylon/'
+    tr_TR: 'Ana sayfayı ziyaret edin: https://hub.docker.com/r/linuxserver/pylon/'
+    zh_TW: |-
+      Pylon 是網頁整合開發環境，後端使用 Node.js，前端使用增強的 JavaScript 和 HTML5。它源自 Cloud9 v2 專案，以 GPL v3 許可證釋出。
+
+      訪問專案主頁：https://hub.docker.com/r/linuxserver/pylon/
   tagline:
     en_US: 'A web based integrated development environment built with Node. Js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project. '
     zh_CN: 基于 Node.js 和 HTML5 的网页开发环境。
+    ca_ES: Un entorn de desenvolupament integrat basat en web creat amb Node.Js com a backend i amb un frontend JavaScript/HTML5 sobrecarregat, amb llicència GPL versió 3. Aquest projecte s'origina a partir del projecte Cloud9 v2.
+    cs_CZ: Webové integrované vývojové prostředí postavené na Node.Js jako backendu a s pokročilým frontendem s JavaScriptem/HTML5, licencované pod GPL verze 3. Tento projekt vychází z projektu Cloud9 v2.
+    da_DK: Et webbaseret integreret udviklingsmiljø bygget med Node. Js som backend og med en supercharged JavaScript/HTML5 frontend, licenseret under GPL version 3. Dette projekt stammer fra Cloud9 v2-projektet.
+    de_DE: Eine webbasierte integrierte Entwicklungsumgebung, die mit Node.js als Backend und einem leistungsstarken JavaScript/HTML5-Frontend entwickelt wurde und unter der GPL Version 3 lizenziert ist. Dieses Projekt stammt aus dem Cloud9 v2-Projekt.
+    el_GR: Ένα ολοκληρωμένο περιβάλλον ανάπτυξης βασισμένο στο διαδίκτυο, κατασκευασμένο με Node.Js ως backend και με ένα υπερτροφοδοτούμενο frontend JavaScript/HTML5, με άδεια χρήσης GPL έκδοσης 3. Αυτό το έργο προέρχεται από το έργο Cloud9 v2.
+    en_GB: 'A web based integrated development environment built with Node. Js as a backend and with a supercharged Javascript/HTML5 frontend, licensed under Gpl version 3. This project originates from Cloud9 v2 project. '
+    es_ES: Entorno de desarrollo integrado basado en web, construido con Node.js como backend y un frontend JavaScript/HTML5 de alto rendimiento, bajo licencia GPL versión 3. Este proyecto tiene su origen en el proyecto Cloud9 v2.
+    fr_FR: Un environnement de développement intégré web, construit avec Node.js comme backend et doté d'un frontend JavaScript/HTML5 ultra-performant, sous licence GPL version 3. Ce projet est issu du projet Cloud9 v2.
+    ga_IE: Timpeallacht forbartha comhtháite gréasánbhunaithe atá tógtha le Node. Js mar chúltaca agus le tosaigh JavaScript/HTML5 sárchumhachtaithe, ceadúnaithe faoi GPL leagan 3. Eascraíonn an tionscadal seo ó thionscadal Cloud9 v2.
+    hr_HR: Web integrirano razvojno okruženje izgrađeno s Node.Js kao backendom i naprednim JavaScript/HTML5 frontendom, licencirano pod GPL verzijom 3. Ovaj projekt potječe iz Cloud9 v2 projekta.
+    hu_HU: Egy web alapú integrált fejlesztői környezet, amely Node.Js backenddel és felturbózott JavaScript/HTML5 frontenddel készült, GPL 3-as verziójú licenc alatt. Ez a projekt a Cloud9 v2 projektből származik.
+    it_IT: Un ambiente di sviluppo integrato basato sul web, realizzato con Node.js come backend e un frontend JavaScript/HTML5 potenziato, con licenza GPL versione 3. Questo progetto deriva dal progetto Cloud9 v2.
+    ja_JP: Node.jsをバックエンドに、JavaScript/HTML5をフロントエンドに採用した、ウェブベースの統合開発環境です。GPLバージョン3ライセンスで提供されています。このプロジェクトはCloud9 v2プロジェクトから派生したものです。
+    ko_KR: Node.js를 백엔드로, 강력한 JavaScript/HTML5 프런트엔드를 갖춘 웹 기반 통합 개발 환경으로, GPL 버전 3 라이선스가 적용됩니다. 이 프로젝트는 Cloud9 v2 프로젝트에서 파생되었습니다.
+    ml_IN: Node. Js ബാക്കെൻഡായും സൂപ്പർചാർജ്ഡ് JavaScript/HTML5 ഫ്രണ്ട്‌എൻഡുമായും നിർമ്മിച്ച ഒരു വെബ് അധിഷ്ഠിത സംയോജിത വികസന പരിസ്ഥിതി, GPL പതിപ്പ് 3 പ്രകാരം ലൈസൻസ് ചെയ്‌തിരിക്കുന്നു. ഈ പ്രോജക്റ്റ് Cloud9 v2 പ്രോജക്റ്റിൽ നിന്നാണ് ഉത്ഭവിക്കുന്നത്.
+    nb_NO: Et nettbasert integrert utviklingsmiljø bygget med Node.Js som backend og med et superladet JavaScript/HTML5-frontend, lisensiert under GPL versjon 3. Dette prosjektet stammer fra Cloud9 v2-prosjektet.
+    nl_NL: Een webgebaseerde, geïntegreerde ontwikkelomgeving gebouwd met Node.js als backend en een krachtige JavaScript/HTML5-frontend, gelicentieerd onder GPL versie 3. Dit project is voortgekomen uit het Cloud9 v2-project.
+    pl_PL: Zintegrowane środowisko programistyczne oparte na sieci WWW, zbudowane z Node.Js jako zapleczem i rozbudowanym front-endem JavaScript/HTML5, na licencji GPL w wersji 3. Projekt ten wywodzi się z projektu Cloud9 v2.
+    pt_BR: Um ambiente de desenvolvimento integrado baseado na web, construído com Node.js como backend e com um frontend JavaScript/HTML5 superpotente, licenciado sob a GPL versão 3. Este projeto tem origem no projeto Cloud9 v2.
+    ro_RO: Un mediu de dezvoltare integrat bazat pe web, construit cu Node.Js ca backend și cu un frontend JavaScript/HTML5 supraalimentat, licențiat sub GPL versiunea 3. Acest proiect își are originea în proiectul Cloud9 v2.
+    ru_RU: Интегрированная среда разработки на основе веб-технологий, созданная с использованием Node.js в качестве бэкенда и мощного фронтенда на JavaScript/HTML5, распространяемая по лицензии GPL версии 3. Этот проект является частью проекта Cloud9 v2.
+    sk_SK: Webové integrované vývojové prostredie vybudované s Node.Js ako backendom a s vylepšeným frontendom JavaScript/HTML5, licencované pod GPL verziou 3. Tento projekt vychádza z projektu Cloud9 v2.
+    sv_SE: En webbaserad integrerad utvecklingsmiljö byggd med Node. Js som backend och med ett superladdat JavaScript/HTML5-gränssnitt, licensierad under GPL version 3. Detta projekt har sitt ursprung i Cloud9 v2-projektet.
+    tr_TR: Node.js'nin arka uç olarak ve JavaScript/HTML5'in gelişmiş ön uç olarak kullanıldığı, GPL sürüm 3 lisansı altında geliştirilmiş web tabanlı entegre bir geliştirme ortamı. Bu proje Cloud9 v2 projesinden türemiştir.
+    zh_TW: 基於 Node.js 和 HTML5 的網頁開發環境。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9-logo.png
@@ -70,6 +123,31 @@ x-casaos:
   title:
     en_US: Pylon
     zh_CN: Pylon
+    ca_ES: Pylon
+    cs_CZ: Pylon
+    da_DK: Pylon
+    de_DE: Pylon
+    el_GR: Pylon
+    en_GB: Pylon
+    es_ES: Pylon
+    fr_FR: Pylon
+    ga_IE: Pylon
+    hr_HR: Pylon
+    hu_HU: Pylon
+    it_IT: Pylon
+    ja_JP: Pylon
+    ko_KR: Pylon
+    ml_IN: Pylon
+    nb_NO: Pylon
+    nl_NL: Pylon
+    pl_PL: Pylon
+    pt_BR: Pylon
+    ro_RO: Pylon
+    ru_RU: Pylon
+    sk_SK: Pylon
+    sv_SE: Pylon
+    tr_TR: Pylon
+    zh_TW: Pylon
   category: Others
   project_url: https://github.com/pylonide/pylon
   port_map: '3131'

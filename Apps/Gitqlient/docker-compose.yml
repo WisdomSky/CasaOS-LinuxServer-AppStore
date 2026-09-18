@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: GitQlient is a multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
+    ca_ES: GitQlient és un client Git multiplataforma originalment derivat de QGit. Avui dia va més enllà d'una simple bifurcació i afegeix moltes funcionalitats noves.
+    cs_CZ: GitQlient je multiplatformní Git klient původně vycházející z QGitu. V dnešní době jde už dál než jen o fork a přidává spoustu nových funkcí.
+    da_DK: GitQlient er en multiplatform Git-klient, der oprindeligt blev forked fra QGit. I dag går den ud over blot at være en fork og tilføjer en masse ny funktionalitet.
+    de_DE: GitQlient ist ein plattformübergreifender Git-Client, der ursprünglich von QGit abgeleitet wurde. Mittlerweile geht er über eine einfache Abspaltung hinaus und bietet viele neue Funktionen.
+    el_GR: Το GitQlient είναι ένα πρόγραμμα-πελάτης Git για πολλαπλές πλατφόρμες που αρχικά δημιουργήθηκε με διακλάδωση από το QGit. Σήμερα, ξεπερνά τα όρια ενός απλού διακλάδωσης και προσθέτει πολλές νέες λειτουργίες.
+    en_GB: Gitqlient is a multi-platform Git client originally forked from Qgit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
+    es_ES: GitQlient es un cliente Git multiplataforma que originalmente se derivó de QGit. Hoy en día, va más allá de ser una simple bifurcación y añade muchas funcionalidades nuevas.
+    fr_FR: GitQlient est un client Git multiplateforme initialement dérivé de QGit. Aujourd'hui, il va bien au-delà d'une simple évolution et intègre de nombreuses nouvelles fonctionnalités.
+    ga_IE: Is cliant il-ardáin Git é GitQlient a cruthaíodh ar dtús ó QGit. Sa lá atá inniu ann téann sé níos faide ná forc amháin agus cuireann sé go leor feidhmiúlachta nua leis.
+    hr_HR: GitQlient je višeplatformski Git klijent izvorno nastao iz QGita. Danas nadilazi puko forkiranje i dodaje mnogo novih funkcionalnosti.
+    hu_HU: A GitQlient egy többplatformos Git kliens, amely eredetileg a QGit-ből lett elágazva. Manapság már túlmutat egy egyszerű elágazáson, és számos új funkcióval bővül.
+    it_IT: GitQlient è un client Git multipiattaforma originariamente derivato da QGit. Oggi va ben oltre la semplice derivazione e aggiunge numerose nuove funzionalità.
+    ja_JP: GitQlientは、元々はQGitからフォークされたマルチプラットフォーム対応のGitクライアントです。現在では単なるフォークにとどまらず、多くの新機能が追加されています。
+    ko_KR: GitQlient는 원래 QGit에서 포크된 멀티 플랫폼 Git 클라이언트입니다. 현재는 단순히 포크를 넘어 다양한 새로운 기능을 추가했습니다.
+    ml_IN: GitQlient എന്നത് QGit-ൽ നിന്ന് ഫോർക്ക് ചെയ്ത ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം Git ക്ലയന്റാണ്. ഇന്ന് ഇത് ഒരു ഫോർക്കിന് അപ്പുറത്തേക്ക് പോയി ധാരാളം പുതിയ പ്രവർത്തനങ്ങൾ ചേർക്കുന്നു.
+    nb_NO: GitQlient er en multiplattform Git-klient som opprinnelig ble forked fra QGit. Nå for tiden går den lenger enn bare en fork og legger til mye ny funksjonalitet.
+    nl_NL: GitQlient is een multiplatform Git-client die oorspronkelijk is afgeleid van QGit. Tegenwoordig is het meer dan alleen een fork en voegt het veel nieuwe functionaliteit toe.
+    pl_PL: GitQlient to wieloplatformowy klient Git, pierwotnie rozwidlony z QGit. Obecnie wykracza poza ramy zwykłego rozwidlenia i oferuje wiele nowych funkcjonalności.
+    pt_BR: GitQlient é um cliente Git multiplataforma originalmente derivado do QGit. Atualmente, ele vai além de ser apenas um fork e adiciona muitas novas funcionalidades.
+    ro_RO: GitQlient este un client Git multiplatformă, inițial derivat din QGit. În zilele noastre, depășește limita unui simplu fork și adaugă o mulțime de funcționalități noi.
+    ru_RU: GitQlient — это многоплатформенный Git-клиент, первоначально созданный на основе QGit. Сегодня он выходит за рамки простого форка и добавляет множество новых функций.
+    sk_SK: GitQlient je multiplatformový Git klient, pôvodne vytvorený z QGitu. V súčasnosti ide už viac ako len o fork a pridáva množstvo nových funkcií.
+    sv_SE: GitQlient är en multiplattforms-Git-klient som ursprungligen forkades från QGit. Numera går den bortom att bara vara en fork och lägger till många nya funktioner.
+    tr_TR: GitQlient, aslen QGit'ten türetilmiş çok platformlu bir Git istemcisidir. Günümüzde sadece bir türetme olmanın ötesine geçerek birçok yeni işlevsellik eklemiştir.
     zh_CN: GitQlient 是一款跨平台 Git 客户端，最初是 QGit 的分支。如今它已不只是一个分支，而是加入了许多新功能。
+    zh_TW: GitQlient 是一款跨平臺 Git 客戶端，最初是 QGit 的分支。如今它已不只是一個分支，而是加入了許多新功能。
   tagline:
     en_US: A multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
+    ca_ES: Un client Git multiplataforma originalment derivat de QGit. Avui dia va més enllà d'una simple bifurcació i afegeix moltes funcionalitats noves.
+    cs_CZ: Multiplatformní Git klient původně vycházející z QGitu. V dnešní době jde už dál než jen o fork a přidává spoustu nových funkcí.
+    da_DK: En multiplatform Git-klient, der oprindeligt blev forked fra QGit. I dag går den ud over blot at være en fork og tilføjer en masse ny funktionalitet.
+    de_DE: Ein plattformübergreifender Git-Client, der ursprünglich von QGit abgeleitet wurde. Mittlerweile ist er mehr als nur eine Abspaltung und bietet viele neue Funktionen.
+    el_GR: Ένας πολυπλατφορμικός πελάτης Git που δημιουργήθηκε αρχικά από το QGit. Σήμερα, ξεπερνά τα όρια ενός απλού fork και προσθέτει πολλές νέες λειτουργίες.
+    en_GB: A multi-platform Git client originally forked from Qgit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
+    es_ES: Un cliente Git multiplataforma, originalmente derivado de QGit. Hoy en día, va más allá de ser una simple bifurcación y añade muchas funcionalidades nuevas.
+    fr_FR: Client Git multiplateforme initialement dérivé de QGit. Aujourd'hui, il va bien au-delà d'une simple évolution et intègre de nombreuses nouvelles fonctionnalités.
+    ga_IE: Cliant il-ardáin Git a forcaíodh ar dtús ó QGit. Sa lá atá inniu ann téann sé níos faide ná forc amháin agus cuireann sé go leor feidhmiúlachta nua leis.
+    hr_HR: Višeplatformski Git klijent izvorno nastao iz QGita. Danas nadilazi puko forkiranje i dodaje mnogo novih funkcionalnosti.
+    hu_HU: Egy többplatformos Git kliens, amely eredetileg a QGit-ből forkolódott. Manapság már túlmutat egy egyszerű forkon, és számos új funkcióval bővül.
+    it_IT: Un client Git multipiattaforma originariamente derivato da QGit. Oggi va ben oltre una semplice derivazione e aggiunge molte nuove funzionalità.
+    ja_JP: QGitから派生したマルチプラットフォーム対応のGitクライアント。現在では単なるフォークにとどまらず、多くの新機能が追加されている。
+    ko_KR: QGit에서 파생된 멀티 플랫폼 Git 클라이언트입니다. 현재는 단순한 포크를 넘어 다양한 새로운 기능을 추가했습니다.
+    ml_IN: QGit-ൽ നിന്ന് ഫോർക്ക് ചെയ്ത ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം Git ക്ലയന്റ്. ഇന്ന് ഇത് ഒരു ഫോർക്കിന് അപ്പുറത്തേക്ക് പോയി ധാരാളം പുതിയ പ്രവർത്തനങ്ങൾ ചേർക്കുന്നു.
+    nb_NO: En multiplattform Git-klient opprinnelig forked fra QGit. Nå går den lenger enn bare en fork og legger til mye ny funksjonalitet.
+    nl_NL: Een multiplatform Git-client die oorspronkelijk is afgeleid van QGit. Tegenwoordig is het meer dan alleen een fork en voegt het veel nieuwe functionaliteit toe.
+    pl_PL: Wieloplatformowy klient Git, pierwotnie rozwidlony z QGit. Obecnie wykracza poza zwykły fork i dodaje wiele nowych funkcjonalności.
+    pt_BR: Um cliente Git multiplataforma originalmente derivado do QGit. Atualmente, ele vai além de um simples fork e adiciona muitas novas funcionalidades.
+    ro_RO: Un client Git multi-platformă, inițial derivat din QGit. În zilele noastre, depășește limita unui simplu fork și adaugă o mulțime de funcționalități noi.
+    ru_RU: Многоплатформенный Git-клиент, первоначально созданный на основе QGit. Сегодня он выходит за рамки простого форка и добавляет множество новых функций.
+    sk_SK: Multiplatformový klient Git, pôvodne vychádzajúci z QGit. V súčasnosti ide už viac ako len o fork a pridáva množstvo nových funkcií.
+    sv_SE: En multiplattforms-Git-klient som ursprungligen forkades från QGit. Numera går den bortom att bara vara en fork och lägger till många nya funktioner.
+    tr_TR: Çok platformlu bir Git istemcisi olup, aslen QGit'ten türetilmiştir. Günümüzde sadece bir türetme olmaktan öteye geçerek birçok yeni işlev eklemiştir.
     zh_CN: 功能丰富的跨平台 Git 客户端。
+    zh_TW: 功能豐富的跨平臺 Git 客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gitqlient-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gitqlient-icon.png
   title:
     en_US: Gitqlient (LinuxServer.io)
+    ca_ES: Gitqlient (LinuxServer.io)
+    cs_CZ: Gitqlient (LinuxServer.io)
+    da_DK: Gitqlient (LinuxServer.io)
+    de_DE: Gitqlient (LinuxServer.io)
+    el_GR: Gitqlient (LinuxServer.io)
+    en_GB: Gitqlient (LinuxServer.io)
+    es_ES: Gitqlient (LinuxServer.io)
+    fr_FR: Gitqlient (LinuxServer.io)
+    ga_IE: Gitqlient (LinuxServer.io)
+    hr_HR: Gitqlient (LinuxServer.io)
+    hu_HU: Gitqlient (LinuxServer.io)
+    it_IT: Gitqlient (LinuxServer.io)
+    ja_JP: Gitqlient (LinuxServer.io)
+    ko_KR: Gitqlient (LinuxServer.io)
+    ml_IN: Gitqlient (LinuxServer.io)
+    nb_NO: Gitqlient (LinuxServer.io)
+    nl_NL: Gitqlient (LinuxServer.io)
+    pl_PL: Gitqlient (LinuxServer.io)
+    pt_BR: Gitqlient (LinuxServer.io)
+    ro_RO: Gitqlient (LinuxServer.io)
+    ru_RU: Gitqlient (LinuxServer.io)
+    sk_SK: Gitqlient (LinuxServer.io)
+    sv_SE: Gitqlient (LinuxServer.io)
+    tr_TR: Gitqlient (LinuxServer.io)
     zh_CN: Gitqlient（LinuxServer.io）
+    zh_TW: Gitqlient（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergitqlient
   port_map: '3000'

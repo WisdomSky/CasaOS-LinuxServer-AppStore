@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Azahar is an open-source 3DS emulator based on Citra.
+    ca_ES: Azahar és un emulador de 3DS de codi obert basat en Citra.
+    cs_CZ: Azahar je open-source emulátor 3DS založený na platformě Citra.
+    da_DK: Azahar er en open source 3DS-emulator baseret på Citra.
+    de_DE: Azahar ist ein Open-Source-3DS-Emulator, der auf Citra basiert.
+    el_GR: Το Azahar είναι ένας εξομοιωτής 3DS ανοιχτού κώδικα που βασίζεται στο Citra.
+    en_GB: Azahar is an open-source 3DS emulator based on Citra.
+    es_ES: Azahar es un emulador de 3DS de código abierto basado en Citra.
+    fr_FR: Azahar est un émulateur 3DS open-source basé sur Citra.
+    ga_IE: Is aithriseoir 3DS foinse oscailte é Azahar atá bunaithe ar Citra.
+    hr_HR: Azahar je emulator 3DS-a otvorenog koda temeljen na Citri.
+    hu_HU: Az Azahar egy nyílt forráskódú, Citra alapú 3DS emulátor.
+    it_IT: Azahar è un emulatore 3DS open-source basato su Citra.
+    ja_JP: Azaharは、Citraをベースにしたオープンソースの3DSエミュレータです。
+    ko_KR: Azahar는 Citra 기반의 오픈 소스 3DS 에뮬레이터입니다.
+    ml_IN: സിട്രയെ അടിസ്ഥാനമാക്കിയുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് 3DS എമുലേറ്ററാണ് അസഹാർ.
+    nb_NO: Azahar er en åpen kildekode 3DS-emulator basert på Citra.
+    nl_NL: Azahar is een open-source 3DS-emulator gebaseerd op Citra.
+    pl_PL: Azahar to emulator 3DS o otwartym kodzie źródłowym bazujący na Citra.
+    pt_BR: Azahar é um emulador de 3DS de código aberto baseado no Citra.
+    ro_RO: Azahar este un emulator 3DS open-source bazat pe Citra.
+    ru_RU: Azahar — это эмулятор 3DS с открытым исходным кодом, основанный на Citra.
+    sk_SK: Azahar je open-source emulátor 3DS založený na Citra.
+    sv_SE: Azahar är en öppen källkods-3DS-emulator baserad på Citra.
+    tr_TR: Azahar, Citra tabanlı açık kaynaklı bir 3DS emülatörüdür.
     zh_CN: Azahar 是基于 Citra 的开源 3DS 模拟器。
+    zh_TW: Azahar 是基於 Citra 的開源 3DS 模擬器。
   tagline:
     en_US: An open-source 3DS emulator based on Citra.
+    ca_ES: Un emulador de 3DS de codi obert basat en Citra.
+    cs_CZ: Open-source emulátor 3DS založený na Citře.
+    da_DK: En open source 3DS-emulator baseret på Citra.
+    de_DE: Ein Open-Source-3DS-Emulator basierend auf Citra.
+    el_GR: Ένας εξομοιωτής 3DS ανοιχτού κώδικα βασισμένος στο Citra.
+    en_GB: An open-source 3DS emulator based on Citra.
+    es_ES: Un emulador de 3DS de código abierto basado en Citra.
+    fr_FR: Un émulateur 3DS open-source basé sur Citra.
+    ga_IE: Aithriseoir 3DS foinse oscailte bunaithe ar Citra.
+    hr_HR: 3DS emulator otvorenog koda temeljen na Citri.
+    hu_HU: Egy nyílt forráskódú 3DS emulátor, amely a Citra alapú.
+    it_IT: Un emulatore 3DS open-source basato su Citra.
+    ja_JP: Citraをベースにしたオープンソースの3DSエミュレータ。
+    ko_KR: Citra 기반의 오픈 소스 3DS 에뮬레이터입니다.
+    ml_IN: സിട്രയെ അടിസ്ഥാനമാക്കിയുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് 3DS എമുലേറ്റർ.
+    nb_NO: En åpen kildekode 3DS-emulator basert på Citra.
+    nl_NL: Een open-source 3DS-emulator gebaseerd op Citra.
+    pl_PL: Otwarto-źródłowy emulator 3DS bazujący na Citra.
+    pt_BR: Um emulador de 3DS de código aberto baseado no Citra.
+    ro_RO: Un emulator 3DS open-source bazat pe Citra.
+    ru_RU: Эмулятор 3DS с открытым исходным кодом, основанный на Citra.
+    sk_SK: Open-source emulátor 3DS založený na Citra.
+    sv_SE: En öppen källkods-3DS-emulator baserad på Citra.
+    tr_TR: Citra tabanlı açık kaynaklı bir 3DS emülatörü.
     zh_CN: 基于 Citra 的开源 3DS 模拟器。
+    zh_TW: 基於 Citra 的開源 3DS 模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/azahar-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/azahar-logo.png
   title:
     en_US: Azahar (LinuxServer.io)
+    ca_ES: Azahar (LinuxServer.io)
+    cs_CZ: Azahar (LinuxServer.io)
+    da_DK: Azahar (LinuxServer.io)
+    de_DE: Azahar (LinuxServer.io)
+    el_GR: Azahar (LinuxServer.io)
+    en_GB: Azahar (LinuxServer.io)
+    es_ES: Azahar (LinuxServer.io)
+    fr_FR: Azahar (LinuxServer.io)
+    ga_IE: Azahar (LinuxServer.io)
+    hr_HR: Azahar (LinuxServer.io)
+    hu_HU: Azahar (LinuxServer.io)
+    it_IT: Azahar (LinuxServer.io)
+    ja_JP: Azahar (LinuxServer.io)
+    ko_KR: Azahar (LinuxServer.io)
+    ml_IN: Azahar (LinuxServer.io)
+    nb_NO: Azahar (LinuxServer.io)
+    nl_NL: Azahar (LinuxServer.io)
+    pl_PL: Azahar (LinuxServer.io)
+    pt_BR: Azahar (LinuxServer.io)
+    ro_RO: Azahar (LinuxServer.io)
+    ru_RU: Azahar (LinuxServer.io)
+    sk_SK: Azahar (LinuxServer.io)
+    sv_SE: Azahar (LinuxServer.io)
+    tr_TR: Azahar (LinuxServer.io)
     zh_CN: Azahar（LinuxServer.io）
+    zh_TW: Azahar（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverazahar
   port_map: '3000'

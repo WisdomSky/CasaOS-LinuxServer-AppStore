@@ -1,7 +1,7 @@
 name: linuxserver-rpcs3
 services:
   app:
-    image: linuxserver/rpcs3:version-build-92721aedfe9dda00caae25a7aaf7e6b7d07213d0
+    image: linuxserver/rpcs3:version-build-8db660b185496f115701ef4c77c1ca2bef60e422
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -36,18 +36,93 @@ x-casaos:
   main: app
   description:
     en_US: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    ca_ES: RPCS3 és un emulador i depurador multiplataforma de codi obert per a la Sony PlayStation 3 escrit en C++ per a Windows, Linux, macOS i FreeBSD.
+    cs_CZ: RPCS3 je multiplatformní open-source emulátor a debugger pro Sony PlayStation 3, napsaný v C++ pro Windows, Linux, macOS a FreeBSD.
+    da_DK: RPCS3 er en multiplatform open source Sony PlayStation 3 emulator og debugger skrevet i C++ til Windows, Linux, macOS og FreeBSD.
+    de_DE: RPCS3 ist ein plattformübergreifender Open-Source-Emulator und Debugger für die Sony PlayStation 3, der in C++ für Windows, Linux, macOS und FreeBSD geschrieben wurde.
+    el_GR: Το RPCS3 είναι ένας εξομοιωτής και εντοπιστής σφαλμάτων ανοιχτού κώδικα για το Sony PlayStation 3 για πολλές πλατφόρμες, γραμμένος σε C++ για Windows, Linux, macOS και FreeBSD.
+    en_GB: RPCS3 is a multi-platform open-source Sony Playstation 3 emulator and debugger written in C++ for Windows, Linux, macOS and Freebsd.
+    es_ES: RPCS3 es un emulador y depurador multiplataforma de código abierto para Sony PlayStation 3, escrito en C++ para Windows, Linux, macOS y FreeBSD.
+    fr_FR: RPCS3 est un émulateur et débogueur multiplateforme open source pour Sony PlayStation 3, écrit en C++ pour Windows, Linux, macOS et FreeBSD.
+    ga_IE: Is aithriseoir agus dífhabhtóir il-ardáin foinse oscailte Sony PlayStation 3 é RPCS3 atá scríofa i C++ do Windows, Linux, macOS agus FreeBSD.
+    hr_HR: RPCS3 je višeplatformski emulator i debugger otvorenog koda za Sony PlayStation 3 napisan u C++ za Windows, Linux, macOS i FreeBSD.
+    hu_HU: Az RPCS3 egy többplatformos, nyílt forráskódú Sony PlayStation 3 emulátor és hibakereső, amely C++ nyelven íródott Windows, Linux, macOS és FreeBSD rendszerekre.
+    it_IT: RPCS3 è un emulatore e debugger open-source multipiattaforma per Sony PlayStation 3, scritto in C++ per Windows, Linux, macOS e FreeBSD.
+    ja_JP: RPCS3は、Windows、Linux、macOS、FreeBSD向けにC++で記述された、マルチプラットフォーム対応のオープンソースのSony PlayStation 3エミュレータおよびデバッガです。
+    ko_KR: RPCS3는 Windows, Linux, macOS 및 FreeBSD용으로 C++로 작성된 멀티 플랫폼 오픈 소스 Sony PlayStation 3 에뮬레이터 및 디버거입니다.
+    ml_IN: വിൻഡോസ്, ലിനക്സ്, മാകോസ്, ഫ്രീബിഎസ്ഡി എന്നിവയ്‌ക്കായി സി++ ൽ എഴുതിയ ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം ഓപ്പൺ സോഴ്‌സ് സോണി പ്ലേസ്റ്റേഷൻ 3 എമുലേറ്ററും ഡീബഗ്ഗറുമാണ് ആർ‌പി‌സി‌എസ്3.
+    nb_NO: RPCS3 er en åpen kildekode-emulator og feilsøkingsprogram for Sony PlayStation 3 for flere plattformer, skrevet i C++ for Windows, Linux, macOS og FreeBSD.
+    nl_NL: RPCS3 is een multiplatform open-source Sony PlayStation 3-emulator en -debugger, geschreven in C++, voor Windows, Linux, macOS en FreeBSD.
+    pl_PL: RPCS3 to wieloplatformowy emulator i debugger Sony PlayStation 3 o otwartym kodzie źródłowym napisany w języku C++ dla systemów Windows, Linux, macOS i FreeBSD.
+    pt_BR: O RPCS3 é um emulador e depurador multiplataforma de código aberto para Sony PlayStation 3, escrito em C++ para Windows, Linux, macOS e FreeBSD.
+    ro_RO: RPCS3 este un emulator și depanator open-source multi-platformă pentru Sony PlayStation 3, scris în C++ pentru Windows, Linux, macOS și FreeBSD.
+    ru_RU: RPCS3 — это многоплатформенный эмулятор и отладчик Sony PlayStation 3 с открытым исходным кодом, написанный на C++ для Windows, Linux, macOS и FreeBSD.
+    sk_SK: RPCS3 je multiplatformový emulátor a debugger s otvoreným zdrojovým kódom pre Sony PlayStation 3, napísaný v jazyku C++ pre Windows, Linux, macOS a FreeBSD.
+    sv_SE: RPCS3 är en emulator och felsökare med öppen källkod för Sony PlayStation 3, skriven i C++ för Windows, Linux, macOS och FreeBSD.
+    tr_TR: RPCS3, Windows, Linux, macOS ve FreeBSD için C++ ile yazılmış, çok platformlu, açık kaynaklı bir Sony PlayStation 3 emülatörü ve hata ayıklayıcısıdır.
     zh_CN: RPCS3 是用 C++ 编写的开源 Sony PlayStation 3 模拟器和调试器，支持 Windows、Linux、macOS 和 FreeBSD。
+    zh_TW: RPCS3 是用 C++ 編寫的開源 Sony PlayStation 3 模擬器和偵錯程式，支援 Windows、Linux、macOS 和 FreeBSD。
   tagline:
     en_US: A multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.
+    ca_ES: Un emulador i depurador multiplataforma de codi obert per a la Sony PlayStation 3 escrit en C++ per a Windows, Linux, macOS i FreeBSD.
+    cs_CZ: Multiplatformní open-source emulátor a debugger pro Sony PlayStation 3 napsaný v C++ pro Windows, Linux, macOS a FreeBSD.
+    da_DK: En open source-emulator og debugger til flere platforme, skrevet i C++ til Windows, Linux, macOS og FreeBSD.
+    de_DE: Ein plattformübergreifender Open-Source-Emulator und Debugger für die Sony PlayStation 3, geschrieben in C++ für Windows, Linux, macOS und FreeBSD.
+    el_GR: Ένας πολυπλατφορμικός εξομοιωτής και πρόγραμμα εντοπισμού σφαλμάτων για το Sony PlayStation 3 ανοιχτού κώδικα, γραμμένος σε C++ για Windows, Linux, macOS και FreeBSD.
+    en_GB: A multi-platform open-source Sony Playstation 3 emulator and debugger written in C++ for Windows, Linux, macOS and Freebsd.
+    es_ES: Un emulador y depurador multiplataforma de código abierto para Sony PlayStation 3, escrito en C++ para Windows, Linux, macOS y FreeBSD.
+    fr_FR: Un émulateur et débogueur multiplateforme open source pour Sony PlayStation 3, écrit en C++ pour Windows, Linux, macOS et FreeBSD.
+    ga_IE: Aithriseoir agus dífhabhtóir il-ardáin foinse oscailte Sony PlayStation 3 scríofa i C++ do Windows, Linux, macOS agus FreeBSD.
+    hr_HR: Višeplatformski emulator i debugger otvorenog koda za Sony PlayStation 3 napisan u C++ za Windows, Linux, macOS i FreeBSD.
+    hu_HU: Egy többplatformos, nyílt forráskódú Sony PlayStation 3 emulátor és hibakereső, C++ nyelven írva Windows, Linux, macOS és FreeBSD rendszerekre.
+    it_IT: Un emulatore e debugger open-source multipiattaforma per Sony PlayStation 3, scritto in C++ per Windows, Linux, macOS e FreeBSD.
+    ja_JP: Windows、Linux、macOS、FreeBSDに対応した、C++で記述されたマルチプラットフォーム対応のオープンソースのSony PlayStation 3エミュレータおよびデバッガ。
+    ko_KR: Windows, Linux, macOS 및 FreeBSD용으로 C++로 작성된 멀티 플랫폼 오픈 소스 Sony PlayStation 3 에뮬레이터 및 디버거입니다.
+    ml_IN: വിൻഡോസ്, ലിനക്സ്, മാകോസ്, ഫ്രീബിഎസ്ഡി എന്നിവയ്‌ക്കായി സി++ ൽ എഴുതിയ ഒരു മൾട്ടി-പ്ലാറ്റ്‌ഫോം ഓപ്പൺ സോഴ്‌സ് സോണി പ്ലേസ്റ്റേഷൻ 3 എമുലേറ്ററും ഡീബഗ്ഗറും.
+    nb_NO: En åpen kildekode-emulator og feilsøkingsprogram for Sony PlayStation 3 for flere plattformer skrevet i C++ for Windows, Linux, macOS og FreeBSD.
+    nl_NL: Een open-source emulator en debugger voor de Sony PlayStation 3, geschreven in C++, voor meerdere platforms, waaronder Windows, Linux, macOS en FreeBSD.
+    pl_PL: Wieloplatformowy emulator i debugger Sony PlayStation 3 o otwartym kodzie źródłowym napisany w języku C++ dla systemów Windows, Linux, macOS i FreeBSD.
+    pt_BR: Um emulador e depurador multiplataforma de código aberto para Sony PlayStation 3, escrito em C++ para Windows, Linux, macOS e FreeBSD.
+    ro_RO: Un emulator și depanator open-source multi-platformă pentru Sony PlayStation 3, scris în C++ pentru Windows, Linux, macOS și FreeBSD.
+    ru_RU: Многоплатформенный эмулятор и отладчик Sony PlayStation 3 с открытым исходным кодом, написанный на C++ для Windows, Linux, macOS и FreeBSD.
+    sk_SK: Multiplatformový open-source emulátor a debugger pre Sony PlayStation 3 napísaný v jazyku C++ pre Windows, Linux, macOS a FreeBSD.
+    sv_SE: En emulator och felsökare med öppen källkod för flera plattformar för Sony PlayStation 3, skriven i C++ för Windows, Linux, macOS och FreeBSD.
+    tr_TR: Windows, Linux, macOS ve FreeBSD için C++ ile yazılmış, çok platformlu açık kaynaklı bir Sony PlayStation 3 emülatörü ve hata ayıklayıcısı.
     zh_CN: 开源的跨平台 PlayStation 3 模拟器与调试器。
+    zh_TW: 開源的跨平臺 PlayStation 3 模擬器與偵錯程式。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rpcs3-logo.png
   title:
     en_US: Rpcs3 (LinuxServer.io)
+    ca_ES: Rpcs3 (LinuxServer.io)
+    cs_CZ: Rpcs3 (LinuxServer.io)
+    da_DK: Rpcs3 (LinuxServer.io)
+    de_DE: Rpcs3 (LinuxServer.io)
+    el_GR: Rpcs3 (LinuxServer.io)
+    en_GB: Rpcs3 (LinuxServer.io)
+    es_ES: Rpcs3 (LinuxServer.io)
+    fr_FR: Rpcs3 (LinuxServer.io)
+    ga_IE: Rpcs3 (LinuxServer.io)
+    hr_HR: Rpcs3 (LinuxServer.io)
+    hu_HU: Rpcs3 (LinuxServer.io)
+    it_IT: Rpcs3 (LinuxServer.io)
+    ja_JP: Rpcs3 (LinuxServer.io)
+    ko_KR: Rpcs3 (LinuxServer.io)
+    ml_IN: Rpcs3 (LinuxServer.io)
+    nb_NO: Rpcs3 (LinuxServer.io)
+    nl_NL: Rpcs3 (LinuxServer.io)
+    pl_PL: Rpcs3 (LinuxServer.io)
+    pt_BR: Rpcs3 (LinuxServer.io)
+    ro_RO: Rpcs3 (LinuxServer.io)
+    ru_RU: Rpcs3 (LinuxServer.io)
+    sk_SK: Rpcs3 (LinuxServer.io)
+    sv_SE: Rpcs3 (LinuxServer.io)
+    tr_TR: Rpcs3 (LinuxServer.io)
     zh_CN: Rpcs3（LinuxServer.io）
+    zh_TW: Rpcs3（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverrpcs3
   port_map: '3000'
-  version: version-build-92721aedfe9dda00caae25a7aaf7e6b7d07213d0
+  version: version-build-8db660b185496f115701ef4c77c1ca2bef60e422

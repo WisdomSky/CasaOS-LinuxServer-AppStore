@@ -40,17 +40,92 @@ x-casaos:
   main: app
   description:
     en_US: Chrome is the official web browser from Google, built to be fast, secure, and customizable.
+    ca_ES: Chrome és el navegador web oficial de Google, dissenyat per ser ràpid, segur i personalitzable.
+    cs_CZ: Chrome je oficiální webový prohlížeč od Googlu, navržený tak, aby byl rychlý, bezpečný a přizpůsobitelný.
+    da_DK: Chrome er den officielle webbrowser fra Google, bygget til at være hurtig, sikker og brugerdefinerbar.
+    de_DE: Chrome ist der offizielle Webbrowser von Google und wurde entwickelt, um schnell, sicher und anpassbar zu sein.
+    el_GR: Το Chrome είναι το επίσημο πρόγραμμα περιήγησης ιστού της Google, σχεδιασμένο για να είναι γρήγορο, ασφαλές και προσαρμόσιμο.
+    en_GB: Chrome is the official web browser from Google, built to be fast, secure, and customisable.
+    es_ES: Chrome es el navegador web oficial de Google, diseñado para ser rápido, seguro y personalizable.
+    fr_FR: Chrome est le navigateur web officiel de Google, conçu pour être rapide, sécurisé et personnalisable.
+    ga_IE: Is é Chrome an brabhsálaí gréasáin oifigiúil ó Google, atá deartha le bheith gasta, slán agus inoiriúnaithe.
+    hr_HR: Chrome je službeni web preglednik tvrtke Google, napravljen da bude brz, siguran i prilagodljiv.
+    hu_HU: A Chrome a Google hivatalos webböngészője, amelyet gyors, biztonságos és testreszabható működésre terveztek.
+    it_IT: Chrome è il browser web ufficiale di Google, progettato per essere veloce, sicuro e personalizzabile.
+    ja_JP: ChromeはGoogleの公式ウェブブラウザであり、高速性、安全性、カスタマイズ性を重視して開発されています。
+    ko_KR: 크롬은 구글에서 공식적으로 개발한 웹 브라우저로, 빠르고 안전하며 맞춤 설정이 가능하도록 설계되었습니다.
+    ml_IN: വേഗതയേറിയതും സുരക്ഷിതവും ഇഷ്ടാനുസൃതമാക്കാവുന്നതുമായി നിർമ്മിച്ചിരിക്കുന്ന, ഗൂഗിളിന്റെ ഔദ്യോഗിക വെബ് ബ്രൗസറാണ് Chrome.
+    nb_NO: Chrome er den offisielle nettleseren fra Google, bygget for å være rask, sikker og tilpassbar.
+    nl_NL: Chrome is de officiële webbrowser van Google, ontworpen om snel, veilig en aanpasbaar te zijn.
+    pl_PL: Chrome to oficjalna przeglądarka internetowa firmy Google, stworzona z myślą o szybkości, bezpieczeństwie i możliwości dostosowania.
+    pt_BR: O Chrome é o navegador oficial da Google, desenvolvido para ser rápido, seguro e personalizável.
+    ro_RO: Chrome este browserul web oficial de la Google, conceput pentru a fi rapid, sigur și personalizabil.
+    ru_RU: Chrome — это официальный веб-браузер от Google, созданный для обеспечения быстрой, безопасной и настраиваемой работы.
+    sk_SK: Chrome je oficiálny webový prehliadač od spoločnosti Google, ktorý je navrhnutý tak, aby bol rýchly, bezpečný a prispôsobiteľný.
+    sv_SE: Chrome är Googles officiella webbläsare, byggd för att vara snabb, säker och anpassningsbar.
+    tr_TR: Chrome, Google'ın resmi web tarayıcısıdır ve hızlı, güvenli ve özelleştirilebilir olacak şekilde tasarlanmıştır.
     zh_CN: Chrome 是 Google 官方网页浏览器，注重速度、安全性和可定制性。
+    zh_TW: Chrome 是 Google 官方網頁瀏覽器，注重速度、安全性和可定製性。
   tagline:
     en_US: The official web browser from Google, built to be fast, secure, and customizable.
+    ca_ES: El navegador web oficial de Google, dissenyat per ser ràpid, segur i personalitzable.
+    cs_CZ: Oficiální webový prohlížeč od Googlu, navržený tak, aby byl rychlý, bezpečný a přizpůsobitelný.
+    da_DK: Den officielle webbrowser fra Google, bygget til at være hurtig, sikker og brugerdefinerbar.
+    de_DE: Der offizielle Webbrowser von Google – entwickelt für hohe Geschwindigkeit, Sicherheit und individuelle Anpassbarkeit.
+    el_GR: Το επίσημο πρόγραμμα περιήγησης ιστού από την Google, σχεδιασμένο για να είναι γρήγορο, ασφαλές και προσαρμόσιμο.
+    en_GB: The official web browser from Google, built to be fast, secure, and customisable.
+    es_ES: El navegador web oficial de Google, diseñado para ser rápido, seguro y personalizable.
+    fr_FR: Le navigateur web officiel de Google, conçu pour être rapide, sécurisé et personnalisable.
+    ga_IE: An brabhsálaí gréasáin oifigiúil ó Google, atá tógtha le bheith gasta, slán agus inoiriúnaithe.
+    hr_HR: Službeni web preglednik tvrtke Google, napravljen da bude brz, siguran i prilagodljiv.
+    hu_HU: A Google hivatalos webböngészője, amelyet gyors, biztonságos és testreszabható használatra terveztek.
+    it_IT: Il browser web ufficiale di Google, progettato per essere veloce, sicuro e personalizzabile.
+    ja_JP: Google公式のウェブブラウザ。高速性、安全性、カスタマイズ性を追求して開発されました。
+    ko_KR: 구글에서 공식적으로 개발한 웹 브라우저로, 빠르고 안전하며 맞춤 설정이 가능합니다.
+    ml_IN: വേഗതയേറിയതും സുരക്ഷിതവും ഇഷ്ടാനുസൃതമാക്കാവുന്നതുമായി നിർമ്മിച്ച, Google-ന്റെ ഔദ്യോഗിക വെബ് ബ്രൗസർ.
+    nb_NO: Den offisielle nettleseren fra Google, bygget for å være rask, sikker og tilpassbar.
+    nl_NL: De officiële webbrowser van Google, ontworpen om snel, veilig en aanpasbaar te zijn.
+    pl_PL: Oficjalna przeglądarka internetowa firmy Google, stworzona z myślą o szybkości, bezpieczeństwie i możliwości dostosowania.
+    pt_BR: O navegador oficial do Google, desenvolvido para ser rápido, seguro e personalizável.
+    ro_RO: Browserul web oficial de la Google, conceput pentru a fi rapid, sigur și personalizabil.
+    ru_RU: Официальный веб-браузер от Google, созданный для быстрой, безопасной и настраиваемой работы.
+    sk_SK: Oficiálny webový prehliadač od spoločnosti Google, navrhnutý tak, aby bol rýchly, bezpečný a prispôsobiteľný.
+    sv_SE: Den officiella webbläsaren från Google, byggd för att vara snabb, säker och anpassningsbar.
+    tr_TR: Google'ın resmi web tarayıcısı, hızlı, güvenli ve özelleştirilebilir olacak şekilde tasarlanmıştır.
     zh_CN: Google 官方浏览器。
+    zh_TW: Google 官方瀏覽器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png
   title:
     en_US: Chrome (LinuxServer.io)
+    ca_ES: Chrome (LinuxServer.io)
+    cs_CZ: Chrome (LinuxServer.io)
+    da_DK: Chrome (LinuxServer.io)
+    de_DE: Chrome (LinuxServer.io)
+    el_GR: Chrome (LinuxServer.io)
+    en_GB: Chrome (LinuxServer.io)
+    es_ES: Chrome (LinuxServer.io)
+    fr_FR: Chrome (LinuxServer.io)
+    ga_IE: Chrome (LinuxServer.io)
+    hr_HR: Chrome (LinuxServer.io)
+    hu_HU: Chrome (LinuxServer.io)
+    it_IT: Chrome (LinuxServer.io)
+    ja_JP: Chrome (LinuxServer.io)
+    ko_KR: Chrome (LinuxServer.io)
+    ml_IN: Chrome (LinuxServer.io)
+    nb_NO: Chrome (LinuxServer.io)
+    nl_NL: Chrome (LinuxServer.io)
+    pl_PL: Chrome (LinuxServer.io)
+    pt_BR: Chrome (LinuxServer.io)
+    ro_RO: Chrome (LinuxServer.io)
+    ru_RU: Chrome (LinuxServer.io)
+    sk_SK: Chrome (LinuxServer.io)
+    sv_SE: Chrome (LinuxServer.io)
+    tr_TR: Chrome (LinuxServer.io)
     zh_CN: Chrome（LinuxServer.io）
+    zh_TW: Chrome（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverchrome
   port_map: '3000'

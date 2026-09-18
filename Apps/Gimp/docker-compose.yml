@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.
+    ca_ES: El GIMP és un editor de gràfics rasteritzats gratuït i de codi obert que s'utilitza per a la manipulació d'imatges (retoc) i l'edició d'imatges, el dibuix de forma lliure, la transcodificació entre diferents formats de fitxer d'imatge i tasques més especialitzades. És extensible mitjançant complements i permet la creació de scripts.
+    cs_CZ: GIMP je bezplatný a open-source rastrový grafický editor používaný pro manipulaci s obrázky (retušování) a úpravy obrázků, kreslení ve volných tvarech, překódování mezi různými formáty obrazových souborů a specializovanější úkoly. Je rozšiřitelný pomocí pluginů a skriptovatelný.
+    da_DK: GIMP er et gratis og open source rastergrafikredigeringsprogram, der bruges til billedmanipulation (retouchering) og billedredigering, fritformstegning, transkodning mellem forskellige billedfilformater og mere specialiserede opgaver. Det kan udvides ved hjælp af plugins og kan scriptes.
+    de_DE: GIMP ist ein kostenloser Open-Source-Rastergrafikeditor, der für Bildmanipulation (Retusche), Bildbearbeitung, Freihandzeichnen, Transkodierung zwischen verschiedenen Bilddateiformaten und weitere spezialisierte Aufgaben verwendet wird. Er ist durch Plugins erweiterbar und skriptfähig.
+    el_GR: Το GIMP είναι ένα δωρεάν και ανοιχτού κώδικα πρόγραμμα επεξεργασίας γραφικών raster που χρησιμοποιείται για χειρισμό εικόνας (ρετούς) και επεξεργασία εικόνας, σχεδίαση ελεύθερης μορφής, μετατροπή κωδικοποίησης μεταξύ διαφορετικών μορφών αρχείων εικόνας και πιο εξειδικευμένες εργασίες. Είναι επεκτάσιμο μέσω πρόσθετων (plugins) και μπορεί να χρησιμοποιηθεί σεναριακά.
+    en_GB: Gimp is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.
+    es_ES: GIMP es un editor de gráficos rasterizados gratuito y de código abierto que se utiliza para la manipulación (retoque) y edición de imágenes, el dibujo a mano alzada, la transcodificación entre diferentes formatos de archivo de imagen y otras tareas más especializadas. Es extensible mediante complementos y programable mediante scripts.
+    fr_FR: GIMP est un logiciel libre et gratuit de retouche d'images matricielles, utilisé pour la manipulation (retouche) et l'édition d'images, le dessin à main levée, la conversion entre différents formats de fichiers image et des tâches plus spécialisées. Il est extensible grâce à des plugins et programmable.
+    ga_IE: Is eagarthóir grafaicí rastair foinse oscailte agus saor in aisce é GIMP a úsáidtear le haghaidh ionramháil íomhá (retouching) agus eagarthóireacht íomhá, líníocht shaorfhoirme, tras-chódú idir formáidí comhaid íomhá éagsúla, agus tascanna níos speisialaithe. Is féidir é a leathnú trí bhreiseáin, agus is féidir é a scriptiú.
+    hr_HR: GIMP je besplatni uređivač rasterske grafike otvorenog koda koji se koristi za manipulaciju slikama (retuširanje) i uređivanje slika, crtanje slobodnim oblicima, transkodiranje između različitih formata slikovnih datoteka i specijaliziranije zadatke. Proširiv je pomoću dodataka i skriptabilan.
+    hu_HU: A GIMP egy ingyenes és nyílt forráskódú raszteres grafikus szerkesztő, amelyet képmanipulációra (retusálásra) és képszerkesztésre, szabadkézi rajzolásra, különböző képfájlformátumok közötti átkódolásra és speciálisabb feladatokra használnak. Bővítmények segítségével bővíthető és szkriptelhető.
+    it_IT: GIMP è un editor di grafica raster gratuito e open-source utilizzato per la manipolazione (ritocco) e la modifica di immagini, il disegno a mano libera, la transcodifica tra diversi formati di file immagine e attività più specifiche. È estensibile tramite plugin e programmabile.
+    ja_JP: GIMPは、画像操作（レタッチ）や画像編集、自由形式の描画、異なる画像ファイル形式間の変換、その他より専門的なタスクに使用される、無料のオープンソースのラスターグラフィックエディタです。プラグインによる拡張が可能で、スクリプトにも対応しています。
+    ko_KR: GIMP는 이미지 조작(수정) 및 편집, 자유형 드로잉, 다양한 이미지 파일 형식 간 변환, 그리고 더 전문적인 작업에 사용되는 무료 오픈 소스 래스터 그래픽 편집기입니다. 플러그인을 통해 기능을 확장할 수 있으며 스크립트 작성도 가능합니다.
+    ml_IN: ഇമേജ് കൈകാര്യം ചെയ്യൽ (റീടച്ചിംഗ്), ഇമേജ് എഡിറ്റിംഗ്, ഫ്രീ-ഫോം ഡ്രോയിംഗ്, വ്യത്യസ്ത ഇമേജ് ഫയൽ ഫോർമാറ്റുകൾക്കിടയിൽ ട്രാൻസ്കോഡിംഗ്, കൂടുതൽ പ്രത്യേക ജോലികൾ എന്നിവയ്ക്കായി ഉപയോഗിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് റാസ്റ്റർ ഗ്രാഫിക്സ് എഡിറ്ററാണ് ജിമ്പ്. പ്ലഗിനുകൾ വഴി ഇത് വിപുലീകരിക്കാനും സ്ക്രിപ്റ്റ് ചെയ്യാവുന്നതുമാണ്.
+    nb_NO: GIMP er et gratis og åpen kildekode-redigeringsprogram for rastergrafikk som brukes til bildemanipulering (retusjering) og bilderedigering, friformstegning, transkoding mellom forskjellige bildefilformater og mer spesialiserte oppgaver. Det er utvidbart ved hjelp av programtillegg og kan brukes med skript.
+    nl_NL: GIMP is een gratis en open-source rastergrafisch bewerkingsprogramma dat gebruikt wordt voor beeldmanipulatie (retoucheren) en -bewerking, vrij tekenen, converteren tussen verschillende afbeeldingsbestandsformaten en meer gespecialiseerde taken. Het is uitbreidbaar door middel van plug-ins en scriptbaar.
+    pl_PL: GIMP to darmowy i otwarty edytor grafiki rastrowej, służący do obróbki (retuszowania) i edycji obrazów, rysowania w dowolnej formie, transkodowania między różnymi formatami plików graficznych oraz wykonywania bardziej specjalistycznych zadań. Można go rozszerzać za pomocą wtyczek i skryptów.
+    pt_BR: O GIMP é um editor de imagens raster gratuito e de código aberto usado para manipulação (retoque) e edição de imagens, desenho livre, transcodificação entre diferentes formatos de arquivo de imagem e tarefas mais especializadas. É extensível por meio de plugins e permite a criação de scripts.
+    ro_RO: GIMP este un editor de grafică raster gratuit și open-source, utilizat pentru manipularea (retușarea) și editarea imaginilor, desenare liberă, transcodare între diferite formate de fișiere imagine și sarcini mai specializate. Este extensibil prin intermediul pluginurilor și poate fi creat cu ajutorul unui script.
+    ru_RU: GIMP — это бесплатный графический редактор с открытым исходным кодом, используемый для обработки (ретуширования) и редактирования изображений, рисования произвольных форм, преобразования между различными форматами файлов изображений и решения более специализированных задач. Он расширяем с помощью плагинов и поддерживает скрипты.
+    sk_SK: GIMP je bezplatný a open-source rastrový grafický editor používaný na manipuláciu s obrázkami (retušovanie) a úpravu obrázkov, voľné kreslenie, prekódovanie medzi rôznymi formátmi obrazových súborov a špecializovanejšie úlohy. Je rozšíriteľný pomocou pluginov a je možné ho skriptovať.
+    sv_SE: GIMP är en gratis rastergrafikredigerare med öppen källkod som används för bildmanipulation (retuschering) och bildredigering, frihandsteckning, omkodning mellan olika bildfilformat och mer specialiserade uppgifter. Den är utökningsbar med hjälp av plugins och skriptbar.
+    tr_TR: GIMP, görüntü manipülasyonu (rötuş) ve düzenleme, serbest biçimli çizim, farklı görüntü dosyası formatları arasında dönüştürme ve daha özel görevler için kullanılan ücretsiz ve açık kaynaklı bir raster grafik düzenleyicisidir. Eklentiler aracılığıyla genişletilebilir ve betiklenebilir.
     zh_CN: GIMP 是免费的开源位图图像编辑器，可用于修图、图像编辑、自由绘画、图像格式转换及更专业的任务。它支持通过插件扩展，也支持脚本操作。
+    zh_TW: GIMP 是免費的開源點陣圖影象編輯器，可用於修圖、影象編輯、自由繪畫、影象格式轉換及更專業的任務。它支援透過外掛擴充套件，也支援指令碼操作。
   tagline:
     en_US: A free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.
+    ca_ES: Un editor de gràfics rasteritzats gratuït i de codi obert que s'utilitza per a la manipulació d'imatges (retoc) i l'edició d'imatges, el dibuix de forma lliure, la transcodificació entre diferents formats de fitxer d'imatge i tasques més especialitzades. És extensible mitjançant complements i permet la creació de scripts.
+    cs_CZ: Bezplatný a open-source rastrový grafický editor používaný pro manipulaci s obrázky (retušování) a úpravy obrázků, kreslení ve volných tvarech, překódování mezi různými formáty obrazových souborů a specializovanější úkoly. Je rozšiřitelný pomocí pluginů a skriptovatelný.
+    da_DK: En gratis og open source rastergrafikeditor, der bruges til billedmanipulation (retouchering) og billedredigering, fritformstegning, transkodning mellem forskellige billedfilformater og mere specialiserede opgaver. Den kan udvides ved hjælp af plugins og kan scriptes.
+    de_DE: Ein kostenloser und quelloffener Rastergrafikeditor zur Bildbearbeitung (Retusche), zum Freihandzeichnen, zum Transkodieren zwischen verschiedenen Bilddateiformaten und für weitere Spezialaufgaben. Er ist durch Plugins erweiterbar und skriptfähig.
+    el_GR: Ένα δωρεάν και ανοιχτού κώδικα πρόγραμμα επεξεργασίας γραφικών raster που χρησιμοποιείται για χειρισμό εικόνας (ρετούς) και επεξεργασία εικόνας, σχεδίαση ελεύθερης μορφής, μετατροπή κωδικοποίησης μεταξύ διαφορετικών μορφών αρχείων εικόνας και πιο εξειδικευμένες εργασίες. Είναι επεκτάσιμο μέσω πρόσθετων (plugins) και μπορεί να χρησιμοποιηθεί σεναριακά.
+    en_GB: A free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.
+    es_ES: Editor de gráficos rasterizados gratuito y de código abierto para manipulación (retoque) y edición de imágenes, dibujo a mano alzada, transcodificación entre diferentes formatos de archivo de imagen y tareas más especializadas. Es extensible mediante complementos y programable mediante scripts.
+    fr_FR: Éditeur d'images raster libre et gratuit, utilisé pour la retouche et l'édition d'images, le dessin à main levée, la conversion entre différents formats de fichiers image et des tâches plus spécialisées. Il est extensible grâce à des plugins et programmable.
+    ga_IE: Eagarthóir grafaicí rastair saor in aisce agus foinse oscailte a úsáidtear le haghaidh ionramháil íomhá (retouching) agus eagarthóireacht íomhá, líníocht shaorfhoirme, tras-chódú idir formáidí comhaid íomhá éagsúla, agus tascanna níos speisialaithe. Is féidir é a leathnú trí bhreiseáin, agus is féidir é a scriptiú.
+    hr_HR: Besplatni uređivač rasterske grafike otvorenog koda koji se koristi za manipulaciju slikama (retuširanje) i uređivanje slika, crtanje slobodnim oblicima, transkodiranje između različitih formata slikovnih datoteka i specijaliziranije zadatke. Proširiv je pomoću dodataka i skriptabilan.
+    hu_HU: Egy ingyenes és nyílt forráskódú raszteres grafikus szerkesztő, amely képmanipulációra (retusálásra) és képszerkesztésre, szabadkézi rajzolásra, különböző képfájlformátumok közötti átkódolásra és speciálisabb feladatokra használható. Bővítmények segítségével bővíthető és szkriptelhető.
+    it_IT: Un editor di grafica raster gratuito e open-source utilizzato per la manipolazione (ritocco) e la modifica di immagini, il disegno a mano libera, la transcodifica tra diversi formati di file immagine e attività più specifiche. È estensibile tramite plugin e programmabile.
+    ja_JP: 画像操作（レタッチ）や画像編集、自由形式の描画、異なる画像ファイル形式間の変換、その他より専門的なタスクに使用される、無料のオープンソースのラスターグラフィックエディタです。プラグインによる拡張が可能で、スクリプトにも対応しています。
+    ko_KR: 이미지 보정 및 편집, 자유형 드로잉, 다양한 이미지 파일 형식 간 변환, 그리고 더욱 전문적인 작업에 사용되는 무료 오픈 소스 래스터 그래픽 편집기입니다. 플러그인을 통해 확장 가능하며 스크립트 작성도 지원합니다.
+    ml_IN: ഇമേജ് കൈകാര്യം ചെയ്യൽ (റീടച്ചിംഗ്), ഇമേജ് എഡിറ്റിംഗ്, ഫ്രീ-ഫോം ഡ്രോയിംഗ്, വ്യത്യസ്ത ഇമേജ് ഫയൽ ഫോർമാറ്റുകൾക്കിടയിൽ ട്രാൻസ്കോഡിംഗ്, കൂടുതൽ പ്രത്യേക ജോലികൾ എന്നിവയ്ക്കായി ഉപയോഗിക്കുന്ന ഒരു സ്വതന്ത്രവും ഓപ്പൺ സോഴ്‌സ് റാസ്റ്റർ ഗ്രാഫിക്സ് എഡിറ്റർ. പ്ലഗിനുകൾ വഴി ഇത് വിപുലീകരിക്കാനും സ്ക്രിപ്റ്റ് ചെയ്യാവുന്നതുമാണ്.
+    nb_NO: En gratis og åpen kildekode-editor for rastergrafikk som brukes til bildemanipulering (retusjering) og bilderedigering, friformstegning, transkoding mellom forskjellige bildefilformater og mer spesialiserte oppgaver. Den er utvidbar ved hjelp av programtillegg og kan brukes med skript.
+    nl_NL: Een gratis en open-source rastergrafisch bewerkingsprogramma voor beeldmanipulatie (retoucheren) en beeldbewerking, vrij tekenen, converteren tussen verschillende afbeeldingsbestandsformaten en meer gespecialiseerde taken. Het is uitbreidbaar door middel van plug-ins en scriptbaar.
+    pl_PL: Darmowy i otwarty edytor grafiki rastrowej, służący do obróbki (retuszu) i edycji obrazów, rysowania w dowolnej formie, transkodowania między różnymi formatami plików graficznych oraz wykonywania bardziej specjalistycznych zadań. Można go rozszerzać za pomocą wtyczek i skryptów.
+    pt_BR: Um editor gráfico raster gratuito e de código aberto usado para manipulação (retoque) e edição de imagens, desenho livre, transcodificação entre diferentes formatos de arquivo de imagem e tarefas mais especializadas. É extensível por meio de plugins e programável.
+    ro_RO: Un editor de grafică raster gratuit și open-source, utilizat pentru manipularea (retușarea) și editarea imaginilor, desenare liberă, transcodare între diferite formate de fișiere imagine și sarcini mai specializate. Este extensibil prin intermediul pluginurilor și poate fi creat cu ajutorul unui script.
+    ru_RU: Бесплатный графический редактор растровой графики с открытым исходным кодом, используемый для обработки (ретуширования) и редактирования изображений, рисования произвольных форм, преобразования между различными форматами файлов изображений и решения более специализированных задач. Он расширяем с помощью плагинов и поддерживает скрипты.
+    sk_SK: Bezplatný a open-source editor rastrovej grafiky používaný na manipuláciu s obrázkami (retušovanie) a úpravu obrázkov, kreslenie vo voľnom tvare, prekódovanie medzi rôznymi formátmi obrazových súborov a špecializovanejšie úlohy. Je rozšíriteľný pomocou pluginov a skriptovateľný.
+    sv_SE: En fri och öppen källkod för rastergrafik som används för bildmanipulation (retuschering) och bildredigering, frihandsteckning, omkodning mellan olika bildfilformat och mer specialiserade uppgifter. Den är utökningsbar med hjälp av plugins och skriptbar.
+    tr_TR: Görüntü işleme (rötuşlama) ve düzenleme, serbest biçimli çizim, farklı görüntü dosyası formatları arasında dönüştürme ve daha özel görevler için kullanılan ücretsiz ve açık kaynaklı bir raster grafik düzenleyicisidir. Eklentiler aracılığıyla genişletilebilir ve betiklenebilir.
     zh_CN: 支持修图、绘画和插件扩展的开源图像编辑器。
+    zh_TW: 支援修圖、繪畫和外掛擴充套件的開源影象編輯器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gimp-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gimp-logo.png
   title:
     en_US: Gimp (LinuxServer.io)
+    ca_ES: Gimp (LinuxServer.io)
+    cs_CZ: Gimp (LinuxServer.io)
+    da_DK: Gimp (LinuxServer.io)
+    de_DE: Gimp (LinuxServer.io)
+    el_GR: Gimp (LinuxServer.io)
+    en_GB: Gimp (LinuxServer.io)
+    es_ES: Gimp (LinuxServer.io)
+    fr_FR: Gimp (LinuxServer.io)
+    ga_IE: Gimp (LinuxServer.io)
+    hr_HR: Gimp (LinuxServer.io)
+    hu_HU: Gimp (LinuxServer.io)
+    it_IT: Gimp (LinuxServer.io)
+    ja_JP: Gimp (LinuxServer.io)
+    ko_KR: Gimp (LinuxServer.io)
+    ml_IN: Gimp (LinuxServer.io)
+    nb_NO: Gimp (LinuxServer.io)
+    nl_NL: Gimp (LinuxServer.io)
+    pl_PL: Gimp (LinuxServer.io)
+    pt_BR: Gimp (LinuxServer.io)
+    ro_RO: Gimp (LinuxServer.io)
+    ru_RU: Gimp (LinuxServer.io)
+    sk_SK: Gimp (LinuxServer.io)
+    sv_SE: Gimp (LinuxServer.io)
+    tr_TR: Gimp (LinuxServer.io)
     zh_CN: Gimp（LinuxServer.io）
+    zh_TW: Gimp（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservergimp
   port_map: '3000'

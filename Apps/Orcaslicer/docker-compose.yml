@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: Orca Slicer is an open source slicer for FDM printers. OrcaSlicer is fork of Bambu Studio, it was previously known as BambuStudio-SoftFever, Bambu Studio is forked from PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community
+    ca_ES: Orca Slicer és un tallador de codi obert per a impressores FDM. OrcaSlicer és una bifurcació de Bambu Studio, anteriorment conegut com a BambuStudio-SoftFever, Bambu Studio és una bifurcació de PrusaSlicer per Prusa Research, que és de Slic3r per Alessandro Ranellucci i la comunitat RepRap.
+    cs_CZ: Orca Slicer je open source slicer pro FDM tiskárny. OrcaSlicer je forkem Bambu Studia, dříve známého jako BambuStudio-SoftFever. Bambu Studio je forkem PrusaSliceru od Prusa Research, který je forkem Slic3r od Alessandra Ranellucciho a komunity RepRap.
+    da_DK: Orca Slicer er en open source-slicer til FDM-printere. OrcaSlicer er en forgrening af Bambu Studio, tidligere kendt som BambuStudio-SoftFever. Bambu Studio er en forgrening af PrusaSlicer af Prusa Research, som er en forgrening af Slic3r af Alessandro Ranellucci og RepRap-fællesskabet.
+    de_DE: OrcaSlicer ist ein Open-Source-Slicer für FDM-Drucker. OrcaSlicer ist ein Fork von Bambu Studio und war zuvor als BambuStudio-SoftFever bekannt. Bambu Studio wiederum ist ein Fork von PrusaSlicer von Prusa Research, welches auf Slic3r von Alessandro Ranellucci und der RepRap-Community basiert.
+    el_GR: Το Orca Slicer είναι ένα πρόγραμμα κοπής ανοιχτού κώδικα για εκτυπωτές FDM. Το OrcaSlicer είναι μια διακλάδωση του Bambu Studio, παλαιότερα γνωστό ως BambuStudio-SoftFever, το Bambu Studio διακλαδώνεται από το PrusaSlicer της Prusa Research, το οποίο προέρχεται από το Slic3r του Alessandro Ranellucci και της κοινότητας RepRap.
+    en_GB: Orca Slicer is an open source slicer for Fdm printers. Orcaslicer is fork of Bambu Studio, it was previously known as Bambustudio-Softfever, Bambu Studio is forked from Prusaslicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the Reprap community
+    es_ES: Orca Slicer es un software de laminado de código abierto para impresoras FDM. OrcaSlicer es una bifurcación de Bambu Studio, anteriormente conocido como BambuStudio-SoftFever. Bambu Studio, a su vez, es una bifurcación de PrusaSlicer de Prusa Research, que deriva de Slic3r de Alessandro Ranellucci y la comunidad RepRap.
+    fr_FR: Orca Slicer est un logiciel de découpe open source pour imprimantes FDM. OrcaSlicer est un fork de Bambu Studio, anciennement connu sous le nom de BambuStudio-SoftFever. Bambu Studio est lui-même un fork de PrusaSlicer de Prusa Research, qui est basé sur Slic3r d'Alessandro Ranellucci et de la communauté RepRap.
+    ga_IE: Is slisneoir foinse oscailte é Orca Slicer do phrintéirí FDM. Is forc de chuid Bambu Studio é OrcaSlicer, ar a dtugtaí BambuStudio-SoftFever roimhe seo, is forc de chuid PrusaSlicer le Prusa Research é Bambu Studio, atá ó Slic3r le Alessandro Ranellucci agus pobal RepRap.
+    hr_HR: Orca Slicer je program za rezanje otvorenog koda za FDM pisače. OrcaSlicer je ogranak Bambu Studija, prethodno poznatog kao BambuStudio-SoftFever. Bambu Studio je ogranak PrusaSlicera od Prusa Researcha, koji je potomak Slic3ra od Alessandra Ranelluccija i RepRap zajednice.
+    hu_HU: Az Orca Slicer egy nyílt forráskódú szeletelőprogram FDM nyomtatókhoz. Az OrcaSlicer a Bambu Studio elágazása, korábban BambuStudio-SoftFever néven volt ismert. A Bambu Studio a PrusaSlicerből származik, amelyet a Prusa Research épített fel, ami pedig az Alessandro Ranellucci és a RepRap közösség által fejlesztett Slic3r-ből származik.
+    it_IT: Orca Slicer è un software di slicing open source per stampanti FDM. OrcaSlicer è un fork di Bambu Studio, precedentemente noto come BambuStudio-SoftFever. Bambu Studio è a sua volta un fork di PrusaSlicer di Prusa Research, che deriva da Slic3r di Alessandro Ranellucci e dalla community di RepRap.
+    ja_JP: Orca Slicerは、FDMプリンター向けのオープンソースのスライサーです。OrcaSlicerはBambu Studioのフォークであり、以前はBambuStudio-SoftFeverとして知られていました。Bambu Studioは、Prusa ResearchのPrusaSlicerからフォークされたもので、PrusaSlicerはAlessandro RanellucciとRepRapコミュニティによるSlic3rから派生したものです。
+    ko_KR: Orca Slicer는 FDM 프린터용 오픈 소스 슬라이서입니다. Orca Slicer는 Bambu Studio의 포크 버전이며, 이전에는 BambuStudio-SoftFever로 알려졌습니다. Bambu Studio는 Prusa Research의 PrusaSlicer에서 포크되었고, PrusaSlicer는 Alessandro Ranellucci와 RepRap 커뮤니티의 Slic3r에서 파생되었습니다.
+    ml_IN: FDM പ്രിന്ററുകൾക്കായുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് സ്ലൈസറാണ് Orca Slicer. Bambu Studio യുടെ ഫോർക്ക് ആണ് OrcaSlicer, മുമ്പ് BambuStudio-SoftFever എന്നറിയപ്പെട്ടിരുന്നു, Prusa Research, PrusaSlicer ൽ നിന്ന് Bambu Studio ഫോർക്ക് ചെയ്തിരിക്കുന്നു, Slic3r ൽ നിന്ന് Alessandro Ranellucci യും RepRap കമ്മ്യൂണിറ്റിയും ചേർന്നാണ് ഇത് നിർമ്മിച്ചിരിക്കുന്നത്.
+    nb_NO: Orca Slicer er en åpen kildekode-slicer for FDM-skrivere. OrcaSlicer er en forgrening av Bambu Studio, tidligere kjent som BambuStudio-SoftFever. Bambu Studio er en forgrening av PrusaSlicer av Prusa Research, som er en forgrening av Slic3r av Alessandro Ranellucci og RepRap-fellesskapet.
+    nl_NL: Orca Slicer is een open-source slicer voor FDM-printers. OrcaSlicer is een fork van Bambu Studio, voorheen bekend als BambuStudio-SoftFever. Bambu Studio is op zijn beurt een fork van PrusaSlicer van Prusa Research, dat weer afkomstig is van Slic3r van Alessandro Ranellucci en de RepRap-community.
+    pl_PL: Orca Slicer to slicer o otwartym kodzie źródłowym dla drukarek FDM. OrcaSlicer to fork Bambu Studio, wcześniej znanego jako BambuStudio-SoftFever. Bambu Studio to fork PrusaSlicer firmy Prusa Research, który z kolei wywodzi się ze Slic3r autorstwa Alessandro Ranellucciego i społeczności RepRap.
+    pt_BR: O Orca Slicer é um fatiador de código aberto para impressoras FDM. O OrcaSlicer é um fork do Bambu Studio, anteriormente conhecido como BambuStudio-SoftFever. O Bambu Studio, por sua vez, é um fork do PrusaSlicer, da Prusa Research, que por sua vez é derivado do Slic3r, criado por Alessandro Ranellucci e a comunidade RepRap.
+    ro_RO: Orca Slicer este un slicer open source pentru imprimante FDM. OrcaSlicer este o ramură a Bambu Studio, cunoscut anterior ca BambuStudio-SoftFever, Bambu Studio este o ramură a PrusaSlicer de către Prusa Research, care este de la Slic3r de către Alessandro Ranellucci și comunitatea RepRap.
+    ru_RU: Orca Slicer — это программа для нарезки моделей с открытым исходным кодом для FDM-принтеров. OrcaSlicer является форком Bambu Studio, ранее известной как BambuStudio-SoftFever, а Bambu Studio, в свою очередь, является форком PrusaSlicer от Prusa Research, которая, в свою очередь, основана на Slic3r от Алессандро Ранелуччи и сообщества RepRap.
+    sk_SK: Orca Slicer je open source slicer pre FDM tlačiarne. OrcaSlicer je fork od Bambu Studio, predtým známeho ako BambuStudio-SoftFever. Bambu Studio je fork od PrusaSlicer od Prusa Research, ktorý je fork od Slic3r od Alessandra Ranellucciho a komunity RepRap.
+    sv_SE: Orca Slicer är en öppen källkods-slicer för FDM-skrivare. OrcaSlicer är en förgrening av Bambu Studio, tidigare känt som BambuStudio-SoftFever, Bambu Studio är en förgrening av PrusaSlicer av Prusa Research, som är från Slic3r av Alessandro Ranellucci och RepRap-communityn.
+    tr_TR: Orca Slicer, FDM yazıcılar için açık kaynaklı bir dilimleme yazılımıdır. OrcaSlicer, Bambu Studio'nun bir çatalıdır; daha önce BambuStudio-SoftFever olarak biliniyordu. Bambu Studio ise Prusa Research tarafından geliştirilen PrusaSlicer'dan, o da Alessandro Ranellucci ve RepRap topluluğu tarafından geliştirilen Slic3r'dan çatallanmıştır.
     zh_CN: Orca Slicer 是面向 FDM 打印机的开源切片软件。它是 Bambu Studio 的分支，原名 BambuStudio-SoftFever。Bambu Studio 源自 Prusa Research 的 PrusaSlicer，而 PrusaSlicer 又源自 Alessandro Ranellucci 和 RepRap 社区开发的 Slic3r。
+    zh_TW: Orca Slicer 是面向 FDM 印表機的開源切片軟體。它是 Bambu Studio 的分支，原名 BambuStudio-SoftFever。Bambu Studio 源自 Prusa Research 的 PrusaSlicer，而 PrusaSlicer 又源自 Alessandro Ranellucci 和 RepRap 社群開發的 Slic3r。
   tagline:
     en_US: An open source slicer for FDM printers. OrcaSlicer is fork of Bambu Studio, it was previously known as BambuStudio-SoftFever, Bambu Studio is forked from PrusaSlicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the RepRap community
+    ca_ES: Un tallador de codi obert per a impressores FDM. OrcaSlicer és una bifurcació de Bambu Studio, anteriorment conegut com a BambuStudio-SoftFever, Bambu Studio és una bifurcació de PrusaSlicer per Prusa Research, que és de Slic3r per Alessandro Ranellucci i la comunitat RepRap.
+    cs_CZ: Open source slicer pro FDM tiskárny. OrcaSlicer je forkem Bambu Studia, dříve známého jako BambuStudio-SoftFever. Bambu Studio je forkem PrusaSliceru od Prusa Research, který je forkem Slic3r od Alessandra Ranellucciho a komunity RepRap.
+    da_DK: En open source-slicer til FDM-printere. OrcaSlicer er en forgrening af Bambu Studio, tidligere kendt som BambuStudio-SoftFever. Bambu Studio er en forgrening af PrusaSlicer af Prusa Research, som er en forgrening af Slic3r af Alessandro Ranellucci og RepRap-fællesskabet.
+    de_DE: OrcaSlicer ist ein Open-Source-Slicer für FDM-Drucker. Er basiert auf Bambu Studio und war zuvor als BambuStudio-SoftFever bekannt. Bambu Studio wiederum ist ein Fork von PrusaSlicer von Prusa Research, welches auf Slic3r von Alessandro Ranellucci und der RepRap-Community basiert.
+    el_GR: Ένας αναλυτής ανοιχτού κώδικα για εκτυπωτές FDM. Το OrcaSlicer είναι διακλάδωση του Bambu Studio, παλαιότερα γνωστό ως BambuStudio-SoftFever, το Bambu Studio διακλαδώνεται από το PrusaSlicer της Prusa Research, το οποίο προέρχεται από το Slic3r του Alessandro Ranellucci και της κοινότητας RepRap.
+    en_GB: An open source slicer for Fdm printers. Orcaslicer is fork of Bambu Studio, it was previously known as Bambustudio-Softfever, Bambu Studio is forked from Prusaslicer by Prusa Research, which is from Slic3r by Alessandro Ranellucci and the Reprap community
+    es_ES: OrcaSlicer es un software de laminado de código abierto para impresoras FDM. Es una bifurcación de Bambu Studio, anteriormente conocido como BambuStudio-SoftFever. Bambu Studio, a su vez, es una bifurcación de PrusaSlicer de Prusa Research, que deriva de Slic3r de Alessandro Ranellucci y la comunidad RepRap.
+    fr_FR: OrcaSlicer est un logiciel de découpe open source pour imprimantes FDM. Il s'agit d'un fork de Bambu Studio, anciennement connu sous le nom de BambuStudio-SoftFever. Bambu Studio est lui-même un fork de PrusaSlicer (Prusa Research), dérivé de Slic3r (Alessandro Ranellucci et la communauté RepRap).
+    ga_IE: Sliseoir foinse oscailte do phrintéirí FDM. Is forc de chuid Bambu Studio é OrcaSlicer, ar a dtugtaí BambuStudio-SoftFever roimhe seo, is forc de chuid PrusaSlicer le Prusa Research é Bambu Studio, atá ó Slic3r le Alessandro Ranellucci agus pobal RepRap.
+    hr_HR: Rezač otvorenog koda za FDM pisače. OrcaSlicer je ogranak Bambu Studija, prethodno poznat kao BambuStudio-SoftFever, Bambu Studio je ogranak PrusaSlicera od Prusa Researcha, koji je potomak Slic3ra od Alessandra Ranelluccija i RepRap zajednice.
+    hu_HU: Egy nyílt forráskódú szeletelő FDM nyomtatókhoz. Az OrcaSlicer a Bambu Studio elágazása, korábban BambuStudio-SoftFever néven volt ismert. A Bambu Studio a PrusaSlicerből származik, amelyet a Prusa Research épített fel, ami pedig az Alessandro Ranellucci és a RepRap közösség Slic3r-jéből származik.
+    it_IT: Un software di slicing open source per stampanti FDM. OrcaSlicer è un fork di Bambu Studio, precedentemente noto come BambuStudio-SoftFever. Bambu Studio è a sua volta un fork di PrusaSlicer di Prusa Research, che deriva da Slic3r di Alessandro Ranellucci e dalla community di RepRap.
+    ja_JP: FDMプリンター用のオープンソーススライサー。OrcaSlicerはBambu Studioのフォークであり、以前はBambuStudio-SoftFeverとして知られていました。Bambu StudioはPrusa ResearchのPrusaSlicerからフォークされ、PrusaSlicerはAlessandro RanellucciとRepRapコミュニティによるSlic3rから派生したものです。
+    ko_KR: FDM 프린터용 오픈 소스 슬라이서 소프트웨어인 OrcaSlicer는 Bambu Studio의 포크 버전입니다. Bambu Studio는 이전에는 BambuStudio-SoftFever로 알려졌으며, Bambu Studio는 Prusa Research의 PrusaSlicer에서 포크되었고, PrusaSlicer는 Alessandro Ranellucci와 RepRap 커뮤니티의 Slic3r에서 파생되었습니다.
+    ml_IN: FDM പ്രിന്ററുകൾക്കായുള്ള ഒരു ഓപ്പൺ സോഴ്‌സ് സ്ലൈസർ. ഓർക്കസ്ലൈസർ ബാംബു സ്റ്റുഡിയോയുടെ ഫോർക്ക് ആണ്, മുമ്പ് ബാംബുസ്റ്റുഡിയോ-സോഫ്റ്റ്ഫീവർ എന്നറിയപ്പെട്ടിരുന്നു, ബാംബു സ്റ്റുഡിയോ പ്രൂസ റിസർച്ച് പ്രൂസസ്ലൈസറിൽ നിന്ന് ഫോർക്ക് ചെയ്തതാണ്, ഇത് അലസ്സാൻഡ്രോ റാനെല്ലൂച്ചിയും റെപ്പ് റാപ്പ് കമ്മ്യൂണിറ്റിയും ചേർന്ന് സ്ലിക്ക്3ആറിൽ നിന്ന് എടുത്തതാണ്.
+    nb_NO: En åpen kildekode-slicer for FDM-skrivere. OrcaSlicer er en forgrening av Bambu Studio, tidligere kjent som BambuStudio-SoftFever. Bambu Studio er en forgrening av PrusaSlicer av Prusa Research, som er en forgrening av Slic3r av Alessandro Ranellucci og RepRap-fellesskapet.
+    nl_NL: Een open source slicer voor FDM-printers. OrcaSlicer is een fork van Bambu Studio, voorheen bekend als BambuStudio-SoftFever. Bambu Studio is op zijn beurt een fork van PrusaSlicer van Prusa Research, dat weer afkomstig is van Slic3r van Alessandro Ranellucci en de RepRap-community.
+    pl_PL: Slicer open source dla drukarek FDM. OrcaSlicer to fork Bambu Studio, wcześniej znanego jako BambuStudio-SoftFever. Bambu Studio to fork PrusaSlicer firmy Prusa Research, który z kolei wywodzi się ze Slic3r autorstwa Alessandro Ranellucciego i społeczności RepRap.
+    pt_BR: Um fatiador de código aberto para impressoras FDM. O OrcaSlicer é um fork do Bambu Studio, anteriormente conhecido como BambuStudio-SoftFever. O Bambu Studio, por sua vez, é um fork do PrusaSlicer, da Prusa Research, que por sua vez é derivado do Slic3r, criado por Alessandro Ranellucci e a comunidade RepRap.
+    ro_RO: Un slicer open source pentru imprimante FDM. OrcaSlicer este o ramură a Bambu Studio, cunoscut anterior ca BambuStudio-SoftFever, Bambu Studio este o ramură a PrusaSlicer de către Prusa Research, care este de la Slic3r de către Alessandro Ranellucci și comunitatea RepRap.
+    ru_RU: Программа для нарезки моделей с открытым исходным кодом для FDM-принтеров. OrcaSlicer — это форк Bambu Studio, ранее известной как BambuStudio-SoftFever. Bambu Studio, в свою очередь, является форком PrusaSlicer от Prusa Research, которая, в свою очередь, основана на Slic3r от Алессандро Ранелуччи и сообщества RepRap.
+    sk_SK: Open source slicer pre FDM tlačiarne. OrcaSlicer je fork od Bambu Studio, predtým známeho ako BambuStudio-SoftFever. Bambu Studio je fork od PrusaSliceru od Prusa Research, ktorý je fork od Slic3r od Alessandra Ranellucciho a komunity RepRap.
+    sv_SE: En öppen källkods-slicer för FDM-skrivare. OrcaSlicer är en förgrening av Bambu Studio, tidigare känt som BambuStudio-SoftFever. Bambu Studio är en förgrening av PrusaSlicer av Prusa Research, som är från Slic3r av Alessandro Ranellucci och RepRap-communityn.
+    tr_TR: FDM yazıcılar için açık kaynaklı bir dilimleme yazılımı. OrcaSlicer, Bambu Studio'nun bir çatalıdır; daha önce BambuStudio-SoftFever olarak biliniyordu. Bambu Studio ise Prusa Research tarafından geliştirilen PrusaSlicer'dan, o da Alessandro Ranellucci ve RepRap topluluğu tarafından geliştirilen Slic3r'dan çatallanmıştır.
     zh_CN: 面向 FDM 打印机的开源切片软件。
+    zh_TW: 面向 FDM 印表機的開源切片軟體。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png
   title:
     en_US: Orcaslicer (LinuxServer.io)
+    ca_ES: Orcaslicer (LinuxServer.io)
+    cs_CZ: Orcaslicer (LinuxServer.io)
+    da_DK: Orcaslicer (LinuxServer.io)
+    de_DE: Orcaslicer (LinuxServer.io)
+    el_GR: Orcaslicer (LinuxServer.io)
+    en_GB: Orcaslicer (LinuxServer.io)
+    es_ES: Orcaslicer (LinuxServer.io)
+    fr_FR: Orcaslicer (LinuxServer.io)
+    ga_IE: Orcaslicer (LinuxServer.io)
+    hr_HR: Orcaslicer (LinuxServer.io)
+    hu_HU: Orcaslicer (LinuxServer.io)
+    it_IT: Orcaslicer (LinuxServer.io)
+    ja_JP: Orcaslicer (LinuxServer.io)
+    ko_KR: Orcaslicer (LinuxServer.io)
+    ml_IN: Orcaslicer (LinuxServer.io)
+    nb_NO: Orcaslicer (LinuxServer.io)
+    nl_NL: Orcaslicer (LinuxServer.io)
+    pl_PL: Orcaslicer (LinuxServer.io)
+    pt_BR: Orcaslicer (LinuxServer.io)
+    ro_RO: Orcaslicer (LinuxServer.io)
+    ru_RU: Orcaslicer (LinuxServer.io)
+    sk_SK: Orcaslicer (LinuxServer.io)
+    sv_SE: Orcaslicer (LinuxServer.io)
+    tr_TR: Orcaslicer (LinuxServer.io)
     zh_CN: Orcaslicer（LinuxServer.io）
+    zh_TW: Orcaslicer（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverorcaslicer
   port_map: '3000'

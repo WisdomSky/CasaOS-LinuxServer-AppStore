@@ -33,17 +33,92 @@ x-casaos:
   main: app
   description:
     en_US: Htpcmanager is a front end for many htpc related applications.
+    ca_ES: Htpcmanager és un front-end per a moltes aplicacions relacionades amb htpc.
+    cs_CZ: Htpcmanager je front-end pro mnoho aplikací souvisejících s HTPC.
+    da_DK: Htpcmanager er en brugergrænseflade til mange htpc-relaterede applikationer.
+    de_DE: Htpcmanager ist eine Benutzeroberfläche für viele HTPC-bezogene Anwendungen.
+    el_GR: Το Htpcmanager είναι ένα front end για πολλές εφαρμογές που σχετίζονται με htpc.
+    en_GB: Htpcmanager is a front end for many htpc related applications.
+    es_ES: Htpcmanager es una interfaz para muchas aplicaciones relacionadas con HTPC.
+    fr_FR: Htpcmanager est une interface utilisateur pour de nombreuses applications liées aux HTPC.
+    ga_IE: Is comhéadan úsáideora é Htpcmanager do go leor feidhmchlár a bhaineann le htpc.
+    hr_HR: Htpcmanager je front-end za mnoge HTPC aplikacije.
+    hu_HU: A Htpcmanager egy kezelőfelület számos htpc-vel kapcsolatos alkalmazáshoz.
+    it_IT: Htpcmanager è un'interfaccia grafica per numerose applicazioni HTPC.
+    ja_JP: Htpcmanagerは、多くのHTPC関連アプリケーションのフロントエンドです。
+    ko_KR: HTPCManager는 다양한 HTPC 관련 애플리케이션의 프런트엔드입니다.
+    ml_IN: എച്ച്ടിപിസിയുമായി ബന്ധപ്പെട്ട നിരവധി ആപ്ലിക്കേഷനുകൾക്ക് എച്ച്ടിപിസിമാനേജർ ഒരു മുൻനിര പ്രോഗ്രാമാണ്.
+    nb_NO: Htpcmanager er et grensesnitt for mange htpc-relaterte applikasjoner.
+    nl_NL: Htpcmanager is een front-end voor veel HTPC-gerelateerde applicaties.
+    pl_PL: Htpcmanager jest interfejsem użytkownika dla wielu aplikacji związanych z HTTP.
+    pt_BR: O Htpcmanager é uma interface para diversos aplicativos relacionados ao HTPC.
+    ro_RO: Htpcmanager este un front-end pentru multe aplicații legate de htpc.
+    ru_RU: Htpcmanager — это интерфейс для множества приложений, связанных с HTPC.
+    sk_SK: Htpcmanager je rozhranie pre mnoho aplikácií súvisiacich s HTPC.
+    sv_SE: Htpcmanager är ett gränssnitt för många htpc-relaterade applikationer.
+    tr_TR: Htpcmanager, birçok HTPC ile ilgili uygulama için bir ön uç arayüzüdür.
     zh_CN: HTPC Manager 是多种家庭影院电脑（HTPC）相关应用的前端界面。
+    zh_TW: HTPC Manager 是多種家庭影院電腦（HTPC）相關應用的前端介面。
   tagline:
     en_US: A front end for many htpc related applications.
+    ca_ES: Un front-end per a moltes aplicacions relacionades amb htpc.
+    cs_CZ: Front-end pro mnoho aplikací souvisejících s HTPC.
+    da_DK: En brugerflade til mange htpc-relaterede applikationer.
+    de_DE: Eine Benutzeroberfläche für viele HTPC-bezogene Anwendungen.
+    el_GR: Ένα front end για πολλές εφαρμογές που σχετίζονται με htpc.
+    en_GB: A front end for many htpc related applications.
+    es_ES: Una interfaz para muchas aplicaciones relacionadas con HTPC.
+    fr_FR: Une interface utilisateur pour de nombreuses applications liées aux HTPC.
+    ga_IE: Tosach tosaigh do go leor feidhmchlár a bhaineann le htpc.
+    hr_HR: Prednji dio za mnoge HTPC aplikacije.
+    hu_HU: Számos HTPC-vel kapcsolatos alkalmazás felhasználói felülete.
+    it_IT: Un'interfaccia utente per numerose applicazioni relative agli HTPC.
+    ja_JP: 多くのHTPC関連アプリケーションのフロントエンド。
+    ko_KR: HTPC 관련 애플리케이션의 프런트엔드입니다.
+    ml_IN: നിരവധി എച്ച്ടിപിസി അനുബന്ധ ആപ്ലിക്കേഷനുകൾക്കുള്ള ഒരു മുൻഭാഗം.
+    nb_NO: Et grensesnitt for mange htpc-relaterte applikasjoner.
+    nl_NL: Een front-end voor veel HTPC-gerelateerde applicaties.
+    pl_PL: Interfejs użytkownika dla wielu aplikacji związanych z HTTP.
+    pt_BR: Uma interface para diversos aplicativos relacionados a HTPC.
+    ro_RO: Un front-end pentru multe aplicații legate de htpc.
+    ru_RU: Интерфейс для множества приложений, связанных с высокопроизводительными компьютерами.
+    sk_SK: Front-end pre mnoho aplikácií súvisiacich s HTPC.
+    sv_SE: Ett gränssnitt för många htpc-relaterade applikationer.
+    tr_TR: Birçok HTPC uygulaması için bir ön uç arayüzü.
     zh_CN: 集中访问多种 HTPC 相关应用。
+    zh_TW: 集中訪問多種 HTPC 相關應用。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png
   title:
     en_US: Htpcmanager (LinuxServer.io)
+    ca_ES: Htpcmanager (LinuxServer.io)
+    cs_CZ: Htpcmanager (LinuxServer.io)
+    da_DK: Htpcmanager (LinuxServer.io)
+    de_DE: Htpcmanager (LinuxServer.io)
+    el_GR: Htpcmanager (LinuxServer.io)
+    en_GB: Htpcmanager (LinuxServer.io)
+    es_ES: Htpcmanager (LinuxServer.io)
+    fr_FR: Htpcmanager (LinuxServer.io)
+    ga_IE: Htpcmanager (LinuxServer.io)
+    hr_HR: Htpcmanager (LinuxServer.io)
+    hu_HU: Htpcmanager (LinuxServer.io)
+    it_IT: Htpcmanager (LinuxServer.io)
+    ja_JP: Htpcmanager (LinuxServer.io)
+    ko_KR: Htpcmanager (LinuxServer.io)
+    ml_IN: Htpcmanager (LinuxServer.io)
+    nb_NO: Htpcmanager (LinuxServer.io)
+    nl_NL: Htpcmanager (LinuxServer.io)
+    pl_PL: Htpcmanager (LinuxServer.io)
+    pt_BR: Htpcmanager (LinuxServer.io)
+    ro_RO: Htpcmanager (LinuxServer.io)
+    ru_RU: Htpcmanager (LinuxServer.io)
+    sk_SK: Htpcmanager (LinuxServer.io)
+    sv_SE: Htpcmanager (LinuxServer.io)
+    tr_TR: Htpcmanager (LinuxServer.io)
     zh_CN: Htpcmanager（LinuxServer.io）
+    zh_TW: Htpcmanager（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverhtpcmanager
   port_map: '8085'

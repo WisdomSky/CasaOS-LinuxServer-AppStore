@@ -57,17 +57,92 @@ x-casaos:
   main: app
   description:
     en_US: Mariadb is one of the most popular database servers. Made by the original developers of MySQL.
+    ca_ES: Mariadb és un dels servidors de bases de dades més populars. Creat pels desenvolupadors originals de MySQL.
+    cs_CZ: Mariadb je jeden z nejpopulárnějších databázových serverů. Vytvořili ho původní vývojáři MySQL.
+    da_DK: Mariadb er en af de mest populære databaseservere. Lavet af de oprindelige udviklere af MySQL.
+    de_DE: MariaDB ist einer der beliebtesten Datenbankserver. Entwickelt von den ursprünglichen Entwicklern von MySQL.
+    el_GR: Το Mariadb είναι ένας από τους πιο δημοφιλείς διακομιστές βάσεων δεδομένων. Κατασκευασμένος από τους αρχικούς προγραμματιστές του MySQL.
+    en_GB: Mariadb is one of the most popular database servers. Made by the original developers of Mysql.
+    es_ES: MariaDB es uno de los servidores de bases de datos más populares. Fue creado por los desarrolladores originales de MySQL.
+    fr_FR: MariaDB est l'un des serveurs de bases de données les plus populaires. Il a été créé par les développeurs originaux de MySQL.
+    ga_IE: Tá Mariadb ar cheann de na freastalaithe bunachar sonraí is mó tóir. Déanta ag forbróirí bunaidh MySQL.
+    hr_HR: Mariadb je jedan od najpopularnijih poslužitelja baza podataka. Izradili su ga izvorni programeri MySQL-a.
+    hu_HU: A Mariadb az egyik legnépszerűbb adatbázis-kiszolgáló. A MySQL eredeti fejlesztői készítették.
+    it_IT: MariaDB è uno dei server di database più popolari. È stato creato dagli sviluppatori originali di MySQL.
+    ja_JP: MariaDBは最も人気のあるデータベースサーバーの一つです。MySQLのオリジナル開発者によって開発されました。
+    ko_KR: MariaDB는 가장 인기 있는 데이터베이스 서버 중 하나입니다. MySQL의 최초 개발자들이 만들었습니다.
+    ml_IN: മരിയാഡിബി ഏറ്റവും ജനപ്രിയമായ ഡാറ്റാബേസ് സെർവറുകളിൽ ഒന്നാണ്. മൈഎസ്ക്യുഎല്ലിന്റെ യഥാർത്ഥ ഡെവലപ്പർമാർ നിർമ്മിച്ചതാണ് ഇത്.
+    nb_NO: Mariadb er en av de mest populære databaseserverne. Laget av de opprinnelige utviklerne av MySQL.
+    nl_NL: MariaDB is een van de populairste databaseservers. Het is ontwikkeld door de oorspronkelijke ontwikkelaars van MySQL.
+    pl_PL: Mariadb to jeden z najpopularniejszych serwerów baz danych. Stworzony przez oryginalnych twórców MySQL.
+    pt_BR: O MariaDB é um dos servidores de banco de dados mais populares. Foi criado pelos desenvolvedores originais do MySQL.
+    ro_RO: Mariadb este unul dintre cele mai populare servere de baze de date. Creat de dezvoltatorii originali ai MySQL.
+    ru_RU: MariaDB — один из самых популярных серверов баз данных. Он создан разработчиками оригинальной MySQL.
+    sk_SK: Mariadb je jeden z najpopulárnejších databázových serverov. Vytvorili ho pôvodní vývojári MySQL.
+    sv_SE: Mariadb är en av de mest populära databasservrarna. Skapad av de ursprungliga utvecklarna av MySQL.
+    tr_TR: MariaDB, en popüler veritabanı sunucularından biridir. MySQL'in orijinal geliştiricileri tarafından yapılmıştır.
     zh_CN: MariaDB 是广受欢迎的数据库服务器之一，由 MySQL 的原始开发者创建。
+    zh_TW: MariaDB 是廣受歡迎的資料庫伺服器之一，由 MySQL 的原始開發者建立。
   tagline:
     en_US: One of the most popular database servers. Made by the original developers of MySQL.
+    ca_ES: Un dels servidors de bases de dades més populars. Creat pels desenvolupadors originals de MySQL.
+    cs_CZ: Jeden z nejpopulárnějších databázových serverů. Vytvořen původními vývojáři MySQL.
+    da_DK: En af de mest populære databaseservere. Lavet af de oprindelige udviklere af MySQL.
+    de_DE: Einer der beliebtesten Datenbankserver. Entwickelt von den ursprünglichen Entwicklern von MySQL.
+    el_GR: Ένας από τους πιο δημοφιλείς διακομιστές βάσεων δεδομένων. Κατασκευασμένος από τους αρχικούς προγραμματιστές της MySQL.
+    en_GB: One of the most popular database servers. Made by the original developers of Mysql.
+    es_ES: Uno de los servidores de bases de datos más populares. Creado por los desarrolladores originales de MySQL.
+    fr_FR: L'un des serveurs de bases de données les plus populaires. Créé par les développeurs originaux de MySQL.
+    ga_IE: Ceann de na freastalaithe bunachar sonraí is mó tóir. Déanta ag forbróirí bunaidh MySQL.
+    hr_HR: Jedan od najpopularnijih poslužitelja baza podataka. Izradili su ga izvorni programeri MySQL-a.
+    hu_HU: Az egyik legnépszerűbb adatbázis-kiszolgáló. A MySQL eredeti fejlesztői készítették.
+    it_IT: Uno dei server di database più popolari. Creato dagli sviluppatori originali di MySQL.
+    ja_JP: 最も人気のあるデータベースサーバーの一つ。MySQLのオリジナル開発者によって作られた。
+    ko_KR: 가장 인기 있는 데이터베이스 서버 중 하나입니다. MySQL의 최초 개발자들이 만들었습니다.
+    ml_IN: ഏറ്റവും ജനപ്രിയമായ ഡാറ്റാബേസ് സെർവറുകളിൽ ഒന്ന്. MySQL-ന്റെ യഥാർത്ഥ ഡെവലപ്പർമാർ നിർമ്മിച്ചത്.
+    nb_NO: En av de mest populære databaseserverne. Laget av de opprinnelige utviklerne av MySQL.
+    nl_NL: Een van de populairste databaseservers. Gemaakt door de oorspronkelijke ontwikkelaars van MySQL.
+    pl_PL: Jeden z najpopularniejszych serwerów baz danych. Stworzony przez oryginalnych twórców MySQL.
+    pt_BR: Um dos servidores de banco de dados mais populares. Criado pelos desenvolvedores originais do MySQL.
+    ro_RO: Unul dintre cele mai populare servere de baze de date. Creat de dezvoltatorii originali ai MySQL.
+    ru_RU: Один из самых популярных серверов баз данных. Создан оригинальными разработчиками MySQL.
+    sk_SK: Jeden z najpopulárnejších databázových serverov. Vytvorený pôvodnými vývojármi MySQL.
+    sv_SE: En av de mest populära databasservrarna. Skapad av de ursprungliga utvecklarna av MySQL.
+    tr_TR: En popüler veritabanı sunucularından biri. MySQL'in orijinal geliştiricileri tarafından yapılmıştır.
     zh_CN: 由 MySQL 原开发者打造的数据库服务器。
+    zh_TW: 由 MySQL 原開發者打造的資料庫伺服器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png
   title:
     en_US: Mariadb (LinuxServer.io)
+    ca_ES: Mariadb (LinuxServer.io)
+    cs_CZ: Mariadb (LinuxServer.io)
+    da_DK: Mariadb (LinuxServer.io)
+    de_DE: Mariadb (LinuxServer.io)
+    el_GR: Mariadb (LinuxServer.io)
+    en_GB: Mariadb (LinuxServer.io)
+    es_ES: Mariadb (LinuxServer.io)
+    fr_FR: Mariadb (LinuxServer.io)
+    ga_IE: Mariadb (LinuxServer.io)
+    hr_HR: Mariadb (LinuxServer.io)
+    hu_HU: Mariadb (LinuxServer.io)
+    it_IT: Mariadb (LinuxServer.io)
+    ja_JP: Mariadb (LinuxServer.io)
+    ko_KR: Mariadb (LinuxServer.io)
+    ml_IN: Mariadb (LinuxServer.io)
+    nb_NO: Mariadb (LinuxServer.io)
+    nl_NL: Mariadb (LinuxServer.io)
+    pl_PL: Mariadb (LinuxServer.io)
+    pt_BR: Mariadb (LinuxServer.io)
+    ro_RO: Mariadb (LinuxServer.io)
+    ru_RU: Mariadb (LinuxServer.io)
+    sk_SK: Mariadb (LinuxServer.io)
+    sv_SE: Mariadb (LinuxServer.io)
+    tr_TR: Mariadb (LinuxServer.io)
     zh_CN: Mariadb（LinuxServer.io）
+    zh_TW: Mariadb（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservermariadb
   port_map: '3306'

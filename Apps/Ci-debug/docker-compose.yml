@@ -33,9 +33,59 @@ x-casaos:
   description:
     en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci-debug for details.
     zh_CN: 此容器需要特别注意。使用前请阅读相关说明：https://hub.docker.com/r/linuxserver/ci-debug
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.docker.com/r/linuxserver/ci-debug per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.docker.com/r/linuxserver/ci-debug.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.docker.com/r/linuxserver/ci-debug for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.docker.com/r/linuxserver/ci-debug.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.docker.com/r/linuxserver/ci-debug.
+    en_GB: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/ci-debug for details.
+    es_ES: Este contenedor requiere atención especial. Para obtener más detalles, consulte https://hub.docker.com/r/linuxserver/ci-debug.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/ci-debug pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.docker.com/r/linuxserver/ci-debug le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.docker.com/r/linuxserver/ci-debug.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.docker.com/r/linuxserver/ci-debug oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.docker.com/r/linuxserver/ci-debug.
+    ja_JP: このコンテナは特別な注意が必要です。詳細はhttps://hub.docker.com/r/linuxserver/ci-debugをご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.docker.com/r/linuxserver/ci-debug 를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub.docker.com/r/linuxserver/ci-debug പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.docker.com/r/linuxserver/ci-debug for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/ci-debug voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły znajdziesz na stronie https://hub.docker.com/r/linuxserver/ci-debug.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/ci-debug para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.docker.com/r/linuxserver/ci-debug pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.docker.com/r/linuxserver/ci-debug.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.docker.com/r/linuxserver/ci-debug.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.docker.com/r/linuxserver/ci-debug för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.docker.com/r/linuxserver/ci-debug adresini kontrol edin.
+    zh_TW: 此容器需要特別注意。使用前請閱讀相關說明：https://hub.docker.com/r/linuxserver/ci-debug
   tagline:
     en_US: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci-debug for details.
     zh_CN: 此容器需要特殊配置，请先阅读使用说明。
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.Docker.com/r/linuxserver/ci-debug per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/ci-debug.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.Docker.com/r/linuxserver/ci-debug for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.Docker.com/r/linuxserver/ci-debug.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.Docker.com/r/linuxserver/ci-debug.
+    en_GB: This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/ci-debug for details.
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.Docker.com/r/linuxserver/ci-debug para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/ci-debug pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Seiceáil https://hub.Docker.com/r/linuxserver/ci-debug le haghaidh tuilleadh sonraí.
+    hr_HR: Ovom kontejneru treba posvetiti posebnu pozornost. Za detalje posjetite https://hub.Docker.com/r/linuxserver/ci-debug.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/ci-debug oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.Docker.com/r/linuxserver/ci-debug.
+    ja_JP: このコンテナには特別な注意が必要です。詳細は https://hub.docker.com/r/linuxserver/ci-debug をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/ci-debug 를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub. Docker. Com/r/linuxserver/ci-debug പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.Docker.com/r/linuxserver/ci-debug for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/ci-debug voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły można znaleźć na stronie https://hub.Docker.Com/r/linuxserver/ci-debug.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/ci-debug para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/ci-debug pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Пожалуйста, ознакомьтесь с подробностями на странице https://hub.Docker.com/r/linuxserver/ci-debug.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.Docker.com/r/linuxserver/ci-debug.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.Docker.com/r/linuxserver/ci-debug för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.Docker.com/r/linuxserver/ci-debug adresini kontrol edin.
+    zh_TW: 此容器需要特殊配置，請先閱讀使用說明。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
@@ -43,6 +93,31 @@ x-casaos:
   title:
     en_US: Ci debug
     zh_CN: Ci debug
+    ca_ES: Ci debug
+    cs_CZ: Ci debug
+    da_DK: Ci debug
+    de_DE: Ci debug
+    el_GR: Ci debug
+    en_GB: Ci debug
+    es_ES: Ci debug
+    fr_FR: Ci debug
+    ga_IE: Ci debug
+    hr_HR: Ci debug
+    hu_HU: Ci debug
+    it_IT: Ci debug
+    ja_JP: Ci debug
+    ko_KR: Ci debug
+    ml_IN: Ci debug
+    nb_NO: Ci debug
+    nl_NL: Ci debug
+    pl_PL: Ci debug
+    pt_BR: Ci debug
+    ro_RO: Ci debug
+    ru_RU: Ci debug
+    sk_SK: Ci debug
+    sv_SE: Ci debug
+    tr_TR: Ci debug
+    zh_TW: Ci debug
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxservercidebug

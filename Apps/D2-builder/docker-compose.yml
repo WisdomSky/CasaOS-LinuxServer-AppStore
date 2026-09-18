@@ -34,9 +34,59 @@ x-casaos:
   description:
     en_US: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/d2-builder for details.
     zh_CN: 此容器需要特别注意。使用前请阅读相关说明：https://hub.docker.com/r/linuxserver/d2-builder
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.docker.com/r/linuxserver/d2-builder per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.docker.com/r/linuxserver/d2-builder.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.docker.com/r/linuxserver/d2-builder for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.docker.com/r/linuxserver/d2-builder.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.docker.com/r/linuxserver/d2-builder.
+    en_GB: This container needs special attention. Please check https://hub.docker.com/r/linuxserver/d2-builder for details.
+    es_ES: Este contenedor requiere especial atención. Para más detalles, consulte https://hub.docker.com/r/linuxserver/d2-builder.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/d2-builder pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.docker.com/r/linuxserver/d2-builder le haghaidh tuilleadh sonraí.
+    hr_HR: Ovaj kontejner zahtijeva posebnu pozornost. Za detalje posjetite https://hub.docker.com/r/linuxserver/d2-builder.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.docker.com/r/linuxserver/d2-builder oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.docker.com/r/linuxserver/d2-builder.
+    ja_JP: このコンテナは特別な注意が必要です。詳細はhttps://hub.docker.com/r/linuxserver/d2-builderをご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.docker.com/r/linuxserver/d2-builder 를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub.docker.com/r/linuxserver/d2-builder പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.docker.com/r/linuxserver/d2-builder for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/d2-builder voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły znajdziesz na stronie https://hub.docker.com/r/linuxserver/d2-builder.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/d2-builder para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.docker.com/r/linuxserver/d2-builder pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.docker.com/r/linuxserver/d2-builder.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.docker.com/r/linuxserver/d2-builder.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.docker.com/r/linuxserver/d2-builder för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.docker.com/r/linuxserver/d2-builder adresini kontrol edin.
+    zh_TW: 此容器需要特別注意。使用前請閱讀相關說明：https://hub.docker.com/r/linuxserver/d2-builder
   tagline:
     en_US: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/d2-builder for details. '
     zh_CN: 此容器需要特殊配置，请先阅读使用说明。
+    ca_ES: Aquest contenidor necessita una atenció especial. Si us plau, consulteu https://hub.Docker.com/r/linuxserver/d2-builder per obtenir més informació.
+    cs_CZ: Tento kontejner vyžaduje zvláštní pozornost. Podrobnosti naleznete na adrese https://hub.Docker.com/r/linuxserver/d2-builder.
+    da_DK: Denne container kræver særlig opmærksomhed. Se venligst https://hub.Docker.com/r/linuxserver/d2-builder for yderligere oplysninger.
+    de_DE: Dieser Container erfordert besondere Aufmerksamkeit. Weitere Informationen finden Sie unter https://hub.Docker.com/r/linuxserver/d2-builder.
+    el_GR: Αυτό το κοντέινερ χρειάζεται ιδιαίτερη προσοχή. Για λεπτομέρειες, ανατρέξτε στη διεύθυνση https://hub.Docker.com/r/linuxserver/d2-builder.
+    en_GB: 'This container needs special attention. Please check https://hub. Docker. Com/r/linuxserver/d2-builder for details. '
+    es_ES: Este contenedor requiere atención especial. Consulte https://hub.Docker.com/r/linuxserver/d2-builder para obtener más detalles.
+    fr_FR: Ce conteneur nécessite une attention particulière. Veuillez consulter https://hub.docker.com/r/linuxserver/d2-builder pour plus de détails.
+    ga_IE: Tá aird ar leith ag teastáil ón gcoimeádán seo. Féach ar https://hub.Docker.com/r/linuxserver/d2-builder le haghaidh tuilleadh sonraí.
+    hr_HR: Ovom kontejneru treba posvetiti posebnu pozornost. Za detalje posjetite https://hub.Docker.com/r/linuxserver/d2-builder.
+    hu_HU: Ez a konténer különös figyelmet igényel. További részletekért kérjük, látogassa meg a https://hub.Docker.Com/r/linuxserver/d2-builder oldalt.
+    it_IT: Questo container richiede particolare attenzione. Per maggiori dettagli, consultare https://hub.Docker.com/r/linuxserver/d2-builder.
+    ja_JP: このコンテナには特別な注意が必要です。詳細は https://hub.docker.com/r/linuxserver/d2-builder をご確認ください。
+    ko_KR: 이 컨테이너는 특별한 주의가 필요합니다. 자세한 내용은 https://hub.Docker.com/r/linuxserver/d2-builder를 참조하십시오.
+    ml_IN: ഈ കണ്ടെയ്‌നറിന് പ്രത്യേക ശ്രദ്ധ ആവശ്യമാണ്. വിശദാംശങ്ങൾക്ക് https://hub. Docker. Com/r/linuxserver/d2-builder പരിശോധിക്കുക.
+    nb_NO: Denne containeren trenger spesiell oppmerksomhet. Se https://hub.Docker.com/r/linuxserver/d2-builder for mer informasjon.
+    nl_NL: Deze container vereist speciale aandacht. Raadpleeg https://hub.docker.com/r/linuxserver/d2-builder voor meer informatie.
+    pl_PL: Ten kontener wymaga szczególnej uwagi. Szczegóły można znaleźć na stronie https://hub.Docker.Com/r/linuxserver/d2-builder.
+    pt_BR: Este contêiner requer atenção especial. Consulte https://hub.docker.com/r/linuxserver/d2-builder para obter detalhes.
+    ro_RO: Acest container necesită o atenție specială. Vă rugăm să consultați https://hub.Docker.com/r/linuxserver/d2-builder pentru detalii.
+    ru_RU: Этот контейнер требует особого внимания. Подробности см. на странице https://hub.Docker.com/r/linuxserver/d2-builder.
+    sk_SK: Tento kontajner si vyžaduje osobitnú pozornosť. Podrobnosti nájdete na stránke https://hub.Docker.com/r/linuxserver/d2-builder.
+    sv_SE: Den här containern behöver särskild uppmärksamhet. Se https://hub.Docker.com/r/linuxserver/d2-builder för mer information.
+    tr_TR: Bu konteyner özel ilgi gerektiriyor. Ayrıntılar için lütfen https://hub.Docker.com/r/linuxserver/d2-builder adresini kontrol edin.
+    zh_TW: 此容器需要特殊配置，請先閱讀使用說明。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/WisdomSky/CasaOS-LinuxServer-AppStore/main/default-icon.svg
@@ -44,6 +94,31 @@ x-casaos:
   title:
     en_US: D2 builder
     zh_CN: D2 builder
+    ca_ES: D2 builder
+    cs_CZ: D2 builder
+    da_DK: D2 builder
+    de_DE: D2 builder
+    el_GR: D2 builder
+    en_GB: D2 builder
+    es_ES: D2 builder
+    fr_FR: D2 builder
+    ga_IE: D2 builder
+    hr_HR: D2 builder
+    hu_HU: D2 builder
+    it_IT: D2 builder
+    ja_JP: D2 builder
+    ko_KR: D2 builder
+    ml_IN: D2 builder
+    nb_NO: D2 builder
+    nl_NL: D2 builder
+    pl_PL: D2 builder
+    pt_BR: D2 builder
+    ro_RO: D2 builder
+    ru_RU: D2 builder
+    sk_SK: D2 builder
+    sv_SE: D2 builder
+    tr_TR: D2 builder
+    zh_TW: D2 builder
   category: Others
   port_map: '80'
   id: wisdomsky.linuxserver.linuxserverd2builder

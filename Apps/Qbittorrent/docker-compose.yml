@@ -50,17 +50,92 @@ x-casaos:
   main: app
   description:
     en_US: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    ca_ES: El Qbittorrent és un client de Bittorrent programat en C++ / Qt que utilitza libtorrent (de vegades anomenat libtorrent-rasterbar) d'Arvid Norberg.
+    cs_CZ: Qbittorrent je bittorrent klient naprogramovaný v C++ / Qt, který používá knihovnu libtorrent (někdy nazývanou libtorrent-rasterbar) od Arvida Norberga.
+    da_DK: Qbittorrent er en bittorrent-klient programmeret i C++ / Qt, der bruger libtorrent (undertiden kaldet libtorrent-rasterbar) af Arvid Norberg.
+    de_DE: Qbittorrent ist ein Bittorrent-Client, der in C++ / Qt programmiert wurde und libtorrent (manchmal auch libtorrent-rasterbar genannt) von Arvid Norberg verwendet.
+    el_GR: Το Qbittorrent είναι ένα πρόγραμμα-πελάτης bittorrent προγραμματισμένο σε C++ / Qt που χρησιμοποιεί libtorrent (μερικές φορές ονομάζεται libtorrent-rasterbar) από τον Arvid Norberg.
+    en_GB: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    es_ES: Qbittorrent es un cliente BitTorrent programado en C++ / Qt que utiliza la biblioteca libtorrent (a veces llamada libtorrent-rasterbar) de Arvid Norberg.
+    fr_FR: Qbittorrent est un client bittorrent programmé en C++ / Qt qui utilise libtorrent (parfois appelé libtorrent-rasterbar) d'Arvid Norberg.
+    ga_IE: Is cliant bittorrent é an Qbittorrent atá cláraithe i C++ / Qt a úsáideann libtorrent (ar a dtugtar libtorrent-rasterbar uaireanta) le Arvid Norberg.
+    hr_HR: Qbittorrent je bittorrent klijent programiran u C++ / Qt-u koji koristi libtorrent (ponekad nazvan libtorrent-rasterbar) autora Arvida Norberga.
+    hu_HU: A Qbittorrent egy C++ / Qt nyelven programozott bittorrent kliens, amely a libtorrentet (néha libtorrent-rasterbar néven is ismert) használja, és Arvid Norberg készítette.
+    it_IT: Qbittorrent è un client BitTorrent programmato in C++ / Qt che utilizza la libreria libtorrent (a volte chiamata libtorrent-rasterbar) di Arvid Norberg.
+    ja_JP: Qbittorrentは、Arvid Norberg氏が開発したlibtorrent（libtorrent-rasterbarと呼ばれることもある）を使用する、C++/QtでプログラミングされたBitTorrentクライアントです。
+    ko_KR: QBittorrent는 C++/Qt로 프로그래밍된 비트토렌트 클라이언트로, Arvid Norberg가 개발한 libtorrent(때때로 libtorrent-rasterbar라고도 함)를 사용합니다.
+    ml_IN: ആർവിഡ് നോർബർഗ് ലിബ്‌ടോറന്റ് (ചിലപ്പോൾ ലിബ്‌ടോറന്റ്-റാസ്റ്റർബാർ എന്ന് വിളിക്കുന്നു) ഉപയോഗിക്കുന്ന C++ / Qt-യിൽ പ്രോഗ്രാം ചെയ്‌ത ഒരു ബിറ്റ്‌ടോറന്റ് ക്ലയന്റാണ് ക്യുബിറ്റോറന്റ്.
+    nb_NO: Qbittorrent er en bittorrent-klient programmert i C++ / Qt som bruker libtorrent (noen ganger kalt libtorrent-rasterbar) av Arvid Norberg.
+    nl_NL: Qbittorrent is een BitTorrent-client, geprogrammeerd in C++/Qt, die gebruikmaakt van libtorrent (soms ook wel libtorrent-rasterbar genoemd) van Arvid Norberg.
+    pl_PL: Qbittorrent to klient bittorrent zaprogramowany w C++/Qt, który wykorzystuje bibliotekę libtorrent (czasami zwaną libtorrent-rasterbar) autorstwa Arvida Norberga.
+    pt_BR: O Qbittorrent é um cliente BitTorrent programado em C++ / Qt que utiliza a biblioteca libtorrent (às vezes chamada de libtorrent-rasterbar) de Arvid Norberg.
+    ro_RO: Qbittorrent este un client bittorrent programat în C++ / Qt care folosește libtorrent (uneori numit libtorrent-rasterbar) de Arvid Norberg.
+    ru_RU: Qbittorrent — это BitTorrent-клиент, написанный на C++/Qt и использующий библиотеку libtorrent (иногда называемую libtorrent-rasterbar), разработанную Арвидом Норбергом.
+    sk_SK: Qbittorrent je bittorrent klient naprogramovaný v C++ / Qt, ktorý používa knižnicu libtorrent (niekedy nazývanú libtorrent-rasterbar) od Arvida Norberga.
+    sv_SE: Qbittorrent är en bittorrentklient programmerad i C++ / Qt som använder libtorrent (ibland kallad libtorrent-rasterbar) av Arvid Norberg.
+    tr_TR: Qbittorrent, Arvid Norberg tarafından geliştirilen libtorrent (bazen libtorrent-rasterbar olarak da adlandırılır) kütüphanesini kullanan, C++ / Qt ile programlanmış bir bittorrent istemcisidir.
     zh_CN: qBittorrent 是用 C++ 和 Qt 编写的 BitTorrent 客户端，使用 Arvid Norberg 开发的 libtorrent（也称 libtorrent-rasterbar）。
+    zh_TW: qBittorrent 是用 C++ 和 Qt 編寫的 BitTorrent 客戶端，使用 Arvid Norberg 開發的 libtorrent（也稱 libtorrent-rasterbar）。
   tagline:
     en_US: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    ca_ES: El Qbittorrent és un client de Bittorrent programat en C++ / Qt que utilitza libtorrent (de vegades anomenat libtorrent-rasterbar) d'Arvid Norberg.
+    cs_CZ: Qbittorrent je bittorrentový klient naprogramovaný v C++ / Qt, který používá knihovnu libtorrent (někdy nazývanou libtorrent-rasterbar) od Arvida Norberga.
+    da_DK: Qbittorrent er en bittorrent-klient programmeret i C++ / Qt, der bruger libtorrent (undertiden kaldet libtorrent-rasterbar) af Arvid Norberg.
+    de_DE: Qbittorrent ist ein Bittorrent-Client, der in C++ / Qt programmiert wurde und libtorrent (manchmal auch libtorrent-rasterbar genannt) von Arvid Norberg verwendet.
+    el_GR: Το Qbittorrent είναι ένα πρόγραμμα-πελάτης bittorrent προγραμματισμένο σε C++ / Qt που χρησιμοποιεί libtorrent (μερικές φορές ονομάζεται libtorrent-rasterbar) από τον Arvid Norberg.
+    en_GB: The Qbittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+    es_ES: Qbittorrent es un cliente BitTorrent programado en C++ / Qt que utiliza la biblioteca libtorrent (a veces llamada libtorrent-rasterbar) de Arvid Norberg.
+    fr_FR: Qbittorrent est un client bittorrent programmé en C++ / Qt qui utilise libtorrent (parfois appelé libtorrent-rasterbar) d'Arvid Norberg.
+    ga_IE: Is cliant bittorrent é an Qbittorrent atá cláraithe i C++ / Qt a úsáideann libtorrent (ar a dtugtar libtorrent-rasterbar uaireanta) le Arvid Norberg.
+    hr_HR: Qbittorrent je bittorrent klijent programiran u C++ / Qt-u koji koristi libtorrent (ponekad nazvan libtorrent-rasterbar) autora Arvida Norberga.
+    hu_HU: A Qbittorrent egy C++ / Qt nyelven programozott bittorrent kliens, amely a libtorrentet (néha libtorrent-rasterbar néven is ismert) használja, és Arvid Norberg készítette.
+    it_IT: Qbittorrent è un client BitTorrent programmato in C++ / Qt che utilizza la libreria libtorrent (a volte chiamata libtorrent-rasterbar) di Arvid Norberg.
+    ja_JP: Qbittorrentは、Arvid Norberg氏が開発したlibtorrent（libtorrent-rasterbarと呼ばれることもある）を使用する、C++/QtでプログラミングされたBitTorrentクライアントです。
+    ko_KR: QBittorrent는 C++/Qt로 프로그래밍된 비트토렌트 클라이언트로, Arvid Norberg가 개발한 libtorrent(때때로 libtorrent-rasterbar라고도 함)를 사용합니다.
+    ml_IN: ആർവിഡ് നോർബർഗ് ലിബ്‌ടോറന്റ് (ചിലപ്പോൾ ലിബ്‌ടോറന്റ്-റാസ്റ്റർബാർ എന്ന് വിളിക്കുന്നു) ഉപയോഗിക്കുന്ന C++ / Qt-യിൽ പ്രോഗ്രാം ചെയ്‌ത ഒരു ബിറ്റ്‌ടോറന്റ് ക്ലയന്റാണ് ക്യുബിറ്റോറന്റ്.
+    nb_NO: Qbittorrent er en bittorrent-klient programmert i C++ / Qt som bruker libtorrent (noen ganger kalt libtorrent-rasterbar) av Arvid Norberg.
+    nl_NL: Qbittorrent is een BitTorrent-client, geprogrammeerd in C++/Qt, die gebruikmaakt van libtorrent (soms ook wel libtorrent-rasterbar genoemd) van Arvid Norberg.
+    pl_PL: Qbittorrent to klient bittorrent zaprogramowany w C++/Qt, który wykorzystuje bibliotekę libtorrent (czasami zwaną libtorrent-rasterbar) autorstwa Arvida Norberga.
+    pt_BR: O Qbittorrent é um cliente BitTorrent programado em C++ / Qt que utiliza a biblioteca libtorrent (às vezes chamada de libtorrent-rasterbar) de Arvid Norberg.
+    ro_RO: Qbittorrent este un client bittorrent programat în C++ / Qt care folosește libtorrent (uneori numit libtorrent-rasterbar) de Arvid Norberg.
+    ru_RU: Qbittorrent — это BitTorrent-клиент, написанный на C++/Qt и использующий библиотеку libtorrent (иногда называемую libtorrent-rasterbar), разработанную Арвидом Норбергом.
+    sk_SK: Qbittorrent je bittorrent klient naprogramovaný v C++ / Qt, ktorý používa knižnicu libtorrent (niekedy nazývanú libtorrent-rasterbar) od Arvida Norberga.
+    sv_SE: Qbittorrent är en bittorrentklient programmerad i C++ / Qt som använder libtorrent (ibland kallad libtorrent-rasterbar) av Arvid Norberg.
+    tr_TR: Qbittorrent, Arvid Norberg tarafından geliştirilen libtorrent (bazen libtorrent-rasterbar olarak da adlandırılır) kütüphanesini kullanan, C++ / Qt ile programlanmış bir bittorrent istemcisidir.
     zh_CN: 基于 C++、Qt 和 libtorrent 的 BitTorrent 客户端。
+    zh_TW: 基於 C++、Qt 和 libtorrent 的 BitTorrent 客戶端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png
   title:
     en_US: Qbittorrent (LinuxServer.io)
+    ca_ES: Qbittorrent (LinuxServer.io)
+    cs_CZ: Qbittorrent (LinuxServer.io)
+    da_DK: Qbittorrent (LinuxServer.io)
+    de_DE: Qbittorrent (LinuxServer.io)
+    el_GR: Qbittorrent (LinuxServer.io)
+    en_GB: Qbittorrent (LinuxServer.io)
+    es_ES: Qbittorrent (LinuxServer.io)
+    fr_FR: Qbittorrent (LinuxServer.io)
+    ga_IE: Qbittorrent (LinuxServer.io)
+    hr_HR: Qbittorrent (LinuxServer.io)
+    hu_HU: Qbittorrent (LinuxServer.io)
+    it_IT: Qbittorrent (LinuxServer.io)
+    ja_JP: Qbittorrent (LinuxServer.io)
+    ko_KR: Qbittorrent (LinuxServer.io)
+    ml_IN: Qbittorrent (LinuxServer.io)
+    nb_NO: Qbittorrent (LinuxServer.io)
+    nl_NL: Qbittorrent (LinuxServer.io)
+    pl_PL: Qbittorrent (LinuxServer.io)
+    pt_BR: Qbittorrent (LinuxServer.io)
+    ro_RO: Qbittorrent (LinuxServer.io)
+    ru_RU: Qbittorrent (LinuxServer.io)
+    sk_SK: Qbittorrent (LinuxServer.io)
+    sv_SE: Qbittorrent (LinuxServer.io)
+    tr_TR: Qbittorrent (LinuxServer.io)
     zh_CN: Qbittorrent（LinuxServer.io）
+    zh_TW: Qbittorrent（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverqbittorrent
   port_map: '8080'

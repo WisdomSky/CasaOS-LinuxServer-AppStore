@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: LM Studio can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.
+    ca_ES: LM Studio pot executar models d'IA locals com ara gpt-oss, Llama, Gemma, Qwen i DeepSeek de forma privada al vostre ordinador.
+    cs_CZ: LM Studio dokáže soukromě na vašem počítači spouštět lokální modely umělé inteligence, jako jsou gpt-oss, Llama, Gemma, Qwen a DeepSeek.
+    da_DK: LM Studio kan køre lokale AI-modeller som gpt-oss, Llama, Gemma, Qwen og DeepSeek privat på din computer.
+    de_DE: LM Studio kann lokale KI-Modelle wie gpt-oss, Llama, Gemma, Qwen und DeepSeek privat auf Ihrem Computer ausführen.
+    el_GR: Το LM Studio μπορεί να εκτελέσει τοπικά μοντέλα τεχνητής νοημοσύνης όπως gpt-oss, Llama, Gemma, Qwen και DeepSeek ιδιωτικά στον υπολογιστή σας.
+    en_GB: Lm Studio can run local Ai models like gpt-oss, Llama, Gemma, Qwen, and Deepseek privately on your computer.
+    es_ES: LM Studio puede ejecutar modelos de IA locales como gpt-oss, Llama, Gemma, Qwen y DeepSeek de forma privada en su ordenador.
+    fr_FR: LM Studio peut exécuter des modèles d'IA locaux tels que gpt-oss, Llama, Gemma, Qwen et DeepSeek en toute confidentialité sur votre ordinateur.
+    ga_IE: Is féidir le LM Studio samhlacha áitiúla AI ar nós gpt-oss, Llama, Gemma, Qwen, agus DeepSeek a rith go príobháideach ar do ríomhaire.
+    hr_HR: LM Studio može privatno na vašem računalu pokretati lokalne AI modele poput gpt-oss, Llama, Gemma, Qwen i DeepSeek.
+    hu_HU: Az LM Studio képes helyi MI-modelleket, például gpt-oss-t, Llama-t, Gemma-t, Qwen-t és DeepSeek-et privát módon futtatni a számítógépeden.
+    it_IT: LM Studio consente di eseguire modelli di intelligenza artificiale locali come gpt-oss, Llama, Gemma, Qwen e DeepSeek in privato sul tuo computer.
+    ja_JP: LM Studioは、gpt-oss、Llama、Gemma、Qwen、DeepSeekなどのローカルAIモデルを、お使いのコンピュータ上でプライベートに実行できます。
+    ko_KR: LM Studio는 gpt-oss, Llama, Gemma, Qwen, DeepSeek과 같은 로컬 AI 모델을 사용자의 컴퓨터에서 비공개로 실행할 수 있습니다.
+    ml_IN: Gpt-oss, Llama, Gemma, Qwen, DeepSeek തുടങ്ങിയ പ്രാദേശിക AI മോഡലുകൾ നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ സ്വകാര്യമായി പ്രവർത്തിപ്പിക്കാൻ LM സ്റ്റുഡിയോയ്ക്ക് കഴിയും.
+    nb_NO: LM Studio kan kjøre lokale AI-modeller som gpt-oss, Llama, Gemma, Qwen og DeepSeek privat på datamaskinen din.
+    nl_NL: Met LM Studio kunt u lokale AI-modellen zoals gpt-oss, Llama, Gemma, Qwen en DeepSeek privé op uw computer uitvoeren.
+    pl_PL: LM Studio może uruchamiać lokalne modele sztucznej inteligencji, takie jak gpt-oss, Llama, Gemma, Qwen i DeepSeek, w trybie prywatnym na Twoim komputerze.
+    pt_BR: O LM Studio pode executar modelos de IA locais, como gpt-oss, Llama, Gemma, Qwen e DeepSeek, de forma privada no seu computador.
+    ro_RO: LM Studio poate rula modele locale de inteligență artificială precum gpt-oss, Llama, Gemma, Qwen și DeepSeek în mod privat pe computerul tău.
+    ru_RU: LM Studio может запускать локальные модели искусственного интеллекта, такие как gpt-oss, Llama, Gemma, Qwen и DeepSeek, в приватном режиме на вашем компьютере.
+    sk_SK: LM Studio dokáže súkromne spúšťať lokálne modely umelej inteligencie, ako napríklad gpt-oss, Llama, Gemma, Qwen a DeepSeek, na vašom počítači.
+    sv_SE: LM Studio kan köra lokala AI-modeller som gpt-oss, Llama, Gemma, Qwen och DeepSeek privat på din dator.
+    tr_TR: LM Studio, gpt-oss, Llama, Gemma, Qwen ve DeepSeek gibi yerel yapay zeka modellerini bilgisayarınızda özel olarak çalıştırabilir.
     zh_CN: LM Studio 可在你的电脑上私密运行 gpt-oss、Llama、Gemma、Qwen 和 DeepSeek 等本地 AI 模型。
+    zh_TW: LM Studio 可在你的電腦上私密執行 gpt-oss、Llama、Gemma、Qwen 和 DeepSeek 等本地 AI 模型。
   tagline:
     en_US: Can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer.
+    ca_ES: Pot executar models d'IA locals com ara gpt-oss, Llama, Gemma, Qwen i DeepSeek de forma privada al teu ordinador.
+    cs_CZ: Můžete soukromě na svém počítači spouštět lokální modely umělé inteligence, jako jsou gpt-oss, Llama, Gemma, Qwen a DeepSeek.
+    da_DK: Kan køre lokale AI-modeller som gpt-oss, Llama, Gemma, Qwen og DeepSeek privat på din computer.
+    de_DE: Lokale KI-Modelle wie gpt-oss, Llama, Gemma, Qwen und DeepSeek können privat auf Ihrem Computer ausgeführt werden.
+    el_GR: Μπορεί να εκτελέσει τοπικά μοντέλα τεχνητής νοημοσύνης όπως gpt-oss, Llama, Gemma, Qwen και DeepSeek ιδιωτικά στον υπολογιστή σας.
+    en_GB: Can run local Ai models like gpt-oss, Llama, Gemma, Qwen, and Deepseek privately on your computer.
+    es_ES: Puedes ejecutar modelos de IA locales como gpt-oss, Llama, Gemma, Qwen y DeepSeek de forma privada en tu ordenador.
+    fr_FR: Permet d'exécuter en privé sur votre ordinateur des modèles d'IA locaux tels que gpt-oss, Llama, Gemma, Qwen et DeepSeek.
+    ga_IE: Is féidir samhlacha áitiúla AI ar nós gpt-oss, Llama, Gemma, Qwen, agus DeepSeek a rith go príobháideach ar do ríomhaire.
+    hr_HR: Može privatno pokretati lokalne AI modele poput gpt-oss, Llama, Gemma, Qwen i DeepSeek na vašem računalu.
+    hu_HU: Privát módon futtathat helyi MI-modelleket, mint például a gpt-oss, Llama, Gemma, Qwen és DeepSeek a számítógépén.
+    it_IT: Consente di eseguire modelli di intelligenza artificiale locali come gpt-oss, Llama, Gemma, Qwen e DeepSeek in privato sul proprio computer.
+    ja_JP: gpt-oss、Llama、Gemma、Qwen、DeepSeekなどのローカルAIモデルを、お使いのコンピュータ上でプライベートに実行できます。
+    ko_KR: gpt-oss, Llama, Gemma, Qwen, DeepSeek 등의 AI 모델을 컴퓨터에서 비공개로 실행할 수 있습니다.
+    ml_IN: gpt-oss, Llama, Gemma, Qwen, DeepSeek തുടങ്ങിയ പ്രാദേശിക AI മോഡലുകൾ നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ സ്വകാര്യമായി പ്രവർത്തിപ്പിക്കാൻ കഴിയും.
+    nb_NO: Kan kjøre lokale AI-modeller som gpt-oss, Llama, Gemma, Qwen og DeepSeek privat på datamaskinen din.
+    nl_NL: Je kunt lokale AI-modellen zoals gpt-oss, Llama, Gemma, Qwen en DeepSeek privé op je computer uitvoeren.
+    pl_PL: Możliwość uruchamiania lokalnych modeli sztucznej inteligencji, takich jak gpt-oss, Llama, Gemma, Qwen i DeepSeek, w trybie prywatnym na Twoim komputerze.
+    pt_BR: É possível executar modelos de IA locais, como gpt-oss, Llama, Gemma, Qwen e DeepSeek, de forma privada em seu computador.
+    ro_RO: Poate rula modele locale de inteligență artificială precum gpt-oss, Llama, Gemma, Qwen și DeepSeek în mod privat pe computer.
+    ru_RU: Позволяет запускать локальные модели ИИ, такие как gpt-oss, Llama, Gemma, Qwen и DeepSeek, в приватном режиме на вашем компьютере.
+    sk_SK: Môžete súkromne spúšťať lokálne modely umelej inteligencie ako gpt-oss, Llama, Gemma, Qwen a DeepSeek na vašom počítači.
+    sv_SE: Kan köra lokala AI-modeller som gpt-oss, Llama, Gemma, Qwen och DeepSeek privat på din dator.
+    tr_TR: GPT-OSS, Llama, Gemma, Qwen ve DeepSeek gibi yerel yapay zeka modellerini bilgisayarınızda özel olarak çalıştırabilirsiniz.
     zh_CN: 在自己的电脑上私密运行本地 AI 模型。
+    zh_TW: 在自己的電腦上私密執行本地 AI 模型。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lmstudio-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lmstudio-logo.png
   title:
     en_US: Lm studio (LinuxServer.io)
+    ca_ES: Lm studio (LinuxServer.io)
+    cs_CZ: Lm studio (LinuxServer.io)
+    da_DK: Lm studio (LinuxServer.io)
+    de_DE: Lm studio (LinuxServer.io)
+    el_GR: Lm studio (LinuxServer.io)
+    en_GB: Lm studio (LinuxServer.io)
+    es_ES: Lm studio (LinuxServer.io)
+    fr_FR: Lm studio (LinuxServer.io)
+    ga_IE: Lm studio (LinuxServer.io)
+    hr_HR: Lm studio (LinuxServer.io)
+    hu_HU: Lm studio (LinuxServer.io)
+    it_IT: Lm studio (LinuxServer.io)
+    ja_JP: Lm studio (LinuxServer.io)
+    ko_KR: Lm studio (LinuxServer.io)
+    ml_IN: Lm studio (LinuxServer.io)
+    nb_NO: Lm studio (LinuxServer.io)
+    nl_NL: Lm studio (LinuxServer.io)
+    pl_PL: Lm studio (LinuxServer.io)
+    pt_BR: Lm studio (LinuxServer.io)
+    ro_RO: Lm studio (LinuxServer.io)
+    ru_RU: Lm studio (LinuxServer.io)
+    sk_SK: Lm studio (LinuxServer.io)
+    sv_SE: Lm studio (LinuxServer.io)
+    tr_TR: Lm studio (LinuxServer.io)
     zh_CN: Lm studio（LinuxServer.io）
+    zh_TW: Lm studio（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverlmstudio
   port_map: '3000'

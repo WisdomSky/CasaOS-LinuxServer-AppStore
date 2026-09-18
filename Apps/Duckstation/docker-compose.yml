@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: DuckStation is a PS1 Emulator aiming for the best accuracy and game support.
+    ca_ES: DuckStation és un emulador de PS1 que busca la millor precisió i compatibilitat amb els jocs.
+    cs_CZ: DuckStation je emulátor PS1, jehož cílem je co nejlepší přesnost a herní podpora.
+    da_DK: DuckStation er en PS1-emulator, der sigter mod den bedste præcision og spilunderstøttelse.
+    de_DE: DuckStation ist ein PS1-Emulator, der höchste Genauigkeit und bestmögliche Spielunterstützung anstrebt.
+    el_GR: Το DuckStation είναι ένας εξομοιωτής PS1 που στοχεύει στην καλύτερη ακρίβεια και υποστήριξη παιχνιδιών.
+    en_GB: Duckstation is a PS1 Emulator aiming for the best accuracy and game support.
+    es_ES: DuckStation es un emulador de PS1 que busca la máxima precisión y compatibilidad con los juegos.
+    fr_FR: DuckStation est un émulateur PS1 visant une précision et une compatibilité avec les jeux optimales.
+    ga_IE: Is aithriseoir PS1 é DuckStation a bhfuil sé mar aidhm aige an cruinneas agus an tacaíocht cluiche is fearr a bhaint amach.
+    hr_HR: DuckStation je PS1 emulator koji teži najboljoj točnosti i podršci za igre.
+    hu_HU: A DuckStation egy PS1 emulátor, amely a legjobb pontosságot és játéktámogatást célozza meg.
+    it_IT: DuckStation è un emulatore per PS1 che punta alla massima precisione e al miglior supporto per i giochi.
+    ja_JP: DuckStationは、最高の精度とゲームサポートを目指したPS1エミュレータです。
+    ko_KR: DuckStation은 최고의 정확성과 게임 지원을 목표로 하는 PS1 에뮬레이터입니다.
+    ml_IN: മികച്ച കൃത്യതയും ഗെയിം പിന്തുണയും ലക്ഷ്യമിടുന്ന ഒരു PS1 എമുലേറ്ററാണ് ഡക്ക്സ്റ്റേഷൻ.
+    nb_NO: DuckStation er en PS1-emulator som sikter mot best mulig nøyaktighet og spillstøtte.
+    nl_NL: DuckStation is een PS1-emulator die streeft naar de beste nauwkeurigheid en gameondersteuning.
+    pl_PL: DuckStation to emulator PS1 zapewniający najwyższą dokładność i obsługę gier.
+    pt_BR: DuckStation é um emulador de PS1 que busca a melhor precisão e suporte a jogos.
+    ro_RO: DuckStation este un emulator PS1 care vizează cea mai bună precizie și suport pentru jocuri.
+    ru_RU: DuckStation — это эмулятор PS1, стремящийся к максимальной точности и поддержке игр.
+    sk_SK: DuckStation je emulátor PS1, ktorého cieľom je dosiahnuť najlepšiu presnosť a hernú podporu.
+    sv_SE: DuckStation är en PS1-emulator som strävar efter bästa precision och spelstöd.
+    tr_TR: DuckStation, en yüksek doğruluk ve oyun desteğini hedefleyen bir PS1 emülatörüdür.
     zh_CN: DuckStation 是一款 PS1 模拟器，目标是提供出色的模拟准确性和游戏兼容性。
+    zh_TW: DuckStation 是一款 PS1 模擬器，目標是提供出色的模擬準確性和遊戲相容性。
   tagline:
     en_US: A PS1 Emulator aiming for the best accuracy and game support.
+    ca_ES: Un emulador de PS1 que busca la millor precisió i compatibilitat amb els jocs.
+    cs_CZ: Emulátor PS1 zaměřený na nejlepší přesnost a herní podporu.
+    da_DK: En PS1-emulator, der sigter mod den bedste præcision og spilunderstøttelse.
+    de_DE: Ein PS1-Emulator, der höchste Genauigkeit und beste Spielunterstützung anstrebt.
+    el_GR: Ένας εξομοιωτής PS1 που στοχεύει στην καλύτερη ακρίβεια και υποστήριξη παιχνιδιών.
+    en_GB: A PS1 Emulator aiming for the best accuracy and game support.
+    es_ES: Un emulador de PS1 que busca la máxima precisión y compatibilidad con juegos.
+    fr_FR: Un émulateur PS1 visant une précision et une compatibilité de jeux optimales.
+    ga_IE: Aithriseoir PS1 atá dírithe ar an cruinneas agus an tacaíocht cluiche is fearr.
+    hr_HR: PS1 emulator usmjeren na najbolju točnost i podršku za igre.
+    hu_HU: Egy PS1 emulátor, amely a legjobb pontosságot és játéktámogatást célozza meg.
+    it_IT: Un emulatore per PS1 che punta alla massima precisione e al miglior supporto per i giochi.
+    ja_JP: 最高の精度とゲームサポートを目指したPS1エミュレータ。
+    ko_KR: 최고의 정확도와 게임 지원을 목표로 하는 PS1 에뮬레이터입니다.
+    ml_IN: മികച്ച കൃത്യതയും ഗെയിം പിന്തുണയും ലക്ഷ്യമിടുന്ന ഒരു PS1 എമുലേറ്റർ.
+    nb_NO: En PS1-emulator som sikter mot best mulig nøyaktighet og spillstøtte.
+    nl_NL: Een PS1-emulator die streeft naar de beste nauwkeurigheid en gameondersteuning.
+    pl_PL: Emulator PS1 zapewniający najwyższą dokładność i obsługę gier.
+    pt_BR: Um emulador de PS1 que busca a melhor precisão e suporte a jogos.
+    ro_RO: Un emulator PS1 care vizează cea mai bună precizie și suport pentru jocuri.
+    ru_RU: Эмулятор PS1, стремящийся к максимальной точности и поддержке игр.
+    sk_SK: Emulátor PS1 zameraný na najlepšiu presnosť a podporu hier.
+    sv_SE: En PS1-emulator som strävar efter bästa precision och spelstöd.
+    tr_TR: En yüksek doğruluk ve oyun desteğini hedefleyen bir PS1 emülatörü.
     zh_CN: 注重准确性和游戏兼容性的 PS1 模拟器。
+    zh_TW: 注重準確性和遊戲相容性的 PS1 模擬器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckstation-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckstation-logo.png
   title:
     en_US: Duckstation (LinuxServer.io)
+    ca_ES: Duckstation (LinuxServer.io)
+    cs_CZ: Duckstation (LinuxServer.io)
+    da_DK: Duckstation (LinuxServer.io)
+    de_DE: Duckstation (LinuxServer.io)
+    el_GR: Duckstation (LinuxServer.io)
+    en_GB: Duckstation (LinuxServer.io)
+    es_ES: Duckstation (LinuxServer.io)
+    fr_FR: Duckstation (LinuxServer.io)
+    ga_IE: Duckstation (LinuxServer.io)
+    hr_HR: Duckstation (LinuxServer.io)
+    hu_HU: Duckstation (LinuxServer.io)
+    it_IT: Duckstation (LinuxServer.io)
+    ja_JP: Duckstation (LinuxServer.io)
+    ko_KR: Duckstation (LinuxServer.io)
+    ml_IN: Duckstation (LinuxServer.io)
+    nb_NO: Duckstation (LinuxServer.io)
+    nl_NL: Duckstation (LinuxServer.io)
+    pl_PL: Duckstation (LinuxServer.io)
+    pt_BR: Duckstation (LinuxServer.io)
+    ro_RO: Duckstation (LinuxServer.io)
+    ru_RU: Duckstation (LinuxServer.io)
+    sk_SK: Duckstation (LinuxServer.io)
+    sv_SE: Duckstation (LinuxServer.io)
+    tr_TR: Duckstation (LinuxServer.io)
     zh_CN: Duckstation（LinuxServer.io）
+    zh_TW: Duckstation（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverduckstation
   port_map: '3000'

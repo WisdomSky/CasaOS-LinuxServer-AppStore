@@ -48,17 +48,92 @@ x-casaos:
   main: app
   description:
     en_US: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
+    ca_ES: Smokeping fa un seguiment de la latència de la xarxa. Per obtenir un exemple complet del que aquesta aplicació és capaç de fer, visiteu UCDavis.
+    cs_CZ: Smokeping sleduje latenci vaší sítě. Úplný příklad toho, co tato aplikace dokáže, najdete na UCDavis.
+    da_DK: Smokeping holder styr på din netværkslatenstid. For et komplet eksempel på, hvad denne applikation er i stand til, kan du besøge UCDavis.
+    de_DE: Smokeping überwacht Ihre Netzwerklatenz. Ein ausführliches Beispiel für die Funktionen dieser Anwendung finden Sie auf der Website von UCDavis.
+    el_GR: Το Smokeping παρακολουθεί την καθυστέρηση του δικτύου σας. Για ένα πλήρες παράδειγμα των δυνατοτήτων αυτής της εφαρμογής, επισκεφθείτε το UCDavis.
+    en_GB: Smokeping keeps track of your network latency. For a full example of what this application is capable of visit Ucdavis.
+    es_ES: Smokeping monitoriza la latencia de tu red. Para ver un ejemplo completo de las capacidades de esta aplicación, visita UCDavis.
+    fr_FR: Smokeping surveille votre latence réseau. Pour un exemple complet des capacités de cette application, consultez le site de l'UCDavis.
+    ga_IE: Coinníonn Smokeping súil ar mhoill do líonra. Chun sampla iomlán a fháil de na rudaí atá an feidhmchlár seo in ann a dhéanamh, tabhair cuairt ar UCDavis.
+    hr_HR: Smokeping prati latenciju vaše mreže. Za potpuni primjer onoga što ova aplikacija može učiniti posjetite UCDavis.
+    hu_HU: A Smokeping nyomon követi a hálózati késleltetést. Az alkalmazás képességeinek teljes példájáért látogasson el az UCDavis oldalára.
+    it_IT: Smokeping tiene traccia della latenza di rete. Per un esempio completo delle funzionalità di questa applicazione, visita il sito di UCDavis.
+    ja_JP: Smokepingはネットワーク遅延を監視します。このアプリケーションの機能の詳細については、UCDavisのウェブサイトをご覧ください。
+    ko_KR: Smokeping은 네트워크 지연 시간을 추적합니다. 이 애플리케이션의 기능에 대한 자세한 예시는 UCDavis 웹사이트에서 확인할 수 있습니다.
+    ml_IN: സ്മോക്കിംഗ് നിങ്ങളുടെ നെറ്റ്‌വർക്ക് ലേറ്റൻസി ട്രാക്ക് ചെയ്യുന്നു. ഈ ആപ്ലിക്കേഷന് എന്തെല്ലാം ചെയ്യാൻ കഴിയും എന്നതിന്റെ പൂർണ്ണമായ ഉദാഹരണത്തിനായി UCDavis സന്ദർശിക്കുക.
+    nb_NO: Smokeping holder oversikt over nettverkslatensen din. For et fullstendig eksempel på hva denne applikasjonen er i stand til, besøk UCDavis.
+    nl_NL: Smokeping houdt uw netwerklatentie bij. Voor een volledig voorbeeld van wat deze applicatie kan, kunt u terecht op UCDavis.
+    pl_PL: Smokeping monitoruje opóźnienia w sieci. Pełny przykład możliwości tej aplikacji można znaleźć na stronie UCDavis.
+    pt_BR: O Smokeping monitora a latência da sua rede. Para ver um exemplo completo das capacidades deste aplicativo, visite o site da UC Davis.
+    ro_RO: Smokeping urmărește latența rețelei tale. Pentru un exemplu complet al capabilităților acestei aplicații, vizitează UCDavis.
+    ru_RU: Smokeping отслеживает задержку в вашей сети. Полный пример возможностей этого приложения можно посмотреть на сайте UCDavis.
+    sk_SK: Smokeping sleduje latenciu vašej siete. Úplný príklad toho, čo táto aplikácia dokáže, nájdete na stránke UCDavis.
+    sv_SE: Smokeping håller koll på din nätverkslatens. För ett fullständigt exempel på vad den här applikationen kan göra, besök UCDavis.
+    tr_TR: Smokeping, ağ gecikmenizi takip eder. Bu uygulamanın neler yapabileceğine dair kapsamlı bir örnek için UCDavis'i ziyaret edin.
     zh_CN: SmokePing 可持续追踪网络延迟。若要查看展示其完整功能的实例，请访问 UCDavis 示例。
+    zh_TW: SmokePing 可持續追蹤網路延遲。若要檢視展示其完整功能的例項，請訪問 UCDavis 示例。
   tagline:
     en_US: Keeps track of your network latency. For a full example of what this application is capable of visit UCDavis.
+    ca_ES: Fa un seguiment de la latència de la xarxa. Per obtenir un exemple complet del que pot fer aquesta aplicació, visiteu UCDavis.
+    cs_CZ: Sleduje latenci vaší sítě. Úplný příklad toho, co tato aplikace dokáže, naleznete na UCDavis.
+    da_DK: Holder styr på din netværkslatenstid. For et komplet eksempel på, hvad denne applikation er i stand til, kan du besøge UCDavis.
+    de_DE: Überwacht Ihre Netzwerklatenz. Ein vollständiges Beispiel für die Funktionen dieser Anwendung finden Sie auf der Website von UCDavis.
+    el_GR: Παρακολουθεί την καθυστέρηση του δικτύου σας. Για ένα πλήρες παράδειγμα των δυνατοτήτων αυτής της εφαρμογής, επισκεφθείτε το UCDavis.
+    en_GB: Keeps track of your network latency. For a full example of what this application is capable of visit Ucdavis.
+    es_ES: Realiza un seguimiento de la latencia de tu red. Para ver un ejemplo completo de las capacidades de esta aplicación, visita UCDavis.
+    fr_FR: Surveille la latence de votre réseau. Pour un exemple complet des fonctionnalités de cette application, consultez le site de l'UCDavis.
+    ga_IE: Coinníonn sé súil ar mhoill do líonra. Chun sampla iomlán a fháil de na rudaí atá an feidhmchlár seo in ann a dhéanamh, tabhair cuairt ar UCDavis.
+    hr_HR: Prati latenciju vaše mreže. Za potpuni primjer onoga što ova aplikacija može učiniti posjetite UCDavis.
+    hu_HU: Nyomon követi a hálózati késleltetést. Az alkalmazás képességeinek teljes példájáért látogasson el az UCDavis oldalára.
+    it_IT: Tiene traccia della latenza di rete. Per un esempio completo delle funzionalità di questa applicazione, visita il sito di UCDavis.
+    ja_JP: ネットワーク遅延を監視します。このアプリケーションの機能の詳細については、UCDavisのウェブサイトをご覧ください。
+    ko_KR: 네트워크 지연 시간을 추적합니다. 이 애플리케이션의 전체 기능에 대한 예시는 UCDavis 웹사이트에서 확인할 수 있습니다.
+    ml_IN: നിങ്ങളുടെ നെറ്റ്‌വർക്ക് ലേറ്റൻസി ട്രാക്ക് ചെയ്യുന്നു. ഈ ആപ്ലിക്കേഷന് എന്തെല്ലാം ചെയ്യാൻ കഴിയും എന്നതിന്റെ പൂർണ്ണമായ ഉദാഹരണത്തിനായി UCDavis സന്ദർശിക്കുക.
+    nb_NO: Holder oversikt over nettverkslatensen din. For et fullstendig eksempel på hva denne applikasjonen er i stand til, besøk UCDavis.
+    nl_NL: Houdt uw netwerklatentie bij. Voor een volledig voorbeeld van wat deze applicatie kan, kunt u terecht op UCDavis.
+    pl_PL: Monitoruje opóźnienia w sieci. Pełny przykład możliwości tej aplikacji można znaleźć na stronie UCDavis.
+    pt_BR: Monitora a latência da sua rede. Para ver um exemplo completo das capacidades deste aplicativo, visite o site da UC Davis.
+    ro_RO: Urmărește latența rețelei tale. Pentru un exemplu complet al capabilităților acestei aplicații, vizitează UCDavis.
+    ru_RU: Отслеживает задержку в сети. Полный пример возможностей этого приложения можно посмотреть на сайте UCDavis.
+    sk_SK: Sleduje latenciu vašej siete. Úplný príklad toho, čo táto aplikácia dokáže, nájdete na stránke UCDavis.
+    sv_SE: Håller koll på din nätverkslatens. För ett fullständigt exempel på vad den här applikationen kan göra, besök UCDavis.
+    tr_TR: Ağ gecikmenizi takip eder. Bu uygulamanın neler yapabileceğine dair kapsamlı bir örnek için UCDavis'i ziyaret edin.
     zh_CN: 持续追踪网络延迟。
+    zh_TW: 持續追蹤網路延遲。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   thumbnail: https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/smokeping-logo.png
   title:
     en_US: Smokeping (LinuxServer.io)
+    ca_ES: Smokeping (LinuxServer.io)
+    cs_CZ: Smokeping (LinuxServer.io)
+    da_DK: Smokeping (LinuxServer.io)
+    de_DE: Smokeping (LinuxServer.io)
+    el_GR: Smokeping (LinuxServer.io)
+    en_GB: Smokeping (LinuxServer.io)
+    es_ES: Smokeping (LinuxServer.io)
+    fr_FR: Smokeping (LinuxServer.io)
+    ga_IE: Smokeping (LinuxServer.io)
+    hr_HR: Smokeping (LinuxServer.io)
+    hu_HU: Smokeping (LinuxServer.io)
+    it_IT: Smokeping (LinuxServer.io)
+    ja_JP: Smokeping (LinuxServer.io)
+    ko_KR: Smokeping (LinuxServer.io)
+    ml_IN: Smokeping (LinuxServer.io)
+    nb_NO: Smokeping (LinuxServer.io)
+    nl_NL: Smokeping (LinuxServer.io)
+    pl_PL: Smokeping (LinuxServer.io)
+    pt_BR: Smokeping (LinuxServer.io)
+    ro_RO: Smokeping (LinuxServer.io)
+    ru_RU: Smokeping (LinuxServer.io)
+    sk_SK: Smokeping (LinuxServer.io)
+    sv_SE: Smokeping (LinuxServer.io)
+    tr_TR: Smokeping (LinuxServer.io)
     zh_CN: Smokeping（LinuxServer.io）
+    zh_TW: Smokeping（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserversmokeping
   port_map: '80'

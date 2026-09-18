@@ -1,7 +1,7 @@
 name: linuxserver-zotero
 services:
   app:
-    image: linuxserver/zotero:10.0.2
+    image: linuxserver/zotero:10.0.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -35,18 +35,93 @@ x-casaos:
   main: app
   description:
     en_US: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
+    ca_ES: Zotero és una eina gratuïta i fàcil d'utilitzar que t'ajuda a recopilar, organitzar, anotar, citar i compartir la recerca.
+    cs_CZ: Zotero je bezplatný a snadno použitelný nástroj, který vám pomůže shromažďovat, organizovat, anotovat, citovat a sdílet výzkumné informace.
+    da_DK: Zotero er et gratis og brugervenligt værktøj, der hjælper dig med at indsamle, organisere, annotere, citere og dele forskning.
+    de_DE: Zotero ist ein kostenloses, einfach zu bedienendes Tool, mit dem Sie Forschungsergebnisse sammeln, organisieren, kommentieren, zitieren und teilen können.
+    el_GR: Το Zotero είναι ένα δωρεάν, εύχρηστο εργαλείο που σας βοηθά να συλλέγετε, να οργανώνετε, να σχολιάζετε, να παραθέτετε και να κοινοποιείτε έρευνες.
+    en_GB: Zotero is a free, easy-to-use tool to help you collect, organise, annotate, cite, and share research.
+    es_ES: Zotero es una herramienta gratuita y fácil de usar que te ayuda a recopilar, organizar, anotar, citar y compartir investigaciones.
+    fr_FR: Zotero est un outil gratuit et facile à utiliser qui vous aide à collecter, organiser, annoter, citer et partager vos recherches.
+    ga_IE: Is uirlis saor in aisce, éasca le húsáid é Zotero a chabhróidh leat taighde a bhailiú, a eagrú, a anótáil, a lua agus a roinnt.
+    hr_HR: Zotero je besplatan, jednostavan alat koji vam pomaže u prikupljanju, organiziranju, označavanju, citiranju i dijeljenju istraživanja.
+    hu_HU: A Zotero egy ingyenes, könnyen használható eszköz, amely segít kutatási anyagok gyűjtésében, rendszerezésében, jegyzetekkel való ellátásában, idézésében és megosztásában.
+    it_IT: Zotero è uno strumento gratuito e facile da usare che ti aiuta a raccogliere, organizzare, annotare, citare e condividere le tue ricerche.
+    ja_JP: Zoteroは、研究資料の収集、整理、注釈付け、引用、共有を支援する、無料で使いやすいツールです。
+    ko_KR: Zotero는 연구 자료를 수집, 정리, 주석 달기, 인용 및 공유하는 데 도움이 되는 무료의 사용하기 쉬운 도구입니다.
+    ml_IN: ഗവേഷണം ശേഖരിക്കാനും, സംഘടിപ്പിക്കാനും, വ്യാഖ്യാനിക്കാനും, ഉദ്ധരിക്കാനും, പങ്കിടാനും നിങ്ങളെ സഹായിക്കുന്ന ഒരു സൌജന്യവും ഉപയോഗിക്കാൻ എളുപ്പമുള്ളതുമായ ഉപകരണമാണ് Zotero.
+    nb_NO: Zotero er et gratis og brukervennlig verktøy som hjelper deg med å samle, organisere, kommentere, sitere og dele forskning.
+    nl_NL: Zotero is een gratis, gebruiksvriendelijk hulpmiddel waarmee je onderzoek kunt verzamelen, ordenen, annoteren, citeren en delen.
+    pl_PL: Zotero to bezpłatne i łatwe w obsłudze narzędzie, które pomoże Ci gromadzić, organizować, opisywać, cytować i udostępniać wyniki badań.
+    pt_BR: O Zotero é uma ferramenta gratuita e fácil de usar que ajuda você a coletar, organizar, anotar, citar e compartilhar pesquisas.
+    ro_RO: Zotero este un instrument gratuit și ușor de utilizat care te ajută să colectezi, să organizezi, să adnoți, să citezi și să partajezi cercetări.
+    ru_RU: Zotero — это бесплатный и простой в использовании инструмент, который поможет вам собирать, систематизировать, аннотировать, цитировать и делиться результатами исследований.
+    sk_SK: Zotero je bezplatný a ľahko použiteľný nástroj, ktorý vám pomôže zhromažďovať, organizovať, anotovať, citovať a zdieľať výskumné údaje.
+    sv_SE: Zotero är ett gratis och lättanvänt verktyg som hjälper dig att samla in, organisera, kommentera, citera och dela forskning.
+    tr_TR: Zotero, araştırmalarınızı toplamanıza, düzenlemenize, not eklemenize, kaynak göstermenize ve paylaşmanıza yardımcı olan ücretsiz ve kullanımı kolay bir araçtır.
     zh_CN: Zotero 是一款免费、易用的工具，帮助你收集、整理、批注、引用和分享研究资料。
+    zh_TW: Zotero 是一款免費、易用的工具，幫助你收集、整理、批註、引用和分享研究資料。
   tagline:
     en_US: A free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.
+    ca_ES: Una eina gratuïta i fàcil d'utilitzar que t'ajuda a recopilar, organitzar, anotar, citar i compartir la recerca.
+    cs_CZ: Bezplatný a snadno použitelný nástroj, který vám pomůže shromažďovat, organizovat, anotovat, citovat a sdílet výzkumné informace.
+    da_DK: Et gratis og brugervenligt værktøj, der hjælper dig med at indsamle, organisere, annotere, citere og dele forskning.
+    de_DE: Ein kostenloses, einfach zu bedienendes Tool, das Ihnen hilft, Forschungsergebnisse zu sammeln, zu organisieren, zu kommentieren, zu zitieren und zu teilen.
+    el_GR: Ένα δωρεάν, εύχρηστο εργαλείο που σας βοηθά να συλλέγετε, να οργανώνετε, να σχολιάζετε, να παραθέτετε και να κοινοποιείτε έρευνες.
+    en_GB: A free, easy-to-use tool to help you collect, organise, annotate, cite, and share research.
+    es_ES: Una herramienta gratuita y fácil de usar que te ayudará a recopilar, organizar, anotar, citar y compartir tus investigaciones.
+    fr_FR: Un outil gratuit et facile à utiliser pour vous aider à collecter, organiser, annoter, citer et partager vos recherches.
+    ga_IE: Uirlis saor in aisce, éasca le húsáid chun cabhrú leat taighde a bhailiú, a eagrú, a anótáil, a lua agus a roinnt.
+    hr_HR: Besplatan i jednostavan alat koji vam pomaže u prikupljanju, organiziranju, komentiranju, citiranju i dijeljenju istraživanja.
+    hu_HU: Egy ingyenes, könnyen használható eszköz, amely segít a kutatási anyagok gyűjtésében, rendszerezésében, jegyzetekkel való ellátásában, idézésében és megosztásában.
+    it_IT: Uno strumento gratuito e facile da usare per aiutarti a raccogliere, organizzare, annotare, citare e condividere le ricerche.
+    ja_JP: 研究資料の収集、整理、注釈付け、引用、共有を支援する、無料で使いやすいツールです。
+    ko_KR: 연구 자료를 수집, 정리, 주석 달기, 인용 및 공유하는 데 도움이 되는 무료의 사용하기 쉬운 도구입니다.
+    ml_IN: ഗവേഷണം ശേഖരിക്കാനും, സംഘടിപ്പിക്കാനും, വ്യാഖ്യാനിക്കാനും, ഉദ്ധരിക്കാനും, പങ്കിടാനും നിങ്ങളെ സഹായിക്കുന്ന ഒരു സൗജന്യവും ഉപയോഗിക്കാൻ എളുപ്പമുള്ളതുമായ ഉപകരണം.
+    nb_NO: Et gratis og brukervennlig verktøy som hjelper deg med å samle, organisere, kommentere, sitere og dele forskning.
+    nl_NL: Een gratis, gebruiksvriendelijke tool waarmee je onderzoek kunt verzamelen, ordenen, annoteren, citeren en delen.
+    pl_PL: Bezpłatne i łatwe w użyciu narzędzie ułatwiające gromadzenie, porządkowanie, opisywanie, cytowanie i udostępnianie wyników badań.
+    pt_BR: Uma ferramenta gratuita e fácil de usar para ajudar você a coletar, organizar, anotar, citar e compartilhar pesquisas.
+    ro_RO: Un instrument gratuit și ușor de utilizat care te ajută să colectezi, să organizezi, să adnoți, să citezi și să partajezi cercetări.
+    ru_RU: Бесплатный и простой в использовании инструмент, который поможет вам собирать, систематизировать, аннотировать, цитировать и делиться результатами исследований.
+    sk_SK: Bezplatný a ľahko použiteľný nástroj, ktorý vám pomôže zhromažďovať, organizovať, anotovať, citovať a zdieľať výskumné údaje.
+    sv_SE: Ett gratis och lättanvänt verktyg som hjälper dig att samla in, organisera, kommentera, citera och dela forskning.
+    tr_TR: Araştırmalarınızı toplamanıza, düzenlemenize, notlandırmanıza, kaynak göstermenize ve paylaşmanıza yardımcı olacak ücretsiz ve kullanımı kolay bir araç.
     zh_CN: 收集、整理、批注、引用和分享研究资料。
+    zh_TW: 收集、整理、批註、引用和分享研究資料。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png
   title:
     en_US: Zotero (LinuxServer.io)
+    ca_ES: Zotero (LinuxServer.io)
+    cs_CZ: Zotero (LinuxServer.io)
+    da_DK: Zotero (LinuxServer.io)
+    de_DE: Zotero (LinuxServer.io)
+    el_GR: Zotero (LinuxServer.io)
+    en_GB: Zotero (LinuxServer.io)
+    es_ES: Zotero (LinuxServer.io)
+    fr_FR: Zotero (LinuxServer.io)
+    ga_IE: Zotero (LinuxServer.io)
+    hr_HR: Zotero (LinuxServer.io)
+    hu_HU: Zotero (LinuxServer.io)
+    it_IT: Zotero (LinuxServer.io)
+    ja_JP: Zotero (LinuxServer.io)
+    ko_KR: Zotero (LinuxServer.io)
+    ml_IN: Zotero (LinuxServer.io)
+    nb_NO: Zotero (LinuxServer.io)
+    nl_NL: Zotero (LinuxServer.io)
+    pl_PL: Zotero (LinuxServer.io)
+    pt_BR: Zotero (LinuxServer.io)
+    ro_RO: Zotero (LinuxServer.io)
+    ru_RU: Zotero (LinuxServer.io)
+    sk_SK: Zotero (LinuxServer.io)
+    sv_SE: Zotero (LinuxServer.io)
+    tr_TR: Zotero (LinuxServer.io)
     zh_CN: Zotero（LinuxServer.io）
+    zh_TW: Zotero（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverzotero
   port_map: '3000'
-  version: 10.0.2
+  version: 10.0.3

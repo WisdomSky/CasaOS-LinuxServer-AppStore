@@ -39,17 +39,92 @@ x-casaos:
   main: app
   description:
     en_US: Rsnapshot is a filesystem snapshot utility based on rsync. rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.
+    ca_ES: Rsnapshot és una utilitat de captura de pantalla del sistema de fitxers basada en rsync. rsnapshot facilita la creació de captures de pantalla periòdiques de màquines locals i màquines remotes a través de ssh. El codi fa un ús extensiu d'enllaços físics sempre que sigui possible, per reduir considerablement l'espai de disc necessari.
+    cs_CZ: Rsnapshot je nástroj pro vytváření snímků souborového systému založený na rsync. rsnapshot usnadňuje vytváření pravidelných snímků lokálních počítačů a vzdálených počítačů přes ssh. Kód ve velké míře využívá pevné odkazy, kdykoli je to možné, aby se výrazně snížila potřeba místa na disku.
+    da_DK: Rsnapshot er et filsystem-snapshot-værktøj baseret på rsync. rsnapshot gør det nemt at lave periodiske snapshots af lokale maskiner og eksterne maskiner via ssh. Koden gør omfattende brug af hard links, når det er muligt, for at reducere den nødvendige diskplads betydeligt.
+    de_DE: Rsnapshot ist ein auf rsync basierendes Dienstprogramm zur Erstellung von Dateisystem-Snapshots. Mit Rsnapshot lassen sich auf einfache Weise regelmäßige Snapshots von lokalen Rechnern und entfernten Rechnern via SSH erstellen. Der Code nutzt, wo immer möglich, Hardlinks, um den benötigten Speicherplatz deutlich zu reduzieren.
+    el_GR: Το Rsnapshot είναι ένα βοηθητικό πρόγραμμα λήψης στιγμιότυπων συστήματος αρχείων που βασίζεται στο rsync. Το rsnapshot διευκολύνει τη δημιουργία περιοδικών στιγμιότυπων τοπικών και απομακρυσμένων μηχανημάτων μέσω ssh. Ο κώδικας κάνει εκτεταμένη χρήση σκληρών συνδέσμων όποτε είναι δυνατόν, για να μειώσει σημαντικά τον απαιτούμενο χώρο στο δίσκο.
+    en_GB: Rsnapshot is a filesystem snapshot utility based on rsync. rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.
+    es_ES: Rsnapshot es una utilidad de instantáneas del sistema de archivos basada en rsync. Permite crear instantáneas periódicas de máquinas locales y remotas mediante SSH de forma sencilla. El código utiliza enlaces duros siempre que es posible para reducir considerablemente el espacio en disco necesario.
+    fr_FR: Rsnapshot est un utilitaire de création d'instantanés de système de fichiers basé sur rsync. Il simplifie la création d'instantanés périodiques de machines locales et de machines distantes via SSH. Son code exploite au maximum les liens physiques afin de réduire considérablement l'espace disque requis.
+    ga_IE: Is fóntais snapshot córais comhad é rsnapshot atá bunaithe ar rsync. Le rsnapshot is furasta snapshots tréimhsiúla a dhéanamh de mheaisíní áitiúla agus de mheaisíní iargúlta thar ssh. Baineann an cód úsáid fhorleathan as naisc chrua aon uair is féidir, chun an spás diosca atá ag teastáil a laghdú go mór.
+    hr_HR: Rsnapshot je uslužni program za snimanje datotečnog sustava temeljen na rsyncu. rsnapshot olakšava izradu periodičnih snimaka lokalnih i udaljenih računala putem ssh-a. Kod intenzivno koristi tvrde veze kad god je to moguće, kako bi se znatno smanjio potreban prostor na disku.
+    hu_HU: Az Rsnapshot egy rsync-en alapuló fájlrendszer-pillanatkép-készítő segédprogram. Az rsnapshot segítségével egyszerűen készíthetünk időszakos pillanatképeket a helyi gépekről és a távoli gépekről SSH-n keresztül. A kód a lehető legszélesebb körben használja a hardveres linkeket (hard linkeket), hogy jelentősen csökkentse a szükséges lemezterületet.
+    it_IT: Rsnapshot è un'utilità per la creazione di snapshot del filesystem basata su rsync. rsnapshot semplifica la creazione di snapshot periodici di macchine locali e remote tramite SSH. Il codice fa ampio uso di hard link, ove possibile, per ridurre notevolmente lo spazio su disco richiesto.
+    ja_JP: rsnapshotは、rsyncをベースにしたファイルシステムのスナップショットユーティリティです。rsnapshotを使えば、ローカルマシンやSSH経由で接続したリモートマシンのスナップショットを定期的に簡単に作成できます。コードは可能な限りハードリンクを多用することで、必要なディスク容量を大幅に削減しています。
+    ko_KR: rsnapshot은 rsync를 기반으로 하는 파일 시스템 스냅샷 유틸리티입니다. rsnapshot을 사용하면 로컬 시스템과 SSH를 통해 연결된 원격 시스템의 스냅샷을 주기적으로 쉽게 생성할 수 있습니다. 이 코드는 가능한 한 하드 링크를 적극적으로 활용하여 필요한 디스크 공간을 크게 줄입니다.
+    ml_IN: rsnic അടിസ്ഥാനമാക്കിയുള്ള ഒരു ഫയൽസിസ്റ്റം സ്നാപ്പ്ഷോട്ട് യൂട്ടിലിറ്റിയാണ് Rsnapshot. ലോക്കൽ മെഷീനുകളുടെയും റിമോട്ട് മെഷീനുകളുടെയും ആനുകാലിക സ്നാപ്പ്ഷോട്ടുകൾ ssh വഴി നിർമ്മിക്കുന്നത് rsnapshot എളുപ്പമാക്കുന്നു. ഡിസ്ക് സ്പേസ് ഗണ്യമായി കുറയ്ക്കുന്നതിന് സാധ്യമാകുമ്പോഴെല്ലാം കോഡ് ഹാർഡ് ലിങ്കുകൾ വ്യാപകമായി ഉപയോഗിക്കുന്നു.
+    nb_NO: Rsnapshot er et verktøy for filsystem-snapshot basert på rsync. rsnapshot gjør det enkelt å lage periodiske snapshots av lokale maskiner og eksterne maskiner over ssh. Koden bruker i stor grad harde lenker når det er mulig, for å redusere diskplassen som kreves betraktelig.
+    nl_NL: Rsnapshot is een hulpprogramma voor het maken van snapshots van bestandssystemen, gebaseerd op rsync. Met rsnapshot kunt u eenvoudig periodieke snapshots maken van lokale machines en van externe machines via SSH. De code maakt waar mogelijk uitgebreid gebruik van harde links om de benodigde schijfruimte aanzienlijk te verminderen.
+    pl_PL: Rsnapshot to narzędzie do tworzenia migawek systemu plików oparte na rsync. Ułatwia ono tworzenie okresowych migawek komputerów lokalnych i zdalnych przez SSH. Kod w szerokim zakresie wykorzystuje twarde łącza, gdy tylko jest to możliwe, aby znacznie zmniejszyć zapotrzebowanie na miejsce na dysku.
+    pt_BR: O Rsnapshot é um utilitário de snapshots de sistemas de arquivos baseado no rsync. O rsnapshot facilita a criação de snapshots periódicos de máquinas locais e remotas via SSH. O código utiliza amplamente links físicos sempre que possível, reduzindo significativamente o espaço em disco necessário.
+    ro_RO: Rsnapshot este un utilitar de instantanee pentru sistemul de fișiere bazat pe rsync. rsnapshot facilitează crearea periodică de instantanee ale mașinilor locale și ale mașinilor la distanță prin ssh. Codul utilizează extensiv legăturile fizice ori de câte ori este posibil, pentru a reduce considerabil spațiul pe disc necesar.
+    ru_RU: Rsnapshot — это утилита для создания снимков файловой системы, основанная на rsync. rsnapshot упрощает периодическое создание снимков локальных машин и удаленных машин по SSH. В коде широко используются жесткие ссылки, что значительно сокращает требуемое дисковое пространство.
+    sk_SK: Rsnapshot je nástroj na vytváranie snímok súborového systému založený na rsync. rsnapshot umožňuje jednoduché vytváranie pravidelných snímok lokálnych počítačov a vzdialených počítačov cez ssh. Kód vo veľkej miere využíva pevné odkazy, kedykoľvek je to možné, aby sa výrazne znížila potrebná pamäť na disku.
+    sv_SE: Rsnapshot är ett verktyg för att skapa snapshots av filsystem baserat på rsync. rsnapshot gör det enkelt att skapa regelbundna snapshots av lokala och fjärrmaskiner via ssh. Koden använder hårda länkar i stor utsträckning när det är möjligt för att avsevärt minska det diskutrymme som krävs.
+    tr_TR: Rsnapshot, rsync tabanlı bir dosya sistemi anlık görüntü alma aracıdır. Rsnapshot, yerel makinelerin ve SSH üzerinden uzak makinelerin periyodik anlık görüntülerini almayı kolaylaştırır. Kod, mümkün olduğunca sabit bağlantıları yoğun bir şekilde kullanarak, gereken disk alanını büyük ölçüde azaltır.
     zh_CN: rsnapshot 是基于 rsync 的文件系统快照工具，可方便地为本地机器，以及通过 SSH 连接的远程机器创建定期快照。它尽可能使用硬链接，以大幅减少所需磁盘空间。
+    zh_TW: rsnapshot 是基於 rsync 的檔案系統快照工具，可方便地為本地機器，以及透過 SSH 連線的遠端機器建立定期快照。它儘可能使用硬連結，以大幅減少所需磁碟空間。
   tagline:
     en_US: A filesystem snapshot utility based on rsync. Rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.
+    ca_ES: Una utilitat de captura de pantalla del sistema de fitxers basada en rsync. Rsnapshot facilita la creació de captura de pantalla periòdiques de màquines locals i màquines remotes a través de ssh. El codi fa un ús extensiu d'enllaços físics sempre que sigui possible, per reduir considerablement l'espai de disc necessari.
+    cs_CZ: Nástroj pro vytváření snímků souborového systému založený na rsync. Rsnapshot usnadňuje vytváření pravidelných snímků lokálních počítačů a vzdálených počítačů přes ssh. Kód ve velké míře využívá pevné linky, kdykoli je to možné, aby se výrazně snížila potřeba místa na disku.
+    da_DK: Et filsystem-snapshot-værktøj baseret på rsync. Rsnapshot gør det nemt at lave periodiske snapshots af lokale maskiner og eksterne maskiner via ssh. Koden gør omfattende brug af hard links, når det er muligt, for at reducere den nødvendige diskplads betydeligt.
+    de_DE: Rsnapshot ist ein auf rsync basierendes Dienstprogramm zur Erstellung von Dateisystem-Snapshots. Es ermöglicht die einfache und regelmäßige Erstellung von Snapshots lokaler und entfernter Rechner via SSH. Der Code nutzt nach Möglichkeit Hardlinks, um den benötigten Speicherplatz deutlich zu reduzieren.
+    el_GR: Ένα βοηθητικό πρόγραμμα λήψης στιγμιότυπων συστήματος αρχείων που βασίζεται στο rsync. Το Rsnapshot διευκολύνει τη δημιουργία περιοδικών στιγμιότυπων τοπικών και απομακρυσμένων μηχανημάτων μέσω ssh. Ο κώδικας κάνει εκτεταμένη χρήση σκληρών συνδέσμων όποτε είναι δυνατόν, για να μειώσει σημαντικά τον απαιτούμενο χώρο στο δίσκο.
+    en_GB: A filesystem snapshot utility based on rsync. Rsnapshot makes it easy to make periodic snapshots of local machines, and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required.
+    es_ES: Rsnapshot es una utilidad para crear instantáneas del sistema de archivos basada en rsync. Permite crear instantáneas periódicas de máquinas locales y remotas mediante SSH de forma sencilla. El código utiliza enlaces duros siempre que es posible para reducir considerablemente el espacio en disco necesario.
+    fr_FR: Rsnapshot est un utilitaire de création d'instantanés de système de fichiers basé sur rsync. Il simplifie la création d'instantanés périodiques de machines locales et de machines distantes via SSH. Le code utilise au maximum les liens physiques afin de réduire considérablement l'espace disque requis.
+    ga_IE: Fóntais snapshot córais comhad bunaithe ar rsync. Le rsnapshot, is furasta snapshots tréimhsiúla a dhéanamh de mheaisíní áitiúla agus de mheaisíní iargúlta thar ssh. Baineann an cód úsáid fhorleathan as naisc chrua aon uair is féidir, chun an spás diosca atá ag teastáil a laghdú go mór.
+    hr_HR: Uslužni program za snimanje datotečnog sustava temeljen na rsyncu. Rsnapshot olakšava izradu periodičnih snimaka lokalnih i udaljenih računala putem ssh-a. Kod intenzivno koristi tvrde veze kad god je to moguće, kako bi se znatno smanjio potreban prostor na disku.
+    hu_HU: Egy rsync-en alapuló fájlrendszer-pillanatkép-készítő segédprogram. Az rsnapshot segítségével egyszerűen készíthetők időszakos pillanatképek helyi gépekről és távoli gépekről ssh-n keresztül. A kód a lehető legszélesebb körben használja a hardveres linkeket (hard linkeket), hogy jelentősen csökkentse a szükséges lemezterületet.
+    it_IT: Un'utilità per la creazione di snapshot del filesystem basata su rsync. Rsnapshot semplifica la creazione di snapshot periodici di macchine locali e remote tramite SSH. Il codice fa ampio uso di hard link, ove possibile, per ridurre notevolmente lo spazio su disco richiesto.
+    ja_JP: rsyncをベースにしたファイルシステムスナップショットユーティリティです。Rsnapshotを使えば、ローカルマシンやSSH経由のリモートマシンの定期的なスナップショットを簡単に作成できます。コードは可能な限りハードリンクを多用することで、必要なディスク容量を大幅に削減しています。
+    ko_KR: rsync 기반의 파일 시스템 스냅샷 유틸리티인 rsnapshot을 사용하면 로컬 시스템과 SSH를 통해 연결된 원격 시스템의 스냅샷을 주기적으로 생성할 수 있습니다. 이 코드는 가능한 한 하드 링크를 적극적으로 활용하여 디스크 공간을 크게 절약합니다.
+    ml_IN: rsync അടിസ്ഥാനമാക്കിയുള്ള ഒരു ഫയൽസിസ്റ്റം സ്നാപ്പ്ഷോട്ട് യൂട്ടിലിറ്റി. ലോക്കൽ മെഷീനുകളുടെയും റിമോട്ട് മെഷീനുകളുടെയും ആനുകാലിക സ്നാപ്പ്ഷോട്ടുകൾ ssh വഴി നിർമ്മിക്കുന്നത് Rsnapshot എളുപ്പമാക്കുന്നു. ഡിസ്ക് സ്പേസ് വളരെയധികം കുറയ്ക്കുന്നതിന് സാധ്യമാകുമ്പോഴെല്ലാം കോഡ് ഹാർഡ് ലിങ്കുകൾ വ്യാപകമായി ഉപയോഗിക്കുന്നു.
+    nb_NO: Et verktøy for filsystem-snapshot basert på rsync. Rsnapshot gjør det enkelt å lage periodiske snapshots av lokale maskiner og eksterne maskiner over ssh. Koden bruker i stor grad harde lenker når det er mulig, for å redusere diskplassen som kreves betraktelig.
+    nl_NL: Een hulpprogramma voor het maken van snapshots van bestandssystemen, gebaseerd op rsync. Met rsnapshot kunt u eenvoudig periodieke snapshots maken van lokale machines en van externe machines via SSH. De code maakt waar mogelijk uitgebreid gebruik van harde links om de benodigde schijfruimte aanzienlijk te verminderen.
+    pl_PL: Narzędzie do tworzenia migawek systemu plików oparte na rsync. Rsnapshot ułatwia okresowe tworzenie migawek komputerów lokalnych i zdalnych przez SSH. Kod w szerokim zakresie wykorzystuje twarde dowiązania, gdy tylko jest to możliwe, aby znacznie zmniejszyć zapotrzebowanie na miejsce na dysku.
+    pt_BR: Um utilitário de snapshots do sistema de arquivos baseado em rsync. O Rsnapshot facilita a criação de snapshots periódicos de máquinas locais e remotas via SSH. O código utiliza amplamente links físicos sempre que possível, reduzindo significativamente o espaço em disco necessário.
+    ro_RO: Un utilitar de instantanee pentru sistemul de fișiere bazat pe rsync. Rsnapshot facilitează crearea periodică de instantanee ale mașinilor locale și ale mașinilor la distanță prin ssh. Codul utilizează extensiv legăturile fizice ori de câte ori este posibil, pentru a reduce considerabil spațiul pe disc necesar.
+    ru_RU: Утилита для создания снимков файловой системы на основе rsync. Rsnapshot упрощает периодическое создание снимков локальных машин и удаленных машин по SSH. В коде широко используются жесткие ссылки, что значительно сокращает требуемое дисковое пространство.
+    sk_SK: Nástroj na vytváranie snímok súborového systému založený na rsync. Rsnapshot uľahčuje vytváranie pravidelných snímok lokálnych počítačov a vzdialených počítačov cez ssh. Kód vo veľkej miere využíva pevné odkazy, kedykoľvek je to možné, aby sa výrazne znížila potrebná pamäť na disku.
+    sv_SE: Ett verktyg för filsystems-snapshots baserat på rsync. Rsnapshot gör det enkelt att skapa regelbundna snapshots av lokala och fjärrmaskiner via ssh. Koden använder hårda länkar i stor utsträckning när det är möjligt för att kraftigt minska det diskutrymme som krävs.
+    tr_TR: rsync tabanlı bir dosya sistemi anlık görüntü alma aracı. Rsnapshot, yerel makinelerin ve SSH üzerinden uzak makinelerin periyodik anlık görüntülerini almayı kolaylaştırır. Kod, mümkün olduğunca sabit bağlantıları yoğun bir şekilde kullanarak, gereken disk alanını büyük ölçüde azaltır.
     zh_CN: 使用 rsync 和硬链接创建定期文件系统快照。
+    zh_TW: 使用 rsync 和硬連結建立定期檔案系統快照。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png
   title:
     en_US: Rsnapshot (LinuxServer.io)
+    ca_ES: Rsnapshot (LinuxServer.io)
+    cs_CZ: Rsnapshot (LinuxServer.io)
+    da_DK: Rsnapshot (LinuxServer.io)
+    de_DE: Rsnapshot (LinuxServer.io)
+    el_GR: Rsnapshot (LinuxServer.io)
+    en_GB: Rsnapshot (LinuxServer.io)
+    es_ES: Rsnapshot (LinuxServer.io)
+    fr_FR: Rsnapshot (LinuxServer.io)
+    ga_IE: Rsnapshot (LinuxServer.io)
+    hr_HR: Rsnapshot (LinuxServer.io)
+    hu_HU: Rsnapshot (LinuxServer.io)
+    it_IT: Rsnapshot (LinuxServer.io)
+    ja_JP: Rsnapshot (LinuxServer.io)
+    ko_KR: Rsnapshot (LinuxServer.io)
+    ml_IN: Rsnapshot (LinuxServer.io)
+    nb_NO: Rsnapshot (LinuxServer.io)
+    nl_NL: Rsnapshot (LinuxServer.io)
+    pl_PL: Rsnapshot (LinuxServer.io)
+    pt_BR: Rsnapshot (LinuxServer.io)
+    ro_RO: Rsnapshot (LinuxServer.io)
+    ru_RU: Rsnapshot (LinuxServer.io)
+    sk_SK: Rsnapshot (LinuxServer.io)
+    sv_SE: Rsnapshot (LinuxServer.io)
+    tr_TR: Rsnapshot (LinuxServer.io)
     zh_CN: Rsnapshot（LinuxServer.io）
+    zh_TW: Rsnapshot（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverrsnapshot
   port_map: '80'

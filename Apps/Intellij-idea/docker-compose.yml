@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: IntelliJ IDEA helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.
+    ca_ES: 'IntelliJ IDEA t''ajuda a escriure codi més ràpidament amb eines que eliminen les tasques tedioses i et permeten centrar-te en el que importa: crear un programari excel·lent.'
+    cs_CZ: IntelliJ IDEA vám pomáhá psát kód rychleji pomocí nástrojů, které eliminují únavné úkoly a umožňují vám soustředit se na to, na čem záleží – tvorbu skvělého softwaru.
+    da_DK: IntelliJ IDEA hjælper dig med at skrive kode hurtigere med værktøjer, der eliminerer kedelige opgaver og lader dig fokusere på det, der betyder noget – at bygge fantastisk software.
+    de_DE: IntelliJ IDEA hilft Ihnen, schneller Code zu schreiben, indem es Werkzeuge bereitstellt, die mühsame Aufgaben eliminieren und Ihnen ermöglichen, sich auf das Wesentliche zu konzentrieren – die Entwicklung großartiger Software.
+    el_GR: Το IntelliJ IDEA σάς βοηθά να γράφετε κώδικα πιο γρήγορα με εργαλεία που εξαλείφουν τις κουραστικές εργασίες και σας επιτρέπουν να επικεντρωθείτε σε αυτό που έχει σημασία – τη δημιουργία εξαιρετικού λογισμικού.
+    en_GB: Intellij Idea helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.
+    es_ES: 'IntelliJ IDEA te ayuda a escribir código más rápido con herramientas que eliminan las tareas tediosas y te permiten concentrarte en lo que realmente importa: crear un software excelente.'
+    fr_FR: 'IntelliJ IDEA vous aide à écrire du code plus rapidement grâce à des outils qui éliminent les tâches fastidieuses et vous permettent de vous concentrer sur l''essentiel : créer d''excellents logiciels.'
+    ga_IE: Cabhraíonn IntelliJ IDEA leat cód a scríobh níos tapúla le huirlisí a chuireann deireadh le tascanna leadránacha agus a ligeann duit díriú ar a bhfuil tábhachtach – bogearraí iontacha a thógáil.
+    hr_HR: IntelliJ IDEA vam pomaže brže pisati kod pomoću alata koji eliminiraju zamorne zadatke i omogućuju vam da se usredotočite na ono što je važno – izradu izvrsnog softvera.
+    hu_HU: Az IntelliJ IDEA olyan eszközökkel segít gyorsabban kódot írni, amelyek kiküszöbölik az unalmas feladatokat, és lehetővé teszik, hogy a lényegre koncentrálj – nagyszerű szoftverek fejlesztésére.
+    it_IT: 'IntelliJ IDEA ti aiuta a scrivere codice più velocemente grazie a strumenti che eliminano le attività noiose e ti permettono di concentrarti su ciò che conta davvero: creare software di alta qualità.'
+    ja_JP: IntelliJ IDEAは、面倒な作業を排除するツールを提供することで、より速くコードを書くことを支援します。これにより、本当に重要なこと、つまり優れたソフトウェアの構築に集中できます。
+    ko_KR: IntelliJ IDEA는 지루한 작업을 없애주는 도구를 통해 코드를 더 빠르게 작성할 수 있도록 도와주며, 훌륭한 소프트웨어를 만드는 데 집중할 수 있게 해줍니다.
+    ml_IN: മടുപ്പിക്കുന്ന ജോലികൾ ഒഴിവാക്കുകയും പ്രധാനപ്പെട്ട കാര്യങ്ങളിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കാൻ നിങ്ങളെ അനുവദിക്കുകയും ചെയ്യുന്ന ഉപകരണങ്ങൾ ഉപയോഗിച്ച് ഇന്റലിജെ ഐഡിയ നിങ്ങളെ വേഗത്തിൽ കോഡ് എഴുതാൻ സഹായിക്കുന്നു - മികച്ച സോഫ്റ്റ്‌വെയർ നിർമ്മിക്കൽ.
+    nb_NO: IntelliJ IDEA hjelper deg med å skrive kode raskere med verktøy som eliminerer kjedelige oppgaver og lar deg fokusere på det som betyr noe – å bygge god programvare.
+    nl_NL: 'IntelliJ IDEA helpt je sneller code te schrijven met tools die vervelende taken elimineren, zodat je je kunt concentreren op wat er echt toe doet: het bouwen van geweldige software.'
+    pl_PL: Dzięki IntelliJ IDEA możesz pisać kod szybciej, korzystając z narzędzi, które eliminują żmudne zadania i pozwalają Ci skupić się na tym, co najważniejsze – tworzeniu świetnego oprogramowania.
+    pt_BR: 'O IntelliJ IDEA ajuda você a escrever código mais rapidamente com ferramentas que eliminam tarefas tediosas e permitem que você se concentre no que importa: criar softwares excelentes.'
+    ro_RO: IntelliJ IDEA te ajută să scrii cod mai rapid cu instrumente care elimină sarcinile plictisitoare și te permit să te concentrezi pe ceea ce contează – construirea de software excelent.
+    ru_RU: IntelliJ IDEA помогает писать код быстрее благодаря инструментам, которые устраняют рутинные задачи и позволяют сосредоточиться на главном — создании превосходного программного обеспечения.
+    sk_SK: IntelliJ IDEA vám pomáha písať kód rýchlejšie pomocou nástrojov, ktoré eliminujú únavné úlohy a umožňujú vám sústrediť sa na to, na čom záleží – tvorbu skvelého softvéru.
+    sv_SE: IntelliJ IDEA hjälper dig att skriva kod snabbare med verktyg som eliminerar tråkiga uppgifter och låter dig fokusera på det som är viktigt – att bygga bra programvara.
+    tr_TR: IntelliJ IDEA, sıkıcı görevleri ortadan kaldıran ve önemli olana, yani harika yazılımlar geliştirmeye odaklanmanızı sağlayan araçlarla daha hızlı kod yazmanıza yardımcı olur.
     zh_CN: IntelliJ IDEA 提供各种工具以消除繁琐任务、加快编码速度，让你专注于开发出色的软件。
+    zh_TW: IntelliJ IDEA 提供各種工具以消除繁瑣任務、加快編碼速度，讓你專注於開發出色的軟體。
   tagline:
     en_US: Helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.
+    ca_ES: 'T''ajuda a escriure codi més ràpidament amb eines que eliminen les tasques tedioses i et permeten centrar-te en el que importa: crear un programari excel·lent.'
+    cs_CZ: Pomáhá vám psát kód rychleji pomocí nástrojů, které eliminují únavné úkoly a umožňují vám soustředit se na to, na čem záleží – tvorbu skvělého softwaru.
+    da_DK: Hjælper dig med at skrive kode hurtigere med værktøjer, der eliminerer kedelige opgaver og lader dig fokusere på det, der betyder noget – at bygge fantastisk software.
+    de_DE: Hilft Ihnen dabei, schneller Code zu schreiben, indem Tools lästige Aufgaben eliminieren und Ihnen ermöglichen, sich auf das Wesentliche zu konzentrieren – die Entwicklung großartiger Software.
+    el_GR: Σας βοηθά να γράφετε κώδικα πιο γρήγορα με εργαλεία που εξαλείφουν τις κουραστικές εργασίες και σας επιτρέπουν να επικεντρωθείτε σε αυτό που έχει σημασία – τη δημιουργία εξαιρετικού λογισμικού.
+    en_GB: Helps you write code faster with tools that eliminate tedious tasks and let you focus on what matters – building great software.
+    es_ES: 'Te ayuda a escribir código más rápido con herramientas que eliminan las tareas tediosas y te permiten concentrarte en lo que importa: crear un software excelente.'
+    fr_FR: 'Vous aide à écrire du code plus rapidement grâce à des outils qui éliminent les tâches fastidieuses et vous permettent de vous concentrer sur l''essentiel : créer d''excellents logiciels.'
+    ga_IE: Cabhraíonn sé leat cód a scríobh níos tapúla le huirlisí a chuireann deireadh le tascanna leadránacha agus a ligeann duit díriú ar a bhfuil tábhachtach – bogearraí iontacha a thógáil.
+    hr_HR: Pomaže vam brže pisati kod pomoću alata koji eliminiraju zamorne zadatke i omogućuju vam da se usredotočite na ono što je važno – izradu izvrsnog softvera.
+    hu_HU: Segít gyorsabban kódot írni olyan eszközökkel, amelyek kiküszöbölik az unalmas feladatokat, és lehetővé teszik, hogy a lényegre koncentrálj – nagyszerű szoftverek fejlesztésére.
+    it_IT: 'Ti aiuta a scrivere codice più velocemente grazie a strumenti che eliminano le attività noiose e ti permettono di concentrarti su ciò che conta davvero: creare software di alta qualità.'
+    ja_JP: 面倒な作業を排除し、本当に重要なこと、つまり優れたソフトウェアの構築に集中できるようにするツールを提供することで、より速くコードを書くのに役立ちます。
+    ko_KR: 지루한 작업을 없애고 중요한 일, 즉 훌륭한 소프트웨어 개발에 집중할 수 있도록 도와주는 도구를 통해 더 빠르게 코드를 작성할 수 있도록 지원합니다.
+    ml_IN: മടുപ്പിക്കുന്ന ജോലികൾ ഒഴിവാക്കുകയും പ്രധാനപ്പെട്ട കാര്യങ്ങളിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കാൻ അനുവദിക്കുകയും ചെയ്യുന്ന ഉപകരണങ്ങൾ ഉപയോഗിച്ച് കോഡ് വേഗത്തിൽ എഴുതാൻ നിങ്ങളെ സഹായിക്കുന്നു - മികച്ച സോഫ്റ്റ്‌വെയർ നിർമ്മിക്കൽ.
+    nb_NO: Hjelper deg med å skrive kode raskere med verktøy som eliminerer kjedelige oppgaver og lar deg fokusere på det som betyr noe – å bygge god programvare.
+    nl_NL: 'Helpt je sneller code te schrijven met tools die vervelende taken elimineren, zodat je je kunt concentreren op wat er echt toe doet: het bouwen van geweldige software.'
+    pl_PL: Pomaga pisać kod szybciej dzięki narzędziom, które eliminują żmudne zadania i pozwalają skupić się na tym, co ważne – tworzeniu świetnego oprogramowania.
+    pt_BR: 'Ajuda você a escrever código mais rapidamente com ferramentas que eliminam tarefas tediosas e permitem que você se concentre no que importa: criar um ótimo software.'
+    ro_RO: Te ajută să scrii cod mai rapid cu instrumente care elimină sarcinile plictisitoare și te permit să te concentrezi pe ceea ce contează – construirea de software excelent.
+    ru_RU: Помогает писать код быстрее с помощью инструментов, которые устраняют рутинные задачи и позволяют сосредоточиться на главном — создании превосходного программного обеспечения.
+    sk_SK: Pomáha vám písať kód rýchlejšie pomocou nástrojov, ktoré eliminujú únavné úlohy a umožňujú vám sústrediť sa na to, na čom záleží – tvorbu skvelého softvéru.
+    sv_SE: Hjälper dig att skriva kod snabbare med verktyg som eliminerar tråkiga uppgifter och låter dig fokusera på det som är viktigt – att bygga bra programvara.
+    tr_TR: Sıkıcı görevleri ortadan kaldıran ve önemli olana, yani harika yazılımlar geliştirmeye odaklanmanızı sağlayan araçlarla kod yazma hızınızı artırmanıza yardımcı olur.
     zh_CN: 帮助减少繁琐工作、提升编码效率的开发工具。
+    zh_TW: 幫助減少繁瑣工作、提升編碼效率的開發工具。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/intellij-idea-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/intellij-idea-logo.png
   title:
     en_US: Intellij idea (LinuxServer.io)
+    ca_ES: Intellij idea (LinuxServer.io)
+    cs_CZ: Intellij idea (LinuxServer.io)
+    da_DK: Intellij idea (LinuxServer.io)
+    de_DE: Intellij idea (LinuxServer.io)
+    el_GR: Intellij idea (LinuxServer.io)
+    en_GB: Intellij idea (LinuxServer.io)
+    es_ES: Intellij idea (LinuxServer.io)
+    fr_FR: Intellij idea (LinuxServer.io)
+    ga_IE: Intellij idea (LinuxServer.io)
+    hr_HR: Intellij idea (LinuxServer.io)
+    hu_HU: Intellij idea (LinuxServer.io)
+    it_IT: Intellij idea (LinuxServer.io)
+    ja_JP: Intellij idea (LinuxServer.io)
+    ko_KR: Intellij idea (LinuxServer.io)
+    ml_IN: Intellij idea (LinuxServer.io)
+    nb_NO: Intellij idea (LinuxServer.io)
+    nl_NL: Intellij idea (LinuxServer.io)
+    pl_PL: Intellij idea (LinuxServer.io)
+    pt_BR: Intellij idea (LinuxServer.io)
+    ro_RO: Intellij idea (LinuxServer.io)
+    ru_RU: Intellij idea (LinuxServer.io)
+    sk_SK: Intellij idea (LinuxServer.io)
+    sv_SE: Intellij idea (LinuxServer.io)
+    tr_TR: Intellij idea (LinuxServer.io)
     zh_CN: Intellij idea（LinuxServer.io）
+    zh_TW: Intellij idea（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverintellijidea
   port_map: '3000'

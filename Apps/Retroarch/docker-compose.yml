@@ -36,17 +36,92 @@ x-casaos:
   main: app
   description:
     en_US: RetroArch is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.
+    ca_ES: RetroArch és un interfície per a emuladors, motors de jocs i reproductors multimèdia. Permet executar jocs clàssics en una àmplia gamma d'ordinadors i consoles a través de la seva elegant interfície gràfica.
+    cs_CZ: RetroArch je frontend pro emulátory, herní enginy a přehrávače médií. Umožňuje vám spouštět klasické hry na široké škále počítačů a konzolí prostřednictvím elegantního grafického rozhraní.
+    da_DK: RetroArch er en brugerflade til emulatorer, spilmotorer og medieafspillere. Den gør det muligt at køre klassiske spil på en bred vifte af computere og konsoller via dens smarte grafiske brugerflade.
+    de_DE: RetroArch ist eine Benutzeroberfläche für Emulatoren, Game-Engines und Mediaplayer. Dank ihrer ansprechenden grafischen Darstellung ermöglicht sie es, klassische Spiele auf einer Vielzahl von Computern und Konsolen auszuführen.
+    el_GR: Το RetroArch είναι ένα frontend για emulators, game engines και media players. Σας επιτρέπει να εκτελείτε κλασικά παιχνίδια σε ένα ευρύ φάσμα υπολογιστών και κονσολών μέσω του έξυπνου γραφικού περιβάλλοντος εργασίας του.
+    en_GB: Retroarch is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.
+    es_ES: RetroArch es una interfaz gráfica para emuladores, motores de juegos y reproductores multimedia. Permite ejecutar juegos clásicos en una amplia gama de ordenadores y consolas gracias a su elegante interfaz gráfica.
+    fr_FR: RetroArch est une interface pour émulateurs, moteurs de jeu et lecteurs multimédias. Grâce à son interface graphique élégante, elle permet de jouer à des jeux classiques sur une large gamme d'ordinateurs et de consoles.
+    ga_IE: Is comhéadan úsáideora, innill cluichí agus seinnteoirí meán é RetroArch. Cuireann sé ar do chumas cluichí clasaiceacha a rith ar raon leathan ríomhairí agus consól trína chomhéadan grafach snasta.
+    hr_HR: RetroArch je sučelje za emulatore, game engine i media playere. Omogućuje vam pokretanje klasičnih igara na širokom rasponu računala i konzola putem elegantnog grafičkog sučelja.
+    hu_HU: A RetroArch egy emulátorok, játékmotorok és médialejátszók frontendje. Lehetővé teszi klasszikus játékok futtatását számos számítógépen és konzolon a letisztult grafikus felületén keresztül.
+    it_IT: RetroArch è un'interfaccia per emulatori, motori di gioco e lettori multimediali. Permette di eseguire giochi classici su un'ampia gamma di computer e console grazie alla sua elegante interfaccia grafica.
+    ja_JP: RetroArchは、エミュレーター、ゲームエンジン、メディアプレーヤーのフロントエンドです。洗練されたグラフィカルインターフェースを通して、様々なコンピューターやゲーム機でクラシックゲームを実行できます。
+    ko_KR: RetroArch는 에뮬레이터, 게임 엔진 및 미디어 플레이어를 위한 프런트엔드입니다. 세련된 그래픽 인터페이스를 통해 다양한 컴퓨터와 콘솔에서 고전 게임을 실행할 수 있도록 해줍니다.
+    ml_IN: എമുലേറ്ററുകൾ, ഗെയിം എഞ്ചിനുകൾ, മീഡിയ പ്ലെയറുകൾ എന്നിവയ്‌ക്കുള്ള ഒരു മുൻനിരയാണ് റെട്രോആർച്ച്. അതിന്റെ സ്ലിക്ക് ഗ്രാഫിക്കൽ ഇന്റർഫേസ് വഴി വിവിധ കമ്പ്യൂട്ടറുകളിലും കൺസോളുകളിലും ക്ലാസിക് ഗെയിമുകൾ പ്രവർത്തിപ്പിക്കാൻ ഇത് നിങ്ങളെ പ്രാപ്‌തമാക്കുന്നു.
+    nb_NO: RetroArch er et brukergrensesnitt for emulatorer, spillmotorer og mediespillere. Det lar deg kjøre klassiske spill på et bredt spekter av datamaskiner og konsoller gjennom det elegante grafiske grensesnittet.
+    nl_NL: RetroArch is een frontend voor emulators, game-engines en mediaspelers. Dankzij de strakke grafische interface kun je er klassieke games mee spelen op een breed scala aan computers en consoles.
+    pl_PL: RetroArch to front-end dla emulatorów, silników gier i odtwarzaczy multimedialnych. Umożliwia uruchamianie klasycznych gier na szerokiej gamie komputerów i konsol dzięki eleganckiemu interfejsowi graficznemu.
+    pt_BR: RetroArch é uma interface para emuladores, engines de jogos e reprodutores de mídia. Ele permite que você execute jogos clássicos em uma ampla variedade de computadores e consoles através de sua interface gráfica elegante.
+    ro_RO: RetroArch este un frontend pentru emulatoare, motoare de jocuri și playere media. Îți permite să rulezi jocuri clasice pe o gamă largă de computere și console prin intermediul interfeței sale grafice elegante.
+    ru_RU: RetroArch — это интерфейс для эмуляторов, игровых движков и медиаплееров. Он позволяет запускать классические игры на самых разных компьютерах и консолях благодаря своему удобному графическому интерфейсу.
+    sk_SK: RetroArch je frontend pre emulátory, herné enginy a prehrávače médií. Umožňuje vám spúšťať klasické hry na širokej škále počítačov a konzol prostredníctvom elegantného grafického rozhrania.
+    sv_SE: RetroArch är ett gränssnitt för emulatorer, spelmotorer och mediaspelare. Det låter dig köra klassiska spel på en mängd olika datorer och konsoler genom sitt eleganta grafiska gränssnitt.
+    tr_TR: RetroArch, emülatörler, oyun motorları ve medya oynatıcılar için bir ön uçtur. Şık grafik arayüzü sayesinde klasik oyunları çok çeşitli bilgisayar ve konsollarda çalıştırmanıza olanak tanır.
     zh_CN: RetroArch 是模拟器、游戏引擎和媒体播放器的前端。借助简洁的图形界面，它可在多种电脑和游戏主机上运行经典游戏。
+    zh_TW: RetroArch 是模擬器、遊戲引擎和媒體播放器的前端。藉助簡潔的圖形介面，它可在多種電腦和遊戲主機上執行經典遊戲。
   tagline:
     en_US: A frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.
+    ca_ES: Un interfície per a emuladors, motors de jocs i reproductors multimèdia. Permet executar jocs clàssics en una àmplia gamma d'ordinadors i consoles a través de la seva elegant interfície gràfica.
+    cs_CZ: Front-end pro emulátory, herní enginy a přehrávače médií. Umožňuje vám spouštět klasické hry na široké škále počítačů a konzolí prostřednictvím elegantního grafického rozhraní.
+    da_DK: En brugerflade til emulatorer, spilmotorer og medieafspillere. Den giver dig mulighed for at køre klassiske spil på en bred vifte af computere og konsoller via dens smarte grafiske brugerflade.
+    de_DE: Ein Frontend für Emulatoren, Game-Engines und Mediaplayer. Es ermöglicht das Ausführen klassischer Spiele auf einer Vielzahl von Computern und Konsolen über seine elegante grafische Oberfläche.
+    el_GR: Ένα frontend για emulators, game engines και media players. Σας επιτρέπει να εκτελείτε κλασικά παιχνίδια σε ένα ευρύ φάσμα υπολογιστών και κονσολών μέσω του έξυπνου γραφικού περιβάλλοντος εργασίας του.
+    en_GB: A frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface.
+    es_ES: Una interfaz para emuladores, motores de juegos y reproductores multimedia. Permite ejecutar juegos clásicos en una amplia gama de ordenadores y consolas gracias a su elegante interfaz gráfica.
+    fr_FR: Une interface pour émulateurs, moteurs de jeu et lecteurs multimédias. Elle permet de jouer à des jeux classiques sur une large gamme d'ordinateurs et de consoles grâce à son interface graphique élégante.
+    ga_IE: Comhéadan do aithriseoirí, innill cluichí agus seinnteoirí meán. Cuireann sé ar do chumas cluichí clasaiceacha a rith ar raon leathan ríomhairí agus consól trína chomhéadan grafach snasta.
+    hr_HR: Sučelje za emulatore, game engine i media playere. Omogućuje vam pokretanje klasičnih igara na širokom rasponu računala i konzola putem elegantnog grafičkog sučelja.
+    hu_HU: Egy frontend emulátorokhoz, játékmotorokhoz és médialejátszókhoz. Lehetővé teszi klasszikus játékok futtatását számos számítógépen és konzolon a letisztult grafikus felületén keresztül.
+    it_IT: Un'interfaccia per emulatori, motori di gioco e lettori multimediali. Permette di eseguire giochi classici su un'ampia gamma di computer e console grazie alla sua elegante interfaccia grafica.
+    ja_JP: エミュレーター、ゲームエンジン、メディアプレーヤー用のフロントエンド。洗練されたグラフィカルインターフェースを通して、様々なコンピューターやゲーム機でクラシックゲームを実行できます。
+    ko_KR: 에뮬레이터, 게임 엔진 및 미디어 플레이어용 프런트엔드입니다. 세련된 그래픽 인터페이스를 통해 다양한 컴퓨터와 콘솔에서 고전 게임을 실행할 수 있도록 지원합니다.
+    ml_IN: എമുലേറ്ററുകൾ, ഗെയിം എഞ്ചിനുകൾ, മീഡിയ പ്ലെയറുകൾ എന്നിവയ്‌ക്കായുള്ള ഒരു ഫ്രണ്ട് എൻഡ്. അതിന്റെ സ്ലിക്ക് ഗ്രാഫിക്കൽ ഇന്റർഫേസ് വഴി വിവിധ കമ്പ്യൂട്ടറുകളിലും കൺസോളുകളിലും ക്ലാസിക് ഗെയിമുകൾ പ്രവർത്തിപ്പിക്കാൻ ഇത് നിങ്ങളെ പ്രാപ്‌തമാക്കുന്നു.
+    nb_NO: Et brukergrensesnitt for emulatorer, spillmotorer og mediespillere. Det lar deg kjøre klassiske spill på et bredt spekter av datamaskiner og konsoller gjennom det elegante grafiske grensesnittet.
+    nl_NL: Een frontend voor emulators, game-engines en mediaspelers. Hiermee kun je klassieke games spelen op een breed scala aan computers en consoles dankzij de strakke grafische interface.
+    pl_PL: Interfejs użytkownika dla emulatorów, silników gier i odtwarzaczy multimedialnych. Umożliwia uruchamianie klasycznych gier na szerokiej gamie komputerów i konsol dzięki eleganckiemu interfejsowi graficznemu.
+    pt_BR: Uma interface para emuladores, engines de jogos e reprodutores de mídia. Ela permite que você execute jogos clássicos em uma ampla variedade de computadores e consoles através de sua interface gráfica elegante.
+    ro_RO: Un frontend pentru emulatoare, motoare de jocuri și playere media. Îți permite să rulezi jocuri clasice pe o gamă largă de computere și console prin intermediul interfeței sale grafice elegante.
+    ru_RU: Интерфейс для эмуляторов, игровых движков и медиаплееров. Он позволяет запускать классические игры на самых разных компьютерах и консолях благодаря своему удобному графическому интерфейсу.
+    sk_SK: Front-end pre emulátory, herné enginy a prehrávače médií. Umožňuje vám spúšťať klasické hry na širokej škále počítačov a konzol prostredníctvom elegantného grafického rozhrania.
+    sv_SE: Ett gränssnitt för emulatorer, spelmotorer och mediaspelare. Det låter dig köra klassiska spel på en mängd olika datorer och konsoler genom sitt eleganta grafiska gränssnitt.
+    tr_TR: Emülatörler, oyun motorları ve medya oynatıcılar için bir ön uç arayüzü. Şık grafik arayüzü sayesinde klasik oyunları çok çeşitli bilgisayar ve konsollarda çalıştırmanıza olanak tanır.
     zh_CN: 在多种设备上运行经典游戏的模拟器前端。
+    zh_TW: 在多種裝置上執行經典遊戲的模擬器前端。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/retroarch-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/retroarch-logo.png
   title:
     en_US: Retroarch (LinuxServer.io)
+    ca_ES: Retroarch (LinuxServer.io)
+    cs_CZ: Retroarch (LinuxServer.io)
+    da_DK: Retroarch (LinuxServer.io)
+    de_DE: Retroarch (LinuxServer.io)
+    el_GR: Retroarch (LinuxServer.io)
+    en_GB: Retroarch (LinuxServer.io)
+    es_ES: Retroarch (LinuxServer.io)
+    fr_FR: Retroarch (LinuxServer.io)
+    ga_IE: Retroarch (LinuxServer.io)
+    hr_HR: Retroarch (LinuxServer.io)
+    hu_HU: Retroarch (LinuxServer.io)
+    it_IT: Retroarch (LinuxServer.io)
+    ja_JP: Retroarch (LinuxServer.io)
+    ko_KR: Retroarch (LinuxServer.io)
+    ml_IN: Retroarch (LinuxServer.io)
+    nb_NO: Retroarch (LinuxServer.io)
+    nl_NL: Retroarch (LinuxServer.io)
+    pl_PL: Retroarch (LinuxServer.io)
+    pt_BR: Retroarch (LinuxServer.io)
+    ro_RO: Retroarch (LinuxServer.io)
+    ru_RU: Retroarch (LinuxServer.io)
+    sk_SK: Retroarch (LinuxServer.io)
+    sv_SE: Retroarch (LinuxServer.io)
+    tr_TR: Retroarch (LinuxServer.io)
     zh_CN: Retroarch（LinuxServer.io）
+    zh_TW: Retroarch（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverretroarch
   port_map: '3000'

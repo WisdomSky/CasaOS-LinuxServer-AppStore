@@ -35,17 +35,92 @@ x-casaos:
   main: app
   description:
     en_US: Shotcut is a free, open source, cross-platform video editor.
+    ca_ES: Shotcut és un editor de vídeo gratuït, de codi obert i multiplataforma.
+    cs_CZ: Shotcut je bezplatný, open source, multiplatformní video editor.
+    da_DK: Shotcut er et gratis, open source-videoredigeringsprogram, der kan bruges på tværs af platforme.
+    de_DE: Shotcut ist ein kostenloser, quelloffener, plattformübergreifender Videoeditor.
+    el_GR: Το Shotcut είναι ένα δωρεάν, ανοιχτού κώδικα, cross-platform πρόγραμμα επεξεργασίας βίντεο.
+    en_GB: Shotcut is a free, open source, cross-platform video editor.
+    es_ES: Shotcut es un editor de vídeo gratuito, de código abierto y multiplataforma.
+    fr_FR: Shotcut est un logiciel de montage vidéo gratuit, open source et multiplateforme.
+    ga_IE: Is eagarthóir físe tras-ardáin, foinse oscailte, saor in aisce é Shotcut.
+    hr_HR: Shotcut je besplatni, otvoreni, višeplatformski program za uređivanje videa.
+    hu_HU: A Shotcut egy ingyenes, nyílt forráskódú, platformfüggetlen videószerkesztő.
+    it_IT: Shotcut è un editor video gratuito, open source e multipiattaforma.
+    ja_JP: Shotcutは、無料のオープンソースのクロスプラットフォーム対応ビデオエディターです。
+    ko_KR: Shotcut은 무료 오픈 소스 크로스 플랫폼 비디오 편집기입니다.
+    ml_IN: ഷോട്ട്കട്ട് ഒരു സൗജന്യ, ഓപ്പൺ സോഴ്‌സ്, ക്രോസ്-പ്ലാറ്റ്‌ഫോം വീഡിയോ എഡിറ്ററാണ്.
+    nb_NO: Shotcut er et gratis, åpen kildekode-videoredigeringsprogram for flere plattformer.
+    nl_NL: Shotcut is een gratis, open source, platformonafhankelijke video-editor.
+    pl_PL: Shotcut to darmowy, otwarty, wieloplatformowy edytor wideo.
+    pt_BR: O Shotcut é um editor de vídeo gratuito, de código aberto e multiplataforma.
+    ro_RO: Shotcut este un editor video gratuit, open source și multiplatformă.
+    ru_RU: Shotcut — это бесплатный, открытый, кроссплатформенный видеоредактор.
+    sk_SK: Shotcut je bezplatný, open source, multiplatformový editor videa.
+    sv_SE: Shotcut är en gratis, öppen källkodsbaserad videoredigerare som fungerar på flera plattformar.
+    tr_TR: Shotcut, ücretsiz, açık kaynaklı ve platformlar arası bir video düzenleme programıdır.
     zh_CN: Shotcut 是一款免费、开源、跨平台的视频编辑器。
+    zh_TW: Shotcut 是一款免費、開源、跨平臺的影片編輯器。
   tagline:
     en_US: A free, open source, cross-platform video editor.
+    ca_ES: Un editor de vídeo gratuït, de codi obert i multiplataforma.
+    cs_CZ: Bezplatný, open source, multiplatformní video editor.
+    da_DK: Et gratis, open source-videoredigeringsprogram til flere platforme.
+    de_DE: Ein kostenloser, quelloffener und plattformübergreifender Video-Editor.
+    el_GR: Ένα δωρεάν, ανοιχτού κώδικα, πολλαπλής πλατφόρμας πρόγραμμα επεξεργασίας βίντεο.
+    en_GB: A free, open source, cross-platform video editor.
+    es_ES: Un editor de vídeo gratuito, de código abierto y multiplataforma.
+    fr_FR: Un éditeur vidéo gratuit, open source et multiplateforme.
+    ga_IE: Eagarthóir físe tras-ardáin, foinse oscailte, saor in aisce.
+    hr_HR: Besplatni, otvoreni, višeplatformski video editor.
+    hu_HU: Ingyenes, nyílt forráskódú, platformfüggetlen videószerkesztő.
+    it_IT: Un editor video gratuito, open source e multipiattaforma.
+    ja_JP: 無料のオープンソース、クロスプラットフォーム対応のビデオエディター。
+    ko_KR: 무료 오픈 소스 크로스 플랫폼 비디오 편집기입니다.
+    ml_IN: ഒരു സൗജന്യ, ഓപ്പൺ സോഴ്‌സ്, ക്രോസ്-പ്ലാറ്റ്‌ഫോം വീഡിയോ എഡിറ്റർ.
+    nb_NO: En gratis, åpen kildekode-videoredigerer for flere plattformer.
+    nl_NL: Een gratis, open source, platformonafhankelijke video-editor.
+    pl_PL: Bezpłatny, otwartoźródłowy, wieloplatformowy edytor wideo.
+    pt_BR: Um editor de vídeo gratuito, de código aberto e multiplataforma.
+    ro_RO: Un editor video gratuit, open source și multiplatformă.
+    ru_RU: Бесплатный, открытый, кроссплатформенный видеоредактор.
+    sk_SK: Bezplatný, open source, multiplatformový editor videa.
+    sv_SE: En gratis, plattformsoberoende videoredigerare med öppen källkod.
+    tr_TR: Ücretsiz, açık kaynaklı, platformlar arası bir video düzenleme programı.
     zh_CN: 免费、开源、跨平台的视频编辑器。
+    zh_TW: 免費、開源、跨平臺的影片編輯器。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shotcut-logo.png
   title:
     en_US: Shotcut (LinuxServer.io)
+    ca_ES: Shotcut (LinuxServer.io)
+    cs_CZ: Shotcut (LinuxServer.io)
+    da_DK: Shotcut (LinuxServer.io)
+    de_DE: Shotcut (LinuxServer.io)
+    el_GR: Shotcut (LinuxServer.io)
+    en_GB: Shotcut (LinuxServer.io)
+    es_ES: Shotcut (LinuxServer.io)
+    fr_FR: Shotcut (LinuxServer.io)
+    ga_IE: Shotcut (LinuxServer.io)
+    hr_HR: Shotcut (LinuxServer.io)
+    hu_HU: Shotcut (LinuxServer.io)
+    it_IT: Shotcut (LinuxServer.io)
+    ja_JP: Shotcut (LinuxServer.io)
+    ko_KR: Shotcut (LinuxServer.io)
+    ml_IN: Shotcut (LinuxServer.io)
+    nb_NO: Shotcut (LinuxServer.io)
+    nl_NL: Shotcut (LinuxServer.io)
+    pl_PL: Shotcut (LinuxServer.io)
+    pt_BR: Shotcut (LinuxServer.io)
+    ro_RO: Shotcut (LinuxServer.io)
+    ru_RU: Shotcut (LinuxServer.io)
+    sk_SK: Shotcut (LinuxServer.io)
+    sv_SE: Shotcut (LinuxServer.io)
+    tr_TR: Shotcut (LinuxServer.io)
     zh_CN: Shotcut（LinuxServer.io）
+    zh_TW: Shotcut（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxservershotcut
   port_map: '3000'

@@ -1,7 +1,7 @@
 name: linuxserver-webstation
 services:
   app:
-    image: linuxserver/webstation:0.8.4-romm
+    image: linuxserver/webstation:0.8.5-romm
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -35,18 +35,93 @@ x-casaos:
   main: app
   description:
     en_US: Webstation is a web native emulation focused LXQt desktop based on Ubuntu.
+    ca_ES: Webstation és un escriptori LXQt centrat en l'emulació web basat en Ubuntu.
+    cs_CZ: Webstation je desktopové prostředí LXQt zaměřené na nativní emulaci webu, založené na Ubuntu.
+    da_DK: Webstation er en web-native emuleringsfokuseret LXQt-desktop baseret på Ubuntu.
+    de_DE: Webstation ist ein webnativer LXQt-Desktop auf Ubuntu-Basis mit Fokus auf Emulation.
+    el_GR: Το Webstation είναι μια επιφάνεια εργασίας LXQt που βασίζεται σε εξομοίωση ιστού και βασίζεται στο Ubuntu.
+    en_GB: Webstation is a web native emulation focused Lxqt desktop based on Ubuntu.
+    es_ES: Webstation es un escritorio LXQt basado en Ubuntu, centrado en la emulación web nativa.
+    fr_FR: Webstation est un environnement de bureau LXQt basé sur Ubuntu et axé sur l'émulation native du Web.
+    ga_IE: Is deasc LXQt dúchasach gréasáin atá dírithe ar aithriseoireacht é Webstation atá bunaithe ar Ubuntu.
+    hr_HR: Webstation je LXQt radna površina usmjerena na web emulaciju, bazirana na Ubuntuu.
+    hu_HU: A Webstation egy webes natív emulációra összpontosító LXQt asztali környezet, amely Ubuntu alapú.
+    it_IT: Webstation è un ambiente desktop LXQt basato su Ubuntu, focalizzato sull'emulazione di applicazioni web native.
+    ja_JP: Webstationは、Ubuntuをベースとした、Webネイティブなエミュレーションに特化したLXQtデスクトップです。
+    ko_KR: Webstation은 Ubuntu 기반의 웹 네이티브 에뮬레이션에 초점을 맞춘 LXQt 데스크톱 환경입니다.
+    ml_IN: വെബ്‌സ്റ്റേഷൻ എന്നത് ഉബുണ്ടു അടിസ്ഥാനമാക്കിയുള്ള ഒരു വെബ് നേറ്റീവ് എമുലേഷൻ ഫോക്കസ്ഡ് LXQt ഡെസ്‌ക്‌ടോപ്പാണ്.
+    nb_NO: Webstation er et nettbasert emuleringsfokusert LXQt-skrivebord basert på Ubuntu.
+    nl_NL: Webstation is een webgebaseerde, op Ubuntu gebaseerde LXQt-desktopomgeving met native emulatie.
+    pl_PL: Webstation to natywny dla sieci interfejs graficzny LXQt bazujący na Ubuntu.
+    pt_BR: Webstation é um ambiente de trabalho LXQt baseado no Ubuntu, focado em emulação nativa da web.
+    ro_RO: Webstation este un desktop LXQt nativ, axat pe emulare web, bazat pe Ubuntu.
+    ru_RU: Webstation — это ориентированная на эмуляцию веб-приложений среда рабочего стола на основе LXQt, работающая под управлением Ubuntu.
+    sk_SK: Webstation je desktopová platforma LXQt zameraná na natívnu emuláciu webu založená na Ubuntu.
+    sv_SE: Webstation är en webbbaserad LXQt-skrivbordsmiljö baserad på Ubuntu, med fokus på emulering och webb.
+    tr_TR: Webstation, Ubuntu tabanlı, web tabanlı öykünmeye odaklanmış bir LXQt masaüstü ortamıdır.
     zh_CN: Webstation 是基于 Ubuntu、专注于网页原生模拟体验的 LXQt 桌面环境。
+    zh_TW: Webstation 是基於 Ubuntu、專注於網頁原生模擬體驗的 LXQt 桌面環境。
   tagline:
     en_US: A web native emulation focused LXQt desktop based on Ubuntu.
+    ca_ES: Un escriptori LXQt centrat en l'emulació web nativa basat en Ubuntu.
+    cs_CZ: Nativní webová emulace zaměřená na LXQt desktop založený na Ubuntu.
+    da_DK: En web-native emuleringsfokuseret LXQt-desktop baseret på Ubuntu.
+    de_DE: Ein webnativer Emulations-fokussierter LXQt-Desktop auf Ubuntu-Basis.
+    el_GR: Ένας υπολογιστής LXQt με επίκεντρο την εξομοίωση ιστού και βασίζεται στο Ubuntu.
+    en_GB: A web native emulation focused Lxqt desktop based on Ubuntu.
+    es_ES: Un entorno de escritorio LXQt basado en Ubuntu, centrado en la emulación web nativa.
+    fr_FR: Un environnement de bureau LXQt axé sur l'émulation native du Web et basé sur Ubuntu.
+    ga_IE: Deasc LXQt dírithe ar aithris dúchasach gréasáin atá bunaithe ar Ubuntu.
+    hr_HR: LXQt radna površina usmjerena na web emulaciju, bazirana na Ubuntuu.
+    hu_HU: Egy webes natív emulációra összpontosító LXQt asztali környezet Ubuntu alapú.
+    it_IT: Un ambiente desktop LXQt basato su Ubuntu, focalizzato sull'emulazione di applicazioni web native.
+    ja_JP: Ubuntuをベースとした、Webネイティブなエミュレーションに特化したLXQtデスクトップ環境。
+    ko_KR: 우분투 기반의 웹 네이티브 에뮬레이션에 초점을 맞춘 LXQt 데스크톱 환경입니다.
+    ml_IN: ഉബുണ്ടു അടിസ്ഥാനമാക്കിയുള്ള LXQt ഡെസ്‌ക്‌ടോപ്പിനെ കേന്ദ്രീകരിച്ചുള്ള ഒരു വെബ് നേറ്റീവ് എമുലേഷൻ.
+    nb_NO: Et nettbasert emuleringsfokusert LXQt-skrivebord basert på Ubuntu.
+    nl_NL: Een op Ubuntu gebaseerde LXQt-desktop met native web-emulatie.
+    pl_PL: Natywny dla sieci pulpit LXQt oparty na Ubuntu.
+    pt_BR: Um ambiente de trabalho LXQt baseado no Ubuntu, focado em emulação nativa da web.
+    ro_RO: Un desktop LXQt axat pe emulare web nativă, bazat pe Ubuntu.
+    ru_RU: Нативная веб-ориентированная эмуляция рабочего стола на основе LXQt и Ubuntu.
+    sk_SK: Natívna webová emulácia zameraná na LXQt desktopová platforma založená na Ubuntu.
+    sv_SE: En webbbaserad emuleringsfokuserad LXQt-skrivbordsmiljö baserad på Ubuntu.
+    tr_TR: Ubuntu tabanlı, web'e özgü öykünmeye odaklanmış bir LXQt masaüstü ortamı.
     zh_CN: 面向网页模拟体验的 Ubuntu LXQt 桌面。
+    zh_TW: 面向網頁模擬體驗的 Ubuntu LXQt 桌面。
   developer: LinuxServer.io
   author: WisdomSky
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webstation-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webstation-logo.png
   title:
     en_US: Webstation (LinuxServer.io)
+    ca_ES: Webstation (LinuxServer.io)
+    cs_CZ: Webstation (LinuxServer.io)
+    da_DK: Webstation (LinuxServer.io)
+    de_DE: Webstation (LinuxServer.io)
+    el_GR: Webstation (LinuxServer.io)
+    en_GB: Webstation (LinuxServer.io)
+    es_ES: Webstation (LinuxServer.io)
+    fr_FR: Webstation (LinuxServer.io)
+    ga_IE: Webstation (LinuxServer.io)
+    hr_HR: Webstation (LinuxServer.io)
+    hu_HU: Webstation (LinuxServer.io)
+    it_IT: Webstation (LinuxServer.io)
+    ja_JP: Webstation (LinuxServer.io)
+    ko_KR: Webstation (LinuxServer.io)
+    ml_IN: Webstation (LinuxServer.io)
+    nb_NO: Webstation (LinuxServer.io)
+    nl_NL: Webstation (LinuxServer.io)
+    pl_PL: Webstation (LinuxServer.io)
+    pt_BR: Webstation (LinuxServer.io)
+    ro_RO: Webstation (LinuxServer.io)
+    ru_RU: Webstation (LinuxServer.io)
+    sk_SK: Webstation (LinuxServer.io)
+    sv_SE: Webstation (LinuxServer.io)
+    tr_TR: Webstation (LinuxServer.io)
     zh_CN: Webstation（LinuxServer.io）
+    zh_TW: Webstation（LinuxServer.io）
   category: Home
   id: wisdomsky.linuxserver.linuxserverwebstation
   port_map: '3000'
-  version: 0.8.4-romm
+  version: 0.8.5-romm
