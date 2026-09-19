@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
   "title": "Rsnapshot (LinuxServer.io)",
-  "description": "Az Rsnapshot egy rsync-en alapuló fájlrendszer-pillanatkép-készítő segédprogram. Az rsnapshot segítségével egyszerűen készíthetünk időszakos pillanatképeket a helyi gépekről és a távoli gépekről SSH-n keresztül. A kód a lehető legszélesebb körben használja a hardveres linkeket (hard linkeket), hogy jelentősen csökkentse a szükséges lemezterületet.",
-  "tagline": "Egy rsync-en alapuló fájlrendszer-pillanatkép-készítő segédprogram. Az rsnapshot segítségével egyszerűen készíthetők időszakos pillanatképek helyi gépekről és távoli gépekről ssh-n keresztül. A kód a lehető legszélesebb körben használja a hardveres linkeket (hard linkeket), hogy jelentősen csökkentse a szükséges lemezterületet."
+  "tagline": "Egy rsync-en alapuló fájlrendszer-pillanatkép-készítő segédprogram. Az rsnapshot segítségével egyszerűen készíthetők időszakos pillanatképek helyi gépekről és távoli gépekről ssh-n keresztül. A kód a lehető legszélesebb körben használja a hardveres linkeket (hard linkeket), hogy jelentősen csökkentse a szükséges lemezterületet.",
+  "description": "Az Rsnapshot egy rsync-en alapuló fájlrendszer-pillanatkép-készítő segédprogram. Az rsnapshot segítségével egyszerűen készíthetünk időszakos pillanatképeket a helyi gépekről és a távoli gépekről SSH-n keresztül. A kód a lehető legszélesebb körben használja a hardveres linkeket (hard linkeket), hogy jelentősen csökkentse a szükséges lemezterületet."
 }

@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxservercops",
   "title": "Cops（LinuxServer.io）",
-  "description": "COPS 全稱為 Calibre OPDS（和 HTML）PHP Server，由 Sébastien Lucas 建立，現由 MikesPub 維護。它連線 Calibre 書庫資料庫，支援直接透過瀏覽器下載和郵件傳送書籍，並提供可連線閱讀裝置的 OPDS 訂閱源。Calibre 書庫的變化會立即反映到 COPS 頁面中。更多資訊請參閱專案主頁和 Wiki。作者認為 Calibre 雖然出色，但作為內容伺服器體積過大、依賴過多，因此開發了可在 Seagate Dockstar 等小型伺服器上執行的工具。最初考慮的 Calibre2OPDS 只生成靜態檔案，無法搜尋；後來又加入可在 Kobo 上使用的簡單 HTML 目錄。COPS 的優勢包括依賴少、CPU 和記憶體佔用低、程式碼量小、支援搜尋，以及容易藉助 Dropbox 或 ownCloud 保持 OPDS 伺服器更新；開發過程本身也很有趣。使用 OPDS 訂閱源時，請在 URL 末尾加上 /feed。",
-  "tagline": "為 Calibre 書庫提供輕量的 OPDS 和網頁目錄。"
+  "tagline": "為 Calibre 書庫提供輕量的 OPDS 和網頁目錄。",
+  "description": "COPS 全稱為 Calibre OPDS（和 HTML）PHP Server，由 Sébastien Lucas 建立，現由 MikesPub 維護。它連線 Calibre 書庫資料庫，支援直接透過瀏覽器下載和郵件傳送書籍，並提供可連線閱讀裝置的 OPDS 訂閱源。Calibre 書庫的變化會立即反映到 COPS 頁面中。更多資訊請參閱專案主頁和 Wiki。作者認為 Calibre 雖然出色，但作為內容伺服器體積過大、依賴過多，因此開發了可在 Seagate Dockstar 等小型伺服器上執行的工具。最初考慮的 Calibre2OPDS 只生成靜態檔案，無法搜尋；後來又加入可在 Kobo 上使用的簡單 HTML 目錄。COPS 的優勢包括依賴少、CPU 和記憶體佔用低、程式碼量小、支援搜尋，以及容易藉助 Dropbox 或 ownCloud 保持 OPDS 伺服器更新；開發過程本身也很有趣。使用 OPDS 訂閱源時，請在 URL 末尾加上 /feed。"
 }

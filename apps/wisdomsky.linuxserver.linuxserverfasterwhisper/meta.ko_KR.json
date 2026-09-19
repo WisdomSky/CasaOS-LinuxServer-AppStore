@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
   "title": "Faster whisper (LinuxServer.io)",
-  "description": "Faster-whisper는 CTranslate2를 사용하여 OpenAI의 Whisper 모델을 재구현한 것으로, CTranslate2는 Transformer 모델을 위한 빠른 추론 엔진입니다. 이 컨테이너는 Faster-whisper를 위한 Wyoming 프로토콜 서버를 제공합니다.",
-  "tagline": "CTranslate2를 사용하여 OpenAI의 Whisper 모델을 재구현한 것입니다. CTranslate2는 Transformer 모델을 위한 빠른 추론 엔진입니다. 이 컨테이너는 faster-whisper를 위한 Wyoming 프로토콜 서버를 제공합니다."
+  "tagline": "CTranslate2를 사용하여 OpenAI의 Whisper 모델을 재구현한 것입니다. CTranslate2는 Transformer 모델을 위한 빠른 추론 엔진입니다. 이 컨테이너는 faster-whisper를 위한 Wyoming 프로토콜 서버를 제공합니다.",
+  "description": "Faster-whisper는 CTranslate2를 사용하여 OpenAI의 Whisper 모델을 재구현한 것으로, CTranslate2는 Transformer 모델을 위한 빠른 추론 엔진입니다. 이 컨테이너는 Faster-whisper를 위한 Wyoming 프로토콜 서버를 제공합니다."
 }

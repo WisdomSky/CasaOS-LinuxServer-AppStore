@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
   "title": "Netbootxyz",
-  "description": "Netboot.xyz 可通过 PXE，在 BIOS 中从一个入口启动多种操作系统安装器或工具，无需另行寻找启动介质。它使用 iPXE 提供友好的菜单，便于选择操作系统、特定版本和启动参数。\n\n访问项目主页：https://hub.docker.com/r/linuxserver/netbootxyz/",
-  "tagline": "通过 PXE 网络启动多种系统安装器和工具。"
+  "tagline": "通过 PXE 网络启动多种系统安装器和工具。",
+  "description": "Netboot.xyz 可通过 PXE，在 BIOS 中从一个入口启动多种操作系统安装器或工具，无需另行寻找启动介质。它使用 iPXE 提供友好的菜单，便于选择操作系统、特定版本和启动参数。\n\n访问项目主页：https://hub.docker.com/r/linuxserver/netbootxyz/"
 }

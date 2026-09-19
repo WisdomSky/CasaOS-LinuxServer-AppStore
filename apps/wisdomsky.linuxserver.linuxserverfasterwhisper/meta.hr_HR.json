@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
   "title": "Faster whisper (LinuxServer.io)",
-  "description": "Faster-whisper je reimplementacija OpenAI-jevog Whisper modela korištenjem CTranslate2, koji je mehanizam za brzo zaključivanje za Transformer modele. Ovaj kontejner pruža Wyoming protokol poslužitelj za faster-whisper.",
-  "tagline": "Reimplementacija OpenAI-jevog Whisper modela korištenjem CTranslate2, brzog mehanizma za zaključivanje za Transformer modele. Ovaj kontejner pruža Wyoming protokol poslužitelj za brži \"whisper\" model."
+  "tagline": "Reimplementacija OpenAI-jevog Whisper modela korištenjem CTranslate2, brzog mehanizma za zaključivanje za Transformer modele. Ovaj kontejner pruža Wyoming protokol poslužitelj za brži \"whisper\" model.",
+  "description": "Faster-whisper je reimplementacija OpenAI-jevog Whisper modela korištenjem CTranslate2, koji je mehanizam za brzo zaključivanje za Transformer modele. Ovaj kontejner pruža Wyoming protokol poslužitelj za faster-whisper."
 }

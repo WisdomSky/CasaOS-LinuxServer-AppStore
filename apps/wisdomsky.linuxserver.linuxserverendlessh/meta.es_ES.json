@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverendlessh",
   "title": "Endlessh",
-  "description": "Visita la página principal: https://github.com/orgs/linuxserver/packages/container/package/endlessh",
-  "tagline": "Un servidor SSH bloqueado que envía muy lentamente un banner aleatorio e interminable. Mantiene a los clientes SSH bloqueados durante horas o incluso días. El objetivo es conectar tu servidor SSH real a otro puerto y dejar que los hackers novatos se queden atrapados en este servidor bloqueado en lugar de molestar a un servidor legítimo."
+  "tagline": "Un servidor SSH bloqueado que envía muy lentamente un banner aleatorio e interminable. Mantiene a los clientes SSH bloqueados durante horas o incluso días. El objetivo es conectar tu servidor SSH real a otro puerto y dejar que los hackers novatos se queden atrapados en este servidor bloqueado en lugar de molestar a un servidor legítimo.",
+  "description": "Visita la página principal: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
 }

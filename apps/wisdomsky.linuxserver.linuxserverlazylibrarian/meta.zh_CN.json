@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverlazylibrarian",
   "title": "Lazylibrarian（LinuxServer.io）",
-  "description": "LazyLibrarian 可关注作者并获取数字阅读所需的元数据。它使用 Goodreads、LibraryThing，以及可选的 Google Books 作为作者和图书信息来源。此容器基于 DobyTang 分支。",
-  "tagline": "关注作者并收集电子书元数据。"
+  "tagline": "关注作者并收集电子书元数据。",
+  "description": "LazyLibrarian 可关注作者并获取数字阅读所需的元数据。它使用 Goodreads、LibraryThing，以及可选的 Google Books 作为作者和图书信息来源。此容器基于 DobyTang 分支。"
 }

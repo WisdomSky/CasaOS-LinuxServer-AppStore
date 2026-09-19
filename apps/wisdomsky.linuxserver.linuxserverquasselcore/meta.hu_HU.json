@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "description": "Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/quassel-core/",
-  "tagline": "Egy modern, többplatformos, elosztott IRC kliens, ami azt jelenti, hogy egy (vagy több) kliens csatlakozhat és leválasztható egy központi magról. Ez a konténer kezeli az IRC-kapcsolatot (quasselcore), és egy asztali kliens (quasselclient) használatát és konfigurálását igényli. Úgy tervezték, hogy mindig bekapcsolva legyen, és akkor is jelen legyen az identitásod az IRC-ben, ha az ügyfeleid nem lehetnek online. A várakozó fájlokat (előzményeket) az ügyfél letölti az újracsatlakozáskor, lehetővé téve a végtelen visszagörgetést az időben."
+  "tagline": "Egy modern, többplatformos, elosztott IRC kliens, ami azt jelenti, hogy egy (vagy több) kliens csatlakozhat és leválasztható egy központi magról. Ez a konténer kezeli az IRC-kapcsolatot (quasselcore), és egy asztali kliens (quasselclient) használatát és konfigurálását igényli. Úgy tervezték, hogy mindig bekapcsolva legyen, és akkor is jelen legyen az identitásod az IRC-ben, ha az ügyfeleid nem lehetnek online. A várakozó fájlokat (előzményeket) az ügyfél letölti az újracsatlakozáskor, lehetővé téve a végtelen visszagörgetést az időben.",
+  "description": "Látogassa meg a honlapot: https://hub.docker.com/r/linuxserver/quassel-core/"
 }

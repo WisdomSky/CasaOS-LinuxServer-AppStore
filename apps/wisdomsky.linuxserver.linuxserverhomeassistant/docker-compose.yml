@@ -1,7 +1,7 @@
 name: linuxserver-homeassistant
 services:
   app:
-    image: linuxserver/homeassistant:2026.9.2
+    image: linuxserver/homeassistant:2026.9.3
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -48,4 +48,4 @@ x-casaos:
     zh_TW: Homeassistant（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverhomeassistant
   port_map: '8123'
-  version: 2026.9.2
+  version: 2026.9.3

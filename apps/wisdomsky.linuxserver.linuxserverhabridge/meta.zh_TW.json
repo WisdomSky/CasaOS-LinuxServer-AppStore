@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverhabridge",
   "title": "Habridge（LinuxServer.io）",
-  "description": "HA Bridge 向其他家庭自動化閘道器模擬 Philips Hue API，例如第一代 Amazon Echo/Dot，或其他支援 Philips Hue 的系統；第二代裝置在發現 HA Bridge 時存在問題。它支援 Hue 協議中的開啟、關閉和亮度等基本命令，並可控制大多數提供獨立 API 的裝置。",
-  "tagline": "模擬 Philips Hue API，連線家庭自動化裝置。"
+  "tagline": "模擬 Philips Hue API，連線家庭自動化裝置。",
+  "description": "HA Bridge 向其他家庭自動化閘道器模擬 Philips Hue API，例如第一代 Amazon Echo/Dot，或其他支援 Philips Hue 的系統；第二代裝置在發現 HA Bridge 時存在問題。它支援 Hue 協議中的開啟、關閉和亮度等基本命令，並可控制大多數提供獨立 API 的裝置。"
 }

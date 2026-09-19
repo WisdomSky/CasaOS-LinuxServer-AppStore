@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverresiliosync",
   "title": "Resilio sync (LinuxServer.io)",
-  "description": "Resilio-sync (antes BitTorrent Sync) utiliza el protocolo BitTorrent para sincronizar archivos y carpetas entre todos tus dispositivos. Existen versiones gratuitas y de pago, y este contenedor es compatible con ambas. Hay una imagen de sincronización oficial, pero creamos esta porque permite la asignación de usuarios para simplificar los permisos de los volúmenes.",
-  "tagline": "(anteriormente BitTorrent Sync) utiliza el protocolo BitTorrent para sincronizar archivos y carpetas entre todos tus dispositivos. Existen versiones gratuitas y de pago, y este contenedor admite ambas. Hay una imagen de sincronización oficial, pero creamos esta porque admite la asignación de usuarios para simplificar los permisos de los volúmenes."
+  "tagline": "(anteriormente BitTorrent Sync) utiliza el protocolo BitTorrent para sincronizar archivos y carpetas entre todos tus dispositivos. Existen versiones gratuitas y de pago, y este contenedor admite ambas. Hay una imagen de sincronización oficial, pero creamos esta porque admite la asignación de usuarios para simplificar los permisos de los volúmenes.",
+  "description": "Resilio-sync (antes BitTorrent Sync) utiliza el protocolo BitTorrent para sincronizar archivos y carpetas entre todos tus dispositivos. Existen versiones gratuitas y de pago, y este contenedor es compatible con ambas. Hay una imagen de sincronización oficial, pero creamos esta porque permite la asignación de usuarios para simplificar los permisos de los volúmenes."
 }

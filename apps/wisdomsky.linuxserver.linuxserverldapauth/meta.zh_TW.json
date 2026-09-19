@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverldapauth",
   "title": "Ldap auth（LinuxServer.io）",
-  "description": "Ldap-auth 用於驗證請求訪問 Nginx 代理伺服器上受保護資源的使用者。它包含與身份驗證伺服器通訊的 ldap-auth 守護程序，以及根據使用者憑據生成身份驗證 Cookie 的網頁伺服器守護程序。這些程序使用 Python 編寫，適用於 LDAP 身份驗證伺服器，包括 OpenLDAP 和 Microsoft Windows Active Directory 2003、2012。",
-  "tagline": "為經 Nginx 代理的資源提供 LDAP 身份驗證。"
+  "tagline": "為經 Nginx 代理的資源提供 LDAP 身份驗證。",
+  "description": "Ldap-auth 用於驗證請求訪問 Nginx 代理伺服器上受保護資源的使用者。它包含與身份驗證伺服器通訊的 ldap-auth 守護程序，以及根據使用者憑據生成身份驗證 Cookie 的網頁伺服器守護程序。這些程序使用 Python 編寫，適用於 LDAP 身份驗證伺服器，包括 OpenLDAP 和 Microsoft Windows Active Directory 2003、2012。"
 }

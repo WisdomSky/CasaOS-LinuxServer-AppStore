@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "description": "Quassel 是現代、跨平臺、分散式 IRC 客戶端，允許一個或多個客戶端連線到中央核心或與之斷開。此容器執行負責 IRC 連線的 quasselcore，需要搭配桌面客戶端 quasselclient 使用和配置。它設計為持續線上，即使客戶端離線，也會保持你的 IRC 身份線上。客戶端重新連線時會下載歷史記錄，便於持續回溯聊天內容。\n\n訪問專案主頁：https://hub.docker.com/r/linuxserver/quassel-core/",
-  "tagline": "保持線上並儲存聊天記錄的 IRC 核心服務。"
+  "tagline": "保持線上並儲存聊天記錄的 IRC 核心服務。",
+  "description": "Quassel 是現代、跨平臺、分散式 IRC 客戶端，允許一個或多個客戶端連線到中央核心或與之斷開。此容器執行負責 IRC 連線的 quasselcore，需要搭配桌面客戶端 quasselclient 使用和配置。它設計為持續線上，即使客戶端離線，也會保持你的 IRC 身份線上。客戶端重新連線時會下載歷史記錄，便於持續回溯聊天內容。\n\n訪問專案主頁：https://hub.docker.com/r/linuxserver/quassel-core/"
 }

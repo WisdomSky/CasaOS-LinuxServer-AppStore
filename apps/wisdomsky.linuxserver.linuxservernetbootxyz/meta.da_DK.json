@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxservernetbootxyz",
   "title": "Netbootxyz",
-  "description": "Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/netbootxyz/",
-  "tagline": "En måde at PXE-starte forskellige operativsysteminstallationsprogrammer eller værktøjer fra ét sted i BIOS uden at skulle hente mediet for at køre værktøjet. IPXE bruges til at give en brugervenlig menu i BIOS, der giver dig mulighed for nemt at vælge det ønskede operativsystem sammen med specifikke versionstyper eller bootbare flag."
+  "tagline": "En måde at PXE-starte forskellige operativsysteminstallationsprogrammer eller værktøjer fra ét sted i BIOS uden at skulle hente mediet for at køre værktøjet. IPXE bruges til at give en brugervenlig menu i BIOS, der giver dig mulighed for nemt at vælge det ønskede operativsystem sammen med specifikke versionstyper eller bootbare flag.",
+  "description": "Besøg hjemmesiden: https://hub.docker.com/r/linuxserver/netbootxyz/"
 }

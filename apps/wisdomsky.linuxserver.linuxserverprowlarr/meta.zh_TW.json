@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverprowlarr",
   "title": "Prowlarr（LinuxServer.io）",
-  "description": "Prowlarr 是基於常用 arr .NET/ReactJS 技術棧構建的索引器管理器和代理，可與多種 PVR 應用整合。它支援 Torrent Tracker 和 Usenet 索引器，並與 Sonarr、Radarr、Lidarr 和 Readarr 無縫整合，集中完成索引器管理，無需為每個應用單獨配置。",
-  "tagline": "集中管理 Torrent 和 Usenet 索引器。"
+  "tagline": "集中管理 Torrent 和 Usenet 索引器。",
+  "description": "Prowlarr 是基於常用 arr .NET/ReactJS 技術棧構建的索引器管理器和代理，可與多種 PVR 應用整合。它支援 Torrent Tracker 和 Usenet 索引器，並與 Sonarr、Radarr、Lidarr 和 Readarr 無縫整合，集中完成索引器管理，無需為每個應用單獨配置。"
 }

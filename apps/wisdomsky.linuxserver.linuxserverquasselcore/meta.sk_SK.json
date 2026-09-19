@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "description": "Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/quassel-core/",
-  "tagline": "Moderný, multiplatformový, distribuovaný IRC klient, čo znamená, že jeden (alebo viacerí) klienti sa môžu pripojiť k centrálnemu jadru a odpojiť od neho. Tento kontajner spracováva IRC pripojenie (quasselcore) a na použitie a konfiguráciu vyžaduje desktopového klienta (quasselclient). Je navrhnutý tak, aby bol vždy zapnutý a udržiaval vašu identitu prítomnú v IRC, aj keď vaši klienti nemôžu byť online. Backlog (históriu) si klient stiahne po opätovnom pripojení, čo umožňuje nekonečné posúvanie späť v čase."
+  "tagline": "Moderný, multiplatformový, distribuovaný IRC klient, čo znamená, že jeden (alebo viacerí) klienti sa môžu pripojiť k centrálnemu jadru a odpojiť od neho. Tento kontajner spracováva IRC pripojenie (quasselcore) a na použitie a konfiguráciu vyžaduje desktopového klienta (quasselclient). Je navrhnutý tak, aby bol vždy zapnutý a udržiaval vašu identitu prítomnú v IRC, aj keď vaši klienti nemôžu byť online. Backlog (históriu) si klient stiahne po opätovnom pripojení, čo umožňuje nekonečné posúvanie späť v čase.",
+  "description": "Navštívte domovskú stránku: https://hub.docker.com/r/linuxserver/quassel-core/"
 }

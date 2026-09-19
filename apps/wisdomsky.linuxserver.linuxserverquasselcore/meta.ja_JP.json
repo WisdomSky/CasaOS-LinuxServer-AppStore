@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "description": "ホームページをご覧ください：https://hub.docker.com/r/linuxserver/quassel-core/",
-  "tagline": "最新のクロスプラットフォーム対応分散型IRCクライアントです。つまり、1つ（または複数）のクライアントが中央コアに接続したり切断したりできます。このコンテナはIRC接続（quasselcore）を処理し、デスクトップクライアント（quasselclient）の使用と設定が必要です。常時稼働するように設計されており、クライアントがオフラインの場合でもIRC上でのユーザーのIDを維持します。クライアントが再接続するとバックログ（履歴）がダウンロードされるため、時間を遡って無制限にスクロールできます。"
+  "tagline": "最新のクロスプラットフォーム対応分散型IRCクライアントです。つまり、1つ（または複数）のクライアントが中央コアに接続したり切断したりできます。このコンテナはIRC接続（quasselcore）を処理し、デスクトップクライアント（quasselclient）の使用と設定が必要です。常時稼働するように設計されており、クライアントがオフラインの場合でもIRC上でのユーザーのIDを維持します。クライアントが再接続するとバックログ（履歴）がダウンロードされるため、時間を遡って無制限にスクロールできます。",
+  "description": "ホームページをご覧ください：https://hub.docker.com/r/linuxserver/quassel-core/"
 }

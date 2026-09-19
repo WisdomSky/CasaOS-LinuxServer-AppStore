@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
   "title": "Faster whisper (LinuxServer.io)",
-  "description": "Faster-whisper er en ny implementering av OpenAIs Whisper-modell ved bruk av CTranslate2, som er en rask inferensmotor for Transformer-modeller. Denne containeren tilbyr en Wyoming-protokollserver for raskere hvisking.",
-  "tagline": "En reimplementering av OpenAIs Whisper-modell ved bruk av CTranslate2, som er en rask inferensmotor for Transformer-modeller. Denne containeren tilbyr en Wyoming-protokollserver for raskere hvisking."
+  "tagline": "En reimplementering av OpenAIs Whisper-modell ved bruk av CTranslate2, som er en rask inferensmotor for Transformer-modeller. Denne containeren tilbyr en Wyoming-protokollserver for raskere hvisking.",
+  "description": "Faster-whisper er en ny implementering av OpenAIs Whisper-modell ved bruk av CTranslate2, som er en rask inferensmotor for Transformer-modeller. Denne containeren tilbyr en Wyoming-protokollserver for raskere hvisking."
 }

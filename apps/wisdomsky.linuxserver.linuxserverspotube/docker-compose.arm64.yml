@@ -1,7 +1,7 @@
 name: linuxserver-spotube
 services:
   app:
-    image: linuxserver/spotube:5.1.2@sha256:6dcf28a3e8ddb65117a333f450cc08e98180019b4a5d6b3df9dfa0af551c417b
+    image: linuxserver/spotube:5.1.2@sha256:0f1585f42fc8796f5e5df8618d12e4f22e03dec493f46a5fd3f38de6fa5be315
     restart: unless-stopped
     environment:
       PUID: $PUID

@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
   "title": "Faster whisper (LinuxServer.io)",
-  "description": "Faster-Whisper to reimplementacja modelu Whisper firmy OpenAI z wykorzystaniem CTranslate2, szybkiego silnika inferencyjnego dla modeli Transformer. Ten kontener udostępnia serwer protokołu Wyoming dla Faster-Whisper.",
-  "tagline": "Reimplementacja modelu Whisper firmy OpenAI z wykorzystaniem CTranslate2, szybkiego silnika inferencyjnego dla modeli Transformer. Ten kontener udostępnia serwer protokołu Wyoming do szybszego szeptania."
+  "tagline": "Reimplementacja modelu Whisper firmy OpenAI z wykorzystaniem CTranslate2, szybkiego silnika inferencyjnego dla modeli Transformer. Ten kontener udostępnia serwer protokołu Wyoming do szybszego szeptania.",
+  "description": "Faster-Whisper to reimplementacja modelu Whisper firmy OpenAI z wykorzystaniem CTranslate2, szybkiego silnika inferencyjnego dla modeli Transformer. Ten kontener udostępnia serwer protokołu Wyoming dla Faster-Whisper."
 }

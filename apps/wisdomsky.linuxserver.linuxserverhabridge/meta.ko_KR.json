@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverhabridge",
   "title": "Habridge (LinuxServer.io)",
-  "description": "Habridge는 Philips Hue API를 에뮬레이션하여 Amazon Echo/Dot 1세대(2세대는 ha-bridge 검색에 문제가 있음) 또는 Philips Hue를 지원하는 기타 홈 자동화 게이트웨이와 같은 장치에서 사용할 수 있도록 합니다. 이 브리지는 Hue 프로토콜의 켜기, 끄기, 밝기 조절과 같은 기본 명령을 처리합니다. Habridge는 고유한 API를 가진 대부분의 장치를 제어할 수 있습니다.",
-  "tagline": "이 브리지는 필립스 휴 API를 에뮬레이션하여 아마존 에코/닷 1세대(2세대는 ha-bridge 검색에 문제가 있음) 또는 필립스 휴를 지원하는 기타 홈 자동화 게이트웨이와 연동할 수 있습니다. 브리지는 휴 프로토콜의 기본 명령(켜기, 끄기, 밝기 조절 등)을 처리합니다. 또한, 자체 API를 가진 대부분의 기기를 제어할 수 있습니다."
+  "tagline": "이 브리지는 필립스 휴 API를 에뮬레이션하여 아마존 에코/닷 1세대(2세대는 ha-bridge 검색에 문제가 있음) 또는 필립스 휴를 지원하는 기타 홈 자동화 게이트웨이와 연동할 수 있습니다. 브리지는 휴 프로토콜의 기본 명령(켜기, 끄기, 밝기 조절 등)을 처리합니다. 또한, 자체 API를 가진 대부분의 기기를 제어할 수 있습니다.",
+  "description": "Habridge는 Philips Hue API를 에뮬레이션하여 Amazon Echo/Dot 1세대(2세대는 ha-bridge 검색에 문제가 있음) 또는 Philips Hue를 지원하는 기타 홈 자동화 게이트웨이와 같은 장치에서 사용할 수 있도록 합니다. 이 브리지는 Hue 프로토콜의 켜기, 끄기, 밝기 조절과 같은 기본 명령을 처리합니다. Habridge는 고유한 API를 가진 대부분의 장치를 제어할 수 있습니다."
 }

@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverfasterwhisper",
   "title": "Faster whisper（LinuxServer.io）",
-  "description": "Faster-whisper 使用 CTranslate2 重新实现 OpenAI 的 Whisper 模型；CTranslate2 是面向 Transformer 模型的快速推理引擎。此容器为 faster-whisper 提供 Wyoming 协议服务器。",
-  "tagline": "通过 Wyoming 协议提供 Whisper 语音识别服务。"
+  "tagline": "通过 Wyoming 协议提供 Whisper 语音识别服务。",
+  "description": "Faster-whisper 使用 CTranslate2 重新实现 OpenAI 的 Whisper 模型；CTranslate2 是面向 Transformer 模型的快速推理引擎。此容器为 faster-whisper 提供 Wyoming 协议服务器。"
 }

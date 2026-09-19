@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverldapauth",
   "title": "Ldap auth (LinuxServer.io)",
-  "description": "ldap-authソフトウェアは、nginxによってプロキシされたサーバーから保護されたリソースを要求するユーザーを認証するためのものです。認証サーバーと通信するデーモン（ldap-auth）と、ユーザーの認証情報に基づいて認証クッキーを生成するWebサーバーデーモンが含まれています。これらのデーモンは、軽量ディレクトリアクセスプロトコル（LDAP）認証サーバー（OpenLDAPまたはMicrosoft Windows Active Directory 2003および2012）で使用するためにPythonで記述されています。",
-  "tagline": "このソフトウェアは、nginxによってプロキシされたサーバーから保護されたリソースを要求するユーザーを認証するためのものです。認証サーバーと通信するデーモン（ldap-auth）と、ユーザーの認証情報に基づいて認証クッキーを生成するWebサーバーデーモンが含まれています。これらのデーモンは、軽量ディレクトリアクセスプロトコル（LDAP）認証サーバー（OpenLDAPまたはMicrosoft Windows Active Directory 2003および2012）で使用するためにPythonで記述されています。"
+  "tagline": "このソフトウェアは、nginxによってプロキシされたサーバーから保護されたリソースを要求するユーザーを認証するためのものです。認証サーバーと通信するデーモン（ldap-auth）と、ユーザーの認証情報に基づいて認証クッキーを生成するWebサーバーデーモンが含まれています。これらのデーモンは、軽量ディレクトリアクセスプロトコル（LDAP）認証サーバー（OpenLDAPまたはMicrosoft Windows Active Directory 2003および2012）で使用するためにPythonで記述されています。",
+  "description": "ldap-authソフトウェアは、nginxによってプロキシされたサーバーから保護されたリソースを要求するユーザーを認証するためのものです。認証サーバーと通信するデーモン（ldap-auth）と、ユーザーの認証情報に基づいて認証クッキーを生成するWebサーバーデーモンが含まれています。これらのデーモンは、軽量ディレクトリアクセスプロトコル（LDAP）認証サーバー（OpenLDAPまたはMicrosoft Windows Active Directory 2003および2012）で使用するためにPythonで記述されています。"
 }

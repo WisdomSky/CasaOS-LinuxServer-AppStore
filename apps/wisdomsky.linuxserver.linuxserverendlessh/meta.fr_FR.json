@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverendlessh",
   "title": "Endlessh",
-  "description": "Consultez la page d'accueil : https://github.com/orgs/linuxserver/packages/container/package/endlessh",
-  "tagline": "Un piège SSH qui envoie très lentement une bannière SSH aléatoire et infinie. Il bloque les clients SSH pendant des heures, voire des jours. Le but est de déplacer votre véritable serveur SSH sur un autre port et de piéger les script kiddies dans ce piège plutôt que de s'attaquer à un serveur légitime."
+  "tagline": "Un piège SSH qui envoie très lentement une bannière SSH aléatoire et infinie. Il bloque les clients SSH pendant des heures, voire des jours. Le but est de déplacer votre véritable serveur SSH sur un autre port et de piéger les script kiddies dans ce piège plutôt que de s'attaquer à un serveur légitime.",
+  "description": "Consultez la page d'accueil : https://github.com/orgs/linuxserver/packages/container/package/endlessh"
 }

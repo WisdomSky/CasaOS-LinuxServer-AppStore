@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverendlessh",
   "title": "Endlessh",
-  "description": "Posjetite početnu stranicu: https://github.com/orgs/linuxserver/packages/container/package/endlessh",
-  "tagline": "SSH tarpit koji vrlo sporo šalje beskonačan, nasumičan SSH banner. Drži SSH klijente zaključane satima ili čak danima. Svrha je staviti vaš pravi SSH poslužitelj na drugi port, a zatim pustiti skriptne klince da se zaglave u ovom tarpitu umjesto da gnjave pravi poslužitelj."
+  "tagline": "SSH tarpit koji vrlo sporo šalje beskonačan, nasumičan SSH banner. Drži SSH klijente zaključane satima ili čak danima. Svrha je staviti vaš pravi SSH poslužitelj na drugi port, a zatim pustiti skriptne klince da se zaglave u ovom tarpitu umjesto da gnjave pravi poslužitelj.",
+  "description": "Posjetite početnu stranicu: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
 }

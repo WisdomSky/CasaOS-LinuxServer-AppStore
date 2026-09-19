@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverhabridge",
   "title": "Habridge (LinuxServer.io)",
-  "description": "Habridge emuluje API Philips Hue do jiných bran domácí automatizace, jako je Amazon Echo/Dot Gen 1 (gen 2 má problémy s nalezením ha-bridge) nebo jiných systémů, které podporují Philips Hue. Bridge zvládá základní příkazy protokolu Hue, jako jsou Zapnutí, Vypnutí a jas. Tento bridge dokáže ovládat většinu zařízení, která mají samostatné API.",
-  "tagline": "Emuluje rozhraní API Philips Hue k jiným bránám domácí automatizace, jako je Amazon Echo/Dot Gen 1 (gen 2 má problémy s nalezením HA-Bridge) nebo k jiným systémům, které podporují Philips Hue. Bridge zvládá základní příkazy protokolu Hue, jako jsou Zapnutí, Vypnutí a jas. Tento můstek dokáže ovládat většinu zařízení, která mají samostatné API."
+  "tagline": "Emuluje rozhraní API Philips Hue k jiným bránám domácí automatizace, jako je Amazon Echo/Dot Gen 1 (gen 2 má problémy s nalezením HA-Bridge) nebo k jiným systémům, které podporují Philips Hue. Bridge zvládá základní příkazy protokolu Hue, jako jsou Zapnutí, Vypnutí a jas. Tento můstek dokáže ovládat většinu zařízení, která mají samostatné API.",
+  "description": "Habridge emuluje API Philips Hue do jiných bran domácí automatizace, jako je Amazon Echo/Dot Gen 1 (gen 2 má problémy s nalezením ha-bridge) nebo jiných systémů, které podporují Philips Hue. Bridge zvládá základní příkazy protokolu Hue, jako jsou Zapnutí, Vypnutí a jas. Tento bridge dokáže ovládat většinu zařízení, která mají samostatné API."
 }

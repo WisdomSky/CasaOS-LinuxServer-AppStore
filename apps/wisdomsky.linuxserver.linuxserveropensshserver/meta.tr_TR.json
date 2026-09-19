@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserveropensshserver",
   "title": "Openssh server (LinuxServer.io)",
-  "description": "OpenSSH sunucusu, sunucunun tamamına anahtar vermeden SSH erişimine olanak tanıyan, izole edilmiş bir ortamdır. Özel anahtar aracılığıyla SSH erişimi vermek genellikle sunucuya tam erişim vermek anlamına gelir. Bu konteyner, başkalarının SSH ile bağlanabileceği sınırlı ve izole edilmiş bir ortam oluşturur. Kullanıcılar yalnızca eşlenmiş klasörlere ve bu konteyner içinde çalışan işlemlere erişebilir.",
-  "tagline": "Sunucuya tam erişim izni vermeden SSH erişimine olanak sağlayan, izole edilmiş bir ortam. Özel anahtar aracılığıyla SSH erişimi vermek genellikle sunucuya tam erişim izni vermek anlamına gelir. Bu konteyner, başkalarının SSH ile bağlanabileceği sınırlı ve izole edilmiş bir ortam oluşturur. Kullanıcılar yalnızca eşlenmiş klasörlere ve bu konteyner içinde çalışan işlemlere erişebilir."
+  "tagline": "Sunucuya tam erişim izni vermeden SSH erişimine olanak sağlayan, izole edilmiş bir ortam. Özel anahtar aracılığıyla SSH erişimi vermek genellikle sunucuya tam erişim izni vermek anlamına gelir. Bu konteyner, başkalarının SSH ile bağlanabileceği sınırlı ve izole edilmiş bir ortam oluşturur. Kullanıcılar yalnızca eşlenmiş klasörlere ve bu konteyner içinde çalışan işlemlere erişebilir.",
+  "description": "OpenSSH sunucusu, sunucunun tamamına anahtar vermeden SSH erişimine olanak tanıyan, izole edilmiş bir ortamdır. Özel anahtar aracılığıyla SSH erişimi vermek genellikle sunucuya tam erişim vermek anlamına gelir. Bu konteyner, başkalarının SSH ile bağlanabileceği sınırlı ve izole edilmiş bir ortam oluşturur. Kullanıcılar yalnızca eşlenmiş klasörlere ve bu konteyner içinde çalışan işlemlere erişebilir."
 }

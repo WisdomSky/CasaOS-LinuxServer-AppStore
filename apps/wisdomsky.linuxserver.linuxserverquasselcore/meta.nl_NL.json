@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "description": "Bezoek de homepage: https://hub.docker.com/r/linuxserver/quassel-core/",
-  "tagline": "Een moderne, platformonafhankelijke, gedistribueerde IRC-client, wat betekent dat één (of meerdere) clients verbinding kunnen maken met en zich kunnen loskoppelen van een centrale kern. Deze container beheert de IRC-verbinding (quasselcore) en vereist een desktopclient (quasselclient) die moet worden gebruikt en geconfigureerd. Het is ontworpen om altijd actief te zijn en zorgt ervoor dat uw identiteit in IRC behouden blijft, zelfs wanneer uw clients niet online zijn. De geschiedenis wordt door uw client gedownload bij herverbinding, waardoor u oneindig terug in de tijd kunt scrollen."
+  "tagline": "Een moderne, platformonafhankelijke, gedistribueerde IRC-client, wat betekent dat één (of meerdere) clients verbinding kunnen maken met en zich kunnen loskoppelen van een centrale kern. Deze container beheert de IRC-verbinding (quasselcore) en vereist een desktopclient (quasselclient) die moet worden gebruikt en geconfigureerd. Het is ontworpen om altijd actief te zijn en zorgt ervoor dat uw identiteit in IRC behouden blijft, zelfs wanneer uw clients niet online zijn. De geschiedenis wordt door uw client gedownload bij herverbinding, waardoor u oneindig terug in de tijd kunt scrollen.",
+  "description": "Bezoek de homepage: https://hub.docker.com/r/linuxserver/quassel-core/"
 }

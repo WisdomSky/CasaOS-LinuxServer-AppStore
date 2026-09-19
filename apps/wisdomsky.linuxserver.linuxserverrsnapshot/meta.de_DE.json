@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
   "title": "Rsnapshot (LinuxServer.io)",
-  "description": "Rsnapshot ist ein auf rsync basierendes Dienstprogramm zur Erstellung von Dateisystem-Snapshots. Mit Rsnapshot lassen sich auf einfache Weise regelmäßige Snapshots von lokalen Rechnern und entfernten Rechnern via SSH erstellen. Der Code nutzt, wo immer möglich, Hardlinks, um den benötigten Speicherplatz deutlich zu reduzieren.",
-  "tagline": "Rsnapshot ist ein auf rsync basierendes Dienstprogramm zur Erstellung von Dateisystem-Snapshots. Es ermöglicht die einfache und regelmäßige Erstellung von Snapshots lokaler und entfernter Rechner via SSH. Der Code nutzt nach Möglichkeit Hardlinks, um den benötigten Speicherplatz deutlich zu reduzieren."
+  "tagline": "Rsnapshot ist ein auf rsync basierendes Dienstprogramm zur Erstellung von Dateisystem-Snapshots. Es ermöglicht die einfache und regelmäßige Erstellung von Snapshots lokaler und entfernter Rechner via SSH. Der Code nutzt nach Möglichkeit Hardlinks, um den benötigten Speicherplatz deutlich zu reduzieren.",
+  "description": "Rsnapshot ist ein auf rsync basierendes Dienstprogramm zur Erstellung von Dateisystem-Snapshots. Mit Rsnapshot lassen sich auf einfache Weise regelmäßige Snapshots von lokalen Rechnern und entfernten Rechnern via SSH erstellen. Der Code nutzt, wo immer möglich, Hardlinks, um den benötigten Speicherplatz deutlich zu reduzieren."
 }

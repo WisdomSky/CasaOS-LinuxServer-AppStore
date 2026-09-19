@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverendlessh",
   "title": "Endlessh",
-  "description": "Visite a página inicial: https://github.com/orgs/linuxserver/packages/container/package/endlessh",
-  "tagline": "Um \"tarpit\" SSH que envia, muito lentamente, um banner SSH aleatório e interminável. Ele mantém os clientes SSH bloqueados por horas ou até mesmo dias. O objetivo é colocar seu servidor SSH real em outra porta e, em seguida, deixar que os script kiddies fiquem presos nesse \"tarpit\" em vez de sobrecarregar um servidor de verdade."
+  "tagline": "Um \"tarpit\" SSH que envia, muito lentamente, um banner SSH aleatório e interminável. Ele mantém os clientes SSH bloqueados por horas ou até mesmo dias. O objetivo é colocar seu servidor SSH real em outra porta e, em seguida, deixar que os script kiddies fiquem presos nesse \"tarpit\" em vez de sobrecarregar um servidor de verdade.",
+  "description": "Visite a página inicial: https://github.com/orgs/linuxserver/packages/container/package/endlessh"
 }

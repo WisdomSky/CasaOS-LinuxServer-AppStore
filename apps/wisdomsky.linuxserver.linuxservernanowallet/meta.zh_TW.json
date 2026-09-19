@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxservernanowallet",
   "title": "Nano wallet",
-  "description": "Nano-wallet 使用 Nano 數字支付協議，該協議注重易用性和輕量化，旨在消除其他加密貨幣中的低效環節。它在安全、環保、去中心化的網路上提供極快且零手續費的交易，適合日常支付。此容器以 Nginx 簡單封裝輕錢包；訪問容器時需要提供有效的 RPC 主機。",
-  "tagline": "透過網頁使用 Nano 輕錢包。"
+  "tagline": "透過網頁使用 Nano 輕錢包。",
+  "description": "Nano-wallet 使用 Nano 數字支付協議，該協議注重易用性和輕量化，旨在消除其他加密貨幣中的低效環節。它在安全、環保、去中心化的網路上提供極快且零手續費的交易，適合日常支付。此容器以 Nginx 簡單封裝輕錢包；訪問容器時需要提供有效的 RPC 主機。"
 }

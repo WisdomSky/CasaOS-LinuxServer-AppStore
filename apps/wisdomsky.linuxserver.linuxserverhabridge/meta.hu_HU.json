@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverhabridge",
   "title": "Habridge (LinuxServer.io)",
-  "description": "A Habridge emulálja a Philips Hue API-t más otthonautomatizálási átjárókhoz, például egy Amazon Echo/Dot Gen 1-hez (a 2. generációnak problémái vannak a ha-bridge felismerésével) vagy más, Philips Hue-t támogató rendszerekhez. A Bridge kezeli a Hue protokoll alapvető parancsait, például a be-, ki- és fényerő-parancsokat. Ez a híd a legtöbb olyan eszközt képes vezérelni, amely rendelkezik külön API-val.",
-  "tagline": "Emulálja a Philips Hue API-t más otthonautomatizálási átjárókhoz, például egy Amazon Echo/Dot Gen 1-hez (a 2. generációnál problémák vannak a ha-bridge felismerésével) vagy más, Philips Hue-t támogató rendszerekhez. A híd kezeli a Hue protokoll alapvető parancsait, például a be-, ki- és fényerő-parancsokat. Ez a híd a legtöbb olyan eszközt képes vezérelni, amely rendelkezik külön API-val."
+  "tagline": "Emulálja a Philips Hue API-t más otthonautomatizálási átjárókhoz, például egy Amazon Echo/Dot Gen 1-hez (a 2. generációnál problémák vannak a ha-bridge felismerésével) vagy más, Philips Hue-t támogató rendszerekhez. A híd kezeli a Hue protokoll alapvető parancsait, például a be-, ki- és fényerő-parancsokat. Ez a híd a legtöbb olyan eszközt képes vezérelni, amely rendelkezik külön API-val.",
+  "description": "A Habridge emulálja a Philips Hue API-t más otthonautomatizálási átjárókhoz, például egy Amazon Echo/Dot Gen 1-hez (a 2. generációnak problémái vannak a ha-bridge felismerésével) vagy más, Philips Hue-t támogató rendszerekhez. A Bridge kezeli a Hue protokoll alapvető parancsait, például a be-, ki- és fényerő-parancsokat. Ez a híd a legtöbb olyan eszközt képes vezérelni, amely rendelkezik külön API-val."
 }

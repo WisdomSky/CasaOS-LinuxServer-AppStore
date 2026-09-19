@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverquasselcore",
   "title": "Quassel core",
-  "description": "Visite la página principal: https://hub.docker.com/r/linuxserver/quassel-core/",
-  "tagline": "Un cliente IRC moderno, multiplataforma y distribuido, que permite que uno o varios clientes se conecten y desconecten de un núcleo central. Este contenedor gestiona la conexión IRC (quasselcore) y requiere un cliente de escritorio (quasselclient) para su uso y configuración. Está diseñado para estar siempre activo y mantendrá tu identidad presente en IRC incluso cuando tus clientes no estén en línea. El historial se descarga al reconectarse, permitiendo un desplazamiento infinito hacia atrás en el tiempo."
+  "tagline": "Un cliente IRC moderno, multiplataforma y distribuido, que permite que uno o varios clientes se conecten y desconecten de un núcleo central. Este contenedor gestiona la conexión IRC (quasselcore) y requiere un cliente de escritorio (quasselclient) para su uso y configuración. Está diseñado para estar siempre activo y mantendrá tu identidad presente en IRC incluso cuando tus clientes no estén en línea. El historial se descarga al reconectarse, permitiendo un desplazamiento infinito hacia atrás en el tiempo.",
+  "description": "Visite la página principal: https://hub.docker.com/r/linuxserver/quassel-core/"
 }

@@ -1,7 +1,7 @@
 name: linuxserver-brave
 services:
   app:
-    image: linuxserver/brave:1.95.102@sha256:60fa618af4abb32e10bc6d59b400e6215e5f9e06a641f808bd6ca1658b171a11
+    image: linuxserver/brave:1.95.104@sha256:d5d2c2b24420c018e4e990196310d8f892fd945f34b894318501f51bcae51f45
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -51,4 +51,4 @@ x-casaos:
     zh_TW: Brave（LinuxServer.io）
   id: wisdomsky.linuxserver.linuxserverbrave
   port_map: '3000'
-  version: 1.95.102
+  version: 1.95.104

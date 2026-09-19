@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverrsnapshot",
   "title": "Rsnapshot (LinuxServer.io)",
-  "description": "Rsnapshot est un utilitaire de création d'instantanés de système de fichiers basé sur rsync. Il simplifie la création d'instantanés périodiques de machines locales et de machines distantes via SSH. Son code exploite au maximum les liens physiques afin de réduire considérablement l'espace disque requis.",
-  "tagline": "Rsnapshot est un utilitaire de création d'instantanés de système de fichiers basé sur rsync. Il simplifie la création d'instantanés périodiques de machines locales et de machines distantes via SSH. Le code utilise au maximum les liens physiques afin de réduire considérablement l'espace disque requis."
+  "tagline": "Rsnapshot est un utilitaire de création d'instantanés de système de fichiers basé sur rsync. Il simplifie la création d'instantanés périodiques de machines locales et de machines distantes via SSH. Le code utilise au maximum les liens physiques afin de réduire considérablement l'espace disque requis.",
+  "description": "Rsnapshot est un utilitaire de création d'instantanés de système de fichiers basé sur rsync. Il simplifie la création d'instantanés périodiques de machines locales et de machines distantes via SSH. Son code exploite au maximum les liens physiques afin de réduire considérablement l'espace disque requis."
 }

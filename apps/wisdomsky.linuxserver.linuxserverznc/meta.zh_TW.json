@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserverznc",
   "title": "Znc（LinuxServer.io）",
-  "description": "ZNC 是 IRC 網路中繼（Bouncer，也稱 BNC）。它可將客戶端與實際 IRC 伺服器，以及選定頻道的連線分離。不同地點的多個客戶端可以同時連線到一個 ZNC 賬戶，並在 IRC 上使用相同暱稱。",
-  "tagline": "保持 IRC 連線並支援多客戶端共享身份。"
+  "tagline": "保持 IRC 連線並支援多客戶端共享身份。",
+  "description": "ZNC 是 IRC 網路中繼（Bouncer，也稱 BNC）。它可將客戶端與實際 IRC 伺服器，以及選定頻道的連線分離。不同地點的多個客戶端可以同時連線到一個 ZNC 賬戶，並在 IRC 上使用相同暱稱。"
 }

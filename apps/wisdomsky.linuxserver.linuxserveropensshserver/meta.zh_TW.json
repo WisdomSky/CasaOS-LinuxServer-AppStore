@@ -1,6 +1,6 @@
 {
   "id": "wisdomsky.linuxserver.linuxserveropensshserver",
   "title": "Openssh server（LinuxServer.io）",
-  "description": "Openssh-server 提供沙盒環境，讓他人透過 SSH 訪問，而無需授予整臺伺服器的許可權。通常，提供私鑰 SSH 訪問可能意味著開放完整伺服器許可權；此容器則建立受限的隔離環境，使用者只能訪問對映到容器中的資料夾，以及容器內執行的程序。",
-  "tagline": "透過 SSH 訪問受限的容器環境。"
+  "tagline": "透過 SSH 訪問受限的容器環境。",
+  "description": "Openssh-server 提供沙盒環境，讓他人透過 SSH 訪問，而無需授予整臺伺服器的許可權。通常，提供私鑰 SSH 訪問可能意味著開放完整伺服器許可權；此容器則建立受限的隔離環境，使用者只能訪問對映到容器中的資料夾，以及容器內執行的程序。"
 }
