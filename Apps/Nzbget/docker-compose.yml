@@ -1,7 +1,7 @@
 name: linuxserver-nzbget
 services:
   app:
-    image: linuxserver/nzbget:26.3.20260911
+    image: linuxserver/nzbget:26.3.20260918
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -133,4 +133,4 @@ x-casaos:
   category: Media
   id: wisdomsky.linuxserver.linuxservernzbget
   port_map: '6789'
-  version: 26.3.20260911
+  version: 26.3.20260918
